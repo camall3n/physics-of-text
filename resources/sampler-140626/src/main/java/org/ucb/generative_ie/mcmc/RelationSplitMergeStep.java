@@ -9,6 +9,7 @@ import java.util.Random;
 import java.util.Set;
 
 import org.ucb.generative_ie.inference.ModelFunctions;
+import org.ucb.generative_ie.util.LogGammaTable;
 import org.ucb.generative_ie.random.RandomUtil;
 import org.ucb.generative_ie.world.EntityPair;
 import org.ucb.generative_ie.world.Fact;
@@ -331,14 +332,32 @@ public class RelationSplitMergeStep implements MCMCStep {
      * sum_t [lgamma(n_t + a_t + beta) - lgamma(n_t + beta)] - [lgamma(N + A + beta T) - lgamma(N + beta T)].
      */
     static double logMergeGain(Multiset<Trigger> keep, Multiset<Trigger> added, double beta, int numTrigs) {
+        LogGammaTable perPath = perPathTable(beta);
+        LogGammaTable perTotal = perTotalTable(beta * numTrigs);
         double gain = 0;
         for (Multiset.Entry<Trigger> e : added.entrySet()) {
-            double base = keep.count(e.getElement()) + beta;
-            gain += Gamma.logGamma(base + e.getCount()) - Gamma.logGamma(base);
+            int base = keep.count(e.getElement());
+            gain += perPath.get(base + e.getCount()) - perPath.get(base);
         }
-        double total = keep.size() + beta * numTrigs;
-        gain -= Gamma.logGamma(total + added.size()) - Gamma.logGamma(total);
+        int total = keep.size();
+        gain -= perTotal.get(total + added.size()) - perTotal.get(total);
         return gain;
+    }
+
+    private static LogGammaTable perPath, perTotal;
+
+    private static synchronized LogGammaTable perPathTable(double offset) {
+        if (perPath == null || perPath.offset() != offset) {
+            perPath = new LogGammaTable(offset);
+        }
+        return perPath;
+    }
+
+    private static synchronized LogGammaTable perTotalTable(double offset) {
+        if (perTotal == null || perTotal.offset() != offset) {
+            perTotal = new LogGammaTable(offset);
+        }
+        return perTotal;
     }
 
     /** log probability that the smart merge picks (keep, absorb) in the current state. */
