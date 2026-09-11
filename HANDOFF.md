@@ -19,9 +19,9 @@ The paper has two results:
 Status:
 
 - The Java sampler in `resources/sampler-140626/` builds and runs without Maven, has a
-  verified joint probability, and infers the number of relations. Two commits on
-  `main` (6812ca1, 8a2939a, 69022c1) contain all of that work; f83b7b3 added this
-  document.
+  verified joint probability, infers the number of relations, and runs the full NYT
+  corpus in 7 minutes. All of that is in the commits on `main` after 9489d21 (the tar
+  import); section 6 lists them.
 - Section 4 is reproduced: the full 8516-sentence run takes 7 minutes, infers 250
   to 300 relations, and recovers the paper's "subsidiary of" relation with its listed
   paths and facts. Outputs and a summary are in `resources/sampler-140626/results/nyt-2026/`.
@@ -51,8 +51,12 @@ resources/
     data/06-19/pluieTriples-1.json         250-sentence slice used for the small run
     data/06-19/toyTriples.json             10-sentence toy (wrote/authored, love/like)
     test/Entity_resolution_Relation/config-*.json   run configs (see section 5)
-    results/, output/, output-*/           2013-2014 outputs left by the authors
-    scripts/graph_precision_recall.py      plots Figure 1 (python2, needs scipy)
+    results/nyt-2026/                      our NYT run: config, MAP sentences TSV, logprobs, summary.txt
+    results/figure1-2026/                  our Figure 1 data and plot
+    results/ (other), output/, output-*/   2013-2014 outputs left by the authors
+    scripts/plot_precision_recall.py       plots Figure 1 (python3, numpy)
+    scripts/summarize_relations.py         largest relations with paths and pairs from a MAP listing
+    scripts/graph_precision_recall.py      the authors' plot script (python2, needs scipy)
 venv/                                      python3 venv (has pypdf, matplotlib, numpy; no scipy)
 ```
 
@@ -133,7 +137,7 @@ cd resources/sampler-140626
     test/Entity_resolution_Relation/config-toy.json data/06-19/toyTriples.json
 ```
 
-Full fast suite (38 tests, all pass): `RelationSplitMergeTest RelationMovesTest
+Full fast suite (40 tests, all pass): `RelationSplitMergeTest RelationMovesTest
 WorldProbTest SentencesIndexTest ModelFunctionsTest LexEntropyTest SentenceEvidenceTest CounterTest LogProbMapTest
 DirichletDistrTest RandomAccessHashSetTest UtilTest CorpusParserTest`.
 `NormalProbMapTest` fails by construction in the original code; ignore it.
@@ -193,6 +197,16 @@ Commit 69022c1: `RelationSplitMergeStep` and `RelationSplitMergeTest`, split-mer
 relations with both SDDS kernels, wired into `WorldInferSteps` at weight 0.2 each.
 CHANGES.md has the before/after table for the 250-sentence slice.
 
+Commits 20553ed through 651bab8 (same day): noun-aware initialisation
+(`SentenceEvidence.evidenceToWorldByNoun`, `WorldGenerator.emptyWorld`); four more
+archive bugs that made the entity phase unrunnable at scale (CHANGES.md bugs 7 to
+10: a 237-million-object preallocation, a Dirichlet draw over every noun per entity
+per step, eager debug strings, observers rescanning the corpus per relation per
+path); the Figure 1 experiment (`LexicalEntropyExperiment`); config options
+`entityFraction` and `stepsPerIteration`; the MAP-world TSV dump and
+`summarize_relations.py`; an incremental smart-merge score with a memoised
+log-gamma table (`LogGammaTable`); and the saved NYT and Figure 1 results.
+
 The verification pattern used throughout, and the one to keep using: every sampler
 move exposes its log-odds or log-acceptance as a public method, and a test compares it
 to the difference of `WorldProb.logProb()` between the two states (plus the log
@@ -220,33 +234,37 @@ spokesman-for, lawyer-for. Details and the remaining gaps in CHANGES.md.
 
 ## 8. Recommended next steps, in order
 
-Split-merge over relations and noun-aware initialisation are done (see section 7), so
-the remaining problems are scale and evaluation.
+Both of the paper's results are reproduced at least qualitatively, so what remains is
+evaluation and tightening.
 
-1. **Precision evaluation of the NYT run.** Go through `results/nyt-2026/summary.txt`
-   relation by relation and judge, as the paper did, whether each relation's argument
-   pairs are correct instances of what its paths say. Report per-relation precision
-   for the top 20. Then a longer run (more iterations, `stepsPerIteration` around the
-   sentence count) and a `beta` sweep, since the count and the duplicates depend on it.
-2. **NYT-scale run, done once** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
-   `maxRels` (try 400), `sparsityA=1`, `sparsityB=N^2`, `beta` around 0.1. Watch the
-   entity phase's running time first; it is O(mentions) per smart move.
-   Compare against the paper's relation-46 dictionary (listed in the paper) and the
-   2013 outputs in `results/output.txt`, which show a "subsidiary of" cluster.
-2. **Figure 1.** Port the commented body of
-   `src/test/java/org/ucb/generative_ie/world/SampleEntropyTest.java` to the current
-   API (WorldGenerator's 9-argument constructor, `MCMCInferer(n, world, evidence, rng, steps)`,
-   `Inferer.addQuery`/`run(burnin)`; `SentenceSameRelations`, `PrecisionRecallCurve`,
-   `LexEntropy` and `SampleEntropy` are unchanged). It writes `prec_recall.out`;
-   `scripts/graph_precision_recall.py` plots it (python2 syntax, needs scipy).
-3. Precision evaluation for Section 4: manual, per the paper. Emit the top-20 relations
-   with their facts in a reviewable form.
+1. **Precision evaluation of the NYT run.** Go through
+   `resources/sampler-140626/results/nyt-2026/summary.txt` relation by relation and
+   judge, as the paper did, whether each relation's argument pairs are correct
+   instances of what its paths say. Report per-relation precision for the top 20; the
+   paper claims roughly 95%. The full sentence list is in `map_world_sentences.tsv`.
+2. **Longer run and a `beta` sweep.** The NYT run used 1000 iterations of 2000 moves
+   with `beta=0.1`; the relation count (250 to 300 against the paper's ~200) and the
+   duplicates (a second subsidiary-of relation with 64 sentences) depend on `beta` and
+   on run length. Try `stepsPerIteration` near the sentence count, more iterations, and
+   `beta` in {0.05, 0.1, 0.3, 1}. Watch `relations_with_sentences` in `logprobs.txt`
+   for convergence.
+3. **Figure 1 at the paper's strength.** Our curve at entropy 0.9 gives 0.65
+   precision at 0.1 recall; the paper reports 0.9. Unknowns: their sparsity, iteration
+   count and burn-in. `LexicalEntropyExperiment` takes those as constants at the top of
+   `main`; a sweep is cheap (12 seconds per run).
+4. **Entity resolution.** The entity phase merges almost nothing because the noun-only
+   model has no string similarity ("Mr. Simpson" and "O. J. Simpson" never meet). The
+   paper defers this to later work; if it matters, a mention model with string
+   features is the change, not more iterations.
+5. **Unbounded relation count.** The pool (`maxRels`) is a fixed upper bound; the
+   posterior sat well inside 400 on NYT, so this is cosmetic unless a corpus needs more.
 
 ## 9. Notes for a port to another language
 
 What is worth keeping: the model in section 3, the collapsed conditionals in
-`SentenceOriginRV`, `FactRV`, `FactRelationMoveStep`, `ModelFunctions.logMoveTriggersRatio`,
-and the test discipline in section 6. What is not: the index bookkeeping in
+`SentenceOriginRV`, `FactRV`, `FactRelationMoveStep`, the split-merge kernels in
+`RelationSplitMergeStep` (with `logMergeGain` and `LogGammaTable`), and the test
+discipline in section 6. What is not: the index bookkeeping in
 `Sentences` (five multimaps and two histogram maps kept in sync by hand), the
 `Mention`/`Sentence`/`Fact` object web, the observer classes, and the entity samplers'
 static acceptance counters. A port should keep counts (facts per relation, trigger
@@ -259,7 +277,10 @@ The entity samplers (`mh/Entity*`) are the hardest part to port faithfully; the 
 
 ## 10. Where things are on disk
 
-- Small-run outputs from our sessions are in the session scratchpad only; regenerate
-  them with the commands above. Nothing under `output/` in the repo is ours.
-- The extracted paper text used for reference lives nowhere permanent; re-extract with
+- Our run outputs that matter are committed: `results/nyt-2026/` and
+  `results/figure1-2026/` under the sampler directory. Everything else under
+  `results/`, `output/` and `output-*/` is the authors' 2013-2014 material.
+- Intermediate runs (toy, 250 and 2500 sentences) were not kept; their numbers are in
+  CHANGES.md and they regenerate in minutes with the commands in section 5.
+- The paper text used for reference is not stored; re-extract it with
   `venv/bin/python3 -c "from pypdf import PdfReader; ..."` if needed.
