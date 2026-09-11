@@ -263,12 +263,30 @@ queried for "same relation"; precision/recall against the generating world.
 `scripts/plot_precision_recall.py` (python3, numpy) plots it. Output of the run on
 2026-09-11 is in `results/figure1-2026/` (12 seconds of compute).
 
-The curves order cleanly by entropy: at entropy 0.1, precision 0.96 out to recall 0.6;
-at 0.3, 0.95 falling to 0.85 by recall 0.6; at 0.9, 0.65 at recall 0.1 falling to the
-0.5 base rate. The paper's figure shows the same ordering but is stronger at the top:
-it reports 0.9 precision at 0.1 recall for entropy 0.9. Candidate reasons: the 2013
-run's exact sparsity, iteration count and burn-in are unknown, and its inference
-used the old MH steps rather than the current moves.
+### Self-pairs, and the match with the paper's figure
+
+The first run (`prec_recall.out`, `pr_polysemy.png`) queried each unordered pair of
+distinct sentences and came out weaker than the paper at low recall for high entropy
+(0.65 against about 0.92 at recall 0.1 for entropy 0.9). The 2013 test's query loop
+was `for s1 in sentences: for s2 in sentences`, which includes every sentence paired
+with itself; such a pair is always "same relation" with posterior 1, so 60 of the
+roughly 945 relevant pairs sit at the top of the ranking with precision 1. With the
+`self` option (`prec_recall_self*.out`, `pr_polysemy_self*.png`) the curves match the
+paper's (`paper_fig1.png`, cropped from the PDF) within about 0.05 at every point:
+
+| entropy | paper, recall 0.1 / 0.5 / 0.9 | ours, 5000 iterations, self-pairs | ours, 2000 it, self | ours, 2000 it, no self |
+|---|---|---|---|---|
+| 0.1 | 0.97 / 0.94 / 0.85 | 1.00 / 0.99 / 0.93 | 1.00 / 0.99 / 0.90 | 0.96 / 0.96 / 0.84 |
+| 0.3 | 0.95 / 0.86 / 0.65 | 0.99 / 0.91 / 0.75 | 0.97 / 0.89 / 0.77 | 0.96 / 0.88 / 0.72 |
+| 0.5 | 0.93 / 0.75 / 0.58 | 0.97 / 0.85 / 0.71 | 0.96 / 0.83 / 0.64 | 0.87 / 0.73 / 0.58 |
+| 0.7 | 0.93 / 0.65 / 0.56 | 0.92 / 0.68 / 0.57 | 0.87 / 0.62 / 0.54 | 0.77 / 0.68 / 0.56 |
+| 0.9 | 0.92 / 0.60 / 0.55 | 0.87 / 0.58 / 0.53 | 0.83 / 0.59 / 0.53 | 0.64 / 0.54 / 0.51 |
+
+Paper values are read off the figure. So Figure 1 is reproduced, and the self-pairs
+are part of what it shows: without them the high-entropy curves start around 0.65
+rather than 0.9. Ties in the ranking (many pairs at posterior exactly 1) are broken
+with the irrelevant pairs first by `PrecisionRecallCurve`, in the archive and now, so
+that is not a source of optimism.
 
 ## The NYT run (Section 4 of the paper)
 

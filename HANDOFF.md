@@ -26,8 +26,9 @@ Status:
   to 300 relations, and recovers the paper's "subsidiary of" relation with its listed
   paths and facts. Outputs and a summary are in `resources/sampler-140626/results/nyt-2026/`.
   The manual precision check of the top 20 relations has not been done.
-- Figure 1 is reproduced qualitatively (`results/figure1-2026/`), weaker than the
-  paper at the high-entropy end.
+- Figure 1 is reproduced (`results/figure1-2026/`, table in CHANGES.md): with each
+  sentence also paired with itself, as the 2013 code did, the curves match the
+  paper's within about 0.05 at every point.
 - The owner intends to port this to another language. Section 9 has notes for that.
 
 There is no BLOG code anywhere in the tar, despite the paper's "10 lines of BLOG".
@@ -52,7 +53,7 @@ resources/
     data/06-19/toyTriples.json             10-sentence toy (wrote/authored, love/like)
     test/Entity_resolution_Relation/config-*.json   run configs (see section 5)
     results/nyt-2026/                      our NYT run: config, MAP sentences TSV, logprobs, summary.txt
-    results/figure1-2026/                  our Figure 1 data and plot
+    results/figure1-2026/                  our Figure 1 data and plots (with/without self-pairs) and the paper's figure
     results/ (other), output/, output-*/   2013-2014 outputs left by the authors
     scripts/plot_precision_recall.py       plots Figure 1 (python3, numpy)
     scripts/summarize_relations.py         largest relations with paths and pairs from a MAP listing
@@ -248,15 +249,11 @@ evaluation and tightening.
    on run length. Try `stepsPerIteration` near the sentence count, more iterations, and
    `beta` in {0.05, 0.1, 0.3, 1}. Watch `relations_with_sentences` in `logprobs.txt`
    for convergence.
-3. **Figure 1 at the paper's strength.** Our curve at entropy 0.9 gives 0.65
-   precision at 0.1 recall; the paper reports 0.9. Unknowns: their sparsity, iteration
-   count and burn-in. `LexicalEntropyExperiment` takes those as constants at the top of
-   `main`; a sweep is cheap (12 seconds per run).
-4. **Entity resolution.** The entity phase merges almost nothing because the noun-only
+3. **Entity resolution.** The entity phase merges almost nothing because the noun-only
    model has no string similarity ("Mr. Simpson" and "O. J. Simpson" never meet). The
    paper defers this to later work; if it matters, a mention model with string
    features is the change, not more iterations.
-5. **Unbounded relation count.** The pool (`maxRels`) is a fixed upper bound; the
+4. **Unbounded relation count.** The pool (`maxRels`) is a fixed upper bound; the
    posterior sat well inside 400 on NYT, so this is cosmetic unless a corpus needs more.
 
 ## 9. Notes for a port to another language
