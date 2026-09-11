@@ -1,0 +1,934 @@
+mvn -Dtest=NYTExperimentTest -Dsurefire.useFile=false test
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building generative_ie 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ generative_ie ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wei/Work/PLUIE/Experiments/pluie/bootstrap_inference/sampler/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ generative_ie ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ generative_ie ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/wei/Work/PLUIE/Experiments/pluie/bootstrap_inference/sampler/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ generative_ie ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ generative_ie ---
+[INFO] Surefire report directory: /home/wei/Work/PLUIE/Experiments/pluie/bootstrap_inference/sampler/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.ucb.generative_ie.experiments.NYTExperimentTest
+Nouns: 89
+Lexicon: 123
+Arg Pairs: 50
+++Iteration: (0 / 10000)                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.07085201198740072
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.0363464596918467
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.031072290832526456
+                                                                                          Trigger [string=appos|->appos->president->nn->|nn] : 0.028242059366312657
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.025857832177445802
+                                                                           Trigger [string=appos|->appos->economist->prep->for->pobj->|pobj] : 0.025344477960963188
+                                                                                 Trigger [string=dep|<-dep<-chairman->prep->of->pobj->|pobj] : 0.02387188754078106
+                                                      Trigger [string=dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.023516618577940702
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.022995395440223946
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.02174458402431024
+
+                                                                                                  Trigger [string=dep|<-dep<-index->nn->|nn] : 0.05440637476915908
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.04279820471732442
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.042044409088630295
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.03358513388247265
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.031025057780359924
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.030239190788742314
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.026865297470904683
+                                                                                                Trigger [string=dep|<-dep<-partner->nn->|nn] : 0.026602974267471657
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.025989713997944204
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.02341657799169013
+
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.043634847986745245
+                                                                                                   Trigger [string=dep|<-dep<-unit->nn->|nn] : 0.04216861418530416
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.042038060898506535
+                                                                                     Trigger [string=nsubj|<-nsubj<-announce->nsubj->|nsubj] : 0.035676260700019856
+                                                            Trigger [string=appos|<-appos<-remark->appos->spokesman->prep->for->pobj->|pobj] : 0.02931837633884647
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.027023176180734427
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.02700583791474168
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.022966462430711244
+                                                       Trigger [string=rcmod|->rcmod->step->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.02120076509464904
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.02012628585844764
+
+                                                                          Trigger [string=nsubj|<-nsubj<-testify->prep->before->pobj->|pobj] : 0.0419274459344701
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.036826382629987754
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.03352585038883301
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.031407599356000036
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.03010554438998982
+                                                                                            Trigger [string=rcmod|->rcmod->run->dobj->|dobj] : 0.029288860407839488
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.027634077572218002
+                                                                                            Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 0.02677561421783895
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.025591580249444912
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.025530795947409986
+
+                                                                                              Trigger [string=appos|->appos->index->nn->|nn] : 0.03873206535939337
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.03488615450133811
+                                                                          Trigger [string=poss|<-poss<-testimony->prep->before->pobj->|pobj] : 0.03474952440755951
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.03368709312667469
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.03229864611902168
+                                                                                                  Trigger [string=dep|<-dep<-index->nn->|nn] : 0.03104909829140844
+                                                       Trigger [string=appos|->appos->professor->prep->of->pobj->law->prep->of->pobj->|pobj] : 0.030088764844038447
+                                                     Trigger [string=pobj|<-pobj<-to<-prep<-signal->appos->economist->prep->at->pobj->|pobj] : 0.030019279333489243
+                                                                              Trigger [string=nsubj|<-nsubj<-coach->dep->say->nsubj->|nsubj] : 0.024290331906145015
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.02383174981602064
+
+                                                                             Trigger [string=rcmod|->rcmod->director->prep->of->pobj->|pobj] : 0.08435329143499377
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.04779689143495248
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.042060933916468944
+                                                               Trigger [string=appos|->appos->spokesman->prep->for->pobj->city->prep->|prep] : 0.036561976732102625
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.029947626814406585
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.029722496986045288
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.02456163141925107
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.023072026005841004
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.02278336643650508
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.02174339763315153
+
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.0431234849965764
+                                                          Trigger [string=appos|->appos->professor->rcmod->president->prep->of->pobj->|pobj] : 0.03983833314766084
+                                                                                          Trigger [string=nn|<-nn<-president->appos->|appos] : 0.03966785297390618
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.03741402328798869
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.036429939248920996
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.03480710280485203
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.03215758345123057
+                                                                                            Trigger [string=rcmod|->rcmod->run->dobj->|dobj] : 0.031529274911433085
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.029096691017037903
+                                                                                              Trigger [string=aux|<-aux<-say->nsubj->|nsubj] : 0.021022317071294983
+
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.050280756368098374
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.046287251496364624
+                                                                                      Trigger [string=appos|->appos->spokesman->poss->|poss] : 0.045416591367516364
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.036378901116975275
+                                                                           Trigger [string=appos|->appos->lobbyist->prep->with->pobj->|pobj] : 0.03386604962153781
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.029488870729671057
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.025839474695431502
+                                                                               Trigger [string=rcmod|->rcmod->direct->prep->at->pobj->|pobj] : 0.02351824189015094
+                                                                            Trigger [string=appos|->appos->lobbyist->prep->for->pobj->|pobj] : 0.02189397681509442
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.021454675709183798
+
+110
+++Iteration: (1000 / 10000)                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.14319923614003524
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.06298425416675008
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.05159544045678775
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.0444432468218095
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.04110831934075262
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.03888808053541412
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.02825271257342207
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.02416997378088122
+                                                                           Trigger [string=appos|->appos->president->prep->for->pobj->|pobj] : 0.022915452240412793
+                                                            Trigger [string=appos|<-appos<-remark->appos->spokesman->prep->for->pobj->|pobj] : 0.022344669409600018
+
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.07552490954001562
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.0726636841734109
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.04802852717706495
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.036686868410967015
+                                                                                            Trigger [string=appos|->appos->analyst->nn->|nn] : 0.03620520625374405
+                                                                                          Trigger [string=appos|->appos->economist->nn->|nn] : 0.035786470473716005
+                                                                                          Trigger [string=appos|->appos->spokesman->nn->|nn] : 0.033676109382782066
+                                                       Trigger [string=rcmod|->rcmod->step->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.03341716556371581
+                                                         Trigger [string=pobj|<-pobj<-to<-prep<-talk->dobj->chairman->prep->of->pobj->|pobj] : 0.030855178246199776
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.02785174180377876
+
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.067695932699085
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.05092036708348785
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.04973239571579671
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.04141316560864161
+                                                      Trigger [string=dobj|<-dobj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.04023699995740743
+                                                                                          Trigger [string=appos|->appos->president->nn->|nn] : 0.03596663101337285
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.032788602429295315
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.02831972801031622
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.027264987830978655
+                                                                                          Trigger [string=appos|->appos->spokesman->nn->|nn] : 0.021507196547143618
+
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.1039211161316717
+                                                                              Trigger [string=nsubj|<-nsubj<-coach->dep->say->nsubj->|nsubj] : 0.05050207539659134
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.030293672244230428
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.028336889088250578
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.02739180216691741
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.027180466547997655
+                                                                                                   Trigger [string=dep|<-dep<-unit->nn->|nn] : 0.02665693816058583
+                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.02560253086574157
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.025320202701505565
+                                                             Trigger [string=appos|<-appos<-officer->appos->chairman->prep->of->pobj->|pobj] : 0.023747815057988033
+
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.08353411116650628
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.06965677791966517
+                                                     Trigger [string=pobj|<-pobj<-to<-prep<-signal->appos->economist->prep->at->pobj->|pobj] : 0.049403227285145374
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.04429582791303293
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.03777824259030456
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.03271950826331535
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.028729068227506233
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.028157074753271685
+                                                                           Trigger [string=appos|->appos->economist->prep->for->pobj->|pobj] : 0.023526648218691402
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.022924185951357753
+
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.04446968722337219
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.03632075488103767
+                                                                          Trigger [string=nsubj|<-nsubj<-tell->dobj->committee->amod->|amod] : 0.03397324828146622
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.03186102170180591
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.029552480661327367
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.029511014098321058
+                                                                             Trigger [string=appos|->appos->ethicist->prep->at->pobj->|pobj] : 0.028791307888445767
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.02657356054642826
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.0262719835856147
+                                                                          Trigger [string=nsubj|<-nsubj<-testify->prep->before->pobj->|pobj] : 0.026078756915542144
+
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.05887615733998922
+                                                                                 Trigger [string=appos|->appos->dean->prep->of->pobj->|pobj] : 0.04519169641558823
+                                                                                      Trigger [string=appos|->appos->spokesman->poss->|poss] : 0.03997563266719111
+                                                                              Trigger [string=appos|->appos->analyst->prep->as->pobj->|pobj] : 0.0325980566140044
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.03159236593552496
+                                                  Trigger [string=pobj|<-pobj<-to<-prep<-accordng->appos->spokesman->prep->for->pobj->|pobj] : 0.030857499058907337
+                                                                           Trigger [string=appos|->appos->lobbyist->prep->with->pobj->|pobj] : 0.02689591467411568
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.026270334304127386
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.023834426301741294
+                                                                          Trigger [string=appos|->appos->spokesman->prep->with->pobj->|pobj] : 0.022655952318070518
+
+                                                                                          Trigger [string=appos|->appos->spokesman->nn->|nn] : 0.06721177962035205
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.06645031216952793
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.06107166615420157
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.03741466652831366
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.03593471466887508
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.031357056697227416
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.030778554014838377
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.03052393355874627
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.029280840125674435
+                                                                                 Trigger [string=dep|<-dep<-chairman->prep->of->pobj->|pobj] : 0.029159654323835417
+
+110
+++Iteration: (2000 / 10000)                                                                                 Trigger [string=nsubj|<-nsubj<-say->dep->official->nn->|nn] : 0.06223198713922264
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.05871810871746259
+                                                               Trigger [string=appos|->appos->spokesman->prep->for->pobj->city->prep->|prep] : 0.04462202547658909
+                                                                          Trigger [string=appos|->appos->spokesman->prep->with->pobj->|pobj] : 0.0412273869525605
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.03750794233310066
+                                                       Trigger [string=rcmod|->rcmod->step->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.03443375290573038
+                                                                                          Trigger [string=appos|->appos->economist->nn->|nn] : 0.026092353093657875
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.023544932087117828
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.021581762001575813
+                                                                                          Trigger [string=appos|->appos->scientist->nn->|nn] : 0.021520161545255437
+
+                                                                           Trigger [string=appos|->appos->president->prep->for->pobj->|pobj] : 0.04694222296581304
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.033855299597879994
+                                                                                 Trigger [string=nsubj|<-nsubj<-say->dep->official->nn->|nn] : 0.031640131248484804
+                                                                     Trigger [string=nsubj|<-nsubj<-be->dep->partner->prep->in->pobj->|pobj] : 0.030505051463205264
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.030058115490523455
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.02949979533667129
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.027150818135871876
+                                                         Trigger [string=appos|->appos->spokesman->prep->for->pobj->attorney->appos->|appos] : 0.02690224858093363
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.026316443835405594
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.02338126826199863
+
+                                                      Trigger [string=dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.05576909695559704
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.04367675714469676
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.0416629181302031
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.0407789937006096
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.03786047264106498
+                                                      Trigger [string=dobj|<-dobj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.030751564966359998
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.02923190380136883
+                                                                              Trigger [string=nsubj|<-nsubj<-say->nsubj->spokesman->nn->|nn] : 0.028842972652589536
+                                                                                          Trigger [string=appos|->appos->offer->poss->|poss] : 0.02458901538283754
+                                                                          Trigger [string=appos|->appos->bioethicist->prep->at->pobj->|pobj] : 0.024502574312044445
+
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.0515589944222101
+                                                                                      Trigger [string=appos|->appos->president->poss->|poss] : 0.05127266247941726
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.03525054803262974
+                                                                           Trigger [string=appos|->appos->economist->prep->for->pobj->|pobj] : 0.03400435436121305
+                                                                           Trigger [string=appos|->appos->president->prep->for->pobj->|pobj] : 0.03223157219180214
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.03217315884852973
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.03191369901675634
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.03167404761054138
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.0315854905194178
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.03008575781574451
+
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.04620295875418244
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.03988619636213536
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.0384114591211965
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.03533266160560819
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.031914341207724274
+                                                             Trigger [string=appos|<-appos<-officer->appos->chairman->prep->of->pobj->|pobj] : 0.03078547073847097
+                                                                                 Trigger [string=appos|->appos->dean->prep->of->pobj->|pobj] : 0.030395851675207888
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.02829604743607829
+                                                                             Trigger [string=rcmod|->rcmod->director->prep->of->pobj->|pobj] : 0.028143830241182756
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.022776990374468477
+
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.07119897270399075
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.04771078798429764
+                                                                          Trigger [string=appos|->appos->bioethicist->prep->at->pobj->|pobj] : 0.040579804606495816
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.034416717072101366
+                                                                                Trigger [string=poss|<-poss<-comment->prep->to->pobj->|pobj] : 0.03379876702969205
+                                                                                            Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 0.03293058762619712
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.03038114033192033
+                                                                           Trigger [string=appos|->appos->lobbyist->prep->with->pobj->|pobj] : 0.02816584250214599
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.028136417348350193
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.026758259123422248
+
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.054832014818491204
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.0428935344831514
+                                                                                          Trigger [string=appos|->appos->offer->poss->|poss] : 0.027734609818074324
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.027187495142441526
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.02377338815700361
+                                                                               Trigger [string=rcmod|->rcmod->direct->prep->at->pobj->|pobj] : 0.023747424839008043
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.02261125492785342
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.022324860571005183
+                                                                                 Trigger [string=dep|<-dep<-chairman->prep->of->pobj->|pobj] : 0.020751278018763652
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.02043627795343447
+
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.06219708898283947
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.0494831450196993
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.04941749604631049
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.047591906096806115
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.04510740655110674
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.034084068376597366
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.03030827215648305
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.02618070188891946
+                                                                                              Trigger [string=aux|<-aux<-say->nsubj->|nsubj] : 0.025407229011216663
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.025314041311077954
+
+110
+++Iteration: (3000 / 10000)                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.06088689989934738
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.06026129352658778
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.047161738256954806
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.042076231555903044
+                                                                           Trigger [string=appos|->appos->strategist->prep->at->pobj->|pobj] : 0.04070199983967823
+                                                                                          Trigger [string=nsubj|<-nsubj<-buy->nsubj->|nsubj] : 0.03780574859017674
+                                                                            Trigger [string=appos|->appos->lobbyist->prep->for->pobj->|pobj] : 0.0358550912165955
+                                                                                 Trigger [string=rcmod|->rcmod->head->prep->at->pobj->|pobj] : 0.025536348298116688
+                                                                                              Trigger [string=appos|->appos->index->nn->|nn] : 0.02509109209517814
+                                                                                                  Trigger [string=dep|<-dep<-offer->nn->|nn] : 0.024574282929678486
+
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.06951317740124621
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.04044691946765575
+                                                                          Trigger [string=appos|->appos->strategist->prep->for->pobj->|pobj] : 0.03551634214796592
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.03328866231795613
+                                                                           Trigger [string=appos|->appos->strategist->prep->at->pobj->|pobj] : 0.03184454221960013
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.027671630210174644
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.02739431290932777
+                                                                                            Trigger [string=appos|->appos->analyst->nn->|nn] : 0.025369438899704794
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.025260980469137623
+                                                                                           Trigger [string=appos|->appos->official->nn->|nn] : 0.020866922649528122
+
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.07664468226562716
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.05659414999164222
+                                                       Trigger [string=appos|->appos->professor->prep->of->pobj->law->prep->of->pobj->|pobj] : 0.05567442660815228
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.052219373683889035
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.042300975789884704
+                                                                             Trigger [string=rcmod|->rcmod->director->prep->of->pobj->|pobj] : 0.041938055052323994
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.041822158948325874
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.04052592339858264
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.03322167987032793
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.030301070268795926
+
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.04453794865187389
+                                                       Trigger [string=rcmod|->rcmod->step->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.04248610796229603
+                                                             Trigger [string=appos|<-appos<-officer->appos->chairman->prep->of->pobj->|pobj] : 0.04146613104775334
+                                                                              Trigger [string=nsubj|<-nsubj<-say->nsubj->spokesman->nn->|nn] : 0.037713220072668155
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.03330932091345722
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.02775485349351226
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.02609829660217979
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.025370820232608737
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.025183224011201828
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.02322258348857591
+
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.04905406130354319
+                                                                          Trigger [string=appos|->appos->bioethicist->prep->at->pobj->|pobj] : 0.038388973475236024
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.03746723395350621
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.03313503325435673
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.03274278861098047
+                                                                     Trigger [string=prep|->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.028433565232587457
+                                                            Trigger [string=appos|<-appos<-remark->appos->spokesman->prep->for->pobj->|pobj] : 0.025745798332294956
+                                                                               Trigger [string=nsubj|<-nsubj<-submit->prep->to->pobj->|pobj] : 0.02387176740706175
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.02258451165754488
+                                                                     Trigger [string=nsubj|<-nsubj<-be->dep->partner->prep->in->pobj->|pobj] : 0.022102119109570963
+
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.05263356258696631
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.03684962143691225
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.03627280814601418
+                                                     Trigger [string=pobj|<-pobj<-to<-prep<-signal->appos->economist->prep->at->pobj->|pobj] : 0.031004213803659923
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.030953641885622833
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.025388162366721385
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.024276951478742335
+                                                         Trigger [string=appos|->appos->spokesman->prep->for->pobj->attorney->appos->|appos] : 0.022611416858332126
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.020883509563633152
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.020477278848706603
+
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.07579020741391158
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.0528747381920967
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.04274159228536881
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.037468674009762136
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.03509604066347506
+                                                                                       Trigger [string=appos|->appos->director->poss->|poss] : 0.033254919615127734
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.03025262391069939
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.027809066465211252
+                                                                                          Trigger [string=nn|<-nn<-president->appos->|appos] : 0.0260834137562817
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.025333986403026764
+
+                                                                                Trigger [string=poss|<-poss<-comment->prep->to->pobj->|pobj] : 0.058093761497951445
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.04686585271629126
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.04343605555658364
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.043258009404420754
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.0396627576708307
+                                                                          Trigger [string=nsubj|<-nsubj<-tell->dobj->committee->amod->|amod] : 0.035747796278865956
+                                                                               Trigger [string=nsubj|<-nsubj<-submit->prep->to->pobj->|pobj] : 0.031458503325370625
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.0307911838007481
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.02664874352023396
+                                                                                     Trigger [string=dep|<-dep<-fall->prep->at->pobj->|pobj] : 0.023496243896035916
+
+110
+++Iteration: (4000 / 10000)                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.0678478776534465
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.04777881089216651
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.043402676398562046
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.04061081690728122
+                                                                            Trigger [string=nsubj|<-nsubj<-president->prep->of->pobj->|pobj] : 0.0344612873624711
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.03256376495175353
+                                                                     Trigger [string=nsubj|<-nsubj<-be->dep->partner->prep->in->pobj->|pobj] : 0.03251922351777158
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.029182426115198543
+                                                                                          Trigger [string=appos|->appos->scientist->nn->|nn] : 0.02888003848983308
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.02715930367627948
+
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.12431274314587046
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.054850150328724666
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.0410483415567628
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.0366339759700359
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.03630252466065177
+                                                                                     Trigger [string=nsubj|<-nsubj<-announce->nsubj->|nsubj] : 0.031491748224272635
+                                                                           Trigger [string=appos|->appos->strategist->prep->of->pobj->|pobj] : 0.02775593335461257
+                                                                                          Trigger [string=appos|->appos->economist->nn->|nn] : 0.02775330546158872
+                                                                              Trigger [string=appos|->appos->analyst->prep->as->pobj->|pobj] : 0.02452971736740691
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.024207401027552953
+
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.07223195154331709
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.04868139451722089
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.03989747830450215
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.0355526484404994
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.033832389348350006
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.030328188726600664
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.029447756107332353
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.029040172086771694
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.0284066126646932
+                                                                               Trigger [string=rcmod|->rcmod->direct->prep->at->pobj->|pobj] : 0.02687276740443604
+
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.0736020232043477
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.05716187072111236
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.0399152788865049
+                                                                     Trigger [string=prep|->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.03571932992948588
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.029438919302236195
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.027251918403707713
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.02675032411392236
+                          Trigger [string=pobj|<-pobj<-of<-prep<-nomination<-dobj<-approve->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.025526529317527556
+                                                       Trigger [string=rcmod|->rcmod->step->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.023859631608707577
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.021116414228236173
+
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.08952885723354959
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.06656772341422575
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.05032592926626588
+                                                                                          Trigger [string=appos|->appos->president->nn->|nn] : 0.0496120324360065
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.038027362422079956
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.035733190289314314
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.03142121157365903
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.028241636793163896
+                                                                            Trigger [string=appos|->appos->lobbyist->prep->for->pobj->|pobj] : 0.027035596165054465
+                                                                                          Trigger [string=nn|<-nn<-president->appos->|appos] : 0.02554385378540843
+
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.051007013766773995
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.04298913651447993
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.04276447883008193
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.03658613062629155
+                                                                                              Trigger [string=aux|<-aux<-say->nsubj->|nsubj] : 0.03528298731162565
+                                                                                                  Trigger [string=dep|<-dep<-offer->nn->|nn] : 0.03135584153408472
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.02858957612590205
+                                                                                Trigger [string=poss|<-poss<-comment->prep->to->pobj->|pobj] : 0.028174002660796
+                                                                                            Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 0.027834157759757807
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.027783591682892617
+
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.054310203895696914
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.0366501692829633
+                                                                            Trigger [string=appos|->appos->lobbyist->prep->for->pobj->|pobj] : 0.03393088033260969
+                                                                                                  Trigger [string=dep|<-dep<-store->nn->|nn] : 0.032698137497120944
+                                                               Trigger [string=appos|->appos->spokesman->prep->for->pobj->city->prep->|prep] : 0.03251760031418246
+                                                                                          Trigger [string=appos|->appos->offer->poss->|poss] : 0.028050115790321063
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.026952390759104296
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.026801052321969297
+                                                         Trigger [string=pobj|<-pobj<-to<-prep<-talk->dobj->chairman->prep->of->pobj->|pobj] : 0.02648263472217383
+                                                                                       Trigger [string=appos|->appos->director->poss->|poss] : 0.025016031397661922
+
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.061131707902569304
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.05909533675522248
+                                                                                          Trigger [string=appos|->appos->economist->nn->|nn] : 0.041306514218121725
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.0372369119468149
+                                                                                            Trigger [string=appos|->appos->analyst->nn->|nn] : 0.034744280342334156
+                                                                                      Trigger [string=appos|->appos->secretary->poss->|poss] : 0.029906185716380873
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.028789450604145967
+                                                                                      Trigger [string=appos|->appos->president->poss->|poss] : 0.024111611482638188
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.023605241548638654
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.023249562776455387
+
+110
+++Iteration: (5000 / 10000)                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.06617744619734703
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.05475571269694758
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.04442158808190051
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.03860219620356346
+                                                                                 Trigger [string=dep|<-dep<-chairman->prep->of->pobj->|pobj] : 0.03511252395108277
+                                                      Trigger [string=dobj|<-dobj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.033146009485670765
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.028769551234164005
+                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.025641190146596403
+                                                                     Trigger [string=prep|->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.02544535382515533
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.024923465886091217
+
+                                                               Trigger [string=appos|->appos->spokesman->prep->for->pobj->city->prep->|prep] : 0.06680698752491754
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.05451679200506613
+                                                                                          Trigger [string=appos|->appos->president->nn->|nn] : 0.041299301835365364
+                                                                                          Trigger [string=appos|->appos->economist->nn->|nn] : 0.037503778867096604
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.032847902934643416
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.028350095777325775
+                                                                          Trigger [string=appos|->appos->spokesman->prep->with->pobj->|pobj] : 0.024561049079624253
+                                                      Trigger [string=dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.023129623062157424
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.021948503170997447
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.02162839369403444
+
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.053164139691386926
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.04376883633726882
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.042110479840259264
+                                                                                                Trigger [string=dep|<-dep<-partner->nn->|nn] : 0.037503322101686644
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.03686704998056094
+                                                                                 Trigger [string=dep|->dep->director->prep->of->pobj->|pobj] : 0.036259517759768656
+                                                         Trigger [string=appos|->appos->spokesman->prep->for->pobj->attorney->appos->|appos] : 0.02969027011779292
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.028304435241327145
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.02741279487961712
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.02440751375797452
+
+                                                                           Trigger [string=appos|->appos->lobbyist->prep->with->pobj->|pobj] : 0.045415225141817776
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.041497404220412266
+                                                                                           Trigger [string=appos|->appos->official->nn->|nn] : 0.036653924585890486
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.036539833460827696
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.03437840066789253
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.03409177955521608
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.0328595335502874
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.025722447484693503
+                                                                                      Trigger [string=appos|->appos->president->poss->|poss] : 0.025125636828230442
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.02269871089948916
+
+                                                                          Trigger [string=nsubj|<-nsubj<-tell->dobj->committee->amod->|amod] : 0.05716975438350454
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.040994109723470805
+                                                                                Trigger [string=poss|<-poss<-comment->prep->to->pobj->|pobj] : 0.03833383020134893
+                                                                                          Trigger [string=appos|->appos->economist->nn->|nn] : 0.03620097114696996
+                                                                            Trigger [string=appos|->appos->economist->prep->of->pobj->|pobj] : 0.03201711446488068
+                                                                          Trigger [string=poss|<-poss<-testimony->prep->before->pobj->|pobj] : 0.02960356666721676
+                                                                          Trigger [string=nsubj|<-nsubj<-testify->prep->before->pobj->|pobj] : 0.02936820117190958
+                                                                            Trigger [string=nsubj|<-nsubj<-president->prep->of->pobj->|pobj] : 0.025483451298844082
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.025133139731315778
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.02464614716197043
+
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.04273053333599728
+                                                     Trigger [string=pobj|<-pobj<-to<-prep<-signal->appos->economist->prep->at->pobj->|pobj] : 0.042380083031576636
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.04210382625081285
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.04196040084437886
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.03824887295718751
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.032723493368972505
+                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.032422897667365946
+                                                                                            Trigger [string=appos|->appos->analyst->nn->|nn] : 0.028629027076486145
+                                                       Trigger [string=rcmod|->rcmod->step->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.027823519068007535
+                                                                             Trigger [string=appos|->appos->ethicist->prep->at->pobj->|pobj] : 0.027511088077141754
+
+                                                     Trigger [string=rcmod|->rcmod->resign->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.07824741697922764
+                                                                                          Trigger [string=nn|<-nn<-president->appos->|appos] : 0.07043400455162178
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.056207817210481174
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.03675772623585878
+                                                                                      Trigger [string=appos|->appos->president->poss->|poss] : 0.03363880158041692
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.03246283238660679
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.028034415383372237
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.025879011802130064
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.025229848844207824
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.02517102537146536
+
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.07581181103703855
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.04850502289523716
+                                                                                Trigger [string=nsubj|<-nsubj<-teach->prep->at->pobj->|pobj] : 0.043911976160441055
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.042874100564784454
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.04000745301885924
+                                                               Trigger [string=rcmod|->rcmod->seek->dobj->presidency->prep->of->pobj->|pobj] : 0.03185466913597963
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.028375092302258643
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.022943933135065892
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.02259185300744781
+                                                                                     Trigger [string=dep|<-dep<-fall->prep->at->pobj->|pobj] : 0.022492749264090457
+
+110
+++Iteration: (6000 / 10000)                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.05988712373353023
+                                                                                          Trigger [string=nsubj|<-nsubj<-buy->nsubj->|nsubj] : 0.052405122043483646
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.050319469789716444
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.04226141373697922
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.036483133469588876
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.030956565346086408
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.029540231535765883
+                                                                                           Trigger [string=appos|->appos->official->nn->|nn] : 0.027475870751432895
+                                                                            Trigger [string=appos|->appos->economist->prep->of->pobj->|pobj] : 0.026622234975675126
+                                                         Trigger [string=pobj|<-pobj<-to<-prep<-talk->dobj->chairman->prep->of->pobj->|pobj] : 0.025828871666091692
+
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.11602958625688618
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.07727015718294117
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.03960103712608982
+                                                          Trigger [string=appos|->appos->professor->rcmod->president->prep->of->pobj->|pobj] : 0.03611674626273293
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.036034245927358904
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.035677412017988054
+                                                                                          Trigger [string=appos|->appos->president->nn->|nn] : 0.03376812391862151
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.03271910656164265
+                                                                     Trigger [string=pobj|<-pobj<-to->dep->president->prep->of->pobj->|pobj] : 0.027520281769463868
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.026742373929643216
+
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.05758822201029477
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.042398603538727195
+                                                                            Trigger [string=appos|->appos->scientist->prep->at->pobj->|pobj] : 0.03961778151224608
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.03435472759339241
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.0314407466727727
+                                                                          Trigger [string=appos|->appos->spokesman->prep->with->pobj->|pobj] : 0.030866884554985076
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.03028510038329121
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.029860687725524977
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.02875824971940456
+                                                                          Trigger [string=nsubj|<-nsubj<-tell->dobj->committee->amod->|amod] : 0.02797274268562007
+
+                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.05867158618433827
+                                                     Trigger [string=rcmod|->rcmod->resign->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.050309918039875806
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.039505874236523984
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.03571238860971148
+                                                       Trigger [string=appos|->appos->professor->prep->of->pobj->law->prep->of->pobj->|pobj] : 0.030691365530755764
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.028770641578344105
+                                                                                          Trigger [string=nsubj|<-nsubj<-buy->nsubj->|nsubj] : 0.027555256742390278
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.0275098805890576
+                                                      Trigger [string=dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.026364534723539283
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.026052644994477823
+
+                                                                               Trigger [string=nsubj|<-nsubj<-say->nsubj->official->nn->|nn] : 0.06911566764881834
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.0666121406623292
+                                                     Trigger [string=rcmod|->rcmod->resign->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.0452114586491033
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.04185830198933189
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.04135046134052592
+                                                                                          Trigger [string=nsubj|<-nsubj<-act->nsubj->|nsubj] : 0.03818965626095196
+                                                                                                  Trigger [string=dep|<-dep<-offer->nn->|nn] : 0.035235035901266934
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.031395249392044376
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.025692444220029902
+                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.025607124448795655
+
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.05682390546895762
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.03905956077640296
+                                                                          Trigger [string=poss|<-poss<-testimony->prep->before->pobj->|pobj] : 0.03409482282429769
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.03338768761103299
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.03032720946980546
+                                                                                            Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 0.028263949808111224
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.026107136215646344
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.025569914530692038
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.024900389684734393
+                                                                          Trigger [string=appos|->appos->spokesman->prep->with->pobj->|pobj] : 0.023363412075123397
+
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.059253506527163644
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.056671632027521304
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.04653916767784963
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.03842802493705495
+                                                                            Trigger [string=nsubj|<-nsubj<-professor->prep->at->pobj->|pobj] : 0.0381084108767053
+                                                                                      Trigger [string=appos|->appos->spokesman->poss->|poss] : 0.03292423461368774
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.030722240927443863
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.02587755370069408
+                                                                                          Trigger [string=appos|->appos->spokesman->nn->|nn] : 0.025688155059648016
+                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.025675544755834747
+
+                                                               Trigger [string=rcmod|->rcmod->seek->dobj->presidency->prep->of->pobj->|pobj] : 0.06448079683210882
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.05321459640529362
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.04740942596944321
+                                                                          Trigger [string=appos|->appos->bioethicist->prep->at->pobj->|pobj] : 0.03732735824904231
+                                                                                       Trigger [string=appos|->appos->director->poss->|poss] : 0.02984700549783142
+                                                                            Trigger [string=nsubj|<-nsubj<-president->prep->of->pobj->|pobj] : 0.029019753873066826
+                                                                                                  Trigger [string=dep|<-dep<-index->nn->|nn] : 0.024924540521660786
+                          Trigger [string=pobj|<-pobj<-of<-prep<-nomination<-dobj<-approve->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.02421224765917311
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.023451769684839
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.02246948592614849
+
+110
+++Iteration: (7000 / 10000)                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.051024299281774994
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.04885432788052145
+                                                      Trigger [string=dobj|<-dobj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.034052894306164996
+                                                                                                  Trigger [string=dep|<-dep<-store->nn->|nn] : 0.033084853989526944
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.030193229643682592
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.02957942251973308
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.027900357567205963
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.02751275556039531
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.02702446463125122
+                                                       Trigger [string=appos|->appos->professor->prep->of->pobj->law->prep->of->pobj->|pobj] : 0.02632283403819067
+
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.08138571758709837
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.05746323540226612
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.039552661706727624
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.036836283889089105
+                                                                              Trigger [string=nsubj|<-nsubj<-say->nsubj->spokesman->nn->|nn] : 0.028947621223668767
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.02684771917348777
+                                                          Trigger [string=appos|->appos->professor->rcmod->president->prep->of->pobj->|pobj] : 0.026472883539251875
+                                                                                                  Trigger [string=dep|<-dep<-index->nn->|nn] : 0.02620522447070983
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.026051558976150083
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.023838575905753865
+
+                                                                                                  Trigger [string=dep|<-dep<-store->nn->|nn] : 0.053418371571065555
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.05214136994865903
+                          Trigger [string=pobj|<-pobj<-of<-prep<-nomination<-dobj<-approve->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.04928280988540475
+                                                                                 Trigger [string=appos|->appos->dean->prep->of->pobj->|pobj] : 0.03738640830376268
+                                                                            Trigger [string=nsubj|<-nsubj<-president->prep->of->pobj->|pobj] : 0.03473527838338355
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.0337224659487799
+                                                                                     Trigger [string=nsubj|<-nsubj<-announce->nsubj->|nsubj] : 0.031976978025034256
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.029373688797605015
+                                                       Trigger [string=appos|->appos->professor->prep->of->pobj->law->prep->of->pobj->|pobj] : 0.026141977716263826
+                                                                            Trigger [string=appos|->appos->lobbyist->prep->for->pobj->|pobj] : 0.025875298265581777
+
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.10319063932592708
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.1028385130173923
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.041853399787264836
+                                                       Trigger [string=appos|->appos->professor->prep->of->pobj->law->prep->of->pobj->|pobj] : 0.035895607555262374
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.03463588993006486
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.02786427499346245
+                                                                           Trigger [string=appos|->appos->strategist->prep->of->pobj->|pobj] : 0.027380142227485152
+                                                                           Trigger [string=appos|->appos->strategist->prep->at->pobj->|pobj] : 0.027057682780437027
+                                                                                            Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 0.025067284058882436
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.02175059258900995
+
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.06926528683069831
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.06190021811995613
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.055053673687882394
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.049900185028113046
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.043139848872646644
+                                                     Trigger [string=rcmod|->rcmod->resign->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.03252934732751826
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.03244892314564771
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.031112270221853387
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.028740534349573507
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.02776009698893538
+
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.04767608172316393
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.04647779072725233
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.04558764885858264
+                                                                                 Trigger [string=appos|->appos->dean->prep->of->pobj->|pobj] : 0.035420498369223063
+                                                                                 Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 0.028394724467279475
+                                                                           Trigger [string=appos|->appos->president->prep->for->pobj->|pobj] : 0.028327820213904734
+                                                                             Trigger [string=appos|->appos->ethicist->prep->at->pobj->|pobj] : 0.028060711592682752
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.025768627990652233
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.025644921350643755
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.024861072220494024
+
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.0502244298765056
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.03490951813165701
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.029099483599644118
+                                                                           Trigger [string=appos|->appos->lobbyist->prep->with->pobj->|pobj] : 0.0290219066529688
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.02900589472108565
+                                                                                     Trigger [string=dep|<-dep<-fall->prep->at->pobj->|pobj] : 0.028351577833950377
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.02635655300077623
+                                                                                       Trigger [string=appos|->appos->chairman->poss->|poss] : 0.025624816570342292
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.024684394187512834
+                                                     Trigger [string=dobj|<-dobj<-nominate->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.023005172795238806
+
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.04095727203677719
+                                                                                       Trigger [string=appos|->appos->director->poss->|poss] : 0.040739834361733784
+                                                                                          Trigger [string=appos|->appos->president->nn->|nn] : 0.0380739441690209
+                                                                                           Trigger [string=appos|->appos->official->nn->|nn] : 0.033265629759979334
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.03282394056033913
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.031115624123948138
+                                                                                          Trigger [string=appos|->appos->spokesman->nn->|nn] : 0.0284492833752186
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.027421212987824392
+                                                                   Trigger [string=nsubj|<-nsubj<-tell->dobj->member->prep->of->pobj->|pobj] : 0.026743755147751718
+                                                                           Trigger [string=appos|->appos->strategist->prep->of->pobj->|pobj] : 0.02403399394777597
+
+111
+++Iteration: (8000 / 10000)                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.09000974716078142
+                                                         Trigger [string=appos|->appos->head->prep->of->pobj->branch->prep->of->pobj->|pobj] : 0.0854005804625205
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.05725112649242179
+                                                                     Trigger [string=prep|->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.0362695474726944
+                                                          Trigger [string=appos|->appos->professor->rcmod->president->prep->of->pobj->|pobj] : 0.034758938568646466
+                                                                                      Trigger [string=rcmod|->rcmod->transform->dobj->|dobj] : 0.025337953278589124
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.024450486537143316
+                                                        Trigger [string=pobj|<-pobj<-of<-prep<-title<-dobj<-misstate->prep->at->pobj->|pobj] : 0.0233370976890234
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.021917219760994276
+                                                                                          Trigger [string=appos|->appos->scientist->nn->|nn] : 0.021900712360118695
+
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.05342385699360675
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.048858104871944835
+                          Trigger [string=pobj|<-pobj<-of<-prep<-nomination<-dobj<-approve->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.046031942933628806
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.04229594748518627
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.040855887074611366
+                                                               Trigger [string=appos|->appos->spokesman->prep->for->pobj->city->prep->|prep] : 0.03264169956554593
+                                                                                                   Trigger [string=dep|<-dep<-unit->nn->|nn] : 0.032409964224400456
+                                                                                           Trigger [string=appos|->appos->official->nn->|nn] : 0.03021803506327286
+                                                      Trigger [string=dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.027842370748785858
+                                                                     Trigger [string=prep|->prep->as->pobj->director->prep->of->pobj->|pobj] : 0.02472432695925589
+
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.06478665295224036
+                                                                           Trigger [string=appos|->appos->strategist->prep->at->pobj->|pobj] : 0.05521869397345255
+                                                                            Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 0.04851531999296199
+                                                         Trigger [string=pobj|<-pobj<-to<-prep<-talk->dobj->chairman->prep->of->pobj->|pobj] : 0.046265743143812814
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.04370312159354407
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.043408165921607095
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.03197150217165556
+                                                                               Trigger [string=rcmod|->rcmod->direct->prep->at->pobj->|pobj] : 0.028033400943852847
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.027579778150761444
+                                                                          Trigger [string=appos|->appos->strategist->prep->for->pobj->|pobj] : 0.027260960100277315
+
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.07841716732008074
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.035971783585767456
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.0356266603475232
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.033153815315405205
+                                                                                            Trigger [string=rcmod|->rcmod->run->dobj->|dobj] : 0.031944418621071065
+                                                                               Trigger [string=rcmod|->rcmod->direct->prep->at->pobj->|pobj] : 0.02834199481704833
+                                                            Trigger [string=appos|<-appos<-remark->appos->spokesman->prep->for->pobj->|pobj] : 0.027172078070516838
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.02587295772483709
+                                                                                                Trigger [string=dep|<-dep<-partner->nn->|nn] : 0.025788145440618408
+                                                  Trigger [string=pobj|<-pobj<-to<-prep<-accordng->appos->spokesman->prep->for->pobj->|pobj] : 0.0245417946043625
+
+                                                                                           Trigger [string=rcmod|->rcmod->head->dobj->|dobj] : 0.0778665866667882
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.03942178803633873
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.034653300991332486
+                                                                                         Trigger [string=nsubj|<-nsubj<-have->nsubj->|nsubj] : 0.03431077203193657
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.02915041662194826
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.027821029186707112
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.026013369929005423
+                                                                                          Trigger [string=nsubj|<-nsubj<-buy->nsubj->|nsubj] : 0.025305506384461975
+                                                                          Trigger [string=appos|->appos->bioethicist->prep->at->pobj->|pobj] : 0.024403454871061398
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.02162780075464778
+
+                                                                                              Trigger [string=aux|<-aux<-say->nsubj->|nsubj] : 0.048055795938203374
+                                                                                 Trigger [string=dep|<-dep<-chairman->prep->of->pobj->|pobj] : 0.04599480859471158
+                                                                                          Trigger [string=poss|<-poss<-coach->appos->|appos] : 0.04469028945954608
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.04465406287524209
+                                                                              Trigger [string=nsubj|<-nsubj<-coach->dep->say->nsubj->|nsubj] : 0.041757093537808605
+                                                                                          Trigger [string=nsubj|<-nsubj<-say->nsubj->|nsubj] : 0.041123560314637736
+                                                         Trigger [string=pobj|<-pobj<-to<-prep<-talk->dobj->chairman->prep->of->pobj->|pobj] : 0.031050970327576827
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.03080247240326627
+                                                                                          Trigger [string=appos|->appos->spokesman->nn->|nn] : 0.029262785859005
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.02656115315528375
+
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.057330811762659854
+                                                                           Trigger [string=appos|->appos->president->prep->for->pobj->|pobj] : 0.04220533269307511
+                                                                           Trigger [string=appos|->appos->economist->prep->for->pobj->|pobj] : 0.03579701460617274
+                                                     Trigger [string=pobj|<-pobj<-to<-prep<-signal->appos->economist->prep->at->pobj->|pobj] : 0.034032830574234806
+                                                                                      Trigger [string=appos|->appos->secretary->poss->|poss] : 0.03394096893185515
+                                                                                 Trigger [string=rcmod|->rcmod->head->prep->at->pobj->|pobj] : 0.031520925606563624
+                                                                          Trigger [string=appos|<-appos<-chairman<-nsubj<-tell->dobj->|dobj] : 0.03084105777135491
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.027421720564369832
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.025663056643544745
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.02557699318097732
+
+                                                                          Trigger [string=nsubj|<-nsubj<-testify->prep->before->pobj->|pobj] : 0.05644810470612858
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.045960762088625234
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.038787163904282315
+                                                                                                Trigger [string=dep|<-dep<-partner->nn->|nn] : 0.035399586645166646
+                                                               Trigger [string=rcmod|->rcmod->seek->dobj->presidency->prep->of->pobj->|pobj] : 0.03318166334220368
+                                                                                            Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 0.029208017597096403
+                                                                                     Trigger [string=nsubj|<-nsubj<-announce->nsubj->|nsubj] : 0.028964495089559342
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.026142227534999778
+                                                Trigger [string=appos|->appos->president->prep->for->pobj->direction->prep->of->pobj->|pobj] : 0.025917860893849218
+                                                  Trigger [string=pobj|<-pobj<-to<-prep<-accordng->appos->spokesman->prep->for->pobj->|pobj] : 0.024196630186168973
+
+111
+++Iteration: (9000 / 10000)                                                               Trigger [string=appos|<-appos<-today->appos->chairman->prep->of->pobj->|pobj] : 0.06605506112953057
+                                                                                                Trigger [string=dep|<-dep<-partner->nn->|nn] : 0.05322570109322709
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.0400790058998062
+                                                                             Trigger [string=appos|->appos->chairman->prep->of->pobj->|pobj] : 0.036489501920017674
+                                                                               Trigger [string=rcmod|->rcmod->direct->prep->at->pobj->|pobj] : 0.03356972473518629
+                                                             Trigger [string=appos|<-appos<-officer->appos->chairman->prep->of->pobj->|pobj] : 0.033252675198094196
+                                                                           Trigger [string=nsubj|<-nsubj<-appear->prep->before->pobj->|pobj] : 0.032973813794423434
+                                                    Trigger [string=nsubj|<-nsubj<-replace->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.03285416793861032
+                                                                                           Trigger [string=appos|->appos->chairman->nn->|nn] : 0.027166487484113433
+                                                               Trigger [string=appos|<-appos<-ally->appos->president->prep->of->pobj->|pobj] : 0.025798128739015363
+
+                                                                                 Trigger [string=appos|->appos->head->prep->of->pobj->|pobj] : 0.06332879188596054
+                                                                             Trigger [string=appos|->appos->director->prep->of->pobj->|pobj] : 0.06166693841033179
+                                                                            Trigger [string=appos|->appos->president->prep->of->pobj->|pobj] : 0.04022345599799252
+                                                                               Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 0.03626460207910308
+                                                                                             Trigger [string=appos|->appos->leader->nn->|nn] : 0.03335000236384397
+                                                                                      Trigger [string=appos|->appos->president->poss->|poss] : 0.02992446488286375
+                                                              Trigger [string=appos|<-appos<-lawyer->appos->director->prep->of->pobj->|pobj] : 0.029383724853828504
+                                                                                 Trigger [string=dep|->dep->director->prep->of->pobj->|pobj] : 0.029292544274475963
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.026398138831685795
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.02524281942701197
+
+                                                                            Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 0.06175844340177699
+                                                                             Trigger [string=rcmod|->rcmod->director->prep->of->pobj->|pobj] : 0.04786199959310364
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.03376318549649905
+                                                                           Trigger [string=appos|->appos->president->prep->for->pobj->|pobj] : 0.03281078657066339
+                                                                            Trigger [string=nsubj|<-nsubj<-president->prep->of->pobj->|pobj] : 0.03215605735839389
+                                                                          Trigger [string=appos|->appos->spokesman->prep->with->pobj->|pobj] : 0.027488072380788056
+                                                                                                  Trigger [string=dep|<-dep<-offer->nn->|nn] : 0.02529232858793124
+                                                                              Trigger [string=nsubj|<-nsubj<-coach->dep->say->nsubj->|nsubj] : 0.024954936663511795
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.021424775105256946
+                                                                           Trigger [string=nn|<-nn<-administration<-nsubj<-ask->dobj->|dobj] : 0.02129526392082088
+
+                                                           Trigger [string=appos|<-appos<-shooting->appos->president->prep->of->pobj->|pobj] : 0.07959968369813208
+                                                                            Trigger [string=appos|->appos->director->prep->for->pobj->|pobj] : 0.0521959492850105
+                                                            Trigger [string=appos|<-appos<-remark->appos->spokesman->prep->for->pobj->|pobj] : 0.04720260085779954
+                                                                                 Trigger [string=nsubj|<-nsubj<-say->dep->official->nn->|nn] : 0.0424823641648249
+                                                                                     Trigger [string=nsubj|<-nsubj<-announce->nsubj->|nsubj] : 0.04111687649205641
+                                                   Trigger [string=rcmod|->rcmod->succeed->prep->as->pobj->president->prep->of->pobj->|pobj] : 0.02720637339614413
+                                                                                           Trigger [string=nsubj|<-nsubj<-urge->dobj->|dobj] : 0.025609416558020633
+                                                               Trigger [string=appos|->appos->spokesman->prep->for->pobj->city->prep->|prep] : 0.02177905615576878
+                                                                                Trigger [string=poss|<-poss<-comment->prep->to->pobj->|pobj] : 0.02030998304686428
+                                                                                                  Trigger [string=dep|<-dep<-store->nn->|nn] : 0.02024653407146037
+
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.04863481845248763
+                                                                                Trigger [string=rcmod|->rcmod->teach->prep->at->pobj->|pobj] : 0.04029083532824281
+                                                                             Trigger [string=appos|->appos->ethicist->prep->at->pobj->|pobj] : 0.03868737525400569
+                                                                                            Trigger [string=appos|->appos->analyst->nn->|nn] : 0.03212706088658869
+                                                                           Trigger [string=appos|->appos->spokesman->prep->for->pobj->|pobj] : 0.03146962696465194
+                                                      Trigger [string=dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj] : 0.030241601143662436
+                                                             Trigger [string=appos|<-appos<-officer->appos->chairman->prep->of->pobj->|pobj] : 0.027582363124269434
+                                                                                                  Trigger [string=dep|<-dep<-offer->nn->|nn] : 0.0272080265511627
+                                                                                              Trigger [string=dep|<-dep<-catalogue->nn->|nn] : 0.023715505208129598
+                                                                          Trigger [string=appos|->appos->bioethicist->prep->at->pobj->|pobj] : 0.021870687373930338
+
+                                                                               Trigger [string=nsubj|<-nsubj<-submit->prep->to->pobj->|pobj] : 0.057171262706027334
+                                                                                       Trigger [string=appos|->appos->director->poss->|poss] : 0.044284189011158
+                                                                                                   Trigger [string=dep|<-dep<-unit->nn->|nn] : 0.0383736693057819
+                                                                     Trigger [string=nsubj|<-nsubj<-be->dep->partner->prep->in->pobj->|pobj] : 0.037013731644570974
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.03598003082470346
+                                                                                         Trigger [string=nsubj|<-nsubj<-notify->dobj->|dobj] : 0.034193794482618695
+                                                               Trigger [string=appos|->appos->director->prep->of->pobj->center->poss->|poss] : 0.028087564979565535
+                                                                             Trigger [string=appos|->appos->director->prep->at->pobj->|pobj] : 0.02750934079813626
+                                                     Trigger [string=pobj|<-pobj<-to<-prep<-signal->appos->economist->prep->at->pobj->|pobj] : 0.02718917041624598
+                                                                                                  Trigger [string=dep|<-dep<-store->nn->|nn] : 0.027003502373702696
+
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.054066298230183954
+                                                                               Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 0.05141164514322679
+                                                                             Trigger [string=rcmod|->rcmod->director->prep->of->pobj->|pobj] : 0.04428654689301961
+                                                                          Trigger [string=nsubj|<-nsubj<-testify->prep->before->pobj->|pobj] : 0.04180875788936159
+                                                                                           Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 0.03731826882396508
+                                                                                        Trigger [string=appos|->appos->president->dep->|dep] : 0.03386002141452318
+                                                                                          Trigger [string=nsubj|<-nsubj<-coach->dobj->|dobj] : 0.02989989611961596
+                                                                                          Trigger [string=appos|->appos->professor->nn->|nn] : 0.025348895442368735
+                                                                          Trigger [string=nsubj|<-nsubj<-tell->dobj->committee->amod->|amod] : 0.023999430469705377
+                                                                            Trigger [string=nsubj|<-nsubj<-professor->prep->at->pobj->|pobj] : 0.022868712744353932
+
+                                                                             Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 0.08590153079926996
+                                                                              Trigger [string=appos|->appos->analyst->prep->as->pobj->|pobj] : 0.049465727709756185
+                                                                              Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 0.0456861744436061
+                                                               Trigger [string=rcmod|->rcmod->seek->dobj->presidency->prep->of->pobj->|pobj] : 0.033430077220002435
+                                                                                            Trigger [string=appos|->appos->analyst->nn->|nn] : 0.03176599080043023
+                                                                           Trigger [string=appos|->appos->economist->prep->for->pobj->|pobj] : 0.030716268590047165
+                                                                            Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 0.03062077567617409
+                                                                                          Trigger [string=appos|->appos->offer->poss->|poss] : 0.030545618662755545
+                                                                            Trigger [string=appos|->appos->president->prep->at->pobj->|pobj] : 0.024591275384585533
+                                                                          Trigger [string=appos|->appos->director->rcmod->be->nsubj->|nsubj] : 0.02343005817229016
+
+110
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.217 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 47.579s
+[INFO] Finished at: Thu Jun 06 14:22:42 CEST 2013
+[INFO] Final Memory: 9M/296M
+[INFO] ------------------------------------------------------------------------

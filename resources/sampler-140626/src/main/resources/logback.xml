@@ -1,0 +1,36 @@
+<configuration>
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <!-- encoders are assigned the type
+         ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+    <encoder>
+      <pattern>[%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+  
+  <logger name="org.ucb.generative_ie.util.LoggerTest" level="INFO" />
+  <logger name="org.ucb.generative_ie.mcmc.MentionRV" level="INFO" />
+  <logger name="org.ucb.generative_ie.mh.EntitySplitMergeProposal" level="INFO" />  
+  <logger name="org.ucb.generative_ie.mh.EntityRandomMixProposal" level="INFO" />
+  <logger name="org.ucb.generative_ie.mh.EntitySplitMergeHeuristicStep" level="INFO" />
+  <logger name="org.ucb.generative_ie.mh.EntitySmartMergeStep" level="INFO" />
+  <logger name="org.ucb.generative_ie.mh.EntitySmartSplitStep" level="INFO" />
+  <logger name="org.ucb.generative_ie.mh.GeneralMHStep" level="INFO" />
+  <logger name="org.ucb.generative_ie.world.Sentences" level="INFO" />
+  <logger name="org.ucb.generative_ie.world.Sentence" level="INFO" />
+  <logger name="org.ucb.generative_ie.world.WorldProb" level="INFO" />
+  <logger name="org.ucb.generative_ie.world.Mention" level="INFO" />
+  <logger name="org.ucb.generative_ie.experiments.EntityNumberDistToy" level="DEBUG" />
+  <logger name="org.ucb.generative_ie.util.LogProbMap" level="INFO" />
+  <logger name="Tests" level="DEBUG" />
+  <logger name="org.ucb.dpm.BernoulliExperimentTest" level="DEBUG"/> 
+  <logger name="org.ucb.dpm.MixtureDistributions" level="INFO"/> 
+  <logger name="org.ucb.dpm.MixtureWorld" level="INFO"/>
+  <logger name="org.ucb.dpm.MixtureInference" level="INFO"/>
+  <logger name="org.ucb.dpm.MixtureObsever" level="INFO"/>
+  <logger name="org.ucb.generative_ie.mh.EntityRGMSStep" level="INFO" />  
+  <root level="ERROR">
+    <appender-ref ref="STDOUT" />
+  </root>
+  
+</configuration>

@@ -1,0 +1,410 @@
+#cluster rel_0 win ( ORG winner is PER, Team win ORG, PER win ORG)
+
+                   Trigger [string=rcmod|->rcmod->win->dobj->|dobj] : 
+0.008422981884884441
+
+                                                                         
+                  Trigger [string=nsubj|<-nsubj<-tell->dobj->|dobj] : 
+0.007597636367919753
+
+                                                                         
+                   Trigger [string=nsubj|<-nsubj<-win->dobj->|dobj] : 
+0.007386532217124709
+
+                                                                         
+                   Trigger [string=nsubj|<-nsubj<-ask->dobj->|dobj] : 
+0.006958349250627423
+
+                                                                         
+        Trigger [string=nsubj|<-nsubj<-send->prep->to->pobj->|pobj] : 
+0.006632988371500976
+
+
+
+1 Fact [arg1=Noun [name=Unbridled], arg2=Noun [name=Kentucky 
+Derby], rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Patriots], arg2=Noun [name=Super Bowl], 
+rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Rangers], arg2=Noun [name=Stanley Cup], 
+rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Real Quiet], arg2=Noun [name=Kentucky 
+Derby], rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Mrs. Aung San Suu Kyi], arg2=Noun 
+[name=Nobel Peace Prize], rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Giants], arg2=Noun [name=Super Bowl], 
+rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Marlins], arg2=Noun [name=World Series], 
+rel=Relation [name=rel_0]]
+
+1 Fact [arg1=Noun [name=Tabasco Cat], arg2=Noun [name=Preakness],
+rel=Relation [name=rel_0]] # Preakness Stakes 
+
+1 Fact [arg1=Noun [name=Hansel], arg2=Noun [name=Preakness], 
+rel=Relation [name=rel_0]]
+
+
+
+#cluster rel_1 leader in
+
+                                                                         
+      Trigger [string=appos|->appos->leader->prep->in->pobj->|pobj] : 
+0.0067278612748832515
+
+                                                                         
+                    Trigger [string=appos|->appos->leader->nn->|nn] : 
+0.004443862414650271
+
+                                                                         
+      Trigger [string=appos|->appos->leader->prep->of->pobj->|pobj] : 
+0.00325261645396586
+
+                                                                         
+   Trigger [string=appos|->appos->attorney->prep->for->pobj->|pobj] : 
+0.00321473736761593
+
+                                                                         
+    Trigger [string=appos|->appos->attorney->prep->at->pobj->|pobj] : 
+0.0027284361847055337
+
+
+
+1 Fact [arg1=Noun [name=Tom Daschle], arg2=Noun [name=Senate], 
+rel=Relation [name=rel_1]]
+
+1 Fact [arg1=Noun [name=Richard A. Gephardt], arg2=Noun 
+[name=House], rel=Relation [name=rel_1]] # House Majority Leader from 1989 to 1995, and as Minority Leader
+
+1 Fact [arg1=Noun [name=Representative Richard A. Gephardt], arg2=Noun
+ [name=House], rel=Relation [name=rel_1]] # Richard A. Gephardt
+ 
+0.5 Fact [arg1=Noun [name=Joseph L. Bruno], arg2=Noun [name=State 
+Senate], rel=Relation [name=rel_1]] # Majority Leader of the New York State Senate
+
+1 Fact [arg1=Noun [name=Bob Dole], arg2=Noun [name=Senate], 
+rel=Relation [name=rel_1]]
+
+1 Fact [arg1=Noun [name=Joseph L. Bruno], arg2=Noun [name=Senate], 
+rel=Relation [name=rel_1]]
+
+1 Fact [arg1=Noun [name=Dick Armey], arg2=Noun [name=House], 
+rel=Relation [name=rel_1]]
+
+
+#cluster rel_2 lead
+                                                                         
+                  Trigger [string=nsubj|<-nsubj<-lead->dobj->|dobj] : 
+0.006924612291429516
+
+                                                                         
+                  Trigger [string=rcmod|->rcmod->lead->dobj->|dobj] : 
+0.00403052879563394
+
+                                                                         
+       Trigger [string=poss|<-poss<-goal<-nsubj<-give->iobj->|iobj] : 
+0.002829549139529599
+
+         Trigger 
+[string=poss|<-poss<-symptom<-nsubj<-fall->prep->into->pobj->pattern->rc
+mod->reveal->dobj->presence->prep->of->pobj->|pobj] : 
+0.002820001841198155
+
+                                                                         
+                    Trigger [string=amod|<-amod<-leader->dep->|dep] : 
+0.002573743721575409
+
+
+
+Fact [arg1=Noun [name=Kidd], arg2=Noun [name=Nets], rel=Relation
+ [name=rel_2]]
+
+#Fact [arg1=Noun [name=Yankees], arg2=Noun [name=American League 
+East], rel=Relation [name=rel_0]]
+
+Fact [arg1=Noun [name=Holik], arg2=Noun [name=Devils], 
+rel=Relation [name=rel_2]]
+
+#Fact [arg1=Noun [name=Red Sox], arg2=Noun [name=Yankees], 
+rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Ewing], arg2=Noun [name=Knicks], 
+rel=Relation [name=rel_2]]
+
+Fact [arg1=Noun [name=Michael Jordan], arg2=Noun [name=Bulls], 
+rel=Relation [name=rel_2]]
+
+Fact [arg1=Noun [name=MacLean], arg2=Noun [name=Devils], 
+rel=Relation [name=rel_2]]
+
+Fact [arg1=Noun [name=Reggie Miller], arg2=Noun [name=Indiana], 
+rel=Relation [name=rel_2]]
+
+Fact [arg1=Noun [name=Jordan], arg2=Noun [name=Bulls], 
+rel=Relation [name=rel_2]]
+
+#Fact [arg1=Noun [name=Mr. Bush], arg2=Noun [name=Mr. Gore], 
+rel=Relation [name=rel_20]]
+
+#cluster rel_20 beat
+
+	     Trigger [string=nsubj|<-nsubj<-beat->dobj->|dobj] : 
+0.015194821282588927
+
+                                                                         
+                Trigger [string=nsubj|<-nsubj<-defeat->dobj->|dobj] : 
+0.011152229962110953
+
+                                                                         
+                  Trigger [string=nsubj|<-nsubj<-play->dobj->|dobj] : 
+0.010725126159964526
+
+                                                                         
+     Trigger [string=poss|<-poss<-victory->prep->over->pobj->|pobj] : 
+0.00897035906869012
+
+                                                                         
+        Trigger [string=nsubj|<-nsubj<-lose->prep->to->pobj->|pobj] : 
+0.006801351270460011
+
+
+
+Fact [arg1=Noun [name=Giants], arg2=Noun [name=Jets], 
+rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Baltimore Orioles], arg2=Noun [name=New 
+York Yankees], rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Giants], arg2=Noun [name=Redskins], 
+rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Mr. Bush], arg2=Noun [name=Al Gore], 
+rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Nets], arg2=Noun [name=Knicks], 
+rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Montreal Expos], arg2=Noun [name=New York 
+Mets], rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Jets], arg2=Noun [name=Oakland], 
+rel=Relation [name=rel_20]]
+
+Fact [arg1=Noun [name=Mets], arg2=Noun [name=Cubs], rel=Relation
+ [name=rel_20]]
+
+Fact [arg1=Noun [name=Knicks], arg2=Noun [name=Nets], 
+rel=Relation [name=rel_20]]
+
+
+#cluster rel_3 expert at                                                                         
+      Trigger [string=appos|->appos->expert->prep->at->pobj->|pobj] : 
+0.005158612049433362
+
+                                                                         
+   Trigger [string=appos|->appos->professor->prep->at->pobj->|pobj] : 
+0.0035395957712315816
+
+                                                                         
+                 Trigger [string=appos|->appos->professor->nn->|nn] : 
+0.002616300131229827
+
+                                                                         
+   Trigger [string=nsubj|<-nsubj<-professor->prep->at->pobj->|pobj] : 
+0.0025740751184958124
+
+                                                                         
+                     Trigger [string=nn|<-nn<-president->dep->|dep] : 
+0.0025168096861959907
+
+
+
+Fact [arg1=Noun [name=Stephen Gillers], arg2=Noun [name=New York 
+University], rel=Relation [name=rel_3]]
+
+Fact [arg1=Noun [name=John C. Coffee Jr.], arg2=Noun 
+[name=Columbia University], rel=Relation [name=rel_3]]
+
+#Fact [arg1=Noun [name=Gary Burtless], arg2=Noun [name=Brookings 
+Institution], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Merle Black], arg2=Noun [name=Emory 
+University], rel=Relation [name=rel_3]]
+
+#Fact [arg1=Noun [name=Loren Thompson], arg2=Noun [name=Lexington 
+Institute], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Andrew Zimbalist], arg2=Noun [name=Smith 
+College], rel=Relation [name=rel_3]]
+
+Fact [arg1=Noun [name=Dr. Arthur Caplan], arg2=Noun 
+[name=University of Minnesota], rel=Relation [name=rel_3]]
+
+Fact [arg1=Noun [name=Charles M. Elson], arg2=Noun 
+[name=University of Delaware], rel=Relation [name=rel_3]]
+
+Fact [arg1=Noun [name=Stephen Gillers], arg2=Noun [name=New York 
+University Law School], rel=Relation [name=rel_3]]
+
+Fact [arg1=Noun [name=Fred Siegel], arg2=Noun [name=Cooper 
+Union], rel=Relation [name=rel_3]]
+
+
+#cluster rel_27 analyst at
+                                                                         
+     Trigger [string=appos|->appos->analyst->prep->at->pobj->|pobj] : 
+0.011289798135647544
+
+                                                                         
+   Trigger [string=appos|->appos->analyst->prep->with->pobj->|pobj] : 
+0.010771773106982956
+
+                                                                         
+    Trigger [string=appos|->appos->analyst->prep->for->pobj->|pobj] : 
+0.009205614817672415
+
+                                                                         
+   Trigger [string=appos|->appos->economist->prep->at->pobj->|pobj] : 
+0.007906400959549942
+
+                                                                         
+ Trigger [string=appos|->appos->economist->prep->with->pobj->|pobj] : 
+0.005469930167954268
+
+
+
+Fact [arg1=Noun [name=Neil Sweig], arg2=Noun [name=Southeast 
+Research Partners], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Robert A. Kurtter], arg2=Noun [name=Moody 
+'s Investors Service], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Kenneth S. Abramowitz], arg2=Noun 
+[name=Sanford C. Bernstein & Company], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Scott Merlis], arg2=Noun [name=Morgan 
+Stanley & Company], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=John Casesa], arg2=Noun [name=Merrill 
+Lynch], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Loren Thompson], arg2=Noun [name=Lexington 
+Institute], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Daniel Kunstler], arg2=Noun [name=J. P. 
+Morgan], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Harvey Heinbach], arg2=Noun [name=Merrill 
+Lynch & Company], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Judah Kraushaar], arg2=Noun [name=Merrill 
+Lynch], rel=Relation [name=rel_27]]
+
+Fact [arg1=Noun [name=Kevin Murphy], arg2=Noun [name=Morgan 
+Stanley], rel=Relation [name=rel_27]]
+
+
+#cluster rel_6 president (state)
+
+Trigger [string=poss|<-poss<-president->appos->|appos] : 
+0.00493375697885524
+
+                                                                         
+   Trigger [string=pobj|<-pobj<-of<-prep<-president->appos->|appos] : 
+0.004622206076470495
+
+                                           Trigger 
+[string=pobj|<-pobj<-from<-prep<-work<-pobj<-of<-prep<-exhibition->prep-
+>at->pobj->|pobj] : 0.004244214124485384
+
+                                                          Trigger 
+[string=nsubj|<-nsubj<-use->prep->as->pobj->member->prep->of->pobj->|pob
+j] : 0.0033310788006671484
+
+                                                                         
+   Trigger [string=rcmod|->rcmod->mold->dobj->program->poss->|poss] : 
+0.003238090483241737
+
+
+
+Fact [arg1=Noun [name=Pakistan], arg2=Noun [name=Gen. Pervez 
+Musharraf], rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Russia], arg2=Noun [name=Vladimir V. 
+Putin], rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Nets], arg2=Noun [name=Rod Thorn], 
+rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=China], arg2=Noun [name=Jiang Zemin], 
+rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Syria], arg2=Noun [name=Hafez al-Assad], 
+rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Croatia], arg2=Noun [name=Franjo Tudjman], 
+rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Iraq], arg2=Noun [name=Saddam Hussein], 
+rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Haiti], arg2=Noun [name=Jean-Bertrand 
+Aristide], rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Taiwan], arg2=Noun [name=Lee Teng-hui], 
+rel=Relation [name=rel_6]]
+
+Fact [arg1=Noun [name=Serbia], arg2=Noun [name=Slobodan 
+Milosevic], rel=Relation [name=rel_6]]
+
+
+
+#cluster rel_21 president (sports)
+                                                                         
+                 Trigger [string=rcmod|->rcmod->president->nn->|nn] : 
+0.004575499447254891
+
+                                                                         
+                 Trigger [string=appos|->appos->president->nn->|nn] : 
+0.0037735036463509477
+
+                                                                Trigger 
+[string=nsubj|<-nsubj<-review->dobj->program->prep->by->pobj->|pobj] : 
+0.0029839589684761496
+
+                      Trigger 
+[string=pobj|<-pobj<-of<-prep<-office<-pobj<-to<-prep<-transfer->prep->a
+t->pobj->time->dep->attorney->nn->|nn] : 0.002851776369162383
+
+                                                               Trigger 
+[string=rcmod|->rcmod->agree->nsubj->director->prep->of->pobj->|pobj] 
+: 0.002746015580073693
+
+
+
+Fact [arg1=Noun [name=Fernando Ferrer], arg2=Noun [name=Bronx], 
+rel=Relation [name=rel_21]]
+
+Fact [arg1=Noun [name=Mr. Ferrer], arg2=Noun [name=Bronx], 
+rel=Relation [name=rel_21]]
+
+Fact [arg1=Noun [name=Ruth W. Messinger], arg2=Noun 
+[name=Manhattan], rel=Relation [name=rel_21]]
+
+Fact [arg1=Noun [name=David N. Dinkins], arg2=Noun 
+[name=Manhattan], rel=Relation [name=rel_21]]
+
+Fact [arg1=Noun [name=C. Virginia Fields], arg2=Noun 
+[name=Manhattan], rel=Relation [name=rel_21]]
+
+Fact [arg1=Noun [name=Fernando Ferrer], arg2=Noun [name=Bronx 
+Borough], rel=Relation [name=rel_21]]
+
+
+
+
+

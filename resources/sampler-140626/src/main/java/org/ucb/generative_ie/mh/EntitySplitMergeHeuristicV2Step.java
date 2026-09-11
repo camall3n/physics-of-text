@@ -1,0 +1,482 @@
+package org.ucb.generative_ie.mh;
+
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Lists;
+import com.google.common.collect.Multiset;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.ucb.generative_ie.inference.ModelFunctions;
+import org.ucb.generative_ie.util.LogProbMap;
+import org.ucb.generative_ie.util.Util;
+import org.ucb.generative_ie.world.Entity;
+import org.ucb.generative_ie.world.Mention;
+import org.ucb.generative_ie.world.Noun;
+import org.ucb.generative_ie.world.World;
+
+/**
+ * Split and Merge Proposal for Entity Model
+ * Heuristic to propose better splits
+ */
+public class EntitySplitMergeHeuristicV2Step extends GeneralMHStep {
+    public EntitySplitMergeHeuristicV2Step(World world){
+        super(world);
+    }
+
+    @Override
+    public MHProposal createProposal() {
+        return new EntitySplitMergeHeuristicV2Proposal(world);
+    }
+
+    @Override
+    public String getStepKind() {
+        return "Entity Split Merge Step with Heuristics";
+    }
+    
+    private final static Logger logger = LoggerFactory.getLogger(org.ucb.generative_ie.mh.EntitySplitMergeHeuristicStep.class);
+    
+    public class EntitySplitMergeHeuristicV2Proposal extends MHProposal {
+        
+        private Entity entity, entity1, entity2;
+        private boolean splitCase, mergeCase; 
+        
+        private List<Mention> mentionsEntity, mentionsEntity1, mentionsEntity2;
+        private int countMentionsEntity1, countMentionsEntity2, countMentions;
+        
+        Multiset <Noun> nhEntity, nhEntity1, nhEntity2;
+        
+        private int numEntities, newNumEntities;
+        private int numNonEmptyEntities, newNumNonEmptyEntities;
+        
+        private double logSplitProposal;
+        private double logMergeProposal;
+        
+        private double probLogMergeTotal;
+        private double probLogSplitTotal;
+        
+        public EntitySplitMergeHeuristicV2Proposal(World world) {
+            
+            super(world);
+            splitCase = false;
+            mergeCase = false;
+            
+            mentionsEntity = Lists.newArrayList();
+            mentionsEntity1 = Lists.newArrayList();
+            mentionsEntity2 = Lists.newArrayList();
+            
+            nhEntity = HashMultiset.create();
+            nhEntity1 = HashMultiset.create();
+            nhEntity2 = HashMultiset.create();
+            
+            numEntities = world.getNumEntities();
+            numNonEmptyEntities = world.getSentences().getNonEmptyEntitySize();
+            
+            newNumEntities = numEntities;
+            newNumNonEmptyEntities = numNonEmptyEntities;
+            
+            logSplitProposal = 0;
+            logMergeProposal = 0;
+            
+            probLogMergeTotal = 0;
+            probLogSplitTotal = 0;
+        }
+        
+        @Override
+        public void sample(Random rng) {
+            logger.debug("---------------------------");
+            logger.debug("Starting split/merge, numEntities: {}, numNonEmptyEntties: {}", numEntities, numNonEmptyEntities);
+            logger.debug("current mentions: \n {}", world.getSentences().showMentions());
+
+            if(rng.nextBoolean()){
+                splitCase = true;
+            }
+            else {
+                mergeCase = true;
+            }
+            //splitCase =false;
+            //mergeCase = true;
+            logger.debug("split={} merge={}, newNumEntities={}, newNumNonEmptyEntities={}", splitCase, mergeCase, newNumEntities, newNumNonEmptyEntities);            
+            int nounCount = 0;
+            for (Entity e: world.getEntities()) {
+                nounCount += world.getSentences().nounHistogram(e).size();
+                logger.debug("current noun count e {}: {}", e.toString(), world.getSentences().nounHistogram(e).toString());
+            }
+            logger.debug("current noun count TOTAL: {}", nounCount);
+
+            double alpha = world.getAlpha() * 10;
+            int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();
+            
+            LogProbMap <Entity> splitSampler = new LogProbMap();
+            LogProbMap <Entity> mergeSamplerE1 = new LogProbMap();
+            
+            for (Entity e: world.getEntities()) {
+                Multiset <Noun> hist = world.getSentences().nounHistogram(e);
+                double probMergeE1 = ModelFunctions.logBetaProb(hist, alpha, numNouns);
+                //logger.debug("probMergeE1: {}", probMergeE1);
+                double probSplitE = - probMergeE1;
+                
+                //logger.debug("hist: {}", hist.toString());
+                //logger.debug("probE_S, {} {}", probSplitE, e);
+                //logger.debug("probE_M, {} {}", probMergeE1, e);
+
+                splitSampler.multiplyLogKey(e, probSplitE);
+                mergeSamplerE1.multiplyLogKey(e, probMergeE1);
+            }
+            logger.debug("current map: {}", splitSampler.toString());
+            splitSampler.normalize();
+            mergeSamplerE1.normalize();
+            probLogSplitTotal = splitSampler.getNorm();
+            probLogMergeTotal = mergeSamplerE1.getNorm();
+            logger.debug("proLogSplitTotal : {}, proLogMergeTotal: {}", probLogSplitTotal, probLogMergeTotal);
+            
+            if (splitCase) {
+                //sample a random e, to be updated
+                entity = world.getEntities().getRandomEntities().getRandom(rng);
+                //logger.debug("current map: {}", splitSampler.toString());
+                //entity = splitSampler.sample(rng);
+                //logSplitProposal += splitSampler.probKey(entity);
+                //logSplitProposal += Math.log(2);
+                
+                logger.debug("Entity sampled for split: {}", entity.toString());
+                //logger.debug("Entity prob key: {}", splitSampler.probKey(entity));
+                
+                mentionsEntity.addAll(world.getSentences().getMentionsByEntity(entity));
+                //logger.debug("split- before sort: {}", mentionsEntity.toString());
+                Collections.sort(mentionsEntity);
+                //logger.debug("split- after sort: {}", mentionsEntity.toString());
+                
+                countMentions = mentionsEntity.size();
+
+                for (Mention mention : mentionsEntity) {
+                    nhEntity.add(mention.getNoun());
+                }
+                
+                int numElement = nhEntity.elementSet().size();
+                
+                double probE1, probE2;
+                
+                int nE1 = 0;
+                int nE2 = 0;
+                for (Mention mention:mentionsEntity) {
+                    Noun noun = mention.getNoun();
+                    probE1 = (alpha + nhEntity1.count(noun)) / (numElement * alpha + nE1);
+                    probE2 = (alpha + nhEntity2.count(noun)) / (numElement * alpha + nE2);
+                    //normalisation
+                    double probE1norm = probE1/(probE1 + probE2);
+                    double probE2norm = probE2/(probE1 + probE2);
+                    if (rng.nextDouble() <= probE1norm) {
+                        nhEntity1.add(noun);
+                        logSplitProposal += Math.log(probE1norm);
+                        mentionsEntity1.add(mention);
+                        nE1 += 1;
+                    }
+                    else {
+                        nhEntity2.add(noun);
+                        logSplitProposal += Math.log(probE2norm);
+                        mentionsEntity2.add(mention);
+                        nE2 += 1;
+                    }
+                }
+                
+                countMentionsEntity1 = mentionsEntity1.size();
+                countMentionsEntity2 = mentionsEntity2.size();
+                newNumEntities += 1;
+                newNumNonEmptyEntities += (1 - (countMentionsEntity1 ==0 || countMentionsEntity2 ==0 ? 1 : 0));
+                
+                
+            }
+            else if (mergeCase){
+                //sample two entities randomly
+                //to be updated to use likelihood for sampling
+                //entity1 = world.getEntities().getRandomEntities().getRandom(rng);
+                //do {
+                //    entity2 = world.getEntities().getRandomEntities().getRandom(rng);
+                //} while(entity2==entity1);
+                logger.debug("current map E1: {}", mergeSamplerE1.toString());
+
+                //entity1 = mergeSamplerE1.sample(rng);
+                entity1 = world.getEntities().getRandomEntities().getRandom(rng);
+                do {
+                    entity2 = world.getEntities().getRandomEntities().getRandom(rng);
+                } while(entity2==entity1);
+                
+                double probMergeE1 = mergeSamplerE1.probKey(entity1);
+                //if sampled in the other direction: entity2 first then entity1
+                double probMergeE2 = mergeSamplerE1.probKey(entity2);
+                
+                logMergeProposal = Util.logAdd(probMergeE1, probMergeE2) - Math.log(numEntities);
+                
+                nhEntity1 = world.getSentences().nounHistogram(entity1);
+                nhEntity2 = world.getSentences().nounHistogram(entity2);
+                
+                //LogProbMap <Entity> mergeSamplerE1E2 = new LogProbMap();
+                                
+                //for (Entity e : world.getEntities()) {
+                //    if (e == entity1)
+                //        continue;
+                //    Multiset <Noun> histE2 = world.getSentences().nounHistogram(e);
+                //    Multiset <Noun> histTemp = HashMultiset.create();
+                //    histTemp.addAll(nhEntity1);
+                //    histTemp.addAll(histE2);
+                //    double probMergeE2m = ModelFunctions.logBetaProb(histTemp, alpha, numNouns);
+                //    mergeSamplerE1E2.multiplyLogKey(e, probMergeE2m);
+                //}
+                //mergeSamplerE1E2.normalize();
+                //logger.debug("current map E2: {}", mergeSamplerE1E2.toString());
+                //entity2 = mergeSamplerE1E2.sample(rng);
+                //double probMergeE1E2 = mergeSamplerE1E2.probKey(entity2);
+                
+                //double p1 = probMergeE1 + probMergeE1E2;
+                
+                ////the inverse
+                //double probMergeE2 = mergeSamplerE1.probKey(entity2);
+                //nhEntity2 =  world.getSentences().nounHistogram(entity2);
+                //
+                //LogProbMap <Entity> mergeSamplerE2E1 = new LogProbMap();
+                //                
+                //for (Entity e : world.getEntities()) {
+                //    if (e == entity2)
+                //        continue;
+                //    Multiset <Noun> histE1 = world.getSentences().nounHistogram(e);
+                //    Multiset <Noun> histTemp = HashMultiset.create();
+                //    histTemp.addAll(nhEntity2);
+                //    histTemp.addAll(histE1);
+                //    double probMergeE1m = ModelFunctions.logBetaProb(histTemp, alpha, numNouns);
+                //    mergeSamplerE2E1.multiplyLogKey(e, probMergeE1m);
+                //}
+                //mergeSamplerE2E1.normalize();
+                //logger.debug("current map E2: {}", mergeSamplerE2E1.toString());
+                //double probMergeE2E1 = mergeSamplerE2E1.probKey(entity1);
+                //
+                //double p2 = probMergeE2 + probMergeE2E1;
+                //
+                //logMergeProposal = Util.logAdd(p1, p2);
+                
+                logger.debug("Entities sampled for merge: {} and {}", entity1, entity2);
+                mentionsEntity1 = world.getSentences().getMentionsByEntity(entity1);
+                mentionsEntity2 = world.getSentences().getMentionsByEntity(entity2);
+                
+                mentionsEntity.addAll(mentionsEntity1);
+                mentionsEntity.addAll(mentionsEntity2);
+                
+                countMentionsEntity1 = mentionsEntity1.size();
+                countMentionsEntity2 = mentionsEntity2.size();
+                countMentions = countMentionsEntity1 + countMentionsEntity2;
+                
+                //calculater the inverse proposal
+                Collections.sort(mentionsEntity);
+                                
+                for (Mention mention : mentionsEntity) {
+                    nhEntity.add(mention.getNoun());
+                }
+                
+                int numElement = nhEntity.elementSet().size();
+                
+                double probE1, probE2;
+                int nE1 = 0;
+                int nE2 = 0;
+                
+                Multiset <Noun> histTempE1 = HashMultiset.create();
+                Multiset <Noun> histTempE2 = HashMultiset.create();
+                
+                for (Mention mention : mentionsEntity) {
+                    Noun noun = mention.getNoun();
+                    probE1 = (alpha + histTempE1.count(noun)) / (numElement * alpha + nE1);
+                    probE2 = (alpha + histTempE2.count(noun)) / (numElement * alpha + nE2);
+                    double probEnorm;
+                    if (mentionsEntity1.contains(mention)) {
+                        probEnorm = probE1/(probE1 + probE2);
+                        logSplitProposal += Math.log(probEnorm);
+                        histTempE1.add(noun);
+                        nE1 += 1;
+                    }
+                    else if (mentionsEntity2.contains(mention)) {
+                        probEnorm = probE2/(probE1 + probE2);
+                        logSplitProposal += Math.log(probEnorm);
+                        histTempE2.add(noun);
+                        nE2 += 1;
+                    }
+                }
+                
+                           
+                newNumEntities -= 1;
+                newNumNonEmptyEntities -= (1 - (countMentionsEntity1 ==0 || countMentionsEntity2 ==0 ? 1 : 0));
+            }
+            else {
+                throw new UnsupportedOperationException(String.format("Merge: %b and Split: %b!", splitCase, mergeCase));
+            }
+           
+            logger.debug("nE: {}, nE1: {}, nE2: {}", countMentions, countMentionsEntity1, countMentionsEntity2);
+            logger.debug("E1: {}", mentionsEntity1.toString());
+            logger.debug("E2: {}", mentionsEntity2.toString());
+            logger.debug("E: {}", mentionsEntity.toString());
+        }
+
+        @Override
+        public double stateRatio() {
+            double rState = 0.0;
+            int sizeMentionsAll = world.getSentences().getMentions().size();
+        
+            rState += (Math.log(world.getEntities().getLogNormalEntityDensity(newNumEntities)) - Math.log(world.getEntities().getLogNormalEntityDensity(numEntities)));
+            logger.debug("state ratio part1: {}", Math.exp(rState));
+            rState += ( sizeMentionsAll * Math.log((double)numEntities/newNumEntities));
+            logger.debug("state ratio part2: {}", Math.exp(rState));
+            rState += (Util.logPermutation(newNumEntities, newNumNonEmptyEntities) - Util.logPermutation(numEntities, numNonEmptyEntities));
+        
+            logger.debug("state ratio part3: {}", Math.exp(rState));
+            int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();
+            double oldState = 0.0, newState = 0.0;
+        
+            if (splitCase) {
+                oldState += ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);
+                newState += ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);
+                newState += ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);
+            }
+            else if (mergeCase) {
+                //nhEntity1 = world.getSentences().nounHistogram(entity1);
+                //nhEntity2 = world.getSentences().nounHistogram(entity2);
+                oldState += ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);
+                oldState += ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);
+                newState += ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);
+            }
+            else {
+                throw new UnsupportedOperationException(String.format("Merge: %b and Split: %b!", splitCase, mergeCase));
+            }
+        
+            logger.debug("old state: {}, new state: {}", Math.exp(oldState), Math.exp(newState));
+            rState += (newState - oldState);
+            logger.debug("state ratio: {}", Math.exp(rState));
+            return Math.exp(rState);
+        }
+
+        @Override
+        public double proposalRatio() {
+            logger.debug("---proposal ratio----");
+            double rProposal = 1.0;
+            int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();
+            double probE = ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);
+            double probE1 = ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);
+            double probE2 = ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);
+            logger.debug("probE: {}, probE1: {}, probE2: {}", probE, probE1, probE2);
+            logger.debug("probMergeTotal: {}", probLogMergeTotal);
+            
+            if (splitCase){
+                //calculater the inverse proposal in splitCase
+                probLogMergeTotal = Util.logSubtract(probLogMergeTotal, probE);
+                logger.debug("probMergeTotal -pE: {}", probLogMergeTotal);
+                probLogMergeTotal = Util.logAdd(probLogMergeTotal, probE1);
+                logger.debug("probMergeTotal +pE1: {}", probLogMergeTotal);
+                probLogMergeTotal = Util.logAdd(probLogMergeTotal, probE2);
+                logger.debug("probMergeTotal +pE2: {}", probLogMergeTotal);
+                
+                double probMergeE1 = probE1 - probLogMergeTotal;
+                double probMergeE2 = probE2 - probLogMergeTotal;
+                
+                logger.debug("probMergeE1: {}", probMergeE1);
+                logger.debug("probMergeE2: {}", probMergeE2);
+                
+                //double probLogMergeTotalE1_E2 = 0;
+                //for (Entity e: world.getEntities()) {
+                //    if (e == entity)
+                //        continue;
+                //    Multiset <Noun> histE2m = world.getSentences().nounHistogram(e);
+                //    Multiset <Noun> histTemp = HashMultiset.create();
+                //    histTemp.addAll(nhEntity1);
+                //    histTemp.addAll(histE2m);
+                //    double probMergeE2m = ModelFunctions.logBetaProb(histTemp, world.getAlpha(), numNouns);
+                //    logger.debug("probMerge2m: {}", probMergeE2m);
+                //    if (probLogMergeTotalE1_E2 ==0) {
+                //        probLogMergeTotalE1_E2 = probMergeE2m;
+                //    }
+                //    else{
+                //        probLogMergeTotalE1_E2 = Util.logAdd(probLogMergeTotalE1_E2, probMergeE2m);
+                //    }
+                //    logger.debug("probLogMergeTotalE1_E2: {}", probLogMergeTotalE1_E2);
+                //    //logger.debug("probLogMergeTotalE1_E2 add: {}", Util.logAdd(probLogMergeTotalE1_E2, probMergeE2m));
+                //}
+                //probLogMergeTotalE1_E2 = Util.logAdd(probLogMergeTotalE1_E2, probE);
+                //logger.debug("probLogMergeTotalE1_E2: {}", probLogMergeTotalE1_E2);
+                //
+                //double probLogMergeTotalE2_E1 = 0;
+                //for (Entity e: world.getEntities()) {
+                //    if (e == entity)
+                //        continue;
+                //    Multiset <Noun> histE1m = world.getSentences().nounHistogram(e);
+                //    Multiset <Noun> histTemp = HashMultiset.create();
+                //    histTemp.addAll(nhEntity2);
+                //    histTemp.addAll(histE1m);
+                //    double probMergeE1m = ModelFunctions.logBetaProb(histTemp, world.getAlpha(), numNouns);
+                //    logger.debug("probMergeE1m: {}", probMergeE1m);
+                //    if (probLogMergeTotalE2_E1 == 0) {
+                //        probLogMergeTotalE2_E1 = probMergeE1m;
+                //    }
+                //    else{
+                //        probLogMergeTotalE2_E1 = Util.logAdd(probLogMergeTotalE2_E1, probMergeE1m);
+                //    }
+                //    logger.debug("probLogMergeTotalE2_E1: {}", probLogMergeTotalE2_E1);
+                //}
+                //probLogMergeTotalE2_E1 = Util.logAdd(probLogMergeTotalE2_E1, probE);
+                //logger.debug("probLogMergeTotalE2_E1: {}", probLogMergeTotalE2_E1);
+                // 
+                //double pE1 = probMergeE1 + probE - probLogMergeTotalE1_E2;
+                //double pE2 = probMergeE2 + probE - probLogMergeTotalE2_E1;
+                //
+                //logger.debug("split, inverse merge: pE1: {}, pE1E2: {}", probMergeE1, probE - probLogMergeTotalE1_E2);
+                //logger.debug("split, inverse merge: pE2: {}, pE2E1: {}", probMergeE2, probE - probLogMergeTotalE2_E1);
+                //logMergeProposal = Util.logAdd(pE1, pE2);
+                
+                logMergeProposal = Util.logAdd(probMergeE1, probMergeE2 ) - Math.log(newNumEntities-1);
+                rProposal = Math.exp(logMergeProposal - logSplitProposal);
+                //rProposal *= 1.0/(numEntities-1);
+                //rProposal *= 1.0/Math.exp(logSplitProposal);
+            }
+            else if (mergeCase) {
+                probLogSplitTotal = Util.logSubtract(probLogSplitTotal, probE1);
+                probLogSplitTotal = Util.logSubtract(probLogSplitTotal, probE2);
+                probLogSplitTotal = Util.logAdd(probLogSplitTotal, probE);
+                
+                double pSplitE = probE - probLogSplitTotal;
+                logger.debug("pSplitE: {}", pSplitE);
+                logSplitProposal += pSplitE;
+                logSplitProposal += Math.log(2);
+                
+                rProposal = Math.exp(logSplitProposal - logMergeProposal);
+                //rProposal *= (numEntities -1);
+                //rProposal *= Math.exp(logSplitProposal);
+            }
+            else {
+                 throw new UnsupportedOperationException(String.format("Merge: %b and Split: %b!", splitCase, mergeCase));
+            }
+            logger.debug("splitProposal: {} , mergeProposal: {}", logSplitProposal, logMergeProposal);
+            logger.debug("proposal ratio: {}", rProposal);
+            return rProposal;
+        }
+
+        @Override
+        public void applyProposal() {
+            if (splitCase) {
+                Entity newEntity = world.getEntities().addNewEntity();
+                for (Mention mention: mentionsEntity1)
+                    mention.setEntity(newEntity);
+            }
+            else if (mergeCase) {
+                //logger.debug("hist e {}: {}", entity1.toString(), world.getSentences().nounHistogram(entity1));
+                //logger.debug("hist e {}: {}", entity2.toString(), world.getSentences().nounHistogram(entity2));
+                
+                for (Mention mention : mentionsEntity) {
+                    if (!mentionsEntity1.contains(mention))
+                        mention.setEntity(entity1);
+                }
+                world.getEntities().removeEntity(entity2);
+                world.getSentences().cleanEntity(entity2);
+                
+                //logger.debug("new hist e {}: {}", entity1.toString(), world.getSentences().nounHistogram(entity1));
+                //logger.debug("new hist e {}: {}", entity2.toString(), world.getSentences().nounHistogram(entity2));
+            }
+            else
+                throw new UnsupportedOperationException(String.format("Merge: %b and Split: %b!", splitCase, mergeCase));
+        }
+    }
+}
