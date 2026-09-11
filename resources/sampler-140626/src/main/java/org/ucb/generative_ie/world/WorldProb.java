@@ -8,6 +8,7 @@ import org.ucb.generative_ie.util.Util;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Multiset;
 import org.apache.commons.math3.distribution.LogNormalDistribution;
+import org.apache.commons.math3.special.Gamma;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,7 +19,9 @@ import org.slf4j.LoggerFactory;
  *
  * <pre>
  *   N            ~ discrete log-normal (entity count; see {@link Entities})
- *   holds(r,x,y) ~ Bernoulli(sigma)          for every relation r and entity pair (x,y)
+ *   K_used       ~ discrete log-normal (number of relations with a fact, out of a fixed pool)
+ *   sigma_r      ~ Beta(a, b)                 per relation, integrated out (or a constant)
+ *   holds(r,x,y) ~ Bernoulli(sigma_r)        for every relation r and entity pair (x,y)
  *   D_r          ~ Dirichlet(beta, ..., beta)  dictionary over dependency paths, per relation
  *   L_e          ~ Dirichlet(alpha, ..., alpha) dictionary over nouns, per entity
  *   origin(s)    ~ Uniform(true facts)        for every sentence s
@@ -66,6 +69,7 @@ public class WorldProb {
         // exact for this joint (see WorldProbTest).
         double logProb = 0;
         logProb += logEntityNumber();
+        logProb += logRelationNumber();
         logProb += logProbFacts();
         logProb += logSentencesOrigin();
         logProb += logCollapsedTriggers();
@@ -119,17 +123,53 @@ public class WorldProb {
     // Individual terms.
     // ------------------------------------------------------------------
 
+    /**
+     * Log density of the discrete log-normal prior used for object counts (entities,
+     * relations): log-scale variance 1, log-scale mean chosen so the mean is {@code centre}.
+     * Zero probability at count 0.
+     */
+    public static double logLogNormal(int count, int centre) {
+        if (count <= 0) {
+            return Double.NEGATIVE_INFINITY;
+        }
+        double variance = 1;
+        double mean = Math.log(centre) - Math.pow(variance, 2) / 2;
+        return Math.log(new LogNormalDistribution(mean, variance).density(count));
+    }
+
     /** Discrete log-normal prior on the number of entities, centred on the configured count. */
     public double logEntityNumber() {
-        int numEntitiesDefault = w.getEntities().sizeDefault();
-        int numEntities = w.getNumEntities();
+        return logLogNormal(w.getNumEntities(), w.getEntities().sizeDefault());
+    }
 
-        double variance = 1;
-        double mean = Math.log(numEntitiesDefault) - Math.pow(variance, 2) / 2;
-        LogNormalDistribution logNormalEntity = new LogNormalDistribution(mean, variance);
-        logger.debug("LogNormal, numEnt_default: {}, mean: {}, variance: {}, density: {}",
-                numEntitiesDefault, mean, variance, logNormalEntity.density(numEntities));
-        return Math.log(logNormalEntity.density(numEntities));
+    /**
+     * Discrete log-normal prior on the number of occupied relations (relations with at
+     * least one fact), centred on the configured relation count. The relation pool
+     * itself is a fixed upper bound; this is what makes the number of relations in use
+     * a posterior quantity.
+     */
+    public double logRelationNumber() {
+        return logLogNormal(w.numOccupiedRelations(), w.getRelationPriorMean());
+    }
+
+    private static double logBetaFn(double a, double b) {
+        return Gamma.logGamma(a) + Gamma.logGamma(b) - Gamma.logGamma(a + b);
+    }
+
+    /**
+     * Log probability of one relation having exactly {@code numFacts} of its N^2 potential
+     * facts. With a Beta(a, b) prior on the relation's sparsity integrated out this is the
+     * beta-binomial term B(a + n, b + N^2 - n) / B(a, b) (without the binomial coefficient,
+     * since the facts are labelled); with constant sparsity it is sigma^n (1 - sigma)^(N^2 - n).
+     */
+    public double logFactTerm(int numFacts) {
+        long potential = w.numPotentialFactsPerRelation();
+        if (w.hasSparsityPrior()) {
+            double a = w.getSparsityA(), b = w.getSparsityB();
+            return logBetaFn(a + numFacts, b + potential - numFacts) - logBetaFn(a, b);
+        }
+        double sparsity = w.getSparsity();
+        return Math.log(sparsity) * numFacts + Math.log(1 - sparsity) * (potential - numFacts);
     }
 
     /** Combinatorial factor for unlabeled entities: the non-empty entities can be labelled in N!/(N-K)! ways. */
@@ -140,16 +180,17 @@ public class WorldProb {
         return Util.logPermutation(numEntities, numNonEmptyEntities);
     }
 
-    /** Each of the N^2 K potential facts holds independently with probability sigma. */
+    /**
+     * Probability of the fact set: per relation, each of the N^2 potential facts holds
+     * with that relation's sparsity, which is either constant or Beta-distributed and
+     * integrated out (see {@link #logFactTerm}).
+     */
     public double logProbFacts() {
-        long numPossibleFacts = (long) w.getNumEntities() * w.getNumEntities() * w.getNumRelations();
-        int numFacts = w.getFacts().size();
-        double sparsity = w.getSparsity();
-
-        double factProb = 0;
-        factProb += Math.log(sparsity) * numFacts;
-        factProb += Math.log(1 - sparsity) * (numPossibleFacts - numFacts);
-        return factProb;
+        double total = 0;
+        for (Relation r : w.getRelations()) {
+            total += logFactTerm(w.getFacts().factsWithRelation(r).size());
+        }
+        return total;
     }
 
     /** Each sentence reports a fact chosen uniformly from the true facts. */

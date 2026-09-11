@@ -21,7 +21,9 @@ public class World {
     
     private final double alpha;  // Dirichlet prior of Entities       
     private final double beta;  //Dirichlet prior for Relations
-    private double sparsity;  // Sparsity of Fact between Entity pairs
+    private double sparsity;  // Sparsity of Fact between Entity pairs (used when no Beta prior is set)
+    private double sparsityA = 0, sparsityB = 0;  // Beta(a, b) prior on each relation's sparsity, integrated out; 0 = constant sparsity
+    private int relationPriorMean;  // centre of the log-normal prior on the number of occupied relations
 
     public Random rng;
     
@@ -44,6 +46,7 @@ public class World {
         this.alpha = alpha;
         this.beta = beta;
         this.sparsity = sparsity;
+        this.relationPriorMean = relations.size();
         
         this.rng = new Random();
         this.sentences.setFacts(this.facts);
@@ -70,6 +73,9 @@ public class World {
         this.alpha = w.alpha;
         this.beta = w.beta;
         this.sparsity = w.sparsity;
+        this.sparsityA = w.sparsityA;
+        this.sparsityB = w.sparsityB;
+        this.relationPriorMean = w.relationPriorMean;
 
         this.rng = new Random();
         
@@ -160,6 +166,60 @@ public class World {
      */
     public double getSparsity() {
         return sparsity;
+    }
+
+    /**
+     * Put a Beta(a, b) prior on every relation's sparsity (integrated out in the
+     * joint and in the samplers), as in Section 3 of the paper, instead of the
+     * constant sparsity. Pass a = 0 to return to constant sparsity.
+     */
+    public void setSparsityPrior(double a, double b) {
+        if (a > 0 && b <= 0) {
+            throw new IllegalArgumentException("Beta prior needs b > 0");
+        }
+        this.sparsityA = a;
+        this.sparsityB = b;
+    }
+
+    public boolean hasSparsityPrior() {
+        return sparsityA > 0;
+    }
+
+    public double getSparsityA() {
+        return sparsityA;
+    }
+
+    public double getSparsityB() {
+        return sparsityB;
+    }
+
+    /** Centre of the log-normal prior on the number of relations that have at least one fact. */
+    public void setRelationPriorMean(int mean) {
+        if (mean <= 0) {
+            throw new IllegalArgumentException("relation prior mean must be positive");
+        }
+        this.relationPriorMean = mean;
+    }
+
+    public int getRelationPriorMean() {
+        return relationPriorMean;
+    }
+
+    /** Number of relations with at least one fact: the inferred relation count. */
+    public int numOccupiedRelations() {
+        int occupied = 0;
+        for (Relation r : relations) {
+            if (facts.factsWithRelation(r).size() > 0) {
+                occupied++;
+            }
+        }
+        return occupied;
+    }
+
+    /** Number of potential facts per relation, N^2. */
+    public long numPotentialFactsPerRelation() {
+        long n = getNumEntities();
+        return n * n;
     }
 
     /**

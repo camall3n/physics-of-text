@@ -40,7 +40,8 @@ public class EntityResolution extends Experiment {
         
         SparsityGenerator sparsityGen = new ConstantSparsityGenerator(sparsity);
 
-        Relations rels = Relations.defaultRelations(numRels);
+        int maxRels = config.maxRels > 0 ? config.maxRels : numRels;
+        Relations rels = Relations.defaultRelations(maxRels);
         Entities ents = Entities.defaultEntities(numEnts);
         
         CorpusParser parser = new CorpusParser(evidencefile);
@@ -56,6 +57,10 @@ public class EntityResolution extends Experiment {
         WorldGenerator generator = new WorldGenerator(rng, ents, rels, nounLexicon, lexicon, alpha, beta, sparsityGen, numSentences);
 
         World initialWorld = generator.sampleWorld();
+        initialWorld.setRelationPriorMean(numRels);
+        if (config.sparsityA > 0) {
+            initialWorld.setSparsityPrior(config.sparsityA, config.sparsityB);
+        }
         //show the initial world
         //initialWorld.show();
         evidence.evidenceToWorld(initialWorld);
@@ -87,6 +92,8 @@ public class EntityResolution extends Experiment {
         mcmcInferer.run();
 
         initialWorld.show();
+        System.out.println("Relations with a fact at the end of the relation phase: " + initialWorld.numOccupiedRelations() + " of " + maxRels);
+        System.out.println("Relations expressed by at least one sentence: " + initialWorld.getSentences().numRelationsWithSentences());
     }
 
     public static void main( String[] args) {

@@ -43,6 +43,9 @@ public class ObserveProb extends WorldObserver {
             logProbs.put("collapsed_trigs", probber.logCollapsedTriggers());
             logProbs.put("collapsed_nouns", probber.logCollapsedNouns());
             logProbs.put("entity_number", probber.logEntityNumber());
+            logProbs.put("relation_number", probber.logRelationNumber());
+            logProbs.put("relations_used", (double) world.numOccupiedRelations());
+            logProbs.put("relations_with_sentences", (double) world.getSentences().numRelationsWithSentences());
             logProbs.put("entity_only", probber.logProbEntityWorld());
             Util.writeJsonToFile(Util.joinPath(filename, "logprobs.txt"), logProbs.asMap());
             

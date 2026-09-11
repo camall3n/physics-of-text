@@ -233,6 +233,16 @@ public class Sentences implements Iterable<Sentence> {
         createTriggerHistograms();
     }
 
+    /** Number of relations that at least one sentence expresses: the relations discovered in the text. */
+    public int numRelationsWithSentences() {
+        return sentencesToRelation.keySet().size();
+    }
+
+    /** Number of distinct facts that at least one sentence originates from. */
+    public int numReferencedFacts() {
+        return sentencesToFact.keySet().size();
+    }
+
     public Collection<Sentence> sentencesWithOrigin(Fact f) {
         return ImmutableList.copyOf(sentencesToFact.get(f));
     }

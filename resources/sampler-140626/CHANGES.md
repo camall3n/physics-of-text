@@ -109,19 +109,71 @@ covered by `WorldProbTest` or `SentencesIndexTest`.
    sentences it computed `0 * log(inf)`; with the fact being the only one it raised
    "Infinite value". Fix: `logOddsExists()` handles both.
 
+## Inferring the number of relations
+
+The archive fixed the number of relations at `numRels`. The paper puts a broad prior on
+it and reports about 200 discovered relations. Three changes make the count a
+posterior quantity; every new move is checked against the joint in
+`RelationMovesTest`, with constant sparsity and with the Beta prior.
+
+1. **Per-relation sparsity with a Beta(a, b) prior, integrated out** (`World`,
+   `WorldProb.logFactTerm`, `FactRV`). Config fields `sparsityA`, `sparsityB`; when
+   absent the constant `sparsity` is used as before. This is the paper's model, and it is
+   what makes an unused relation affordable: with constant sigma an empty relation
+   costs (1 - sigma)^(N^2), which at NYT scale is e^-900.
+
+2. **A relation pool and a prior on how much of it is used** (`World`, `WorldProb`).
+   `maxRels` is the pool size (default `numRels`); `numRels` becomes the centre of a
+   discrete log-normal prior on the number of relations that have at least one fact,
+   the same prior form the entity model uses for N. The inferred relation count is
+   reported as `relations_used` (relations with a fact) and `relations_with_sentences`
+   (relations expressed somewhere in the text) in `logprobs.txt`.
+
+3. **Moves that can actually change a sentence's relation** (`mcmc` package).
+   - `FactRelationMoveStep` transfers a fact with all its sentences to a relation that
+     has no fact for that entity pair. Without it a sentence could only switch to a
+     relation that already had a fact for its pair, which at corpus scale never
+     happens; this is a port of Justin Uang's 2013 `ChangeFactRelationProposal`, with
+     the sparsity and relation-count terms added.
+   - `FactBirthDeathStep` proposes adding a random potential fact or removing a random
+     unreferenced one, with the Metropolis-Hastings correction. It replaces the Gibbs
+     scan over all N^2 K potential facts, which needed one object per potential fact
+     (900 million at the NYT config) and never revisited existing ones.
+   - `WorldInferSteps` now draws these and the sentence-origin Gibbs step on demand.
+
+### Results so far
+
+Toy corpus (10 sentences, two true relations, pool of 8, `test/.../config-toy.json` plus
+`sparsityA=1, sparsityB=64`): the posterior over relations with sentences depends on the
+dictionary prior `beta`. With `beta=0.01` it is spread over 3 to 6 relations, because a
+tiny Dirichlet concentration makes a relation with a single dependency path much more
+likely than one with two, which outweighs the sparsity argument for merging `wrote` and
+`authored`. With `beta=0.5` the mass moves to 2 or 3 and both intended merges appear.
+The paper's bootstrapping argument therefore holds only when the dictionary prior is
+not too sparse; `beta` needs to be chosen deliberately.
+
+250-sentence NYT slice (`data/06-19/pluieTriples-1.json`, 265 nouns, 30 paths;
+`test/Entity_resolution_Relation/config-250-inferK.json`: 265 entities, pool of 40,
+prior centred on 10, `beta=0.1`, Beta(1, 265^2) sparsity, 3000 iterations, 5 minutes):
+posterior over relations with sentences concentrated on 24 to 28, still drifting down
+at the end of the run. The largest clusters are clean: `appos->director->prep->of` (25
+sentences), `appos->chairman->prep->of` (25), `appos->leader->nn` (39),
+`appos->president->prep->of` (21 in one relation, 9 in another). The duplicate
+president-of relation shows the remaining weakness: merging two relations requires
+moving their facts one at a time through unfavourable intermediate states. A
+split-merge move over relations (the relation analogue of the entity SDDS samplers) is
+the next step for mixing.
+
 ## Things that are still not the paper
 
-- The number of relations is fixed by `numRels` in the config; the paper describes a
-  prior over it and reports roughly 200 discovered relations.
-- Sparsity is a constant from the config (`ConstantSparsityGenerator`); the paper puts a
-  Beta prior on it. `BetaSparsityGenerator` and `BetaSparsityRV` exist but are unused.
-- Split-merge moves exist only for entities. Relations are sampled by single-site Gibbs
-  steps. The paper's sentence about smart-dumb/dumb-smart split-merge refers to the
-  entity phase.
-- `WorldInferSteps` allocates a `FactRV` for every entity pair times relation up front.
-  At NYT scale (3000 entities, 100 relations) that is 900 million objects and will not
-  fit in memory; it needs to sample potential facts lazily before `config-8000.json`
-  can be run.
+- The relation count is inferred within a fixed pool (`maxRels`), not unbounded.
+- Split-merge moves exist only for entities; relations change through single-fact
+  moves, which mix slowly (see the duplicate president-of relation above).
+- The initial world still calls `WorldGenerator.sampleFacts`, which loops over every
+  entity pair times relation once. At the NYT config that is a few billion iterations
+  (minutes) and the initial origins ignore the sentences' nouns entirely; a
+  noun-aware initialisation would help the entity phase.
+- The entity phase takes most of the running time on the 250-sentence slice.
 
 ## Verified
 

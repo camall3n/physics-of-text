@@ -14,6 +14,9 @@ public final class ConfigParser {
     public double beta;
     public double sparsity;
     public int numIterations;
+    public int maxRels;        // relation pool size (0: numRels); numRels is then the prior mean of relations in use
+    public double sparsityA;   // Beta(a, b) prior on per-relation sparsity (0: constant sparsity)
+    public double sparsityB;
     
     public ConfigParser(String configFile){
         FileReader reader;
@@ -36,6 +39,9 @@ public final class ConfigParser {
         this.beta = config.beta;
         this.sparsity = config.sparsity;
         this.numIterations = config.numIterations;
+        this.maxRels = config.maxRels;
+        this.sparsityA = config.sparsityA;
+        this.sparsityB = config.sparsityB;
     }
     
     public void showConfig() {
@@ -48,6 +54,10 @@ public final class ConfigParser {
         output.append(String.format("  Prior for Relation: %f\n", this.beta));
         output.append(String.format("  Sparsity of facts: %f\n", this.sparsity));
         output.append(String.format("  Number of Iterations: %d\n", this.numIterations));
+        output.append(String.format("  Relation pool size: %d\n", this.maxRels > 0 ? this.maxRels : this.numRels));
+        if (this.sparsityA > 0) {
+            output.append(String.format("  Sparsity prior: Beta(%f, %f)\n", this.sparsityA, this.sparsityB));
+        }
         
         output.append("================================================================\n");
         
@@ -61,5 +71,8 @@ public final class ConfigParser {
         public double alpha;
         public double beta;
         public double sparsity;
+        public int maxRels;
+        public double sparsityA;
+        public double sparsityB;
     }
 }

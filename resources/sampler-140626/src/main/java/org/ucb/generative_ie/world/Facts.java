@@ -1,5 +1,8 @@
 package org.ucb.generative_ie.world;
 
+import java.util.List;
+import com.google.common.collect.Lists;
+
 import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
@@ -186,6 +189,11 @@ public class Facts implements Iterable<Fact> {
     @Override
     public Iterator<Fact> iterator() {
         return raFacts.asList().iterator();
+    }
+
+    /** A snapshot of the facts, safe to iterate while facts are added or removed. */
+    public List<Fact> asListCopy() {
+        return Lists.newArrayList(raFacts.asList());
     }
 
     public Fact getCanonical(Fact f) {
