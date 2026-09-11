@@ -270,9 +270,44 @@ it reports 0.9 precision at 0.1 recall for entropy 0.9. Candidate reasons: the 2
 run's exact sparsity, iteration count and burn-in are unknown, and its inference
 used the old MH steps rather than the current moves.
 
+## The NYT run (Section 4 of the paper)
+
+`test/Entity_resolution_Relation/config-nyt-inferK.json` on
+`data/Umass-sub-corpus/pluieTriples_2013_01_06_5.json` (8516 sentences, 1199 noun
+strings, 4276 dependency paths, 920 argument pairs; the file the authors' 2013 log
+was produced from): 1199 entities, relation pool 400 with the prior centred on 200,
+`beta=0.1`, Beta(1, 1199^2) sparsity, 1000 iterations of 2000 moves, 2% entity phase.
+Wall clock 7 minutes 16 seconds on 2026-09-11 (the paper: "about 10 minutes").
+Outputs are in `results/nyt-2026/`: the config, every sentence of the MAP world with
+its relation (`map_world_sentences.tsv`), the per-iteration log-probability terms, and
+`summary.txt` with the 40 largest relations.
+
+- Relations expressed in the text: posterior 250 to 300 (mode 274), MAP world 256.
+  The paper reports "roughly 200".
+- Splits and merges were accepted 43% and 56% of the time.
+- The paper's relation 46, "subsidiary of", is `rel_325` in the MAP world: 302
+  sentences, 47 argument pairs, top paths `appos->unit->prep->of` (28),
+  `nn<-unit->prep->of` (27), `appos->part->prep->of` (23), `partmod->own->prep->by`
+  (21), `rcmod->own->prep->by` (18), then subsidiary-of and division-of; facts include
+  (BBDO Worldwide, Omnicom Group), (American, AMR Corporation), (United, UAL
+  Corporation). Of the sentences using those paths in the whole corpus, 231 are in
+  `rel_325` and 64 in a second relation `rel_80`, so the paper's list is recovered with
+  one duplicate.
+- The other large relations are equally recognisable: sports results
+  (beat/lose to/defeat, 397 sentences), executives (head/chairman/director/founder/
+  president of, 368), political leaders (355), tell/urge/ask (328), chairman-of
+  (324), based-in (297), wins (282), analyst-at (234), spokesman-for (229),
+  moved-to (220), lawyer-for (208).
+
+Not yet done: the paper's manual precision check of the 20 most common relations
+(reported as roughly 95%). `results/nyt-2026/summary.txt` is laid out for it.
+
 ## Things that are still not the paper
 
-- The relation count is inferred within a fixed pool (`maxRels`), not unbounded.
+- The relation count is inferred within a fixed pool (`maxRels`), not unbounded; at
+  the NYT config the posterior (250 to 300) sits well inside the pool of 400.
+- The largest relations still have a few duplicates (a second subsidiary-of relation
+  with 64 sentences); longer runs or a smaller `beta` may reduce that.
 - The entity phase takes most of the running time on the 250-sentence slice.
 
 ## Verified

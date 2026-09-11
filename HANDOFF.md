@@ -22,11 +22,12 @@ Status:
   verified joint probability, and infers the number of relations. Two commits on
   `main` (6812ca1, 8a2939a, 69022c1) contain all of that work; f83b7b3 added this
   document.
-- Section 4 has been reproduced in miniature only: a 250-sentence slice yields clean
-  relations ("director of", "chairman of", "president of", "leader", and a merged
-  "economist/professor/analyst at") and a posterior of 22 to 26 relations. The full
-  8516-sentence run has not been attempted.
-- Figure 1 has not been attempted. Its whole pipeline exists but is commented out.
+- Section 4 is reproduced: the full 8516-sentence run takes 7 minutes, infers 250
+  to 300 relations, and recovers the paper's "subsidiary of" relation with its listed
+  paths and facts. Outputs and a summary are in `resources/sampler-140626/results/nyt-2026/`.
+  The manual precision check of the top 20 relations has not been done.
+- Figure 1 is reproduced qualitatively (`results/figure1-2026/`), weaker than the
+  paper at the high-entropy end.
 - The owner intends to port this to another language. Section 9 has notes for that.
 
 There is no BLOG code anywhere in the tar, despite the paper's "10 lines of BLOG".
@@ -207,19 +208,27 @@ makes a one-path relation much cheaper than a two-path one, which cancels the
 sparsity argument for merging. **The paper's bootstrapping argument holds only if
 `beta` is not tiny. Pick it deliberately.**
 
-250-sentence NYT slice (`config-250-inferK.json`, `beta=0.1`, Beta(1, 265^2) sparsity,
-pool 40, prior centre 10, 5 minutes): with split-merge, posterior over relations with
-sentences 22 to 26, settled within 300 iterations; splits and merges accepted about
-half the time. Clean clusters for president-of (32 sentences), chairman-of (33 + 4),
-leader (39), a merged economist/professor/analyst-at (24). Director-of is still split
-in two (19 + 18).
+250-sentence NYT slice (`config-250-inferK.json`): posterior over relations with
+sentences 22 to 26; clean clusters for president-of, chairman-of, leader, and a merged
+economist/professor/analyst-at.
+
+Full NYT corpus (`config-nyt-inferK.json`, 7 minutes): posterior 250 to 300 relations,
+MAP 256; the paper's subsidiary-of relation recovered (302 sentences: unit-of,
+part-of, owned-by, subsidiary-of, division-of; BBDO Worldwide / Omnicom Group), plus
+sports results, executives, leaders, tell/urge/ask, based-in, analyst-at,
+spokesman-for, lawyer-for. Details and the remaining gaps in CHANGES.md.
 
 ## 8. Recommended next steps, in order
 
 Split-merge over relations and noun-aware initialisation are done (see section 7), so
 the remaining problems are scale and evaluation.
 
-1. **NYT-scale run** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
+1. **Precision evaluation of the NYT run.** Go through `results/nyt-2026/summary.txt`
+   relation by relation and judge, as the paper did, whether each relation's argument
+   pairs are correct instances of what its paths say. Report per-relation precision
+   for the top 20. Then a longer run (more iterations, `stepsPerIteration` around the
+   sentence count) and a `beta` sweep, since the count and the duplicates depend on it.
+2. **NYT-scale run, done once** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
    `maxRels` (try 400), `sparsityA=1`, `sparsityB=N^2`, `beta` around 0.1. Watch the
    entity phase's running time first; it is O(mentions) per smart move.
    Compare against the paper's relation-46 dictionary (listed in the paper) and the
