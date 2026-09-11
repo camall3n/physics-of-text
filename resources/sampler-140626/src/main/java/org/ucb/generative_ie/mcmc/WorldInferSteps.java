@@ -16,7 +16,9 @@ import org.ucb.generative_ie.world.World;
  * <li>{@link SentenceOriginRV}: Gibbs-resample one sentence's origin fact (its relation
  *     and argument entities) among the existing facts;</li>
  * <li>{@link FactRelationMoveStep}: transfer a fact with all its sentences to another
- *     relation, which is how relations gain and lose their sentences.</li>
+ *     relation, which is how relations gain and lose their sentences;</li>
+ * <li>{@link RelationSplitMergeStep}, both kernels: split a relation in two or merge two
+ *     relations, which is what lets the number of relations in use change quickly.</li>
  * </ul>
  *
  * Moves are created on demand rather than preallocated per potential fact, so the
@@ -26,11 +28,15 @@ public class WorldInferSteps extends MCMCSteps {
 
     private final FactBirthDeathStep factStep;
     private final FactRelationMoveStep moveStep;
+    private final RelationSplitMergeStep smartSplitStep;
+    private final RelationSplitMergeStep smartMergeStep;
 
     public WorldInferSteps(World world, SentenceEvidence evidence, int numSteps) {
         super(world, evidence, numSteps);
         this.factStep = new FactBirthDeathStep(world);
         this.moveStep = new FactRelationMoveStep(world);
+        this.smartSplitStep = new RelationSplitMergeStep(world, true);
+        this.smartMergeStep = new RelationSplitMergeStep(world, false);
     }
 
     public WorldInferSteps(World world, SentenceEvidence evidence) {
@@ -54,6 +60,8 @@ public class WorldInferSteps extends MCMCSteps {
             this.stepSampler.multiplyKey(StepKind.FACT_BIRTH_DEATH, 1);
             this.stepSampler.multiplyKey(StepKind.SENTENCE_ORIGIN, 1);
             this.stepSampler.multiplyKey(StepKind.FACT_RELATION_MOVE, 1);
+            this.stepSampler.multiplyKey(StepKind.RELATION_SMART_SPLIT, 0.2);
+            this.stepSampler.multiplyKey(StepKind.RELATION_SMART_MERGE, 0.2);
         }
 
         @Override
@@ -72,6 +80,10 @@ public class WorldInferSteps extends MCMCSteps {
                     return new SentenceOriginRV(world, world.getSentences().get(rng.nextInt(n)));
                 case FACT_RELATION_MOVE:
                     return moveStep;
+                case RELATION_SMART_SPLIT:
+                    return smartSplitStep;
+                case RELATION_SMART_MERGE:
+                    return smartMergeStep;
                 default:
                     throw new IllegalStateException();
             }
@@ -85,5 +97,5 @@ public class WorldInferSteps extends MCMCSteps {
 }
 
 enum StepKind {
-    FACT_BIRTH_DEATH, SENTENCE_ORIGIN, FACT_RELATION_MOVE
+    FACT_BIRTH_DEATH, SENTENCE_ORIGIN, FACT_RELATION_MOVE, RELATION_SMART_SPLIT, RELATION_SMART_MERGE
 }

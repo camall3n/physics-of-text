@@ -22,8 +22,9 @@ Status:
   verified joint probability, and infers the number of relations. Two commits on
   `main` (6812ca1, 8a2939a) contain all of that work.
 - Section 4 has been reproduced in miniature only: a 250-sentence slice yields clean
-  relations ("director of", "chairman of", "president of", "leader") and a posterior
-  of 24 to 28 relations. The full 8516-sentence run has not been attempted.
+  relations ("director of", "chairman of", "president of", "leader", and a merged
+  "economist/professor/analyst at") and a posterior of 22 to 26 relations. The full
+  8516-sentence run has not been attempted.
 - Figure 1 has not been attempted. Its whole pipeline exists but is commented out.
 - The owner intends to port this to another language. Section 9 has notes for that.
 
@@ -95,6 +96,8 @@ It runs two phases on one `World`:
      entity) among existing facts;
    - `FactRelationMoveStep`: MH transfer of one fact and all its sentences to a relation
      lacking a fact for that entity pair. This is the move that lets relations form.
+   - `RelationSplitMergeStep` (two kernels): split a relation into two or merge two
+     relations, smart-dumb/dumb-smart style. This is what makes the relation count mix.
 
 Other things to know:
 
@@ -171,6 +174,9 @@ Commit 8a2939a: made the relation count inferable: Beta sparsity integrated out,
 relation pool with a log-normal prior on occupancy, the two new moves above, and
 `RelationMovesTest`.
 
+Later commit: `RelationSplitMergeStep` and `RelationSplitMergeTest` (split-merge over
+relations, both SDDS kernels). See CHANGES.md for the before/after table.
+
 The verification pattern used throughout, and the one to keep using: every sampler
 move exposes its log-odds or log-acceptance as a public method, and a test compares it
 to the difference of `WorldProb.logProb()` between the two states (plus the log
@@ -187,39 +193,32 @@ sparsity argument for merging. **The paper's bootstrapping argument holds only i
 `beta` is not tiny. Pick it deliberately.**
 
 250-sentence NYT slice (`config-250-inferK.json`, `beta=0.1`, Beta(1, 265^2) sparsity,
-pool 40, prior centre 10): posterior over relations with sentences 24 to 28, still
-drifting down after 3000 iterations. Clean clusters for director-of (25 sentences),
-chairman-of (25), leader (39), president-of (21); president-of duplicated in a second
-relation (9), because merging two relations needs many single-fact moves through
-unfavourable states.
+pool 40, prior centre 10, 5 minutes): with split-merge, posterior over relations with
+sentences 22 to 26, settled within 300 iterations; splits and merges accepted about
+half the time. Clean clusters for president-of (32 sentences), chairman-of (33 + 4),
+leader (39), a merged economist/professor/analyst-at (24). Director-of is still split
+in two (19 + 18).
 
 ## 8. Recommended next steps, in order
 
-1. **Relation split-merge move.** The mixing bottleneck. Split: pick a relation, divide
-   its facts (and their sentences) into two relations, one of them empty from the pool.
-   Merge: move all facts of one relation into another (skipping pairs that would
-   collide, or rejecting). Use `FactRelationMoveStep.logAcceptance` as the template for
-   the terms (collapsed triggers, fact terms per relation, occupancy prior), and
-   `EntitySmartSplitStep` for the smart/dumb proposal idea. Write the joint-difference
-   test first.
-2. **Noun-aware initialisation.** `SentenceEvidence.evidenceToWorld` assigns each
+1. **Noun-aware initialisation.** `SentenceEvidence.evidenceToWorld` assigns each
    sentence a uniformly random existing fact, ignoring its nouns, and
    `WorldGenerator.sampleFacts` loops over every pair times relation (billions at NYT
    scale). Replace with: one entity per distinct noun string (or a random one if
    `numEnts` is smaller), one fact per sentence with a random relation. Facts are then
    created through `Sentences.update`'s auto-add.
-3. **NYT-scale run** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
+2. **NYT-scale run** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
    `maxRels` (try 400), `sparsityA=1`, `sparsityB=N^2`, `beta` around 0.1. Watch the
    entity phase's running time first; it is O(mentions) per smart move.
    Compare against the paper's relation-46 dictionary (listed in the paper) and the
    2013 outputs in `results/output.txt`, which show a "subsidiary of" cluster.
-4. **Figure 1.** Port the commented body of
+3. **Figure 1.** Port the commented body of
    `src/test/java/org/ucb/generative_ie/world/SampleEntropyTest.java` to the current
    API (WorldGenerator's 9-argument constructor, `MCMCInferer(n, world, evidence, rng, steps)`,
    `Inferer.addQuery`/`run(burnin)`; `SentenceSameRelations`, `PrecisionRecallCurve`,
    `LexEntropy` and `SampleEntropy` are unchanged). It writes `prec_recall.out`;
    `scripts/graph_precision_recall.py` plots it (python2 syntax, needs scipy).
-5. Precision evaluation for Section 4: manual, per the paper. Emit the top-20 relations
+4. Precision evaluation for Section 4: manual, per the paper. Emit the top-20 relations
    with their facts in a reviewable form.
 
 ## 9. Notes for a port to another language

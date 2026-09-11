@@ -164,11 +164,44 @@ moving their facts one at a time through unfavourable intermediate states. A
 split-merge move over relations (the relation analogue of the entity SDDS samplers) is
 the next step for mixing.
 
+## Split-merge over relations
+
+`mcmc/RelationSplitMergeStep` adds the relation analogue of the entity samplers, in the
+smart-dumb/dumb-smart style of Wang and Russell (UAI 2015), within the fixed pool:
+
+- a split takes a relation with at least two facts and an empty pool slot and divides
+  the facts (each with its sentences) between them; a merge moves every fact of one
+  non-empty relation into another, and is refused when they share an entity pair,
+  which is exactly what a split can never produce, so the moves are reversible;
+- kernel 1 pairs a smart split (facts allocated one at a time by the collapsed trigger
+  predictive on each side, in a random order used as an auxiliary variable) with a
+  dumb merge (uniform ordered pair); kernel 2 pairs a dumb split (uniform proper
+  subset) with a smart merge (pairs weighted by the trigger likelihood gain);
+- `RelationSplitMergeTest` checks the joint part of the acceptance against
+  `WorldProb`, that the smart-merge probabilities sum to one, and that 2000 steps of
+  both kernels keep every invariant and accept both splits and merges.
+
+`WorldInferSteps` includes both kernels at weight 0.2 each, next to the three
+single-fact moves at weight 1.
+
+### Effect on the 250-sentence slice (same config as above)
+
+| | fact moves only | with split-merge |
+|---|---|---|
+| relations with sentences, posterior | 24 to 28, still falling | 22 to 26, settled by iteration 300 |
+| best total log probability | -4489 | -4454 |
+| president-of | 21 + 9 in two relations | 32 in one |
+| acceptance | n/a | splits 46%, merges 51% |
+
+New clusters that only appear with split-merge: economist-at / professor-at /
+analyst-at merged into one "works at" relation, chairman-of merged with the
+chairman-nn form, spokesman-nn with chief-nn. Director-of is now the one that is
+split in two (19 + 18), so fragmentation is reduced, not gone; longer runs and a
+less sparse `beta` should help.
+
 ## Things that are still not the paper
 
 - The relation count is inferred within a fixed pool (`maxRels`), not unbounded.
-- Split-merge moves exist only for entities; relations change through single-fact
-  moves, which mix slowly (see the duplicate president-of relation above).
 - The initial world still calls `WorldGenerator.sampleFacts`, which loops over every
   entity pair times relation once. At the NYT config that is a few billion iterations
   (minutes) and the initial origins ignore the sentences' nouns entirely; a

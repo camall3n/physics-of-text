@@ -94,6 +94,7 @@ public class EntityResolution extends Experiment {
         initialWorld.show();
         System.out.println("Relations with a fact at the end of the relation phase: " + initialWorld.numOccupiedRelations() + " of " + maxRels);
         System.out.println("Relations expressed by at least one sentence: " + initialWorld.getSentences().numRelationsWithSentences());
+        System.out.println(org.ucb.generative_ie.mcmc.RelationSplitMergeStep.acceptanceReport());
     }
 
     public static void main( String[] args) {
