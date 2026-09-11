@@ -144,14 +144,22 @@ Config fields (`ConfigParser`):
 | `numEnts` | initial entity count; prior centre for N |
 | `numRels` | prior centre for relations in use |
 | `maxRels` | relation pool size (0 = numRels, i.e. fixed count as in the archive) |
-| `numIterations` | total; 1/5 entity phase, 4/5 relation phase; 50 moves each |
+| `numIterations` | total, split between the phases by `entityFraction` |
+| `entityFraction` | share of iterations in the entity phase (default 0.2; 0 skips it) |
+| `stepsPerIteration` | MCMC moves per iteration (default 50; use about the sentence count at scale) |
 | `alpha`, `beta` | Dirichlet concentrations for noun and path dictionaries |
 | `sparsity` | constant sigma, also used to sample the initial world |
 | `sparsityA`, `sparsityB` | Beta prior on per-relation sparsity (0 = use constant) |
 
 Configs on disk: `config-toy.json` (archive), `config-8000.json` (the authors' NYT-scale
 config: 100 relations, 3000 entities, 50k iterations, alpha=beta=0.001,
-sigma=1e-4), `config-250-inferK.json` (our 250-sentence run).
+sigma=1e-4), `config-250-inferK.json` (our 250-sentence run), `config-nyt-inferK.json`
+(our 8516-sentence run; see CHANGES.md for what it produced).
+
+Scale, after the entity-phase fixes: the 2500-sentence corpus (1258 entities, pool
+150) runs 2000 iterations of 50 moves in under 3 minutes. The entity phase barely
+merges anything (the noun-only entity model has no string similarity; the paper's
+arguments were verbatim strings too), so `entityFraction` can be small.
 
 Gotchas:
 
@@ -162,7 +170,11 @@ Gotchas:
   `git checkout -- resources/sampler-140626/dirichlet.output` after running tests.
 - Logging is DEBUG for anything not listed in `src/main/resources/logback.xml`; grep
   `DEBUG|TRACE|++Iteration` out of stdout.
-- The 250-sentence run takes 5 minutes; the entity phase is most of it.
+- Outputs: `logprobs.txt` (all joint terms per iteration), `map_world.txt` (partial
+  listing, ten facts per path), `map_world_sentences.tsv` (every sentence with its
+  relation; use this for evaluation), `relation_triggers.txt` (best trigger-likelihood
+  snapshot, not the final state). `scripts/summarize_relations.py` prints the largest
+  relations with their paths and argument pairs from either listing.
 
 ## 6. What was done (details in CHANGES.md)
 
