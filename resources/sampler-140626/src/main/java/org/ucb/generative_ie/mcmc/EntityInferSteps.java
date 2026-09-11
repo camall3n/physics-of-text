@@ -45,20 +45,9 @@ public class EntityInferSteps extends MCMCSteps{
         weightedNounLexiconRVs = Lists.newArrayList();
         mentionRVs = Lists.newArrayList();
         
-        for (Entity arg1 : world.getEntities()) {
-                for (Entity arg2 : world.getEntities()) {
-                    for (Relation rel : world.getRelations()) {
-                        //if (RandomUtil.binarySample(world.getSparsity(), world.rng)){
-                            factRVs.add(new FactRV(world, new Fact(rel, arg1, arg2)));
-                        //}
-                    }
-                }
-        }
-        
-        for (Sentence s : world.getSentences())
-        {
-            sentenceOriginRVs.add(new SentenceOriginRV(world, s));
-        }
+        // The entity phase never draws fact or sentence-origin steps (their weights below
+        // are zero), so they are not preallocated: one FactRV per entity pair per relation
+        // was 237 million objects at 1258 entities and 150 relations.
         
         for (Map.Entry<Entity, WeightedNounLexicon> entry : world.getWeightedNounLexicons().entrySet())
         {

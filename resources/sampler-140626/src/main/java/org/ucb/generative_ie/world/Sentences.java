@@ -371,6 +371,16 @@ public class Sentences implements Iterable<Sentence> {
     }
     
     
+    /** For log statements: builds the mention listing only if the logger actually formats it. */
+    public Object showMentionsLazily() {
+        return new Object() {
+            @Override
+            public String toString() {
+                return showMentions().toString();
+            }
+        };
+    }
+
     public StringBuilder showMentions() {
         StringBuilder output = new StringBuilder();
         output.append("The current mentions:\n");

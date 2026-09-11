@@ -19,14 +19,15 @@ The paper has two results:
 Status:
 
 - The Java sampler in `resources/sampler-140626/` builds and runs without Maven, has a
-  verified joint probability, and infers the number of relations. Two commits on
-  `main` (6812ca1, 8a2939a, 69022c1) contain all of that work; f83b7b3 added this
-  document.
-- Section 4 has been reproduced in miniature only: a 250-sentence slice yields clean
-  relations ("director of", "chairman of", "president of", "leader", and a merged
-  "economist/professor/analyst at") and a posterior of 22 to 26 relations. The full
-  8516-sentence run has not been attempted.
-- Figure 1 has not been attempted. Its whole pipeline exists but is commented out.
+  verified joint probability, infers the number of relations, and runs the full NYT
+  corpus in 7 minutes. All of that is in the commits on `main` after 9489d21 (the tar
+  import); section 6 lists them.
+- Section 4 is reproduced: the full 8516-sentence run takes 7 minutes, infers 250
+  to 300 relations, and recovers the paper's "subsidiary of" relation with its listed
+  paths and facts. Outputs and a summary are in `resources/sampler-140626/results/nyt-2026/`.
+  The manual precision check of the top 20 relations has not been done.
+- Figure 1 is reproduced qualitatively (`results/figure1-2026/`), weaker than the
+  paper at the high-entropy end.
 - The owner intends to port this to another language. Section 9 has notes for that.
 
 There is no BLOG code anywhere in the tar, despite the paper's "10 lines of BLOG".
@@ -50,8 +51,12 @@ resources/
     data/06-19/pluieTriples-1.json         250-sentence slice used for the small run
     data/06-19/toyTriples.json             10-sentence toy (wrote/authored, love/like)
     test/Entity_resolution_Relation/config-*.json   run configs (see section 5)
-    results/, output/, output-*/           2013-2014 outputs left by the authors
-    scripts/graph_precision_recall.py      plots Figure 1 (python2, needs scipy)
+    results/nyt-2026/                      our NYT run: config, MAP sentences TSV, logprobs, summary.txt
+    results/figure1-2026/                  our Figure 1 data and plot
+    results/ (other), output/, output-*/   2013-2014 outputs left by the authors
+    scripts/plot_precision_recall.py       plots Figure 1 (python3, numpy)
+    scripts/summarize_relations.py         largest relations with paths and pairs from a MAP listing
+    scripts/graph_precision_recall.py      the authors' plot script (python2, needs scipy)
 venv/                                      python3 venv (has pypdf, matplotlib, numpy; no scipy)
 ```
 
@@ -99,8 +104,7 @@ It runs two phases on one `World`:
      lacking a fact for that entity pair. This is the move that lets relations form.
    - `RelationSplitMergeStep` (two kernels, weight 0.2 each): split a relation into two
      or merge two relations, smart-dumb/dumb-smart style. This is what makes the
-     relation count mix. Smart merges score every ordered pair of non-empty relations,
-     so at a few hundred relations in use they will want caching.
+     relation count mix.
 
 Other things to know:
 
@@ -133,7 +137,7 @@ cd resources/sampler-140626
     test/Entity_resolution_Relation/config-toy.json data/06-19/toyTriples.json
 ```
 
-Full fast suite (38 tests, all pass): `RelationSplitMergeTest RelationMovesTest
+Full fast suite (40 tests, all pass): `RelationSplitMergeTest RelationMovesTest
 WorldProbTest SentencesIndexTest ModelFunctionsTest LexEntropyTest SentenceEvidenceTest CounterTest LogProbMapTest
 DirichletDistrTest RandomAccessHashSetTest UtilTest CorpusParserTest`.
 `NormalProbMapTest` fails by construction in the original code; ignore it.
@@ -145,14 +149,22 @@ Config fields (`ConfigParser`):
 | `numEnts` | initial entity count; prior centre for N |
 | `numRels` | prior centre for relations in use |
 | `maxRels` | relation pool size (0 = numRels, i.e. fixed count as in the archive) |
-| `numIterations` | total; 1/5 entity phase, 4/5 relation phase; 50 moves each |
+| `numIterations` | total, split between the phases by `entityFraction` |
+| `entityFraction` | share of iterations in the entity phase (default 0.2; 0 skips it) |
+| `stepsPerIteration` | MCMC moves per iteration (default 50; use about the sentence count at scale) |
 | `alpha`, `beta` | Dirichlet concentrations for noun and path dictionaries |
 | `sparsity` | constant sigma, also used to sample the initial world |
 | `sparsityA`, `sparsityB` | Beta prior on per-relation sparsity (0 = use constant) |
 
 Configs on disk: `config-toy.json` (archive), `config-8000.json` (the authors' NYT-scale
 config: 100 relations, 3000 entities, 50k iterations, alpha=beta=0.001,
-sigma=1e-4), `config-250-inferK.json` (our 250-sentence run).
+sigma=1e-4), `config-250-inferK.json` (our 250-sentence run), `config-nyt-inferK.json`
+(our 8516-sentence run; see CHANGES.md for what it produced).
+
+Scale, after the entity-phase fixes: the 2500-sentence corpus (1258 entities, pool
+150) runs 2000 iterations of 50 moves in under 3 minutes. The entity phase barely
+merges anything (the noun-only entity model has no string similarity; the paper's
+arguments were verbatim strings too), so `entityFraction` can be small.
 
 Gotchas:
 
@@ -163,7 +175,11 @@ Gotchas:
   `git checkout -- resources/sampler-140626/dirichlet.output` after running tests.
 - Logging is DEBUG for anything not listed in `src/main/resources/logback.xml`; grep
   `DEBUG|TRACE|++Iteration` out of stdout.
-- The 250-sentence run takes 5 minutes; the entity phase is most of it.
+- Outputs: `logprobs.txt` (all joint terms per iteration), `map_world.txt` (partial
+  listing, ten facts per path), `map_world_sentences.tsv` (every sentence with its
+  relation; use this for evaluation), `relation_triggers.txt` (best trigger-likelihood
+  snapshot, not the final state). `scripts/summarize_relations.py` prints the largest
+  relations with their paths and argument pairs from either listing.
 
 ## 6. What was done (details in CHANGES.md)
 
@@ -181,6 +197,16 @@ Commit 69022c1: `RelationSplitMergeStep` and `RelationSplitMergeTest`, split-mer
 relations with both SDDS kernels, wired into `WorldInferSteps` at weight 0.2 each.
 CHANGES.md has the before/after table for the 250-sentence slice.
 
+Commits 20553ed through 651bab8 (same day): noun-aware initialisation
+(`SentenceEvidence.evidenceToWorldByNoun`, `WorldGenerator.emptyWorld`); four more
+archive bugs that made the entity phase unrunnable at scale (CHANGES.md bugs 7 to
+10: a 237-million-object preallocation, a Dirichlet draw over every noun per entity
+per step, eager debug strings, observers rescanning the corpus per relation per
+path); the Figure 1 experiment (`LexicalEntropyExperiment`); config options
+`entityFraction` and `stepsPerIteration`; the MAP-world TSV dump and
+`summarize_relations.py`; an incremental smart-merge score with a memoised
+log-gamma table (`LogGammaTable`); and the saved NYT and Figure 1 results.
+
 The verification pattern used throughout, and the one to keep using: every sampler
 move exposes its log-odds or log-acceptance as a public method, and a test compares it
 to the difference of `WorldProb.logProb()` between the two states (plus the log
@@ -196,43 +222,49 @@ makes a one-path relation much cheaper than a two-path one, which cancels the
 sparsity argument for merging. **The paper's bootstrapping argument holds only if
 `beta` is not tiny. Pick it deliberately.**
 
-250-sentence NYT slice (`config-250-inferK.json`, `beta=0.1`, Beta(1, 265^2) sparsity,
-pool 40, prior centre 10, 5 minutes): with split-merge, posterior over relations with
-sentences 22 to 26, settled within 300 iterations; splits and merges accepted about
-half the time. Clean clusters for president-of (32 sentences), chairman-of (33 + 4),
-leader (39), a merged economist/professor/analyst-at (24). Director-of is still split
-in two (19 + 18).
+250-sentence NYT slice (`config-250-inferK.json`): posterior over relations with
+sentences 22 to 26; clean clusters for president-of, chairman-of, leader, and a merged
+economist/professor/analyst-at.
+
+Full NYT corpus (`config-nyt-inferK.json`, 7 minutes): posterior 250 to 300 relations,
+MAP 256; the paper's subsidiary-of relation recovered (302 sentences: unit-of,
+part-of, owned-by, subsidiary-of, division-of; BBDO Worldwide / Omnicom Group), plus
+sports results, executives, leaders, tell/urge/ask, based-in, analyst-at,
+spokesman-for, lawyer-for. Details and the remaining gaps in CHANGES.md.
 
 ## 8. Recommended next steps, in order
 
-Split-merge over relations is done (see section 7), so mixing is no longer the first
-problem; scale and initialisation are.
+Both of the paper's results are reproduced at least qualitatively, so what remains is
+evaluation and tightening.
 
-1. **Noun-aware initialisation.** `SentenceEvidence.evidenceToWorld` assigns each
-   sentence a uniformly random existing fact, ignoring its nouns, and
-   `WorldGenerator.sampleFacts` loops over every pair times relation (billions at NYT
-   scale). Replace with: one entity per distinct noun string (or a random one if
-   `numEnts` is smaller), one fact per sentence with a random relation. Facts are then
-   created through `Sentences.update`'s auto-add.
-2. **NYT-scale run** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
-   `maxRels` (try 400), `sparsityA=1`, `sparsityB=N^2`, `beta` around 0.1. Watch the
-   entity phase's running time first; it is O(mentions) per smart move.
-   Compare against the paper's relation-46 dictionary (listed in the paper) and the
-   2013 outputs in `results/output.txt`, which show a "subsidiary of" cluster.
-3. **Figure 1.** Port the commented body of
-   `src/test/java/org/ucb/generative_ie/world/SampleEntropyTest.java` to the current
-   API (WorldGenerator's 9-argument constructor, `MCMCInferer(n, world, evidence, rng, steps)`,
-   `Inferer.addQuery`/`run(burnin)`; `SentenceSameRelations`, `PrecisionRecallCurve`,
-   `LexEntropy` and `SampleEntropy` are unchanged). It writes `prec_recall.out`;
-   `scripts/graph_precision_recall.py` plots it (python2 syntax, needs scipy).
-4. Precision evaluation for Section 4: manual, per the paper. Emit the top-20 relations
-   with their facts in a reviewable form.
+1. **Precision evaluation of the NYT run.** Go through
+   `resources/sampler-140626/results/nyt-2026/summary.txt` relation by relation and
+   judge, as the paper did, whether each relation's argument pairs are correct
+   instances of what its paths say. Report per-relation precision for the top 20; the
+   paper claims roughly 95%. The full sentence list is in `map_world_sentences.tsv`.
+2. **Longer run and a `beta` sweep.** The NYT run used 1000 iterations of 2000 moves
+   with `beta=0.1`; the relation count (250 to 300 against the paper's ~200) and the
+   duplicates (a second subsidiary-of relation with 64 sentences) depend on `beta` and
+   on run length. Try `stepsPerIteration` near the sentence count, more iterations, and
+   `beta` in {0.05, 0.1, 0.3, 1}. Watch `relations_with_sentences` in `logprobs.txt`
+   for convergence.
+3. **Figure 1 at the paper's strength.** Our curve at entropy 0.9 gives 0.65
+   precision at 0.1 recall; the paper reports 0.9. Unknowns: their sparsity, iteration
+   count and burn-in. `LexicalEntropyExperiment` takes those as constants at the top of
+   `main`; a sweep is cheap (12 seconds per run).
+4. **Entity resolution.** The entity phase merges almost nothing because the noun-only
+   model has no string similarity ("Mr. Simpson" and "O. J. Simpson" never meet). The
+   paper defers this to later work; if it matters, a mention model with string
+   features is the change, not more iterations.
+5. **Unbounded relation count.** The pool (`maxRels`) is a fixed upper bound; the
+   posterior sat well inside 400 on NYT, so this is cosmetic unless a corpus needs more.
 
 ## 9. Notes for a port to another language
 
 What is worth keeping: the model in section 3, the collapsed conditionals in
-`SentenceOriginRV`, `FactRV`, `FactRelationMoveStep`, `ModelFunctions.logMoveTriggersRatio`,
-and the test discipline in section 6. What is not: the index bookkeeping in
+`SentenceOriginRV`, `FactRV`, `FactRelationMoveStep`, the split-merge kernels in
+`RelationSplitMergeStep` (with `logMergeGain` and `LogGammaTable`), and the test
+discipline in section 6. What is not: the index bookkeeping in
 `Sentences` (five multimaps and two histogram maps kept in sync by hand), the
 `Mention`/`Sentence`/`Fact` object web, the observer classes, and the entity samplers'
 static acceptance counters. A port should keep counts (facts per relation, trigger
@@ -245,7 +277,10 @@ The entity samplers (`mh/Entity*`) are the hardest part to port faithfully; the 
 
 ## 10. Where things are on disk
 
-- Small-run outputs from our sessions are in the session scratchpad only; regenerate
-  them with the commands above. Nothing under `output/` in the repo is ours.
-- The extracted paper text used for reference lives nowhere permanent; re-extract with
+- Our run outputs that matter are committed: `results/nyt-2026/` and
+  `results/figure1-2026/` under the sampler directory. Everything else under
+  `results/`, `output/` and `output-*/` is the authors' 2013-2014 material.
+- Intermediate runs (toy, 250 and 2500 sentences) were not kept; their numbers are in
+  CHANGES.md and they regenerate in minutes with the commands in section 5.
+- The paper text used for reference is not stored; re-extract it with
   `venv/bin/python3 -c "from pypdf import PdfReader; ..."` if needed.

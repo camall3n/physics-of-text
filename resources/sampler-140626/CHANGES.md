@@ -109,6 +109,33 @@ covered by `WorldProbTest` or `SentencesIndexTest`.
    sentences it computed `0 * log(inf)`; with the fact being the only one it raised
    "Infinite value". Fix: `logOddsExists()` handles both.
 
+7. **`MentionRV` sampled a Dirichlet over every noun for every entity on every step**
+   (`MentionRV`). It tested the relation-dictionary map for an entity key, which is
+   never there, so it "initialised" every entity's noun dictionary with a fresh
+   Dirichlet draw each time, over a million gamma draws per step at 1258 entities, and
+   never used the result (the step conditions on histograms). It also copied every
+   entity's histogram per step. Rewritten as the plain collapsed Gibbs step it was
+   meant to be; same conditional, no allocation.
+
+8. **Entity samplers built the full mention listing for debug logging on every
+   proposal** (`mh/Entity*`). `logger.debug("...", showMentions())` formats lazily but
+   the argument was built eagerly: a string of every mention in the corpus, per
+   proposal. Replaced by `Sentences.showMentionsLazily()`.
+
+10. **The observers rescanned the whole corpus per relation per path**
+   (`RelationTriggersObserver`, `EntityMentionsObserver`). Building the
+   `relation_triggers.txt` listing looped over every sentence once for each (relation,
+   path) pair, and the entity listing once per (entity, noun) pair; and the relation
+   observer never updated its best score, so it rewrote the file every iteration. At
+   8516 sentences these two accounted for half of the running time. Both listings are
+   now built in one pass.
+
+9. **The entity phase preallocated one `FactRV` per entity pair per relation**
+   (`EntityInferSteps`). It never drew from that list (the fact and sentence-origin
+   step weights are zero in the entity phase), but at 1258 entities and a pool of 150
+   relations the constructor tried to build 237 million objects and the run hung at
+   several gigabytes before the first iteration. Fix: don't build them.
+
 ## Inferring the number of relations
 
 The archive fixed the number of relations at `numRels`. The paper puts a broad prior on
@@ -199,13 +226,88 @@ chairman-nn form, spokesman-nn with chief-nn. Director-of is now the one that is
 split in two (19 + 18), so fragmentation is reduced, not gone; longer runs and a
 less sparse `beta` should help.
 
+## Scaling to the NYT corpus
+
+Profiling the 8516-sentence run with stack samples found the observers (bug 10 above)
+and the smart-merge scoring sharing the time. The merge gain
+logBetaProb(keep + absorbed) - logBetaProb(keep) is now computed from the absorbed
+relation's entries only (`RelationSplitMergeStep.logMergeGain`, checked against the
+full recomputation in `RelationSplitMergeTest`). Config gained `stepsPerIteration`
+(the archive hard-coded 50 moves per iteration, far too few for thousands of
+sentences) and `entityFraction`.
+
+## Noun-aware initialisation and a linear smart merge
+
+`SentenceEvidence.evidenceToWorldByNoun` replaces the archive's initialisation in
+`EntityResolution`. The old path sampled every one of the N^2 K potential facts
+(`WorldGenerator.sampleFacts`, billions of draws at NYT scale) and then gave each
+sentence a uniformly random existing fact, so a sentence's initial entities had nothing
+to do with its nouns. The new path starts from `WorldGenerator.emptyWorld()`, gives each
+distinct noun string its own entity (spread at random if there are fewer entities than
+nouns), each sentence a random relation from the pool, and creates exactly the facts
+the sentences need. `SentencesIndexTest.nounAwareInitialisationIsConsistent` checks it.
+`evidenceToWorld` is kept for tests.
+
+The smart merge in `RelationSplitMergeStep` now picks the absorbed relation uniformly
+and scores only the candidate keepers, O(M) per proposal instead of O(M^2); the
+normalisation test still holds.
+
+## Figure 1
+
+`experiments/LexicalEntropyExperiment` is the commented-out 2013 `SampleEntropyTest`
+on the current API: 5000 worlds sampled with 10 entities (one noun each), 2 relations,
+5 dependency paths, sparsity 0.3, path-dictionary concentration 0.5, 60 sentences;
+binned by lexical entropy; eight per bin inferred from their sentences alone (2000
+iterations of 10 relation-phase moves, burn-in a quarter) with every sentence pair
+queried for "same relation"; precision/recall against the generating world.
+`scripts/plot_precision_recall.py` (python3, numpy) plots it. Output of the run on
+2026-09-11 is in `results/figure1-2026/` (12 seconds of compute).
+
+The curves order cleanly by entropy: at entropy 0.1, precision 0.96 out to recall 0.6;
+at 0.3, 0.95 falling to 0.85 by recall 0.6; at 0.9, 0.65 at recall 0.1 falling to the
+0.5 base rate. The paper's figure shows the same ordering but is stronger at the top:
+it reports 0.9 precision at 0.1 recall for entropy 0.9. Candidate reasons: the 2013
+run's exact sparsity, iteration count and burn-in are unknown, and its inference
+used the old MH steps rather than the current moves.
+
+## The NYT run (Section 4 of the paper)
+
+`test/Entity_resolution_Relation/config-nyt-inferK.json` on
+`data/Umass-sub-corpus/pluieTriples_2013_01_06_5.json` (8516 sentences, 1199 noun
+strings, 4276 dependency paths, 920 argument pairs; the file the authors' 2013 log
+was produced from): 1199 entities, relation pool 400 with the prior centred on 200,
+`beta=0.1`, Beta(1, 1199^2) sparsity, 1000 iterations of 2000 moves, 2% entity phase.
+Wall clock 7 minutes 16 seconds on 2026-09-11 (the paper: "about 10 minutes").
+Outputs are in `results/nyt-2026/`: the config, every sentence of the MAP world with
+its relation (`map_world_sentences.tsv`), the per-iteration log-probability terms, and
+`summary.txt` with the 40 largest relations.
+
+- Relations expressed in the text: posterior 250 to 300 (mode 274), MAP world 256.
+  The paper reports "roughly 200".
+- Splits and merges were accepted 43% and 56% of the time.
+- The paper's relation 46, "subsidiary of", is `rel_325` in the MAP world: 302
+  sentences, 47 argument pairs, top paths `appos->unit->prep->of` (28),
+  `nn<-unit->prep->of` (27), `appos->part->prep->of` (23), `partmod->own->prep->by`
+  (21), `rcmod->own->prep->by` (18), then subsidiary-of and division-of; facts include
+  (BBDO Worldwide, Omnicom Group), (American, AMR Corporation), (United, UAL
+  Corporation). Of the sentences using those paths in the whole corpus, 231 are in
+  `rel_325` and 64 in a second relation `rel_80`, so the paper's list is recovered with
+  one duplicate.
+- The other large relations are equally recognisable: sports results
+  (beat/lose to/defeat, 397 sentences), executives (head/chairman/director/founder/
+  president of, 368), political leaders (355), tell/urge/ask (328), chairman-of
+  (324), based-in (297), wins (282), analyst-at (234), spokesman-for (229),
+  moved-to (220), lawyer-for (208).
+
+Not yet done: the paper's manual precision check of the 20 most common relations
+(reported as roughly 95%). `results/nyt-2026/summary.txt` is laid out for it.
+
 ## Things that are still not the paper
 
-- The relation count is inferred within a fixed pool (`maxRels`), not unbounded.
-- The initial world still calls `WorldGenerator.sampleFacts`, which loops over every
-  entity pair times relation once. At the NYT config that is a few billion iterations
-  (minutes) and the initial origins ignore the sentences' nouns entirely; a
-  noun-aware initialisation would help the entity phase.
+- The relation count is inferred within a fixed pool (`maxRels`), not unbounded; at
+  the NYT config the posterior (250 to 300) sits well inside the pool of 400.
+- The largest relations still have a few duplicates (a second subsidiary-of relation
+  with 64 sentences); longer runs or a smaller `beta` may reduce that.
 - The entity phase takes most of the running time on the 250-sentence slice.
 
 ## Verified

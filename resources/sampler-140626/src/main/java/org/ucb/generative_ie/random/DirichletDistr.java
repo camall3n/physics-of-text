@@ -19,6 +19,13 @@ public class DirichletDistr {
             p[i] = Gamma.staticNextDouble(params[i], 1);
             cum = cum + p[i];
         }
+        if (!(cum > 0)) {
+            // every gamma draw underflowed to zero (tiny concentration): put all mass on one component,
+            // which is the limit of Dirichlet(alpha -> 0)
+            java.util.Arrays.fill(p, 0);
+            p[new java.util.Random().nextInt(n)] = 1;
+            return p;
+        }
         for (int i = 0; i < n; i++) {
             p[i] = p[i]/cum;
         }

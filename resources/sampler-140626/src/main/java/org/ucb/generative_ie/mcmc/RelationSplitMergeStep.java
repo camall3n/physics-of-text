@@ -1,5 +1,7 @@
 package org.ucb.generative_ie.mcmc;
 
+import org.apache.commons.math3.special.Gamma;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -7,6 +9,7 @@ import java.util.Random;
 import java.util.Set;
 
 import org.ucb.generative_ie.inference.ModelFunctions;
+import org.ucb.generative_ie.util.LogGammaTable;
 import org.ucb.generative_ie.random.RandomUtil;
 import org.ucb.generative_ie.world.EntityPair;
 import org.ucb.generative_ie.world.Fact;
@@ -149,12 +152,12 @@ public class RelationSplitMergeStep implements MCMCStep {
             logForward = -Math.log(m) - Math.log(m - 1);
         }
         else {
-            Map<RelationPair, Double> scores = smartMergeLogScores(nonEmpty);
+            // smart merge: the absorbed relation uniformly, the keeper by trigger likelihood gain
+            absorb = RandomUtil.choice(nonEmpty, rng);
+            Map<Relation, Double> scores = smartKeepLogScores(nonEmpty, absorb);
             double logNorm = logSumExp(scores.values());
-            RelationPair chosen = sampleLog(scores, logNorm, rng);
-            keep = chosen.keep;
-            absorb = chosen.absorb;
-            logForward = scores.get(chosen) - logNorm;
+            keep = sampleLog(scores, logNorm, rng);
+            logForward = -Math.log(m) + scores.get(keep) - logNorm;
         }
         if (sharesEntityPair(keep, absorb)) {
             return 0;
@@ -300,38 +303,68 @@ public class RelationSplitMergeStep implements MCMCStep {
     }
 
     private static double logPredictive(Multiset<Trigger> hist, Multiset<Trigger> added, double beta, int numTrigs) {
-        Multiset<Trigger> combined = HashMultiset.create(hist);
-        combined.addAll(added);
-        return ModelFunctions.logBetaProb(combined, beta, numTrigs) - ModelFunctions.logBetaProb(hist, beta, numTrigs);
+        return logMergeGain(hist, added, beta, numTrigs);
     }
 
-    /** Unnormalised log score of merging {@code absorb} into {@code keep}: the collapsed trigger likelihood gain. */
-    private Map<RelationPair, Double> smartMergeLogScores(List<Relation> nonEmpty) {
+    /**
+     * Unnormalised log score of each candidate keeper for absorbing {@code absorb}: the
+     * gain in collapsed trigger likelihood from merging the two histograms. Linear in the
+     * number of non-empty relations, so the smart merge stays cheap at a few hundred.
+     */
+    private Map<Relation, Double> smartKeepLogScores(List<Relation> nonEmpty, Relation absorb) {
         double beta = world.getBeta();
         int numTrigs = world.getWeightedLexicons().getLex().size();
-        Map<Relation, Double> single = Maps.newHashMap();
-        for (Relation r : nonEmpty) {
-            single.put(r, ModelFunctions.logBetaProb(world.getSentences().triggerHistogram(r), beta, numTrigs));
-        }
-        Map<RelationPair, Double> scores = Maps.newHashMap();
+        Multiset<Trigger> absorbHist = world.getSentences().triggerHistogram(absorb);
+        double absorbAlone = ModelFunctions.logBetaProb(absorbHist, beta, numTrigs);
+        Map<Relation, Double> scores = Maps.newHashMap();
         for (Relation keep : nonEmpty) {
-            for (Relation absorb : nonEmpty) {
-                if (keep.equals(absorb)) {
-                    continue;
-                }
-                Multiset<Trigger> merged = HashMultiset.create(world.getSentences().triggerHistogram(keep));
-                merged.addAll(world.getSentences().triggerHistogram(absorb));
-                double gain = ModelFunctions.logBetaProb(merged, beta, numTrigs) - single.get(keep) - single.get(absorb);
-                scores.put(new RelationPair(keep, absorb), gain);
+            if (keep.equals(absorb)) {
+                continue;
             }
+            Multiset<Trigger> keepHist = world.getSentences().triggerHistogram(keep);
+            scores.put(keep, logMergeGain(keepHist, absorbHist, beta, numTrigs) - absorbAlone);
         }
         return scores;
     }
 
+    /**
+     * logBetaProb(keep + added) - logBetaProb(keep), touching only the entries of {@code added}:
+     * sum_t [lgamma(n_t + a_t + beta) - lgamma(n_t + beta)] - [lgamma(N + A + beta T) - lgamma(N + beta T)].
+     */
+    static double logMergeGain(Multiset<Trigger> keep, Multiset<Trigger> added, double beta, int numTrigs) {
+        LogGammaTable perPath = perPathTable(beta);
+        LogGammaTable perTotal = perTotalTable(beta * numTrigs);
+        double gain = 0;
+        for (Multiset.Entry<Trigger> e : added.entrySet()) {
+            int base = keep.count(e.getElement());
+            gain += perPath.get(base + e.getCount()) - perPath.get(base);
+        }
+        int total = keep.size();
+        gain -= perTotal.get(total + added.size()) - perTotal.get(total);
+        return gain;
+    }
+
+    private static LogGammaTable perPath, perTotal;
+
+    private static synchronized LogGammaTable perPathTable(double offset) {
+        if (perPath == null || perPath.offset() != offset) {
+            perPath = new LogGammaTable(offset);
+        }
+        return perPath;
+    }
+
+    private static synchronized LogGammaTable perTotalTable(double offset) {
+        if (perTotal == null || perTotal.offset() != offset) {
+            perTotal = new LogGammaTable(offset);
+        }
+        return perTotal;
+    }
+
     /** log probability that the smart merge picks (keep, absorb) in the current state. */
     public double logSmartMergeProb(Relation keep, Relation absorb) {
-        Map<RelationPair, Double> scores = smartMergeLogScores(relationsWithAtLeast(1));
-        return scores.get(new RelationPair(keep, absorb)) - logSumExp(scores.values());
+        List<Relation> nonEmpty = relationsWithAtLeast(1);
+        Map<Relation, Double> scores = smartKeepLogScores(nonEmpty, absorb);
+        return -Math.log(nonEmpty.size()) + scores.get(keep) - logSumExp(scores.values());
     }
 
     private static Set<Fact> randomProperSubset(List<Fact> facts, Random rng) {
@@ -441,11 +474,11 @@ public class RelationSplitMergeStep implements MCMCStep {
         return x > -0.693 ? Math.log(-Math.expm1(x)) : Math.log1p(-Math.exp(x));
     }
 
-    private static RelationPair sampleLog(Map<RelationPair, Double> scores, double logNorm, Random rng) {
+    private static Relation sampleLog(Map<Relation, Double> scores, double logNorm, Random rng) {
         double u = Math.log(rng.nextDouble());
         double acc = Double.NEGATIVE_INFINITY;
-        RelationPair last = null;
-        for (Map.Entry<RelationPair, Double> e : scores.entrySet()) {
+        Relation last = null;
+        for (Map.Entry<Relation, Double> e : scores.entrySet()) {
             acc = logSumExp2(acc, e.getValue() - logNorm);
             last = e.getKey();
             if (u < acc) {
@@ -453,25 +486,6 @@ public class RelationSplitMergeStep implements MCMCStep {
             }
         }
         return last;
-    }
-
-    static final class RelationPair {
-        final Relation keep, absorb;
-
-        RelationPair(Relation keep, Relation absorb) {
-            this.keep = keep;
-            this.absorb = absorb;
-        }
-
-        @Override
-        public int hashCode() {
-            return 31 * keep.hashCode() + absorb.hashCode();
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            return o instanceof RelationPair && ((RelationPair) o).keep.equals(keep) && ((RelationPair) o).absorb.equals(absorb);
-        }
     }
 
     public static String acceptanceReport() {

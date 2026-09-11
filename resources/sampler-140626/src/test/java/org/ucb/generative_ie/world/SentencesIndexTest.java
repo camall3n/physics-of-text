@@ -60,6 +60,34 @@ public class SentencesIndexTest {
     }
 
     @Test
+    public void nounAwareInitialisationIsConsistent() {
+        Random rng = new Random(3);
+        CorpusParser parser = new CorpusParser("data/06-19/pluieTriples-2.json");   // 125 sentences
+        SentenceEvidence evidence = parser.getEvidence();
+        WorldGenerator generator = new WorldGenerator(rng, Entities.defaultEntities(300), Relations.defaultRelations(20),
+                parser.getNounLexicon(), parser.getLexicon(), 0.01, 0.1, new ConstantSparsityGenerator(0.001), evidence.numSentences());
+        World world = generator.emptyWorld();
+        assertEquals(0, world.getFacts().size());
+        evidence.evidenceToWorldByNoun(world, rng);
+
+        assertEquals(evidence.numSentences(), world.getSentences().size());
+        assertIndexesConsistent("after noun-aware initialisation", world);
+        assertTrue(new WorldProb(world).consistencyProblems().isEmpty());
+        assertEquals(parser.getNouns().size(), world.getSentences().getNonEmptyEntitySize());   // one entity per noun
+        java.util.Map<Noun, Entity> seen = new java.util.HashMap<Noun, Entity>();
+        for (Sentence s : world.getSentences()) {
+            for (Mention m : new Mention[] {s.getSourceMention(), s.getDestMention()}) {
+                Entity prev = seen.put(m.getNoun(), m.getEntity());
+                assertTrue("same noun, same entity", prev == null || prev.equals(m.getEntity()));
+            }
+        }
+        new WorldProb(world).logProb();   // finite and consistent
+
+        new MCMCInferer(20, world, evidence, rng, new WorldInferSteps(world, evidence, 20)).run();
+        assertIndexesConsistent("after relation steps", world);
+    }
+
+    @Test
     public void indexesSurviveBothPhasesOnToyCorpus() {
         Random rng = new Random(7);
         CorpusParser parser = new CorpusParser("data/06-19/toyTriples.json");

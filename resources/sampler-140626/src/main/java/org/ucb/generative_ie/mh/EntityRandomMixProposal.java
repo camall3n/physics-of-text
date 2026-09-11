@@ -90,7 +90,7 @@ public class EntityRandomMixProposal extends MHProposal{
         }
         
         logger.debug("\nnew Entity Random Mix proposal");
-        logger.debug("current mentions: \n {}", world.getSentences().showMentions());
+        logger.debug("current mentions: \n {}", world.getSentences().showMentionsLazily());
         logger.debug("Entity size: {}", world.getNumEntities());
         logger.debug("Entities chosen: {} {}", entity1.toString(), entity2.toString());
         logger.debug("Mention size: {} and {} in {}", countMentionsEntity1, countMentionsEntity2, countMentions);
@@ -262,7 +262,7 @@ public class EntityRandomMixProposal extends MHProposal{
     
     @Override
     public void applyProposal() {
-        //logger.debug("Mentions before proposal applied: \n  {}", world.getSentences().showMentions());
+        //logger.debug("Mentions before proposal applied: \n  {}", world.getSentences().showMentionsLazily());
         
         
         logger.debug("Applying proposal:");
@@ -314,7 +314,7 @@ public class EntityRandomMixProposal extends MHProposal{
             }
         }
         logger.debug("Proposal applied!");
-        logger.debug("Mentions after proposal applied: \n  {}", world.getSentences().showMentions());
+        logger.debug("Mentions after proposal applied: \n  {}", world.getSentences().showMentionsLazily());
 
         
         //this part is commented because that only the empty entity duing the merge proposal should be removed rather than all the empty entities

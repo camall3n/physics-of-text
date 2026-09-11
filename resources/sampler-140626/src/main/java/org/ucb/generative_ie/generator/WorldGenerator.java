@@ -35,6 +35,20 @@ public class WorldGenerator {
     private final double alpha;
     private final double beta;
     private final int numSentences;
+    private boolean identityNouns = false;
+
+    /**
+     * Name each entity by exactly one noun (entity i by noun i) instead of sampling
+     * noun dictionaries from the Dirichlet prior, removing entity ambiguity from the
+     * generated text. Requires as many nouns as entities.
+     */
+    public WorldGenerator withIdentityNouns() {
+        if (nounLexicon.size() < entities.sizeCurrent()) {
+            throw new IllegalArgumentException("identity nouns need at least one noun per entity");
+        }
+        this.identityNouns = true;
+        return this;
+    }
 
     public WorldGenerator(Random rng,  Entities entities, Relations relations,
             NounLexicon nounLexicon, Lexicon lexicon, 
@@ -54,6 +68,17 @@ public class WorldGenerator {
 
     public World sampleWorld() {
         return sampleWorld(true);
+    }
+
+    /**
+     * A world with dictionaries sampled from their priors but no facts and no
+     * sentences, for initialising inference from evidence without visiting every
+     * one of the N^2 K potential facts (see SentenceEvidence.evidenceToWorldByNoun).
+     */
+    public World emptyWorld() {
+        double sparsity = sparsityGenerator.sampleSparsity(rng);
+        return new World(new Facts(), entities, relations, new Sentences(entities, relations),
+                sampleWeightedNounLexicons(), sampleWeightedLexicons(), alpha, beta, sparsity);
     }
 
     public World sampleWorld(boolean fullWorld) {
@@ -115,8 +140,13 @@ public class WorldGenerator {
         double alphas[] = new double[nounLexicon.size()];
         Arrays.fill(alphas, alpha);
         
+        int index = 0;
         for (Entity ent : entities) {
-            double newProbas [] = DirichletDistr.dirichlet(alphas);            
+            double newProbas [] = DirichletDistr.dirichlet(alphas);
+            if (identityNouns) {
+                newProbas = new double[nounLexicon.size()];
+                newProbas[index++] = 1;
+            }
             WeightedNounLexicon wnLex = new WeightedNounLexicon(nounLexicon, newProbas);            
             weightedNounLexicons.put(ent, wnLex);
         }

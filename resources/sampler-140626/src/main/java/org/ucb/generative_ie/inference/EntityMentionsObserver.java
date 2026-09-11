@@ -1,5 +1,13 @@
 package org.ucb.generative_ie.inference;
 
+import com.google.common.collect.Maps;
+
+import com.google.common.collect.Lists;
+
+import java.util.Map;
+
+import java.util.List;
+
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multisets;
@@ -31,73 +39,40 @@ public class EntityMentionsObserver extends WorldObserver{
         this.bestProb = Double.NEGATIVE_INFINITY;
     }
     
+    /** Entities with their nouns by count and up to ten example sentences per noun. One pass over the mentions. */
     public String getDescription(World world) {
-         StringBuilder output = new StringBuilder();
-         
-         //for (Entity e : Util.asSortedList(world.getWeightedNounLexicons().keySet())) {
-         for (Entity e : world.getEntities().asList()) {
-             output.append(String.format("%-12s : %s\n", e, world.getWeightedNounLexicons().get(e)));
-             
-             Multiset <Noun> histogram = HashMultiset.create();
-             //for (Sentence s : world.getSentences().sentencesWithSourceEntity(e)) {
-             //    histogram.add(s.getArg1());
-             //}
-             //
-             //for (Sentence s : world.getSentences().sentencesWithDestEntity(e)) {
-             //    histogram.add(s.getArg2());
-             //}
-             
-             for (Mention mention: world.getSentences().getMentionsByEntity(e)) {
-                 histogram.add(mention.getNoun());
-             }
-             
-             for (Noun noun : Multisets.copyHighestCountFirst(histogram).elementSet()) {
-                 int count = histogram.count(noun);
-                 if  (count > 0) {
-                     output.append(String.format("  %-80s : %d\n", noun, count));
-                 }
-             }
-             output.append("\n");
-             
-              for (Noun noun : Multisets.copyHighestCountFirst(histogram).elementSet()) {
-                  int count = histogram.count(noun);
-                  if (count > 0) {
-                     output.append(String.format("  %-80s : %d\n", noun, count));
-                     Set <Fact> origins = Sets.newHashSet();
-                     Set <Sentence> sentences = Sets.newHashSet();
-                     for (Sentence s : world.getSentences()) {
-                         if (origins.size() >= 10)  {//show the top 10
-                             break;
-                         }
-                         
-                         if (s.getArg1().equals(noun) && s.getOrigin().getEnt1().equals(e)) {
-                             origins.add(s.getOrigin());
-                             sentences.add(s);
-                         }
-                         
-                         if (s.getArg2().equals(noun) && s.getOrigin().getEnt2().equals(e)) {
-                             origins.add(s.getOrigin());
-                             sentences.add(s);
-                         }
-                     }
-                     
-                     //for (Fact origin : origins) {
-                     //    output.append(String.format("       %s\n", origin));
-                     //}
-                     for (Sentence s : sentences) {
-                         output.append(String.format("     %s\n", s));
-                     }
-                  }
-              }
-              output.append("\n\n");
-         }
-         
-         output.append("================================================================================");
-         return output.toString();
+        StringBuilder output = new StringBuilder();
+        for (Entity e : world.getEntities().asList()) {
+            output.append(String.format("%-12s : %s\n", e, world.getWeightedNounLexicons().get(e)));
+            Multiset<Noun> histogram = HashMultiset.create();
+            Map<Noun, List<Sentence>> examples = Maps.newHashMap();
+            for (Mention mention : world.getSentences().getMentionsByEntity(e)) {
+                histogram.add(mention.getNoun());
+                List<Sentence> ex = examples.get(mention.getNoun());
+                if (ex == null) {
+                    ex = Lists.newArrayList();
+                    examples.put(mention.getNoun(), ex);
+                }
+                if (ex.size() < 10 && mention.getSentence() instanceof Sentence) {
+                    ex.add((Sentence) mention.getSentence());
+                }
+            }
+            for (Noun noun : Multisets.copyHighestCountFirst(histogram).elementSet()) {
+                output.append(String.format("  %-80s : %d\n", noun, histogram.count(noun)));
+            }
+            output.append("\n");
+            for (Noun noun : Multisets.copyHighestCountFirst(histogram).elementSet()) {
+                output.append(String.format("  %-80s : %d\n", noun, histogram.count(noun)));
+                for (Sentence s : examples.get(noun)) {
+                    output.append(String.format("     %s\n", s));
+                }
+            }
+            output.append("\n\n");
+        }
+        output.append("================================================================================");
+        return output.toString();
     }
 
-   
-    
     @Override
     public void observe(World world, int iteration) {
         

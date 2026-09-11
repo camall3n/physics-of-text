@@ -26,6 +26,18 @@ public class ObserveProb extends WorldObserver {
         bestLogProb = Double.NEGATIVE_INFINITY;
     }
     
+    /** Every sentence of the world with its relation, entities and dependency path, one per line. */
+    public static String sentencesTsv(World world) {
+        StringBuilder sb = new StringBuilder("relation\tentity1\tentity2\targ1\targ2\tpath\n");
+        for (org.ucb.generative_ie.world.Sentence s : world.getSentences()) {
+            sb.append(s.getOrigin().getRel().getName()).append('\t')
+              .append(s.getOrigin().getEnt1()).append('\t').append(s.getOrigin().getEnt2()).append('\t')
+              .append(s.getArg1().getName()).append('\t').append(s.getArg2().getName()).append('\t')
+              .append(s.getTrig().getString()).append('\n');
+        }
+        return sb.toString();
+    }
+
     @Override
     public void observe(World world, int iteration) {
         WorldProb probber = new WorldProb(world);
@@ -59,6 +71,7 @@ public class ObserveProb extends WorldObserver {
                 String mentionsDescription = moberserver.getDescription(world);
                 String totalMentions = nextLogProb + "\n" + mentionsDescription;
                 Util.writeToFile(Util.joinPath(filename, "map_world_mentions.txt"), totalMentions);
+                Util.writeToFile(Util.joinPath(filename, "map_world_sentences.tsv"), sentencesTsv(world));
                 
                 bestLogProb = nextLogProb;
             }

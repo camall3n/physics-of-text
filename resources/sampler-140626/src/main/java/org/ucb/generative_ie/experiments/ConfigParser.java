@@ -17,6 +17,8 @@ public final class ConfigParser {
     public int maxRels;        // relation pool size (0: numRels); numRels is then the prior mean of relations in use
     public double sparsityA;   // Beta(a, b) prior on per-relation sparsity (0: constant sparsity)
     public double sparsityB;
+    public double entityFraction = 0.2;   // share of numIterations spent in the entity phase (0 skips it)
+    public int stepsPerIteration = 50;    // MCMC moves per recorded iteration
     
     public ConfigParser(String configFile){
         FileReader reader;
@@ -42,6 +44,12 @@ public final class ConfigParser {
         this.maxRels = config.maxRels;
         this.sparsityA = config.sparsityA;
         this.sparsityB = config.sparsityB;
+        if (config.entityFraction != null) {
+            this.entityFraction = config.entityFraction;
+        }
+        if (config.stepsPerIteration != null) {
+            this.stepsPerIteration = config.stepsPerIteration;
+        }
     }
     
     public void showConfig() {
@@ -58,6 +66,7 @@ public final class ConfigParser {
         if (this.sparsityA > 0) {
             output.append(String.format("  Sparsity prior: Beta(%f, %f)\n", this.sparsityA, this.sparsityB));
         }
+        output.append(String.format("  Entity phase fraction: %.2f, moves per iteration: %d\n", this.entityFraction, this.stepsPerIteration));
         
         output.append("================================================================\n");
         
@@ -74,5 +83,7 @@ public final class ConfigParser {
         public int maxRels;
         public double sparsityA;
         public double sparsityB;
+        public Double entityFraction;    // null when absent
+        public Integer stepsPerIteration;
     }
 }
