@@ -122,6 +122,14 @@ covered by `WorldProbTest` or `SentencesIndexTest`.
    the argument was built eagerly: a string of every mention in the corpus, per
    proposal. Replaced by `Sentences.showMentionsLazily()`.
 
+10. **The observers rescanned the whole corpus per relation per path**
+   (`RelationTriggersObserver`, `EntityMentionsObserver`). Building the
+   `relation_triggers.txt` listing looped over every sentence once for each (relation,
+   path) pair, and the entity listing once per (entity, noun) pair; and the relation
+   observer never updated its best score, so it rewrote the file every iteration. At
+   8516 sentences these two accounted for half of the running time. Both listings are
+   now built in one pass.
+
 9. **The entity phase preallocated one `FactRV` per entity pair per relation**
    (`EntityInferSteps`). It never drew from that list (the fact and sentence-origin
    step weights are zero in the entity phase), but at 1258 entities and a pool of 150
@@ -217,6 +225,16 @@ analyst-at merged into one "works at" relation, chairman-of merged with the
 chairman-nn form, spokesman-nn with chief-nn. Director-of is now the one that is
 split in two (19 + 18), so fragmentation is reduced, not gone; longer runs and a
 less sparse `beta` should help.
+
+## Scaling to the NYT corpus
+
+Profiling the 8516-sentence run with stack samples found the observers (bug 10 above)
+and the smart-merge scoring sharing the time. The merge gain
+logBetaProb(keep + absorbed) - logBetaProb(keep) is now computed from the absorbed
+relation's entries only (`RelationSplitMergeStep.logMergeGain`, checked against the
+full recomputation in `RelationSplitMergeTest`). Config gained `stepsPerIteration`
+(the archive hard-coded 50 moves per iteration, far too few for thousands of
+sentences) and `entityFraction`.
 
 ## Noun-aware initialisation and a linear smart merge
 

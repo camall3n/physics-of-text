@@ -1,5 +1,7 @@
 package org.ucb.generative_ie.mcmc;
 
+import org.apache.commons.math3.special.Gamma;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -300,9 +302,7 @@ public class RelationSplitMergeStep implements MCMCStep {
     }
 
     private static double logPredictive(Multiset<Trigger> hist, Multiset<Trigger> added, double beta, int numTrigs) {
-        Multiset<Trigger> combined = HashMultiset.create(hist);
-        combined.addAll(added);
-        return ModelFunctions.logBetaProb(combined, beta, numTrigs) - ModelFunctions.logBetaProb(hist, beta, numTrigs);
+        return logMergeGain(hist, added, beta, numTrigs);
     }
 
     /**
@@ -321,13 +321,24 @@ public class RelationSplitMergeStep implements MCMCStep {
                 continue;
             }
             Multiset<Trigger> keepHist = world.getSentences().triggerHistogram(keep);
-            Multiset<Trigger> merged = HashMultiset.create(keepHist);
-            merged.addAll(absorbHist);
-            double gain = ModelFunctions.logBetaProb(merged, beta, numTrigs)
-                    - ModelFunctions.logBetaProb(keepHist, beta, numTrigs) - absorbAlone;
-            scores.put(keep, gain);
+            scores.put(keep, logMergeGain(keepHist, absorbHist, beta, numTrigs) - absorbAlone);
         }
         return scores;
+    }
+
+    /**
+     * logBetaProb(keep + added) - logBetaProb(keep), touching only the entries of {@code added}:
+     * sum_t [lgamma(n_t + a_t + beta) - lgamma(n_t + beta)] - [lgamma(N + A + beta T) - lgamma(N + beta T)].
+     */
+    static double logMergeGain(Multiset<Trigger> keep, Multiset<Trigger> added, double beta, int numTrigs) {
+        double gain = 0;
+        for (Multiset.Entry<Trigger> e : added.entrySet()) {
+            double base = keep.count(e.getElement()) + beta;
+            gain += Gamma.logGamma(base + e.getCount()) - Gamma.logGamma(base);
+        }
+        double total = keep.size() + beta * numTrigs;
+        gain -= Gamma.logGamma(total + added.size()) - Gamma.logGamma(total);
+        return gain;
     }
 
     /** log probability that the smart merge picks (keep, absorb) in the current state. */

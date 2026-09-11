@@ -144,6 +144,25 @@ public class RelationSplitMergeTest {
     }
 
     @Test
+    public void incrementalMergeGainMatchesFullRecomputation() {
+        World w = sampleWorld(16, false);
+        double beta = w.getBeta();
+        int numTrigs = w.getWeightedLexicons().getLex().size();
+        java.util.List<Relation> rels = w.getRelations().asList();
+        for (Relation a : rels) {
+            for (Relation b : rels) {
+                com.google.common.collect.Multiset<org.ucb.generative_ie.world.Trigger> ha = w.getSentences().triggerHistogram(a);
+                com.google.common.collect.Multiset<org.ucb.generative_ie.world.Trigger> hb = w.getSentences().triggerHistogram(b);
+                com.google.common.collect.Multiset<org.ucb.generative_ie.world.Trigger> merged = com.google.common.collect.HashMultiset.create(ha);
+                merged.addAll(hb);
+                double full = org.ucb.generative_ie.inference.ModelFunctions.logBetaProb(merged, beta, numTrigs)
+                        - org.ucb.generative_ie.inference.ModelFunctions.logBetaProb(ha, beta, numTrigs);
+                assertEquals(full, RelationSplitMergeStep.logMergeGain(ha, hb, beta, numTrigs), 1e-9);
+            }
+        }
+    }
+
+    @Test
     public void logNumProperSubsetsIsExactForSmallN() {
         assertEquals(Math.log(2), RelationSplitMergeStep.logNumProperSubsets(2), 1e-12);
         assertEquals(Math.log(14), RelationSplitMergeStep.logNumProperSubsets(4), 1e-12);
