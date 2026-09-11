@@ -37,6 +37,8 @@ public class Sentences implements Iterable<Sentence> {
     
     private final Relations relations;
     private final Map<Relation, Multiset<Trigger>> triggerHistograms;
+    /** The world's facts, if known: origins assigned to sentences are added to it. */
+    private Facts facts;
 
     private final static Logger logger = LoggerFactory.getLogger(Sentences.class);
     public Sentences(Entities entities, Relations relations) {
@@ -135,7 +137,19 @@ public class Sentences implements Iterable<Sentence> {
         triggerHistograms.get(s.getOrigin().getRel()).add(s.getTrig());
     }
 
+    /**
+     * Let this collection keep the world's fact set consistent: whenever a sentence
+     * is given an origin that is not yet a fact (the entity samplers do this when they
+     * move a mention to another entity), the fact is added.
+     */
+    public void setFacts(Facts facts) {
+        this.facts = facts;
+    }
+
     public void update(Sentence s, Fact oldOrigin) {
+        if (facts != null && !facts.exists(s.getOrigin())) {
+            facts.add(s.getOrigin());
+        }
         sentencesToFact.remove(oldOrigin, s);
         sentencesToFact.put(s.getOrigin(), s);
 
@@ -159,6 +173,20 @@ public class Sentences implements Iterable<Sentence> {
         
         triggerHistograms.get(oldOrigin.getRel()).remove(s.getTrig());
         triggerHistograms.get(s.getOrigin().getRel()).add(s.getTrig());
+
+        // keep the mention objects and the per-entity mention index in step with the origin
+        if (!oldOrigin.getEnt1().equals(s.getOrigin().getEnt1())) {
+            Mention m = s.getSourceMention();
+            mentionsToEntity.remove(oldOrigin.getEnt1(), m);
+            m.assignEntity(s.getOrigin().getEnt1());
+            mentionsToEntity.put(s.getOrigin().getEnt1(), m);
+        }
+        if (!oldOrigin.getEnt2().equals(s.getOrigin().getEnt2())) {
+            Mention m = s.getDestMention();
+            mentionsToEntity.remove(oldOrigin.getEnt2(), m);
+            m.assignEntity(s.getOrigin().getEnt2());
+            mentionsToEntity.put(s.getOrigin().getEnt2(), m);
+        }
         
         //mentionsToEntity.get(oldOrigin.getEnt1()).remove(new Mention(oldOrigin.getEnt1(), s.getArg1()));
         //mentionsToEntity.get(oldOrigin.getEnt2()).remove(new Mention(oldOrigin.getEnt2(), s.getArg2()));
@@ -171,38 +199,6 @@ public class Sentences implements Iterable<Sentence> {
         //mentions.add(s.getDestMention());
     }
     
-    public void updateMentions(Sentence newS, Sentence oldS) {
-        //logger.debug("updating metions--------------------");
-        mentionsToEntity.get(oldS.getOrigin().getEnt1()).remove(oldS.getSourceMention());
-        mentionsToEntity.get(oldS.getOrigin().getEnt2()).remove(oldS.getDestMention());
-        mentionsToEntity.get(newS.getOrigin().getEnt1()).add(oldS.getSourceMention());
-        mentionsToEntity.get(newS.getOrigin().getEnt2()).add(oldS.getDestMention()); 
-        mentions.remove(oldS.getSourceMention());
-        mentions.remove(oldS.getDestMention());
-        mentions.add(newS.getSourceMention());
-        mentions.add(newS.getDestMention());
-        
-        //logger.debug("e: {} {}", oldS.getOrigin().getEnt1(), nounHistogram(oldS.getOrigin().getEnt1()));
-        //logger.debug("e: {} {}", oldS.getOrigin().getEnt2(), nounHistogram(oldS.getOrigin().getEnt2()));
-        //logger.debug("e: {} {}", newS.getOrigin().getEnt1(), nounHistogram(newS.getOrigin().getEnt1()));
-        //logger.debug("e: {} {}", newS.getOrigin().getEnt2(), nounHistogram(newS.getOrigin().getEnt2()));
-        //
-        //nounHistograms.get(oldS.getOrigin().getEnt1()).remove(oldS.getSourceMention().getNoun());
-        //logger.debug("removing {} {}", oldS.getOrigin().getEnt1().toString(), oldS.getSourceMention().getNoun().toString());
-        //logger.debug("e: {} {}", oldS.getOrigin().getEnt1(), nounHistogram(oldS.getOrigin().getEnt1()));
-//
-        //updateNounHistograms(nounHistograms, newS.getOrigin().getEnt1(), newS.getSourceMention().getNoun());
-        //logger.debug("adding {} {}", newS.getOrigin().getEnt1().toString(), newS.getSourceMention().getNoun().toString());
-        //logger.debug("e: {} {}", newS.getOrigin().getEnt1(), nounHistogram(newS.getOrigin().getEnt1()));
-        //
-        //nounHistograms.get(oldS.getOrigin().getEnt2()).remove(oldS.getDestMention().getNoun());
-        //logger.debug("removing {} {}", oldS.getOrigin().getEnt2().toString(), oldS.getDestMention().getNoun().toString());
-        //logger.debug("e: {} {}", oldS.getOrigin().getEnt2(), nounHistogram(oldS.getOrigin().getEnt2()));
-//
-        //updateNounHistograms(nounHistograms, newS.getOrigin().getEnt2(), newS.getDestMention().getNoun());
-        //logger.debug("adding {} {}", newS.getOrigin().getEnt2().toString(), newS.getDestMention().getNoun().toString());
-        //logger.debug("e: {} {}", newS.getOrigin().getEnt2(), nounHistogram(newS.getOrigin().getEnt2()));
-    }
     
     public void cleanEntity(Entity entity){
         mentionsToEntity.removeAll(entity);
@@ -230,6 +226,7 @@ public class Sentences implements Iterable<Sentence> {
         sentencesToSourceEntity.clear();
         sentencesToDestEntity.clear();
         sentencesToRelation.clear();
+        mentionsToEntity.clear();
         nounHistograms.clear();
         triggerHistograms.clear();
         createNounHistograms();

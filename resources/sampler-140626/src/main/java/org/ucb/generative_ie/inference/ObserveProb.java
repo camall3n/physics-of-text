@@ -40,8 +40,10 @@ public class ObserveProb extends WorldObserver {
             logProbs.put("total", nextLogProb);
             logProbs.put("facts", probber.logProbFacts());
             logProbs.put("origin", probber.logSentencesOrigin());
-            logProbs.put("args", probber.logSentencesArgs());
             logProbs.put("collapsed_trigs", probber.logCollapsedTriggers());
+            logProbs.put("collapsed_nouns", probber.logCollapsedNouns());
+            logProbs.put("entity_number", probber.logEntityNumber());
+            logProbs.put("entity_only", probber.logProbEntityWorld());
             Util.writeJsonToFile(Util.joinPath(filename, "logprobs.txt"), logProbs.asMap());
             
             if (nextLogProb > bestLogProb) {

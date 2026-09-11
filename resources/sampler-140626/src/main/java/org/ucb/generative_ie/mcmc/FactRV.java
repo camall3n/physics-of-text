@@ -30,31 +30,53 @@ public class FactRV implements MCMCStep {
         return "FactRV";
     }
     
-    @Override
-    public double sample(Random rng) {
+    /**
+     * log P(fact holds | everything else) - log P(fact absent | everything else).
+     * Two terms survive: the sparsity prior, and the uniform choice of origin fact
+     * made by every sentence (which depends on how many facts exist). The dictionary
+     * terms cancel because no sentence references this fact.
+     *
+     * @return null when a sentence references the fact, in which case it must hold;
+     *         +infinity when it is the only fact the sentences could originate from.
+     */
+    public Double logOddsExists() {
         Collection<Sentence> references = world.getSentences().sentencesWithOrigin(fact);
-
-        // If something is pointing to it, then the fact must exist, and
-        // will continue to exist with probability 1.0. No point in
-        // sampling the existance of the fact.
-        if (references.size() == 0)
-        {
-            // Flip coin based on sparsity
-            LogProbMap<Boolean> sampler = new LogProbMap<>();
-            sampler.multiplyKey(true, world.getSparsity());
-            sampler.multiplyKey(false, 1 - world.getSparsity());
-
-            int didExist = world.facts.exists(fact)? 1 : 0;
-
-            // Factor in the SentenceOriginRV (raised to the power for the number of sentences)
-            sampler.multiplyKey(true, 1.0 / (world.facts.size() - didExist + 1), world.getSentences().size());
-            sampler.multiplyKey(false, 1.0 / (world.facts.size() - didExist), world.getSentences().size());
-
-            boolean makeExist = sampler.sample(rng);
-
-            world.facts.setFact(fact, makeExist);
+        if (references.size() > 0) {
+            return null;
         }
 
+        double sparsity = world.getSparsity();
+        int numSentences = world.getSentences().size();
+        int otherFacts = world.facts.size() - (world.facts.exists(fact) ? 1 : 0);
+
+        double logOdds = Math.log(sparsity) - Math.log(1 - sparsity);
+        if (numSentences > 0) {
+            if (otherFacts == 0) {
+                return Double.POSITIVE_INFINITY;
+            }
+            logOdds += numSentences * (Math.log(otherFacts) - Math.log(otherFacts + 1));
+        }
+        return logOdds;
+    }
+
+    @Override
+    public double sample(Random rng) {
+        Double logOdds = logOddsExists();
+        if (logOdds == null) {
+            // Referenced by a sentence: exists with probability 1, nothing to sample.
+            return 1;
+        }
+
+        boolean makeExist;
+        if (Double.isInfinite(logOdds)) {
+            makeExist = logOdds > 0;
+        }
+        else {
+            double probExists = 1.0 / (1.0 + Math.exp(-logOdds));
+            makeExist = rng.nextDouble() < probExists;
+        }
+
+        world.facts.setFact(fact, makeExist);
         return 1;
     }
     

@@ -59,58 +59,103 @@ public class SentenceOriginRV implements MCMCStep {
         if (newOriginRelation != this.s.getOrigin().getRel())
             s.setOrigin(originRelations.get(newOriginRelation));
         
-        //sample the first argument
-        Map<Entity, Fact> originSourceEntities = Maps.newHashMap();
-        Map<Entity, Multiset<Noun>> otherSentenceSourceNouns = Maps.newHashMap();
-        for (Fact f : world.facts.factsWithRelEntPair(s.getOrigin().getRelEntPair())) {
-            Entity e = f.getEnt1();
-            originSourceEntities.put(e, f);
-            otherSentenceSourceNouns.put(e, HashMultiset.create(world.getSentences().nounHistogram(e)));
-            if (e.equals(s.getOrigin().getEnt1())) {
-                otherSentenceSourceNouns.get(e).remove(s.getArg1());
-            }
-        }
-        
-        Entity newSourceEntity = sampleEntityFact(originSourceEntities.keySet(), otherSentenceSourceNouns, 0, rng);
-        
-        if (newSourceEntity != this.s.getOrigin().getEnt1())
-            s.setOrigin(originSourceEntities.get(newSourceEntity));
-        
-        //sample the second argument
-        Map<Entity, Fact> originDestEntities = Maps.newHashMap();
-        Map<Entity, Multiset<Noun>> otherSentenceDestNouns = Maps.newHashMap();
-        for (Fact f : world.facts.factsWithEntRelPair(s.getOrigin().getEntRelPair())) {
-            Entity e = f.getEnt2();
-            originDestEntities.put(e, f);
-            otherSentenceDestNouns.put(e, HashMultiset.create(world.getSentences().nounHistogram(e)));
-            if (e.equals(s.getOrigin().getEnt2())) {
-                otherSentenceDestNouns.get(e).remove(s.getArg2());
-            }
-        }
-        
-        Entity newDestEntity = sampleEntityFact(originDestEntities.keySet(), otherSentenceDestNouns, 1, rng);
-        
-        if (newDestEntity != this.s.getOrigin().getEnt2())
-            s.setOrigin(originDestEntities.get(newDestEntity));
-        
+        //sample the first argument, then the second
+        sampleEntity(true, rng);
+        sampleEntity(false, rng);
+
         return 1;
+    }
+
+    /** Existing facts that differ from the sentence's origin only in the source (or destination) entity. */
+    private Map<Entity, Fact> candidateEntityFacts(boolean source) {
+        Map<Entity, Fact> candidates = Maps.newHashMap();
+        Collection<Fact> facts = source
+                ? world.facts.factsWithRelEntPair(s.getOrigin().getRelEntPair())
+                : world.facts.factsWithEntRelPair(s.getOrigin().getEntRelPair());
+        for (Fact f : facts) {
+            candidates.put(source ? f.getEnt1() : f.getEnt2(), f);
+        }
+        return candidates;
+    }
+
+    /**
+     * Unnormalised log-weight of each entity the sentence's source (or destination)
+     * argument could refer to, restricted to existing facts, with the entity's
+     * Dirichlet(alpha) noun dictionary integrated out: (n_e(noun) + alpha) / (n_e + alpha V),
+     * counted over the other sentences. Tests check it against WorldProb.
+     */
+    public Map<Entity, Double> entityLogWeights(boolean source) {
+        Noun noun = source ? s.getArg1() : s.getArg2();
+        Entity current = source ? s.getOrigin().getEnt1() : s.getOrigin().getEnt2();
+        double alpha = world.getAlpha();
+        int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();
+
+        Map<Entity, Double> weights = Maps.newHashMap();
+        for (Entity e : candidateEntityFacts(source).keySet()) {
+            Multiset<Noun> others = HashMultiset.create(world.getSentences().nounHistogram(e));
+            if (e.equals(current)) {
+                others.remove(noun);
+            }
+            double prob = (others.count(noun) + alpha) / (alpha * numNouns + others.size());
+            weights.put(e, Math.log(prob));
+        }
+        return weights;
+    }
+
+    private void sampleEntity(boolean source, Random rng) {
+        Map<Entity, Fact> candidates = candidateEntityFacts(source);
+        Map<Entity, Double> weights = entityLogWeights(source);
+        if (weights.isEmpty()) {
+            return;
+        }
+        LogProbMap<Entity> sampler = new LogProbMap<>();
+        for (Map.Entry<Entity, Double> entry : weights.entrySet()) {
+            sampler.multiplyLogKey(entry.getKey(), entry.getValue());
+        }
+        Entity chosen = sampler.sample(rng);
+        Entity current = source ? s.getOrigin().getEnt1() : s.getOrigin().getEnt2();
+        if (!chosen.equals(current)) {
+            s.setOrigin(candidates.get(chosen));
+        }
+    }
+
+    /**
+     * Unnormalised log-weight of each relation this sentence could originate from
+     * (a fact with the sentence's entity pair must exist for that relation), with
+     * every other variable held fixed. This is what {@link #sample} draws from; tests
+     * check it against the joint in {@link org.ucb.generative_ie.world.WorldProb}.
+     */
+    public Map<Relation, Double> relationLogWeights() {
+        Map<Relation, Double> weights = Maps.newHashMap();
+        for (Fact f : world.facts.factsWithEntityPair(s.getOrigin().getEntityPair())) {
+            Relation r = f.getRel();
+            Multiset<Trigger> others = HashMultiset.create(world.getSentences().triggerHistogram(r));
+            if (r.equals(s.getOrigin().getRel())) {
+                others.remove(s.getTrig());
+            }
+            weights.put(r, Math.log(probTrigGivenRelation(others)));
+        }
+        return weights;
+    }
+
+    /**
+     * Predictive probability of this sentence's trigger under a relation whose
+     * Dirichlet(beta) dictionary has been integrated out, given the relation's
+     * other triggers: (n_t + beta) / (n + beta * T).
+     */
+    private double probTrigGivenRelation(Multiset<Trigger> otherTriggers) {
+        double beta = world.getBeta();
+        int numTrigs = world.getWeightedLexicons().getLex().size();
+        int tCount = otherTriggers.count(s.getTrig());
+        int otherCount = otherTriggers.size();
+        return (tCount + beta) / (beta * numTrigs + otherCount);
     }
 
     public Relation sampleRelation(Collection<Relation> originRelations, Map<Relation, Multiset<Trigger>> otherSentenceTriggers, Random rng) {
         ProbMap<Relation> sampler = new LogProbMap<>();
 
         for (Relation originRelation : originRelations) {
-            WeightedLexicon lex = world.getWeightedLexicons().get(originRelation);
-            //the count of this Trigger for this Relation
-            int tCount = otherSentenceTriggers.get(originRelation).count(s.getTrig());
-            //the count of all Triggers for this Relation
-            int otherSentencesCount = otherSentenceTriggers.get(originRelation).size();
-
-            double beta = world.getBeta();
-            int numTrigs = lex.getLex().size();
-
-            double probTrigGivenR = (tCount + beta) / (beta * numTrigs + otherSentencesCount);
-
+            double probTrigGivenR = probTrigGivenRelation(otherSentenceTriggers.get(originRelation));
             sampler.multiplyKey(originRelation, probTrigGivenR);
         }
 
@@ -121,70 +166,5 @@ public class SentenceOriginRV implements MCMCStep {
         }
 
         return sampler.sample(rng);
-    }
-    
-    /**
-     * 
-     * @param originEntities
-     * @param otherSentenceNouns
-     * @param nEntity: 0/1, source or dest
-     * @param rng
-     * @return 
-     */
-    public Entity sampleEntityFact(Collection<Entity> originEntities, Map<Entity, Multiset<Noun>> otherSentenceNouns, 
-            int nEntity,Random rng) {
-        ProbMap<Entity> sampler = new LogProbMap<>();
-        
-        for (Entity originEntity : originEntities) {
-            WeightedNounLexicon nlex = world.getWeightedNounLexicons().get(originEntity);
-            
-            int nCount;
-            Noun noun;
-            if (nEntity == 0) {
-                noun = s.getArg1();
-            }
-            else {
-                noun = s.getArg2();
-            }
-           
-            nCount = otherSentenceNouns.get(originEntity).count(noun);
-           
-            int otherSentencesCount = otherSentenceNouns.get(originEntity).size();
-            
-            double alpha = world.getAlpha();
-            int numNouns = nlex.getNounLexicon().size();
-
-            double probNounGivenE = (nCount + alpha) / (alpha * numNouns + otherSentencesCount);
-            
-            probNounGivenE *= probEntityName(originEntity, noun, alpha);
-            sampler.multiplyKey(originEntity, probNounGivenE);
-        }
-
-        if (sampler.size() == 0)
-        {
-            //throw new RuntimeException("No facts sharing the same relation with this entity");
-            if (nEntity == 0) {
-                return s.getOrigin().getEnt1();
-            }
-            else {
-                return s.getOrigin().getEnt2();
-            }
-        }
-
-        return sampler.sample(rng);
-    }
-    
-    public double probEntityName(Entity entity, Noun noun, double alpha) {
-        double prob;
-        Multiset<Noun> otherNouns =  world.getSentences().nounHistogram(entity);
-        otherNouns.remove(noun);
-        
-        int nCount = otherNouns.count(noun);
-        int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();
-        int otherCounts = otherNouns.size();
-        
-        prob  = (nCount + alpha) / (alpha * numNouns + otherCounts);
-        
-        return prob;
     }
 }

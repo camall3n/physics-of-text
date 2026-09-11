@@ -59,6 +59,11 @@ public class Mention implements Comparable <Mention>{
     public Entity getEntity(){
         return entity;
     }  
+
+    /** Record the entity this mention now refers to, without touching the sentence (used by Sentences.update). */
+    void assignEntity(Entity entity) {
+        this.entity = entity;
+    }
     
     public void setEntity(Entity entity){
         //Entity oldEntity = this.entity;

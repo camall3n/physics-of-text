@@ -1,6 +1,8 @@
 package org.ucb.generative_ie.world;
 
 import java.util.Random;
+import java.util.Set;
+import com.google.common.collect.Lists;
 /**
  * The World describes what the world is and how facts in the worlds can be expressed.
  */
@@ -44,12 +46,14 @@ public class World {
         this.sparsity = sparsity;
         
         this.rng = new Random();
+        this.sentences.setFacts(this.facts);
     }
 
     public World(World w) {
         this.facts = new Facts(w.facts);
         this.entities = w.entities;
         this.sentences = new Sentences(w.entities, w.relations);
+        this.sentences.setFacts(this.facts);
         
         this.nEntities = w.nEntities;
         this.nRelations = w.nRelations;
@@ -156,6 +160,33 @@ public class World {
      */
     public double getSparsity() {
         return sparsity;
+    }
+
+    /**
+     * Restore the invariants the fact model relies on: every sentence originates
+     * from an existing fact, and no fact refers to an entity that has been removed.
+     * The entity split-merge samplers move mentions between entities without
+     * maintaining the fact set, so call this between the entity phase and the
+     * relation phase. (This replaces the old evidence.makeWorldPossible(world).)
+     *
+     * @return the number of facts added plus removed
+     */
+    public int syncFacts() {
+        int changes = 0;
+        Set<Entity> current = entities.asSet();
+        for (Fact f : Lists.newArrayList(facts)) {
+            if (!current.contains(f.getEnt1()) || !current.contains(f.getEnt2())) {
+                facts.remove(f);
+                changes++;
+            }
+        }
+        for (Sentence s : sentences) {
+            if (!facts.exists(s.getOrigin())) {
+                facts.add(s.getOrigin());
+                changes++;
+            }
+        }
+        return changes;
     }
     
     public void show(){

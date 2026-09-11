@@ -194,10 +194,6 @@ public class Sentence {
             default:
                 throw new RuntimeException("Unhandled Mention position case" + mentionPos);
         }
-        Sentence oldS = new Sentence(this); 
         setOrigin(newFact);
-        if (delegate != null) {
-            delegate.updateMentions(this, oldS);
-        }
     }
 }

@@ -73,6 +73,9 @@ public class EntityResolution extends Experiment {
         //mcmcInferer.addWorldObserver(printTrigger);
         //entityInferer.addWorldObserver(observeProb);
         entityInferer.run();
+
+        int synced = initialWorld.syncFacts();
+        System.out.println("Synchronised facts with sentence origins after the entity phase: " + synced + " changes");
         
         initialWorld.show();
         
