@@ -20,7 +20,8 @@ Status:
 
 - The Java sampler in `resources/sampler-140626/` builds and runs without Maven, has a
   verified joint probability, and infers the number of relations. Two commits on
-  `main` (6812ca1, 8a2939a) contain all of that work.
+  `main` (6812ca1, 8a2939a, 69022c1) contain all of that work; f83b7b3 added this
+  document.
 - Section 4 has been reproduced in miniature only: a 250-sentence slice yields clean
   relations ("director of", "chairman of", "president of", "leader", and a merged
   "economist/professor/analyst at") and a posterior of 22 to 26 relations. The full
@@ -96,8 +97,10 @@ It runs two phases on one `World`:
      entity) among existing facts;
    - `FactRelationMoveStep`: MH transfer of one fact and all its sentences to a relation
      lacking a fact for that entity pair. This is the move that lets relations form.
-   - `RelationSplitMergeStep` (two kernels): split a relation into two or merge two
-     relations, smart-dumb/dumb-smart style. This is what makes the relation count mix.
+   - `RelationSplitMergeStep` (two kernels, weight 0.2 each): split a relation into two
+     or merge two relations, smart-dumb/dumb-smart style. This is what makes the
+     relation count mix. Smart merges score every ordered pair of non-empty relations,
+     so at a few hundred relations in use they will want caching.
 
 Other things to know:
 
@@ -130,8 +133,8 @@ cd resources/sampler-140626
     test/Entity_resolution_Relation/config-toy.json data/06-19/toyTriples.json
 ```
 
-Full fast suite (33 tests, all pass): `RelationMovesTest WorldProbTest SentencesIndexTest
-ModelFunctionsTest LexEntropyTest SentenceEvidenceTest CounterTest LogProbMapTest
+Full fast suite (38 tests, all pass): `RelationSplitMergeTest RelationMovesTest
+WorldProbTest SentencesIndexTest ModelFunctionsTest LexEntropyTest SentenceEvidenceTest CounterTest LogProbMapTest
 DirichletDistrTest RandomAccessHashSetTest UtilTest CorpusParserTest`.
 `NormalProbMapTest` fails by construction in the original code; ignore it.
 
@@ -174,8 +177,9 @@ Commit 8a2939a: made the relation count inferable: Beta sparsity integrated out,
 relation pool with a log-normal prior on occupancy, the two new moves above, and
 `RelationMovesTest`.
 
-Later commit: `RelationSplitMergeStep` and `RelationSplitMergeTest` (split-merge over
-relations, both SDDS kernels). See CHANGES.md for the before/after table.
+Commit 69022c1: `RelationSplitMergeStep` and `RelationSplitMergeTest`, split-merge over
+relations with both SDDS kernels, wired into `WorldInferSteps` at weight 0.2 each.
+CHANGES.md has the before/after table for the 250-sentence slice.
 
 The verification pattern used throughout, and the one to keep using: every sampler
 move exposes its log-odds or log-acceptance as a public method, and a test compares it
@@ -200,6 +204,9 @@ leader (39), a merged economist/professor/analyst-at (24). Director-of is still 
 in two (19 + 18).
 
 ## 8. Recommended next steps, in order
+
+Split-merge over relations is done (see section 7), so mixing is no longer the first
+problem; scale and initialisation are.
 
 1. **Noun-aware initialisation.** `SentenceEvidence.evidenceToWorld` assigns each
    sentence a uniformly random existing fact, ignoring its nouns, and
