@@ -56,6 +56,17 @@ public class WorldGenerator {
         return sampleWorld(true);
     }
 
+    /**
+     * A world with dictionaries sampled from their priors but no facts and no
+     * sentences, for initialising inference from evidence without visiting every
+     * one of the N^2 K potential facts (see SentenceEvidence.evidenceToWorldByNoun).
+     */
+    public World emptyWorld() {
+        double sparsity = sparsityGenerator.sampleSparsity(rng);
+        return new World(new Facts(), entities, relations, new Sentences(entities, relations),
+                sampleWeightedNounLexicons(), sampleWeightedLexicons(), alpha, beta, sparsity);
+    }
+
     public World sampleWorld(boolean fullWorld) {
         double sparsity = sparsityGenerator.sampleSparsity(rng);
         WeightedLexicons weightedLexicons = sampleWeightedLexicons();

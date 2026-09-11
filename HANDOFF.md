@@ -99,8 +99,7 @@ It runs two phases on one `World`:
      lacking a fact for that entity pair. This is the move that lets relations form.
    - `RelationSplitMergeStep` (two kernels, weight 0.2 each): split a relation into two
      or merge two relations, smart-dumb/dumb-smart style. This is what makes the
-     relation count mix. Smart merges score every ordered pair of non-empty relations,
-     so at a few hundred relations in use they will want caching.
+     relation count mix.
 
 Other things to know:
 
@@ -205,27 +204,21 @@ in two (19 + 18).
 
 ## 8. Recommended next steps, in order
 
-Split-merge over relations is done (see section 7), so mixing is no longer the first
-problem; scale and initialisation are.
+Split-merge over relations and noun-aware initialisation are done (see section 7), so
+the remaining problems are scale and evaluation.
 
-1. **Noun-aware initialisation.** `SentenceEvidence.evidenceToWorld` assigns each
-   sentence a uniformly random existing fact, ignoring its nouns, and
-   `WorldGenerator.sampleFacts` loops over every pair times relation (billions at NYT
-   scale). Replace with: one entity per distinct noun string (or a random one if
-   `numEnts` is smaller), one fact per sentence with a random relation. Facts are then
-   created through `Sentences.update`'s auto-add.
-2. **NYT-scale run** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
+1. **NYT-scale run** on `pluieTriples_2013_01_06_5.json` with `config-8000.json` plus
    `maxRels` (try 400), `sparsityA=1`, `sparsityB=N^2`, `beta` around 0.1. Watch the
    entity phase's running time first; it is O(mentions) per smart move.
    Compare against the paper's relation-46 dictionary (listed in the paper) and the
    2013 outputs in `results/output.txt`, which show a "subsidiary of" cluster.
-3. **Figure 1.** Port the commented body of
+2. **Figure 1.** Port the commented body of
    `src/test/java/org/ucb/generative_ie/world/SampleEntropyTest.java` to the current
    API (WorldGenerator's 9-argument constructor, `MCMCInferer(n, world, evidence, rng, steps)`,
    `Inferer.addQuery`/`run(burnin)`; `SentenceSameRelations`, `PrecisionRecallCurve`,
    `LexEntropy` and `SampleEntropy` are unchanged). It writes `prec_recall.out`;
    `scripts/graph_precision_recall.py` plots it (python2 syntax, needs scipy).
-4. Precision evaluation for Section 4: manual, per the paper. Emit the top-20 relations
+3. Precision evaluation for Section 4: manual, per the paper. Emit the top-20 relations
    with their facts in a reviewable form.
 
 ## 9. Notes for a port to another language

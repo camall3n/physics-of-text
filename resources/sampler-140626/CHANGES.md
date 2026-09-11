@@ -199,13 +199,25 @@ chairman-nn form, spokesman-nn with chief-nn. Director-of is now the one that is
 split in two (19 + 18), so fragmentation is reduced, not gone; longer runs and a
 less sparse `beta` should help.
 
+## Noun-aware initialisation and a linear smart merge
+
+`SentenceEvidence.evidenceToWorldByNoun` replaces the archive's initialisation in
+`EntityResolution`. The old path sampled every one of the N^2 K potential facts
+(`WorldGenerator.sampleFacts`, billions of draws at NYT scale) and then gave each
+sentence a uniformly random existing fact, so a sentence's initial entities had nothing
+to do with its nouns. The new path starts from `WorldGenerator.emptyWorld()`, gives each
+distinct noun string its own entity (spread at random if there are fewer entities than
+nouns), each sentence a random relation from the pool, and creates exactly the facts
+the sentences need. `SentencesIndexTest.nounAwareInitialisationIsConsistent` checks it.
+`evidenceToWorld` is kept for tests.
+
+The smart merge in `RelationSplitMergeStep` now picks the absorbed relation uniformly
+and scores only the candidate keepers, O(M) per proposal instead of O(M^2); the
+normalisation test still holds.
+
 ## Things that are still not the paper
 
 - The relation count is inferred within a fixed pool (`maxRels`), not unbounded.
-- The initial world still calls `WorldGenerator.sampleFacts`, which loops over every
-  entity pair times relation once. At the NYT config that is a few billion iterations
-  (minutes) and the initial origins ignore the sentences' nouns entirely; a
-  noun-aware initialisation would help the entity phase.
 - The entity phase takes most of the running time on the 250-sentence slice.
 
 ## Verified

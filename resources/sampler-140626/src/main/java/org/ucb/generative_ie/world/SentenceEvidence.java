@@ -1,5 +1,9 @@
 package org.ucb.generative_ie.world;
 
+import com.google.common.collect.Maps;
+
+import java.util.Map;
+
 import java.util.List;
 import java.util.Random;
 import com.google.common.collect.ImmutableSet;
@@ -69,6 +73,43 @@ public class SentenceEvidence implements Evidence {
             //the Fact origin is the newFact generated above by linking argument pairs to a random Relation
             Sentence newSentence = new Sentence(origin, constraint.trigger, constraint.arg1, constraint.arg2);
             world.getSentences().add(newSentence);
+        }
+    }
+
+    /**
+     * Initialise a world from the evidence so that sentences with the same noun start
+     * with the same entity: each distinct noun string gets its own entity (nouns are
+     * spread over the entities at random if there are fewer entities than nouns), each
+     * sentence gets a uniformly random relation, and the fact (relation, entity of
+     * arg1, entity of arg2) is created as its origin. Existing facts and sentences are
+     * discarded. Unlike {@link #evidenceToWorld}, this ignores whatever facts the world
+     * had, so it does not need the initial world to have sampled its N^2 K facts.
+     */
+    public void evidenceToWorldByNoun(World world, Random rng) {
+        world.getSentences().clear();
+        world.facts.clear();
+
+        List<Entity> entities = world.getEntities().asList();
+        List<Relation> relations = world.getRelations().asList();
+        Map<Noun, Entity> entityOf = Maps.newHashMap();
+        int next = 0;
+        for (SentenceConstraint c : constraints) {
+            for (Noun noun : new Noun[] {c.arg1, c.arg2}) {
+                if (!entityOf.containsKey(noun)) {
+                    Entity e = next < entities.size() ? entities.get(next) : entities.get(rng.nextInt(entities.size()));
+                    entityOf.put(noun, e);
+                    next++;
+                }
+            }
+        }
+
+        for (SentenceConstraint c : constraints) {
+            Relation r = relations.get(rng.nextInt(relations.size()));
+            Fact origin = new Fact(r, entityOf.get(c.arg1), entityOf.get(c.arg2));
+            if (!world.facts.exists(origin)) {
+                world.facts.add(origin);
+            }
+            world.getSentences().add(new Sentence(world.facts.getCanonical(origin), c.trigger, c.arg1, c.arg2));
         }
     }
 

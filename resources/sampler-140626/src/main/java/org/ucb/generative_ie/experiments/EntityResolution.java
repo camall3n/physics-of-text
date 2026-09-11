@@ -56,14 +56,17 @@ public class EntityResolution extends Experiment {
 
         WorldGenerator generator = new WorldGenerator(rng, ents, rels, nounLexicon, lexicon, alpha, beta, sparsityGen, numSentences);
 
-        World initialWorld = generator.sampleWorld();
+        World initialWorld = generator.emptyWorld();
         initialWorld.setRelationPriorMean(numRels);
         if (config.sparsityA > 0) {
             initialWorld.setSparsityPrior(config.sparsityA, config.sparsityB);
         }
         //show the initial world
         //initialWorld.show();
-        evidence.evidenceToWorld(initialWorld);
+        evidence.evidenceToWorldByNoun(initialWorld, rng);
+        System.out.println("Initial world: " + initialWorld.getFacts().size() + " facts, "
+                + initialWorld.getSentences().getNonEmptyEntitySize() + " entities with mentions, "
+                + initialWorld.getSentences().numRelationsWithSentences() + " relations with sentences");
         initialWorld.show();
         
         WorldObserver printTrigger = new RelationTriggersObserver("output/");
