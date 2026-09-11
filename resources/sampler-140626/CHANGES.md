@@ -109,6 +109,12 @@ covered by `WorldProbTest` or `SentencesIndexTest`.
    sentences it computed `0 * log(inf)`; with the fact being the only one it raised
    "Infinite value". Fix: `logOddsExists()` handles both.
 
+7. **The entity phase preallocated one `FactRV` per entity pair per relation**
+   (`EntityInferSteps`). It never drew from that list (the fact and sentence-origin
+   step weights are zero in the entity phase), but at 1258 entities and a pool of 150
+   relations the constructor tried to build 237 million objects and the run hung at
+   several gigabytes before the first iteration. Fix: don't build them.
+
 ## Inferring the number of relations
 
 The archive fixed the number of relations at `numRels`. The paper puts a broad prior on
