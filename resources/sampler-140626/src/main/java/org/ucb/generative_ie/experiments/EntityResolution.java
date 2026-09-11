@@ -73,8 +73,8 @@ public class EntityResolution extends Experiment {
         WorldObserver printMentions = new EntityMentionsObserver("output/");
         ObserveProb observeProb = new ObserveProb("output/");
 
-        int numSteps = 50;
-        int numIterEntity = numIterations/5;
+        int numSteps = config.stepsPerIteration;
+        int numIterEntity = (int) Math.round(numIterations * config.entityFraction);
         int numIterRelation = numIterations - numIterEntity;
         MCMCInferer entityInferer = new MCMCInferer(numIterEntity, initialWorld, evidence, rng, new EntityInferSteps(initialWorld, evidence, numSteps));
         entityInferer.addWorldObserver(printMentions);
