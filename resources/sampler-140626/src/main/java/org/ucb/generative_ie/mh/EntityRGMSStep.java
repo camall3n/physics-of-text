@@ -167,7 +167,7 @@ public class EntityRGMSStep extends GeneralMHStep {
                 //
                 Entity oldEntity = mention.getEntity();
                 mention.setEntity(e);
-                logger.trace("current mentions: \n {}", world.getSentences().showMentions());
+                logger.trace("current mentions: \n {}", world.getSentences().showMentionsLazily());
                 logger.trace("MentionRV: mentions updated");
                 logger.trace("Mention size of the previous entity: {}", world.getSentences().getMentionsByEntity(oldEntity).size());
                 
@@ -176,7 +176,7 @@ public class EntityRGMSStep extends GeneralMHStep {
                     world.getEntities().removeEntity(oldEntity);
                     world.getSentences().cleanEntity(oldEntity);
                 }
-                logger.trace("current mentions: \n {}", world.getSentences().showMentions());
+                logger.trace("current mentions: \n {}", world.getSentences().showMentionsLazily());
                 logger.trace("MentionRV: mentions cleaned");
                 //mentions.add(mention);
             }

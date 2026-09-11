@@ -117,7 +117,7 @@ public class EntitySmartSplitStep extends GeneralMHStep {
         public void sample(Random rng) {
             logger.debug("---------------------------");
             //logger.debug("Starting smart merge, numEntities: {}, numNonEmptyEntties: {}", numEntities, numNonEmptyEntities);
-            logger.debug("current mentions: \n {}", world.getSentences().showMentions());
+            logger.debug("current mentions: \n {}", world.getSentences().showMentionsLazily());
 
             if(rng.nextBoolean()){
                 splitCase = true;

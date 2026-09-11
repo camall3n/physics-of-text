@@ -109,7 +109,20 @@ covered by `WorldProbTest` or `SentencesIndexTest`.
    sentences it computed `0 * log(inf)`; with the fact being the only one it raised
    "Infinite value". Fix: `logOddsExists()` handles both.
 
-7. **The entity phase preallocated one `FactRV` per entity pair per relation**
+7. **`MentionRV` sampled a Dirichlet over every noun for every entity on every step**
+   (`MentionRV`). It tested the relation-dictionary map for an entity key, which is
+   never there, so it "initialised" every entity's noun dictionary with a fresh
+   Dirichlet draw each time, over a million gamma draws per step at 1258 entities, and
+   never used the result (the step conditions on histograms). It also copied every
+   entity's histogram per step. Rewritten as the plain collapsed Gibbs step it was
+   meant to be; same conditional, no allocation.
+
+8. **Entity samplers built the full mention listing for debug logging on every
+   proposal** (`mh/Entity*`). `logger.debug("...", showMentions())` formats lazily but
+   the argument was built eagerly: a string of every mention in the corpus, per
+   proposal. Replaced by `Sentences.showMentionsLazily()`.
+
+9. **The entity phase preallocated one `FactRV` per entity pair per relation**
    (`EntityInferSteps`). It never drew from that list (the fact and sentence-origin
    step weights are zero in the entity phase), but at 1258 entities and a pool of 150
    relations the constructor tried to build 237 million objects and the run hung at
@@ -220,6 +233,24 @@ the sentences need. `SentencesIndexTest.nounAwareInitialisationIsConsistent` che
 The smart merge in `RelationSplitMergeStep` now picks the absorbed relation uniformly
 and scores only the candidate keepers, O(M) per proposal instead of O(M^2); the
 normalisation test still holds.
+
+## Figure 1
+
+`experiments/LexicalEntropyExperiment` is the commented-out 2013 `SampleEntropyTest`
+on the current API: 5000 worlds sampled with 10 entities (one noun each), 2 relations,
+5 dependency paths, sparsity 0.3, path-dictionary concentration 0.5, 60 sentences;
+binned by lexical entropy; eight per bin inferred from their sentences alone (2000
+iterations of 10 relation-phase moves, burn-in a quarter) with every sentence pair
+queried for "same relation"; precision/recall against the generating world.
+`scripts/plot_precision_recall.py` (python3, numpy) plots it. Output of the run on
+2026-09-11 is in `results/figure1-2026/` (12 seconds of compute).
+
+The curves order cleanly by entropy: at entropy 0.1, precision 0.96 out to recall 0.6;
+at 0.3, 0.95 falling to 0.85 by recall 0.6; at 0.9, 0.65 at recall 0.1 falling to the
+0.5 base rate. The paper's figure shows the same ordering but is stronger at the top:
+it reports 0.9 precision at 0.1 recall for entropy 0.9. Candidate reasons: the 2013
+run's exact sparsity, iteration count and burn-in are unknown, and its inference
+used the old MH steps rather than the current moves.
 
 ## Things that are still not the paper
 
