@@ -39,7 +39,10 @@ import com.google.common.collect.Maps;
  * runs on the sentences alone and the posterior probability that each pair of
  * sentences shares a relation is scored against the truth.
  *
- * Usage: LexicalEntropyExperiment out.json [worldsPerBin=8] [iterations=2000] [stepsPerIteration=10]
+ * Usage: LexicalEntropyExperiment out.json [worldsPerBin=8] [iterations=2000] [stepsPerIteration=10] [self]
+ * With "self", every sentence is also paired with itself, as the 2013 test's double loop
+ * over sentences did (an UnorderedSentencePair of a sentence with itself); such pairs are
+ * always "same relation" with posterior 1 and raise precision at low recall.
  * Plot with scripts/graph_precision_recall.py (or plot_precision_recall.py, python3).
  */
 public class LexicalEntropyExperiment {
@@ -55,6 +58,8 @@ public class LexicalEntropyExperiment {
         int worldsPerBin = args.length > 1 ? Integer.parseInt(args[1]) : 8;
         int numIterations = args.length > 2 ? Integer.parseInt(args[2]) : 2000;
         int stepsPerIteration = args.length > 3 ? Integer.parseInt(args[3]) : 10;
+        boolean includeSelfPairs = args.length > 4 && args[4].equals("self");
+        System.out.println("self-pairs " + (includeSelfPairs ? "included" : "excluded"));
         double[] entropies = {0.1, 0.3, 0.5, 0.7, 0.9};
 
         Random rng = new Random(20130601);
@@ -75,7 +80,7 @@ public class LexicalEntropyExperiment {
             Collection<World> bin = sampler.getEntropySubset(entropy, entropy + 0.05);
             List<SingleRun> runs = Lists.newArrayList();
             for (World godWorld : Iterables.limit(bin, worldsPerBin)) {
-                SingleRun run = infer(godWorld, generator, rng, numIterations, stepsPerIteration);
+                SingleRun run = infer(godWorld, generator, rng, numIterations, stepsPerIteration, includeSelfPairs);
                 runs.add(run);
                 System.out.println(String.format("entropy bin %.1f (actual %.3f): %d sentences, precision at last point %.3f",
                         entropy, run.entropy, godWorld.getSentences().size(), run.precisions.get(run.precisions.size() - 1)));
@@ -87,7 +92,8 @@ public class LexicalEntropyExperiment {
         System.out.println("Wrote " + outFile);
     }
 
-    static SingleRun infer(World godWorld, WorldGenerator generator, Random rng, int numIterations, int stepsPerIteration) {
+    static SingleRun infer(World godWorld, WorldGenerator generator, Random rng, int numIterations, int stepsPerIteration,
+            boolean includeSelfPairs) {
         SentenceEvidence evidence = new SentenceEvidence(godWorld);
         World world = generator.emptyWorld();
         evidence.evidenceToWorldByNoun(world, rng);
@@ -102,7 +108,7 @@ public class LexicalEntropyExperiment {
         List<Boolean> truths = Lists.newArrayList();
         int numRelevant = 0;
         for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
+            for (int j = includeSelfPairs ? i : i + 1; j < n; j++) {
                 queries.add(new SentenceSameRelationQuery(new UnorderedSentencePair(sentences.get(i), sentences.get(j))));
                 boolean same = godSentences.get(i).getOrigin().getRel().equals(godSentences.get(j).getOrigin().getRel());
                 truths.add(same);

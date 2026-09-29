@@ -1,0 +1,295 @@
+--- a/code/evaluation/tests/migration/verify_baseline.mjs
++++ b/code/evaluation/tests/migration/verify_baseline.mjs
+@@ -4,6 +4,7 @@
+ import crypto from 'node:crypto';
+ import assert from 'node:assert/strict';
+ import {fileURLToPath} from 'node:url';
++import {loadPublication} from '../../../maintenance/publication.mjs';
+ 
+ const repo=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../../../..');
+ const directory=path.join(repo,'reports/evaluation-consolidation-2026-09-29');
+@@ -15,10 +16,12 @@
+  'code/evaluation/verify_preservation.mjs',
+ ]);
+ const ledgerPath='reports/buggy-evaluation-cleanup-2026-09-28/maintenance_changes.json';
++const finalSourceManifest=JSON.parse(fs.readFileSync(path.join(directory,'after_source_manifest.json'),'utf8'));
++const publication=loadPublication({repo,baseline,finalSourceManifest,ledgerPath});
+ function verifyMaintenanceExtension(){
+  const originalRaw=fs.readFileSync(path.join(directory,'before_maintenance_changes.json'));
+  assert.equal(sha(originalRaw),baseline.files[ledgerPath].sha256,'Original ledger snapshot changed');
+- const original=JSON.parse(originalRaw),current=JSON.parse(fs.readFileSync(path.join(repo,ledgerPath),'utf8'));
++ const original=JSON.parse(originalRaw),current=JSON.parse(publication?.preMergeLedgerRaw??fs.readFileSync(path.join(repo,ledgerPath),'utf8'));
+  for(const [key,value]of Object.entries(original)){
+   if(key==='changes')continue;
+   if(key==='authorization')assert(current[key].includes(value),'Original authorization description removed');
+@@ -69,17 +72,18 @@
+  }).sort();
+ }
+ function verifyFinalSources(){
+- const manifest=JSON.parse(fs.readFileSync(path.join(directory,'after_source_manifest.json'),'utf8'));
++ const manifest=finalSourceManifest;
+  for(const [relative,entry]of Object.entries(manifest.files)){
+   const file=path.join(repo,relative);
+   assert(fs.existsSync(file)&&fs.lstatSync(file).isFile(),'Final source missing or replaced: '+relative);
+   const raw=fs.readFileSync(file);
+-  assert.equal(raw.length,entry.bytes,'Final source size changed: '+relative);
+-  assert.equal(sha(raw),entry.sha256,'Final source hash changed: '+relative);
++  const expected=publication?.sourceTransitions.get(relative)??entry;
++  assert.equal(raw.length,expected.bytes,'Final source size changed: '+relative);
++  assert.equal(sha(raw),expected.sha256,'Final source hash changed: '+relative);
+  }
+  assert.deepEqual(canonicalSourceFiles(),Object.keys(manifest.files).filter(p=>p.startsWith('code/evaluation/')).sort(),
+   'Canonical evaluator source inventory changed');
+- return {complete:true,files:Object.keys(manifest.files).length};
++ return {complete:true,files:Object.keys(manifest.files).length,publication_source_transitions:publication?.sourceTransitions.size??0};
+ }
+ 
+ const finalSources=process.argv.includes('--final-sources')?verifyFinalSources():null;
+@@ -88,6 +92,7 @@
+ let unchanged=0,preserved=0;
+ for(const [relative,previous] of Object.entries(baseline.files)){
+  const filename=path.join(repo,relative);
++ if(publication?.omittedMetadata.has(relative))continue; // Exactly three frozen Finder metadata paths; all scientific files remain strict.
+  const mustPreserve=relative!==ledgerPath&&(previous.category==='preserved'||immutableCode.has(relative)||relative.endsWith('/analysis/manual_protocol.md'));
+  if(mustPreserve)preserved++;
+  let current=null;
+@@ -104,7 +109,7 @@
+  else if(previous.category==='implementation')changedImplementation.push(entry);
+  else changedDocumentation.push(entry);
+ }
+-const result={complete:failures.length===0,final_source_validation:finalSources,maintenance_extension:maintenanceExtension,checked:Object.keys(baseline.files).length,unchanged,preserved_files_checked:preserved,failures,changed_implementation:changedImplementation,changed_documentation:changedDocumentation,
++const result={complete:failures.length===0,publication:publication?.summary??null,final_source_validation:finalSources,maintenance_extension:maintenanceExtension,checked:Object.keys(baseline.files).length,unchanged,preserved_files_checked:preserved,failures,changed_implementation:changedImplementation,changed_documentation:changedDocumentation,
+  note:'Implementation and campaign documentation changes are listed for review, not silently declared identical. Raw outputs, annotations, predicate declarations/catalogues, cases, source records, saved scores/reports/plots, frozen sampled protocols, historical manifests, and both unapproved legacy integrity scripts must remain byte-identical. The maintenance ledger may add only exact non-deletion source/documentation transitions checked against its original snapshot.'};
+ const output=process.argv.indexOf('--output');
+ if(output!==-1){
+@@ -113,5 +118,5 @@
+  assert.equal(path.dirname(target),directory,'Write only a validation summary next to this script');
+  fs.writeFileSync(target,JSON.stringify(result,null,2)+'\n');
+ }
+-console.log(JSON.stringify({complete:result.complete,checked:result.checked,unchanged,preserved_files_checked:preserved,failures:failures.map(x=>x.path),changed_implementation:changedImplementation.length,changed_documentation:changedDocumentation.length,maintenance_transitions:maintenanceExtension.exact_source_documentation_transitions.length,final_source_validation:finalSources},null,2));
++console.log(JSON.stringify({complete:result.complete,publication:result.publication,checked:result.checked,unchanged,preserved_files_checked:preserved,failures:failures.map(x=>x.path),changed_implementation:changedImplementation.length,changed_documentation:changedDocumentation.length,maintenance_transitions:maintenanceExtension.exact_source_documentation_transitions.length,final_source_validation:finalSources},null,2));
+ assert.equal(failures.length,0,'Scientific inputs/results or protected integrity controls changed');
+--- /dev/null
++++ b/code/maintenance/publication.mjs
+@@ -0,0 +1,123 @@
++// Narrow Git-publication compatibility; frozen scientific manifests remain authoritative.
++import fs from 'node:fs';
++import path from 'node:path';
++import crypto from 'node:crypto';
++import assert from 'node:assert/strict';
++
++export const PUBLICATION_RECORD = 'reports/git-publication-2026-09-29/verification.json';
++export const PREMERGE_LEDGER = 'reports/git-publication-2026-09-29/pre_merge_maintenance_changes.json';
++export const MAINTENANCE_LEDGER = 'reports/buggy-evaluation-cleanup-2026-09-28/maintenance_changes.json';
++export const VERIFIER = 'code/evaluation/tests/migration/verify_baseline.mjs';
++export const MERGED_SOURCE_PATHS = Object.freeze([
++  'resources/sampler-140626/CHANGES.md',
++  'resources/sampler-140626/src/main/java/org/ucb/generative_ie/experiments/LexicalEntropyExperiment.java',
++]);
++export const OMITTED_METADATA_PATHS = Object.freeze([
++  'experiments/nyt-beta-0p001-coverage-2026-09-14/.DS_Store',
++  'experiments/nyt-beta-0p001-coverage-2026-09-14/census/.DS_Store',
++  'experiments/nyt-beta-0p001-coverage-2026-09-14/census/audit_06dbdb9b03af/.DS_Store',
++]);
++const sha = raw => crypto.createHash('sha256').update(raw).digest('hex');
++const hashPattern = /^[a-f0-9]{64}$/;
++function regular(repo, relative) {
++  const file = path.join(repo, relative);
++  assert(fs.lstatSync(file).isFile(), 'Publication input must be a regular file: ' + relative);
++  return fs.readFileSync(file);
++}
++function exactPaths(entries, expected, label) {
++  assert(Array.isArray(entries), label + ' must be an array');
++  assert.deepEqual(entries.map(e => e.path).sort(), [...expected].sort(), label + ' scope changed');
++}
++function keys(value, expected, label) {
++  assert.deepEqual(Object.keys(value).sort(), [...expected].sort(), label + ' fields changed');
++}
++function transition(t) {
++  assert(hashPattern.test(t.previous_sha256) && hashPattern.test(t.current_sha256), 'Invalid source transition hashes');
++  assert.notEqual(t.previous_sha256, t.current_sha256, 'Unchanged source cannot have a transition');
++  assert(typeof t.reason === 'string' && t.reason.trim(), 'Missing source transition reason');
++}
++
++// Optional: without the named publication record, original strict behavior is unchanged.
++export function loadPublication({repo, baseline, finalSourceManifest, ledgerPath = MAINTENANCE_LEDGER}) {
++  const recordPath = path.join(repo, PUBLICATION_RECORD);
++  if (!fs.existsSync(recordPath)) return null;
++  const record = JSON.parse(regular(repo, PUBLICATION_RECORD));
++  assert.equal(record.schema_version, 1, 'Unknown publication schema');
++  assert(typeof record.authorization === 'string' && record.authorization.trim(), 'Missing publication authorization');
++  const snapshot = record.pre_merge_maintenance_ledger;
++  keys(snapshot, ['path', 'sha256'], 'Pre-merge ledger snapshot');
++  assert.equal(snapshot.path, PREMERGE_LEDGER, 'Unexpected pre-merge ledger path');
++  assert(hashPattern.test(snapshot.sha256), 'Invalid pre-merge ledger hash');
++  const preMergeLedgerRaw = regular(repo, snapshot.path);
++  assert.equal(sha(preMergeLedgerRaw), snapshot.sha256, 'Pre-merge ledger snapshot changed');
++
++  exactPaths(record.omitted_os_metadata, OMITTED_METADATA_PATHS, 'OS metadata omissions');
++  const omittedMetadata = new Set();
++  for (const e of record.omitted_os_metadata) {
++    keys(e, ['path', 'bytes', 'sha256'], 'OS metadata omission');
++    const original = baseline.files[e.path];
++    assert(original && original.kind === 'file', 'Metadata absent from original baseline');
++    assert.equal(e.bytes, original.bytes, 'Metadata size does not match baseline');
++    assert.equal(e.sha256, original.sha256, 'Metadata hash does not match baseline');
++    let exists = true;
++    try { fs.lstatSync(path.join(repo, e.path)); } catch (error) {
++      if (error.code !== 'ENOENT') throw error;
++      exists = false;
++    }
++    if (!exists) { omittedMetadata.add(e.path); continue; }
++    const raw = regular(repo, e.path);
++    assert.equal(raw.length, e.bytes, 'Present OS metadata size changed: ' + e.path);
++    assert.equal(sha(raw), e.sha256, 'Present OS metadata hash changed: ' + e.path);
++  }
++
++  exactPaths(record.maintenance_transitions, MERGED_SOURCE_PATHS, 'Merged source transitions');
++  const protectedManifest = JSON.parse(regular(repo, 'experiments/nyt-beta-0p001-coverage-2026-09-14/protected_manifest.json'));
++  const protectedEntries = new Map(protectedManifest.entries.map(e => [e.path, e]));
++  const previousLedger = JSON.parse(preMergeLedgerRaw);
++  const actualLedger = JSON.parse(regular(repo, ledgerPath));
++  const expectedLedger = JSON.parse(preMergeLedgerRaw);
++  assert(typeof actualLedger.authorization === 'string' && actualLedger.authorization.startsWith(previousLedger.authorization), 'Publication removed historical ledger authorization');
++  expectedLedger.authorization = actualLedger.authorization;
++  for (const t of record.maintenance_transitions) {
++    keys(t, ['path', 'previous_sha256', 'current_sha256', 'reason'], 'Merged source transition');
++    transition(t);
++    const original = protectedEntries.get(t.path);
++    assert(original && original.sha256, 'Merged source absent from frozen manifest');
++    const old = previousLedger.changes[t.path];
++    assert.equal(t.previous_sha256, old?.current_sha256 ?? original.sha256, 'Merged source previous hash mismatch');
++    const raw = regular(repo, t.path);
++    assert.equal(sha(raw), t.current_sha256, 'Merged source current hash mismatch: ' + t.path);
++    if (old) assert(t.reason.includes(old.reason), 'Merged source reason removed historical explanation');
++    const prior = [...(old?.previous_sha256 ?? []), t.previous_sha256];
++    assert.equal(new Set(prior).size, prior.length, 'Duplicate merged source previous hashes');
++    expectedLedger.changes[t.path] = {...old, previous_sha256: prior, current_sha256: t.current_sha256, reason: t.reason};
++  }
++  assert.deepEqual(actualLedger, expectedLedger, 'Publication ledger contains changes beyond the two source transitions');
++
++  exactPaths(record.source_transitions, [VERIFIER], 'Publication checker transitions');
++  const sourceTransitions = new Map();
++  for (const t of record.source_transitions) {
++    keys(t, ['path', 'previous_sha256', 'previous_bytes', 'current_sha256', 'current_bytes', 'reason'], 'Publication checker transition');
++    transition(t);
++    const original = finalSourceManifest.files[t.path];
++    assert(original, 'Checker absent from frozen final-source manifest');
++    assert.equal(t.previous_sha256, original.sha256, 'Checker previous hash mismatch');
++    assert.equal(t.previous_bytes, original.bytes, 'Checker previous size mismatch');
++    const raw = regular(repo, t.path);
++    assert.equal(raw.length, t.current_bytes, 'Checker current size mismatch');
++    assert.equal(sha(raw), t.current_sha256, 'Checker current hash mismatch');
++    sourceTransitions.set(t.path, {bytes: t.current_bytes, sha256: t.current_sha256});
++  }
++  return {
++    preMergeLedgerRaw, omittedMetadata, sourceTransitions,
++    summary: {
++      record: PUBLICATION_RECORD,
++      allowed_os_metadata_paths: OMITTED_METADATA_PATHS.length,
++      omitted_os_metadata_count: omittedMetadata.size,
++      omitted_os_metadata: [...omittedMetadata],
++      exact_merged_source_transitions: record.maintenance_transitions,
++      exact_checker_transitions: record.source_transitions,
++      data_or_deletion_exceptions_added: 0,
++    },
++  };
++}
+--- /dev/null
++++ b/code/maintenance/tests/publication.test.mjs
+@@ -0,0 +1,95 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import path from 'node:path';
++import os from 'node:os';
++import crypto from 'node:crypto';
++import {loadPublication,PUBLICATION_RECORD,PREMERGE_LEDGER,MAINTENANCE_LEDGER,VERIFIER,MERGED_SOURCE_PATHS,OMITTED_METADATA_PATHS} from '../publication.mjs';
++const sha=s=>crypto.createHash('sha256').update(s).digest('hex');
++const fmt=x=>JSON.stringify(x,null,2)+'\n';
++function fixture(t) {
++ const repo=fs.mkdtempSync(path.join(os.tmpdir(),'publication-test-'));
++ t.after(()=>fs.rmSync(repo,{recursive:true,force:true}));
++ const write=(relative,value)=>{const file=path.join(repo,relative);fs.mkdirSync(path.dirname(file),{recursive:true});fs.writeFileSync(file,value);};
++ const baseline={files:{}},finalSourceManifest={files:{}},protectedEntries=[];
++ const ledger={schema_version:1,authorization:'Original authorization',changes:{}};
++ const beforeLedger=fmt(ledger);write(PREMERGE_LEDGER,beforeLedger);
++ const record={schema_version:1,authorization:'Explicit narrow publication approval',
++   pre_merge_maintenance_ledger:{path:PREMERGE_LEDGER,sha256:sha(beforeLedger)},
++   omitted_os_metadata:[],maintenance_transitions:[],source_transitions:[]};
++ for(const relative of OMITTED_METADATA_PATHS){
++  const raw='finder metadata '+relative;
++  const entry={path:relative,bytes:Buffer.byteLength(raw),sha256:sha(raw)};
++  baseline.files[relative]={kind:'file',category:'preserved',bytes:entry.bytes,sha256:entry.sha256};
++  record.omitted_os_metadata.push(entry);
++ }
++ for(const relative of MERGED_SOURCE_PATHS){
++  const old='before '+relative,now='after '+relative;
++  protectedEntries.push({path:relative,bytes:Buffer.byteLength(old),sha256:sha(old)});
++  write(relative,now);
++  const tr={path:relative,previous_sha256:sha(old),current_sha256:sha(now),reason:'Preserve upstream source merge'};
++  record.maintenance_transitions.push(tr);
++  ledger.changes[relative]={previous_sha256:[tr.previous_sha256],current_sha256:tr.current_sha256,reason:tr.reason};
++ }
++ write('experiments/nyt-beta-0p001-coverage-2026-09-14/protected_manifest.json',fmt({entries:protectedEntries}));
++ const old='old checker',now='new checker';write(VERIFIER,now);
++ finalSourceManifest.files[VERIFIER]={kind:'file',bytes:Buffer.byteLength(old),sha256:sha(old)};
++ record.source_transitions.push({path:VERIFIER,previous_sha256:sha(old),previous_bytes:Buffer.byteLength(old),current_sha256:sha(now),current_bytes:Buffer.byteLength(now),reason:'Permit exact publication transitions'});
++ const save=()=>{write(PUBLICATION_RECORD,fmt(record));write(MAINTENANCE_LEDGER,fmt(ledger));};save();
++ return {repo,write,record,ledger,baseline,finalSourceManifest,save,check:()=>loadPublication({repo,baseline,finalSourceManifest})};
++}
++test('no publication record preserves strict legacy mode',t=>{
++ const f=fixture(t);fs.unlinkSync(path.join(f.repo,PUBLICATION_RECORD));assert.equal(f.check(),null);
++});
++test('exact metadata omissions and source transitions are reported separately',t=>{
++ const f=fixture(t),result=f.check();assert.equal(result.omittedMetadata.size,3);assert.equal(result.sourceTransitions.size,1);
++ assert.equal(result.summary.data_or_deletion_exceptions_added,0);
++ assert.deepEqual(JSON.parse(result.preMergeLedgerRaw).changes,{});
++});
++test('present metadata must retain original bytes',t=>{
++ const f=fixture(t),relative=OMITTED_METADATA_PATHS[0];
++ f.write(relative,'finder metadata '+relative);assert.equal(f.check().omittedMetadata.size,2);
++ f.write(relative,'changed');assert.throws(f.check,/Present OS metadata/);
++});
++test('a metadata symlink cannot substitute for preserved bytes',t=>{
++ const f=fixture(t),relative=OMITTED_METADATA_PATHS[0];
++ fs.mkdirSync(path.dirname(path.join(f.repo,relative)),{recursive:true});
++ fs.symlinkSync('absent',path.join(f.repo,relative));assert.throws(f.check,/regular file/);
++});
++test('scientific files cannot be added to allowed omissions',t=>{
++ const f=fixture(t);f.record.omitted_os_metadata.push({path:'census/assessment.json',bytes:0,sha256:sha('')});f.save();
++ assert.throws(f.check,/OS metadata omissions scope changed/);
++});
++test('metadata baseline hashes cannot be replaced',t=>{
++ const f=fixture(t);f.record.omitted_os_metadata[0].sha256=sha('other');f.save();
++ assert.throws(f.check,/Metadata hash does not match baseline/);
++});
++test('ledger rejects extra data or deletion exceptions',t=>{
++ const f=fixture(t);f.ledger.changes['census/assessment.json']={previous_sha256:[sha('old')],current_sha256:null,reason:'Unrelated deletion'};f.save();
++ assert.throws(f.check,/beyond the two source transitions/);
++});
++test('ledger rejects modified historical authorization',t=>{
++ const f=fixture(t);f.ledger.authorization='Replacement';f.save();assert.throws(f.check,/historical ledger authorization/);
++});
++test('changed pre-merge snapshot fails before any exception',t=>{
++ const f=fixture(t);f.write(PREMERGE_LEDGER,'{}');assert.throws(f.check,/Pre-merge ledger snapshot changed/);
++});
++test('source transition previous hashes must match frozen originals',t=>{
++ const f=fixture(t);f.record.maintenance_transitions[0].previous_sha256=sha('other');f.save();assert.throws(f.check,/previous hash mismatch/);
++});
++test('source transition must match actual merged bytes',t=>{
++ const f=fixture(t);f.write(MERGED_SOURCE_PATHS[0],'unrecorded change');assert.throws(f.check,/current hash mismatch/);
++});
++test('source transition reasons must match exact ledger entries',t=>{
++ const f=fixture(t);f.ledger.changes[MERGED_SOURCE_PATHS[0]].reason='Different reason';f.save();assert.throws(f.check,/beyond the two source transitions/);
++});
++test('additional final-source exceptions cannot be introduced',t=>{
++ const f=fixture(t);f.record.source_transitions.push({...f.record.source_transitions[0],path:'code/evaluation/nyt/scoring.mjs'});f.save();
++ assert.throws(f.check,/Publication checker transitions scope changed/);
++});
++test('checker transition is anchored to frozen source and current bytes',t=>{
++ const f=fixture(t);f.record.source_transitions[0].previous_sha256=sha('different checker');f.save();assert.throws(f.check,/Checker previous hash mismatch/);
++});
++test('unrecorded current checker changes are rejected',t=>{
++ const f=fixture(t);f.write(VERIFIER,'tampered');assert.throws(f.check,/Checker current/);
++});

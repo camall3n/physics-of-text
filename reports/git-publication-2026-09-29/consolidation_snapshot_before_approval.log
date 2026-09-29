@@ -1,0 +1,39 @@
+{
+  "complete": false,
+  "checked": 14593,
+  "unchanged": 14535,
+  "preserved_files_checked": 14480,
+  "failures": [
+    "experiments/nyt-beta-0p001-coverage-2026-09-14/.DS_Store",
+    "experiments/nyt-beta-0p001-coverage-2026-09-14/census/.DS_Store",
+    "experiments/nyt-beta-0p001-coverage-2026-09-14/census/audit_06dbdb9b03af/.DS_Store"
+  ],
+  "changed_implementation": 48,
+  "changed_documentation": 6,
+  "maintenance_transitions": 36,
+  "final_source_validation": {
+    "complete": true,
+    "files": 173
+  }
+}
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Scientific inputs/results or protected integrity controls changed
+
+3 !== 0
+
+    at file:///private/var/folders/gr/fxmg3wx12hn56_p3mxd0r6qm0000gn/T/physics-of-text-publication-t4p5tjes/code/evaluation/tests/migration/verify_baseline.mjs:117:8
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:646:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 3,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v26.3.0

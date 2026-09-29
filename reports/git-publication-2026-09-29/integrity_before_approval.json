@@ -1,0 +1,39 @@
+[
+  {
+    "check": "complete_preservation",
+    "exit_code": 1,
+    "failures": [
+      {
+        "path": "resources/sampler-140626/CHANGES.md",
+        "error": "Protected size changed\n\n24095 !== 21966\n"
+      },
+      {
+        "path": "resources/sampler-140626/src/main/java/org/ucb/generative_ie/experiments/LexicalEntropyExperiment.java",
+        "error": "Protected size changed\n\n6904 !== 6391\n"
+      }
+    ]
+  },
+  {
+    "check": "coverage_preservation",
+    "exit_code": 1,
+    "failures": [
+      {
+        "path": "resources/sampler-140626/CHANGES.md",
+        "error": "Protected size changed\n\n24095 !== 21966\n"
+      },
+      {
+        "path": "resources/sampler-140626/src/main/java/org/ucb/generative_ie/experiments/LexicalEntropyExperiment.java",
+        "error": "Protected size changed\n\n6904 !== 6391\n"
+      }
+    ]
+  },
+  {
+    "check": "consolidation_snapshot",
+    "exit_code": 1,
+    "failures": [
+      "experiments/nyt-beta-0p001-coverage-2026-09-14/.DS_Store",
+      "experiments/nyt-beta-0p001-coverage-2026-09-14/census/.DS_Store",
+      "experiments/nyt-beta-0p001-coverage-2026-09-14/census/audit_06dbdb9b03af/.DS_Store"
+    ]
+  }
+]
