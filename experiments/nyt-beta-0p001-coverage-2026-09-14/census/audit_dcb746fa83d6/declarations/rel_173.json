@@ -1,0 +1,48 @@
+{
+  "relation": "rel_173",
+  "predicate_id": "criticizes",
+  "predicate_version": 1,
+  "predicate_hash": "d6d753a975aabab857381299947b8710fc44d5900e51f7ca64fa2d1da32876ac",
+  "predicate": {
+    "id": "criticizes",
+    "label": "criticized or accused",
+    "definition": "Person or institution X criticized, blamed or accused Y.",
+    "includes": [
+      "explicit criticize/blame/accuse/assail",
+      "a clearly critical directed allegation"
+    ],
+    "excludes": [
+      "warning without criticism",
+      "generic communication or meeting",
+      "rivalry/comparison alone"
+    ],
+    "ambiguous": [
+      "unclear accused person or attributed critic"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+  },
+  "dictionary_sha256": "7199888a9cc76981d5319298ff4ce78be75670be1cc980ac39be2722dc30cd3a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Attack/criticize in political-party/person pairs forms the leading verbal criticism family; military attack shares surface verbs but is outside this predicate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.910Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    6
+  ],
+  "competing_meanings": [
+    "military attack",
+    "political leadership",
+    "location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_173.before_grading.json",
+  "pregrading_annotation_sha256": "1cd66cb9d878c69f06fd714753f38dc2252b23451146cb93678b707a8ff3cf3d"
+}

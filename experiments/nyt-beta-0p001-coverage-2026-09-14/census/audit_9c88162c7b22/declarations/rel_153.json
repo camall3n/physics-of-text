@@ -1,0 +1,51 @@
+{
+  "relation": "rel_153",
+  "predicate_id": "has_athlete",
+  "predicate_version": 1,
+  "predicate_hash": "7a908856e4bf08d243a426e3fed421dc145e6547dccb1ff17629ab1bf8a39e69",
+  "predicate": {
+    "id": "has_athlete",
+    "label": "has athlete on team",
+    "definition": "Team or sporting organization X has or had person Y as a player or competing athlete.",
+    "includes": [
+      "explicit player or athlete on X",
+      "X fields or plays Y as an athlete",
+      "a stated playing membership in X"
+    ],
+    "excludes": [
+      "coach or manager alone",
+      "wanting or needing Y without roster membership",
+      "an opponent rather than a team member",
+      "ordinary possession or a book title"
+    ],
+    "ambiguous": [
+      "generic have without athlete-role context",
+      "proposed recruitment without established membership",
+      "unclear team or player identity"
+    ],
+    "notes": "Inverse of athlete_for. A team needing a person does not prove that the person plays for it.",
+    "scope_notes": "Includes: explicit player or athlete on X; X fields or plays Y as an athlete; a stated playing membership in X. Excludes: coach or manager alone; wanting or needing Y without roster membership; an opponent rather than a team member; ordinary possession or a book title. Ambiguous unless resolved by case-local evidence: generic have without athlete-role context; proposed recruitment without established membership; unclear team or player identity. Inverse of athlete_for. A team needing a person does not prove that the person plays for it."
+  },
+  "dictionary_sha256": "a14fb88a44b7263ddbe3abc24799652dcc0f5aa3481cc8ee999a81029dc987c9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Knicks→Ewing paired with have/need/play dominates roster semantics; need alone is not actual membership. The literary Heather→Mommies pair is separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.455Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_153.before_grading.json",
+  "pregrading_annotation_sha256": "2cf608d4aa92db67867344e00c74e0e7dba64e45eefdb5356c8f239a561916dc"
+}

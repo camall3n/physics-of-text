@@ -1,0 +1,230 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_188",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23,
+        24,
+        30,
+        31,
+        33,
+        34,
+        36,
+        37,
+        38,
+        40
+      ],
+      "case_ids": [
+        "rel_188__ent_1253__ent_1180",
+        "rel_188__ent_1407__ent_1180",
+        "rel_188__ent_807__ent_809",
+        "rel_188__ent_525__ent_527",
+        "rel_188__ent_528__ent_358",
+        "rel_188__ent_301__ent_1446",
+        "rel_188__ent_359__ent_1405",
+        "rel_188__ent_1057__ent_1404",
+        "rel_188__ent_973__ent_734",
+        "rel_188__ent_733__ent_975",
+        "rel_188__ent_525__ent_767",
+        "rel_188__ent_769__ent_1105",
+        "rel_188__ent_780__ent_1446",
+        "rel_188__ent_796__ent_311",
+        "rel_188__ent_1007__ent_1008",
+        "rel_188__ent_1183__ent_1184",
+        "rel_188__ent_806__ent_529",
+        "rel_188__ent_806__ent_1446",
+        "rel_188__ent_1181__ent_187",
+        "rel_188__ent_619__ent_1105",
+        "rel_188__ent_806__ent_976",
+        "rel_188__ent_978__ent_861",
+        "rel_188__ent_1431__ent_529",
+        "rel_188__ent_806__ent_1447",
+        "rel_188__ent_878__ent_1186",
+        "rel_188__ent_1253__ent_1446"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit analyst affiliation or professional employer-linked tracking path supports the ordered predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_188__ent_805__ent_1354"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Murphy/Morgan Stanley analyst evidence is merged with Tony Awards/South Salem death-location evidence.",
+      "tags": [
+        "mixed_entity"
+      ],
+      "question": "Does this tuple denote Murphy/Morgan Stanley or Tony Awards/South Salem?"
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_188__ent_791__ent_310"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President, director and economist evidence does not unambiguously establish the narrower analyst role.",
+      "tags": [
+        "scope_boundary"
+      ],
+      "question": "Does Sullivan’s economist role at Witter Reynolds establish professional analyst work under the common scope?"
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_188__ent_1186__ent_783"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Abramowitz and Black are distinct literal analyst identities merged at the same employer.",
+      "tags": [
+        "mixed_entity"
+      ],
+      "question": "Does this inferred person denote Abramowitz or Gary Black?"
+    },
+    {
+      "indices": [
+        4,
+        7,
+        8,
+        25,
+        26,
+        28,
+        29,
+        32,
+        35,
+        47
+      ],
+      "case_ids": [
+        "rel_188__ent_130__ent_372",
+        "rel_188__ent_253__ent_1221",
+        "rel_188__ent_103__ent_345",
+        "rel_188__ent_916__ent_586",
+        "rel_188__ent_919__ent_1281",
+        "rel_188__ent_1039__ent_1422",
+        "rel_188__ent_107__ent_561",
+        "rel_188__ent_1367__ent_321",
+        "rel_188__ent_916__ent_1374",
+        "rel_188__ent_1254__ent_335"
+      ],
+      "judgment": "incorrect",
+      "reason": "President, director, manager, spokesperson, officer or owner roles do not establish analyst work.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        27
+      ],
+      "case_ids": [
+        "rel_188__ent_191__ent_530"
+      ],
+      "judgment": "incorrect",
+      "reason": "Academic bioethics directorship does not establish an analyst role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        12,
+        41,
+        42,
+        43,
+        45,
+        46
+      ],
+      "case_ids": [
+        "rel_188__ent_1224__ent_229",
+        "rel_188__ent_302__ent_480",
+        "rel_188__ent_1266__ent_798",
+        "rel_188__ent_1272__ent_602",
+        "rel_188__ent_1100__ent_1008",
+        "rel_188__ent_817__ent_572"
+      ],
+      "judgment": "incorrect",
+      "reason": "Location, corporate ownership, interpersonal or movement evidence does not establish analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        39,
+        44
+      ],
+      "case_ids": [
+        "rel_188__ent_819__ent_586",
+        "rel_188__ent_1265__ent_1422"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political control of the White House does not establish analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        48,
+        49
+      ],
+      "case_ids": [
+        "rel_188__ent_712__ent_1396",
+        "rel_188__ent_917__ent_1383"
+      ],
+      "judgment": "incorrect",
+      "reason": "A publication comment or bare be-to path does not establish analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    10,
+    11,
+    16,
+    19,
+    20,
+    31
+  ],
+  "broad": []
+}

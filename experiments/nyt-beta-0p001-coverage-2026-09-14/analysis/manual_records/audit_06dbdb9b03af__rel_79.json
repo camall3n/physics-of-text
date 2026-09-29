@@ -1,0 +1,55 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_79",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_79__ent_543__ent_308"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit rout-of establishes a completed victory despite other score/standings evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_79__ent_308__ent_543"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Outscore does not specify whether it is a final match result or a partial-period margin.",
+      "tags": [
+        "result_scope"
+      ],
+      "question": "Was the Knicks outscoring of the Nets the completed contest result?"
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_79__ent_61__ent_259"
+      ],
+      "judgment": "incorrect",
+      "reason": "Player affiliation, residence and retirement with a team do not establish defeating that team.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "38643f204a0bb715481e37f22be16a99ee7d31a6982e4d9146269af97a2595a1"
+}

@@ -1,0 +1,42 @@
+{
+  "relation": "rel_156",
+  "predicate_id": "advances_measures_through",
+  "predicate_version": 1,
+  "predicate_hash": "be84eb3ddb762b8ff7589c602731a2f50f8d35ec3ebab2a7253d0b392827108e",
+  "predicate": {
+    "id": "advances_measures_through",
+    "label": "advances legislative measures through body",
+    "definition": "Political actor X advances a legislative measure through legislative body Y.",
+    "includes": [
+      "explicit pushing or advancing legislation through Y",
+      "historical legislative action"
+    ],
+    "excludes": [
+      "gaining control of or taking over the body",
+      "ordinary membership, lobbying or communication without advancing a measure",
+      "physical movement through a building"
+    ],
+    "ambiguous": [
+      "push-through with the legislative object omitted",
+      "unclear proposer or legislative body",
+      "prospective intent without established action"
+    ],
+    "notes": "The legislation is a third role and must be locally recoverable; bare push-through does not identify the measure or guarantee passage.",
+    "scope_notes": "Includes: explicit pushing or advancing legislation through Y; historical legislative action. Excludes: gaining control of or taking over the body; ordinary membership, lobbying or communication without advancing a measure; physical movement through a building. Ambiguous unless resolved by case-local evidence: push-through with the legislative object omitted; unclear proposer or legislative body; prospective intent without established action. The legislation is a third role and must be locally recoverable; bare push-through does not identify the measure or guarantee passage."
+  },
+  "dictionary_sha256": "de33a7ef33d7f47c75a06b0364d271c02bace32531781bb3bd94f7fc0a9b221d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Push-through11 toward Congress defines legislative advancement family; missing measure objects must remain unresolved, and control/takeover separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:27:14.245Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_156.before_grading.json",
+  "pregrading_annotation_sha256": "aec553cddbcecfa6cf7032b230d5a91befe4dd115feb39859d1f48ed89429890"
+}

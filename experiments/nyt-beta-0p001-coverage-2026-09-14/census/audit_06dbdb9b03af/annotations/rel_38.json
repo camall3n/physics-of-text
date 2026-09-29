@@ -1,0 +1,94 @@
+{
+  "relation": "rel_38",
+  "predicate_id": "known_as",
+  "label": "known or named as",
+  "definition": "Entity X is explicitly known, named, renamed, or referred to by alternative name Y for the same entity.",
+  "scope_notes": "Includes: explicit known-as or also-called identity; a stated alias or alternative name; historical renaming of the same entity. Excludes: a named subsidiary or distinct entity; comparison or resemblance rather than identity; ordinary description without an alternative designation. Ambiguous unless resolved by case-local evidence: unclear referent of the alternative name; an explicitly proposed new name without established use; name versus separate institution when unresolved. The predicate concerns two names or designations of one referent. Do not infer identity from an ownership relationship.",
+  "facts": [
+    {
+      "case_id": "rel_38__ent_837__ent_1086",
+      "judgment": "incorrect",
+      "reason": "Japan → Kiichi Miyazawa: Political leadership or institutional liaison does not establish alternative names for the same entity.",
+      "evidence_lines": [
+        7069,
+        7070,
+        7071,
+        7072,
+        7073,
+        7075
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:32.899Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_1155__ent_219",
+      "judgment": "ambiguous",
+      "reason": "Federated Department Stores → Macy: Conversion and merger wording leaves renaming of one entity versus merger of distinct entities unresolved.",
+      "evidence_lines": [
+        6004,
+        6005,
+        6006,
+        6007,
+        6008
+      ],
+      "issue_tags": [
+        "identity_attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Macy designate a new name for Federated itself, or a distinct acquired/merged company?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:32.900Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_445__ent_687",
+      "judgment": "ambiguous",
+      "reason": "United Nations Special Commission → Unscom: Known-as attaches through inspectors, mandate, requests or experts; the exact referent of Unscom rather than the surrounding named commission remains uncertain.",
+      "evidence_lines": [
+        5622,
+        5624,
+        5625,
+        5626
+      ],
+      "issue_tags": [
+        "attachment"
+      ],
+      "reviewer_question": "Does each known-as phrase name the United Nations Special Commission itself rather than its inspectors or another attached unit?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:32.900Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_586__ent_189",
+      "judgment": "incorrect",
+      "reason": "White House → Congress: Political leadership or institutional liaison does not establish alternative names for the same entity.",
+      "evidence_lines": [
+        2060,
+        7883
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:32.900Z"
+      }
+    }
+  ],
+  "predicate_hash": "31c70b28ada6a9b20beb088546cf777358118827a6aab13f0340572de3332662",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a2c5ee143f137b8ae4051721e4914f1c1a963f5d819fd3049c68d63430e9d6f3"
+}

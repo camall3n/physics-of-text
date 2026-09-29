@@ -1,0 +1,506 @@
+{
+  "relation": "rel_304",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_304.json",
+    "source_sha256": "c92a39c8a3dcba160565207a386d3f82d0ec93d9bba709f3003168125a33d33d",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_304__ent_1370__ent_557",
+      "judgment": "ambiguous",
+      "reason": "Montreal Expos → New York Mets; San Diego Padres → New York Mets: Montreal Expos and San Diego Padres are distinct teams combined as the first latent entity against New York Mets.",
+      "evidence_lines": [
+        1047,
+        1048,
+        1049,
+        1050,
+        1051,
+        1059,
+        1060,
+        1062
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Should Montreal Expos and San Diego Padres be separated, and which team is intended here?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1090__ent_1012",
+      "judgment": "supported",
+      "reason": "Boston Red Sox → New York Yankees: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        1022,
+        1023,
+        1024,
+        1026,
+        1027,
+        1028,
+        1029
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_318__ent_557",
+      "judgment": "supported",
+      "reason": "Philadelphia Phillies → New York Mets: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        1031,
+        1032,
+        1033,
+        1034,
+        1035,
+        1036
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1016__ent_557",
+      "judgment": "supported",
+      "reason": "St Louis Cardinals → New York Mets: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        1073,
+        1074,
+        1075,
+        1076,
+        1077
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_400__ent_856",
+      "judgment": "supported",
+      "reason": "Jets → Raiders: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        2642,
+        2643,
+        2645,
+        2648,
+        2649
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_561__ent_560",
+      "judgment": "supported",
+      "reason": "Giants → Redskins: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        891,
+        893,
+        895,
+        896
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1014__ent_1012",
+      "judgment": "supported",
+      "reason": "Seattle Mariners → New York Yankees: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        1054,
+        1056,
+        1057,
+        1058
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1282__ent_278",
+      "judgment": "supported",
+      "reason": "Mets → Braves: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        6888,
+        6890,
+        6892
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_151__ent_1371",
+      "judgment": "incorrect",
+      "reason": "Rupert Murdoch → News Corporation; Ward McCarthy → McCarthy Research Associates: An empire association and partnership affiliation do not assert any competitive victory. The two rows also mix incompatible named entity pairs.",
+      "evidence_lines": [
+        266,
+        506
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "entity_identity"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1004__ent_321",
+      "judgment": "supported",
+      "reason": "Yankees → Mets: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        902,
+        904
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_321__ent_1004",
+      "judgment": "supported",
+      "reason": "Mets → Yankees: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        914,
+        920
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1313__ent_467",
+      "judgment": "supported",
+      "reason": "Jets → Dolphins: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        2632,
+        2635
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1282__ent_1084",
+      "judgment": "supported",
+      "reason": "Mets → Phillies: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        6908,
+        6913
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1013__ent_267",
+      "judgment": "supported",
+      "reason": "Florida Marlins → New York Mets: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        1037
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_74__ent_1004",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        2668
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_228__ent_471",
+      "judgment": "ambiguous",
+      "reason": "East → West: The only defeat row identifies the competitors as East and West without resolving the underlying teams or bodies.",
+      "evidence_lines": [
+        6057
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Which competitors do East and West denote in the original sentence?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_304__ent_1270__ent_1392",
+      "judgment": "supported",
+      "reason": "Mets → Cubs: The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "evidence_lines": [
+        6960
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:52:55.341Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_304.json",
+        "annotation_sha256": "2984266c70e91e37f53ffcc0c4603a7f255ba688776cf9ae78d380e709b56c5b",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1
+}

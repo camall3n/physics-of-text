@@ -1,0 +1,71 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_257",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_257__ent_180__ent_189",
+        "rel_257__ent_182__ent_189",
+        "rel_257__ent_1331__ent_57",
+        "rel_257__ent_1218__ent_189",
+        "rel_257__ent_1325__ent_189"
+      ],
+      "judgment": "supported",
+      "reason": "A local urge row identifies the addressee and resolves communication despite other omitted-object sends.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "case_ids": [
+        "rel_257__ent_816__ent_1360",
+        "rel_257__ent_195__ent_398",
+        "rel_257__ent_1280__ent_398",
+        "rel_257__ent_1435__ent_1440",
+        "rel_257__ent_732__ent_189"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Send has no object, and no other local row establishes a communicated message; criticism alone does not resolve address.",
+      "tags": [
+        "missing_object"
+      ],
+      "question": "What was sent, and was it a message addressed to the extracted recipient?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_257__ent_639__ent_182"
+      ],
+      "judgment": "incorrect",
+      "reason": "Criticism does not by itself establish speech addressed to the criticized person.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "3eeacac6d5c55ff602e4fd79b4451fdbba9d2c9cd10ace4b06ba48bebda18f8a"
+}

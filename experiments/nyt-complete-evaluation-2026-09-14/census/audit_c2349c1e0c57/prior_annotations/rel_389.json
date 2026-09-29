@@ -1,0 +1,79 @@
+{
+  "relation": "rel_389",
+  "label": "member of organization or political body",
+  "definition": "X is or has been a member of organization, alliance, party or public body Y.",
+  "scope_notes": "The join/member/entry/membership paths define membership, including countries in alliances and individual legislators. Mere negotiation to join, geographical entry, allies of individual countries, political party control of a legislature and criticism of another body do not automatically establish membership. Membership of unnamed individual party members is not membership of their party as a single institution.",
+  "facts": [
+    {
+      "case_id": "rel_389__ent_816__ent_827",
+      "judgment": "incorrect",
+      "reason": "Republicans criticize, support a position of and attack Mr. Clinton. A person is not an organization of which the Republicans are members.",
+      "evidence_lines": [
+        5516,
+        5520,
+        5524
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_389__ent_819__ent_1197",
+      "judgment": "ambiguous",
+      "reason": "Most paths express Democratic control of Senate. The elected-to row could instead refer to individual Democratic legislators; the plural name does not distinguish that population from the party as one entity.",
+      "evidence_lines": [
+        6376,
+        6382,
+        6384
+      ],
+      "issue_tags": [
+        "entity_scope"
+      ],
+      "reviewer_question": "Does Democrats denote the individual legislators elected to the Senate here, or the Democratic Party as the entity whose membership is being asserted?"
+    },
+    {
+      "case_id": "rel_389__ent_818__ent_271",
+      "judgment": "supported",
+      "reason": "China is explicitly a member of the Security Council and exercises its veto; repeated member-of paths establish institutional membership.",
+      "evidence_lines": [
+        3303,
+        3305,
+        3308
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_389__ent_813__ent_706",
+      "judgment": "incorrect",
+      "reason": "The paths concern British officials, a minister and support involving Tony Blair, not Britain being a member of an organization named Tony Blair.",
+      "evidence_lines": [
+        7009,
+        7014,
+        7015
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_389__ent_816__ent_811",
+      "judgment": "incorrect",
+      "reason": "The supplied fact expresses Republican control of the House. Committee shorthand alone does not identify a membership relation for the party, and no direct member or elected-to row is present.",
+      "evidence_lines": [
+        6396,
+        6397,
+        6400,
+        6404
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

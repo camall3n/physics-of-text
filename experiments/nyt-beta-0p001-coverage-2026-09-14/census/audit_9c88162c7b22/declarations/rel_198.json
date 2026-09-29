@@ -1,0 +1,52 @@
+{
+  "relation": "rel_198",
+  "predicate_id": "present_in",
+  "predicate_version": 1,
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate": {
+    "id": "present_in",
+    "label": "physically present in place",
+    "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+    "includes": [
+      "explicit unqualified physical be-in or presence",
+      "a direct residence or physical location statement",
+      "a completed arrival, visit, or departure that establishes presence in Y"
+    ],
+    "excludes": [
+      "membership in an organization",
+      "participation or victory in a nongeographic event",
+      "political office or control alone",
+      "discussion, publication, or other abstract presence",
+      "a destination without evidence of realized movement or presence"
+    ],
+    "ambiguous": [
+      "place-versus-institution metonymy",
+      "an incomplete geographic argument",
+      "uncertain attachment or explicit hypothetical presence"
+    ],
+    "notes": "Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+    "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation."
+  },
+  "dictionary_sha256": "a6503d0640ea8955ef33de9b7ec16b60cb276a860d56fc3e7020b92766b3ea30",
+  "kind": "declared_before_case_grading",
+  "rationale": "Geographic office/appearance/delivery context dominates institution/person-to-place pairs; Cubs appearance in a sporting event is a distinct nongeographic meaning. Actual presence must still be established.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.175Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_198.before_grading.json",
+  "pregrading_annotation_sha256": "100249c68537d970ba1f03259842f66aaecfca9342762ea0db369d881d248290"
+}

@@ -1,0 +1,57 @@
+{
+  "relation": "rel_358",
+  "predicate_id": "has_wife",
+  "predicate_version": 1,
+  "predicate_hash": "de64fa948c10501258b239ea8f83b784ab79b79aa658fa235fcb1b9edb41a40d",
+  "predicate": {
+    "id": "has_wife",
+    "label": "has or had wife",
+    "definition": "Person X is or was married to woman Y identified as X's wife.",
+    "includes": [
+      "explicit wife or spouse identified as wife",
+      "wife apposition or accompanied-by-wife attachment establishing the couple",
+      "historical or former wife"
+    ],
+    "excludes": [
+      "daughter or other relative",
+      "ordinary companion or accompaniment without a wife relationship",
+      "a fictional or proposed marriage unless actual marital status is stated"
+    ],
+    "ambiguous": [
+      "unclear whose wife Y is",
+      "wife versus other companion attachment unresolved",
+      "engagement without established marriage"
+    ],
+    "notes": "The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+    "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship."
+  },
+  "dictionary_sha256": "726d7019bb06154bab69d4d25759c23821cba51c452324d1c33506606a9f3b17",
+  "kind": "declared_before_case_grading",
+  "rationale": "Wife and accompanied-by-wife dominate with men and their named wives. Daughter and ordinary accompaniment remain distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.667Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16
+  ],
+  "competing_meanings": [
+    "daughter",
+    "ordinary accompaniment"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_358.before_grading.json",
+  "pregrading_annotation_sha256": "8dc3e1714006f6ec0ccc730615a04bcdcdb33841d3d393012729dcc3d1e10a65"
+}

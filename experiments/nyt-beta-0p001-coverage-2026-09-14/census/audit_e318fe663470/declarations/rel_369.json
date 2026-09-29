@@ -1,0 +1,39 @@
+{
+  "relation": "rel_369",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "ea9060d9c17c5eafa7778b9684fda2222f4cebb87337402181600e0916e1307e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Retain-control, control-of and political win paths form the largest family, ahead of corporate containment.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:20:59.783Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_369.before_grading.json",
+  "pregrading_annotation_sha256": "bf25940ead3c081d6727d8080fb117f539ef074cf0c6fd78ec3245a172a5307a"
+}

@@ -1,0 +1,71 @@
+{
+  "relation": "rel_266",
+  "predicate_id": "writes_for",
+  "label": "contributed writing to publication",
+  "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+  "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction.",
+  "facts": [
+    {
+      "case_id": "rel_266__ent_48__ent_47",
+      "judgment": "incorrect",
+      "reason": "Mr. Skakel → Michael Sherman: Legal representation or national corporate/legal descriptions do not establish writing for a publication.",
+      "evidence_lines": [
+        3784,
+        3785,
+        3787,
+        3790,
+        3791
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:38.588Z"
+      }
+    },
+    {
+      "case_id": "rel_266__ent_710__ent_325",
+      "judgment": "supported",
+      "reason": "Vincent Canby → The Times: Direct writing and reviewing in the named newspaper supports authorship for that publication.",
+      "evidence_lines": [
+        7297,
+        7299,
+        7300,
+        7302
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:38.584Z"
+      }
+    },
+    {
+      "case_id": "rel_266__ent_24__ent_822",
+      "judgment": "incorrect",
+      "reason": "Unocal → American: Legal representation or national corporate/legal descriptions do not establish writing for a publication.",
+      "evidence_lines": [
+        3632,
+        3634,
+        3635
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:38.588Z"
+      }
+    }
+  ],
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5b0c3a9512e479ae729053cc513057a7cb92942f3b43041d2c6162d5079a7c42"
+}

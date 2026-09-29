@@ -1,0 +1,46 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_310",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_310__ent_765__ent_522",
+        "rel_310__ent_191__ent_530"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit program chair or director within the university establishes the declared managerial office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_310__ent_528__ent_781"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Officer/expert/researcher/professor descriptions do not resolve whether the officer role is managerial.",
+      "tags": [
+        "role_attachment"
+      ],
+      "question": "What kind of officer is Loren Thompson, and does the local text establish a managerial office?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e2bfd2007f4d92d2f73c90f24839e68cec0ee02ffd5b93942283eef2c1ac499c"
+}

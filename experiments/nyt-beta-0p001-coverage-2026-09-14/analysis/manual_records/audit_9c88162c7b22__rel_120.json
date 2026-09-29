@@ -1,0 +1,45 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_120",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_120__ent_338__ent_586",
+        "rel_120__ent_344__ent_586"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit spokesman or service-as-spokesman establishes White House representation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_120__ent_1030__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Secretary and public-face descriptions suggest a communications role but do not explicitly distinguish spokesman from another secretary role.",
+      "tags": [
+        "spokesperson_scope"
+      ],
+      "question": "Does the secretary/public-face role explicitly authorize Ari Fleischer to speak for the White House?"
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "3e830c52b42e641d31ebebad0529462e682eaffd7c5f01a5a518c5c5cdf0ae42"
+}

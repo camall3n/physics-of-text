@@ -1,0 +1,53 @@
+{
+  "relation": "rel_154",
+  "predicate_id": "member_of",
+  "predicate_version": 1,
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate": {
+    "id": "member_of",
+    "label": "member of organization",
+    "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+    "includes": [
+      "explicit member/belong/membership",
+      "join/accession/entry when organizational membership is established",
+      "individual legislators and countries in alliances"
+    ],
+    "excludes": [
+      "join a person in an action",
+      "geographic entry",
+      "event participation",
+      "party control of legislature",
+      "negotiations or proposed membership alone"
+    ],
+    "ambiguous": [
+      "bare join without clear completion or membership meaning",
+      "plural party naming individual members rather than the party itself"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself."
+  },
+  "dictionary_sha256": "f234e21c684f53b0214d0b10a0f1eb308b0e0dc23f5b76e979b03ffdabd81181",
+  "kind": "declared_before_case_grading",
+  "rationale": "Member/trustee/seat/resignation variants identify the dominant institutional membership family. Generic voting/representation still needs local membership support.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.424Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    12
+  ],
+  "competing_meanings": [
+    "resolution communication"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_154.before_grading.json",
+  "pregrading_annotation_sha256": "5cf7d5e6407e329f04bf07876c6b130586edfcde4c12e94f3e2c89b6e0aa2b1b"
+}

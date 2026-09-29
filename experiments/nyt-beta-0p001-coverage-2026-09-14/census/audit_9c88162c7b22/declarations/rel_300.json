@@ -1,0 +1,43 @@
+{
+  "relation": "rel_300",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "2fdb99a568b2af807aaa96d2a426d8de7f45924c4d161f28a9a411b9b99bc80f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Ordered roles show party-to-House/Senate control/winning as the strongest coherent cluster, amid unrelated birth/occupation paths. Retain political body and actuality limits.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.445Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_300.before_grading.json",
+  "pregrading_annotation_sha256": "da65a9d238a822bfb12a0733b4317b503e713f91bc72d1a14323fd674cc96bf4"
+}

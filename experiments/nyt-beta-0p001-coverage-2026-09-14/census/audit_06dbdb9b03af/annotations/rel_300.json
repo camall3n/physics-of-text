@@ -1,0 +1,60 @@
+{
+  "relation": "rel_300",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_300__ent_314__ent_323",
+      "judgment": "supported",
+      "reason": "Mr. Schwartz → Brooklyn: Explicit born-in establishes at least historical physical presence in Brooklyn, without assuming continued residence.",
+      "evidence_lines": [
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:32.462Z"
+      }
+    },
+    {
+      "case_id": "rel_300__ent_822__ent_821",
+      "judgment": "ambiguous",
+      "reason": "American → London: American modifies different people and firms; the physically present actor is unspecified and may change across rows.",
+      "evidence_lines": [
+        2106,
+        2107,
+        2108,
+        2109,
+        2110,
+        2111
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which person or organization does American denote in each in-London phrase?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:32.462Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5bc7f9c803a0faa410d0d1b514a99d416730fc70879f506a3ff5abbcbb4568fe"
+}

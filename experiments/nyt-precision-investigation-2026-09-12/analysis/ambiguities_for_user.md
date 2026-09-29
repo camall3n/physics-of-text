@@ -1,0 +1,550 @@
+# Ambiguous cases for user adjudication
+
+These questions preserve the original assistant judgment and its evidence; they have not been resolved by assuming favorable answers. Follow each audit link for the full dictionary and predicate definition. Row numbers refer to the unchanged corpus/MAP order, starting at1after the TSV header. This file does not include every possible disagreement with the declared predicates; scope caveats for mixed clusters remain in each relation annotation.
+
+## entityfix_latent_beta01_seed20260912 — audit_384a3e2233
+
+### rel_397__ent_189__ent_310
+
+Predicate: communicated to. Argument 1 addressed, contacted or sent a message to argument 2.
+
+Congress sends something to the White House, but the omitted object prevents distinguishing a message/document submission from transferring a person or other thing.
+
+**Question:** What was sent by Congress to the White House, and does the full sentence establish an addressed communication?
+
+Source rows: 7945. [Editable annotation](../manual_review/audit_384a3e2233/annotations/rel_397.json). [Full case folder](../manual_review/audit_384a3e2233/README.md).
+
+### rel_335__ent_791__ent_310
+
+Predicate: analyst for. Person 1 is or was an analyst for organization 2.
+
+Sullivan is described as president and economist at Witter Reynolds. No explicit analyst title is present, so including the economist role would widen the predicate.
+
+**Question:** Should this economist role count as an analyst, and is there source evidence of analytical duties or an analyst title?
+
+Source rows: 715, 717. [Editable annotation](../manual_review/audit_384a3e2233/annotations/rel_335.json). [Full case folder](../manual_review/audit_384a3e2233/README.md).
+
+### rel_191__ent_2__ent_1261
+
+Predicate: managerial or political leadership in. Person 1 holds or formerly held a managerial or political leadership office in organization/body 2.
+
+Rohatyn is explicitly chairman of Municipal Assistance Corporation, but the same inferred pair also maps Bosnian Serb to Radovan Karadzic, a different identity and reverse political role.
+
+**Question:** Which real-world entities does this inferred pair denote: Rohatyn/Municipal Assistance Corporation, or Bosnian Serb/Karadzic?
+
+Source rows: 240, 246, 7703. [Editable annotation](../manual_review/audit_384a3e2233/annotations/rel_191.json). [Full case folder](../manual_review/audit_384a3e2233/README.md).
+
+### rel_191__ent_107__ent_561
+
+Predicate: managerial or political leadership in. Person 1 holds or formerly held a managerial or political leadership office in organization/body 2.
+
+John Mara and George Young are both attached to this single entity as Giants presidents. The role is locally supported for each name, but a unique person cannot be assigned to the inferred entity.
+
+**Question:** Are John Mara and George Young distinct people incorrectly merged here, and which person should the inferred fact name?
+
+Source rows: 1696, 1700, 3198. [Editable annotation](../manual_review/audit_384a3e2233/annotations/rel_191.json). [Full case folder](../manual_review/audit_384a3e2233/README.md).
+
+### rel_18__ent_1060__ent_961
+
+Predicate: coach of. Person 1 is or was a coach of sports team/program 2.
+
+Pitino is explicitly Knick coach, but the same inferred pair also maps Cubans arriving in United States. These incompatible actor/target names prevent a unique entity-level interpretation.
+
+**Question:** Does this inferred pair denote Pitino/Knick, or Cubans/United States, and should the mixed entity assignments be separated?
+
+Source rows: 4730, 7243, 7246. [Editable annotation](../manual_review/audit_384a3e2233/annotations/rel_18.json). [Full case folder](../manual_review/audit_384a3e2233/README.md).
+
+### rel_143__ent_318__ent_517
+
+Predicate: resided in. Person or population 1 resides or formerly resided in geographic place 2.
+
+Cubans explicitly live in United States, but Mexicans traveling there share the same inferred entity pair. The population identity is mixed and cannot be resolved from this case.
+
+**Question:** Does this inferred population denote Cubans or Mexicans, and which group is the residence fact intended to identify?
+
+Source rows: 2127, 4725. [Editable annotation](../manual_review/audit_384a3e2233/annotations/rel_143.json). [Full case folder](../manual_review/audit_384a3e2233/README.md).
+
+## entityfix_latent_beta01_seed20260913 — audit_c0010fff1d
+
+### rel_363__ent_1004__ent_682
+
+Predicate: travels or moves to. Person, group or organization X travels, visits, arrives, returns or relocates to geographical place Y.
+
+Yankees have a passive move-to-New-Jersey path but surrounding rows describe losing the team, attendance origins and designation for export; actuality of relocation is unresolved.
+
+**Question:** Does the original move-to sentence report an actual Yankees relocation, or a proposed/conditional move to New Jersey?
+
+Source rows: 4830, 4834, 4835, 4837, 4839. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_363.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+### rel_84__ent_1247__ent_1270
+
+Predicate: organization based or located in. Organization X is based, headquartered or physically located in geographical place Y.
+
+Most rows place the Hicks firm in Dallas, but the same second entity also appears as Muse in an unrelated payment subject path; the fact has incompatible place/person-company referents.
+
+**Question:** Should Dallas and Muse be separated, and which complete Hicks organization is intended by this latent pair?
+
+Source rows: 700, 7413, 7415, 7417. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_84.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+### rel_89__ent_1291__ent_497
+
+Predicate: managerial or leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as head, leader, president, manager, director, executive or chair.
+
+Milosevic has president-of evidence but Yugoslav is an adjectival/truncated argument rather than a clearly preserved political institution.
+
+**Question:** Does Yugoslav stand for the state Yugoslavia or a more specific omitted body in the original president-of sentence?
+
+Source rows: 2824, 2828. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_89.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+### rel_187__ent_994__ent_1228
+
+Predicate: winner or champion of. X won competition, race, championship, prize or award Y.
+
+De La Hoya wins/retains a championship/title modified by World Boxing Council; Y literally names the sanctioning body, leaving the particular event/title omitted.
+
+**Question:** Should World Boxing Council be interpreted as a specific WBC title here, and which title is intended?
+
+Source rows: 8007, 8010, 8012, 8013. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_187.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+### rel_258__ent_1386__ent_497
+
+Predicate: managerial or leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as head, leader, president, manager, director, executive or chair.
+
+Milosevic has leader-of evidence but Yugoslav is an incomplete political-entity argument.
+
+**Question:** What complete state or organization is represented by Yugoslav in the leader-of construction?
+
+Source rows: 2823, 2827. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_258.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+### rel_13__ent_180__ent_189
+
+Predicate: directed communication to. X communicates a request, information, message, advice or testimony to addressee Y.
+
+The same first latent entity is Bush and Mr. Greenspan. Both have communication evidence to Congress but are distinct people, so the inferred fact lacks a single resolved identity.
+
+**Question:** Can Bush and Mr. Greenspan be separated into their intended entity identities before assessing this communication fact?
+
+Source rows: 416, 423, 437, 442, 444, 2006, 7855. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_13.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+### rel_197__ent_556__ent_798
+
+Predicate: director of organization. Person X holds or held an explicit director office in organization or institution Y.
+
+One latent pair combines Mr. Lee/Taiwan birth-president-director-modifier evidence with Roberts/Dartford death evidence. Entity identities and the director modifier referent cannot be resolved.
+
+**Question:** Which identities should replace this merged pair, and does the director-amod sentence establish Mr. Lee as director of any Taiwan institution?
+
+Source rows: 981, 984, 985, 989, 8203. [Editable annotation](../manual_review/audit_c0010fff1d/annotations/rel_197.json). [Full case folder](../manual_review/audit_c0010fff1d/README.md).
+
+## verbatim_beta0001_seed20260912 — audit_5e74dee865
+
+### rel_282__ent_843__ent_422
+
+Predicate: subsidiary or organizational unit of. Organization or business unit X is a subsidiary, division, organizational part of, or owned business of parent organization Y.
+
+New York is a location naming an office in one row; the unit path does not identify which organizational unit the literal argument denotes.
+
+**Question:** Does New York denote a specific Hill office/business unit here, and if so what is its name?
+
+Source rows: 4187, 4189. [Editable annotation](../manual_review/audit_5e74dee865/annotations/rel_282.json). [Full case folder](../manual_review/audit_5e74dee865/README.md).
+
+### rel_127__ent_263__ent_486
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.
+
+There is chairman/head evidence but Republican does not identify a unique person; membership rows may also describe different people.
+
+**Question:** Which individual Republican is the chairman/head of Finance Committee in these source sentences?
+
+Source rows: 6279, 6280, 6281, 6282, 6286. [Editable annotation](../manual_review/audit_5e74dee865/annotations/rel_127.json). [Full case folder](../manual_review/audit_5e74dee865/README.md).
+
+### rel_127__ent_7__ent_243
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.
+
+Democrat is an unnamed affiliation covering head/chair and member/service paths; it does not identify a single committee leader.
+
+**Question:** Which individual Democrat is the Armed Services Committee leader, and do the member and chair rows refer to that same person?
+
+Source rows: 6299, 6300, 6301, 6302, 6304, 6308. [Editable annotation](../manual_review/audit_5e74dee865/annotations/rel_127.json). [Full case folder](../manual_review/audit_5e74dee865/README.md).
+
+### rel_127__ent_263__ent_1172
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.
+
+Republican has chairman/head evidence for Senate Finance Committee, but the literal argument leaves the officeholder unidentified.
+
+**Question:** Which named Republican holds or held this Senate Finance Committee leadership office?
+
+Source rows: 6344, 6345, 6346, 6347, 6348, 6350. [Editable annotation](../manual_review/audit_5e74dee865/annotations/rel_127.json). [Full case folder](../manual_review/audit_5e74dee865/README.md).
+
+### rel_347__ent_293__ent_10
+
+Predicate: business or organization based or located in. Business or organization X is based or physically located in geographic place Y.
+
+A based-in path supports a location relation, but its literal destination German is truncated or adjectival rather than an unambiguous place name.
+
+**Question:** Does German stand for Germany or for another truncated location in the original sentence?
+
+Source rows: 3607, 3608. [Editable annotation](../manual_review/audit_5e74dee865/annotations/rel_347.json). [Full case folder](../manual_review/audit_5e74dee865/README.md).
+
+### rel_347__ent_1089__ent_953
+
+Predicate: business or organization based or located in. Business or organization X is based or physically located in geographic place Y.
+
+Wall Street modifies firm and house, which can denote financial-industry affiliation rather than a physical address; no explicit based/in path resolves it.
+
+**Question:** Is Birinyi Associates physically located on Wall Street here, or is Wall Street only an industry descriptor?
+
+Source rows: 7380, 7381, 7382. [Editable annotation](../manual_review/audit_5e74dee865/annotations/rel_347.json). [Full case folder](../manual_review/audit_5e74dee865/README.md).
+
+## verbatim_beta0001_seed20260913 — audit_6260319b65
+
+### rel_94__ent_1002__ent_536
+
+Predicate: spokesperson for. Person X serves or served as spokesperson for organization or principal Y.
+
+Washington is both an apparent spokesman argument and the location of condemning, suggesting a dateline or attachment error rather than an identified person.
+
+**Question:** Which named State Department spokesperson is intended, and is Washington a dateline/place rather than that person?
+
+Source rows: 7438, 7444. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_94.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_22__ent_1028__ent_175
+
+Predicate: president or manager of. Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.
+
+Mucha is called Mr. Pataki’s manager, but the organizational/campaign object is omitted and a person occupies the second argument.
+
+**Question:** Does manager mean manager of Pataki’s campaign or organization, and what organizational principal should replace the person argument?
+
+Source rows: 1182, 3523. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_22.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_138__ent_490__ent_51
+
+Predicate: managerial or leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.
+
+Turoff is chairman/head/chief of Taxi, but Taxi is a generic truncated name that does not uniquely identify the governing organization.
+
+**Question:** Which full organization name does Taxi stand for in these source sentences?
+
+Source rows: 2909, 2910, 2911, 2912, 2913. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_138.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_102__ent_34__ent_37
+
+Predicate: leader or organizational head of. X holds or held a leadership/head role in political body, party or organization Y.
+
+Gorbachev is described as Soviet leader and leader of Soviet, but Soviet is a truncated or adjectival political principal.
+
+**Question:** What full state, party or organization is denoted by Soviet in these leadership descriptions?
+
+Source rows: 3688, 3692, 3693. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_102.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_102__ent_67__ent_69
+
+Predicate: leader or organizational head of. X holds or held a leadership/head role in political body, party or organization Y.
+
+Karadzic is described as a Bosnian Serb leader, but the singular/adjectival destination may omit the political group or state.
+
+**Question:** Does Bosnian Serb denote the Bosnian Serbs as a group, a specific institution, or an incomplete entity name?
+
+Source rows: 3054, 3057, 3058, 3063. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_102.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_61__ent_263__ent_1172
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.
+
+Republican is described as Senate Finance Committee chair/head and member, but no individual officeholder is identified.
+
+**Question:** Which named Republican is the Senate Finance Committee chair/head in these sentences?
+
+Source rows: 6344, 6345, 6346, 6347, 6348, 6350. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_61.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_61__ent_263__ent_486
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.
+
+Republican has Finance Committee chair/head/member descriptions but is an unnamed affiliation rather than a unique person.
+
+**Question:** Which named Republican is this Finance Committee officeholder, and do all the rows refer to the same person?
+
+Source rows: 6279, 6280, 6281, 6282, 6286, 6287. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_61.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_61__ent_263__ent_1171
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.
+
+Republican is called House Ways and Means Committee chair/head, but the individual identity is omitted.
+
+**Question:** Which named Republican holds or held the House Ways and Means Committee chairmanship here?
+
+Source rows: 6319, 6320, 6321, 6322, 6323, 6327. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_61.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+### rel_61__ent_7__ent_488
+
+Predicate: organizational leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.
+
+Democrat is described as House Armed Services Committee chair/head and member without identifying the individual.
+
+**Question:** Which individual Democrat is the House Armed Services Committee leader in these sentences?
+
+Source rows: 6334, 6335, 6336, 6337, 6341. [Editable annotation](../manual_review/audit_6260319b65/annotations/rel_61.json). [Full case folder](../manual_review/audit_6260319b65/README.md).
+
+## verbatim_beta01_bridge_seed20260912 — audit_4c50ddb65b
+
+### rel_381__ent_299__ent_16
+
+Predicate: managerial leadership in. Argument 1 is or was a person holding a managerial or leadership office in organization 2.
+
+The director-of-communication row supports a managerial office, but the second argument is only Mayor: it could denote the mayoral administration or a person rather than the organization required by this predicate.
+
+**Question:** Does Mayor denote the mayoral administration or the individual officeholder in these rows?
+
+Source rows: 3539, 3546. [Editable annotation](../manual_review/audit_4c50ddb65b/annotations/rel_381.json). [Full case folder](../manual_review/audit_4c50ddb65b/README.md).
+
+### rel_381__ent_862__ent_808
+
+Predicate: managerial leadership in. Argument 1 is or was a person holding a managerial or leadership office in organization 2.
+
+Nearly all rows identify Roach as an economist; principal at Morgan Stanley may be a leadership title, but the only director path passes through web and does not reliably attach that title to him.
+
+**Question:** Does principal at Morgan Stanley here establish a managerial office, or only a senior research/professional rank?
+
+Source rows: 2347, 2350, 2355. [Editable annotation](../manual_review/audit_4c50ddb65b/annotations/rel_381.json). [Full case folder](../manual_review/audit_4c50ddb65b/README.md).
+
+### rel_9__ent_983__ent_981
+
+Predicate: winner or champion of. Argument 1 won competition or award 2 or holds its championship.
+
+Win/award paths support a Nobel Peace Prize recipient, but Prevention of Nuclear War is a truncated organization-like phrase; the member/group path does not fully identify which entity received it.
+
+**Question:** Does Prevention of Nuclear War denote the recipient organization itself, and what is its full name in the source sentence?
+
+Source rows: 7746, 7747, 7749. [Editable annotation](../manual_review/audit_4c50ddb65b/annotations/rel_9.json). [Full case folder](../manual_review/audit_4c50ddb65b/README.md).
+
+### rel_369__ent_1165__ent_227
+
+Predicate: organization located or based in. Organization 1 is based in or has a geographic office/site in place 2.
+
+The be-at and garden-at paths establish a Richmond Terrace location, but do not settle whether Snug Harbor is an organization/institutional site or only a geographic place.
+
+**Question:** Does Snug Harbor here denote an institution or organizational venue based at Richmond Terrace, or merely a geographic harbor/place?
+
+Source rows: 6195, 6200, 6202. [Editable annotation](../manual_review/audit_4c50ddb65b/annotations/rel_369.json). [Full case folder](../manual_review/audit_4c50ddb65b/README.md).
+
+## verbatim_beta01_bridge_seed20260913 — audit_08e2dd6fc7
+
+### rel_10__ent_255__ent_497
+
+Predicate: managerial or organizational leader of. Person X holds a managerial or organizational leadership office in organization or political body Y.
+
+Slobodan Milosevic has president and leader descriptions, but the argument Yugoslav is a truncated adjective whose intended political body is unspecified.
+
+**Question:** Does Yugoslav denote Yugoslavia, its government, a party or another omitted political body in these rows?
+
+Source rows: 2822, 2824, 2827, 2830. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_10.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_55__ent_263__ent_1172
+
+Predicate: managerial or organizational leader of. Person X holds a managerial or organizational leadership office in organization or political body Y.
+
+Chairman and head paths would support a leadership office, but Republican identifies an unnamed party-labelled individual and membership rows may concern different people.
+
+**Question:** Which individual does Republican identify, and do the chairmanship and ordinary membership rows refer to that same person?
+
+Source rows: 6344, 6345, 6347, 6350, 6353. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_55.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_55__ent_30__ent_36
+
+Predicate: managerial or organizational leader of. Person X holds a managerial or organizational leadership office in organization or political body Y.
+
+Nancy Pelosi is described with Democratic chairman and member paths, but Democratic omits the particular organization or committee she chairs.
+
+**Question:** What body is omitted after Democratic, and is Pelosi its chair rather than simply a Democratic member or activist?
+
+Source rows: 3731, 3734, 3736, 3737. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_55.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_340__ent_667__ent_537
+
+Predicate: lives in. Person or population X resides in geographic place Y.
+
+Born has a live-in and immigration path to the United States, but Born is not a clearly identified person or population in the supplied argument names.
+
+**Question:** Which person or population does the extracted argument Born identify?
+
+Source rows: 4692, 4694, 4698, 4699, 4700. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_340.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_340__ent_822__ent_835
+
+Predicate: lives in. Person or population X resides in geographic place Y.
+
+American has live-in evidence, but the adjective attaches to a woman and a serviceman, so the inferred source does not identify a stable single person or clearly specified population.
+
+**Question:** Which person or defined population does American denote, and do the woman and serviceman rows refer to that same entity?
+
+Source rows: 2157, 2158, 2162, 2164, 2166. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_340.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_308__ent_356__ent_308
+
+Predicate: directed communication to. X directs an utterance, request, advice or explicit message to Y.
+
+Ewing is Knicks center and leads the team. The only potentially communicative path is gives-to, whose omitted object could be advice or a noncommunicative contribution such as points.
+
+**Question:** What does Ewing give the Knicks in the gives-to rows: an explicit message/advice or a noncommunicative sporting contribution?
+
+Source rows: 3075, 3076, 3077, 3079, 3081, 4221. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_308.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_246__ent_660__ent_623
+
+Predicate: subsidiary or organizational unit of. Organization X is owned by, a subsidiary of, or an organizational unit of parent Y.
+
+The office-of and part-of paths appear to describe a San Francisco office associated with Foote, but the source argument names the city rather than a particular office or agency.
+
+**Question:** Which San Francisco office or agency is omitted, and is that organization a unit of Foote rather than the city itself?
+
+Source rows: 4141, 4142, 4144, 4149, 4150. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_246.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_246__ent_843__ent_1104
+
+Predicate: subsidiary or organizational unit of. Organization X is owned by, a subsidiary of, or an organizational unit of parent Y.
+
+New York has office-of, part-of and unit paths involving BBDO Worldwide, but the city label leaves the local organizational unit unspecified.
+
+**Question:** Does New York denote a specific BBDO office or agency, and what is its full organizational identity?
+
+Source rows: 4131, 4132, 4135, 4137, 4138. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_246.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_246__ent_843__ent_421
+
+Predicate: subsidiary or organizational unit of. Organization X is owned by, a subsidiary of, or an organizational unit of parent Y.
+
+Office, part and division paths plausibly describe a New York office of Fallon Worldwide, but the literal city argument is not an organizational subsidiary.
+
+**Question:** What specific New York office or agency is meant, and should it be represented separately from the city?
+
+Source rows: 4200, 4203, 4204, 4206, 4207. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_246.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_253__ent_815__ent_537
+
+Predicate: member of. Person, country or organization X is or becomes a member of organization or political group Y.
+
+Russia joins the United States in a bare path, but other evidence is diplomatic relations, migration, ambassador, criticism and comparison. The omitted complement prevents deciding whether join means membership or participation in a joint action.
+
+**Question:** What is the full complement of Russia joins the United States: membership in an organization or joining it in a particular action?
+
+Source rows: 1982, 1983, 1987, 1989, 1990, 1991. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_253.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+### rel_253__ent_819__ent_816
+
+Predicate: member of. Person, country or organization X is or becomes a member of organization or political group Y.
+
+Democrats join or join with Republicans, plus a register path. The available paths do not distinguish party switching by particular individuals from temporary bipartisan cooperation by groups.
+
+**Question:** Do the join/register sentences describe individual Democrats becoming Republican members, or groups cooperating while retaining different party membership?
+
+Source rows: 1913, 1917, 1921, 5466, 5470, 5911, 5915. [Editable annotation](../manual_review/audit_08e2dd6fc7/annotations/rel_253.json). [Full case folder](../manual_review/audit_08e2dd6fc7/README.md).
+
+## verbatim_beta01_seed20260912 — audit_dba5006d06
+
+### rel_262__ent_109__ent_1046
+
+Predicate: spokesperson for. Person X serves or served as a spokesperson for principal Y, including a person, organization or public office.
+
+Say-for may express spokesperson representation, but the principal is the truncated name Environment and the other row supplies only director-for.
+
+**Question:** Does Environment identify a specific organization represented by Adrienne Esposito, and does say-for here mean speaking on its behalf?
+
+Source rows: 1736, 1737. [Editable annotation](../manual_review/audit_dba5006d06/annotations/rel_262.json). [Full case folder](../manual_review/audit_dba5006d06/README.md).
+
+### rel_268__ent_862__ent_808
+
+Predicate: analyst at organization. Person X works or worked as an analyst for organization Y.
+
+For this separate latent fact the rows describe an economist, principal, director and trends specialist at Morgan Stanley, without an explicit analyst role. No evidence is imported from the separately named employer fact.
+
+**Question:** Should economist and trends-specialist work qualify as analyst work under the declared analyst predicate?
+
+Source rows: 2347, 2350, 2355, 2356. [Editable annotation](../manual_review/audit_dba5006d06/annotations/rel_268.json). [Full case folder](../manual_review/audit_dba5006d06/README.md).
+
+### rel_113__ent_197__ent_520
+
+Predicate: directed communication to. X directs information, speech, a request, warning or advice to addressee Y.
+
+The direct send-to row omits the object. Meeting and referral-by do not establish an outgoing message, and the convoluted testimony/call path does not clearly make Lewinsky the communicator to Jordan.
+
+**Question:** What did Ms. Lewinsky send to Vernon Jordan, and does the underlying text establish communication from her to him?
+
+Source rows: 8214, 8218, 8219, 8221. [Editable annotation](../manual_review/audit_dba5006d06/annotations/rel_113.json). [Full case folder](../manual_review/audit_dba5006d06/README.md).
+
+### rel_389__ent_819__ent_1197
+
+Predicate: member of organization or political body. X is or has been a member of organization, alliance, party or public body Y.
+
+Most paths express Democratic control of Senate. The elected-to row could instead refer to individual Democratic legislators; the plural name does not distinguish that population from the party as one entity.
+
+**Question:** Does Democrats denote the individual legislators elected to the Senate here, or the Democratic Party as the entity whose membership is being asserted?
+
+Source rows: 6376, 6382, 6384. [Editable annotation](../manual_review/audit_dba5006d06/annotations/rel_389.json). [Full case folder](../manual_review/audit_dba5006d06/README.md).
+
+## verbatim_beta01_seed20260913 — audit_fb501b5da8
+
+### rel_275__ent_292__ent_28
+
+Predicate: organization based or located in. Organization X is based or physically located in place Y.
+
+Swiss modifies company/giant/maker and currency; it expresses nationality but leaves physical base unstated.
+
+**Question:** Does the original text establish a physical Swiss base, or only nationality/ownership?
+
+Source rows: 3609, 3610, 3611, 3612, 3617. [Editable annotation](../manual_review/audit_fb501b5da8/annotations/rel_275.json). [Full case folder](../manual_review/audit_fb501b5da8/README.md).
+
+### rel_275__ent_293__ent_10
+
+Predicate: organization based or located in. Organization X is based or physically located in place Y.
+
+German is a truncated adjective/place argument; a based-in path exists but does not preserve its full destination.
+
+**Question:** What complete place is the object of based in for Bertelsmann, and does German refer to it?
+
+Source rows: 3599, 3601, 3608. [Editable annotation](../manual_review/audit_fb501b5da8/annotations/rel_275.json). [Full case folder](../manual_review/audit_fb501b5da8/README.md).
+
+### rel_331__ent_843__ent_422
+
+Predicate: subsidiary or organizational unit of. Organization or business unit X is a subsidiary, division, owned business or organizational part of parent Y.
+
+New York has office-of and unit-of paths to Hill but also senator/campaign paths; city and Hill referents do not identify a unique corporate unit/parent.
+
+**Question:** Which New York office or unit and which Hill organization are meant, and do these rows refer to the same pair?
+
+Source rows: 4180, 4184, 4188, 4189. [Editable annotation](../manual_review/audit_fb501b5da8/annotations/rel_331.json). [Full case folder](../manual_review/audit_fb501b5da8/README.md).
+
+### rel_45__ent_406__ent_333
+
+Predicate: lives in. Person or group X lives or has a residence in geographical place Y.
+
+William has relative, lawyer, travel and restaurant paths. The sole live-in path attaches through wife, so the resident and the literal first argument are uncertain.
+
+**Question:** Does the original wife/live-in sentence say William himself lives in Manhattan, or only a relative?
+
+Source rows: 4014, 4017, 4020, 4022. [Editable annotation](../manual_review/audit_fb501b5da8/annotations/rel_45.json). [Full case folder](../manual_review/audit_fb501b5da8/README.md).
+
+### rel_120__ent_1197__ent_816
+
+Predicate: has political or institutional leader. Institution or political body X has person Y as president, leader or head, including legislative leadership.
+
+Republicans control/hold Senate, but the leader-appos path may stand for an unnamed Republican officeholder rather than the whole party.
+
+**Question:** Does the leader construction identify a named individual omitted by the Republicans argument, or assert the party itself as institutional leader?
+
+Source rows: 4896, 4898, 4900, 4901, 4902. [Editable annotation](../manual_review/audit_fb501b5da8/annotations/rel_120.json). [Full case folder](../manual_review/audit_fb501b5da8/README.md).
+
+### rel_342__ent_298__ent_19
+
+Predicate: managerial or leadership office in. X holds or held an explicit managerial or leadership office in organization or institution Y, including chair, chief, president, director, executive or head.
+
+McKenzie has principal/performance evidence; the head-of path is connected through a dancer working with him and may attach leadership to someone else.
+
+**Question:** Does the original head-of sentence identify Kevin McKenzie as Ballet Theater head, or a dancer who worked with him?
+
+Source rows: 3553, 3554, 3555. [Editable annotation](../manual_review/audit_fb501b5da8/annotations/rel_342.json). [Full case folder](../manual_review/audit_fb501b5da8/README.md).
+

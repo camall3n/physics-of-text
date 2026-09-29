@@ -1,0 +1,86 @@
+{
+  "relation": "rel_254",
+  "predicate_id": "sells_to",
+  "label": "sells to",
+  "definition": "Entity X sells or sold goods, services, property, or transferable rights to buyer Y.",
+  "scope_notes": "Includes: explicit sell-to or sale-to; a completed commercial transfer to Y; historical sales including transferable sporting contracts. Excludes: ordinary giving or physical movement; a proposed sale without realization; Y is the item sold rather than the buyer. Ambiguous unless resolved by case-local evidence: unclear seller-versus-item role; proposed or conditional sale; a nominal sale whose owner or seller is unresolved. An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not.",
+  "facts": [
+    {
+      "case_id": "rel_254__ent_81__ent_84",
+      "judgment": "incorrect",
+      "reason": "Mr. Baker → Baghdad: Travel, arrival, and dispatch to Baghdad do not state a sale.",
+      "evidence_lines": [
+        3452,
+        3453,
+        3454,
+        3458
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.336Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_537__ent_99",
+      "judgment": "supported",
+      "reason": "United States → Iran: Explicit sell-to paths identify the ordered seller and recipient; the narrow sale predicate does not require the omitted item to be named.",
+      "evidence_lines": [
+        5505,
+        5513,
+        7885,
+        7893
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.336Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_309__ent_1004",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: Explicit sell-to paths identify the ordered seller and recipient; the narrow sale predicate does not require the omitted item to be named.",
+      "evidence_lines": [
+        865,
+        2665,
+        6931
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.336Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_643__ent_333",
+      "judgment": "incorrect",
+      "reason": "Robert → Manhattan: Family-survivor and bringing-into-Manhattan paths do not express selling to the second argument.",
+      "evidence_lines": [
+        3929,
+        3931,
+        3934
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.336Z"
+      }
+    }
+  ],
+  "predicate_hash": "0167fa32af9b9b27da8721030cdfb1cc8765debd28042890094b998a0f1d6142",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "151add0c302ef2327f6f14ed96089aaa5bf56272499bee3cd69f2539d65b090c"
+}

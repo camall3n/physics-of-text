@@ -1,0 +1,104 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_290",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "case_ids": [
+        "rel_290__ent_383__ent_140",
+        "rel_290__ent_50__ent_248",
+        "rel_290__ent_388__ent_381",
+        "rel_290__ent_249__ent_262",
+        "rel_290__ent_368__ent_129",
+        "rel_290__ent_550__ent_792",
+        "rel_290__ent_297__ent_296",
+        "rel_290__ent_385__ent_142",
+        "rel_290__ent_384__ent_145",
+        "rel_290__ent_190__ent_192",
+        "rel_290__ent_1048__ent_1049",
+        "rel_290__ent_121__ent_376",
+        "rel_290__ent_362__ent_123",
+        "rel_290__ent_295__ent_294",
+        "rel_290__ent_772__ent_771",
+        "rel_290__ent_532__ent_771",
+        "rel_290__ent_764__ent_192",
+        "rel_290__ent_295__ent_14",
+        "rel_290__ent_657__ent_140",
+        "rel_290__ent_1113__ent_129",
+        "rel_290__ent_193__ent_770",
+        "rel_290__ent_1007__ent_1008"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit director, president, or head evidence supports managerial office within the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9,
+        15
+      ],
+      "case_ids": [
+        "rel_290__ent_176__ent_175",
+        "rel_290__ent_291__ent_182"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The second argument is a personal principal, leaving the actual institution or campaign unspecified.",
+      "tags": [
+        "personal_principal"
+      ],
+      "question": "Which institution or campaign employs the director?"
+    },
+    {
+      "indices": [
+        24
+      ],
+      "case_ids": [
+        "rel_290__ent_363__ent_120"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Study of Automotive Transportation names a topic while omitting the actual center or institution.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What full institution is intended?"
+    }
+  ],
+  "mixed": [
+    0,
+    3,
+    4,
+    5,
+    7,
+    10,
+    13
+  ],
+  "broad": []
+}

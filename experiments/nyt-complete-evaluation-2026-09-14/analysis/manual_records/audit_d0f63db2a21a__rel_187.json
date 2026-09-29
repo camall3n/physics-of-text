@@ -1,0 +1,163 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_187",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25
+      ],
+      "case_ids": [
+        "rel_187__ent_1004__ent_836",
+        "rel_187__ent_600__ent_836",
+        "rel_187__ent_609__ent_836",
+        "rel_187__ent_732__ent_974",
+        "rel_187__ent_738__ent_1228",
+        "rel_187__ent_752__ent_510",
+        "rel_187__ent_561__ent_1443",
+        "rel_187__ent_979__ent_990",
+        "rel_187__ent_750__ent_992",
+        "rel_187__ent_983__ent_981",
+        "rel_187__ent_508__ent_1228",
+        "rel_187__ent_1315__ent_851",
+        "rel_187__ent_309__ent_836",
+        "rel_187__ent_1004__ent_9",
+        "rel_187__ent_991__ent_510",
+        "rel_187__ent_1009__ent_982",
+        "rel_187__ent_994__ent_1228",
+        "rel_187__ent_993__ent_509",
+        "rel_187__ent_74__ent_836",
+        "rel_187__ent_1115__ent_1443",
+        "rel_187__ent_731__ent_982"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit win/winner/champion, held or retained title, or event-victory row supports the named competition or award. Additional participation/loss rows do not negate it.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        12,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "case_ids": [
+        "rel_187__ent_157__ent_1002",
+        "rel_187__ent_1392__ent_836",
+        "rel_187__ent_1398__ent_479",
+        "rel_187__ent_816__ent_1422",
+        "rel_187__ent_669__ent_202",
+        "rel_187__ent_710__ent_1428",
+        "rel_187__ent_321__ent_60",
+        "rel_187__ent_973__ent_1089",
+        "rel_187__ent_1334__ent_1350",
+        "rel_187__ent_1126__ent_897",
+        "rel_187__ent_1223__ent_1318",
+        "rel_187__ent_856__ent_83",
+        "rel_187__ent_729__ent_1356",
+        "rel_187__ent_1449__ent_49",
+        "rel_187__ent_437__ent_779",
+        "rel_187__ent_780__ent_15"
+      ],
+      "judgment": "incorrect",
+      "reason": "All supplied rows concern another relation, location, ordinary association, political control, defeating an opponent rather than winning an event, or participation without the overall event win.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_187__ent_739__ent_741"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Two distinct Kentucky Derby winners, Real Quiet and Unbridled, are merged into one local subject entity.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Should Real Quiet and Unbridled be separate horse entities?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_187__ent_608__ent_607"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Woods winning the Masters is merged with an unnamed Scot winning it under the same subject.",
+      "tags": [
+        "local_entity_collision",
+        "unnamed_person"
+      ],
+      "question": "Who is the Scot, and is that person a different winner from Woods?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25
+  ],
+  "broad": [
+    6,
+    9,
+    14,
+    20,
+    21
+  ]
+}

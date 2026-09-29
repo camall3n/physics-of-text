@@ -1,0 +1,129 @@
+{
+  "relation": "rel_190",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_190__ent_545__ent_47",
+      "judgment": "supported",
+      "reason": "Intel → Santa Clara: Headquarters or explicit geographic organizational origin establishes physical location, including the organization beginning in the named town.",
+      "evidence_lines": [
+        771,
+        772,
+        776,
+        777,
+        4321,
+        4322,
+        4326,
+        4327
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.919Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_546__ent_788",
+      "judgment": "supported",
+      "reason": "Motorola → Schaumburg: Headquarters or explicit geographic organizational origin establishes physical location, including the organization beginning in the named town.",
+      "evidence_lines": [
+        824,
+        827,
+        4314,
+        4317
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.919Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_591__ent_1404",
+      "judgment": "incorrect",
+      "reason": "John McMullen → Devils: Person ownership or inverse spokesperson identification does not establish organization-to-place location.",
+      "evidence_lines": [
+        1476,
+        1478,
+        1481,
+        1483
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.919Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_549__ent_770",
+      "judgment": "supported",
+      "reason": "MCI → Washington: Headquarters or explicit geographic organizational origin establishes physical location, including the organization beginning in the named town.",
+      "evidence_lines": [
+        842,
+        845
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.919Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_679__ent_242",
+      "judgment": "supported",
+      "reason": "Sotheby → York Avenue: Headquarters or explicit geographic organizational origin establishes physical location, including the organization beginning in the named town.",
+      "evidence_lines": [
+        6244,
+        6247
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.919Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_1308__ent_162",
+      "judgment": "incorrect",
+      "reason": "State Department → Charles E. Redman: Person ownership or inverse spokesperson identification does not establish organization-to-place location.",
+      "evidence_lines": [
+        5394
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.919Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2701e949a10d606f8ebf9accfd73a5d86efbccb90f4d7114dd2d78764f84eba7"
+}

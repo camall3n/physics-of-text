@@ -1,0 +1,70 @@
+{
+  "relation": "rel_220",
+  "label": "has spokesperson",
+  "definition": "Organization or political body 1 has person 2 as its spokesperson.",
+  "scope_notes": "Inverse spokesperson-to-principal direction, selected from the repeated spokesman appositions and spokesman-at-briefing paths. President, leader, secretary or lawyer alone does not prove a spokesperson role. Political government/leader paths are a substantial competing theme.",
+  "facts": [
+    {
+      "case_id": "rel_220__ent_1332__ent_696",
+      "judgment": "supported",
+      "reason": "State Department has spokesman Richard Boucher in direct noun-compound and possessive appositions.",
+      "evidence_lines": [
+        5436,
+        5437,
+        5439
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_220__ent_1415__ent_1030",
+      "judgment": "supported",
+      "reason": "Ari Fleischer is explicitly the White House spokesman.",
+      "evidence_lines": [
+        5416,
+        5425
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_220__ent_1222__ent_308",
+      "judgment": "incorrect",
+      "reason": "Ewing is a Knicks leader, a person-to-team role in the opposite direction; it contains no spokesperson evidence.",
+      "evidence_lines": [
+        3083,
+        4227
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_220__ent_233__ent_937",
+      "judgment": "incorrect",
+      "reason": "The inferred pair mixes Rondout Creek/Hudson and Brooklyn Borough/Howard Golden, but neither a river meeting nor a borough presidency is a spokesperson relation.",
+      "evidence_lines": [
+        6082,
+        6763
+      ],
+      "issue_tags": [
+        "entity_name_conflict",
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_220__ent_1279__ent_336",
+      "judgment": "supported",
+      "reason": "Richard A. Boucher is explicitly State Department spokesman.",
+      "evidence_lines": [
+        5376,
+        5383
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "relation": "rel_216",
+  "predicate_id": "supports",
+  "predicate_version": 1,
+  "predicate_hash": "144e1679f928186e65824f49df703924a59e4b3f2e71e0197788ab8a91148542",
+  "predicate": {
+    "id": "supports",
+    "label": "supports or endorses",
+    "definition": "Entity X explicitly gives political, material, or institutional support or endorsement to Y.",
+    "includes": [
+      "explicit supports, backs, endorses, or provides identified aid to Y",
+      "voting for Y as an endorsement",
+      "historical support"
+    ],
+    "excludes": [
+      "merely pressuring or criticizing Y",
+      "ordinary alliance or meeting without support assertion",
+      "generic possession or acquisition",
+      "physical support of an object unrelated to the institutional relation"
+    ],
+    "ambiguous": [
+      "give with omitted object",
+      "unclear support versus pressure or opposition",
+      "a future proposed endorsement without realization"
+    ],
+    "notes": "This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence.",
+    "scope_notes": "Includes: explicit supports, backs, endorses, or provides identified aid to Y; voting for Y as an endorsement; historical support. Excludes: merely pressuring or criticizing Y; ordinary alliance or meeting without support assertion; generic possession or acquisition; physical support of an object unrelated to the institutional relation. Ambiguous unless resolved by case-local evidence: give with omitted object; unclear support versus pressure or opposition; a future proposed endorsement without realization. This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence."
+  },
+  "dictionary_sha256": "91df538ba7ced00f0af300e5ee73d44deb1888121fdd5178900254a6f069b62c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Support direct-object plus vote-for yields five clear support rows, ahead of press-to-addressee four. A generic give row is not automatically classified as either support or communication.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:23:42.008Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_216.before_grading.json",
+  "pregrading_annotation_sha256": "645deb2801a66e8401e26018e44c2e634e0097ec58a4c36cbb526322bb84ffb2"
+}

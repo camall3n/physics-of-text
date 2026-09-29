@@ -1,0 +1,54 @@
+{
+  "relation": "rel_335",
+  "predicate_id": "defeated",
+  "predicate_version": 1,
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate": {
+    "id": "defeated",
+    "label": "defeated opponent",
+    "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+    "includes": [
+      "beat/defeat/trounce/rout/upset/victory over",
+      "completed sporting sweep/outlast/elimination",
+      "explicit electoral defeat of an opposing competitor",
+      "historical win despite losses in other games"
+    ],
+    "excludes": [
+      "mere play/face/rivalry",
+      "standings or polling lead",
+      "losing to Y",
+      "winning an event rather than beating Y",
+      "political control or hostility alone"
+    ],
+    "ambiguous": [
+      "bare outscore/surpass/shock without a completed-contest result",
+      "score margin for only one period",
+      "unclear geographic/team metonymy"
+    ],
+    "notes": "Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+    "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat."
+  },
+  "dictionary_sha256": "670b4fffa56287bd9cae088dc27a377d3c0eb75e3d4440e943f60ea4762ce620",
+  "kind": "declared_before_case_grading",
+  "rationale": "Beat, victory-over and win-series variants form the largest directed outcome family; loss-to and generic game-against are explicitly separate and do not count as wins.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.614Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    5,
+    6,
+    9
+  ],
+  "competing_meanings": [
+    "loss",
+    "player trade",
+    "competition without outcome"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_335.before_grading.json",
+  "pregrading_annotation_sha256": "71340f6c0b26a7a12276f1b3683b3bc2885d852b569efa00eab5d52575867dd6"
+}

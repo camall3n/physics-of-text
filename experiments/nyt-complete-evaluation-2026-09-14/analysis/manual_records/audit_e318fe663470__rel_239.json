@@ -1,0 +1,84 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_239",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        15
+      ],
+      "case_ids": [
+        "rel_239__ent_380__ent_1280",
+        "rel_239__ent_4__ent_3",
+        "rel_239__ent_151__ent_393",
+        "rel_239__ent_438__ent_1135",
+        "rel_239__ent_205__ent_0",
+        "rel_239__ent_582__ent_101",
+        "rel_239__ent_1207__ent_302",
+        "rel_239__ent_1137__ent_1135",
+        "rel_239__ent_134__ent_376",
+        "rel_239__ent_583__ent_340",
+        "rel_239__ent_678__ent_302",
+        "rel_239__ent_208__ent_1145",
+        "rel_239__ent_380__ent_1289",
+        "rel_239__ent_886__ent_1206"
+      ],
+      "judgment": "supported",
+      "reason": "The supplied case explicitly identifies chairman, executive or chief office for the ordered organization, including historical tenure.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_239__ent_57__ent_533"
+      ],
+      "judgment": "incorrect",
+      "reason": "A unit/company-name dependency between Sears and Roebuck does not identify a person holding an office.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_239__ent_820__ent_1309"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied row expresses geographical entry from Gaza, not a managerial office.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4,
+    8,
+    9
+  ],
+  "broad": []
+}

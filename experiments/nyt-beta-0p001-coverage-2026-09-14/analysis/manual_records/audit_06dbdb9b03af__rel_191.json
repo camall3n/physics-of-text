@@ -1,0 +1,81 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_191",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "case_ids": [
+        "rel_191__ent_356__ent_308",
+        "rel_191__ent_64__ent_308",
+        "rel_191__ent_65__ent_60",
+        "rel_191__ent_62__ent_1005",
+        "rel_191__ent_1116__ent_110",
+        "rel_191__ent_66__ent_543",
+        "rel_191__ent_260__ent_1005",
+        "rel_191__ent_61__ent_259",
+        "rel_191__ent_1117__ent_347",
+        "rel_191__ent_413__ent_110"
+      ],
+      "judgment": "supported",
+      "reason": "A local position/player or scoring-for row establishes the athlete-to-team relationship.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        10,
+        13
+      ],
+      "case_ids": [
+        "rel_191__ent_1004__ent_309",
+        "rel_191__ent_309__ent_1004",
+        "rel_191__ent_1004__ent_9"
+      ],
+      "judgment": "incorrect",
+      "reason": "The source is a team leading an opponent or division, rather than an individual athlete playing for the target.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_191__ent_1148__ent_460"
+      ],
+      "judgment": "incorrect",
+      "reason": "The source is an organization and the path is a generic be attachment, not athlete membership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    9,
+    11
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "eff430e6064c6b4f5208c89880d48dab4bdad67ff2eb148552b8762bbe93e91b"
+}

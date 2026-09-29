@@ -1,0 +1,51 @@
+{
+  "relation": "rel_384",
+  "predicate_id": "died_in",
+  "predicate_version": 1,
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate": {
+    "id": "died_in",
+    "label": "died in place",
+    "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+    "includes": [
+      "explicit died-in or death-in location",
+      "being killed in Y establishing death there",
+      "historical death location"
+    ],
+    "excludes": [
+      "residence, birth, or ordinary presence alone",
+      "Y is the perpetrator or cause rather than location",
+      "discussion of deaths without the affected person or population"
+    ],
+    "ambiguous": [
+      "place versus institution unresolved",
+      "unclear death or geographic attachment",
+      "a population mention without identified affected members"
+    ],
+    "notes": "This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+    "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died."
+  },
+  "dictionary_sha256": "af090e8aae4bd07b444f8f4fa518f6c7bc716322c52fa5ab8c6d1e7592a023d0",
+  "kind": "declared_before_case_grading",
+  "rationale": "Died/killed/death-in is the dominant coherent predicate; killer-subject, mere residence, and event rather than geographic destination retain separate treatment.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.753Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    16,
+    17,
+    18,
+    20
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_384.before_grading.json",
+  "pregrading_annotation_sha256": "6a4808e1d850a0dbc78ad01f8b61b38137bd0417462f7314384dee129676bf50"
+}

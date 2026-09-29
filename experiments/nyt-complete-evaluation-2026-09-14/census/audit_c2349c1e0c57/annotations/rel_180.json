@@ -1,0 +1,664 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "owns",
+  "label": "owns organization or asset",
+  "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+  "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_180.json",
+    "source_sha256": "b7f91f18b6699663fa254adb69c8093684a5ed5b4e216498933a5ee0034d14ce",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_180__ent_1033__ent_1004",
+      "judgment": "supported",
+      "reason": "George Steinbrenner → Yankees: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1415,
+        1416,
+        1417,
+        1418,
+        1419,
+        1420,
+        1421,
+        1422,
+        1423,
+        1424
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.969Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_339__ent_1036",
+      "judgment": "supported",
+      "reason": "Bud Selig → Milwaukee Brewers: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1445,
+        1446,
+        1447,
+        1448,
+        1449,
+        1450,
+        1451,
+        1452,
+        1453,
+        1454
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1037__ent_1038",
+      "judgment": "supported",
+      "reason": "Jerry Jones → Dallas Cowboys: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1455,
+        1456,
+        1457,
+        1458,
+        1459,
+        1460,
+        1461,
+        1462,
+        1463,
+        1464
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_350__ent_592",
+      "judgment": "supported",
+      "reason": "Marge Schott → Cincinnati Reds: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1465,
+        1466,
+        1467,
+        1468,
+        1469,
+        1470,
+        1471,
+        1472,
+        1473,
+        1474
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_180.json",
+        "annotation_sha256": "b7f91f18b6699663fa254adb69c8093684a5ed5b4e216498933a5ee0034d14ce"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_351__ent_1004",
+      "judgment": "supported",
+      "reason": "Steinbrenner → Yankees: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1495,
+        1496,
+        1497,
+        1498,
+        1499,
+        1500,
+        1501,
+        1502,
+        1503,
+        1504
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_684__ent_429",
+      "judgment": "ambiguous",
+      "reason": "Walter O'Malley → Los Angeles: Owner-of Los Angeles likely abbreviates an unnamed team; city movement and ownership readings are intermixed.",
+      "evidence_lines": [
+        4860,
+        4861,
+        4862,
+        4863,
+        4864,
+        4865,
+        4866,
+        4867,
+        4868,
+        4869
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which team or asset does Los Angeles denote in the owner-of row?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1153__ent_1144",
+      "judgment": "supported",
+      "reason": "Cablevision → Madison Square Garden: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5920,
+        5921,
+        5922,
+        5923,
+        5924,
+        5925,
+        5926,
+        5927,
+        5928,
+        5929
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_101__ent_881",
+      "judgment": "supported",
+      "reason": "Walt Disney Company → ABC: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5930,
+        5931,
+        5932,
+        5933,
+        5934,
+        5935,
+        5936,
+        5937,
+        5938,
+        5939
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_180.json",
+        "annotation_sha256": "b7f91f18b6699663fa254adb69c8093684a5ed5b4e216498933a5ee0034d14ce"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_217__ent_554",
+      "judgment": "supported",
+      "reason": "Viacom → CBS: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5940,
+        5941,
+        5942,
+        5943,
+        5944,
+        5945,
+        5946,
+        5947,
+        5948,
+        5949
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_393__ent_625",
+      "judgment": "supported",
+      "reason": "News Corporation → Fox: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5950,
+        5951,
+        5952,
+        5953,
+        5954,
+        5955,
+        5956,
+        5957,
+        5958,
+        5959
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_628__ent_867",
+      "judgment": "supported",
+      "reason": "General Electric Company → NBC: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5960,
+        5961,
+        5962,
+        5963,
+        5964,
+        5965,
+        5966,
+        5967,
+        5968,
+        5969
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_459__ent_1154",
+      "judgment": "supported",
+      "reason": "Texas Air Corporation → Eastern: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5970,
+        5971,
+        5972,
+        5973,
+        5974,
+        5975,
+        5976,
+        5977,
+        5978,
+        5979
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_216__ent_867",
+      "judgment": "supported",
+      "reason": "General Electric → NBC: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5980,
+        5981,
+        5982,
+        5983,
+        5984,
+        5985,
+        5986,
+        5987,
+        5988,
+        5989
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1153__ent_458",
+      "judgment": "supported",
+      "reason": "Cablevision → Garden: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5990,
+        5991,
+        5992,
+        5993,
+        5994,
+        5995,
+        5996,
+        5997,
+        5998,
+        5999
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1155__ent_219",
+      "judgment": "supported",
+      "reason": "Federated Department Stores → Macy: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        6000,
+        6001,
+        6002,
+        6003,
+        6004,
+        6005,
+        6006,
+        6007,
+        6008,
+        6009
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_591__ent_110",
+      "judgment": "supported",
+      "reason": "John McMullen → Devils: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1475,
+        1476,
+        1479,
+        1480,
+        1481,
+        1482,
+        1484
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_352__ent_594",
+      "judgment": "supported",
+      "reason": "Peter S. Kalikow → The New York Post: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1485,
+        1487,
+        1488,
+        1489,
+        1490,
+        1491,
+        1492
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_151__ent_625",
+      "judgment": "supported",
+      "reason": "Rupert Murdoch → Fox: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        6011,
+        6012,
+        6013,
+        6015,
+        6018,
+        6019
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_180.json",
+        "annotation_sha256": "b7f91f18b6699663fa254adb69c8093684a5ed5b4e216498933a5ee0034d14ce"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1034__ent_1035",
+      "judgment": "supported",
+      "reason": "Danny Meyer → Union Square Cafe: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1435,
+        1436,
+        1437,
+        1441,
+        1442
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_180.json",
+        "annotation_sha256": "b7f91f18b6699663fa254adb69c8093684a5ed5b4e216498933a5ee0034d14ce"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_356__ent_308",
+      "judgment": "incorrect",
+      "reason": "Ewing → Knicks: Player activity, travel, political leadership, directorship and name-alias evidence do not establish ownership.",
+      "evidence_lines": [
+        3078,
+        3082,
+        4222,
+        4224,
+        4226
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_562__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Washington: Player activity, travel, political leadership, directorship and name-alias evidence do not establish ownership.",
+      "evidence_lines": [
+        3407,
+        3412,
+        3413,
+        3414,
+        3415
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_593__ent_112",
+      "judgment": "supported",
+      "reason": "Warner LeRoy → Tavern: Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1505,
+        1506,
+        1508
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_820__ent_940",
+      "judgment": "incorrect",
+      "reason": "Israel → Yitzhak Shamir: Player activity, travel, political leadership, directorship and name-alias evidence do not establish ownership.",
+      "evidence_lines": [
+        7078,
+        7080,
+        7081
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_915__ent_918",
+      "judgment": "incorrect",
+      "reason": "Robert S. Mueller III → F.B.I.: Player activity, travel, political leadership, directorship and name-alias evidence do not establish ownership.",
+      "evidence_lines": [
+        8457,
+        8461,
+        8462
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_180.json",
+        "annotation_sha256": "b7f91f18b6699663fa254adb69c8093684a5ed5b4e216498933a5ee0034d14ce"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_446__ent_688",
+      "judgment": "incorrect",
+      "reason": "Mr. Abbas → Abu Mazen: Player activity, travel, political leadership, directorship and name-alias evidence do not establish ownership.",
+      "evidence_lines": [
+        5610,
+        5613
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:21.970Z"
+      }
+    }
+  ]
+}

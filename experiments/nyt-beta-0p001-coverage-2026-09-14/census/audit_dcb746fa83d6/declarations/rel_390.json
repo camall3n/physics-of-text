@@ -1,0 +1,36 @@
+{
+  "relation": "rel_390",
+  "predicate_id": "communicates_to",
+  "predicate_version": 1,
+  "predicate_hash": "a82d4a7aab0a8fbf3f86b7d71ec6b6b931f5415050326cab5d60de9e300b979c",
+  "predicate": {
+    "id": "communicates_to",
+    "label": "directed communication to",
+    "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+    "includes": [
+      "tell/ask/urge/notify/advise/warn/persuade/address/speak-to",
+      "testimony before the addressee",
+      "send/submit a clearly communicative object",
+      "institutional communication through an identified representative"
+    ],
+    "excludes": [
+      "mere meeting/cooperation/support",
+      "speaking about or criticizing Y without address",
+      "physical transfer",
+      "spokesperson intermediary treated as recipient"
+    ],
+    "ambiguous": [
+      "send/submit/give with omitted object and no other clear communication in this fact",
+      "person versus their administration or envoy attribution"
+    ],
+    "notes": "An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+    "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it."
+  },
+  "dictionary_sha256": "8e365c7178d216185d74d4d1dd5f84a0e415498d04c0ff5eee0f09e043124902",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "a7160d69feb657b1e6f4c8a9800e9b249c83c4ee075e936aefa4ecb72fe9ac5e",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

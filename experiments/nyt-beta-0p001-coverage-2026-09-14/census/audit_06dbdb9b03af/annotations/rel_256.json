@@ -1,0 +1,114 @@
+{
+  "relation": "rel_256",
+  "predicate_id": "commented_on",
+  "label": "commented on",
+  "definition": "Entity X made an explicit statement or comment about entity Y.",
+  "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+  "facts": [
+    {
+      "case_id": "rel_256__ent_111__ent_114",
+      "judgment": "supported",
+      "reason": "Riley → Starks: An explicit say-of row establishes a statement about the named person.",
+      "evidence_lines": [
+        1545,
+        1547,
+        1548,
+        1549,
+        1551,
+        1553,
+        1554
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.191Z"
+      }
+    },
+    {
+      "case_id": "rel_256__ent_111__ent_356",
+      "judgment": "supported",
+      "reason": "Riley → Ewing: An explicit say-of row establishes a statement about the named person.",
+      "evidence_lines": [
+        1555,
+        1557,
+        1558,
+        1561,
+        1564
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.191Z"
+      }
+    },
+    {
+      "case_id": "rel_256__ent_111__ent_1040",
+      "judgment": "supported",
+      "reason": "Riley → Anthony: An explicit say-of row establishes a statement about the named person.",
+      "evidence_lines": [
+        1575,
+        1577,
+        1578,
+        1579,
+        1584
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.191Z"
+      }
+    },
+    {
+      "case_id": "rel_256__ent_66__ent_543",
+      "judgment": "incorrect",
+      "reason": "Kidd → Nets: Playing/staying with a team or death location does not establish a comment about the second argument.",
+      "evidence_lines": [
+        3108,
+        3111,
+        3112
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.191Z"
+      }
+    },
+    {
+      "case_id": "rel_256__ent_521__ent_763",
+      "judgment": "incorrect",
+      "reason": "David Roberts → Dartford: Playing/staying with a team or death location does not establish a comment about the second argument.",
+      "evidence_lines": [
+        8203
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.191Z"
+      }
+    }
+  ],
+  "predicate_hash": "4d090b1d51e8c5570e4413df020723bbb2a904417d4aac301f11f201d9212e4f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ef35823b08fb8b776e517fd74b93b9d5926f8d9b20a6ebaff292b5acee09972c"
+}

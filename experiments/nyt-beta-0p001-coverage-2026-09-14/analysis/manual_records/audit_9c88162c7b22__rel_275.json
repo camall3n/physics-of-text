@@ -1,0 +1,64 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_275",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_275__ent_994__ent_737",
+        "rel_275__ent_1004__ent_836",
+        "rel_275__ent_309__ent_836"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit title or championship winning establishes the designated sporting championship.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_275__ent_62__ent_1005"
+      ],
+      "judgment": "incorrect",
+      "reason": "Scoring or starring for the Bulls is athlete affiliation, not winning a Bulls-designated championship.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_275__ent_647__ent_323"
+      ],
+      "judgment": "incorrect",
+      "reason": "Playing in Brooklyn is geographic game location, not winning a competition or title.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3
+  ],
+  "broad": [
+    1
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "2ea2ec39deb49c03e8795d433710f18abfb8a50097a5832f5064be58d1835767"
+}

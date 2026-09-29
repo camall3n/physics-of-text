@@ -1,0 +1,180 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_175",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        13,
+        17,
+        18,
+        19,
+        21
+      ],
+      "case_ids": [
+        "rel_175__ent_1414__ent_1346",
+        "rel_175__ent_324__ent_372",
+        "rel_175__ent_108__ent_721",
+        "rel_175__ent_384__ent_145",
+        "rel_175__ent_1022__ent_161",
+        "rel_175__ent_915__ent_918",
+        "rel_175__ent_121__ent_376",
+        "rel_175__ent_619__ent_1105",
+        "rel_175__ent_128__ent_141",
+        "rel_175__ent_1048__ent_1049",
+        "rel_175__ent_362__ent_123",
+        "rel_175__ent_1327__ent_129",
+        "rel_175__ent_993__ent_1345"
+      ],
+      "judgment": "supported",
+      "reason": "The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        14,
+        24
+      ],
+      "case_ids": [
+        "rel_175__ent_1028__ent_175",
+        "rel_175__ent_1029__ent_325",
+        "rel_175__ent_1219__ent_899"
+      ],
+      "judgment": "incorrect",
+      "reason": "Only spokesperson, adviser or speaking evidence is supplied; it does not establish the declared director office.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        20
+      ],
+      "case_ids": [
+        "rel_175__ent_776__ent_433"
+      ],
+      "judgment": "incorrect",
+      "reason": "The two names occur as subjects of say, without a director office.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        23
+      ],
+      "case_ids": [
+        "rel_175__ent_56__ent_632"
+      ],
+      "judgment": "incorrect",
+      "reason": "Chairwoman is a distinct title and does not establish director under the fixed specific-director scope.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        6,
+        12
+      ],
+      "case_ids": [
+        "rel_175__ent_291__ent_182",
+        "rel_175__ent_176__ent_175",
+        "rel_175__ent_1271__ent_827"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director-for/possessive evidence points to a personal principal with the institutional or campaign object omitted.",
+      "tags": [
+        "argument_scope",
+        "attachment"
+      ],
+      "question": "Which organization, administration or campaign does the directorship belong to, rather than the named person?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_175__ent_348__ent_1045"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Study of the States appears as the topic/name of a center, but the complete institution serving as the directorship object is omitted.",
+      "tags": [
+        "argument_scope"
+      ],
+      "question": "What complete center or institution does Study of the States designate here?"
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_175__ent_1095__ent_1103"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Environment is an abstract subject rather than an identified director-employing institution.",
+      "tags": [
+        "argument_scope"
+      ],
+      "question": "Which environmental organization or program is the object of Esposito director-for in the original text?"
+    },
+    {
+      "indices": [
+        22
+      ],
+      "case_ids": [
+        "rel_175__ent_363__ent_1023"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Study of Automotive Transportation leaves the complete center or institutional name unresolved under the shared abstract-topic rule.",
+      "tags": [
+        "argument_scope"
+      ],
+      "question": "Which complete center or institution is meant by Study of Automotive Transportation?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_175__ent_346__ent_462"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The latent subject combines Grunfeld with Bianchi; a director path supports only one of these different people.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Should Ernie Grunfeld and Al Bianchi be separated, and whose director fact is intended?"
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    10,
+    13,
+    17
+  ],
+  "broad": []
+}

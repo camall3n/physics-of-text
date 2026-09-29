@@ -1,0 +1,47 @@
+{
+  "relation": "rel_382",
+  "predicate_id": "director_of",
+  "predicate_version": 1,
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate": {
+    "id": "director_of",
+    "label": "director of organization",
+    "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+    "includes": [
+      "explicit director/co-director",
+      "functional directorship such as communications or research director within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "head/president/chair/executive alone",
+      "spokesperson/adviser/publisher/professor/member alone",
+      "performing or authorship alone"
+    ],
+    "ambiguous": [
+      "personal principal with omitted organization",
+      "abstract topic in place of the actual institution"
+    ],
+    "notes": "Does not require sole chief control of the entire institution.",
+    "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+  },
+  "dictionary_sha256": "a1d0a05bae03e07b326d019ef5f128ec953fa536c331fbe7a567a88d8a162abc",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit director office and service-as-director dominates.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:25:33.950Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_382.before_grading.json",
+  "pregrading_annotation_sha256": "a29eb1b7c5669f8bf6abf1ecfb2686603ba421b660a369032b4d6a1fcd862f27"
+}

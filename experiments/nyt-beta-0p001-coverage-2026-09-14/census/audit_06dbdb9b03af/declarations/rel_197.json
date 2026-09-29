@@ -1,0 +1,58 @@
+{
+  "relation": "rel_197",
+  "predicate_id": "organizational_leader_of",
+  "predicate_version": 1,
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate": {
+    "id": "organizational_leader_of",
+    "label": "leader or organizational head of",
+    "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+    "includes": [
+      "explicit leader/head/president/chief/chair",
+      "legislative majority/minority leadership or whip",
+      "leadership office within an identified body",
+      "historical office"
+    ],
+    "excludes": [
+      "ordinary membership or service",
+      "founding/ownership alone",
+      "party control of a chamber",
+      "candidate alone",
+      "athletic/standings or task-only lead",
+      "editor alone"
+    ],
+    "ambiguous": [
+      "generic director or executive without clear leadership role",
+      "bare lead lacking organizational-role context",
+      "materially truncated political body"
+    ],
+    "notes": "Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+    "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles."
+  },
+  "dictionary_sha256": "957cfe2575591a9d61bd94c313aadc1d10b98e3a3627f7f14390e4a08d39ad28",
+  "kind": "declared_before_case_grading",
+  "rationale": "Head/leader/chief P0–P5 dominates26/36; use the established head/leader family and retain generic-director ambiguity instead of broadening to all offices.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:20.292Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    9,
+    10,
+    11,
+    12,
+    14
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_197.before_grading.json",
+  "pregrading_annotation_sha256": "e6ca2aac3003c2d3ce3007df6842ff348feaf2e914347eb8c190642982f4029f"
+}

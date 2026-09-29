@@ -1,0 +1,134 @@
+{
+  "relation": "rel_96",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_96__ent_66__ent_543",
+      "judgment": "supported",
+      "reason": "Kidd → Nets: Explicit player/guard/captain and playing-with evidence establishes athletic representation of the Nets.",
+      "evidence_lines": [
+        3104,
+        3106,
+        3108,
+        3109,
+        3110,
+        3111,
+        3112,
+        3113
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.786Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_1200__ent_1040",
+      "judgment": "incorrect",
+      "reason": "Riley → Anthony: Coach-to-player interactions and person-to-person giving/speaking do not assert athlete-to-team representation.",
+      "evidence_lines": [
+        1575,
+        1576,
+        1577,
+        1580,
+        1581,
+        1582,
+        1584
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.786Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_111__ent_114",
+      "judgment": "incorrect",
+      "reason": "Riley → Starks: Coach-to-player interactions and person-to-person giving/speaking do not assert athlete-to-team representation.",
+      "evidence_lines": [
+        1545,
+        1546,
+        1547,
+        1551,
+        1554
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.786Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_182__ent_198",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Gorbachev: Coach-to-player interactions and person-to-person giving/speaking do not assert athlete-to-team representation.",
+      "evidence_lines": [
+        489,
+        491
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.787Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_356__ent_308",
+      "judgment": "ambiguous",
+      "reason": "Ewing → Knicks: Leader/give/take paths do not establish an athlete role rather than another team leadership or participation sense.",
+      "evidence_lines": [
+        3083,
+        4221
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Do these rows identify Ewing as an athlete for the Knicks?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.786Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_1399__ent_462",
+      "judgment": "ambiguous",
+      "reason": "Ewing → Knicks: Leader/give/take paths do not establish an athlete role rather than another team leadership or participation sense.",
+      "evidence_lines": [
+        4225,
+        4227
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Do these rows identify Ewing as an athlete for the Knicks?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.786Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "965f1eff79525ed3e8c01b1e44595e8b3b89fc1e7e0c72245291bb0a0723c35a"
+}

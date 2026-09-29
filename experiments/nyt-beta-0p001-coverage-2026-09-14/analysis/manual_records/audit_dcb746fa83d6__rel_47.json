@@ -1,0 +1,95 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_47",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "case_ids": [
+        "rel_47__ent_461__ent_222",
+        "rel_47__ent_1000__ent_304",
+        "rel_47__ent_1001__ent_307",
+        "rel_47__ent_655__ent_897",
+        "rel_47__ent_786__ent_305",
+        "rel_47__ent_549__ent_1002",
+        "rel_47__ent_548__ent_1003",
+        "rel_47__ent_463__ent_440",
+        "rel_47__ent_1078__ent_429",
+        "rel_47__ent_539__ent_173",
+        "rel_47__ent_546__ent_788"
+      ],
+      "judgment": "supported",
+      "reason": "A local based-in, headquarters, office, or explicit organizational location row identifies this place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4,
+        13
+      ],
+      "case_ids": [
+        "rel_47__ent_14__ent_38",
+        "rel_47__ent_293__ent_10"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The place argument is only a national adjective; it does not unambiguously identify a geographic location.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Is the intended geographic country China/Germany, and is the evidence location rather than nationality?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_47__ent_547__ent_1262"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The sole have-working-in path omits who or what is working and does not clearly establish an organizational office or base.",
+      "tags": [
+        "missing_object"
+      ],
+      "question": "Does the omitted working subject establish an IBM office or physical organizational site in Armonk?"
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_47__ent_400__ent_1340"
+      ],
+      "judgment": "incorrect",
+      "reason": "A team loss at a stadium is an event location, not organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    8,
+    9,
+    10
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0343f269d2d6dc97a40e07b27009082f60e8c8ad7d5c1f53efc10e9b0a37b962"
+}

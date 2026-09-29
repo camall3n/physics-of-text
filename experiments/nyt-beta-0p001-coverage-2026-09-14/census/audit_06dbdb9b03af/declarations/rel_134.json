@@ -1,0 +1,50 @@
+{
+  "relation": "rel_134",
+  "predicate_id": "has_coach",
+  "predicate_version": 1,
+  "predicate_hash": "569f330d14a8a5cc302fc0ff834017307223771d032924185f482ca547027ffc",
+  "predicate": {
+    "id": "has_coach",
+    "label": "has coach",
+    "definition": "Team or sporting organization X has or had person Y as an explicitly identified coach.",
+    "includes": [
+      "explicit head coach, coach, or assistant coach office",
+      "historical coaching office"
+    ],
+    "excludes": [
+      "ordinary player or manager alone without a coach title",
+      "an opponent or commentator",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear title or team attachment",
+      "a coach-elect or proposed appointment without established tenure"
+    ],
+    "notes": "Inverse of coach_of. This does not assert that Y is the sole or current coach.",
+    "scope_notes": "Includes: explicit head coach, coach, or assistant coach office; historical coaching office. Excludes: ordinary player or manager alone without a coach title; an opponent or commentator; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear title or team attachment; a coach-elect or proposed appointment without established tenure. Inverse of coach_of. This does not assert that Y is the sole or current coach."
+  },
+  "dictionary_sha256": "972259015ffa816027bb174de567a2a2686752b2d5598ca7160f04980d269b95",
+  "kind": "declared_before_case_grading",
+  "rationale": "Literal direction is team to named coach. Coach possessive/appositive P4 and repeated coach/reporting constructions dominate coherent team-person identity; generic say and unrelated dateline/reporting pairs are not generalized into association.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:19.967Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    10,
+    11,
+    19,
+    20,
+    22
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_134.before_grading.json",
+  "pregrading_annotation_sha256": "e464f12caf48fe00f62c1a0c402840989867e1a83cf21b3fea0e1c9d9d3b378e"
+}

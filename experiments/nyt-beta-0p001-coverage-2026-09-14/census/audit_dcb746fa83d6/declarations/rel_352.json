@@ -1,0 +1,48 @@
+{
+  "relation": "rel_352",
+  "predicate_id": "commented_on",
+  "predicate_version": 1,
+  "predicate_hash": "4d090b1d51e8c5570e4413df020723bbb2a904417d4aac301f11f201d9212e4f",
+  "predicate": {
+    "id": "commented_on",
+    "label": "commented on",
+    "definition": "Entity X made an explicit statement or comment about entity Y.",
+    "includes": [
+      "say-of, comment-on, or a statement explicitly referring to Y",
+      "explicit praise, criticism, or accusation about Y",
+      "historical attributed statements"
+    ],
+    "excludes": [
+      "speaking to Y without establishing that Y is the subject",
+      "ordinary interaction or comparison without a statement by X",
+      "a statement about someone else related to Y"
+    ],
+    "ambiguous": [
+      "unclear speaker or subject attachment",
+      "a quotation or reference without an identifiable statement about Y"
+    ],
+    "notes": "The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+    "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment."
+  },
+  "dictionary_sha256": "a3f48f426daa721548c8f351cdf84658091c059552aada4aec9a97602ca7c219",
+  "kind": "declared_before_case_grading",
+  "rationale": "Say-of and explicit refer-to form the leading subject-of-comment family. Being the subject differs from being the addressee.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.529Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    8,
+    15
+  ],
+  "competing_meanings": [
+    "athlete management",
+    "political opposition",
+    "sports lead"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_352.before_grading.json",
+  "pregrading_annotation_sha256": "0a00773357eec399b56db6a6239dfcf7a7ddbbdced1852d612e6e7453935a6ee"
+}

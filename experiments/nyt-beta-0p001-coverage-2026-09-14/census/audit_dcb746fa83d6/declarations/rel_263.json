@@ -1,0 +1,34 @@
+{
+  "relation": "rel_263",
+  "predicate_id": "director_of",
+  "predicate_version": 1,
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate": {
+    "id": "director_of",
+    "label": "director of organization",
+    "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+    "includes": [
+      "explicit director/co-director",
+      "functional directorship such as communications or research director within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "head/president/chair/executive alone",
+      "spokesperson/adviser/publisher/professor/member alone",
+      "performing or authorship alone"
+    ],
+    "ambiguous": [
+      "personal principal with omitted organization",
+      "abstract topic in place of the actual institution"
+    ],
+    "notes": "Does not require sole chief control of the entire institution.",
+    "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+  },
+  "dictionary_sha256": "4a07296ef315f35fe0ab485fb7ea537db07e1af619f97d3fd6a8042640a9e15b",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "47a44a41c7449cb839a6e19c6f5ac94d8f0c4c39c39c52954ce4f35a51a9a80c",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

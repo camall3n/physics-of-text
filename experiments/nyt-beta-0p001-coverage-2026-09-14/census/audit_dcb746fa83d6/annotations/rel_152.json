@@ -1,0 +1,77 @@
+{
+  "relation": "rel_152",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "facts": [
+    {
+      "case_id": "rel_152__ent_645__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Mark → Manhattan; Walter Mendelsohn → Manhattan: Walter Mendelsohn and Mark are merged in the same subject entity without local evidence that they are the same person, despite residence/home support.",
+      "evidence_lines": [
+        2686,
+        3986,
+        3987,
+        3988,
+        3989,
+        3992,
+        3993,
+        3994
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Do Walter Mendelsohn and Mark identify the same resident?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.636Z"
+      }
+    },
+    {
+      "case_id": "rel_152__ent_235__ent_477",
+      "judgment": "supported",
+      "reason": "Albanians → Kosovo: Explicit live-in and population-percentage evidence establishes residence among members of the population.",
+      "evidence_lines": [
+        6107,
+        6109,
+        6110,
+        6114
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.636Z"
+      }
+    },
+    {
+      "case_id": "rel_152__ent_1175__ent_1029",
+      "judgment": "incorrect",
+      "reason": "Stu Jackson → Knicks: Coaching and putting a team do not establish geographic residence.",
+      "evidence_lines": [
+        6476,
+        6479
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.636Z"
+      }
+    }
+  ],
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "727c82ba6de5ec8a06700f312cf796ecc0606bd85422e277cab07f31bb000d44"
+}

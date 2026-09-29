@@ -1,0 +1,100 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_259",
+  "cases_sha256": "5d28482046f6f15c177540d41599e61bdd2b1cd7e9d471ac1029ce0160ab0b43",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_259__ent_1147__ent_209",
+        "rel_259__ent_1082__ent_843",
+        "rel_259__ent_220__ent_407",
+        "rel_259__ent_955__ent_1002",
+        "rel_259__ent_716__ent_958",
+        "rel_259__ent_207__ent_407",
+        "rel_259__ent_463__ent_440",
+        "rel_259__ent_700__ent_843",
+        "rel_259__ent_345__ent_333",
+        "rel_259__ent_539__ent_713",
+        "rel_259__ent_449__ent_1146",
+        "rel_259__ent_942__ent_843",
+        "rel_259__ent_300__ent_843"
+      ],
+      "judgment": "supported",
+      "reason": "The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        17
+      ],
+      "case_ids": [
+        "rel_259__ent_1083__ent_931",
+        "rel_259__ent_1081__ent_931"
+      ],
+      "judgment": "incorrect",
+      "reason": "Bell is a corporate-family association, not a geographic location, and the other supplied evidence adds no geographical base.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        13,
+        18
+      ],
+      "case_ids": [
+        "rel_259__ent_942__ent_936",
+        "rel_259__ent_1080__ent_936",
+        "rel_259__ent_943__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet describes industry or online activity rather than a geographic place in which the company is located.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_259__ent_1089__ent_953"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wall Street firm/house modification can denote the financial industry rather than an actual location.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does Wall Street indicate the firms physical location here, or only its financial-market industry?"
+    }
+  ],
+  "mixed": [
+    5,
+    8,
+    11
+  ],
+  "broad": []
+}

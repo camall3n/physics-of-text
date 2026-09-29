@@ -1,0 +1,42 @@
+{
+  "relation": "rel_197",
+  "predicate_id": "met_with",
+  "predicate_version": 1,
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate": {
+    "id": "met_with",
+    "label": "met or encountered",
+    "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+    "includes": [
+      "explicit actual meet or meet-with encounter",
+      "a meeting between representatives clearly attributed to the named institutions",
+      "actual meeting of opposing sports teams"
+    ],
+    "excludes": [
+      "communication alone without an encounter",
+      "a proposed or scheduled meeting not established as occurring",
+      "physical confluence of rivers or geographic features",
+      "mere co-occurrence or comparison"
+    ],
+    "ambiguous": [
+      "future or planned meeting when occurrence is unresolved",
+      "meeting versus satisfying an abstract requirement",
+      "unclear representatives or participants"
+    ],
+    "notes": "The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+    "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result."
+  },
+  "dictionary_sha256": "d3c589939ceedf65103360ee88cbbc8e6858558ee06449d37a398c8c49daf5af",
+  "kind": "declared_before_case_grading",
+  "rationale": "Meeting-with and meet-with dominate the dictionary; merely anticipated summits require modal review.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.575Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_197.before_grading.json",
+  "pregrading_annotation_sha256": "495c004f8a14c372c48e6d1b6c8d59c60451e2bda8b128938d2bef6e82ab6bdb"
+}

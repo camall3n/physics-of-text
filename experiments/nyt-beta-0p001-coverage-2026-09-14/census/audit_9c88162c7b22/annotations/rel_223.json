@@ -1,0 +1,61 @@
+{
+  "relation": "rel_223",
+  "predicate_id": "event_held_in",
+  "label": "event held in place",
+  "definition": "Event X takes or took place in geographic location Y.",
+  "scope_notes": "Includes: explicit event held-in or occurring-in Y; an event actually brought to or taking place in Y; historical event location. Excludes: a team's organizational location or ordinary person travel; attendance originating from Y; a place merely bidding or competing to host X; discussion of an event in a publication. Ambiguous unless resolved by case-local evidence: proposed, hoped-for, or future hosting without realization; generic have/bring/lure with missing modality; place versus institution or event identity unresolved. This requires event occurrence at the location, not only a bid or planned destination.",
+  "facts": [
+    {
+      "case_id": "rel_223__ent_1125__ent_843",
+      "judgment": "ambiguous",
+      "reason": "Olympics → New York: The Olympics hosting rows mix hold/come with enticing, luring and winning hosting rights, so realized occurrence versus a proposed bid is unresolved.",
+      "evidence_lines": [
+        4770,
+        4771,
+        4772,
+        4773,
+        4774,
+        4775,
+        4776,
+        4777,
+        4778,
+        4779
+      ],
+      "issue_tags": [
+        "hosting_modality"
+      ],
+      "reviewer_question": "Were these Olympics actually held in New York, or are the rows describing a hosting bid or future proposal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.459Z"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_1004__ent_682",
+      "judgment": "incorrect",
+      "reason": "Yankees → New Jersey: The Yankees are a team relocating or attracting attendance, not an event held in the second-argument place.",
+      "evidence_lines": [
+        4834,
+        4835,
+        4837,
+        4838,
+        4839
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.459Z"
+      }
+    }
+  ],
+  "predicate_hash": "67acf758f49106bf3a72ab77287788b1b68696cdea0e0fc36740915094c6350c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0ee1344d0afd836bb812f0760936f2313106198a8b150d1cfbec9e0000aeb4b8"
+}

@@ -1,0 +1,49 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_328",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_328__ent_920__ent_1066",
+        "rel_328__ent_881__ent_101",
+        "rel_328__ent_928__ent_1064",
+        "rel_328__ent_1065__ent_1064"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit subsidiary, division or owned organizational unit establishes child-to-parent containment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_328__ent_843__ent_421"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York is a geographic argument standing for an unnamed agency office/division; the actual organizational child is omitted.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which named New York business or office is the subsidiary of Fallon Worldwide?"
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "fdd5aec8ba1679604d58a4e76214483b35a73d43a1817ff9ac44e2ed4e199f6a"
+}

@@ -1,0 +1,57 @@
+{
+  "relation": "rel_40",
+  "predicate_id": "has_wife",
+  "predicate_version": 1,
+  "predicate_hash": "de64fa948c10501258b239ea8f83b784ab79b79aa658fa235fcb1b9edb41a40d",
+  "predicate": {
+    "id": "has_wife",
+    "label": "has or had wife",
+    "definition": "Person X is or was married to woman Y identified as X's wife.",
+    "includes": [
+      "explicit wife or spouse identified as wife",
+      "wife apposition or accompanied-by-wife attachment establishing the couple",
+      "historical or former wife"
+    ],
+    "excludes": [
+      "daughter or other relative",
+      "ordinary companion or accompaniment without a wife relationship",
+      "a fictional or proposed marriage unless actual marital status is stated"
+    ],
+    "ambiguous": [
+      "unclear whose wife Y is",
+      "wife versus other companion attachment unresolved",
+      "engagement without established marriage"
+    ],
+    "notes": "The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+    "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship."
+  },
+  "dictionary_sha256": "27463bee321ebb70b961a2d3af36431fb39d9c0cee24ba1a3e70667cae6bcfa0",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse wife paths dominate and ordered pairs consistently identify X with named wife Y; daughter/mother/adviser/roommate remain distinct relationships.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.690Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_40.before_grading.json",
+  "pregrading_annotation_sha256": "267bcd8de0b206792c9e694aed38c02e9a63425632b3693d6fda33fd95ff36e0"
+}

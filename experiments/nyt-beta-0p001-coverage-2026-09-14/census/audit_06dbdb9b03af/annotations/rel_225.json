@@ -1,0 +1,80 @@
+{
+  "relation": "rel_225",
+  "predicate_id": "played_at_sporting_venue",
+  "label": "played at sporting venue",
+  "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+  "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+  "facts": [
+    {
+      "case_id": "rel_225__ent_400__ent_681",
+      "judgment": "supported",
+      "reason": "Jets → Giants Stadium: Direct play-at, victory-at and game-at paths establish sporting play at the named stadium.",
+      "evidence_lines": [
+        4840,
+        4842,
+        4843,
+        4844,
+        4845,
+        4848,
+        4849
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.518Z"
+      }
+    },
+    {
+      "case_id": "rel_225__ent_321__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: Direct play-at, victory-at and game-at paths establish sporting play at the named stadium.",
+      "evidence_lines": [
+        5206,
+        5208,
+        5210,
+        5212,
+        5214,
+        5215
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.518Z"
+      }
+    },
+    {
+      "case_id": "rel_225__ent_1167__ent_229",
+      "judgment": "incorrect",
+      "reason": "Film Forum → West Houston Street: A cinema location and reopening is not a sporting competitor playing at a venue.",
+      "evidence_lines": [
+        6215,
+        6217,
+        6218,
+        6219,
+        6220,
+        6221
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.518Z"
+      }
+    }
+  ],
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5a5cfecd877a18100b664cec9c26e0ae5a81c0f85138f69d8d3348c3a6cbeabf"
+}

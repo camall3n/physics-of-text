@@ -1,0 +1,114 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_32",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23
+      ],
+      "case_ids": [
+        "rel_32__ent_1361__ent_1133",
+        "rel_32__ent_582__ent_1136",
+        "rel_32__ent_2__ent_1",
+        "rel_32__ent_152__ent_394",
+        "rel_32__ent_247__ent_489",
+        "rel_32__ent_691__ent_690",
+        "rel_32__ent_740__ent_1144",
+        "rel_32__ent_580__ent_341",
+        "rel_32__ent_437__ent_679",
+        "rel_32__ent_439__ent_584",
+        "rel_32__ent_1134__ent_786",
+        "rel_32__ent_133__ent_1408",
+        "rel_32__ent_389__ent_146",
+        "rel_32__ent_1099__ent_1289",
+        "rel_32__ent_4__ent_3",
+        "rel_32__ent_777__ent_1280",
+        "rel_32__ent_1303__ent_168",
+        "rel_32__ent_646__ent_142"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chair, president, head, or leader evidence establishes a managerial office in the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        8,
+        14,
+        15,
+        20,
+        24
+      ],
+      "case_ids": [
+        "rel_32__ent_263__ent_1172",
+        "rel_32__ent_263__ent_1170",
+        "rel_32__ent_1269__ent_244",
+        "rel_32__ent_1269__ent_1171",
+        "rel_32__ent_263__ent_486",
+        "rel_32__ent_1444__ent_1176"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The subject Republican does not identify the individual officeholder; direct office wording cannot resolve the inferred person.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which named Republican holds this office?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_32__ent_447__ent_0"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Volcker and Bernanke are distinct officeholders merged into the same inferred fact.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Should the inferred subject be Volcker or Bernanke?"
+    },
+    {
+      "indices": [
+        25
+      ],
+      "case_ids": [
+        "rel_32__ent_1142__ent_1349"
+      ],
+      "judgment": "incorrect",
+      "reason": "Committee membership alone does not establish managerial office.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    5,
+    6,
+    7
+  ],
+  "broad": []
+}

@@ -1,0 +1,47 @@
+{
+  "relation": "rel_190",
+  "predicate_id": "belongs_to_corporate_family",
+  "predicate_version": 1,
+  "predicate_hash": "58de310bd6774c12b820130e5dca451800949a35bfad752a6ff09a2303df52ef",
+  "predicate": {
+    "id": "belongs_to_corporate_family",
+    "label": "belongs to named corporate family",
+    "definition": "Company X is explicitly described as belonging to the named corporate family or historical corporate lineage Y.",
+    "includes": [
+      "explicit named-family company descriptors such as Bell company",
+      "explicit membership in a group of successor companies identified by that corporate lineage",
+      "historical corporate-family identification"
+    ],
+    "excludes": [
+      "current parent ownership without a family or lineage assertion",
+      "ordinary alliance, commercial cooperation or generic association",
+      "a company in an industry or geographic place"
+    ],
+    "ambiguous": [
+      "unclear corporate family designation or nominal attachment",
+      "a person or incomplete company name replacing the company argument"
+    ],
+    "notes": "A corporate-family label is distinct from ownership by a current legal parent. This category does not infer that all family companies are owned by an entity called Y.",
+    "scope_notes": "Includes: explicit named-family company descriptors such as Bell company; explicit membership in a group of successor companies identified by that corporate lineage; historical corporate-family identification. Excludes: current parent ownership without a family or lineage assertion; ordinary alliance, commercial cooperation or generic association; a company in an industry or geographic place. Ambiguous unless resolved by case-local evidence: unclear corporate family designation or nominal attachment; a person or incomplete company name replacing the company argument. A corporate-family label is distinct from ownership by a current legal parent. This category does not infer that all family companies are owned by an entity called Y."
+  },
+  "dictionary_sha256": "b05053961f3c5056134bd52b99f498e51fe450a6d9e300e23aec6169a218bd3e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Bell-company and breakup descriptors define corporate lineage, not ownership or subsidiary containment; personal parent-company chairs separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:27:14.271Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4,
+    5,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_190.before_grading.json",
+  "pregrading_annotation_sha256": "763b242057bc96c7b46a7f2003ba6eca2045f3dc9d050ae596e4ba8dedf7cef0"
+}

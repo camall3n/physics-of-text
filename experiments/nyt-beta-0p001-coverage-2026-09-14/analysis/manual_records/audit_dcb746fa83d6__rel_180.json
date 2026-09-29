@@ -1,0 +1,97 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_180",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        4,
+        6,
+        7,
+        12,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_180__ent_1217__ent_1383",
+        "rel_180__ent_1154__ent_229",
+        "rel_180__ent_564__ent_1002",
+        "rel_180__ent_1437__ent_1370",
+        "rel_180__ent_1126__ent_897",
+        "rel_180__ent_259__ent_682"
+      ],
+      "judgment": "supported",
+      "reason": "An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_180__ent_684__ent_1211"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Destination movement is present but merged with a different person and death place, so the inferred pair has incompatible identities.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which traveler and destination remain after separating the mixed names?"
+    },
+    {
+      "indices": [
+        5,
+        13
+      ],
+      "case_ids": [
+        "rel_180__ent_1123__ent_1413",
+        "rel_180__ent_1347__ent_310"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway or White House may denote theatrical work or political office rather than geographic travel.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Does this return describe geographic movement rather than performance or office?"
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_180__ent_646__ent_333",
+        "rel_180__ent_564__ent_832",
+        "rel_180__ent_1386__ent_818",
+        "rel_180__ent_571__ent_897",
+        "rel_180__ent_177__ent_327",
+        "rel_180__ent_43__ent_635",
+        "rel_180__ent_626__ent_445"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "77d84ede7ab5355dee6938628ed4d3d3b1f6a801fff2c6140a4b4880d2f102fa"
+}

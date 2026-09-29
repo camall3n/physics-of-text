@@ -1,0 +1,147 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_143",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        11,
+        18,
+        27,
+        38
+      ],
+      "case_ids": [
+        "rel_143__ent_838__ent_831",
+        "rel_143__ent_834__ent_837",
+        "rel_143__ent_1122__ent_537",
+        "rel_143__ent_826__ent_234",
+        "rel_143__ent_467__ent_234",
+        "rel_143__ent_826__ent_825",
+        "rel_143__ent_476__ent_1206",
+        "rel_143__ent_1101__ent_1229",
+        "rel_143__ent_1161__ent_368"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_143__ent_318__ent_517"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Mexicans and Cubans are distinct population subjects merged into one fact; only the Cuban rows establish residence.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should the Mexican travel and Cuban residence populations be separate entities?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_143__ent_822__ent_821"
+      ],
+      "judgment": "ambiguous",
+      "reason": "American combines resident-person, tourist, company and publication-modifier readings, leaving the actual resident subject unresolved.",
+      "tags": [
+        "argument_boundary",
+        "merged_identity"
+      ],
+      "question": "Which person or population does American denote, as distinct from the company and publication adjectives?"
+    },
+    {
+      "indices": [
+        3,
+        6,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39
+      ],
+      "case_ids": [
+        "rel_143__ent_1123__ent_1413",
+        "rel_143__ent_610__ent_904",
+        "rel_143__ent_332__ent_323",
+        "rel_143__ent_1030__ent_169",
+        "rel_143__ent_5__ent_814",
+        "rel_143__ent_1442__ent_495",
+        "rel_143__ent_63__ent_543",
+        "rel_143__ent_1271__ent_1403",
+        "rel_143__ent_1201__ent_1002",
+        "rel_143__ent_1315__ent_1124",
+        "rel_143__ent_1300__ent_114",
+        "rel_143__ent_1325__ent_483",
+        "rel_143__ent_1236__ent_836",
+        "rel_143__ent_1442__ent_1260",
+        "rel_143__ent_356__ent_308",
+        "rel_143__ent_884__ent_429",
+        "rel_143__ent_336__ent_1390",
+        "rel_143__ent_816__ent_716",
+        "rel_143__ent_770__ent_183",
+        "rel_143__ent_1280__ent_398",
+        "rel_143__ent_900__ent_820",
+        "rel_143__ent_1107__ent_1415",
+        "rel_143__ent_1221__ent_1317",
+        "rel_143__ent_277__ent_468",
+        "rel_143__ent_1296__ent_177",
+        "rel_143__ent_537__ent_294",
+        "rel_143__ent_169__ent_1039",
+        "rel_143__ent_1107__ent_732",
+        "rel_143__ent_639__ent_724"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    11,
+    18
+  ],
+  "broad": []
+}

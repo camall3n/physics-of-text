@@ -1,0 +1,71 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_282",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_282__ent_1128__ent_1129",
+        "rel_282__ent_665__ent_1069",
+        "rel_282__ent_623__ent_865",
+        "rel_282__ent_869__ent_880",
+        "rel_282__ent_666__ent_423",
+        "rel_282__ent_624__ent_866",
+        "rel_282__ent_867__ent_628",
+        "rel_282__ent_665__ent_1120",
+        "rel_282__ent_1067__ent_923",
+        "rel_282__ent_421__ent_423",
+        "rel_282__ent_922__ent_880",
+        "rel_282__ent_424__ent_1129",
+        "rel_282__ent_649__ent_880",
+        "rel_282__ent_1070__ent_1071",
+        "rel_282__ent_928__ent_1064",
+        "rel_282__ent_920__ent_1066"
+      ],
+      "judgment": "supported",
+      "reason": "The supplied unit/division/part-of or owned-by evidence places the first organization within the second in the required direction.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_282__ent_843__ent_422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The unit-of path may describe an unnamed New York office; the literal place name and incomplete parent name Hill do not settle the organizational referents.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Does New York refer to an organizational office of Hill, and what organization does Hill name here?"
+    }
+  ],
+  "mixed": [
+    8
+  ],
+  "broad": []
+}

@@ -1,0 +1,42 @@
+{
+  "relation": "rel_259",
+  "predicate_id": "official_of",
+  "predicate_version": 1,
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate": {
+    "id": "official_of",
+    "label": "official of institution",
+    "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+    "includes": [
+      "explicit official-of, official-at, or institutional official description",
+      "historical official role",
+      "a named formal public office that unambiguously entails official status"
+    ],
+    "excludes": [
+      "ordinary employment without an official role",
+      "a city dateline or institution standing in the person slot",
+      "a generic adviser or spokesperson without official status",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear person versus place identity",
+      "official title attachment unresolved",
+      "a generic institutional role without established official status"
+    ],
+    "notes": "Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+    "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation."
+  },
+  "dictionary_sha256": "5f2c6894e3557edf96b6bb5162fd08188d250d044bfc1a23e02f8be1f2a997d1",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit public official and established governmental job/post tenure form the dominant family; chairperson and sports opposition are separate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:49.139Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_259.before_grading.json",
+  "pregrading_annotation_sha256": "a263e258e667acfa1f2ed01cbfbe12e0ca4e2d5a22e706e4013d5c2ce1401f0f"
+}

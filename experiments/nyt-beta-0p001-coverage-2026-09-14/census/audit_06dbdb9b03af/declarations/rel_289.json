@@ -1,0 +1,46 @@
+{
+  "relation": "rel_289",
+  "predicate_id": "supports",
+  "predicate_version": 1,
+  "predicate_hash": "144e1679f928186e65824f49df703924a59e4b3f2e71e0197788ab8a91148542",
+  "predicate": {
+    "id": "supports",
+    "label": "supports or endorses",
+    "definition": "Entity X explicitly gives political, material, or institutional support or endorsement to Y.",
+    "includes": [
+      "explicit supports, backs, endorses, or provides identified aid to Y",
+      "voting for Y as an endorsement",
+      "historical support"
+    ],
+    "excludes": [
+      "merely pressuring or criticizing Y",
+      "ordinary alliance or meeting without support assertion",
+      "generic possession or acquisition",
+      "physical support of an object unrelated to the institutional relation"
+    ],
+    "ambiguous": [
+      "give with omitted object",
+      "unclear support versus pressure or opposition",
+      "a future proposed endorsement without realization"
+    ],
+    "notes": "This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence.",
+    "scope_notes": "Includes: explicit supports, backs, endorses, or provides identified aid to Y; voting for Y as an endorsement; historical support. Excludes: merely pressuring or criticizing Y; ordinary alliance or meeting without support assertion; generic possession or acquisition; physical support of an object unrelated to the institutional relation. Ambiguous unless resolved by case-local evidence: give with omitted object; unclear support versus pressure or opposition; a future proposed endorsement without realization. This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence."
+  },
+  "dictionary_sha256": "65478227e1a0dadc3acfd412f0d14f7750f4b68e02b2fa58fa427be40fcb4e42",
+  "kind": "declared_before_case_grading",
+  "rationale": "Support4 and vote-for2 define support; pressuring is excluded.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.065Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    3,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_289.before_grading.json",
+  "pregrading_annotation_sha256": "02fe23449d1ed6c6d140a9d6feed0d3100889991ad1bef8dcf45c0a679f859f9"
+}

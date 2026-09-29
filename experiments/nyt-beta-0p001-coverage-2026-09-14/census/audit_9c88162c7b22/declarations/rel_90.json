@@ -1,0 +1,50 @@
+{
+  "relation": "rel_90",
+  "predicate_id": "participated_in_sporting_event",
+  "predicate_version": 1,
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate": {
+    "id": "participated_in_sporting_event",
+    "label": "participated in sporting event",
+    "definition": "Competitor or team X participated in sporting event or competition Y.",
+    "includes": [
+      "actual played-in, competed-in, or appeared-in a sporting event",
+      "being in an event when competitive participation is clear",
+      "a completed win or title in the event, which entails participation"
+    ],
+    "excludes": [
+      "plans, hopes, or qualification without established participation",
+      "attendance as spectator",
+      "membership in a league without participation in the designated event",
+      "non-sporting events or geographic presence alone"
+    ],
+    "ambiguous": [
+      "future or proposed participation",
+      "event occurrence or participant role unclear",
+      "a governing body or location substituted for an unresolved event"
+    ],
+    "notes": "Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+    "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared."
+  },
+  "dictionary_sha256": "c80c1d62cc032f8e5dceaa9c4de1a13deb9dc7383ac9f236fca5d1cd5440d2ea",
+  "kind": "declared_before_case_grading",
+  "rationale": "After ordered-role inspection, sporting teams in/winning/losing World Series and league races form the largest interpretable domain; participation accommodates explicit competed-and-lost paths without imposing victory. Mixed White House political-office and physical-presence uses are separate and not absorbed.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.432Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_90.before_grading.json",
+  "pregrading_annotation_sha256": "18c47c494f666bee5a34fe99ff7724adeebf313f35ccf61c3b51326d5b716010"
+}

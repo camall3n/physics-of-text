@@ -1,0 +1,126 @@
+{
+  "relation": "rel_46",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_46__ent_136__ent_378",
+      "judgment": "supported",
+      "reason": "Juan Antonio Samaranch → International Olympic Committee: Direct president title or historical presidential tenure establishes the named institutional presidency.",
+      "evidence_lines": [
+        58,
+        59,
+        61,
+        62,
+        63,
+        64,
+        66
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.050Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_136__ent_256",
+      "judgment": "supported",
+      "reason": "Juan Antonio Samaranch → I.O.C.: Direct president title or historical presidential tenure establishes the named institutional presidency.",
+      "evidence_lines": [
+        2856,
+        2859,
+        2862,
+        2863,
+        2865
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.050Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_1042__ent_1029",
+      "judgment": "supported",
+      "reason": "Isiah Thomas → Knicks: Direct president title or historical presidential tenure establishes the named institutional presidency.",
+      "evidence_lines": [
+        1649,
+        1651
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.050Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_1412__ent_221",
+      "judgment": "incorrect",
+      "reason": "International Data Corporation → Framingham: A research house location, artistic reviewing or a legislature confirming a person does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        5821,
+        7155
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.050Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_524__ent_801",
+      "judgment": "incorrect",
+      "reason": "Jack Anderson → Dance Theater: A research house location, artistic reviewing or a legislature confirming a person does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        1884
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.050Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_1299__ent_267",
+      "judgment": "incorrect",
+      "reason": "Senate → Trent Lott: A research house location, artistic reviewing or a legislature confirming a person does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        7645
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.050Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "812b3bcc991490f2a3a7c2148ad611a39422241bb9e730fbaf50550b7e4007bf"
+}

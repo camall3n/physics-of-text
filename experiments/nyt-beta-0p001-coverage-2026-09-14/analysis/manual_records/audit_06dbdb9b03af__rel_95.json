@@ -1,0 +1,54 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_95",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "case_ids": [
+        "rel_95__ent_267__ent_263",
+        "rel_95__ent_268__ent_263",
+        "rel_95__ent_261__ent_263",
+        "rel_95__ent_267__ent_1197",
+        "rel_95__ent_744__ent_986"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit party, Senate or county leader/whip wording establishes political leadership. Republican denotes the party in these named-leader cases, consistent with the prior complete census.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_95__ent_67__ent_69",
+        "rel_95__ent_30__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The ethnic or adjectival political modifier leaves the specific political body materially unspecified.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which political group or institution does the Bosnian Serb or Democratic argument denote?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "04ef09fa50c0b065fe82e2ac64fffd64ce579bd69c6d0d5193c88aa4d240e80e"
+}

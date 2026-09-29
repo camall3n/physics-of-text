@@ -1,0 +1,221 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_351",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        37,
+        38,
+        39,
+        40,
+        41,
+        46,
+        47,
+        54
+      ],
+      "case_ids": [
+        "rel_351__ent_869__ent_880",
+        "rel_351__ent_624__ent_866",
+        "rel_351__ent_1128__ent_1409",
+        "rel_351__ent_626__ent_868",
+        "rel_351__ent_665__ent_1120",
+        "rel_351__ent_1121__ent_425",
+        "rel_351__ent_1154__ent_459",
+        "rel_351__ent_920__ent_1066",
+        "rel_351__ent_1067__ent_923",
+        "rel_351__ent_1068__ent_923",
+        "rel_351__ent_665__ent_844",
+        "rel_351__ent_1070__ent_1071",
+        "rel_351__ent_1065__ent_1064",
+        "rel_351__ent_1321__ent_1380",
+        "rel_351__ent_882__ent_1233",
+        "rel_351__ent_666__ent_423",
+        "rel_351__ent_421__ent_423",
+        "rel_351__ent_922__ent_880",
+        "rel_351__ent_1286__ent_865",
+        "rel_351__ent_625__ent_393",
+        "rel_351__ent_624__ent_627",
+        "rel_351__ent_424__ent_1409",
+        "rel_351__ent_426__ent_668",
+        "rel_351__ent_1072__ent_880",
+        "rel_351__ent_881__ent_101",
+        "rel_351__ent_928__ent_1064",
+        "rel_351__ent_313__ent_924",
+        "rel_351__ent_1371__ent_628",
+        "rel_351__ent_1210__ent_880",
+        "rel_351__ent_1073__ent_1129",
+        "rel_351__ent_623__ent_865",
+        "rel_351__ent_882__ent_1375",
+        "rel_351__ent_1104__ent_1380",
+        "rel_351__ent_622__ent_282",
+        "rel_351__ent_926__ent_929",
+        "rel_351__ent_204__ent_278"
+      ],
+      "judgment": "supported",
+      "reason": "The case explicitly identifies a subsidiary, unit, division, organizational part or owned business in the child-to-parent direction.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_351__ent_1321__ent_880"
+      ],
+      "judgment": "ambiguous",
+      "reason": "BBDO Worldwide and DDB Needham Worldwide are distinct child organizations merged into one latent fact even though both have parent-supporting rows.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should BBDO Worldwide and DDB Needham Worldwide be separated?"
+    },
+    {
+      "indices": [
+        33
+      ],
+      "case_ids": [
+        "rel_351__ent_265__ent_1197"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle/Senate political evidence is merged with Lorillard Tobacco/Loews corporate-unit evidence.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should the political-person pair and the corporate-unit pair be separate facts?"
+    },
+    {
+      "indices": [
+        36
+      ],
+      "case_ids": [
+        "rel_351__ent_1128__ent_1129"
+      ],
+      "judgment": "ambiguous",
+      "reason": "J. Walter Thompson and Ogilvy & Mather Worldwide are distinct organizations merged into the same child entity.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should these two agencies be separate child entities?"
+    },
+    {
+      "indices": [
+        23,
+        24,
+        34,
+        35
+      ],
+      "case_ids": [
+        "rel_351__ent_407__ent_649",
+        "rel_351__ent_843__ent_1321",
+        "rel_351__ent_843__ent_1104",
+        "rel_351__ent_904__ent_422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A city is used as the argument of an office/unit construction, leaving an unnamed organizational office rather than the city as the intended child.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Should the city argument denote a particular office, and what is that office’s identity?"
+    },
+    {
+      "indices": [
+        19,
+        31,
+        42,
+        43,
+        44,
+        45,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        55,
+        56
+      ],
+      "case_ids": [
+        "rel_351__ent_587__ent_577",
+        "rel_351__ent_712__ent_1307",
+        "rel_351__ent_819__ent_586",
+        "rel_351__ent_1299__ent_1221",
+        "rel_351__ent_591__ent_1363",
+        "rel_351__ent_356__ent_1029",
+        "rel_351__ent_110__ent_347",
+        "rel_351__ent_444__ent_379",
+        "rel_351__ent_321__ent_409",
+        "rel_351__ent_1358__ent_654",
+        "rel_351__ent_968__ent_1011",
+        "rel_351__ent_1300__ent_356",
+        "rel_351__ent_974__ent_434",
+        "rel_351__ent_470__ent_259"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows describe employment, political office, sports, personal or geographic associations, not organizational containment of a child by a parent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        57
+      ],
+      "case_ids": [
+        "rel_351__ent_935__ent_713"
+      ],
+      "judgment": "incorrect",
+      "reason": "The parent-of direction is reversed relative to subsidiary_of, and Bell is an incomplete corporate-family argument.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    4,
+    6,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    23,
+    24,
+    33,
+    35,
+    36
+  ],
+  "broad": []
+}

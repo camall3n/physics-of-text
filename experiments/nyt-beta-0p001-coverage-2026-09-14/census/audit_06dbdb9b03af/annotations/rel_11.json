@@ -1,0 +1,120 @@
+{
+  "relation": "rel_11",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_11__ent_131__ent_373",
+      "judgment": "incorrect",
+      "reason": "Gerry Adams → Sinn Fein: Political leadership, based-in, retaining a player or envoy/head office does not establish travel to the target.",
+      "evidence_lines": [
+        36,
+        2923,
+        4995
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.636Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_822__ent_835",
+      "judgment": "ambiguous",
+      "reason": "American → England: American is an adjectival woman/person fragment; movement is expressed but the traveling entity is unnamed.",
+      "evidence_lines": [
+        2160,
+        2162,
+        2164
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which American person or identified population is traveling to England?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.636Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_680__ent_440",
+      "judgment": "supported",
+      "reason": "Browns → Baltimore: Direct move-to or relocate-to establishes team relocation to the city.",
+      "evidence_lines": [
+        4823,
+        4827,
+        4828
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.636Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_548__ent_1003",
+      "judgment": "incorrect",
+      "reason": "Johnson & Johnson → New Brunswick: Political leadership, based-in, retaining a player or envoy/head office does not establish travel to the target.",
+      "evidence_lines": [
+        860,
+        4393
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.636Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: Political leadership, based-in, retaining a player or envoy/head office does not establish travel to the target.",
+      "evidence_lines": [
+        3432,
+        4931
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.636Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_970__ent_730",
+      "judgment": "incorrect",
+      "reason": "Yasushi Akashi → United Nations: Political leadership, based-in, retaining a player or envoy/head office does not establish travel to the target.",
+      "evidence_lines": [
+        7460,
+        7466
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.636Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "963809955e182ba19887c0782ade3f5dfb2a304766c04606ed2d6d116473c406"
+}

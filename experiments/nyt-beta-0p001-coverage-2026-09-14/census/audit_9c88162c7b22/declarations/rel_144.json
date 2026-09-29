@@ -1,0 +1,44 @@
+{
+  "relation": "rel_144",
+  "predicate_id": "fought_war_against",
+  "predicate_version": 1,
+  "predicate_hash": "76bdc9f8ae86994cbf90cb3318f18694bf8ac2363510c03867f0890ef0eeedb7",
+  "predicate": {
+    "id": "fought_war_against",
+    "label": "fought military conflict against",
+    "definition": "Political entity or military group X fought an armed conflict or war against Y.",
+    "includes": [
+      "explicit war-with or fought-against in an armed-conflict context",
+      "actual military attack or combat against Y",
+      "historical military adversaries"
+    ],
+    "excludes": [
+      "sports competition or metaphorical political attack",
+      "cooperation, alliance, or joint action on the same side",
+      "border adjacency or diplomatic relations alone",
+      "planned conflict without realization"
+    ],
+    "ambiguous": [
+      "fight-with whose allied versus adversarial sense is unresolved",
+      "generic attack without military context",
+      "future threat or proposed war"
+    ],
+    "notes": "Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner.",
+    "scope_notes": "Includes: explicit war-with or fought-against in an armed-conflict context; actual military attack or combat against Y; historical military adversaries. Excludes: sports competition or metaphorical political attack; cooperation, alliance, or joint action on the same side; border adjacency or diplomatic relations alone; planned conflict without realization. Ambiguous unless resolved by case-local evidence: fight-with whose allied versus adversarial sense is unresolved; generic attack without military context; future threat or proposed war. Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner."
+  },
+  "dictionary_sha256": "1df2a6bf4f7828061fafd0c878f7ea247c4bf4465e188113c25eae06aea66fbb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Military invasion is the strongest repeated unambiguously interpretable path (two occurrences). Underspecified go/use/ask/summon or roster-trade fragments cannot support an alternative common action; athlete/coach pairs remain outside the warfare scope.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.706Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_144.before_grading.json",
+  "pregrading_annotation_sha256": "170ee2f1ccc1afd0559ad5b4e05aa6d99c7422b5284c40338ff232f0e8aec587"
+}

@@ -1,0 +1,1616 @@
+{
+  "source_roots": [
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations",
+    "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations",
+    "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations",
+    "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations"
+  ],
+  "records": [
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_10.json",
+      "relation": "rel_10",
+      "label": "managerial or organizational leader of",
+      "definition": "Person X holds a managerial or organizational leadership office in organization or political body Y.",
+      "scope_notes": "President, leader, head, manager and executive paths dominate. This preserves the prior broad leadership scope, including historical office. Truncated political labels remain identity ambiguities; mere membership and event attendance do not suffice.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_113.json",
+      "relation": "rel_113",
+      "label": "directed communication to",
+      "definition": "X directs an utterance, request, warning or explicit message to Y.",
+      "scope_notes": "Tell, urge, ask, notify and speak-to give the directed-communication component, preserving prior scope. Accusing or speaking about someone is insufficient without evidence of address. Sending an unspecified object alone is ambiguous; institutional speech through representatives is allowed.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_141.json",
+      "relation": "rel_141",
+      "label": "analyst at",
+      "definition": "Person X works as an analyst for or follows an industry or companies for organization Y.",
+      "scope_notes": "Analyst-at/with/for dominates, preserving the prior analyst scope. Professorship, directorship or expertise alone does not establish an analyst role; these form competing components.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_149.json",
+      "relation": "rel_149",
+      "label": "coach of",
+      "definition": "Person X coaches sports team or collegiate athletic program Y.",
+      "scope_notes": "Coach descriptions dominate, retaining the prior coach scope and direction. Historical coaching qualifies; a managerial title alone would not establish coaching, and player or institutional-membership roles remain separate.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_171.json",
+      "relation": "rel_171",
+      "label": "has organizational or political leader",
+      "definition": "Organization or political body X has person Y as a leader or holder of a leadership office.",
+      "scope_notes": "Possessive leader/president and inverse leader appositions dominate. This is the inverse direction of the prior leadership predicate, explicitly X body to Y person. Ordinary membership, geographic co-occurrence and interaction alone do not qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_221.json",
+      "relation": "rel_221",
+      "label": "managerial or organizational leader of",
+      "definition": "Person X holds a managerial or organizational leadership office in organization Y.",
+      "scope_notes": "Director and head paths dominate, preserving the prior broad managerial scope for director clusters. Departmental or research directorship qualifies; economist, lobbyist and academic roles alone do not. Inverse organization-to-president paths are separate.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_246.json",
+      "relation": "rel_246",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization X is owned by, a subsidiary of, or an organizational unit of parent Y.",
+      "scope_notes": "Unit, part, subsidiary and owned-by define the child-to-parent containment predicate, retaining prior scope. This cluster includes many office-location attachments: a city label may be shorthand for an omitted local office, but the literal city is not the organizational unit, so those cases require identity clarification.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_253.json",
+      "relation": "rel_253",
+      "label": "member of",
+      "definition": "Person, country or organization X is or becomes a member of organization or political group Y.",
+      "scope_notes": "Member-of, membership, entry/accession and join provide the membership component. Joining someone in an action or alliance is distinct from becoming a constituent member; bare join without its completion can be ambiguous. Diplomatic relations, borders and television-title fragments do not establish membership.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_270.json",
+      "relation": "rel_270",
+      "label": "spokesperson for",
+      "definition": "Person X serves as a spokesperson or expressly speaks for person or organization Y.",
+      "scope_notes": "Spokesman/spokeswoman is the strongest recurring specific role and preserves the prior spokesperson predicate. This cluster also contains a substantial broader managerial/director component; those offices alone do not imply a spokesperson role, and this scope does not union them. Predicate choice is material in this mixed cluster.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_278.json",
+      "relation": "rel_278",
+      "label": "winner or champion of",
+      "definition": "Person, team or organization X wins award or competitive title/event Y.",
+      "scope_notes": "Win, champion, winner and title paths define the coherent award/championship component, preserving the prior scope. Political office, organizational membership and travel are separate predicates; participation alone does not qualify. A clear win path is assessed as textual support without importing external outcome history.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_307.json",
+      "relation": "rel_307",
+      "label": "politically controls",
+      "definition": "Political group X controls or gains control of political body Y.",
+      "scope_notes": "Control, take-control, retain-control, win-control and regain-control collectively define the coherent political-control component. Generic win/be-in and sporting tournament paths form competing components; they are not combined into a generic success relation. Winning control or historical control qualifies, mere presence or membership does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_308.json",
+      "relation": "rel_308",
+      "label": "directed communication to",
+      "definition": "X directs an utterance, request, advice or explicit message to Y.",
+      "scope_notes": "Ask, tell, urge, persuade and address-to form the dominant communication component, preserving prior scope. Unspecified send, submit or give objects are ambiguous alone because they can be noncommunicative. Sporting player roles do not independently establish communication.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_329.json",
+      "relation": "rel_329",
+      "label": "owns",
+      "definition": "Person or organization X owns organization or asset Y.",
+      "scope_notes": "Own, owner, parent, company-of and acquisition paths collectively form the largest coherent ownership component, preserving the prior ownership direction. Birthplace is a prominent competing component with the two highest individual path counts; it is not unioned with ownership. Location of premises alone is insufficient and proposed/rejected acquisitions alone would be ambiguous.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_340.json",
+      "relation": "rel_340",
+      "label": "lives in",
+      "definition": "Person or population X resides in geographic place Y.",
+      "scope_notes": "Live-in dominates the coherent residence component, preserving prior scope. An explicit home or immigration/resettlement can establish residence; death or other events in a place alone cannot. Bare adjectives or malformed names do not identify a stable person automatically.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_351.json",
+      "relation": "rel_351",
+      "label": "economist at",
+      "definition": "Person X is an economist affiliated with organization Y.",
+      "scope_notes": "Economist-at/for/with/of dominates the occupational component. Generic official, diplomat, analyst, executive or specialist roles alone do not establish economist status. Departmental affiliation and historical service qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_354.json",
+      "relation": "rel_354",
+      "label": "defeated opponent",
+      "definition": "X defeated opponent Y in a competitive contest.",
+      "scope_notes": "Beat, defeat, victory-over, sweep and outlast collectively define the dominant victory component, retaining the prior directional defeat scope. Lose-to and play paths are competing or weaker relations; a win remains supported despite losses on other occasions.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_358.json",
+      "relation": "rel_358",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+      "scope_notes": "Based-in, headquarters-in and geographic company/firm descriptions dominate, preserving the prior organizational-location scope. Geographic noun modifiers qualify for firms; subject-matter or industry modifiers and personal/event locations alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_383.json",
+      "relation": "rel_383",
+      "label": "departed from",
+      "definition": "Person or organization X leaves or withdraws physically from geographic place Y.",
+      "scope_notes": "This diffuse cluster mixes departure, arrival, legal occupation, publication and residence paths. Leave, withdraw-from, withdrawal and pull-out collectively define the selected coherent departure component. Arrival is a competing direction and residence is a different predicate; neither is unioned into it. No uniquely dominant interpretation is guaranteed, so relation-level predicate choice is a material caveat.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_52.json",
+      "relation": "rel_52",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization X is owned by, a subsidiary of, or an organizational unit of parent Y.",
+      "scope_notes": "Unit-of, part-of, owned-by and subsidiary-of dominate, preserving the prior child-to-parent organizational containment predicate. Historical ownership qualifies; competition and geographical containment do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_08e2dd6fc7/annotations/rel_55.json",
+      "relation": "rel_55",
+      "label": "managerial or organizational leader of",
+      "definition": "Person X holds a managerial or organizational leadership office in organization or political body Y.",
+      "scope_notes": "Chairman, head, executive and leader paths dominate, preserving the prior broad leadership scope. Founder, ownership and ordinary membership alone are separate relations. Party adjectives and party-labelled unnamed persons remain identity ambiguities.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_135.json",
+      "relation": "rel_135",
+      "label": "criticized or accused",
+      "definition": "Argument 1 publicly criticized, blamed or accused argument 2.",
+      "scope_notes": "This is a highly mixed dictionary: accuse/criticize/blame is the selected coherent family; joining/voting together, numerical comparisons, legal representation and ownership compete. A warning without criticism, general communication or simple rivalry alone does not establish this predicate. Label selection is materially uncertain.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_143.json",
+      "relation": "rel_143",
+      "label": "resided in",
+      "definition": "Person or population 1 resides or formerly resided in geographic place 2.",
+      "scope_notes": "Live/resident/residence and explicit resettlement qualify. Visiting, travel, work, officeholding and citizenship alone do not establish residence.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_18.json",
+      "relation": "rel_18",
+      "label": "coach of",
+      "definition": "Person 1 is or was a coach of sports team/program 2.",
+      "scope_notes": "Explicit coach title or coaching verb qualifies, including historical/dismissed roles. Manager/president alone, authorship and geographic movement are distinct predicates.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_191.json",
+      "relation": "rel_191",
+      "label": "managerial or political leadership in",
+      "definition": "Person 1 holds or formerly held a managerial or political leadership office in organization/body 2.",
+      "scope_notes": "Head, chair, president, director, chief and leader qualify, including a leadership office within a subunit. Mere committee membership, founder/owner status or analyst role does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_208.json",
+      "relation": "rel_208",
+      "label": "defeated",
+      "definition": "Argument 1 defeated argument 2 in an explicit sporting, electoral or other contest.",
+      "scope_notes": "Choose beat/victory-over/sweep/outlast from this mixed dictionary. Playing, losing, transfers, speaking and residence are distinct predicates. Generic historical victories count without requiring every row to express the win.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_220.json",
+      "relation": "rel_220",
+      "label": "has spokesperson",
+      "definition": "Organization or political body 1 has person 2 as its spokesperson.",
+      "scope_notes": "Inverse spokesperson-to-principal direction, selected from the repeated spokesman appositions and spokesman-at-briefing paths. President, leader, secretary or lawyer alone does not prove a spokesperson role. Political government/leader paths are a substantial competing theme.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_228.json",
+      "relation": "rel_228",
+      "label": "organization located or based in",
+      "definition": "Organization 1 is based in or has headquarters, offices or a campus in geographic place 2.",
+      "scope_notes": "Explicit organizational site/base paths qualify; personal employment, coaching, award events and ownership are separate relations.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_24.json",
+      "relation": "rel_24",
+      "label": "managerial leadership in",
+      "definition": "Person 1 holds or formerly held a managerial leadership office in organization 2.",
+      "scope_notes": "Director/head family dominates, with chair, president and manager paraphrases. Spokesperson, lawyer or aide alone does not establish leadership; names known-as and geographic relations are competing themes.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_245.json",
+      "relation": "rel_245",
+      "label": "organization located or based in",
+      "definition": "Organization 1 is based in or has offices/sites in geographic place 2.",
+      "scope_notes": "Company/firm-in, based-in and geographic noun compounds qualify. Personal residence/death, organizational employers and industry/Internet compounds are other relations. Nationality alone is ambiguous.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_252.json",
+      "relation": "rel_252",
+      "label": "managerial or political leadership in",
+      "definition": "Person 1 holds or formerly held a managerial or political leadership office in organization/body 2.",
+      "scope_notes": "Head, president, leader, chair, executive, manager, director and chief qualify. Founder, generic employee, coach or organizational subsidiary alone does not. Historical offices qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_284.json",
+      "relation": "rel_284",
+      "label": "lawyer or attorney for",
+      "definition": "Person 1 is or was a lawyer or attorney serving principal, organization or jurisdiction 2.",
+      "scope_notes": "Includes legal employment at a firm and government attorney offices for a jurisdiction. Merely working as a lawyer in a city may establish place of practice but not representation of that city; review jurisdiction ambiguity. Travel, sports and corporate nationality are competing predicates.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_321.json",
+      "relation": "rel_321",
+      "label": "organizational subsidiary or unit of",
+      "definition": "Organization 1 is or was a subsidiary, division, owned organization or unit of parent 2.",
+      "scope_notes": "Child-to-parent direction. Explicit unit/parent/owned-by evidence qualifies, including partial and historical ownership. Personal roles, location, disease and family relations do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_335.json",
+      "relation": "rel_335",
+      "label": "analyst for",
+      "definition": "Person 1 is or was an analyst for organization 2.",
+      "scope_notes": "Explicit analyst and following/tracking an industry for an employer qualify. Economist/strategist alone is a role-scope ambiguity; managerial, professorial or other roles alone are not analyst roles.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_351.json",
+      "relation": "rel_351",
+      "label": "organizational subsidiary or unit of",
+      "definition": "Organization 1 is or was a subsidiary, division, owned organization or unit of parent 2.",
+      "scope_notes": "Child-to-parent direction; partial or historical ownership and institutional units qualify. Geographic sites, employment and reverse parent-to-child relations do not automatically qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_364.json",
+      "relation": "rel_364",
+      "label": "owns",
+      "definition": "Argument 1 owns or previously owned company, organization or asset 2.",
+      "scope_notes": "Owner/parent, completed acquisitions and explicit partial ownership qualify in owner-to-asset direction. Managing, publishing, proposing/rejecting a merger and political office alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_389.json",
+      "relation": "rel_389",
+      "label": "winner or champion of",
+      "definition": "Argument 1 won competition/award 2 or holds its championship.",
+      "scope_notes": "The win/champion family dominates identifiable semantics; movement and presence are substantial competing themes. Mere participation, reaching an event or winning one stage does not imply winning the whole event. Political office is outside this preserved award/competition scope.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_393.json",
+      "relation": "rel_393",
+      "label": "managerial or political leadership in",
+      "definition": "Person 1 holds or formerly held a managerial or political leadership office in organization/body 2.",
+      "scope_notes": "Chair, president, executive, head, director, chief and political leader qualify. Founder/owner alone does not. Historical offices qualify. Direction person to organization.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_397.json",
+      "relation": "rel_397",
+      "label": "communicated to",
+      "definition": "Argument 1 addressed, contacted or sent a message to argument 2.",
+      "scope_notes": "Tell, urge, ask, notify, speak-to and message/report recipient paths establish direction. Accusing or describing a person without addressing them is not enough. Sending something unspecified may require object/attachment review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_67.json",
+      "relation": "rel_67",
+      "label": "president or manager of",
+      "definition": "Person 1 holds or formerly held president or manager office in organization 2.",
+      "scope_notes": "Manager and president are the largest combined office families; professor/academic roles form a substantial competing theme. Preserve the prior president-or-manager scope: generic head, executive, director, coach, professor or expert alone does not establish these titles.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_384a3e2233/annotations/rel_84.json",
+      "relation": "rel_84",
+      "label": "defeated",
+      "definition": "Argument 1 defeated argument 2 in an explicit sporting, electoral or other contest.",
+      "scope_notes": "Winner-to-loser direction. Historical wins qualify; merely playing, facing, trailing, leading standings or transferring players does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_11.json",
+      "relation": "rel_11",
+      "label": "contributed writing to publication",
+      "definition": "Argument 1 wrote, reviewed or worked as a critic for publication 2.",
+      "scope_notes": "This highly mixed dictionary has several competing themes and no clean dominant predicate. After reading all 38 complete fact groups, choose the coherent write-in/critic-for/review-for family, also resolving say-in ambiguity toward publications where local evidence permits. Geographic residence/travel and lawyer-in-city are competing predicates. This labeling choice is a material uncertainty in the precision estimate. Mere being quoted in a publication does not establish authorship.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_133.json",
+      "relation": "rel_133",
+      "label": "traveled or moved to",
+      "definition": "Argument 1 traveled, relocated, returned or was transported to destination 2.",
+      "scope_notes": "Direction toward the destination. Visits and historical movements qualify. Mere presence, residence, officeholding, or leaving/moving from the second argument alone does not. Unobserved modality is a corpus limitation.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_156.json",
+      "relation": "rel_156",
+      "label": "athlete played for team",
+      "definition": "Person 1 played as an athlete for sports team 2.",
+      "scope_notes": "Team player/center/wing/guard/scorer membership and scoring for the team qualify. Coaching alone, merely leading an opponent, communication and corporate interactions do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_19.json",
+      "relation": "rel_19",
+      "label": "managerial leadership in",
+      "definition": "Argument 1 holds or formerly held a leadership office in organization 2.",
+      "scope_notes": "Chairman and head dominate, with director, executive and president paraphrases. Founder/owner alone is insufficient. Explicit former office qualifies; nomination alone does not show office held.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_213.json",
+      "relation": "rel_213",
+      "label": "defeated",
+      "definition": "Argument 1 defeated argument 2 in a sporting, electoral or other explicit contest.",
+      "scope_notes": "Historical wins qualify. Playing, facing, a period score or standings lead alone does not show a win. Preserve direction winner to loser.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_231.json",
+      "relation": "rel_231",
+      "label": "analyst for",
+      "definition": "Person 1 is or was an analyst for organization 2.",
+      "scope_notes": "Explicit analyst titles and following/tracking an industry for the employer qualify. Economist, strategist or specialist without analyst evidence may require role-scope review; president/director/professor/lawyer alone do not establish this role.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_238.json",
+      "relation": "rel_238",
+      "label": "political or organizational leader of",
+      "definition": "Argument 1 is or was a political/organizational leader of group, legislature or political body 2.",
+      "scope_notes": "Leader, head, chair and legislative leadership posts qualify. Mere candidacy, party membership or communicating to a body does not. Leadership in a legislature includes majority/minority leadership, not only heading the entire chamber.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_245.json",
+      "relation": "rel_245",
+      "label": "organizational subsidiary or unit of",
+      "definition": "Argument 1 is or was an organizational subsidiary, division, unit or owned organization of parent 2.",
+      "scope_notes": "Direction subsidiary to parent. Explicit ownership qualifies, including partial ownership. Mere employment, a geographic base or business interaction does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_269.json",
+      "relation": "rel_269",
+      "label": "president or manager of",
+      "definition": "Argument 1 holds or formerly held the office of president or manager of organization 2.",
+      "scope_notes": "The two dominant title families are president and manager, as in the prior evaluation. Generic executive, director, owner, coach or political leader alone does not establish either title.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_292.json",
+      "relation": "rel_292",
+      "label": "has political leader or minister",
+      "definition": "Political body, party, country or legislature 1 has or had person 2 as a leader, minister or senior political officeholder.",
+      "scope_notes": "Direction body to leader, inverse of the dominant leader-of family. Legislature majority/minority leaders and whips qualify. Spokespeople, aides, visitors, merely cited officials elsewhere and the reverse direction do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_299.json",
+      "relation": "rel_299",
+      "label": "communicated to",
+      "definition": "Argument 1 addressed, contacted or sent a message to argument 2.",
+      "scope_notes": "Tell, ask, urge, warn, write, talk and message recipient paths establish directed communication. Accusing or describing another person without addressing them is not enough. Sending a person somewhere is not sending them a message.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_345.json",
+      "relation": "rel_345",
+      "label": "organization located or based in",
+      "definition": "Organization 1 is based in or has headquarters, offices or a campus in geographic place 2.",
+      "scope_notes": "Historical bases and explicit organizational sites qualify. People, award recipients, leadership offices and merely named-as paths are other predicates.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_354.json",
+      "relation": "rel_354",
+      "label": "owns",
+      "definition": "Argument 1 owns or previously owned company, organization or asset 2.",
+      "scope_notes": "Parent, owner, acquisition and explicit partial ownership qualify in parent-to-child direction. Being born in a place, employment, management alone, or a proposed/rejected acquisition does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_369.json",
+      "relation": "rel_369",
+      "label": "organization located or based in",
+      "definition": "Organization 1 is based in or has a geographic office/site in place 2.",
+      "scope_notes": "Firm/company-in and based-in paths qualify. Nationality adjectives alone remain ambiguous between geographic base and ownership/origin. Individual professionals, agencies as employers and sectors are other predicates.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_373.json",
+      "relation": "rel_373",
+      "label": "lawyer or attorney for",
+      "definition": "Argument 1 serves as a lawyer, attorney or legal counsel for organization or person 2, including employment at a law firm.",
+      "scope_notes": "The aggregate lawyer/attorney/counsel family is chosen from a mixed professional-role dictionary. A professor, analyst, economist or director without legal representation evidence does not qualify. A firm partner without a legal-role attachment is ambiguous.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_375.json",
+      "relation": "rel_375",
+      "label": "organization located or based in",
+      "definition": "Organization 1 is based in or has an office/site in geographic place 2.",
+      "scope_notes": "Firm/company-in, based-in, headquarters-in and geographic noun compounds qualify. Nationality adjective alone is ambiguous between ownership/origin and actual base. A sector, parent company or person is not a geographic place.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_381.json",
+      "relation": "rel_381",
+      "label": "managerial leadership in",
+      "definition": "Argument 1 is or was a person holding a managerial or leadership office in organization 2.",
+      "scope_notes": "Choose the aggregate director/manager/president/chief family from the full dictionary. Spokesperson and economist are substantial competing roles, but employment alone does not establish leadership; a director role qualifies without requiring the chief executive.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_41.json",
+      "relation": "rel_41",
+      "label": "coach of",
+      "definition": "Person 1 is or was a coach of sports team or program 2.",
+      "scope_notes": "Explicit coach titles and coaching verbs qualify, including historical or dismissed coaches. Playing, owning, managing without coaching evidence, and political leadership do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_66.json",
+      "relation": "rel_66",
+      "label": "managerial leadership in",
+      "definition": "Argument 1 holds or formerly held a managerial or leadership office in organization 2.",
+      "scope_notes": "Head, president, chair, chief, executive, director and manager qualify. Founder, owner, generic employee or spokesperson alone do not. Historical offices qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_4c50ddb65b/annotations/rel_9.json",
+      "relation": "rel_9",
+      "label": "winner or champion of",
+      "definition": "Argument 1 won competition or award 2 or holds its championship.",
+      "scope_notes": "Historical wins and explicit award recipients qualify. Merely playing, reaching an event, winning an individual stage, or holding political office does not. Boxing title-body champion paths qualify under the same broad championship scope as earlier audits.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_114.json",
+      "relation": "rel_114",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest; direction is winner to defeated opponent.",
+      "scope_notes": "Preserves the previous defeated-opponent predicate. Explicit beat, defeat, victory over or completed sweep qualify. Losing, playing, facing, trading or standings alone do not. Different historical games can supply both wins and losses; a clear win supports the fact but other assignments remain mixed evidence.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_126.json",
+      "relation": "rel_126",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.",
+      "scope_notes": "Preserves the earlier combined president/manager scope. Explicit historical office qualifies. Generic leader, running/control, director, chairman, founder, owner, coach or athlete leadership alone does not establish either specified office. Manager cases are marked as the deliberately broader role family.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_127.json",
+      "relation": "rel_127",
+      "label": "organizational leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.",
+      "scope_notes": "Preserves the prior managerial/leadership office predicate. Explicit named office qualifies. Founding, ownership, ordinary employment or attendance alone do not; generic athletic lead is not an organizational office. Membership, serving or sitting on a committee alone does not imply its leadership. A generic Democrat/Republican argument omits the individual officeholder and remains ambiguous under the same earlier rubric.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_159.json",
+      "relation": "rel_159",
+      "label": "has spokesperson",
+      "definition": "Organization or principal X has person Y serving as its spokesperson.",
+      "scope_notes": "Reverse direction of spokesperson-for. Direct organization-modifying-spokesman plus appositive person evidence qualifies. Merely speaking at a building, secretary without press/spokesperson context, or kinship alone does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_251.json",
+      "relation": "rel_251",
+      "label": "directed communication to",
+      "definition": "X directs a communication, request, instruction, urging or submitted material to recipient Y.",
+      "scope_notes": "Preserves the prior directed-communication scope. Tell, urge and submit-to qualify; a source speaking through its spokesperson has the spokesperson as intermediary, not automatically recipient. Meeting, visits and support alone are insufficient.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_260.json",
+      "relation": "rel_260",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.",
+      "scope_notes": "Preserves the prior managerial/leadership office predicate. Explicit named office qualifies. Founding, ownership, ordinary employment or attendance alone do not; generic athletic lead is not an organizational office.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_282.json",
+      "relation": "rel_282",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, organizational part of, or owned business of parent organization Y.",
+      "scope_notes": "Preserves the earlier subsidiary/unit/organizational-containment predicate. Explicit unit, subsidiary, division, part or owned-by evidence qualifies. Mere geography, employee affiliation or partial investment alone does not. A location name standing for an unnamed office is ambiguous rather than silently converted into an organization.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_29.json",
+      "relation": "rel_29",
+      "label": "winner or champion of",
+      "definition": "X won competition, race, championship, prize or award Y.",
+      "scope_notes": "Preserves the earlier winner/champion scope, with Y the event or award, not the defeated opponent. Teams, people and racehorses can win. Participation or finishing alone is not sufficient; a historical win qualifies.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_290.json",
+      "relation": "rel_290",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.",
+      "scope_notes": "Preserves the prior managerial/leadership office predicate. Explicit named office qualifies. Founding, ownership, ordinary employment or attendance alone do not; generic athletic lead is not an organizational office.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_31.json",
+      "relation": "rel_31",
+      "label": "spokesperson for",
+      "definition": "Person X serves or served as spokesperson for organization or principal Y.",
+      "scope_notes": "Preserves the previous spokesperson scope, including an explicitly identified press spokesperson. Generic secretary, aide or employee alone is insufficient; a personal principal can have a spokesperson. Direct spokesperson evidence can support a mixed case.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_326.json",
+      "relation": "rel_326",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, director, president or executive.",
+      "scope_notes": "Preserves the prior managerial/leadership office predicate. Explicit named office qualifies. Founding, ownership, ordinary employment or attendance alone do not; generic athletic lead is not an organizational office.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_332.json",
+      "relation": "rel_332",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.",
+      "scope_notes": "Preserves the earlier combined president/manager scope. Explicit historical office qualifies. Generic leader, running/control, director, chairman, founder, owner, coach or athlete leadership alone does not establish either specified office. Manager cases are marked as the deliberately broader role family.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_343.json",
+      "relation": "rel_343",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest; direction is winner to defeated opponent.",
+      "scope_notes": "Preserves the previous defeated-opponent predicate. Explicit beat, defeat, victory over or completed sweep qualify. Losing, playing, facing, trading or standings alone do not. Different historical games can supply both wins and losses; a clear win supports the fact but other assignments remain mixed evidence.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_347.json",
+      "relation": "rel_347",
+      "label": "business or organization based or located in",
+      "definition": "Business or organization X is based or physically located in geographic place Y.",
+      "scope_notes": "Preserves the prior location predicate. Explicit based-in and company/firm-in constructions qualify. Geographic noun modification can indicate a place, but nationality adjectives without a recoverable place and Wall Street used only as an industry label remain ambiguous; ordinary business association alone does not suffice.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_396.json",
+      "relation": "rel_396",
+      "label": "coach of",
+      "definition": "X is or was a coach of team, school or sporting program Y.",
+      "scope_notes": "Preserves the previous coach predicate. Explicit coach role or coaching action qualifies, including a university/team named by its place. Mere athletic participation, ownership or general management does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_58.json",
+      "relation": "rel_58",
+      "label": "leader or organizational head of",
+      "definition": "X holds or held a leadership/head role in political body or organization Y.",
+      "scope_notes": "Preserves the previous leader/head scope and includes recognized legislative leadership within a chamber, without requiring sole leadership of the whole body. Head/leader office qualifies; simple membership or founding alone does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_8.json",
+      "relation": "rel_8",
+      "label": "owns or is parent of",
+      "definition": "Person or organization X owns business, asset or organization Y, or is Y’s organizational parent.",
+      "scope_notes": "This is the direction-reversed ownership family, distinct from subsidiary-of. Direct owns, owner or parent evidence qualifies. A mere partial stake or proposed acquisition is not silently treated as full ownership; direct ownership elsewhere can support the fact. Historical ownership qualifies.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_9.json",
+      "relation": "rel_9",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, organizational part of, or owned business of parent organization Y.",
+      "scope_notes": "Preserves the earlier subsidiary/unit/organizational-containment predicate. Explicit unit, subsidiary, division, part or owned-by evidence qualifies. Mere geography, employee affiliation or partial investment alone does not. A location name standing for an unnamed office is ambiguous rather than silently converted into an organization.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_91.json",
+      "relation": "rel_91",
+      "label": "analyst at organization",
+      "definition": "X is an analyst working at, with or for organization Y.",
+      "scope_notes": "Preserves the prior analyst role rather than general employment. Explicit analyst affiliation qualifies; financial tracking can corroborate it. Economist-only or unclear attachment would be ambiguous, and another office alone would not suffice.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_5e74dee865/annotations/rel_99.json",
+      "relation": "rel_99",
+      "label": "professor or university teacher at",
+      "definition": "X is a professor or teaches at academic institution Y.",
+      "scope_notes": "The dominant professor/teach paths define an academic teaching affiliation. Expert, specialist, dean, researcher or analyst alone need not imply a professorship or teaching role. Explicit professor/teaches evidence supports a mixed case; a location or attendance alone does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_102.json",
+      "relation": "rel_102",
+      "label": "leader or organizational head of",
+      "definition": "X holds or held a leadership/head role in political body, party or organization Y.",
+      "scope_notes": "Preserves prior leader/head scope, including legislative leadership within a chamber. Republican may name a party group when the named person is explicitly its leader; a singular nationality or truncated political label such as Soviet/Bosnian Serb does not automatically identify the organization. Membership alone does not establish leadership.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_11.json",
+      "relation": "rel_11",
+      "label": "analyst at organization",
+      "definition": "X is an analyst working at, with or for organization Y.",
+      "scope_notes": "Preserves the earlier analyst role, not all employment or financial occupations. Explicit analyst affiliation qualifies. Another office alone is insufficient; economist-only or ambiguous role attachment would require review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_128.json",
+      "relation": "rel_128",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.",
+      "scope_notes": "Preserves the prior organizational leadership scope. Explicit office qualifies, including a public executive role. Founding, control, ownership, ordinary employment or athletic lead alone is insufficient. Truncated organizational arguments remain ambiguous when their referent is unclear.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_138.json",
+      "relation": "rel_138",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.",
+      "scope_notes": "Preserves the prior organizational leadership scope. Explicit office qualifies, including a public executive role. Founding, control, ownership, ordinary employment or athletic lead alone is insufficient. Truncated organizational arguments remain ambiguous when their referent is unclear.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_167.json",
+      "relation": "rel_167",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, organizational part, division or owned business of parent organization Y.",
+      "scope_notes": "Preserves the earlier subsidiary/unit scope. Explicit owned-by, unit, part or subsidiary evidence qualifies. Geography, ordinary employment and partial investment alone do not. A location standing for an unnamed office would remain ambiguous.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_186.json",
+      "relation": "rel_186",
+      "label": "winner or champion of",
+      "definition": "X won competition, race, championship, prize or award Y.",
+      "scope_notes": "Preserves prior winner/champion scope, with Y the competition or award rather than another player/person. Explicit win/champion/victory-in qualifies. Going, reaching, missing or losing in an event alone does not; a historical win is sufficient.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_193.json",
+      "relation": "rel_193",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest, including an electoral contest; direction is winner to defeated opponent.",
+      "scope_notes": "Preserves the prior defeated-opponent scope. Explicit beat, defeat, victory over, trounce or completed elimination qualifies. Playing, facing, losing, standings, trading or political criticism alone do not. Both a win and a loss across historical games can be true; mixed assignments remain flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_194.json",
+      "relation": "rel_194",
+      "label": "geographic neighborhood or area within",
+      "definition": "Geographic area or neighborhood X is a part of or located within larger geographic place Y.",
+      "scope_notes": "New geographic-containment meaning supported by the dominant neighborhood/section/area paths. Explicit section, district, neighborhood or area of/in qualifies. Movement between places, organizational ownership and unrelated event location alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_196.json",
+      "relation": "rel_196",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.",
+      "scope_notes": "Preserves the prior organizational leadership scope. Explicit office qualifies, including a public executive role. Founding, control, ownership, ordinary employment or athletic lead alone is insufficient. Truncated organizational arguments remain ambiguous when their referent is unclear.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_22.json",
+      "relation": "rel_22",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.",
+      "scope_notes": "Preserves the earlier combined president/manager scope. Other named offices, generic leadership/running, ownership or athletic leadership alone are not substitutes. A personal principal in place of an omitted campaign or organization requires attachment review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_257.json",
+      "relation": "rel_257",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.",
+      "scope_notes": "Preserves the earlier combined president/manager scope. Other named offices, generic leadership/running, ownership or athletic leadership alone are not substitutes. A personal principal in place of an omitted campaign or organization requires attachment review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_259.json",
+      "relation": "rel_259",
+      "label": "business or organization based or located in",
+      "definition": "Business or organization X is based or physically located in geographic place Y.",
+      "scope_notes": "Preserves the earlier location predicate. Explicit based-in/firm-in/company-in paths qualify. Corporate or industry noun modifiers such as Bell or Internet are not assumed to be geographic places. A shortened firm name can be resolved locally by explicit firm constructions.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_278.json",
+      "relation": "rel_278",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.",
+      "scope_notes": "Preserves the prior organizational leadership scope. Explicit office qualifies, including a public executive role. Founding, control, ownership, ordinary employment or athletic lead alone is insufficient. Truncated organizational arguments remain ambiguous when their referent is unclear.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_283.json",
+      "relation": "rel_283",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest, including an electoral contest; direction is winner to defeated opponent.",
+      "scope_notes": "Preserves the prior defeated-opponent scope. Explicit beat, defeat, victory over, trounce or completed elimination qualifies. Playing, facing, losing, standings, trading or political criticism alone do not. Both a win and a loss across historical games can be true; mixed assignments remain flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_322.json",
+      "relation": "rel_322",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.",
+      "scope_notes": "Preserves the prior organizational leadership scope. Explicit office qualifies, including a public executive role. Founding, control, ownership, ordinary employment or athletic lead alone is insufficient. Truncated organizational arguments remain ambiguous when their referent is unclear.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_388.json",
+      "relation": "rel_388",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest, including an electoral contest; direction is winner to defeated opponent.",
+      "scope_notes": "Preserves the prior defeated-opponent scope. Explicit beat, defeat, victory over, trounce or completed elimination qualifies. Playing, facing, losing, standings, trading or political criticism alone do not. Both a win and a loss across historical games can be true; mixed assignments remain flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_39.json",
+      "relation": "rel_39",
+      "label": "coach of",
+      "definition": "X is or was a coach of sporting team, school or program Y.",
+      "scope_notes": "Preserves the previous coach scope. Explicit coach descriptions qualify, including a school/team referred to by a shortened name. General team membership, management, employment or a vacancy alone does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_61.json",
+      "relation": "rel_61",
+      "label": "organizational leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, chief, president, director or executive.",
+      "scope_notes": "Preserves the prior organizational leadership scope. Explicit office qualifies, including a public executive role. Founding, control, ownership, ordinary employment or athletic lead alone is insufficient. Truncated organizational arguments remain ambiguous when their referent is unclear. Committee membership or service alone does not establish chairmanship. Generic Republican/Democrat arguments omit the individual and stay ambiguous under the earlier rubric.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_80.json",
+      "relation": "rel_80",
+      "label": "athlete plays for team",
+      "definition": "Person X plays or played as an athlete for sporting team Y.",
+      "scope_notes": "Chosen after inspecting all 15 complete facts: athlete/team pairs dominate, with score-for, player, guard, wing and captain paths. The frequent lead path is polysemous. Coaches, corporate executives, teams leading opposing teams and division standings are separate meanings and do not qualify. No old relation ID is transferred.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_6260319b65/annotations/rel_94.json",
+      "relation": "rel_94",
+      "label": "spokesperson for",
+      "definition": "Person X serves or served as spokesperson for organization or principal Y.",
+      "scope_notes": "Preserves the previous spokesperson scope. Explicit spokesperson-for/of, possessive or institutional noun-modifier constructions qualify. Another employee/official role or a geographical dateline does not silently supply a named spokesperson.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_109.json",
+      "relation": "rel_109",
+      "label": "coach of",
+      "definition": "Person X coaches or holds/held coach office for team or athletic institution Y.",
+      "scope_notes": "Preserves coach-specific scope. This dictionary contains substantial manager/president evidence too; those offices alone do not make someone a coach.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_13.json",
+      "relation": "rel_13",
+      "label": "directed communication to",
+      "definition": "X communicates a request, information, message, advice or testimony to addressee Y.",
+      "scope_notes": "Preserves ask/tell/urge/send/notify directed-communication scope. Co-occurrence, bare political criticism, possession and standings do not qualify. Non-alias source people merged in one entity require identity review even if both communicate.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_134.json",
+      "relation": "rel_134",
+      "label": "has political or institutional leader",
+      "definition": "Political body or institution X has person Y as leader, president, minister or head.",
+      "scope_notes": "Preserves inverse political-leadership scope. Explicit minister office is included. Forward person-to-body leadership, mere presence and resignation without an office are not the same ordered relation.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_156.json",
+      "relation": "rel_156",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+      "scope_notes": "Preserves winner-to-opponent scope. Beat, defeat and victory over qualify. Playing/facing, standings, losing, communication and professional affiliation alone do not. A historical win remains support when other rows describe losses. The dictionary strongly mixes contest outcomes with directed communication; beat/defeat are its two most frequent paths. The chosen contest predicate is not uniquely compelled by this mixed cluster.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_187.json",
+      "relation": "rel_187",
+      "label": "winner or champion of",
+      "definition": "X won competition, race, championship, prize or award Y.",
+      "scope_notes": "Preserves event/award winner scope. Y is the event or award, not a defeated opponent, political office, general venue or issuing organization unless the event referent is recoverable. Presence and participation alone do not qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_188.json",
+      "relation": "rel_188",
+      "label": "analyst at organization",
+      "definition": "Person X is an analyst at, with or for organization Y.",
+      "scope_notes": "Preserves analyst-specific affiliation. Other offices, ownership, corporate unit and political control are outside scope.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_196.json",
+      "relation": "rel_196",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in geographical place Y.",
+      "scope_notes": "Preserves organization-location scope. Firm-in, based-in and headquarters evidence qualify; industry, a person birthplace, officeholders and unspecified nationality do not. Incompatible merged entity names require identity review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_197.json",
+      "relation": "rel_197",
+      "label": "director of organization",
+      "definition": "Person X holds or held an explicit director office in organization or institution Y.",
+      "scope_notes": "Director-specific role declared from the leading dictionary family. Head/president, founder, ordinary employment and birthplace alone are not equivalent. Co-director qualifies; title modifiers without a complete referent require review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_221.json",
+      "relation": "rel_221",
+      "label": "spokesperson for",
+      "definition": "Person X is spokesperson for organization, office or person Y.",
+      "scope_notes": "Preserves spokesperson/speak-for scope and direction. Other roles, reversed legal representation, corporate location and contest outcomes do not qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_222.json",
+      "relation": "rel_222",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+      "scope_notes": "Preserves winner-to-opponent scope. Beat, defeat and victory over qualify. Playing/facing, standings, losing, communication and professional affiliation alone do not. A historical win remains support when other rows describe losses.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_258.json",
+      "relation": "rel_258",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as head, leader, president, manager, director, executive or chair.",
+      "scope_notes": "Preserves prior managerial/leadership office scope, including public executive roles. Founding, ownership, ordinary employment, campaigning or sporting lead alone is insufficient. Competing predicates are retained as errors, not added to the definition. The full leading distribution includes leader/chief/chair office paths alongside a strong spokesman family, lawyers, accusations and residence. Office is declared without adding those competing roles.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_280.json",
+      "relation": "rel_280",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as head, leader, president, manager, director, executive or chair.",
+      "scope_notes": "Preserves prior managerial/leadership office scope, including public executive roles. Founding, ownership, ordinary employment, campaigning or sporting lead alone is insufficient. Competing predicates are retained as errors, not added to the definition.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_298.json",
+      "relation": "rel_298",
+      "label": "economist at organization",
+      "definition": "Person X is an economist at, for, with or of organization Y.",
+      "scope_notes": "Economist is the most frequent specific occupational path family. Professors, analysts, directors and other employment compete substantially; preserve the specific economist meaning instead of accepting any affiliation.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_323.json",
+      "relation": "rel_323",
+      "label": "winner or champion of",
+      "definition": "X won competition, race, championship, prize or award Y.",
+      "scope_notes": "Preserves event/award winner scope. Y is the event or award, not a defeated opponent, political office, general venue or issuing organization unless the event referent is recoverable. Presence and participation alone do not qualify. The distribution substantially mixes event winning with travel/presence and political control; do not broaden winner to all in/go-to associations.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_363.json",
+      "relation": "rel_363",
+      "label": "travels or moves to",
+      "definition": "Person, group or organization X travels, visits, arrives, returns or relocates to geographical place Y.",
+      "scope_notes": "Preserves travel/relocation scope. Event participation, residence, death place, datelines and general association alone do not qualify; a relocation mentioned only as a potential move needs modal review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_372.json",
+      "relation": "rel_372",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, owned business or organizational part of parent Y.",
+      "scope_notes": "Preserves subsidiary/unit scope. Explicit unit, part, subsidiary or owned-by qualifies. Distinct latent facts with identical literal names remain separate under the preregistered population; this does not validate their splitting.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_47.json",
+      "relation": "rel_47",
+      "label": "owns or is parent of",
+      "definition": "Person or organization X owns business, organization or property Y, or is its corporate parent.",
+      "scope_notes": "Preserves ownership/parent scope, allowing personal owners and properties. Officeholding, political association, travel and criminal-case location do not suffice.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_84.json",
+      "relation": "rel_84",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in geographical place Y.",
+      "scope_notes": "Preserves organization-location scope. Firm-in, based-in and headquarters evidence qualify; industry, a person birthplace, officeholders and unspecified nationality do not. Incompatible merged entity names require identity review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_87.json",
+      "relation": "rel_87",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as head, leader, president, manager, director, executive or chair.",
+      "scope_notes": "Preserves prior managerial/leadership office scope, including public executive roles. Founding, ownership, ordinary employment, campaigning or sporting lead alone is insufficient. Competing predicates are retained as errors, not added to the definition.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_c0010fff1d/annotations/rel_89.json",
+      "relation": "rel_89",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, such as head, leader, president, manager, director, executive or chair.",
+      "scope_notes": "Preserves prior managerial/leadership office scope, including public executive roles. Founding, ownership, ordinary employment, campaigning or sporting lead alone is insufficient. Competing predicates are retained as errors, not added to the definition.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_113.json",
+      "relation": "rel_113",
+      "label": "directed communication to",
+      "definition": "X directs information, speech, a request, warning or advice to addressee Y.",
+      "scope_notes": "Tell, urge, ask, notify, persuade, address, testify-before and speaking-to qualify. Meeting, cooperation, statements about Y and physical transfers alone do not. Send/submit/give with no object are ambiguous unless other rows establish communication.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_117.json",
+      "relation": "rel_117",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization or political body Y.",
+      "scope_notes": "Chair, executive, head, chief and equivalent leadership qualify. Founder, owner, partner, generic employment, meetings and nomination alone do not establish tenure; historical office counts.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_124.json",
+      "relation": "rel_124",
+      "label": "lives or has lived in",
+      "definition": "Person X or members of population X live or have lived in geographic place Y.",
+      "scope_notes": "The strongest repeated live-in paths define residence, including explicit home, residency, resettlement and being raised there. Visiting, arriving, transit, employment, officeholding, death location and other temporary presence alone do not qualify. Population statements concern members rather than every member.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_134.json",
+      "relation": "rel_134",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization X is a subsidiary, division or organizational unit of Y.",
+      "scope_notes": "Explicit unit, subsidiary, division, parent or owned-by qualify, including historical ownership. Mere affiliation, employee roles, geographic places and reverse ownership do not. City-as-office metonymy requires review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_156.json",
+      "relation": "rel_156",
+      "label": "directed communication to",
+      "definition": "X directs information, speech, a request, warning or advice to addressee Y.",
+      "scope_notes": "Ask, urge, tell, notify, address and message-to qualify. Replacing/firing a predecessor, taking office, athletic defeat, support and physical transfers alone do not. Send with no object is ambiguous unless another case-local row supplies clear communication.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_157.json",
+      "relation": "rel_157",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+      "scope_notes": "Explicit headquarters, campus, office and based-in evidence qualify. Company/firm modified by a city may express location. Nationality-only adjectives are ambiguous; corporate-family and Internet-sector membership, events and personal activity alone do not qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_180.json",
+      "relation": "rel_180",
+      "label": "owns organization or asset",
+      "definition": "Person or organization X owns or has owned organization, business, team or asset Y, wholly or partly.",
+      "scope_notes": "Owner, co-owner, parent, subsidiary and explicit acquisition/ownership support qualify, including historical ownership and stated shares. Management, leadership, publication/distribution alone, merger proposals without completion, and location are distinct.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_215.json",
+      "relation": "rel_215",
+      "label": "athlete plays for team",
+      "definition": "Athlete X plays or has played for sports team Y.",
+      "scope_notes": "Selected after inspecting the entire relation: player/team positions, scoring-for and athletic team membership form the largest coherent subgroup behind the overloaded lead and give paths. Explicit player, center, wing, guard, scorer and playing/scoring-for qualify. Competitive leads over opponents, coaching/management, political leadership, communication, support, constitutional powers and disease are competing meanings, not additions to this predicate.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_223.json",
+      "relation": "rel_223",
+      "label": "moves or travels to",
+      "definition": "X undertakes travel, relocation, return or other movement with geographic destination Y.",
+      "scope_notes": "Direction is traveler or relocating organization to destination. Moving/returning/arriving and leaving for Y qualify. Leaving from Y, mere presence, sports event participation, ownership and professional affiliation do not. Military invasion-only cases retain the previous explicit scope ambiguity.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_245.json",
+      "relation": "rel_245",
+      "label": "coach of",
+      "definition": "Person X coaches or has coached sports team or collegiate program Y.",
+      "scope_notes": "Explicit coach descriptions or direct coaching qualify, including dismissed/former tenure. University/team shorthand may identify the program. Manager, president, player, spokesperson, generic employment or presence alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_247.json",
+      "relation": "rel_247",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization or political body Y.",
+      "scope_notes": "Head, president, leader, chair, dean, director or executive roles qualify, including offices within an organization. Professors, experts, scientists, generic employment, founding and spokesperson roles alone do not. Historical tenure counts.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_262.json",
+      "relation": "rel_262",
+      "label": "spokesperson for",
+      "definition": "Person X serves or served as a spokesperson for principal Y, including a person, organization or public office.",
+      "scope_notes": "Explicit spokesman, spokeswoman, speaking-for and identified principal-office representation qualify. Director, secretary, adviser, aide, lobbyist, manager and generic employment alone do not. Statements to Y are not representation of Y.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_268.json",
+      "relation": "rel_268",
+      "label": "analyst at organization",
+      "definition": "Person X works or worked as an analyst for organization Y.",
+      "scope_notes": "Explicit analyst-at/with/for and following an industry for an employer qualify. Economist-only, forecaster or specialist descriptions remain ambiguous under the prior analyst boundary. Director, president, lobbyist, partner and generic employment alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_323.json",
+      "relation": "rel_323",
+      "label": "winner or champion of",
+      "definition": "X won the competition or award designated by Y, or held its championship title.",
+      "scope_notes": "The win/champion/winner dictionary includes sports and honor-award uses. Explicit titles designated by sanctioning bodies qualify. Participation, qualifying, reaching an event and event-stage victory without overall title alone do not. Historical wins count.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_336.json",
+      "relation": "rel_336",
+      "label": "president or manager office in",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or public body Y.",
+      "scope_notes": "Manager paths dominate, preserving the earlier president-plus-manager scope. Explicit manager or president roles and historical tenure qualify. Coach, director, chair, researcher, athlete and ordinary employment alone do not establish this narrower office.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_353.json",
+      "relation": "rel_353",
+      "label": "lives or has lived in",
+      "definition": "Person X lives or has lived in geographic location Y.",
+      "scope_notes": "This highly mixed dictionary was inspected together with all 32 relation facts before selection. Its largest recurring place-oriented family comprises obituary-style personal-name/of-city paths and explicit home/live-in paths; the directional residence criterion is retained without merging it with workplace location. Explicit residence/home qualifies. Bare son/brother apposition to a city needs attachment review; professional practice, company location, generic presence and organizational leadership alone are different predicates.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_389.json",
+      "relation": "rel_389",
+      "label": "member of organization or political body",
+      "definition": "X is or has been a member of organization, alliance, party or public body Y.",
+      "scope_notes": "The join/member/entry/membership paths define membership, including countries in alliances and individual legislators. Mere negotiation to join, geographical entry, allies of individual countries, political party control of a legislature and criticism of another body do not automatically establish membership. Membership of unnamed individual party members is not membership of their party as a single institution.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_394.json",
+      "relation": "rel_394",
+      "label": "president or manager office in",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or public body Y.",
+      "scope_notes": "Preserves the previous president-plus-manager scope. President and manager descriptions, including historical service, qualify. Executive, chair, director, coach, generic leadership, employment and ownership alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_63.json",
+      "relation": "rel_63",
+      "label": "defeated opponent",
+      "definition": "Competitor X defeated opposing competitor Y in a completed sporting or electoral contest.",
+      "scope_notes": "Beat, defeat, sweep, outlast, rout, upset and explicit victories qualify. Mere playing, facing, standings leads, transfers and losses do not. Historical win evidence suffices even with other losses; geographic team metonymy needs clear competitive roles.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_dba5006d06/annotations/rel_71.json",
+      "relation": "rel_71",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization or governing body Y.",
+      "scope_notes": "President, head, leader, chair, director, chief, executive, commissioner and equivalent organizational office qualify, including leadership within Y. Founder, partner, reporter, generic membership, location and athletic leads alone do not; historical tenure counts.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_1.json",
+      "relation": "rel_1",
+      "label": "coach of",
+      "definition": "Person X coaches or holds/held a coach office for team or athletic institution Y.",
+      "scope_notes": "Preserves coach-specific scope; management or athletic participation without coach evidence is insufficient.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_118.json",
+      "relation": "rel_118",
+      "label": "member of organization",
+      "definition": "Entity X joins, belongs to or is a member of organization or institutional body Y.",
+      "scope_notes": "Selected coherent membership meaning after inspecting all 36 fact summaries; dictionary also contains major leave/return/political-control/venue components. Membership is narrower than general in/associated-with. Geographic presence, athletic event entry and office control alone do not qualify. This highly mixed relation has no unambiguous unique dominant predicate.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_120.json",
+      "relation": "rel_120",
+      "label": "has political or institutional leader",
+      "definition": "Institution or political body X has person Y as president, leader or head, including legislative leadership.",
+      "scope_notes": "Inverse of prior leader/office scope. General control by a party, legal representation and ordinary co-occurrence do not establish a named leadership office; a group argument standing for an unnamed leader requires review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_130.json",
+      "relation": "rel_130",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly named president or manager office in organization/team/institution Y.",
+      "scope_notes": "Preserves combined president/manager scope; other offices or generic leadership alone do not qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_190.json",
+      "relation": "rel_190",
+      "label": "directed communication to",
+      "definition": "X communicates a request, message, advice, testimony or information to addressee Y.",
+      "scope_notes": "Preserves directed communication scope: explicit tell, ask, urge, advise, notify or send-message constructions qualify. Co-occurrence, criticism without address, marriage and support alone do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_237.json",
+      "relation": "rel_237",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, including chair, chief, president, director, executive or head.",
+      "scope_notes": "Preserves prior office scope. Founder, owner, ordinary employee or athletic lead alone is insufficient; an explicit qualifying office in any supplied row supports the fact, with other meanings flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_26.json",
+      "relation": "rel_26",
+      "label": "winner or champion of",
+      "definition": "X won competition, race, championship, prize or award Y.",
+      "scope_notes": "Preserves earlier event/award scope. Y is the event or prize, not an opponent or office/territory controlled; travel, campaigning and physical presence do not qualify. Dictionary has a substantial competing travel/political component, retained as errors.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_275.json",
+      "relation": "rel_275",
+      "label": "organization based or located in",
+      "definition": "Organization X is based or physically located in place Y.",
+      "scope_notes": "Preserves prior organization/location scope. Explicit base, headquarters or firm-in-place qualifies. Nationality adjective without recoverable place is ambiguous; birth, industry and ownership are separate predicates.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_291.json",
+      "relation": "rel_291",
+      "label": "athlete plays for team",
+      "definition": "Athlete X plays as a member of team Y.",
+      "scope_notes": "Chosen after inspecting all 19 fact summaries: player/center/scoring-for paths disambiguate athletic lead. Team standings, coach/manager roles and organizational leadership remain separate; no broad lead-or-give disjunction.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_319.json",
+      "relation": "rel_319",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, including chair, chief, president, director, executive or head.",
+      "scope_notes": "Preserves prior office scope. Founder, owner, ordinary employee or athletic lead alone is insufficient; an explicit qualifying office in any supplied row supports the fact, with other meanings flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_330.json",
+      "relation": "rel_330",
+      "label": "defeated opponent",
+      "definition": "X defeated opponent Y in at least one competitive contest.",
+      "scope_notes": "Preserves winner-to-opponent scope. Beat, defeat or victory-over qualify. Playing or losing alone do not; both win and loss may occur in different historical games.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_331.json",
+      "relation": "rel_331",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, owned business or organizational part of parent Y.",
+      "scope_notes": "Preserves prior subsidiary/unit scope. Explicit unit, part, subsidiary or owned-by qualifies; an unnamed local office represented only by a city is ambiguous.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_342.json",
+      "relation": "rel_342",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, including chair, chief, president, director, executive or head.",
+      "scope_notes": "Preserves prior office scope. Founder, owner, ordinary employee or athletic lead alone is insufficient; an explicit qualifying office in any supplied row supports the fact, with other meanings flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_385.json",
+      "relation": "rel_385",
+      "label": "managerial or leadership office in",
+      "definition": "X holds or held an explicit managerial or leadership office in organization or institution Y, including chair, chief, president, director, executive or head.",
+      "scope_notes": "Preserves prior office scope. Founder, owner, ordinary employee or athletic lead alone is insufficient; an explicit qualifying office in any supplied row supports the fact, with other meanings flagged.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_399.json",
+      "relation": "rel_399",
+      "label": "spokesperson for",
+      "definition": "Person X is spokesperson for organization, office or person Y.",
+      "scope_notes": "Preserves spokesperson/speak-for role. Different professional roles and geographical association alone do not establish it.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_43.json",
+      "relation": "rel_43",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in place Y.",
+      "scope_notes": "Preserves organization-location scope. Direct based/headquarters/campus evidence qualifies; industry and corporate association do not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_45.json",
+      "relation": "rel_45",
+      "label": "lives in",
+      "definition": "Person or group X lives or has a residence in geographical place Y.",
+      "scope_notes": "Preserves personal residence scope. Death, birth, work, visit or a relative residing somewhere is not sufficient. Dictionary contains substantial family and obituary contamination; do not broaden to all person-place association.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_52.json",
+      "relation": "rel_52",
+      "label": "owns or is parent of",
+      "definition": "Person or organization X owns business/organization/property Y or is its corporate parent.",
+      "scope_notes": "Inverse of subsidiary/unit ownership family, allowing person owners and property. Officeholding, authorship and control without ownership alone are insufficient.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_69.json",
+      "relation": "rel_69",
+      "label": "travels or moves to",
+      "definition": "Person, group or organization X travels, visits, arrives, returns or relocates to geographical place Y.",
+      "scope_notes": "Declared from go/come/visit/arrive paths and all 27 fact summaries. Sports-contest, possession and company-name meanings compete substantially. Literal venue travel qualifies; playing an opponent or turning to a player does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-precision-investigation-2026-09-12/manual_review/audit_fb501b5da8/annotations/rel_91.json",
+      "relation": "rel_91",
+      "label": "analyst at organization",
+      "definition": "Person X is an analyst at, with or for organization Y.",
+      "scope_notes": "Preserves prior analyst role. Other titles or general expertise alone do not qualify; do not broaden to all professional affiliation.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_112.json",
+      "relation": "rel_112",
+      "label": "winner or champion of",
+      "definition": "The first entity won the competition or award designated by the second, or held its championship title.",
+      "scope_notes": "Win/champion/victory dominates. Preserve the earlier competition/award scope: historical wins and championship designations qualify, but participation, mere medal receipt without championship, winning an individual stage, and political officeholding do not. Winning the White House is a competing political meaning rather than an expansion of this predicate.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_114.json",
+      "relation": "rel_114",
+      "label": "defeated opponent",
+      "definition": "The first competitor won a contest against the second competitor.",
+      "scope_notes": "Defeat/victory/sweep form the dominant winning family when grouped; lose-to is the strongest individual competing path and has the opposite direction. Mere participation or a margin/lead without an established victory is excluded. Wins and losses in different historical contests may coexist; one explicit win suffices.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_170.json",
+      "relation": "rel_170",
+      "label": "unit or subsidiary of",
+      "definition": "The first organization is an owned subsidiary, division, or organizational unit of the second.",
+      "scope_notes": "The dominant unit/subsidiary/owned-by dictionary has the same meaning as rel_250; different learned relation IDs do not require different invented predicates. Membership, speech, employment and completed deal descriptions without containment are not automatically equivalent.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_186.json",
+      "relation": "rel_186",
+      "label": "president or manager of",
+      "definition": "The first person holds or held an explicitly identified president or manager office in the second organization, team or public body.",
+      "scope_notes": "The president family dominates, with a smaller manager family. Preserve the earlier president-or-manager scope. Generic head, chair, executive, director, coach, athlete or ordinary employment alone is insufficient. Functional presidential roles within an organization count without claiming sole chief presidency; modifiers missing from a path cannot be reconstructed.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_205.json",
+      "relation": "rel_205",
+      "label": "chairperson of",
+      "definition": "The first person is or was chairperson of the second organization.",
+      "scope_notes": "Chairman noun and possessive paths and chairmanship succession dominate. Historical, resigning or retiring chairpersons are included. The smaller executive/founder family is competing evidence: an executive need not chair the organization. Do not widen this clear office to every managerial role.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_21.json",
+      "relation": "rel_21",
+      "label": "coach of",
+      "definition": "The first person coaches or coached the second team or institutional sports program.",
+      "scope_notes": "Coach-of/possessive and active coaching dominate. Historical coaching is included. Considering a vacancy alone, general management, political participation and athletic participation without coaching are excluded.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_216.json",
+      "relation": "rel_216",
+      "label": "defeated opponent",
+      "definition": "The first competitor won a contest against the second competitor.",
+      "scope_notes": "Beat/defeat/victory dominates, preserving the directed defeated-opponent scope used in rel_114 and earlier audits. Mere play, trade, contract or political/geographical comparison is insufficient. Historical wins and losses can coexist, but ambiguous competitors must still be resolved.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_223.json",
+      "relation": "rel_223",
+      "label": "geographical part of",
+      "definition": "The first named neighborhood, district or area is geographically contained in the second place.",
+      "scope_notes": "Area/section/neighborhood-of/in strongly dominates. This is a place-to-containing-place relationship, distinct from personal residence, travel, schools or an organization located somewhere. The listed longer paths may be noisy without invalidating clean containment evidence; incompatible neighborhood names require identity review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_242.json",
+      "relation": "rel_242",
+      "label": "chairs or heads organization",
+      "definition": "The first person holds or held the chair or head leadership office of the second organization or committee.",
+      "scope_notes": "Chairman/chair and head/lead together dominate the full dictionary. This is an office relationship, not generic membership: member/serve-on/sit-on form a substantial competing family. Historical offices count. Generic political descriptions require a resolved individual; chairmanship of a panel owned by a larger body does not alone establish chairmanship of that larger body.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_250.json",
+      "relation": "rel_250",
+      "label": "unit or subsidiary of",
+      "definition": "The first organization is an owned subsidiary, division, or organizational unit of the second.",
+      "scope_notes": "The dominant part/unit/owned-by paths jointly specify organizational containment in the subsidiary-to-parent direction, as in the earlier audit. An acquisition offer alone is insufficient; mere collaboration is excluded.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_263.json",
+      "relation": "rel_263",
+      "label": "director of",
+      "definition": "The first person is or was a director of the second organization.",
+      "scope_notes": "The director family clearly dominates the full dictionary, matching the earlier specific-director scope. President/head/chief, analyst, founder or performer alone do not substitute for an explicit directorship. Broader leadership would be an alternative predicate, not an automatic union.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_269.json",
+      "relation": "rel_269",
+      "label": "economist affiliation",
+      "definition": "The first person works or worked as an economist for the second organization.",
+      "scope_notes": "Economist-for/at/of/with dominates, preserving the specific economist scope. President, director, analyst, specialist or forecaster alone is not sufficient. Historical employment counts; unrelated speech attachments remain competing evidence.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_274.json",
+      "relation": "rel_274",
+      "label": "political or organizational leader of",
+      "definition": "The first person is or was a political, organizational or community leader of the group, legislature or political body designated by the second argument.",
+      "scope_notes": "Leader-of/noun/possessive dominates. Preserve the earlier political-group scope, including legislative majority/minority leadership and adjectival group names when direct leadership paths establish the group connection. A generic political label is not a uniquely named person; incompatible personal names remain identity ambiguities. Do not infer formal state control from spiritual/community leadership or mere founding.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_312.json",
+      "relation": "rel_312",
+      "label": "owner of",
+      "definition": "The first person or organization owns or owned the second property, company, network or team.",
+      "scope_notes": "Owner/own and corporate parent paths dominate in the owner-to-property direction, matching the earlier ownership scope. Historical ownership counts. Merger, rejected acquisition, chairmanship of an owner, publishing or a bare possessive alone does not establish ownership.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_342.json",
+      "relation": "rel_342",
+      "label": "analyst affiliation",
+      "definition": "The first person works as an analyst for or at the second organization.",
+      "scope_notes": "Analyst-for/with/at overwhelmingly dominates. Director or partner alone does not establish analyst status. A shared analyst path does not resolve incompatible names within one latent entity.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_382.json",
+      "relation": "rel_382",
+      "label": "executive of",
+      "definition": "The first person holds or held an executive office in the second organization or governmental jurisdiction.",
+      "scope_notes": "Executive constructions overwhelmingly dominate. Corporate and county executive offices both qualify under the same office relation. Candidacy, nomination, legislation and being hired by an executive alone do not establish tenure; direct historical titles and resignation do.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_383.json",
+      "relation": "rel_383",
+      "label": "director affiliation",
+      "definition": "The first person holds or held a director role of, for, or at the second organization.",
+      "scope_notes": "The director family overwhelmingly dominates, consistent with the specific-director scope of rel_263 and earlier reviews. Functional directors employed by an organization are included; this need not mean its sole overall leader. Professor, publisher, speaker, compiler or member alone is excluded. A truncated abstract topic requires identifying the intended institution.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_390.json",
+      "relation": "rel_390",
+      "label": "directed communication",
+      "definition": "The first person or institution communicates with, requests or urges action from, or advises the second.",
+      "scope_notes": "Ask/urge/persuade/tell/notify form the coherent dominant communication family used previously. Bare cooperation or replacement is excluded. Send-to without a recoverable communicative object can be ambiguous. Institutional recipients are permitted.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_83.json",
+      "relation": "rel_83",
+      "label": "managerial or leadership office in",
+      "definition": "The first person holds or held an explicit managerial or leadership office in the second organization or governing body.",
+      "scope_notes": "The head/chair/executive/chief family collectively dominates and matches the earlier broad managerial-office scope. Include explicit executive, chair, president, director or equivalent office without requiring sole overall control. Analyst, founder, owner, ordinary employment and a nomination alone are excluded.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_4f7553d383/annotations/rel_98.json",
+      "relation": "rel_98",
+      "label": "winner or champion of",
+      "definition": "The first entity won the competition or award designated by the second, or held its championship title.",
+      "scope_notes": "Win and winner dominate, using the same scope as rel_112 and the earlier reviews. Reaching or participating in an event, winning only a stage, and winning political office do not establish this competition/award predicate. A malformed appended path is not needed when clean direct evidence exists.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_125.json",
+      "relation": "rel_125",
+      "label": "analyst at organization",
+      "definition": "Person X is an analyst at, with or for organization Y.",
+      "scope_notes": "Preserves specific analyst affiliation. Director, economist, strategist, partner or broad employment alone does not establish analyst; role/attachment ambiguity is kept explicit.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_132.json",
+      "relation": "rel_132",
+      "label": "economist at organization",
+      "definition": "Person X is an economist at, with, for or of organization Y.",
+      "scope_notes": "Preserves economist-specific affiliation. Professor, president, analyst or strategist alone is insufficient; do not use external biography to fill an absent role.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_138.json",
+      "relation": "rel_138",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in geographical place Y.",
+      "scope_notes": "Preserves organization-location scope. Explicit firm/company-in, based-in or headquarters evidence qualifies. Industry, personal residence/birth, nationality alone or non-place corporate affiliation does not.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_164.json",
+      "relation": "rel_164",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, director, president, manager, chief or executive.",
+      "scope_notes": "Preserves prior organizational office family. The dictionary combines qualifying offices; founder, owner, analyst, ordinary employment or sporting lead alone is insufficient. Historical offices qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_169.json",
+      "relation": "rel_169",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, owned business or organizational part of parent organization Y.",
+      "scope_notes": "Preserves prior child-to-parent subsidiary/unit scope. Explicit part, unit, subsidiary or owned-by qualifies. Ordinary employment, a geographic site standing for an unnamed unit, and partial investment alone do not establish the same fact.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_175.json",
+      "relation": "rel_175",
+      "label": "director of organization",
+      "definition": "Person X holds or held an explicit director office in organization or institution Y.",
+      "scope_notes": "Director-for/of/possessive/noun constructions are the leading family. Preserve the earlier director-specific scope. Spokesperson, adviser, confidante, lobbyist or chairwoman alone is a competing role; do not broaden to general affiliation.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_239.json",
+      "relation": "rel_239",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, director, president, manager, chief or executive.",
+      "scope_notes": "Preserves prior organizational office family. The dictionary combines qualifying offices; founder, owner, analyst, ordinary employment or sporting lead alone is insufficient. Historical offices qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_274.json",
+      "relation": "rel_274",
+      "label": "leader or organizational head of",
+      "definition": "Person X holds or held a leadership or head office in political body or organization Y.",
+      "scope_notes": "Preserves prior leader/head scope, including legislative leadership and explicit president/chair office. Simple membership, founding, affiliation, legal representation or an athletic lead does not qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_304.json",
+      "relation": "rel_304",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+      "scope_notes": "Preserves prior winner-to-opponent scope. Beat, defeat, completed sweep, outscore or victory over qualifies. Playing, facing, standings, losing, trades or transfers alone do not. A historical win remains supported when other rows describe losses; flag the mixed evidence.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_32.json",
+      "relation": "rel_32",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization or institution Y, such as chairperson, head, director, president, manager, chief or executive.",
+      "scope_notes": "Preserves prior organizational office family. The dictionary combines qualifying offices; founder, owner, analyst, ordinary employment or sporting lead alone is insufficient. Historical offices qualify.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_324.json",
+      "relation": "rel_324",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+      "scope_notes": "Preserves prior winner-to-opponent scope. Beat, defeat, completed sweep, outscore or victory over qualifies. Playing, facing, standings, losing, trades or transfers alone do not. A historical win remains supported when other rows describe losses; flag the mixed evidence.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_329.json",
+      "relation": "rel_329",
+      "label": "born in",
+      "definition": "Person X was born in geographical place Y.",
+      "scope_notes": "Declare the coherent birthplace meaning from dominant born-in/born-into-family-in paths. Growing up, schooling, residence, nationality, work or later travel alone does not establish birthplace. This is a new explicit meaning where the prior common catalogue has no matching sampled relation.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_333.json",
+      "relation": "rel_333",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.",
+      "scope_notes": "Preserves the earlier combined president/manager scope. Generic head, leadership, ownership, coach or ordinary employee alone does not establish these offices. Truncated personal-principal arguments may omit a campaign/organization and require review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_338.json",
+      "relation": "rel_338",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or institution Y.",
+      "scope_notes": "Preserves the earlier combined president/manager scope. Generic head, leadership, ownership, coach or ordinary employee alone does not establish these offices. Truncated personal-principal arguments may omit a campaign/organization and require review.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_340.json",
+      "relation": "rel_340",
+      "label": "winner or champion of",
+      "definition": "X won competition, race, championship, prize or award Y.",
+      "scope_notes": "Preserves event/award winner scope. Event Y differs from a defeated opponent or an issuing organization. Participation, finishing, winning one stage or travel alone does not establish winning the entire event.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_352.json",
+      "relation": "rel_352",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, owned business or organizational part of parent organization Y.",
+      "scope_notes": "Preserves prior child-to-parent subsidiary/unit scope. Explicit part, unit, subsidiary or owned-by qualifies. Ordinary employment, a geographic site standing for an unnamed unit, and partial investment alone do not establish the same fact.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_38.json",
+      "relation": "rel_38",
+      "label": "coach of",
+      "definition": "Person X coaches or holds/held coach office for team or athletic institution Y.",
+      "scope_notes": "Preserves coach-specific scope. Manager/president, player participation, vacancy consideration or ordinary affiliation alone is insufficient.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_42.json",
+      "relation": "rel_42",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is a subsidiary, division, owned business or organizational part of parent organization Y.",
+      "scope_notes": "Preserves prior child-to-parent subsidiary/unit scope. Explicit part, unit, subsidiary or owned-by qualifies. Ordinary employment, a geographic site standing for an unnamed unit, and partial investment alone do not establish the same fact.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_6.json",
+      "relation": "rel_6",
+      "label": "defeated opponent",
+      "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+      "scope_notes": "Preserves prior winner-to-opponent scope. Beat, defeat, completed sweep, outscore or victory over qualifies. Playing, facing, standings, losing, trades or transfers alone do not. A historical win remains supported when other rows describe losses; flag the mixed evidence. The largest individual path is play (26), with beat (16), loss-to (10), lose-to (9) and face (6). A broader played-against interpretation is plausible. This primary audit retains the previous defeated-opponent predicate for comparability; do not switch after seeing the five case judgments. Record the competing interpretation separately.",
+      "facts": 5
+    },
+    {
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/manual_review/audit_af30702564/annotations/rel_72.json",
+      "relation": "rel_72",
+      "label": "leader or organizational head of",
+      "definition": "Person X holds or held a leadership or head office in political body or organization Y.",
+      "scope_notes": "Preserves prior leader/head scope, including legislative leadership and explicit president/chair office. Simple membership, founding, affiliation, legal representation or an athletic lead does not qualify.",
+      "facts": 5
+    }
+  ]
+}

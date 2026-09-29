@@ -1,0 +1,45 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_249",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_249__ent_659__ent_1112",
+        "rel_249__ent_377__ent_417"
+      ],
+      "judgment": "supported",
+      "reason": "Direct lawyer-for, possessive lawyer and legal representation paths establish counsel for the named client.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_249__ent_1360__ent_653",
+        "rel_249__ent_904__ent_422"
+      ],
+      "judgment": "incorrect",
+      "reason": "A client hiring a person or a geographic bar reference has the wrong person-to-client direction and does not establish the declared legal service.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "07373150fd32a2bd44498610b3f9d9dbf1cceed1acf21d23cc36283cb98b441f"
+}

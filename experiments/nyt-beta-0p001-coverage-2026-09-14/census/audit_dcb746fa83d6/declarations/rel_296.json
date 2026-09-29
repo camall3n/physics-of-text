@@ -1,0 +1,54 @@
+{
+  "relation": "rel_296",
+  "predicate_id": "president_of",
+  "predicate_version": 1,
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate": {
+    "id": "president_of",
+    "label": "president of institution",
+    "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+    "includes": [
+      "explicit president office",
+      "a functional or departmental president role within Y",
+      "historical or former presidency"
+    ],
+    "excludes": [
+      "manager, director, chairman, head, or executive alone without a president title",
+      "ordinary employment or membership",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "president-elect or unresolved tenure without evidence of holding office",
+      "an incomplete institution or personal principal",
+      "unclear holder or title attachment"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+    "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y."
+  },
+  "dictionary_sha256": "d49e106568b90a4ada53c8500bf6bab303d9d9d90c18856fbb2db44e61e61399",
+  "kind": "declared_before_case_grading",
+  "rationale": "The clear office family is president, including departmental presidency. Generic officer/director/head or office departure is not automatically this specific title.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.596Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    7,
+    13,
+    15,
+    16,
+    19
+  ],
+  "competing_meanings": [
+    "director",
+    "generic office",
+    "geographic presence"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_296.before_grading.json",
+  "pregrading_annotation_sha256": "d8a08167c04f113ebf78ca4967d3cf679e81af72bfe7e05c59774f390ce1f5d2"
+}

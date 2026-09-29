@@ -1,0 +1,119 @@
+{
+  "audit": "audit_9f5868d8ee0e",
+  "relation": "rel_331",
+  "cases_sha256": "5048d901aa518c2085dc040ff0c8decbe5045c925902848b6cc3c1521e57e04d",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        23,
+        25
+      ],
+      "case_ids": [
+        "rel_331__ent_624__ent_866",
+        "rel_331__ent_822__ent_640",
+        "rel_331__ent_1128__ent_1129",
+        "rel_331__ent_1104__ent_880",
+        "rel_331__ent_626__ent_868",
+        "rel_331__ent_867__ent_628",
+        "rel_331__ent_624__ent_627",
+        "rel_331__ent_882__ent_640",
+        "rel_331__ent_881__ent_101",
+        "rel_331__ent_424__ent_1129",
+        "rel_331__ent_665__ent_1120",
+        "rel_331__ent_1121__ent_425",
+        "rel_331__ent_920__ent_1066",
+        "rel_331__ent_1067__ent_923",
+        "rel_331__ent_1068__ent_923",
+        "rel_331__ent_665__ent_1069",
+        "rel_331__ent_1070__ent_1071",
+        "rel_331__ent_869__ent_880",
+        "rel_331__ent_1072__ent_880",
+        "rel_331__ent_925__ent_924",
+        "rel_331__ent_926__ent_929"
+      ],
+      "judgment": "supported",
+      "reason": "Direct unit/part/subsidiary or owned-by evidence establishes organizational containment in the required child-to-parent direction.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9,
+        21,
+        22,
+        24
+      ],
+      "case_ids": [
+        "rel_331__ent_843__ent_1104",
+        "rel_331__ent_843__ent_421",
+        "rel_331__ent_660__ent_623",
+        "rel_331__ent_843__ent_422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A city name stands in for a local office in the containment paths; the actual organizational first referent is omitted.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Which named organizational office does the first city name denote here?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_331__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Hughes is described as both an organizational subsidiary and an executive person within one fact; the first entity is unresolved.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Does the Hughes executive-at row concern a different person or an extraction error?"
+    },
+    {
+      "indices": [
+        26
+      ],
+      "case_ids": [
+        "rel_331__ent_983__ent_981"
+      ],
+      "judgment": "incorrect",
+      "reason": "Award-winning evidence does not express a subsidiary or organizational-parent relation.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    7,
+    11,
+    15,
+    20
+  ],
+  "broad": []
+}

@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_62",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_62__ent_1121__ent_425",
+        "rel_62__ent_1104__ent_880"
+      ],
+      "judgment": "supported",
+      "reason": "Office/agency organizational-part attachment establishes parent-group containment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_62__ent_815__ent_271"
+      ],
+      "judgment": "incorrect",
+      "reason": "A Security Council seat or veto is membership, not subsidiary containment.",
+      "tags": [
+        "membership_not_subsidiary"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_62__ent_537__ent_820"
+      ],
+      "judgment": "incorrect",
+      "reason": "Support for Israel is not corporate containment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "8f5f07e3553fed6928bcc666e1a5550ed2b60dcc3247930beed2a379bf40b278"
+}

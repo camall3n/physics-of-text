@@ -1,0 +1,126 @@
+{
+  "relation": "rel_267",
+  "predicate_id": "manager_of",
+  "label": "manager of institution",
+  "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+  "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+  "facts": [
+    {
+      "case_id": "rel_267__ent_277__ent_1055",
+      "judgment": "supported",
+      "reason": "Omar Minaya → Mets: A local explicit manager title establishes the named person as team manager.",
+      "evidence_lines": [
+        3214,
+        3217,
+        3219,
+        3220,
+        3222
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:47.935Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_1028__ent_175",
+      "judgment": "ambiguous",
+      "reason": "Zenia Mucha → Mr. Pataki: The possessed manager title attaches to Mr. Pataki as person, leaving the campaign or institution being managed omitted.",
+      "evidence_lines": [
+        1180,
+        1182,
+        3521,
+        3523
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which campaign or organization is managed for Mr. Pataki?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:47.935Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_334__ent_1317",
+      "judgment": "incorrect",
+      "reason": "Park Slope → Brooklyn: Geographic/correction material, sporting medals or a parental metaphor does not establish manager office.",
+      "evidence_lines": [
+        1154,
+        1155,
+        1157
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:47.935Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_979__ent_990",
+      "judgment": "incorrect",
+      "reason": "Roger Kingdom → Olympic: Geographic/correction material, sporting medals or a parental metaphor does not establish manager office.",
+      "evidence_lines": [
+        7969,
+        7971,
+        7972
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:47.935Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_1367__ent_321",
+      "judgment": "supported",
+      "reason": "Steve Phillips → Mets: A local explicit manager title establishes the named person as team manager.",
+      "evidence_lines": [
+        3184,
+        3191
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:47.935Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_354__ent_438",
+      "judgment": "incorrect",
+      "reason": "Torre → Wells: Geographic/correction material, sporting medals or a parental metaphor does not establish manager office.",
+      "evidence_lines": [
+        1573
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:47.935Z"
+      }
+    }
+  ],
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c1bd9b61fe59f2e9d992d30c3b6ef77edc3da3df1bfd3f183a08b79d2e33a9ad"
+}

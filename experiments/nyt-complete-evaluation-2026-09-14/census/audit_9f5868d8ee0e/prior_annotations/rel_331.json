@@ -1,0 +1,86 @@
+{
+  "relation": "rel_331",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is a subsidiary, division, owned business or organizational part of parent Y.",
+  "scope_notes": "Preserves prior subsidiary/unit scope. Explicit unit, part, subsidiary or owned-by qualifies; an unnamed local office represented only by a city is ambiguous.",
+  "facts": [
+    {
+      "case_id": "rel_331__ent_1072__ent_880",
+      "judgment": "supported",
+      "reason": "DDB Needham is explicitly Omnicom unit/part and owned by it.",
+      "evidence_lines": [
+        6709,
+        6710,
+        6711,
+        6712,
+        6713
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_331__ent_882__ent_640",
+      "judgment": "supported",
+      "reason": "American Airlines is explicitly AMR unit/subsidiary/part and owned by it.",
+      "evidence_lines": [
+        2561,
+        2562,
+        2563,
+        2564,
+        2565,
+        2566
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_331__ent_926__ent_929",
+      "judgment": "supported",
+      "reason": "Lorillard Tobacco is explicitly Loews subsidiary and unit.",
+      "evidence_lines": [
+        6585,
+        6586,
+        6587
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_331__ent_867__ent_628",
+      "judgment": "supported",
+      "reason": "NBC is explicitly a General Electric Company subsidiary/unit and owned by it.",
+      "evidence_lines": [
+        2521,
+        2522,
+        2523,
+        2524,
+        2525
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_331__ent_843__ent_422",
+      "judgment": "ambiguous",
+      "reason": "New York has office-of and unit-of paths to Hill but also senator/campaign paths; city and Hill referents do not identify a unique corporate unit/parent.",
+      "evidence_lines": [
+        4180,
+        4184,
+        4188,
+        4189
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "argument_scope",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which New York office or unit and which Hill organization are meant, and do these rows refer to the same pair?"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "relation": "rel_262",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_262__ent_869__ent_880",
+      "judgment": "supported",
+      "reason": "Goodby → Omnicom Group: The owned-by path identifies the named business among properties owned by the parent, with company agency context where supplied.",
+      "evidence_lines": [
+        2547,
+        2550,
+        4647,
+        4650
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.403Z"
+      }
+    },
+    {
+      "case_id": "rel_262__ent_1190__ent_534",
+      "judgment": "incorrect",
+      "reason": "Goldman → Sachs: Fragments of a firm name, religious location or client-lawyer interaction are not corporate subsidiary containment.",
+      "evidence_lines": [
+        634,
+        638,
+        640
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.403Z"
+      }
+    },
+    {
+      "case_id": "rel_262__ent_1116__ent_250",
+      "judgment": "incorrect",
+      "reason": "God → heaven: Fragments of a firm name, religious location or client-lawyer interaction are not corporate subsidiary containment.",
+      "evidence_lines": [
+        2755,
+        2758
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.403Z"
+      }
+    },
+    {
+      "case_id": "rel_262__ent_891__ent_28",
+      "judgment": "incorrect",
+      "reason": "Mr. Simpson → Johnnie L. Cochran Jr.: Fragments of a firm name, religious location or client-lawyer interaction are not corporate subsidiary containment.",
+      "evidence_lines": [
+        3829,
+        3831
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.403Z"
+      }
+    },
+    {
+      "case_id": "rel_262__ent_625__ent_393",
+      "judgment": "supported",
+      "reason": "Fox → News Corporation: The owned-by path identifies the named business among properties owned by the parent, with company agency context where supplied.",
+      "evidence_lines": [
+        2519
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.403Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d941c372054318a1d7afa173a85e48461f2f490589341867826ebebf203f6850"
+}

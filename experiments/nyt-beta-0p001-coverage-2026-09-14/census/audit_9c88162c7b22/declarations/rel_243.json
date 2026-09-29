@@ -1,0 +1,43 @@
+{
+  "relation": "rel_243",
+  "predicate_id": "born_in",
+  "predicate_version": 1,
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate": {
+    "id": "born_in",
+    "label": "born in",
+    "definition": "Person X was born in geographic place Y.",
+    "includes": [
+      "direct born-in",
+      "born into a family in Y when Y is the birth location"
+    ],
+    "excludes": [
+      "grown up/raised/native/from alone",
+      "nationality",
+      "schooling/residence/travel",
+      "institution founding"
+    ],
+    "ambiguous": [
+      "unclear person or birthplace attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+  },
+  "dictionary_sha256": "30e4ad798014ad7b33a41fe3fe002db7fdf05f966619cb9dd646d8a69d55e474",
+  "kind": "declared_before_case_grading",
+  "rationale": "Born-in paths overwhelmingly dominate; citizenship and study elsewhere do not establish birthplace.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.292Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_243.before_grading.json",
+  "pregrading_annotation_sha256": "3c252158d10a636723cabd13eac7b2f4b2446564555df0cd3cab344c6b791df5"
+}

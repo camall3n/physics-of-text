@@ -1,0 +1,68 @@
+{
+  "relation": "rel_259",
+  "label": "business or organization based or located in",
+  "definition": "Business or organization X is based or physically located in geographic place Y.",
+  "scope_notes": "Preserves the earlier location predicate. Explicit based-in/firm-in/company-in paths qualify. Corporate or industry noun modifiers such as Bell or Internet are not assumed to be geographic places. A shortened firm name can be resolved locally by explicit firm constructions.",
+  "facts": [
+    {
+      "case_id": "rel_259__ent_943__ent_936",
+      "judgment": "incorrect",
+      "reason": "Internet modifies firm/company as an industry or business domain, not a geographic location for Forrester Research.",
+      "evidence_lines": [
+        7361,
+        7362
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_259__ent_1082__ent_843",
+      "judgment": "supported",
+      "reason": "Real Capital Analytics is explicitly a firm/company in New York and based there.",
+      "evidence_lines": [
+        6869,
+        6870,
+        6871
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_259__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company is explicitly in Washington and based there.",
+      "evidence_lines": [
+        7422,
+        7425,
+        7427
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_259__ent_300__ent_843",
+      "judgment": "supported",
+      "reason": "Kohlberg is explicitly a firm based in New York; firm/house wording supplies the organizational use of the shortened name.",
+      "evidence_lines": [
+        7354
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_259__ent_1081__ent_931",
+      "judgment": "incorrect",
+      "reason": "Bell modifies company and employee context, giving corporate affiliation rather than a geographic place for Ameritech Corporation.",
+      "evidence_lines": [
+        6864,
+        6865
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

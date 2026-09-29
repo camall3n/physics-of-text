@@ -1,0 +1,38 @@
+{
+  "relation": "rel_254",
+  "predicate_id": "analyst_for",
+  "predicate_version": 1,
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate": {
+    "id": "analyst_for",
+    "label": "analyst at organization",
+    "definition": "Person X works or worked as an analyst for organization Y.",
+    "includes": [
+      "explicit analyst at/for/with/of",
+      "following or tracking an industry or companies for an employer when it identifies professional analysis"
+    ],
+    "excludes": [
+      "director/president/professor/scientist/spokesperson/editor/lawyer/partner alone",
+      "generic affiliation"
+    ],
+    "ambiguous": [
+      "economist-only, forecaster, strategist or specialist at the analyst role boundary",
+      "unclear role/employer attachment"
+    ],
+    "notes": "Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+    "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst."
+  },
+  "dictionary_sha256": "5a439a95363d3f82ce357c3e54165b2c455126a6e4637f44583c78b68a5e11d8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Analyst-with and follow/track-for paths dominate the full dictionary.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.700Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_254.before_grading.json",
+  "pregrading_annotation_sha256": "4f061e3dec2c466441951db218499e3719aba010c64c07c85d76e9e32c17fccc"
+}

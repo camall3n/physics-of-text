@@ -1,0 +1,994 @@
+{
+  "relation": "rel_124",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_124.json",
+    "source_sha256": "5e4ba6f7a62ed68cc2733831680e4700dc7787a74deac365ee952b415fe3beda",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_124__ent_197__ent_586",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → White House: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        3490,
+        3491,
+        3494,
+        3495,
+        3496,
+        3497,
+        6174,
+        6175,
+        6179,
+        6180,
+        6181,
+        6182
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_823__ent_537",
+      "judgment": "supported",
+      "reason": "Mexicans → United States: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        2122,
+        2123,
+        2124,
+        2125,
+        2126,
+        2127,
+        2128,
+        2129,
+        2130,
+        2131
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_87__ent_818",
+      "judgment": "incorrect",
+      "reason": "Nixon → China: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        3417,
+        3418,
+        3419,
+        3420,
+        3421,
+        3422,
+        3423,
+        3424,
+        3425,
+        3426
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_80__ent_820",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        3479,
+        3480,
+        3481,
+        3482,
+        3488,
+        4780,
+        4781,
+        4782,
+        4783,
+        4789
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_667__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born → United States: The extracted argument “Born” is an incomplete subject, so even the residence and emigration paths cannot securely identify the person.",
+      "evidence_lines": [
+        4691,
+        4692,
+        4693,
+        4694,
+        4695,
+        4696,
+        4697,
+        4698,
+        4699,
+        4700
+      ],
+      "issue_tags": [
+        "truncated_entity"
+      ],
+      "reviewer_question": "Who is the subject represented by “Born” in these source sentences?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1122__ent_537",
+      "judgment": "supported",
+      "reason": "Salvadorans → United States: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        4701,
+        4702,
+        4703,
+        4704,
+        4705,
+        4706,
+        4707,
+        4708,
+        4709,
+        4710
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_827__ent_843",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → New York: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4711,
+        4712,
+        4713,
+        4714,
+        4715,
+        4716,
+        4717,
+        4718,
+        4719,
+        4720
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_124.json",
+        "annotation_sha256": "5e4ba6f7a62ed68cc2733831680e4700dc7787a74deac365ee952b415fe3beda"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_428__ent_537",
+      "judgment": "supported",
+      "reason": "Cubans → United States: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        4721,
+        4722,
+        4723,
+        4724,
+        4725,
+        4726,
+        4727,
+        4728,
+        4729,
+        4730
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_195__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Reagan → Washington: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4760,
+        4761,
+        4762,
+        4763,
+        4764,
+        4765,
+        4766,
+        4767,
+        4768,
+        4769
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1101__ent_1198",
+      "judgment": "supported",
+      "reason": "Jews → Poland: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6095,
+        6096,
+        6097,
+        6098,
+        6099,
+        6100,
+        6101,
+        6102,
+        6103,
+        6104
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_124.json",
+        "annotation_sha256": "5e4ba6f7a62ed68cc2733831680e4700dc7787a74deac365ee952b415fe3beda"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_669__ent_492",
+      "judgment": "incorrect",
+      "reason": "Americans → Iraq: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        8140,
+        8141,
+        8142,
+        8143,
+        8144,
+        8145,
+        8146,
+        8147,
+        8148,
+        8149
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_828__ent_843",
+      "judgment": "incorrect",
+      "reason": "Clinton → New York: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4681,
+        4682,
+        4683,
+        4685,
+        4686,
+        4687,
+        4689
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_180__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Bush → Washington: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        5246,
+        5247,
+        5250,
+        5251,
+        5252,
+        5253,
+        5254
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1161__ent_5",
+      "judgment": "supported",
+      "reason": "Turks → Germany: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6115,
+        6116,
+        6118,
+        6119,
+        6121,
+        6123,
+        6124
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1101__ent_225",
+      "judgment": "supported",
+      "reason": "Jews → Cracow: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6157,
+        6158,
+        6159,
+        6160,
+        6161,
+        6162,
+        6163
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_467__ent_234",
+      "judgment": "supported",
+      "reason": "Israelis → East Jerusalem: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6164,
+        6165,
+        6166,
+        6167,
+        6168,
+        6171,
+        6172
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_747__ent_824",
+      "judgment": "incorrect",
+      "reason": "Diana → Paris: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        8160,
+        8161,
+        8162,
+        8163,
+        8166,
+        8167,
+        8168
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_834__ent_837",
+      "judgment": "supported",
+      "reason": "Koreans → Japan: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        2167,
+        2168,
+        2169,
+        2170,
+        2171,
+        2173
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_81__ent_84",
+      "judgment": "incorrect",
+      "reason": "Mr. Baker → Baghdad: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        3450,
+        3451,
+        3452,
+        3453,
+        3455,
+        3456
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_669__ent_1124",
+      "judgment": "supported",
+      "reason": "Americans → Europe: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        4751,
+        4752,
+        4754,
+        4756,
+        4758,
+        4759
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_554__ent_850",
+      "judgment": "incorrect",
+      "reason": "CBS → Super Bowl: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4957,
+        4958,
+        4961,
+        4962,
+        4963,
+        4964
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1077__ent_931",
+      "judgment": "incorrect",
+      "reason": "U S West → Bell: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        6808,
+        6809,
+        6810,
+        6812,
+        6815,
+        6817
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_826__ent_1102",
+      "judgment": "supported",
+      "reason": "Palestinians → Gaza: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        8150,
+        8151,
+        8152,
+        8153,
+        8155,
+        8156
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_988__ent_507",
+      "judgment": "supported",
+      "reason": "Mr. Marcos → Hawaii: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        8181,
+        8182,
+        8183,
+        8184,
+        8189,
+        8190
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_826__ent_825",
+      "judgment": "supported",
+      "reason": "Palestinians → West Bank: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        2132,
+        2134,
+        2135,
+        2139,
+        2141
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_838__ent_831",
+      "judgment": "supported",
+      "reason": "Serbs → Croatia: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        2145,
+        2147,
+        2148,
+        2151,
+        2153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_493__ent_250",
+      "judgment": "incorrect",
+      "reason": "God → heaven: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        2753,
+        2755,
+        2756,
+        2757,
+        2759
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_79__ent_400",
+      "judgment": "incorrect",
+      "reason": "Dick Steinberg → Jets: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        3246,
+        3248,
+        3250,
+        3252,
+        3253
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_182__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Washington: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4101,
+        4102,
+        5244,
+        7341,
+        7348
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_826__ent_234",
+      "judgment": "supported",
+      "reason": "Palestinians → East Jerusalem: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6125,
+        6127,
+        6130,
+        6133,
+        6134
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_476__ent_818",
+      "judgment": "supported",
+      "reason": "North Koreans → China: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6135,
+        6136,
+        6137,
+        6139,
+        6141
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_124.json",
+        "annotation_sha256": "5e4ba6f7a62ed68cc2733831680e4700dc7787a74deac365ee952b415fe3beda"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1162__ent_226",
+      "judgment": "supported",
+      "reason": "Mr. bin Laden → Sudan: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        6145,
+        6148,
+        6151,
+        6152,
+        6153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_645__ent_333",
+      "judgment": "supported",
+      "reason": "Mark → Manhattan: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        3988,
+        3991,
+        3992,
+        3994
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_124.json",
+        "annotation_sha256": "5e4ba6f7a62ed68cc2733831680e4700dc7787a74deac365ee952b415fe3beda"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_34__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mikhail S. Gorbachev → Washington: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4731,
+        4732,
+        4735,
+        4738
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_444__ent_686",
+      "judgment": "incorrect",
+      "reason": "Heather → Mommies: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4882,
+        4883,
+        4884,
+        4885
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_840__ent_839",
+      "judgment": "supported",
+      "reason": "MAUREEN B. FANT → Rome: At least one supplied row explicitly says this person or members of this population lived, settled or emigrated to the named place.",
+      "evidence_lines": [
+        2142,
+        2143,
+        2144
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.861Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_406__ent_333",
+      "judgment": "incorrect",
+      "reason": "William → Manhattan: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        4019,
+        4020,
+        4021
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_111__ent_356",
+      "judgment": "incorrect",
+      "reason": "Riley → Ewing: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        1560,
+        1561
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_124.json",
+        "annotation_sha256": "5e4ba6f7a62ed68cc2733831680e4700dc7787a74deac365ee952b415fe3beda"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_910__ent_586",
+      "judgment": "incorrect",
+      "reason": "Patrick J. Buchanan → White House: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        8488,
+        8492
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_1098__ent_325",
+      "judgment": "incorrect",
+      "reason": "Herbert Mitgang → The Times: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        7318
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_504__ent_746",
+      "judgment": "incorrect",
+      "reason": "Willliam E. Wilson → Bloomington Hospital: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        8180
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_761__ent_760",
+      "judgment": "incorrect",
+      "reason": "Douglas Edwards → Sarasota: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        8202
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_521__ent_763",
+      "judgment": "incorrect",
+      "reason": "David Roberts → Dartford: The complete rows establish visits, work, death, membership, another predicate or a nongeographic target, without evidence of the proposed residence.",
+      "evidence_lines": [
+        8203
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:25.862Z"
+      }
+    }
+  ]
+}

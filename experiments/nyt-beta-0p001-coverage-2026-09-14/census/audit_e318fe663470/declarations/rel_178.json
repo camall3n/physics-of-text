@@ -1,0 +1,40 @@
+{
+  "relation": "rel_178",
+  "predicate_id": "publisher_of",
+  "predicate_version": 1,
+  "predicate_hash": "27fb879e1b5585fd29b178de9687843b197a3d4dd919181a86f27a57e7ecca25",
+  "predicate": {
+    "id": "publisher_of",
+    "label": "publisher of publication",
+    "definition": "Person or organization X holds or held the publisher role for publication Y, or explicitly publishes Y.",
+    "includes": [
+      "explicit publisher-of title",
+      "explicit publication of the identified newspaper, journal, book, or other work",
+      "historical publisher role"
+    ],
+    "excludes": [
+      "editor, writer, owner, developer, or director alone",
+      "travel to a publisher or publication office",
+      "a work merely mentioning or reviewing Y"
+    ],
+    "ambiguous": [
+      "incomplete publication title",
+      "unclear publisher-versus-author or title attachment"
+    ],
+    "notes": "Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role.",
+    "scope_notes": "Includes: explicit publisher-of title; explicit publication of the identified newspaper, journal, book, or other work; historical publisher role. Excludes: editor, writer, owner, developer, or director alone; travel to a publisher or publication office; a work merely mentioning or reviewing Y. Ambiguous unless resolved by case-local evidence: incomplete publication title; unclear publisher-versus-author or title attachment. Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role."
+  },
+  "dictionary_sha256": "ec56729cdc4b64e3e5935d4f2c4c7b5c4647da05012cea0496b1436d70a6be9d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Omitted-object send-to is frequent but does not identify a transfer meaning. Explicit publisher/publish supplies the unique specific publishing-office family; editor/founder/writer rows are distinct. Weak minority signal retained.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:26:28.519Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_178.before_grading.json",
+  "pregrading_annotation_sha256": "c0417e23c3c1514fa04ae1730791bcefa3d7276b7085032857ccc1faf7603d23"
+}

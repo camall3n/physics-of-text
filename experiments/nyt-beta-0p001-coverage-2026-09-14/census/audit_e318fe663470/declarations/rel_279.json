@@ -1,0 +1,41 @@
+{
+  "relation": "rel_279",
+  "predicate_id": "has_political_leader",
+  "predicate_version": 1,
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate": {
+    "id": "has_political_leader",
+    "label": "political body has a leader",
+    "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+    "includes": [
+      "national president/ruler/head of government",
+      "named parliamentary majority/minority leader or whip",
+      "historical leadership"
+    ],
+    "excludes": [
+      "corporate/team leadership",
+      "ordinary membership/meeting",
+      "party control instead of an individual leader",
+      "person-to-body forward direction"
+    ],
+    "ambiguous": [
+      "unspecified minister without evidence of head-of-government or leadership scope",
+      "truncated body or unnamed officeholder"
+    ],
+    "notes": "Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+    "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S."
+  },
+  "dictionary_sha256": "6f909379909f1d07e18ab7198d8dba1bb49b973188f476d14d77e45e30f814ca",
+  "kind": "declared_before_case_grading",
+  "rationale": "Possessive leader, president and dictator paths with country-to-leader roles dominate. A sports-team president is contamination under this political predicate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.519Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_279.before_grading.json",
+  "pregrading_annotation_sha256": "77706f5f1116f3673ee33a1ccd63cc7dd524c03df83350ea609b93adc9c853fe"
+}

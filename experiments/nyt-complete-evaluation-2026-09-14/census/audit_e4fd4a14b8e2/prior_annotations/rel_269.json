@@ -1,0 +1,72 @@
+{
+  "relation": "rel_269",
+  "label": "president or manager of",
+  "definition": "Argument 1 holds or formerly held the office of president or manager of organization 2.",
+  "scope_notes": "The two dominant title families are president and manager, as in the prior evaluation. Generic executive, director, owner, coach or political leader alone does not establish either title.",
+  "facts": [
+    {
+      "case_id": "rel_269__ent_275__ent_561",
+      "judgment": "supported",
+      "reason": "Young is explicitly manager and president of the Giants.",
+      "evidence_lines": [
+        3194,
+        3195,
+        3197
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_269__ent_494__ent_333",
+      "judgment": "supported",
+      "reason": "Messinger is explicitly president of Manhattan. This is a governmental jurisdiction/office use, covered by the presidency scope; candidate rows are not needed for support.",
+      "evidence_lines": [
+        2812,
+        2813
+      ],
+      "issue_tags": [
+        "governmental_office"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_269__ent_31__ent_36",
+      "judgment": "incorrect",
+      "reason": "The paths say Democratic leader; neither a president nor a manager office is specified, and the second argument is a party adjective.",
+      "evidence_lines": [
+        3718,
+        3725
+      ],
+      "issue_tags": [
+        "wrong_role",
+        "adjectival_argument"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_269__ent_125__ent_367",
+      "judgment": "incorrect",
+      "reason": "Williams died at a hospital; this provides no president or manager role.",
+      "evidence_lines": [
+        1771
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_269__ent_272__ent_321",
+      "judgment": "supported",
+      "reason": "Phillips is explicitly manager of the Mets in clean rows; the malformed additional row also contains general-manager wording but is unnecessary.",
+      "evidence_lines": [
+        3184,
+        3185
+      ],
+      "issue_tags": [
+        "malformed_additional_row"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

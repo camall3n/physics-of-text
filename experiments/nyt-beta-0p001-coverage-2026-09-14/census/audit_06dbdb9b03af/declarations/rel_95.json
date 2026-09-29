@@ -1,0 +1,56 @@
+{
+  "relation": "rel_95",
+  "predicate_id": "organizational_leader_of",
+  "predicate_version": 1,
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate": {
+    "id": "organizational_leader_of",
+    "label": "leader or organizational head of",
+    "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+    "includes": [
+      "explicit leader/head/president/chief/chair",
+      "legislative majority/minority leadership or whip",
+      "leadership office within an identified body",
+      "historical office"
+    ],
+    "excludes": [
+      "ordinary membership or service",
+      "founding/ownership alone",
+      "party control of a chamber",
+      "candidate alone",
+      "athletic/standings or task-only lead",
+      "editor alone"
+    ],
+    "ambiguous": [
+      "generic director or executive without clear leadership role",
+      "bare lead lacking organizational-role context",
+      "materially truncated political body"
+    ],
+    "notes": "Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+    "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles."
+  },
+  "dictionary_sha256": "29040e002067af11e3f450b547be647bb757d0b30f7a35ec59dc6c620cd53a9e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Leader title/amod/nn14 plus whip and former leader dominates; fund-raiser and ordinary presence remain distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:08:39.190Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    13,
+    14
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_95.before_grading.json",
+  "pregrading_annotation_sha256": "1b1ff64faad432c2a13a649f861a2faf06f1e240f2f7c3ef4af0e655742ed931"
+}

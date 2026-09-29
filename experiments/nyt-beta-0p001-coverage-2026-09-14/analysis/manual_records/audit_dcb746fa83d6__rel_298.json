@@ -1,0 +1,87 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_298",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        9
+      ],
+      "case_ids": [
+        "rel_298__ent_597__ent_1041",
+        "rel_298__ent_512__ent_754",
+        "rel_298__ent_1384__ent_595",
+        "rel_298__ent_1384__ent_598",
+        "rel_298__ent_827__ent_594"
+      ],
+      "judgment": "supported",
+      "reason": "A local speak-with or tell row identifies addressed communication to the named recipient.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        8
+      ],
+      "case_ids": [
+        "rel_298__ent_354__ent_596",
+        "rel_298__ent_729__ent_353",
+        "rel_298__ent_111__ent_1222"
+      ],
+      "judgment": "incorrect",
+      "reason": "Statements about a person and sporting use do not establish communication to that person.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_298__ent_182__ent_249"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The recipient entity merges Mr. Kerry and Democrats despite separate tell rows.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which person or group should this inferred recipient denote?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_298__ent_119__ent_519"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The addressed question is attributed to Bush envoy, whereas Bush own row is a statement about Arafat; direct versus representative attribution is unresolved.",
+      "tags": [
+        "representative_attribution"
+      ],
+      "question": "Does the annotation intend the envoy question to count as Bush own institutional communication?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "8d6cbb58a535c1cd9c4451e6d865b3dac43f52df93deb13ab7d2844edc692e3c"
+}

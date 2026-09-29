@@ -1,0 +1,54 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_27",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_27__ent_110__ent_851"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit Stanley Cup win and coaching the team to the designated championship establish winning the title.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_27__ent_983__ent_981"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Winning the Nobel Peace Prize is explicit, but Prevention of Nuclear War is a materially incomplete organization name whose full recipient identity is unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "What is the full name of the prize-winning organization truncated to Prevention of Nuclear War?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_27__ent_726__ent_607"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Winning the Masters is explicit but Scot identifies nationality rather than the particular winning person.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which person is the Scot named as the Masters winner?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6a4b1a0a080d864ed9849096e7252a5994b511eee84efd85162344f3c236ebd8"
+}

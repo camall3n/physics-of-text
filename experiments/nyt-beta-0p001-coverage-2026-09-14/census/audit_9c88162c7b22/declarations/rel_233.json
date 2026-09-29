@@ -1,0 +1,49 @@
+{
+  "relation": "rel_233",
+  "predicate_id": "broadcasts_event",
+  "predicate_version": 1,
+  "predicate_hash": "4c4cb3c2a5f9cd89c391dbc4e7a1a1bdb53716746defc7a1c67a76148b777927",
+  "predicate": {
+    "id": "broadcasts_event",
+    "label": "broadcasts event",
+    "definition": "Broadcaster X broadcasts or broadcast coverage of event Y.",
+    "includes": [
+      "explicit broadcast or telecast of Y",
+      "a stated event show on X",
+      "historical event coverage"
+    ],
+    "excludes": [
+      "broadcasting another program after Y",
+      "rights ownership alone without actual coverage",
+      "advertisement placement or rejection alone",
+      "ordinary attendance or commentary about Y"
+    ],
+    "ambiguous": [
+      "announced future coverage or rights without realization",
+      "unclear broadcaster versus production role",
+      "generic have or show without event-coverage attachment"
+    ],
+    "notes": "Separate from broadcasts_program for a named regular program; no ownership or exclusive-rights claim is implied.",
+    "scope_notes": "Includes: explicit broadcast or telecast of Y; a stated event show on X; historical event coverage. Excludes: broadcasting another program after Y; rights ownership alone without actual coverage; advertisement placement or rejection alone; ordinary attendance or commentary about Y. Ambiguous unless resolved by case-local evidence: announced future coverage or rights without realization; unclear broadcaster versus production role; generic have or show without event-coverage attachment. Separate from broadcasts_program for a named regular program; no ownership or exclusive-rights claim is implied."
+  },
+  "dictionary_sha256": "171cfbf51a755c904f6cab203460910ced9436189f2f5a2195baf8a18d8f30d8",
+  "kind": "declared_before_case_grading",
+  "rationale": "CBS→Super Bowl broadcasting/telecast/right-to-broadcast is the strongest coherent event family. Rights and after-event broadcasts retain the centrally fixed nonactual/wrong-object limits; political support is separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.707Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    3,
+    10,
+    11,
+    12,
+    13
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_233.before_grading.json",
+  "pregrading_annotation_sha256": "aa1febd395f9f294b697a395732ee0cef67a6684168dd9f0dd7814f573d62c1a"
+}

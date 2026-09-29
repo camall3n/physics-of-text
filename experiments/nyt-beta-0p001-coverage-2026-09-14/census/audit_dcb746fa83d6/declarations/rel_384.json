@@ -1,0 +1,43 @@
+{
+  "relation": "rel_384",
+  "predicate_id": "lobbyist_for",
+  "predicate_version": 1,
+  "predicate_hash": "c19eee9476897b2fa8d524a725120204ce38873f8107cd9faf3112c67076bf22",
+  "predicate": {
+    "id": "lobbyist_for",
+    "label": "lobbyist for principal",
+    "definition": "Person or organization X holds or held an explicitly identified lobbying role for principal Y.",
+    "includes": [
+      "explicit lobbyist for or of Y",
+      "historical lobbying service for Y"
+    ],
+    "excludes": [
+      "director of legislation or another managerial title without a lobbying role",
+      "ordinary advocacy, communication, legal service, or political agreement alone",
+      "membership in the principal organization alone"
+    ],
+    "ambiguous": [
+      "unclear lobbying principal or title attachment",
+      "incomplete institution or personal principal"
+    ],
+    "notes": "Legislative directorship and lobbying can coexist but are distinct roles. The definition does not infer lobbying from a legislative director title.",
+    "scope_notes": "Includes: explicit lobbyist for or of Y; historical lobbying service for Y. Excludes: director of legislation or another managerial title without a lobbying role; ordinary advocacy, communication, legal service, or political agreement alone; membership in the principal organization alone. Ambiguous unless resolved by case-local evidence: unclear lobbying principal or title attachment; incomplete institution or personal principal. Legislative directorship and lobbying can coexist but are distinct roles. The definition does not infer lobbying from a legislative director title."
+  },
+  "dictionary_sha256": "440545a948b24f8f16f9eb8c596fd2a245ebe708ba378a1d97813ae6bc074199",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit lobbyist paths total five and form the largest specific role family; director of legislation, ownership and other roles remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.888Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_384.before_grading.json",
+  "pregrading_annotation_sha256": "9ad47d99e9b45b742da3d10d8fa7ea1e408f69876a19fcb883899f562cbf2f16"
+}

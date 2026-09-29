@@ -1,0 +1,43 @@
+{
+  "relation": "rel_209",
+  "predicate_id": "geographic_part_of",
+  "predicate_version": 1,
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate": {
+    "id": "geographic_part_of",
+    "label": "geographical part of",
+    "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+    "includes": [
+      "area/section/neighborhood/district of or in",
+      "clear place-to-containing-place attachment"
+    ],
+    "excludes": [
+      "organization subsidiary or location",
+      "residence/work/travel",
+      "an event in a place"
+    ],
+    "ambiguous": [
+      "place names attached through an omitted institution"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution."
+  },
+  "dictionary_sha256": "a0cb70ea3eceed5cc4404331ba9cf8fb6df82fe61cf0341e18058fad57752c95",
+  "kind": "declared_before_case_grading",
+  "rationale": "Four explicit geographic section/intersection/in paths form the dominant coherent directed family; sports preparation, victory and loss paths are separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:32:23.923Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    5,
+    7,
+    8,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_209.before_grading.json",
+  "pregrading_annotation_sha256": "b8c8a5942b4fcebb4de3bdc102ab21b74182b8c0cf0ac2ec883c790cea648e37"
+}

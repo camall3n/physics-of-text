@@ -1,0 +1,60 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_130",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_130__ent_657__ent_899",
+        "rel_130__ent_1219__ent_899",
+        "rel_130__ent_657__ent_1275",
+        "rel_130__ent_414__ent_656",
+        "rel_130__ent_1219__ent_1346",
+        "rel_130__ent_898__ent_1346",
+        "rel_130__ent_416__ent_1347",
+        "rel_130__ent_1327__ent_129",
+        "rel_130__ent_659__ent_911"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local row explicitly identifies a lawyer, attorney or counsel for the named principal.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_130__ent_773__ent_1219"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied rows identify head/director/specialist status, without a legal representation assertion.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4,
+    5,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c0339eba4387233ea12574ff8f123e36bcda408b8fb6d9719ea61aeacf16a3f4"
+}

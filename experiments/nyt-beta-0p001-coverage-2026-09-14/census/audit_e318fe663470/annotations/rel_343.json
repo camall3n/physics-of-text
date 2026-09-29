@@ -1,0 +1,90 @@
+{
+  "relation": "rel_343",
+  "predicate_id": "candidate_for",
+  "label": "political candidate or nominee for party",
+  "definition": "Person X is or was an explicitly identified candidate, contender for nomination, or nominee of political party Y.",
+  "scope_notes": "Includes: explicit party candidate or nominee; front-runner or contender for the party nomination; historical candidacy or nomination. Excludes: holding an executive or other office without party candidacy; merely supporting or belonging to the party; candidacy for a corporate or sporting appointment. Ambiguous unless resolved by case-local evidence: a constituency or office appears where the political party is omitted; candidate or nomination attachment does not identify whose party nomination is sought; the purported party is materially truncated or unidentified. This is a candidacy relation and does not claim election or actual office. The second role is the political party, not the office being contested. Republican as an identified party label follows the inherited party-label convention.",
+  "facts": [
+    {
+      "case_id": "rel_343__ent_264__ent_1235",
+      "judgment": "ambiguous",
+      "reason": "Richard A. Gephardt → Democratic: Candidacy is explicit but the political party is only the truncated adjective Democratic.",
+      "evidence_lines": [
+        3749,
+        3751,
+        3753,
+        3755,
+        3756,
+        3757
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which complete political party or body does Democratic denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.570Z"
+      }
+    },
+    {
+      "case_id": "rel_343__ent_261__ent_1269",
+      "judgment": "supported",
+      "reason": "Bob Dole → Republican: Explicit Republican candidate wording establishes party candidacy; accompanying leadership/opponent rows do not substitute for it.",
+      "evidence_lines": [
+        2985,
+        2989,
+        3709,
+        3713,
+        3716
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.570Z"
+      }
+    },
+    {
+      "case_id": "rel_343__ent_1386__ent_497",
+      "judgment": "incorrect",
+      "reason": "Slobodan Milosevic → Yugoslav: Leadership/government status or residence/expulsion does not establish party candidacy.",
+      "evidence_lines": [
+        2823,
+        2831
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.570Z"
+      }
+    },
+    {
+      "case_id": "rel_343__ent_1229__ent_179",
+      "judgment": "incorrect",
+      "reason": "Jews → Cracow: Leadership/government status or residence/expulsion does not establish party candidacy.",
+      "evidence_lines": [
+        6158
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.570Z"
+      }
+    }
+  ],
+  "predicate_hash": "b6116c73476ba55ba58f121db47b266c20db79fc79ad384d04ccccead5625903",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2550303a10718c10aab458499e734aa12dfdbc4c9aa8a80c92b92025749f246a"
+}

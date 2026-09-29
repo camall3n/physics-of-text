@@ -1,0 +1,170 @@
+{
+  "relation": "rel_379",
+  "predicate_id": "lawyer_for",
+  "label": "lawyer or attorney for",
+  "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+  "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment.",
+  "facts": [
+    {
+      "case_id": "rel_379__ent_173__ent_323",
+      "judgment": "supported",
+      "reason": "Charles J. Hynes → Brooklyn: Explicit attorney office for a named public jurisdiction or attorney-of an institution establishes legal representation/employment.",
+      "evidence_lines": [
+        8314,
+        8316,
+        8318,
+        8320,
+        8321,
+        8322,
+        8323
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_998__ent_537",
+      "judgment": "supported",
+      "reason": "Christopher J. Christie → United States: Explicit attorney office for a named public jurisdiction or attorney-of an institution establishes legal representation/employment.",
+      "evidence_lines": [
+        8334,
+        8335,
+        8339,
+        8340,
+        8341,
+        8342,
+        8343
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_995__ent_333",
+      "judgment": "supported",
+      "reason": "Robert M. Morgenthau → Manhattan: Explicit attorney office for a named public jurisdiction or attorney-of an institution establishes legal representation/employment.",
+      "evidence_lines": [
+        8296,
+        8297,
+        8300,
+        8302
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_513__ent_984",
+      "judgment": "supported",
+      "reason": "Jeanine F. Pirro → Westchester County: Explicit attorney office for a named public jurisdiction or attorney-of an institution establishes legal representation/employment.",
+      "evidence_lines": [
+        8344,
+        8345,
+        8353
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_601__ent_1183",
+      "judgment": "ambiguous",
+      "reason": "Sidney Kess → New York: The geographic attorney modifier does not distinguish private practice location from public representation of that jurisdiction.",
+      "evidence_lines": [
+        2297,
+        2298
+      ],
+      "issue_tags": [
+        "jurisdiction_or_location",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Is the place the represented governmental jurisdiction or merely the location of private legal practice?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1240__ent_1233",
+      "judgment": "incorrect",
+      "reason": "American → AMR Corporation: The parent-company stock relationship is not legal representation.",
+      "evidence_lines": [
+        2560,
+        6584
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_844__ent_1002",
+      "judgment": "ambiguous",
+      "reason": "John Dowd → Washington: The geographic attorney modifier does not distinguish private practice location from public representation of that jurisdiction.",
+      "evidence_lines": [
+        2293
+      ],
+      "issue_tags": [
+        "jurisdiction_or_location"
+      ],
+      "reviewer_question": "Is the place the represented governmental jurisdiction or merely the location of private legal practice?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1110__ent_1114",
+      "judgment": "supported",
+      "reason": "Russianoff → New York Public Interest Research Group: Explicit attorney office for a named public jurisdiction or attorney-of an institution establishes legal representation/employment.",
+      "evidence_lines": [
+        4450
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.388Z"
+      }
+    }
+  ],
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "bd33022da8f6d21ce9b8fe3cd982972555cddf8eec78dbcb751d1433fa0e44a9"
+}

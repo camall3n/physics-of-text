@@ -1,0 +1,73 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_10",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_10__ent_1162__ent_226",
+        "rel_10__ent_1335__ent_323",
+        "rel_10__ent_157__ent_1002",
+        "rel_10__ent_1217__ent_1309",
+        "rel_10__ent_1004__ent_572",
+        "rel_10__ent_817__ent_572",
+        "rel_10__ent_199__ent_1103"
+      ],
+      "judgment": "supported",
+      "reason": "An unqualified leave-place row establishes physical departure or withdrawal from the geographic location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_10__ent_6__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leave/occupy White House can denote leaving political office rather than physical departure.",
+      "tags": [
+        "institution_place_ambiguity"
+      ],
+      "question": "Does leave White House here mean physical departure or the end of office?"
+    },
+    {
+      "indices": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_10__ent_7__ent_965",
+        "rel_10__ent_68__ent_716",
+        "rel_10__ent_1213__ent_767",
+        "rel_10__ent_1322__ent_1292"
+      ],
+      "judgment": "incorrect",
+      "reason": "Occupation, a speaker role, party planning or a challenger appositive does not establish physical departure.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a6fecf2a1af75bac9bf39adb7db1cdcce280bb8482922f585ff931942981fc72"
+}

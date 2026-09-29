@@ -1,0 +1,100 @@
+{
+  "relation": "rel_299",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_299__ent_1355__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: Explicit following companies and an industry for the employer establishes professional analysis under the frozen scope.",
+      "evidence_lines": [
+        1799,
+        1801,
+        1803,
+        7809,
+        7811
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.396Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_1279__ent_696",
+      "judgment": "incorrect",
+      "reason": "State Department → Richard Boucher: Inverse spokesperson attachment, sports preparation, institutional withdrawal or a generic noted-for statement is not a person working as an analyst.",
+      "evidence_lines": [
+        5441,
+        5442,
+        5445
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.396Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_315__ent_1289",
+      "judgment": "incorrect",
+      "reason": "Atlanta Braves → New York Mets: Inverse spokesperson attachment, sports preparation, institutional withdrawal or a generic noted-for statement is not a person working as an analyst.",
+      "evidence_lines": [
+        1017
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.396Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_1386__ent_288",
+      "judgment": "incorrect",
+      "reason": "Britain → European Monetary System: Inverse spokesperson attachment, sports preparation, institutional withdrawal or a generic noted-for statement is not a person working as an analyst.",
+      "evidence_lines": [
+        1971
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.396Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_1430__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Mariners → Yankees: Inverse spokesperson attachment, sports preparation, institutional withdrawal or a generic noted-for statement is not a person working as an analyst.",
+      "evidence_lines": [
+        6069
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.396Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b09a595effd190563b7594778a309a10e82c65436ac2bd2b79912f215b4f97aa"
+}

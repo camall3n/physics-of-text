@@ -1,0 +1,145 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_269",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17
+      ],
+      "case_ids": [
+        "rel_269__ent_618__ent_611",
+        "rel_269__ent_847__ent_1414",
+        "rel_269__ent_860__ent_620",
+        "rel_269__ent_862__ent_808",
+        "rel_269__ent_619__ent_526",
+        "rel_269__ent_773__ent_523",
+        "rel_269__ent_1338__ent_793",
+        "rel_269__ent_862__ent_861",
+        "rel_269__ent_920__ent_613",
+        "rel_269__ent_855__ent_612",
+        "rel_269__ent_538__ent_770",
+        "rel_269__ent_553__ent_795",
+        "rel_269__ent_853__ent_610",
+        "rel_269__ent_852__ent_535"
+      ],
+      "judgment": "supported",
+      "reason": "At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_269__ent_796__ent_311"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows describe a president, specialist and analyst, with departmental attachments; no economist affiliation is established.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_269__ent_1009__ent_1220"
+      ],
+      "judgment": "incorrect",
+      "reason": "President/head and desk-management paths establish management, with an unrelated holiday attachment, not an economist role.",
+      "tags": [
+        "wrong_role",
+        "mixed_evidence"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_269__ent_1312__ent_1308"
+      ],
+      "judgment": "incorrect",
+      "reason": "The WASHINGTON dateline and State Department speech paths identify no person serving as economist.",
+      "tags": [
+        "wrong_role",
+        "attachment"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_269__ent_611__ent_957"
+      ],
+      "judgment": "incorrect",
+      "reason": "The sole president-at row does not establish an economist role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        19
+      ],
+      "case_ids": [
+        "rel_269__ent_1192__ent_1180"
+      ],
+      "judgment": "incorrect",
+      "reason": "The sole director-at row does not establish an economist role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_269__ent_791__ent_852"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The direct row identifies a director, while the economist-at extension attaches through a signal to the person rather than directly naming him as economist.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does the complete sentence identify Sullivan as the Witter Reynolds economist, or does the economist apposition describe another referent?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    9,
+    12,
+    15
+  ],
+  "broad": []
+}

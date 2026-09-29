@@ -1,0 +1,241 @@
+{
+  "relation": "rel_377",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_377__ent_421__ent_423",
+      "judgment": "ambiguous",
+      "reason": "Fallon Worldwide → Publicis Groupe; Saatchi & Saatchi → Publicis Groupe: Subsidiary support is present for multiple incompatible named child organizations merged into a single inferred entity.",
+      "evidence_lines": [
+        4613,
+        4618,
+        4624,
+        4626,
+        4630
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which child organization should this inferred entity represent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_665__ent_1204",
+      "judgment": "supported",
+      "reason": "Euro RSCG Worldwide → Havas Advertising: An explicit owned-by, division, unit or organizational part row establishes the child-to-parent relationship.",
+      "evidence_lines": [
+        6666,
+        6668,
+        6669,
+        6670,
+        6671
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_1128__ent_1129",
+      "judgment": "ambiguous",
+      "reason": "J. Walter Thompson → WPP Group; Young & Rubicam → WPP Group: Subsidiary support is present for multiple incompatible named child organizations merged into a single inferred entity.",
+      "evidence_lines": [
+        4585,
+        6686,
+        6687,
+        6720
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which child organization should this inferred entity represent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_665__ent_1120",
+      "judgment": "supported",
+      "reason": "Euro RSCG Worldwide → Havas: An explicit owned-by, division, unit or organizational part row establishes the child-to-parent relationship.",
+      "evidence_lines": [
+        4653,
+        4655,
+        4657,
+        4660
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_426__ent_668",
+      "judgment": "supported",
+      "reason": "Arnold Worldwide → Arnold Worldwide Partners division: An explicit owned-by, division, unit or organizational part row establishes the child-to-parent relationship.",
+      "evidence_lines": [
+        4664,
+        4665,
+        4666,
+        4669
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_1070__ent_1071",
+      "judgment": "supported",
+      "reason": "Salomon Smith Barney → Citigroup: An explicit owned-by, division, unit or organizational part row establishes the child-to-parent relationship.",
+      "evidence_lines": [
+        6702,
+        6705
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_1072__ent_282",
+      "judgment": "supported",
+      "reason": "DDB Needham Worldwide → Omnicom Group: An explicit owned-by, division, unit or organizational part row establishes the child-to-parent relationship.",
+      "evidence_lines": [
+        6712,
+        6716
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_274__ent_1289",
+      "judgment": "incorrect",
+      "reason": "Montreal Expos → New York Mets: An opposing sports team or international-alliance membership is not corporate/organizational subsidiary containment.",
+      "evidence_lines": [
+        1051
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_5__ent_1291",
+      "judgment": "incorrect",
+      "reason": "Germany → NATO: An opposing sports team or international-alliance membership is not corporate/organizational subsidiary containment.",
+      "evidence_lines": [
+        2731
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_904__ent_1210",
+      "judgment": "ambiguous",
+      "reason": "New York → DDB Worldwide: The literal child is New York, a geographic location apparently replacing an unnamed organizational office.",
+      "evidence_lines": [
+        4171
+      ],
+      "issue_tags": [
+        "city_for_office"
+      ],
+      "reviewer_question": "What named organizational office or unit does New York stand for in this subsidiary claim?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_843__ent_204",
+      "judgment": "ambiguous",
+      "reason": "New York → Fallon Worldwide: The literal child is New York, a geographic location apparently replacing an unnamed organizational office.",
+      "evidence_lines": [
+        4206
+      ],
+      "issue_tags": [
+        "city_for_office"
+      ],
+      "reviewer_question": "What named organizational office or unit does New York stand for in this subsidiary claim?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    },
+    {
+      "case_id": "rel_377__ent_1104__ent_282",
+      "judgment": "supported",
+      "reason": "BBDO Worldwide → Omnicom Group: An explicit owned-by, division, unit or organizational part row establishes the child-to-parent relationship.",
+      "evidence_lines": [
+        6677
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:09.654Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2dd5270349dd0e262994cbcb3786a36e395b17d3a2a994b0f2da31e24a07fb3c"
+}

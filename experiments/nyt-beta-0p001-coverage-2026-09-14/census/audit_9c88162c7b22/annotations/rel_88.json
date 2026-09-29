@@ -1,0 +1,72 @@
+{
+  "relation": "rel_88",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_88__ent_1061__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Willie Randolph → Yankees: Playing/coaching, hiring, and clubhouse presence concern institutional team roles and do not state geographic destination movement.",
+      "evidence_lines": [
+        6548,
+        6550,
+        6551,
+        6552,
+        6553
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.273Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_1043__ent_321",
+      "judgment": "incorrect",
+      "reason": "Joe McIlvaine → Mets: Playing/coaching, hiring, and clubhouse presence concern institutional team roles and do not state geographic destination movement.",
+      "evidence_lines": [
+        1689,
+        1693,
+        3258,
+        3262
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.273Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_667__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born → United States: Immigrate and come-to paths express destination movement, but Born is an extracted sentence fragment rather than an identified mover.",
+      "evidence_lines": [
+        4696,
+        4697,
+        4699,
+        4700
+      ],
+      "issue_tags": [
+        "unresolved_entity"
+      ],
+      "reviewer_question": "Who is the person represented by Born who immigrates to the United States?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.273Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ea5f787893f410d570adb6fb89274f83ae244744e564a9c4976d1916f0e52cfe"
+}

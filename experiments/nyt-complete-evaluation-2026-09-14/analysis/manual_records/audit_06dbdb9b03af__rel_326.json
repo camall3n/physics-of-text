@@ -1,0 +1,99 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_326",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "case_ids": [
+        "rel_326__ent_886__ent_302",
+        "rel_326__ent_678__ent_302",
+        "rel_326__ent_1025__ent_1026",
+        "rel_326__ent_380__ent_0",
+        "rel_326__ent_151__ent_393",
+        "rel_326__ent_439__ent_584",
+        "rel_326__ent_4__ent_3",
+        "rel_326__ent_583__ent_340",
+        "rel_326__ent_582__ent_101",
+        "rel_326__ent_1134__ent_786",
+        "rel_326__ent_370__ent_127",
+        "rel_326__ent_591__ent_110",
+        "rel_326__ent_895__ent_410",
+        "rel_326__ent_380__ent_1133",
+        "rel_326__ent_582__ent_1136",
+        "rel_326__ent_151__ent_625",
+        "rel_326__ent_88__ent_85",
+        "rel_326__ent_1109__ent_1108"
+      ],
+      "judgment": "supported",
+      "reason": "Direct chair, head, executive, chief, or manager evidence supports managerial office in the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        13,
+        18
+      ],
+      "case_ids": [
+        "rel_326__ent_401__ent_76",
+        "rel_326__ent_409__ent_1106"
+      ],
+      "judgment": "incorrect",
+      "reason": "Founding, possession, or association alone does not establish managerial office under the frozen scope.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        20
+      ],
+      "case_ids": [
+        "rel_326__ent_263__ent_244"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The chair is identified only as an unnamed Republican.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which Republican individual holds this office?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    11,
+    12,
+    16,
+    19
+  ],
+  "broad": []
+}

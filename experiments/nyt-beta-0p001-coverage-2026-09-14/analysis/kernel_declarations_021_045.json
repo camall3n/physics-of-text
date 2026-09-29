@@ -1,0 +1,418 @@
+{
+  "declarations": [
+    {
+      "relation": "rel_261",
+      "predicate_id": "located_in",
+      "rationale": "P0–P4 are direct base/headquarters/company-location paths (57/60 rows); beginning is a competing meaning.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_136",
+      "predicate_id": "managerial_office_in",
+      "rationale": "P0–P7 mix president/head/chair/leader offices; explicit director paths also recur. Select the existing mixed office family, excluding founding/ownership and ordinary service.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_283",
+      "predicate_id": "executive_of",
+      "rationale": "Executive title paths P0–P2/P5/P9/P10 dominate (46/59 rows); chair alone is a distinct competing title, not added to scope.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        9,
+        10
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_24",
+      "predicate_id": "has_political_leader",
+      "rationale": "Country/nationality-modified president, government, leader and republic paths dominate in the inverse body-to-person direction; meetings/candidate edges compete.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_112",
+      "predicate_id": "economist_for",
+      "rationale": "Explicit economist at/for/of/with P0–P3 dominate43/58; director/principal/researcher remain distinct.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_309",
+      "predicate_id": "subsidiary_of",
+      "rationale": "Unit/part/owned-by/parent paths P0–P6 dominate child-to-parent dictionary; executive and sale attachment are competing noise.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_191",
+      "predicate_id": "athlete_for",
+      "rationale": "Scoring-for and player/center/guard/wing/captain paths establish the athlete-to-team roles for the recurring lead path; bare lead does not itself prove athlete identity.",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        17
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_53",
+      "predicate_id": "lawyer_for",
+      "rationale": "Attorney title overwhelmingly dominates; jurisdiction-role noun modifiers require case-level distinction from private geographic location, and nominations are not tenure.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_226",
+      "predicate_id": "criticizes",
+      "rationale": "Accuse16/criticize9/attack6 plus directed criticism P7 dominate; warning, transfers and control remain distinct meanings.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        7,
+        11
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_23",
+      "predicate_id": "subsidiary_of",
+      "rationale": "Organizational part/unit/division and owned-by dominate P0–P11/P14; office-of attachment must resolve case locally.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_166",
+      "predicate_id": "spokesperson_for",
+      "rationale": "Spokesman/spokeswoman-for and possessive paths dominate; director/secretary/adviser are distinct competing offices.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_370",
+      "predicate_id": "departed_from",
+      "rationale": "Leave8/move-from5+4/move-out2/take-out1 form the largest coherent directional movement family; return-to9 and leave-for2 oppose it. Literal roles include teams leaving named cities.",
+      "supporting_path_indices": [
+        1,
+        2,
+        4,
+        6,
+        12
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_354",
+      "predicate_id": "located_in",
+      "rationale": "Base/company/firm/campus-in P0–P6 dominate; source is organization and target geographic place, with person/industry noise retained for grading.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_368",
+      "predicate_id": "located_in",
+      "rationale": "Company/firm noun modifiers, base-in, firm-in and organizational geographic paths dominate P0–P9; no silent expansion to nationality-only affiliation.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_223",
+      "predicate_id": "reviews_artistic_output_of",
+      "rationale": "Review-performance/program/production/work dominates whole dictionary; venue-at edges compete and require performer-versus-venue attachment review.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        22
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_246",
+      "predicate_id": "sporting_champion_of",
+      "rationale": "Victory-designated event13, win4, explicit championship2 and coaching-to-victory2 dominate winning evidence. Literal targets are sporting events; team/event membership and reaching an event remain outside winning scope.",
+      "supporting_path_indices": [
+        0,
+        4,
+        6,
+        7,
+        8,
+        12
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_167",
+      "predicate_id": "travels_to",
+      "rationale": "Move-to/leave-for/take-to/relocate and move noun paths dominate; geographic roles include team relocation. From-source and playing-in are competing meanings.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        9,
+        14
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_94",
+      "predicate_id": "resides_in",
+      "rationale": "Live-in P0/P1/P5 and death-at-home P4 form the largest coherent family17 rows; travel/arrival/work are substantial separate meanings and do not broaden residence.",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_280",
+      "predicate_id": "has_political_leader",
+      "rationale": "Inverse possessive president/leader/dictator and president-of paths dominate; explicit political body-to-person roles, with encounter and unspecified minister boundaries.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        12,
+        13
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_334",
+      "predicate_id": "communicates_to",
+      "rationale": "Ask18/persuade11/call-on10/warn2 are directed communications from source to addressee; campus and treaty edges remain outside scope.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_192",
+      "predicate_id": "born_in",
+      "rationale": "Born/bear-in P0–P2 total25/43 plus P5/P8 dominate; growing, native, residence and schooling remain distinct predicates.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        8
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_356",
+      "predicate_id": "located_in",
+      "rationale": "Firm-in/firm-nn/company-dep/based-firm dominate; ambiguous nationality and untyped attachments retained for full case review.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        13,
+        14,
+        16
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    },
+    {
+      "relation": "rel_366",
+      "predicate_id": "travels_to",
+      "rationale": "Come/go/arrive/bring/visit/return-to dominate; place of meetings or events and nationality remain distinct from source movement.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        12,
+        15,
+        21
+      ],
+      "reviewer": "nyt_kernel_audit",
+      "competing_meanings": [],
+      "scope_limitations": []
+    }
+  ]
+}

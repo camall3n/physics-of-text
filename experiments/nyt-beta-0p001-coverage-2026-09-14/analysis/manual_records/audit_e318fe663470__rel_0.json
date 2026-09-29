@@ -1,0 +1,75 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_0",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_0__ent_1055__ent_1173",
+        "rel_0__ent_829__ent_1087"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Death-location evidence is merged with a different person or an unrelated administration/legislature pair.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which deceased person and hospital should this inferred fact identify?"
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_0__ent_913__ent_114",
+        "rel_0__ent_564__ent_1115",
+        "rel_0__ent_116__ent_358",
+        "rel_0__ent_1053__ent_1089",
+        "rel_0__ent_844__ent_1436",
+        "rel_0__ent_1406__ent_301"
+      ],
+      "judgment": "supported",
+      "reason": "The explicit died-at-hospital row establishes the physical death location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        10
+      ],
+      "case_ids": [
+        "rel_0__ent_492__ent_648",
+        "rel_0__ent_302__ent_480",
+        "rel_0__ent_1418__ent_544"
+      ],
+      "judgment": "incorrect",
+      "reason": "Invasion/sanctions or an institutional director location does not establish death at the location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "281257d5e59736c965a747bd91f88384c21be82df38a8a42de53de5fa6f6aaee"
+}

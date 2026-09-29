@@ -1,0 +1,55 @@
+{
+  "relation": "rel_308",
+  "predicate_id": "has_spokesperson",
+  "predicate_version": 1,
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate": {
+    "id": "has_spokesperson",
+    "label": "has spokesperson",
+    "definition": "Organization or principal X has person Y serving as its spokesperson.",
+    "includes": [
+      "inverse spokesperson_for with correct attachment",
+      "organization-modifying spokesman and appositive person"
+    ],
+    "excludes": [
+      "leader/president/lawyer/secretary alone",
+      "speaking at a building",
+      "spokesperson-to-principal forward direction"
+    ],
+    "ambiguous": [
+      "dateline/location replacing the principal or person"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person."
+  },
+  "dictionary_sha256": "3814a09816f40a9cd13275272fcc39be29d57ce328640b5bd5b4581ae741ebbc",
+  "kind": "declared_before_case_grading",
+  "rationale": "The dictionary primarily links institutional subjects to a named spokesman in inverse order; at-place speech alone is weaker evidence.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.017Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    19
+  ],
+  "competing_meanings": [
+    "location of speech",
+    "secretary"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_308.before_grading.json",
+  "pregrading_annotation_sha256": "311d2282f57ff2ec1d400a3b22d1f34d2bf85f707a892534ae112579211d51ee"
+}

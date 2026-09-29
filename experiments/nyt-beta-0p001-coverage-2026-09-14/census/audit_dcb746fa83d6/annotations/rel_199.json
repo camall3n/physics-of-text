@@ -1,0 +1,280 @@
+{
+  "relation": "rel_199",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_199__ent_1082__ent_843",
+      "judgment": "ambiguous",
+      "reason": "Real Capital Analytics → New York; Pearl Meyer & Partners → New York: The inferred company entity combines Real Capital Analytics with Pearl Meyer & Partners even though each has local New York location evidence.",
+      "evidence_lines": [
+        6866,
+        6867,
+        6868,
+        6870,
+        6871,
+        7158,
+        7162
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should these two companies be separated before evaluating their locations?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_1147__ent_1270",
+      "judgment": "supported",
+      "reason": "Yankee Group → Boston: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        5764,
+        5766,
+        5772,
+        7088,
+        7091,
+        7096
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_463__ent_440",
+      "judgment": "supported",
+      "reason": "T. Rowe Price → Baltimore: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        5823,
+        5824,
+        5827,
+        5829,
+        5830,
+        5831
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_345__ent_333",
+      "judgment": "supported",
+      "reason": "Corcoran Group → Manhattan: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        7370,
+        7371,
+        7372,
+        7374,
+        7378,
+        7379
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company → Washington: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        7421,
+        7426,
+        7427,
+        7430
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_716__ent_958",
+      "judgment": "supported",
+      "reason": "Kleiner Perkins Caufield & Byers → Silicon Valley: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        7431,
+        7432,
+        7434,
+        7435
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_1295__ent_843",
+      "judgment": "supported",
+      "reason": "Kohlberg → New York: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        7351,
+        7354,
+        7360
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_1208__ent_953",
+      "judgment": "ambiguous",
+      "reason": "Birinyi Associates → Wall Street: Wall Street may describe a financial industry affiliation rather than a physical office location; firm/house modifiers do not resolve it.",
+      "evidence_lines": [
+        7380,
+        7381,
+        7382
+      ],
+      "issue_tags": [
+        "place_industry_metonymy"
+      ],
+      "reviewer_question": "Does Wall Street denote the actual physical location of Birinyi Associates here?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_1382__ent_182",
+      "judgment": "incorrect",
+      "reason": "Democrats → Mr. Bush: The evidence establishes voting, an Internet industry field, or the Bell corporate family rather than geographic organizational location.",
+      "evidence_lines": [
+        5542
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_1412__ent_523",
+      "judgment": "supported",
+      "reason": "International Data Corporation → Framingham: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        5814
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_1078__ent_1211",
+      "judgment": "supported",
+      "reason": "Exhibitor Relations → Los Angeles: Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "evidence_lines": [
+        6818
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_769__ent_1379",
+      "judgment": "incorrect",
+      "reason": "DoubleClick → Internet: The evidence establishes voting, an Internet industry field, or the Bell corporate family rather than geographic organizational location.",
+      "evidence_lines": [
+        6858
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_950__ent_1267",
+      "judgment": "incorrect",
+      "reason": "Pacific Telesis → Bell: The evidence establishes voting, an Internet industry field, or the Bell corporate family rather than geographic organizational location.",
+      "evidence_lines": [
+        6877
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_943__ent_936",
+      "judgment": "incorrect",
+      "reason": "Forrester Research → Internet: The evidence establishes voting, an Internet industry field, or the Bell corporate family rather than geographic organizational location.",
+      "evidence_lines": [
+        7361
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:09.110Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "72e7fd5b4edce7d12752d2b69d16632e5750f34a8ae594661dc78d63ab2c9ac4"
+}

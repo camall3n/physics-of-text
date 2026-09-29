@@ -1,0 +1,117 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_144",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4,
+        10,
+        11,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_144__ent_308__ent_1359",
+        "rel_144__ent_308__ent_143",
+        "rel_144__ent_753__ent_287",
+        "rel_144__ent_778__ent_573",
+        "rel_144__ent_702__ent_400",
+        "rel_144__ent_1004__ent_330"
+      ],
+      "judgment": "supported",
+      "reason": "A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        6,
+        9,
+        14,
+        15,
+        17
+      ],
+      "case_ids": [
+        "rel_144__ent_1371__ent_721",
+        "rel_144__ent_218__ent_1156",
+        "rel_144__ent_231__ent_473",
+        "rel_144__ent_1332__ent_336",
+        "rel_144__ent_1425__ent_940",
+        "rel_144__ent_858__ent_1371",
+        "rel_144__ent_639__ent_14",
+        "rel_144__ent_378__ent_1267"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        8
+      ],
+      "case_ids": [
+        "rel_144__ent_470__ent_1004",
+        "rel_144__ent_1377__ent_928"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A genuine sporting meeting is combined with an incompatible person/company or location pair under the same inferred entities.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which entity pair should be retained after separating the unrelated literal names?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_144__ent_1310__ent_526"
+      ],
+      "judgment": "ambiguous",
+      "reason": "East and West meet is present, but geographic abstraction, political parties, or actual representatives are not resolved.",
+      "tags": [
+        "argument_identity",
+        "abstract_encounter"
+      ],
+      "question": "Does this row describe an actual encounter between identifiable people or groups?"
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_144__ent_232__ent_570"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Meet is explicit, but Georgia may be a person, a geographic place, or a missing institutional participant.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who or what does Georgia denote in this encounter?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7,
+    8,
+    9,
+    10
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "cf0038dab1dd1865f68fa23782aa7f9bf2dee648866951ed109123d044c1cdb8"
+}

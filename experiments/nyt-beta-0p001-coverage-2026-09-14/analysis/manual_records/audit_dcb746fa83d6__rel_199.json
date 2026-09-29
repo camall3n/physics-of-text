@@ -1,0 +1,92 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_199",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_199__ent_1147__ent_1270",
+        "rel_199__ent_463__ent_440",
+        "rel_199__ent_345__ent_333",
+        "rel_199__ent_955__ent_1002",
+        "rel_199__ent_716__ent_958",
+        "rel_199__ent_1295__ent_843",
+        "rel_199__ent_1412__ent_523",
+        "rel_199__ent_1078__ent_1211"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit company/firm geographic modifiers or based-in evidence establish the organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_199__ent_1082__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The inferred company entity combines Real Capital Analytics with Pearl Meyer & Partners even though each has local New York location evidence.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should these two companies be separated before evaluating their locations?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_199__ent_1208__ent_953"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wall Street may describe a financial industry affiliation rather than a physical office location; firm/house modifiers do not resolve it.",
+      "tags": [
+        "place_industry_metonymy"
+      ],
+      "question": "Does Wall Street denote the actual physical location of Birinyi Associates here?"
+    },
+    {
+      "indices": [
+        8,
+        11,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_199__ent_1382__ent_182",
+        "rel_199__ent_769__ent_1379",
+        "rel_199__ent_950__ent_1267",
+        "rel_199__ent_943__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence establishes voting, an Internet industry field, or the Bell corporate family rather than geographic organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    5,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "72e7fd5b4edce7d12752d2b69d16632e5750f34a8ae594661dc78d63ab2c9ac4"
+}

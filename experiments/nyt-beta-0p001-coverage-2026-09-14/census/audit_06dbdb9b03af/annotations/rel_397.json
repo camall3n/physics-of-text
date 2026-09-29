@@ -1,0 +1,157 @@
+{
+  "relation": "rel_397",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_397__ent_87__ent_818",
+      "judgment": "supported",
+      "reason": "Nixon → China: An unqualified visit or trip to the named place establishes travel there.",
+      "evidence_lines": [
+        3418,
+        3419,
+        3420,
+        3421,
+        3422,
+        3423,
+        3425,
+        3426
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    },
+    {
+      "case_id": "rel_397__ent_828__ent_843",
+      "judgment": "supported",
+      "reason": "Clinton → New York: An unqualified visit or trip to the named place establishes travel there.",
+      "evidence_lines": [
+        4682,
+        4684,
+        4686,
+        4687,
+        4689,
+        4690
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    },
+    {
+      "case_id": "rel_397__ent_81__ent_84",
+      "judgment": "ambiguous",
+      "reason": "Mr. Baker → Baghdad: The trip/visit wording co-occurs with rejected and anticipated trip paths, leaving actual travel unresolved.",
+      "evidence_lines": [
+        3451,
+        3452,
+        3455,
+        3458
+      ],
+      "issue_tags": [
+        "modality",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Did Mr Baker actually travel to Baghdad, or was this only an anticipated or rejected trip?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    },
+    {
+      "case_id": "rel_397__ent_197__ent_586",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → White House: An unqualified visit or trip to the named place establishes travel there.",
+      "evidence_lines": [
+        3490,
+        3496,
+        6175,
+        6181
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    },
+    {
+      "case_id": "rel_397__ent_827__ent_843",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → New York: An unqualified visit or trip to the named place establishes travel there.",
+      "evidence_lines": [
+        4711,
+        4713,
+        4717
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    },
+    {
+      "case_id": "rel_397__ent_457__ent_699",
+      "judgment": "incorrect",
+      "reason": "Mr. de Klerk → Mr. Botha: The arguments are people linked by political succession rather than travel to a place.",
+      "evidence_lines": [
+        5889,
+        5890,
+        5896
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    },
+    {
+      "case_id": "rel_397__ent_110__ent_347",
+      "judgment": "incorrect",
+      "reason": "Devils → Rangers: The destination argument is an opposing team, and the visit/play wording describes a sporting encounter rather than a named geographic destination.",
+      "evidence_lines": [
+        6971,
+        6973,
+        6975
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:51.956Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "274df83da1ed23461b248a417d300b1ee4b718af2c54c21e7a3f56bb56bab817"
+}

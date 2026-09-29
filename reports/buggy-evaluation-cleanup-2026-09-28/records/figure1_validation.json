@@ -1,0 +1,37 @@
+{
+  "scope": "Figure 1 only",
+  "file_counts": {
+    "deleted": 9,
+    "modified": 11,
+    "added": 5,
+    "unchanged": 10
+  },
+  "preserved_files": [
+    "results/figure1-2026/prec_recall.out",
+    "results/figure1-2026-fixed/prec_recall.out",
+    "results/figure1-2026-fixed/pr_polysemy.png",
+    "results/figure1-2026-fixed/pr_polysemy.pdf",
+    "results/figure1-2026-fixed/run.log",
+    "results/figure1-2026-fixed/run_metadata.json",
+    "results/figure1-2026-fixed/logback-off.xml",
+    "results/figure1-2026-self-pairs-included/after-fixes/prec_recall.out",
+    "results/figure1-2026-self-pairs-included/crossing_diagnostic.png",
+    "results/figure1-2026-self-pairs-included/crossing_diagnostic.svg"
+  ],
+  "numerical_sha256": {
+    "corrected_distinct_pairs": "a401488463857456c5a2ec39b5f3dd15f572a9281de52268a44fc519f59a48b8",
+    "corrected_self_pairs": "94cd3f953b8021974f57c12ffda9db9619a202a7eac08eece622d23c763c397d"
+  },
+  "numerical_equality": "Exact match to corrected-only projections captured before cleanup; sorted-key compact JSON encoding.",
+  "metadata_output_hashes": "all valid",
+  "report_links": "all valid",
+  "retired_grade_scan": "no before-fix versions or fields in surviving evaluation CSV/JSON/SVG",
+  "tests": {
+    "command": "MPLCONFIGDIR=/private/tmp/physics-figure1-mpl PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m unittest discover -s resources/sampler-140626/scripts -p test_figure1_self_pairs.py -v",
+    "passed": 12,
+    "failed": 0,
+    "seconds": 3.616,
+    "output": "resources/sampler-140626/results/figure1-2026-self-pairs-included/regression_tests.txt"
+  },
+  "visual_qa": "Inspected corrected pr_self_pairs.png and self_pair_effect.png; labels and legends are legible and contain corrected-run curves only."
+}

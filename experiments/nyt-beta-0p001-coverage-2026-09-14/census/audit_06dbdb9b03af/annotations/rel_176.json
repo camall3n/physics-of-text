@@ -1,0 +1,115 @@
+{
+  "relation": "rel_176",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_176__ent_182__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: Direct speech/meeting in the named geographic location establishes physical presence; unrelated office or invitation rows do not negate the local assertion.",
+      "evidence_lines": [
+        4096,
+        4097,
+        5238,
+        5239,
+        7343,
+        7344
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:21.742Z"
+      }
+    },
+    {
+      "case_id": "rel_176__ent_758__ent_537",
+      "judgment": "supported",
+      "reason": "Patrick J. Fitzgerald → United States: Direct speech/meeting in the named geographic location establishes physical presence; unrelated office or invitation rows do not negate the local assertion.",
+      "evidence_lines": [
+        8383,
+        8385,
+        8386,
+        8387,
+        8389
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:21.742Z"
+      }
+    },
+    {
+      "case_id": "rel_176__ent_947__ent_704",
+      "judgment": "ambiguous",
+      "reason": "Jim Boeheim → Syracuse: Syracuse may denote the university or the city; assistant/room/be-at context does not resolve the geographic argument.",
+      "evidence_lines": [
+        7208,
+        7209,
+        7210,
+        7211
+      ],
+      "issue_tags": [
+        "metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Syracuse designate the city where the person was present, or the university affiliation?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:21.742Z"
+      }
+    },
+    {
+      "case_id": "rel_176__ent_198__ent_450",
+      "judgment": "supported",
+      "reason": "Mr. Gorbachev → Moscow: Direct speech/meeting in the named geographic location establishes physical presence; unrelated office or invitation rows do not negate the local assertion.",
+      "evidence_lines": [
+        5219,
+        5220,
+        5225
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:21.742Z"
+      }
+    },
+    {
+      "case_id": "rel_176__ent_951__ent_325",
+      "judgment": "incorrect",
+      "reason": "John Gross → The Times: Speech and criticism in a publication are textual attribution, not physical geographic presence.",
+      "evidence_lines": [
+        7315,
+        7316,
+        7317
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:21.742Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "87f2bf226f62d200e102b17088eda7c5da04c731aeabece89b29fe9ed28c58a2"
+}

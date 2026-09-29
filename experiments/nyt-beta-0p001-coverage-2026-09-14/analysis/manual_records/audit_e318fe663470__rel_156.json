@@ -1,0 +1,89 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_156",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_156__ent_533__ent_127",
+        "rel_156__ent_270__ent_410",
+        "rel_156__ent_1027__ent_581",
+        "rel_156__ent_583__ent_340",
+        "rel_156__ent_678__ent_1206",
+        "rel_156__ent_100__ent_1001",
+        "rel_156__ent_4__ent_1287",
+        "rel_156__ent_56__ent_59",
+        "rel_156__ent_531__ent_984",
+        "rel_156__ent_1268__ent_553"
+      ],
+      "judgment": "supported",
+      "reason": "A local row explicitly asserts a qualifying formal managerial office in the named institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_156__ent_490__ent_51"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Head/chair/chief is asserted, but the truncated principal Taxi does not identify which institution is meant.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Does Taxi here identify the relevant public commission rather than an incomplete unrelated principal?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_156__ent_716__ent_142"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The same inferred fact combines Ralph Reed and Pat Robertson; a chair assertion exists for Robertson but the person identity is unresolved.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Reed and Robertson be separate inferred entities?"
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_156__ent_401__ent_1448"
+      ],
+      "judgment": "incorrect",
+      "reason": "Founding and forging Turkey do not assert a formal managerial office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3,
+    6,
+    10
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "639e0ec0363a2e7b15ac23bb9dd2a4bfc030005247bd2abe154662d97df60853"
+}

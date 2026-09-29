@@ -1,0 +1,42 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_302",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_302__ent_283__ent_321"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Two explicit manager-office paths tie two lawyer-role paths in the complete dictionary; the cluster has no uniquely selected coherent predicate.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation mean manager-of for Dave Johnson, despite the exactly tied lawyer-for family?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_302__ent_659__ent_1112"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The case has clear lawyer evidence, but the dictionary’s lawyer family ties the managerial-office family and no prior tie-break resolves it.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation mean lawyer-for for Stephen Jones, despite the exactly tied manager-office family?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1183080b2881a92e22fb18b5bf88d17b5cc89efd525c0216b9ed0894025f514f"
+}

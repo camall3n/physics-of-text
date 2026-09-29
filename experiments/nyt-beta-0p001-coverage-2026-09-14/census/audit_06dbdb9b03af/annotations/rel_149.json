@@ -1,0 +1,73 @@
+{
+  "relation": "rel_149",
+  "predicate_id": "coach_of",
+  "label": "coach of",
+  "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+  "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment.",
+  "facts": [
+    {
+      "case_id": "rel_149__ent_776__ent_533",
+      "judgment": "incorrect",
+      "reason": "Sears → Roebuck: Firm-name fragments or Internet market research do not establish a person coaching a sports team.",
+      "evidence_lines": [
+        645,
+        647,
+        648,
+        649,
+        651
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.694Z"
+      }
+    },
+    {
+      "case_id": "rel_149__ent_236__ent_478",
+      "judgment": "supported",
+      "reason": "Lou Carnesecca → St. John: An explicit coach-at title with athletic-program context establishes coaching the named university team.",
+      "evidence_lines": [
+        6467,
+        6469,
+        6471,
+        6473,
+        6474
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.694Z"
+      }
+    },
+    {
+      "case_id": "rel_149__ent_956__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Media Metrix → Internet: Firm-name fragments or Internet market research do not establish a person coaching a sports team.",
+      "evidence_lines": [
+        7404,
+        7407,
+        7409,
+        7410
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.694Z"
+      }
+    }
+  ],
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "019a041923e11ea85e87a1dc1f60183eec14dee64911466e2e3efee6278a2dcd"
+}

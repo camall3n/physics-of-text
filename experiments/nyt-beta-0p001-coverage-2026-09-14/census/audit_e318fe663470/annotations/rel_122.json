@@ -1,0 +1,87 @@
+{
+  "relation": "rel_122",
+  "predicate_id": "organization_operates_in_domain",
+  "label": "organization operates in industry or domain",
+  "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+  "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain.",
+  "facts": [
+    {
+      "case_id": "rel_122__ent_943__ent_1362",
+      "judgment": "supported",
+      "reason": "Forrester Research → Internet: Explicit Internet consultancy/firm and trend-report business wording establishes operations in the Internet domain.",
+      "evidence_lines": [
+        7363,
+        7364,
+        7367,
+        7368,
+        7369
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.243Z"
+      }
+    },
+    {
+      "case_id": "rel_122__ent_819__ent_964",
+      "judgment": "incorrect",
+      "reason": "Democrats → A. Gephardt: Political discourse, firm geographic location or sports victory does not establish business-domain operation.",
+      "evidence_lines": [
+        7538,
+        7539,
+        7540,
+        7544,
+        7545
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.244Z"
+      }
+    },
+    {
+      "case_id": "rel_122__ent_461__ent_222",
+      "judgment": "incorrect",
+      "reason": "Dataquest → San Jose: Political discourse, firm geographic location or sports victory does not establish business-domain operation.",
+      "evidence_lines": [
+        5811,
+        7105
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.244Z"
+      }
+    },
+    {
+      "case_id": "rel_122__ent_12__ent_1282",
+      "judgment": "incorrect",
+      "reason": "Yankees → Mets: Political discourse, firm geographic location or sports victory does not establish business-domain operation.",
+      "evidence_lines": [
+        2594
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.244Z"
+      }
+    }
+  ],
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9e2272f33d4c4ea1a7a35824caee6c2058d41fb5af30077f617657a3baf464c5"
+}

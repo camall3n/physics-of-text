@@ -1,0 +1,47 @@
+{
+  "relation": "rel_59",
+  "predicate_id": "editor_of",
+  "predicate_version": 1,
+  "predicate_hash": "e74cae9f1b8345e6a76881e76791028fdfe263683ba17af0497b102f7fa758f4",
+  "predicate": {
+    "id": "editor_of",
+    "label": "editor of publication",
+    "definition": "Person X serves or served as an editor of, for, or at publication Y.",
+    "includes": [
+      "explicit editor or editor-in-chief",
+      "section or departmental editor within a publication",
+      "explicitly editing publication Y",
+      "historical editorial office"
+    ],
+    "excludes": [
+      "publisher, director, owner, or author alone",
+      "ordinary writing or contribution without editorial role",
+      "merely being quoted or discussed in the publication"
+    ],
+    "ambiguous": [
+      "an incomplete publication argument",
+      "editor title attaching to someone other than X",
+      "editing a work versus holding the publication's editorial role when unclear"
+    ],
+    "notes": "Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication.",
+    "scope_notes": "Includes: explicit editor or editor-in-chief; section or departmental editor within a publication; explicitly editing publication Y; historical editorial office. Excludes: publisher, director, owner, or author alone; ordinary writing or contribution without editorial role; merely being quoted or discussed in the publication. Ambiguous unless resolved by case-local evidence: an incomplete publication argument; editor title attaching to someone other than X; editing a work versus holding the publication's editorial role when unclear. Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication."
+  },
+  "dictionary_sha256": "9fb7f49b88f8921bdecd9ce9f2a73c776b1cf6591a4241165932a29874be78f9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit editor and edit7 is the largest specific role family among publishers and analysts.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:15:27.290Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    4,
+    8,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_59.before_grading.json",
+  "pregrading_annotation_sha256": "f325f835447345091207ec2b5f62f7cdc249aa960c18f965546c57e17eefdab2"
+}

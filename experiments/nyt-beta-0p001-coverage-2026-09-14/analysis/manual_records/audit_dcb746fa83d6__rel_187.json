@@ -1,0 +1,93 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_187",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_187__ent_818__ent_1196",
+        "rel_187__ent_1198__ent_810",
+        "rel_187__ent_1198__ent_814",
+        "rel_187__ent_818__ent_271",
+        "rel_187__ent_1386__ent_812",
+        "rel_187__ent_135__ent_1433",
+        "rel_187__ent_5__ent_1291",
+        "rel_187__ent_590__ent_543"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit membership/accession/admission or a clearly held internal presidency establishes belonging to this institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_187__ent_1198__ent_1291"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Poland and Turkey are merged as one inferred member entity despite separate explicit NATO membership rows.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Poland and Turkey be separated before assessing their memberships?"
+    },
+    {
+      "indices": [
+        9,
+        11,
+        12
+      ],
+      "case_ids": [
+        "rel_187__ent_816__ent_819",
+        "rel_187__ent_1386__ent_517",
+        "rel_187__ent_1368__ent_1197"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The bare join edge can describe joint action between political counterparts rather than accession as a member.",
+      "tags": [
+        "join_scope"
+      ],
+      "question": "Does join here mean institutional membership rather than joining another entity in an action?"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_187__ent_190__ent_756"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The director-relative-clause attachment does not clearly state membership in the named research organization.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does the clause attach the director role to McCarthy Research Associates and establish an internal institutional role?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "96d5dbb7831a87ccc4ff32365be8a043970b72b6b338843d14b9dd1870ba545e"
+}

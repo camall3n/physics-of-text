@@ -1,0 +1,50 @@
+{
+  "relation": "rel_254",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "82113b44adb6f5ddf553daa35c9a8c35e38b4e35a3122316bad165695b645201",
+  "kind": "declared_before_case_grading",
+  "rationale": "Taking/control/run paths and political-party-to-legislature or government-to-territory argument roles form the leading political control family; ordinary membership and sports management remain distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:04:16.364Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    6,
+    9,
+    10,
+    12
+  ],
+  "competing_meanings": [
+    "political membership",
+    "sports manager",
+    "athletic role"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_254.before_grading.json",
+  "pregrading_annotation_sha256": "f8ad74adabaddce85b7a95ed741623a15971270fad21d7eca084a11107d5356d"
+}

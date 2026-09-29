@@ -1,0 +1,96 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_68",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        12
+      ],
+      "case_ids": [
+        "rel_68__ent_135__ent_377",
+        "rel_68__ent_402__ent_644",
+        "rel_68__ent_349__ent_308",
+        "rel_68__ent_368__ent_129",
+        "rel_68__ent_152__ent_394",
+        "rel_68__ent_491__ent_1426",
+        "rel_68__ent_174__ent_1038",
+        "rel_68__ent_498__ent_57",
+        "rel_68__ent_912__ent_146"
+      ],
+      "judgment": "supported",
+      "reason": "A local president/head/director/commissioner/leader row explicitly supports a qualifying managerial office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        9
+      ],
+      "case_ids": [
+        "rel_68__ent_130__ent_372",
+        "rel_68__ent_1007__ent_1008"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Qualifying office rows combine incompatible named people or institutions in the same inferred fact.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which person and institution should this merged fact identify?"
+    },
+    {
+      "indices": [
+        8,
+        11
+      ],
+      "case_ids": [
+        "rel_68__ent_662__ent_37",
+        "rel_68__ent_67__ent_1384"
+      ],
+      "judgment": "ambiguous",
+      "reason": "An office is asserted, but the truncated Soviet/Bosnian Serb argument leaves the precise political institution or collective unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Does the argument denote the political body/collective, and what is its complete name?"
+    },
+    {
+      "indices": [
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_68__ent_583__ent_340",
+        "rel_68__ent_1323__ent_1422"
+      ],
+      "judgment": "incorrect",
+      "reason": "Founder or spokesperson status alone is outside the frozen managerial-office predicate.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "928d13f751810e3e71dd39d64b26cb583f4feae78d29439f8695669ff7a19ce2"
+}

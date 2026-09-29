@@ -1,0 +1,443 @@
+{
+  "description": "Read-only verification of inherited omission in the repository commit importing the June 2014 sampler archive. This identifies the imported source; no original tar-file hash is asserted.",
+  "archive_import_commit": "9489d21ee6797a7b4ccc71f1f46f1c27af7da31b",
+  "archive_import_subject": "Add archived Java code from Stuart's tar file (sampler-140626)",
+  "imported_source_tree": "b309a9dbdad849d760ef8a8d3ce1075240c4490e",
+  "files": [
+    {
+      "path": "resources/sampler-140626/src/main/java/org/ucb/generative_ie/mh/EntitySmartSplitStep.java",
+      "git_blob": "78de1258532b8f366646b2510b528e798dcdef65",
+      "sha256": "df1af1629b7b50985dc107ce4b5bbbb02f25b2cd17238989d4a0f5d76e573276",
+      "excerpt_start_line": 315,
+      "excerpt_end_line": 359,
+      "excerpt": [
+        {
+          "line": 315,
+          "text": "        @Override"
+        },
+        {
+          "line": 316,
+          "text": "        public double stateRatio() {"
+        },
+        {
+          "line": 317,
+          "text": "            double rState = 0.0;"
+        },
+        {
+          "line": 318,
+          "text": "            int sizeMentionsAll = world.getSentences().getMentions().size();"
+        },
+        {
+          "line": 319,
+          "text": "        "
+        },
+        {
+          "line": 320,
+          "text": "            rState += (Math.log(world.getEntities().getLogNormalEntityDensity(newNumEntities)) - Math.log(world.getEntities().getLogNormalEntityDensity(numEntities)));"
+        },
+        {
+          "line": 321,
+          "text": "            logger.debug(\"state ratio part1: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 322,
+          "text": "            rState += ( sizeMentionsAll * Math.log((double)numEntities/newNumEntities));"
+        },
+        {
+          "line": 323,
+          "text": "            logger.debug(\"state ratio part2: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 324,
+          "text": "            //this part is ignored because it will be cancelled by the proposal ratio"
+        },
+        {
+          "line": 325,
+          "text": "            //logger.debug(\"state ratio part2: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 326,
+          "text": "            //rState += (Util.logPermutation(newNumEntities, newNumNonEmptyEntities) - Util.logPermutation(numEntities, numNonEmptyEntities));"
+        },
+        {
+          "line": 327,
+          "text": "            "
+        },
+        {
+          "line": 328,
+          "text": "            //the shape"
+        },
+        {
+          "line": 329,
+          "text": "            //if (splitCase) {"
+        },
+        {
+          "line": 330,
+          "text": "            //    rState += (Util.logFactorial(countMentions) - Util.logFactorial(countMentionsEntity1) - Util.logFactorial(countMentionsEntity2));"
+        },
+        {
+          "line": 331,
+          "text": "            //}"
+        },
+        {
+          "line": 332,
+          "text": "            //else if (mergeCase) {"
+        },
+        {
+          "line": 333,
+          "text": "            //    rState -= (Util.logFactorial(countMentions) - Util.logFactorial(countMentionsEntity1) - Util.logFactorial(countMentionsEntity2));"
+        },
+        {
+          "line": 334,
+          "text": "            //}"
+        },
+        {
+          "line": 335,
+          "text": "            //logger.debug(\"state ratio part shape: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 336,
+          "text": "            "
+        },
+        {
+          "line": 337,
+          "text": "            int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();"
+        },
+        {
+          "line": 338,
+          "text": "            double oldState = 0.0, newState = 0.0;"
+        },
+        {
+          "line": 339,
+          "text": "        "
+        },
+        {
+          "line": 340,
+          "text": "            if (splitCase) {"
+        },
+        {
+          "line": 341,
+          "text": "                oldState += ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 342,
+          "text": "                newState += ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 343,
+          "text": "                newState += ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 344,
+          "text": "            }"
+        },
+        {
+          "line": 345,
+          "text": "            else if (mergeCase) {"
+        },
+        {
+          "line": 346,
+          "text": "                //nhEntity1 = world.getSentences().nounHistogram(entity1);"
+        },
+        {
+          "line": 347,
+          "text": "                //nhEntity2 = world.getSentences().nounHistogram(entity2);"
+        },
+        {
+          "line": 348,
+          "text": "                oldState += ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 349,
+          "text": "                oldState += ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 350,
+          "text": "                newState += ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 351,
+          "text": "            }"
+        },
+        {
+          "line": 352,
+          "text": "            else {"
+        },
+        {
+          "line": 353,
+          "text": "                throw new UnsupportedOperationException(String.format(\"Merge: %b and Split: %b!\", splitCase, mergeCase));"
+        },
+        {
+          "line": 354,
+          "text": "            }"
+        },
+        {
+          "line": 355,
+          "text": "        "
+        },
+        {
+          "line": 356,
+          "text": "            logger.debug(\"old state: {}, new state: {}\", Math.exp(oldState), Math.exp(newState));"
+        },
+        {
+          "line": 357,
+          "text": "            rState += (newState - oldState);"
+        },
+        {
+          "line": 358,
+          "text": "            logger.debug(\"state ratio: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 359,
+          "text": "            return Math.exp(rState);"
+        }
+      ]
+    },
+    {
+      "path": "resources/sampler-140626/src/main/java/org/ucb/generative_ie/mh/EntitySmartMergeStep.java",
+      "git_blob": "282bda4dacb4d02e71ff11b1be32cbe5937171cb",
+      "sha256": "2360a8ffde344943dcb1513505d537191c5cc589d4ec0bf32c9a51c3e0c74e90",
+      "excerpt_start_line": 317,
+      "excerpt_end_line": 361,
+      "excerpt": [
+        {
+          "line": 317,
+          "text": "        @Override"
+        },
+        {
+          "line": 318,
+          "text": "        public double stateRatio() {"
+        },
+        {
+          "line": 319,
+          "text": "            double rState = 0.0;"
+        },
+        {
+          "line": 320,
+          "text": "            int sizeMentionsAll = world.getSentences().getMentions().size();"
+        },
+        {
+          "line": 321,
+          "text": "        "
+        },
+        {
+          "line": 322,
+          "text": "            rState += (Math.log(world.getEntities().getLogNormalEntityDensity(newNumEntities)) - Math.log(world.getEntities().getLogNormalEntityDensity(numEntities)));"
+        },
+        {
+          "line": 323,
+          "text": "            logger.debug(\"state ratio part1: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 324,
+          "text": "            rState += ( sizeMentionsAll * Math.log((double)numEntities/newNumEntities));"
+        },
+        {
+          "line": 325,
+          "text": "            logger.debug(\"state ratio part2: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 326,
+          "text": "            //this part is ignored because it will be cancelled by the proposal ratio"
+        },
+        {
+          "line": 327,
+          "text": "            //logger.debug(\"state ratio part2: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 328,
+          "text": "            //rState += (Util.logPermutation(newNumEntities, newNumNonEmptyEntities) - Util.logPermutation(numEntities, numNonEmptyEntities));"
+        },
+        {
+          "line": 329,
+          "text": "        "
+        },
+        {
+          "line": 330,
+          "text": "            //the shape"
+        },
+        {
+          "line": 331,
+          "text": "            //if (splitCase) {"
+        },
+        {
+          "line": 332,
+          "text": "            //    rState += (Util.logFactorial(countMentions) - Util.logFactorial(countMentionsEntity1) - Util.logFactorial(countMentionsEntity2));"
+        },
+        {
+          "line": 333,
+          "text": "            //}"
+        },
+        {
+          "line": 334,
+          "text": "            //else if (mergeCase) {"
+        },
+        {
+          "line": 335,
+          "text": "            //    rState -= (Util.logFactorial(countMentions) - Util.logFactorial(countMentionsEntity1) - Util.logFactorial(countMentionsEntity2));"
+        },
+        {
+          "line": 336,
+          "text": "            //}"
+        },
+        {
+          "line": 337,
+          "text": "            //logger.debug(\"state ratio part shape: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 338,
+          "text": ""
+        },
+        {
+          "line": 339,
+          "text": "            int numNouns = world.getWeightedNounLexicons().getNounLexicon().size();"
+        },
+        {
+          "line": 340,
+          "text": "            double oldState = 0.0, newState = 0.0;"
+        },
+        {
+          "line": 341,
+          "text": "        "
+        },
+        {
+          "line": 342,
+          "text": "            if (splitCase) {"
+        },
+        {
+          "line": 343,
+          "text": "                oldState += ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 344,
+          "text": "                newState += ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 345,
+          "text": "                newState += ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 346,
+          "text": "            }"
+        },
+        {
+          "line": 347,
+          "text": "            else if (mergeCase) {"
+        },
+        {
+          "line": 348,
+          "text": "                //nhEntity1 = world.getSentences().nounHistogram(entity1);"
+        },
+        {
+          "line": 349,
+          "text": "                //nhEntity2 = world.getSentences().nounHistogram(entity2);"
+        },
+        {
+          "line": 350,
+          "text": "                oldState += ModelFunctions.logBetaProb(nhEntity1, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 351,
+          "text": "                oldState += ModelFunctions.logBetaProb(nhEntity2, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 352,
+          "text": "                newState += ModelFunctions.logBetaProb(nhEntity, world.getAlpha(), numNouns);"
+        },
+        {
+          "line": 353,
+          "text": "            }"
+        },
+        {
+          "line": 354,
+          "text": "            else {"
+        },
+        {
+          "line": 355,
+          "text": "                throw new UnsupportedOperationException(String.format(\"Merge: %b and Split: %b!\", splitCase, mergeCase));"
+        },
+        {
+          "line": 356,
+          "text": "            }"
+        },
+        {
+          "line": 357,
+          "text": "        "
+        },
+        {
+          "line": 358,
+          "text": "            logger.debug(\"old state: {}, new state: {}\", Math.exp(oldState), Math.exp(newState));"
+        },
+        {
+          "line": 359,
+          "text": "            rState += (newState - oldState);"
+        },
+        {
+          "line": 360,
+          "text": "            logger.debug(\"state ratio: {}\", Math.exp(rState));"
+        },
+        {
+          "line": 361,
+          "text": "            return Math.exp(rState);"
+        }
+      ]
+    },
+    {
+      "path": "resources/sampler-140626/src/main/java/org/ucb/generative_ie/world/WorldProb.java",
+      "git_blob": "ffb965c09a546c554b5a63eb47573ef82300d700",
+      "sha256": "6b5cdecd97ca92d57a4ecbf9cd1d25cf9a40e988839978530e621173f9962123",
+      "excerpt_start_line": 78,
+      "excerpt_end_line": 89,
+      "excerpt": [
+        {
+          "line": 78,
+          "text": "        int numEntities = w.getNumEntities();"
+        },
+        {
+          "line": 79,
+          "text": "        int numNonEmptyEntities = w.getSentences().getNonEmptyEntitySize();"
+        },
+        {
+          "line": 80,
+          "text": ""
+        },
+        {
+          "line": 81,
+          "text": "        //the combinatoric factor when the entities are unlabeled"
+        },
+        {
+          "line": 82,
+          "text": "        logger.debug(\" numEnt: {}, numEnt_nonEmpty: {}\", numEntities, numNonEmptyEntities);"
+        },
+        {
+          "line": 83,
+          "text": "        logProbEntityWorld += Util.logPermutation(numEntities, numNonEmptyEntities);"
+        },
+        {
+          "line": 84,
+          "text": "        logger.debug(\"numEnt: {}, numEnt_nonEmpty: {}, logPermutation: {}\", numEntities, numNonEmptyEntities, Util.logPermutation(numEntities, numNonEmptyEntities));"
+        },
+        {
+          "line": 85,
+          "text": "        "
+        },
+        {
+          "line": 86,
+          "text": "        return logProbEntityWorld;"
+        },
+        {
+          "line": 87,
+          "text": "    }"
+        },
+        {
+          "line": 88,
+          "text": "    "
+        },
+        {
+          "line": 89,
+          "text": "    public double logCollapsedTriggers() {"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "relation": "rel_37",
+  "predicate_id": "broadcasts_program",
+  "predicate_version": 1,
+  "predicate_hash": "e28edb6a2fcf64c04cecd290d4e234cbaddea41551c5e52555dca1c6d524a6ed",
+  "predicate": {
+    "id": "broadcasts_program",
+    "label": "broadcasts or carries program",
+    "definition": "Broadcaster X is explicitly identified as broadcasting, carrying, or having program Y in its programming.",
+    "includes": [
+      "explicit airing or broadcasting of Y",
+      "Y identified as the program or show of broadcaster X",
+      "historical programming affiliation"
+    ],
+    "excludes": [
+      "ownership of a network or production company alone",
+      "an ordinary press interaction or meeting",
+      "a person appearing on a program without broadcaster-program identification"
+    ],
+    "ambiguous": [
+      "an incomplete program title such as Press with unresolved referent",
+      "unclear broadcaster versus guest role",
+      "program versus generic activity attachment unresolved"
+    ],
+    "notes": "Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting.",
+    "scope_notes": "Includes: explicit airing or broadcasting of Y; Y identified as the program or show of broadcaster X; historical programming affiliation. Excludes: ownership of a network or production company alone; an ordinary press interaction or meeting; a person appearing on a program without broadcaster-program identification. Ambiguous unless resolved by case-local evidence: an incomplete program title such as Press with unresolved referent; unclear broadcaster versus guest role; program versus generic activity attachment unresolved. Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting."
+  },
+  "dictionary_sha256": "3ac4dab586ed6cf1e8944be56fadc584114c622a328c06f4248ff6f4da2b9802",
+  "kind": "declared_before_case_grading",
+  "rationale": "Broadcaster program and title-Meet paths9 dominate; ratio comparison separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:25:33.989Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_37.before_grading.json",
+  "pregrading_annotation_sha256": "1ece858498d20dc69b19cf3dbd8344e39d7caef7dadf3d99f045a2f3fd300acd"
+}

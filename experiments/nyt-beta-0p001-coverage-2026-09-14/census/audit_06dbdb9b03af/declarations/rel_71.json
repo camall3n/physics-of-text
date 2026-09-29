@@ -1,0 +1,42 @@
+{
+  "relation": "rel_71",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "2be28b1667eba69b033a148cbf11b7bcbba03cfc5a4f302040c2a6a1c0c8db6c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Control-of and keep-control define specific party control family; generic wins/presence separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.470Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    4
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_71.before_grading.json",
+  "pregrading_annotation_sha256": "69742b843f521bf4275c082e8b0d7a1e48237a043561ba3806c2add8320ab0a3"
+}

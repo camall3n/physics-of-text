@@ -1,0 +1,178 @@
+{
+  "audit": "audit_ad8866964cf6",
+  "relation": "rel_55",
+  "cases_sha256": "3799f5abe7c72552c3d02e56851c0e8f79ef70d941404eb61dd078999f964734",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "case_ids": [
+        "rel_55__ent_886__ent_302",
+        "rel_55__ent_678__ent_302",
+        "rel_55__ent_151__ent_393",
+        "rel_55__ent_580__ent_341",
+        "rel_55__ent_583__ent_340",
+        "rel_55__ent_582__ent_101",
+        "rel_55__ent_56__ent_59",
+        "rel_55__ent_439__ent_584",
+        "rel_55__ent_438__ent_1135",
+        "rel_55__ent_1137__ent_1135",
+        "rel_55__ent_4__ent_3",
+        "rel_55__ent_1025__ent_1026",
+        "rel_55__ent_247__ent_489",
+        "rel_55__ent_652__ent_142",
+        "rel_55__ent_894__ent_1105",
+        "rel_55__ent_437__ent_679",
+        "rel_55__ent_582__ent_1136",
+        "rel_55__ent_691__ent_690",
+        "rel_55__ent_2__ent_1",
+        "rel_55__ent_895__ent_410",
+        "rel_55__ent_435__ent_677",
+        "rel_55__ent_380__ent_1133",
+        "rel_55__ent_1134__ent_786",
+        "rel_55__ent_208__ent_1145",
+        "rel_55__ent_556__ent_798",
+        "rel_55__ent_389__ent_146",
+        "rel_55__ent_1027__ent_581",
+        "rel_55__ent_58__ent_53",
+        "rel_55__ent_151__ent_625",
+        "rel_55__ent_133__ent_375",
+        "rel_55__ent_591__ent_110",
+        "rel_55__ent_1107__ent_1108",
+        "rel_55__ent_447__ent_0",
+        "rel_55__ent_416__ent_658",
+        "rel_55__ent_395__ent_156"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local row directly establishes chairmanship, leadership, presidency, executive or head office in the institution; weaker founding/ownership and incidental paths do not negate that office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        33
+      ],
+      "case_ids": [
+        "rel_55__ent_263__ent_244",
+        "rel_55__ent_263__ent_486",
+        "rel_55__ent_7__ent_243",
+        "rel_55__ent_7__ent_485",
+        "rel_55__ent_263__ent_1171",
+        "rel_55__ent_7__ent_488",
+        "rel_55__ent_263__ent_1172",
+        "rel_55__ent_263__ent_1170"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The chairman/head role is structurally supported, but its subject is only Republican or Democrat, without a named officeholder.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which named politician is the holder of this committee office?"
+    },
+    {
+      "indices": [
+        34,
+        39
+      ],
+      "case_ids": [
+        "rel_55__ent_490__ent_51",
+        "rel_55__ent_30__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The object is the incomplete institutional or political fragment Taxi or Democratic, despite a clear office cue.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What full institution does the fragment denote?"
+    },
+    {
+      "indices": [
+        20,
+        35
+      ],
+      "case_ids": [
+        "rel_55__ent_401__ent_76",
+        "rel_55__ent_409__ent_1106"
+      ],
+      "judgment": "incorrect",
+      "reason": "Founding, creating, or transforming the object does not establish a managerial office; the leadership modifier in the Ataturk case does not itself attach an office to Turkey.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    18,
+    19,
+    21,
+    22,
+    23,
+    25,
+    27,
+    28,
+    31,
+    32,
+    36,
+    37,
+    40,
+    41,
+    42,
+    43
+  ],
+  "broad": []
+}

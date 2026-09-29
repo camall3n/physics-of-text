@@ -1,0 +1,41 @@
+{
+  "relation": "rel_191",
+  "predicate_id": "has_minister",
+  "predicate_version": 1,
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate": {
+    "id": "has_minister",
+    "label": "has minister",
+    "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+    "includes": [
+      "explicit minister of X or X's minister",
+      "a portfolio or prime minister office explicitly attached to X",
+      "historical ministerial office"
+    ],
+    "excludes": [
+      "ordinary official, ambassador, or opposition politician without minister title",
+      "a minister of a different government merely meeting X",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "an incomplete national adjective in the institution slot",
+      "minister-designate without established tenure",
+      "unclear portfolio or government attachment"
+    ],
+    "notes": "The inverse ministerial office does not assert that every minister is the head of government.",
+    "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government."
+  },
+  "dictionary_sha256": "ff51bb4797a30f7040c07f1abe881a5e31c114ba3e190b179521eb603c6aaa89",
+  "kind": "declared_before_case_grading",
+  "rationale": "Possessed-minister and minister appositives form the largest specific interpretable family; say-in is higher frequency but reporting-place syntax alone does not express a stable office predicate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.942Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_191.before_grading.json",
+  "pregrading_annotation_sha256": "5d5b721fc90e6cab20c107688ae78d8260609353d5c16a06e452dfe46a50b974"
+}

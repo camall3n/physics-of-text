@@ -1,0 +1,123 @@
+package org.ucb.generative_ie.mcmc;
+
+import java.util.Iterator;
+import java.util.Random;
+
+import org.ucb.generative_ie.util.NormalProbMap;
+import org.ucb.generative_ie.util.ProbMap;
+import org.ucb.generative_ie.world.SentenceEvidence;
+import org.ucb.generative_ie.world.World;
+
+/**
+ * The relation-discovery phase: a random scan over fact and relation moves.
+ *
+ * <ul>
+ * <li>{@link FactBirthDeathStep}: add or remove a fact that no sentence reports;</li>
+ * <li>{@link SentenceOriginRV}: Gibbs-resample one sentence's origin fact (its relation
+ *     and argument entities) among the existing facts;</li>
+ * <li>{@link FactRelationMoveStep}: transfer a fact with all its sentences to another
+ *     relation, which is how relations gain and lose their sentences;</li>
+ * <li>{@link RelationSplitMergeStep}, both kernels: split a relation in two or merge two
+ *     relations, which is what lets the number of relations in use change quickly.</li>
+ * </ul>
+ *
+ * Moves are created on demand rather than preallocated per potential fact, so the
+ * memory cost does not grow with N^2 K.
+ */
+public class WorldInferSteps extends MCMCSteps {
+
+    private final FactBirthDeathStep factStep;
+    private final FactRelationMoveStep moveStep;
+    private final RelationSplitMergeStep smartSplitStep;
+    private final RelationSplitMergeStep smartMergeStep;
+    private Random scanRng;
+    private double sentenceRelationMoveWeight;
+    private final SentenceRelationBirthDeathMove sentenceRelationMove;
+
+    public WorldInferSteps withSentenceRelationMoveWeight(double weight) {
+        if (!Double.isFinite(weight) || weight < 0) throw new IllegalArgumentException("Invalid sentence relation move weight");
+        this.sentenceRelationMoveWeight = weight;
+        return this;
+    }
+
+    public String sentenceRelationMoveReport() { return sentenceRelationMove.acceptanceReport(); }
+
+    public WorldInferSteps withScanRng(Random scanRng) {
+        this.scanRng = scanRng;
+        return this;
+    }
+
+    public WorldInferSteps(World world, SentenceEvidence evidence, int numSteps) {
+        super(world, evidence, numSteps);
+        this.factStep = new FactBirthDeathStep(world);
+        this.moveStep = new FactRelationMoveStep(world);
+        this.smartSplitStep = new RelationSplitMergeStep(world, true);
+        this.smartMergeStep = new RelationSplitMergeStep(world, false);
+        this.sentenceRelationMove = new SentenceRelationBirthDeathMove(world);
+    }
+
+    public WorldInferSteps(World world, SentenceEvidence evidence) {
+        this(world, evidence, 100); //default number of steps
+    }
+
+    @Override
+    public Iterator<MCMCStep> iterator() {
+        return new RandomIterator();
+    }
+
+    class RandomIterator implements Iterator<MCMCStep> {
+        private int currentIteration;
+        private final Random rng;
+        private final ProbMap<StepKind> stepSampler;
+
+        public RandomIterator() {
+            this.currentIteration = 0;
+            this.rng = scanRng == null ? new Random() : scanRng;
+            this.stepSampler = new NormalProbMap<>();
+            this.stepSampler.multiplyKey(StepKind.FACT_BIRTH_DEATH, 1);
+            this.stepSampler.multiplyKey(StepKind.SENTENCE_ORIGIN,
+                    world.getSentences().size() == 0 ? 0 : 1);
+            this.stepSampler.multiplyKey(StepKind.FACT_RELATION_MOVE, 1);
+            this.stepSampler.multiplyKey(StepKind.RELATION_SMART_SPLIT, 0.2);
+            this.stepSampler.multiplyKey(StepKind.RELATION_SMART_MERGE, 0.2);
+            this.stepSampler.multiplyKey(StepKind.SENTENCE_RELATION_BIRTH_DEATH,
+                    world.getSentences().size() == 0 ? 0 : sentenceRelationMoveWeight);
+        }
+
+        @Override
+        public boolean hasNext() {
+            return currentIteration < numSteps;
+        }
+
+        @Override
+        public MCMCStep next() {
+            currentIteration++;
+            switch (stepSampler.sample(rng)) {
+                case FACT_BIRTH_DEATH:
+                    return factStep;
+                case SENTENCE_ORIGIN:
+                    int n = world.getSentences().size();
+                    return new SentenceOriginRV(world, world.getSentences().get(rng.nextInt(n)));
+                case FACT_RELATION_MOVE:
+                    return moveStep;
+                case RELATION_SMART_SPLIT:
+                    return smartSplitStep;
+                case RELATION_SMART_MERGE:
+                    return smartMergeStep;
+                case SENTENCE_RELATION_BIRTH_DEATH:
+                    return sentenceRelationMove;
+                default:
+                    throw new IllegalStateException();
+            }
+        }
+
+        @Override
+        public void remove() {
+            throw new UnsupportedOperationException();
+        }
+    }
+}
+
+enum StepKind {
+    FACT_BIRTH_DEATH, SENTENCE_ORIGIN, FACT_RELATION_MOVE, RELATION_SMART_SPLIT, RELATION_SMART_MERGE, SENTENCE_RELATION_BIRTH_DEATH
+}

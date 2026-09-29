@@ -1,0 +1,58 @@
+{
+  "relation": "rel_187",
+  "predicate_id": "member_of",
+  "predicate_version": 1,
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate": {
+    "id": "member_of",
+    "label": "member of organization",
+    "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+    "includes": [
+      "explicit member/belong/membership",
+      "join/accession/entry when organizational membership is established",
+      "individual legislators and countries in alliances"
+    ],
+    "excludes": [
+      "join a person in an action",
+      "geographic entry",
+      "event participation",
+      "party control of legislature",
+      "negotiations or proposed membership alone"
+    ],
+    "ambiguous": [
+      "bare join without clear completion or membership meaning",
+      "plural party naming individual members rather than the party itself"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself."
+  },
+  "dictionary_sha256": "79469045e2a3de6e52ea600c202364d3127228495b04e352b646a104b0cdcd30",
+  "kind": "declared_before_case_grading",
+  "rationale": "Membership, entry/accession, admission, and joining dominate with countries and international bodies; proposals and generic joining retain ambiguity.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.316Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    16,
+    17,
+    19,
+    20
+  ],
+  "competing_meanings": [
+    "political office",
+    "speech"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_187.before_grading.json",
+  "pregrading_annotation_sha256": "82ea7e929fd6f326e81e210d18e0c66ea34d8518b3da32afaca9689ce8428c31"
+}

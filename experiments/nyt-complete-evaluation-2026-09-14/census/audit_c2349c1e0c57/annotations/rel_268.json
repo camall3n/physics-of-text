@@ -1,0 +1,1236 @@
+{
+  "relation": "rel_268",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_268.json",
+    "source_sha256": "4687a42ffdacdb16bcdf1050abbb105abae1aaf12a46f6ab35317639f9d405b7",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_268__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        563,
+        564,
+        565,
+        566,
+        567,
+        569,
+        570,
+        7828,
+        7829,
+        7830,
+        7831,
+        7832,
+        7834,
+        7835
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.385Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1059__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1796,
+        1797,
+        1798,
+        1801,
+        1803,
+        7804,
+        7805,
+        7806,
+        7807,
+        7808,
+        7811,
+        7813
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_780__ent_529",
+      "judgment": "supported",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_806__ent_529",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1812,
+        1813,
+        1814,
+        1815,
+        1816,
+        7820,
+        7821,
+        7822,
+        7823,
+        7824
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_268.json",
+        "annotation_sha256": "4687a42ffdacdb16bcdf1050abbb105abae1aaf12a46f6ab35317639f9d405b7"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_847__ent_529",
+      "judgment": "ambiguous",
+      "reason": "Bruce Steinberg → Merrill Lynch: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2322,
+        2323,
+        2324,
+        2325,
+        2326,
+        2327,
+        2328,
+        2329,
+        2330,
+        2331
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_862__ent_808",
+      "judgment": "ambiguous",
+      "reason": "Stephen S. Roach → Morgan Stanley: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2347,
+        2348,
+        2349,
+        2350,
+        2351,
+        2352,
+        2353,
+        2354,
+        2355,
+        2356
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_268.json",
+        "annotation_sha256": "4687a42ffdacdb16bcdf1050abbb105abae1aaf12a46f6ab35317639f9d405b7"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_852__ent_613",
+      "judgment": "ambiguous",
+      "reason": "Lawrence A. Kudlow → Bear: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2375,
+        2376,
+        2377,
+        2378,
+        2379,
+        2380,
+        2381,
+        2382,
+        2383,
+        2384
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_773__ent_523",
+      "judgment": "ambiguous",
+      "reason": "Donald Ratajczak → Georgia State University: The local evidence establishes economist/forecaster and director roles, leaving analyst scope unresolved.",
+      "evidence_lines": [
+        534,
+        535,
+        536,
+        537,
+        538,
+        539,
+        540,
+        541
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does Ratajczak’s forecasting/economist role at Georgia State count as analyst work under the common scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_805__ent_808",
+      "judgment": "supported",
+      "reason": "Kevin Murphy → Morgan Stanley: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1817,
+        1818,
+        1819,
+        1820,
+        7836,
+        7837,
+        7838,
+        7839
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_807__ent_809",
+      "judgment": "supported",
+      "reason": "James Hale → MMS International: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1821,
+        1822,
+        1823,
+        1824,
+        1825,
+        1826,
+        1827,
+        1828
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_854__ent_615",
+      "judgment": "ambiguous",
+      "reason": "Gary Burtless → Brookings Institution: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2388,
+        2389,
+        2390,
+        2391,
+        2393,
+        2394,
+        2396,
+        2397
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_383__ent_140",
+      "judgment": "supported",
+      "reason": "Blair Horner → New York Public Interest Research Group: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        114,
+        117,
+        123,
+        1715,
+        1718,
+        1722,
+        1724
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_862__ent_861",
+      "judgment": "supported",
+      "reason": "Stephen S. Roach → Morgan Stanley & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        2340,
+        2341,
+        2342,
+        2343,
+        2344,
+        2345,
+        2346
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_268.json",
+        "annotation_sha256": "4687a42ffdacdb16bcdf1050abbb105abae1aaf12a46f6ab35317639f9d405b7"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_618__ent_611",
+      "judgment": "supported",
+      "reason": "Ian Shepherdson → High Frequency Economics: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        2366,
+        2367,
+        2368,
+        2369,
+        2370,
+        2371,
+        2372
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: The evidence concerns a team lacking its player, not an analyst affiliation.",
+      "evidence_lines": [
+        3429,
+        3433,
+        3434,
+        4928,
+        4931,
+        4932,
+        4933
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_528__ent_781",
+      "judgment": "supported",
+      "reason": "Loren Thompson → Lexington Institute: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        579,
+        580,
+        582,
+        584,
+        587,
+        588
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_301__ent_529",
+      "judgment": "supported",
+      "reason": "Judah Kraushaar → Merrill Lynch: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_796__ent_311",
+      "judgment": "supported",
+      "reason": "Richard E. Witten → Goldman , Sachs & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        734,
+        736,
+        738,
+        739,
+        742,
+        743
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1057__ent_119",
+      "judgment": "supported",
+      "reason": "Viren Mehta → Mehta & Isaly: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1784,
+        1785,
+        1786,
+        1787,
+        1788,
+        1789
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_860__ent_620",
+      "judgment": "ambiguous",
+      "reason": "Jared Bernstein → Economic Policy Institute: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2332,
+        2333,
+        2334,
+        2337,
+        2338,
+        2339
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_973__ent_734",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        7814,
+        7815,
+        7816,
+        7817,
+        7818,
+        7819
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_524__ent_766",
+      "judgment": "supported",
+      "reason": "Donald J. Fine → Chase Manhattan Bank: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        558,
+        559,
+        560,
+        561,
+        562
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_268.json",
+        "annotation_sha256": "4687a42ffdacdb16bcdf1050abbb105abae1aaf12a46f6ab35317639f9d405b7"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_553__ent_795",
+      "judgment": "ambiguous",
+      "reason": "Paul L. Kasriel → Northern Trust Company: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        744,
+        745,
+        746,
+        747,
+        748
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_359__ent_1056",
+      "judgment": "supported",
+      "reason": "Daniel Kunstler → J. P. Morgan: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1779,
+        1780,
+        1781,
+        1782,
+        1783
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_619__ent_526",
+      "judgment": "ambiguous",
+      "reason": "John Lipsky → Salomon Brothers: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2357,
+        2358,
+        2360,
+        2361,
+        2362
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_733__ent_975",
+      "judgment": "supported",
+      "reason": "John Morton → Lynch , Jones & Ryan: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        7840,
+        7841,
+        7842,
+        7843,
+        7844
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1059__ent_529",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Merrill Lynch: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        7847,
+        7848,
+        7849,
+        7850,
+        7851
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_525__ent_767",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Asset Management: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        554,
+        555,
+        556,
+        557
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis → Salomon Brothers: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_268.json",
+        "annotation_sha256": "4687a42ffdacdb16bcdf1050abbb105abae1aaf12a46f6ab35317639f9d405b7"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_768__ent_529",
+      "judgment": "supported",
+      "reason": "John Casesa → Merrill Lynch: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        575,
+        576,
+        577,
+        578
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_541__ent_783",
+      "judgment": "supported",
+      "reason": "Tom Wolzien → Sanford C. Bernstein & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        599,
+        600,
+        601,
+        602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_540__ent_782",
+      "judgment": "supported",
+      "reason": "David Healy → Burnham Securities: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        603,
+        604,
+        605,
+        606
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_551__ent_793",
+      "judgment": "ambiguous",
+      "reason": "Joseph Liro → S. G. Warburg & Company: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        720,
+        721,
+        722,
+        723
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1007__ent_1008",
+      "judgment": "supported",
+      "reason": "Robert A. Kurtter → Moody 's Investors Service: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        759,
+        760,
+        762,
+        763
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1058__ent_783",
+      "judgment": "supported",
+      "reason": "Kenneth S. Abramowitz → Sanford C. Bernstein & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1790,
+        1791,
+        1792,
+        1793
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1181__ent_1182",
+      "judgment": "supported",
+      "reason": "Neil Sweig → Southeast Research Partners: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1804,
+        1805,
+        1806,
+        1807
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1183__ent_1184",
+      "judgment": "supported",
+      "reason": "Joel Karlin → Research Department Inc.: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1808,
+        1809,
+        1810,
+        1811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_834__ent_837",
+      "judgment": "incorrect",
+      "reason": "Koreans → Japan: The evidence concerns migration, citizenship and litigation, not analyst employment.",
+      "evidence_lines": [
+        2172,
+        2174,
+        2175,
+        2176
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_387__ent_144",
+      "judgment": "ambiguous",
+      "reason": "Robert D. Reischauer → Congressional Budget Office: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        153,
+        157,
+        158
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_550__ent_792",
+      "judgment": "incorrect",
+      "reason": "Kalman Ruttenstein → Bloomingdale: Director, president or leadership evidence alone does not establish analyst work.",
+      "evidence_lines": [
+        705,
+        707,
+        711
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_312__ent_554",
+      "judgment": "incorrect",
+      "reason": "David F. Poltrack → CBS: Director, president or leadership evidence alone does not establish analyst work.",
+      "evidence_lines": [
+        725,
+        732,
+        733
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_578__ent_586",
+      "judgment": "incorrect",
+      "reason": "Michael D. McCurry → White House: Briefing, policy and travel evidence does not establish analyst employment.",
+      "evidence_lines": [
+        1369,
+        1372,
+        1374
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_855__ent_612",
+      "judgment": "ambiguous",
+      "reason": "Thomas Mayer → Deutsche Bank: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2385,
+        2386,
+        2387
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_720__ent_962",
+      "judgment": "ambiguous",
+      "reason": "Patrick C. Jackman → Labor Department: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        7516,
+        7517,
+        7521
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_806__ent_976",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        7825,
+        7826,
+        7827
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_978__ent_861",
+      "judgment": "supported",
+      "reason": "Scott Merlis → Morgan Stanley & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        7852,
+        7853,
+        7854
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_774__ent_531",
+      "judgment": "ambiguous",
+      "reason": "Maria Fiorini Ramirez → Drexel Burnham Lambert: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        532,
+        533
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_315__ent_557",
+      "judgment": "incorrect",
+      "reason": "Atlanta Braves → New York Mets: The evidence is a sports result, not analyst employment.",
+      "evidence_lines": [
+        1013,
+        1014
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_1185__ent_1186",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        1829,
+        1830
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_853__ent_610",
+      "judgment": "ambiguous",
+      "reason": "David H. Resler → Nomura Securities International: The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "evidence_lines": [
+        2373,
+        2374
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_736__ent_783",
+      "judgment": "supported",
+      "reason": "Gary D. Black → Sanford C. Bernstein & Company: An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "evidence_lines": [
+        7845,
+        7846
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_552__ent_794",
+      "judgment": "incorrect",
+      "reason": "James R. Capra → Shearson Lehman Government Securities: Director, president or leadership evidence alone does not establish analyst work.",
+      "evidence_lines": [
+        719
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_565__ent_322",
+      "judgment": "incorrect",
+      "reason": "Corliss Lamont → Englewood: A birth or death location is not analyst employment.",
+      "evidence_lines": [
+        971
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_582__ent_101",
+      "judgment": "incorrect",
+      "reason": "Michael D. Eisner → Walt Disney Company: Director, president or leadership evidence alone does not establish analyst work.",
+      "evidence_lines": [
+        1274
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_357__ent_599",
+      "judgment": "incorrect",
+      "reason": "Raymond Reisler → New York Hospital: A birth or death location is not analyst employment.",
+      "evidence_lines": [
+        1776
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:10.386Z"
+      }
+    }
+  ]
+}

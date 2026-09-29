@@ -1,0 +1,150 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_389",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        18
+      ],
+      "case_ids": [
+        "rel_389__ent_818__ent_1196",
+        "rel_389__ent_813__ent_812",
+        "rel_389__ent_1198__ent_814",
+        "rel_389__ent_5__ent_814",
+        "rel_389__ent_76__ent_814",
+        "rel_389__ent_818__ent_271",
+        "rel_389__ent_1198__ent_810"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit member/membership or accession evidence establishes organizational membership, including historical membership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12,
+        13,
+        15
+      ],
+      "case_ids": [
+        "rel_389__ent_819__ent_811",
+        "rel_389__ent_819__ent_1197",
+        "rel_389__ent_816__ent_811"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Party-control evidence is mixed with election/committee wording that may denote individual legislators rather than the party itself.",
+      "tags": [
+        "collective_argument"
+      ],
+      "question": "Does the plural party name here denote individual legislators who are members of the chamber, or the political party as a collective?"
+    },
+    {
+      "indices": [
+        0,
+        1,
+        19
+      ],
+      "case_ids": [
+        "rel_389__ent_819__ent_816",
+        "rel_389__ent_816__ent_819",
+        "rel_389__ent_816__ent_827"
+      ],
+      "judgment": "incorrect",
+      "reason": "Joining another party in action, voting alongside it or criticizing it does not establish membership in that party/person.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        7,
+        14,
+        16
+      ],
+      "case_ids": [
+        "rel_389__ent_7__ent_586",
+        "rel_389__ent_816__ent_586",
+        "rel_389__ent_816__ent_189",
+        "rel_389__ent_819__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Winning, occupying or controlling a political office/chamber does not establish organizational membership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        11,
+        20,
+        21
+      ],
+      "case_ids": [
+        "rel_389__ent_96__ent_695",
+        "rel_389__ent_99__ent_492",
+        "rel_389__ent_813__ent_706",
+        "rel_389__ent_820__ent_941"
+      ],
+      "judgment": "incorrect",
+      "reason": "National conflict, political leadership or bilateral relationships do not establish membership in the other argument.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_389__ent_233__ent_475"
+      ],
+      "judgment": "incorrect",
+      "reason": "A creek joining and flowing into a river is a geographic confluence, not membership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        22,
+        23
+      ],
+      "case_ids": [
+        "rel_389__ent_1004__ent_836",
+        "rel_389__ent_1004__ent_735"
+      ],
+      "judgment": "incorrect",
+      "reason": "Event participation and transactions with a minor-league team do not establish team membership in an organization.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    9,
+    18
+  ],
+  "broad": []
+}

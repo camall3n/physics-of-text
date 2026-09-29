@@ -1,0 +1,82 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_359",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4
+      ],
+      "case_ids": [
+        "rel_359__ent_820__ent_940",
+        "rel_359__ent_1443__ent_708"
+      ],
+      "judgment": "supported",
+      "reason": "The local government-led-by or explicit named-leader row establishes political leadership in the country.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        5,
+        7
+      ],
+      "case_ids": [
+        "rel_359__ent_820__ent_949",
+        "rel_359__ent_820__ent_941",
+        "rel_359__ent_326__ent_1086"
+      ],
+      "judgment": "ambiguous",
+      "reason": "An unspecified minister title does not establish the inherited political-head or legislative-leader scope.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does local evidence identify head-of-government or another qualifying political leadership role?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_359__ent_1434__ent_709"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Indirect minister and government-of paths do not clearly attach the national leadership relation to both extracted arguments.",
+      "tags": [
+        "attachment_unclear"
+      ],
+      "question": "Does Olmert head Israel government in the supplied rows, or is he a participant in an indirectly linked government/minister statement?"
+    },
+    {
+      "indices": [
+        3,
+        6,
+        8
+      ],
+      "case_ids": [
+        "rel_359__ent_1002__ent_1390",
+        "rel_359__ent_652__ent_1099",
+        "rel_359__ent_1197__ent_265"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic reporting attribution, corporate comparison or a statement in the Senate does not identify an individual political leader.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "049d72dacf2d5d89adb1cb2c73c6e02827a75ce7634788dd61e75d461a75a997"
+}

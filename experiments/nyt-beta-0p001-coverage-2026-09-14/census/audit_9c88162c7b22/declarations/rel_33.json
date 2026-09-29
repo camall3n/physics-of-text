@@ -1,0 +1,44 @@
+{
+  "relation": "rel_33",
+  "predicate_id": "agreed_with",
+  "predicate_version": 1,
+  "predicate_hash": "18baec882e670b9243ce8e666d345abb8ed3552ef872111a41ba06dd849c0055",
+  "predicate": {
+    "id": "agreed_with",
+    "label": "entered agreement with",
+    "definition": "Entity X entered or had an explicit agreement with counterpart Y.",
+    "includes": [
+      "explicit agreement-with",
+      "a stated shared agreement or accord",
+      "historical agreement"
+    ],
+    "excludes": [
+      "mere meeting or conversation",
+      "unilateral approval or support without shared agreement",
+      "a proposed agreement or ongoing negotiation without realization"
+    ],
+    "ambiguous": [
+      "unclear parties to an agreement",
+      "a future or conditional agreement",
+      "approval by a subunit without evidence of agreement by Y"
+    ],
+    "notes": "A specific agreement is sufficient; this does not imply agreement on every issue or permanent alliance.",
+    "scope_notes": "Includes: explicit agreement-with; a stated shared agreement or accord; historical agreement. Excludes: mere meeting or conversation; unilateral approval or support without shared agreement; a proposed agreement or ongoing negotiation without realization. Ambiguous unless resolved by case-local evidence: unclear parties to an agreement; a future or conditional agreement; approval by a subunit without evidence of agreement by Y. A specific agreement is sufficient; this does not imply agreement on every issue or permanent alliance."
+  },
+  "dictionary_sha256": "cec37829b9456ebb8483aae66b53b6753536ba8b5d606f18485204c6ab7947d2",
+  "kind": "declared_before_case_grading",
+  "rationale": "Agreement/approval family is strongest; actual reciprocal agreement required, not unilateral approval or a coach merely speaking to a player.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.638Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_33.before_grading.json",
+  "pregrading_annotation_sha256": "c14cc0596eef7ae35649a5a54940975ac07b58aa59e81b1c48de658a23afe7f9"
+}

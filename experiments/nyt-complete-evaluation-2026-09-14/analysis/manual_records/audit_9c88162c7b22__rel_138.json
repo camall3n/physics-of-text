@@ -1,0 +1,82 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_138",
+  "cases_sha256": "5d28482046f6f15c177540d41599e61bdd2b1cd7e9d471ac1029ce0160ab0b43",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_138__ent_4__ent_3",
+        "rel_138__ent_151__ent_393",
+        "rel_138__ent_582__ent_1136",
+        "rel_138__ent_208__ent_1145",
+        "rel_138__ent_370__ent_127",
+        "rel_138__ent_582__ent_101",
+        "rel_138__ent_380__ent_138",
+        "rel_138__ent_2__ent_1",
+        "rel_138__ent_580__ent_341",
+        "rel_138__ent_689__ent_1144",
+        "rel_138__ent_151__ent_625",
+        "rel_138__ent_133__ent_375",
+        "rel_138__ent_152__ent_394",
+        "rel_138__ent_1137__ent_1135"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chair, head, chief, executive, or president evidence supports managerial office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_138__ent_490__ent_51"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Taxi omits the actual governing commission or institution.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What full institution does Taxi denote?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_138__ent_263__ent_1172"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The individual chair is identified only as Republican.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which Republican person is intended?"
+    }
+  ],
+  "mixed": [
+    1,
+    10,
+    11
+  ],
+  "broad": []
+}

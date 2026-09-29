@@ -1,0 +1,87 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_144",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        6
+      ],
+      "case_ids": [
+        "rel_144__ent_562__ent_1002",
+        "rel_144__ent_182__ent_1002",
+        "rel_144__ent_281__ent_82"
+      ],
+      "judgment": "supported",
+      "reason": "A local unqualified go/return-to construction supports geographic movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_144__ent_1312__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Go-to-White-House accompanies secretary/corps employment context and may denote an institutional appointment rather than geographic travel.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does go denote physical movement to the building or joining the administration?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_144__ent_1382__ent_1442"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway is linked to a production role, so movement may be theatrical engagement rather than geographic travel.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does the Broadway move describe physical travel or an acting role?"
+    },
+    {
+      "indices": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_144__ent_321__ent_836",
+        "rel_144__ent_277__ent_321",
+        "rel_144__ent_909__ent_1",
+        "rel_144__ent_713__ent_965",
+        "rel_144__ent_338__ent_1422",
+        "rel_144__ent_1310__ent_1033",
+        "rel_144__ent_180__ent_675"
+      ],
+      "judgment": "incorrect",
+      "reason": "Event qualification, team/office roles, giving in a place or an official-in-location phrase does not establish destination travel.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "59126aa742e6bfb0b82f1e1459accaeb18eea87a585fb5f5e06bc25b837881aa"
+}

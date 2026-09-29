@@ -1,0 +1,39 @@
+{
+  "relation": "rel_92",
+  "predicate_id": "lobbyist_for",
+  "predicate_version": 1,
+  "predicate_hash": "c19eee9476897b2fa8d524a725120204ce38873f8107cd9faf3112c67076bf22",
+  "predicate": {
+    "id": "lobbyist_for",
+    "label": "lobbyist for principal",
+    "definition": "Person or organization X holds or held an explicitly identified lobbying role for principal Y.",
+    "includes": [
+      "explicit lobbyist for or of Y",
+      "historical lobbying service for Y"
+    ],
+    "excludes": [
+      "director of legislation or another managerial title without a lobbying role",
+      "ordinary advocacy, communication, legal service, or political agreement alone",
+      "membership in the principal organization alone"
+    ],
+    "ambiguous": [
+      "unclear lobbying principal or title attachment",
+      "incomplete institution or personal principal"
+    ],
+    "notes": "Legislative directorship and lobbying can coexist but are distinct roles. The definition does not infer lobbying from a legislative director title.",
+    "scope_notes": "Includes: explicit lobbyist for or of Y; historical lobbying service for Y. Excludes: director of legislation or another managerial title without a lobbying role; ordinary advocacy, communication, legal service, or political agreement alone; membership in the principal organization alone. Ambiguous unless resolved by case-local evidence: unclear lobbying principal or title attachment; incomplete institution or personal principal. Legislative directorship and lobbying can coexist but are distinct roles. The definition does not infer lobbying from a legislative director title."
+  },
+  "dictionary_sha256": "599fcd92630d565937ded54ef00a4c01e4a7db350efb45b27b78c2f407e76b3a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Three explicit lobbyist paths form the largest specific coherent role family. Two director-of-legislation paths are competing nearby roles; the apparent third director path has a different attachment. Independently reviewed by Boyle; weak mixed-title signal retained without broad affiliation.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:21:54.304Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_92.before_grading.json",
+  "pregrading_annotation_sha256": "70b0c460413bd8deb3aafd729fdb798a17ae78f47f363958f0e9fa4bcb67a4d2"
+}

@@ -1,0 +1,47 @@
+{
+  "relation": "rel_186",
+  "predicate_id": "sporting_champion_of",
+  "predicate_version": 1,
+  "predicate_hash": "d04ae9c3157aacfada7d14a78bc962d7012af492a777b2856f6df76ad00f39dc",
+  "predicate": {
+    "id": "sporting_champion_of",
+    "label": "wins or holds sporting championship",
+    "definition": "Entity X won sporting competition Y or held an explicitly Y-designated sporting championship or title.",
+    "includes": [
+      "sport win/champion/title/clinch-title",
+      "sporting league/division or explicitly title-designating body",
+      "historical sporting title"
+    ],
+    "excludes": [
+      "non-sport honorary awards",
+      "political election or control",
+      "participation",
+      "single stage without overall title",
+      "coaching or team membership alone"
+    ],
+    "ambiguous": [
+      "medal without a winning championship",
+      "unclear title attachment"
+    ],
+    "notes": "Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples.",
+    "scope_notes": "Includes: sport win/champion/title/clinch-title; sporting league/division or explicitly title-designating body; historical sporting title. Excludes: non-sport honorary awards; political election or control; participation; single stage without overall title; coaching or team membership alone. Ambiguous unless resolved by case-local evidence: medal without a winning championship; unclear title attachment. Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples."
+  },
+  "dictionary_sha256": "51b4311eb9dd3cba15241a3431ea0fe2979483f3276bf735abef71d8cea99958",
+  "kind": "declared_before_case_grading",
+  "rationale": "Win/victory/winner with racing track context identifies sporting-event victory family; minister and company-location paths separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:26.486Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3,
+    5,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_186.before_grading.json",
+  "pregrading_annotation_sha256": "97f329fec8674d79be57d1fb587dd0ee19532fcabd68f918874876250ebfdcf5"
+}

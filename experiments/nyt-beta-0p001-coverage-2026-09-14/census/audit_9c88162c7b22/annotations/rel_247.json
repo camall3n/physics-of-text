@@ -1,0 +1,70 @@
+{
+  "relation": "rel_247",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_247__ent_315__ent_557",
+      "judgment": "supported",
+      "reason": "Atlanta Braves → New York Mets: The explicit beat, win-against, and loss-to paths establish an actual contest between the teams; no fixed winning direction is needed for this declared competition predicate.",
+      "evidence_lines": [
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.838Z"
+      }
+    },
+    {
+      "case_id": "rel_247__ent_820__ent_826",
+      "judgment": "incorrect",
+      "reason": "Israel → Palestinians: Expulsion, killing, and policy toward Palestinians concern political conflict, not a competitive contest.",
+      "evidence_lines": [
+        4289,
+        4291,
+        4293,
+        4297
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.840Z"
+      }
+    },
+    {
+      "case_id": "rel_247__ent_96__ent_695",
+      "judgment": "incorrect",
+      "reason": "India → Pakistan: A national rivalry and recall-to path do not establish an actual competitive contest.",
+      "evidence_lines": [
+        5489,
+        5491
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.840Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "910369c51089fd00371b13b2baa556c2054419b828a1961d1fcae4d84ae1f73d"
+}

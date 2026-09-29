@@ -1,0 +1,70 @@
+{
+  "relation": "rel_133",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_133__ent_752__ent_510",
+      "judgment": "supported",
+      "reason": "Pat Cash → Wimbledon: Explicit Wimbledon winner and win-at rows establish participation in that competition.",
+      "evidence_lines": [
+        7996,
+        7997,
+        7999,
+        8000,
+        8001,
+        8002,
+        8003
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.972Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1004__ent_836",
+      "judgment": "supported",
+      "reason": "Yankees → World Series: Someone losing to the Yankees in the World Series establishes that the Yankees participated in that event.",
+      "evidence_lines": [
+        2184,
+        2700
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.972Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_884__ent_83",
+      "judgment": "incorrect",
+      "reason": "Raiders → Oakland: Oakland is the geographic return destination or game location, not an identified sporting event.",
+      "evidence_lines": [
+        5234,
+        5235
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.972Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "edc7380ac8cd01f264d3a17c6eb00525ccd1d13369998c077170e0ef944959c9"
+}

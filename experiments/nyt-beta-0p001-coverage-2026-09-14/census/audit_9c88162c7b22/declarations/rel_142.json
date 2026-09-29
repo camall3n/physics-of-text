@@ -1,0 +1,47 @@
+{
+  "relation": "rel_142",
+  "predicate_id": "managerial_office_in",
+  "predicate_version": 1,
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate": {
+    "id": "managerial_office_in",
+    "label": "managerial or leadership office in",
+    "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+    "includes": [
+      "head/president/chair/director/chief/commander/executive/manager",
+      "equivalent explicit management such as dean or commissioner",
+      "a functional or departmental leadership office within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "founder or owner alone",
+      "ordinary employment/membership",
+      "spokesperson/adviser/lawyer/analyst/editor alone",
+      "athletic or standings lead",
+      "candidacy or nomination alone"
+    ],
+    "ambiguous": [
+      "personal principal standing for an omitted campaign or institution",
+      "unclear leadership attachment"
+    ],
+    "notes": "This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+    "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone."
+  },
+  "dictionary_sha256": "cb311436fbcc1c0e22f14bc76c60e2a384fe4cec7c75c0cd5c47359e8b8a351f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Mixed chair/director office is the largest coherent role family (three), ahead of intern or move-out paths. The incomplete Homeless label and omitted office attachment remain unresolved unless local evidence identifies Y.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.111Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_142.before_grading.json",
+  "pregrading_annotation_sha256": "9282117a9f7921b8e593ca73b1dbaaaad10c7f94200f439939fd4f6f90f2e584"
+}

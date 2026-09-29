@@ -1,0 +1,39 @@
+{
+  "relation": "rel_10",
+  "predicate_id": "departed_from",
+  "predicate_version": 1,
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate": {
+    "id": "departed_from",
+    "label": "departed from",
+    "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+    "includes": [
+      "leave/withdraw/pull out from Y",
+      "historical physical departure"
+    ],
+    "excludes": [
+      "arrival/return to Y",
+      "residence alone",
+      "leaving a job or team as an institution without geography"
+    ],
+    "ambiguous": [
+      "place versus institution as source",
+      "explicitly conditional departure"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+  },
+  "dictionary_sha256": "c838c3fe26645edaaa1a73c5363c2d18fe985e7da57da0de6d8e70f16fe83fc9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Leave direct-object paths dominate; institutional versus physical departure is checked per case.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.633Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_10.before_grading.json",
+  "pregrading_annotation_sha256": "d2004fdc321edebb4ca98f8fd513cc7133feb3b0eb58de16e4646eed9f7b1d77"
+}

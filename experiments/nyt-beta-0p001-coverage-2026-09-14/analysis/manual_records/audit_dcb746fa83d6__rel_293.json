@@ -1,0 +1,85 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_293",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_293__ent_461__ent_222",
+        "rel_293__ent_224__ent_466",
+        "rel_293__ent_449__ent_1146",
+        "rel_293__ent_1412__ent_221",
+        "rel_293__ent_943__ent_1088",
+        "rel_293__ent_462__ent_683",
+        "rel_293__ent_714__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit company/firm-in or clear corporate geographic modifier identifies the organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_293__ent_1335__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The same inferred subject combines David with Corcoran Group; a company location row is present but the entity identity is mixed.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should David and Corcoran Group be separate entities?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_293__ent_1148__ent_460"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Both firm/company-dependency paths omit the linking relation, leaving geographic attachment unresolved.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Do these dependency fragments identify Port Washington as the firm's physical location?"
+    },
+    {
+      "indices": [
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_293__ent_319__ent_147",
+        "rel_293__ent_571__ent_1058"
+      ],
+      "judgment": "incorrect",
+      "reason": "A meeting with another team or writing about a newspaper does not establish organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    4,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0d0dd6b4a90ad3b9c97cc7a60c39025c667de5375b863f3861377cdc96149190"
+}

@@ -1,0 +1,127 @@
+{
+  "relation": "rel_380",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_380__ent_68__ent_1326",
+      "judgment": "supported",
+      "reason": "Representative Richard A. Gephardt → House: Explicit leader-in or president-in-department-at title establishes leadership within the identified body.",
+      "evidence_lines": [
+        3045,
+        3049,
+        3050,
+        3053
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.778Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_796__ent_311",
+      "judgment": "supported",
+      "reason": "Richard E. Witten → Goldman , Sachs & Company: Explicit leader-in or president-in-department-at title establishes leadership within the identified body.",
+      "evidence_lines": [
+        735,
+        741,
+        742
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.778Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_263__ent_1171",
+      "judgment": "ambiguous",
+      "reason": "Republican → House Ways and Means Committee: Republican is an unnamed person descriptor occupying the leader argument; the chairman role does not identify the officeholder.",
+      "evidence_lines": [
+        6322,
+        6326,
+        6328
+      ],
+      "issue_tags": [
+        "unnamed_person",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Republican person holds the stated chair office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.778Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_263__ent_30",
+      "judgment": "ambiguous",
+      "reason": "Republican → Senate Foreign Relations Committee: Republican is an unnamed person descriptor occupying the leader argument; the chairman role does not identify the officeholder.",
+      "evidence_lines": [
+        6357,
+        6363
+      ],
+      "issue_tags": [
+        "unnamed_person",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Republican person holds the stated chair office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.778Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_1250__ent_1299",
+      "judgment": "supported",
+      "reason": "Tom Daschle → Senate: Explicit leader-in or president-in-department-at title establishes leadership within the identified body.",
+      "evidence_lines": [
+        3005
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.778Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_873__ent_443",
+      "judgment": "incorrect",
+      "reason": "New Yorkers → AIDS: A medical condition does not establish organizational leadership.",
+      "evidence_lines": [
+        4910
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.778Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "57213fc2d9a48ac0cc95947ce6a7389e86c6c20ef6eb912ac52d4a9981129664"
+}

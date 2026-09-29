@@ -1,0 +1,95 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_170",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_170__ent_624__ent_866",
+        "rel_170__ent_626__ent_868",
+        "rel_170__ent_1154__ent_459",
+        "rel_170__ent_1065__ent_1064",
+        "rel_170__ent_624__ent_627",
+        "rel_170__ent_882__ent_1375",
+        "rel_170__ent_928__ent_1064",
+        "rel_170__ent_625__ent_1244",
+        "rel_170__ent_1304__ent_1233",
+        "rel_170__ent_1240__ent_1375",
+        "rel_170__ent_1128__ent_1129",
+        "rel_170__ent_1072__ent_1380",
+        "rel_170__ent_421__ent_423",
+        "rel_170__ent_926__ent_929"
+      ],
+      "judgment": "supported",
+      "reason": "The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_170__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Most Hughes rows describe an organizational subsidiary, but an executive-at row assigns Hughes a persons role; the first referent is materially unresolved within this fact.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Does the Hughes executive-at row refer to a person or reflect an extraction error, rather than the subsidiary named in the other rows?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_170__ent_1312__ent_1390"
+      ],
+      "judgment": "incorrect",
+      "reason": "A spokesman saying something in a Washington/State Department context does not establish organizational containment of Washington.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_170__ent_1326__ent_639"
+      ],
+      "judgment": "incorrect",
+      "reason": "Member apposition connects the House and Democrats; it does not say that the House is a subsidiary of the party.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    12
+  ],
+  "broad": []
+}

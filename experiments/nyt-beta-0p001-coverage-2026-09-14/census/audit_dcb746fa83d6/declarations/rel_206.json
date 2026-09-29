@@ -1,0 +1,48 @@
+{
+  "relation": "rel_206",
+  "predicate_id": "coach_of",
+  "predicate_version": 1,
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate": {
+    "id": "coach_of",
+    "label": "coach of",
+    "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+    "includes": [
+      "explicit coach title",
+      "direct coaching with correct subject and team",
+      "former/dismissed coach with clear office evidence",
+      "team/university shorthand when the athletic program role is clear"
+    ],
+    "excludes": [
+      "manager/president/player alone",
+      "winning with a team alone",
+      "vacancy consideration alone",
+      "reverse team-to-coach direction"
+    ],
+    "ambiguous": [
+      "missing coach subject or team attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment."
+  },
+  "dictionary_sha256": "e87a94fab50c5485df2884a090a991078118b78d1d082d5a0ae1699eeed11e79",
+  "kind": "declared_before_case_grading",
+  "rationale": "Coaching title/action family dominates over membership and legislative veto power. Malformed coach subject paths still require case-local role resolution.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:30:03.887Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    4,
+    10,
+    11
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_206.before_grading.json",
+  "pregrading_annotation_sha256": "bd763f41dba14caddee7c1f709a4bb535ef89542dc6b873434c32a4600328601"
+}

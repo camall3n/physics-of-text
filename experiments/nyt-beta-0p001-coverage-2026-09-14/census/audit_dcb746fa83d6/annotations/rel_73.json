@@ -1,0 +1,91 @@
+{
+  "relation": "rel_73",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_73__ent_1167__ent_229",
+      "judgment": "supported",
+      "reason": "Film Forum → West Houston Street: A direct be-at or reopened-at statement establishes the venue/business location, with local showroom context for Christie.",
+      "evidence_lines": [
+        6214,
+        6215,
+        6216,
+        6217,
+        6218,
+        6219,
+        6220,
+        6223
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.105Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_1168__ent_1169",
+      "judgment": "supported",
+      "reason": "Christie → Park Avenue: A direct be-at or reopened-at statement establishes the venue/business location, with local showroom context for Christie.",
+      "evidence_lines": [
+        6224,
+        6228,
+        6232,
+        6233
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.106Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_1330__ent_1180",
+      "judgment": "incorrect",
+      "reason": "Emanuel Goldman → Paine Webber: Professional analysis or borough presidency does not establish an organization's location.",
+      "evidence_lines": [
+        1802,
+        7812
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.106Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_253__ent_1056",
+      "judgment": "incorrect",
+      "reason": "Fernando Ferrer → Bronx Borough: Professional analysis or borough presidency does not establish an organization's location.",
+      "evidence_lines": [
+        2801
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.106Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b4b6679b6dc00b785abddd19e2d2ef0192dd4424fd59a3face2b09f012cb53c9"
+}

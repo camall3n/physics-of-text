@@ -1,0 +1,70 @@
+{
+  "relation": "rel_72",
+  "predicate_id": "organization_operates_in_domain",
+  "label": "organization operates in industry or domain",
+  "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+  "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain.",
+  "facts": [
+    {
+      "case_id": "rel_72__ent_933__ent_936",
+      "judgment": "supported",
+      "reason": "Google → Internet: Explicit Internet company/giant and business-domain wording establishes operations in that field.",
+      "evidence_lines": [
+        6835,
+        6836,
+        6837,
+        6838,
+        6839,
+        6843
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.861Z"
+      }
+    },
+    {
+      "case_id": "rel_72__ent_1083__ent_931",
+      "judgment": "incorrect",
+      "reason": "BellSouth Corporation → Bell: Bell corporate-family membership or political challenge does not establish a business-domain relation.",
+      "evidence_lines": [
+        6872,
+        6873,
+        6874,
+        6875,
+        6876
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.863Z"
+      }
+    },
+    {
+      "case_id": "rel_72__ent_828__ent_189",
+      "judgment": "incorrect",
+      "reason": "Clinton → Congress: Bell corporate-family membership or political challenge does not establish a business-domain relation.",
+      "evidence_lines": [
+        2031,
+        7904
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.863Z"
+      }
+    }
+  ],
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ab7529d5a37cb222f9a46eb902f33cbac2d4981955590ea0a14a99b033e70acb"
+}

@@ -1,0 +1,81 @@
+{
+  "relation": "rel_45",
+  "label": "lives in",
+  "definition": "Person or group X lives or has a residence in geographical place Y.",
+  "scope_notes": "Preserves personal residence scope. Death, birth, work, visit or a relative residing somewhere is not sufficient. Dictionary contains substantial family and obituary contamination; do not broaden to all person-place association.",
+  "facts": [
+    {
+      "case_id": "rel_45__ent_521__ent_763",
+      "judgment": "incorrect",
+      "reason": "Roberts only dies in Dartford; death place does not establish residence.",
+      "evidence_lines": [
+        8203
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_45__ent_747__ent_824",
+      "judgment": "incorrect",
+      "reason": "Diana dies/is killed in Paris; accident/death place does not establish residence.",
+      "evidence_lines": [
+        8160,
+        8161,
+        8163,
+        8166,
+        8168
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_45__ent_1160__ent_429",
+      "judgment": "supported",
+      "reason": "Mermelstein explicitly lives in Los Angeles; occupational/article rows are additional meanings.",
+      "evidence_lines": [
+        6090
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_45__ent_406__ent_333",
+      "judgment": "ambiguous",
+      "reason": "William has relative, lawyer, travel and restaurant paths. The sole live-in path attaches through wife, so the resident and the literal first argument are uncertain.",
+      "evidence_lines": [
+        4014,
+        4017,
+        4020,
+        4022
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the original wife/live-in sentence say William himself lives in Manhattan, or only a relative?"
+    },
+    {
+      "case_id": "rel_45__ent_404__ent_333",
+      "judgment": "incorrect",
+      "reason": "Michael has family, meeting, school and birthplace paths to Manhattan but no supplied residence evidence.",
+      "evidence_lines": [
+        3945,
+        3946,
+        3950,
+        3952,
+        3953
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "relation": "rel_80",
+  "label": "Subsidiary / organizational unit of (secondary cluster)",
+  "definition": "X is a subsidiary, division, or organizational unit of Y.",
+  "scope_notes": "Use the same definition as rel_325. This cluster is outside the top 20 and is evaluated separately to inspect fragmentation. Geographic office metonymy and truncated broadcasting entity names require human review.",
+  "facts": [
+    {
+      "case_id": "rel_80__ent_646__ent_1252",
+      "judgment": "incorrect",
+      "reason": "Yankees play series against or lose to Mets; sporting opponents are not organizational subsidiaries.",
+      "evidence_lines": [
+        905,
+        910,
+        2600
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1286__ent_824",
+      "judgment": "incorrect",
+      "reason": "American is an adjective modifying diplomat or embassy in Paris, not an organizational subsidiary of Paris.",
+      "evidence_lines": [
+        2118,
+        2120
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_823__ent_1278",
+      "judgment": "incorrect",
+      "reason": "Mexicans work in United States; nationality/location does not establish an organizational unit.",
+      "evidence_lines": [
+        2123
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_624__ent_866",
+      "judgment": "supported",
+      "reason": "United is explicitly a unit/part of UAL Corporation, which is also identified as its parent.",
+      "evidence_lines": [
+        2489,
+        2490,
+        6589,
+        6596
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_623__ent_865",
+      "judgment": "supported",
+      "reason": "Foote has direct unit-of, part-of and owned-by evidence toward True North Communications.",
+      "evidence_lines": [
+        2491,
+        2492,
+        2493,
+        2494,
+        2495,
+        2496,
+        2497,
+        2499,
+        2500
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_867__ent_186",
+      "judgment": "supported",
+      "reason": "NBC is explicitly a subsidiary/unit of General Electric Company in both rows.",
+      "evidence_lines": [
+        2526,
+        2527
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_624__ent_627",
+      "judgment": "supported",
+      "reason": "United is explicitly a subsidiary/unit of UAL and owned by it.",
+      "evidence_lines": [
+        2531,
+        2532,
+        2533,
+        2534,
+        2535,
+        2536,
+        2537,
+        2538,
+        2539,
+        2540
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1276__ent_400",
+      "judgment": "incorrect",
+      "reason": "Giants lose to or play against Jets; this is a sporting opponent relation.",
+      "evidence_lines": [
+        2623,
+        2626
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_288__ent_1264",
+      "judgment": "incorrect",
+      "reason": "The Mets introduce Al Harazin; this does not make the person a subsidiary of the team.",
+      "evidence_lines": [
+        3371
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1239__ent_572",
+      "judgment": "incorrect",
+      "reason": "Yankees move from Bronx; this is a geographic origin/location relationship.",
+      "evidence_lines": [
+        4049
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_407__ent_649",
+      "judgment": "ambiguous",
+      "reason": "Chicago modifies an office that is part of DDB Worldwide, but the extracted first entity is a city name. Direct part-of evidence may be office metonymy.",
+      "evidence_lines": [
+        4124,
+        4125,
+        4126,
+        4127,
+        4128,
+        4129,
+        4130
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Does Chicago identify the DDB office, or did the extraction replace the organizational entity with the city?"
+    },
+    {
+      "case_id": "rel_80__ent_843__ent_421",
+      "judgment": "ambiguous",
+      "reason": "New York is in a division-of path toward Fallon Worldwide and modifies office in another path; only the city name was retained.",
+      "evidence_lines": [
+        4204,
+        4207
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Is New York the name of a Fallon office here, or must the city/organization pair be rejected?"
+    },
+    {
+      "case_id": "rel_80__ent_1128__ent_1129",
+      "judgment": "supported",
+      "reason": "J. Walter Thompson has direct part-of and division-of evidence toward WPP Group; acquisition context is consistent with this historical containment.",
+      "evidence_lines": [
+        4581,
+        4585,
+        4589,
+        6683,
+        6687,
+        6691
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1128__ent_1224",
+      "judgment": "supported",
+      "reason": "This separate J. Walter Thompson/WPP fact has direct part-of evidence and unit-of WPP p.l.c. paths.",
+      "evidence_lines": [
+        4587,
+        4588,
+        6689,
+        6690
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1104__ent_1241",
+      "judgment": "supported",
+      "reason": "BBDO Worldwide has an explicit part-of Omnicom path. Agency-in and commercial/part attachments do not individually establish this predicate.",
+      "evidence_lines": [
+        4602,
+        4606,
+        4610,
+        6678,
+        6682
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_665__ent_1120",
+      "judgment": "supported",
+      "reason": "Euro RSCG Worldwide has unit/division-of and owned-by evidence toward Havas; one possessive unit path runs in the opposite direction.",
+      "evidence_lines": [
+        4651,
+        4652,
+        4653,
+        4654,
+        4655,
+        4656,
+        4657,
+        4658,
+        4659,
+        4660
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "direction"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_667__ent_1205",
+      "judgment": "incorrect",
+      "reason": "Born follows a father to United States; this is malformed person/movement evidence, not a subsidiary.",
+      "evidence_lines": [
+        4699
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1132__ent_436",
+      "judgment": "incorrect",
+      "reason": "Shimon Peres leads or rivals others in Labor Party; a person’s leadership role is not organizational containment.",
+      "evidence_lines": [
+        5059,
+        5061,
+        5062,
+        5065
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_819__ent_15",
+      "judgment": "incorrect",
+      "reason": "Democrats support Mr. Bush; political support does not express subsidiary-of.",
+      "evidence_lines": [
+        5539
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1062__ent_776",
+      "judgment": "supported",
+      "reason": "Sears Receivables Financing Group Inc. is explicitly a subsidiary/unit of Sears. Certificate/filing paths add non-containment assignments.",
+      "evidence_lines": [
+        6566,
+        6567,
+        6568,
+        6570,
+        6571,
+        6572
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_920__ent_1066",
+      "judgment": "supported",
+      "reason": "Electronic Data Systems Corporation has explicit subsidiary, division, unit and arm-of evidence toward General Motors Corporation. Sale/acquisition paths add historical context.",
+      "evidence_lines": [
+        6623,
+        6624,
+        6625,
+        6626,
+        6627,
+        6628,
+        6629,
+        6630,
+        6631,
+        6632
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_665__ent_1069",
+      "judgment": "supported",
+      "reason": "Euro RSCG Worldwide has direct unit/division-of and owned-by evidence toward Havas Advertising. A corrupted path and an indirect RSCG fragment do not invalidate the clear paths.",
+      "evidence_lines": [
+        6663,
+        6664,
+        6665,
+        6666,
+        6667,
+        6668,
+        6669,
+        6670,
+        6671,
+        6672
+      ],
+      "issue_tags": [
+        "malformed_path"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1093__ent_924",
+      "judgment": "supported",
+      "reason": "Conde Nast Publications is explicitly a unit of Advance Publications.",
+      "evidence_lines": [
+        6694
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1072__ent_880",
+      "judgment": "supported",
+      "reason": "DDB Needham Worldwide has direct unit/part-of Omnicom evidence. Merger/deal paths alone would not establish organizational containment.",
+      "evidence_lines": [
+        6709,
+        6710,
+        6711,
+        6714,
+        6716,
+        6717
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1080__ent_1245",
+      "judgment": "incorrect",
+      "reason": "DoubleClick is connected to Internet as a modifier of advertising; Internet is a medium, not its organizational parent.",
+      "evidence_lines": [
+        6856
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_108__ent_371",
+      "judgment": "ambiguous",
+      "reason": "PBS and Channel appear in broadcasting/include paths. Channel is truncated, and direction/organizational ownership cannot be recovered from these triples.",
+      "evidence_lines": [
+        7524,
+        7525
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment",
+        "insufficient_evidence"
+      ],
+      "reviewer_question": "Which channel is named, and do the full sentences assert that PBS is its subsidiary, the reverse, or simply a broadcasting affiliation?"
+    },
+    {
+      "case_id": "rel_80__ent_515__ent_96",
+      "judgment": "incorrect",
+      "reason": "Mr. Rushdie is linked to India by birth/family and a parable about history; neither is organizational containment.",
+      "evidence_lines": [
+        8394,
+        8400
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

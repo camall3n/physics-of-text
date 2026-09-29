@@ -1,0 +1,49 @@
+{
+  "relation": "rel_383",
+  "predicate_id": "met_with",
+  "predicate_version": 1,
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate": {
+    "id": "met_with",
+    "label": "met or encountered",
+    "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+    "includes": [
+      "explicit actual meet or meet-with encounter",
+      "a meeting between representatives clearly attributed to the named institutions",
+      "actual meeting of opposing sports teams"
+    ],
+    "excludes": [
+      "communication alone without an encounter",
+      "a proposed or scheduled meeting not established as occurring",
+      "physical confluence of rivers or geographic features",
+      "mere co-occurrence or comparison"
+    ],
+    "ambiguous": [
+      "future or planned meeting when occurrence is unresolved",
+      "meeting versus satisfying an abstract requirement",
+      "unclear representatives or participants"
+    ],
+    "notes": "The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+    "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result."
+  },
+  "dictionary_sha256": "9e751bff62ffb33d1520b954d1c6dd1dcb7c42e2ea232515a137d736a0124ebb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Meeting/encounter paths are the strongest coherent family. Saying something about, telephoning or writing alone does not establish an actual meeting.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.223Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    13,
+    16,
+    22
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_383.before_grading.json",
+  "pregrading_annotation_sha256": "cf2bb582c93ef1d96e83c2d3f63ad4ee90af9ddf96eafe0ad8b4392bc76464d1"
+}

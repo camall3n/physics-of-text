@@ -1,0 +1,89 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_274",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "case_ids": [
+        "rel_274__ent_389__ent_146",
+        "rel_274__ent_1132__ent_436",
+        "rel_274__ent_435__ent_677",
+        "rel_274__ent_178__ent_644",
+        "rel_274__ent_1130__ent_434",
+        "rel_274__ent_310__ent_55",
+        "rel_274__ent_268__ent_1139",
+        "rel_274__ent_676__ent_1131",
+        "rel_274__ent_1250__ent_1317",
+        "rel_274__ent_803__ent_53",
+        "rel_274__ent_261__ent_1333",
+        "rel_274__ent_1221__ent_764",
+        "rel_274__ent_437__ent_956",
+        "rel_274__ent_474__ent_1269"
+      ],
+      "judgment": "supported",
+      "reason": "Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        10
+      ],
+      "case_ids": [
+        "rel_274__ent_1224__ent_69",
+        "rel_274__ent_255__ent_497",
+        "rel_274__ent_34__ent_37",
+        "rel_274__ent_1337__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The political argument is a singular nationality or truncated political descriptor, leaving the governed body or people underspecified.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What complete political body or people group does the argument denote?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_274__ent_1406__ent_1401"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bob Dole and Tom Daschle are distinct people merged in the same fact.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which person does the inferred subject represent?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    6
+  ],
+  "broad": []
+}

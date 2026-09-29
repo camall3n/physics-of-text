@@ -1,0 +1,44 @@
+{
+  "relation": "rel_254",
+  "predicate_id": "sells_to",
+  "predicate_version": 1,
+  "predicate_hash": "0167fa32af9b9b27da8721030cdfb1cc8765debd28042890094b998a0f1d6142",
+  "predicate": {
+    "id": "sells_to",
+    "label": "sells to",
+    "definition": "Entity X sells or sold goods, services, property, or transferable rights to buyer Y.",
+    "includes": [
+      "explicit sell-to or sale-to",
+      "a completed commercial transfer to Y",
+      "historical sales including transferable sporting contracts"
+    ],
+    "excludes": [
+      "ordinary giving or physical movement",
+      "a proposed sale without realization",
+      "Y is the item sold rather than the buyer"
+    ],
+    "ambiguous": [
+      "unclear seller-versus-item role",
+      "proposed or conditional sale",
+      "a nominal sale whose owner or seller is unresolved"
+    ],
+    "notes": "An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not.",
+    "scope_notes": "Includes: explicit sell-to or sale-to; a completed commercial transfer to Y; historical sales including transferable sporting contracts. Excludes: ordinary giving or physical movement; a proposed sale without realization; Y is the item sold rather than the buyer. Ambiguous unless resolved by case-local evidence: unclear seller-versus-item role; proposed or conditional sale; a nominal sale whose owner or seller is unresolved. An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not."
+  },
+  "dictionary_sha256": "287bc5f53fc0cd6c0643073409620336c7838481fd46f6068224a7acffa58a02",
+  "kind": "declared_before_case_grading",
+  "rationale": "Sell/sale-to is the clear dominant family; geographic journeys, family obituary fragments and sports counterpart pairs do not automatically establish sale.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.225Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_254.before_grading.json",
+  "pregrading_annotation_sha256": "739bb1ce6895bab34d8fdb9bbda3675d28310c21a5019bab96fc8b144fb2a60e"
+}

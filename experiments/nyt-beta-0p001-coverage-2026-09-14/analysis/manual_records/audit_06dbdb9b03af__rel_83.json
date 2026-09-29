@@ -1,0 +1,58 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_83",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_83__ent_196__ent_189"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit agreement-with establishes an agreement between the named administration and Congress.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_83__ent_183__ent_189"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The agreement is explicit but Administration leaves the institutional principal unidentified.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which administration made the agreement with Congress?"
+    },
+    {
+      "indices": [
+        0,
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_83__ent_276__ent_561",
+        "rel_83__ent_309__ent_1004",
+        "rel_83__ent_546__ent_788"
+      ],
+      "judgment": "incorrect",
+      "reason": "Managerial service, sporting shock or speech at a conference does not establish agreement with the target.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1fcaf2e3e7de01e4534507370e6e4c57d44dc0845733b9be552eb9f987591821"
+}

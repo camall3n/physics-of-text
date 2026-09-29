@@ -1,0 +1,48 @@
+{
+  "relation": "rel_210",
+  "predicate_id": "has_political_leader",
+  "predicate_version": 1,
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate": {
+    "id": "has_political_leader",
+    "label": "political body has a leader",
+    "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+    "includes": [
+      "national president/ruler/head of government",
+      "named parliamentary majority/minority leader or whip",
+      "historical leadership"
+    ],
+    "excludes": [
+      "corporate/team leadership",
+      "ordinary membership/meeting",
+      "party control instead of an individual leader",
+      "person-to-body forward direction"
+    ],
+    "ambiguous": [
+      "unspecified minister without evidence of head-of-government or leadership scope",
+      "truncated body or unnamed officeholder"
+    ],
+    "notes": "Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+    "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S."
+  },
+  "dictionary_sha256": "9fcbeccf974e3d6491d4a38ac1bd05c4f18a9849c8a22b8a021146630e6ce2a6",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse country-to-minister/leader descriptions form the strongest coherent office family; mere saying in a place or policy comments are insufficient.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.820Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3,
+    12,
+    15,
+    20
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_210.before_grading.json",
+  "pregrading_annotation_sha256": "e704ca0c7fb185a473b390a533bee1c4b6f038a40065e898453c3f1a7407e813"
+}

@@ -1,0 +1,88 @@
+{
+  "relation": "rel_378",
+  "predicate_id": "born_in",
+  "label": "born in",
+  "definition": "Person X was born in geographic place Y.",
+  "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment.",
+  "facts": [
+    {
+      "case_id": "rel_378__ent_562__ent_323",
+      "judgment": "supported",
+      "reason": "Mr. Smith → Brooklyn: Direct born-in or born-to-a-family-in establishes the named person birthplace; unrelated local history does not replace that supporting row.",
+      "evidence_lines": [
+        962,
+        963,
+        964,
+        968,
+        969
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.427Z"
+      }
+    },
+    {
+      "case_id": "rel_378__ent_515__ent_96",
+      "judgment": "supported",
+      "reason": "Mr. Rushdie → India: Direct born-in or born-to-a-family-in establishes the named person birthplace; unrelated local history does not replace that supporting row.",
+      "evidence_lines": [
+        8391,
+        8392,
+        8395,
+        8400
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.427Z"
+      }
+    },
+    {
+      "case_id": "rel_378__ent_1300__ent_1423",
+      "judgment": "incorrect",
+      "reason": "Riley → Starks: A sports rotation or speaking at an institution does not establish birthplace.",
+      "evidence_lines": [
+        1550,
+        1554
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.427Z"
+      }
+    },
+    {
+      "case_id": "rel_378__ent_1360__ent_310",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → White House: A sports rotation or speaking at an institution does not establish birthplace.",
+      "evidence_lines": [
+        4090
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:12.427Z"
+      }
+    }
+  ],
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "96565177f4562a0480ff3fa88ff8f578931da253315f194c22b48db312ef3c9e"
+}

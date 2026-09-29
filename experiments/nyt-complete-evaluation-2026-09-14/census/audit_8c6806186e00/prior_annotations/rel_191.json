@@ -1,0 +1,70 @@
+{
+  "relation": "rel_191",
+  "label": "managerial or political leadership in",
+  "definition": "Person 1 holds or formerly held a managerial or political leadership office in organization/body 2.",
+  "scope_notes": "Head, chair, president, director, chief and leader qualify, including a leadership office within a subunit. Mere committee membership, founder/owner status or analyst role does not.",
+  "facts": [
+    {
+      "case_id": "rel_191__ent_2__ent_1261",
+      "judgment": "ambiguous",
+      "reason": "Rohatyn is explicitly chairman of Municipal Assistance Corporation, but the same inferred pair also maps Bosnian Serb to Radovan Karadzic, a different identity and reverse political role.",
+      "evidence_lines": [
+        240,
+        246,
+        7703
+      ],
+      "issue_tags": [
+        "entity_name_conflict"
+      ],
+      "reviewer_question": "Which real-world entities does this inferred pair denote: Rohatyn/Municipal Assistance Corporation, or Bosnian Serb/Karadzic?"
+    },
+    {
+      "case_id": "rel_191__ent_107__ent_561",
+      "judgment": "ambiguous",
+      "reason": "John Mara and George Young are both attached to this single entity as Giants presidents. The role is locally supported for each name, but a unique person cannot be assigned to the inferred entity.",
+      "evidence_lines": [
+        1696,
+        1700,
+        3198
+      ],
+      "issue_tags": [
+        "entity_name_conflict"
+      ],
+      "reviewer_question": "Are John Mara and George Young distinct people incorrectly merged here, and which person should the inferred fact name?"
+    },
+    {
+      "case_id": "rel_191__ent_249__ent_262",
+      "judgment": "supported",
+      "reason": "Fauci is explicitly director and head of the National Institute of Allergy and Infectious Diseases.",
+      "evidence_lines": [
+        2954,
+        2955,
+        2956
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_191__ent_590__ent_143",
+      "judgment": "supported",
+      "reason": "Thorn is explicitly president of the Nets.",
+      "evidence_lines": [
+        1616
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_191__ent_435__ent_677",
+      "judgment": "supported",
+      "reason": "Mandela is explicitly leader, head and president of the African National Congress.",
+      "evidence_lines": [
+        5006,
+        5009,
+        5010
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

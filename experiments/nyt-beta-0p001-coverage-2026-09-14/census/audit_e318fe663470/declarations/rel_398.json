@@ -1,0 +1,43 @@
+{
+  "relation": "rel_398",
+  "predicate_id": "subsidiary_of",
+  "predicate_version": 1,
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate": {
+    "id": "subsidiary_of",
+    "label": "subsidiary or organizational unit of",
+    "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+    "includes": [
+      "explicit subsidiary/unit/division/organizational-part",
+      "corporate owned-by or an explicit parent relationship in the child-to-parent direction",
+      "historical containment or ownership"
+    ],
+    "excludes": [
+      "employment",
+      "geographic containment",
+      "ordinary affiliation",
+      "reverse parent-to-child direction",
+      "a proposed acquisition"
+    ],
+    "ambiguous": [
+      "city standing for an unnamed office",
+      "minority investment alone without evidence of organizational containment",
+      "incomplete ownership attachment"
+    ],
+    "notes": "Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+    "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part."
+  },
+  "dictionary_sha256": "8214864f69ef64192697b2c24c6371efac7367bbb6af3081697a9849d965b55d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Corporate unit/part-of paths overwhelmingly dominate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.831Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_398.before_grading.json",
+  "pregrading_annotation_sha256": "dfca647f70624913fa6acc50f40ff13230839b665a124836ad06f972e4a43635"
+}

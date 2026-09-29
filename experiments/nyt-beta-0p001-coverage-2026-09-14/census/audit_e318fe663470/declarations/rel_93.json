@@ -1,0 +1,42 @@
+{
+  "relation": "rel_93",
+  "predicate_id": "member_of",
+  "predicate_version": 1,
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate": {
+    "id": "member_of",
+    "label": "member of organization",
+    "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+    "includes": [
+      "explicit member/belong/membership",
+      "join/accession/entry when organizational membership is established",
+      "individual legislators and countries in alliances"
+    ],
+    "excludes": [
+      "join a person in an action",
+      "geographic entry",
+      "event participation",
+      "party control of legislature",
+      "negotiations or proposed membership alone"
+    ],
+    "ambiguous": [
+      "bare join without clear completion or membership meaning",
+      "plural party naming individual members rather than the party itself"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself."
+  },
+  "dictionary_sha256": "ce27d8aa02ecc8f47427ff7664693fb1dedc4013c339650f7f3ac5549e8e37fd",
+  "kind": "declared_before_case_grading",
+  "rationale": "Sit-on and membership plus institutional-entry paths form the largest coherent family after checking country/committee roles. Physical building entry is a competing meaning.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:14:12.643Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_93.before_grading.json",
+  "pregrading_annotation_sha256": "59bf898a37948db328810fa6bb6c633553e414beed85129fc9bac27a3bdb51a7"
+}

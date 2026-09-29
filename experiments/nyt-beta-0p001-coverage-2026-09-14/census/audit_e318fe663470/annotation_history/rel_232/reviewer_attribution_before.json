@@ -1,0 +1,242 @@
+{
+  "relation": "rel_232",
+  "predicate_id": "met_with",
+  "label": "met or encountered",
+  "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+  "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+  "facts": [
+    {
+      "case_id": "rel_232__ent_1263__ent_754",
+      "judgment": "supported",
+      "reason": "George P. Shultz → Eduard A. Shevardnadze: An explicit meet/meet-with row asserts an encounter between the named people or teams.",
+      "evidence_lines": [
+        8253,
+        8254,
+        8255,
+        8256,
+        8258,
+        8259,
+        8260,
+        8261
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_231__ent_473",
+      "judgment": "incorrect",
+      "reason": "Connecticut River → Long Island Sound: River confluence, spokesperson status or generic giving does not establish a person/institution/team encounter.",
+      "evidence_lines": [
+        6071,
+        6074,
+        6077,
+        6078,
+        6079,
+        6080
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_308__ent_1005",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: An explicit meet/meet-with row asserts an encounter between the named people or teams.",
+      "evidence_lines": [
+        874,
+        875,
+        6044,
+        6045
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_233__ent_475",
+      "judgment": "incorrect",
+      "reason": "Rondout Creek → Hudson: River confluence, spokesperson status or generic giving does not establish a person/institution/team encounter.",
+      "evidence_lines": [
+        6082,
+        6083,
+        6084,
+        6088
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_308__ent_543",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: An explicit meet/meet-with row asserts an encounter between the named people or teams.",
+      "evidence_lines": [
+        940,
+        2620
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_338__ent_586",
+      "judgment": "incorrect",
+      "reason": "Joe Lockhart → White House: River confluence, spokesperson status or generic giving does not establish a person/institution/team encounter.",
+      "evidence_lines": [
+        1408,
+        1412
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_470__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "Mariners → Yankees; Willie Randolph → Yankees: The meeting row for Mariners is merged with a different Willie Randolph subject in this inferred fact.",
+      "evidence_lines": [
+        6062,
+        6548
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Mariners and Willie Randolph be split into separate entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_753__ent_519",
+      "judgment": "supported",
+      "reason": "Mr. Netanyahu → Mr. Arafat: An explicit meet/meet-with row asserts an encounter between the named people or teams.",
+      "evidence_lines": [
+        8278,
+        8279
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_380__ent_189",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Congress: River confluence, spokesperson status or generic giving does not establish a person/institution/team encounter.",
+      "evidence_lines": [
+        411
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_1334__ent_612",
+      "judgment": "incorrect",
+      "reason": "Constitution → Senate: River confluence, spokesperson status or generic giving does not establish a person/institution/team encounter.",
+      "evidence_lines": [
+        4228
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_518__ent_289",
+      "judgment": "supported",
+      "reason": "Stepinac → Holy Cross: An explicit meet/meet-with row asserts an encounter between the named people or teams.",
+      "evidence_lines": [
+        6081
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_30__ent_1406",
+      "judgment": "ambiguous",
+      "reason": "Ms. Garrison → Georgia: Georgia could be a person or the geographic state; the isolated meet row does not resolve the actual encounter participant.",
+      "evidence_lines": [
+        6089
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Who or what does Georgia identify in this meeting?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.293Z"
+      }
+    }
+  ],
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "07d4577f2818fc399a68a49dce94b16db24424015b78605b8c27331579d06110"
+}

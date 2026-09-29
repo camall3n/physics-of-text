@@ -1,0 +1,42 @@
+{
+  "relation": "rel_232",
+  "predicate_id": "met_with",
+  "predicate_version": 1,
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate": {
+    "id": "met_with",
+    "label": "met or encountered",
+    "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+    "includes": [
+      "explicit actual meet or meet-with encounter",
+      "a meeting between representatives clearly attributed to the named institutions",
+      "actual meeting of opposing sports teams"
+    ],
+    "excludes": [
+      "communication alone without an encounter",
+      "a proposed or scheduled meeting not established as occurring",
+      "physical confluence of rivers or geographic features",
+      "mere co-occurrence or comparison"
+    ],
+    "ambiguous": [
+      "future or planned meeting when occurrence is unresolved",
+      "meeting versus satisfying an abstract requirement",
+      "unclear representatives or participants"
+    ],
+    "notes": "The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+    "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result."
+  },
+  "dictionary_sha256": "c825e734c4e8d08add26a3a6bd8f89bc9b5858b1dbe84c395924f95b5d3177eb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Meet-direct-object and meet-with paths dominate. Ordered participants include people and teams; geographic river confluence is not interpersonal/team meeting.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:58.283Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_232.before_grading.json",
+  "pregrading_annotation_sha256": "3f97fe429a0392566da163c324f80aa7c95801f62a31b37041a5e0b007b7d771"
+}

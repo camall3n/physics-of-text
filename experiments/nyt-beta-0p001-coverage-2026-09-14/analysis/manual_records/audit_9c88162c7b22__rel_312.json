@@ -1,0 +1,54 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_312",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_312__ent_148__ent_163",
+        "rel_312__ent_157__ent_399",
+        "rel_312__ent_150__ent_392",
+        "rel_312__ent_765__ent_522",
+        "rel_312__ent_528__ent_781"
+      ],
+      "judgment": "supported",
+      "reason": "A direct professor-at or teaching-at row supplies the academic teaching affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_312__ent_414__ent_656"
+      ],
+      "judgment": "incorrect",
+      "reason": "Specialist-at alone is not professor or teaching evidence.",
+      "tags": [
+        "wrong_occupation"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f61f5e225ef7639455dd0e084955e03bbb815d0910dca660606078505d27f859"
+}

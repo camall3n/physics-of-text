@@ -1,0 +1,62 @@
+{
+  "relation": "rel_219",
+  "predicate_id": "reviews_artistic_output_of",
+  "predicate_version": 1,
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate": {
+    "id": "reviews_artistic_output_of",
+    "label": "reviewed artistic output of",
+    "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+    "includes": [
+      "review of Y's performance, program, production, or artistic work",
+      "direct review of artist or ensemble Y in an artistic criticism context",
+      "historical reviews"
+    ],
+    "excludes": [
+      "a review merely taking place at venue Y",
+      "ordinary mention, attendance, or affiliation",
+      "an unrelated subject reviewed at a place owned by Y",
+      "authorship for a publication without reviewing Y's work"
+    ],
+    "ambiguous": [
+      "Y could denote the venue rather than the producer or performer",
+      "unclear reviewer or artistic-work attachment"
+    ],
+    "notes": "Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+    "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator."
+  },
+  "dictionary_sha256": "35e901f05aad6f2774f1cb2f70c919e8623a2d9fb88088e8de91577b3598e620",
+  "kind": "declared_before_case_grading",
+  "rationale": "Review of artistic work/performance is the consistent dictionary family; destination venue alone may be ambiguous and is not automatically the performer.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.154Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    19,
+    20,
+    21,
+    25
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_219.before_grading.json",
+  "pregrading_annotation_sha256": "b68a5d64756dd7e58912ba4323f0524be5d0ab99fc7861d7f39b431d069bce35"
+}

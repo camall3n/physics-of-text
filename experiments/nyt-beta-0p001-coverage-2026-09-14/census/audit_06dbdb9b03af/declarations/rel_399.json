@@ -1,0 +1,48 @@
+{
+  "relation": "rel_399",
+  "predicate_id": "travels_to",
+  "predicate_version": 1,
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate": {
+    "id": "travels_to",
+    "label": "moves or travels to",
+    "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+    "includes": [
+      "move/relocate/return/arrive/go/visit to Y",
+      "depart/leave for Y",
+      "temporary travel or organizational relocation",
+      "bare unqualified destination movement as textual support"
+    ],
+    "excludes": [
+      "leave/withdraw from Y",
+      "mere presence/residence/death place",
+      "sports-event qualification or attendance as a nongeographic destination",
+      "membership or political control"
+    ],
+    "ambiguous": [
+      "explicitly hypothetical or proposed relocation",
+      "invasion-only boundary",
+      "geographic/team or theatrical metonymy"
+    ],
+    "notes": "Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+    "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path."
+  },
+  "dictionary_sha256": "1b222d83813573f0641c90a04fef1bd93a2392c307277ff5b326223f4ac7dd9c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Enter/smuggle/flow-into defines physical arrival, with institution/political office ambiguity retained.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.144Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    3,
+    5,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_399.before_grading.json",
+  "pregrading_annotation_sha256": "daaed4b0329c1657b34a0ec5ad6063d06eb356a90a4b3bd5f0ce0a0327a8c0f8"
+}

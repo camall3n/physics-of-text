@@ -1,0 +1,43 @@
+{
+  "relation": "rel_76",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "50a313b897318dcc2975cc475e7ff6c73eca8365ab29b1bf60b1bb425be56290",
+  "kind": "declared_before_case_grading",
+  "rationale": "Specific county executive title family dominates; executive-elect and counterpart alone do not automatically establish tenure.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.584Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    3,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_76.before_grading.json",
+  "pregrading_annotation_sha256": "ddf2e4d100739086df7801d18f43f6d9b0403b5b21460d9907bd529e98aef9b9"
+}

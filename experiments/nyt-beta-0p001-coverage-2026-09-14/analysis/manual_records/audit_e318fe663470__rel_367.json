@@ -1,0 +1,79 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_367",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "case_ids": [
+        "rel_367__ent_1314__ent_696",
+        "rel_367__ent_586__ent_344",
+        "rel_367__ent_1140__ent_97",
+        "rel_367__ent_1422__ent_1312",
+        "rel_367__ent_536__ent_1031",
+        "rel_367__ent_1314__ent_335",
+        "rel_367__ent_586__ent_1039",
+        "rel_367__ent_1356__ent_577",
+        "rel_367__ent_1356__ent_336",
+        "rel_367__ent_1422__ent_1030",
+        "rel_367__ent_1254__ent_1441"
+      ],
+      "judgment": "supported",
+      "reason": "A local organization-modifying spokesman with the named appositive person supports the inverse spokesperson relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_367__ent_1223__ent_1398"
+      ],
+      "judgment": "incorrect",
+      "reason": "Handing something to China does not identify a spokesperson.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_367__ent_1314__ent_577"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Calling someone the institution's voice suggests representation but does not explicitly identify a spokesperson office or speaking-for role.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does voice here mean the institution's actual spokesperson?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    6,
+    8,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f0da0272f7a0e0a240116a4a920a76810e0ae29f69674408b073f2bfdf34e2e9"
+}

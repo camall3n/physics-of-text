@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "baseline_entries": 19452,
+  "unchanged_entries": 19446,
+  "authorized_existing_file_changes": [
+    {
+      "path": "HANDOFF.md",
+      "before": {
+        "sha256": "a32a603ff74138d60aea3b8717185a5e52bbab46d0305bfc231bbe7f9c54e0ff",
+        "bytes": 31490
+      },
+      "after": {
+        "sha256": "352241e88dfe1de7d8cb2eeeeb8b75b2877ad3e971f12f86675e57e73ffbafdd",
+        "bytes": 32215
+      },
+      "authorized": true
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/build_entity_variant.mjs",
+      "before": {
+        "sha256": "97e04d8e24d317f29cdfbcf77d00dccc8b700fa876bc48e0434e1681a119110d",
+        "bytes": 2850
+      },
+      "after": {
+        "sha256": "7a26e11490eace58168d538f26ee747514f93c35acf113ae5e605b1e06ec43a8",
+        "bytes": 654
+      },
+      "authorized": true
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/run_entity_experiment.mjs",
+      "before": {
+        "sha256": "39c480c77510a5dd52f2920f89f6c6ee7cd1374344cd5d24bf7941359d87b231",
+        "bytes": 4098
+      },
+      "after": {
+        "sha256": "162d2c4620332d786e2860f829e445774aa2458b77558123ba6ef184fedf37bf",
+        "bytes": 170
+      },
+      "authorized": true
+    },
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/build_entity_variant.mjs",
+      "before": {
+        "sha256": "97e04d8e24d317f29cdfbcf77d00dccc8b700fa876bc48e0434e1681a119110d",
+        "bytes": 2850
+      },
+      "after": {
+        "sha256": "7a26e11490eace58168d538f26ee747514f93c35acf113ae5e605b1e06ec43a8",
+        "bytes": 654
+      },
+      "authorized": true
+    },
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/run_entity_experiment.mjs",
+      "before": {
+        "sha256": "39c480c77510a5dd52f2920f89f6c6ee7cd1374344cd5d24bf7941359d87b231",
+        "bytes": 4098
+      },
+      "after": {
+        "sha256": "162d2c4620332d786e2860f829e445774aa2458b77558123ba6ef184fedf37bf",
+        "bytes": 170
+      },
+      "authorized": true
+    },
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/variants/entity-multiplicity-fix/README.md",
+      "before": {
+        "sha256": "e01812e8b814ead61e2578f46c39ba1b002f25feb2e810f4d903efa66f99e348",
+        "bytes": 4835
+      },
+      "after": {
+        "sha256": "112fb043b377a56601348d98a0c1f208b04499377103707d418eb644d138df55",
+        "bytes": 5205
+      },
+      "authorized": true
+    }
+  ],
+  "unexpected_changes": [],
+  "source_directory_aliases": [
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/variants/entity-multiplicity-fix/src",
+      "target": "../../../../code/sampler/src"
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/variants/entity-multiplicity-fix/src",
+      "target": "../../../../code/sampler/src"
+    }
+  ],
+  "scope": "All captured pre-existing file paths, including saved run outputs/configurations/source snapshots/runtime classes/annotations/manifests and all original source children. Does not claim the four intentional wrappers and two documentation updates are unchanged."
+}

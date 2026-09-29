@@ -1,0 +1,92 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_310",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13
+      ],
+      "case_ids": [
+        "rel_310__ent_196__ent_189",
+        "rel_310__ent_182__ent_189",
+        "rel_310__ent_157__ent_1239",
+        "rel_310__ent_1330__ent_109",
+        "rel_310__ent_183__ent_1239",
+        "rel_310__ent_816__ent_827",
+        "rel_310__ent_828__ent_1107",
+        "rel_310__ent_1319__ent_839"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Send/send-to omits its object and no local row independently establishes a message to the named recipient.",
+      "tags": [
+        "missing_object"
+      ],
+      "question": "What was sent, and was it a communication addressed to this recipient?"
+    },
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_310__ent_180__ent_189",
+        "rel_310__ent_1278__ent_1107"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The explicit ask is attributed to Bush's administration rather than necessarily to Bush personally; the remaining send object is omitted.",
+      "tags": [
+        "speaker_attribution",
+        "missing_object"
+      ],
+      "question": "Do these rows establish Bush personally as speaker, or only his administration?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_310__ent_1213__ent_313"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The response-by/dependency path does not clearly recover both speaker and addressee.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Who gave the response and to whom was it directed?"
+    },
+    {
+      "indices": [
+        2,
+        10,
+        12
+      ],
+      "case_ids": [
+        "rel_310__ent_886__ent_302",
+        "rel_310__ent_201__ent_1104",
+        "rel_310__ent_1444__ent_1016"
+      ],
+      "judgment": "incorrect",
+      "reason": "Personal/corporate problems, living with disease or political rivalry do not establish addressed communication.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1f8c1ac1021a5af04c4c7de7be18d48b05e9e0cb36887df749b5c1382d661749"
+}

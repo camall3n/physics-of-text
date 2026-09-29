@@ -1,0 +1,49 @@
+{
+  "relation": "rel_246",
+  "predicate_id": "sporting_champion_of",
+  "predicate_version": 1,
+  "predicate_hash": "d04ae9c3157aacfada7d14a78bc962d7012af492a777b2856f6df76ad00f39dc",
+  "predicate": {
+    "id": "sporting_champion_of",
+    "label": "wins or holds sporting championship",
+    "definition": "Entity X won sporting competition Y or held an explicitly Y-designated sporting championship or title.",
+    "includes": [
+      "sport win/champion/title/clinch-title",
+      "sporting league/division or explicitly title-designating body",
+      "historical sporting title"
+    ],
+    "excludes": [
+      "non-sport honorary awards",
+      "political election or control",
+      "participation",
+      "single stage without overall title",
+      "coaching or team membership alone"
+    ],
+    "ambiguous": [
+      "medal without a winning championship",
+      "unclear title attachment"
+    ],
+    "notes": "Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples.",
+    "scope_notes": "Includes: sport win/champion/title/clinch-title; sporting league/division or explicitly title-designating body; historical sporting title. Excludes: non-sport honorary awards; political election or control; participation; single stage without overall title; coaching or team membership alone. Ambiguous unless resolved by case-local evidence: medal without a winning championship; unclear title attachment. Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples."
+  },
+  "dictionary_sha256": "de6ac92d5311e713e3031be73c9bb234c63b89f660f7c832d69177c543d4b7f9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Victory-designated event13, win4, explicit championship2 and coaching-to-victory2 dominate winning evidence. Literal targets are sporting events; team/event membership and reaching an event remain outside winning scope.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:02:23.046Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    4,
+    6,
+    7,
+    8,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_246.before_grading.json",
+  "pregrading_annotation_sha256": "2ae6917c2952e3d0857e08baaff873cc12cae6b929ce3391d0f40da5e5462d25"
+}

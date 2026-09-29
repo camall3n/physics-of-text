@@ -1,0 +1,49 @@
+{
+  "relation": "rel_174",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "c9b9565e879e106da761c056f54e848d80c7b9c5ac37818078fde5153f33174f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Acquiring/retaining/losing political control is the dominant family; election of a person or committee membership remains distinct.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.151Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_174.before_grading.json",
+  "pregrading_annotation_sha256": "56a48a65150142addc33a17c6816afb9841910c8d5e73e747c51302e77b66ba2"
+}

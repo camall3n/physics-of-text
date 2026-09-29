@@ -1,0 +1,42 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_248",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_248__ent_775__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "WASHINGTON is a dateline joined to United States speech/official fragments; the full dictionary does not recover a coherent ordered relation.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "What proposition relates the city Washington to the United States beyond this reporting dateline?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_248__ent_775__ent_536"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The dateline and paired-subject saying paths do not identify a stable relation between Washington and State Department.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Is there a city-to-institution fact here, or only an omitted departmental speaker and dateline?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e5facbee4b1a9af7cd5368e084b0f16c6f61dff30092d25c3130e4c0d7b63d53"
+}

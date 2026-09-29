@@ -1,0 +1,105 @@
+{
+  "relation": "rel_268",
+  "predicate_id": "communicates_to",
+  "label": "directed communication to",
+  "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+  "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+  "facts": [
+    {
+      "case_id": "rel_268__ent_180__ent_483",
+      "judgment": "supported",
+      "reason": "Bush → Congress: An explicit Bush-administration request to Congress establishes institutional communication attributed through the identified administration; the additional submit row is not needed for support.",
+      "evidence_lines": [
+        438,
+        2005,
+        7858,
+        7862
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.197Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_282__ent_1090",
+      "judgment": "incorrect",
+      "reason": "John Thompson → Georgetown: Sports coaching or an official title alone does not establish communicative address.",
+      "evidence_lines": [
+        7218,
+        7219,
+        7220,
+        7222
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.197Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_729__ent_1308",
+      "judgment": "incorrect",
+      "reason": "Alger Hiss → State Department: Sports coaching or an official title alone does not establish communicative address.",
+      "evidence_lines": [
+        7483
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.197Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_564__ent_1440",
+      "judgment": "ambiguous",
+      "reason": "Mr. Bush → Congress: The sole submit-to row omits the submitted object and does not resolve a message, document, physical transfer or other meaning.",
+      "evidence_lines": [
+        7871
+      ],
+      "issue_tags": [
+        "omitted_object"
+      ],
+      "reviewer_question": "What is submitted to Congress in this fact, and is it communicative material?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.197Z"
+      }
+    },
+    {
+      "case_id": "rel_268__ent_586__ent_1440",
+      "judgment": "ambiguous",
+      "reason": "White House → Congress: The sole submit-to row omits the submitted object and does not resolve a message, document, physical transfer or other meaning.",
+      "evidence_lines": [
+        7881
+      ],
+      "issue_tags": [
+        "omitted_object"
+      ],
+      "reviewer_question": "What is submitted to Congress in this fact, and is it communicative material?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.197Z"
+      }
+    }
+  ],
+  "predicate_hash": "a82d4a7aab0a8fbf3f86b7d71ec6b6b931f5415050326cab5d60de9e300b979c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "bc558550fc2b2f05a7c5e48610d71f44424128d06e5e1447503339ea08befab4"
+}

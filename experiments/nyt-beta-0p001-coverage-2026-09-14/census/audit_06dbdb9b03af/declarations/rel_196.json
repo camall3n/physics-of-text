@@ -1,0 +1,43 @@
+{
+  "relation": "rel_196",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "b37a886d1a7ea2a203f9143ce0f4a3fc1e158e37875d93c8472724cca046cb8b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Sovereignty/control/takeover family defines political territorial control, separate from person arrival/departure.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:28:25.064Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_196.before_grading.json",
+  "pregrading_annotation_sha256": "c97e8677792d25dd4ca9e83aa3dc137b83b15a9eb3250605599c5d8d516030e1"
+}

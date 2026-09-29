@@ -1,0 +1,66 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_12",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_12__ent_383__ent_140",
+        "rel_12__ent_495__ent_1182",
+        "rel_12__ent_926__ent_1295",
+        "rel_12__ent_1355__ent_1180"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit analyst title establishes the institutional analysis role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_12__ent_1355__ent_1275"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bare track-for omits what was tracked and does not independently identify professional industry analysis.",
+      "tags": [
+        "omitted_analysis_object"
+      ],
+      "question": "Was Goldman tracking companies or an industry for Merrill Lynch, or something else?"
+    },
+    {
+      "indices": [
+        1,
+        4,
+        7
+      ],
+      "case_ids": [
+        "rel_12__ent_121__ent_376",
+        "rel_12__ent_1401__ent_1326",
+        "rel_12__ent_1440__ent_1415"
+      ],
+      "judgment": "incorrect",
+      "reason": "Research director/professor/spokesman alone or legislative discourse does not establish analyst employment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b62e8f819199667a8d118407976be345cef3e679b9e7202e5260662ec5ee9ec3"
+}

@@ -1,0 +1,82 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_387",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_387__ent_290__ent_11",
+        "rel_387__ent_293__ent_10",
+        "rel_387__ent_21__ent_10",
+        "rel_387__ent_292__ent_28",
+        "rel_387__ent_27__ent_29",
+        "rel_387__ent_26__ent_25",
+        "rel_387__ent_934__ent_1079",
+        "rel_387__ent_23__ent_29",
+        "rel_387__ent_39__ent_38"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit company, group, maker or monopoly descriptor assigns the stated national affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        10,
+        11,
+        12
+      ],
+      "case_ids": [
+        "rel_387__ent_539__ent_713",
+        "rel_387__ent_463__ent_440",
+        "rel_387__ent_1078__ent_429",
+        "rel_387__ent_955__ent_1002"
+      ],
+      "judgment": "incorrect",
+      "reason": "The second argument is a city location, not a nationality or national affiliation.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_387__ent_20__ent_22"
+      ],
+      "judgment": "incorrect",
+      "reason": "The subject is a person and the descriptor is city-based; neither ordered role matches organizational national affiliation.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3,
+    4,
+    6,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e84c160fadcd7e50c005cce99404959d3df22672c0e8a0a7a1e530663fb00ec6"
+}

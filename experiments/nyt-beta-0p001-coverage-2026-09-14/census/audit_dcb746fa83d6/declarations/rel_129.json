@@ -1,0 +1,50 @@
+{
+  "relation": "rel_129",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "a49d5cf8865e7f98a0468e75b44ce25e5d2a6889918a4640ad1355c627b44ad4",
+  "kind": "declared_before_case_grading",
+  "rationale": "Spokesman-for/at/in variants dominate the specific role; director, adviser, president and owner are distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.395Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    7,
+    8,
+    11,
+    12
+  ],
+  "competing_meanings": [
+    "director",
+    "adviser",
+    "owner"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_129.before_grading.json",
+  "pregrading_annotation_sha256": "14d6d2a41d28f2f644606b5bc256c5759acb4bdb038a73e8205a645948f7dc02"
+}

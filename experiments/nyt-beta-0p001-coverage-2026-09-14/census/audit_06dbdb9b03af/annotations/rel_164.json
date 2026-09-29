@@ -1,0 +1,90 @@
+{
+  "relation": "rel_164",
+  "predicate_id": "has_member",
+  "label": "has member",
+  "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+  "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+  "facts": [
+    {
+      "case_id": "rel_164__ent_1165__ent_227",
+      "judgment": "incorrect",
+      "reason": "Snug Harbor → Richmond Terrace: Physical institution location or forward person office attachment is not the declared inverse membership relation.",
+      "evidence_lines": [
+        6195,
+        6198,
+        6200,
+        6203
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.865Z"
+      }
+    },
+    {
+      "case_id": "rel_164__ent_811__ent_816",
+      "judgment": "supported",
+      "reason": "House → Republicans: Member apposition and held House seats establish members of the named political group in the legislative body, without asserting universal membership of all party adherents.",
+      "evidence_lines": [
+        4893,
+        4894,
+        4895
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.865Z"
+      }
+    },
+    {
+      "case_id": "rel_164__ent_811__ent_819",
+      "judgment": "supported",
+      "reason": "House → Democrats: Member apposition and held House seats establish members of the named political group in the legislative body, without asserting universal membership of all party adherents.",
+      "evidence_lines": [
+        4946,
+        4953,
+        4954
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.865Z"
+      }
+    },
+    {
+      "case_id": "rel_164__ent_916__ent_586",
+      "judgment": "incorrect",
+      "reason": "Dan Bartlett → White House: Physical institution location or forward person office attachment is not the declared inverse membership relation.",
+      "evidence_lines": [
+        8436,
+        8439
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.865Z"
+      }
+    }
+  ],
+  "predicate_hash": "e06c2b4086768dca86ee7554ab8de61a903529610ffb5a9e45977f36ffeb0d6a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9eaa4589ae188eec50b8c7ce713092f5c951a7832db8782b670f751b25726d18"
+}

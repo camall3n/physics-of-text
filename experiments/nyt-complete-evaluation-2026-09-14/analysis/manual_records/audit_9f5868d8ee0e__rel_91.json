@@ -1,0 +1,243 @@
+{
+  "audit": "audit_9f5868d8ee0e",
+  "relation": "rel_91",
+  "cases_sha256": "5048d901aa518c2085dc040ff0c8decbe5045c925902848b6cc3c1521e57e04d",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        19,
+        21,
+        22,
+        23,
+        27,
+        28,
+        29,
+        30,
+        31,
+        35,
+        36,
+        37,
+        43,
+        44,
+        51,
+        52
+      ],
+      "case_ids": [
+        "rel_91__ent_1059__ent_1180",
+        "rel_91__ent_528__ent_781",
+        "rel_91__ent_780__ent_529",
+        "rel_91__ent_796__ent_311",
+        "rel_91__ent_806__ent_529",
+        "rel_91__ent_805__ent_808",
+        "rel_91__ent_807__ent_809",
+        "rel_91__ent_383__ent_140",
+        "rel_91__ent_525__ent_527",
+        "rel_91__ent_301__ent_529",
+        "rel_91__ent_1057__ent_119",
+        "rel_91__ent_973__ent_734",
+        "rel_91__ent_1007__ent_1008",
+        "rel_91__ent_359__ent_1056",
+        "rel_91__ent_733__ent_975",
+        "rel_91__ent_1059__ent_529",
+        "rel_91__ent_525__ent_767",
+        "rel_91__ent_769__ent_526",
+        "rel_91__ent_768__ent_529",
+        "rel_91__ent_541__ent_783",
+        "rel_91__ent_540__ent_782",
+        "rel_91__ent_1058__ent_783",
+        "rel_91__ent_1181__ent_1182",
+        "rel_91__ent_1183__ent_1184",
+        "rel_91__ent_806__ent_976",
+        "rel_91__ent_978__ent_861",
+        "rel_91__ent_1185__ent_1186",
+        "rel_91__ent_736__ent_783"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        7,
+        8,
+        20,
+        25,
+        39,
+        41,
+        45,
+        46,
+        47
+      ],
+      "case_ids": [
+        "rel_91__ent_916__ent_586",
+        "rel_91__ent_121__ent_376",
+        "rel_91__ent_362__ent_123",
+        "rel_91__ent_1048__ent_1049",
+        "rel_91__ent_168__ent_161",
+        "rel_91__ent_913__ent_586",
+        "rel_91__ent_336__ent_536",
+        "rel_91__ent_911__ent_1002",
+        "rel_91__ent_166__ent_169",
+        "rel_91__ent_174__ent_173"
+      ],
+      "judgment": "incorrect",
+      "reason": "Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        6,
+        17,
+        18,
+        24,
+        33
+      ],
+      "case_ids": [
+        "rel_91__ent_191__ent_530",
+        "rel_91__ent_191__ent_194",
+        "rel_91__ent_765__ent_522",
+        "rel_91__ent_162__ent_165",
+        "rel_91__ent_1006__ent_155"
+      ],
+      "judgment": "incorrect",
+      "reason": "Academic, bioethicist, research or institutional leadership roles do not establish analyst work.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_91__ent_1151__ent_215"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political replacement/succession evidence is not analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        26
+      ],
+      "case_ids": [
+        "rel_91__ent_773__ent_523"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director and specialist evidence leaves the professional analyst role unresolved.",
+      "tags": [
+        "scope_boundary"
+      ],
+      "question": "Does the specialist role at Georgia State identify analyst work, or only another academic/director role?"
+    },
+    {
+      "indices": [
+        32,
+        34,
+        38,
+        40,
+        48,
+        49,
+        50,
+        53,
+        54
+      ],
+      "case_ids": [
+        "rel_91__ent_550__ent_792",
+        "rel_91__ent_1009__ent_303",
+        "rel_91__ent_619__ent_526",
+        "rel_91__ent_190__ent_192",
+        "rel_91__ent_772__ent_771",
+        "rel_91__ent_532__ent_771",
+        "rel_91__ent_764__ent_192",
+        "rel_91__ent_193__ent_770",
+        "rel_91__ent_552__ent_794"
+      ],
+      "judgment": "incorrect",
+      "reason": "President, director, head or partner affiliation alone does not establish analyst work.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        42
+      ],
+      "case_ids": [
+        "rel_91__ent_731__ent_982"
+      ],
+      "judgment": "incorrect",
+      "reason": "Horse-racing evidence is not analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        55
+      ],
+      "case_ids": [
+        "rel_91__ent_504__ent_746"
+      ],
+      "judgment": "incorrect",
+      "reason": "A death location is not analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        56
+      ],
+      "case_ids": [
+        "rel_91__ent_917__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "The bare be-to path does not establish analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    10,
+    11,
+    14,
+    19,
+    21,
+    28
+  ],
+  "broad": []
+}

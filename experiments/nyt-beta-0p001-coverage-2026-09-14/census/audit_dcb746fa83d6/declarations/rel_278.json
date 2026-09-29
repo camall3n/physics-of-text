@@ -1,0 +1,57 @@
+{
+  "relation": "rel_278",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "62065b3cfc8cbbfdf4bfd5faa3bc6676f5da70fbaa64cc600bbd816bb4d7e7b3",
+  "kind": "declared_before_case_grading",
+  "rationale": "Argument inspection shows named people and Manhattan rather than parent/child pairs. Obituary son/brother-of-place constructions suggest residence but retain the frozen apposition/relative-attachment ambiguity; no kinship relation is invented.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.056Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    18
+  ],
+  "competing_meanings": [
+    "work location",
+    "birth",
+    "institution location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_278.before_grading.json",
+  "pregrading_annotation_sha256": "118492e061e5f21c6097e81304782d73b57819f65a93a2a30ca8991233927097"
+}

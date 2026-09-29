@@ -1,0 +1,68 @@
+{
+  "relation": "rel_198",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_198__ent_189__ent_1002",
+      "judgment": "supported",
+      "reason": "Congress → Washington: Congress’s Washington office and sending from Washington establish institutional physical presence there.",
+      "evidence_lines": [
+        5178,
+        5179,
+        5180,
+        5181,
+        5182,
+        5183,
+        5185
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.512Z"
+      }
+    },
+    {
+      "case_id": "rel_198__ent_600__ent_836",
+      "judgment": "incorrect",
+      "reason": "Cubs → World Series: World Series appearances concern a sporting event, not a geographic location.",
+      "evidence_lines": [
+        2275,
+        7772
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.512Z"
+      }
+    },
+    {
+      "case_id": "rel_198__ent_827__ent_843",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → New York: A New York office and appearance-in-New-York statement establish local physical presence without requiring residence.",
+      "evidence_lines": [
+        4718,
+        4719
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.513Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ad6c83be202f671036bacc7c0558cefa8d9ef7d35e1fcb117fc31fb221aec01e"
+}

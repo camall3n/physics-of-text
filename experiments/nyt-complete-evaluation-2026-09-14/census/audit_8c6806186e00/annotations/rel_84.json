@@ -1,0 +1,1482 @@
+{
+  "relation": "rel_84",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_84.json",
+    "source_sha256": "57b44b74dd26e12bdb24bf7f68ae15ee38136b04e4ced241903a8a77b9222108",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_84__ent_1004__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        882,
+        883,
+        887,
+        2581,
+        2585,
+        2587,
+        3135,
+        3138,
+        3139,
+        3140,
+        6898,
+        6899,
+        6903
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.784Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_309__ent_778",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        866,
+        868,
+        869,
+        2661,
+        2663,
+        2666,
+        2668,
+        2669,
+        6927,
+        6932
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_309__ent_409",
+      "judgment": "ambiguous",
+      "reason": "Red Sox → Yankees; Brian Cashman → Yankees: The only potentially winning row is bare knock; the local subject also merges Red Sox with Brian Cashman. Completed defeat and subject identity are unresolved.",
+      "evidence_lines": [
+        862,
+        863,
+        2662,
+        2664,
+        2665,
+        3164,
+        6928,
+        6929,
+        6936
+      ],
+      "issue_tags": [
+        "local_entity_collision",
+        "incomplete_result"
+      ],
+      "reviewer_question": "Does the source establish a completed Red Sox victory, and is the manager mention a separate entity?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1004__ent_1236",
+      "judgment": "supported",
+      "reason": "Yankees → Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        901,
+        902,
+        903,
+        904,
+        906,
+        2592,
+        2595,
+        2596,
+        2600
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_84.json",
+        "annotation_sha256": "57b44b74dd26e12bdb24bf7f68ae15ee38136b04e4ced241903a8a77b9222108"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1283__ent_1383",
+      "judgment": "ambiguous",
+      "reason": "Jets → Oakland; Jets → Giants Stadium: A defeat row is present, but the same local argument merges incompatible referents (team and stadium, coach and team, or event and opponent). The latent fact identity is unresolved.",
+      "evidence_lines": [
+        3461,
+        3462,
+        3463,
+        3464,
+        3465,
+        3466,
+        3467,
+        3468,
+        4843
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which incompatible local argument should this fact denote, and does the defeat evidence belong to that entity?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1310__ent_254",
+      "judgment": "ambiguous",
+      "reason": "East → West: Beat/defeat appears, but East and West also have geopolitical interpretations in these rows. The particular competitors are unidentified.",
+      "evidence_lines": [
+        6051,
+        6052,
+        6054,
+        6055,
+        6056,
+        6057,
+        6058,
+        6059,
+        6060
+      ],
+      "issue_tags": [
+        "unclear_entity_identity"
+      ],
+      "reviewer_question": "Are East and West particular sporting teams, or geopolitical regions, in the victory rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_309__ent_1004",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        861,
+        864,
+        865,
+        870,
+        2670,
+        6930,
+        6931,
+        6934
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_400__ent_642",
+      "judgment": "supported",
+      "reason": "Jets → Dolphins: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        2631,
+        2633,
+        2634,
+        2635,
+        2636,
+        2637,
+        2639,
+        2640
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1411__ent_1038",
+      "judgment": "supported",
+      "reason": "Giants → Dallas Cowboys: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        2671,
+        2673,
+        2674,
+        2675,
+        2676,
+        2677,
+        2679,
+        2680
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1004__ent_1013",
+      "judgment": "supported",
+      "reason": "Yankees → Florida Marlins: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6947,
+        6948,
+        6949,
+        6950,
+        6951,
+        6952,
+        6953,
+        6955
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1358__ent_561",
+      "judgment": "supported",
+      "reason": "Eagles → Giants: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        921,
+        923,
+        925,
+        926,
+        927,
+        929,
+        930
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_321__ent_1013",
+      "judgment": "supported",
+      "reason": "Mets → Florida Marlins: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6977,
+        6978,
+        6980,
+        6981,
+        6983,
+        6984,
+        6986
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_543__ent_1029",
+      "judgment": "ambiguous",
+      "reason": "Nets → Knicks; Nets → Lawrence Frank: A defeat row is present, but the same local argument merges incompatible referents (team and stadium, coach and team, or event and opponent). The latent fact identity is unresolved.",
+      "evidence_lines": [
+        686,
+        942,
+        944,
+        946,
+        948,
+        950
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which incompatible local argument should this fact denote, and does the defeat evidence belong to that entity?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1029__ent_543",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        938,
+        2612,
+        2614,
+        2616,
+        2618,
+        2619
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_799__ent_1276",
+      "judgment": "supported",
+      "reason": "Boston Red Sox → New York Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1021,
+        1022,
+        1023,
+        1025,
+        1026,
+        1028
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_319__ent_1398",
+      "judgment": "supported",
+      "reason": "Baltimore Orioles → New York Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1063,
+        1064,
+        1065,
+        1066,
+        1068,
+        1069
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_347__ent_1363",
+      "judgment": "supported",
+      "reason": "Rangers → Devils: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        2601,
+        2602,
+        2603,
+        2604,
+        2608,
+        2609
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_308__ent_543",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        933,
+        934,
+        935,
+        937,
+        2611
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_318__ent_557",
+      "judgment": "supported",
+      "reason": "Philadelphia Phillies → New York Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1031,
+        1032,
+        1033,
+        1034,
+        1036
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1234__ent_1398",
+      "judgment": "supported",
+      "reason": "Seattle Mariners → New York Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1052,
+        1053,
+        1055,
+        1056,
+        1057
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_561__ent_1358",
+      "judgment": "supported",
+      "reason": "Giants → Eagles: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        2652,
+        2654,
+        2655,
+        2656,
+        2657
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_935__ent_1267",
+      "judgment": "incorrect",
+      "reason": "Ameritech → Bell: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        6844,
+        6846,
+        6849,
+        6851,
+        6853
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1350__ent_647",
+      "judgment": "supported",
+      "reason": "Mets → Dodgers: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6919,
+        6920,
+        6922,
+        6924,
+        6926
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_321__ent_600",
+      "judgment": "supported",
+      "reason": "Mets → Cubs: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6957,
+        6958,
+        6959,
+        6960,
+        6961
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1238__ent_189",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Congress: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        407,
+        408,
+        409,
+        414
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1004__ent_321",
+      "judgment": "supported",
+      "reason": "Yankees → Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        910,
+        2591,
+        2593,
+        2594
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1411__ent_320",
+      "judgment": "incorrect",
+      "reason": "Giants → Cowboys: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        952,
+        953,
+        956,
+        957
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1013__ent_1289",
+      "judgment": "supported",
+      "reason": "Florida Marlins → New York Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1037,
+        1038,
+        1039,
+        1041
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_84.json",
+        "annotation_sha256": "57b44b74dd26e12bdb24bf7f68ae15ee38136b04e4ced241903a8a77b9222108"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_559__ent_557",
+      "judgment": "supported",
+      "reason": "Montreal Expos → New York Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1047,
+        1048,
+        1050,
+        1051
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_111__ent_114",
+      "judgment": "incorrect",
+      "reason": "Riley → Starks: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        1546,
+        1547,
+        1549,
+        1552
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1363__ent_851",
+      "judgment": "incorrect",
+      "reason": "Devils → Stanley Cup; Devils → Rangers: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        2230,
+        6967,
+        7731,
+        7733
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_284__ent_1084",
+      "judgment": "supported",
+      "reason": "Mets → Phillies: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6908,
+        6913,
+        6914,
+        6916
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_308__ent_1246",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        878,
+        6043,
+        6049
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_561__ent_560",
+      "judgment": "supported",
+      "reason": "Giants → Redskins: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        891,
+        894,
+        896
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_308__ent_896",
+      "judgment": "ambiguous",
+      "reason": "Knicks → Nets: Bare outscore or shock may describe a win, a partial-period margin, or another result. No supplied explicit completed-contest win resolves this.",
+      "evidence_lines": [
+        932,
+        939,
+        2617
+      ],
+      "issue_tags": [
+        "incomplete_result"
+      ],
+      "reviewer_question": "Does the outscore/shock row describe winning the completed contest?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_315__ent_557",
+      "judgment": "supported",
+      "reason": "Atlanta Braves → New York Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1011,
+        1012,
+        1013
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1016__ent_557",
+      "judgment": "incorrect",
+      "reason": "St Louis Cardinals → New York Mets: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        1074,
+        1075,
+        1076
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1283__ent_884",
+      "judgment": "supported",
+      "reason": "Jets → Raiders: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        2641,
+        2642,
+        2647
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_49__ent_1305",
+      "judgment": "incorrect",
+      "reason": "George J. Mitchell → Democratic: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        3773,
+        3775,
+        3777
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1325__ent_904",
+      "judgment": "incorrect",
+      "reason": "Clinton → New York: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        4683,
+        4687,
+        4689
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_444__ent_1400",
+      "judgment": "incorrect",
+      "reason": "Gen. Colin L. Powell → Joint Chiefs of Staff: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        211,
+        214
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1430__ent_1004",
+      "judgment": "supported",
+      "reason": "Mets → Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        911,
+        920
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_95__ent_985",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        931,
+        936
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_985__ent_308",
+      "judgment": "supported",
+      "reason": "Nets → Knicks: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        941,
+        949
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_317__ent_1276",
+      "judgment": "supported",
+      "reason": "Toronto Blue Jays → New York Yankees: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1043,
+        1045
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_641__ent_1289",
+      "judgment": "supported",
+      "reason": "St Louis Cardinals → New York Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1073,
+        1077
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_857__ent_1205",
+      "judgment": "incorrect",
+      "reason": "William Kristol → Weekly Standard: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        2477,
+        2480
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1284__ent_1217",
+      "judgment": "supported",
+      "reason": "Jets → Raiders: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        2646,
+        2648
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1271__ent_1359",
+      "judgment": "incorrect",
+      "reason": "Michael Jordan → Bulls: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        3144,
+        3151
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1236__ent_745",
+      "judgment": "ambiguous",
+      "reason": "Mets → Florida Marlins; Mets → World Series: A defeat row is present, but the same local argument merges incompatible referents (team and stadium, coach and team, or event and opponent). The latent fact identity is unresolved.",
+      "evidence_lines": [
+        3473,
+        6982
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which incompatible local argument should this fact denote, and does the defeat evidence belong to that entity?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_180__ent_1118",
+      "judgment": "incorrect",
+      "reason": "Bush → Saddam Hussein: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        4276,
+        4277
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_732__ent_731",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → New York; Mr. Clinton → Republicans: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        4720,
+        5549
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_647__ent_1211",
+      "judgment": "incorrect",
+      "reason": "Dodgers → Los Angeles: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        4804,
+        4806
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1315__ent_202",
+      "judgment": "incorrect",
+      "reason": "Americans → diabetes: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        4872,
+        4876
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_321__ent_1374",
+      "judgment": "supported",
+      "reason": "Mets → Dodgers: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6917,
+        6918
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1234__ent_1361",
+      "judgment": "ambiguous",
+      "reason": "Red Sox → Yankees: Bare outscore or shock may describe a win, a partial-period margin, or another result. No supplied explicit completed-contest win resolves this.",
+      "evidence_lines": [
+        6933,
+        6935
+      ],
+      "issue_tags": [
+        "incomplete_result"
+      ],
+      "reviewer_question": "Does the outscore/shock row describe winning the completed contest?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1320__ent_347",
+      "judgment": "incorrect",
+      "reason": "Devils → Rangers: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        6970,
+        6975
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1404__ent_829",
+      "judgment": "supported",
+      "reason": "Devils → Rangers: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        6972,
+        6976
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_728__ent_721",
+      "judgment": "incorrect",
+      "reason": "John Huang → Commerce Department: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        7497,
+        7500
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1197__ent_49",
+      "judgment": "incorrect",
+      "reason": "Senate → George J. Mitchell: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        7689,
+        7690
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_559__ent_1289",
+      "judgment": "incorrect",
+      "reason": "Montreal Expos → New York Mets: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        1049
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1015__ent_1289",
+      "judgment": "supported",
+      "reason": "San Diego Padres → New York Mets: A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "evidence_lines": [
+        1060
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_904__ent_836",
+      "judgment": "incorrect",
+      "reason": "Rabbi Israel Spira → Maimonides Hospital: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        1778
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1197__ent_811",
+      "judgment": "incorrect",
+      "reason": "Senate → House: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        1940
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1421__ent_502",
+      "judgment": "incorrect",
+      "reason": "House → Senate: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        1980
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_561__ent_1283",
+      "judgment": "incorrect",
+      "reason": "Giants → Jets: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        2623
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1250__ent_1299",
+      "judgment": "incorrect",
+      "reason": "Tom Daschle → Senate: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        3005
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_84.json",
+        "annotation_sha256": "57b44b74dd26e12bdb24bf7f68ae15ee38136b04e4ced241903a8a77b9222108"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_726__ent_818",
+      "judgment": "incorrect",
+      "reason": "Nixon → China: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        3426
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1360__ent_843",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → New York: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        4717
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1378__ent_28",
+      "judgment": "incorrect",
+      "reason": "Pakistan → Gen. Pervez Musharraf: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        5284
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_84.json",
+        "annotation_sha256": "57b44b74dd26e12bdb24bf7f68ae15ee38136b04e4ced241903a8a77b9222108"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_733__ent_5",
+      "judgment": "incorrect",
+      "reason": "Turks → Germany: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        6124
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_84.json",
+        "annotation_sha256": "57b44b74dd26e12bdb24bf7f68ae15ee38136b04e4ced241903a8a77b9222108"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_62__ent_1129",
+      "judgment": "incorrect",
+      "reason": "Young & Rubicam → WPP Group: No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "evidence_lines": [
+        6725
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:06.785Z"
+      }
+    }
+  ]
+}

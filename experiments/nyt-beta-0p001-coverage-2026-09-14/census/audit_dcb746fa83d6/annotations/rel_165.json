@@ -1,0 +1,101 @@
+{
+  "relation": "rel_165",
+  "predicate_id": "fought_war_against",
+  "label": "fought military conflict against",
+  "definition": "Political entity or military group X fought an armed conflict or war against Y.",
+  "scope_notes": "Includes: explicit war-with or fought-against in an armed-conflict context; actual military attack or combat against Y; historical military adversaries. Excludes: sports competition or metaphorical political attack; cooperation, alliance, or joint action on the same side; border adjacency or diplomatic relations alone; planned conflict without realization. Ambiguous unless resolved by case-local evidence: fight-with whose allied versus adversarial sense is unresolved; generic attack without military context; future threat or proposed war. Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner.",
+  "facts": [
+    {
+      "case_id": "rel_165__ent_537__ent_492",
+      "judgment": "supported",
+      "reason": "United States → Iraq: Explicit invasion of Iraq by the United States establishes armed adversarial conflict.",
+      "evidence_lines": [
+        2768,
+        2770,
+        4065,
+        4069,
+        4071
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.913Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_319__ent_1276",
+      "judgment": "incorrect",
+      "reason": "Baltimore Orioles → New York Yankees: Sports competition, a geographic win, a bare transfer or being charmed by a politician does not establish armed conflict between the endpoints.",
+      "evidence_lines": [
+        1066,
+        1067,
+        1069,
+        1071
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.913Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_732__ent_731",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → New York: Sports competition, a geographic win, a bare transfer or being charmed by a politician does not establish armed conflict between the endpoints.",
+      "evidence_lines": [
+        4720
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.913Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_1297__ent_1443",
+      "judgment": "incorrect",
+      "reason": "Britain → China: Sports competition, a geographic win, a bare transfer or being charmed by a politician does not establish armed conflict between the endpoints.",
+      "evidence_lines": [
+        5167
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.913Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_820__ent_1294",
+      "judgment": "incorrect",
+      "reason": "Israel → Yitzhak Rabin: Sports competition, a geographic win, a bare transfer or being charmed by a politician does not establish armed conflict between the endpoints.",
+      "evidence_lines": [
+        7061
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.913Z"
+      }
+    }
+  ],
+  "predicate_hash": "76bdc9f8ae86994cbf90cb3318f18694bf8ac2363510c03867f0890ef0eeedb7",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c1948f48485364c7898d6b1769d829ac21c367883e237219c7b5603af65ffeee"
+}

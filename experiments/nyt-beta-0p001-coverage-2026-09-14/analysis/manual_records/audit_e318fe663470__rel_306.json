@@ -1,0 +1,89 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_306",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_306__ent_483__ent_234",
+        "rel_306__ent_1323__ent_333"
+      ],
+      "judgment": "supported",
+      "reason": "A local live-in row explicitly establishes residence; other incidental rows do not negate it.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_306__ent_887__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Obituary/relative attachment does not establish Daniel's residence, and a Corcoran Group broker extraction is merged into this same subject.",
+      "tags": [
+        "entity_collision",
+        "attachment_ambiguity"
+      ],
+      "question": "Who is the resident, and should Daniel and Corcoran Group be separate entities?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_306__ent_1100__ent_280"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Obituary and trial-role rows merge Peter and Andrew without resolving either person's residence.",
+      "tags": [
+        "entity_collision",
+        "attachment_ambiguity"
+      ],
+      "question": "Which person and whose residence do these rows identify?"
+    },
+    {
+      "indices": [
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_306__ent_646__ent_280",
+        "rel_306__ent_406__ent_280"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Obituary son/daughter-of-place wording leaves residence attachment unclear; other local rows do not resolve it.",
+      "tags": [
+        "attachment_ambiguity"
+      ],
+      "question": "Does the place modify this named person or another relative in the obituary?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_306__ent_324__ent_1378"
+      ],
+      "judgment": "incorrect",
+      "reason": "Acquisition evidence does not establish residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "ccc32778324cca8835af587c03fe9aab73bd2e0a8c0ed9e7b64fa0cad1a02e96"
+}

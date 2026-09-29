@@ -1,0 +1,54 @@
+{
+  "relation": "rel_237",
+  "predicate_id": "editor_of",
+  "predicate_version": 1,
+  "predicate_hash": "e74cae9f1b8345e6a76881e76791028fdfe263683ba17af0497b102f7fa758f4",
+  "predicate": {
+    "id": "editor_of",
+    "label": "editor of publication",
+    "definition": "Person X serves or served as an editor of, for, or at publication Y.",
+    "includes": [
+      "explicit editor or editor-in-chief",
+      "section or departmental editor within a publication",
+      "explicitly editing publication Y",
+      "historical editorial office"
+    ],
+    "excludes": [
+      "publisher, director, owner, or author alone",
+      "ordinary writing or contribution without editorial role",
+      "merely being quoted or discussed in the publication"
+    ],
+    "ambiguous": [
+      "an incomplete publication argument",
+      "editor title attaching to someone other than X",
+      "editing a work versus holding the publication's editorial role when unclear"
+    ],
+    "notes": "Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication.",
+    "scope_notes": "Includes: explicit editor or editor-in-chief; section or departmental editor within a publication; explicitly editing publication Y; historical editorial office. Excludes: publisher, director, owner, or author alone; ordinary writing or contribution without editorial role; merely being quoted or discussed in the publication. Ambiguous unless resolved by case-local evidence: an incomplete publication argument; editor title attaching to someone other than X; editing a work versus holding the publication's editorial role when unclear. Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication."
+  },
+  "dictionary_sha256": "4a540153367c63c19832a40b53a8ae057a61187b50af69143755dde9994c2a3a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit editor-of/at/possessive and edit paths dominate; publisher/writer/colleague alone are excluded by this title-specific definition.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:20.222Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    11,
+    13,
+    16
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_237.before_grading.json",
+  "pregrading_annotation_sha256": "0f8db04a68c7be7df7cd7e8ed1830f309ebd8f50573d17adb5041eb4b8f9a91c"
+}

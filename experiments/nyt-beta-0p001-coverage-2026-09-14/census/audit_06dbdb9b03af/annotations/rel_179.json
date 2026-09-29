@@ -1,0 +1,155 @@
+{
+  "relation": "rel_179",
+  "predicate_id": "member_of",
+  "label": "member of organization",
+  "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+  "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself.",
+  "facts": [
+    {
+      "case_id": "rel_179__ent_816__ent_819",
+      "judgment": "incorrect",
+      "reason": "Republicans → Democrats: Opposing party groups join with one another in joint action; the evidence does not make either party a member of the other.",
+      "evidence_lines": [
+        1902,
+        1905,
+        1907,
+        5475,
+        5478,
+        5480
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.894Z"
+      }
+    },
+    {
+      "case_id": "rel_179__ent_819__ent_816",
+      "judgment": "incorrect",
+      "reason": "Democrats → Republicans: Opposing party groups join with one another in joint action; the evidence does not make either party a member of the other.",
+      "evidence_lines": [
+        1913,
+        1917,
+        5466,
+        5470,
+        5911,
+        5915
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.894Z"
+      }
+    },
+    {
+      "case_id": "rel_179__ent_1198__ent_810",
+      "judgment": "supported",
+      "reason": "Poland → European Union: Completed join, entry or accession paths establish membership in the named international body or alliance.",
+      "evidence_lines": [
+        1942,
+        1943,
+        1945,
+        1946,
+        1949,
+        1951
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.893Z"
+      }
+    },
+    {
+      "case_id": "rel_179__ent_818__ent_1196",
+      "judgment": "supported",
+      "reason": "China → World Trade Organization: Completed join, entry or accession paths establish membership in the named international body or alliance.",
+      "evidence_lines": [
+        1922,
+        1923,
+        1927,
+        1929
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.894Z"
+      }
+    },
+    {
+      "case_id": "rel_179__ent_1198__ent_814",
+      "judgment": "supported",
+      "reason": "Poland → NATO: Completed join, entry or accession paths establish membership in the named international body or alliance.",
+      "evidence_lines": [
+        1992,
+        1994,
+        1995
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.894Z"
+      }
+    },
+    {
+      "case_id": "rel_179__ent_233__ent_475",
+      "judgment": "incorrect",
+      "reason": "Rondout Creek → Hudson: Creek joining a river is a waterway confluence, not organizational membership.",
+      "evidence_lines": [
+        6085,
+        6086,
+        6088
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.894Z"
+      }
+    },
+    {
+      "case_id": "rel_179__ent_813__ent_812",
+      "judgment": "supported",
+      "reason": "Britain → European Monetary System: Completed join, entry or accession paths establish membership in the named international body or alliance.",
+      "evidence_lines": [
+        1962,
+        1963
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:28.894Z"
+      }
+    }
+  ],
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "842b70efcc53a6ca8521f87425235da4a0fb167a37f2313efd55a2e2fe4d505c"
+}

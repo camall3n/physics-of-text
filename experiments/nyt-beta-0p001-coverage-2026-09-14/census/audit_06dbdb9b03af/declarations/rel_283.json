@@ -1,0 +1,46 @@
+{
+  "relation": "rel_283",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "980dae7e27ae2ad61dd7421adf44229e429aeb2e518d5972985055d3221264f0",
+  "kind": "declared_before_case_grading",
+  "rationale": "Executive title paths P0–P2/P5/P9/P10 dominate (46/59 rows); chair alone is a distinct competing title, not added to scope.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:02:22.811Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_283.before_grading.json",
+  "pregrading_annotation_sha256": "3d656abcf2e0834009711e620a7a345abf4788e5d9240fe17f5596433e70d315"
+}

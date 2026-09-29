@@ -1,0 +1,38 @@
+{
+  "relation": "rel_337",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "7a83e32845eb9fd16f8332a11cf91d8f130ca9f3d38dd8db8814709eac37b88e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Writing in the named publication and critic-for paths dominate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:23:42.103Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_337.before_grading.json",
+  "pregrading_annotation_sha256": "32714d2ac74446b47fcc6db0462b7b02512f57550f6ce5bcf78a83d62020dc01"
+}

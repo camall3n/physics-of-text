@@ -1,0 +1,38 @@
+{
+  "relation": "rel_265",
+  "predicate_id": "professor_at",
+  "predicate_version": 1,
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate": {
+    "id": "professor_at",
+    "label": "professor or university teacher at",
+    "definition": "Person X is a professor or teaches at academic institution Y.",
+    "includes": [
+      "explicit professor",
+      "teaching at the institution",
+      "historical teaching affiliation"
+    ],
+    "excludes": [
+      "expert/specialist/dean/researcher/analyst alone",
+      "attendance or institution location alone"
+    ],
+    "ambiguous": [
+      "unclear teacher versus student attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+  },
+  "dictionary_sha256": "79577027ad306f1169c7bcba3348a14fdfa9f4e329a7edfa367f6d585bc05826",
+  "kind": "declared_before_case_grading",
+  "rationale": "Professor and teach-at form the largest coherent professional family. Analyst, dean and expert alone are not broadened into professorship.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.830Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_265.before_grading.json",
+  "pregrading_annotation_sha256": "d3448af90c02a20897834d2d3ce0e54a1bc2a66bb016be2d8ed2ec98a55b54eb"
+}

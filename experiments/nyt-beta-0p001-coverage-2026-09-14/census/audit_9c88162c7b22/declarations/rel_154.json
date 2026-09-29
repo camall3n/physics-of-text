@@ -1,0 +1,44 @@
+{
+  "relation": "rel_154",
+  "predicate_id": "trailed_competitor",
+  "predicate_version": 1,
+  "predicate_hash": "74d4f6546f462ba6e3f3655a4dd45292828985f90a748c94ef37514e311e1cdc",
+  "predicate": {
+    "id": "trailed_competitor",
+    "label": "trailed sporting competitor",
+    "definition": "Sporting competitor X was behind competitor Y in a game score or competitive standings.",
+    "includes": [
+      "explicit trail or games-behind",
+      "explicit lower score or standings position relative to Y",
+      "historical in-game or season standings"
+    ],
+    "excludes": [
+      "a completed defeat without evidence of trailing during play or in standings",
+      "political or commercial ranking",
+      "ordinary following or geographic movement",
+      "X leading or ahead of Y"
+    ],
+    "ambiguous": [
+      "a generic behind phrase without competitive context",
+      "unclear ordered competitor roles",
+      "a proposed or hypothetical score situation"
+    ],
+    "notes": "Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor.",
+    "scope_notes": "Includes: explicit trail or games-behind; explicit lower score or standings position relative to Y; historical in-game or season standings. Excludes: a completed defeat without evidence of trailing during play or in standings; political or commercial ranking; ordinary following or geographic movement; X leading or ahead of Y. Ambiguous unless resolved by case-local evidence: a generic behind phrase without competitive context; unclear ordered competitor roles; a proposed or hypothetical score situation. Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor."
+  },
+  "dictionary_sha256": "796de75ce3576437751f5ed10a5ff4658bba1d3586c7765b5c57c537a9829a75",
+  "kind": "declared_before_case_grading",
+  "rationale": "Trailing opponent has eight rows versus sweep/victory seven, so intermediate score/standings lag is the dominant primary predicate; being swept does not itself prove a specified trailing snapshot.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.640Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_154.before_grading.json",
+  "pregrading_annotation_sha256": "a2b416325997ed08efaf88ba01822d94c26221435aa35df929b5c3f76b23f45f"
+}

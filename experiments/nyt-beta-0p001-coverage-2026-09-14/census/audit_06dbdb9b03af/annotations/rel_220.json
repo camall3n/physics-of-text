@@ -1,0 +1,57 @@
+{
+  "relation": "rel_220",
+  "predicate_id": "member_of",
+  "label": "member of organization",
+  "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+  "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself.",
+  "facts": [
+    {
+      "case_id": "rel_220__ent_258__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "Brian Cashman → Yankees: Speaking to players, scouts and the team, winning with it and holding a conference at its complex do not establish the particular organizational membership role.",
+      "evidence_lines": [
+        3167,
+        3169,
+        3170,
+        3171,
+        3172,
+        3173
+      ],
+      "issue_tags": [
+        "omitted_role"
+      ],
+      "reviewer_question": "Does the source identify Brian Cashman as belonging to the Yankees organization, rather than merely addressing or meeting the team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.840Z"
+      }
+    },
+    {
+      "case_id": "rel_220__ent_74__ent_59",
+      "judgment": "supported",
+      "reason": "Alan Blinder → Council of Economic Advisers: Explicit member-of and came-as-member rows establish council membership despite a separate member-designate row.",
+      "evidence_lines": [
+        3265,
+        3266,
+        3267,
+        3268,
+        3269
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.840Z"
+      }
+    }
+  ],
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "bcddb24a3eb9cdc0361873c3b598f57caaa2408bd6f84639f5e5920e85d6e79e"
+}

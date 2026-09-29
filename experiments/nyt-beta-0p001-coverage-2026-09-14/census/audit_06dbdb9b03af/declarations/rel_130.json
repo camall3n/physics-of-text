@@ -1,0 +1,49 @@
+{
+  "relation": "rel_130",
+  "predicate_id": "has_lawyer",
+  "predicate_version": 1,
+  "predicate_hash": "7adfc3d56b8d9d1c512a2045c00e3347f181ccfe9995e1b6fab7c65a232837b4",
+  "predicate": {
+    "id": "has_lawyer",
+    "label": "has lawyer or legal counsel",
+    "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+    "includes": [
+      "explicit lawyer, attorney, or counsel for X",
+      "historical legal representation or institutional legal office",
+      "public attorney for the named jurisdiction"
+    ],
+    "excludes": [
+      "ordinary spokesperson, adviser, or employee without a legal role",
+      "a place where a lawyer practices without client or institutional affiliation",
+      "a third party lawyer merely quoted about X"
+    ],
+    "ambiguous": [
+      "unclear legal client versus geographic location",
+      "lawyer title attachment unresolved",
+      "an incomplete principal"
+    ],
+    "notes": "Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+    "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X."
+  },
+  "dictionary_sha256": "e771e6de5602d4ee79ea7fbac648b12a599ac52ac1b4118f3dc13819688c42ff",
+  "kind": "declared_before_case_grading",
+  "rationale": "Possessive lawyer/counsel names dominate inverse client-to-legal-representative direction.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:19:02.460Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_130.before_grading.json",
+  "pregrading_annotation_sha256": "4aac3ce7626ab20065a5bfe785e6dfcf1729b352d12cadc10dd8677ea2f53c70"
+}

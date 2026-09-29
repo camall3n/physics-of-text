@@ -1,0 +1,57 @@
+{
+  "relation": "rel_27",
+  "predicate_id": "location_of_organization",
+  "predicate_version": 1,
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate": {
+    "id": "location_of_organization",
+    "label": "location of organization or its office",
+    "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+    "includes": [
+      "explicit organization location, headquarters, office, or base in X",
+      "a geographically identified office or division of Y located in X",
+      "historical physical organizational location"
+    ],
+    "excludes": [
+      "X is a corporate subsidiary or parent rather than a geographic place",
+      "national affiliation alone without physical location",
+      "ordinary travel, discussion, or an unrelated event in X"
+    ],
+    "ambiguous": [
+      "place versus institution metonymy unresolved",
+      "a geographic division name without clear physical location",
+      "unclear organization or location attachment"
+    ],
+    "notes": "This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+    "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location."
+  },
+  "dictionary_sha256": "8ba73c6b2100853bc619394a079f9d279f5a93718a3ff63e1e2f207544ef58d8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Literal first arguments are mainly New York/San Francisco/Chicago and second arguments advertising organizations: office/unit paths identify a geographic host of an organizational office. Preserve inverse location, not city-as-subsidiary. Genuine subsidiary facts in the minority do not broaden this predicate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.240Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    11,
+    13,
+    16,
+    18,
+    19,
+    22,
+    24,
+    25,
+    26
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_27.before_grading.json",
+  "pregrading_annotation_sha256": "26cc1cdca488df9f83cc8db938235497375137b267f118315c657f0b5360bc53"
+}

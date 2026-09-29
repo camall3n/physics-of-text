@@ -1,0 +1,53 @@
+{
+  "relation": "rel_118",
+  "predicate_id": "location_of_organization",
+  "predicate_version": 1,
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate": {
+    "id": "location_of_organization",
+    "label": "location of organization or its office",
+    "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+    "includes": [
+      "explicit organization location, headquarters, office, or base in X",
+      "a geographically identified office or division of Y located in X",
+      "historical physical organizational location"
+    ],
+    "excludes": [
+      "X is a corporate subsidiary or parent rather than a geographic place",
+      "national affiliation alone without physical location",
+      "ordinary travel, discussion, or an unrelated event in X"
+    ],
+    "ambiguous": [
+      "place versus institution metonymy unresolved",
+      "a geographic division name without clear physical location",
+      "unclear organization or location attachment"
+    ],
+    "notes": "This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+    "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location."
+  },
+  "dictionary_sha256": "903c1a16c14c7ef2c7ed6fdfe908523f5b7197cae814a35ebe46835c8f9c4203",
+  "kind": "declared_before_case_grading",
+  "rationale": "City subjects and office/director-in-city institutional roles identify the leading inverse organizational-location family. Mere professional location does not automatically prove an institutional office.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.227Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3,
+    4,
+    8,
+    9,
+    14
+  ],
+  "competing_meanings": [
+    "political leader",
+    "membership",
+    "dateline"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_118.before_grading.json",
+  "pregrading_annotation_sha256": "0ffd639b86049f0b1556377c623e64a27ea01405439fda47648839df117bfc9b"
+}

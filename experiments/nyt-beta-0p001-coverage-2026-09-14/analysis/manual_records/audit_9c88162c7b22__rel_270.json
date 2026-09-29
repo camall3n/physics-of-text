@@ -1,0 +1,45 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_270",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_270__ent_1165__ent_227",
+        "rel_270__ent_917__ent_586"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit physical be-at, street address or chatting in a location establishes physical presence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_270__ent_912__ent_918"
+      ],
+      "judgment": "incorrect",
+      "reason": "Directorship, creation and tenure at the F.B.I. are institutional roles without a geographic presence assertion.",
+      "tags": [
+        "institution_not_place"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "cb71adf2b2d1b22d93d2f244f5289797bbc53407786d91789fb1d8c02f0951b3"
+}

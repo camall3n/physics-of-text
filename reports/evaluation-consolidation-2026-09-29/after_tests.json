@@ -1,0 +1,118 @@
+{
+  "executed_at": "2026-09-29T19:51:12.495476+00:00",
+  "legacy_node_test_files": 9,
+  "canonical_node_test_files": 6,
+  "results": [
+    {
+      "name": "after_javascript_tests",
+      "command": [
+        "node",
+        "--test",
+        "--test-reporter=tap",
+        "experiments/nyt-precision-investigation-2026-09-12/tests/manual_report.test.mjs",
+        "experiments/nyt-precision-investigation-2026-09-12/tests/manual_sampling.test.mjs",
+        "experiments/nyt-latent-low-smoothing-2026-09-14/tests/manual_report.test.mjs",
+        "experiments/nyt-latent-low-smoothing-2026-09-14/tests/manual_sampling.test.mjs",
+        "experiments/nyt-complete-evaluation-2026-09-14/tests/census.test.mjs",
+        "experiments/nyt-complete-evaluation-2026-09-14/tests/maintenance.test.mjs",
+        "experiments/nyt-complete-evaluation-2026-09-14/tests/prior_comparisons.test.mjs",
+        "experiments/nyt-beta-0p001-coverage-2026-09-14/tests/coverage.test.mjs",
+        "experiments/nyt-beta-0p001-coverage-2026-09-14/tests/semantic_consistency.test.mjs",
+        "code/evaluation/nyt/tests/context.test.mjs",
+        "code/evaluation/nyt/tests/manual_recording.test.mjs",
+        "code/evaluation/nyt/tests/sampled.test.mjs",
+        "code/evaluation/tests/consistency_v2.test.mjs",
+        "code/evaluation/tests/equivalence_cli.test.mjs",
+        "code/evaluation/tests/population.test.mjs"
+      ],
+      "exit_code": 0,
+      "log": "after_javascript_tests.log",
+      "tail": [
+        "ok 128 - relation rank ties use numeric IDs; entity pair order is retained",
+        "  ---",
+        "  duration_ms: 0.377166",
+        "  type: 'test'",
+        "  ...",
+        "# Subtest: ambiguous or malformed source input cannot silently change columns",
+        "ok 129 - ambiguous or malformed source input cannot silently change columns",
+        "  ---",
+        "  duration_ms: 1.47825",
+        "  type: 'test'",
+        "  ...",
+        "1..129",
+        "# tests 129",
+        "# suites 0",
+        "# pass 129",
+        "# fail 0",
+        "# cancelled 0",
+        "# skipped 0",
+        "# todo 0",
+        "# duration_ms 14161.680625"
+      ]
+    },
+    {
+      "name": "after_figure1_tests",
+      "command": [
+        "/Users/michal/repos/physics-of-text/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "resources/sampler-140626/scripts",
+        "-p",
+        "test_figure1_self_pairs.py"
+      ],
+      "exit_code": 0,
+      "log": "after_figure1_tests.log",
+      "tail": [
+        "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'",
+        "  prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))",
+        "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'",
+        "  parse = parser.parseString(pattern)",
+        "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'",
+        "  parser.resetCache()",
+        "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'",
+        "  ParserElement.enablePackrat()",
+        "In /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'",
+        "In /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'",
+        "............",
+        "----------------------------------------------------------------------",
+        "Ran 12 tests in 3.116s",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "name": "after_census_validation",
+      "command": [
+        "node",
+        "reports/evaluation-consolidation-2026-09-29/verify_saved_censuses.mjs",
+        "after_censuses.json"
+      ],
+      "exit_code": 0,
+      "log": "after_census_validation.log",
+      "tail": [
+        "        {",
+        "          \"target\": 0.8,",
+        "          \"k\": 215,",
+        "          \"N\": 1541,",
+        "          \"S\": 1155,",
+        "          \"E\": 228,",
+        "          \"A\": 158",
+        "        },",
+        "        {",
+        "          \"target\": 0.9,",
+        "          \"k\": 285,",
+        "          \"N\": 1746,",
+        "          \"S\": 1252,",
+        "          \"E\": 311,",
+        "          \"A\": 183",
+        "        }",
+        "      ]",
+        "    }",
+        "  ]",
+        "}"
+      ]
+    }
+  ]
+}

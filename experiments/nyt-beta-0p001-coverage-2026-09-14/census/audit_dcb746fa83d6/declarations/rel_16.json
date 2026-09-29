@@ -1,0 +1,41 @@
+{
+  "relation": "rel_16",
+  "predicate_id": "has_wife",
+  "predicate_version": 1,
+  "predicate_hash": "de64fa948c10501258b239ea8f83b784ab79b79aa658fa235fcb1b9edb41a40d",
+  "predicate": {
+    "id": "has_wife",
+    "label": "has or had wife",
+    "definition": "Person X is or was married to woman Y identified as X's wife.",
+    "includes": [
+      "explicit wife or spouse identified as wife",
+      "wife apposition or accompanied-by-wife attachment establishing the couple",
+      "historical or former wife"
+    ],
+    "excludes": [
+      "daughter or other relative",
+      "ordinary companion or accompaniment without a wife relationship",
+      "a fictional or proposed marriage unless actual marital status is stated"
+    ],
+    "ambiguous": [
+      "unclear whose wife Y is",
+      "wife versus other companion attachment unresolved",
+      "engagement without established marriage"
+    ],
+    "notes": "The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+    "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship."
+  },
+  "dictionary_sha256": "e7790b6c2ff9dc8cee7f676190509d07d480eb7061491743c5c6a62bcb1c7fbb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse wife identification is the largest explicit relation family; violence against that wife does not change direction.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:37:09.111Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_16.before_grading.json",
+  "pregrading_annotation_sha256": "8334d6df5a71d442d84b67387a982eb468485198df5b0f3efe7d05cf61a37b7a"
+}

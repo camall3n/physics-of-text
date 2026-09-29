@@ -1,0 +1,1028 @@
+{
+  "relation": "rel_141",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_141.json",
+    "source_sha256": "de3630d7dfb16bda6c34183a55c532e97da5ef5667e67caf08ec8708a7e94f36",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_141__ent_1059__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1796,
+        1797,
+        1798,
+        1799,
+        1800,
+        1801,
+        1802,
+        1803,
+        7804,
+        7805,
+        7806,
+        7807,
+        7808,
+        7809,
+        7810,
+        7811,
+        7812,
+        7813
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.213Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        563,
+        564,
+        565,
+        566,
+        568,
+        569,
+        570,
+        7828,
+        7829,
+        7830,
+        7831,
+        7833,
+        7834,
+        7835
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_398__ent_155",
+      "judgment": "incorrect",
+      "reason": "Stephen Gillers → New York University: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_398__ent_390",
+      "judgment": "incorrect",
+      "reason": "Stephen Gillers → New York University Law School: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_191__ent_194",
+      "judgment": "incorrect",
+      "reason": "Dr. Arthur Caplan → University of Pennsylvania: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        508,
+        509,
+        510,
+        511,
+        512,
+        513,
+        514,
+        515,
+        516,
+        517
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_780__ent_529",
+      "judgment": "supported",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_806__ent_529",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1812,
+        1813,
+        1814,
+        1815,
+        1816,
+        7820,
+        7821,
+        7822,
+        7823,
+        7824
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_148__ent_163",
+      "judgment": "incorrect",
+      "reason": "Fred Siegel → Cooper Union: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_191__ent_530",
+      "judgment": "incorrect",
+      "reason": "Dr. Arthur Caplan → University of Minnesota: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_805__ent_808",
+      "judgment": "supported",
+      "reason": "Kevin Murphy → Morgan Stanley: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1817,
+        1818,
+        1819,
+        1820,
+        7836,
+        7837,
+        7838,
+        7839
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_807__ent_809",
+      "judgment": "supported",
+      "reason": "James Hale → MMS International: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1821,
+        1822,
+        1823,
+        1824,
+        1825,
+        1826,
+        1827,
+        1828
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_395__ent_156",
+      "judgment": "supported",
+      "reason": "David Rebovich → Rider University: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        288,
+        289,
+        290,
+        291,
+        292,
+        294,
+        295
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_391__ent_149",
+      "judgment": "supported",
+      "reason": "Ross K. Baker → Rutgers University: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_528__ent_781",
+      "judgment": "supported",
+      "reason": "Loren Thompson → Lexington Institute: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        579,
+        580,
+        581,
+        582,
+        584,
+        585,
+        586
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_397__ent_158",
+      "judgment": "incorrect",
+      "reason": "John C. Coffee Jr. → Columbia University: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_157__ent_399",
+      "judgment": "incorrect",
+      "reason": "Andrew Zimbalist → Smith College: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        312,
+        314,
+        315,
+        317,
+        319,
+        320
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_150__ent_392",
+      "judgment": "incorrect",
+      "reason": "Merle Black → Emory University: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_301__ent_529",
+      "judgment": "supported",
+      "reason": "Judah Kraushaar → Merrill Lynch: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_141.json",
+        "annotation_sha256": "de3630d7dfb16bda6c34183a55c532e97da5ef5667e67caf08ec8708a7e94f36"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_1006__ent_155",
+      "judgment": "incorrect",
+      "reason": "Robert Berne → New York University: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        750,
+        752,
+        753,
+        756,
+        757,
+        758
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_973__ent_734",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        7814,
+        7815,
+        7816,
+        7817,
+        7818,
+        7819
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_765__ent_522",
+      "judgment": "incorrect",
+      "reason": "Charles M. Elson → University of Delaware: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        542,
+        543,
+        544,
+        545,
+        548
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_796__ent_311",
+      "judgment": "supported",
+      "reason": "Richard E. Witten → Goldman , Sachs & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        735,
+        737,
+        738,
+        741,
+        743
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_359__ent_1056",
+      "judgment": "supported",
+      "reason": "Daniel Kunstler → J. P. Morgan: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1779,
+        1780,
+        1781,
+        1782,
+        1783
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_854__ent_615",
+      "judgment": "incorrect",
+      "reason": "Gary Burtless → Brookings Institution: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        2389,
+        2391,
+        2393,
+        2394,
+        2396
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_733__ent_975",
+      "judgment": "supported",
+      "reason": "John Morton → Lynch , Jones & Ryan: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        7840,
+        7841,
+        7842,
+        7843,
+        7844
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_1059__ent_529",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Merrill Lynch: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        7847,
+        7848,
+        7849,
+        7850,
+        7851
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.214Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_162__ent_165",
+      "judgment": "incorrect",
+      "reason": "Douglas Muzzio → Baruch College: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        354,
+        355,
+        356,
+        357
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_525__ent_767",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Asset Management: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        554,
+        555,
+        556,
+        557
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis → Salomon Brothers: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_141.json",
+        "annotation_sha256": "de3630d7dfb16bda6c34183a55c532e97da5ef5667e67caf08ec8708a7e94f36"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_768__ent_529",
+      "judgment": "supported",
+      "reason": "John Casesa → Merrill Lynch: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        575,
+        576,
+        577,
+        578
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_541__ent_783",
+      "judgment": "supported",
+      "reason": "Tom Wolzien → Sanford C. Bernstein & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        599,
+        600,
+        601,
+        602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_540__ent_782",
+      "judgment": "supported",
+      "reason": "David Healy → Burnham Securities: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        603,
+        604,
+        605,
+        606
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_1058__ent_783",
+      "judgment": "supported",
+      "reason": "Kenneth S. Abramowitz → Sanford C. Bernstein & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1790,
+        1791,
+        1792,
+        1793
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_1181__ent_1182",
+      "judgment": "supported",
+      "reason": "Neil Sweig → Southeast Research Partners: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1804,
+        1805,
+        1806,
+        1807
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_141.json",
+        "annotation_sha256": "de3630d7dfb16bda6c34183a55c532e97da5ef5667e67caf08ec8708a7e94f36"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_1183__ent_1184",
+      "judgment": "supported",
+      "reason": "Joel Karlin → Research Department Inc.: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1808,
+        1809,
+        1810,
+        1811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_388__ent_381",
+      "judgment": "incorrect",
+      "reason": "Mary Ann Rothman → Council of New York Cooperatives: Director or partner titles without analytical-role evidence do not establish analyst affiliation.",
+      "evidence_lines": [
+        182,
+        184,
+        186
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_164__ent_167",
+      "judgment": "incorrect",
+      "reason": "Peter Arenella → University of California: The local evidence establishes academic teaching, expertise, research or institutional leadership, but does not establish the specific analyst role.",
+      "evidence_lines": [
+        358,
+        359,
+        360
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_141.json",
+        "annotation_sha256": "de3630d7dfb16bda6c34183a55c532e97da5ef5667e67caf08ec8708a7e94f36"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_190__ent_192",
+      "judgment": "incorrect",
+      "reason": "Ward McCarthy → McCarthy Research Associates: Director or partner titles without analytical-role evidence do not establish analyst affiliation.",
+      "evidence_lines": [
+        505,
+        506,
+        507
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_524__ent_766",
+      "judgment": "supported",
+      "reason": "Donald J. Fine → Chase Manhattan Bank: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        558,
+        560,
+        562
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_806__ent_976",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        7825,
+        7826,
+        7827
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_978__ent_861",
+      "judgment": "supported",
+      "reason": "Scott Merlis → Morgan Stanley & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        7852,
+        7853,
+        7854
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_1185__ent_1186",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: At least one supplied row explicitly identifies analyst affiliation or professional analysis for the named employer; other titles and research or teaching evidence are not the basis of support.",
+      "evidence_lines": [
+        1829,
+        1830
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_193__ent_770",
+      "judgment": "incorrect",
+      "reason": "Steven A. Wood → Bank of America: Director or partner titles without analytical-role evidence do not establish analyst affiliation.",
+      "evidence_lines": [
+        518
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_141.json",
+        "annotation_sha256": "de3630d7dfb16bda6c34183a55c532e97da5ef5667e67caf08ec8708a7e94f36"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_230__ent_472",
+      "judgment": "incorrect",
+      "reason": "Stepinac → Holy Cross: Meeting Holy Cross is a contest/interaction path, not employment as an analyst.",
+      "evidence_lines": [
+        6081
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:57:20.215Z"
+      }
+    }
+  ]
+}

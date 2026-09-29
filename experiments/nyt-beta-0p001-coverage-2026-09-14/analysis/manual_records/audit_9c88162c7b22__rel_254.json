@@ -1,0 +1,52 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_254",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_254__ent_81__ent_84"
+      ],
+      "judgment": "incorrect",
+      "reason": "Travel, arrival, and dispatch to Baghdad do not state a sale.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_254__ent_537__ent_99",
+        "rel_254__ent_309__ent_1004"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit sell-to paths identify the ordered seller and recipient; the narrow sale predicate does not require the omitted item to be named.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_254__ent_643__ent_333"
+      ],
+      "judgment": "incorrect",
+      "reason": "Family-survivor and bringing-into-Manhattan paths do not express selling to the second argument.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "151add0c302ef2327f6f14ed96089aaa5bf56272499bee3cd69f2539d65b090c"
+}

@@ -1,0 +1,53 @@
+{
+  "relation": "rel_55",
+  "predicate_id": "has_lawyer",
+  "label": "has lawyer or legal counsel",
+  "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+  "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+  "facts": [
+    {
+      "case_id": "rel_55__ent_827__ent_40",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → David E. Kendall: The direct possessive-lawyer apposition identifies the second argument as the principal’s lawyer.",
+      "evidence_lines": [
+        3807,
+        3808,
+        3809,
+        3810,
+        3811,
+        3812,
+        3813,
+        3814,
+        3815,
+        3816
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.952Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_893__ent_650",
+      "judgment": "supported",
+      "reason": "Mr. Kelly → Thomas P. Puccio: The direct possessive-lawyer apposition identifies the second argument as the principal’s lawyer.",
+      "evidence_lines": [
+        3833
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.952Z"
+      }
+    }
+  ],
+  "predicate_hash": "7adfc3d56b8d9d1c512a2045c00e3347f181ccfe9995e1b6fab7c65a232837b4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "014786ef675556756ace0142c38e5b211055268685615b545c2fa0a2f0e53f45"
+}

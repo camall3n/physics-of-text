@@ -1,0 +1,55 @@
+{
+  "relation": "rel_40",
+  "predicate_id": "travels_to",
+  "predicate_version": 1,
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate": {
+    "id": "travels_to",
+    "label": "moves or travels to",
+    "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+    "includes": [
+      "move/relocate/return/arrive/go/visit to Y",
+      "depart/leave for Y",
+      "temporary travel or organizational relocation",
+      "bare unqualified destination movement as textual support"
+    ],
+    "excludes": [
+      "leave/withdraw from Y",
+      "mere presence/residence/death place",
+      "sports-event qualification or attendance as a nongeographic destination",
+      "membership or political control"
+    ],
+    "ambiguous": [
+      "explicitly hypothetical or proposed relocation",
+      "invasion-only boundary",
+      "geographic/team or theatrical metonymy"
+    ],
+    "notes": "Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+    "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path."
+  },
+  "dictionary_sha256": "5d8caf2fef955850bb7983f20e70f95ebfa7e322c2bbddd74f54a567f891615c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Coming/arrival/bringing/fleeing to geographic destinations dominates. Broadway theatrical participation and residence alone are distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.590Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    9,
+    13
+  ],
+  "competing_meanings": [
+    "theatrical participation",
+    "residence",
+    "managerial office"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_40.before_grading.json",
+  "pregrading_annotation_sha256": "50ac0786e24b99da10ba25f0780bcf477cfb2a0e7aa5ddc7b6d073be370c1b9a"
+}

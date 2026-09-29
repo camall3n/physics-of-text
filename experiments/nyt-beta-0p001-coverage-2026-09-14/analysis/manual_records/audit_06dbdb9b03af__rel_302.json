@@ -1,0 +1,48 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_302",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_302__ent_826__ent_1102",
+        "rel_302__ent_826__ent_825",
+        "rel_302__ent_747__ent_824"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit killed-in or died-after-crash-in row establishes death in the place for the named person or affected population members.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_302__ent_886__ent_302",
+        "rel_302__ent_441__ent_683"
+      ],
+      "judgment": "incorrect",
+      "reason": "Company cofounding or sports-team relocation does not establish death in a location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "eb5c091efa2cf390210a16ab884e89dbaeae4751d343680f8b3fc4f0cabbe0d0"
+}

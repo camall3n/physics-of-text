@@ -1,0 +1,41 @@
+{
+  "relation": "rel_256",
+  "predicate_id": "died_in",
+  "predicate_version": 1,
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate": {
+    "id": "died_in",
+    "label": "died in place",
+    "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+    "includes": [
+      "explicit died-in or death-in location",
+      "being killed in Y establishing death there",
+      "historical death location"
+    ],
+    "excludes": [
+      "residence, birth, or ordinary presence alone",
+      "Y is the perpetrator or cause rather than location",
+      "discussion of deaths without the affected person or population"
+    ],
+    "ambiguous": [
+      "place versus institution unresolved",
+      "unclear death or geographic attachment",
+      "a population mention without identified affected members"
+    ],
+    "notes": "This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+    "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died."
+  },
+  "dictionary_sha256": "7536eb5f5652b130eac506a779800969d926770cdc1b80f45f096ed37017e390",
+  "kind": "declared_before_case_grading",
+  "rationale": "Die-in/death-in/perish-in dominate, ordered deceased person/population to place; residence and locations of reports are distinct.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:07:11.793Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_256.before_grading.json",
+  "pregrading_annotation_sha256": "8b3c8219e6e697b4c8baced9613107a03d29f7a14d13d031db7942edbef1e0bb"
+}

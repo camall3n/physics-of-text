@@ -1,0 +1,80 @@
+{
+  "relation": "rel_342",
+  "label": "analyst affiliation",
+  "definition": "The first person works as an analyst for or at the second organization.",
+  "scope_notes": "Analyst-for/with/at overwhelmingly dominates. Director or partner alone does not establish analyst status. A shared analyst path does not resolve incompatible names within one latent entity.",
+  "facts": [
+    {
+      "case_id": "rel_342__ent_540__ent_303",
+      "judgment": "supported",
+      "reason": "All four rows identify David Healy as an analyst at/with/for Burnham Securities.",
+      "evidence_lines": [
+        603,
+        604,
+        605,
+        606
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_342__ent_1306__ent_1008",
+      "judgment": "supported",
+      "reason": "Kurtter is explicitly an analyst with, for and at Moody's Investors Service.",
+      "evidence_lines": [
+        760,
+        762,
+        763
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_342__ent_768__ent_1275",
+      "judgment": "supported",
+      "reason": "Casesa is explicitly a Merrill Lynch analyst in at/with/for paraphrases.",
+      "evidence_lines": [
+        575,
+        576,
+        577,
+        578
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_342__ent_1330__ent_1180",
+      "judgment": "ambiguous",
+      "reason": "Every path describes analyst affiliation, but the second latent entity represents both Paine Webber and Merrill Lynch. These different organization strings are not established as aliases, so one resolved ordered fact is uncertain.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1798,
+        7804,
+        7808,
+        7848
+      ],
+      "issue_tags": [
+        "mixed_entity_names"
+      ],
+      "reviewer_question": "Should this latent entity be resolved to Paine Webber or Merrill Lynch, or split into two organizations?"
+    },
+    {
+      "case_id": "rel_342__ent_736__ent_783",
+      "judgment": "ambiguous",
+      "reason": "The analyst predicate is explicit for each row, but the first latent entity combines Tom Wolzien, Kenneth S. Abramowitz and Gary D. Black without evidence that they name one person.",
+      "evidence_lines": [
+        600,
+        1790,
+        1791,
+        1792,
+        7845,
+        7846
+      ],
+      "issue_tags": [
+        "mixed_entity_names"
+      ],
+      "reviewer_question": "Which person does this first latent entity denote, given its Wolzien, Abramowitz and Black mentions?"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "relation": "rel_197",
+  "predicate_id": "chairs_or_heads",
+  "label": "chairs or heads organization",
+  "definition": "Person X holds or held a chair or organizational head/leader office in organization or committee Y.",
+  "scope_notes": "Includes: explicit chair/head/organizational leader; historical chair or head office. Excludes: ordinary member/serve-on/sit-on; generic executive/director/president without chair/head role; chair of a panel as proof of chairing its parent organization. Ambiguous unless resolved by case-local evidence: incomplete panel/parent attachment; unnamed person identified only by party. This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases.",
+  "facts": [
+    {
+      "case_id": "rel_197__ent_7__ent_488",
+      "judgment": "ambiguous",
+      "reason": "Democrat → House Armed Services Committee: The chair/head or lead role is potentially eligible, but Democrat or Republican does not identify the person holding it.",
+      "evidence_lines": [
+        6338,
+        6339,
+        6340,
+        6342,
+        6343
+      ],
+      "issue_tags": [
+        "unnamed_officeholder",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Democrat or Republican holds the stated committee chair/head role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:46.788Z"
+      }
+    },
+    {
+      "case_id": "rel_197__ent_263__ent_486",
+      "judgment": "ambiguous",
+      "reason": "Republican → Finance Committee: The chair/head or lead role is potentially eligible, but Democrat or Republican does not identify the person holding it.",
+      "evidence_lines": [
+        6283,
+        6284,
+        6285,
+        6288
+      ],
+      "issue_tags": [
+        "unnamed_officeholder",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Democrat or Republican holds the stated committee chair/head role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:46.788Z"
+      }
+    },
+    {
+      "case_id": "rel_197__ent_7__ent_243",
+      "judgment": "ambiguous",
+      "reason": "Democrat → Armed Services Committee: The chair/head or lead role is potentially eligible, but Democrat or Republican does not identify the person holding it.",
+      "evidence_lines": [
+        6303,
+        6305,
+        6306,
+        6308
+      ],
+      "issue_tags": [
+        "unnamed_officeholder",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Democrat or Republican holds the stated committee chair/head role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:46.788Z"
+      }
+    },
+    {
+      "case_id": "rel_197__ent_7__ent_485",
+      "judgment": "ambiguous",
+      "reason": "Democrat → Senate Armed Services Committee: The chair/head or lead role is potentially eligible, but Democrat or Republican does not identify the person holding it.",
+      "evidence_lines": [
+        6315,
+        6316,
+        6317,
+        6318
+      ],
+      "issue_tags": [
+        "unnamed_officeholder",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Democrat or Republican holds the stated committee chair/head role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:46.788Z"
+      }
+    },
+    {
+      "case_id": "rel_197__ent_247__ent_489",
+      "judgment": "supported",
+      "reason": "Louis Farrakhan → Nation of Islam: Direct leading and succeeding-as-head evidence establishes leadership of the Nation of Islam.",
+      "evidence_lines": [
+        2948,
+        2949,
+        4970
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:46.788Z"
+      }
+    },
+    {
+      "case_id": "rel_197__ent_263__ent_244",
+      "judgment": "ambiguous",
+      "reason": "Republican → Judiciary Committee: The chair/head or lead role is potentially eligible, but Democrat or Republican does not identify the person holding it.",
+      "evidence_lines": [
+        6274,
+        6275,
+        6277
+      ],
+      "issue_tags": [
+        "unnamed_officeholder",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Democrat or Republican holds the stated committee chair/head role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:46.788Z"
+      }
+    }
+  ],
+  "predicate_hash": "6878774795bd285dbc60353115335f7e766252e8a03703fe835115aafc069c17",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f908d9bed8b09ee2aeceec0ce7cd0f97c149bd68544f903b8053c9ddfa4a3b54"
+}

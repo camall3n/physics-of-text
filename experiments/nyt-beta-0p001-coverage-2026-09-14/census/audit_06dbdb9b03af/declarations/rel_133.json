@@ -1,0 +1,50 @@
+{
+  "relation": "rel_133",
+  "predicate_id": "participated_in_sporting_event",
+  "predicate_version": 1,
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate": {
+    "id": "participated_in_sporting_event",
+    "label": "participated in sporting event",
+    "definition": "Competitor or team X participated in sporting event or competition Y.",
+    "includes": [
+      "actual played-in, competed-in, or appeared-in a sporting event",
+      "being in an event when competitive participation is clear",
+      "a completed win or title in the event, which entails participation"
+    ],
+    "excludes": [
+      "plans, hopes, or qualification without established participation",
+      "attendance as spectator",
+      "membership in a league without participation in the designated event",
+      "non-sporting events or geographic presence alone"
+    ],
+    "ambiguous": [
+      "future or proposed participation",
+      "event occurrence or participant role unclear",
+      "a governing body or location substituted for an unresolved event"
+    ],
+    "notes": "Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+    "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared."
+  },
+  "dictionary_sha256": "7e2a178e7c7d0f0a5ef962928326002fcb363e5e05af1f725c34164d91e4b459",
+  "kind": "declared_before_case_grading",
+  "rationale": "Loss-in, winner-at and sporting final/championship context define event participation, without requiring victory.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:28:25.016Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_133.before_grading.json",
+  "pregrading_annotation_sha256": "3ed4f370f1a531d9c6d1892e62940f925fb6b2dfab903fad6cea77b453fbf80b"
+}

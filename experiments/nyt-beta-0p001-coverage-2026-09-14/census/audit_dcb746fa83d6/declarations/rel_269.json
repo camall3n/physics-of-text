@@ -1,0 +1,31 @@
+{
+  "relation": "rel_269",
+  "predicate_id": "economist_for",
+  "predicate_version": 1,
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate": {
+    "id": "economist_for",
+    "label": "economist at organization",
+    "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+    "includes": [
+      "explicit economist at/for/with/of",
+      "historical departmental economist affiliation"
+    ],
+    "excludes": [
+      "analyst/strategist/specialist/professor/executive alone",
+      "generic financial expertise"
+    ],
+    "ambiguous": [
+      "unclear economist/employer attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment."
+  },
+  "dictionary_sha256": "0d942f75467a1c830f776088015950558461c96549f62e321dec9176cdc41096",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

@@ -1,0 +1,78 @@
+{
+  "relation": "rel_362",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_362__ent_49__ent_36",
+      "judgment": "ambiguous",
+      "reason": "George J. Mitchell → Democratic: Democratic is a materially incomplete political body despite explicit leadership wording.",
+      "evidence_lines": [
+        3771,
+        3773,
+        3774,
+        3775,
+        3776
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Democratic institution or legislative group is the leadership principal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:32.485Z"
+      }
+    },
+    {
+      "case_id": "rel_362__ent_265__ent_1197",
+      "judgment": "supported",
+      "reason": "Tom Daschle → Senate: An explicit co-chairman-of Senate title establishes political leadership within the body.",
+      "evidence_lines": [
+        3008,
+        3010,
+        3012,
+        3013
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:32.485Z"
+      }
+    },
+    {
+      "case_id": "rel_362__ent_265__ent_36",
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle → Democratic: Democratic is a materially incomplete political body despite explicit leadership wording.",
+      "evidence_lines": [
+        3699,
+        3701,
+        3702,
+        3705
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Democratic institution or legislative group is the leadership principal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:32.485Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "22ffdffa9620a370400c7b4e5c3d27fd22d5bd0ecfa843314b148190047cc399"
+}

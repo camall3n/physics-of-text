@@ -1,0 +1,119 @@
+{
+  "relation": "rel_267",
+  "predicate_id": "chairperson_of",
+  "label": "chairperson of",
+  "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+  "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+  "facts": [
+    {
+      "case_id": "rel_267__ent_152__ent_1223",
+      "judgment": "supported",
+      "reason": "Charles A. Gargano → Empire State Development Corporation: Direct chair title establishes office, independently of founding or prior governor roles.",
+      "evidence_lines": [
+        250,
+        251,
+        253,
+        256,
+        257
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:26.167Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_1277__ent_302",
+      "judgment": "supported",
+      "reason": "Bill Gates → Microsoft: Direct chair title establishes office, independently of founding or prior governor roles.",
+      "evidence_lines": [
+        3901,
+        3903,
+        5100,
+        5688,
+        5690
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:26.167Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_447__ent_0",
+      "judgment": "supported",
+      "reason": "Ben S. Bernanke → Federal Reserve: Direct chair title establishes office, independently of founding or prior governor roles.",
+      "evidence_lines": [
+        5706,
+        5708,
+        5711,
+        5714,
+        5715
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:26.167Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_30__ent_1305",
+      "judgment": "ambiguous",
+      "reason": "Nancy Pelosi → Democratic: Chair is explicit but Democratic is a truncated political-body adjective.",
+      "evidence_lines": [
+        3732,
+        3733,
+        3736,
+        3737
+      ],
+      "issue_tags": [
+        "truncated_political_body",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which complete institution is the chair office in?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:26.167Z"
+      }
+    },
+    {
+      "case_id": "rel_267__ent_843__ent_1210",
+      "judgment": "incorrect",
+      "reason": "New York → DDB Worldwide: Agency location and corporate unit paths do not identify a person chair.",
+      "evidence_lines": [
+        4172,
+        4173,
+        4174,
+        4179
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:26.167Z"
+      }
+    }
+  ],
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5e0587aec2ce56b3500b1947d33a9d7d094999811eacabc41efd03d5881af981"
+}

@@ -1,0 +1,71 @@
+{
+  "relation": "rel_335",
+  "label": "analyst for",
+  "definition": "Person 1 is or was an analyst for organization 2.",
+  "scope_notes": "Explicit analyst and following/tracking an industry for an employer qualify. Economist/strategist alone is a role-scope ambiguity; managerial, professorial or other roles alone are not analyst roles.",
+  "facts": [
+    {
+      "case_id": "rel_335__ent_806__ent_976",
+      "judgment": "supported",
+      "reason": "Heinbach is explicitly an analyst for/with/at Merrill Lynch & Company.",
+      "evidence_lines": [
+        7825,
+        7826,
+        7827
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_335__ent_904__ent_121",
+      "judgment": "incorrect",
+      "reason": "New York is a place of arrival in a path involving an FBI agent, not a person employed as an analyst.",
+      "evidence_lines": [
+        4159
+      ],
+      "issue_tags": [
+        "wrong_argument_type",
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_335__ent_791__ent_310",
+      "judgment": "ambiguous",
+      "reason": "Sullivan is described as president and economist at Witter Reynolds. No explicit analyst title is present, so including the economist role would widen the predicate.",
+      "evidence_lines": [
+        715,
+        717
+      ],
+      "issue_tags": [
+        "role_scope"
+      ],
+      "reviewer_question": "Should this economist role count as an analyst, and is there source evidence of analytical duties or an analyst title?"
+    },
+    {
+      "case_id": "rel_335__ent_1061__ent_1361",
+      "judgment": "incorrect",
+      "reason": "The enjoy-with and cast paths involving Randolph and Yankees contain no analyst role.",
+      "evidence_lines": [
+        6551,
+        6552
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_335__ent_1306__ent_1008",
+      "judgment": "supported",
+      "reason": "Kurtter is explicitly an analyst with/for/at Moody’s Investors Service, independently of the president title.",
+      "evidence_lines": [
+        760,
+        762,
+        763
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

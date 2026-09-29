@@ -1,0 +1,48 @@
+{
+  "relation": "rel_150",
+  "predicate_id": "has_political_leader",
+  "predicate_version": 1,
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate": {
+    "id": "has_political_leader",
+    "label": "political body has a leader",
+    "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+    "includes": [
+      "national president/ruler/head of government",
+      "named parliamentary majority/minority leader or whip",
+      "historical leadership"
+    ],
+    "excludes": [
+      "corporate/team leadership",
+      "ordinary membership/meeting",
+      "party control instead of an individual leader",
+      "person-to-body forward direction"
+    ],
+    "ambiguous": [
+      "unspecified minister without evidence of head-of-government or leadership scope",
+      "truncated body or unnamed officeholder"
+    ],
+    "notes": "Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+    "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S."
+  },
+  "dictionary_sha256": "92bb6ebe1223c8414717daa0cf3a74c1ef6d2371ec398574e114c2907a16781b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse public minister/official family is the strongest coherent relation, exceeding generic workplace/theater fragments; named office and body identity still required.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.439Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_150.before_grading.json",
+  "pregrading_annotation_sha256": "93be22da6275ebc393a80f18ead101ace1f473f9fca49f606db01f2b1d817196"
+}

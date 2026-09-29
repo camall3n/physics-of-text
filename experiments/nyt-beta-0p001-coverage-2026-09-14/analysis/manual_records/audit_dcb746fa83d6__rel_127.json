@@ -1,0 +1,66 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_127",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "case_ids": [
+        "rel_127__ent_197__ent_169",
+        "rel_127__ent_1325__ent_904",
+        "rel_127__ent_87__ent_1266",
+        "rel_127__ent_1360__ent_731"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit unqualified visit or trip to the geographic destination supports movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_127__ent_81__ent_84"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Trip and visit paths coexist with explicitly rejected and anticipated trip evidence, so actual undertaking of this trip is unresolved.",
+      "tags": [
+        "proposed_travel"
+      ],
+      "question": "Was Baker’s Baghdad trip undertaken, or are these rows describing a rejected or anticipated visit?"
+    },
+    {
+      "indices": [
+        3,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_127__ent_1165__ent_227",
+        "rel_127__ent_933__ent_936",
+        "rel_127__ent_957__ent_1308"
+      ],
+      "judgment": "incorrect",
+      "reason": "Venue address, Internet business description or a proposed departmental job does not establish destination movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c23e0910041d4a763b0c4d496ba2bf89ea09341dbb4d93590df941542d5851e0"
+}

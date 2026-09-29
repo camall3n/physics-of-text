@@ -1,0 +1,69 @@
+{
+  "relation": "rel_48",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_48__ent_946__ent_1090",
+      "judgment": "incorrect",
+      "reason": "John Thompson → Georgetown: Coaching a college team or legal defense by a lawyer is not movement to a geographic destination.",
+      "evidence_lines": [
+        7218,
+        7219,
+        7220,
+        7222
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:57.522Z"
+      }
+    },
+    {
+      "case_id": "rel_48__ent_44__ent_43",
+      "judgment": "incorrect",
+      "reason": "Mr. Gotti → Bruce Cutler: Coaching a college team or legal defense by a lawyer is not movement to a geographic destination.",
+      "evidence_lines": [
+        3801,
+        3803,
+        3804
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:57.522Z"
+      }
+    },
+    {
+      "case_id": "rel_48__ent_476__ent_818",
+      "judgment": "supported",
+      "reason": "North Koreans → China: Explicit crossing and sneaking into China establish geographic destination movement by members of the population.",
+      "evidence_lines": [
+        6138,
+        6141,
+        6144
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:57.522Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "01d9ffba6440f2d1c62d6bd8fa9eb57d374b0dc64bb499dd0cb715d03b2c85a4"
+}

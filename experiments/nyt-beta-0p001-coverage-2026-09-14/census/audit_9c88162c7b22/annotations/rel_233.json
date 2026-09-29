@@ -1,0 +1,61 @@
+{
+  "relation": "rel_233",
+  "predicate_id": "broadcasts_event",
+  "label": "broadcasts event",
+  "definition": "Broadcaster X broadcasts or broadcast coverage of event Y.",
+  "scope_notes": "Includes: explicit broadcast or telecast of Y; a stated event show on X; historical event coverage. Excludes: broadcasting another program after Y; rights ownership alone without actual coverage; advertisement placement or rejection alone; ordinary attendance or commentary about Y. Ambiguous unless resolved by case-local evidence: announced future coverage or rights without realization; unclear broadcaster versus production role; generic have or show without event-coverage attachment. Separate from broadcasts_program for a named regular program; no ownership or exclusive-rights claim is implied.",
+  "facts": [
+    {
+      "case_id": "rel_233__ent_554__ent_850",
+      "judgment": "supported",
+      "reason": "CBS → Super Bowl: Explicit CBS broadcast and telecast of the Super Bowl establish event coverage; unrelated post-event program and rights rows are not the basis.",
+      "evidence_lines": [
+        4956,
+        4957,
+        4958,
+        4959,
+        4960,
+        4961,
+        4962,
+        4963,
+        4964,
+        4965
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.499Z"
+      }
+    },
+    {
+      "case_id": "rel_233__ent_180__ent_949",
+      "judgment": "incorrect",
+      "reason": "Bush → Ariel Sharon: Political support and rebuke between people do not constitute event broadcasting.",
+      "evidence_lines": [
+        8223,
+        8227,
+        8229,
+        8230,
+        8231
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.499Z"
+      }
+    }
+  ],
+  "predicate_hash": "4c4cb3c2a5f9cd89c391dbc4e7a1a1bdb53716746defc7a1c67a76148b777927",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "231f2944d70116361a75a7c65898864ddcd435080ff90719e4f2aef584e1d9bb"
+}

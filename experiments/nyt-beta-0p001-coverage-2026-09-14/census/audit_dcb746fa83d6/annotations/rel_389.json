@@ -1,0 +1,130 @@
+{
+  "relation": "rel_389",
+  "predicate_id": "has_member",
+  "label": "has member",
+  "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+  "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+  "facts": [
+    {
+      "case_id": "rel_389__ent_409__ent_1106",
+      "judgment": "incorrect",
+      "reason": "Ted Turner → CNN: Forward founder affiliation, broad demographic category inclusion or forward official affiliation does not establish inverse organized-group membership.",
+      "evidence_lines": [
+        3877,
+        3878,
+        3879,
+        3880,
+        3881,
+        3882,
+        3883
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:04.156Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_308__ent_1222",
+      "judgment": "supported",
+      "reason": "Knicks → Ewing: Explicit inclusion of the named athlete or political person establishes membership in the organized team or party.",
+      "evidence_lines": [
+        3434,
+        3436,
+        4926,
+        4935
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:04.156Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_722__ent_669",
+      "judgment": "incorrect",
+      "reason": "Westerners → Americans: Forward founder affiliation, broad demographic category inclusion or forward official affiliation does not establish inverse organized-group membership.",
+      "evidence_lines": [
+        7526,
+        7527,
+        7529,
+        7531
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:04.156Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_819__ent_1325",
+      "judgment": "supported",
+      "reason": "Democrats → Clinton: Explicit inclusion of the named athlete or political person establishes membership in the organized team or party.",
+      "evidence_lines": [
+        7576,
+        7581,
+        7583
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:04.156Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_1029__ent_356",
+      "judgment": "ambiguous",
+      "reason": "Knicks → Ewing: Team-without a person does not establish whether the absent person is an actual team member.",
+      "evidence_lines": [
+        4933
+      ],
+      "issue_tags": [
+        "membership_context"
+      ],
+      "reviewer_question": "Does team without Ewing identify an absent roster member, or a hypothetical composition?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:04.156Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_729__ent_1279",
+      "judgment": "incorrect",
+      "reason": "Alger Hiss → State Department: Forward founder affiliation, broad demographic category inclusion or forward official affiliation does not establish inverse organized-group membership.",
+      "evidence_lines": [
+        7480
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:04.156Z"
+      }
+    }
+  ],
+  "predicate_hash": "e06c2b4086768dca86ee7554ab8de61a903529610ffb5a9e45977f36ffeb0d6a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c22fc045e273c22566c468c1ae1cfabfa3a873671927ef5170965dca99f6bebc"
+}

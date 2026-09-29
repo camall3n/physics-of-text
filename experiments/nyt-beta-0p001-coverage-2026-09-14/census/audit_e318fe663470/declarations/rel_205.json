@@ -1,0 +1,45 @@
+{
+  "relation": "rel_205",
+  "predicate_id": "organizational_leader_of",
+  "predicate_version": 1,
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate": {
+    "id": "organizational_leader_of",
+    "label": "leader or organizational head of",
+    "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+    "includes": [
+      "explicit leader/head/president/chief/chair",
+      "legislative majority/minority leadership or whip",
+      "leadership office within an identified body",
+      "historical office"
+    ],
+    "excludes": [
+      "ordinary membership or service",
+      "founding/ownership alone",
+      "party control of a chamber",
+      "candidate alone",
+      "athletic/standings or task-only lead",
+      "editor alone"
+    ],
+    "ambiguous": [
+      "generic director or executive without clear leadership role",
+      "bare lead lacking organizational-role context",
+      "materially truncated political body"
+    ],
+    "notes": "Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+    "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles."
+  },
+  "dictionary_sha256": "ed34d792499be71f090e86e70ee56158b99779bc434640f74a69c2e480025808",
+  "kind": "declared_before_case_grading",
+  "rationale": "Leader and whip modifiers dominate. Nationality or party fragments remain unresolved institutional arguments; no founding or membership-only expansion.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:07:11.731Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_205.before_grading.json",
+  "pregrading_annotation_sha256": "8d7305b7575eed538cf4220d2a11333bc74d9e697a3921942b6ecdd0f078cd8b"
+}

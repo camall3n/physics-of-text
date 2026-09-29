@@ -1,0 +1,77 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_384",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_384__ent_17__ent_586",
+        "rel_384__ent_917__ent_586",
+        "rel_384__ent_916__ent_586",
+        "rel_384__ent_912__ent_918",
+        "rel_384__ent_913__ent_586",
+        "rel_384__ent_385__ent_142",
+        "rel_384__ent_910__ent_586",
+        "rel_384__ent_914__ent_586",
+        "rel_384__ent_343__ent_585"
+      ],
+      "judgment": "supported",
+      "reason": "A local director or chief title explicitly establishes the qualifying formal managerial office, even where other employment or adviser roles coexist.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_384__ent_1051__ent_124"
+      ],
+      "judgment": "incorrect",
+      "reason": "Death at a hospital establishes neither an office nor managerial service there.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_384__ent_67__ent_69"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The chief title is potentially supportive, but Bosnian Serb is an incomplete political-body designation.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which Bosnian Serb institution is the principal of this chief office?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "d15a74ecd7ee598755281a24962c4d2af27805fc2d4bf51094afd506c8ba43c8"
+}

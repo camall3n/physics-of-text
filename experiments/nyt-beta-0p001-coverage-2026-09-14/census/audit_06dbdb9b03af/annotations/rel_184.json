@@ -1,0 +1,86 @@
+{
+  "relation": "rel_184",
+  "predicate_id": "geographic_part_of",
+  "label": "geographical part of",
+  "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+  "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution.",
+  "facts": [
+    {
+      "case_id": "rel_184__ent_334__ent_323",
+      "judgment": "supported",
+      "reason": "Park Slope → Brooklyn: The full saved street/neighborhood/city address explicitly places Park Slope within Brooklyn.",
+      "evidence_lines": [
+        1149,
+        1154,
+        1155,
+        1156,
+        1157
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:40.373Z"
+      }
+    },
+    {
+      "case_id": "rel_184__ent_409__ent_1106",
+      "judgment": "incorrect",
+      "reason": "Ted Turner → CNN: Personal corporate roles, messages or sports management are not geographic containment.",
+      "evidence_lines": [
+        3877,
+        3879,
+        3881
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:40.374Z"
+      }
+    },
+    {
+      "case_id": "rel_184__ent_195__ent_189",
+      "judgment": "incorrect",
+      "reason": "Reagan → Congress: Personal corporate roles, messages or sports management are not geographic containment.",
+      "evidence_lines": [
+        480,
+        2097
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:40.374Z"
+      }
+    },
+    {
+      "case_id": "rel_184__ent_275__ent_561",
+      "judgment": "incorrect",
+      "reason": "George Young → Giants: Personal corporate roles, messages or sports management are not geographic containment.",
+      "evidence_lines": [
+        3200,
+        3203
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:40.374Z"
+      }
+    }
+  ],
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "4795461595197e1e12d4dac57cff886a69ac23c27bd94d5c335a4298eeafec12"
+}

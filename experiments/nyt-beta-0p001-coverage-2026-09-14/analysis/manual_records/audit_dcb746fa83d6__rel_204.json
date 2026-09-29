@@ -1,0 +1,74 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_204",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_204__ent_524__ent_766",
+        "rel_204__ent_525__ent_527",
+        "rel_204__ent_541__ent_783",
+        "rel_204__ent_973__ent_496",
+        "rel_204__ent_926__ent_793",
+        "rel_204__ent_549__ent_861"
+      ],
+      "judgment": "supported",
+      "reason": "A local analyst title explicitly identifies the professional employer affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        5
+      ],
+      "case_ids": [
+        "rel_204__ent_900__ent_399",
+        "rel_204__ent_791__ent_310"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The available financial role is economist rather than explicit analyst, at the inherited nearby-role boundary; the latter fact also merges unrelated person/principal names.",
+      "tags": [
+        "analyst_role_boundary"
+      ],
+      "question": "Does the economist role include the analyst work required by the frozen predicate, and are the inferred entities correctly separated?"
+    },
+    {
+      "indices": [
+        3,
+        7,
+        10
+      ],
+      "case_ids": [
+        "rel_204__ent_1100__ent_163",
+        "rel_204__ent_336__ent_186",
+        "rel_204__ent_1338__ent_1415"
+      ],
+      "judgment": "incorrect",
+      "reason": "Historian, president or a meeting does not establish analyst employment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "40549462beb4e760e9fc1ebeaa14a3360c18943f26d9fa320badfb3631bac9ed"
+}

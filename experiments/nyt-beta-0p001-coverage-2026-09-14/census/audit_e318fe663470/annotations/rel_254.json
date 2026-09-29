@@ -1,0 +1,189 @@
+{
+  "relation": "rel_254",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_254__ent_588__ent_308",
+      "judgment": "incorrect",
+      "reason": "Scott Layden → Knicks: Sport-related travel/dismissal, a return or consideration for a government job does not establish an analyst role.",
+      "evidence_lines": [
+        1679,
+        1680,
+        1682,
+        1683,
+        1684
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_528__ent_358",
+      "judgment": "supported",
+      "reason": "Loren Thompson → Lexington Institute: A local explicit analyst title establishes professional analysis for the named employer.",
+      "evidence_lines": [
+        580,
+        585,
+        587
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.704Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_780__ent_1447",
+      "judgment": "supported",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: A local explicit analyst title establishes professional analysis for the named employer.",
+      "evidence_lines": [
+        590,
+        593,
+        594
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_634__ent_783",
+      "judgment": "ambiguous",
+      "reason": "Gary D. Black → Sanford C. Bernstein & Company; Kenneth S. Abramowitz → Sanford C. Bernstein & Company: Two distinct analysts, Gary Black and Kenneth Abramowitz, are merged in one inferred person.",
+      "evidence_lines": [
+        1791,
+        7846
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which analyst does this inferred fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_1407__ent_529",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Merrill Lynch: A local explicit analyst title establishes professional analysis for the named employer.",
+      "evidence_lines": [
+        7849,
+        7850
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_1431__ent_529",
+      "judgment": "supported",
+      "reason": "John Casesa → Merrill Lynch: A local explicit analyst title establishes professional analysis for the named employer.",
+      "evidence_lines": [
+        577
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_301__ent_529",
+      "judgment": "ambiguous",
+      "reason": "Judah Kraushaar → Merrill Lynch: Follow-for omits the followed industry or object and supplies no explicit local analyst title.",
+      "evidence_lines": [
+        610
+      ],
+      "issue_tags": [
+        "missing_object",
+        "role_ambiguity"
+      ],
+      "reviewer_question": "Does follows for Merrill Lynch here specifically identify professional financial analysis?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_878__ent_173",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: A local explicit analyst title establishes professional analysis for the named employer.",
+      "evidence_lines": [
+        1829
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_341__ent_705",
+      "judgment": "incorrect",
+      "reason": "P. J. Carlesimo → Seton Hall: Sport-related travel/dismissal, a return or consideration for a government job does not establish an analyst role.",
+      "evidence_lines": [
+        7196
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    },
+    {
+      "case_id": "rel_254__ent_509__ent_536",
+      "judgment": "incorrect",
+      "reason": "Alan Keyes → State Department: Sport-related travel/dismissal, a return or consideration for a government job does not establish an analyst role.",
+      "evidence_lines": [
+        7457
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.705Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e4d4500247a2a152fc3643c380ba3450ad3a9c390962fcb37abd115d28793280"
+}

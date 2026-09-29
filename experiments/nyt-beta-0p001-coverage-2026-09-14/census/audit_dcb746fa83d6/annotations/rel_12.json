@@ -1,0 +1,159 @@
+{
+  "relation": "rel_12",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_12__ent_383__ent_140",
+      "judgment": "supported",
+      "reason": "Blair Horner → New York Public Interest Research Group: An explicit analyst title establishes the institutional analysis role.",
+      "evidence_lines": [
+        118,
+        119,
+        122,
+        123,
+        1719,
+        1720,
+        1723,
+        1724
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_121__ent_376",
+      "judgment": "incorrect",
+      "reason": "Charles Brecher → Citizens Budget Commission: Research director/professor/spokesman alone or legislative discourse does not establish analyst employment.",
+      "evidence_lines": [
+        1755,
+        1756,
+        1757,
+        1759
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_495__ent_1182",
+      "judgment": "supported",
+      "reason": "Neil Sweig → Southeast Research Partners: An explicit analyst title establishes the institutional analysis role.",
+      "evidence_lines": [
+        1804,
+        1806
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_926__ent_1295",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: An explicit analyst title establishes the institutional analysis role.",
+      "evidence_lines": [
+        1829
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_1401__ent_1326",
+      "judgment": "incorrect",
+      "reason": "Senate → House: Research director/professor/spokesman alone or legislative discourse does not establish analyst employment.",
+      "evidence_lines": [
+        1936
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_1355__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: An explicit analyst title establishes the institutional analysis role.",
+      "evidence_lines": [
+        7805
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_1355__ent_1275",
+      "judgment": "ambiguous",
+      "reason": "Emanuel Goldman → Merrill Lynch: Bare track-for omits what was tracked and does not independently identify professional industry analysis.",
+      "evidence_lines": [
+        7850
+      ],
+      "issue_tags": [
+        "omitted_analysis_object"
+      ],
+      "reviewer_question": "Was Goldman tracking companies or an industry for Merrill Lynch, or something else?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    },
+    {
+      "case_id": "rel_12__ent_1440__ent_1415",
+      "judgment": "incorrect",
+      "reason": "Congress → White House: Research director/professor/spokesman alone or legislative discourse does not establish analyst employment.",
+      "evidence_lines": [
+        7947
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.147Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b62e8f819199667a8d118407976be345cef3e679b9e7202e5260662ec5ee9ec3"
+}

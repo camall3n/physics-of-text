@@ -1,0 +1,87 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_351",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8
+      ],
+      "case_ids": [
+        "rel_351__ent_952__ent_325",
+        "rel_351__ent_719__ent_325",
+        "rel_351__ent_712__ent_325",
+        "rel_351__ent_710__ent_325",
+        "rel_351__ent_1097__ent_325",
+        "rel_351__ent_951__ent_325",
+        "rel_351__ent_1099__ent_711"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit write-in, review-for or publication critic evidence establishes authorship for the named publication.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_351__ent_182__ent_1002"
+      ],
+      "judgment": "incorrect",
+      "reason": "Speaking in Washington identifies a geographic speech location, not a publication.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_351__ent_247__ent_489"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows concern an organizational minister and a murder plot, not publication authorship.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_351__ent_1098__ent_325"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Say-in-The-Times alone does not distinguish writing from being quoted.",
+      "tags": [
+        "authorship_ambiguity"
+      ],
+      "question": "Was Herbert Mitgang the author of the Times passage or a quoted speaker?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0c02775bfa8fdeae0140ca1a8a466ac0214207dff92ace4416f2385daabd2a57"
+}

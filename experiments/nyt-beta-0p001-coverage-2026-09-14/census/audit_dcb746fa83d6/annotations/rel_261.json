@@ -1,0 +1,112 @@
+{
+  "relation": "rel_261",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_261__ent_1126__ent_897",
+      "judgment": "ambiguous",
+      "reason": "Colts → Indianapolis; Park Slope → Brooklyn: Colts-to-Indianapolis movement is merged with unrelated Park Slope-to-Brooklyn location arguments.",
+      "evidence_lines": [
+        1157,
+        4812,
+        4813,
+        4814,
+        4815,
+        4818
+      ],
+      "issue_tags": [
+        "local_entity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Does this latent pair denote the Colts and Indianapolis or Park Slope and Brooklyn?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.470Z"
+      }
+    },
+    {
+      "case_id": "rel_261__ent_849__ent_1381",
+      "judgment": "incorrect",
+      "reason": "Patriots → Super Bowl: Reaching or playing in the Super Bowl is event participation, not travel to a geographic destination.",
+      "evidence_lines": [
+        2248,
+        2249,
+        2250,
+        2253
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.470Z"
+      }
+    },
+    {
+      "case_id": "rel_261__ent_647__ent_429",
+      "judgment": "supported",
+      "reason": "Dodgers → Los Angeles: Explicit unqualified move, take or relocate to the geographic destination establishes movement under the inherited travel rule.",
+      "evidence_lines": [
+        4800,
+        4802,
+        4805,
+        4806
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.470Z"
+      }
+    },
+    {
+      "case_id": "rel_261__ent_680__ent_440",
+      "judgment": "supported",
+      "reason": "Browns → Baltimore: Explicit unqualified move, take or relocate to the geographic destination establishes movement under the inherited travel rule.",
+      "evidence_lines": [
+        4820,
+        4824,
+        4829
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.470Z"
+      }
+    },
+    {
+      "case_id": "rel_261__ent_1004__ent_682",
+      "judgment": "supported",
+      "reason": "Yankees → New Jersey: Explicit unqualified move, take or relocate to the geographic destination establishes movement under the inherited travel rule.",
+      "evidence_lines": [
+        4830,
+        4832
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.470Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "4ed9cfb7bdd73330c5e5e746fa53701a506fe156eb64013ae88c7f9268ab9452"
+}

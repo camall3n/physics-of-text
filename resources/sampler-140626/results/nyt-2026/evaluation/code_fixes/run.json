@@ -1,0 +1,40 @@
+{
+  "currentSources": true,
+  "historicalRevisionForCounterfactual": "13c3605",
+  "command": "node scripts/audit_sampler_code.mjs --verify-before",
+  "java": "openjdk 25.0.4.1 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)",
+  "testClasses": [
+    "org.ucb.generative_ie.mcmc.RelationSplitMergeTest",
+    "org.ucb.generative_ie.mcmc.RelationMovesTest",
+    "org.ucb.generative_ie.world.WorldProbTest",
+    "org.ucb.generative_ie.world.SentencesIndexTest",
+    "org.ucb.generative_ie.inference.ModelFunctionsTest",
+    "org.ucb.generative_ie.world.LexEntropyTest",
+    "org.ucb.generative_ie.world.SentenceEvidenceTest",
+    "org.ucb.generative_ie.util.CounterTest",
+    "org.ucb.generative_ie.util.LogProbMapTest",
+    "org.ucb.generative_ie.util.NormalProbMapTest",
+    "org.ucb.generative_ie.random.DirichletDistrTest",
+    "org.ucb.generative_ie.util.RandomAccessHashSetTest",
+    "org.ucb.generative_ie.util.UtilTest",
+    "org.ucb.generative_ie.experiments.CorpusParserTest",
+    "org.ucb.generative_ie.mcmc.FactBirthDeathRegressionTest",
+    "org.ucb.generative_ie.mcmc.RelationNumericsTest",
+    "org.ucb.generative_ie.mcmc.WorldInferStepsEmptyCorpusTest",
+    "org.ucb.generative_ie.mcmc.SentenceSamplingRegressionTest",
+    "org.ucb.generative_ie.mh.EntityProposalRegressionTest",
+    "org.ucb.generative_ie.mh.MHAcceptanceNumericsTest",
+    "org.ucb.generative_ie.util.ProbabilityNormalizationTest",
+    "org.ucb.generative_ie.inference.ModelFunctionsWorldParametersTest",
+    "org.ucb.generative_ie.inference.InferenceOutputRegressionTest",
+    "org.ucb.generative_ie.inference.InfererBurninTest"
+  ],
+  "excludedArchiveTests": [
+    "HMMTest",
+    "MathTest",
+    "LoggerTest",
+    "BernoulliExperimentTest",
+    "DpmSuite"
+  ],
+  "completedAt": "2026-09-11T22:29:16.868Z"
+}

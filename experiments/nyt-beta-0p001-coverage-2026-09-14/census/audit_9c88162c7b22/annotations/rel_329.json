@@ -1,0 +1,100 @@
+{
+  "relation": "rel_329",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_329__ent_492__ent_707",
+      "judgment": "ambiguous",
+      "reason": "Iraq → Tariq Aziz: An unspecified minister title does not establish the head-of-government or equivalent leadership scope, and adjacent references do not resolve that role.",
+      "evidence_lines": [
+        6987,
+        6988,
+        6989,
+        6992,
+        6995
+      ],
+      "issue_tags": [
+        "minister_scope"
+      ],
+      "reviewer_question": "Which minister office is identified, and does it qualify as political leadership under the declared scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.695Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_96__ent_948",
+      "judgment": "ambiguous",
+      "reason": "India → Atal Behari Vajpayee: An unspecified minister title does not establish the head-of-government or equivalent leadership scope, and adjacent references do not resolve that role.",
+      "evidence_lines": [
+        7027,
+        7028,
+        7031,
+        7032,
+        7036
+      ],
+      "issue_tags": [
+        "minister_scope"
+      ],
+      "reviewer_question": "Which minister office is identified, and does it qualify as political leadership under the declared scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.696Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_820__ent_941",
+      "judgment": "ambiguous",
+      "reason": "Israel → Yitzhak Rabin: An unspecified minister title does not establish the head-of-government or equivalent leadership scope, and adjacent references do not resolve that role.",
+      "evidence_lines": [
+        7057,
+        7059,
+        7062,
+        7065,
+        7066
+      ],
+      "issue_tags": [
+        "minister_scope"
+      ],
+      "reviewer_question": "Which minister office is identified, and does it qualify as political leadership under the declared scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.696Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_820__ent_940",
+      "judgment": "supported",
+      "reason": "Israel → Yitzhak Shamir: The government-led-by row explicitly identifies Shamir as head of the Israeli government.",
+      "evidence_lines": [
+        7077,
+        7078,
+        7079,
+        7083,
+        7084
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.696Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "7a96b84c8c681a15b2f0982182c98c995ce5df6293eebc3b4ecbade859261946"
+}

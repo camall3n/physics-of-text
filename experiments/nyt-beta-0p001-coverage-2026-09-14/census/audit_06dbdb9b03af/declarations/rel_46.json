@@ -1,0 +1,42 @@
+{
+  "relation": "rel_46",
+  "predicate_id": "secretary_to",
+  "predicate_version": 1,
+  "predicate_hash": "c14242e960ba416bef8635e9d592c7e5e35efe156e6e76b555796e3e8818bcde",
+  "predicate": {
+    "id": "secretary_to",
+    "label": "secretary to principal",
+    "definition": "Person X holds or held an explicitly identified secretary role serving principal Y.",
+    "includes": [
+      "explicit secretary-to or possessive secretary title for a named person or institution",
+      "historical secretarial office"
+    ],
+    "excludes": [
+      "consultant, adviser, spokesperson or director alone",
+      "ordinary communication or employment without secretary title",
+      "inferring leadership or a specific cabinet portfolio from secretary alone"
+    ],
+    "ambiguous": [
+      "unclear secretary or principal attachment",
+      "an omitted department or principal when the role cannot be resolved"
+    ],
+    "notes": "This specific secretary role is separate from general advice, speaking for a principal, and organizational leadership.",
+    "scope_notes": "Includes: explicit secretary-to or possessive secretary title for a named person or institution; historical secretarial office. Excludes: consultant, adviser, spokesperson or director alone; ordinary communication or employment without secretary title; inferring leadership or a specific cabinet portfolio from secretary alone. Ambiguous unless resolved by case-local evidence: unclear secretary or principal attachment; an omitted department or principal when the role cannot be resolved. This specific secretary role is separate from general advice, speaking for a principal, and organizational leadership."
+  },
+  "dictionary_sha256": "3145b770857a5c8f5acc810f2ac2d7135eb951228b83e6a4ca4263333a0f4ffe",
+  "kind": "declared_before_case_grading",
+  "rationale": "Two explicit secretary-to/possessive-secretary title paths are the clearest specific principal-service role; the single consultant row and unrelated sports paths do not broaden that title. Root and catalogue reviewer approved after full dictionary inspection.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:33:29.269Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_46.before_grading.json",
+  "pregrading_annotation_sha256": "0b801872a36c8ed6e23b95b17416763ef4a5dd4b771bc32756c841eea28dbf6e"
+}

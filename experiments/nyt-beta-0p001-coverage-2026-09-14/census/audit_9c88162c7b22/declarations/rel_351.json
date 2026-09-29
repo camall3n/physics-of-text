@@ -1,0 +1,51 @@
+{
+  "relation": "rel_351",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "fae3bb9340b4477dc2b00fbea59010b3baadcbf051338e960c29245fc384ead4",
+  "kind": "declared_before_case_grading",
+  "rationale": "Writing/review/critic work for a publication is the largest coherent family; mere quotation in a publication is not automatically authorship.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.534Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_351.before_grading.json",
+  "pregrading_annotation_sha256": "1c6c551add51cf6e1ee77c8a830559653091829102ad741f22383126e534f7bf"
+}

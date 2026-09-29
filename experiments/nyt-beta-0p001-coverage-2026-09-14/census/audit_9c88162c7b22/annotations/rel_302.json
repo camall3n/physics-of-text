@@ -1,0 +1,57 @@
+{
+  "relation": "rel_302",
+  "predicate_id": "unresolved_relation",
+  "label": "unresolved relation meaning",
+  "definition": "The complete relation dictionary and argument roles do not identify a coherent dominant predicate whose facts can be judged without inventing a scope.",
+  "scope_notes": "Includes: explicitly documented relation-level semantic indeterminacy after complete dictionary and argument-role inspection. Excludes: using ambiguity to omit difficult facts or change denominators; a broad association or disjunction invented to make unrelated meanings correct; using this marker when a coherent dominant family can be identified. Ambiguous unless resolved by case-local evidence: all facts remain ambiguous because the relation meaning is unresolved. This is an evaluation marker, not a learned semantic relation. Every fact receives A with a case-specific question; retain all facts in denominators and separately report relation-semantic-indeterminacy counts.",
+  "facts": [
+    {
+      "case_id": "rel_302__ent_283__ent_321",
+      "judgment": "ambiguous",
+      "reason": "Dave Johnson → Mets: Two explicit manager-office paths tie two lawyer-role paths in the complete dictionary; the cluster has no uniquely selected coherent predicate.",
+      "evidence_lines": [
+        3334,
+        3336,
+        3337,
+        3338,
+        3339,
+        3340,
+        3341
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "Should this relation mean manager-of for Dave Johnson, despite the exactly tied lawyer-for family?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.634Z"
+      }
+    },
+    {
+      "case_id": "rel_302__ent_659__ent_1112",
+      "judgment": "ambiguous",
+      "reason": "Stephen Jones → Mr. McVeigh: The case has clear lawyer evidence, but the dictionary’s lawyer family ties the managerial-office family and no prior tie-break resolves it.",
+      "evidence_lines": [
+        4472,
+        4474,
+        4477,
+        4479
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "Should this relation mean lawyer-for for Stephen Jones, despite the exactly tied manager-office family?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.634Z"
+      }
+    }
+  ],
+  "predicate_hash": "a249b68a71720a8340e98c80dac86d87caf6e89822a1a6df9f2878ab1c4211a4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1183080b2881a92e22fb18b5bf88d17b5cc89efd525c0216b9ed0894025f514f"
+}

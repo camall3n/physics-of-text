@@ -1,0 +1,63 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_175",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_175__ent_177__ent_442",
+        "rel_175__ent_1354__ent_1434",
+        "rel_175__ent_441__ent_683",
+        "rel_175__ent_1437__ent_397",
+        "rel_175__ent_400__ent_1210"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit unqualified movement, emigration or team relocation to the geographic destination establishes travel.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_175__ent_667__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Movement is explicit, but Born is a malformed or unresolved first-argument name.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who is the entity extracted as Born in these emigration and movement rows?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_175__ent_915__ent_1436"
+      ],
+      "judgment": "incorrect",
+      "reason": "A lawyer identification does not establish destination movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "36acd914add236d3f48a83381b33af49eb65e6f1192d653e8dba3fa2e237f094"
+}

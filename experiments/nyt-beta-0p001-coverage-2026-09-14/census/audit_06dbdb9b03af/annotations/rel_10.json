@@ -1,0 +1,55 @@
+{
+  "relation": "rel_10",
+  "predicate_id": "has_candidate",
+  "label": "has political candidate or nominee",
+  "definition": "Political party X has or had person Y as an explicitly identified candidate, contender for its nomination, or nominee.",
+  "scope_notes": "Includes: explicit party nominee or candidate; explicit contender for the party nomination; historical candidacy. Excludes: holding political office without candidacy; ordinary membership or an opposing-party rival; a corporate or sporting appointment. Ambiguous unless resolved by case-local evidence: an unspecified challenger or hopeful without identified party candidacy; a constituency or office replacing the party; an unnamed or materially truncated person or party. This is the exact inverse of candidate_for and does not claim winning election or holding office. Republican as an identified party label follows the inherited party-label convention.",
+  "facts": [
+    {
+      "case_id": "rel_10__ent_263__ent_261",
+      "judgment": "supported",
+      "reason": "Republican → Bob Dole: Explicit Republican nominee and candidate appositions identify party candidacy.",
+      "evidence_lines": [
+        7709,
+        7710,
+        7711,
+        7712,
+        7714,
+        7715
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.138Z"
+      }
+    },
+    {
+      "case_id": "rel_10__ent_800__ent_801",
+      "judgment": "incorrect",
+      "reason": "Jack Anderson → Dance Theater: Artistic reviewing is not a political party having a candidate.",
+      "evidence_lines": [
+        1881,
+        1883,
+        1884,
+        1885,
+        1888
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.138Z"
+      }
+    }
+  ],
+  "predicate_hash": "c4a95a6e30c7d56bd56cde006a47bfff99a08c832090a6f7a579159f9f638a7f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3f092c3b9c40ae7217077c6a241eaaa2dfc5c3c9aa61f015eef117786e5fcdd3"
+}

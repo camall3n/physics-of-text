@@ -1,0 +1,93 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_352",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_352__ent_822__ent_640",
+        "rel_352__ent_624__ent_627",
+        "rel_352__ent_881__ent_101",
+        "rel_352__ent_1073__ent_1129",
+        "rel_352__ent_1232__ent_393",
+        "rel_352__ent_921__ent_1066",
+        "rel_352__ent_920__ent_1066",
+        "rel_352__ent_867__ent_1388",
+        "rel_352__ent_869__ent_1015",
+        "rel_352__ent_922__ent_1015",
+        "rel_352__ent_1272__ent_602",
+        "rel_352__ent_1154__ent_1116",
+        "rel_352__ent_1072__ent_1015"
+      ],
+      "judgment": "supported",
+      "reason": "Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_352__ent_1068__ent_923"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Lowe Group and McCann-Erickson World Group share one latent first entity; both have containment evidence but these are different organizational referents.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Are Lowe Group and McCann-Erickson intended as the same entity, or has this fact merged two separate subsidiaries?"
+    },
+    {
+      "indices": [
+        6,
+        11
+      ],
+      "case_ids": [
+        "rel_352__ent_843__ent_1304",
+        "rel_352__ent_407__ent_1218"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The first argument is a city name attached to part/unit paths, which may stand for an unnamed local agency office rather than the literal place.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Which organizational office does the first geographic name designate in these sentences?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_352__ent_1204__ent_709"
+      ],
+      "judgment": "incorrect",
+      "reason": "Raid, government and hang evidence links a country and a political person, not a subsidiary organization and its parent.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

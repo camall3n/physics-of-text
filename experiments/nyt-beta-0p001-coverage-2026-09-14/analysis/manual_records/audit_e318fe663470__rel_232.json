@@ -1,0 +1,91 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_232",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        4,
+        7,
+        10
+      ],
+      "case_ids": [
+        "rel_232__ent_1263__ent_754",
+        "rel_232__ent_308__ent_1005",
+        "rel_232__ent_308__ent_543",
+        "rel_232__ent_753__ent_519",
+        "rel_232__ent_518__ent_289"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit meet/meet-with row asserts an encounter between the named people or teams.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_232__ent_470__ent_1004"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The meeting row for Mariners is merged with a different Willie Randolph subject in this inferred fact.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Mariners and Willie Randolph be split into separate entities?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_232__ent_30__ent_1406"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Georgia could be a person or the geographic state; the isolated meet row does not resolve the actual encounter participant.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who or what does Georgia identify in this meeting?"
+    },
+    {
+      "indices": [
+        1,
+        3,
+        5,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_232__ent_231__ent_473",
+        "rel_232__ent_233__ent_475",
+        "rel_232__ent_338__ent_586",
+        "rel_232__ent_380__ent_189",
+        "rel_232__ent_1334__ent_612"
+      ],
+      "judgment": "incorrect",
+      "reason": "River confluence, spokesperson status or generic giving does not establish a person/institution/team encounter.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    6,
+    7
+  ],
+  "broad": [
+    2,
+    4,
+    10
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "07d4577f2818fc399a68a49dce94b16db24424015b78605b8c27331579d06110"
+}

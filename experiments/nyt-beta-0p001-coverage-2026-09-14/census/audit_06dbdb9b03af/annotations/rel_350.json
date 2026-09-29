@@ -1,0 +1,77 @@
+{
+  "relation": "rel_350",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_350__ent_31__ent_36",
+      "judgment": "ambiguous",
+      "reason": "Harry Reid → Democratic: The political leadership title is present but Democratic is an incomplete body argument.",
+      "evidence_lines": [
+        3719,
+        3720,
+        3721,
+        3722,
+        3723,
+        3724,
+        3725
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Democratic party body or legislative group does the office refer to?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:25.931Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_264__ent_36",
+      "judgment": "ambiguous",
+      "reason": "Richard A. Gephardt → Democratic: The political leadership title is present but Democratic is an incomplete body argument.",
+      "evidence_lines": [
+        3749,
+        3750,
+        3751,
+        3754,
+        3757
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Democratic party body or legislative group does the office refer to?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:25.931Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_261__ent_263",
+      "judgment": "incorrect",
+      "reason": "Bob Dole → Republican: Only candidate wording is present, which does not establish a leadership office.",
+      "evidence_lines": [
+        2989,
+        3713
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:25.931Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "56d4170dc30a5d938d13a3ccbc565d4caf58426dde9cc6a7f9f0b7bd64b65df5"
+}

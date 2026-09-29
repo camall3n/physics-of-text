@@ -1,0 +1,43 @@
+{
+  "relation": "rel_142",
+  "predicate_id": "competed_against",
+  "predicate_version": 1,
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate": {
+    "id": "competed_against",
+    "label": "played or competed against",
+    "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+    "includes": [
+      "explicit played against",
+      "a completed win or loss against opponent",
+      "competition with clear opponent roles"
+    ],
+    "excludes": [
+      "ordinary interaction",
+      "standings comparison without a contest",
+      "future schedule alone"
+    ],
+    "ambiguous": [
+      "ambiguous game occurrence"
+    ],
+    "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+    "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+  },
+  "dictionary_sha256": "6ab50af8ac6e2b49bb861b1a91fd69a709508275cf3ce0ff99076b710c15ca14",
+  "kind": "declared_before_case_grading",
+  "rationale": "Opposing-team play/elimination family exceeds geographic visits. Venue and death-place rows remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:27:28.688Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_142.before_grading.json",
+  "pregrading_annotation_sha256": "c22c7d60b21c529ed47097804ed19d3962a9f8927b067bc296efb97f33fababa"
+}

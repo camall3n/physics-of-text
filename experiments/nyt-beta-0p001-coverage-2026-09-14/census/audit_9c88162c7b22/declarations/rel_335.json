@@ -1,0 +1,41 @@
+{
+  "relation": "rel_335",
+  "predicate_id": "has_coach",
+  "predicate_version": 1,
+  "predicate_hash": "569f330d14a8a5cc302fc0ff834017307223771d032924185f482ca547027ffc",
+  "predicate": {
+    "id": "has_coach",
+    "label": "has coach",
+    "definition": "Team or sporting organization X has or had person Y as an explicitly identified coach.",
+    "includes": [
+      "explicit head coach, coach, or assistant coach office",
+      "historical coaching office"
+    ],
+    "excludes": [
+      "ordinary player or manager alone without a coach title",
+      "an opponent or commentator",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear title or team attachment",
+      "a coach-elect or proposed appointment without established tenure"
+    ],
+    "notes": "Inverse of coach_of. This does not assert that Y is the sole or current coach.",
+    "scope_notes": "Includes: explicit head coach, coach, or assistant coach office; historical coaching office. Excludes: ordinary player or manager alone without a coach title; an opponent or commentator; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear title or team attachment; a coach-elect or proposed appointment without established tenure. Inverse of coach_of. This does not assert that Y is the sole or current coach."
+  },
+  "dictionary_sha256": "8b42aa4888b02124171de34198d243d4773119c8d04e404f4700b9a051b8c1eb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Ordered arguments are Nets/Spurs first and Byron Scott/Gregg Popovich/Lawrence Frank second. Possessive coach supports inverse coaching; malformed coach/say chains keep their attachment ambiguity rather than reversing the predicate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.088Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    4
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_335.before_grading.json",
+  "pregrading_annotation_sha256": "fb6267f9d8c279c00eb1d985e555f194269739688d8d04e0e7be1d1bce99b700"
+}

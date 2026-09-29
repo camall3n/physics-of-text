@@ -1,0 +1,46 @@
+{
+  "relation": "rel_124",
+  "predicate_id": "commented_on",
+  "predicate_version": 1,
+  "predicate_hash": "4d090b1d51e8c5570e4413df020723bbb2a904417d4aac301f11f201d9212e4f",
+  "predicate": {
+    "id": "commented_on",
+    "label": "commented on",
+    "definition": "Entity X made an explicit statement or comment about entity Y.",
+    "includes": [
+      "say-of, comment-on, or a statement explicitly referring to Y",
+      "explicit praise, criticism, or accusation about Y",
+      "historical attributed statements"
+    ],
+    "excludes": [
+      "speaking to Y without establishing that Y is the subject",
+      "ordinary interaction or comparison without a statement by X",
+      "a statement about someone else related to Y"
+    ],
+    "ambiguous": [
+      "unclear speaker or subject attachment",
+      "a quotation or reference without an identifiable statement about Y"
+    ],
+    "notes": "The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+    "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment."
+  },
+  "dictionary_sha256": "83f34d9b073552abb1cd8ebe1fd45dbb4345b59000063658afcb9f1c6d1be324",
+  "kind": "declared_before_case_grading",
+  "rationale": "Say-of and assessment/assertion-about define explicit comment topic, separate from mere meetings or playing/recording.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:19:02.685Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    9,
+    10,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_124.before_grading.json",
+  "pregrading_annotation_sha256": "19a7f5cbe5a010ee1d2f1d4ff72a15dd8f4fd632b0908be2b6d4e056d6c29cbc"
+}

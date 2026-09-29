@@ -1,0 +1,85 @@
+{
+  "relation": "rel_72",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_72__ent_231__ent_473",
+      "judgment": "incorrect",
+      "reason": "Connecticut River → Long Island Sound: River flow into a sound is geographic hydrology, not organizational containment.",
+      "evidence_lines": [
+        6072,
+        6073,
+        6076,
+        6077,
+        6079
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.249Z"
+      }
+    },
+    {
+      "case_id": "rel_72__ent_64__ent_308",
+      "judgment": "incorrect",
+      "reason": "Patrick Ewing → Knicks: Playing and co-captain roles identify a player, not an owned business unit.",
+      "evidence_lines": [
+        3068,
+        3070,
+        3071,
+        3072
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.249Z"
+      }
+    },
+    {
+      "case_id": "rel_72__ent_624__ent_866",
+      "judgment": "supported",
+      "reason": "United → UAL Corporation: The explicit unit-of-UAL-Corporation paths establish United as the child organizational unit.",
+      "evidence_lines": [
+        2489,
+        6596
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.249Z"
+      }
+    },
+    {
+      "case_id": "rel_72__ent_1148__ent_460",
+      "judgment": "incorrect",
+      "reason": "NPD Group → Port Washington: The bare be path toward a geographic place supplies no organizational unit or parent relationship.",
+      "evidence_lines": [
+        5782,
+        7146
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.249Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "803430d4724e7bd8aa18cdb49a5f461bb945ea89ce8f1e5b7b56328fbbf6a531"
+}

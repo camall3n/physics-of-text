@@ -1,0 +1,201 @@
+{
+  "relation": "rel_141",
+  "predicate_id": "organization_national_affiliation",
+  "label": "organization described by national affiliation",
+  "definition": "Organization X is explicitly described as belonging to the national or country affiliation designated by Y.",
+  "scope_notes": "Includes: an explicit national adjective modifying the organization, such as a French company; a directly stated country-of-origin or national institutional affiliation; multiple explicitly named national affiliations. Excludes: physical offices or temporary operations in a country alone; ownership by a person or organization of that nationality alone; a national adjective modifying an unrelated person or parent rather than X; a person's nationality. Ambiguous unless resolved by case-local evidence: unclear national adjective attachment; a regional or city descriptor rather than a national affiliation; national origin versus current affiliation when the distinction is material. Y can be a complete nationality designation such as French or British-Dutch; this predicate does not assert headquarters or legal incorporation. A nationality label used as the argument here differs from an incomplete institution name in an office predicate.",
+  "facts": [
+    {
+      "case_id": "rel_141__ent_23__ent_441",
+      "judgment": "supported",
+      "reason": "Sanofi → French: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        3637,
+        3638,
+        3639,
+        3640,
+        3641,
+        3642,
+        3643,
+        3644,
+        3646
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_293__ent_10",
+      "judgment": "supported",
+      "reason": "Bertelsmann → German: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        3599,
+        3600,
+        3601,
+        3602,
+        3603,
+        3604,
+        3606,
+        3607
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_290__ent_502",
+      "judgment": "supported",
+      "reason": "Philips N.V. → Dutch: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        3591,
+        3592,
+        3593,
+        3594,
+        3595,
+        3596,
+        3598
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_21__ent_10",
+      "judgment": "supported",
+      "reason": "Siemens → German: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        3658,
+        3659,
+        3660,
+        3661,
+        3662,
+        3664
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_292__ent_1431",
+      "judgment": "supported",
+      "reason": "Novartis → Swiss: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        3609,
+        3610,
+        3611,
+        3615
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_27__ent_441",
+      "judgment": "supported",
+      "reason": "Cegetel → French: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        3619,
+        3620,
+        3624
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_20__ent_253",
+      "judgment": "incorrect",
+      "reason": "Bronx Borough → Fernando Ferrer; Paul Dergarabedian → Los Angeles-based: The two supplied rows concern a person and a borough-president relation, not a company's national affiliation.",
+      "evidence_lines": [
+        3657,
+        6739
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_942__ent_904",
+      "judgment": "ambiguous",
+      "reason": "Jupiter Communications → New York: New York is a city/regional modifier rather than a national affiliation; the geographical level is outside the explicitly national meaning.",
+      "evidence_lines": [
+        7167,
+        7168
+      ],
+      "issue_tags": [
+        "geographic_level"
+      ],
+      "reviewer_question": "Is any country-level affiliation actually asserted, rather than only a New York location?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    },
+    {
+      "case_id": "rel_141__ent_23__ent_1079",
+      "judgment": "supported",
+      "reason": "Unilever → British-Dutch: A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "evidence_lines": [
+        6828
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:13:23.904Z"
+      }
+    }
+  ],
+  "predicate_hash": "f3b28fea0f0befba30c4deb6d61d7a6720659c5d0d27570187fdbd9ec8a6dc87",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e62fe15f661c466db6c79a26fdbe2aba2b39883be10396057a120d4982bb3db1"
+}

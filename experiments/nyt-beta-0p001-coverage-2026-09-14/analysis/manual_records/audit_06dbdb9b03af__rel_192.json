@@ -1,0 +1,75 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_192",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_192__ent_999__ent_518",
+        "rel_192__ent_909__ent_908",
+        "rel_192__ent_903__ent_902",
+        "rel_192__ent_562__ent_323",
+        "rel_192__ent_556__ent_798",
+        "rel_192__ent_797__ent_1010",
+        "rel_192__ent_558__ent_1011",
+        "rel_192__ent_515__ent_757",
+        "rel_192__ent_517__ent_759",
+        "rel_192__ent_905__ent_1010",
+        "rel_192__ent_904__ent_907",
+        "rel_192__ent_906__ent_835",
+        "rel_192__ent_901__ent_900"
+      ],
+      "judgment": "supported",
+      "reason": "A direct born/bear-in row establishes the named person birthplace.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_192__ent_300__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A born-in row suggests a person, while the firm/husband/chairman attachment uses Kohlberg in an organizational context; the local referent is unresolved.",
+      "tags": [
+        "identity_ambiguity"
+      ],
+      "question": "Does Kohlberg denote the person in the birth statement, or has a firm mention been conflated with that person?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [
+    7
+  ],
+  "predicate_declaration_sha256": "8f35ae1cadcf88a5ba42e35a5e0fe80571e03800db2ec81183c6744c026305a9"
+}

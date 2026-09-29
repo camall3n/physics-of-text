@@ -1,0 +1,46 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_102",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_102__ent_476__ent_1318"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Destination movement by North Koreans is merged with Nixon/China in the same inferred subject.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which person or population is traveling to China?"
+    },
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_102__ent_292__ent_28",
+        "rel_102__ent_545__ent_787",
+        "rel_102__ent_341__ent_1035",
+        "rel_102__ent_1383__ent_1030"
+      ],
+      "judgment": "incorrect",
+      "reason": "Nationality/currency, office location, ownership or a spokesperson statement does not establish destination movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9dfe0ca2d2008611818bedb97b42fd09c728e250e6d5784b68b05ce42350eab0"
+}

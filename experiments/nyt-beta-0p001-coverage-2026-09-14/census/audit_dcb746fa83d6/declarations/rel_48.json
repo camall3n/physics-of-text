@@ -1,0 +1,43 @@
+{
+  "relation": "rel_48",
+  "predicate_id": "born_in",
+  "predicate_version": 1,
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate": {
+    "id": "born_in",
+    "label": "born in",
+    "definition": "Person X was born in geographic place Y.",
+    "includes": [
+      "direct born-in",
+      "born into a family in Y when Y is the birth location"
+    ],
+    "excludes": [
+      "grown up/raised/native/from alone",
+      "nationality",
+      "schooling/residence/travel",
+      "institution founding"
+    ],
+    "ambiguous": [
+      "unclear person or birthplace attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+  },
+  "dictionary_sha256": "fcdc798e7a69ab49daa0dbd165162015c3267ea2af12b4032acff06f8b13c1e1",
+  "kind": "declared_before_case_grading",
+  "rationale": "Three explicit birth/born-into-family-in paths form the largest specific interpretable family; leader/member, dateline-office and geography remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:27:28.836Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    7,
+    8,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_48.before_grading.json",
+  "pregrading_annotation_sha256": "e0e4e880502fefcff3261e2e8fd593dd53f5cab65e9e932ca654b49ffa983bf3"
+}

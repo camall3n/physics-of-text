@@ -1,0 +1,74 @@
+{
+  "relation": "rel_376",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_376__ent_492__ent_707",
+      "judgment": "incorrect",
+      "reason": "Iraq → Tariq Aziz: Inverse ministerial relations and diplomatic communication do not establish person-to-institution directorship.",
+      "evidence_lines": [
+        6989,
+        6990,
+        6991,
+        6992,
+        6994,
+        6996
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.042Z"
+      }
+    },
+    {
+      "case_id": "rel_376__ent_386__ent_147",
+      "judgment": "supported",
+      "reason": "Lee E. Koppelman → Long Island Regional Planning Board: Repeated explicit director-of titles establish directorship of the planning board.",
+      "evidence_lines": [
+        163,
+        164,
+        165,
+        166,
+        169
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.042Z"
+      }
+    },
+    {
+      "case_id": "rel_376__ent_298__ent_19",
+      "judgment": "ambiguous",
+      "reason": "Kevin McKenzie → Ballet Theater: Directing Ballet Theater is mixed with dancer/principal roles without an explicit local director office title.",
+      "evidence_lines": [
+        3550,
+        3551,
+        3552,
+        3555
+      ],
+      "issue_tags": [
+        "role_ambiguity"
+      ],
+      "reviewer_question": "Does direct here establish an institutional director office or direction of a particular artistic work?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.042Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e506e7b20e22cdc36213c397e0b8cef46b0668ca5f6a88bbf588f75341f6b5a2"
+}

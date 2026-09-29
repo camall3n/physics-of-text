@@ -1,0 +1,41 @@
+{
+  "relation": "rel_82",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "1104a8bb18fe7e8e39d33a746bb76ca2ad69231afbaef483e842b919bfe26b36",
+  "kind": "declared_before_case_grading",
+  "rationale": "Live-in, living-in and settlement paths dominate; working in, entering or disease claims are not residence.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:58.205Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_82.before_grading.json",
+  "pregrading_annotation_sha256": "2b4053830640682ba16eb18802f92975e651d1e429baad900e318cc6f917be32"
+}

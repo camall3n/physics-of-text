@@ -1,0 +1,43 @@
+{
+  "relation": "rel_276",
+  "predicate_id": "located_in",
+  "predicate_version": 1,
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate": {
+    "id": "located_in",
+    "label": "organization based or located in",
+    "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+    "includes": [
+      "based/headquarters/campus/office in",
+      "company/firm/group in a place",
+      "clear company/firm geographic noun modifiers",
+      "historical organizational location"
+    ],
+    "excludes": [
+      "industry/Internet or corporate-family/Bell association",
+      "person birthplace/residence/occupation",
+      "mere event location",
+      "ownership or employment alone"
+    ],
+    "ambiguous": [
+      "nationality adjective alone",
+      "truncated country/place",
+      "Wall Street as place versus industry"
+    ],
+    "notes": "A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+    "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact."
+  },
+  "dictionary_sha256": "5c24d9472572dee77754fc6d2e0a456ec59168f177026855882eb1633c739f1d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Headquarters-in and based-in dominate, ordered organization to location.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:58.463Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_276.before_grading.json",
+  "pregrading_annotation_sha256": "b90128cb640e887b45e38d024895207384b3d9aecbfcca198b9928db1ef955eb"
+}

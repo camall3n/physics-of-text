@@ -1,0 +1,55 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_16",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_16__ent_98__ent_93",
+        "rel_16__ent_95__ent_94",
+        "rel_16__ent_1149__ent_92",
+        "rel_16__ent_445__ent_687",
+        "rel_16__ent_446__ent_688",
+        "rel_16__ent_1142__ent_206"
+      ],
+      "judgment": "supported",
+      "reason": "Direct known-as statements establish alternative names of the same institution or person.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_16__ent_172__ent_171"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Known-as is paired with a person-to-Transit-Authority spokesperson row, so it is unclear whether the alternative-name phrase actually refers to the person or an omitted institutional referent.",
+      "tags": [
+        "attachment",
+        "identity_ambiguity"
+      ],
+      "question": "What is the referent of known-as here: Jared Lebow or the institution for which he speaks?"
+    }
+  ],
+  "mixed": [
+    0,
+    3,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f221e5bf78b8a6863768846f92619200959114beacba9a27f9ba2eece7faad32"
+}

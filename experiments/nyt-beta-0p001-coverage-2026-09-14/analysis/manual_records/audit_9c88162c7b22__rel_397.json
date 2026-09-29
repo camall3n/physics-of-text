@@ -1,0 +1,73 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_397",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_397__ent_5__ent_814",
+        "rel_397__ent_818__ent_1196",
+        "rel_397__ent_1198__ent_810",
+        "rel_397__ent_813__ent_812",
+        "rel_397__ent_1198__ent_814"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit member-of or membership-in evidence establishes country membership in the named alliance or organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_397__ent_1004__ent_572",
+        "rel_397__ent_647__ent_323",
+        "rel_397__ent_884__ent_429",
+        "rel_397__ent_1004__ent_843",
+        "rel_397__ent_884__ent_83"
+      ],
+      "judgment": "incorrect",
+      "reason": "Keeping, leaving or moving a sports team in a city is geographic presence or movement, not membership in an organization.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_397__ent_321__ent_836"
+      ],
+      "judgment": "incorrect",
+      "reason": "Being in the World Series is event participation, not organizational membership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "aa4577a01eaa7e16b175497e0158c1994bdbc385fee54de63acd0c2bebabe471"
+}

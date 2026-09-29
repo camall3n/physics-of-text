@@ -1,0 +1,47 @@
+{
+  "relation": "rel_385",
+  "predicate_id": "director_of",
+  "predicate_version": 1,
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate": {
+    "id": "director_of",
+    "label": "director of organization",
+    "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+    "includes": [
+      "explicit director/co-director",
+      "functional directorship such as communications or research director within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "head/president/chair/executive alone",
+      "spokesperson/adviser/publisher/professor/member alone",
+      "performing or authorship alone"
+    ],
+    "ambiguous": [
+      "personal principal with omitted organization",
+      "abstract topic in place of the actual institution"
+    ],
+    "notes": "Does not require sole chief control of the entire institution.",
+    "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+  },
+  "dictionary_sha256": "19dc76648479d3f7db2ea5af0d3cbadf61ae088101bc3d8285223a8ded5b15be",
+  "kind": "declared_before_case_grading",
+  "rationale": "Director title paths dominate; economist-only is a separate role.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:30:04.026Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_385.before_grading.json",
+  "pregrading_annotation_sha256": "f6660017a3153bcc483f8e3b0b451ec8bbb8e9ff54fb04223761a34b3b129d16"
+}

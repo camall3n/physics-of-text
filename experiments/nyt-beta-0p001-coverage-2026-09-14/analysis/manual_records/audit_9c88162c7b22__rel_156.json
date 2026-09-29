@@ -1,0 +1,45 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_156",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_156__ent_820__ent_709"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Minister-designate and unspecified minister/government references do not resolve head-of-government scope or realized tenure.",
+      "tags": [
+        "minister_scope",
+        "tenure_ambiguity"
+      ],
+      "question": "Which minister office is meant, and had Olmert begun serving in an eligible political leadership role?"
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_156__ent_1027__ent_581",
+        "rel_156__ent_402__ent_644"
+      ],
+      "judgment": "incorrect",
+      "reason": "Corporate executive or civic-group head in person-to-organization direction does not match body-to-political-leader.",
+      "tags": [
+        "wrong_direction"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6d223765a58819524de8083e583b6adad1eeca7389e726477e27a5582426c4fc"
+}

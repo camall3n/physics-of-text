@@ -1,0 +1,80 @@
+{
+  "relation": "rel_379",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_379__ent_1119__ent_110",
+      "judgment": "supported",
+      "reason": "Bobby Holik → Devils: Explicit scoring goals for, center/scorer role or playing with the team establishes athletic affiliation.",
+      "evidence_lines": [
+        4278,
+        4279,
+        4280,
+        4281,
+        4282,
+        4285,
+        4286
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.139Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_413__ent_110",
+      "judgment": "supported",
+      "reason": "Holik → Devils: Explicit scoring goals for, center/scorer role or playing with the team establishes athletic affiliation.",
+      "evidence_lines": [
+        4298,
+        4299,
+        4300,
+        4301,
+        4303,
+        4305,
+        4306
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.139Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1116__ent_110",
+      "judgment": "supported",
+      "reason": "MacLean → Devils: Explicit scoring goals for, center/scorer role or playing with the team establishes athletic affiliation.",
+      "evidence_lines": [
+        4248,
+        4252,
+        4254,
+        4256,
+        4257
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.139Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "744b054411f2f37e7d71c812f9a12cabe3ceba5b79a24259aca0b676a2e0d478"
+}

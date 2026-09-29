@@ -1,0 +1,48 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_42",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_42__ent_48__ent_47",
+        "rel_42__ent_892__ent_411",
+        "rel_42__ent_42__ent_41"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit lawyer/attorney attachment identifies the second person as legal representative of the first.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_42__ent_300__ent_542"
+      ],
+      "judgment": "incorrect",
+      "reason": "Kohlberg/Kravis occurs in bid, ownership and sale fragments with no lawyer relation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "78ff2f4bcfd0b1fa65864c960961037fa4dcd22293fd922e78f51df3248cc0f3"
+}

@@ -1,0 +1,110 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_91",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4,
+        5,
+        6,
+        10
+      ],
+      "case_ids": [
+        "rel_91__ent_247__ent_489",
+        "rel_91__ent_1145__ent_1046",
+        "rel_91__ent_416__ent_1347",
+        "rel_91__ent_1137__ent_1135",
+        "rel_91__ent_1344__ent_1197"
+      ],
+      "judgment": "supported",
+      "reason": "Local leader/head wording with institutional roles establishes organizational leadership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_91__ent_263__ent_1172"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leadership is attributed to an unnamed Republican and two distinct Senate committees are merged.",
+      "tags": [
+        "entity_collision",
+        "argument_identity"
+      ],
+      "question": "Who is the officeholder and which Senate committee is meant?"
+    },
+    {
+      "indices": [
+        7,
+        8,
+        16,
+        17
+      ],
+      "case_ids": [
+        "rel_91__ent_1426__ent_243",
+        "rel_91__ent_1269__ent_1171",
+        "rel_91__ent_263__ent_244",
+        "rel_91__ent_925__ent_1171"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leader/head is identified only by party, leaving the actual individual unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which named person holds this leadership office?"
+    },
+    {
+      "indices": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_91__ent_878__ent_462",
+        "rel_91__ent_1399__ent_462",
+        "rel_91__ent_1411__ent_1005",
+        "rel_91__ent_241__ent_953",
+        "rel_91__ent_1116__ent_110"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bare lead of a sports team does not identify an organizational office as opposed to athletic performance.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does lead denote a formal leadership office or athletic performance?"
+    },
+    {
+      "indices": [
+        1,
+        2,
+        9
+      ],
+      "case_ids": [
+        "rel_91__ent_536__ent_335",
+        "rel_91__ent_1095__ent_960",
+        "rel_91__ent_766__ent_1222"
+      ],
+      "judgment": "incorrect",
+      "reason": "Inverse spokesperson evidence, athletic coaching or economist status does not establish the declared organizational office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "ade7cdf00e04a2044a49bc62962c77d4c23099f576b40814db85753f6f0fb7a3"
+}

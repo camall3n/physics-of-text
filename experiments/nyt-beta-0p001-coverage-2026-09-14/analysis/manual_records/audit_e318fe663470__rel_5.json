@@ -1,0 +1,45 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_5",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_5__ent_48__ent_1195",
+        "rel_5__ent_1336__ent_41",
+        "rel_5__ent_827__ent_653"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit possessed-lawyer/attorney or hired-lawyer row identifies legal representation of the client.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_5__ent_998__ent_798"
+      ],
+      "judgment": "incorrect",
+      "reason": "The public-attorney appointment has person-to-jurisdiction direction, the reverse of the declared has-lawyer relation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9fa808994b61de212ede74878b9e5f88c7389c74649f3eedc28d271f56d80b27"
+}

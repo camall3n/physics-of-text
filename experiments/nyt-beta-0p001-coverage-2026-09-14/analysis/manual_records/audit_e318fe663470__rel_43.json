@@ -1,0 +1,78 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_43",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "case_ids": [
+        "rel_43__ent_791__ent_310",
+        "rel_43__ent_312__ent_1238",
+        "rel_43__ent_1336__ent_792",
+        "rel_43__ent_747__ent_155",
+        "rel_43__ent_661__ent_471"
+      ],
+      "judgment": "supported",
+      "reason": "A local explicit president title identifies a president office within the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_43__ent_499__ent_1008"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President evidence merges Robert Kurtter/Moody's and David Dinkins/Manhattan in one inferred pair.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which person and institution does this presidency fact identify?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_43__ent_1203__ent_497"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The president title is attached to the incomplete political adjective Yugoslav.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which complete political body is intended?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_43__ent_492__ent_648"
+      ],
+      "judgment": "incorrect",
+      "reason": "Being forced out of Kuwait does not establish presidency.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f40e2c7e398e48b5c755d4c4d8510ea29210bccb0af243465bd6b1556fcc111f"
+}

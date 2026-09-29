@@ -1,0 +1,38 @@
+{
+  "relation": "rel_191",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "0d5856dfff8875f990e06a870b013a01db1b11b0680ac69062dce3c1d6a0f234",
+  "kind": "declared_before_case_grading",
+  "rationale": "Reporter and covering publishing for a publication identify journalistic contribution; political and manager rows remain distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:37:09.227Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_191.before_grading.json",
+  "pregrading_annotation_sha256": "9ea148f9df7abb61295bc9604a8ce7e355bd6ce3dcd6e0c8130e49d4d97a3533"
+}

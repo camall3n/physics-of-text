@@ -1,0 +1,50 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_190",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_190__ent_545__ent_47",
+        "rel_190__ent_546__ent_788",
+        "rel_190__ent_549__ent_770",
+        "rel_190__ent_679__ent_242"
+      ],
+      "judgment": "supported",
+      "reason": "Headquarters or explicit geographic organizational origin establishes physical location, including the organization beginning in the named town.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        5
+      ],
+      "case_ids": [
+        "rel_190__ent_591__ent_1404",
+        "rel_190__ent_1308__ent_162"
+      ],
+      "judgment": "incorrect",
+      "reason": "Person ownership or inverse spokesperson identification does not establish organization-to-place location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "2701e949a10d606f8ebf9accfd73a5d86efbccb90f4d7114dd2d78764f84eba7"
+}

@@ -1,0 +1,57 @@
+{
+  "relation": "rel_167",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_167__ent_600__ent_1420",
+      "judgment": "supported",
+      "reason": "Cubs → World Series: Explicit World Series appearance and being swept in the event establish actual competitive participation.",
+      "evidence_lines": [
+        2273,
+        2274,
+        2275,
+        2276,
+        7770,
+        7771,
+        7772,
+        7773
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:31.357Z"
+      }
+    },
+    {
+      "case_id": "rel_167__ent_1062__ent_776",
+      "judgment": "incorrect",
+      "reason": "Sears Receivables Financing Group Inc. → Sears: A corporate subsidiary and securities offerings do not establish sporting participation.",
+      "evidence_lines": [
+        6567,
+        6568,
+        6569,
+        6571,
+        6572
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:31.357Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2a0307e5ae295bc1f1069b48c21bd5874cc1a8add84e0c28277424e6ba23727c"
+}

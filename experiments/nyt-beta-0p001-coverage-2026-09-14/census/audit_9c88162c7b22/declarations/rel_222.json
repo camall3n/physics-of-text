@@ -1,0 +1,55 @@
+{
+  "relation": "rel_222",
+  "predicate_id": "owns",
+  "predicate_version": 1,
+  "predicate_hash": "64b91b4d898a9f3ed81be865b382e684bfc0db4150c5d04790c534e2d3b1cb74",
+  "predicate": {
+    "id": "owns",
+    "label": "owns organization or asset",
+    "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+    "includes": [
+      "owner/co-owner/owns",
+      "explicit ownership interest or stated share",
+      "corporate parent",
+      "completed acquisition with ownership attachment",
+      "historical ownership"
+    ],
+    "excludes": [
+      "management or leadership alone",
+      "publishing or distribution alone",
+      "mere collaboration",
+      "proposed or rejected acquisition"
+    ],
+    "ambiguous": [
+      "merger without clear ownership direction",
+      "a possessive alone"
+    ],
+    "notes": "This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+    "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse."
+  },
+  "dictionary_sha256": "503760ff0140634b52298eacc3b38858197847310ddd61d5213e740d718ec5b1",
+  "kind": "declared_before_case_grading",
+  "rationale": "Parent/owner and owns/acquisition paths dominate the owner-to-owned direction.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.116Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_222.before_grading.json",
+  "pregrading_annotation_sha256": "d5fdb44c55eae31acbd604536cbfdcf4aea7c5f971d30d09a9f0937c9fdc177c"
+}

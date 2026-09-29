@@ -1,0 +1,74 @@
+{
+  "relation": "rel_278",
+  "predicate_id": "winner_of",
+  "label": "winner or champion of",
+  "definition": "Entity X won the award or competition designated by Y, or held an explicitly Y-designated championship title.",
+  "scope_notes": "Includes: explicit win/winner/champion of event or award; sporting titles and honor awards such as Nobel Peace Prize; explicit championship/title designated by a sanctioning body or Olympic designation; historical victory. Excludes: participation or reaching the event; single stage/game victory without the overall title; winning political office/control of a body; location or ordinary membership. Ambiguous unless resolved by case-local evidence: unclear title/event attachment; medal without a clear winning title or award scope. A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning.",
+  "facts": [
+    {
+      "case_id": "rel_278__ent_300__ent_1332",
+      "judgment": "incorrect",
+      "reason": "Kohlberg → Kravis: Corporate-name co-subject and offer fragments do not establish winning an award or competition.",
+      "evidence_lines": [
+        624,
+        625,
+        626,
+        627,
+        629,
+        630,
+        631,
+        632
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.918Z"
+      }
+    },
+    {
+      "case_id": "rel_278__ent_750__ent_992",
+      "judgment": "supported",
+      "reason": "Curtis Strange → United States Open: Presentation of the United States Open trophy, with local victory/championship context, establishes winning the event.",
+      "evidence_lines": [
+        7979,
+        7980,
+        7981,
+        7982
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.918Z"
+      }
+    },
+    {
+      "case_id": "rel_278__ent_1247__ent_790",
+      "judgment": "incorrect",
+      "reason": "Hicks → Muse: Corporate-name co-subject and offer fragments do not establish winning an award or competition.",
+      "evidence_lines": [
+        696,
+        697,
+        701
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.918Z"
+      }
+    }
+  ],
+  "predicate_hash": "27c87005f27fe8d1242ee460f57371d2135761abb8317fa0b9de8f25c5b5581f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8abd4638facd379cbd43cb88042c75dc4b278bfb6fa0b024c0cfeebf4d470f2d"
+}

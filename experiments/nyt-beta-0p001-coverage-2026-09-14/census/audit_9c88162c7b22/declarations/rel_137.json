@@ -1,0 +1,48 @@
+{
+  "relation": "rel_137",
+  "predicate_id": "chairperson_of",
+  "predicate_version": 1,
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate": {
+    "id": "chairperson_of",
+    "label": "chairperson of",
+    "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+    "includes": [
+      "explicit chair/chairman/chairwoman/chairperson",
+      "co-chair if explicit",
+      "past tenure or resignation from that office"
+    ],
+    "excludes": [
+      "president/head/executive/director alone",
+      "founder/owner/member alone",
+      "nomination/candidacy alone"
+    ],
+    "ambiguous": [
+      "ambiguous successor or appointment that does not establish tenure",
+      "chair of an omitted subunit"
+    ],
+    "notes": "Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+    "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better."
+  },
+  "dictionary_sha256": "ce49a85d627d5d63df95bb969988808bbc5c33cf782f99b2118703eb135deccd",
+  "kind": "declared_before_case_grading",
+  "rationale": "Chairman title/reappointment/resignation is the dominant family; fraud, sports coaching and generic contribution remain distinct.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.623Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    5,
+    7,
+    8,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_137.before_grading.json",
+  "pregrading_annotation_sha256": "a59e26dd091bdbbc966f6c037214764bc96301455cab9e5a5d35430c6fff8a13"
+}

@@ -1,0 +1,96 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_226",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_226__ent_819__ent_816",
+        "rel_226__ent_816__ent_827",
+        "rel_226__ent_819__ent_182",
+        "rel_226__ent_182__ent_113",
+        "rel_226__ent_816__ent_819",
+        "rel_226__ent_816__ent_586",
+        "rel_226__ent_537__ent_99",
+        "rel_226__ent_819__ent_586",
+        "rel_226__ent_182__ent_316",
+        "rel_226__ent_180__ent_1118",
+        "rel_226__ent_96__ent_695",
+        "rel_226__ent_826__ent_820"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local accuse or criticize row directly asserts criticism of the named target.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_226__ent_380__ent_189"
+      ],
+      "judgment": "incorrect",
+      "reason": "Warning and giving an unspecified object do not assert criticism.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_226__ent_196__ent_189"
+      ],
+      "judgment": "incorrect",
+      "reason": "The only evidence is sending an unspecified object; it does not assert criticism.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_226__ent_537__ent_492"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Attack is the sole path and could denote physical hostilities rather than a critical statement.",
+      "tags": [
+        "predicate_ambiguity"
+      ],
+      "question": "Does attack here mean verbal criticism or military/physical attack?"
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    14
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7373343b1f8e6b509c23fb414175de2394a2bb36f79b9cd87605a10bee4c069f"
+}

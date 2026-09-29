@@ -1,0 +1,44 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_184",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_184__ent_334__ent_323"
+      ],
+      "judgment": "supported",
+      "reason": "The full saved street/neighborhood/city address explicitly places Park Slope within Brooklyn.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_184__ent_409__ent_1106",
+        "rel_184__ent_195__ent_189",
+        "rel_184__ent_275__ent_561"
+      ],
+      "judgment": "incorrect",
+      "reason": "Personal corporate roles, messages or sports management are not geographic containment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "4795461595197e1e12d4dac57cff886a69ac23c27bd94d5c335a4298eeafec12"
+}

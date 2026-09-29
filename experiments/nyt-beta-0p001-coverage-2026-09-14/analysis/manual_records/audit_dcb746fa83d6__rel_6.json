@@ -1,0 +1,83 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_6",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_6__ent_104__ent_347",
+        "rel_6__ent_283__ent_321",
+        "rel_6__ent_589__ent_1404",
+        "rel_6__ent_1178__ent_1179",
+        "rel_6__ent_275__ent_561",
+        "rel_6__ent_288__ent_321",
+        "rel_6__ent_89__ent_86",
+        "rel_6__ent_1396__ent_347"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local president or manager title establishes the declared legacy office family.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_6__ent_273__ent_1004"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Manager evidence for Joe Torre is combined with Brian Cashman under one inferred person.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Cashman and Torre be separate inferred persons before judging this office?"
+    },
+    {
+      "indices": [
+        9,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_6__ent_1148__ent_460",
+        "rel_6__ent_1324__ent_1299",
+        "rel_6__ent_778__ent_682"
+      ],
+      "judgment": "incorrect",
+      "reason": "Headquarters, generic leadership resignation, or geographic relocation do not establish an explicit president or manager role.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "broad": [
+    2,
+    4,
+    7,
+    8
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "96b2c85845603f497477cb70007cbd1b6002951a580a7243c52b03c0f460575e"
+}

@@ -1,0 +1,70 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_113",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "case_ids": [
+        "rel_113__ent_654__ent_560",
+        "rel_113__ent_1029__ent_896",
+        "rel_113__ent_400__ent_884",
+        "rel_113__ent_309__ent_259"
+      ],
+      "judgment": "supported",
+      "reason": "Direct defeat of the named opposing team establishes a completed victory.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_113__ent_1283__ent_642"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The explicit loss is in the opposite outcome direction; holding and handing the opponent omit the result and cannot independently establish a later win.",
+      "tags": [
+        "omitted_outcome"
+      ],
+      "question": "Does the full hold or hand sentence establish a completed Jets victory over the Dolphins, or only a limited score or opposite result?"
+    },
+    {
+      "indices": [
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_113__ent_816__ent_1415",
+        "rel_113__ent_938__ent_1403",
+        "rel_113__ent_1438__ent_1363",
+        "rel_113__ent_1387__ent_772",
+        "rel_113__ent_652__ent_1369"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political control, an explicit loss, a team hero, an ultimatum or a corporate comparison does not establish the subject defeating the object.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6ccd69f0bcf3c95172eca3cb22ab7754b0109098a62c6c1cf5e29f3f30f53b67"
+}

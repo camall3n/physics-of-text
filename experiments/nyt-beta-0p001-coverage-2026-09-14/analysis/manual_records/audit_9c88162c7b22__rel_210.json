@@ -1,0 +1,67 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_210",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "case_ids": [
+        "rel_210__ent_837__ent_1086",
+        "rel_210__ent_820__ent_949",
+        "rel_210__ent_820__ent_1132",
+        "rel_210__ent_1197__ent_267"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit leader, inclusion in national leadership or governing triumvirate evidence supplies political leadership beyond an unspecified minister title.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_210__ent_813__ent_706",
+        "rel_210__ent_820__ent_709"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Only an unspecified minister role and ordinary speech/political interactions are supplied; head-of-government or equivalent leadership scope is unresolved.",
+      "tags": [
+        "minister_scope"
+      ],
+      "question": "Does the minister title identify a head of government or another qualifying political leadership office?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_210__ent_1002__ent_536"
+      ],
+      "judgment": "incorrect",
+      "reason": "Washington and State Department are geographic/institutional arguments, not a body with a named human leader.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0a20403d2d912d76414d96d68ffa6e3794cc7d89de629b5b3ff6936210603188"
+}

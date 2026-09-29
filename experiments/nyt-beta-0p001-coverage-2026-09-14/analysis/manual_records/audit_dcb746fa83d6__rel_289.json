@@ -1,0 +1,80 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_289",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "case_ids": [
+        "rel_289__ent_515__ent_1122",
+        "rel_289__ent_558__ent_1011",
+        "rel_289__ent_646__ent_902",
+        "rel_289__ent_797__ent_1010",
+        "rel_289__ent_999__ent_518",
+        "rel_289__ent_1234__ent_908",
+        "rel_289__ent_516__ent_913",
+        "rel_289__ent_805__ent_74",
+        "rel_289__ent_556__ent_828",
+        "rel_289__ent_853__ent_362",
+        "rel_289__ent_218__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local born-in row directly identifies the person and birthplace.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_289__ent_1127__ent_641",
+        "rel_289__ent_904__ent_907"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Birthplace evidence is merged with a distinct death place and, in one case, a different person. The inferred pair does not retain one coherent identity.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which birth-place pair remains after separating the incompatible literal people or places?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_289__ent_51__ent_871"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied row describes an editor of a financial publication, not a birthplace.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "29a9e6a6cbbded8cb5ab2348793cb801e2080d5604ce8695019d375d052db166"
+}

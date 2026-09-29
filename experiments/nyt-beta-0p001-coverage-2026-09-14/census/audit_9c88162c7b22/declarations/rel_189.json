@@ -1,0 +1,55 @@
+{
+  "relation": "rel_189",
+  "predicate_id": "played_at_sporting_venue",
+  "predicate_version": 1,
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate": {
+    "id": "played_at_sporting_venue",
+    "label": "played at sporting venue",
+    "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+    "includes": [
+      "explicit play-at or game-at with X as competitor",
+      "a completed win or loss at Y establishing competitive play there",
+      "historical sporting venue use"
+    ],
+    "excludes": [
+      "ordinary attendance, practice, or employment at a place",
+      "plans without established play",
+      "the opponent or event substituted for the venue"
+    ],
+    "ambiguous": [
+      "future scheduled play without realization",
+      "unclear competitor versus spectator role",
+      "a generic at-venue phrase without a game context"
+    ],
+    "notes": "Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+    "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium."
+  },
+  "dictionary_sha256": "e7202f629e96385f216c7d60c9e569d4e72b201909bbbebedd26f7ede8159b80",
+  "kind": "declared_before_case_grading",
+  "rationale": "Every ordered pair is a team and stadium; actual game/play/win/lose-at dominates. Freeze sport participation at a venue rather than count every physical visit or plan as playing.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.744Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    15
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_189.before_grading.json",
+  "pregrading_annotation_sha256": "5368313959f80c06fc736707f62e515e2b35e23db2df84276ffcc04ed8b779ee"
+}

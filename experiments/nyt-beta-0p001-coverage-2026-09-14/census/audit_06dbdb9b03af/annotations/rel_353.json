@@ -1,0 +1,82 @@
+{
+  "relation": "rel_353",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_353__ent_34__ent_37",
+      "judgment": "ambiguous",
+      "reason": "Mikhail S. Gorbachev → Soviet: The leader/president title is explicit, but Soviet, Democratic or Palestinian leaves the political body incompletely identified.",
+      "evidence_lines": [
+        3688,
+        3690,
+        3692,
+        3694,
+        3695,
+        3696,
+        3697
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which country, party body or institution is the stated leadership principal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.583Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_265__ent_36",
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle → Democratic: The leader/president title is explicit, but Soviet, Democratic or Palestinian leaves the political body incompletely identified.",
+      "evidence_lines": [
+        3698,
+        3700,
+        3703,
+        3704,
+        3706,
+        3707
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which country, party body or institution is the stated leadership principal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.584Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_4__ent_35",
+      "judgment": "ambiguous",
+      "reason": "Yasir Arafat → Palestinian: The leader/president title is explicit, but Soviet, Democratic or Palestinian leaves the political body incompletely identified.",
+      "evidence_lines": [
+        3678,
+        3683,
+        3685
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which country, party body or institution is the stated leadership principal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.584Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "85392e1ce0464de5e46b583845c0b2122a6603af6814c0b155825451b69e83b6"
+}

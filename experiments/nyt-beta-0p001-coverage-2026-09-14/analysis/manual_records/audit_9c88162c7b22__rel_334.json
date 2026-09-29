@@ -1,0 +1,75 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_334",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_334__ent_550__ent_792",
+        "rel_334__ent_190__ent_192"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit director-at/of evidence establishes the institutional directorship.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_334__ent_1048__ent_1049"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director is explicit but Center for Science omits the identifying institutional name.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "What complete Center for Science institution is directed by Caroline Smith DeWaal?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_334__ent_1028__ent_175"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director-for-Pataki names a personal principal but omits the actual institution or campaign.",
+      "tags": [
+        "personal_principal_scope"
+      ],
+      "question": "Which institution, campaign or office was Mucha director for?"
+    },
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_334__ent_722__ent_669",
+        "rel_334__ent_816__ent_725"
+      ],
+      "judgment": "incorrect",
+      "reason": "Population/party inclusion does not establish person-to-institution directorship.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "15c1d2dfe31e733f352e344b99fa999b4c50cf4baaca2d1182c3c7c9ee935f9e"
+}

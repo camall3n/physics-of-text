@@ -1,0 +1,126 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_237",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3,
+        7,
+        14,
+        16,
+        21,
+        22
+      ],
+      "case_ids": [
+        "rel_237__ent_182__ent_1002",
+        "rel_237__ent_1162__ent_226",
+        "rel_237__ent_1004__ent_572",
+        "rel_237__ent_1101__ent_805",
+        "rel_237__ent_840__ent_901",
+        "rel_237__ent_246__ent_659",
+        "rel_237__ent_1347__ent_843"
+      ],
+      "judgment": "supported",
+      "reason": "A local row explicitly establishes physical presence, residence, or realized movement in the geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        17,
+        18,
+        20
+      ],
+      "case_ids": [
+        "rel_237__ent_600__ent_836",
+        "rel_237__ent_493__ent_250",
+        "rel_237__ent_1004__ent_1302",
+        "rel_237__ent_609__ent_1302",
+        "rel_237__ent_1236__ent_1302",
+        "rel_237__ent_1155__ent_851",
+        "rel_237__ent_5__ent_814",
+        "rel_237__ent_1404__ent_1298",
+        "rel_237__ent_284__ent_836",
+        "rel_237__ent_409__ent_9",
+        "rel_237__ent_1411__ent_1381"
+      ],
+      "judgment": "incorrect",
+      "reason": "The argument denotes a sporting event, institutional membership, or nongeographic heaven rather than physical geographic presence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_237__ent_888__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The inferred subject combines Addresses and John; the be-in row cannot establish one coherent person or organization location.",
+      "tags": [
+        "entity_collision",
+        "argument_identity"
+      ],
+      "question": "What entity does Addresses denote, and should it be separated from John?"
+    },
+    {
+      "indices": [
+        10,
+        12,
+        19,
+        23
+      ],
+      "case_ids": [
+        "rel_237__ent_6__ent_586",
+        "rel_237__ent_117__ent_586",
+        "rel_237__ent_1020__ent_586",
+        "rel_237__ent_819__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "White House may denote political office or employment rather than physical premises, and the truncated be-in/leave/move-out paths do not resolve that distinction.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Does the supplied White House statement describe physical presence rather than office or employment?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_237__ent_1440__ent_1002"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leaving Washington is attributed to Congress or its members, leaving physical institution versus member movement unresolved.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Does Congress here denote the members physically departing Washington?"
+    }
+  ],
+  "mixed": [
+    0,
+    3,
+    7,
+    9,
+    13,
+    14
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "bf220c005276f0be94ae747408896b44450eb83c86a58ef7704ac86f91372ff4"
+}

@@ -1,0 +1,80 @@
+{
+  "relation": "rel_357",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_357__ent_546__ent_788",
+      "judgment": "supported",
+      "reason": "Motorola → Schaumburg: The company began in Schaumburg and has executives there, establishing historical organizational physical presence.",
+      "evidence_lines": [
+        823,
+        824,
+        825,
+        4313,
+        4314,
+        4315
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:58.864Z"
+      }
+    },
+    {
+      "case_id": "rel_357__ent_493__ent_250",
+      "judgment": "ambiguous",
+      "reason": "God → heaven: God and heaven occur in theological or figurative constructions; the rows do not resolve literal physical presence in a geographic place.",
+      "evidence_lines": [
+        2755,
+        2756,
+        2757,
+        2760,
+        2761,
+        2762
+      ],
+      "issue_tags": [
+        "nonliteral_presence"
+      ],
+      "reviewer_question": "Is heaven intended as a literal geographic place here, and what physical-presence claim is being asserted?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:58.864Z"
+      }
+    },
+    {
+      "case_id": "rel_357__ent_685__ent_443",
+      "judgment": "incorrect",
+      "reason": "Liberace → AIDS: AIDS is a medical condition or cause of death, not a geographic place.",
+      "evidence_lines": [
+        4917,
+        4919,
+        4921,
+        4922,
+        4923
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:58.864Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "32c689fd963d578da6b50637e779f01eaf0e5e0c6653c205c230cb245ce41faf"
+}

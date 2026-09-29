@@ -1,0 +1,51 @@
+{
+  "relation": "rel_46",
+  "predicate_id": "president_of",
+  "predicate_version": 1,
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate": {
+    "id": "president_of",
+    "label": "president of institution",
+    "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+    "includes": [
+      "explicit president office",
+      "a functional or departmental president role within Y",
+      "historical or former presidency"
+    ],
+    "excludes": [
+      "manager, director, chairman, head, or executive alone without a president title",
+      "ordinary employment or membership",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "president-elect or unresolved tenure without evidence of holding office",
+      "an incomplete institution or personal principal",
+      "unclear holder or title attachment"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+    "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y."
+  },
+  "dictionary_sha256": "ae5ae580fec134663abb749bbf01613c92b46eb4b6906462af83f8a228e531c8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Specific president office dominates, with a small organizational location and artistic-review minority.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.714Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10,
+    12,
+    13
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_46.before_grading.json",
+  "pregrading_annotation_sha256": "df20dc06d6d7c7a31502261c35bb302ffa5efd76190db481562fd4e33e36f482"
+}

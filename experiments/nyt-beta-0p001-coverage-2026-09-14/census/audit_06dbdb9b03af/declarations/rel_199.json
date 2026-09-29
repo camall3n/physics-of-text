@@ -1,0 +1,49 @@
+{
+  "relation": "rel_199",
+  "predicate_id": "defeated",
+  "predicate_version": 1,
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate": {
+    "id": "defeated",
+    "label": "defeated opponent",
+    "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+    "includes": [
+      "beat/defeat/trounce/rout/upset/victory over",
+      "completed sporting sweep/outlast/elimination",
+      "explicit electoral defeat of an opposing competitor",
+      "historical win despite losses in other games"
+    ],
+    "excludes": [
+      "mere play/face/rivalry",
+      "standings or polling lead",
+      "losing to Y",
+      "winning an event rather than beating Y",
+      "political control or hostility alone"
+    ],
+    "ambiguous": [
+      "bare outscore/surpass/shock without a completed-contest result",
+      "score margin for only one period",
+      "unclear geographic/team metonymy"
+    ],
+    "notes": "Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+    "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat."
+  },
+  "dictionary_sha256": "c41976888b1b16f2ff1b60464b78ccf8705e322d54b9dcf3d19b34406eb12cc4",
+  "kind": "declared_before_case_grading",
+  "rationale": "Competitive vote-result/trounce/opponent/advantage family identifies completed opponent defeat; corporate trend research and officials are distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:26.506Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_199.before_grading.json",
+  "pregrading_annotation_sha256": "cd92761d701fce33db20fb150c550849e56e1a2af13a86e3614d05d0cd7d4c74"
+}

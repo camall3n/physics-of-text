@@ -1,0 +1,117 @@
+{
+  "audit": "audit_ad8866964cf6",
+  "relation": "rel_246",
+  "cases_sha256": "3799f5abe7c72552c3d02e56851c0e8f79ef70d941404eb61dd078999f964734",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        13,
+        14,
+        17,
+        19,
+        20,
+        21,
+        22
+      ],
+      "case_ids": [
+        "rel_246__ent_882__ent_640",
+        "rel_246__ent_1104__ent_880",
+        "rel_246__ent_666__ent_423",
+        "rel_246__ent_649__ent_880",
+        "rel_246__ent_1121__ent_425",
+        "rel_246__ent_922__ent_880",
+        "rel_246__ent_665__ent_1069",
+        "rel_246__ent_822__ent_640",
+        "rel_246__ent_426__ent_668",
+        "rel_246__ent_624__ent_866",
+        "rel_246__ent_925__ent_924",
+        "rel_246__ent_421__ent_423",
+        "rel_246__ent_928__ent_1064",
+        "rel_246__ent_1067__ent_923",
+        "rel_246__ent_1063__ent_927"
+      ],
+      "judgment": "supported",
+      "reason": "The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        10,
+        11,
+        12,
+        15,
+        16,
+        18
+      ],
+      "case_ids": [
+        "rel_246__ent_660__ent_623",
+        "rel_246__ent_843__ent_421",
+        "rel_246__ent_407__ent_649",
+        "rel_246__ent_1002__ent_661",
+        "rel_246__ent_843__ent_1104",
+        "rel_246__ent_843__ent_420",
+        "rel_246__ent_843__ent_649"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "tags": [
+        "place_metonymy",
+        "attachment"
+      ],
+      "question": "Which organizational office is the child, and should the city-only argument be accepted as that office?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_246__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The child name Hughes is used for both a corporate subsidiary and an executive, leaving incompatible entity types in the fact.",
+      "tags": [
+        "entity_merge"
+      ],
+      "question": "Is the Hughes executive a different entity from the subsidiary?"
+    },
+    {
+      "indices": [
+        23
+      ],
+      "case_ids": [
+        "rel_246__ent_883__ent_633"
+      ],
+      "judgment": "incorrect",
+      "reason": "Death at a person’s home in Westport establishes no organizational parent-child relation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    6,
+    9,
+    10,
+    12,
+    16,
+    18,
+    21
+  ],
+  "broad": []
+}

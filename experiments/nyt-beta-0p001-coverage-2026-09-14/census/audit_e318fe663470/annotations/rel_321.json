@@ -1,0 +1,104 @@
+{
+  "relation": "rel_321",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_321__ent_252__ent_280",
+      "judgment": "ambiguous",
+      "reason": "C. Virginia Fields → Manhattan; Robert → Manhattan: President evidence for Virginia Fields is merged with a different person Robert in the same inferred subject.",
+      "evidence_lines": [
+        2804,
+        2805,
+        2806,
+        2811,
+        3931
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which person does this presidency fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.427Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1356__ent_335",
+      "judgment": "incorrect",
+      "reason": "State Department → Charles E. Redman: Inverse spokesperson, chairman renomination or opening a restaurant does not establish presidency.",
+      "evidence_lines": [
+        5390,
+        5391,
+        5394
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.427Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1099__ent_1280",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Federal Reserve Board: Inverse spokesperson, chairman renomination or opening a restaurant does not establish presidency.",
+      "evidence_lines": [
+        203,
+        5681
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.427Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_556__ent_798",
+      "judgment": "ambiguous",
+      "reason": "Mr. Lee → Taiwan: The president title occurs inside an alma-mater visit construction without a clear local attachment to Mr. Lee.",
+      "evidence_lines": [
+        986,
+        989
+      ],
+      "issue_tags": [
+        "attachment_ambiguity"
+      ],
+      "reviewer_question": "Whose presidency does the visit/alma-mater construction identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.427Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_104__ent_1035",
+      "judgment": "incorrect",
+      "reason": "Danny Meyer → Union Square Cafe: Inverse spokesperson, chairman renomination or opening a restaurant does not establish presidency.",
+      "evidence_lines": [
+        1441
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.427Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8b9256f4c8cedf2c116d96d834f93bb7d722999709ccfef08e1136354003b4c2"
+}

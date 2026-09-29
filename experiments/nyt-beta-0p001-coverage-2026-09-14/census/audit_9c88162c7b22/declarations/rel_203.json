@@ -1,0 +1,54 @@
+{
+  "relation": "rel_203",
+  "predicate_id": "has_spokesperson",
+  "predicate_version": 1,
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate": {
+    "id": "has_spokesperson",
+    "label": "has spokesperson",
+    "definition": "Organization or principal X has person Y serving as its spokesperson.",
+    "includes": [
+      "inverse spokesperson_for with correct attachment",
+      "organization-modifying spokesman and appositive person"
+    ],
+    "excludes": [
+      "leader/president/lawyer/secretary alone",
+      "speaking at a building",
+      "spokesperson-to-principal forward direction"
+    ],
+    "ambiguous": [
+      "dateline/location replacing the principal or person"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person."
+  },
+  "dictionary_sha256": "59aff7f5e8cc449e8f21f1ae3adf224b1be5e1590e7384ca077d88ca81142035",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse spokesperson paths dominate: principal first and spokesperson second. Bare location of speech is not itself the office.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.135Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    20
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_203.before_grading.json",
+  "pregrading_annotation_sha256": "59c0a07697513e0805b06ecdf47f1b2e6e01dd47d92565657d4e1a7ab4b55ed3"
+}

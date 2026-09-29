@@ -1,0 +1,53 @@
+{
+  "relation": "rel_160",
+  "predicate_id": "communicates_to",
+  "predicate_version": 1,
+  "predicate_hash": "a82d4a7aab0a8fbf3f86b7d71ec6b6b931f5415050326cab5d60de9e300b979c",
+  "predicate": {
+    "id": "communicates_to",
+    "label": "directed communication to",
+    "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+    "includes": [
+      "tell/ask/urge/notify/advise/warn/persuade/address/speak-to",
+      "testimony before the addressee",
+      "send/submit a clearly communicative object",
+      "institutional communication through an identified representative"
+    ],
+    "excludes": [
+      "mere meeting/cooperation/support",
+      "speaking about or criticizing Y without address",
+      "physical transfer",
+      "spokesperson intermediary treated as recipient"
+    ],
+    "ambiguous": [
+      "send/submit/give with omitted object and no other clear communication in this fact",
+      "person versus their administration or envoy attribution"
+    ],
+    "notes": "An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+    "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it."
+  },
+  "dictionary_sha256": "d1de0795486ef9579a0a96c9ce371f5cf72514817f6ff8f4250667ce57a58025",
+  "kind": "declared_before_case_grading",
+  "rationale": "Send/tell/submit/press/comment and appearing before a body form directed communication; sending without an object remains ambiguous under the fixed scope.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.154Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    11,
+    13,
+    14
+  ],
+  "competing_meanings": [
+    "political support",
+    "criticism"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_160.before_grading.json",
+  "pregrading_annotation_sha256": "49be553ba8418269787f047cc8692e59e3e3ae92def84fd4740823e38cd69c72"
+}

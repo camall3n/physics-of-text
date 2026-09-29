@@ -1,0 +1,76 @@
+{
+  "relation": "rel_79",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "facts": [
+    {
+      "case_id": "rel_79__ent_61__ent_259",
+      "judgment": "incorrect",
+      "reason": "Reggie Miller → Indiana: Player affiliation, residence and retirement with a team do not establish defeating that team.",
+      "evidence_lines": [
+        3156,
+        3158,
+        3159,
+        3160,
+        3161,
+        3162
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.635Z"
+      }
+    },
+    {
+      "case_id": "rel_79__ent_308__ent_543",
+      "judgment": "ambiguous",
+      "reason": "Knicks → Nets: Outscore does not specify whether it is a final match result or a partial-period margin.",
+      "evidence_lines": [
+        937,
+        939,
+        2617,
+        2619
+      ],
+      "issue_tags": [
+        "result_scope",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was the Knicks outscoring of the Nets the completed contest result?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.635Z"
+      }
+    },
+    {
+      "case_id": "rel_79__ent_543__ent_308",
+      "judgment": "supported",
+      "reason": "Nets → Knicks: An explicit rout-of establishes a completed victory despite other score/standings evidence.",
+      "evidence_lines": [
+        944,
+        945,
+        947,
+        950
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.635Z"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "38643f204a0bb715481e37f22be16a99ee7d31a6982e4d9146269af97a2595a1"
+}

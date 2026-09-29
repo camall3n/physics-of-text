@@ -1,0 +1,105 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_138",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_138__ent_1147__ent_209",
+        "rel_138__ent_462__ent_1141",
+        "rel_138__ent_1148__ent_460",
+        "rel_138__ent_461__ent_222",
+        "rel_138__ent_1285__ent_407",
+        "rel_138__ent_943__ent_1088",
+        "rel_138__ent_220__ent_407",
+        "rel_138__ent_464__ent_221",
+        "rel_138__ent_224__ent_466",
+        "rel_138__ent_463__ent_440",
+        "rel_138__ent_1247__ent_1270",
+        "rel_138__ent_339__ent_1146",
+        "rel_138__ent_1078__ent_1277"
+      ],
+      "judgment": "supported",
+      "reason": "The firm/company/group-in or based-in construction supplies an organizational location in the named geographical place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_138__ent_955__ent_1409"
+      ],
+      "judgment": "ambiguous",
+      "reason": "This latent pair merges Al Harazin–Mets with Petroleum Finance Company–Washington; company-in support does not resolve the conflicting people/organization/place referents.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Should the Al Harazin–Mets evidence be a different fact from Petroleum Finance Company–Washington?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_138__ent_935__ent_931"
+      ],
+      "judgment": "incorrect",
+      "reason": "Bell is used as a corporate-family label in company modification, not a geographical location; the other relative path supplies no location.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_138__ent_21__ent_10"
+      ],
+      "judgment": "ambiguous",
+      "reason": "German modifies a company but is not a complete geographical place argument.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Does German stand for Germany as a location rather than only nationality or corporate origin?"
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_138__ent_980__ent_325"
+      ],
+      "judgment": "incorrect",
+      "reason": "Reviewer-for expresses a persons professional connection to a publication, not an organization located in a place.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

@@ -1,0 +1,41 @@
+{
+  "relation": "rel_185",
+  "predicate_id": "died_in",
+  "predicate_version": 1,
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate": {
+    "id": "died_in",
+    "label": "died in place",
+    "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+    "includes": [
+      "explicit died-in or death-in location",
+      "being killed in Y establishing death there",
+      "historical death location"
+    ],
+    "excludes": [
+      "residence, birth, or ordinary presence alone",
+      "Y is the perpetrator or cause rather than location",
+      "discussion of deaths without the affected person or population"
+    ],
+    "ambiguous": [
+      "place versus institution unresolved",
+      "unclear death or geographic attachment",
+      "a population mention without identified affected members"
+    ],
+    "notes": "This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+    "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died."
+  },
+  "dictionary_sha256": "6fb1c2d6bd6fbd8ec5613a43342b556f667dfafcdaf0f3e0a58404e42e2b7a3f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Victim killed-in/death-after-crash-in paths identify death location; active killer-subject paths, expulsion, injury alone and population percentages are excluded.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:14:12.685Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_185.before_grading.json",
+  "pregrading_annotation_sha256": "dce62d9e73f45023122d14ec471520549e7db1e4e275dab69b3615222bad50e5"
+}

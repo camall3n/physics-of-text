@@ -1,0 +1,43 @@
+{
+  "relation": "rel_379",
+  "predicate_id": "has_medical_condition",
+  "predicate_version": 1,
+  "predicate_hash": "00002d0be7de1b31e15236178a628d6020ff5861a758e2c750383ed1801ab3f8",
+  "predicate": {
+    "id": "has_medical_condition",
+    "label": "has or had medical condition",
+    "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+    "includes": [
+      "explicit having or suffering from Y",
+      "diagnosis of Y",
+      "death from or of Y establishing the condition",
+      "a stated affected subset of a named population"
+    ],
+    "excludes": [
+      "generic discussion or research about Y",
+      "treating another person with Y",
+      "a disease merely located in a place",
+      "a generic have phrase whose object is not a medical condition"
+    ],
+    "ambiguous": [
+      "unclear condition attachment or affected person",
+      "risk, possible diagnosis, or suspected condition without confirmation",
+      "a population mention that does not identify affected members"
+    ],
+    "notes": "This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+    "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition."
+  },
+  "dictionary_sha256": "5bd98ffa2ecc2e72903074843f3fc3f47534b5ff578b9945e3e76e248296f243",
+  "kind": "declared_before_case_grading",
+  "rationale": "Suffer-from, die-of and have-condition/virus paths identify a coherent disease assertion family, with AIDS/diabetes as objects. Generic have/need athletes is a competing possessive reading, not accepted medical evidence.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:58.168Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_379.before_grading.json",
+  "pregrading_annotation_sha256": "73b590498fa90e12a30f8a5367f9a1a8011087ac74c27fac73e9a8b0dfacd294"
+}

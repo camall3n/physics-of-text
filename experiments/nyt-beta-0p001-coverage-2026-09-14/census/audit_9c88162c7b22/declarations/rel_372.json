@@ -1,0 +1,51 @@
+{
+  "relation": "rel_372",
+  "predicate_id": "broadcasts_program",
+  "predicate_version": 1,
+  "predicate_hash": "e28edb6a2fcf64c04cecd290d4e234cbaddea41551c5e52555dca1c6d524a6ed",
+  "predicate": {
+    "id": "broadcasts_program",
+    "label": "broadcasts or carries program",
+    "definition": "Broadcaster X is explicitly identified as broadcasting, carrying, or having program Y in its programming.",
+    "includes": [
+      "explicit airing or broadcasting of Y",
+      "Y identified as the program or show of broadcaster X",
+      "historical programming affiliation"
+    ],
+    "excludes": [
+      "ownership of a network or production company alone",
+      "an ordinary press interaction or meeting",
+      "a person appearing on a program without broadcaster-program identification"
+    ],
+    "ambiguous": [
+      "an incomplete program title such as Press with unresolved referent",
+      "unclear broadcaster versus guest role",
+      "program versus generic activity attachment unresolved"
+    ],
+    "notes": "Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting.",
+    "scope_notes": "Includes: explicit airing or broadcasting of Y; Y identified as the program or show of broadcaster X; historical programming affiliation. Excludes: ownership of a network or production company alone; an ordinary press interaction or meeting; a person appearing on a program without broadcaster-program identification. Ambiguous unless resolved by case-local evidence: an incomplete program title such as Press with unresolved referent; unclear broadcaster versus guest role; program versus generic activity attachment unresolved. Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting."
+  },
+  "dictionary_sha256": "1d4fa0083a6be6aff559e638737893dbeb4c94006b821253e501308d1bd0f097",
+  "kind": "declared_before_case_grading",
+  "rationale": "Complete dictionary spells the program title Meet the Press with NBC/NBC News first and truncated Press second. Select network-to-program broadcast association, not person-to-person meeting; incomplete title identity requires its own check.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.839Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_372.before_grading.json",
+  "pregrading_annotation_sha256": "745ef1abe11fcc61ebfa6462ea57fa8b1ef934585233c7fed338c9ea554d7856"
+}

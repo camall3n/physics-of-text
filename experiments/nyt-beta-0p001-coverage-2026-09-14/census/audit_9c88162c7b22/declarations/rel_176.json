@@ -1,0 +1,50 @@
+{
+  "relation": "rel_176",
+  "predicate_id": "travels_to",
+  "predicate_version": 1,
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate": {
+    "id": "travels_to",
+    "label": "moves or travels to",
+    "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+    "includes": [
+      "move/relocate/return/arrive/go/visit to Y",
+      "depart/leave for Y",
+      "temporary travel or organizational relocation",
+      "bare unqualified destination movement as textual support"
+    ],
+    "excludes": [
+      "leave/withdraw from Y",
+      "mere presence/residence/death place",
+      "sports-event qualification or attendance as a nongeographic destination",
+      "membership or political control"
+    ],
+    "ambiguous": [
+      "explicitly hypothetical or proposed relocation",
+      "invasion-only boundary",
+      "geographic/team or theatrical metonymy"
+    ],
+    "notes": "Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+    "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path."
+  },
+  "dictionary_sha256": "686bb8cb98598a38fa8ce8bc4f7265ad38b048a07eeb079d50b9899b93d9d03a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Arrival/come/leave-for destination movement dominates. Speech or presence in a place alone is separate; summons and preparations retain actuality caveats.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.653Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    6,
+    11,
+    12,
+    14
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_176.before_grading.json",
+  "pregrading_annotation_sha256": "c10c6916daf803622e152cc12abd52a0e8d8dcae97231f2b9e028faf77cacc39"
+}

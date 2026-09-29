@@ -1,0 +1,212 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_13",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        28,
+        34,
+        35,
+        37,
+        38,
+        41,
+        43,
+        44,
+        45,
+        49
+      ],
+      "case_ids": [
+        "rel_13__ent_182__ent_189",
+        "rel_13__ent_77__ent_271",
+        "rel_13__ent_180__ent_662",
+        "rel_13__ent_182__ent_1107",
+        "rel_13__ent_828__ent_839",
+        "rel_13__ent_182__ent_819",
+        "rel_13__ent_819__ent_828",
+        "rel_13__ent_1278__ent_189",
+        "rel_13__ent_195__ent_189",
+        "rel_13__ent_1330__ent_189",
+        "rel_13__ent_182__ent_198",
+        "rel_13__ent_828__ent_189",
+        "rel_13__ent_829__ent_189",
+        "rel_13__ent_631__ent_762",
+        "rel_13__ent_197__ent_762",
+        "rel_13__ent_180__ent_1107",
+        "rel_13__ent_1294__ent_189",
+        "rel_13__ent_1393__ent_99",
+        "rel_13__ent_188__ent_189",
+        "rel_13__ent_188__ent_181",
+        "rel_13__ent_182__ent_1248",
+        "rel_13__ent_1400__ent_596",
+        "rel_13__ent_180__ent_467",
+        "rel_13__ent_827__ent_1239",
+        "rel_13__ent_586__ent_109",
+        "rel_13__ent_1395__ent_1213",
+        "rel_13__ent_965__ent_189",
+        "rel_13__ent_910__ent_586",
+        "rel_13__ent_1361__ent_189",
+        "rel_13__ent_820__ent_1416"
+      ],
+      "judgment": "supported",
+      "reason": "The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_13__ent_180__ent_189"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The same tuple combines Mr. Greenspan’s testimony with Bush’s communication to Congress, so the sender entity is unresolved.",
+      "tags": [
+        "mixed_entity"
+      ],
+      "question": "Should Greenspan and Bush be separate sender entities despite sharing the Congress addressee?"
+    },
+    {
+      "indices": [
+        27
+      ],
+      "case_ids": [
+        "rel_13__ent_157__ent_1239"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Only send-indirect-object edges remain; the sent object is omitted.",
+      "tags": [
+        "missing_communicative_object"
+      ],
+      "question": "What did Bush send Congress, and was it a message rather than another transferred object?"
+    },
+    {
+      "indices": [
+        36
+      ],
+      "case_ids": [
+        "rel_13__ent_299__ent_1107"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Clinton and the White House are merged into one sender tuple; direct asking comes from the institution while the personal row has only send with omitted object.",
+      "tags": [
+        "mixed_entity",
+        "representative_scope"
+      ],
+      "question": "Should Clinton personally and the White House institution be separate sender entities, and what did Clinton send?"
+    },
+    {
+      "indices": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        24,
+        29,
+        30,
+        31,
+        32,
+        33,
+        39,
+        40,
+        42,
+        46,
+        47,
+        48,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56
+      ],
+      "case_ids": [
+        "rel_13__ent_815__ent_271",
+        "rel_13__ent_160__ent_1259",
+        "rel_13__ent_79__ent_400",
+        "rel_13__ent_1363__ent_814",
+        "rel_13__ent_843__ent_422",
+        "rel_13__ent_502__ent_743",
+        "rel_13__ent_1200__ent_353",
+        "rel_13__ent_73__ent_789",
+        "rel_13__ent_669__ent_109",
+        "rel_13__ent_1213__ent_1319",
+        "rel_13__ent_351__ent_60",
+        "rel_13__ent_60__ent_9",
+        "rel_13__ent_1217__ent_826",
+        "rel_13__ent_1213__ent_189",
+        "rel_13__ent_576__ent_280",
+        "rel_13__ent_1044__ent_1443",
+        "rel_13__ent_73__ent_6",
+        "rel_13__ent_1197__ent_1213",
+        "rel_13__ent_1395__ent_816",
+        "rel_13__ent_216__ent_366",
+        "rel_13__ent_385__ent_406",
+        "rel_13__ent_83__ent_1224",
+        "rel_13__ent_999__ent_511",
+        "rel_13__ent_17__ent_1374"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    19,
+    20,
+    21,
+    22,
+    23,
+    28,
+    34,
+    37,
+    38,
+    41,
+    43,
+    44
+  ],
+  "broad": []
+}

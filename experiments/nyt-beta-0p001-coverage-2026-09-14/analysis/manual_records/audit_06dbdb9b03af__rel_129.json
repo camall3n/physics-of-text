@@ -1,0 +1,58 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_129",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_129__ent_2__ent_1",
+        "rel_129__ent_139__ent_379"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chair title, actual service or stepping down as chair establishes office tenure.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_129__ent_246__ent_1171"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Illinois Democrat is an unnamed partisan officeholder rather than an identified person.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which named Illinois Democrat held this committee chair?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_129__ent_27__ent_29"
+      ],
+      "judgment": "incorrect",
+      "reason": "Company nationality and ownership partner evidence does not establish a person chair office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "2379e450406b48c403226909e43ad27ca1a55c9be1b216d28171d431842cfc81"
+}

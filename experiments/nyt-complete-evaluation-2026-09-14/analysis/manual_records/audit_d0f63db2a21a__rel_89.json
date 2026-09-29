@@ -1,0 +1,190 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_89",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        41,
+        42,
+        43,
+        46,
+        47,
+        48
+      ],
+      "case_ids": [
+        "rel_89__ent_2__ent_1",
+        "rel_89__ent_1274__ent_584",
+        "rel_89__ent_136__ent_428",
+        "rel_89__ent_1361__ent_1280",
+        "rel_89__ent_1403__ent_1287",
+        "rel_89__ent_4__ent_3",
+        "rel_89__ent_154__ent_379",
+        "rel_89__ent_1366__ent_1133",
+        "rel_89__ent_137__ent_379",
+        "rel_89__ent_349__ent_308",
+        "rel_89__ent_1361__ent_0",
+        "rel_89__ent_252__ent_333",
+        "rel_89__ent_447__ent_0",
+        "rel_89__ent_380__ent_1280",
+        "rel_89__ent_716__ent_142",
+        "rel_89__ent_678__ent_1358",
+        "rel_89__ent_208__ent_1145",
+        "rel_89__ent_136__ent_378",
+        "rel_89__ent_1099__ent_1280",
+        "rel_89__ent_1006__ent_155",
+        "rel_89__ent_587__ent_102",
+        "rel_89__ent_253__ent_572",
+        "rel_89__ent_1207__ent_1206",
+        "rel_89__ent_1207__ent_302",
+        "rel_89__ent_1134__ent_786",
+        "rel_89__ent_134__ent_376",
+        "rel_89__ent_151__ent_1371",
+        "rel_89__ent_253__ent_167",
+        "rel_89__ent_257__ent_1221",
+        "rel_89__ent_678__ent_302",
+        "rel_89__ent_288__ent_1055",
+        "rel_89__ent_1109__ent_1108",
+        "rel_89__ent_1361__ent_1289",
+        "rel_89__ent_777__ent_1280",
+        "rel_89__ent_401__ent_110",
+        "rel_89__ent_1214__ent_1269"
+      ],
+      "judgment": "supported",
+      "reason": "The local rows explicitly establish a qualifying chair, executive, president, director, head or named legislative leadership role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        19,
+        21
+      ],
+      "case_ids": [
+        "rel_89__ent_842__ent_841",
+        "rel_89__ent_914__ent_1422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The local inferred fact combines different literal pairs or named subjects, preventing a unique attribution of supporting office evidence.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which incompatible local pair does this fact represent?"
+    },
+    {
+      "indices": [
+        20,
+        40
+      ],
+      "case_ids": [
+        "rel_89__ent_67__ent_1384",
+        "rel_89__ent_1291__ent_497"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The political office is attached to a truncated nationality rather than the full governing institution.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What complete political body is intended?"
+    },
+    {
+      "indices": [
+        12,
+        26,
+        29,
+        35,
+        37,
+        38,
+        39,
+        44,
+        45,
+        49,
+        50,
+        51,
+        52
+      ],
+      "case_ids": [
+        "rel_89__ent_1207__ent_1358",
+        "rel_89__ent_257__ent_572",
+        "rel_89__ent_201__ent_443",
+        "rel_89__ent_1119__ent_177",
+        "rel_89__ent_1033__ent_183",
+        "rel_89__ent_1366__ent_1239",
+        "rel_89__ent_1398__ent_1351",
+        "rel_89__ent_300__ent_843",
+        "rel_89__ent_997__ent_537",
+        "rel_89__ent_1319__ent_653",
+        "rel_89__ent_401__ent_1448",
+        "rel_89__ent_796__ent_213",
+        "rel_89__ent_970__ent_782"
+      ],
+      "judgment": "incorrect",
+      "reason": "The local evidence describes founding alone, ordinary expertise/representation, sport, an inverse relation or another association without a qualifying managerial office.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    18,
+    22,
+    23,
+    25,
+    27,
+    28,
+    32,
+    34,
+    36,
+    42,
+    43
+  ],
+  "broad": []
+}

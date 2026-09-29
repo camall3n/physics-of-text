@@ -1,0 +1,73 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_95",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        10
+      ],
+      "case_ids": [
+        "rel_95__ent_819__ent_828",
+        "rel_95__ent_308__ent_1437",
+        "rel_95__ent_1265__ent_721",
+        "rel_95__ent_816__ent_1278",
+        "rel_95__ent_819__ent_967",
+        "rel_95__ent_1419__ent_545"
+      ],
+      "judgment": "supported",
+      "reason": "Local group-include or institutional leadership evidence identifies the person as a member of the named party/team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_95__ent_723__ent_965"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Channel is an incomplete station/member designation, and the PBS programming path does not resolve the actual institutional member.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which station or member organization does Channel identify?"
+    },
+    {
+      "indices": [
+        0,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_95__ent_966__ent_843",
+        "rel_95__ent_537__ent_1401",
+        "rel_95__ent_1090__ent_1106",
+        "rel_95__ent_953__ent_356"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic inclusion, person-to-company inclusion or merely needing something from a player does not establish the declared group membership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "da210fc8e6d527dc04c8aeaa442f59bf8ae1f8be87bd314296bec17c8996a19f"
+}

@@ -1,0 +1,55 @@
+{
+  "relation": "rel_130",
+  "predicate_id": "editor_of",
+  "predicate_version": 1,
+  "predicate_hash": "e74cae9f1b8345e6a76881e76791028fdfe263683ba17af0497b102f7fa758f4",
+  "predicate": {
+    "id": "editor_of",
+    "label": "editor of publication",
+    "definition": "Person X serves or served as an editor of, for, or at publication Y.",
+    "includes": [
+      "explicit editor or editor-in-chief",
+      "section or departmental editor within a publication",
+      "explicitly editing publication Y",
+      "historical editorial office"
+    ],
+    "excludes": [
+      "publisher, director, owner, or author alone",
+      "ordinary writing or contribution without editorial role",
+      "merely being quoted or discussed in the publication"
+    ],
+    "ambiguous": [
+      "an incomplete publication argument",
+      "editor title attaching to someone other than X",
+      "editing a work versus holding the publication's editorial role when unclear"
+    ],
+    "notes": "Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication.",
+    "scope_notes": "Includes: explicit editor or editor-in-chief; section or departmental editor within a publication; explicitly editing publication Y; historical editorial office. Excludes: publisher, director, owner, or author alone; ordinary writing or contribution without editorial role; merely being quoted or discussed in the publication. Ambiguous unless resolved by case-local evidence: an incomplete publication argument; editor title attaching to someone other than X; editing a work versus holding the publication's editorial role when unclear. Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication."
+  },
+  "dictionary_sha256": "f04f22a36a45636a6d2feff153f0a9f6a25bcabbc78c8ebf401f9bf5560fae19",
+  "kind": "declared_before_case_grading",
+  "rationale": "Editor and editor-in-chief publication roles dominate. Bureau chief, boss, or staff alone does not establish editorship.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.863Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    12
+  ],
+  "competing_meanings": [
+    "bureau chief",
+    "staff"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_130.before_grading.json",
+  "pregrading_annotation_sha256": "a240233959a13ad9c0ce35cb4ccf6515c016bf1e31a9a81612b56a69f88b2c46"
+}

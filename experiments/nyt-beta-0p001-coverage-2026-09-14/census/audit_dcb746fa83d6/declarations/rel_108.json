@@ -1,0 +1,56 @@
+{
+  "relation": "rel_108",
+  "predicate_id": "athlete_for",
+  "predicate_version": 1,
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate": {
+    "id": "athlete_for",
+    "label": "athlete plays for team",
+    "definition": "Person X plays or played as an athlete for sports team Y.",
+    "includes": [
+      "player/center/guard/wing/captain/scorer role on a team",
+      "playing for or with the team as athlete",
+      "scoring for the team"
+    ],
+    "excludes": [
+      "coach/manager/owner alone",
+      "team leading or beating another team",
+      "generic lead without athlete context",
+      "reverse team-to-athlete direction"
+    ],
+    "ambiguous": [
+      "bare lead without player/position/scoring context"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+  },
+  "dictionary_sha256": "4179a33b2ab417f4153d47916e3b94669300888cf9a8e7df97bbaab18e6b9d76",
+  "kind": "declared_before_case_grading",
+  "rationale": "Player/center/scorer and playing/scoring-for paths identify the dominant athlete-to-team family. Bare lead must be resolved from case-local athlete context; coaches and institutional leaders remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.523Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    11,
+    12,
+    13,
+    15
+  ],
+  "competing_meanings": [
+    "coach",
+    "organizational leader",
+    "communication"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_108.before_grading.json",
+  "pregrading_annotation_sha256": "7e9a45c57fe1df6958ede8903b7937b82fae2449cf400b90f5259d394da72e0d"
+}

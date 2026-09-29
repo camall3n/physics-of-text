@@ -1,0 +1,88 @@
+{
+  "relation": "rel_149",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_149__ent_182__ent_1085",
+      "judgment": "ambiguous",
+      "reason": "Mr. Bush → Al Gore; Mr. Bush → Laura: Electoral competition with Al Gore is merged with a wife/family row naming Laura as the same inferred object.",
+      "evidence_lines": [
+        4575,
+        6939,
+        6943,
+        6945
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Should Al Gore and Laura be separate entities, and which opponent is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.922Z"
+      }
+    },
+    {
+      "case_id": "rel_149__ent_24__ent_1381",
+      "judgment": "incorrect",
+      "reason": "Unocal → American: National business/oil context or public attorney office does not establish competition against the second argument.",
+      "evidence_lines": [
+        3629,
+        3633,
+        3634
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.922Z"
+      }
+    },
+    {
+      "case_id": "rel_149__ent_321__ent_600",
+      "judgment": "supported",
+      "reason": "Mets → Cubs: An explicit completed loss to the Cubs establishes competition against that opponent.",
+      "evidence_lines": [
+        6962,
+        6963,
+        6965
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.922Z"
+      }
+    },
+    {
+      "case_id": "rel_149__ent_758__ent_537",
+      "judgment": "incorrect",
+      "reason": "Patrick J. Fitzgerald → United States: National business/oil context or public attorney office does not establish competition against the second argument.",
+      "evidence_lines": [
+        8385,
+        8390
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.922Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f751aad25b904ecfb36bf47a42868baad300d57fa6954258e12307ba2cdc2b58"
+}

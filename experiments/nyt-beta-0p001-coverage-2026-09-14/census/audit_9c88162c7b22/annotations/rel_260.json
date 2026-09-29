@@ -1,0 +1,71 @@
+{
+  "relation": "rel_260",
+  "predicate_id": "has_minister",
+  "label": "has minister",
+  "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+  "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government.",
+  "facts": [
+    {
+      "case_id": "rel_260__ent_96__ent_948",
+      "judgment": "ambiguous",
+      "reason": "India → Atal Behari Vajpayee: India’s minister telephones or is matched against the named person, while the president accepts his resignation. These retained paths do not unambiguously attach Vajpayee as the minister himself.",
+      "evidence_lines": [
+        7029,
+        7030,
+        7033,
+        7034,
+        7035
+      ],
+      "issue_tags": [
+        "office_attachment"
+      ],
+      "reviewer_question": "Is Vajpayee the minister of India, or the person contacted or opposed by India’s minister in these rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.785Z"
+      }
+    },
+    {
+      "case_id": "rel_260__ent_684__ent_429",
+      "judgment": "incorrect",
+      "reason": "Walter O'Malley → Los Angeles: Moving and being courted by Los Angeles describe a person and geographic destination, not a country having a minister.",
+      "evidence_lines": [
+        4860,
+        4864,
+        4867,
+        4868
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.785Z"
+      }
+    },
+    {
+      "case_id": "rel_260__ent_321__ent_647",
+      "judgment": "incorrect",
+      "reason": "Mets → Dodgers: Trades between baseball teams do not express a governmental ministerial office.",
+      "evidence_lines": [
+        6923,
+        6925,
+        6926
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.785Z"
+      }
+    }
+  ],
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ac4ed5a42331cc00fdbff7c97220329d719e1bc51553b6b9d66c964bf5f9f01e"
+}

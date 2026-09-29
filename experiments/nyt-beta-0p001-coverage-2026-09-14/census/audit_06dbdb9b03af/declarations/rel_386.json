@@ -1,0 +1,43 @@
+{
+  "relation": "rel_386",
+  "predicate_id": "ally_of",
+  "predicate_version": 1,
+  "predicate_hash": "7d39b98540127b1c044a2951f6ade11f4b5281b3776908e4c5240e81f24f1d9c",
+  "predicate": {
+    "id": "ally_of",
+    "label": "political or military ally of",
+    "definition": "Political entity X is or was an explicitly identified political or military ally of Y.",
+    "includes": [
+      "explicit ally-of or possessive ally relation",
+      "historical political or military alliance"
+    ],
+    "excludes": [
+      "a generic relationship or agreement alone",
+      "cooperation, trade, communication, or shared interests without alliance",
+      "travel or emigration between countries"
+    ],
+    "ambiguous": [
+      "an unspecified relationship without explicit alliance",
+      "unclear holder or direction of the ally description"
+    ],
+    "notes": "Alliance is separate from acting jointly on one occasion or maintaining diplomatic relations. Declaration must identify the explicit ally family rather than absorb generic international associations.",
+    "scope_notes": "Includes: explicit ally-of or possessive ally relation; historical political or military alliance. Excludes: a generic relationship or agreement alone; cooperation, trade, communication, or shared interests without alliance; travel or emigration between countries. Ambiguous unless resolved by case-local evidence: an unspecified relationship without explicit alliance; unclear holder or direction of the ally description. Alliance is separate from acting jointly on one occasion or maintaining diplomatic relations. Declaration must identify the explicit ally family rather than absorb generic international associations."
+  },
+  "dictionary_sha256": "c493a8e81d5ebea1b301d8061e83fc62c01b92139fac4709e9c3d0423cba7099",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit ally-of/possessive ally defines the coherent diplomatic alliance family; generic relationship/export and reversed movement separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:37.303Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_386.before_grading.json",
+  "pregrading_annotation_sha256": "895d15ed9fac2aba9ec4e44118999386b9f6c77444dcb5a4ef8596316909b95e"
+}

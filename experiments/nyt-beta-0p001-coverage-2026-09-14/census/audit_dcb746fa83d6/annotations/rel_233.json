@@ -1,0 +1,100 @@
+{
+  "relation": "rel_233",
+  "predicate_id": "founder_of",
+  "label": "founder or co-founder of",
+  "definition": "Person or organization X founded or co-founded organization, institution, business, movement, or polity Y.",
+  "scope_notes": "Includes: explicit founder or co-founder; founded or established Y in the institutional-creation sense; historical founding. Excludes: ownership or managerial office alone; merely joined or acquired an existing organization; discovery or finding an object; proposed founding without realization. Ambiguous unless resolved by case-local evidence: an incomplete institution or polity argument; a creator or builder phrase without clear institutional founding; unclear who is the founder. Founding is separate from holding an office or retaining ownership. The direction is founder to founded institution.",
+  "facts": [
+    {
+      "case_id": "rel_233__ent_953__ent_302",
+      "judgment": "supported",
+      "reason": "Bill Gates → Microsoft: An explicit founder or co-founder identification establishes founding of the institution.",
+      "evidence_lines": [
+        3904,
+        3905,
+        5101,
+        5102,
+        5105,
+        5691,
+        5692
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.760Z"
+      }
+    },
+    {
+      "case_id": "rel_233__ent_231__ent_473",
+      "judgment": "incorrect",
+      "reason": "Connecticut River → Long Island Sound: River confluence and flow do not establish institutional founding.",
+      "evidence_lines": [
+        6072,
+        6073,
+        6074,
+        6075,
+        6076,
+        6077,
+        6079
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.760Z"
+      }
+    },
+    {
+      "case_id": "rel_233__ent_678__ent_302",
+      "judgment": "supported",
+      "reason": "William H. Gates → Microsoft: An explicit founder or co-founder identification establishes founding of the institution.",
+      "evidence_lines": [
+        5070,
+        5072,
+        5073,
+        5700,
+        5702,
+        5703
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.760Z"
+      }
+    },
+    {
+      "case_id": "rel_233__ent_1277__ent_1235",
+      "judgment": "ambiguous",
+      "reason": "Bill Gates → Microsoft: The only path reaches co-founded-with through a shareholder’s worth and company stock, leaving who co-founded which company unresolved.",
+      "evidence_lines": [
+        3908,
+        5695
+      ],
+      "issue_tags": [
+        "founder_attachment"
+      ],
+      "reviewer_question": "Does the co-founded-with clause identify Bill Gates as co-founder of Microsoft, or attach to another shareholder?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.760Z"
+      }
+    }
+  ],
+  "predicate_hash": "aab95c1c3b9d083300ae1690b149e30d040b8e7ce954e86efab3641204a14ee4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6cd277f44887419e0c5a23a3a3ec8adc8ee9d20c6d226ea3490a19c9e5df6ef0"
+}

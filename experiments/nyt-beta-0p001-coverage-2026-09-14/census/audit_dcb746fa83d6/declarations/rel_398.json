@@ -1,0 +1,39 @@
+{
+  "relation": "rel_398",
+  "predicate_id": "promotes_ideology_of",
+  "predicate_version": 1,
+  "predicate_hash": "54d20438e39ed95269f323b83758862be9f99f809026033fd5dd65fe3f4f7c08",
+  "predicate": {
+    "id": "promotes_ideology_of",
+    "label": "promotes ideology of",
+    "definition": "Person or group X explicitly champions or promotes the ideology attributed to Y.",
+    "includes": [
+      "explicit championing or promoting the ideology of named Y",
+      "historical ideological advocacy"
+    ],
+    "excludes": [
+      "membership, leadership or employment alone",
+      "generic support of Y without ideology advocacy",
+      "ordinary communication or opposition"
+    ],
+    "ambiguous": [
+      "unclear advocate or ideology source attachment",
+      "missing ideology object when advocacy cannot be resolved"
+    ],
+    "notes": "This narrow ideological-advocacy relation does not imply membership in or generic support for the organization whose ideology is promoted.",
+    "scope_notes": "Includes: explicit championing or promoting the ideology of named Y; historical ideological advocacy. Excludes: membership, leadership or employment alone; generic support of Y without ideology advocacy; ordinary communication or opposition. Ambiguous unless resolved by case-local evidence: unclear advocate or ideology source attachment; missing ideology object when advocacy cannot be resolved. This narrow ideological-advocacy relation does not imply membership in or generic support for the organization whose ideology is promoted."
+  },
+  "dictionary_sha256": "b25322e793587e96e07b36171aa53a1eaeb5db1792a56ecd676f094cf2fdf8ab",
+  "kind": "declared_before_case_grading",
+  "rationale": "Parent approved narrow championing ideology-of: the repeated explicit path count2 resolves the tie with singleton managerial/command paths. No generic-support union.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:37:09.093Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_398.before_grading.json",
+  "pregrading_annotation_sha256": "32a9a2770b63bf3a0c922f50e1f79d1862aa9e6b6eb7c0f3084e32d605954861"
+}

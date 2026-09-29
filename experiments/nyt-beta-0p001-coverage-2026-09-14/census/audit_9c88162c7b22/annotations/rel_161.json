@@ -1,0 +1,75 @@
+{
+  "relation": "rel_161",
+  "predicate_id": "economist_for",
+  "label": "economist at organization",
+  "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+  "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment.",
+  "facts": [
+    {
+      "case_id": "rel_161__ent_61__ent_259",
+      "judgment": "incorrect",
+      "reason": "Reggie Miller → Indiana: The evidence identifies an Indiana guard and playing, retiring, and staying with a team; it does not identify an economist.",
+      "evidence_lines": [
+        3156,
+        3159,
+        3160,
+        3161,
+        3162,
+        3163
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.188Z"
+      }
+    },
+    {
+      "case_id": "rel_161__ent_847__ent_529",
+      "judgment": "supported",
+      "reason": "Bruce Steinberg → Merrill Lynch: Explicit economist-for/possessive economist paths identify this person as an economist of the named financial institution.",
+      "evidence_lines": [
+        2324,
+        2326,
+        2329,
+        2330,
+        2331
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.189Z"
+      }
+    },
+    {
+      "case_id": "rel_161__ent_862__ent_808",
+      "judgment": "supported",
+      "reason": "Stephen S. Roach → Morgan Stanley: Explicit economist-for/possessive economist paths identify this person as an economist of the named financial institution.",
+      "evidence_lines": [
+        2351,
+        2352,
+        2355
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.189Z"
+      }
+    }
+  ],
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "07f4903f2164d9406ca0475412d3f6f14ed566698ba754435de1e94f0301674e"
+}

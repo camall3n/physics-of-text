@@ -1,0 +1,44 @@
+{
+  "relation": "rel_256",
+  "predicate_id": "chairperson_of",
+  "predicate_version": 1,
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate": {
+    "id": "chairperson_of",
+    "label": "chairperson of",
+    "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+    "includes": [
+      "explicit chair/chairman/chairwoman/chairperson",
+      "co-chair if explicit",
+      "past tenure or resignation from that office"
+    ],
+    "excludes": [
+      "president/head/executive/director alone",
+      "founder/owner/member alone",
+      "nomination/candidacy alone"
+    ],
+    "ambiguous": [
+      "ambiguous successor or appointment that does not establish tenure",
+      "chair of an omitted subunit"
+    ],
+    "notes": "Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+    "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better."
+  },
+  "dictionary_sha256": "1d4385573ae9673a9d0bbb3290eff62f58b095b1a61c99de5d9861d853d0f7c2",
+  "kind": "declared_before_case_grading",
+  "rationale": "Chair office/tenure family is uniquely interpretable amid dateline/place/agency and geographic disturbance paths; nominations alone still do not establish tenure.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.851Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_256.before_grading.json",
+  "pregrading_annotation_sha256": "5c1f24cdf9b313f85927390daf58903b44092513089850140c466b1f82344615"
+}

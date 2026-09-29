@@ -1,0 +1,47 @@
+{
+  "relation": "rel_241",
+  "predicate_id": "acted_jointly_with",
+  "predicate_version": 1,
+  "predicate_hash": "7b336919554d39e7de5e4382a545ed00dfd3cd1713b6de59cfad4f7afea1ac49",
+  "predicate": {
+    "id": "acted_jointly_with",
+    "label": "acted jointly with",
+    "definition": "Entity X explicitly acted jointly or cooperated with counterpart Y in a shared action.",
+    "includes": [
+      "explicit cooperation or joint action",
+      "joining Y in a specified shared action",
+      "historical realized cooperation"
+    ],
+    "excludes": [
+      "joining an institution as a member",
+      "physical arrival, river confluence, or ordinary accompaniment",
+      "a generic relationship without a shared action",
+      "fighting against Y"
+    ],
+    "ambiguous": [
+      "join alone with no shared action supplied",
+      "plans or proposed cooperation without realization",
+      "unclear cooperative versus adversarial action"
+    ],
+    "notes": "A narrow joint-action meaning, not a generic association. With truncated join-only paths and no action context, use A rather than assuming what the entities did together.",
+    "scope_notes": "Includes: explicit cooperation or joint action; joining Y in a specified shared action; historical realized cooperation. Excludes: joining an institution as a member; physical arrival, river confluence, or ordinary accompaniment; a generic relationship without a shared action; fighting against Y. Ambiguous unless resolved by case-local evidence: join alone with no shared action supplied; plans or proposed cooperation without realization; unclear cooperative versus adversarial action. A narrow joint-action meaning, not a generic association. With truncated join-only paths and no action context, use A rather than assuming what the entities did together."
+  },
+  "dictionary_sha256": "beecda317be3acba2105886013b5f68132ffa5d20093c4491f119fb9e352725a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Follow/join/go-with between House and Senate is the largest cooperative-action family; generic follow/join must still identify shared action, and sequential passage is not automatic cooperation.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.243Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_241.before_grading.json",
+  "pregrading_annotation_sha256": "da0abfa72e94265604a261cab8db9da2934b6afdd1cc869f61c3d1b30f3db992"
+}

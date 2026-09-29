@@ -1,0 +1,64 @@
+{
+  "relation": "rel_124",
+  "predicate_id": "commented_on",
+  "label": "commented on",
+  "definition": "Entity X made an explicit statement or comment about entity Y.",
+  "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+  "facts": [
+    {
+      "case_id": "rel_124__ent_597__ent_1041",
+      "judgment": "supported",
+      "reason": "Van Gundy → Johnson: Direct say-of establishes a statement about Johnson, with coherent local coaching context.",
+      "evidence_lines": [
+        1605,
+        1606,
+        1607,
+        1608,
+        1609,
+        1610,
+        1611,
+        1612,
+        1613,
+        1614
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.436Z"
+      }
+    },
+    {
+      "case_id": "rel_124__ent_111__ent_353",
+      "judgment": "ambiguous",
+      "reason": "Riley → Smith: Say-of provides a potential comment, but coaching/use/yank and recorded-compositions evidence share the short names Riley and Smith, leaving the local fact identities materially unresolved.",
+      "evidence_lines": [
+        1525,
+        1526,
+        1527,
+        1530,
+        1532,
+        1534
+      ],
+      "issue_tags": [
+        "identity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Do the basketball-related and composition-recording rows concern the same Riley and Smith, and which pair owns the say-of evidence?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.436Z"
+      }
+    }
+  ],
+  "predicate_hash": "4d090b1d51e8c5570e4413df020723bbb2a904417d4aac301f11f201d9212e4f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8116b8fb709025ed9fd602de7ec4431fa7fe9a1367fa4977e1b5f95780c5b80b"
+}

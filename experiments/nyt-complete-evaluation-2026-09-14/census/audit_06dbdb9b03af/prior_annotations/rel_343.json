@@ -1,0 +1,82 @@
+{
+  "relation": "rel_343",
+  "label": "defeated opponent",
+  "definition": "X defeated opposing competitor Y in at least one competitive contest; direction is winner to defeated opponent.",
+  "scope_notes": "Preserves the previous defeated-opponent predicate. Explicit beat, defeat, victory over or completed sweep qualify. Losing, playing, facing, trading or standings alone do not. Different historical games can supply both wins and losses; a clear win supports the fact but other assignments remain mixed evidence.",
+  "facts": [
+    {
+      "case_id": "rel_343__ent_317__ent_1012",
+      "judgment": "supported",
+      "reason": "Toronto Blue Jays defeat and beat New York Yankees; contract/offer evidence is a different relation.",
+      "evidence_lines": [
+        1043,
+        1045,
+        1046
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_343__ent_561__ent_563",
+      "judgment": "incorrect",
+      "reason": "Giants lose to Eagles, face them and have an opener against them; none of these rows establishes Giants defeating Eagles.",
+      "evidence_lines": [
+        2654,
+        2657,
+        2658,
+        2659,
+        2660
+      ],
+      "issue_tags": [
+        "direction",
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_343__ent_321__ent_278",
+      "judgment": "supported",
+      "reason": "Mets beat, defeat and sweep Braves; play and games-behind rows are broader or different evidence.",
+      "evidence_lines": [
+        6888,
+        6892,
+        6895
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_343__ent_321__ent_1004",
+      "judgment": "supported",
+      "reason": "Mets beat and sweep Yankees and have a victory over them; a separate loss and facing/playing rows are mixed.",
+      "evidence_lines": [
+        911,
+        914,
+        915
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "modality_time"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_343__ent_563__ent_561",
+      "judgment": "supported",
+      "reason": "Eagles beat Giants and have a victory over them, despite other rows describing losses and participation.",
+      "evidence_lines": [
+        921,
+        925
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "modality_time"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

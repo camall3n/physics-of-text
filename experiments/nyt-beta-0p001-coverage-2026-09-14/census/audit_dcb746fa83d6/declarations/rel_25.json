@@ -1,0 +1,48 @@
+{
+  "relation": "rel_25",
+  "predicate_id": "manager_of",
+  "predicate_version": 1,
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate": {
+    "id": "manager_of",
+    "label": "manager of institution",
+    "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+    "includes": [
+      "explicit manager or general manager",
+      "a functional or departmental managerial office within Y",
+      "historical managerial office"
+    ],
+    "excludes": [
+      "president, director, head, executive, or coach alone without a manager title",
+      "ordinary employment or membership",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "a personal principal standing for an omitted institution or campaign",
+      "unclear manager or institutional attachment",
+      "appointment without established tenure"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+    "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title."
+  },
+  "dictionary_sha256": "43f1416a3dffdbeeea15a54bbc13a7f3427d20ae69e17628f334a8a831801e99",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit manager variants dominate over director, team personnel actions and corporate location.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:31.951Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    10,
+    11
+  ],
+  "competing_meanings": [
+    "director",
+    "location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_25.before_grading.json",
+  "pregrading_annotation_sha256": "03c5561f9c7d43c4b0f43620cbf7fc6d79f853286b427661074b11ffd7afe150"
+}

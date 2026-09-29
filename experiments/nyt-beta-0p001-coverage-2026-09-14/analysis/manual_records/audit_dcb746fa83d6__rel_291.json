@@ -1,0 +1,81 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_291",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_291__ent_103__ent_345",
+        "rel_291__ent_1042__ent_308",
+        "rel_291__ent_136__ent_256",
+        "rel_291__ent_796__ent_311"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local president title establishes this specific office in the named institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        7
+      ],
+      "case_ids": [
+        "rel_291__ent_1034__ent_1035",
+        "rel_291__ent_722__ent_1315"
+      ],
+      "judgment": "incorrect",
+      "reason": "Ownership or demographic inclusion does not identify a president office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_291__ent_107__ent_561"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President support for John Mara and George Young is merged into one incompatible personal entity.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which named president should be represented by this inferred person entity?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_291__ent_255__ent_497"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Yugoslav is a nationality adjective with the political institution omitted.",
+      "tags": [
+        "truncated_political_body"
+      ],
+      "question": "Which full institution does the president office belong to?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9583d97f9e596a8e6f819467c48386962ee959582fe292e400ffea91cc08f860"
+}

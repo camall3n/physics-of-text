@@ -1,0 +1,98 @@
+{
+  "relation": "rel_327",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_327__ent_647__ent_429",
+      "judgment": "incorrect",
+      "reason": "Dodgers → Los Angeles: Los Angeles is the geographic site of movement or a game rather than the designated sporting event required by the predicate.",
+      "evidence_lines": [
+        4805,
+        4806,
+        4808
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.691Z"
+      }
+    },
+    {
+      "case_id": "rel_327__ent_525__ent_527",
+      "judgment": "incorrect",
+      "reason": "Donald Fine → Chase Securities: An analyst and securities firm do not express sporting-event participation.",
+      "evidence_lines": [
+        568,
+        7833
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.691Z"
+      }
+    },
+    {
+      "case_id": "rel_327__ent_545__ent_787",
+      "judgment": "incorrect",
+      "reason": "Intel → Santa Clara: A corporate spokeswoman at headquarters is an institutional location, not participation in a sporting event.",
+      "evidence_lines": [
+        775,
+        4325
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.691Z"
+      }
+    },
+    {
+      "case_id": "rel_327__ent_1004__ent_836",
+      "judgment": "supported",
+      "reason": "Yankees → World Series: Being beaten in the World Series establishes actual participation by the named team, regardless of the losing outcome.",
+      "evidence_lines": [
+        2178,
+        2694
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.691Z"
+      }
+    },
+    {
+      "case_id": "rel_327__ent_321__ent_836",
+      "judgment": "supported",
+      "reason": "Mets → World Series: Being beaten in the World Series establishes actual participation by the named team, regardless of the losing outcome.",
+      "evidence_lines": [
+        2211,
+        3473
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.691Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e38ed1103a64703cf8de7dd10ab9d7f55e15154e12a2e220bf01cc23f825aaf9"
+}

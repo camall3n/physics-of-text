@@ -1,0 +1,156 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_72",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_72__ent_1303__ent_1230",
+        "rel_72__ent_131__ent_1230",
+        "rel_72__ent_133__ent_375",
+        "rel_72__ent_136__ent_378",
+        "rel_72__ent_435__ent_677",
+        "rel_72__ent_1403__ent_1287",
+        "rel_72__ent_288__ent_321",
+        "rel_72__ent_67__ent_1138",
+        "rel_72__ent_371__ent_132",
+        "rel_72__ent_549__ent_372",
+        "rel_72__ent_1011__ent_126",
+        "rel_72__ent_58__ent_146",
+        "rel_72__ent_416__ent_1347",
+        "rel_72__ent_437__ent_679",
+        "rel_72__ent_384__ent_978"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit head, leader, or president evidence supports leadership of the named organization or political group.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_72__ent_716__ent_89"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Ralph Reed and Pat Robertson are materially distinct people within this inferred fact, preventing a unique attribution.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which person does this inferred entity represent?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_72__ent_4__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Palestinian is a truncated singular descriptor rather than an identified political institution or complete people group.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What political institution or group is intended?"
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_72__ent_384__ent_634"
+      ],
+      "judgment": "incorrect",
+      "reason": "A professor at a college is not thereby its organizational leader.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_72__ent_857__ent_171"
+      ],
+      "judgment": "incorrect",
+      "reason": "Editor alone does not establish organizational leadership under the frozen scope.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        19
+      ],
+      "case_ids": [
+        "rel_72__ent_564__ent_333"
+      ],
+      "judgment": "incorrect",
+      "reason": "An address in Manhattan is unrelated to organizational leadership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        20
+      ],
+      "case_ids": [
+        "rel_72__ent_24__ent_225"
+      ],
+      "judgment": "incorrect",
+      "reason": "Litigation involving a company and a nationality descriptor does not express organizational leadership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_72__ent_1440__ent_267"
+      ],
+      "judgment": "incorrect",
+      "reason": "The institution-to-person direction is reversed for the person-to-organization leadership predicate.",
+      "tags": [
+        "argument_reversal"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4,
+    7,
+    14
+  ],
+  "broad": []
+}

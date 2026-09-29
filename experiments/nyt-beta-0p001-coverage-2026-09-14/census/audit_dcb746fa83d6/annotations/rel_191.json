@@ -1,0 +1,72 @@
+{
+  "relation": "rel_191",
+  "predicate_id": "writes_for",
+  "label": "contributed writing to publication",
+  "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+  "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction.",
+  "facts": [
+    {
+      "case_id": "rel_191__ent_1098__ent_954",
+      "judgment": "supported",
+      "reason": "Herbert Mitgang → The New York Times: Explicit reporter-for and covering publishing for the newspaper establish journalistic authorship.",
+      "evidence_lines": [
+        7330,
+        7331,
+        7332,
+        7334,
+        7335,
+        7337,
+        7338
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.092Z"
+      }
+    },
+    {
+      "case_id": "rel_191__ent_564__ent_519",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Arafat; Mr. Bush → Al Gore: Vote comparison or letters to politicians and sports management do not establish writing for a publication.",
+      "evidence_lines": [
+        6945,
+        8243,
+        8247
+      ],
+      "issue_tags": [
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.092Z"
+      }
+    },
+    {
+      "case_id": "rel_191__ent_1431__ent_1411",
+      "judgment": "incorrect",
+      "reason": "George Young → Giants: Vote comparison or letters to politicians and sports management do not establish writing for a publication.",
+      "evidence_lines": [
+        3203
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.092Z"
+      }
+    }
+  ],
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "376008251d1f0ff70cb174b477e63df238cfb7c988444ab9c1c85247094946d8"
+}

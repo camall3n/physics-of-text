@@ -1,0 +1,73 @@
+{
+  "relation": "rel_156",
+  "label": "athlete played for team",
+  "definition": "Person 1 played as an athlete for sports team 2.",
+  "scope_notes": "Team player/center/wing/guard/scorer membership and scoring for the team qualify. Coaching alone, merely leading an opponent, communication and corporate interactions do not.",
+  "facts": [
+    {
+      "case_id": "rel_156__ent_308__ent_1005",
+      "judgment": "incorrect",
+      "reason": "Knicks and Bulls are both teams; give/take and information paths do not identify an athlete playing for a team.",
+      "evidence_lines": [
+        875,
+        6048,
+        6050
+      ],
+      "issue_tags": [
+        "wrong_argument_type",
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_156__ent_62__ent_1005",
+      "judgment": "supported",
+      "reason": "Jordan scores points for the Bulls and is explicitly their player and star.",
+      "evidence_lines": [
+        3145,
+        3147,
+        3153
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_156__ent_1062__ent_776",
+      "judgment": "incorrect",
+      "reason": "The rows concern Sears financing certificates and filings, not athlete-team membership.",
+      "evidence_lines": [
+        6568,
+        6570,
+        6571
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_156__ent_1117__ent_347",
+      "judgment": "supported",
+      "reason": "Kovalev scores for the Rangers and is explicitly their wing; the trade-from row also supports historical membership.",
+      "evidence_lines": [
+        4259,
+        4262,
+        4267
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_156__ent_1116__ent_110",
+      "judgment": "supported",
+      "reason": "MacLean scores goals for the Devils and is explicitly their wing.",
+      "evidence_lines": [
+        4249,
+        4252,
+        4255
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

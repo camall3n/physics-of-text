@@ -1,0 +1,61 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_267",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4
+      ],
+      "case_ids": [
+        "rel_267__ent_277__ent_1055",
+        "rel_267__ent_1367__ent_321"
+      ],
+      "judgment": "supported",
+      "reason": "A local explicit manager title establishes the named person as team manager.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_267__ent_1028__ent_175"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The possessed manager title attaches to Mr. Pataki as person, leaving the campaign or institution being managed omitted.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which campaign or organization is managed for Mr. Pataki?"
+    },
+    {
+      "indices": [
+        2,
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_267__ent_334__ent_1317",
+        "rel_267__ent_979__ent_990",
+        "rel_267__ent_354__ent_438"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic/correction material, sporting medals or a parental metaphor does not establish manager office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c1bd9b61fe59f2e9d992d30c3b6ef77edc3da3df1bfd3f183a08b79d2e33a9ad"
+}

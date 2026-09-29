@@ -1,0 +1,93 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_164",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_164__ent_134__ent_376",
+        "rel_164__ent_395__ent_156",
+        "rel_164__ent_50__ent_495",
+        "rel_164__ent_249__ent_262",
+        "rel_164__ent_919__ent_1281",
+        "rel_164__ent_128__ent_141",
+        "rel_164__ent_382__ent_1441",
+        "rel_164__ent_297__ent_636",
+        "rel_164__ent_385__ent_142",
+        "rel_164__ent_387__ent_144",
+        "rel_164__ent_18__ent_13",
+        "rel_164__ent_1367__ent_1282",
+        "rel_164__ent_1130__ent_434",
+        "rel_164__ent_970__ent_730",
+        "rel_164__ent_386__ent_147",
+        "rel_164__ent_708__ent_1234",
+        "rel_164__ent_275__ent_418"
+      ],
+      "judgment": "supported",
+      "reason": "At least one supplied row explicitly identifies a director, head, president, manager or equivalent managerial office in the ordered institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_164__ent_1271__ent_1300"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The director possessive names a personal principal rather than the institution or campaign where the office is held.",
+      "tags": [
+        "argument_scope",
+        "attachment"
+      ],
+      "question": "Which Clinton office, administration or campaign is the directorship in, and should that institution replace Mr. Clinton?"
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_164__ent_263__ent_245"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Head-of evidence exists, but Republican does not identify an individual officeholder.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which named Republican heads the Senate Foreign Relations Committee in the source?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    7,
+    8,
+    12,
+    13,
+    15
+  ],
+  "broad": []
+}

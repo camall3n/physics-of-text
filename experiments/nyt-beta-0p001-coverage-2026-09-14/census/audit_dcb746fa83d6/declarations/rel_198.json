@@ -1,0 +1,49 @@
+{
+  "relation": "rel_198",
+  "predicate_id": "professor_at",
+  "predicate_version": 1,
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate": {
+    "id": "professor_at",
+    "label": "professor or university teacher at",
+    "definition": "Person X is a professor or teaches at academic institution Y.",
+    "includes": [
+      "explicit professor",
+      "teaching at the institution",
+      "historical teaching affiliation"
+    ],
+    "excludes": [
+      "expert/specialist/dean/researcher/analyst alone",
+      "attendance or institution location alone"
+    ],
+    "ambiguous": [
+      "unclear teacher versus student attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+  },
+  "dictionary_sha256": "85b5c3f7d978f40c8af5e899b1fac48e761acf282433cfa3c352341bc497b509",
+  "kind": "declared_before_case_grading",
+  "rationale": "Professor and teaching variants dominate the academic relation; expert, scientist, dean, and professional employment alone do not establish this role.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.632Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    14,
+    15,
+    16
+  ],
+  "competing_meanings": [
+    "research affiliation",
+    "academic management",
+    "spokesperson"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_198.before_grading.json",
+  "pregrading_annotation_sha256": "07159b77bff5d7902e4d2e43226b49d5d18c9c06f9e0710050a36ec06e4372fb"
+}

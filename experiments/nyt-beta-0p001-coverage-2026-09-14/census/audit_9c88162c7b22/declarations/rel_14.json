@@ -1,0 +1,46 @@
+{
+  "relation": "rel_14",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "28b264ac2fdb1a43fa26385ce5564e2c70b5b1bc827979629eb34e2e788c8af5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Central scope adjudication retains residence as the meaningful local interpretation of the obituary/relative-to-Manhattan cluster. Direct live-in evidence exists; son/brother-of ending at a place is an omitted-relative attachment and cannot establish either kinship to a city or automatic residence of X. Such unsupported attachments retain specific ambiguity questions.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.360Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    9,
+    13,
+    20
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_14.before_grading.json",
+  "pregrading_annotation_sha256": "ef3ee3dd7975fe99dd448c2e9ab073d09de969afd2ad2b590f206330c8b7435b"
+}

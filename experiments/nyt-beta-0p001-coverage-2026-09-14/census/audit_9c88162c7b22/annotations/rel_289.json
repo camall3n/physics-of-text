@@ -1,0 +1,86 @@
+{
+  "relation": "rel_289",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "facts": [
+    {
+      "case_id": "rel_289__ent_1004__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: The explicit outlast paths describe a completed competitive win over the ordered opponent.",
+      "evidence_lines": [
+        889,
+        2589,
+        3142,
+        6905
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.129Z"
+      }
+    },
+    {
+      "case_id": "rel_289__ent_272__ent_321",
+      "judgment": "incorrect",
+      "reason": "Steve Phillips → Mets: Manager, offers, proposals, and joining the Mets identify organizational interactions rather than defeating the team.",
+      "evidence_lines": [
+        3190,
+        3191,
+        3192,
+        3193
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.130Z"
+      }
+    },
+    {
+      "case_id": "rel_289__ent_1149__ent_92",
+      "judgment": "incorrect",
+      "reason": "Student Loan Marketing Association → Sallie Mae: Known-as and called paths express a corporate alias, not a competitive defeat.",
+      "evidence_lines": [
+        5578,
+        5579,
+        5580,
+        5581
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.130Z"
+      }
+    },
+    {
+      "case_id": "rel_289__ent_308__ent_1005",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: The explicit outlast paths describe a completed competitive win over the ordered opponent.",
+      "evidence_lines": [
+        879,
+        6049
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.130Z"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1a8c58ac48dd39861e9f8278623ddc1995eb34131f9481d6c40419da39db8647"
+}

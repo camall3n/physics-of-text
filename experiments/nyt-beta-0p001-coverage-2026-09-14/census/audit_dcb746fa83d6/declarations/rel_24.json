@@ -1,0 +1,47 @@
+{
+  "relation": "rel_24",
+  "predicate_id": "has_lawyer",
+  "predicate_version": 1,
+  "predicate_hash": "7adfc3d56b8d9d1c512a2045c00e3347f181ccfe9995e1b6fab7c65a232837b4",
+  "predicate": {
+    "id": "has_lawyer",
+    "label": "has lawyer or legal counsel",
+    "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+    "includes": [
+      "explicit lawyer, attorney, or counsel for X",
+      "historical legal representation or institutional legal office",
+      "public attorney for the named jurisdiction"
+    ],
+    "excludes": [
+      "ordinary spokesperson, adviser, or employee without a legal role",
+      "a place where a lawyer practices without client or institutional affiliation",
+      "a third party lawyer merely quoted about X"
+    ],
+    "ambiguous": [
+      "unclear legal client versus geographic location",
+      "lawyer title attachment unresolved",
+      "an incomplete principal"
+    ],
+    "notes": "Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+    "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X."
+  },
+  "dictionary_sha256": "60fa8bfa12b49f36cef28f9e95f03b069b1c1b10b5358800a395f3eaf7736163",
+  "kind": "declared_before_case_grading",
+  "rationale": "Client-to-lawyer contexts form the largest family; central-bank office and sports carry remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.848Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_24.before_grading.json",
+  "pregrading_annotation_sha256": "14918576097f5cdf3d127c447fcf57f50cea4b00d1e603a76ab399fff667f889"
+}

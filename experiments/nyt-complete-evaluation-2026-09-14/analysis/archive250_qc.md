@@ -1,0 +1,17 @@
+# Independent archive-250 annotation check
+
+Reviewer: nyt_kernel_audit. This is a second semantic review of the root review, not a blind or human calibration study. No grades were changed.
+
+Read the shared METHOD.md, all 15 complete dictionaries and their scopes, all 29 ambiguous facts, and all remaining 194 supported/unsupported facts with every supplied evidence row. The inspected population is all 223 expressed latent facts in this different 250-row corpus. Its copied MAP SHA-256 is 702fa1889866015d7df70c1bfa16bfbc8419b85899356d03643450e9dafc0b3f.
+
+The shared managerial_office_in predicate fits each dictionary's mixture of president, director, chairman, leader, chief and manager constructions. It includes departmental/functional leadership; ordinary professor, analyst, economist, spokesperson, scholar or alias constructions do not qualify. All 15 inferred relations were assigned the same broad meaning, which demonstrates fragmentation of this small corpus rather than 15 distinct, well-separated semantic predicates. The result cannot be compared as an equivalent full-NYT precision condition.
+
+I found no clear judgment error under the declared scope. The ambiguous facts comprise 22 local multi-name collisions, one self-entity collision, and six uncertain argument-boundary cases. The self-entity case rel_5__ent_83__ent_83 has Tom Daschle and Senate in one ID (raw_map.tsv line 173); the otherwise clear leader path does not resolve person/institution identity. Treating it as A is consistent with the main rubric. Cases marked E despite multiple names have no qualifying office reading, so a name collision does not by itself turn them into A.
+
+The six argument-boundary cases are Mary Brosnahan/Coalition (line 81), Fred Wertheimer/Democracy (219), Radovan Karadzic/Bosnian Serb (108, 111 and 192, in three distinct facts), and Republican/Judiciary Committee (26). Their specific questions correctly ask for the missing institution, people group or named officeholder. Different latent facts remain distinct evaluation units even when the words repeat.
+
+A residual reviewer choice remains: District Council (95), Central Intelligence (39, 183, 238), Wisconsin Project (38), Witter Reynolds (196), Bloomingdale (11, 104) and Fed (201, 217) are accepted organizational short names, whereas Coalition and Democracy remain uncertain. The latter decisions are defensible conservative bounds, but the distinction between an acceptable short name and a materially incomplete name is not mechanically determined by the saved paths. District Council is also consistently supported in the main census. No external entity-name expansion was imported in this check. A future human correction should make this naming convention explicit and apply it consistently, rather than adjusting the archive score alone.
+
+The inspected counts remain S=140, E=54, A=29, N=223. They are textual-support judgments; 140/223 and 169/223 are ambiguity endpoints, not confidence intervals, gold recall, entity-partition accuracy or relation-clustering purity.
+
+For separate main-census QA, current reviewer worklists and judgments cover retained evaluations only; earlier workload totals included retired runs. Exact equivalence of predicate plus the complete set of literal argument/path evidence produced no contradictory S/E/A labels among those owned cases. This automated comparison flags consistency only; it did not assign semantic judgments.

@@ -1,0 +1,40 @@
+{
+  "relation": "rel_96",
+  "predicate_id": "athlete_for",
+  "predicate_version": 1,
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate": {
+    "id": "athlete_for",
+    "label": "athlete plays for team",
+    "definition": "Person X plays or played as an athlete for sports team Y.",
+    "includes": [
+      "player/center/guard/wing/captain/scorer role on a team",
+      "playing for or with the team as athlete",
+      "scoring for the team"
+    ],
+    "excludes": [
+      "coach/manager/owner alone",
+      "team leading or beating another team",
+      "generic lead without athlete context",
+      "reverse team-to-athlete direction"
+    ],
+    "ambiguous": [
+      "bare lead without player/position/scoring context"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+  },
+  "dictionary_sha256": "3914e4d9ce2a2abd89ffd5902ced27a072f138ed6847f89c705e39b3591cd889",
+  "kind": "declared_before_case_grading",
+  "rationale": "Captain/guard/player and play-with paths identify athlete-to-team representation. Coach-to-player interactions in give/say/bench paths are distinct and do not qualify.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.807Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_96.before_grading.json",
+  "pregrading_annotation_sha256": "2bc5afd454dd52463b46793634d20f83dea1115b955ed40e7d6c386898be3a2d"
+}

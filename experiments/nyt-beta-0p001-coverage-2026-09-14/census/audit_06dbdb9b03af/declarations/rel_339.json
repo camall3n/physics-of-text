@@ -1,0 +1,48 @@
+{
+  "relation": "rel_339",
+  "predicate_id": "organization_operates_in_domain",
+  "predicate_version": 1,
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate": {
+    "id": "organization_operates_in_domain",
+    "label": "organization operates in industry or domain",
+    "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+    "includes": [
+      "explicit industry or domain modifier of company, agency, or business",
+      "stated operations or business activity in Y",
+      "historical business-domain identity"
+    ],
+    "excludes": [
+      "nationality or geographic location",
+      "corporate parent or corporate family name",
+      "a passing reference to users, data, or an unrelated product without business-domain evidence",
+      "a person working in a field"
+    ],
+    "ambiguous": [
+      "a nominal modifier that could mean owner, place, or industry",
+      "unclear organization versus personal referent",
+      "generic Internet mention without a business-domain role"
+    ],
+    "notes": "A business-field classification, not geographic location and not a generic association with the domain.",
+    "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain."
+  },
+  "dictionary_sha256": "713e8a1f98ab907aa9e7daab664303008612321248e23c829a859863c546717e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Company/firm nn dominate and argument roles establish Internet domain cases, alongside spouse and geographic outliers.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:15:27.181Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_339.before_grading.json",
+  "pregrading_annotation_sha256": "97216b6b8210139ea50744663bb829c1998f75be8b91e93d90a6b74eb7f3b440"
+}

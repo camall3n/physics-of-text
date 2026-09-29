@@ -1,0 +1,34 @@
+{
+  "relation": "rel_31",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "2c3ece7cdb6b0472be8557d644c263e85bfe5905d5f80b41f11905e1e5b87d61",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "prior_annotation_sha256": "d477479ae64357e13dea041405dc5420825d33303d3927f792fb0698292d73fa",
+  "prior_assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441"
+}

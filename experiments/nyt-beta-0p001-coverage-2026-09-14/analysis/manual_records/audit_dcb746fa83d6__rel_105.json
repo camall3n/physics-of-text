@@ -1,0 +1,62 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_105",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_105__ent_1028__ent_1242",
+        "rel_105__ent_291__ent_182",
+        "rel_105__ent_1024__ent_496"
+      ],
+      "judgment": "supported",
+      "reason": "Direct possessive spokeswoman apposition establishes service for the named principal.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_105__ent_963__ent_1413",
+        "rel_105__ent_176__ent_1242"
+      ],
+      "judgment": "incorrect",
+      "reason": "Adviser, secretary, consultant or director roles do not themselves establish spokesperson service.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_105__ent_299__ent_16"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A spokeswoman relationship is explicit but Mayor leaves the represented person or office materially unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which mayor or identified mayoral office is the spokeswoman representing?"
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "72db9b592aad0d11f1504706c53beb210e9a4a430696a7cd3bc0911d92814985"
+}

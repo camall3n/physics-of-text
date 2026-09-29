@@ -1,0 +1,95 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_285",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_285__ent_1101__ent_405",
+        "rel_285__ent_1162__ent_226"
+      ],
+      "judgment": "supported",
+      "reason": "Direct leaving or emigrating-from evidence establishes physical departure from the named country.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_285__ent_6__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leaving the White House appears alongside counsel/staff context, leaving departure from office versus physical place unresolved.",
+      "tags": [
+        "institution_place_metonymy"
+      ],
+      "question": "Does Bill Clinton leave the physical White House or end institutional service in these rows?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_285__ent_963__ent_1140"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leaving the Pentagon is accompanied by resignation from a board role; physical departure versus institutional resignation is unresolved.",
+      "tags": [
+        "institution_place_metonymy"
+      ],
+      "question": "Does Richard Perle physically leave the Pentagon, or resign from an advisory role?"
+    },
+    {
+      "indices": [
+        1,
+        4,
+        6,
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_285__ent_1091__ent_1092",
+        "rel_285__ent_239__ent_561",
+        "rel_285__ent_889__ent_561",
+        "rel_285__ent_1060__ent_961",
+        "rel_285__ent_1060__ent_308"
+      ],
+      "judgment": "incorrect",
+      "reason": "Coaching or leaving a sports team concerns institutional affiliation, not physical departure from a geographic place.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_285__ent_197__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Working at the White House supplies no departure.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f1b8dfa5deb585e68839fe89f25cd105bed95885191b8d92a514bd8f54aa6e05"
+}

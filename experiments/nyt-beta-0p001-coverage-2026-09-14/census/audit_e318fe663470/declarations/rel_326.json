@@ -1,0 +1,41 @@
+{
+  "relation": "rel_326",
+  "predicate_id": "coach_of",
+  "predicate_version": 1,
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate": {
+    "id": "coach_of",
+    "label": "coach of",
+    "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+    "includes": [
+      "explicit coach title",
+      "direct coaching with correct subject and team",
+      "former/dismissed coach with clear office evidence",
+      "team/university shorthand when the athletic program role is clear"
+    ],
+    "excludes": [
+      "manager/president/player alone",
+      "winning with a team alone",
+      "vacancy consideration alone",
+      "reverse team-to-coach direction"
+    ],
+    "ambiguous": [
+      "missing coach subject or team attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment."
+  },
+  "dictionary_sha256": "4247966fa3da93460efb0733773185f6acd3a14014614e1345bfc3bf7333f878",
+  "kind": "declared_before_case_grading",
+  "rationale": "Coach possessive/nominal/at/for paths dominate; managerial office or branch-of-organization does not establish coaching.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:07:11.813Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_326.before_grading.json",
+  "pregrading_annotation_sha256": "5ffc818b27337951feabd77f280af121e19780b7baa0b33584f64064865de160"
+}

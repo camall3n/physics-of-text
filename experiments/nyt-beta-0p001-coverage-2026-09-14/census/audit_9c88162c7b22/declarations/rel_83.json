@@ -1,0 +1,49 @@
+{
+  "relation": "rel_83",
+  "predicate_id": "dancer_for",
+  "predicate_version": 1,
+  "predicate_hash": "15ba1f22c68663174a2442e2cf086400ae805b1e365086aca26b6ece5f2dee03",
+  "predicate": {
+    "id": "dancer_for",
+    "label": "dancer for company",
+    "definition": "Person X dances or danced professionally for dance company or producing ensemble Y.",
+    "includes": [
+      "explicit dancer in or for Y",
+      "principal dancer role in Y",
+      "performing for Y when the local dancer role is established"
+    ],
+    "excludes": [
+      "directing or management alone",
+      "generic performing without dance context",
+      "staging a work or being on payroll alone",
+      "a venue without company affiliation"
+    ],
+    "ambiguous": [
+      "principal title without clear dancer meaning",
+      "unclear dancer versus director attachment",
+      "company versus venue identity unresolved"
+    ],
+    "notes": "A specific artistic occupation, distinct from general institutional membership or management.",
+    "scope_notes": "Includes: explicit dancer in or for Y; principal dancer role in Y; performing for Y when the local dancer role is established. Excludes: directing or management alone; generic performing without dance context; staging a work or being on payroll alone; a venue without company affiliation. Ambiguous unless resolved by case-local evidence: principal title without clear dancer meaning; unclear dancer versus director attachment; company versus venue identity unresolved. A specific artistic occupation, distinct from general institutional membership or management."
+  },
+  "dictionary_sha256": "b3491f951c9e187caa56f700a17a74aefc1803e15b350189b70dd9744336c8c2",
+  "kind": "declared_before_case_grading",
+  "rationale": "Artistic performer/company family dominates the full dictionary: dancer, principal, performing, staging and payroll context, with dancer explicit and directing/head adjacent. Choose the narrow professional-dancer predicate rather than expanding to every directing or payroll role. Wife and basketball-management pairs are separate families. Centrally approved occupation scope.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.024Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_83.before_grading.json",
+  "pregrading_annotation_sha256": "aeb90ff0cc995253be21a066ba9a30e756c3f94f23a360fd1c88e762ce3d2370"
+}

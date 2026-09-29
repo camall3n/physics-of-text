@@ -1,0 +1,39 @@
+{
+  "relation": "rel_4",
+  "predicate_id": "competed_against",
+  "predicate_version": 1,
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate": {
+    "id": "competed_against",
+    "label": "played or competed against",
+    "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+    "includes": [
+      "explicit played against",
+      "a completed win or loss against opponent",
+      "competition with clear opponent roles"
+    ],
+    "excludes": [
+      "ordinary interaction",
+      "standings comparison without a contest",
+      "future schedule alone"
+    ],
+    "ambiguous": [
+      "ambiguous game occurrence"
+    ],
+    "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+    "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+  },
+  "dictionary_sha256": "48807f11da5265493c550435f702d496bc4b297c183be94066d855e3f5a8399c",
+  "kind": "declared_before_case_grading",
+  "rationale": "The dictionary mixes competitive trail, beat, game-against and victory paths. Actual competition is the coherent family; standings-only trail or games-behind do not establish an encounter.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.705Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_4.before_grading.json",
+  "pregrading_annotation_sha256": "725bc53e51a88a2754364ed8d6917b5c403adc420f9ed9d5fe761d8d1d54b3e2"
+}

@@ -1,0 +1,40 @@
+{
+  "relation": "rel_209",
+  "predicate_id": "chairperson_of",
+  "predicate_version": 1,
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate": {
+    "id": "chairperson_of",
+    "label": "chairperson of",
+    "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+    "includes": [
+      "explicit chair/chairman/chairwoman/chairperson",
+      "co-chair if explicit",
+      "past tenure or resignation from that office"
+    ],
+    "excludes": [
+      "president/head/executive/director alone",
+      "founder/owner/member alone",
+      "nomination/candidacy alone"
+    ],
+    "ambiguous": [
+      "ambiguous successor or appointment that does not establish tenure",
+      "chair of an omitted subunit"
+    ],
+    "notes": "Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+    "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better."
+  },
+  "dictionary_sha256": "982eac258ff2b3e9eeb2eb045d5af09d6ff5c57cfedc87ba995726bba586a5f9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Chairman paths supply8 rows, exceeding co-founder/found6; founding and mogul/ownership alone are not chairmanship.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:14:12.508Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_209.before_grading.json",
+  "pregrading_annotation_sha256": "7fc877d2baea634a9f2dea6461c955463992e1a387cf7fdaf73c6d3710f94627"
+}

@@ -1,0 +1,53 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_43",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_43__ent_995__ent_333",
+        "rel_43__ent_756__ent_537",
+        "rel_43__ent_998__ent_537",
+        "rel_43__ent_758__ent_537",
+        "rel_43__ent_997__ent_537",
+        "rel_43__ent_516__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "Governmental attorney title, office or service evidence establishes legal office for the named jurisdiction.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_43__ent_844__ent_1002"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Washington lawyer/attorney noun modifiers do not distinguish an office representing the jurisdiction from a private lawyer located there.",
+      "tags": [
+        "location_versus_client"
+      ],
+      "question": "Was John Dowd an attorney for Washington as a jurisdiction, or a private lawyer located in Washington?"
+    }
+  ],
+  "mixed": [
+    2,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c9bd8d39327ab1bb9d15baff18dd3698655f106e9643878d33331d00d8d892ab"
+}

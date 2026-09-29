@@ -1,0 +1,104 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_169",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28
+      ],
+      "case_ids": [
+        "rel_169__ent_1128__ent_1129",
+        "rel_169__ent_1240__ent_866",
+        "rel_169__ent_1304__ent_880",
+        "rel_169__ent_869__ent_880",
+        "rel_169__ent_882__ent_640",
+        "rel_169__ent_424__ent_1129",
+        "rel_169__ent_665__ent_1069",
+        "rel_169__ent_1424__ent_1071",
+        "rel_169__ent_623__ent_1211",
+        "rel_169__ent_665__ent_1120",
+        "rel_169__ent_1272__ent_868",
+        "rel_169__ent_421__ent_423",
+        "rel_169__ent_1072__ent_880",
+        "rel_169__ent_366__ent_1388",
+        "rel_169__ent_881__ent_101",
+        "rel_169__ent_666__ent_423",
+        "rel_169__ent_1121__ent_425",
+        "rel_169__ent_925__ent_924",
+        "rel_169__ent_1433__ent_1371",
+        "rel_169__ent_1218__ent_880",
+        "rel_169__ent_926__ent_313",
+        "rel_169__ent_1065__ent_1064",
+        "rel_169__ent_922__ent_880",
+        "rel_169__ent_489__ent_773",
+        "rel_169__ent_135__ent_1064",
+        "rel_169__ent_271__ent_1066",
+        "rel_169__ent_1067__ent_326"
+      ],
+      "judgment": "supported",
+      "reason": "A unit, subsidiary, division, organizational-part or owned-by triple directly places the named first organization within the second. Compatible expanded company names do not by themselves defeat this support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_169__ent_1068__ent_923"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Lowe Group and McCann-Erickson World Group are different first-argument organizations merged into one latent fact, despite support for each separate subsidiary claim.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which distinct subsidiary should this first latent entity represent: Lowe Group or McCann-Erickson World Group?"
+    },
+    {
+      "indices": [
+        25
+      ],
+      "case_ids": [
+        "rel_169__ent_1104__ent_1015"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The only path runs from the commercial by the agency through an appositive part-of clause; the omitted attachment leaves which organization is a part unresolved.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does the part-of clause identify BBDO itself as the Omnicom unit, rather than another omitted organization?"
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

@@ -1,0 +1,83 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_347",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_347__ent_1215__ent_263"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit Republican leader identifies organizational political leadership in the named party under the inherited party-label convention.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_347__ent_31__ent_1305",
+        "rel_347__ent_30__ent_1216",
+        "rel_347__ent_264__ent_36",
+        "rel_347__ent_33__ent_174"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leadership is explicit but the second argument is a materially truncated political-body adjective.",
+      "tags": [
+        "truncated_political_body"
+      ],
+      "question": "Which complete political institution does this adjective denote?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_347__ent_914__ent_169"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director appears in an indirect memorandum path, without the head/leader office required by the narrower organizational-leader predicate.",
+      "tags": [
+        "predicate_scope",
+        "attachment_unclear"
+      ],
+      "question": "Does this director title establish a qualifying head or leadership role, and does it attach to Sosnik?"
+    },
+    {
+      "indices": [
+        2,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_347__ent_1235__ent_544",
+        "rel_347__ent_426__ent_1030",
+        "rel_347__ent_1387__ent_949"
+      ],
+      "judgment": "incorrect",
+      "reason": "Organizational location, a person penthouse, survival or ordinary holding/contact does not establish a leader office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "42d81a09de0e0bc7f0e13ee6e70fd7660d3fd24ada7f46b2514fedc769c2574f"
+}

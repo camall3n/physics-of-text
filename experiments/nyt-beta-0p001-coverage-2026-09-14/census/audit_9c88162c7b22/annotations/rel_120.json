@@ -1,0 +1,84 @@
+{
+  "relation": "rel_120",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_120__ent_338__ent_586",
+      "judgment": "supported",
+      "reason": "Joe Lockhart → White House: Explicit spokesman or service-as-spokesman establishes White House representation.",
+      "evidence_lines": [
+        1405,
+        1408,
+        1409,
+        1410,
+        1411,
+        1412,
+        1413,
+        1414
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.374Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1030__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Ari Fleischer → White House: Secretary and public-face descriptions suggest a communications role but do not explicitly distinguish spokesman from another secretary role.",
+      "evidence_lines": [
+        1337,
+        1340,
+        1341,
+        1342,
+        1343,
+        1344,
+        1345
+      ],
+      "issue_tags": [
+        "spokesperson_scope"
+      ],
+      "reviewer_question": "Does the secretary/public-face role explicitly authorize Ari Fleischer to speak for the White House?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.374Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_344__ent_586",
+      "judgment": "supported",
+      "reason": "Marlin Fitzwater → White House: Explicit spokesman or service-as-spokesman establishes White House representation.",
+      "evidence_lines": [
+        1327,
+        1328,
+        1329,
+        1333,
+        1334,
+        1335
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.374Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3e830c52b42e641d31ebebad0529462e682eaffd7c5f01a5a518c5c5cdf0ae42"
+}

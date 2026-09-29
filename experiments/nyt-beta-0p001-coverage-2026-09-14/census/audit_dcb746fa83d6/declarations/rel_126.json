@@ -1,0 +1,43 @@
+{
+  "relation": "rel_126",
+  "predicate_id": "has_minister",
+  "predicate_version": 1,
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate": {
+    "id": "has_minister",
+    "label": "has minister",
+    "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+    "includes": [
+      "explicit minister of X or X's minister",
+      "a portfolio or prime minister office explicitly attached to X",
+      "historical ministerial office"
+    ],
+    "excludes": [
+      "ordinary official, ambassador, or opposition politician without minister title",
+      "a minister of a different government merely meeting X",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "an incomplete national adjective in the institution slot",
+      "minister-designate without established tenure",
+      "unclear portfolio or government attachment"
+    ],
+    "notes": "The inverse ministerial office does not assert that every minister is the head of government.",
+    "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government."
+  },
+  "dictionary_sha256": "7290363e0c6017458b636485d79b359e2e8b70dfe44cf9ce1d30431615d4428a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Direct country-to-minister has two rows, tied with geographic agency/broker descriptions and two director rows; highest individually interpretable minister-of path count2 resolves the tie over singletons. Indirect minister meetings do not identify their other participant as the minister.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:27:28.670Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_126.before_grading.json",
+  "pregrading_annotation_sha256": "3cd5137dba8f4c7867205cebefee2fd41c76f95b5c388b7a80eaf193a204a6cd"
+}

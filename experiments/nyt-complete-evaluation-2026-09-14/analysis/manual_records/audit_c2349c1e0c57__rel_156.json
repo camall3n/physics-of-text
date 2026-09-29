@@ -1,0 +1,96 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_156",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        11,
+        14,
+        17
+      ],
+      "case_ids": [
+        "rel_156__ent_537__ent_820",
+        "rel_156__ent_180__ent_189",
+        "rel_156__ent_182__ent_189",
+        "rel_156__ent_829__ent_189",
+        "rel_156__ent_827__ent_189",
+        "rel_156__ent_195__ent_189",
+        "rel_156__ent_586__ent_189",
+        "rel_156__ent_196__ent_189",
+        "rel_156__ent_828__ent_189"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit ask, urge, tell, notify or addressed-message path establishes communication to the second argument.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_156__ent_380__ent_205"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Most rows express succession to Volcker; the isolated pledge edge omits enough complement structure to leave whether Volcker is an addressee unresolved.",
+      "tags": [
+        "attachment_scope"
+      ],
+      "question": "Does the pledge row describe a promise addressed to Volcker, or a pledge about him in the succession discussion?"
+    },
+    {
+      "indices": [
+        4,
+        5,
+        7,
+        9,
+        10,
+        12,
+        15,
+        16,
+        18,
+        19
+      ],
+      "case_ids": [
+        "rel_156__ent_537__ent_492",
+        "rel_156__ent_1150__ent_223",
+        "rel_156__ent_456__ent_698",
+        "rel_156__ent_315__ent_557",
+        "rel_156__ent_105__ent_223",
+        "rel_156__ent_297__ent_296",
+        "rel_156__ent_286__ent_465",
+        "rel_156__ent_1034__ent_1035",
+        "rel_156__ent_121__ent_376",
+        "rel_156__ent_1152__ent_214"
+      ],
+      "judgment": "incorrect",
+      "reason": "The full case supplies political/military relations, replacement or appointment, sporting play, artistic direction, ownership or employment, without a communication addressed to the second argument.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    8,
+    11,
+    14,
+    17
+  ],
+  "broad": []
+}

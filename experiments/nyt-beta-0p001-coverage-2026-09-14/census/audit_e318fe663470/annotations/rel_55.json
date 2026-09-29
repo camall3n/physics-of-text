@@ -1,0 +1,317 @@
+{
+  "relation": "rel_55",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_55__ent_65__ent_60",
+      "judgment": "supported",
+      "reason": "Dominique Wilkins → Hawks: A local player/guard or score/points-for row establishes athlete representation of the team.",
+      "evidence_lines": [
+        3124,
+        3125,
+        3126,
+        3127,
+        3130,
+        3131,
+        3132,
+        3133
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.909Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_1211__ent_1005",
+      "judgment": "supported",
+      "reason": "Michael Jordan → Bulls: A local player/guard or score/points-for row establishes athlete representation of the team.",
+      "evidence_lines": [
+        3144,
+        3146,
+        3148,
+        3149,
+        3150,
+        3151,
+        3152,
+        3153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.909Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_61__ent_259",
+      "judgment": "supported",
+      "reason": "Reggie Miller → Indiana: A local player/guard or score/points-for row establishes athlete representation of the team.",
+      "evidence_lines": [
+        3154,
+        3155,
+        3156,
+        3158,
+        3160,
+        3161
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_1210__ent_308",
+      "judgment": "ambiguous",
+      "reason": "Patrick Ewing → Knicks: Leading or having/putting something for a team does not recover an athlete role without local player/scoring evidence.",
+      "evidence_lines": [
+        3064,
+        3069,
+        3071,
+        3073
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Does the omitted context establish athletic participation rather than coaching or another role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_1399__ent_308",
+      "judgment": "ambiguous",
+      "reason": "Ewing → Knicks: Leading or having/putting something for a team does not recover an athlete role without local player/scoring evidence.",
+      "evidence_lines": [
+        3074,
+        3080,
+        4218,
+        4224
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Does the omitted context establish athletic participation rather than coaching or another role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_309__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        864,
+        2665,
+        6930
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_1004__ent_74",
+      "judgment": "incorrect",
+      "reason": "Yankees → Red Sox: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        2584,
+        3137,
+        6900
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_1325__ent_543",
+      "judgment": "ambiguous",
+      "reason": "Richard Jefferson → Nets: Leading or having/putting something for a team does not recover an athlete role without local player/scoring evidence.",
+      "evidence_lines": [
+        3094,
+        3101,
+        3102
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Does the omitted context establish athletic participation rather than coaching or another role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_1196__ent_1380",
+      "judgment": "supported",
+      "reason": "Jordan → Bulls: A local player/guard or score/points-for row establishes athlete representation of the team.",
+      "evidence_lines": [
+        3114,
+        3116,
+        3117
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_74__ent_60",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        2664,
+        6931
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_66__ent_1080",
+      "judgment": "ambiguous",
+      "reason": "Kidd → Nets: Leading or having/putting something for a team does not recover an athlete role without local player/scoring evidence.",
+      "evidence_lines": [
+        3105,
+        3107
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Does the omitted context establish athletic participation rather than coaching or another role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_74__ent_12",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        865
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_338__ent_965",
+      "judgment": "incorrect",
+      "reason": "Joe Lockhart → White House: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        1414
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_590__ent_980",
+      "judgment": "incorrect",
+      "reason": "Rod Thorn → Nets: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        1623
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_413__ent_1364",
+      "judgment": "incorrect",
+      "reason": "Holik → Devils: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        4307
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    },
+    {
+      "case_id": "rel_55__ent_587__ent_99",
+      "judgment": "incorrect",
+      "reason": "United States → Iran: The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "evidence_lines": [
+        7885
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:02:02.910Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b4c77df1763697e20f81b523e1ab6db71dba89cda2bacbbd6df4b8c7f370439a"
+}

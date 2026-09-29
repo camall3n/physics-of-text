@@ -1,0 +1,72 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_379",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_379__ent_201__ent_443",
+        "rel_379__ent_1065__ent_443"
+      ],
+      "judgment": "supported",
+      "reason": "Local have/suffer-from/die-of evidence explicitly associates the person or affected population members with the stated medical condition.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_379__ent_669__ent_202"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Explicit diabetes evidence is merged with travel to Europe as the same inferred object.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Europe and diabetes be separated into distinct inferred entities?"
+    },
+    {
+      "indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_379__ent_308__ent_356",
+        "rel_379__ent_444__ent_686",
+        "rel_379__ent_1265__ent_1422",
+        "rel_379__ent_406__ent_333",
+        "rel_379__ent_157__ent_433",
+        "rel_379__ent_462__ent_1210",
+        "rel_379__ent_122__ent_819",
+        "rel_379__ent_1285__ent_1205",
+        "rel_379__ent_1423__ent_148"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [
+    3
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "45227904dc2285263e76075772ec4bebcedcccb5c19b8b9571f661d391e01568"
+}

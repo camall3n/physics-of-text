@@ -1,0 +1,52 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_100",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_100__ent_537__ent_99"
+      ],
+      "judgment": "supported",
+      "reason": "The attributed sale-to and weapons-sale-to paths establish the United States as the seller to Iran.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_100__ent_829__ent_189",
+        "rel_100__ent_1004__ent_321",
+        "rel_100__ent_189__ent_586",
+        "rel_100__ent_1004__ent_735"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Send-to has no object or commercial term; the surrounding reporting, games or calling does not establish whether anything was sold.",
+      "tags": [
+        "omitted_object"
+      ],
+      "question": "Was this a commercial sale to the recipient, or a report, assignment, message or other transfer?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "58629b7df44834b0ff86354ce23113d1fac12f49d166274455bc8266fb0a23db"
+}

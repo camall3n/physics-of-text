@@ -1,0 +1,47 @@
+{
+  "relation": "rel_350",
+  "predicate_id": "director_of",
+  "predicate_version": 1,
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate": {
+    "id": "director_of",
+    "label": "director of organization",
+    "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+    "includes": [
+      "explicit director/co-director",
+      "functional directorship such as communications or research director within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "head/president/chair/executive alone",
+      "spokesperson/adviser/publisher/professor/member alone",
+      "performing or authorship alone"
+    ],
+    "ambiguous": [
+      "personal principal with omitted organization",
+      "abstract topic in place of the actual institution"
+    ],
+    "notes": "Does not require sole chief control of the entire institution.",
+    "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+  },
+  "dictionary_sha256": "c900e8560229c8acad6618aef2af244637675464c6c01dbffd0c32a460a6ce50",
+  "kind": "declared_before_case_grading",
+  "rationale": "Specific director family exceeds the competing managerial run/team-manager family; head and run alone are not silently included in the specific title.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:27:28.560Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    7,
+    8,
+    9,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_350.before_grading.json",
+  "pregrading_annotation_sha256": "d7e8b5d66f2d3d6ba1511acf21caf3935f31da13d14b233f27715d14f0144e22"
+}

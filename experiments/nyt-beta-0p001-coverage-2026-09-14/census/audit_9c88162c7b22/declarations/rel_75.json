@@ -1,0 +1,48 @@
+{
+  "relation": "rel_75",
+  "predicate_id": "director_of",
+  "predicate_version": 1,
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate": {
+    "id": "director_of",
+    "label": "director of organization",
+    "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+    "includes": [
+      "explicit director/co-director",
+      "functional directorship such as communications or research director within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "head/president/chair/executive alone",
+      "spokesperson/adviser/publisher/professor/member alone",
+      "performing or authorship alone"
+    ],
+    "ambiguous": [
+      "personal principal with omitted organization",
+      "abstract topic in place of the actual institution"
+    ],
+    "notes": "Does not require sole chief control of the entire institution.",
+    "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+  },
+  "dictionary_sha256": "e0f3b1ce7086f1eeb072f0edef8661f01e8e3fa20267d565cab64231b41c58ef",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit director office overwhelmingly dominates; planner or incoming population alone remains distinct.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.995Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_75.before_grading.json",
+  "pregrading_annotation_sha256": "0a10026cff7d928b23ec0d925ba90359050df8e3f8208ed584cfdda38281e55d"
+}

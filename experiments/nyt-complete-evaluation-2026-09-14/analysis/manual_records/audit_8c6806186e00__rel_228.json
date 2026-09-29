@@ -1,0 +1,138 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_228",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        25,
+        26
+      ],
+      "case_ids": [
+        "rel_228__ent_545__ent_47",
+        "rel_228__ent_547__ent_1262",
+        "rel_228__ent_1000__ent_304",
+        "rel_228__ent_1235__ent_544",
+        "rel_228__ent_548__ent_1003",
+        "rel_228__ent_461__ent_222",
+        "rel_228__ent_1001__ent_307",
+        "rel_228__ent_1148__ent_460",
+        "rel_228__ent_302__ent_544",
+        "rel_228__ent_1272__ent_305",
+        "rel_228__ent_1377__ent_242",
+        "rel_228__ent_549__ent_1002",
+        "rel_228__ent_463__ent_440",
+        "rel_228__ent_546__ent_788",
+        "rel_228__ent_655__ent_897",
+        "rel_228__ent_896__ent_415",
+        "rel_228__ent_786__ent_305",
+        "rel_228__ent_412__ent_654",
+        "rel_228__ent_224__ent_466",
+        "rel_228__ent_1087__ent_701",
+        "rel_228__ent_539__ent_173",
+        "rel_228__ent_786__ent_1445",
+        "rel_228__ent_306__ent_305"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit base, headquarters, campus or company-in-place row establishes organizational location in the named geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        22
+      ],
+      "case_ids": [
+        "rel_228__ent_293__ent_10"
+      ],
+      "judgment": "ambiguous",
+      "reason": "German remains a truncated nationality/country argument even with the based-in path; the place identity is not resolved.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Does German stand for Germany, or is it an incorrectly bounded nationality modifier?"
+    },
+    {
+      "indices": [
+        11,
+        21,
+        23,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "case_ids": [
+        "rel_228__ent_720__ent_962",
+        "rel_228__ent_561__ent_496",
+        "rel_228__ent_956__ent_1444",
+        "rel_228__ent_736__ent_715",
+        "rel_228__ent_827__ent_419",
+        "rel_228__ent_238__ent_400",
+        "rel_228__ent_773__ent_161",
+        "rel_228__ent_347__ent_851",
+        "rel_228__ent_920__ent_613",
+        "rel_228__ent_829__ent_110",
+        "rel_228__ent_1421__ent_816",
+        "rel_228__ent_1299__ent_957",
+        "rel_228__ent_1391__ent_493",
+        "rel_228__ent_492__ent_772",
+        "rel_228__ent_729__ent_1279"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied rows describe employment, sports, family, institutional control or Internet-industry association rather than an organization’s geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    22,
+    24
+  ],
+  "broad": []
+}

@@ -1,0 +1,602 @@
+{
+  "relation": "rel_253",
+  "predicate_id": "member_of",
+  "label": "member of organization",
+  "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+  "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_253.json",
+    "source_sha256": "e07914b4b26370305c3c7cd657f091e22da6e76fb5dfbb8d1ef819bb6734ce9b",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_253__ent_813__ent_537",
+      "judgment": "incorrect",
+      "reason": "Britain → United States: Bilateral national alliances, borders, conflict, diplomacy or trade do not establish membership in the other country.",
+      "evidence_lines": [
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1961
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_815__ent_537",
+      "judgment": "incorrect",
+      "reason": "Russia → United States: Bilateral national alliances, borders, conflict, diplomacy or trade do not establish membership in the other country.",
+      "evidence_lines": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_253.json",
+        "annotation_sha256": "e07914b4b26370305c3c7cd657f091e22da6e76fb5dfbb8d1ef819bb6734ce9b"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_1198__ent_814",
+      "judgment": "supported",
+      "reason": "Poland → NATO: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.340Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_77__ent_271",
+      "judgment": "supported",
+      "reason": "France → Security Council: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3270,
+        3271,
+        3272,
+        3273,
+        3274,
+        3275,
+        3276,
+        3277,
+        3278,
+        3279
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_818__ent_537",
+      "judgment": "incorrect",
+      "reason": "China → United States: Bilateral national alliances, borders, conflict, diplomacy or trade do not establish membership in the other country.",
+      "evidence_lines": [
+        5871,
+        5872,
+        5873,
+        5874,
+        5875,
+        5876,
+        5877,
+        5878,
+        5879,
+        5880
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_218__ent_1156",
+      "judgment": "incorrect",
+      "reason": "NBC News → Press: The evidence parses the Meet the Press program title; it does not establish organizational membership.",
+      "evidence_lines": [
+        6030,
+        6031,
+        6032,
+        6033,
+        6034,
+        6035,
+        6036,
+        6037,
+        6038,
+        6039
+      ],
+      "issue_tags": [
+        "title_parse"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_253.json",
+        "annotation_sha256": "e07914b4b26370305c3c7cd657f091e22da6e76fb5dfbb8d1ef819bb6734ce9b"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_816__ent_819",
+      "judgment": "incorrect",
+      "reason": "Republicans → Democrats: Parties joining or siding with each other in an action do not establish party membership.",
+      "evidence_lines": [
+        1902,
+        1905,
+        1907,
+        1911,
+        5475,
+        5478,
+        5480,
+        5483,
+        5484
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_867__ent_1156",
+      "judgment": "incorrect",
+      "reason": "NBC → Press: The evidence parses the Meet the Press program title; it does not establish organizational membership.",
+      "evidence_lines": [
+        6020,
+        6021,
+        6022,
+        6023,
+        6024,
+        6026,
+        6027,
+        6028
+      ],
+      "issue_tags": [
+        "title_parse"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_819__ent_816",
+      "judgment": "incorrect",
+      "reason": "Democrats → Republicans: Parties joining or siding with each other in an action do not establish party membership.",
+      "evidence_lines": [
+        1913,
+        1917,
+        1921,
+        5466,
+        5470,
+        5911,
+        5915
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_253.json",
+        "annotation_sha256": "e07914b4b26370305c3c7cd657f091e22da6e76fb5dfbb8d1ef819bb6734ce9b"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_813__ent_812",
+      "judgment": "supported",
+      "reason": "Britain → European Monetary System: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        1962,
+        1963,
+        1964,
+        1965,
+        1966,
+        1970,
+        1971
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_5__ent_814",
+      "judgment": "supported",
+      "reason": "Germany → NATO: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        2723,
+        2725,
+        2726,
+        2728,
+        2730,
+        2731,
+        2732
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_815__ent_271",
+      "judgment": "supported",
+      "reason": "Russia → Security Council: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3293,
+        3294,
+        3295,
+        3297,
+        3299,
+        3300,
+        3302
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_99__ent_492",
+      "judgment": "incorrect",
+      "reason": "Iran → Iraq: Bilateral national alliances, borders, conflict, diplomacy or trade do not establish membership in the other country.",
+      "evidence_lines": [
+        5525,
+        5526,
+        5527,
+        5528,
+        5529,
+        5530,
+        5533
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_76__ent_814",
+      "judgment": "supported",
+      "reason": "Turkey → NATO: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3281,
+        3282,
+        3283,
+        3284,
+        3285,
+        3286
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_820__ent_451",
+      "judgment": "incorrect",
+      "reason": "Israel → Egypt: Bilateral national alliances, borders, conflict, diplomacy or trade do not establish membership in the other country.",
+      "evidence_lines": [
+        5187,
+        5188,
+        5191,
+        5192,
+        5194,
+        5195
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_253.json",
+        "annotation_sha256": "e07914b4b26370305c3c7cd657f091e22da6e76fb5dfbb8d1ef819bb6734ce9b"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_96__ent_695",
+      "judgment": "incorrect",
+      "reason": "India → Pakistan: Bilateral national alliances, borders, conflict, diplomacy or trade do not establish membership in the other country.",
+      "evidence_lines": [
+        5488,
+        5489,
+        5490,
+        5491,
+        5492,
+        5494
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_74__ent_59",
+      "judgment": "supported",
+      "reason": "Alan Blinder → Council of Economic Advisers: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3265,
+        3266,
+        3267,
+        3268,
+        3269
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_70__ent_71",
+      "judgment": "supported",
+      "reason": "Peter A. Bradford → Nuclear Regulatory Commission: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3313,
+        3314,
+        3315,
+        3316
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_24__ent_822",
+      "judgment": "incorrect",
+      "reason": "Unocal → American: Nationality or diplomatic location does not establish organizational membership.",
+      "evidence_lines": [
+        3627,
+        3629,
+        3631,
+        3632
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_502__ent_743",
+      "judgment": "incorrect",
+      "reason": "Thomas S. Gulotta → Nassau County: County executive/counterpart evidence does not establish membership of a public body.",
+      "evidence_lines": [
+        8107,
+        8109,
+        8111,
+        8113
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_822__ent_824",
+      "judgment": "incorrect",
+      "reason": "American → Paris: Nationality or diplomatic location does not establish organizational membership.",
+      "evidence_lines": [
+        2116,
+        2119,
+        2121
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_253.json",
+        "annotation_sha256": "e07914b4b26370305c3c7cd657f091e22da6e76fb5dfbb8d1ef819bb6734ce9b"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_270__ent_71",
+      "judgment": "supported",
+      "reason": "Thomas M. Roberts → Nuclear Regulatory Commission: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3290,
+        3291,
+        3292
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_269__ent_284",
+      "judgment": "supported",
+      "reason": "James Claffey → Long Island Immigrant Alliance: Explicit member/membership or organizational accession evidence establishes the ordered membership, including historical membership.",
+      "evidence_lines": [
+        3321
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    },
+    {
+      "case_id": "rel_253__ent_232__ent_474",
+      "judgment": "incorrect",
+      "reason": "Ms. Garrison → Georgia: Meeting a person named Georgia does not establish organizational membership.",
+      "evidence_lines": [
+        6089
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:01:07.341Z"
+      }
+    }
+  ]
+}

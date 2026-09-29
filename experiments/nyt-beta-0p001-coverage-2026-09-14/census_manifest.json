@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "mode": "sentence_rows",
+  "targets": [
+    0.57,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "selection": "Smallest ranked prefix reaching each requested fraction of input rows",
+  "audits": [
+    {
+      "audit_id": "audit_dcb746fa83d6",
+      "folder": "census/audit_dcb746fa83d6",
+      "label": "nyt-latent-low-smoothing-2026-09-14/entityfix_latent_beta0001_seed20260912",
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/runs/entityfix_latent_beta0001_seed20260912/map_world_sentences.tsv",
+      "source_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+      "population_facts": 2468,
+      "relations": 290,
+      "inherited_exact_cases": 421,
+      "thresholds": [
+        {
+          "target": 0.57,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 114,
+          "N": 1527,
+          "rows": 4860,
+          "total_rows": 8516,
+          "achieved_coverage": 0.5706904650070456,
+          "previous_prefix_k": 0,
+          "added_relations": 114,
+          "added_N": 1527,
+          "added_rows": 4860
+        },
+        {
+          "target": 0.6,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 126,
+          "N": 1619,
+          "rows": 5129,
+          "total_rows": 8516,
+          "achieved_coverage": 0.6022780648191639,
+          "previous_prefix_k": 114,
+          "added_relations": 12,
+          "added_N": 92,
+          "added_rows": 269
+        },
+        {
+          "target": 0.7,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 168,
+          "N": 1885,
+          "rows": 5969,
+          "total_rows": 8516,
+          "achieved_coverage": 0.7009159229685298,
+          "previous_prefix_k": 126,
+          "added_relations": 42,
+          "added_N": 266,
+          "added_rows": 840
+        },
+        {
+          "target": 0.8,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 220,
+          "N": 2163,
+          "rows": 6813,
+          "total_rows": 8516,
+          "achieved_coverage": 0.8000234852043213,
+          "previous_prefix_k": 168,
+          "added_relations": 52,
+          "added_N": 278,
+          "added_rows": 844
+        },
+        {
+          "target": 0.9,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 290,
+          "N": 2468,
+          "rows": 7668,
+          "total_rows": 8516,
+          "achieved_coverage": 0.900422733677783,
+          "previous_prefix_k": 220,
+          "added_relations": 70,
+          "added_N": 305,
+          "added_rows": 855
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_e318fe663470",
+      "folder": "census/audit_e318fe663470",
+      "label": "nyt-latent-low-smoothing-2026-09-14/entityfix_latent_beta0001_seed20260913",
+      "source": "experiments/nyt-latent-low-smoothing-2026-09-14/runs/entityfix_latent_beta0001_seed20260913/map_world_sentences.tsv",
+      "source_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+      "population_facts": 2542,
+      "relations": 287,
+      "inherited_exact_cases": 436,
+      "thresholds": [
+        {
+          "target": 0.57,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 116,
+          "N": 1535,
+          "rows": 4876,
+          "total_rows": 8516,
+          "achieved_coverage": 0.5725692813527478,
+          "previous_prefix_k": 0,
+          "added_relations": 116,
+          "added_N": 1535,
+          "added_rows": 4876
+        },
+        {
+          "target": 0.6,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 127,
+          "N": 1625,
+          "rows": 5131,
+          "total_rows": 8516,
+          "achieved_coverage": 0.6025129168623767,
+          "previous_prefix_k": 116,
+          "added_relations": 11,
+          "added_N": 90,
+          "added_rows": 255
+        },
+        {
+          "target": 0.7,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 167,
+          "N": 1926,
+          "rows": 5966,
+          "total_rows": 8516,
+          "achieved_coverage": 0.7005636449037107,
+          "previous_prefix_k": 127,
+          "added_relations": 40,
+          "added_N": 301,
+          "added_rows": 835
+        },
+        {
+          "target": 0.8,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 220,
+          "N": 2231,
+          "rows": 6825,
+          "total_rows": 8516,
+          "achieved_coverage": 0.801432597463598,
+          "previous_prefix_k": 167,
+          "added_relations": 53,
+          "added_N": 305,
+          "added_rows": 859
+        },
+        {
+          "target": 0.9,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 287,
+          "N": 2542,
+          "rows": 7674,
+          "total_rows": 8516,
+          "achieved_coverage": 0.9011272898074213,
+          "previous_prefix_k": 220,
+          "added_relations": 67,
+          "added_N": 311,
+          "added_rows": 849
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_06dbdb9b03af",
+      "folder": "census/audit_06dbdb9b03af",
+      "label": "nyt-precision-investigation-2026-09-12/verbatim_beta0001_seed20260912",
+      "source": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta0001_seed20260912/map_world_sentences.tsv",
+      "source_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+      "population_facts": 1732,
+      "relations": 282,
+      "inherited_exact_cases": 384,
+      "thresholds": [
+        {
+          "target": 0.57,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 98,
+          "N": 1073,
+          "rows": 4868,
+          "total_rows": 8516,
+          "achieved_coverage": 0.5716298731798967,
+          "previous_prefix_k": 0,
+          "added_relations": 98,
+          "added_N": 1073,
+          "added_rows": 4868
+        },
+        {
+          "target": 0.6,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 109,
+          "N": 1139,
+          "rows": 5130,
+          "total_rows": 8516,
+          "achieved_coverage": 0.6023954908407703,
+          "previous_prefix_k": 98,
+          "added_relations": 11,
+          "added_N": 66,
+          "added_rows": 262
+        },
+        {
+          "target": 0.7,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 152,
+          "N": 1325,
+          "rows": 5965,
+          "total_rows": 8516,
+          "achieved_coverage": 0.7004462188821042,
+          "previous_prefix_k": 109,
+          "added_relations": 43,
+          "added_N": 186,
+          "added_rows": 835
+        },
+        {
+          "target": 0.8,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 209,
+          "N": 1523,
+          "rows": 6825,
+          "total_rows": 8516,
+          "achieved_coverage": 0.801432597463598,
+          "previous_prefix_k": 152,
+          "added_relations": 57,
+          "added_N": 198,
+          "added_rows": 860
+        },
+        {
+          "target": 0.9,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 282,
+          "N": 1732,
+          "rows": 7671,
+          "total_rows": 8516,
+          "achieved_coverage": 0.9007750117426021,
+          "previous_prefix_k": 209,
+          "added_relations": 73,
+          "added_N": 209,
+          "added_rows": 846
+        }
+      ]
+    },
+    {
+      "audit_id": "audit_9c88162c7b22",
+      "folder": "census/audit_9c88162c7b22",
+      "label": "nyt-precision-investigation-2026-09-12/verbatim_beta0001_seed20260913",
+      "source": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta0001_seed20260913/map_world_sentences.tsv",
+      "source_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+      "population_facts": 1746,
+      "relations": 285,
+      "inherited_exact_cases": 364,
+      "thresholds": [
+        {
+          "target": 0.57,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 104,
+          "N": 1098,
+          "rows": 4874,
+          "total_rows": 8516,
+          "achieved_coverage": 0.572334429309535,
+          "previous_prefix_k": 0,
+          "added_relations": 104,
+          "added_N": 1098,
+          "added_rows": 4874
+        },
+        {
+          "target": 0.6,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 115,
+          "N": 1160,
+          "rows": 5126,
+          "total_rows": 8516,
+          "achieved_coverage": 0.6019257867543447,
+          "previous_prefix_k": 104,
+          "added_relations": 11,
+          "added_N": 62,
+          "added_rows": 252
+        },
+        {
+          "target": 0.7,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 159,
+          "N": 1362,
+          "rows": 5976,
+          "total_rows": 8516,
+          "achieved_coverage": 0.7017379051197745,
+          "previous_prefix_k": 115,
+          "added_relations": 44,
+          "added_N": 202,
+          "added_rows": 850
+        },
+        {
+          "target": 0.8,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 215,
+          "N": 1541,
+          "rows": 6815,
+          "total_rows": 8516,
+          "achieved_coverage": 0.800258337247534,
+          "previous_prefix_k": 159,
+          "added_relations": 56,
+          "added_N": 179,
+          "added_rows": 839
+        },
+        {
+          "target": 0.9,
+          "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+          "k": 285,
+          "N": 1746,
+          "rows": 7665,
+          "total_rows": 8516,
+          "achieved_coverage": 0.9000704556129638,
+          "previous_prefix_k": 215,
+          "added_relations": 70,
+          "added_N": 205,
+          "added_rows": 850
+        }
+      ]
+    }
+  ]
+}

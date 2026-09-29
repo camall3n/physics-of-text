@@ -1,0 +1,44 @@
+{
+  "relation": "rel_279",
+  "predicate_id": "criticizes",
+  "predicate_version": 1,
+  "predicate_hash": "d6d753a975aabab857381299947b8710fc44d5900e51f7ca64fa2d1da32876ac",
+  "predicate": {
+    "id": "criticizes",
+    "label": "criticized or accused",
+    "definition": "Person or institution X criticized, blamed or accused Y.",
+    "includes": [
+      "explicit criticize/blame/accuse/assail",
+      "a clearly critical directed allegation"
+    ],
+    "excludes": [
+      "warning without criticism",
+      "generic communication or meeting",
+      "rivalry/comparison alone"
+    ],
+    "ambiguous": [
+      "unclear accused person or attributed critic"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+  },
+  "dictionary_sha256": "6bac4b6d2813773db0c57aafeecc392e1cbf6bc4c31f15d82bcffa92a574bbc8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Accusation and criticism dominate; numerical outnumbering and cooperation do not entail criticism.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.470Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [
+    "outnumbering",
+    "joint action"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_279.before_grading.json",
+  "pregrading_annotation_sha256": "b778ff4c5cf3a4ac66ed118628f8c04693a2b3116b21036d0785a95b9d4230a2"
+}

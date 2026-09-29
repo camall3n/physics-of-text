@@ -1,0 +1,319 @@
+{
+  "declarations": [
+    {
+      "relation": "rel_287",
+      "predicate_id": "founder_of",
+      "rationale": "Cofounder5 is dominant specific relation, separate from foreign policy or spokesperson role.",
+      "supporting_path_indices": [
+        0
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_289",
+      "predicate_id": "supports",
+      "rationale": "Support4 and vote-for2 define support; pressuring is excluded.",
+      "supporting_path_indices": [
+        1,
+        3,
+        7
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_298",
+      "predicate_id": "has_political_leader",
+      "rationale": "Country-president possessive family5 defines inverse leadership; official-forward, sport and front-runner separate.",
+      "supporting_path_indices": [
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_307",
+      "predicate_id": "has_wife",
+      "rationale": "Possessive wife/widow paths dominate spouse identity; marriage to third parties not automatically support.",
+      "supporting_path_indices": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_324",
+      "predicate_id": "organizational_leader_of",
+      "rationale": "Head/chair/president family dominates, distinct from ordinary diplomat/envoy.",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_399",
+      "predicate_id": "travels_to",
+      "rationale": "Enter/smuggle/flow-into defines physical arrival, with institution/political office ambiguity retained.",
+      "supporting_path_indices": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_3",
+      "predicate_id": "executive_of",
+      "rationale": "County executive and executive-tenure paths define explicit executive title family, distinct from legislative candidacy.",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        12
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_4",
+      "predicate_id": "communicates_to",
+      "rationale": "Telephone2, tell and write-to define directed communication; arms sales/support are distinct.",
+      "supporting_path_indices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_12",
+      "predicate_id": "resides_in",
+      "rationale": "Live-in4/resident/apartment and population residence family dominates.",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_66",
+      "predicate_id": "outnumbers",
+      "rationale": "More-than3 plus registration3 identifies count comparison in political population context; founder/editor/referral distinct.",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_77",
+      "predicate_id": "president_of",
+      "rationale": "President apposition/direct office family5 dominates; political controversy does not establish title.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_79",
+      "predicate_id": "defeated",
+      "rationale": "Outscore3/rout1 defines sporting outcome family; host, rebound and trails do not automatically establish a completed win.",
+      "supporting_path_indices": [
+        0,
+        7
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_98",
+      "predicate_id": "located_in",
+      "rationale": "Headquarters and salesroom/showroom geographic family dominates.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_149",
+      "predicate_id": "coach_of",
+      "rationale": "Explicit coach and team-fortunes/coaching context define sport coach family amid firm-name/domain outliers.",
+      "supporting_path_indices": [
+        0,
+        7,
+        10,
+        12
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_158",
+      "predicate_id": "succeeded_person",
+      "rationale": "Replacement and predecessor/successor role family dominates; nomination without tenure remains unresolved.",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        8,
+        10,
+        11
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_229",
+      "predicate_id": "known_as",
+      "rationale": "Explicit fund known-as identity is the clearest specific predicate family; sporting games and coaching remain separate.",
+      "supporting_path_indices": [
+        2,
+        3,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_292",
+      "predicate_id": "has_political_leader",
+      "rationale": "Strongman/government-run-by and political dominance define inverse leader relation; team better-without distinct.",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_331",
+      "predicate_id": "location_of_organization",
+      "rationale": "City office-of and office-unit descriptors dominate geographic hosting; political person links distinct.",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        6,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_350",
+      "predicate_id": "organizational_leader_of",
+      "rationale": "Whip and leader6 is the largest specific office family; candidate/nominee alone excluded.",
+      "supporting_path_indices": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_360",
+      "predicate_id": "has_wife",
+      "rationale": "Explicit with-wife appositions4 define spousal identity amid political meetings and stadium cases.",
+      "supporting_path_indices": [
+        2,
+        7,
+        12,
+        13
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_1",
+      "predicate_id": "located_in",
+      "rationale": "Concern/company/division geographic location dominates.",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_7",
+      "predicate_id": "president_of",
+      "rationale": "Direct president titles and presidency pathways dominate; aliases and owner alone separate.",
+      "supporting_path_indices": [
+        0,
+        2,
+        7,
+        8,
+        9
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_39",
+      "predicate_id": "spokesperson_for",
+      "rationale": "Spokesman title/appointment/tenure dominates.",
+      "supporting_path_indices": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "reviewer": "nyt_kernel_audit"
+    },
+    {
+      "relation": "rel_71",
+      "predicate_id": "politically_controls",
+      "rationale": "Control-of and keep-control define specific party control family; generic wins/presence separate.",
+      "supporting_path_indices": [
+        0,
+        4
+      ],
+      "reviewer": "nyt_kernel_audit"
+    }
+  ]
+}

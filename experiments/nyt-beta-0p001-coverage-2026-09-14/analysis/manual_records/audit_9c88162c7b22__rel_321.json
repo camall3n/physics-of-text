@@ -1,0 +1,44 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_321",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_321__ent_891__ent_890"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit another-lawyer and lawyer apposition identifies Shapiro as Simpson's legal representative.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_321__ent_1159__ent_471",
+        "rel_321__ent_784__ent_534"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic East/West comparison or Goldman/Sachs financial fragments contain no lawyer relation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "620e01c40dabed1bf6e064fbb672e972fcecca96dffec10d80bf83717e1d24fe"
+}

@@ -1,0 +1,90 @@
+{
+  "relation": "rel_362",
+  "predicate_id": "executive_of",
+  "label": "executive of",
+  "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+  "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office.",
+  "facts": [
+    {
+      "case_id": "rel_362__ent_1309__ent_1281",
+      "judgment": "supported",
+      "reason": "Thomas S. Gulotta → Nassau County: Explicit county-executive title and inauguration establish executive office.",
+      "evidence_lines": [
+        8105,
+        8106,
+        8108,
+        8109,
+        8110,
+        8111,
+        8112
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.575Z"
+      }
+    },
+    {
+      "case_id": "rel_362__ent_818__ent_708",
+      "judgment": "incorrect",
+      "reason": "China → Qian Qichen: Country-to-minister statements, corporate headquarters or a team needing an athlete do not establish a person holding executive office.",
+      "evidence_lines": [
+        7049,
+        7050,
+        7051,
+        7052,
+        7053
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.576Z"
+      }
+    },
+    {
+      "case_id": "rel_362__ent_547__ent_1262",
+      "judgment": "incorrect",
+      "reason": "I.B.M. → Armonk: Country-to-minister statements, corporate headquarters or a team needing an athlete do not establish a person holding executive office.",
+      "evidence_lines": [
+        807,
+        4403
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.576Z"
+      }
+    },
+    {
+      "case_id": "rel_362__ent_308__ent_1241",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: Country-to-minister statements, corporate headquarters or a team needing an athlete do not establish a person holding executive office.",
+      "evidence_lines": [
+        3431,
+        4930
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.576Z"
+      }
+    }
+  ],
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ee83591e3903f517e7d0a829328c4578e52270fd2677592e6cbc44753224fe09"
+}

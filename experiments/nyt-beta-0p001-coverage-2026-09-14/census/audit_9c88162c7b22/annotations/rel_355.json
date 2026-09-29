@@ -1,0 +1,53 @@
+{
+  "relation": "rel_355",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_355__ent_498__ent_57",
+      "judgment": "supported",
+      "reason": "Andrew J. Stein → City Council: Explicit being-as-president and attending-as-president paths establish actual City Council presidency beyond the primary-election row.",
+      "evidence_lines": [
+        2867,
+        2869,
+        2870,
+        2871,
+        2873,
+        2874,
+        2875
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.734Z"
+      }
+    },
+    {
+      "case_id": "rel_355__ent_24__ent_822",
+      "judgment": "incorrect",
+      "reason": "Unocal → American: Corporate oil, reserves, and American assets describe a company and national adjective, not a person holding president office.",
+      "evidence_lines": [
+        3628,
+        3630,
+        3633,
+        3636
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.734Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6574107afd48a2266374908ed95552cbb749667a5bf6f8b83e0afae73a53b98d"
+}

@@ -1,0 +1,61 @@
+{
+  "relation": "rel_341",
+  "predicate_id": "born_in",
+  "label": "born in",
+  "definition": "Person X was born in geographic place Y.",
+  "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment.",
+  "facts": [
+    {
+      "case_id": "rel_341__ent_182__ent_355",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Hussein: Political comparisons and statements between Bush and Hussein are not a person-to-birthplace relation.",
+      "evidence_lines": [
+        1596,
+        1597,
+        1598,
+        1599,
+        1600,
+        1601,
+        1602,
+        1603
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:01.982Z"
+      }
+    },
+    {
+      "case_id": "rel_341__ent_515__ent_757",
+      "judgment": "supported",
+      "reason": "Mr. Rushdie → Bombay: Born into a family in Bombay explicitly supplies the birthplace attachment.",
+      "evidence_lines": [
+        8402,
+        8404,
+        8405,
+        8406,
+        8407,
+        8408,
+        8409
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:01.983Z"
+      }
+    }
+  ],
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d8722395d9086e55275dee3b6031654b86a4a936a0dbb33e60778be4761e6769"
+}

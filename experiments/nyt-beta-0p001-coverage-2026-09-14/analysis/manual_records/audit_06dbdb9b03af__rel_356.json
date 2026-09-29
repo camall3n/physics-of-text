@@ -1,0 +1,61 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_356",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "case_ids": [
+        "rel_356__ent_943__ent_1088",
+        "rel_356__ent_1089__ent_703",
+        "rel_356__ent_700__ent_843",
+        "rel_356__ent_345__ent_333",
+        "rel_356__ent_207__ent_407",
+        "rel_356__ent_1148__ent_460",
+        "rel_356__ent_461__ent_222",
+        "rel_356__ent_714__ent_1002",
+        "rel_356__ent_449__ent_1146",
+        "rel_356__ent_955__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "A direct firm/company-in, based-in or geographic firm modifier supports the organization location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_356__ent_1080__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet is a medium/industry modifier, not a geographic place.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "46735bf5ed68c99b45285e97c750028c6173a5635d831410f3897074e6af3ace"
+}

@@ -1,0 +1,45 @@
+{
+  "relation": "rel_92",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "0799bda8e3efe9bceaf609c2837d6ef122d263b73c60d9dcbf1487ef4cbd4c8a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Most rows are co-subject corporate-name fragments without a coherent binary relation. The clear spokeswoman-for path repeats twice, exceeding each individually interpretable deportation path; use this weak specific family with explicit low dictionary coverage.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.374Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [
+    "corporate name fragments",
+    "deportation"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_92.before_grading.json",
+  "pregrading_annotation_sha256": "d87e3dee2b09d3ff0e29a40f2bc4fb5811df847e130641db905b16c83952f596"
+}

@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_127",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_127__ent_1002__ent_183"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The dominant rows are Washington dateline and Administration official fragments, not a coherent city-to-institution predicate.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "What relation between Washington and the Administration is asserted beyond officials speaking there?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_127__ent_1002__ent_536"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The dominant rows are dateline plus State Department spokesperson/official attachments; no narrow city-to-institution relation is recovered.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Does Washington designate a physical office location or only the reporting dateline for these remarks?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_127__ent_84__ent_715"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Baghdad dateline and Interior Ministry official/prison fragments do not identify one coherent ordered predicate.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "What fact about Baghdad and the Interior Ministry is intended, rather than a missing official or reporting location?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "fef346189a9d23f08fe1b8199bb21e8d33a37e4890f6f04a058be4acd7e35a5f"
+}

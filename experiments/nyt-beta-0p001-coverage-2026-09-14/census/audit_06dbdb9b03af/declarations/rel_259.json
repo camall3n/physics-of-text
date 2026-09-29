@@ -1,0 +1,43 @@
+{
+  "relation": "rel_259",
+  "predicate_id": "died_in",
+  "predicate_version": 1,
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate": {
+    "id": "died_in",
+    "label": "died in place",
+    "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+    "includes": [
+      "explicit died-in or death-in location",
+      "being killed in Y establishing death there",
+      "historical death location"
+    ],
+    "excludes": [
+      "residence, birth, or ordinary presence alone",
+      "Y is the perpetrator or cause rather than location",
+      "discussion of deaths without the affected person or population"
+    ],
+    "ambiguous": [
+      "place versus institution unresolved",
+      "unclear death or geographic attachment",
+      "a population mention without identified affected members"
+    ],
+    "notes": "This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+    "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died."
+  },
+  "dictionary_sha256": "4ba91212b06e9c1b939a56dd919052671d61330d1b6a08f41b261da64c5b6d01",
+  "kind": "declared_before_case_grading",
+  "rationale": "Die-at8 dominates death location; renomination and executive titles separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:28:24.735Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_259.before_grading.json",
+  "pregrading_annotation_sha256": "e59df0d3864bc0e643348c780cbe2ccf7a860cde507d200d1075b05e93301e0d"
+}

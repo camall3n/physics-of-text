@@ -1,0 +1,186 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_245",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        14,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        29,
+        30,
+        31,
+        39,
+        42
+      ],
+      "case_ids": [
+        "rel_245__ent_1147__ent_1270",
+        "rel_245__ent_207__ent_407",
+        "rel_245__ent_1412__ent_221",
+        "rel_245__ent_1148__ent_460",
+        "rel_245__ent_943__ent_1088",
+        "rel_245__ent_449__ent_1146",
+        "rel_245__ent_1441__ent_843",
+        "rel_245__ent_1208__ent_703",
+        "rel_245__ent_955__ent_1002",
+        "rel_245__ent_461__ent_222",
+        "rel_245__ent_345__ent_165",
+        "rel_245__ent_539__ent_713",
+        "rel_245__ent_220__ent_407",
+        "rel_245__ent_1082__ent_843",
+        "rel_245__ent_1295__ent_843",
+        "rel_245__ent_1272__ent_1445",
+        "rel_245__ent_714__ent_1002",
+        "rel_245__ent_716__ent_958",
+        "rel_245__ent_462__ent_683",
+        "rel_245__ent_224__ent_466",
+        "rel_245__ent_797__ent_1183",
+        "rel_245__ent_714__ent_770",
+        "rel_245__ent_170__ent_904",
+        "rel_245__ent_549__ent_636"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit geographic company/firm modifiers, company-in-place or based-in evidence establish organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_245__ent_1078__ent_429"
+      ],
+      "judgment": "ambiguous",
+      "reason": "David Mermelstein’s employment evidence and Exhibitor Relations’ company-location evidence are merged in one subject entity.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should the person David Mermelstein and the company Exhibitor Relations be separate entities?"
+    },
+    {
+      "indices": [
+        20
+      ],
+      "case_ids": [
+        "rel_245__ent_345__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Walter Mendelsohn, Robert and Corcoran Group combine person/home or travel readings with a company-in-Manhattan reading.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should these person subjects and Corcoran Group be separated before evaluating company location?"
+    },
+    {
+      "indices": [
+        10,
+        13,
+        23,
+        26,
+        27,
+        28,
+        32,
+        33,
+        34,
+        35,
+        36,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "case_ids": [
+        "rel_245__ent_646__ent_333",
+        "rel_245__ent_842__ent_841",
+        "rel_245__ent_308__ent_1241",
+        "rel_245__ent_885__ent_165",
+        "rel_245__ent_816__ent_1415",
+        "rel_245__ent_684__ent_429",
+        "rel_245__ent_564__ent_832",
+        "rel_245__ent_777__ent_190",
+        "rel_245__ent_111__ent_1241",
+        "rel_245__ent_1226__ent_1197",
+        "rel_245__ent_6__ent_812",
+        "rel_245__ent_1085__ent_992",
+        "rel_245__ent_718__ent_594",
+        "rel_245__ent_321__ent_778",
+        "rel_245__ent_196__ent_483",
+        "rel_245__ent_169__ent_632",
+        "rel_245__ent_43__ent_635",
+        "rel_245__ent_904__ent_907",
+        "rel_245__ent_413__ent_1320",
+        "rel_245__ent_776__ent_1381",
+        "rel_245__ent_236__ent_1435",
+        "rel_245__ent_326__ent_34",
+        "rel_245__ent_1370__ent_940",
+        "rel_245__ent_1333__ent_1324"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence describes people, residence, employment, politics, sports or corporate ownership rather than an organization physically located in a geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        16,
+        25,
+        37,
+        38
+      ],
+      "case_ids": [
+        "rel_245__ent_948__ent_936",
+        "rel_245__ent_956__ent_1379",
+        "rel_245__ent_1077__ent_1099",
+        "rel_245__ent_950__ent_1267"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet and Bell here describe an industry/medium or corporate family, not geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    5,
+    6,
+    7,
+    11,
+    12,
+    15,
+    18,
+    20,
+    22,
+    29,
+    31
+  ],
+  "broad": []
+}

@@ -1,0 +1,41 @@
+{
+  "relation": "rel_320",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "1aade22b2eb667e7578162a6717211b1b4d4d1f1312ac043f0dd7d073ab41bbc",
+  "kind": "declared_before_case_grading",
+  "rationale": "Live-in is the dominant repeated interpretable family, with migration/entry/work as competing weaker location evidence.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.791Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_320.before_grading.json",
+  "pregrading_annotation_sha256": "4ca26d4ae870d9d537cd49cef86e623b61cd2c9e174e8cabde73bea62b8ca4f2"
+}

@@ -1,0 +1,42 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_160",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_160__ent_545__ent_787"
+      ],
+      "judgment": "supported",
+      "reason": "Direct based-in paths establish the company location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_160__ent_131__ent_373",
+        "rel_160__ent_37__ent_34",
+        "rel_160__ent_1075__ent_1076"
+      ],
+      "judgment": "incorrect",
+      "reason": "Forward or inverse political leadership and national-adjective office attachments are not organization geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "248795a56fd55baffb9d10a8414f73073d850ec92c4a5d4428c3e72648af4c27"
+}

@@ -1,0 +1,58 @@
+{
+  "relation": "rel_3",
+  "predicate_id": "executive_of",
+  "label": "executive of",
+  "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+  "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office.",
+  "facts": [
+    {
+      "case_id": "rel_3__ent_502__ent_743",
+      "judgment": "supported",
+      "reason": "Thomas S. Gulotta → Nassau County: Explicit county executive title and inauguration establishes actual executive tenure.",
+      "evidence_lines": [
+        8104,
+        8105,
+        8106,
+        8107,
+        8108,
+        8109,
+        8110,
+        8111,
+        8112,
+        8113
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:56.204Z"
+      }
+    },
+    {
+      "case_id": "rel_3__ent_264__ent_811",
+      "judgment": "incorrect",
+      "reason": "Richard A. Gephardt → House: Legislative leadership candidacy and speech do not establish an executive title.",
+      "evidence_lines": [
+        2979,
+        2980,
+        2982,
+        2983
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:56.204Z"
+      }
+    }
+  ],
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "bfd75fe2cf17aa823f60a89fb8bbc6e1754766787e8a7290969fd9dacc400a1b"
+}

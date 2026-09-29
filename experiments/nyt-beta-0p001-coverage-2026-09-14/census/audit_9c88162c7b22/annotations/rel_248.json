@@ -1,0 +1,62 @@
+{
+  "relation": "rel_248",
+  "predicate_id": "unresolved_relation",
+  "label": "unresolved relation meaning",
+  "definition": "The complete relation dictionary and argument roles do not identify a coherent dominant predicate whose facts can be judged without inventing a scope.",
+  "scope_notes": "Includes: explicitly documented relation-level semantic indeterminacy after complete dictionary and argument-role inspection. Excludes: using ambiguity to omit difficult facts or change denominators; a broad association or disjunction invented to make unrelated meanings correct; using this marker when a coherent dominant family can be identified. Ambiguous unless resolved by case-local evidence: all facts remain ambiguous because the relation meaning is unresolved. This is an evaluation marker, not a learned semantic relation. Every fact receives A with a case-specific question; retain all facts in denominators and separately report relation-semantic-indeterminacy counts.",
+  "facts": [
+    {
+      "case_id": "rel_248__ent_775__ent_537",
+      "judgment": "ambiguous",
+      "reason": "WASHINGTON → United States: WASHINGTON is a dateline joined to United States speech/official fragments; the full dictionary does not recover a coherent ordered relation.",
+      "evidence_lines": [
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "What proposition relates the city Washington to the United States beyond this reporting dateline?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.181Z"
+      }
+    },
+    {
+      "case_id": "rel_248__ent_775__ent_536",
+      "judgment": "ambiguous",
+      "reason": "WASHINGTON → State Department: The dateline and paired-subject saying paths do not identify a stable relation between Washington and State Department.",
+      "evidence_lines": [
+        653,
+        654,
+        657,
+        659,
+        661,
+        662
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "Is there a city-to-institution fact here, or only an omitted departmental speaker and dateline?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.182Z"
+      }
+    }
+  ],
+  "predicate_hash": "a249b68a71720a8340e98c80dac86d87caf6e89822a1a6df9f2878ab1c4211a4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e5facbee4b1a9af7cd5368e084b0f16c6f61dff30092d25c3130e4c0d7b63d53"
+}

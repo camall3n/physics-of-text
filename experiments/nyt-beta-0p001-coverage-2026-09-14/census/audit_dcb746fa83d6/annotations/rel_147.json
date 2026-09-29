@@ -1,0 +1,88 @@
+{
+  "relation": "rel_147",
+  "predicate_id": "manager_of",
+  "label": "manager of institution",
+  "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+  "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+  "facts": [
+    {
+      "case_id": "rel_147__ent_79__ent_1284",
+      "judgment": "supported",
+      "reason": "Dick Steinberg → Jets: Direct manager title or historical success as manager establishes the team managerial office; manger is a transparent title spelling error in corroborating context.",
+      "evidence_lines": [
+        3245,
+        3246,
+        3249,
+        3250
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.893Z"
+      }
+    },
+    {
+      "case_id": "rel_147__ent_354__ent_598",
+      "judgment": "incorrect",
+      "reason": "Torre → Wells: Watching a person, commenting on the person statements or holding views about the person does not establish a manager office in an institution.",
+      "evidence_lines": [
+        1568,
+        1570,
+        1574
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.893Z"
+      }
+    },
+    {
+      "case_id": "rel_147__ent_287__ent_289",
+      "judgment": "supported",
+      "reason": "Billy Beane → Oakland Athletics: Direct manager title or historical success as manager establishes the team managerial office; manger is a transparent title spelling error in corroborating context.",
+      "evidence_lines": [
+        3372,
+        3375,
+        3376
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.893Z"
+      }
+    },
+    {
+      "case_id": "rel_147__ent_57__ent_1236",
+      "judgment": "supported",
+      "reason": "Omar Minaya → Mets: Direct manager title or historical success as manager establishes the team managerial office; manger is a transparent title spelling error in corroborating context.",
+      "evidence_lines": [
+        3216,
+        3217
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.893Z"
+      }
+    }
+  ],
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3ed88b42649e37226372c8efb54c84dbd15982937e02399339b13b97a3c6fdf0"
+}

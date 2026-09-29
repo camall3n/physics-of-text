@@ -1,0 +1,42 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_144",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_144__ent_354__ent_596",
+        "rel_144__ent_308__ent_64"
+      ],
+      "judgment": "incorrect",
+      "reason": "These are sports coaching/player deployment and team-player paths, not armed conflict between military adversaries.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_144__ent_492__ent_648"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The sanctions-imposed-on-Iraq after invasion-of-Kuwait path establishes an invasion context but omits the invasion’s actor; the ordered military adversary role is not explicit.",
+      "tags": [
+        "omitted_agent"
+      ],
+      "question": "Do these rows identify Iraq as the invader of Kuwait, rather than merely the target of measures imposed after the invasion?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b339ac9ea55028ef580537d297fb62ba519d62df19476aafbc86d78705f09ee1"
+}

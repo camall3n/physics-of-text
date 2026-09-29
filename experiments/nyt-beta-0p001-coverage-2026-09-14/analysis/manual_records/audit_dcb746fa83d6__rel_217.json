@@ -1,0 +1,67 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_217",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_217__ent_492__ent_648",
+        "rel_217__ent_1101__ent_224",
+        "rel_217__ent_1387__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit leave or emigration from a geographic place establishes departure.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_217__ent_827__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leaving the White House can denote physical departure or leaving office; meeting there does not resolve the sense of leaving.",
+      "tags": [
+        "office_geographic_metonymy"
+      ],
+      "question": "Is Clinton leaving the building or leaving the presidential office?"
+    },
+    {
+      "indices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_217__ent_211__ent_452",
+        "rel_217__ent_249__ent_964",
+        "rel_217__ent_346__ent_1029",
+        "rel_217__ent_900__ent_843"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political removal, directorship, job dismissal or a Senate-seat designation does not establish geographic departure by the first argument.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    5
+  ],
+  "broad": [],
+  "identity": [
+    2
+  ],
+  "predicate_declaration_sha256": "d72fcc91e108231da02551743e9e8cc8bbfa073dd13a8ad0bb2cde388610013a"
+}

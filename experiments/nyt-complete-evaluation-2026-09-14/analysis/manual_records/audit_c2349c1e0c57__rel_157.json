@@ -1,0 +1,176 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_157",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38,
+        42,
+        44,
+        47
+      ],
+      "case_ids": [
+        "rel_157__ent_547__ent_789",
+        "rel_157__ent_207__ent_407",
+        "rel_157__ent_1147__ent_209",
+        "rel_157__ent_461__ent_222",
+        "rel_157__ent_1148__ent_460",
+        "rel_157__ent_1000__ent_304",
+        "rel_157__ent_786__ent_305",
+        "rel_157__ent_548__ent_1003",
+        "rel_157__ent_464__ent_221",
+        "rel_157__ent_302__ent_544",
+        "rel_157__ent_1001__ent_307",
+        "rel_157__ent_549__ent_1002",
+        "rel_157__ent_896__ent_415",
+        "rel_157__ent_449__ent_1146",
+        "rel_157__ent_220__ent_407",
+        "rel_157__ent_463__ent_440",
+        "rel_157__ent_1087__ent_701",
+        "rel_157__ent_943__ent_1088",
+        "rel_157__ent_942__ent_843",
+        "rel_157__ent_345__ent_333",
+        "rel_157__ent_539__ent_713",
+        "rel_157__ent_955__ent_1002",
+        "rel_157__ent_545__ent_787",
+        "rel_157__ent_412__ent_654",
+        "rel_157__ent_224__ent_466",
+        "rel_157__ent_714__ent_1002",
+        "rel_157__ent_462__ent_683",
+        "rel_157__ent_700__ent_843",
+        "rel_157__ent_546__ent_788",
+        "rel_157__ent_655__ent_897",
+        "rel_157__ent_1078__ent_429",
+        "rel_157__ent_1082__ent_843",
+        "rel_157__ent_1089__ent_703",
+        "rel_157__ent_716__ent_958",
+        "rel_157__ent_300__ent_843"
+      ],
+      "judgment": "supported",
+      "reason": "The case includes an explicit base/headquarters/office or a firm/company geographically located in the named place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        27,
+        31,
+        39,
+        40,
+        45,
+        48
+      ],
+      "case_ids": [
+        "rel_157__ent_293__ent_10",
+        "rel_157__ent_292__ent_28",
+        "rel_157__ent_21__ent_10",
+        "rel_157__ent_290__ent_11",
+        "rel_157__ent_39__ent_38",
+        "rel_157__ent_26__ent_25",
+        "rel_157__ent_934__ent_1079",
+        "rel_157__ent_23__ent_29",
+        "rel_157__ent_27__ent_29"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The second argument is a nationality adjective or incomplete country expression; the rows do not securely resolve the geographic place for this organizational location.",
+      "tags": [
+        "nationality_location_ambiguity"
+      ],
+      "question": "Does the complete sentence identify a physical organizational location, and what complete country/place does the adjective denote?"
+    },
+    {
+      "indices": [
+        49
+      ],
+      "case_ids": [
+        "rel_157__ent_1089__ent_953"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wall Street may denote a financial industry rather than the organization’s physical location.",
+      "tags": [
+        "place_or_industry"
+      ],
+      "question": "Does “Wall Street” identify the firm’s physical location in the original sentence?"
+    },
+    {
+      "indices": [
+        53
+      ],
+      "case_ids": [
+        "rel_157__ent_20__ent_22"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The named subject is a person while the location modifier attaches through an unnamed company, leaving the organizational argument unresolved.",
+      "tags": [
+        "attachment_ambiguity"
+      ],
+      "question": "Which company does “Los Angeles-based” modify, and is that company actually the first entity?"
+    },
+    {
+      "indices": [
+        26,
+        37,
+        41,
+        43,
+        46,
+        50,
+        51,
+        52
+      ],
+      "case_ids": [
+        "rel_157__ent_943__ent_936",
+        "rel_157__ent_935__ent_931",
+        "rel_157__ent_1083__ent_931",
+        "rel_157__ent_956__ent_936",
+        "rel_157__ent_1080__ent_936",
+        "rel_157__ent_942__ent_936",
+        "rel_157__ent_1081__ent_931",
+        "rel_157__ent_950__ent_931"
+      ],
+      "judgment": "incorrect",
+      "reason": "The second argument denotes the Internet industry or Bell corporate family, not a geographic organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

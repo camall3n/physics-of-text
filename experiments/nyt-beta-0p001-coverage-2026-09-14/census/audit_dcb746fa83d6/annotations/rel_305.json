@@ -1,0 +1,89 @@
+{
+  "relation": "rel_305",
+  "predicate_id": "has_medical_condition",
+  "label": "has or had medical condition",
+  "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+  "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+  "facts": [
+    {
+      "case_id": "rel_305__ent_1232__ent_202",
+      "judgment": "supported",
+      "reason": "Americans → diabetes: Explicit suffering from, living with or identified affected population rows establish the medical condition among members of the population.",
+      "evidence_lines": [
+        4873,
+        4874,
+        4875,
+        4877,
+        4878,
+        4879
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.408Z"
+      }
+    },
+    {
+      "case_id": "rel_305__ent_201__ent_443",
+      "judgment": "supported",
+      "reason": "New Yorkers → AIDS: Explicit suffering from, living with or identified affected population rows establish the medical condition among members of the population.",
+      "evidence_lines": [
+        4907,
+        4908,
+        4911,
+        4912,
+        4913,
+        4914
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.408Z"
+      }
+    },
+    {
+      "case_id": "rel_305__ent_294__ent_707",
+      "judgment": "incorrect",
+      "reason": "Iraq → Tariq Aziz: Ministerial or diplomatic references do not establish a medical condition.",
+      "evidence_lines": [
+        6990,
+        6995
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.408Z"
+      }
+    },
+    {
+      "case_id": "rel_305__ent_1206__ent_708",
+      "judgment": "incorrect",
+      "reason": "China → Qian Qichen: Ministerial or diplomatic references do not establish a medical condition.",
+      "evidence_lines": [
+        7054
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.408Z"
+      }
+    }
+  ],
+  "predicate_hash": "00002d0be7de1b31e15236178a628d6020ff5861a758e2c750383ed1801ab3f8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "163ffb4166d516749d3cecb8ad813028fbf3270df06bec53d454bbe7d0cfcad4"
+}

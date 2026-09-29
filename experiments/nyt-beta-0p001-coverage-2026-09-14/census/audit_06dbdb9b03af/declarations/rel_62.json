@@ -1,0 +1,51 @@
+{
+  "relation": "rel_62",
+  "predicate_id": "lawyer_in",
+  "predicate_version": 1,
+  "predicate_hash": "cad25553394c8a4123b0ad8ee2c58ed5e6b244b1b0906950b8da28c6f0518cf3",
+  "predicate": {
+    "id": "lawyer_in",
+    "label": "practices law in place",
+    "definition": "Person X is explicitly described as a lawyer practicing or professionally based in geographic place Y.",
+    "includes": [
+      "explicit lawyer-in place",
+      "a city or geographic nominal modifier of a lawyer establishing professional location",
+      "historical legal practice in the place"
+    ],
+    "excludes": [
+      "representing a client or institution alone",
+      "a law firm or personal client in the geographic argument slot",
+      "residence or travel alone without legal practice"
+    ],
+    "ambiguous": [
+      "public attorney office for a jurisdiction without evidence of practice location",
+      "geographic versus institutional meaning of Y unresolved",
+      "unclear attachment of the place to the lawyer"
+    ],
+    "notes": "Separate from lawyer_for, which concerns representation or professional institutional affiliation. A governmental jurisdiction as client or office does not automatically establish this geographic practice predicate.",
+    "scope_notes": "Includes: explicit lawyer-in place; a city or geographic nominal modifier of a lawyer establishing professional location; historical legal practice in the place. Excludes: representing a client or institution alone; a law firm or personal client in the geographic argument slot; residence or travel alone without legal practice. Ambiguous unless resolved by case-local evidence: public attorney office for a jurisdiction without evidence of practice location; geographic versus institutional meaning of Y unresolved; unclear attachment of the place to the lawyer. Separate from lawyer_for, which concerns representation or professional institutional affiliation. A governmental jurisdiction as client or office does not automatically establish this geographic practice predicate."
+  },
+  "dictionary_sha256": "ea77bc5b7fc57c78fdd4c39fae97c5afc16e1f9eacb8e247c267eebf77812c62",
+  "kind": "declared_before_case_grading",
+  "rationale": "All nine literal targets are cities, and lawyer-nn/in dominates; this is professional location rather than client representation. Accountant/chair/co-op context does not replace the required lawyer role.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:20.256Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    9,
+    10,
+    12,
+    13,
+    15
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_62.before_grading.json",
+  "pregrading_annotation_sha256": "6e9d621e6802f23d0812025c95f38cfa2f227c38a68fa501eade528781ace067"
+}

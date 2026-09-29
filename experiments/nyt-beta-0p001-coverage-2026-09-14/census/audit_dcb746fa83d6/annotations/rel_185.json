@@ -1,0 +1,88 @@
+{
+  "relation": "rel_185",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_185__ent_1224__ent_1138",
+      "judgment": "supported",
+      "reason": "Radovan Karadzic → Bosnian Serbs: Direct political group or majority leader title establishes organizational leadership.",
+      "evidence_lines": [
+        4977,
+        4978,
+        4980,
+        4981,
+        4983
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.411Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_1222__ent_308",
+      "judgment": "ambiguous",
+      "reason": "Ewing → Knicks: The team leader and leads-team statements leave athletic leadership versus an organizational management role unresolved.",
+      "evidence_lines": [
+        3076,
+        3083,
+        4220,
+        4227
+      ],
+      "issue_tags": [
+        "role_boundary"
+      ],
+      "reviewer_question": "Does Ewing lead the Knicks as an athlete or hold the organizational leadership office required here?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.412Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_1221__ent_502",
+      "judgment": "supported",
+      "reason": "Joseph L. Bruno → Senate: Direct political group or majority leader title establishes organizational leadership.",
+      "evidence_lines": [
+        3016,
+        3021
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.412Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_773__ent_1212",
+      "judgment": "supported",
+      "reason": "Lee A. Iacocca → Chrysler: Direct leading of the named corporation establishes functional organizational leadership.",
+      "evidence_lines": [
+        5140
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.412Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f7cee81526132d212f2036c8d19fd876075a5ed6e91f378d05b91b4318b533e4"
+}

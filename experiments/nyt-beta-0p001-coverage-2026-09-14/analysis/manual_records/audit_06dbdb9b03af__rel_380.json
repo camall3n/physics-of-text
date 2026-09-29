@@ -1,0 +1,55 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_380",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_380__ent_1023__ent_329",
+        "rel_380__ent_326__ent_568"
+      ],
+      "judgment": "supported",
+      "reason": "Direct spokeswoman apposition identifies the named organization represented.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_380__ent_1002__ent_536"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Spokesperson rows are attached to Washington alongside explicit in-Washington statements, leaving a geographic dateline in the person position.",
+      "tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "question": "Which person is the State Department spokesperson in these Washington dateline rows?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_380__ent_80__ent_820"
+      ],
+      "judgment": "incorrect",
+      "reason": "Emigration of a population to a country is not spokesperson service.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "8a03c5ab6c28da8482a929ce6efddba9b0e6d759fc97d6bfb0a2dab334c6dd53"
+}

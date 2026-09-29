@@ -1,0 +1,44 @@
+{
+  "relation": "rel_88",
+  "predicate_id": "has_minister",
+  "predicate_version": 1,
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate": {
+    "id": "has_minister",
+    "label": "has minister",
+    "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+    "includes": [
+      "explicit minister of X or X's minister",
+      "a portfolio or prime minister office explicitly attached to X",
+      "historical ministerial office"
+    ],
+    "excludes": [
+      "ordinary official, ambassador, or opposition politician without minister title",
+      "a minister of a different government merely meeting X",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "an incomplete national adjective in the institution slot",
+      "minister-designate without established tenure",
+      "unclear portfolio or government attachment"
+    ],
+    "notes": "The inverse ministerial office does not assert that every minister is the head of government.",
+    "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government."
+  },
+  "dictionary_sha256": "594862ff42bb82057e837479b3a9f2d25a74de5b2ade54df0a1a35916ef90d0c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit country-to-minister paths form the coherent inverse minister family; does not infer head-of-government from unspecified minister.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.751Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_88.before_grading.json",
+  "pregrading_annotation_sha256": "f08b5740bfb36d9e28698e242ecac30f41486713f9a059fb20d592a6f3e9d219"
+}

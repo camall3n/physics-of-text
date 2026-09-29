@@ -1,0 +1,92 @@
+{
+  "audit_frequency": [
+    {
+      "population": "1 row",
+      "facts": 237,
+      "supported": 22,
+      "incorrect": 204,
+      "ambiguous": 11,
+      "lower": 0.09282700421940929,
+      "upper": 0.13924050632911392
+    },
+    {
+      "population": "2 rows",
+      "facts": 149,
+      "supported": 38,
+      "incorrect": 99,
+      "ambiguous": 12,
+      "lower": 0.2550335570469799,
+      "upper": 0.33557046979865773
+    },
+    {
+      "population": "1 or 2 rows",
+      "facts": 386,
+      "supported": 60,
+      "incorrect": 303,
+      "ambiguous": 23,
+      "lower": 0.15544041450777202,
+      "upper": 0.21502590673575128
+    },
+    {
+      "population": "3+ rows",
+      "facts": 697,
+      "supported": 427,
+      "incorrect": 199,
+      "ambiguous": 71,
+      "lower": 0.6126255380200861,
+      "upper": 0.7144906743185079
+    },
+    {
+      "population": "5+ rows",
+      "facts": 457,
+      "supported": 322,
+      "incorrect": 91,
+      "ambiguous": 44,
+      "lower": 0.7045951859956237,
+      "upper": 0.8008752735229759
+    },
+    {
+      "population": "10+ rows",
+      "facts": 99,
+      "supported": 84,
+      "incorrect": 9,
+      "ambiguous": 6,
+      "lower": 0.8484848484848485,
+      "upper": 0.9090909090909091
+    }
+  ],
+  "map_index": 964,
+  "map_facts": 2103,
+  "referenced_facts": 2060,
+  "unreferenced_facts": 43,
+  "death_search_success": 0.3384556667387658,
+  "missing_log_factor": -1.0833621649596326,
+  "prior_examples": [
+    {
+      "pool": 40,
+      "configured_lognormal_mean": 10,
+      "occupancy_probability_before_extra_prior": 0.5,
+      "actual_K_mean": 18.860947041215585,
+      "actual_K_sd": 3.208035113710264,
+      "mode": 19
+    },
+    {
+      "pool": 400,
+      "configured_lognormal_mean": 200,
+      "occupancy_probability_before_extra_prior": 0.5,
+      "actual_K_mean": 199.24907767720234,
+      "actual_K_sd": 10.006136450621275,
+      "mode": 199
+    },
+    {
+      "pool": 800,
+      "configured_lognormal_mean": 200,
+      "occupancy_probability_before_extra_prior": 0.5,
+      "actual_K_mean": 398.9013544500499,
+      "actual_K_sd": 14.152672414543764,
+      "mode": 399
+    }
+  ],
+  "prior_condition": "Fixed N, a=1, b=N², no sentences; actual marginal occupancy prior includes Binomial(pool,.5).",
+  "provenance": "Derived from source TSV, current first-pass annotations, saved trace and analytically marginalized WorldProb target."
+}

@@ -1,0 +1,45 @@
+{
+  "relation": "rel_65",
+  "predicate_id": "expelled",
+  "predicate_version": 1,
+  "predicate_hash": "9669044a95feddc388ec23232f87ca18aac39930bfc689a20f1f56d045f59221",
+  "predicate": {
+    "id": "expelled",
+    "label": "expelled or deported",
+    "definition": "Authority or acting group X forcibly expelled or deported person Y or explicitly affected members of population Y.",
+    "includes": [
+      "explicit expulsion or deportation by X of Y",
+      "historical forced removal of identified members of a population"
+    ],
+    "excludes": [
+      "barring entry without removal",
+      "ordinary voluntary departure",
+      "killing, occupation or criticism alone",
+      "assuming every member of a named population was expelled"
+    ],
+    "ambiguous": [
+      "unclear expelling authority or affected people",
+      "proposed expulsion without established action",
+      "leaving under pressure without an explicit expulsion or deportation"
+    ],
+    "notes": "Direction is expelling authority to affected person/population. The source territory is a separate omitted role; this does not identify a destination.",
+    "scope_notes": "Includes: explicit expulsion or deportation by X of Y; historical forced removal of identified members of a population. Excludes: barring entry without removal; ordinary voluntary departure; killing, occupation or criticism alone; assuming every member of a named population was expelled. Ambiguous unless resolved by case-local evidence: unclear expelling authority or affected people; proposed expulsion without established action; leaving under pressure without an explicit expulsion or deportation. Direction is expelling authority to affected person/population. The source territory is a separate omitted role; this does not identify a destination."
+  },
+  "dictionary_sha256": "64eb1c0954b225ba510d89c4152b4fe91f21e130f0faabc6ceae4b403e3f4927",
+  "kind": "declared_before_case_grading",
+  "rationale": "Deport, expel and possessive deportation form the largest specific coherent family, three paths versus two negotiation paths and singleton policy/treatment/kill/bar paths. Catalogue reviewer independently approved the atomic removal predicate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:33:29.292Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_65.before_grading.json",
+  "pregrading_annotation_sha256": "659c243ec81ffd1809a482d79cb9dad8f2fcee38b8e550a817011e181acd7dc4"
+}

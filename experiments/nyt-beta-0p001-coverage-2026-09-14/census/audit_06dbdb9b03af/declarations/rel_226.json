@@ -1,0 +1,44 @@
+{
+  "relation": "rel_226",
+  "predicate_id": "criticizes",
+  "predicate_version": 1,
+  "predicate_hash": "d6d753a975aabab857381299947b8710fc44d5900e51f7ca64fa2d1da32876ac",
+  "predicate": {
+    "id": "criticizes",
+    "label": "criticized or accused",
+    "definition": "Person or institution X criticized, blamed or accused Y.",
+    "includes": [
+      "explicit criticize/blame/accuse/assail",
+      "a clearly critical directed allegation"
+    ],
+    "excludes": [
+      "warning without criticism",
+      "generic communication or meeting",
+      "rivalry/comparison alone"
+    ],
+    "ambiguous": [
+      "unclear accused person or attributed critic"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+  },
+  "dictionary_sha256": "82690033d3f7a1d361b295228cc9be9055f9069fcde7f441cbac45fa5baf8a20",
+  "kind": "declared_before_case_grading",
+  "rationale": "Accuse16/criticize9/attack6 plus directed criticism P7 dominate; warning, transfers and control remain distinct meanings.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:02:22.922Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    7,
+    11
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_226.before_grading.json",
+  "pregrading_annotation_sha256": "59b5af2b47aec94253f1001fc50aa4ead0e8015820d22a5166d16225648dc0aa"
+}

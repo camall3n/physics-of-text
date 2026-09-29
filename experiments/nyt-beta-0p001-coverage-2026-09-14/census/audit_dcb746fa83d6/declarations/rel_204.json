@@ -1,0 +1,48 @@
+{
+  "relation": "rel_204",
+  "predicate_id": "analyst_for",
+  "predicate_version": 1,
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate": {
+    "id": "analyst_for",
+    "label": "analyst at organization",
+    "definition": "Person X works or worked as an analyst for organization Y.",
+    "includes": [
+      "explicit analyst at/for/with/of",
+      "following or tracking an industry or companies for an employer when it identifies professional analysis"
+    ],
+    "excludes": [
+      "director/president/professor/scientist/spokesperson/editor/lawyer/partner alone",
+      "generic affiliation"
+    ],
+    "ambiguous": [
+      "economist-only, forecaster, strategist or specialist at the analyst role boundary",
+      "unclear role/employer attachment"
+    ],
+    "notes": "Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+    "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst."
+  },
+  "dictionary_sha256": "b92c02779ba6ac7f3992f3c42cb7fd5e14e2aea2097276f831d7734a25a4b77b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Analyst-at/for is the largest specific professional role. Economist, historian, professor and president titles are competing roles rather than a union.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.452Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    5,
+    9
+  ],
+  "competing_meanings": [
+    "economist",
+    "historian",
+    "professor",
+    "president"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_204.before_grading.json",
+  "pregrading_annotation_sha256": "76a05b4c2c324f05ba025b93bb79baab80cb20addcb1c6046d341df87a0fd102"
+}

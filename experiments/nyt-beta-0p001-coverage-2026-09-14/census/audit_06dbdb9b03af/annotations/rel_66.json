@@ -1,0 +1,71 @@
+{
+  "relation": "rel_66",
+  "predicate_id": "outnumbers",
+  "label": "outnumbers",
+  "definition": "Group X has a larger number of members or counted units than group Y in an explicitly stated context.",
+  "scope_notes": "Includes: explicit outnumber relation; a stated numerical comparison establishing a larger count; historical counts in a particular population. Excludes: electoral victory or political control without numerical comparison; generic superiority or strength; score or performance comparison not counting group members. Ambiguous unless resolved by case-local evidence: unclear counted population or ordered groups; a truncated comparison that omits what is counted. This concerns a stated population and time; it does not imply universal or permanent numerical superiority.",
+  "facts": [
+    {
+      "case_id": "rel_66__ent_819__ent_816",
+      "judgment": "supported",
+      "reason": "Democrats → Republicans: Explicit more-than comparison with registration context establishes the larger counted political group.",
+      "evidence_lines": [
+        1919,
+        1921,
+        5472,
+        5474,
+        5917,
+        5919
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.566Z"
+      }
+    },
+    {
+      "case_id": "rel_66__ent_197__ent_520",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → Vernon Jordan: Personal referral or publication editorship/founding is not group-number comparison.",
+      "evidence_lines": [
+        8216,
+        8217,
+        8218,
+        8219,
+        8220
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.566Z"
+      }
+    },
+    {
+      "case_id": "rel_66__ent_858__ent_871",
+      "judgment": "incorrect",
+      "reason": "Michael Murphy → California Technology Stock Letter: Personal referral or publication editorship/founding is not group-number comparison.",
+      "evidence_lines": [
+        2425,
+        2428,
+        2431
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:11.566Z"
+      }
+    }
+  ],
+  "predicate_hash": "ea2ba4bd1533d535eed4d82633648821a63d589288bec539c28a6618154f3c36",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c7ad678e812217e7dc85c8341a276dbc1614985a1aba89a8785a343b5f7e14e9"
+}

@@ -1,0 +1,63 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_13",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_13__ent_251__ent_1422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "White House be-in and secretary/spokesman context leaves physical presence versus institutional role unclear; the subject also includes an unnamed Democrat.",
+      "tags": [
+        "institution_place_ambiguity",
+        "unnamed_person"
+      ],
+      "question": "Does this fact identify Kennedy's physical presence, and is Democrat the same person?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_13__ent_493__ent_374"
+      ],
+      "judgment": "incorrect",
+      "reason": "God/heaven is a theological rather than geographic location; the supplied rows do not establish the declared geographic physical-presence relation.",
+      "tags": [
+        "nonliteral_location"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_13__ent_1055__ent_836",
+        "rel_13__ent_1002__ent_1356",
+        "rel_13__ent_321__ent_1392",
+        "rel_13__ent_1061__ent_40",
+        "rel_13__ent_17__ent_1422"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sporting event/opponent context, reversed dateline-to-institution extraction or spokesperson titles do not establish physical presence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9551be9162064bfa08ec72b46a16d34b28baeba4d06b51adf72f346d181e2719"
+}

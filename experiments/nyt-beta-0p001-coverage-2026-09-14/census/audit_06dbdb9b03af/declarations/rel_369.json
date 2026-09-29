@@ -1,0 +1,49 @@
+{
+  "relation": "rel_369",
+  "predicate_id": "manager_of",
+  "predicate_version": 1,
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate": {
+    "id": "manager_of",
+    "label": "manager of institution",
+    "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+    "includes": [
+      "explicit manager or general manager",
+      "a functional or departmental managerial office within Y",
+      "historical managerial office"
+    ],
+    "excludes": [
+      "president, director, head, executive, or coach alone without a manager title",
+      "ordinary employment or membership",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "a personal principal standing for an omitted institution or campaign",
+      "unclear manager or institutional attachment",
+      "appointment without established tenure"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+    "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title."
+  },
+  "dictionary_sha256": "f5acdbe75c72b79e634f4150b8d9cfe5a22334fe03f330ae29b15d81d292fbbf",
+  "kind": "declared_before_case_grading",
+  "rationale": "Manager possessive/of12 plus further manager-title constructions dominate; run may denote management but without an explicit manager office remains insufficient under this specific title scope.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:20.166Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4,
+    7,
+    12,
+    16,
+    20
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_369.before_grading.json",
+  "pregrading_annotation_sha256": "3983d598ffc9598bd87782da000dc03eb090d974b6de02b00cc67d7c90464ba5"
+}

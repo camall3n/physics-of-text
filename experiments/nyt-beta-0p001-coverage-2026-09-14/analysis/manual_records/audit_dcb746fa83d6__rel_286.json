@@ -1,0 +1,87 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_286",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        10
+      ],
+      "case_ids": [
+        "rel_286__ent_1217__ent_1211",
+        "rel_286__ent_1122__ent_537",
+        "rel_286__ent_823__ent_517",
+        "rel_286__ent_1217__ent_1383"
+      ],
+      "judgment": "supported",
+      "reason": "The unqualified local remain, work, enter, movement-from or play-in evidence establishes physical presence in this geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_286__ent_1004__ent_1260"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The inferred location combines the geographic Bronx with the American League East sporting division.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should the Bronx place be separated from the sporting division before evaluating physical presence?"
+    },
+    {
+      "indices": [
+        0,
+        5,
+        7
+      ],
+      "case_ids": [
+        "rel_286__ent_7__ent_586",
+        "rel_286__ent_6__ent_1415",
+        "rel_286__ent_910__ent_1415"
+      ],
+      "judgment": "ambiguous",
+      "reason": "White House can denote office or employment rather than physical premises, and the local rows do not resolve that distinction.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Does White House refer to physical premises and actual presence in these rows?"
+    },
+    {
+      "indices": [
+        6,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_286__ent_5__ent_814",
+        "rel_286__ent_1288__ent_616",
+        "rel_286__ent_896__ent_1291"
+      ],
+      "judgment": "incorrect",
+      "reason": "Membership in NATO or a report to Congress does not establish geographic physical presence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1c747a50ce089290cdadd39d54ca209c5362a73284d39c550658d8f051a326ac"
+}

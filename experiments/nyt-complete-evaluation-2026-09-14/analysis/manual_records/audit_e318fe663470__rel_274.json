@@ -1,0 +1,135 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_274",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        26
+      ],
+      "case_ids": [
+        "rel_274__ent_131__ent_1230",
+        "rel_274__ent_1403__ent_3",
+        "rel_274__ent_4__ent_3",
+        "rel_274__ent_435__ent_677",
+        "rel_274__ent_1130__ent_434",
+        "rel_274__ent_4__ent_1287",
+        "rel_274__ent_1292__ent_1321",
+        "rel_274__ent_402__ent_644",
+        "rel_274__ent_268__ent_1139",
+        "rel_274__ent_676__ent_1131",
+        "rel_274__ent_1132__ent_436",
+        "rel_274__ent_1445__ent_1321",
+        "rel_274__ent_268__ent_1347",
+        "rel_274__ent_267__ent_612",
+        "rel_274__ent_68__ent_1046",
+        "rel_274__ent_1214__ent_1322",
+        "rel_274__ent_1219__ent_899",
+        "rel_274__ent_1298__ent_1444",
+        "rel_274__ent_894__ent_1220",
+        "rel_274__ent_657__ent_899"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit leader, head, president, or chair evidence supports leadership of the named body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_274__ent_1364__ent_55",
+        "rel_274__ent_716__ent_142"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The same fact combines materially different subjects, so its supporting leadership cannot be assigned to a single coherent inferred person.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which distinct subject should this inferred entity represent?"
+    },
+    {
+      "indices": [
+        8,
+        10,
+        20
+      ],
+      "case_ids": [
+        "rel_274__ent_1203__ent_497",
+        "rel_274__ent_67__ent_1384",
+        "rel_274__ent_4__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leadership wording is present but the singular nationality or political descriptor does not identify the complete governed group.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What full political body or people does the truncated second argument denote?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_274__ent_180__ent_662"
+      ],
+      "judgment": "incorrect",
+      "reason": "Meeting or praising a person does not establish that the subject leads that person.",
+      "tags": [
+        "wrong_predicate",
+        "local_entity_collision"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        23
+      ],
+      "case_ids": [
+        "rel_274__ent_1370__ent_129"
+      ],
+      "judgment": "incorrect",
+      "reason": "Being a lawyer of the organization does not establish organizational leadership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3,
+    5,
+    6,
+    7,
+    18,
+    19,
+    21,
+    22
+  ],
+  "broad": []
+}

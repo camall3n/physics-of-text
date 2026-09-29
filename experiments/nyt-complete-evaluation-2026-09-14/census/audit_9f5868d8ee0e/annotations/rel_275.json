@@ -1,0 +1,1110 @@
+{
+  "relation": "rel_275",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_275.json",
+    "source_sha256": "4d77ea9c89014b53f5d6b0a2bc4e1a014d742131b3767341224c6eb4232a3776",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_275__ent_1147__ent_209",
+      "judgment": "supported",
+      "reason": "Yankee Group → Boston: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5763,
+        5764,
+        5765,
+        5766,
+        5767,
+        5768,
+        5769,
+        5770,
+        5771,
+        5772,
+        7087,
+        7088,
+        7089,
+        7090,
+        7091,
+        7092,
+        7093,
+        7094,
+        7095,
+        7096
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.086Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_207__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar Inc. → Chicago: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5743,
+        5744,
+        5746,
+        5747,
+        5748,
+        5749,
+        5750,
+        5751,
+        5752,
+        7107,
+        7108,
+        7109,
+        7110,
+        7111,
+        7112,
+        7113,
+        7114
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1148__ent_460",
+      "judgment": "supported",
+      "reason": "NPD Group → Port Washington: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5773,
+        5774,
+        5775,
+        5777,
+        5778,
+        5779,
+        5781,
+        7137,
+        7138,
+        7139,
+        7141,
+        7143,
+        7145
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_461__ent_222",
+      "judgment": "supported",
+      "reason": "Dataquest → San Jose: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5803,
+        5804,
+        5805,
+        5806,
+        5807,
+        5811,
+        7097,
+        7098,
+        7099,
+        7100,
+        7101,
+        7104,
+        7105
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_464__ent_221",
+      "judgment": "supported",
+      "reason": "International Data Corporation → Framingham: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5813,
+        5814,
+        5815,
+        5816,
+        5818,
+        5821,
+        5822,
+        7147,
+        7148,
+        7149,
+        7150,
+        7152,
+        7156
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_293__ent_10",
+      "judgment": "ambiguous",
+      "reason": "Bertelsmann → German: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        3599,
+        3600,
+        3601,
+        3602,
+        3603,
+        3604,
+        3605,
+        3606,
+        3607,
+        3608
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_275.json",
+        "annotation_sha256": "4d77ea9c89014b53f5d6b0a2bc4e1a014d742131b3767341224c6eb4232a3776"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_23__ent_29",
+      "judgment": "ambiguous",
+      "reason": "Sanofi → French: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        3637,
+        3638,
+        3639,
+        3640,
+        3641,
+        3642,
+        3643,
+        3644,
+        3645,
+        3646
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_21__ent_10",
+      "judgment": "ambiguous",
+      "reason": "Siemens → German: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        3658,
+        3659,
+        3660,
+        3661,
+        3662,
+        3663,
+        3664,
+        3665,
+        3666,
+        3667
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_449__ent_1146",
+      "judgment": "supported",
+      "reason": "HSH Associates → Butler: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5753,
+        5754,
+        5755,
+        5756,
+        5757,
+        5758,
+        5759,
+        5760,
+        5761,
+        5762
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_220__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar → Chicago: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5783,
+        5784,
+        5785,
+        5786,
+        5787,
+        5788,
+        5789,
+        5790,
+        5791,
+        5792
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_463__ent_440",
+      "judgment": "supported",
+      "reason": "T. Rowe Price → Baltimore: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5823,
+        5824,
+        5825,
+        5826,
+        5827,
+        5828,
+        5829,
+        5830,
+        5831,
+        5832
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1087__ent_701",
+      "judgment": "supported",
+      "reason": "Gartner Group → Stamford: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7117,
+        7118,
+        7119,
+        7120,
+        7121,
+        7122,
+        7123,
+        7124,
+        7125,
+        7126
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_943__ent_1088",
+      "judgment": "supported",
+      "reason": "Forrester Research → Cambridge: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7127,
+        7128,
+        7129,
+        7130,
+        7131,
+        7132,
+        7133,
+        7134,
+        7135,
+        7136
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company → Washington: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7421,
+        7422,
+        7423,
+        7424,
+        7425,
+        7426,
+        7427,
+        7428,
+        7429,
+        7430
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_275.json",
+        "annotation_sha256": "4d77ea9c89014b53f5d6b0a2bc4e1a014d742131b3767341224c6eb4232a3776"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_290__ent_11",
+      "judgment": "ambiguous",
+      "reason": "Philips N.V. → Dutch: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        3591,
+        3592,
+        3593,
+        3594,
+        3595,
+        3596,
+        3597,
+        3598
+      ],
+      "issue_tags": [
+        "place_metonymy"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_27__ent_29",
+      "judgment": "ambiguous",
+      "reason": "Cegetel → French: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        3619,
+        3620,
+        3621,
+        3622,
+        3623,
+        3624,
+        3625,
+        3626
+      ],
+      "issue_tags": [
+        "place_metonymy"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_714__ent_1002",
+      "judgment": "supported",
+      "reason": "Futures Group → Washington: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7393,
+        7394,
+        7395,
+        7396,
+        7397,
+        7398,
+        7399,
+        7400
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_539__ent_713",
+      "judgment": "supported",
+      "reason": "Hicks → Dallas: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7411,
+        7412,
+        7413,
+        7414,
+        7415,
+        7416,
+        7417,
+        7420
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_999__ent_518",
+      "judgment": "incorrect",
+      "reason": "Blake → Yonkers: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        8410,
+        8411,
+        8412,
+        8413,
+        8414,
+        8415,
+        8416,
+        8417
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_292__ent_28",
+      "judgment": "ambiguous",
+      "reason": "Novartis → Swiss: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        3609,
+        3610,
+        3611,
+        3612,
+        3613,
+        3615,
+        3617
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_275.json",
+        "annotation_sha256": "4d77ea9c89014b53f5d6b0a2bc4e1a014d742131b3767341224c6eb4232a3776"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_224__ent_466",
+      "judgment": "supported",
+      "reason": "Soundscan → Hartsdale: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5833,
+        5834,
+        5835,
+        5836,
+        5837,
+        5839,
+        5840
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_700__ent_843",
+      "judgment": "supported",
+      "reason": "Pearl Meyer & Partners → New York: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7157,
+        7158,
+        7159,
+        7160,
+        7161,
+        7162,
+        7163
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1089__ent_703",
+      "judgment": "supported",
+      "reason": "Birinyi Associates → Greenwich: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7174,
+        7175,
+        7176,
+        7178,
+        7179,
+        7181,
+        7182
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1078__ent_429",
+      "judgment": "supported",
+      "reason": "Exhibitor Relations → Los Angeles: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        6818,
+        6819,
+        6820,
+        6821,
+        6822,
+        6823
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1080__ent_936",
+      "judgment": "incorrect",
+      "reason": "DoubleClick → Internet: Internet or Bell denotes an industry or corporate family, not a geographic organizational location.",
+      "evidence_lines": [
+        6854,
+        6855,
+        6856,
+        6858,
+        6859,
+        6860
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1082__ent_843",
+      "judgment": "supported",
+      "reason": "Real Capital Analytics → New York: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        6866,
+        6867,
+        6868,
+        6869,
+        6870,
+        6871
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_942__ent_843",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → New York: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7164,
+        7165,
+        7166,
+        7167,
+        7169,
+        7171
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_300__ent_843",
+      "judgment": "ambiguous",
+      "reason": "Kohlberg → New York: The same named argument is a firm in location rows and a person in a born-in row, leaving organization versus person identity unresolved.",
+      "evidence_lines": [
+        7351,
+        7352,
+        7353,
+        7354,
+        7356,
+        7357
+      ],
+      "issue_tags": [
+        "entity_merge",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Kohlberg denote the firm consistently, or has a person been merged into this fact?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_956__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Media Metrix → Internet: Internet or Bell denotes an industry or corporate family, not a geographic organizational location.",
+      "evidence_lines": [
+        7401,
+        7402,
+        7404,
+        7405,
+        7406,
+        7409
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_275.json",
+        "annotation_sha256": "4d77ea9c89014b53f5d6b0a2bc4e1a014d742131b3767341224c6eb4232a3776"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_556__ent_798",
+      "judgment": "incorrect",
+      "reason": "Mr. Lee → Taiwan: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        981,
+        982,
+        983,
+        988,
+        989
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_462__ent_683",
+      "judgment": "supported",
+      "reason": "Mcorp → Texas: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        5793,
+        5794,
+        5796,
+        5797,
+        5799
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_345__ent_333",
+      "judgment": "supported",
+      "reason": "Corcoran Group → Manhattan: Explicit company/firm-in, geographic company modifier, or based-in evidence supports the organization location.",
+      "evidence_lines": [
+        7371,
+        7372,
+        7373,
+        7376,
+        7379
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_942__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications → Internet: Internet or Bell denotes an industry or corporate family, not a geographic organizational location.",
+      "evidence_lines": [
+        7383,
+        7384,
+        7385,
+        7386,
+        7387
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_909__ent_908",
+      "judgment": "incorrect",
+      "reason": "Mr. Sheng → Shanghai: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        8422,
+        8423,
+        8424,
+        8425,
+        8426
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_903__ent_902",
+      "judgment": "incorrect",
+      "reason": "Mrs. Bobbitt → Ecuador: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        8428,
+        8429,
+        8430,
+        8431,
+        8432
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_934__ent_1079",
+      "judgment": "ambiguous",
+      "reason": "Unilever → British-Dutch: The second argument is a nationality adjective rather than a resolved geographic place; local fragments do not securely resolve the place.",
+      "evidence_lines": [
+        6824,
+        6828,
+        6830,
+        6832
+      ],
+      "issue_tags": [
+        "place_metonymy"
+      ],
+      "reviewer_question": "Should this nationality adjective count as an inferred geographic location under the agreed literal-argument scope?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.087Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_797__ent_1010",
+      "judgment": "incorrect",
+      "reason": "Mr. Hamdi → Louisiana: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        992,
+        993,
+        994
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_558__ent_1011",
+      "judgment": "incorrect",
+      "reason": "Mr. Ghosn → Brazil: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        1005,
+        1007,
+        1008
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_275.json",
+        "annotation_sha256": "4d77ea9c89014b53f5d6b0a2bc4e1a014d742131b3767341224c6eb4232a3776"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_943__ent_936",
+      "judgment": "incorrect",
+      "reason": "Forrester Research → Internet: Internet or Bell denotes an industry or corporate family, not a geographic organizational location.",
+      "evidence_lines": [
+        7361,
+        7362,
+        7367
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1081__ent_931",
+      "judgment": "incorrect",
+      "reason": "Ameritech Corporation → Bell: Internet or Bell denotes an industry or corporate family, not a geographic organizational location.",
+      "evidence_lines": [
+        6864,
+        6865
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_125__ent_367",
+      "judgment": "incorrect",
+      "reason": "Walter G. Williams → N.Y. ) Hospital: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        1771
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_1055__ent_117",
+      "judgment": "incorrect",
+      "reason": "Rabbi Israel Spira → Maimonides Hospital: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        1778
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_20__ent_22",
+      "judgment": "ambiguous",
+      "reason": "Paul Dergarabedian → Los Angeles-based: The named first argument is a person while the apposition refers to a Los Angeles-based company; the company identity and attachment are missing.",
+      "evidence_lines": [
+        3657
+      ],
+      "issue_tags": [
+        "entity_type",
+        "attachment"
+      ],
+      "reviewer_question": "Is the named person standing for an omitted company, and what organization is actually located here?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_517__ent_759",
+      "judgment": "incorrect",
+      "reason": "Yu Cho → Korea: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        8418
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    },
+    {
+      "case_id": "rel_275__ent_906__ent_835",
+      "judgment": "incorrect",
+      "reason": "Ms. Leach → England: The evidence describes a person’s birth, life or death, not an organization located in a place.",
+      "evidence_lines": [
+        8421
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:21.090Z"
+      }
+    }
+  ]
+}

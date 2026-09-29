@@ -1,0 +1,91 @@
+{
+  "relation": "rel_246",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization X is owned by, a subsidiary of, or an organizational unit of parent Y.",
+  "scope_notes": "Unit, part, subsidiary and owned-by define the child-to-parent containment predicate, retaining prior scope. This cluster includes many office-location attachments: a city label may be shorthand for an omitted local office, but the literal city is not the organizational unit, so those cases require identity clarification.",
+  "facts": [
+    {
+      "case_id": "rel_246__ent_660__ent_623",
+      "judgment": "ambiguous",
+      "reason": "The office-of and part-of paths appear to describe a San Francisco office associated with Foote, but the source argument names the city rather than a particular office or agency.",
+      "evidence_lines": [
+        4141,
+        4142,
+        4144,
+        4149,
+        4150
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Which San Francisco office or agency is omitted, and is that organization a unit of Foote rather than the city itself?"
+    },
+    {
+      "case_id": "rel_246__ent_843__ent_1104",
+      "judgment": "ambiguous",
+      "reason": "New York has office-of, part-of and unit paths involving BBDO Worldwide, but the city label leaves the local organizational unit unspecified.",
+      "evidence_lines": [
+        4131,
+        4132,
+        4135,
+        4137,
+        4138
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Does New York denote a specific BBDO office or agency, and what is its full organizational identity?"
+    },
+    {
+      "case_id": "rel_246__ent_843__ent_421",
+      "judgment": "ambiguous",
+      "reason": "Office, part and division paths plausibly describe a New York office of Fallon Worldwide, but the literal city argument is not an organizational subsidiary.",
+      "evidence_lines": [
+        4200,
+        4203,
+        4204,
+        4206,
+        4207
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "What specific New York office or agency is meant, and should it be represented separately from the city?"
+    },
+    {
+      "case_id": "rel_246__ent_665__ent_1069",
+      "judgment": "supported",
+      "reason": "Euro RSCG Worldwide is explicitly a unit, part and division of Havas Advertising and is owned by it; one appended-text path is malformed but clean supporting paths remain.",
+      "evidence_lines": [
+        6663,
+        6664,
+        6665,
+        6666,
+        6668,
+        6669
+      ],
+      "issue_tags": [
+        "malformed_path"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_246__ent_822__ent_640",
+      "judgment": "supported",
+      "reason": "American is consistently described here as AMR Corporation unit, subsidiary and division, with AMR explicitly its parent. These organizational descriptions identify the airline shorthand within the case.",
+      "evidence_lines": [
+        2554,
+        2555,
+        2558,
+        2559,
+        6575,
+        6582
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

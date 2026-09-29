@@ -1,0 +1,104 @@
+{
+  "relation": "rel_218",
+  "predicate_id": "population_includes",
+  "label": "population includes subgroup members",
+  "definition": "Population X is explicitly described as including people of demographic subgroup Y.",
+  "scope_notes": "Includes: explicit population including people from Y; a stated subgroup among the described population; historical described populations. Excludes: ordinary organizational membership or corporate ownership; geographic containment alone; mere comparison, proximity, or interaction; inferring that every member of Y belongs to X. Ambiguous unless resolved by case-local evidence: generic include with unclear demographic roles; unclear population versus person or organization; a subgroup attachment to another population. This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X.",
+  "facts": [
+    {
+      "case_id": "rel_218__ent_182__ent_433",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Barbara: Spousal/parental, ownership or director-office relations are not demographic population inclusion.",
+      "evidence_lines": [
+        4545,
+        4546,
+        4549,
+        4551
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.204Z"
+      }
+    },
+    {
+      "case_id": "rel_218__ent_722__ent_669",
+      "judgment": "supported",
+      "reason": "Westerners → Americans: Direct including and group-including evidence identifies Americans among the described Westerners population.",
+      "evidence_lines": [
+        7526,
+        7527,
+        7531,
+        7535
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.204Z"
+      }
+    },
+    {
+      "case_id": "rel_218__ent_350__ent_592",
+      "judgment": "incorrect",
+      "reason": "Marge Schott → Cincinnati Reds: Spousal/parental, ownership or director-office relations are not demographic population inclusion.",
+      "evidence_lines": [
+        1471,
+        1472,
+        1474
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.204Z"
+      }
+    },
+    {
+      "case_id": "rel_218__ent_1028__ent_175",
+      "judgment": "incorrect",
+      "reason": "Zenia Mucha → Mr. Pataki: Spousal/parental, ownership or director-office relations are not demographic population inclusion.",
+      "evidence_lines": [
+        1183,
+        3524
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.204Z"
+      }
+    },
+    {
+      "case_id": "rel_218__ent_1048__ent_1049",
+      "judgment": "incorrect",
+      "reason": "Caroline Smith DeWaal → Center for Science: Spousal/parental, ownership or director-office relations are not demographic population inclusion.",
+      "evidence_lines": [
+        1746,
+        1747
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.204Z"
+      }
+    }
+  ],
+  "predicate_hash": "aed7f7b75db58e4e35d1cd148ad04cbab35cfa09e644b237df956c7b3fe7c574",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c0fdaec8a9cdc627cc1d2c111c0fde34fb0177c2e94ee25717c7b8fd28dff439"
+}

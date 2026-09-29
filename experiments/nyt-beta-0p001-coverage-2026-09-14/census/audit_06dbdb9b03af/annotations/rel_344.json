@@ -1,0 +1,55 @@
+{
+  "relation": "rel_344",
+  "predicate_id": "coach_of",
+  "label": "coach of",
+  "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+  "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment.",
+  "facts": [
+    {
+      "case_id": "rel_344__ent_1174__ent_1004",
+      "judgment": "supported",
+      "reason": "Mel Stottlemyre → Yankees: Direct coach-for, continuing as coach and retiring as coach establish coaching service.",
+      "evidence_lines": [
+        6457,
+        6458,
+        6459,
+        6460,
+        6461,
+        6462,
+        6463,
+        6464,
+        6465
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.839Z"
+      }
+    },
+    {
+      "case_id": "rel_344__ent_700__ent_843",
+      "judgment": "incorrect",
+      "reason": "Pearl Meyer & Partners → New York: A consulting firm and a city are not a person coaching a sports team.",
+      "evidence_lines": [
+        7161,
+        7163
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.839Z"
+      }
+    }
+  ],
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "873be736f7c47731eb2b6ddbab8b401b4122ec92406a98f9ac23c7d67abf49bc"
+}

@@ -1,0 +1,149 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_284",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3,
+        17
+      ],
+      "case_ids": [
+        "rel_284__ent_1110__ent_899",
+        "rel_284__ent_898__ent_140",
+        "rel_284__ent_657__ent_899"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit lawyer/attorney work for or with the named organization establishes legal representation/employment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        11,
+        14,
+        15,
+        26
+      ],
+      "case_ids": [
+        "rel_284__ent_995__ent_333",
+        "rel_284__ent_514__ent_1254",
+        "rel_284__ent_513__ent_984",
+        "rel_284__ent_756__ent_537",
+        "rel_284__ent_998__ent_537",
+        "rel_284__ent_173__ent_323",
+        "rel_284__ent_755__ent_537",
+        "rel_284__ent_758__ent_537",
+        "rel_284__ent_998__ent_900"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        6,
+        9,
+        10,
+        13,
+        18,
+        19,
+        21,
+        24,
+        27,
+        28,
+        31,
+        32
+      ],
+      "case_ids": [
+        "rel_284__ent_562__ent_1002",
+        "rel_284__ent_564__ent_1002",
+        "rel_284__ent_23__ent_441",
+        "rel_284__ent_182__ent_1002",
+        "rel_284__ent_1290__ent_450",
+        "rel_284__ent_195__ent_1002",
+        "rel_284__ent_180__ent_1002",
+        "rel_284__ent_1297__ent_818",
+        "rel_284__ent_1434__ent_451",
+        "rel_284__ent_564__ent_616",
+        "rel_284__ent_7__ent_812",
+        "rel_284__ent_483__ent_1361",
+        "rel_284__ent_1329__ent_701"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        12,
+        22,
+        25,
+        30
+      ],
+      "case_ids": [
+        "rel_284__ent_351__ent_1004",
+        "rel_284__ent_284__ent_693",
+        "rel_284__ent_1358__ent_1411",
+        "rel_284__ent_400__ent_1340"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sports ownership, results or stadium use does not establish legal representation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        16,
+        20,
+        23,
+        29,
+        33,
+        34
+      ],
+      "case_ids": [
+        "rel_284__ent_108__ent_1047",
+        "rel_284__ent_348__ent_1045",
+        "rel_284__ent_1098__ent_954",
+        "rel_284__ent_136__ent_623",
+        "rel_284__ent_1098__ent_325",
+        "rel_284__ent_728__ent_125"
+      ],
+      "judgment": "incorrect",
+      "reason": "Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    11,
+    15,
+    17,
+    26
+  ],
+  "broad": []
+}

@@ -1,0 +1,725 @@
+{
+  "relation": "rel_353",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_353.json",
+    "source_sha256": "9967bd6d44156a287332353a4756f0cce4648c3b6ca0f5b31f574a9dd300d21f",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_353__ent_885__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Peter → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        3935,
+        3936,
+        3937,
+        3938,
+        3939,
+        3940,
+        3941,
+        3942,
+        3943,
+        3944
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_646__ent_333",
+      "judgment": "supported",
+      "reason": "David → Manhattan: The evidence explicitly locates this person’s residence or own home in the named city.",
+      "evidence_lines": [
+        3955,
+        3956,
+        3957,
+        3958,
+        3959,
+        3960,
+        3961,
+        3962,
+        3963,
+        3964
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_887__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Daniel → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        3995,
+        3996,
+        3997,
+        3998,
+        3999,
+        4000,
+        4001,
+        4002,
+        4003,
+        4004
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_7__ent_243",
+      "judgment": "incorrect",
+      "reason": "Democrat → Armed Services Committee: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        6299,
+        6300,
+        6301,
+        6302,
+        6303,
+        6304,
+        6305,
+        6306,
+        6307,
+        6308
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_7__ent_485",
+      "judgment": "incorrect",
+      "reason": "Democrat → Senate Armed Services Committee: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        6309,
+        6310,
+        6311,
+        6312,
+        6313,
+        6314,
+        6315,
+        6316,
+        6317,
+        6318
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_353.json",
+        "annotation_sha256": "9967bd6d44156a287332353a4756f0cce4648c3b6ca0f5b31f574a9dd300d21f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_7__ent_488",
+      "judgment": "incorrect",
+      "reason": "Democrat → House Armed Services Committee: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        6334,
+        6335,
+        6336,
+        6337,
+        6338,
+        6339,
+        6340,
+        6341,
+        6342,
+        6343
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_933__ent_936",
+      "judgment": "incorrect",
+      "reason": "Google → Internet: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        6834,
+        6835,
+        6836,
+        6837,
+        6838,
+        6839,
+        6840,
+        6841,
+        6842,
+        6843
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_353.json",
+        "annotation_sha256": "9967bd6d44156a287332353a4756f0cce4648c3b6ca0f5b31f574a9dd300d21f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_404__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Michael → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        3945,
+        3946,
+        3947,
+        3948,
+        3950,
+        3951,
+        3952
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_1100__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Andrew → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        4005,
+        4006,
+        4007,
+        4008,
+        4009,
+        4010,
+        4013
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_406__ent_333",
+      "judgment": "ambiguous",
+      "reason": "William → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        4014,
+        4015,
+        4016,
+        4017,
+        4018,
+        4022,
+        4023
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_604__ent_846",
+      "judgment": "incorrect",
+      "reason": "Joel E. Miller → Queens: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2300,
+        2301,
+        2302,
+        2303,
+        2304,
+        2305
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_643__ent_333",
+      "judgment": "supported",
+      "reason": "Robert → Manhattan: The evidence explicitly locates this person’s residence or own home in the named city.",
+      "evidence_lines": [
+        3925,
+        3926,
+        3927,
+        3928,
+        3932,
+        3934
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_888__ent_333",
+      "judgment": "ambiguous",
+      "reason": "John → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        3965,
+        3966,
+        3971,
+        3972,
+        3973,
+        3974
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_645__ent_333",
+      "judgment": "supported",
+      "reason": "Mark → Manhattan: The evidence explicitly locates this person’s residence or own home in the named city.",
+      "evidence_lines": [
+        3985,
+        3986,
+        3987,
+        3989,
+        3990,
+        3993
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_263__ent_244",
+      "judgment": "incorrect",
+      "reason": "Republican → Judiciary Committee: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        6269,
+        6270,
+        6272,
+        6274,
+        6277
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_2__ent_1",
+      "judgment": "incorrect",
+      "reason": "Felix G. Rohatyn → Municipal Assistance Corporation: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        240,
+        241,
+        245,
+        246
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_844__ent_1002",
+      "judgment": "incorrect",
+      "reason": "John Dowd → Washington: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2290,
+        2291,
+        2292,
+        2293
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_353.json",
+        "annotation_sha256": "9967bd6d44156a287332353a4756f0cce4648c3b6ca0f5b31f574a9dd300d21f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_603__ent_333",
+      "judgment": "incorrect",
+      "reason": "Richard Siegler → Manhattan: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2306,
+        2307,
+        2308,
+        2309
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_848__ent_333",
+      "judgment": "incorrect",
+      "reason": "Stuart Saft → Manhattan: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2314,
+        2315,
+        2316,
+        2317
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_605__ent_333",
+      "judgment": "incorrect",
+      "reason": "David Ng → Manhattan: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2318,
+        2319,
+        2320,
+        2321
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_403__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Richard → Manhattan: The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "evidence_lines": [
+        3975,
+        3976,
+        3978,
+        3981
+      ],
+      "issue_tags": [
+        "attachment_ambiguity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_67__ent_1138",
+      "judgment": "incorrect",
+      "reason": "Radovan Karadzic → Bosnian Serbs: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        4978,
+        4980,
+        4983,
+        4984
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_831__ent_213",
+      "judgment": "incorrect",
+      "reason": "Croatia → Franjo Tudjman: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        5319,
+        5321,
+        5324,
+        5325
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_602__ent_333",
+      "judgment": "incorrect",
+      "reason": "Arthur I. Weinstein → Manhattan: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2287,
+        2288,
+        2289
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_606__ent_333",
+      "judgment": "incorrect",
+      "reason": "Aaron Shmulewitz → Manhattan: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        2311,
+        2312,
+        2313
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_63__ent_543",
+      "judgment": "incorrect",
+      "reason": "Richard Jefferson → Nets: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        3099,
+        3100,
+        3102
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_353.json",
+        "annotation_sha256": "9967bd6d44156a287332353a4756f0cce4648c3b6ca0f5b31f574a9dd300d21f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_752__ent_510",
+      "judgment": "incorrect",
+      "reason": "Pat Cash → Wimbledon: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        7996,
+        7999,
+        8002
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_1188__ent_802",
+      "judgment": "incorrect",
+      "reason": "Naomi Siegel → Shakespeare Theater: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        1841,
+        1842
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_481__ent_242",
+      "judgment": "incorrect",
+      "reason": "Sotheby → York Avenue: The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "evidence_lines": [
+        6250,
+        6253
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_353.json",
+        "annotation_sha256": "9967bd6d44156a287332353a4756f0cce4648c3b6ca0f5b31f574a9dd300d21f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.843Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_883__ent_633",
+      "judgment": "supported",
+      "reason": "William R. Knapp → Westport: The evidence explicitly locates this person’s residence or own home in the named city.",
+      "evidence_lines": [
+        2682
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_877__ent_634",
+      "judgment": "supported",
+      "reason": "William B. Bergen → St. Michaels: The evidence explicitly locates this person’s residence or own home in the named city.",
+      "evidence_lines": [
+        2685
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_876__ent_333",
+      "judgment": "supported",
+      "reason": "Walter Mendelsohn → Manhattan: The evidence explicitly locates this person’s residence or own home in the named city.",
+      "evidence_lines": [
+        2686
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:15.842Z"
+      }
+    }
+  ]
+}

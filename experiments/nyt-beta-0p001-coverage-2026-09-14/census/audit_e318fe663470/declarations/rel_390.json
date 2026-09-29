@@ -1,0 +1,41 @@
+{
+  "relation": "rel_390",
+  "predicate_id": "reviews_artistic_output_of",
+  "predicate_version": 1,
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate": {
+    "id": "reviews_artistic_output_of",
+    "label": "reviewed artistic output of",
+    "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+    "includes": [
+      "review of Y's performance, program, production, or artistic work",
+      "direct review of artist or ensemble Y in an artistic criticism context",
+      "historical reviews"
+    ],
+    "excludes": [
+      "a review merely taking place at venue Y",
+      "ordinary mention, attendance, or affiliation",
+      "an unrelated subject reviewed at a place owned by Y",
+      "authorship for a publication without reviewing Y's work"
+    ],
+    "ambiguous": [
+      "Y could denote the venue rather than the producer or performer",
+      "unclear reviewer or artistic-work attachment"
+    ],
+    "notes": "Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+    "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator."
+  },
+  "dictionary_sha256": "df5db4e6988d844edd75d50cc2dd213245a858fadfa86d6c26f4f1cefbf1b20e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Review performance, program, production, revival and concert paths relate critics to artistic companies. Venue-only review-at does not by itself establish review of that venue's artistic output.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.561Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_390.before_grading.json",
+  "pregrading_annotation_sha256": "73dbd0f81c2a1adbb6bcd88e7859821dd7894546559bb84fe746d6793384ef1e"
+}

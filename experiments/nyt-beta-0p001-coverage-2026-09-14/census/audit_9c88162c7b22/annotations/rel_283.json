@@ -1,0 +1,654 @@
+{
+  "relation": "rel_283",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_283.json",
+    "source_sha256": "2e9e9ef41c6675833ee2fbbda4bb3c4679708bc9a4760ab2b467c50811756ef1",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_283__ent_309__ent_1004",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        861,
+        867,
+        868,
+        2661,
+        2667,
+        2668,
+        6928,
+        6929,
+        6933,
+        6934
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_1004__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        881,
+        883,
+        886,
+        2583,
+        2586,
+        2587,
+        3136,
+        6897,
+        6899
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_1004__ent_321",
+      "judgment": "supported",
+      "reason": "Yankees → Mets: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        901,
+        904,
+        905,
+        907,
+        2591,
+        2592,
+        2594,
+        2595,
+        2597
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_321__ent_1084",
+      "judgment": "supported",
+      "reason": "Mets → Phillies: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        6907,
+        6908,
+        6909,
+        6910,
+        6911,
+        6912,
+        6915,
+        6916
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_561__ent_560",
+      "judgment": "supported",
+      "reason": "Giants → Redskins: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        891,
+        892,
+        893,
+        894,
+        896,
+        898,
+        899
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_321__ent_1004",
+      "judgment": "supported",
+      "reason": "Mets → Yankees: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        911,
+        912,
+        913,
+        915,
+        916,
+        918,
+        919
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_308__ent_543",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        932,
+        934,
+        935,
+        936,
+        2613,
+        2615,
+        2616
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_543__ent_308",
+      "judgment": "supported",
+      "reason": "Nets → Knicks: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        941,
+        942,
+        943,
+        946,
+        948,
+        949
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_347__ent_110",
+      "judgment": "supported",
+      "reason": "Rangers → Devils: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        2601,
+        2602,
+        2603,
+        2606,
+        2608,
+        2609
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_400__ent_884",
+      "judgment": "supported",
+      "reason": "Jets → Raiders: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        2641,
+        2642,
+        2644,
+        2645,
+        2646,
+        2647
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_561__ent_563",
+      "judgment": "supported",
+      "reason": "Giants → Eagles: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        2651,
+        2652,
+        2655,
+        2657,
+        2658,
+        2660
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_1016__ent_557",
+      "judgment": "supported",
+      "reason": "St Louis Cardinals → New York Mets: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        1073,
+        1074,
+        1075,
+        1076,
+        1077
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_400__ent_642",
+      "judgment": "supported",
+      "reason": "Jets → Dolphins: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        2632,
+        2633,
+        2634,
+        2636,
+        2640
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_321__ent_278",
+      "judgment": "supported",
+      "reason": "Mets → Braves: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        6887,
+        6888,
+        6892,
+        6894,
+        6896
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_110__ent_347",
+      "judgment": "supported",
+      "reason": "Devils → Rangers: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        6967,
+        6968,
+        6969,
+        6970,
+        6972
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_1015__ent_557",
+      "judgment": "supported",
+      "reason": "San Diego Padres → New York Mets: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        1059,
+        1060,
+        1061,
+        1062
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_308__ent_1005",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        872,
+        877,
+        6041
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_182__ent_316",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Mr. Gore: An explicit beat, defeat, sweep or victory-over row supports the completed winner-to-opponent predicate. Other losses, trades, participation or standings do not erase the historical win.",
+      "evidence_lines": [
+        3088,
+        3089,
+        3093
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_888__ent_333",
+      "judgment": "incorrect",
+      "reason": "John → Manhattan: The supplied loss/play/local-opening or meeting evidence provides no completed victory by the first argument over the second.",
+      "evidence_lines": [
+        3967,
+        3970,
+        3972
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_283__ent_867__ent_1156",
+      "judgment": "incorrect",
+      "reason": "NBC → Press: The supplied loss/play/local-opening or meeting evidence provides no completed victory by the first argument over the second.",
+      "evidence_lines": [
+        6022
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:54:35.182Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_283.json",
+        "annotation_sha256": "34b71d3b0adf810c2e560c464663872242e9f46ed1dda0d2fbc264e8e29a6498",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1
+}

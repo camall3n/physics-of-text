@@ -1,0 +1,49 @@
+{
+  "relation": "rel_292",
+  "predicate_id": "has_political_leader",
+  "predicate_version": 1,
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate": {
+    "id": "has_political_leader",
+    "label": "political body has a leader",
+    "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+    "includes": [
+      "national president/ruler/head of government",
+      "named parliamentary majority/minority leader or whip",
+      "historical leadership"
+    ],
+    "excludes": [
+      "corporate/team leadership",
+      "ordinary membership/meeting",
+      "party control instead of an individual leader",
+      "person-to-body forward direction"
+    ],
+    "ambiguous": [
+      "unspecified minister without evidence of head-of-government or leadership scope",
+      "truncated body or unnamed officeholder"
+    ],
+    "notes": "Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+    "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S."
+  },
+  "dictionary_sha256": "98589edae75cc58daefc5716eadfd7a559a39a20577090949194ab7e28dc1ca3",
+  "kind": "declared_before_case_grading",
+  "rationale": "Strongman/government-run-by and political dominance define inverse leader relation; team better-without distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.346Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_292.before_grading.json",
+  "pregrading_annotation_sha256": "12a4d5e4001327ee9040e206c5039e15bbcc3f176fd6e35fbb1a4b2f431dcde6"
+}

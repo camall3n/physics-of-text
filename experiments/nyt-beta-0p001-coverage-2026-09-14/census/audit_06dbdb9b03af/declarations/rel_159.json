@@ -1,0 +1,32 @@
+{
+  "relation": "rel_159",
+  "predicate_id": "has_spokesperson",
+  "predicate_version": 1,
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate": {
+    "id": "has_spokesperson",
+    "label": "has spokesperson",
+    "definition": "Organization or principal X has person Y serving as its spokesperson.",
+    "includes": [
+      "inverse spokesperson_for with correct attachment",
+      "organization-modifying spokesman and appositive person"
+    ],
+    "excludes": [
+      "leader/president/lawyer/secretary alone",
+      "speaking at a building",
+      "spokesperson-to-principal forward direction"
+    ],
+    "ambiguous": [
+      "dateline/location replacing the principal or person"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person."
+  },
+  "dictionary_sha256": "67b9c6f9ebd62d3fa37e4eb5e2e09c0a7efee0e7c6a508150252a412589324a8",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "prior_annotation_sha256": "727853353e23b923c89dc1c3f67d1124b4819a5b3a6f5a001453332252353234",
+  "prior_assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441"
+}

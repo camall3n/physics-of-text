@@ -1,0 +1,386 @@
+{
+  "relation": "rel_170",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_170.json",
+    "source_sha256": "93e16f183a0ec24be4c12531d21bb63e13268733ee685071687690f4e9c42b38",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_170__ent_921__ent_1066",
+      "judgment": "ambiguous",
+      "reason": "Hughes → General Motors Corporation: Most Hughes rows describe an organizational subsidiary, but an executive-at row assigns Hughes a persons role; the first referent is materially unresolved within this fact.",
+      "evidence_lines": [
+        6613,
+        6614,
+        6615,
+        6616,
+        6617,
+        6618,
+        6619,
+        6620,
+        6621,
+        6622
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the Hughes executive-at row refer to a person or reflect an extraction error, rather than the subsidiary named in the other rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_624__ent_866",
+      "judgment": "supported",
+      "reason": "United → UAL Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2481,
+        2484,
+        2487,
+        2488,
+        6588,
+        6590,
+        6591,
+        6594
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.382Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_626__ent_868",
+      "judgment": "supported",
+      "reason": "Bozell Worldwide → Bozell: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2501,
+        2502,
+        2506,
+        2507,
+        2508,
+        2509,
+        2510
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1154__ent_459",
+      "judgment": "supported",
+      "reason": "Eastern → Texas Air Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        6556,
+        6557,
+        6559,
+        6561,
+        6562,
+        6565
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1065__ent_1064",
+      "judgment": "supported",
+      "reason": "Kellogg Brown & Root → Halliburton: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        6603,
+        6604,
+        6605,
+        6606,
+        6607,
+        6608
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_624__ent_627",
+      "judgment": "supported",
+      "reason": "United → UAL: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2533,
+        2534,
+        2537,
+        2538,
+        2540
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_882__ent_1375",
+      "judgment": "supported",
+      "reason": "American Airlines → AMR Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2561,
+        2562,
+        2564,
+        2566,
+        2568
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_170.json",
+        "annotation_sha256": "93e16f183a0ec24be4c12531d21bb63e13268733ee685071687690f4e9c42b38"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_928__ent_1064",
+      "judgment": "supported",
+      "reason": "Kellogg → Halliburton: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        6598,
+        6599,
+        6600,
+        6601,
+        6602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_625__ent_1244",
+      "judgment": "supported",
+      "reason": "Fox → News Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2511,
+        2512,
+        2513,
+        2520
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1304__ent_1233",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2552,
+        2557,
+        6576,
+        6577
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1240__ent_1375",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        2551,
+        2556,
+        6575
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_170.json",
+        "annotation_sha256": "93e16f183a0ec24be4c12531d21bb63e13268733ee685071687690f4e9c42b38"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1128__ent_1129",
+      "judgment": "supported",
+      "reason": "J. Walter Thompson → WPP Group: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        4582,
+        4586,
+        6688
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1072__ent_1380",
+      "judgment": "supported",
+      "reason": "DDB Needham Worldwide → Omnicom Group: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        6711,
+        6713,
+        6717
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_421__ent_423",
+      "judgment": "supported",
+      "reason": "Fallon Worldwide → Publicis Groupe: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        4627,
+        4628
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_170.json",
+        "annotation_sha256": "93e16f183a0ec24be4c12531d21bb63e13268733ee685071687690f4e9c42b38"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_926__ent_929",
+      "judgment": "supported",
+      "reason": "Lorillard Tobacco → Loews Corporation: The case contains explicit subsidiary, unit, owned-by or parent evidence for the first organization within the second.",
+      "evidence_lines": [
+        6585,
+        6586
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1312__ent_1390",
+      "judgment": "incorrect",
+      "reason": "WASHINGTON → State Department: A spokesman saying something in a Washington/State Department context does not establish organizational containment of Washington.",
+      "evidence_lines": [
+        656
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_170.json",
+        "annotation_sha256": "93e16f183a0ec24be4c12531d21bb63e13268733ee685071687690f4e9c42b38"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    },
+    {
+      "case_id": "rel_170__ent_1326__ent_639",
+      "judgment": "incorrect",
+      "reason": "House → Democrats: Member apposition connects the House and Democrats; it does not say that the House is a subsidiary of the party.",
+      "evidence_lines": [
+        4946
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_170.json",
+        "annotation_sha256": "93e16f183a0ec24be4c12531d21bb63e13268733ee685071687690f4e9c42b38"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:22.383Z"
+      }
+    }
+  ]
+}

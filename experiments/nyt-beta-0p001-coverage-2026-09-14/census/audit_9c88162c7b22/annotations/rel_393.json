@@ -1,0 +1,107 @@
+{
+  "relation": "rel_393",
+  "predicate_id": "has_spokesperson",
+  "label": "has spokesperson",
+  "definition": "Organization or principal X has person Y serving as its spokesperson.",
+  "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person.",
+  "facts": [
+    {
+      "case_id": "rel_393__ent_1077__ent_931",
+      "judgment": "incorrect",
+      "reason": "U S West → Bell: The rows concern Bell corporate-family relationships; Bell is not a named human spokesperson.",
+      "evidence_lines": [
+        6808,
+        6809,
+        6810,
+        6811,
+        6812,
+        6813,
+        6814,
+        6815,
+        6816,
+        6817
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:58.830Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_950__ent_931",
+      "judgment": "incorrect",
+      "reason": "Pacific Telesis → Bell: The rows concern Bell corporate-family relationships; Bell is not a named human spokesperson.",
+      "evidence_lines": [
+        6877,
+        6878,
+        6879,
+        6880,
+        6882,
+        6883,
+        6885,
+        6886
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:58.830Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_586__ent_1039",
+      "judgment": "ambiguous",
+      "reason": "White House → Scott McClellan: Spokesman speech at the White House and a secretary's brother attachment do not unambiguously make Scott McClellan the White House spokesperson.",
+      "evidence_lines": [
+        5409,
+        5410,
+        5412,
+        5413,
+        5415
+      ],
+      "issue_tags": [
+        "spokesperson_attachment"
+      ],
+      "reviewer_question": "Do these rows identify Scott McClellan as spokesman for the White House, or merely a speaker or relative associated with it?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:58.830Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_536__ent_336",
+      "judgment": "supported",
+      "reason": "State Department → Richard A. Boucher: The direct spokesman-for-State-Department apposition establishes the inverse principal-to-spokesperson relation.",
+      "evidence_lines": [
+        5381,
+        5382,
+        5383,
+        5384
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:58.830Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3e9d0159c177387a0edd4321219460b113814b3c97612418ac97c3652ab21be9"
+}

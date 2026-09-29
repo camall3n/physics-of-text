@@ -1,0 +1,28 @@
+# Historical review workflow scripts
+
+These 18 files encode past declarations, predicate additions or amendments. They remain unchanged in their historical locations as provenance. They are **not** the maintained evaluator, a fresh annotation protocol, or part of routine check/render commands. Do not rerun them to regenerate existing results: several write catalogues or judgments and assume the state present at their original execution.
+
+The reusable recording, viewing and scope helpers they import now delegate to the central review library. That preserves their historical dependencies without replaying their decisions. Existing saved declarations/annotations and amendment history remain authoritative inputs.
+
+| Historical file | Recorded purpose |
+|---|---|
+| [nyt-complete-evaluation-2026-09-14/analysis/build_predicate_catalogue.mjs](../../../../experiments/nyt-complete-evaluation-2026-09-14/analysis/build_predicate_catalogue.mjs) | Builds the original catalogue and frozen assignments from historical declarations. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/append_approved_predicates.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/append_approved_predicates.mjs) | Applies the recorded approved extensions to the campaign catalogue. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/append_candidate_predicate.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/append_candidate_predicate.mjs) | Records the candidate-for predicate extension. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/append_expulsion_secretary.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/append_expulsion_secretary.mjs) | Records the expulsion and secretary-role predicate additions. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/append_extensions_20260914_late.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/append_extensions_20260914_late.mjs) | Records the late September 14 predicate-extension batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/append_extensions_coverage_atomic.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/append_extensions_coverage_atomic.mjs) | Records the additional atomic-predicate extension batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/append_inverse_candidate_fellow.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/append_inverse_candidate_fellow.mjs) | Records inverse/candidate/fellow predicate additions. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_021_060.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_021_060.mjs) | Historical explicit relation-to-predicate declarations for the named review batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_161_180.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_161_180.mjs) | Historical explicit relation-to-predicate declarations for the named review batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_181_205.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_181_205.mjs) | Historical explicit relation-to-predicate declarations for the named review batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_206_230.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_206_230.mjs) | Historical explicit relation-to-predicate declarations for the named review batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_231_260.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_231_260.mjs) | Historical explicit relation-to-predicate declarations for the named review batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_261_290.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/evaluation_declarations_261_290.mjs) | Historical explicit relation-to-predicate declarations for the named review batch. |
+| [nyt-beta-0p001-coverage-2026-09-14/scripts/adjudicate_exact_evidence.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/adjudicate_exact_evidence.mjs) | Hardcoded case-level semantic-consistency adjudications with reasons and prior-label checks. |
+| [nyt-beta-0p001-coverage-2026-09-14/scripts/correct_root_reviewer_attribution.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/correct_root_reviewer_attribution.mjs) | Historical reviewer-attribution correction for audit_e318fe663470. |
+| [nyt-beta-0p001-coverage-2026-09-14/scripts/evaluation_boundary_correction_generations.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/evaluation_boundary_correction_generations.mjs) | Specific recorded boundary amendment for audit_dcb746fa83d6/rel_146. |
+| [nyt-beta-0p001-coverage-2026-09-14/scripts/kernel_boundary_amendments.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/kernel_boundary_amendments.mjs) | Specific recorded boundary amendments for audit_06dbdb9b03af. |
+| [nyt-beta-0p001-coverage-2026-09-14/scripts/kernel_declare_261_282.mjs](../../../../experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/kernel_declare_261_282.mjs) | Historical dictionary-first declaration batch for the kernel reviewer. |
+
+No file listed above was executed or edited by this consolidation. Generic declaration recording is maintained in the shared coverage API; per-campaign calling configuration remains in thin wrappers.

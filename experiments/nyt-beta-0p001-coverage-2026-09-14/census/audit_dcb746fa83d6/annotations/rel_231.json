@@ -1,0 +1,228 @@
+{
+  "relation": "rel_231",
+  "predicate_id": "lawyer_in",
+  "label": "practices law in place",
+  "definition": "Person X is explicitly described as a lawyer practicing or professionally based in geographic place Y.",
+  "scope_notes": "Includes: explicit lawyer-in place; a city or geographic nominal modifier of a lawyer establishing professional location; historical legal practice in the place. Excludes: representing a client or institution alone; a law firm or personal client in the geographic argument slot; residence or travel alone without legal practice. Ambiguous unless resolved by case-local evidence: public attorney office for a jurisdiction without evidence of practice location; geographic versus institutional meaning of Y unresolved; unclear attachment of the place to the lawyer. Separate from lawyer_for, which concerns representation or professional institutional affiliation. A governmental jurisdiction as client or office does not automatically establish this geographic practice predicate.",
+  "facts": [
+    {
+      "case_id": "rel_231__ent_604__ent_1254",
+      "judgment": "supported",
+      "reason": "Joel E. Miller → Queens: The local lawyer-in or geographic lawyer nominal modifier explicitly establishes legal practice in this place.",
+      "evidence_lines": [
+        2300,
+        2301,
+        2302,
+        2303,
+        2304,
+        2305
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.398Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_1255__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Stuart Saft → Manhattan; Chelsea → Manhattan: Lawyer-location support is present, but the inferred subject merges incompatible named people or a person with a nonperson.",
+      "evidence_lines": [
+        1164,
+        2314,
+        2315,
+        2316,
+        2317
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which literal person should this inferred entity represent after separating the incompatible names?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_603__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Richard Siegler → Manhattan; Arthur Weinstein → Manhattan: Lawyer-location support is present, but the inferred subject merges incompatible named people or a person with a nonperson.",
+      "evidence_lines": [
+        2306,
+        2307,
+        2308,
+        2309,
+        2310
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which literal person should this inferred entity represent after separating the incompatible names?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_605__ent_333",
+      "judgment": "ambiguous",
+      "reason": "David Ng → Manhattan; Muppets → Manhattan: Lawyer-location support is present, but the inferred subject merges incompatible named people or a person with a nonperson.",
+      "evidence_lines": [
+        2318,
+        2319,
+        2320,
+        2321,
+        6375
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which literal person should this inferred entity represent after separating the incompatible names?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_601__ent_843",
+      "judgment": "supported",
+      "reason": "Sidney Kess → New York: The local lawyer-in or geographic lawyer nominal modifier explicitly establishes legal practice in this place.",
+      "evidence_lines": [
+        2294,
+        2295,
+        2296,
+        2299
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_842__ent_841",
+      "judgment": "incorrect",
+      "reason": "Floyd Abrams → First Amendment: The rows concern a legal subject, a co-op description without lawyer role, sporting victory, or business holdings rather than a lawyer practicing in a geographic place.",
+      "evidence_lines": [
+        2277,
+        2279,
+        2284
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_844__ent_1002",
+      "judgment": "supported",
+      "reason": "John Dowd → Washington: The local lawyer-in or geographic lawyer nominal modifier explicitly establishes legal practice in this place.",
+      "evidence_lines": [
+        2290,
+        2291,
+        2292
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_938__ent_333",
+      "judgment": "supported",
+      "reason": "Aaron Shmulewitz → Manhattan: The local lawyer-in or geographic lawyer nominal modifier explicitly establishes legal practice in this place.",
+      "evidence_lines": [
+        2311,
+        2312
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_166__ent_165",
+      "judgment": "incorrect",
+      "reason": "Arthur I. Weinstein → Manhattan: The rows concern a legal subject, a co-op description without lawyer role, sporting victory, or business holdings rather than a lawyer practicing in a geographic place.",
+      "evidence_lines": [
+        2289
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_1177__ent_1359",
+      "judgment": "incorrect",
+      "reason": "Phil Jackson → Bulls: The rows concern a legal subject, a co-op description without lawyer role, sporting victory, or business holdings rather than a lawyer practicing in a geographic place.",
+      "evidence_lines": [
+        6524
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    },
+    {
+      "case_id": "rel_231__ent_539__ent_713",
+      "judgment": "incorrect",
+      "reason": "Hicks → Dallas: The rows concern a legal subject, a co-op description without lawyer role, sporting victory, or business holdings rather than a lawyer practicing in a geographic place.",
+      "evidence_lines": [
+        7420
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.399Z"
+      }
+    }
+  ],
+  "predicate_hash": "cad25553394c8a4123b0ad8ee2c58ed5e6b244b1b0906950b8da28c6f0518cf3",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c1f4c4f82eb74797705023b797e3eedb35327802a17eae143713514ac8b4c5fc"
+}

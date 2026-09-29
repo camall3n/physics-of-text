@@ -1,0 +1,48 @@
+{
+  "relation": "rel_146",
+  "predicate_id": "calls_up_players_from",
+  "predicate_version": 1,
+  "predicate_hash": "12587137bf20504af27b4abfcf7fa536fbf8c337a904deadf9626d1ef243472d",
+  "predicate": {
+    "id": "calls_up_players_from",
+    "label": "calls up players from team",
+    "definition": "Sports team X calls up, promotes, recalls, or summons players from source team or affiliate Y.",
+    "includes": [
+      "explicit promotion or recall from a source team",
+      "calling or summoning a player from Y into X",
+      "clear team-to-affiliate recall or promotion context even if the player's name is omitted"
+    ],
+    "excludes": [
+      "ordinary travel or communication from a geographic place",
+      "corporate ownership alone",
+      "sending a player in the opposite direction",
+      "a proposed promotion without realization"
+    ],
+    "ambiguous": [
+      "the omitted object could be something other than a player",
+      "unclear source versus destination team",
+      "bare call-from without recruitment context"
+    ],
+    "notes": "The direction is receiving team to source team. It does not require ownership of the affiliate or imply that all its players move.",
+    "scope_notes": "Includes: explicit promotion or recall from a source team; calling or summoning a player from Y into X; clear team-to-affiliate recall or promotion context even if the player's name is omitted. Excludes: ordinary travel or communication from a geographic place; corporate ownership alone; sending a player in the opposite direction; a proposed promotion without realization. Ambiguous unless resolved by case-local evidence: the omitted object could be something other than a player; unclear source versus destination team; bare call-from without recruitment context. The direction is receiving team to source team. It does not require ownership of the affiliate or imply that all its players move."
+  },
+  "dictionary_sha256": "07ba107e47c53ca1988b61516eda84c93219bc9f99c3cc187e7dc071206cc202",
+  "kind": "declared_before_case_grading",
+  "rationale": "Five call/promote/recall/summon-from paths form the largest narrow family, ahead of four writing/review paths. Ordered roles are receiving sports team to source affiliate, inspected in Yankees–Class AAA Columbus rows. Omitted player name is acceptable only when recall/promotion context establishes the transferred role; mere bare call-from remains ambiguous.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.722Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    5,
+    6,
+    7,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_146.before_grading.json",
+  "pregrading_annotation_sha256": "0e4b8c99503be7dd6ae0069fd03041f480efdbace7bd99fd5ae89506d384e128"
+}

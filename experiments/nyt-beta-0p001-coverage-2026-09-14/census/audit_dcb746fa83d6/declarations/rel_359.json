@@ -1,0 +1,53 @@
+{
+  "relation": "rel_359",
+  "predicate_id": "has_political_leader",
+  "predicate_version": 1,
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate": {
+    "id": "has_political_leader",
+    "label": "political body has a leader",
+    "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+    "includes": [
+      "national president/ruler/head of government",
+      "named parliamentary majority/minority leader or whip",
+      "historical leadership"
+    ],
+    "excludes": [
+      "corporate/team leadership",
+      "ordinary membership/meeting",
+      "party control instead of an individual leader",
+      "person-to-body forward direction"
+    ],
+    "ambiguous": [
+      "unspecified minister without evidence of head-of-government or leadership scope",
+      "truncated body or unnamed officeholder"
+    ],
+    "notes": "Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+    "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S."
+  },
+  "dictionary_sha256": "97f838d03664dfd5c2583330623eb030689de784c825937f9939ea2e1104245a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Country-to-minister/leader/government office is dominant; place where a spokesman talks is not the same inverse office relationship.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.669Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16
+  ],
+  "competing_meanings": [
+    "location of speech",
+    "corporate provider"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_359.before_grading.json",
+  "pregrading_annotation_sha256": "3060f2a5e11433ea7945eeaf5cb126211bfb0b86b09ae23ba4e707a030e2eff6"
+}

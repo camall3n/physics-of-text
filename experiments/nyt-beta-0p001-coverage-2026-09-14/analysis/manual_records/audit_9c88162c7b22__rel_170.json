@@ -1,0 +1,52 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_170",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_170__ent_567__ent_1020"
+      ],
+      "judgment": "supported",
+      "reason": "Spokeswoman-for and expressly speaking for the Medical Examiner’s office identify the represented principal and spokesperson role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_170__ent_756__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A spokeswoman-for-office path conflicts in attachment with the same person’s explicit United States attorney title; the retained path does not recover whose office or which woman is the spokesperson.",
+      "tags": [
+        "role_attachment"
+      ],
+      "question": "Is Mary Jo White the spokeswoman, or the attorney whose office has another spokeswoman in this sentence?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_170__ent_309__ent_1004"
+      ],
+      "judgment": "incorrect",
+      "reason": "Knocking an opposing team is a competitive result, not acting as its spokesperson.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "43f04285a4903c9c0c3426c92a79a50eecc857bac417a7def55a3522906b0846"
+}

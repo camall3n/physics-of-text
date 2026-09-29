@@ -1,0 +1,77 @@
+{
+  "relation": "rel_47",
+  "label": "owns or is parent of",
+  "definition": "Person or organization X owns business, organization or property Y, or is its corporate parent.",
+  "scope_notes": "Preserves ownership/parent scope, allowing personal owners and properties. Officeholding, political association, travel and criminal-case location do not suffice.",
+  "facts": [
+    {
+      "case_id": "rel_47__ent_1153__ent_1144",
+      "judgment": "supported",
+      "reason": "Cablevision explicitly owns Madison Square Garden and is its owner.",
+      "evidence_lines": [
+        5920,
+        5921,
+        5922,
+        5924,
+        5926
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_47__ent_1034__ent_1213",
+      "judgment": "supported",
+      "reason": "Meyer is explicitly owner of Union Square Cafe.",
+      "evidence_lines": [
+        1435
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_47__ent_562__ent_1341",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith has crime, traffic-stop and charge-location paths in Brooklyn; ownership is not supplied.",
+      "evidence_lines": [
+        967,
+        969,
+        970
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_47__ent_351__ent_1004",
+      "judgment": "supported",
+      "reason": "Steinbrenner is explicitly Yankees owner and owns them.",
+      "evidence_lines": [
+        1495,
+        1496,
+        1497,
+        1501,
+        1504
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_47__ent_424__ent_724",
+      "judgment": "incorrect",
+      "reason": "Democrats and Hillary Rodham Clinton have campaign/money associations, without ownership.",
+      "evidence_lines": [
+        7591,
+        7594
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

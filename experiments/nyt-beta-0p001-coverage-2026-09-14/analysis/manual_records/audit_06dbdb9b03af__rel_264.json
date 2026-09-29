@@ -1,0 +1,62 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_264",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_264__ent_1004__ent_682"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Move-to co-occurs with an owner stadium plan, leaving the relocation proposed versus actual unresolved.",
+      "tags": [
+        "modality"
+      ],
+      "question": "Was the Yankees move to New Jersey realized, or only a stadium proposal?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_264__ent_7__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Democrat is an unnamed political person and White House may denote office rather than physical destination.",
+      "tags": [
+        "argument_identity",
+        "metonymy"
+      ],
+      "question": "Which Democrat is intended, and is the return physical travel or political office?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_264__ent_1125__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Olympics have/hold/come-to describes an event-hosting possibility rather than clearly realized physical movement of an actor.",
+      "tags": [
+        "modality",
+        "event_attachment"
+      ],
+      "question": "Does the local evidence assert an actual event in New York or a proposed hosting arrangement?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c5efcf6f96902346c273f048b795183bdb8d32069227fdf4f460af256d95eef8"
+}

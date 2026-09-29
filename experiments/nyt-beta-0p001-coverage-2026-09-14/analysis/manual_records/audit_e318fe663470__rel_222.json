@@ -1,0 +1,104 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_222",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_222__ent_183__ent_189",
+        "rel_222__ent_827__ent_189",
+        "rel_222__ent_188__ent_181",
+        "rel_222__ent_196__ent_1107",
+        "rel_222__ent_829__ent_189",
+        "rel_222__ent_1422__ent_1239",
+        "rel_222__ent_180__ent_189",
+        "rel_222__ent_182__ent_1248",
+        "rel_222__ent_1393__ent_1337",
+        "rel_222__ent_1395__ent_816",
+        "rel_222__ent_586__ent_189",
+        "rel_222__ent_299__ent_1107"
+      ],
+      "judgment": "supported",
+      "reason": "A local urge, ask, tell or testimony row clearly directs communication to the stated addressee.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_222__ent_1330__ent_1239"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Supportive ask/urge rows combine Reagan and Clinton in one inferred speaker entity.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Reagan and Clinton be split before assessing this fact?"
+    },
+    {
+      "indices": [
+        3,
+        12
+      ],
+      "case_ids": [
+        "rel_222__ent_182__ent_819",
+        "rel_222__ent_87__ent_1412"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The make-to construction omits what was made; the other rows show criticism/cooperation/opening rather than an explicit addressed message.",
+      "tags": [
+        "missing_object"
+      ],
+      "question": "Does the omitted object establish a message or statement addressed to this recipient?"
+    },
+    {
+      "indices": [
+        10,
+        16,
+        17,
+        18
+      ],
+      "case_ids": [
+        "rel_222__ent_1422__ent_189",
+        "rel_222__ent_268__ent_1326",
+        "rel_222__ent_1055__ent_693",
+        "rel_222__ent_1440__ent_1444"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete local evidence shows cooperation/meeting, leadership or opening at a venue, without an asserted addressed communication.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    7,
+    13
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "14404317ddae18f56f641cfa87789643ed286584ed85081ad2f57ee278bf312d"
+}

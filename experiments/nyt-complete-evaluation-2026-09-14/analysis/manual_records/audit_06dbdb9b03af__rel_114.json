@@ -1,0 +1,120 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_114",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22
+      ],
+      "case_ids": [
+        "rel_114__ent_1004__ent_309",
+        "rel_114__ent_308__ent_1005",
+        "rel_114__ent_561__ent_320",
+        "rel_114__ent_400__ent_642",
+        "rel_114__ent_321__ent_647",
+        "rel_114__ent_561__ent_560",
+        "rel_114__ent_400__ent_884",
+        "rel_114__ent_321__ent_600",
+        "rel_114__ent_110__ent_347",
+        "rel_114__ent_799__ent_1012",
+        "rel_114__ent_318__ent_557",
+        "rel_114__ent_561__ent_400",
+        "rel_114__ent_561__ent_1038",
+        "rel_114__ent_400__ent_83",
+        "rel_114__ent_561__ent_563",
+        "rel_114__ent_321__ent_278",
+        "rel_114__ent_182__ent_1085",
+        "rel_114__ent_1004__ent_1013",
+        "rel_114__ent_315__ent_557",
+        "rel_114__ent_308__ent_543",
+        "rel_114__ent_1014__ent_1012",
+        "rel_114__ent_1004__ent_321"
+      ],
+      "judgment": "supported",
+      "reason": "A supplied row explicitly reports beating, defeating, or a victory over the named opponent; mixed losses or participation do not erase that historical support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        19,
+        23,
+        25,
+        26
+      ],
+      "case_ids": [
+        "rel_114__ent_347__ent_110",
+        "rel_114__ent_888__ent_333",
+        "rel_114__ent_308__ent_64",
+        "rel_114__ent_309__ent_1004"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied play, facing, trailing or loss evidence does not establish a completed victory over the second argument.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        24
+      ],
+      "case_ids": [
+        "rel_114__ent_646__ent_237"
+      ],
+      "judgment": "ambiguous",
+      "reason": "David/Goliath beat/triumph evidence could refer to the biblical figures or a metaphor for unnamed present competitors; the inferred entity referents are unresolved.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Does David/Goliath name the actual intended figures or metaphorically describe other competitors?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20
+  ],
+  "broad": []
+}

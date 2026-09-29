@@ -1,0 +1,58 @@
+{
+  "relation": "rel_176",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_176__ent_67__ent_1138",
+      "judgment": "supported",
+      "reason": "Radovan Karadzic → Bosnian Serbs: Explicit leader-of/possessed-leader titles establish leadership of the Bosnian Serbs.",
+      "evidence_lines": [
+        4977,
+        4978,
+        4980,
+        4982,
+        4983,
+        4984,
+        4985
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.973Z"
+      }
+    },
+    {
+      "case_id": "rel_176__ent_274__ent_308",
+      "judgment": "ambiguous",
+      "reason": "Al Bianchi → Knicks: An explicit team manager role does not resolve the narrower organizational head/leader scope.",
+      "evidence_lines": [
+        3206,
+        3207,
+        3208,
+        3210,
+        3211
+      ],
+      "issue_tags": [
+        "role_ambiguity"
+      ],
+      "reviewer_question": "Does this manager role establish the organizational head/leader relation rather than managerial office only?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.973Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "49188e6f53d5eb9333d5541624eb4a161b786f55b099a601f23d330ede7f9764"
+}

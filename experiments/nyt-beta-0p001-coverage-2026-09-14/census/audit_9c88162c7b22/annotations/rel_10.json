@@ -1,0 +1,68 @@
+{
+  "relation": "rel_10",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_10__ent_374__ent_372",
+      "judgment": "supported",
+      "reason": "Sandra Feldman → United Federation of Teachers: President-of title appositions and attributed statements establish actual presidency of the United Federation of Teachers beyond the election row.",
+      "evidence_lines": [
+        20,
+        22,
+        23,
+        25,
+        26
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.932Z"
+      }
+    },
+    {
+      "case_id": "rel_10__ent_888__ent_333",
+      "judgment": "incorrect",
+      "reason": "John → Manhattan: Campus, university, firm, and place fragments do not identify a presidency of Manhattan.",
+      "evidence_lines": [
+        3968,
+        3969,
+        3973,
+        3974
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.932Z"
+      }
+    },
+    {
+      "case_id": "rel_10__ent_786__ent_305",
+      "judgment": "incorrect",
+      "reason": "Apple → Cupertino: A company’s Cupertino campus is a location relationship, not a person holding president office.",
+      "evidence_lines": [
+        794,
+        4350
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:12.932Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "cd1e1a2bb0175a390220777a6f72fe4826fb867b44bea7cac239dc1d6f4b8c1b"
+}

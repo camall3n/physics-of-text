@@ -1,0 +1,207 @@
+{
+  "relation": "rel_273",
+  "predicate_id": "lawyer_in",
+  "label": "practices law in place",
+  "definition": "Person X is explicitly described as a lawyer practicing or professionally based in geographic place Y.",
+  "scope_notes": "Includes: explicit lawyer-in place; a city or geographic nominal modifier of a lawyer establishing professional location; historical legal practice in the place. Excludes: representing a client or institution alone; a law firm or personal client in the geographic argument slot; residence or travel alone without legal practice. Ambiguous unless resolved by case-local evidence: public attorney office for a jurisdiction without evidence of practice location; geographic versus institutional meaning of Y unresolved; unclear attachment of the place to the lawyer. Separate from lawyer_for, which concerns representation or professional institutional affiliation. A governmental jurisdiction as client or office does not automatically establish this geographic practice predicate.",
+  "facts": [
+    {
+      "case_id": "rel_273__ent_569__ent_846",
+      "judgment": "supported",
+      "reason": "Joel E. Miller → Queens: A local lawyer-in or geographic lawyer modifier explicitly establishes the legal practice location.",
+      "evidence_lines": [
+        2300,
+        2301,
+        2302,
+        2303,
+        2304,
+        2305
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_602__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Arthur I. Weinstein → Manhattan; Richard Siegler → Manhattan: Qualifying legal-practice evidence is merged with a different named person in the same inferred subject.",
+      "evidence_lines": [
+        2287,
+        2288,
+        2289,
+        2309
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which lawyer should this fact identify after separating the incompatible people?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_606__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Aaron Shmulewitz → Manhattan; Walter Mendelsohn → Manhattan: Qualifying legal-practice evidence is merged with a different named person in the same inferred subject.",
+      "evidence_lines": [
+        2311,
+        2312,
+        2313,
+        2686
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which lawyer should this fact identify after separating the incompatible people?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_848__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Stuart Saft → Manhattan; David Ng → Manhattan: Qualifying legal-practice evidence is merged with a different named person in the same inferred subject.",
+      "evidence_lines": [
+        2314,
+        2315,
+        2316,
+        2318
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which lawyer should this fact identify after separating the incompatible people?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_603__ent_333",
+      "judgment": "supported",
+      "reason": "Richard Siegler → Manhattan: A local lawyer-in or geographic lawyer modifier explicitly establishes the legal practice location.",
+      "evidence_lines": [
+        2306,
+        2307,
+        2308
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_645__ent_1008",
+      "judgment": "incorrect",
+      "reason": "Mark → Manhattan: Home/death/other professional or political evidence does not establish legal practice.",
+      "evidence_lines": [
+        3987,
+        3990,
+        3991
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_511__ent_1008",
+      "judgment": "ambiguous",
+      "reason": "Arthur Weinstein → Manhattan; Ted Fagan → Manhattan: Qualifying legal-practice evidence is merged with a different named person in the same inferred subject.",
+      "evidence_lines": [
+        2310,
+        2689
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which lawyer should this fact identify after separating the incompatible people?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_398__ent_846",
+      "judgment": "incorrect",
+      "reason": "Stephen Gillers → New York University Law School: Home/death/other professional or political evidence does not establish legal practice.",
+      "evidence_lines": [
+        331
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_893__ent_410",
+      "judgment": "incorrect",
+      "reason": "William R. Knapp → Westport: Home/death/other professional or political evidence does not establish legal practice.",
+      "evidence_lines": [
+        2682
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    },
+    {
+      "case_id": "rel_273__ent_871__ent_1265",
+      "judgment": "incorrect",
+      "reason": "Senate → Republicans: Home/death/other professional or political evidence does not establish legal practice.",
+      "evidence_lines": [
+        4904
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:08:42.085Z"
+      }
+    }
+  ],
+  "predicate_hash": "cad25553394c8a4123b0ad8ee2c58ed5e6b244b1b0906950b8da28c6f0518cf3",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "87a893c40bd4fa4aa00a7a54f3112efc626a32b8751c3820f48c04b2415297d7"
+}

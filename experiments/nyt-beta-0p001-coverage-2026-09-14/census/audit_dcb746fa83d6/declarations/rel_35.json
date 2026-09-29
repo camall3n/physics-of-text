@@ -1,0 +1,46 @@
+{
+  "relation": "rel_35",
+  "predicate_id": "present_in",
+  "predicate_version": 1,
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate": {
+    "id": "present_in",
+    "label": "physically present in place",
+    "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+    "includes": [
+      "explicit unqualified physical be-in or presence",
+      "a direct residence or physical location statement",
+      "a completed arrival, visit, or departure that establishes presence in Y"
+    ],
+    "excludes": [
+      "membership in an organization",
+      "participation or victory in a nongeographic event",
+      "political office or control alone",
+      "discussion, publication, or other abstract presence",
+      "a destination without evidence of realized movement or presence"
+    ],
+    "ambiguous": [
+      "place-versus-institution metonymy",
+      "an incomplete geographic argument",
+      "uncertain attachment or explicit hypothetical presence"
+    ],
+    "notes": "Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+    "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation."
+  },
+  "dictionary_sha256": "8abbb3d784c95e2ea413e0610e5db16ef7dbc568dee908fa0b20648875005058",
+  "kind": "declared_before_case_grading",
+  "rationale": "Speech-in geographic place is the largest identifiable family after inspecting person/place arguments; publication-in and athletic paths are distinct and will not establish geographic presence.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.668Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_35.before_grading.json",
+  "pregrading_annotation_sha256": "6cc82bf6aa34d457e160f0a72782685582bffa06bb6261ff078745cdce56d4e3"
+}

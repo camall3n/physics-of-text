@@ -1,0 +1,48 @@
+{
+  "relation": "rel_141",
+  "predicate_id": "owns",
+  "predicate_version": 1,
+  "predicate_hash": "64b91b4d898a9f3ed81be865b382e684bfc0db4150c5d04790c534e2d3b1cb74",
+  "predicate": {
+    "id": "owns",
+    "label": "owns organization or asset",
+    "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+    "includes": [
+      "owner/co-owner/owns",
+      "explicit ownership interest or stated share",
+      "corporate parent",
+      "completed acquisition with ownership attachment",
+      "historical ownership"
+    ],
+    "excludes": [
+      "management or leadership alone",
+      "publishing or distribution alone",
+      "mere collaboration",
+      "proposed or rejected acquisition"
+    ],
+    "ambiguous": [
+      "merger without clear ownership direction",
+      "a possessive alone"
+    ],
+    "notes": "This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+    "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse."
+  },
+  "dictionary_sha256": "15243fef2a8f634d518c0773b3a232ce92c90636446851492fc83b2c7df13ca2",
+  "kind": "declared_before_case_grading",
+  "rationale": "Bought/owner5 is the largest specific relation family, alongside president and international/sports outliers.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:19:02.506Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    4,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_141.before_grading.json",
+  "pregrading_annotation_sha256": "5744a00bfee5dd9dae574fef81a911abcb64796efd5a991f7a272d9476119e1e"
+}

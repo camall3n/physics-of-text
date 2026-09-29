@@ -1,0 +1,87 @@
+{
+  "relation": "rel_216",
+  "label": "defeated opponent",
+  "definition": "The first competitor won a contest against the second competitor.",
+  "scope_notes": "Beat/defeat/victory dominates, preserving the directed defeated-opponent scope used in rel_114 and earlier audits. Mere play, trade, contract or political/geographical comparison is insufficient. Historical wins and losses can coexist, but ambiguous competitors must still be resolved.",
+  "facts": [
+    {
+      "case_id": "rel_216__ent_1236__ent_647",
+      "judgment": "ambiguous",
+      "reason": "The Mets explicitly beat the Dodgers and defeat Florida Marlins, but the second latent entity merges those distinct opponent names. Clear win paths for each do not identify one opponent for this single tuple.",
+      "evidence_lines": [
+        6918,
+        6919,
+        6922,
+        6924,
+        6926,
+        6982
+      ],
+      "issue_tags": [
+        "mixed_entity_names",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should the second entity be the Dodgers or Florida Marlins, or should these opponent facts be split?"
+    },
+    {
+      "case_id": "rel_216__ent_318__ent_557",
+      "judgment": "supported",
+      "reason": "The Phillies explicitly defeat and beat the New York Mets. The loss and complex manager/player attachment rows add different evidence but do not negate an explicit historical win.",
+      "evidence_lines": [
+        1031,
+        1032,
+        1033,
+        1036
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_216__ent_319__ent_1398",
+      "judgment": "supported",
+      "reason": "The Orioles explicitly defeat, have victory over and beat the New York Yankees. Preparing for a series and protesting are additional predicates.",
+      "evidence_lines": [
+        1063,
+        1064,
+        1065,
+        1068,
+        1070
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_216__ent_1350__ent_1013",
+      "judgment": "supported",
+      "reason": "Both beat and victory-over constructions explicitly establish Mets defeating Florida Marlins.",
+      "evidence_lines": [
+        6979,
+        6986
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_216__ent_1310__ent_254",
+      "judgment": "ambiguous",
+      "reason": "Victory/beat/defeat paths treat East and West as opponents, but other rows compare geographic or political worlds and allies. The generic names do not identify which competing teams or collectives this single entity pair denotes.",
+      "evidence_lines": [
+        6052,
+        6054,
+        6055,
+        6057,
+        6058,
+        6060
+      ],
+      "issue_tags": [
+        "identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Do East and West denote the same sports competitors throughout these rows, or have geographic/political East–West referents been merged into the pair?"
+    }
+  ]
+}

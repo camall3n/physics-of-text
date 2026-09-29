@@ -1,0 +1,55 @@
+{
+  "relation": "rel_145",
+  "predicate_id": "coach_of",
+  "label": "coach of",
+  "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+  "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment.",
+  "facts": [
+    {
+      "case_id": "rel_145__ent_717__ent_959",
+      "judgment": "supported",
+      "reason": "Geno Auriemma → UConn: Explicit coach-at and in-as-coach paths establish coaching of the UConn athletic program.",
+      "evidence_lines": [
+        7275,
+        7277,
+        7278,
+        7279,
+        7280,
+        7281,
+        7282
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.311Z"
+      }
+    },
+    {
+      "case_id": "rel_145__ent_476__ent_818",
+      "judgment": "incorrect",
+      "reason": "North Koreans → China: Border crossing, fleeing, and remaining in China describe migration rather than coaching a team.",
+      "evidence_lines": [
+        6138,
+        6139,
+        6140,
+        6141,
+        6143,
+        6144
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.311Z"
+      }
+    }
+  ],
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9285a6fa3c0202270a7f9b8f813980e239195a2beba740b0cab77f3bf90ae738"
+}

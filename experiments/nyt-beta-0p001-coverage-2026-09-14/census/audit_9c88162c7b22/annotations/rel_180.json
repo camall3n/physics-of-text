@@ -1,0 +1,75 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "confers_authority_on",
+  "label": "confers authority on institution",
+  "definition": "Legal instrument or governing document X explicitly grants authority, powers, rights, or an institutional mandate to Y.",
+  "scope_notes": "Includes: an identified power or authority granted to Y; explicit rights or mandate conferred under X; historical textual allocation of authority. Excludes: ordinary transfer of physical goods or sporting contribution; mentioning institutional requirements without granting authority; general association with a legal text. Ambiguous unless resolved by case-local evidence: give or grant with omitted object; under-X have with no identified power; a provision whose grant or recipient is unresolved. This labels what the supplied text asserts, not a legal determination. Generic gives does not recover an omitted legal power.",
+  "facts": [
+    {
+      "case_id": "rel_180__ent_663__ent_1197",
+      "judgment": "ambiguous",
+      "reason": "Constitution → Senate: Constitutional give and have paths omit the power or right granted; the membership and advice requirements alone do not identify an affirmative grant.",
+      "evidence_lines": [
+        4228,
+        4229,
+        4230,
+        4233,
+        4237
+      ],
+      "issue_tags": [
+        "omitted_object"
+      ],
+      "reviewer_question": "Which identified authority or right does the Constitution confer on the Senate in these rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.244Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_663__ent_189",
+      "judgment": "ambiguous",
+      "reason": "Constitution → Congress: Give and grant-to paths identify a possible recipient but omit the specific constitutional authority or right.",
+      "evidence_lines": [
+        4238,
+        4239,
+        4240,
+        4241,
+        4244
+      ],
+      "issue_tags": [
+        "omitted_object"
+      ],
+      "reviewer_question": "What power or right is granted to Congress, rather than merely discussed under the Constitution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.244Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_63__ent_543",
+      "judgment": "incorrect",
+      "reason": "Richard Jefferson → Nets: These are a player and team, with scoring and adding/bringing the player; they are not a governing document granting authority.",
+      "evidence_lines": [
+        3096,
+        3097,
+        3098,
+        3103
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.244Z"
+      }
+    }
+  ],
+  "predicate_hash": "46bb4dfebcbec81445e1e0cd0b645835c3ffe41680a4a5df06b2095f04084f66",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "109d8b9e31fd89166387e816e7352999f68450b04c3e4cb184e4299379c132ac"
+}

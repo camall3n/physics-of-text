@@ -1,0 +1,128 @@
+{
+  "relation": "rel_104",
+  "predicate_id": "supports",
+  "label": "supports or endorses",
+  "definition": "Entity X explicitly gives political, material, or institutional support or endorsement to Y.",
+  "scope_notes": "Includes: explicit supports, backs, endorses, or provides identified aid to Y; voting for Y as an endorsement; historical support. Excludes: merely pressuring or criticizing Y; ordinary alliance or meeting without support assertion; generic possession or acquisition; physical support of an object unrelated to the institutional relation. Ambiguous unless resolved by case-local evidence: give with omitted object; unclear support versus pressure or opposition; a future proposed endorsement without realization. This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence.",
+  "facts": [
+    {
+      "case_id": "rel_104__ent_537__ent_820",
+      "judgment": "supported",
+      "reason": "United States → Israel: Explicit support-for/of rows establish institutional support for Israel.",
+      "evidence_lines": [
+        2082,
+        2087,
+        4208,
+        4213,
+        4214,
+        7905
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.951Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_1046__ent_1350",
+      "judgment": "ambiguous",
+      "reason": "House → Senate: Send-to omits the transferred object; other local rows do not establish supportive aid or endorsement.",
+      "evidence_lines": [
+        1972,
+        1975,
+        1977,
+        1981
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "What was sent, and does it constitute support rather than neutral communication or transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.951Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_1337__ent_709",
+      "judgment": "incorrect",
+      "reason": "Israel → Egypt; Israel → Ehud Olmert: Territorial occupation or a minister's initiative does not establish support, and the two different extracted objects do not supply a supporting row.",
+      "evidence_lines": [
+        5194,
+        7046
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.951Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_1393__ent_1421",
+      "judgment": "ambiguous",
+      "reason": "United States → Iran; United States → Israel: A support row for Israel is merged with sending to Iran in the same inferred recipient.",
+      "evidence_lines": [
+        5508,
+        7910
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Does this fact intend Israel or Iran as the supported recipient?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.951Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_313__ent_1239",
+      "judgment": "ambiguous",
+      "reason": "Mr. Clinton → Congress: Send-to omits the transferred object; other local rows do not establish supportive aid or endorsement.",
+      "evidence_lines": [
+        2044
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "What was sent, and does it constitute support rather than neutral communication or transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.951Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_1004__ent_1055",
+      "judgment": "ambiguous",
+      "reason": "Yankees → Mets: Send-to omits the transferred object; other local rows do not establish supportive aid or endorsement.",
+      "evidence_lines": [
+        2599
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "What was sent, and does it constitute support rather than neutral communication or transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.951Z"
+      }
+    }
+  ],
+  "predicate_hash": "144e1679f928186e65824f49df703924a59e4b3f2e71e0197788ab8a91148542",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5ba55d595882c2d645782c724ef1d4d9a9508f2b09fb86445ada3c4971b4c3ac"
+}

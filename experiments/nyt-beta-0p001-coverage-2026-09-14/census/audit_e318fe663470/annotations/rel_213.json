@@ -1,0 +1,73 @@
+{
+  "relation": "rel_213",
+  "predicate_id": "managerial_office_in",
+  "label": "managerial or leadership office in",
+  "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+  "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+  "facts": [
+    {
+      "case_id": "rel_213__ent_505__ent_1208",
+      "judgment": "supported",
+      "reason": "Mr. Suozzi → Nassau County: Explicit county executive record/office wording establishes managerial public office.",
+      "evidence_lines": [
+        8123,
+        8124,
+        8126,
+        8127,
+        8128,
+        8129
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.273Z"
+      }
+    },
+    {
+      "case_id": "rel_213__ent_859__ent_616",
+      "judgment": "incorrect",
+      "reason": "Anna Wintour → Vogue: Editor status and fashion/feature context do not establish the broader managerial-head office without an explicit equivalent head title.",
+      "evidence_lines": [
+        2418,
+        2419,
+        2420,
+        2422
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.273Z"
+      }
+    },
+    {
+      "case_id": "rel_213__ent_894__ent_112",
+      "judgment": "ambiguous",
+      "reason": "Warner LeRoy → Tavern: Presiding over Tavern leaves both the full institution and the managerial-office attachment underspecified.",
+      "evidence_lines": [
+        1508
+      ],
+      "issue_tags": [
+        "truncated_argument",
+        "role_ambiguity"
+      ],
+      "reviewer_question": "What full institution is Tavern, and does preside describe managerial office there?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.273Z"
+      }
+    }
+  ],
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "634397f3039d946e505b38ee8ac9dd4c2ae16316ccb95d3cd6a81b0c59ee05a8"
+}

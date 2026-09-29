@@ -1,0 +1,101 @@
+{
+  "relation": "rel_69",
+  "predicate_id": "fought_war_against",
+  "label": "fought military conflict against",
+  "definition": "Political entity or military group X fought an armed conflict or war against Y.",
+  "scope_notes": "Includes: explicit war-with or fought-against in an armed-conflict context; actual military attack or combat against Y; historical military adversaries. Excludes: sports competition or metaphorical political attack; cooperation, alliance, or joint action on the same side; border adjacency or diplomatic relations alone; planned conflict without realization. Ambiguous unless resolved by case-local evidence: fight-with whose allied versus adversarial sense is unresolved; generic attack without military context; future threat or proposed war. Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner.",
+  "facts": [
+    {
+      "case_id": "rel_69__ent_646__ent_237",
+      "judgment": "ambiguous",
+      "reason": "David → Goliath: Fight/battle occurs with play-to and television comparison wording, leaving literal military conflict versus a David-and-Goliath metaphor unresolved.",
+      "evidence_lines": [
+        6436,
+        6437,
+        6438,
+        6439,
+        6441,
+        6443,
+        6444,
+        6445
+      ],
+      "issue_tags": [
+        "metaphor",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Do these names identify actual military adversaries, or a sporting/business comparison?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.097Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_539__ent_790",
+      "judgment": "incorrect",
+      "reason": "Hicks → Muse: Business-firm title fragments or a sporting victory do not establish military conflict.",
+      "evidence_lines": [
+        696,
+        697,
+        698,
+        700,
+        702,
+        704
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.097Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_1173__ent_480",
+      "judgment": "ambiguous",
+      "reason": "Taliban → Kabul: Taking, entering or leaving Kabul establishes territorial movement/control, but the rows omit an actual opposing military force or combat event.",
+      "evidence_lines": [
+        6408,
+        6409,
+        6411,
+        6412,
+        6413,
+        6415
+      ],
+      "issue_tags": [
+        "omitted_context",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the seizure/entry refer to military combat against forces at Kabul, or territorial control without asserted fighting?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.097Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_321__ent_1084",
+      "judgment": "incorrect",
+      "reason": "Mets → Phillies: Business-firm title fragments or a sporting victory do not establish military conflict.",
+      "evidence_lines": [
+        6911,
+        6913,
+        6914
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.097Z"
+      }
+    }
+  ],
+  "predicate_hash": "76bdc9f8ae86994cbf90cb3318f18694bf8ac2363510c03867f0890ef0eeedb7",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "20a8e5fdbefa15967e788a573d806f9f2c39c0fdfd14ff30d038073904cfdfe5"
+}

@@ -1,0 +1,78 @@
+{
+  "relation": "rel_321",
+  "predicate_id": "has_lawyer",
+  "label": "has lawyer or legal counsel",
+  "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+  "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+  "facts": [
+    {
+      "case_id": "rel_321__ent_891__ent_890",
+      "judgment": "supported",
+      "reason": "Mr. Simpson → Robert L. Shapiro: Explicit another-lawyer and lawyer apposition identifies Shapiro as Simpson's legal representative.",
+      "evidence_lines": [
+        3820,
+        3821,
+        3822,
+        3824,
+        3825,
+        3826
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:01.923Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1159__ent_471",
+      "judgment": "incorrect",
+      "reason": "East → West: Geographic East/West comparison or Goldman/Sachs financial fragments contain no lawyer relation.",
+      "evidence_lines": [
+        6053,
+        6055,
+        6056,
+        6058,
+        6059,
+        6060
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:01.924Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_784__ent_534",
+      "judgment": "incorrect",
+      "reason": "Goldman → Sachs: Geographic East/West comparison or Goldman/Sachs financial fragments contain no lawyer relation.",
+      "evidence_lines": [
+        634,
+        636,
+        638
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:01.924Z"
+      }
+    }
+  ],
+  "predicate_hash": "7adfc3d56b8d9d1c512a2045c00e3347f181ccfe9995e1b6fab7c65a232837b4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "620e01c40dabed1bf6e064fbb672e972fcecca96dffec10d80bf83717e1d24fe"
+}

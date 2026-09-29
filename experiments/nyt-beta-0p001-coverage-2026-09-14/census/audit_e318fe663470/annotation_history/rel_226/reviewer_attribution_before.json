@@ -1,0 +1,183 @@
+{
+  "relation": "rel_226",
+  "predicate_id": "sporting_champion_of",
+  "label": "wins or holds sporting championship",
+  "definition": "Entity X won sporting competition Y or held an explicitly Y-designated sporting championship or title.",
+  "scope_notes": "Includes: sport win/champion/title/clinch-title; sporting league/division or explicitly title-designating body; historical sporting title. Excludes: non-sport honorary awards; political election or control; participation; single stage without overall title; coaching or team membership alone. Ambiguous unless resolved by case-local evidence: medal without a winning championship; unclear title attachment. Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples.",
+  "facts": [
+    {
+      "case_id": "rel_226__ent_994__ent_737",
+      "judgment": "ambiguous",
+      "reason": "Oscar De La Hoya → World Boxing Council; Lennox Lewis → World Boxing Council: Title-holding evidence merges Lennox Lewis and Oscar De La Hoya into one inferred boxer.",
+      "evidence_lines": [
+        7957,
+        8004,
+        8005,
+        8006,
+        8009,
+        8012,
+        8013
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "broad_predicate"
+      ],
+      "reviewer_question": "Which boxer should this championship fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_752__ent_510",
+      "judgment": "supported",
+      "reason": "Pat Cash → Wimbledon: An explicit champion/win/title-defense row establishes a present or historical sporting title.",
+      "evidence_lines": [
+        7994,
+        7995,
+        7996,
+        8003
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_309__ent_836",
+      "judgment": "supported",
+      "reason": "Red Sox → World Series: An explicit champion/win/title-defense row establishes a present or historical sporting title.",
+      "evidence_lines": [
+        2197,
+        2203,
+        2205
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_993__ent_509",
+      "judgment": "supported",
+      "reason": "Michael Nunn → International Boxing Federation: An explicit champion/win/title-defense row establishes a present or historical sporting title.",
+      "evidence_lines": [
+        8021,
+        8022,
+        8027
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_817__ent_836",
+      "judgment": "supported",
+      "reason": "Yankees → World Series: An explicit champion/win/title-defense row establishes a present or historical sporting title.",
+      "evidence_lines": [
+        2177,
+        2693
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_251__ent_1329",
+      "judgment": "incorrect",
+      "reason": "John F. Kennedy → White House: Political election/control and presidency succession are outside the sporting championship predicate.",
+      "evidence_lines": [
+        2746,
+        2747
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_819__ent_1046",
+      "judgment": "incorrect",
+      "reason": "Democrats → House: Political election/control and presidency succession are outside the sporting championship predicate.",
+      "evidence_lines": [
+        6366,
+        6372
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_819__ent_612",
+      "judgment": "incorrect",
+      "reason": "Democrats → Senate: Political election/control and presidency succession are outside the sporting championship predicate.",
+      "evidence_lines": [
+        6382,
+        6385
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    },
+    {
+      "case_id": "rel_226__ent_130__ent_1063",
+      "judgment": "incorrect",
+      "reason": "Randi Weingarten → United Federation of Teachers: Political election/control and presidency succession are outside the sporting championship predicate.",
+      "evidence_lines": [
+        5
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:11:20.831Z"
+      }
+    }
+  ],
+  "predicate_hash": "d04ae9c3157aacfada7d14a78bc962d7012af492a777b2856f6df76ad00f39dc",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "57c501b999e603b06440a3d7a1b700e866bb5c9215f4406d250e49d2d601e5d8"
+}

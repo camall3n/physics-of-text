@@ -1,0 +1,39 @@
+{
+  "relation": "rel_274",
+  "predicate_id": "organizational_leader_of",
+  "predicate_version": 1,
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate": {
+    "id": "organizational_leader_of",
+    "label": "leader or organizational head of",
+    "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+    "includes": [
+      "explicit leader/head/president/chief/chair",
+      "legislative majority/minority leadership or whip",
+      "leadership office within an identified body",
+      "historical office"
+    ],
+    "excludes": [
+      "ordinary membership or service",
+      "founding/ownership alone",
+      "party control of a chamber",
+      "candidate alone",
+      "athletic/standings or task-only lead",
+      "editor alone"
+    ],
+    "ambiguous": [
+      "generic director or executive without clear leadership role",
+      "bare lead lacking organizational-role context",
+      "materially truncated political body"
+    ],
+    "notes": "Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+    "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles."
+  },
+  "dictionary_sha256": "4132d31f641ebeb8528317a158f385f3e8d28faa3fd12df35de2a565abd27c5f",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

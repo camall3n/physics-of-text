@@ -1,0 +1,113 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_67",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        13,
+        14,
+        15,
+        18
+      ],
+      "case_ids": [
+        "rel_67__ent_197__ent_586",
+        "rel_67__ent_81__ent_84",
+        "rel_67__ent_1354__ent_820",
+        "rel_67__ent_669__ent_1124",
+        "rel_67__ent_562__ent_1201",
+        "rel_67__ent_87__ent_1206",
+        "rel_67__ent_726__ent_1266",
+        "rel_67__ent_1283__ent_1383"
+      ],
+      "judgment": "supported",
+      "reason": "An unqualified local go-to, visit, arrive-in or travel-to geographic destination supports movement under the inherited textual-support rule.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        5,
+        6,
+        8,
+        9,
+        12,
+        16,
+        17
+      ],
+      "case_ids": [
+        "rel_67__ent_354__ent_596",
+        "rel_67__ent_1229__ent_810",
+        "rel_67__ent_380__ent_138",
+        "rel_67__ent_1236__ent_836",
+        "rel_67__ent_1411__ent_1381",
+        "rel_67__ent_849__ent_850",
+        "rel_67__ent_1029__ent_1241",
+        "rel_67__ent_561__ent_850"
+      ],
+      "judgment": "incorrect",
+      "reason": "The destination is a person, membership organization, office, or nongeographic sporting event, rather than geographic travel.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_67__ent_578__ent_1415"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Go-to White House may mean taking a job or visiting physical premises; the press-corps row does not resolve it.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Does go to the White House describe physical movement or entering its employment?"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_67__ent_93__ent_82"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The Watsons-to-Birmingham phrase may be an embedded story title rather than an independently asserted journey by an identified group.",
+      "tags": [
+        "title_boundary"
+      ],
+      "question": "Does Watsons identify travelers in the assertion, or is the extraction a book-title fragment?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_67__ent_1123__ent_1413"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway role/recreation and go-to may denote theatrical employment rather than physical travel.",
+      "tags": [
+        "theatrical_metonymy"
+      ],
+      "question": "Does the Broadway statement establish physical movement rather than a stage-role transfer?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    10,
+    11
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "fb5dfd262b443662f85755000d914b7ecd3467e01266cfd62dbce98253b85895"
+}

@@ -1,0 +1,43 @@
+{
+  "relation": "rel_127",
+  "predicate_id": "subsidiary_of",
+  "predicate_version": 1,
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate": {
+    "id": "subsidiary_of",
+    "label": "subsidiary or organizational unit of",
+    "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+    "includes": [
+      "explicit subsidiary/unit/division/organizational-part",
+      "corporate owned-by or an explicit parent relationship in the child-to-parent direction",
+      "historical containment or ownership"
+    ],
+    "excludes": [
+      "employment",
+      "geographic containment",
+      "ordinary affiliation",
+      "reverse parent-to-child direction",
+      "a proposed acquisition"
+    ],
+    "ambiguous": [
+      "city standing for an unnamed office",
+      "minority investment alone without evidence of organizational containment",
+      "incomplete ownership attachment"
+    ],
+    "notes": "Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+    "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part."
+  },
+  "dictionary_sha256": "83377796e573709ac99e60c8f1a6bb4d7e15174994bad5e6d7e5a3abae095569",
+  "kind": "declared_before_case_grading",
+  "rationale": "Unit/part-of-office corporate paths form the largest repeated meaning, ahead of political office. Geographic placeholders remain ambiguous.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:49.055Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_127.before_grading.json",
+  "pregrading_annotation_sha256": "845851e9c8fc0f372e2f71c9006e8f230ef3a5250f6d95aeb96cae23baa3f630"
+}

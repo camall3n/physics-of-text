@@ -1,0 +1,1788 @@
+{
+  "relation": "rel_363",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_363.json",
+    "source_sha256": "a1a85790af24864d78ce4573f345516471cfe277a32b12282725133d8f3be07b",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_363__ent_7__ent_243",
+      "judgment": "incorrect",
+      "reason": "Democrat → Armed Services Committee: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6299,
+        6300,
+        6301,
+        6302,
+        6303,
+        6304,
+        6305,
+        6306,
+        6307,
+        6308
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_562__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Smith → Washington: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        3407,
+        3408,
+        3409,
+        3410,
+        3411,
+        3412,
+        3413,
+        3414,
+        3416
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.757Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_80__ent_820",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        3479,
+        3480,
+        3484,
+        3486,
+        3487,
+        4781,
+        4785,
+        4786,
+        4788
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_363.json",
+        "annotation_sha256": "a1a85790af24864d78ce4573f345516471cfe277a32b12282725133d8f3be07b"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_157__ent_1033",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4095,
+        4099,
+        4100,
+        5240,
+        5241,
+        5242,
+        5244,
+        7341,
+        7342
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1382__ent_1442",
+      "judgment": "ambiguous",
+      "reason": "Jonathan Pryce → Broadway: Broadway may denote theatrical employment or production rather than a geographic destination, despite the movement verbs.",
+      "evidence_lines": [
+        4741,
+        4742,
+        4743,
+        4744,
+        4745,
+        4746,
+        4747,
+        4748,
+        4749
+      ],
+      "issue_tags": [
+        "argument_boundary",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Broadway denote geographic travel here, or joining/returning to a theatrical production?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_180__ent_1002",
+      "judgment": "supported",
+      "reason": "Bush → Washington: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        5246,
+        5247,
+        5248,
+        5250,
+        5251,
+        5252,
+        5253,
+        5254,
+        5255
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_7__ent_488",
+      "judgment": "incorrect",
+      "reason": "Democrat → House Armed Services Committee: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6334,
+        6335,
+        6336,
+        6337,
+        6338,
+        6339,
+        6341,
+        6342,
+        6343
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1122__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Salvadorans → United States; Russia → United States: Russia and Salvadorans are distinct subjects merged in the same fact; the latter has destination movement evidence.",
+      "evidence_lines": [
+        1982,
+        4701,
+        4703,
+        4705,
+        4706,
+        4707,
+        4708,
+        4710
+      ],
+      "issue_tags": [
+        "merged_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Russia and the Salvadoran population be separate entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1126__ent_897",
+      "judgment": "supported",
+      "reason": "Colts → Indianapolis: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4810,
+        4811,
+        4812,
+        4813,
+        4814,
+        4816,
+        4818,
+        4819
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1110__ent_837",
+      "judgment": "supported",
+      "reason": "Koreans → Japan: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        2167,
+        2168,
+        2170,
+        2172,
+        2173,
+        2175,
+        2176
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1327__ent_440",
+      "judgment": "supported",
+      "reason": "Browns → Baltimore: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4820,
+        4821,
+        4822,
+        4824,
+        4825,
+        4827,
+        4828
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_856__ent_83",
+      "judgment": "supported",
+      "reason": "Raiders → Oakland: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        5226,
+        5227,
+        5228,
+        5229,
+        5231,
+        5232,
+        5233
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_823__ent_537",
+      "judgment": "supported",
+      "reason": "Mexicans → United States: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        2122,
+        2125,
+        2126,
+        2127,
+        2128,
+        2130
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_462__ent_1399",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3430,
+        3433,
+        3435,
+        4929,
+        4933,
+        4934
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_81__ent_84",
+      "judgment": "supported",
+      "reason": "Mr. Baker → Baghdad: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        3450,
+        3451,
+        3454,
+        3455,
+        3457,
+        3458
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_182__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4094,
+        4096,
+        4098,
+        5238,
+        7343,
+        7349
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1431__ent_1393",
+      "judgment": "supported",
+      "reason": "Cubans → United States: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4724,
+        4726,
+        4727,
+        4728,
+        4729,
+        4730
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_856__ent_1277",
+      "judgment": "supported",
+      "reason": "Raiders → Los Angeles: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4790,
+        4791,
+        4793,
+        4794,
+        4796,
+        4799
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1161__ent_5",
+      "judgment": "supported",
+      "reason": "Turks → Germany: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        6116,
+        6119,
+        6120,
+        6121,
+        6123,
+        6124
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1269__ent_244",
+      "judgment": "incorrect",
+      "reason": "Republican → Judiciary Committee: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6271,
+        6272,
+        6273,
+        6274,
+        6276,
+        6278
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_7__ent_485",
+      "judgment": "incorrect",
+      "reason": "Democrat → Senate Armed Services Committee: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6309,
+        6311,
+        6313,
+        6315,
+        6316,
+        6317
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_819__ent_964",
+      "judgment": "incorrect",
+      "reason": "Democrats → A. Gephardt: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7536,
+        7537,
+        7539,
+        7541,
+        7543,
+        7545
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_316__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Gore → Washington: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        997,
+        999,
+        1001,
+        1002,
+        1004
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1004__ent_1221",
+      "judgment": "incorrect",
+      "reason": "Yankees → Bronx: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        4044,
+        4046,
+        4047,
+        4049,
+        4051
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1335__ent_429",
+      "judgment": "ambiguous",
+      "reason": "Dodgers → Los Angeles; Walter O'Malley → Los Angeles: The Dodgers organization and Walter O’Malley are distinct subjects merged into one latent fact, although each has movement phrasing.",
+      "evidence_lines": [
+        4802,
+        4803,
+        4804,
+        4805,
+        4860
+      ],
+      "issue_tags": [
+        "merged_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should the Dodgers and Walter O’Malley be separate moving entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1004__ent_682",
+      "judgment": "supported",
+      "reason": "Yankees → New Jersey: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4830,
+        4834,
+        4835,
+        4837,
+        4839
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_363.json",
+        "annotation_sha256": "a1a85790af24864d78ce4573f345516471cfe277a32b12282725133d8f3be07b"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1004__ent_324",
+      "judgment": "supported",
+      "reason": "Yankees → New York: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        5197,
+        5198,
+        5199,
+        5201,
+        5204
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_198__ent_450",
+      "judgment": "supported",
+      "reason": "Mr. Gorbachev → Moscow: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        5216,
+        5217,
+        5220,
+        5222,
+        5223
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1248__ent_450",
+      "judgment": "supported",
+      "reason": "Mr. Gorbachev → Moscow: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        5218,
+        5219,
+        5221,
+        5224,
+        5225
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_386__ent_147",
+      "judgment": "incorrect",
+      "reason": "Lee E. Koppelman → Long Island Regional Planning Board: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        164,
+        167,
+        168,
+        169
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_561__ent_1443",
+      "judgment": "incorrect",
+      "reason": "Giants → Super Bowl: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        2219,
+        2222,
+        3439,
+        3442
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1115__ent_850",
+      "judgment": "incorrect",
+      "reason": "Patriots → Super Bowl: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        2250,
+        2253,
+        2254,
+        2255
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_363.json",
+        "annotation_sha256": "a1a85790af24864d78ce4573f345516471cfe277a32b12282725133d8f3be07b"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_356__ent_308",
+      "judgment": "incorrect",
+      "reason": "Ewing → Knicks: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3081,
+        3082,
+        3083,
+        4222
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_273__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Joe Torre → Yankees; Willie Randolph → Yankees: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3178,
+        3180,
+        6549,
+        6554
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1397__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born → United States; Cubans → United States: Born is a truncated subject merged with Cubans; movement is present but the actual subject identity is unresolved.",
+      "evidence_lines": [
+        4693,
+        4696,
+        4700,
+        4721
+      ],
+      "issue_tags": [
+        "argument_boundary",
+        "merged_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "What is the full Born subject, and is it distinct from Cubans?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_669__ent_1124",
+      "judgment": "supported",
+      "reason": "Americans → Europe: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4752,
+        4754,
+        4755,
+        4756
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1162__ent_226",
+      "judgment": "supported",
+      "reason": "Mr. bin Laden → Sudan: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        6145,
+        6147,
+        6148,
+        6149
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1224__ent_229",
+      "judgment": "supported",
+      "reason": "Film Forum → West Houston Street: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        6214,
+        6217,
+        6220,
+        6221
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_723__ent_965",
+      "judgment": "incorrect",
+      "reason": "Public Broadcasting Service → Channel; Scott McClellan → White House: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        1347,
+        7524,
+        7525
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1046__ent_1350",
+      "judgment": "incorrect",
+      "reason": "House → Senate: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        1973,
+        1975,
+        1977
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1258__ent_1256",
+      "judgment": "incorrect",
+      "reason": "Germany → NATO: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        2723,
+        2724,
+        2730
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1399__ent_462",
+      "judgment": "incorrect",
+      "reason": "Ewing → Knicks: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3076,
+        4225,
+        4227
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_79__ent_1313",
+      "judgment": "incorrect",
+      "reason": "Dick Steinberg → Jets: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3244,
+        3246,
+        3248
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_308__ent_1399",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3427,
+        3436,
+        4928
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_827__ent_586",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → White House: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4084,
+        4091,
+        4092
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_647__ent_1277",
+      "judgment": "supported",
+      "reason": "Dodgers → Los Angeles: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4800,
+        4801,
+        4807
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_102__ent_682",
+      "judgment": "supported",
+      "reason": "Yankees → New Jersey: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4832,
+        4833,
+        4838
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1046__ent_816",
+      "judgment": "incorrect",
+      "reason": "House → Republicans: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        4886,
+        4888,
+        4894
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1282__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        5207,
+        5208,
+        5211
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_263__ent_244",
+      "judgment": "incorrect",
+      "reason": "Republican → Judiciary Committee: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6269,
+        6275,
+        6277
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1419__ent_1046",
+      "judgment": "incorrect",
+      "reason": "Democrats → House: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6364,
+        6366,
+        6371
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_238__ent_1313",
+      "judgment": "incorrect",
+      "reason": "Bruce Coslet → Jets: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6509,
+        6510,
+        6511
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_95__ent_1396",
+      "judgment": "incorrect",
+      "reason": "Michiko Kakutani → The Times: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7303,
+        7307,
+        7309
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1440__ent_727",
+      "judgment": "incorrect",
+      "reason": "Senate → Ralph J. Marino: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7658,
+        7660,
+        7665
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1322__ent_261",
+      "judgment": "incorrect",
+      "reason": "Republican → Bob Dole: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7707,
+        7711,
+        7715
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1394__ent_1309",
+      "judgment": "incorrect",
+      "reason": "Palestinians → Gaza: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        8152,
+        8156,
+        8158
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1366__ent_189",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Congress: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        407,
+        414
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_775__ent_1393",
+      "judgment": "incorrect",
+      "reason": "WASHINGTON → United States: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        676,
+        678
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_363.json",
+        "annotation_sha256": "a1a85790af24864d78ce4573f345516471cfe277a32b12282725133d8f3be07b"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1063__ent_778",
+      "judgment": "incorrect",
+      "reason": "Bedford-Stuyvesant → Brooklyn: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        1104,
+        1106
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1211__ent_1380",
+      "judgment": "incorrect",
+      "reason": "Michael Jordan → Bulls: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3147,
+        3149
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_408__ent_1103",
+      "judgment": "incorrect",
+      "reason": "Soviets → Afghanistan: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        4115,
+        4119
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1119__ent_110",
+      "judgment": "incorrect",
+      "reason": "Bobby Holik → Devils: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        4283,
+        4284
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1313__ent_681",
+      "judgment": "incorrect",
+      "reason": "Jets → Giants Stadium: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        4842,
+        4848
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_441__ent_1141",
+      "judgment": "supported",
+      "reason": "Washington Senators → Texas: At least one explicit move, return, go, arrive, travel, leave-for or resettlement path establishes movement with this geographic destination; other residence or departure evidence does not negate that support.",
+      "evidence_lines": [
+        4870,
+        4871
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1266__ent_1412",
+      "judgment": "incorrect",
+      "reason": "Britain → China: Britain returning/handing over to China describes transfer of sovereignty rather than Britain undertaking geographic movement.",
+      "evidence_lines": [
+        5166,
+        5168
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1269__ent_486",
+      "judgment": "incorrect",
+      "reason": "Republican → Finance Committee: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6282,
+        6283
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_820__ent_1132",
+      "judgment": "incorrect",
+      "reason": "Israel → Shimon Peres: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7021,
+        7025
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1321__ent_1344",
+      "judgment": "incorrect",
+      "reason": "Senate → Bob Dole: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7627,
+        7629
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1321__ent_1214",
+      "judgment": "incorrect",
+      "reason": "Senate → Trent Lott: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7636,
+        7640
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_263__ent_1016",
+      "judgment": "incorrect",
+      "reason": "Republican → Bob Dole: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7706,
+        7714
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_384__ent_978",
+      "judgment": "incorrect",
+      "reason": "Robert Gangi → Correctional Association of New York: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        146
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1096__ent_527",
+      "judgment": "incorrect",
+      "reason": "Donald Fine → Chase Securities: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        570
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_661__ent_471",
+      "judgment": "incorrect",
+      "reason": "Joseph Liro → S. G. Warburg & Company: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        720
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_276__ent_27",
+      "judgment": "incorrect",
+      "reason": "Ernie Accorsi → Giants: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3228
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_282__ent_528",
+      "judgment": "incorrect",
+      "reason": "Phil Esposito → Rangers: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        3405
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1437__ent_567",
+      "judgment": "incorrect",
+      "reason": "Ewing → Knicks: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        4226
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1046__ent_1296",
+      "judgment": "incorrect",
+      "reason": "House → Republicans: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        4895
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_299__ent_1039",
+      "judgment": "incorrect",
+      "reason": "White House → Scott McClellan: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        5410
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1412__ent_537",
+      "judgment": "incorrect",
+      "reason": "China → United States: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        5875
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_211__ent_1107",
+      "judgment": "incorrect",
+      "reason": "Willie Randolph → Yankees: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6553
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1077__ent_1187",
+      "judgment": "incorrect",
+      "reason": "U S West → Bell: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        6814
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1398__ent_1320",
+      "judgment": "incorrect",
+      "reason": "China → Qian Qichen: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7049
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_235__ent_460",
+      "judgment": "incorrect",
+      "reason": "NPD Group → Port Washington: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        7138
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1098__ent_325",
+      "judgment": "incorrect",
+      "reason": "Herbert Mitgang → The Times: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7318
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1265__ent_721",
+      "judgment": "incorrect",
+      "reason": "Republicans → John McCain: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7546
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_816__ent_1278",
+      "judgment": "incorrect",
+      "reason": "Republicans → Bush: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7556
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_1350__ent_1445",
+      "judgment": "incorrect",
+      "reason": "Senate → Tom Daschle: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        7646
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_376__ent_703",
+      "judgment": "incorrect",
+      "reason": "Douglas Edwards → Sarasota: The rows establish presence, residence, departure from a place, geographic containment, death or play at a location; none establishes movement to that destination.",
+      "evidence_lines": [
+        8202
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_363.json",
+        "annotation_sha256": "a1a85790af24864d78ce4573f345516471cfe277a32b12282725133d8f3be07b"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_173__ent_1307",
+      "judgment": "incorrect",
+      "reason": "Charles J. Hynes → Brooklyn: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        8314
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    },
+    {
+      "case_id": "rel_363__ent_758__ent_124",
+      "judgment": "incorrect",
+      "reason": "Patrick J. Fitzgerald → United States: The evidence concerns roles, membership, politics, sports-event qualification, team participation or other nongeographic associations rather than destination movement.",
+      "evidence_lines": [
+        8381
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:11:42.758Z"
+      }
+    }
+  ]
+}

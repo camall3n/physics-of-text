@@ -1,0 +1,105 @@
+{
+  "relation": "rel_357",
+  "predicate_id": "managerial_office_in",
+  "label": "managerial or leadership office in",
+  "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+  "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+  "facts": [
+    {
+      "case_id": "rel_357__ent_1196__ent_410",
+      "judgment": "supported",
+      "reason": "John C. Bogle → Vanguard Group: An explicit executive-of title establishes managerial office independently of the accompanying founder and emeritus references.",
+      "evidence_lines": [
+        3846,
+        3847,
+        3851,
+        3852
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:40:17.718Z"
+      }
+    },
+    {
+      "case_id": "rel_357__ent_1250__ent_1305",
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle → Democratic: Co-chair and leader titles attach to the incomplete adjective Democratic rather than a fully identified political institution.",
+      "evidence_lines": [
+        3699,
+        3703,
+        3707
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Which political body does Democratic name in the co-chair and leadership rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:40:17.719Z"
+      }
+    },
+    {
+      "case_id": "rel_357__ent_321__ent_1374",
+      "judgment": "incorrect",
+      "reason": "Mets → Dodgers: A sporting loss or medical statement does not establish managerial office.",
+      "evidence_lines": [
+        6917,
+        6925
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:40:17.719Z"
+      }
+    },
+    {
+      "case_id": "rel_357__ent_731__ent_1321",
+      "judgment": "ambiguous",
+      "reason": "New York → BBDO Worldwide: New York occupies the person slot in an of-chairman fragment, leaving the actual chairperson identity omitted.",
+      "evidence_lines": [
+        4137
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Who is the chairperson of BBDO Worldwide, and how does New York attach to that person or office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:40:17.719Z"
+      }
+    },
+    {
+      "case_id": "rel_357__ent_1315__ent_202",
+      "judgment": "incorrect",
+      "reason": "Americans → diabetes: A sporting loss or medical statement does not establish managerial office.",
+      "evidence_lines": [
+        4876
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:40:17.719Z"
+      }
+    }
+  ],
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f433e5e887f44a9f2641c003ee3f4ddbbfabddfde291e67322f7e634e147949d"
+}

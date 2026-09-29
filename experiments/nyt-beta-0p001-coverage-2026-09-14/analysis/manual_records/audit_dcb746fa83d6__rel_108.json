@@ -1,0 +1,91 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_108",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        6,
+        7,
+        8,
+        14
+      ],
+      "case_ids": [
+        "rel_108__ent_1119__ent_1404",
+        "rel_108__ent_413__ent_1320",
+        "rel_108__ent_66__ent_72",
+        "rel_108__ent_1271__ent_1403",
+        "rel_108__ent_1116__ent_110",
+        "rel_108__ent_63__ent_72"
+      ],
+      "judgment": "supported",
+      "reason": "A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        5,
+        13,
+        15
+      ],
+      "case_ids": [
+        "rel_108__ent_1095__ent_960",
+        "rel_108__ent_273__ent_1004",
+        "rel_108__ent_66__ent_543",
+        "rel_108__ent_64__ent_95",
+        "rel_108__ent_1423__ent_917"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bare lead, staying with a team or contract extension does not resolve athlete versus coaching/management role from these local rows.",
+      "tags": [
+        "athlete_context"
+      ],
+      "question": "Does the omitted role establish a playing athlete rather than a coach or manager?"
+    },
+    {
+      "indices": [
+        4,
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        18
+      ],
+      "case_ids": [
+        "rel_108__ent_247__ent_489",
+        "rel_108__ent_382__ent_1361",
+        "rel_108__ent_1006__ent_1279",
+        "rel_108__ent_556__ent_574",
+        "rel_108__ent_1415__ent_398",
+        "rel_108__ent_1390__ent_577",
+        "rel_108__ent_639__ent_724",
+        "rel_108__ent_310__ent_1440"
+      ],
+      "judgment": "incorrect",
+      "reason": "The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    6,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c3efee98029d2456e16fb06200dd9bc6e3e26be5cd38cbb4d19496a0360e4ff1"
+}

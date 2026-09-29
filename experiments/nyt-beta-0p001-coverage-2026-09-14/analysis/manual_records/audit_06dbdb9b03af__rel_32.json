@@ -1,0 +1,61 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_32",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_32__ent_1197__ent_267",
+        "rel_32__ent_1197__ent_268",
+        "rel_32__ent_1197__ent_727"
+      ],
+      "judgment": "supported",
+      "reason": "A direct whip or named Senate/majority leader row establishes the political leadership role, alongside intermediary references.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_32__ent_1197__ent_969"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Spokesperson/position and leadership-under-scramble paths leave whether Bill Frist is the Senate leader or attached intermediary unresolved.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Which local expression directly makes Bill Frist the Senate leader rather than the spokesman or another attached person?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_32__ent_561__ent_850"
+      ],
+      "judgment": "incorrect",
+      "reason": "A sports team reaching event victory is not a political body having a named leader.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "77cd7505a5ff6150cb5b8eaa81c8409a202e651ab180afce5159b403fe6b497a"
+}

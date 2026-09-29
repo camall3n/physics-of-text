@@ -1,0 +1,2369 @@
+{
+  "schema_version": 1,
+  "status": "frozen_operational_catalogue",
+  "created_at": "2026-09-14T20:53:21.952Z",
+  "purpose": "Complete comparable recensus of all14 saved NYT runs under harmonized earlier operational scopes; no prior artifacts changed.",
+  "prior_definition_files": 281,
+  "primary_top20_relation_assignments": 280,
+  "common_rules": {
+    "unit": "Every expressed ordered (relation,entity1,entity2) latent fact in top20 relations by assigned row count; no sample expansion or deduplication.",
+    "supported": "At least one case-local evidence row clearly establishes the fixed ordered predicate and local identity is not materially unresolved.",
+    "incorrect": "Evidence establishes another predicate/direction or fails the fixed predicate without an otherwise-supportive unresolved interpretation.",
+    "ambiguous": "Otherwise supportive or potentially supportive evidence cannot be attributed soundly because of local incompatible identities, attachment, missing argument, modality or an explicitly listed scope boundary. If all interpretations clearly fail the predicate, use E rather than A solely because names are mixed.",
+    "mixed_evidence": "One clear supporting row may support an existential historical fact even when other assigned rows express other predicates. Flag mixed_evidence; S is not sentence purity.",
+    "identity": "Materially incompatible literal pairs within one fact require the same A rule in every run; compatible aliases may be accepted from local context. Cross-fact global identity coherence is a separate diagnostic, not automatic relabeling of all multi-name IDs.",
+    "locality": "No evidence imported from another latent fact, relation, run, model score, external biography or expected historical truth.",
+    "time": "Historical tenure/result/residence suffices. Explicit candidate/proposed/negated statements do not assert actuality. Missing tense/modality is not filled by external knowledge; follow predicate-specific bare-path rules.",
+    "short_names": "A truncated but locally identifiable organization/team may be supported. Unnamed individual party labels, materially incomplete demonyms and omitted institutions remain A. Never repair names silently.",
+    "counts": "Report census S/N through (S+A)/N; these are ambiguity endpoints, not confidence intervals. Macro relation average separately. Preserve all prior annotations as provenance and review provisional copies under the catalogue."
+  },
+  "predicates": [
+    {
+      "id": "subsidiary_of",
+      "label": "subsidiary or organizational unit of",
+      "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+      "includes": [
+        "explicit subsidiary/unit/division/organizational-part",
+        "corporate owned-by or an explicit parent relationship in the child-to-parent direction",
+        "historical containment or ownership"
+      ],
+      "excludes": [
+        "employment",
+        "geographic containment",
+        "ordinary affiliation",
+        "reverse parent-to-child direction",
+        "a proposed acquisition"
+      ],
+      "ambiguous": [
+        "city standing for an unnamed office",
+        "minority investment alone without evidence of organizational containment",
+        "incomplete ownership attachment"
+      ],
+      "notes": "Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+      "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part."
+    },
+    {
+      "id": "owns",
+      "label": "owns organization or asset",
+      "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+      "includes": [
+        "owner/co-owner/owns",
+        "explicit ownership interest or stated share",
+        "corporate parent",
+        "completed acquisition with ownership attachment",
+        "historical ownership"
+      ],
+      "excludes": [
+        "management or leadership alone",
+        "publishing or distribution alone",
+        "mere collaboration",
+        "proposed or rejected acquisition"
+      ],
+      "ambiguous": [
+        "merger without clear ownership direction",
+        "a possessive alone"
+      ],
+      "notes": "This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+      "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse."
+    },
+    {
+      "id": "managerial_office_in",
+      "label": "managerial or leadership office in",
+      "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+      "includes": [
+        "head/president/chair/director/chief/commander/executive/manager",
+        "equivalent explicit management such as dean or commissioner",
+        "a functional or departmental leadership office within Y",
+        "historical office"
+      ],
+      "excludes": [
+        "founder or owner alone",
+        "ordinary employment/membership",
+        "spokesperson/adviser/lawyer/analyst/editor alone",
+        "athletic or standings lead",
+        "candidacy or nomination alone"
+      ],
+      "ambiguous": [
+        "personal principal standing for an omitted campaign or institution",
+        "unclear leadership attachment"
+      ],
+      "notes": "This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+      "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone."
+    },
+    {
+      "id": "organizational_leader_of",
+      "label": "leader or organizational head of",
+      "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+      "includes": [
+        "explicit leader/head/president/chief/chair",
+        "legislative majority/minority leadership or whip",
+        "leadership office within an identified body",
+        "historical office"
+      ],
+      "excludes": [
+        "ordinary membership or service",
+        "founding/ownership alone",
+        "party control of a chamber",
+        "candidate alone",
+        "athletic/standings or task-only lead",
+        "editor alone"
+      ],
+      "ambiguous": [
+        "generic director or executive without clear leadership role",
+        "bare lead lacking organizational-role context",
+        "materially truncated political body"
+      ],
+      "notes": "Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+      "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles."
+    },
+    {
+      "id": "president_or_manager_of",
+      "label": "president or manager of",
+      "definition": "Person X holds or held an explicitly identified president or manager office in organization, team, public body or institution Y.",
+      "includes": [
+        "explicit president or manager title or unambiguous manage-as-office evidence",
+        "general manager",
+        "borough president and community-board manager",
+        "functional presidency within an organization",
+        "historical tenure"
+      ],
+      "excludes": [
+        "chair/director/executive/head alone",
+        "owner/founder/coach/player alone",
+        "generic running or control without the specified role",
+        "candidate or nomination alone"
+      ],
+      "ambiguous": [
+        "personal principal replacing omitted organization/campaign",
+        "missing title modifier that could change the office"
+      ],
+      "notes": "This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes.",
+      "scope_notes": "Includes: explicit president or manager title or unambiguous manage-as-office evidence; general manager; borough president and community-board manager; functional presidency within an organization; historical tenure. Excludes: chair/director/executive/head alone; owner/founder/coach/player alone; generic running or control without the specified role; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal replacing omitted organization/campaign; missing title modifier that could change the office. This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes."
+    },
+    {
+      "id": "chairperson_of",
+      "label": "chairperson of",
+      "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+      "includes": [
+        "explicit chair/chairman/chairwoman/chairperson",
+        "co-chair if explicit",
+        "past tenure or resignation from that office"
+      ],
+      "excludes": [
+        "president/head/executive/director alone",
+        "founder/owner/member alone",
+        "nomination/candidacy alone"
+      ],
+      "ambiguous": [
+        "ambiguous successor or appointment that does not establish tenure",
+        "chair of an omitted subunit"
+      ],
+      "notes": "Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+      "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better."
+    },
+    {
+      "id": "chairs_or_heads",
+      "label": "chairs or heads organization",
+      "definition": "Person X holds or held a chair or organizational head/leader office in organization or committee Y.",
+      "includes": [
+        "explicit chair/head/organizational leader",
+        "historical chair or head office"
+      ],
+      "excludes": [
+        "ordinary member/serve-on/sit-on",
+        "generic executive/director/president without chair/head role",
+        "chair of a panel as proof of chairing its parent organization"
+      ],
+      "ambiguous": [
+        "incomplete panel/parent attachment",
+        "unnamed person identified only by party"
+      ],
+      "notes": "This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases.",
+      "scope_notes": "Includes: explicit chair/head/organizational leader; historical chair or head office. Excludes: ordinary member/serve-on/sit-on; generic executive/director/president without chair/head role; chair of a panel as proof of chairing its parent organization. Ambiguous unless resolved by case-local evidence: incomplete panel/parent attachment; unnamed person identified only by party. This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases."
+    },
+    {
+      "id": "director_of",
+      "label": "director of organization",
+      "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+      "includes": [
+        "explicit director/co-director",
+        "functional directorship such as communications or research director within Y",
+        "historical office"
+      ],
+      "excludes": [
+        "head/president/chair/executive alone",
+        "spokesperson/adviser/publisher/professor/member alone",
+        "performing or authorship alone"
+      ],
+      "ambiguous": [
+        "personal principal with omitted organization",
+        "abstract topic in place of the actual institution"
+      ],
+      "notes": "Does not require sole chief control of the entire institution.",
+      "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+    },
+    {
+      "id": "executive_of",
+      "label": "executive of",
+      "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+      "includes": [
+        "executive/chief executive office",
+        "corporate and county executive",
+        "explicit historical executive office"
+      ],
+      "excludes": [
+        "chair/director/president/head alone without executive title",
+        "hired by an executive",
+        "candidate or nomination alone"
+      ],
+      "ambiguous": [
+        "title/attachment omits who holds the executive office"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+    },
+    {
+      "id": "has_political_leader",
+      "label": "political body has a leader",
+      "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+      "includes": [
+        "national president/ruler/head of government",
+        "named parliamentary majority/minority leader or whip",
+        "historical leadership"
+      ],
+      "excludes": [
+        "corporate/team leadership",
+        "ordinary membership/meeting",
+        "party control instead of an individual leader",
+        "person-to-body forward direction"
+      ],
+      "ambiguous": [
+        "unspecified minister without evidence of head-of-government or leadership scope",
+        "truncated body or unnamed officeholder"
+      ],
+      "notes": "Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+      "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S."
+    },
+    {
+      "id": "has_organizational_leader",
+      "label": "has organizational or political leader",
+      "definition": "Organization or political body X has person Y holding an explicit managerial or leadership office in it.",
+      "includes": [
+        "inverse of managerial_office_in with an explicit office",
+        "corporate or political institutions",
+        "historical office"
+      ],
+      "excludes": [
+        "ordinary membership",
+        "geographic co-occurrence",
+        "interactions without office",
+        "forward person-to-body direction"
+      ],
+      "ambiguous": [
+        "incomplete principal or office attachment"
+      ],
+      "notes": "Use only where the prior declaration actually included organizations generally, not to widen a political-only relation.",
+      "scope_notes": "Includes: inverse of managerial_office_in with an explicit office; corporate or political institutions; historical office. Excludes: ordinary membership; geographic co-occurrence; interactions without office; forward person-to-body direction. Ambiguous unless resolved by case-local evidence: incomplete principal or office attachment. Use only where the prior declaration actually included organizations generally, not to widen a political-only relation."
+    },
+    {
+      "id": "analyst_for",
+      "label": "analyst at organization",
+      "definition": "Person X works or worked as an analyst for organization Y.",
+      "includes": [
+        "explicit analyst at/for/with/of",
+        "following or tracking an industry or companies for an employer when it identifies professional analysis"
+      ],
+      "excludes": [
+        "director/president/professor/scientist/spokesperson/editor/lawyer/partner alone",
+        "generic affiliation"
+      ],
+      "ambiguous": [
+        "economist-only, forecaster, strategist or specialist at the analyst role boundary",
+        "unclear role/employer attachment"
+      ],
+      "notes": "Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+      "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst."
+    },
+    {
+      "id": "economist_for",
+      "label": "economist at organization",
+      "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+      "includes": [
+        "explicit economist at/for/with/of",
+        "historical departmental economist affiliation"
+      ],
+      "excludes": [
+        "analyst/strategist/specialist/professor/executive alone",
+        "generic financial expertise"
+      ],
+      "ambiguous": [
+        "unclear economist/employer attachment"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment."
+    },
+    {
+      "id": "professor_at",
+      "label": "professor or university teacher at",
+      "definition": "Person X is a professor or teaches at academic institution Y.",
+      "includes": [
+        "explicit professor",
+        "teaching at the institution",
+        "historical teaching affiliation"
+      ],
+      "excludes": [
+        "expert/specialist/dean/researcher/analyst alone",
+        "attendance or institution location alone"
+      ],
+      "ambiguous": [
+        "unclear teacher versus student attachment"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+    },
+    {
+      "id": "lawyer_for",
+      "label": "lawyer or attorney for",
+      "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+      "includes": [
+        "explicit lawyer/attorney/counsel for/at/with client or employer",
+        "legal employment at a firm",
+        "explicit governmental attorney office for a jurisdiction"
+      ],
+      "excludes": [
+        "private lawyer merely located in a city",
+        "spokesperson/director/lobbyist alone",
+        "reverse client-to-lawyer direction"
+      ],
+      "ambiguous": [
+        "city as location versus represented jurisdiction",
+        "firm partner without a clear legal-role attachment"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment."
+    },
+    {
+      "id": "coach_of",
+      "label": "coach of",
+      "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+      "includes": [
+        "explicit coach title",
+        "direct coaching with correct subject and team",
+        "former/dismissed coach with clear office evidence",
+        "team/university shorthand when the athletic program role is clear"
+      ],
+      "excludes": [
+        "manager/president/player alone",
+        "winning with a team alone",
+        "vacancy consideration alone",
+        "reverse team-to-coach direction"
+      ],
+      "ambiguous": [
+        "missing coach subject or team attachment"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment."
+    },
+    {
+      "id": "athlete_for",
+      "label": "athlete plays for team",
+      "definition": "Person X plays or played as an athlete for sports team Y.",
+      "includes": [
+        "player/center/guard/wing/captain/scorer role on a team",
+        "playing for or with the team as athlete",
+        "scoring for the team"
+      ],
+      "excludes": [
+        "coach/manager/owner alone",
+        "team leading or beating another team",
+        "generic lead without athlete context",
+        "reverse team-to-athlete direction"
+      ],
+      "ambiguous": [
+        "bare lead without player/position/scoring context"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+    },
+    {
+      "id": "spokesperson_for",
+      "label": "spokesperson for",
+      "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+      "includes": [
+        "explicit spokesman/spokeswoman/spokesperson",
+        "expressly speaking for principal",
+        "representation through an identified principal office"
+      ],
+      "excludes": [
+        "director/president/adviser/aide/lobbyist/secretary alone",
+        "communicating to rather than for Y",
+        "forward principal-to-person direction"
+      ],
+      "ambiguous": [
+        "geographic dateline replacing the person",
+        "unclear represented principal"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+    },
+    {
+      "id": "has_spokesperson",
+      "label": "has spokesperson",
+      "definition": "Organization or principal X has person Y serving as its spokesperson.",
+      "includes": [
+        "inverse spokesperson_for with correct attachment",
+        "organization-modifying spokesman and appositive person"
+      ],
+      "excludes": [
+        "leader/president/lawyer/secretary alone",
+        "speaking at a building",
+        "spokesperson-to-principal forward direction"
+      ],
+      "ambiguous": [
+        "dateline/location replacing the principal or person"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person."
+    },
+    {
+      "id": "communicates_to",
+      "label": "directed communication to",
+      "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+      "includes": [
+        "tell/ask/urge/notify/advise/warn/persuade/address/speak-to",
+        "testimony before the addressee",
+        "send/submit a clearly communicative object",
+        "institutional communication through an identified representative"
+      ],
+      "excludes": [
+        "mere meeting/cooperation/support",
+        "speaking about or criticizing Y without address",
+        "physical transfer",
+        "spokesperson intermediary treated as recipient"
+      ],
+      "ambiguous": [
+        "send/submit/give with omitted object and no other clear communication in this fact",
+        "person versus their administration or envoy attribution"
+      ],
+      "notes": "An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+      "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it."
+    },
+    {
+      "id": "defeated",
+      "label": "defeated opponent",
+      "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+      "includes": [
+        "beat/defeat/trounce/rout/upset/victory over",
+        "completed sporting sweep/outlast/elimination",
+        "explicit electoral defeat of an opposing competitor",
+        "historical win despite losses in other games"
+      ],
+      "excludes": [
+        "mere play/face/rivalry",
+        "standings or polling lead",
+        "losing to Y",
+        "winning an event rather than beating Y",
+        "political control or hostility alone"
+      ],
+      "ambiguous": [
+        "bare outscore/surpass/shock without a completed-contest result",
+        "score margin for only one period",
+        "unclear geographic/team metonymy"
+      ],
+      "notes": "Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+      "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat."
+    },
+    {
+      "id": "winner_of",
+      "label": "winner or champion of",
+      "definition": "Entity X won the award or competition designated by Y, or held an explicitly Y-designated championship title.",
+      "includes": [
+        "explicit win/winner/champion of event or award",
+        "sporting titles and honor awards such as Nobel Peace Prize",
+        "explicit championship/title designated by a sanctioning body or Olympic designation",
+        "historical victory"
+      ],
+      "excludes": [
+        "participation or reaching the event",
+        "single stage/game victory without the overall title",
+        "winning political office/control of a body",
+        "location or ordinary membership"
+      ],
+      "ambiguous": [
+        "unclear title/event attachment",
+        "medal without a clear winning title or award scope"
+      ],
+      "notes": "A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning.",
+      "scope_notes": "Includes: explicit win/winner/champion of event or award; sporting titles and honor awards such as Nobel Peace Prize; explicit championship/title designated by a sanctioning body or Olympic designation; historical victory. Excludes: participation or reaching the event; single stage/game victory without the overall title; winning political office/control of a body; location or ordinary membership. Ambiguous unless resolved by case-local evidence: unclear title/event attachment; medal without a clear winning title or award scope. A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning."
+    },
+    {
+      "id": "sporting_champion_of",
+      "label": "wins or holds sporting championship",
+      "definition": "Entity X won sporting competition Y or held an explicitly Y-designated sporting championship or title.",
+      "includes": [
+        "sport win/champion/title/clinch-title",
+        "sporting league/division or explicitly title-designating body",
+        "historical sporting title"
+      ],
+      "excludes": [
+        "non-sport honorary awards",
+        "political election or control",
+        "participation",
+        "single stage without overall title",
+        "coaching or team membership alone"
+      ],
+      "ambiguous": [
+        "medal without a winning championship",
+        "unclear title attachment"
+      ],
+      "notes": "Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples.",
+      "scope_notes": "Includes: sport win/champion/title/clinch-title; sporting league/division or explicitly title-designating body; historical sporting title. Excludes: non-sport honorary awards; political election or control; participation; single stage without overall title; coaching or team membership alone. Ambiguous unless resolved by case-local evidence: medal without a winning championship; unclear title attachment. Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples."
+    },
+    {
+      "id": "located_in",
+      "label": "organization based or located in",
+      "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+      "includes": [
+        "based/headquarters/campus/office in",
+        "company/firm/group in a place",
+        "clear company/firm geographic noun modifiers",
+        "historical organizational location"
+      ],
+      "excludes": [
+        "industry/Internet or corporate-family/Bell association",
+        "person birthplace/residence/occupation",
+        "mere event location",
+        "ownership or employment alone"
+      ],
+      "ambiguous": [
+        "nationality adjective alone",
+        "truncated country/place",
+        "Wall Street as place versus industry"
+      ],
+      "notes": "A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+      "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact."
+    },
+    {
+      "id": "resides_in",
+      "label": "lives or has lived in",
+      "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+      "includes": [
+        "live/resident/residence/home-in",
+        "explicit resettlement or being raised there",
+        "death at own home in a place when home attachment is clear"
+      ],
+      "excludes": [
+        "death/killing in a place without residence",
+        "birth alone",
+        "work/travel/visits/presence/office alone",
+        "a relative living there without attribution to X"
+      ],
+      "ambiguous": [
+        "obituary person-of-city apposition",
+        "relative/home attachment"
+      ],
+      "notes": "Population statements concern members of the population, not necessarily every member.",
+      "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+    },
+    {
+      "id": "born_in",
+      "label": "born in",
+      "definition": "Person X was born in geographic place Y.",
+      "includes": [
+        "direct born-in",
+        "born into a family in Y when Y is the birth location"
+      ],
+      "excludes": [
+        "grown up/raised/native/from alone",
+        "nationality",
+        "schooling/residence/travel",
+        "institution founding"
+      ],
+      "ambiguous": [
+        "unclear person or birthplace attachment"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+    },
+    {
+      "id": "travels_to",
+      "label": "moves or travels to",
+      "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+      "includes": [
+        "move/relocate/return/arrive/go/visit to Y",
+        "depart/leave for Y",
+        "temporary travel or organizational relocation",
+        "bare unqualified destination movement as textual support"
+      ],
+      "excludes": [
+        "leave/withdraw from Y",
+        "mere presence/residence/death place",
+        "sports-event qualification or attendance as a nongeographic destination",
+        "membership or political control"
+      ],
+      "ambiguous": [
+        "explicitly hypothetical or proposed relocation",
+        "invasion-only boundary",
+        "geographic/team or theatrical metonymy"
+      ],
+      "notes": "Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+      "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path."
+    },
+    {
+      "id": "departed_from",
+      "label": "departed from",
+      "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+      "includes": [
+        "leave/withdraw/pull out from Y",
+        "historical physical departure"
+      ],
+      "excludes": [
+        "arrival/return to Y",
+        "residence alone",
+        "leaving a job or team as an institution without geography"
+      ],
+      "ambiguous": [
+        "place versus institution as source",
+        "explicitly conditional departure"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+    },
+    {
+      "id": "member_of",
+      "label": "member of organization",
+      "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+      "includes": [
+        "explicit member/belong/membership",
+        "join/accession/entry when organizational membership is established",
+        "individual legislators and countries in alliances"
+      ],
+      "excludes": [
+        "join a person in an action",
+        "geographic entry",
+        "event participation",
+        "party control of legislature",
+        "negotiations or proposed membership alone"
+      ],
+      "ambiguous": [
+        "bare join without clear completion or membership meaning",
+        "plural party naming individual members rather than the party itself"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself."
+    },
+    {
+      "id": "politically_controls",
+      "label": "politically controls",
+      "definition": "Political group X controls or gains control of political body Y.",
+      "includes": [
+        "control/take-control/retain/regain/win-control",
+        "historical political control"
+      ],
+      "excludes": [
+        "generic win/be-in alone",
+        "individual leadership office without party control",
+        "ordinary membership",
+        "sporting victory"
+      ],
+      "ambiguous": [
+        "incomplete control object or political-group identity"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+    },
+    {
+      "id": "geographic_part_of",
+      "label": "geographical part of",
+      "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+      "includes": [
+        "area/section/neighborhood/district of or in",
+        "clear place-to-containing-place attachment"
+      ],
+      "excludes": [
+        "organization subsidiary or location",
+        "residence/work/travel",
+        "an event in a place"
+      ],
+      "ambiguous": [
+        "place names attached through an omitted institution"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution."
+    },
+    {
+      "id": "writes_for",
+      "label": "contributed writing to publication",
+      "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+      "includes": [
+        "wrote/reviewed for or in a publication",
+        "explicit critic for publication with authorship role"
+      ],
+      "excludes": [
+        "merely quoted or mentioned in publication",
+        "publication location",
+        "ordinary communication or employment without authorship"
+      ],
+      "ambiguous": [
+        "say-in without author/quoted-speaker distinction"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+    },
+    {
+      "id": "criticizes",
+      "label": "criticized or accused",
+      "definition": "Person or institution X criticized, blamed or accused Y.",
+      "includes": [
+        "explicit criticize/blame/accuse/assail",
+        "a clearly critical directed allegation"
+      ],
+      "excludes": [
+        "warning without criticism",
+        "generic communication or meeting",
+        "rivalry/comparison alone"
+      ],
+      "ambiguous": [
+        "unclear accused person or attributed critic"
+      ],
+      "notes": "",
+      "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+    },
+    {
+      "id": "competed_against",
+      "label": "played or competed against",
+      "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+      "includes": [
+        "explicit played against",
+        "a completed win or loss against opponent",
+        "competition with clear opponent roles"
+      ],
+      "excludes": [
+        "ordinary interaction",
+        "standings comparison without a contest",
+        "future schedule alone"
+      ],
+      "ambiguous": [
+        "ambiguous game occurrence"
+      ],
+      "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+      "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+    },
+    {
+      "id": "founder_of",
+      "label": "founder or co-founder of",
+      "definition": "Person or organization X founded or co-founded organization, institution, business, movement, or polity Y.",
+      "includes": [
+        "explicit founder or co-founder",
+        "founded or established Y in the institutional-creation sense",
+        "historical founding"
+      ],
+      "excludes": [
+        "ownership or managerial office alone",
+        "merely joined or acquired an existing organization",
+        "discovery or finding an object",
+        "proposed founding without realization"
+      ],
+      "ambiguous": [
+        "an incomplete institution or polity argument",
+        "a creator or builder phrase without clear institutional founding",
+        "unclear who is the founder"
+      ],
+      "notes": "Founding is separate from holding an office or retaining ownership. The direction is founder to founded institution.",
+      "scope_notes": "Includes: explicit founder or co-founder; founded or established Y in the institutional-creation sense; historical founding. Excludes: ownership or managerial office alone; merely joined or acquired an existing organization; discovery or finding an object; proposed founding without realization. Ambiguous unless resolved by case-local evidence: an incomplete institution or polity argument; a creator or builder phrase without clear institutional founding; unclear who is the founder. Founding is separate from holding an office or retaining ownership. The direction is founder to founded institution."
+    },
+    {
+      "id": "present_in",
+      "label": "physically present in place",
+      "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+      "includes": [
+        "explicit unqualified physical be-in or presence",
+        "a direct residence or physical location statement",
+        "a completed arrival, visit, or departure that establishes presence in Y"
+      ],
+      "excludes": [
+        "membership in an organization",
+        "participation or victory in a nongeographic event",
+        "political office or control alone",
+        "discussion, publication, or other abstract presence",
+        "a destination without evidence of realized movement or presence"
+      ],
+      "ambiguous": [
+        "place-versus-institution metonymy",
+        "an incomplete geographic argument",
+        "uncertain attachment or explicit hypothetical presence"
+      ],
+      "notes": "Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+      "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation."
+    },
+    {
+      "id": "organization_national_affiliation",
+      "label": "organization described by national affiliation",
+      "definition": "Organization X is explicitly described as belonging to the national or country affiliation designated by Y.",
+      "includes": [
+        "an explicit national adjective modifying the organization, such as a French company",
+        "a directly stated country-of-origin or national institutional affiliation",
+        "multiple explicitly named national affiliations"
+      ],
+      "excludes": [
+        "physical offices or temporary operations in a country alone",
+        "ownership by a person or organization of that nationality alone",
+        "a national adjective modifying an unrelated person or parent rather than X",
+        "a person's nationality"
+      ],
+      "ambiguous": [
+        "unclear national adjective attachment",
+        "a regional or city descriptor rather than a national affiliation",
+        "national origin versus current affiliation when the distinction is material"
+      ],
+      "notes": "Y can be a complete nationality designation such as French or British-Dutch; this predicate does not assert headquarters or legal incorporation. A nationality label used as the argument here differs from an incomplete institution name in an office predicate.",
+      "scope_notes": "Includes: an explicit national adjective modifying the organization, such as a French company; a directly stated country-of-origin or national institutional affiliation; multiple explicitly named national affiliations. Excludes: physical offices or temporary operations in a country alone; ownership by a person or organization of that nationality alone; a national adjective modifying an unrelated person or parent rather than X; a person's nationality. Ambiguous unless resolved by case-local evidence: unclear national adjective attachment; a regional or city descriptor rather than a national affiliation; national origin versus current affiliation when the distinction is material. Y can be a complete nationality designation such as French or British-Dutch; this predicate does not assert headquarters or legal incorporation. A nationality label used as the argument here differs from an incomplete institution name in an office predicate."
+    },
+    {
+      "id": "president_of",
+      "label": "president of institution",
+      "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+      "includes": [
+        "explicit president office",
+        "a functional or departmental president role within Y",
+        "historical or former presidency"
+      ],
+      "excludes": [
+        "manager, director, chairman, head, or executive alone without a president title",
+        "ordinary employment or membership",
+        "candidate or nomination alone"
+      ],
+      "ambiguous": [
+        "president-elect or unresolved tenure without evidence of holding office",
+        "an incomplete institution or personal principal",
+        "unclear holder or title attachment"
+      ],
+      "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+      "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y."
+    },
+    {
+      "id": "editor_of",
+      "label": "editor of publication",
+      "definition": "Person X serves or served as an editor of, for, or at publication Y.",
+      "includes": [
+        "explicit editor or editor-in-chief",
+        "section or departmental editor within a publication",
+        "explicitly editing publication Y",
+        "historical editorial office"
+      ],
+      "excludes": [
+        "publisher, director, owner, or author alone",
+        "ordinary writing or contribution without editorial role",
+        "merely being quoted or discussed in the publication"
+      ],
+      "ambiguous": [
+        "an incomplete publication argument",
+        "editor title attaching to someone other than X",
+        "editing a work versus holding the publication's editorial role when unclear"
+      ],
+      "notes": "Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication.",
+      "scope_notes": "Includes: explicit editor or editor-in-chief; section or departmental editor within a publication; explicitly editing publication Y; historical editorial office. Excludes: publisher, director, owner, or author alone; ordinary writing or contribution without editorial role; merely being quoted or discussed in the publication. Ambiguous unless resolved by case-local evidence: an incomplete publication argument; editor title attaching to someone other than X; editing a work versus holding the publication's editorial role when unclear. Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication."
+    },
+    {
+      "id": "reviews_artistic_output_of",
+      "label": "reviewed artistic output of",
+      "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+      "includes": [
+        "review of Y's performance, program, production, or artistic work",
+        "direct review of artist or ensemble Y in an artistic criticism context",
+        "historical reviews"
+      ],
+      "excludes": [
+        "a review merely taking place at venue Y",
+        "ordinary mention, attendance, or affiliation",
+        "an unrelated subject reviewed at a place owned by Y",
+        "authorship for a publication without reviewing Y's work"
+      ],
+      "ambiguous": [
+        "Y could denote the venue rather than the producer or performer",
+        "unclear reviewer or artistic-work attachment"
+      ],
+      "notes": "Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+      "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator."
+    },
+    {
+      "id": "manager_of",
+      "label": "manager of institution",
+      "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+      "includes": [
+        "explicit manager or general manager",
+        "a functional or departmental managerial office within Y",
+        "historical managerial office"
+      ],
+      "excludes": [
+        "president, director, head, executive, or coach alone without a manager title",
+        "ordinary employment or membership",
+        "candidate or proposed appointment alone"
+      ],
+      "ambiguous": [
+        "a personal principal standing for an omitted institution or campaign",
+        "unclear manager or institutional attachment",
+        "appointment without established tenure"
+      ],
+      "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+      "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title."
+    },
+    {
+      "id": "known_as",
+      "label": "known or named as",
+      "definition": "Entity X is explicitly known, named, renamed, or referred to by alternative name Y for the same entity.",
+      "includes": [
+        "explicit known-as or also-called identity",
+        "a stated alias or alternative name",
+        "historical renaming of the same entity"
+      ],
+      "excludes": [
+        "a named subsidiary or distinct entity",
+        "comparison or resemblance rather than identity",
+        "ordinary description without an alternative designation"
+      ],
+      "ambiguous": [
+        "unclear referent of the alternative name",
+        "an explicitly proposed new name without established use",
+        "name versus separate institution when unresolved"
+      ],
+      "notes": "The predicate concerns two names or designations of one referent. Do not infer identity from an ownership relationship.",
+      "scope_notes": "Includes: explicit known-as or also-called identity; a stated alias or alternative name; historical renaming of the same entity. Excludes: a named subsidiary or distinct entity; comparison or resemblance rather than identity; ordinary description without an alternative designation. Ambiguous unless resolved by case-local evidence: unclear referent of the alternative name; an explicitly proposed new name without established use; name versus separate institution when unresolved. The predicate concerns two names or designations of one referent. Do not infer identity from an ownership relationship."
+    },
+    {
+      "id": "has_medical_condition",
+      "label": "has or had medical condition",
+      "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+      "includes": [
+        "explicit having or suffering from Y",
+        "diagnosis of Y",
+        "death from or of Y establishing the condition",
+        "a stated affected subset of a named population"
+      ],
+      "excludes": [
+        "generic discussion or research about Y",
+        "treating another person with Y",
+        "a disease merely located in a place",
+        "a generic have phrase whose object is not a medical condition"
+      ],
+      "ambiguous": [
+        "unclear condition attachment or affected person",
+        "risk, possible diagnosis, or suspected condition without confirmation",
+        "a population mention that does not identify affected members"
+      ],
+      "notes": "This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+      "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition."
+    },
+    {
+      "id": "participated_in_sporting_event",
+      "label": "participated in sporting event",
+      "definition": "Competitor or team X participated in sporting event or competition Y.",
+      "includes": [
+        "actual played-in, competed-in, or appeared-in a sporting event",
+        "being in an event when competitive participation is clear",
+        "a completed win or title in the event, which entails participation"
+      ],
+      "excludes": [
+        "plans, hopes, or qualification without established participation",
+        "attendance as spectator",
+        "membership in a league without participation in the designated event",
+        "non-sporting events or geographic presence alone"
+      ],
+      "ambiguous": [
+        "future or proposed participation",
+        "event occurrence or participant role unclear",
+        "a governing body or location substituted for an unresolved event"
+      ],
+      "notes": "Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+      "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared."
+    },
+    {
+      "id": "met_with",
+      "label": "met or encountered",
+      "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+      "includes": [
+        "explicit actual meet or meet-with encounter",
+        "a meeting between representatives clearly attributed to the named institutions",
+        "actual meeting of opposing sports teams"
+      ],
+      "excludes": [
+        "communication alone without an encounter",
+        "a proposed or scheduled meeting not established as occurring",
+        "physical confluence of rivers or geographic features",
+        "mere co-occurrence or comparison"
+      ],
+      "ambiguous": [
+        "future or planned meeting when occurrence is unresolved",
+        "meeting versus satisfying an abstract requirement",
+        "unclear representatives or participants"
+      ],
+      "notes": "The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+      "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result."
+    },
+    {
+      "id": "has_coach",
+      "label": "has coach",
+      "definition": "Team or sporting organization X has or had person Y as an explicitly identified coach.",
+      "includes": [
+        "explicit head coach, coach, or assistant coach office",
+        "historical coaching office"
+      ],
+      "excludes": [
+        "ordinary player or manager alone without a coach title",
+        "an opponent or commentator",
+        "proposed appointment alone"
+      ],
+      "ambiguous": [
+        "unclear title or team attachment",
+        "a coach-elect or proposed appointment without established tenure"
+      ],
+      "notes": "Inverse of coach_of. This does not assert that Y is the sole or current coach.",
+      "scope_notes": "Includes: explicit head coach, coach, or assistant coach office; historical coaching office. Excludes: ordinary player or manager alone without a coach title; an opponent or commentator; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear title or team attachment; a coach-elect or proposed appointment without established tenure. Inverse of coach_of. This does not assert that Y is the sole or current coach."
+    },
+    {
+      "id": "has_wife",
+      "label": "has or had wife",
+      "definition": "Person X is or was married to woman Y identified as X's wife.",
+      "includes": [
+        "explicit wife or spouse identified as wife",
+        "wife apposition or accompanied-by-wife attachment establishing the couple",
+        "historical or former wife"
+      ],
+      "excludes": [
+        "daughter or other relative",
+        "ordinary companion or accompaniment without a wife relationship",
+        "a fictional or proposed marriage unless actual marital status is stated"
+      ],
+      "ambiguous": [
+        "unclear whose wife Y is",
+        "wife versus other companion attachment unresolved",
+        "engagement without established marriage"
+      ],
+      "notes": "The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+      "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship."
+    },
+    {
+      "id": "lawyer_in",
+      "label": "practices law in place",
+      "definition": "Person X is explicitly described as a lawyer practicing or professionally based in geographic place Y.",
+      "includes": [
+        "explicit lawyer-in place",
+        "a city or geographic nominal modifier of a lawyer establishing professional location",
+        "historical legal practice in the place"
+      ],
+      "excludes": [
+        "representing a client or institution alone",
+        "a law firm or personal client in the geographic argument slot",
+        "residence or travel alone without legal practice"
+      ],
+      "ambiguous": [
+        "public attorney office for a jurisdiction without evidence of practice location",
+        "geographic versus institutional meaning of Y unresolved",
+        "unclear attachment of the place to the lawyer"
+      ],
+      "notes": "Separate from lawyer_for, which concerns representation or professional institutional affiliation. A governmental jurisdiction as client or office does not automatically establish this geographic practice predicate.",
+      "scope_notes": "Includes: explicit lawyer-in place; a city or geographic nominal modifier of a lawyer establishing professional location; historical legal practice in the place. Excludes: representing a client or institution alone; a law firm or personal client in the geographic argument slot; residence or travel alone without legal practice. Ambiguous unless resolved by case-local evidence: public attorney office for a jurisdiction without evidence of practice location; geographic versus institutional meaning of Y unresolved; unclear attachment of the place to the lawyer. Separate from lawyer_for, which concerns representation or professional institutional affiliation. A governmental jurisdiction as client or office does not automatically establish this geographic practice predicate."
+    },
+    {
+      "id": "location_of_organization",
+      "label": "location of organization or its office",
+      "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+      "includes": [
+        "explicit organization location, headquarters, office, or base in X",
+        "a geographically identified office or division of Y located in X",
+        "historical physical organizational location"
+      ],
+      "excludes": [
+        "X is a corporate subsidiary or parent rather than a geographic place",
+        "national affiliation alone without physical location",
+        "ordinary travel, discussion, or an unrelated event in X"
+      ],
+      "ambiguous": [
+        "place versus institution metonymy unresolved",
+        "a geographic division name without clear physical location",
+        "unclear organization or location attachment"
+      ],
+      "notes": "This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+      "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location."
+    },
+    {
+      "id": "died_in",
+      "label": "died in place",
+      "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+      "includes": [
+        "explicit died-in or death-in location",
+        "being killed in Y establishing death there",
+        "historical death location"
+      ],
+      "excludes": [
+        "residence, birth, or ordinary presence alone",
+        "Y is the perpetrator or cause rather than location",
+        "discussion of deaths without the affected person or population"
+      ],
+      "ambiguous": [
+        "place versus institution unresolved",
+        "unclear death or geographic attachment",
+        "a population mention without identified affected members"
+      ],
+      "notes": "This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+      "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died."
+    },
+    {
+      "id": "has_member",
+      "label": "has member",
+      "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+      "includes": [
+        "explicit membership or being included as a group member",
+        "a clearly established office or athlete role that entails membership of the stated group",
+        "historical membership"
+      ],
+      "excludes": [
+        "corporate subsidiary ownership without membership in an explicitly identified group",
+        "a geographic area containing a place",
+        "ordinary accompaniment or a meeting",
+        "planned membership without established admission"
+      ],
+      "ambiguous": [
+        "generic include or join without group-membership context",
+        "unclear group versus geographic or corporate containment",
+        "proposed admission or unresolved member identity"
+      ],
+      "notes": "Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+      "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient."
+    },
+    {
+      "id": "acted_jointly_with",
+      "label": "acted jointly with",
+      "definition": "Entity X explicitly acted jointly or cooperated with counterpart Y in a shared action.",
+      "includes": [
+        "explicit cooperation or joint action",
+        "joining Y in a specified shared action",
+        "historical realized cooperation"
+      ],
+      "excludes": [
+        "joining an institution as a member",
+        "physical arrival, river confluence, or ordinary accompaniment",
+        "a generic relationship without a shared action",
+        "fighting against Y"
+      ],
+      "ambiguous": [
+        "join alone with no shared action supplied",
+        "plans or proposed cooperation without realization",
+        "unclear cooperative versus adversarial action"
+      ],
+      "notes": "A narrow joint-action meaning, not a generic association. With truncated join-only paths and no action context, use A rather than assuming what the entities did together.",
+      "scope_notes": "Includes: explicit cooperation or joint action; joining Y in a specified shared action; historical realized cooperation. Excludes: joining an institution as a member; physical arrival, river confluence, or ordinary accompaniment; a generic relationship without a shared action; fighting against Y. Ambiguous unless resolved by case-local evidence: join alone with no shared action supplied; plans or proposed cooperation without realization; unclear cooperative versus adversarial action. A narrow joint-action meaning, not a generic association. With truncated join-only paths and no action context, use A rather than assuming what the entities did together."
+    },
+    {
+      "id": "commented_on",
+      "label": "commented on",
+      "definition": "Entity X made an explicit statement or comment about entity Y.",
+      "includes": [
+        "say-of, comment-on, or a statement explicitly referring to Y",
+        "explicit praise, criticism, or accusation about Y",
+        "historical attributed statements"
+      ],
+      "excludes": [
+        "speaking to Y without establishing that Y is the subject",
+        "ordinary interaction or comparison without a statement by X",
+        "a statement about someone else related to Y"
+      ],
+      "ambiguous": [
+        "unclear speaker or subject attachment",
+        "a quotation or reference without an identifiable statement about Y"
+      ],
+      "notes": "The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+      "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment."
+    },
+    {
+      "id": "trailed_competitor",
+      "label": "trailed sporting competitor",
+      "definition": "Sporting competitor X was behind competitor Y in a game score or competitive standings.",
+      "includes": [
+        "explicit trail or games-behind",
+        "explicit lower score or standings position relative to Y",
+        "historical in-game or season standings"
+      ],
+      "excludes": [
+        "a completed defeat without evidence of trailing during play or in standings",
+        "political or commercial ranking",
+        "ordinary following or geographic movement",
+        "X leading or ahead of Y"
+      ],
+      "ambiguous": [
+        "a generic behind phrase without competitive context",
+        "unclear ordered competitor roles",
+        "a proposed or hypothetical score situation"
+      ],
+      "notes": "Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor.",
+      "scope_notes": "Includes: explicit trail or games-behind; explicit lower score or standings position relative to Y; historical in-game or season standings. Excludes: a completed defeat without evidence of trailing during play or in standings; political or commercial ranking; ordinary following or geographic movement; X leading or ahead of Y. Ambiguous unless resolved by case-local evidence: a generic behind phrase without competitive context; unclear ordered competitor roles; a proposed or hypothetical score situation. Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor."
+    },
+    {
+      "id": "politically_controlled_by",
+      "label": "politically controlled by",
+      "definition": "Political institution, legislature, government, or geographic territory X is or was politically controlled by group or government Y.",
+      "includes": [
+        "explicit political control, takeover, or governing majority by Y",
+        "historical control including clearly established loss of prior control"
+      ],
+      "excludes": [
+        "an ordinary member or individual officeholder without group control",
+        "corporate ownership",
+        "political support or influence alone",
+        "proposed takeover without realization"
+      ],
+      "ambiguous": [
+        "generic have, take, or govern without clear control context",
+        "unclear political body or group identity",
+        "control versus ordinary office unresolved"
+      ],
+      "notes": "Inverse of politically_controls. A mere member of a legislature does not establish party control.",
+      "scope_notes": "Includes: explicit political control, takeover, or governing majority by Y; historical control including clearly established loss of prior control. Excludes: an ordinary member or individual officeholder without group control; corporate ownership; political support or influence alone; proposed takeover without realization. Ambiguous unless resolved by case-local evidence: generic have, take, or govern without clear control context; unclear political body or group identity; control versus ordinary office unresolved. Inverse of politically_controls. A mere member of a legislature does not establish party control."
+    },
+    {
+      "id": "organization_operates_in_domain",
+      "label": "organization operates in industry or domain",
+      "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+      "includes": [
+        "explicit industry or domain modifier of company, agency, or business",
+        "stated operations or business activity in Y",
+        "historical business-domain identity"
+      ],
+      "excludes": [
+        "nationality or geographic location",
+        "corporate parent or corporate family name",
+        "a passing reference to users, data, or an unrelated product without business-domain evidence",
+        "a person working in a field"
+      ],
+      "ambiguous": [
+        "a nominal modifier that could mean owner, place, or industry",
+        "unclear organization versus personal referent",
+        "generic Internet mention without a business-domain role"
+      ],
+      "notes": "A business-field classification, not geographic location and not a generic association with the domain.",
+      "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain."
+    },
+    {
+      "id": "succeeded_person",
+      "label": "succeeded person in role",
+      "definition": "Person X took over a role previously held by person Y.",
+      "includes": [
+        "explicit succession or replacement in an office or professional role",
+        "historical successor taking office",
+        "clearly established temporary or acting replacement"
+      ],
+      "excludes": [
+        "X appointed a third person to replace Y",
+        "generic opposition, criticism, or substitution unrelated to a role",
+        "a proposed successor without established tenure"
+      ],
+      "ambiguous": [
+        "bare replace where appointing versus taking over is unresolved",
+        "unclear predecessor or role",
+        "candidate or announced future replacement without tenure"
+      ],
+      "notes": "Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously.",
+      "scope_notes": "Includes: explicit succession or replacement in an office or professional role; historical successor taking office; clearly established temporary or acting replacement. Excludes: X appointed a third person to replace Y; generic opposition, criticism, or substitution unrelated to a role; a proposed successor without established tenure. Ambiguous unless resolved by case-local evidence: bare replace where appointing versus taking over is unresolved; unclear predecessor or role; candidate or announced future replacement without tenure. Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously."
+    },
+    {
+      "id": "played_at_sporting_venue",
+      "label": "played at sporting venue",
+      "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+      "includes": [
+        "explicit play-at or game-at with X as competitor",
+        "a completed win or loss at Y establishing competitive play there",
+        "historical sporting venue use"
+      ],
+      "excludes": [
+        "ordinary attendance, practice, or employment at a place",
+        "plans without established play",
+        "the opponent or event substituted for the venue"
+      ],
+      "ambiguous": [
+        "future scheduled play without realization",
+        "unclear competitor versus spectator role",
+        "a generic at-venue phrase without a game context"
+      ],
+      "notes": "Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+      "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium."
+    },
+    {
+      "id": "has_lawyer",
+      "label": "has lawyer or legal counsel",
+      "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+      "includes": [
+        "explicit lawyer, attorney, or counsel for X",
+        "historical legal representation or institutional legal office",
+        "public attorney for the named jurisdiction"
+      ],
+      "excludes": [
+        "ordinary spokesperson, adviser, or employee without a legal role",
+        "a place where a lawyer practices without client or institutional affiliation",
+        "a third party lawyer merely quoted about X"
+      ],
+      "ambiguous": [
+        "unclear legal client versus geographic location",
+        "lawyer title attachment unresolved",
+        "an incomplete principal"
+      ],
+      "notes": "Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+      "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X."
+    },
+    {
+      "id": "broadcasts_program",
+      "label": "broadcasts or carries program",
+      "definition": "Broadcaster X is explicitly identified as broadcasting, carrying, or having program Y in its programming.",
+      "includes": [
+        "explicit airing or broadcasting of Y",
+        "Y identified as the program or show of broadcaster X",
+        "historical programming affiliation"
+      ],
+      "excludes": [
+        "ownership of a network or production company alone",
+        "an ordinary press interaction or meeting",
+        "a person appearing on a program without broadcaster-program identification"
+      ],
+      "ambiguous": [
+        "an incomplete program title such as Press with unresolved referent",
+        "unclear broadcaster versus guest role",
+        "program versus generic activity attachment unresolved"
+      ],
+      "notes": "Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting.",
+      "scope_notes": "Includes: explicit airing or broadcasting of Y; Y identified as the program or show of broadcaster X; historical programming affiliation. Excludes: ownership of a network or production company alone; an ordinary press interaction or meeting; a person appearing on a program without broadcaster-program identification. Ambiguous unless resolved by case-local evidence: an incomplete program title such as Press with unresolved referent; unclear broadcaster versus guest role; program versus generic activity attachment unresolved. Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting."
+    },
+    {
+      "id": "official_of",
+      "label": "official of institution",
+      "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+      "includes": [
+        "explicit official-of, official-at, or institutional official description",
+        "historical official role",
+        "a named formal public office that unambiguously entails official status"
+      ],
+      "excludes": [
+        "ordinary employment without an official role",
+        "a city dateline or institution standing in the person slot",
+        "a generic adviser or spokesperson without official status",
+        "proposed appointment alone"
+      ],
+      "ambiguous": [
+        "unclear person versus place identity",
+        "official title attachment unresolved",
+        "a generic institutional role without established official status"
+      ],
+      "notes": "Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+      "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation."
+    },
+    {
+      "id": "unresolved_relation",
+      "label": "unresolved relation meaning",
+      "definition": "The complete relation dictionary and argument roles do not identify a coherent dominant predicate whose facts can be judged without inventing a scope.",
+      "includes": [
+        "explicitly documented relation-level semantic indeterminacy after complete dictionary and argument-role inspection"
+      ],
+      "excludes": [
+        "using ambiguity to omit difficult facts or change denominators",
+        "a broad association or disjunction invented to make unrelated meanings correct",
+        "using this marker when a coherent dominant family can be identified"
+      ],
+      "ambiguous": [
+        "all facts remain ambiguous because the relation meaning is unresolved"
+      ],
+      "notes": "This is an evaluation marker, not a learned semantic relation. Every fact receives A with a case-specific question; retain all facts in denominators and separately report relation-semantic-indeterminacy counts.",
+      "scope_notes": "Includes: explicitly documented relation-level semantic indeterminacy after complete dictionary and argument-role inspection. Excludes: using ambiguity to omit difficult facts or change denominators; a broad association or disjunction invented to make unrelated meanings correct; using this marker when a coherent dominant family can be identified. Ambiguous unless resolved by case-local evidence: all facts remain ambiguous because the relation meaning is unresolved. This is an evaluation marker, not a learned semantic relation. Every fact receives A with a case-specific question; retain all facts in denominators and separately report relation-semantic-indeterminacy counts."
+    },
+    {
+      "id": "has_minister",
+      "label": "has minister",
+      "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+      "includes": [
+        "explicit minister of X or X's minister",
+        "a portfolio or prime minister office explicitly attached to X",
+        "historical ministerial office"
+      ],
+      "excludes": [
+        "ordinary official, ambassador, or opposition politician without minister title",
+        "a minister of a different government merely meeting X",
+        "candidate or proposed appointment alone"
+      ],
+      "ambiguous": [
+        "an incomplete national adjective in the institution slot",
+        "minister-designate without established tenure",
+        "unclear portfolio or government attachment"
+      ],
+      "notes": "The inverse ministerial office does not assert that every minister is the head of government.",
+      "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government."
+    },
+    {
+      "id": "fought_war_against",
+      "label": "fought military conflict against",
+      "definition": "Political entity or military group X fought an armed conflict or war against Y.",
+      "includes": [
+        "explicit war-with or fought-against in an armed-conflict context",
+        "actual military attack or combat against Y",
+        "historical military adversaries"
+      ],
+      "excludes": [
+        "sports competition or metaphorical political attack",
+        "cooperation, alliance, or joint action on the same side",
+        "border adjacency or diplomatic relations alone",
+        "planned conflict without realization"
+      ],
+      "ambiguous": [
+        "fight-with whose allied versus adversarial sense is unresolved",
+        "generic attack without military context",
+        "future threat or proposed war"
+      ],
+      "notes": "Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner.",
+      "scope_notes": "Includes: explicit war-with or fought-against in an armed-conflict context; actual military attack or combat against Y; historical military adversaries. Excludes: sports competition or metaphorical political attack; cooperation, alliance, or joint action on the same side; border adjacency or diplomatic relations alone; planned conflict without realization. Ambiguous unless resolved by case-local evidence: fight-with whose allied versus adversarial sense is unresolved; generic attack without military context; future threat or proposed war. Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner."
+    },
+    {
+      "id": "supports",
+      "label": "supports or endorses",
+      "definition": "Entity X explicitly gives political, material, or institutional support or endorsement to Y.",
+      "includes": [
+        "explicit supports, backs, endorses, or provides identified aid to Y",
+        "voting for Y as an endorsement",
+        "historical support"
+      ],
+      "excludes": [
+        "merely pressuring or criticizing Y",
+        "ordinary alliance or meeting without support assertion",
+        "generic possession or acquisition",
+        "physical support of an object unrelated to the institutional relation"
+      ],
+      "ambiguous": [
+        "give with omitted object",
+        "unclear support versus pressure or opposition",
+        "a future proposed endorsement without realization"
+      ],
+      "notes": "This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence.",
+      "scope_notes": "Includes: explicit supports, backs, endorses, or provides identified aid to Y; voting for Y as an endorsement; historical support. Excludes: merely pressuring or criticizing Y; ordinary alliance or meeting without support assertion; generic possession or acquisition; physical support of an object unrelated to the institutional relation. Ambiguous unless resolved by case-local evidence: give with omitted object; unclear support versus pressure or opposition; a future proposed endorsement without realization. This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence."
+    },
+    {
+      "id": "outnumbers",
+      "label": "outnumbers",
+      "definition": "Group X has a larger number of members or counted units than group Y in an explicitly stated context.",
+      "includes": [
+        "explicit outnumber relation",
+        "a stated numerical comparison establishing a larger count",
+        "historical counts in a particular population"
+      ],
+      "excludes": [
+        "electoral victory or political control without numerical comparison",
+        "generic superiority or strength",
+        "score or performance comparison not counting group members"
+      ],
+      "ambiguous": [
+        "unclear counted population or ordered groups",
+        "a truncated comparison that omits what is counted"
+      ],
+      "notes": "This concerns a stated population and time; it does not imply universal or permanent numerical superiority.",
+      "scope_notes": "Includes: explicit outnumber relation; a stated numerical comparison establishing a larger count; historical counts in a particular population. Excludes: electoral victory or political control without numerical comparison; generic superiority or strength; score or performance comparison not counting group members. Ambiguous unless resolved by case-local evidence: unclear counted population or ordered groups; a truncated comparison that omits what is counted. This concerns a stated population and time; it does not imply universal or permanent numerical superiority."
+    },
+    {
+      "id": "legal_specialist_in",
+      "label": "legal specialist in field",
+      "definition": "Person X is explicitly identified as a legal expert or lawyer specializing in legal field or issue Y.",
+      "includes": [
+        "lawyer specializing in Y",
+        "explicit legal expert, authority, or specialist on Y",
+        "a legal-field modifier of a lawyer"
+      ],
+      "excludes": [
+        "client representation without specialization",
+        "generic institutional membership",
+        "practice location or ordinary employment",
+        "expertise in a nonlegal field"
+      ],
+      "ambiguous": [
+        "unclear legal field versus client",
+        "lawyer title or field attachment unresolved"
+      ],
+      "notes": "Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation.",
+      "scope_notes": "Includes: lawyer specializing in Y; explicit legal expert, authority, or specialist on Y; a legal-field modifier of a lawyer. Excludes: client representation without specialization; generic institutional membership; practice location or ordinary employment; expertise in a nonlegal field. Ambiguous unless resolved by case-local evidence: unclear legal field versus client; lawyer title or field attachment unresolved. Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation."
+    },
+    {
+      "id": "broadcasts_event",
+      "label": "broadcasts event",
+      "definition": "Broadcaster X broadcasts or broadcast coverage of event Y.",
+      "includes": [
+        "explicit broadcast or telecast of Y",
+        "a stated event show on X",
+        "historical event coverage"
+      ],
+      "excludes": [
+        "broadcasting another program after Y",
+        "rights ownership alone without actual coverage",
+        "advertisement placement or rejection alone",
+        "ordinary attendance or commentary about Y"
+      ],
+      "ambiguous": [
+        "announced future coverage or rights without realization",
+        "unclear broadcaster versus production role",
+        "generic have or show without event-coverage attachment"
+      ],
+      "notes": "Separate from broadcasts_program for a named regular program; no ownership or exclusive-rights claim is implied.",
+      "scope_notes": "Includes: explicit broadcast or telecast of Y; a stated event show on X; historical event coverage. Excludes: broadcasting another program after Y; rights ownership alone without actual coverage; advertisement placement or rejection alone; ordinary attendance or commentary about Y. Ambiguous unless resolved by case-local evidence: announced future coverage or rights without realization; unclear broadcaster versus production role; generic have or show without event-coverage attachment. Separate from broadcasts_program for a named regular program; no ownership or exclusive-rights claim is implied."
+    },
+    {
+      "id": "event_held_in",
+      "label": "event held in place",
+      "definition": "Event X takes or took place in geographic location Y.",
+      "includes": [
+        "explicit event held-in or occurring-in Y",
+        "an event actually brought to or taking place in Y",
+        "historical event location"
+      ],
+      "excludes": [
+        "a team's organizational location or ordinary person travel",
+        "attendance originating from Y",
+        "a place merely bidding or competing to host X",
+        "discussion of an event in a publication"
+      ],
+      "ambiguous": [
+        "proposed, hoped-for, or future hosting without realization",
+        "generic have/bring/lure with missing modality",
+        "place versus institution or event identity unresolved"
+      ],
+      "notes": "This requires event occurrence at the location, not only a bid or planned destination.",
+      "scope_notes": "Includes: explicit event held-in or occurring-in Y; an event actually brought to or taking place in Y; historical event location. Excludes: a team's organizational location or ordinary person travel; attendance originating from Y; a place merely bidding or competing to host X; discussion of an event in a publication. Ambiguous unless resolved by case-local evidence: proposed, hoped-for, or future hosting without realization; generic have/bring/lure with missing modality; place versus institution or event identity unresolved. This requires event occurrence at the location, not only a bid or planned destination."
+    },
+    {
+      "id": "sells_to",
+      "label": "sells to",
+      "definition": "Entity X sells or sold goods, services, property, or transferable rights to buyer Y.",
+      "includes": [
+        "explicit sell-to or sale-to",
+        "a completed commercial transfer to Y",
+        "historical sales including transferable sporting contracts"
+      ],
+      "excludes": [
+        "ordinary giving or physical movement",
+        "a proposed sale without realization",
+        "Y is the item sold rather than the buyer"
+      ],
+      "ambiguous": [
+        "unclear seller-versus-item role",
+        "proposed or conditional sale",
+        "a nominal sale whose owner or seller is unresolved"
+      ],
+      "notes": "An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not.",
+      "scope_notes": "Includes: explicit sell-to or sale-to; a completed commercial transfer to Y; historical sales including transferable sporting contracts. Excludes: ordinary giving or physical movement; a proposed sale without realization; Y is the item sold rather than the buyer. Ambiguous unless resolved by case-local evidence: unclear seller-versus-item role; proposed or conditional sale; a nominal sale whose owner or seller is unresolved. An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not."
+    },
+    {
+      "id": "has_athlete",
+      "label": "has athlete on team",
+      "definition": "Team or sporting organization X has or had person Y as a player or competing athlete.",
+      "includes": [
+        "explicit player or athlete on X",
+        "X fields or plays Y as an athlete",
+        "a stated playing membership in X"
+      ],
+      "excludes": [
+        "coach or manager alone",
+        "wanting or needing Y without roster membership",
+        "an opponent rather than a team member",
+        "ordinary possession or a book title"
+      ],
+      "ambiguous": [
+        "generic have without athlete-role context",
+        "proposed recruitment without established membership",
+        "unclear team or player identity"
+      ],
+      "notes": "Inverse of athlete_for. A team needing a person does not prove that the person plays for it.",
+      "scope_notes": "Includes: explicit player or athlete on X; X fields or plays Y as an athlete; a stated playing membership in X. Excludes: coach or manager alone; wanting or needing Y without roster membership; an opponent rather than a team member; ordinary possession or a book title. Ambiguous unless resolved by case-local evidence: generic have without athlete-role context; proposed recruitment without established membership; unclear team or player identity. Inverse of athlete_for. A team needing a person does not prove that the person plays for it."
+    },
+    {
+      "id": "researches_topic",
+      "label": "researches or analyzes topic",
+      "definition": "Person or organization X explicitly researches, studies, tracks, or analyzes subject or field Y.",
+      "includes": [
+        "explicit research or study of Y",
+        "tracking trends or analyzing developments in Y",
+        "producing identified analytical research or reports on Y"
+      ],
+      "excludes": [
+        "ordinary business operation in a field without research activity",
+        "a passing reference or generic Internet use",
+        "selling another producer's reports without analysis",
+        "institutional employment alone"
+      ],
+      "ambiguous": [
+        "report authorship or analytical role unresolved",
+        "unclear topic versus employer",
+        "mere report distribution without identified research"
+      ],
+      "notes": "Y is the subject of inquiry, not necessarily the employer. This does not evaluate the quality or truth of the research.",
+      "scope_notes": "Includes: explicit research or study of Y; tracking trends or analyzing developments in Y; producing identified analytical research or reports on Y. Excludes: ordinary business operation in a field without research activity; a passing reference or generic Internet use; selling another producer's reports without analysis; institutional employment alone. Ambiguous unless resolved by case-local evidence: report authorship or analytical role unresolved; unclear topic versus employer; mere report distribution without identified research. Y is the subject of inquiry, not necessarily the employer. This does not evaluate the quality or truth of the research."
+    },
+    {
+      "id": "agreed_with",
+      "label": "entered agreement with",
+      "definition": "Entity X entered or had an explicit agreement with counterpart Y.",
+      "includes": [
+        "explicit agreement-with",
+        "a stated shared agreement or accord",
+        "historical agreement"
+      ],
+      "excludes": [
+        "mere meeting or conversation",
+        "unilateral approval or support without shared agreement",
+        "a proposed agreement or ongoing negotiation without realization"
+      ],
+      "ambiguous": [
+        "unclear parties to an agreement",
+        "a future or conditional agreement",
+        "approval by a subunit without evidence of agreement by Y"
+      ],
+      "notes": "A specific agreement is sufficient; this does not imply agreement on every issue or permanent alliance.",
+      "scope_notes": "Includes: explicit agreement-with; a stated shared agreement or accord; historical agreement. Excludes: mere meeting or conversation; unilateral approval or support without shared agreement; a proposed agreement or ongoing negotiation without realization. Ambiguous unless resolved by case-local evidence: unclear parties to an agreement; a future or conditional agreement; approval by a subunit without evidence of agreement by Y. A specific agreement is sufficient; this does not imply agreement on every issue or permanent alliance."
+    },
+    {
+      "id": "has_diplomatic_relations_with",
+      "label": "has diplomatic relations with",
+      "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+      "includes": [
+        "explicit diplomatic relations",
+        "an ambassador of X accredited to Y",
+        "historical diplomatic relations"
+      ],
+      "excludes": [
+        "ordinary trade, physical travel, or war alone",
+        "generic political or personal association",
+        "an ambassador merely visiting Y without accreditation",
+        "proposed relations without establishment"
+      ],
+      "ambiguous": [
+        "generic relationship or relation without diplomatic context",
+        "unclear government versus private entity",
+        "unclear ambassador accreditation or country attachment"
+      ],
+      "notes": "Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+      "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy."
+    },
+    {
+      "id": "adviser_to",
+      "label": "adviser to principal",
+      "definition": "Person X explicitly serves or served as an adviser or counselor to principal Y.",
+      "includes": [
+        "explicit adviser/advisor-to or possessive adviser role",
+        "an identified counselor providing advisory service",
+        "historical advisory role"
+      ],
+      "excludes": [
+        "director, lawyer, or formal leadership title alone",
+        "ordinary communication or acquaintance",
+        "confidant alone without advisory service",
+        "expertise on a topic rather than advice to a principal"
+      ],
+      "ambiguous": [
+        "an omitted or materially incomplete principal",
+        "counselor versus legal counsel attachment unresolved",
+        "advisory topic substituted for principal"
+      ],
+      "notes": "The principal may be a person or institution. Advice does not imply formal management or spokesperson authority.",
+      "scope_notes": "Includes: explicit adviser/advisor-to or possessive adviser role; an identified counselor providing advisory service; historical advisory role. Excludes: director, lawyer, or formal leadership title alone; ordinary communication or acquaintance; confidant alone without advisory service; expertise on a topic rather than advice to a principal. Ambiguous unless resolved by case-local evidence: an omitted or materially incomplete principal; counselor versus legal counsel attachment unresolved; advisory topic substituted for principal. The principal may be a person or institution. Advice does not imply formal management or spokesperson authority."
+    },
+    {
+      "id": "flows_into",
+      "label": "flows into waterbody",
+      "definition": "River or watercourse X flows into, joins, or empties into receiving waterbody Y.",
+      "includes": [
+        "explicit flow-into or empty-into",
+        "river confluence with an identified receiving waterbody",
+        "river meeting Y when direction is locally clear"
+      ],
+      "excludes": [
+        "ordinary interpersonal meeting or joint action",
+        "adjacency or a waterfront gateway alone",
+        "flow in the reverse direction"
+      ],
+      "ambiguous": [
+        "a bare meet or join with unresolved receiving direction",
+        "unclear watercourse versus place name"
+      ],
+      "notes": "Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally.",
+      "scope_notes": "Includes: explicit flow-into or empty-into; river confluence with an identified receiving waterbody; river meeting Y when direction is locally clear. Excludes: ordinary interpersonal meeting or joint action; adjacency or a waterfront gateway alone; flow in the reverse direction. Ambiguous unless resolved by case-local evidence: a bare meet or join with unresolved receiving direction; unclear watercourse versus place name. Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally."
+    },
+    {
+      "id": "dismissed_person",
+      "label": "dismissed person from role",
+      "definition": "Person or institution X fired or dismissed person Y from a professional or official role.",
+      "includes": [
+        "explicit firing or dismissal",
+        "clearly terminating Y's role",
+        "historical dismissal"
+      ],
+      "excludes": [
+        "criticizing or blaming alone",
+        "X taking Y's role without evidence of dismissing Y",
+        "ordinary departure or voluntary resignation",
+        "dismissing an argument rather than a person from a role"
+      ],
+      "ambiguous": [
+        "replace where removal versus succession is unresolved",
+        "a proposed firing without realization",
+        "unclear actor or dismissed person"
+      ],
+      "notes": "The dismissing actor need not become the successor. This is separate from succeeded_person.",
+      "scope_notes": "Includes: explicit firing or dismissal; clearly terminating Y's role; historical dismissal. Excludes: criticizing or blaming alone; X taking Y's role without evidence of dismissing Y; ordinary departure or voluntary resignation; dismissing an argument rather than a person from a role. Ambiguous unless resolved by case-local evidence: replace where removal versus succession is unresolved; a proposed firing without realization; unclear actor or dismissed person. The dismissing actor need not become the successor. This is separate from succeeded_person."
+    },
+    {
+      "id": "strategist_for",
+      "label": "strategist for institution",
+      "definition": "Person X explicitly serves or served as a strategist for institution or principal Y.",
+      "includes": [
+        "explicit strategist-at, strategist-for, or institutional strategist role",
+        "historical strategy office"
+      ],
+      "excludes": [
+        "analyst or ordinary adviser alone",
+        "a comparison or strategy topic without affiliation",
+        "ordinary employment without strategist role"
+      ],
+      "ambiguous": [
+        "unclear principal versus topic",
+        "strategist title attachment unresolved"
+      ],
+      "notes": "A distinct occupational role; do not merge every analyst or adviser into it.",
+      "scope_notes": "Includes: explicit strategist-at, strategist-for, or institutional strategist role; historical strategy office. Excludes: analyst or ordinary adviser alone; a comparison or strategy topic without affiliation; ordinary employment without strategist role. Ambiguous unless resolved by case-local evidence: unclear principal versus topic; strategist title attachment unresolved. A distinct occupational role; do not merge every analyst or adviser into it."
+    },
+    {
+      "id": "confers_authority_on",
+      "label": "confers authority on institution",
+      "definition": "Legal instrument or governing document X explicitly grants authority, powers, rights, or an institutional mandate to Y.",
+      "includes": [
+        "an identified power or authority granted to Y",
+        "explicit rights or mandate conferred under X",
+        "historical textual allocation of authority"
+      ],
+      "excludes": [
+        "ordinary transfer of physical goods or sporting contribution",
+        "mentioning institutional requirements without granting authority",
+        "general association with a legal text"
+      ],
+      "ambiguous": [
+        "give or grant with omitted object",
+        "under-X have with no identified power",
+        "a provision whose grant or recipient is unresolved"
+      ],
+      "notes": "This labels what the supplied text asserts, not a legal determination. Generic gives does not recover an omitted legal power.",
+      "scope_notes": "Includes: an identified power or authority granted to Y; explicit rights or mandate conferred under X; historical textual allocation of authority. Excludes: ordinary transfer of physical goods or sporting contribution; mentioning institutional requirements without granting authority; general association with a legal text. Ambiguous unless resolved by case-local evidence: give or grant with omitted object; under-X have with no identified power; a provision whose grant or recipient is unresolved. This labels what the supplied text asserts, not a legal determination. Generic gives does not recover an omitted legal power."
+    },
+    {
+      "id": "has_policy_towards",
+      "label": "has policy towards",
+      "definition": "Government or institution X has an explicitly identified policy directed toward entity Y.",
+      "includes": [
+        "explicit X policy-toward Y",
+        "an identified institutional policy concerning Y",
+        "historical policy target"
+      ],
+      "excludes": [
+        "trade, travel, armed conflict, or ordinary relations without a policy assertion",
+        "an individual statement without institutional policy attribution",
+        "generic support or opposition alone"
+      ],
+      "ambiguous": [
+        "unclear policy owner or target",
+        "a proposed policy without establishment",
+        "a topic or population substituted for an unresolved entity"
+      ],
+      "notes": "This identifies the policy target only; it does not assert a favorable stance, diplomatic relations, or policy effectiveness.",
+      "scope_notes": "Includes: explicit X policy-toward Y; an identified institutional policy concerning Y; historical policy target. Excludes: trade, travel, armed conflict, or ordinary relations without a policy assertion; an individual statement without institutional policy attribution; generic support or opposition alone. Ambiguous unless resolved by case-local evidence: unclear policy owner or target; a proposed policy without establishment; a topic or population substituted for an unresolved entity. This identifies the policy target only; it does not assert a favorable stance, diplomatic relations, or policy effectiveness."
+    },
+    {
+      "id": "population_includes",
+      "label": "population includes subgroup members",
+      "definition": "Population X is explicitly described as including people of demographic subgroup Y.",
+      "includes": [
+        "explicit population including people from Y",
+        "a stated subgroup among the described population",
+        "historical described populations"
+      ],
+      "excludes": [
+        "ordinary organizational membership or corporate ownership",
+        "geographic containment alone",
+        "mere comparison, proximity, or interaction",
+        "inferring that every member of Y belongs to X"
+      ],
+      "ambiguous": [
+        "generic include with unclear demographic roles",
+        "unclear population versus person or organization",
+        "a subgroup attachment to another population"
+      ],
+      "notes": "This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X.",
+      "scope_notes": "Includes: explicit population including people from Y; a stated subgroup among the described population; historical described populations. Excludes: ordinary organizational membership or corporate ownership; geographic containment alone; mere comparison, proximity, or interaction; inferring that every member of Y belongs to X. Ambiguous unless resolved by case-local evidence: generic include with unclear demographic roles; unclear population versus person or organization; a subgroup attachment to another population. This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X."
+    },
+    {
+      "id": "calls_up_players_from",
+      "label": "calls up players from team",
+      "definition": "Sports team X calls up, promotes, recalls, or summons players from source team or affiliate Y.",
+      "includes": [
+        "explicit promotion or recall from a source team",
+        "calling or summoning a player from Y into X",
+        "clear team-to-affiliate recall or promotion context even if the player's name is omitted"
+      ],
+      "excludes": [
+        "ordinary travel or communication from a geographic place",
+        "corporate ownership alone",
+        "sending a player in the opposite direction",
+        "a proposed promotion without realization"
+      ],
+      "ambiguous": [
+        "the omitted object could be something other than a player",
+        "unclear source versus destination team",
+        "bare call-from without recruitment context"
+      ],
+      "notes": "The direction is receiving team to source team. It does not require ownership of the affiliate or imply that all its players move.",
+      "scope_notes": "Includes: explicit promotion or recall from a source team; calling or summoning a player from Y into X; clear team-to-affiliate recall or promotion context even if the player's name is omitted. Excludes: ordinary travel or communication from a geographic place; corporate ownership alone; sending a player in the opposite direction; a proposed promotion without realization. Ambiguous unless resolved by case-local evidence: the omitted object could be something other than a player; unclear source versus destination team; bare call-from without recruitment context. The direction is receiving team to source team. It does not require ownership of the affiliate or imply that all its players move."
+    },
+    {
+      "id": "dancer_for",
+      "label": "dancer for company",
+      "definition": "Person X dances or danced professionally for dance company or producing ensemble Y.",
+      "includes": [
+        "explicit dancer in or for Y",
+        "principal dancer role in Y",
+        "performing for Y when the local dancer role is established"
+      ],
+      "excludes": [
+        "directing or management alone",
+        "generic performing without dance context",
+        "staging a work or being on payroll alone",
+        "a venue without company affiliation"
+      ],
+      "ambiguous": [
+        "principal title without clear dancer meaning",
+        "unclear dancer versus director attachment",
+        "company versus venue identity unresolved"
+      ],
+      "notes": "A specific artistic occupation, distinct from general institutional membership or management.",
+      "scope_notes": "Includes: explicit dancer in or for Y; principal dancer role in Y; performing for Y when the local dancer role is established. Excludes: directing or management alone; generic performing without dance context; staging a work or being on payroll alone; a venue without company affiliation. Ambiguous unless resolved by case-local evidence: principal title without clear dancer meaning; unclear dancer versus director attachment; company versus venue identity unresolved. A specific artistic occupation, distinct from general institutional membership or management."
+    },
+    {
+      "id": "ally_of",
+      "label": "political or military ally of",
+      "definition": "Political entity X is or was an explicitly identified political or military ally of Y.",
+      "includes": [
+        "explicit ally-of or possessive ally relation",
+        "historical political or military alliance"
+      ],
+      "excludes": [
+        "a generic relationship or agreement alone",
+        "cooperation, trade, communication, or shared interests without alliance",
+        "travel or emigration between countries"
+      ],
+      "ambiguous": [
+        "an unspecified relationship without explicit alliance",
+        "unclear holder or direction of the ally description"
+      ],
+      "notes": "Alliance is separate from acting jointly on one occasion or maintaining diplomatic relations. Declaration must identify the explicit ally family rather than absorb generic international associations.",
+      "scope_notes": "Includes: explicit ally-of or possessive ally relation; historical political or military alliance. Excludes: a generic relationship or agreement alone; cooperation, trade, communication, or shared interests without alliance; travel or emigration between countries. Ambiguous unless resolved by case-local evidence: an unspecified relationship without explicit alliance; unclear holder or direction of the ally description. Alliance is separate from acting jointly on one occasion or maintaining diplomatic relations. Declaration must identify the explicit ally family rather than absorb generic international associations."
+    },
+    {
+      "id": "fielded_player",
+      "label": "fielded or used an athlete in play",
+      "definition": "Team, coach, or manager X fields or uses athlete Y in sporting play.",
+      "includes": [
+        "explicit playing or fielding of an individual athlete by a team or coach",
+        "historical use of the athlete in play"
+      ],
+      "excludes": [
+        "playing against an opposing team or competitor",
+        "mere player membership without X selecting or using the athlete",
+        "ordinary employment or political candidacy"
+      ],
+      "ambiguous": [
+        "generic removal without a clear sporting selection context",
+        "play whose athlete-versus-opponent role is unresolved",
+        "prospective selection or materially incomplete action roles"
+      ],
+      "notes": "The subject can be the coach rather than the team. Bare play is polysemous; inspect both arguments and all local evidence. Removing an athlete does not by itself establish that X fielded the athlete.",
+      "scope_notes": "Includes: explicit playing or fielding of an individual athlete by a team or coach; historical use of the athlete in play. Excludes: playing against an opposing team or competitor; mere player membership without X selecting or using the athlete; ordinary employment or political candidacy. Ambiguous unless resolved by case-local evidence: generic removal without a clear sporting selection context; play whose athlete-versus-opponent role is unresolved; prospective selection or materially incomplete action roles. The subject can be the coach rather than the team. Bare play is polysemous; inspect both arguments and all local evidence. Removing an athlete does not by itself establish that X fielded the athlete."
+    },
+    {
+      "id": "lobbyist_for",
+      "label": "lobbyist for principal",
+      "definition": "Person or organization X holds or held an explicitly identified lobbying role for principal Y.",
+      "includes": [
+        "explicit lobbyist for or of Y",
+        "historical lobbying service for Y"
+      ],
+      "excludes": [
+        "director of legislation or another managerial title without a lobbying role",
+        "ordinary advocacy, communication, legal service, or political agreement alone",
+        "membership in the principal organization alone"
+      ],
+      "ambiguous": [
+        "unclear lobbying principal or title attachment",
+        "incomplete institution or personal principal"
+      ],
+      "notes": "Legislative directorship and lobbying can coexist but are distinct roles. The definition does not infer lobbying from a legislative director title.",
+      "scope_notes": "Includes: explicit lobbyist for or of Y; historical lobbying service for Y. Excludes: director of legislation or another managerial title without a lobbying role; ordinary advocacy, communication, legal service, or political agreement alone; membership in the principal organization alone. Ambiguous unless resolved by case-local evidence: unclear lobbying principal or title attachment; incomplete institution or personal principal. Legislative directorship and lobbying can coexist but are distinct roles. The definition does not infer lobbying from a legislative director title."
+    },
+    {
+      "id": "transferred_territory_to",
+      "label": "transferred territory to",
+      "definition": "Political authority X transferred territorial control or sovereignty to authority Y.",
+      "includes": [
+        "explicit return of territory to Y",
+        "handover with a resolved territorial object and recipient",
+        "historical territorial transfer"
+      ],
+      "excludes": [
+        "ordinary travel or a person returning to a place",
+        "generic ownership, defeat, or geographic proximity",
+        "a proposed transfer without realization"
+      ],
+      "ambiguous": [
+        "generic return or handover with no resolved territorial object",
+        "unclear transfer direction or recipient",
+        "prospective or hypothetical handover"
+      ],
+      "notes": "The transferred territory is an omitted third role and must be established by local evidence; do not supply it from historical knowledge.",
+      "scope_notes": "Includes: explicit return of territory to Y; handover with a resolved territorial object and recipient; historical territorial transfer. Excludes: ordinary travel or a person returning to a place; generic ownership, defeat, or geographic proximity; a proposed transfer without realization. Ambiguous unless resolved by case-local evidence: generic return or handover with no resolved territorial object; unclear transfer direction or recipient; prospective or hypothetical handover. The transferred territory is an omitted third role and must be established by local evidence; do not supply it from historical knowledge."
+    },
+    {
+      "id": "publisher_of",
+      "label": "publisher of publication",
+      "definition": "Person or organization X holds or held the publisher role for publication Y, or explicitly publishes Y.",
+      "includes": [
+        "explicit publisher-of title",
+        "explicit publication of the identified newspaper, journal, book, or other work",
+        "historical publisher role"
+      ],
+      "excludes": [
+        "editor, writer, owner, developer, or director alone",
+        "travel to a publisher or publication office",
+        "a work merely mentioning or reviewing Y"
+      ],
+      "ambiguous": [
+        "incomplete publication title",
+        "unclear publisher-versus-author or title attachment"
+      ],
+      "notes": "Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role.",
+      "scope_notes": "Includes: explicit publisher-of title; explicit publication of the identified newspaper, journal, book, or other work; historical publisher role. Excludes: editor, writer, owner, developer, or director alone; travel to a publisher or publication office; a work merely mentioning or reviewing Y. Ambiguous unless resolved by case-local evidence: incomplete publication title; unclear publisher-versus-author or title attachment. Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role."
+    },
+    {
+      "id": "candidate_for",
+      "label": "political candidate or nominee for party",
+      "definition": "Person X is or was an explicitly identified candidate, contender for nomination, or nominee of political party Y.",
+      "includes": [
+        "explicit party candidate or nominee",
+        "front-runner or contender for the party nomination",
+        "historical candidacy or nomination"
+      ],
+      "excludes": [
+        "holding an executive or other office without party candidacy",
+        "merely supporting or belonging to the party",
+        "candidacy for a corporate or sporting appointment"
+      ],
+      "ambiguous": [
+        "a constituency or office appears where the political party is omitted",
+        "candidate or nomination attachment does not identify whose party nomination is sought",
+        "the purported party is materially truncated or unidentified"
+      ],
+      "notes": "This is a candidacy relation and does not claim election or actual office. The second role is the political party, not the office being contested. Republican as an identified party label follows the inherited party-label convention.",
+      "scope_notes": "Includes: explicit party candidate or nominee; front-runner or contender for the party nomination; historical candidacy or nomination. Excludes: holding an executive or other office without party candidacy; merely supporting or belonging to the party; candidacy for a corporate or sporting appointment. Ambiguous unless resolved by case-local evidence: a constituency or office appears where the political party is omitted; candidate or nomination attachment does not identify whose party nomination is sought; the purported party is materially truncated or unidentified. This is a candidacy relation and does not claim election or actual office. The second role is the political party, not the office being contested. Republican as an identified party label follows the inherited party-label convention."
+    },
+    {
+      "id": "advances_measures_through",
+      "label": "advances legislative measures through body",
+      "definition": "Political actor X advances a legislative measure through legislative body Y.",
+      "includes": [
+        "explicit pushing or advancing legislation through Y",
+        "historical legislative action"
+      ],
+      "excludes": [
+        "gaining control of or taking over the body",
+        "ordinary membership, lobbying or communication without advancing a measure",
+        "physical movement through a building"
+      ],
+      "ambiguous": [
+        "push-through with the legislative object omitted",
+        "unclear proposer or legislative body",
+        "prospective intent without established action"
+      ],
+      "notes": "The legislation is a third role and must be locally recoverable; bare push-through does not identify the measure or guarantee passage.",
+      "scope_notes": "Includes: explicit pushing or advancing legislation through Y; historical legislative action. Excludes: gaining control of or taking over the body; ordinary membership, lobbying or communication without advancing a measure; physical movement through a building. Ambiguous unless resolved by case-local evidence: push-through with the legislative object omitted; unclear proposer or legislative body; prospective intent without established action. The legislation is a third role and must be locally recoverable; bare push-through does not identify the measure or guarantee passage."
+    },
+    {
+      "id": "belongs_to_corporate_family",
+      "label": "belongs to named corporate family",
+      "definition": "Company X is explicitly described as belonging to the named corporate family or historical corporate lineage Y.",
+      "includes": [
+        "explicit named-family company descriptors such as Bell company",
+        "explicit membership in a group of successor companies identified by that corporate lineage",
+        "historical corporate-family identification"
+      ],
+      "excludes": [
+        "current parent ownership without a family or lineage assertion",
+        "ordinary alliance, commercial cooperation or generic association",
+        "a company in an industry or geographic place"
+      ],
+      "ambiguous": [
+        "unclear corporate family designation or nominal attachment",
+        "a person or incomplete company name replacing the company argument"
+      ],
+      "notes": "A corporate-family label is distinct from ownership by a current legal parent. This category does not infer that all family companies are owned by an entity called Y.",
+      "scope_notes": "Includes: explicit named-family company descriptors such as Bell company; explicit membership in a group of successor companies identified by that corporate lineage; historical corporate-family identification. Excludes: current parent ownership without a family or lineage assertion; ordinary alliance, commercial cooperation or generic association; a company in an industry or geographic place. Ambiguous unless resolved by case-local evidence: unclear corporate family designation or nominal attachment; a person or incomplete company name replacing the company argument. A corporate-family label is distinct from ownership by a current legal parent. This category does not infer that all family companies are owned by an entity called Y."
+    },
+    {
+      "id": "killed_by",
+      "label": "killed by perpetrator",
+      "definition": "Person X or explicitly affected members of population X were killed by perpetrator Y or explicitly identified agents of Y.",
+      "includes": [
+        "explicit killed-by or murder-by with correct victim and perpetrator roles",
+        "explicit killing by the named authority soldiers or troops",
+        "historical killing of identified members of a population"
+      ],
+      "excludes": [
+        "geographic death-place",
+        "occupation or hostility alone",
+        "shooting or injury without established death",
+        "a population assertion interpreted as death of every member"
+      ],
+      "ambiguous": [
+        "unclear victim or perpetrator attachment",
+        "unresolved identity of troops or agents",
+        "shooting where fatal outcome is unspecified"
+      ],
+      "notes": "This direction is victim to perpetrator. The evaluation concerns textual support only; it does not independently adjudicate historical responsibility.",
+      "scope_notes": "Includes: explicit killed-by or murder-by with correct victim and perpetrator roles; explicit killing by the named authority soldiers or troops; historical killing of identified members of a population. Excludes: geographic death-place; occupation or hostility alone; shooting or injury without established death; a population assertion interpreted as death of every member. Ambiguous unless resolved by case-local evidence: unclear victim or perpetrator attachment; unresolved identity of troops or agents; shooting where fatal outcome is unspecified. This direction is victim to perpetrator. The evaluation concerns textual support only; it does not independently adjudicate historical responsibility."
+    },
+    {
+      "id": "reviews_works_in_medium",
+      "label": "reviews works in medium",
+      "definition": "Person X critically reviews artistic works or editions presented in medium Y.",
+      "includes": [
+        "explicit review of a collection, edition or version identified by the medium",
+        "historical critical review in the identified medium"
+      ],
+      "excludes": [
+        "review of a performer or venue alone",
+        "the publication carrying the review rather than the medium of the reviewed work",
+        "merely mentioning or producing the medium"
+      ],
+      "ambiguous": [
+        "unclear whether Y identifies the reviewed-work medium or the review publication",
+        "missing critic or review attachment"
+      ],
+      "notes": "This is a distinct argument relation from reviews_artistic_output_of. A DVD collection review can establish the medium even if the work title is omitted.",
+      "scope_notes": "Includes: explicit review of a collection, edition or version identified by the medium; historical critical review in the identified medium. Excludes: review of a performer or venue alone; the publication carrying the review rather than the medium of the reviewed work; merely mentioning or producing the medium. Ambiguous unless resolved by case-local evidence: unclear whether Y identifies the reviewed-work medium or the review publication; missing critic or review attachment. This is a distinct argument relation from reviews_artistic_output_of. A DVD collection review can establish the medium even if the work title is omitted."
+    },
+    {
+      "id": "trades_players_to",
+      "label": "trades athletes to team",
+      "definition": "Sports team X transfers an athlete to team Y through a sporting player trade.",
+      "includes": [
+        "explicit team-to-team player trade",
+        "historical athlete transfer by trade"
+      ],
+      "excludes": [
+        "playing against the other team",
+        "ordinary trade of goods or territorial transfer",
+        "a player joining a team without an identified trading team",
+        "mere proposal or interest without a trade"
+      ],
+      "ambiguous": [
+        "trade-to with omitted object and unresolved athlete-transfer context",
+        "unclear sending versus receiving team",
+        "trade talks or future proposal without realization"
+      ],
+      "notes": "The athlete is a third role. Clear team-to-team player-trade context can establish the action without naming the player; otherwise retain the omitted-object uncertainty.",
+      "scope_notes": "Includes: explicit team-to-team player trade; historical athlete transfer by trade. Excludes: playing against the other team; ordinary trade of goods or territorial transfer; a player joining a team without an identified trading team; mere proposal or interest without a trade. Ambiguous unless resolved by case-local evidence: trade-to with omitted object and unresolved athlete-transfer context; unclear sending versus receiving team; trade talks or future proposal without realization. The athlete is a third role. Clear team-to-team player-trade context can establish the action without naming the player; otherwise retain the omitted-object uncertainty."
+    },
+    {
+      "id": "has_candidate",
+      "label": "has political candidate or nominee",
+      "definition": "Political party X has or had person Y as an explicitly identified candidate, contender for its nomination, or nominee.",
+      "includes": [
+        "explicit party nominee or candidate",
+        "explicit contender for the party nomination",
+        "historical candidacy"
+      ],
+      "excludes": [
+        "holding political office without candidacy",
+        "ordinary membership or an opposing-party rival",
+        "a corporate or sporting appointment"
+      ],
+      "ambiguous": [
+        "an unspecified challenger or hopeful without identified party candidacy",
+        "a constituency or office replacing the party",
+        "an unnamed or materially truncated person or party"
+      ],
+      "notes": "This is the exact inverse of candidate_for and does not claim winning election or holding office. Republican as an identified party label follows the inherited party-label convention.",
+      "scope_notes": "Includes: explicit party nominee or candidate; explicit contender for the party nomination; historical candidacy. Excludes: holding political office without candidacy; ordinary membership or an opposing-party rival; a corporate or sporting appointment. Ambiguous unless resolved by case-local evidence: an unspecified challenger or hopeful without identified party candidacy; a constituency or office replacing the party; an unnamed or materially truncated person or party. This is the exact inverse of candidate_for and does not claim winning election or holding office. Republican as an identified party label follows the inherited party-label convention."
+    },
+    {
+      "id": "fellow_at",
+      "label": "research fellow at institution",
+      "definition": "Person X holds or held an explicitly identified research, academic, or policy fellowship at institution Y.",
+      "includes": [
+        "explicit fellow-at/for/of or institutional fellow title",
+        "historical fellowship"
+      ],
+      "excludes": [
+        "scholar, professor, economist, analyst or ordinary membership without a fellow title",
+        "a colleague described merely as fellow person",
+        "institutional employment alone"
+      ],
+      "ambiguous": [
+        "unclear fellowship title or institutional attachment",
+        "honorific membership versus a research fellowship when unresolved"
+      ],
+      "notes": "This is a specific fellowship role; nearby scholar or economist roles may coexist but do not establish it alone.",
+      "scope_notes": "Includes: explicit fellow-at/for/of or institutional fellow title; historical fellowship. Excludes: scholar, professor, economist, analyst or ordinary membership without a fellow title; a colleague described merely as fellow person; institutional employment alone. Ambiguous unless resolved by case-local evidence: unclear fellowship title or institutional attachment; honorific membership versus a research fellowship when unresolved. This is a specific fellowship role; nearby scholar or economist roles may coexist but do not establish it alone."
+    },
+    {
+      "id": "ethicist_at",
+      "label": "ethicist at institution",
+      "definition": "Person X works or worked as an explicitly identified ethicist or bioethicist affiliated with institution Y.",
+      "includes": [
+        "explicit ethicist or bioethicist at/for/of institutional role",
+        "historical ethics professional affiliation"
+      ],
+      "excludes": [
+        "director, professor, fellow or other office without an ethics role",
+        "generic discussion of ethics",
+        "being an ethical person rather than a professional ethicist"
+      ],
+      "ambiguous": [
+        "unclear role or institutional attachment",
+        "a specialty subject replacing the employing or affiliated institution"
+      ],
+      "notes": "Bioethics is a specific field within professional ethics. The relation does not evaluate the truth of ethical claims or infer an ethicist title from another academic office.",
+      "scope_notes": "Includes: explicit ethicist or bioethicist at/for/of institutional role; historical ethics professional affiliation. Excludes: director, professor, fellow or other office without an ethics role; generic discussion of ethics; being an ethical person rather than a professional ethicist. Ambiguous unless resolved by case-local evidence: unclear role or institutional attachment; a specialty subject replacing the employing or affiliated institution. Bioethics is a specific field within professional ethics. The relation does not evaluate the truth of ethical claims or infer an ethicist title from another academic office."
+    },
+    {
+      "id": "officer_of",
+      "label": "institutional officer of",
+      "definition": "Person X holds or held an explicitly identified professional officer role in institution Y.",
+      "includes": [
+        "explicit officer of/with/at institutional role",
+        "historical institutional officership"
+      ],
+      "excludes": [
+        "ordinary employment or membership without an officer title",
+        "researcher, observer, analyst or director alone",
+        "inferring executive rank or governmental authority from the word officer"
+      ],
+      "ambiguous": [
+        "unclear officer title or institutional attachment",
+        "a personal principal or topic replacing the institution"
+      ],
+      "notes": "This specific officer title is distinct from executive_of and official_of. It does not assert senior management or a government office.",
+      "scope_notes": "Includes: explicit officer of/with/at institutional role; historical institutional officership. Excludes: ordinary employment or membership without an officer title; researcher, observer, analyst or director alone; inferring executive rank or governmental authority from the word officer. Ambiguous unless resolved by case-local evidence: unclear officer title or institutional attachment; a personal principal or topic replacing the institution. This specific officer title is distinct from executive_of and official_of. It does not assert senior management or a government office."
+    },
+    {
+      "id": "expelled",
+      "label": "expelled or deported",
+      "definition": "Authority or acting group X forcibly expelled or deported person Y or explicitly affected members of population Y.",
+      "includes": [
+        "explicit expulsion or deportation by X of Y",
+        "historical forced removal of identified members of a population"
+      ],
+      "excludes": [
+        "barring entry without removal",
+        "ordinary voluntary departure",
+        "killing, occupation or criticism alone",
+        "assuming every member of a named population was expelled"
+      ],
+      "ambiguous": [
+        "unclear expelling authority or affected people",
+        "proposed expulsion without established action",
+        "leaving under pressure without an explicit expulsion or deportation"
+      ],
+      "notes": "Direction is expelling authority to affected person/population. The source territory is a separate omitted role; this does not identify a destination.",
+      "scope_notes": "Includes: explicit expulsion or deportation by X of Y; historical forced removal of identified members of a population. Excludes: barring entry without removal; ordinary voluntary departure; killing, occupation or criticism alone; assuming every member of a named population was expelled. Ambiguous unless resolved by case-local evidence: unclear expelling authority or affected people; proposed expulsion without established action; leaving under pressure without an explicit expulsion or deportation. Direction is expelling authority to affected person/population. The source territory is a separate omitted role; this does not identify a destination."
+    },
+    {
+      "id": "secretary_to",
+      "label": "secretary to principal",
+      "definition": "Person X holds or held an explicitly identified secretary role serving principal Y.",
+      "includes": [
+        "explicit secretary-to or possessive secretary title for a named person or institution",
+        "historical secretarial office"
+      ],
+      "excludes": [
+        "consultant, adviser, spokesperson or director alone",
+        "ordinary communication or employment without secretary title",
+        "inferring leadership or a specific cabinet portfolio from secretary alone"
+      ],
+      "ambiguous": [
+        "unclear secretary or principal attachment",
+        "an omitted department or principal when the role cannot be resolved"
+      ],
+      "notes": "This specific secretary role is separate from general advice, speaking for a principal, and organizational leadership.",
+      "scope_notes": "Includes: explicit secretary-to or possessive secretary title for a named person or institution; historical secretarial office. Excludes: consultant, adviser, spokesperson or director alone; ordinary communication or employment without secretary title; inferring leadership or a specific cabinet portfolio from secretary alone. Ambiguous unless resolved by case-local evidence: unclear secretary or principal attachment; an omitted department or principal when the role cannot be resolved. This specific secretary role is separate from general advice, speaking for a principal, and organizational leadership."
+    },
+    {
+      "id": "promotes_ideology_of",
+      "label": "promotes ideology of",
+      "definition": "Person or group X explicitly champions or promotes the ideology attributed to Y.",
+      "includes": [
+        "explicit championing or promoting the ideology of named Y",
+        "historical ideological advocacy"
+      ],
+      "excludes": [
+        "membership, leadership or employment alone",
+        "generic support of Y without ideology advocacy",
+        "ordinary communication or opposition"
+      ],
+      "ambiguous": [
+        "unclear advocate or ideology source attachment",
+        "missing ideology object when advocacy cannot be resolved"
+      ],
+      "notes": "This narrow ideological-advocacy relation does not imply membership in or generic support for the organization whose ideology is promoted.",
+      "scope_notes": "Includes: explicit championing or promoting the ideology of named Y; historical ideological advocacy. Excludes: membership, leadership or employment alone; generic support of Y without ideology advocacy; ordinary communication or opposition. Ambiguous unless resolved by case-local evidence: unclear advocate or ideology source attachment; missing ideology object when advocacy cannot be resolved. This narrow ideological-advocacy relation does not imply membership in or generic support for the organization whose ideology is promoted."
+    }
+  ],
+  "scope_disagreements": [
+    {
+      "id": "D01",
+      "topic": "Specific office versus broad leadership",
+      "resolution": "Keep director_of, chairperson_of, executive_of, chairs_or_heads, organizational_leader_of and managerial_office_in distinct. Preserve actually declared prior scope; same catalogue ID always has the same scope. Do not infer scope merely from labels or a top path.",
+      "examples": [
+        "nyt-2026 rel294 is chair-specific",
+        "audit_4f7553d383 rel205 chair-specific versus audit_af30702564 rel239 broad managerial",
+        "audit_edb22a4a92 rel27 actual annotation includes equivalent leadership, despite some earlier summary prose calling it director-specific",
+        "audit_c0010fff1d rel197 and audit_4f7553d383 rel263/383 are director-specific"
+      ]
+    },
+    {
+      "id": "D02",
+      "topic": "President/manager composite",
+      "resolution": "Retain the explicit earlier combined operational predicate across all14. Tag manager-only broad_predicate; a president-only or all-leadership assessment is a separate complete sensitivity.",
+      "examples": [
+        "nyt-2026 rel92",
+        "fixed400 rel7/123",
+        "both small-beta follow-ups"
+      ]
+    },
+    {
+      "id": "D03",
+      "topic": "Inverse political leader and minister",
+      "resolution": "Preserve original political-leader scope: unspecified minister A without further head-of-government/leadership evidence. Harmonize later minister-inclusive declarations to this rule. A genuinely general organization-to-officeholder declaration remains has_organizational_leader.",
+      "examples": [
+        "fixed400 rel294 and edb rel197 treat minister A",
+        "audit_4c50ddb65b rel292 and c001 rel134 included minister more broadly"
+      ]
+    },
+    {
+      "id": "D04",
+      "topic": "Title-awarding body as championship argument",
+      "resolution": "Follow both full censuses: explicit Y-designated championship/title can be S with broad_predicate even when Y is WBC or Olympic designation. The body itself is not won. Later sampled A decisions require re-review.",
+      "examples": [
+        "nyt-2026 rel118/192",
+        "fixed400 rel329",
+        "audit_c0010fff1d rel187 De La Hoya/WBC was A"
+      ]
+    },
+    {
+      "id": "D05",
+      "topic": "Sports-only versus sports-and-awards",
+      "resolution": "Keep sporting_champion_of for the original explicitly sports-only relation; winner_of includes honor awards. Political body/office control belongs neither. Electoral opponent defeat remains defeated.",
+      "examples": [
+        "nyt-2026 rel192 sports-only",
+        "nyt-2026 rel118 and fixed400 rel329 include Nobel"
+      ]
+    },
+    {
+      "id": "D06",
+      "topic": "Defeat versus competing against",
+      "resolution": "Keep earlier defeated primary. A broader played/competed-against interpretation is recorded separately and applied to a complete relation if requested, not chosen after inspecting passing cases.",
+      "examples": [
+        "audit_af30702564 rel6",
+        "strong play/lose components across sports dictionaries"
+      ]
+    },
+    {
+      "id": "D07",
+      "topic": "Outscoring or shock without a completed win",
+      "resolution": "Use full-census rule: period margin, vague shock or bare outscore without enough contest context is A if a win is plausible, E if only a non-winning period/standings statement is established. A separate beat/defeat row resolves S.",
+      "examples": [
+        "fixed400 rel201",
+        "audit_af30702564 rel6 Nets/Knicks row944 was S on outscore alone"
+      ]
+    },
+    {
+      "id": "D08",
+      "topic": "Analyst versus nearby financial roles",
+      "resolution": "Explicit analyst or professional industry-following supports S. Economist-only/forecaster/strategist/specialist boundary remains A consistently, as in old full census. Unrelated offices remain E.",
+      "examples": [
+        "nyt-2026 rel365",
+        "fixed400 rel195",
+        "later strict analyst summaries sometimes omit this A boundary"
+      ]
+    },
+    {
+      "id": "D09",
+      "topic": "Objectless sending and institutional attribution",
+      "resolution": "Send/submit/give alone with missing object is A unless case-local communication evidence resolves it. A spokesperson is not automatically the recipient. Institution through identified representative can communicate, but a persons envoy is not automatically personal speech.",
+      "examples": [
+        "nyt-2026 rel355",
+        "fixed400 rel202",
+        "audit_5e74dee865 rel251 description said submit-to qualifies more broadly"
+      ]
+    },
+    {
+      "id": "D10",
+      "topic": "Partial ownership versus subsidiary containment",
+      "resolution": "owns states some-or-all ownership and accepts explicit partial interest. subsidiary_of requires organizational containment/parent/owned-business support; minority investment alone is A. Earlier partial-inclusive subsidiary descriptions and full-only ownership descriptions need harmonized case review.",
+      "examples": [
+        "audit_dba5006d06 rel180 accepts shares",
+        "audit_5e74dee865 rel8 excludes merely partial stake as full ownership",
+        "runner subsidiary scopes in4c/384 included partial ownership"
+      ]
+    },
+    {
+      "id": "D11",
+      "topic": "Travel and unobserved modality",
+      "resolution": "Follow full census: bare unqualified destination movement is textual support; no external history rejection. Explicitly hypothetical or proposed motion is A unless local evidence confirms it. Invasion-only remains an explicit boundary.",
+      "examples": [
+        "nyt-2026 rel298 and fixed400 rel330",
+        "audit_c0010fff1d rel363 Yankees/New Jersey contextual proposal A"
+      ]
+    },
+    {
+      "id": "D12",
+      "topic": "Residence versus birth, work and death",
+      "resolution": "Resides includes explicit home/resettlement/raised-in from full census; plain death/birth/work/visit is not enough. Born_in stays strictly birthplace. Relative-home attachments remain A.",
+      "examples": [
+        "fixed400 rel224",
+        "audit_fb501b5da8 rel45",
+        "new born-in clusters"
+      ]
+    },
+    {
+      "id": "D13",
+      "topic": "Adjectival national or party entities",
+      "resolution": "A named person leading a locally identifiable party may use an adjectival party designation. Generic Republican/Democrat as unnamed person is A. Materially incomplete national-group labels remain A; do not treat all adjectives as either errors or uniquely identified countries.",
+      "examples": [
+        "nyt-2026 rel136 broadly accepted Yugoslav national role",
+        "fixed400 rel162 requires incomplete national-group review",
+        "later Yugoslav/Soviet/Bosnian-Serb cases varied"
+      ]
+    },
+    {
+      "id": "D14",
+      "topic": "Case-local support versus coherent entity graph",
+      "resolution": "Use the same local incompatible-name A rule across all14, including otherwise matching relations. Global multi-name IDs are a separate diagnostic; do not change the primary unit or apply global penalties only to newer runs.",
+      "examples": [
+        "Wolzien/Abramowitz/Black within one fact",
+        "Peres/Conde Nast share an ID across separate facts"
+      ]
+    },
+    {
+      "id": "D15",
+      "topic": "Subunit office and relative attachment",
+      "resolution": "Managerial office/director may be a functional role within Y. Specific chair/head of a panel does not automatically chair/head the entire parent body; if omitted subunit alters the ordered relation use A.",
+      "examples": [
+        "communications director of an organization",
+        "committee/panel chairman attached to parent institution"
+      ]
+    }
+  ]
+}

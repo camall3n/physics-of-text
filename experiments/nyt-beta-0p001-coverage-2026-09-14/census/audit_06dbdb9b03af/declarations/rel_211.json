@@ -1,0 +1,44 @@
+{
+  "relation": "rel_211",
+  "predicate_id": "publisher_of",
+  "predicate_version": 1,
+  "predicate_hash": "27fb879e1b5585fd29b178de9687843b197a3d4dd919181a86f27a57e7ecca25",
+  "predicate": {
+    "id": "publisher_of",
+    "label": "publisher of publication",
+    "definition": "Person or organization X holds or held the publisher role for publication Y, or explicitly publishes Y.",
+    "includes": [
+      "explicit publisher-of title",
+      "explicit publication of the identified newspaper, journal, book, or other work",
+      "historical publisher role"
+    ],
+    "excludes": [
+      "editor, writer, owner, developer, or director alone",
+      "travel to a publisher or publication office",
+      "a work merely mentioning or reviewing Y"
+    ],
+    "ambiguous": [
+      "incomplete publication title",
+      "unclear publisher-versus-author or title attachment"
+    ],
+    "notes": "Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role.",
+    "scope_notes": "Includes: explicit publisher-of title; explicit publication of the identified newspaper, journal, book, or other work; historical publisher role. Excludes: editor, writer, owner, developer, or director alone; travel to a publisher or publication office; a work merely mentioning or reviewing Y. Ambiguous unless resolved by case-local evidence: incomplete publication title; unclear publisher-versus-author or title attachment. Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role."
+  },
+  "dictionary_sha256": "535eef3985cf28653b1f2427ebf77ece0507eda90638c8cd8b2fed6cea4a2a16",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit publisher titles3 define publication role; generic movement, analysts and spokesperson activity remain separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:37.347Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    5,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_211.before_grading.json",
+  "pregrading_annotation_sha256": "e43625a5ea2af6a4701d8f74bc8a1104fc7a41279b4c96e6bb04ab79b7fc935d"
+}

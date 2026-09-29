@@ -1,0 +1,140 @@
+{
+  "relation": "rel_172",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_172__ent_554__ent_850",
+      "judgment": "incorrect",
+      "reason": "CBS → Super Bowl: Event broadcasting or legislative political leadership/control does not establish a person analyst role.",
+      "evidence_lines": [
+        4956,
+        4958,
+        4960,
+        4963,
+        4964
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    },
+    {
+      "case_id": "rel_172__ent_1355__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: Explicit analyst title and professional following of an industry for the employer establish analysis affiliation.",
+      "evidence_lines": [
+        1796,
+        1797,
+        7806,
+        7807
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    },
+    {
+      "case_id": "rel_172__ent_1299__ent_263",
+      "judgment": "incorrect",
+      "reason": "Senate → Republican: Event broadcasting or legislative political leadership/control does not establish a person analyst role.",
+      "evidence_lines": [
+        7676,
+        7680,
+        7681,
+        7684
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    },
+    {
+      "case_id": "rel_172__ent_1326__ent_819",
+      "judgment": "incorrect",
+      "reason": "House → Democrats: Event broadcasting or legislative political leadership/control does not establish a person analyst role.",
+      "evidence_lines": [
+        4947,
+        4949
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    },
+    {
+      "case_id": "rel_172__ent_973__ent_496",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: Explicit analyst title and professional following of an industry for the employer establish analysis affiliation.",
+      "evidence_lines": [
+        7817,
+        7819
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    },
+    {
+      "case_id": "rel_172__ent_1226__ent_816",
+      "judgment": "incorrect",
+      "reason": "House → Republicans: Event broadcasting or legislative political leadership/control does not establish a person analyst role.",
+      "evidence_lines": [
+        4889
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    },
+    {
+      "case_id": "rel_172__ent_1299__ent_1020",
+      "judgment": "incorrect",
+      "reason": "Senate → Republicans: Event broadcasting or legislative political leadership/control does not establish a person analyst role.",
+      "evidence_lines": [
+        4896
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:55.388Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c45bec675e8f00c3f61630c0b0aabf723708e028700dfed8f6bdec83637e0c28"
+}

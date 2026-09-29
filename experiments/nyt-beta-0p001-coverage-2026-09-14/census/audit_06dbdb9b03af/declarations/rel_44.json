@@ -1,0 +1,46 @@
+{
+  "relation": "rel_44",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "80eeda59d059d28f587738fa392a1cef39382ea64aace7226731a84baea6c574",
+  "kind": "declared_before_case_grading",
+  "rationale": "Executive title pathways P0/P3/P5/P6/P9/P10 dominate15/30 and exceed any specific competing title; chief/chair/mogul alone do not broaden the fixed role.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:08:39.301Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    3,
+    5,
+    6,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_44.before_grading.json",
+  "pregrading_annotation_sha256": "3de51ac1bd6c33896b03e87d2bb1d6260aeb718001e3d39670e8ea1c61234708"
+}

@@ -1,0 +1,32 @@
+{
+  "relation": "rel_125",
+  "predicate_id": "analyst_for",
+  "predicate_version": 1,
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate": {
+    "id": "analyst_for",
+    "label": "analyst at organization",
+    "definition": "Person X works or worked as an analyst for organization Y.",
+    "includes": [
+      "explicit analyst at/for/with/of",
+      "following or tracking an industry or companies for an employer when it identifies professional analysis"
+    ],
+    "excludes": [
+      "director/president/professor/scientist/spokesperson/editor/lawyer/partner alone",
+      "generic affiliation"
+    ],
+    "ambiguous": [
+      "economist-only, forecaster, strategist or specialist at the analyst role boundary",
+      "unclear role/employer attachment"
+    ],
+    "notes": "Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+    "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst."
+  },
+  "dictionary_sha256": "ab89acc953d447b09373d29304f979b338023baa320118b4b2723301da7644c9",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "prior_annotation_sha256": "0f33c40bf45886aebe8617c54da11c6018d3c0154be757dbb7a7bb5c87a3d2aa",
+  "prior_assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c"
+}

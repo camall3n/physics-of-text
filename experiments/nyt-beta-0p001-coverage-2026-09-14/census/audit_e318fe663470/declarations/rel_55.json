@@ -1,0 +1,40 @@
+{
+  "relation": "rel_55",
+  "predicate_id": "athlete_for",
+  "predicate_version": 1,
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate": {
+    "id": "athlete_for",
+    "label": "athlete plays for team",
+    "definition": "Person X plays or played as an athlete for sports team Y.",
+    "includes": [
+      "player/center/guard/wing/captain/scorer role on a team",
+      "playing for or with the team as athlete",
+      "scoring for the team"
+    ],
+    "excludes": [
+      "coach/manager/owner alone",
+      "team leading or beating another team",
+      "generic lead without athlete context",
+      "reverse team-to-athlete direction"
+    ],
+    "ambiguous": [
+      "bare lead without player/position/scoring context"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+  },
+  "dictionary_sha256": "22f69f3780a021829d7f1217be5453be8ec892beeb219cefeae134add846919e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Lead, score for, points for, player and guard paths with athlete-to-team roles identify sporting representation. Team-to-team lead is contamination.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.434Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_55.before_grading.json",
+  "pregrading_annotation_sha256": "2e221a2b0c9a9eadc068ee0c51a6ced0e98575fbe145975276245d3b7869a88e"
+}

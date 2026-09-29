@@ -1,0 +1,41 @@
+{
+  "relation": "rel_316",
+  "predicate_id": "reviews_artistic_output_of",
+  "predicate_version": 1,
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate": {
+    "id": "reviews_artistic_output_of",
+    "label": "reviewed artistic output of",
+    "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+    "includes": [
+      "review of Y's performance, program, production, or artistic work",
+      "direct review of artist or ensemble Y in an artistic criticism context",
+      "historical reviews"
+    ],
+    "excludes": [
+      "a review merely taking place at venue Y",
+      "ordinary mention, attendance, or affiliation",
+      "an unrelated subject reviewed at a place owned by Y",
+      "authorship for a publication without reviewing Y's work"
+    ],
+    "ambiguous": [
+      "Y could denote the venue rather than the producer or performer",
+      "unclear reviewer or artistic-work attachment"
+    ],
+    "notes": "Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+    "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator."
+  },
+  "dictionary_sha256": "33652957c65326b24e99d1aee809daadec65a156972d490793b53030566272da",
+  "kind": "declared_before_case_grading",
+  "rationale": "Five distinct review-performance/program paths form the largest coherent specific action family, alongside sports-venue and territorial-control paths.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.613Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_316.before_grading.json",
+  "pregrading_annotation_sha256": "6d56d3a0f8a9c09daef02428b62b78b01bb1f1aada0b0f763f7806387ff1185a"
+}

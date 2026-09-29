@@ -1,0 +1,86 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_136",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_136__ent_435__ent_677",
+        "rel_136__ent_133__ent_375",
+        "rel_136__ent_135__ent_377",
+        "rel_136__ent_556__ent_798",
+        "rel_136__ent_249__ent_262",
+        "rel_136__ent_652__ent_142",
+        "rel_136__ent_136__ent_378",
+        "rel_136__ent_134__ent_376",
+        "rel_136__ent_389__ent_146",
+        "rel_136__ent_56__ent_59",
+        "rel_136__ent_247__ent_489",
+        "rel_136__ent_416__ent_658",
+        "rel_136__ent_1137__ent_1135"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local row explicitly identifies a president, head, chair or director office in the named institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_136__ent_4__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The chair/president wording is potentially supportive, but Palestinian is an incomplete designation of the political institution.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which Palestinian institution is the asserted principal?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_136__ent_263__ent_1172"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The chair and leadership paths omit the individual officeholder: Republican identifies an affiliation rather than the named person.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who is the Republican officeholder referred to by this argument?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    5,
+    8
+  ],
+  "broad": [
+    4
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "7f1e1c35f9d6c9c46fbb2e265c50bac87dfd7c831e271da2eb15f492766bf876"
+}

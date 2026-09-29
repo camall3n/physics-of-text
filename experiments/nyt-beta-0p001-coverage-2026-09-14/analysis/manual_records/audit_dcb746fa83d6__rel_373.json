@@ -1,0 +1,64 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_373",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_373__ent_99__ent_492",
+        "rel_373__ent_96__ent_695"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit war-with establishes historical armed conflict between the named countries.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_373__ent_820__ent_451"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Capture-from and treaty/border paths suggest conflict but omit the captured object and do not explicitly establish armed combat.",
+      "tags": [
+        "omitted_action_object"
+      ],
+      "question": "What was captured from Egypt, and was the action military conflict?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_373__ent_1057__ent_10",
+        "rel_373__ent_263__ent_1406",
+        "rel_373__ent_1443__ent_517",
+        "rel_373__ent_819__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Professional partnership, election candidacy, stealing or political holding does not establish armed conflict.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "78250054715ccbf12f2f7d0869ff56709c0c6cf9baac179e3763d307ccbd5449"
+}

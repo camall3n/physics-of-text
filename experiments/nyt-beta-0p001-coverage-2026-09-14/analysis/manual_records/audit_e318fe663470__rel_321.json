@@ -1,0 +1,58 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_321",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_321__ent_252__ent_280"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President evidence for Virginia Fields is merged with a different person Robert in the same inferred subject.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which person does this presidency fact identify?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_321__ent_556__ent_798"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The president title occurs inside an alma-mater visit construction without a clear local attachment to Mr. Lee.",
+      "tags": [
+        "attachment_ambiguity"
+      ],
+      "question": "Whose presidency does the visit/alma-mater construction identify?"
+    },
+    {
+      "indices": [
+        1,
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_321__ent_1356__ent_335",
+        "rel_321__ent_1099__ent_1280",
+        "rel_321__ent_104__ent_1035"
+      ],
+      "judgment": "incorrect",
+      "reason": "Inverse spokesperson, chairman renomination or opening a restaurant does not establish presidency.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "8b9256f4c8cedf2c116d96d834f93bb7d722999709ccfef08e1136354003b4c2"
+}

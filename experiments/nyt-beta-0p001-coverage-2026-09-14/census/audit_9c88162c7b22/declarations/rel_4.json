@@ -1,0 +1,44 @@
+{
+  "relation": "rel_4",
+  "predicate_id": "criticizes",
+  "predicate_version": 1,
+  "predicate_hash": "d6d753a975aabab857381299947b8710fc44d5900e51f7ca64fa2d1da32876ac",
+  "predicate": {
+    "id": "criticizes",
+    "label": "criticized or accused",
+    "definition": "Person or institution X criticized, blamed or accused Y.",
+    "includes": [
+      "explicit criticize/blame/accuse/assail",
+      "a clearly critical directed allegation"
+    ],
+    "excludes": [
+      "warning without criticism",
+      "generic communication or meeting",
+      "rivalry/comparison alone"
+    ],
+    "ambiguous": [
+      "unclear accused person or attributed critic"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+  },
+  "dictionary_sha256": "5e375cb8a91e2c0d559c88c5308209b0c4efb92bef1acfaa8c5dd973e3bf0423",
+  "kind": "declared_before_case_grading",
+  "rationale": "Accuse/blame/assail/attack family exceeds warnings; warning or reaction to an ultimatum alone does not prove criticism of Y.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.544Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    4,
+    5,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_4.before_grading.json",
+  "pregrading_annotation_sha256": "dfac316e811c470e7cf1879581a1bbeb469d986f16a658d789479fae1338818e"
+}

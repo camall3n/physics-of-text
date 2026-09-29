@@ -1,0 +1,74 @@
+{
+  "relation": "rel_389",
+  "predicate_id": "organization_operates_in_domain",
+  "label": "organization operates in industry or domain",
+  "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+  "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain.",
+  "facts": [
+    {
+      "case_id": "rel_389__ent_956__ent_1362",
+      "judgment": "supported",
+      "reason": "Jupiter Media Metrix → Internet: Explicit Internet-firm and business activity wording establishes operation in the Internet domain.",
+      "evidence_lines": [
+        7401,
+        7404,
+        7406,
+        7407,
+        7408,
+        7410
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.477Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_942__ent_936",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → Internet: Explicit Internet-firm and business activity wording establishes operation in the Internet domain.",
+      "evidence_lines": [
+        7383,
+        7386,
+        7387,
+        7388,
+        7392
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.477Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_463__ent_1108",
+      "judgment": "incorrect",
+      "reason": "T. Rowe Price → Baltimore: Baltimore describes geography, not a business domain.",
+      "evidence_lines": [
+        5827,
+        5830
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:04.477Z"
+      }
+    }
+  ],
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "32ff809ecf924060afe311b801fde54fe1c154eb960e97c13e8bf19d6170d4fa"
+}

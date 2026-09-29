@@ -1,0 +1,80 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_243",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "case_ids": [
+        "rel_243__ent_497__ent_1203",
+        "rel_243__ent_25__ent_939",
+        "rel_243__ent_999__ent_213",
+        "rel_243__ent_1384__ent_67",
+        "rel_243__ent_1074__ent_1203",
+        "rel_243__ent_37__ent_662",
+        "rel_243__ent_1074__ent_1291",
+        "rel_243__ent_98__ent_1076",
+        "rel_243__ent_1075__ent_521"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leadership evidence uses only a nationality adjective or truncated collective for the political-body argument.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "What is the complete country, government or collective identified by this adjectival argument?"
+    },
+    {
+      "indices": [
+        7,
+        11
+      ],
+      "case_ids": [
+        "rel_243__ent_1197__ent_930",
+        "rel_243__ent_1197__ent_1445"
+      ],
+      "judgment": "supported",
+      "reason": "A local Senate president/leader assertion identifies a named political officeholder.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9,
+        12
+      ],
+      "case_ids": [
+        "rel_243__ent_134__ent_376",
+        "rel_243__ent_807__ent_982"
+      ],
+      "judgment": "incorrect",
+      "reason": "The ordered pair is a forward person-to-organization presidency or an event winner, not a political body having a leader.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "ca1067a366648bb18f57f06d4c7554e19e4306ccbdded677f7d9530d784d7d8b"
+}

@@ -1,0 +1,42 @@
+{
+  "relation": "rel_222",
+  "predicate_id": "strategist_for",
+  "predicate_version": 1,
+  "predicate_hash": "8079d80f7b7991462408755922d4bb15de956aeb984c9f6b84a05416fea4fe56",
+  "predicate": {
+    "id": "strategist_for",
+    "label": "strategist for institution",
+    "definition": "Person X explicitly serves or served as a strategist for institution or principal Y.",
+    "includes": [
+      "explicit strategist-at, strategist-for, or institutional strategist role",
+      "historical strategy office"
+    ],
+    "excludes": [
+      "analyst or ordinary adviser alone",
+      "a comparison or strategy topic without affiliation",
+      "ordinary employment without strategist role"
+    ],
+    "ambiguous": [
+      "unclear principal versus topic",
+      "strategist title attachment unresolved"
+    ],
+    "notes": "A distinct occupational role; do not merge every analyst or adviser into it.",
+    "scope_notes": "Includes: explicit strategist-at, strategist-for, or institutional strategist role; historical strategy office. Excludes: analyst or ordinary adviser alone; a comparison or strategy topic without affiliation; ordinary employment without strategist role. Ambiguous unless resolved by case-local evidence: unclear principal versus topic; strategist title attachment unresolved. A distinct occupational role; do not merge every analyst or adviser into it."
+  },
+  "dictionary_sha256": "9a155bab006103e94d3a1148942f02f5b0e25d2151a301db344fe4cdf7a01bf0",
+  "kind": "declared_before_case_grading",
+  "rationale": "Seven explicit strategist affiliation rows dominate; nearby analyst and director roles remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.704Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_222.before_grading.json",
+  "pregrading_annotation_sha256": "c2fc992d2bd1bd5df342d11997f6dd70555af7b3abfc89e2f1049bfc7941d7dc"
+}

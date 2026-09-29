@@ -1,0 +1,62 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_396",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_396__ent_286__ent_465",
+        "rel_396__ent_456__ent_698",
+        "rel_396__ent_1152__ent_1052"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit succession or leader/manager takeover establishes successor to predecessor.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_396__ent_105__ent_223"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Only replace paths are present: taking over the role versus appointing a replacement is unresolved.",
+      "tags": [
+        "replacement_role"
+      ],
+      "question": "Did Sather personally take over Trottier’s role, or appoint someone to replace him?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_396__ent_1238__ent_205"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Replace co-occurs with nomination as successor and a pledge, without a separate tenure-establishing row.",
+      "tags": [
+        "prospective_office"
+      ],
+      "question": "Did Greenspan take over the role in these statements, or was he still a nominated successor?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a16e8f92e87d28a5dad4ba69cf571c53c16f4e7e9a1ce98db85c9d3a31f46379"
+}

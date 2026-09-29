@@ -1,0 +1,57 @@
+{
+  "relation": "rel_40",
+  "predicate_id": "manager_of",
+  "label": "manager of institution",
+  "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+  "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+  "facts": [
+    {
+      "case_id": "rel_40__ent_283__ent_321",
+      "judgment": "supported",
+      "reason": "Dave Johnson → Mets: Explicit tenure as manager and dismissal as manager establish the manager office.",
+      "evidence_lines": [
+        3334,
+        3335,
+        3336,
+        3337,
+        3338,
+        3339,
+        3340,
+        3341
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.185Z"
+      }
+    },
+    {
+      "case_id": "rel_40__ent_273__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "Joe Torre → Yankees: Gathering the team, a contract and comments on struggles do not specify whether the person held the manager title.",
+      "evidence_lines": [
+        3177,
+        3179,
+        3183
+      ],
+      "issue_tags": [
+        "omitted_role"
+      ],
+      "reviewer_question": "Does the source identify Joe Torre as Yankees manager, rather than another contracted team role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.185Z"
+      }
+    }
+  ],
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1d5c514006741baf6ec3cc53da2a34bec93064607432824d2bea728159b2edab"
+}

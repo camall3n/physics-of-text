@@ -1,0 +1,76 @@
+{
+  "relation": "rel_190",
+  "predicate_id": "belongs_to_corporate_family",
+  "label": "belongs to named corporate family",
+  "definition": "Company X is explicitly described as belonging to the named corporate family or historical corporate lineage Y.",
+  "scope_notes": "Includes: explicit named-family company descriptors such as Bell company; explicit membership in a group of successor companies identified by that corporate lineage; historical corporate-family identification. Excludes: current parent ownership without a family or lineage assertion; ordinary alliance, commercial cooperation or generic association; a company in an industry or geographic place. Ambiguous unless resolved by case-local evidence: unclear corporate family designation or nominal attachment; a person or incomplete company name replacing the company argument. A corporate-family label is distinct from ownership by a current legal parent. This category does not infer that all family companies are owned by an entity called Y.",
+  "facts": [
+    {
+      "case_id": "rel_190__ent_1077__ent_931",
+      "judgment": "supported",
+      "reason": "U S West → Bell: Explicit Bell-company descriptors establish membership in the named historical corporate family, without asserting ownership by a legal entity called Bell.",
+      "evidence_lines": [
+        6808,
+        6809,
+        6812,
+        6815,
+        6817
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.237Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_950__ent_931",
+      "judgment": "supported",
+      "reason": "Pacific Telesis → Bell: Explicit Bell-company descriptors establish membership in the named historical corporate family, without asserting ownership by a legal entity called Bell.",
+      "evidence_lines": [
+        6877,
+        6878,
+        6881,
+        6882,
+        6883
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.237Z"
+      }
+    },
+    {
+      "case_id": "rel_190__ent_151__ent_625",
+      "judgment": "incorrect",
+      "reason": "Rupert Murdoch → Fox: A person chairing a corporate parent is not a company belonging to a named corporate lineage.",
+      "evidence_lines": [
+        6013,
+        6015,
+        6019
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.237Z"
+      }
+    }
+  ],
+  "predicate_hash": "58de310bd6774c12b820130e5dca451800949a35bfad752a6ff09a2303df52ef",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a2f36f543e1bbf1b244e69bfc0f2eca9d848a82e1b5dfc8e86a6ffa30f89588e"
+}

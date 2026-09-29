@@ -1,0 +1,159 @@
+{
+  "relation": "rel_32",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_32__ent_64__ent_308",
+      "judgment": "supported",
+      "reason": "Patrick Ewing → Knicks: Center position or explicit rebounding/triple-double/scoring context establishes the person as an athlete for the team.",
+      "evidence_lines": [
+        3064,
+        3065,
+        3066,
+        3067,
+        3069,
+        3073
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_356__ent_308",
+      "judgment": "supported",
+      "reason": "Ewing → Knicks: Center position or explicit rebounding/triple-double/scoring context establishes the person as an athlete for the team.",
+      "evidence_lines": [
+        3075,
+        3076,
+        3079,
+        4219,
+        4220,
+        4223
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_63__ent_543",
+      "judgment": "supported",
+      "reason": "Richard Jefferson → Nets: Center position or explicit rebounding/triple-double/scoring context establishes the person as an athlete for the team.",
+      "evidence_lines": [
+        3094,
+        3095,
+        3099,
+        3100,
+        3101,
+        3102
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_263__ent_1171",
+      "judgment": "incorrect",
+      "reason": "Republican → House Ways and Means Committee: The rows concern political committee leadership or a religious minister, not an athletic role.",
+      "evidence_lines": [
+        6324,
+        6325,
+        6326,
+        6328
+      ],
+      "issue_tags": [
+        "wrong_domain"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_247__ent_489",
+      "judgment": "incorrect",
+      "reason": "Louis Farrakhan → Nation of Islam: The rows concern political committee leadership or a religious minister, not an athletic role.",
+      "evidence_lines": [
+        2945,
+        4967,
+        4971
+      ],
+      "issue_tags": [
+        "wrong_domain"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_1119__ent_110",
+      "judgment": "supported",
+      "reason": "Bobby Holik → Devils: Center position or explicit rebounding/triple-double/scoring context establishes the person as an athlete for the team.",
+      "evidence_lines": [
+        4283,
+        4284,
+        4287
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_263__ent_1172",
+      "judgment": "incorrect",
+      "reason": "Republican → Senate Finance Committee: The rows concern political committee leadership or a religious minister, not an athletic role.",
+      "evidence_lines": [
+        6349,
+        6352
+      ],
+      "issue_tags": [
+        "wrong_domain"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:03.191Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b008f0fa9f360e089b5620c67656b8edd4f7a19e445c86d837169f7d02156cfb"
+}

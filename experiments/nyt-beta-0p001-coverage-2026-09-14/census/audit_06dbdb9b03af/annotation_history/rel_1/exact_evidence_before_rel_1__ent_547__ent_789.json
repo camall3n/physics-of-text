@@ -1,0 +1,85 @@
+{
+  "relation": "rel_1",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_1__ent_462__ent_683",
+      "judgment": "supported",
+      "reason": "Mcorp → Texas: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+      "evidence_lines": [
+        5795,
+        5796,
+        5799,
+        5801,
+        5802
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.350Z"
+      }
+    },
+    {
+      "case_id": "rel_1__ent_464__ent_221",
+      "judgment": "supported",
+      "reason": "International Data Corporation → Framingham: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+      "evidence_lines": [
+        5816,
+        5817,
+        7150,
+        7151
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.350Z"
+      }
+    },
+    {
+      "case_id": "rel_1__ent_547__ent_789",
+      "judgment": "supported",
+      "reason": "I.B.M. → Armonk: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+      "evidence_lines": [
+        806,
+        4402
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.350Z"
+      }
+    },
+    {
+      "case_id": "rel_1__ent_548__ent_1003",
+      "judgment": "supported",
+      "reason": "Johnson & Johnson → New Brunswick: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+      "evidence_lines": [
+        855,
+        4388
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.350Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ae211b367c09a0c0df9cce360510d83459be0f1ee9ab903c12c9f95d541da23d"
+}

@@ -1,0 +1,51 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_57",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_57__ent_268__ent_263"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit Republican majority-leader wording identifies named party leadership, matching the earlier census party-name boundary.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_57__ent_49__ent_36",
+        "rel_57__ent_31__ent_36",
+        "rel_57__ent_33__ent_32",
+        "rel_57__ent_264__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Democratic or Libyan is an incomplete adjectival body argument, leaving the exact party body or state office unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which fully identified political body is led by this person?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "fa98a5bad379c1907bf864947a654fea2c1a4d199ce0d363a0905c4e226bbf33"
+}

@@ -1,0 +1,148 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_354",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "case_ids": [
+        "rel_354__ent_1153__ent_1144",
+        "rel_354__ent_101__ent_881",
+        "rel_354__ent_217__ent_554",
+        "rel_354__ent_393__ent_625",
+        "rel_354__ent_628__ent_867",
+        "rel_354__ent_459__ent_1154",
+        "rel_354__ent_216__ent_867",
+        "rel_354__ent_1153__ent_458",
+        "rel_354__ent_351__ent_1004",
+        "rel_354__ent_151__ent_625",
+        "rel_354__ent_1034__ent_1035",
+        "rel_354__ent_1155__ent_219",
+        "rel_354__ent_1037__ent_1038",
+        "rel_354__ent_350__ent_592",
+        "rel_354__ent_352__ent_594",
+        "rel_354__ent_591__ent_110"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit owner/owns, co-owner or corporate-parent row establishes an ownership interest in the second named organization or asset.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        11,
+        12,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31
+      ],
+      "case_ids": [
+        "rel_354__ent_999__ent_518",
+        "rel_354__ent_562__ent_323",
+        "rel_354__ent_314__ent_323",
+        "rel_354__ent_515__ent_757",
+        "rel_354__ent_909__ent_908",
+        "rel_354__ent_903__ent_902",
+        "rel_354__ent_797__ent_1010",
+        "rel_354__ent_564__ent_1017",
+        "rel_354__ent_1018__ent_1019",
+        "rel_354__ent_313__ent_555",
+        "rel_354__ent_905__ent_1010",
+        "rel_354__ent_906__ent_835",
+        "rel_354__ent_901__ent_900"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence describes birth, upbringing, residence or other biographical activity in a place, not ownership of that place or an identified asset.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        22
+      ],
+      "case_ids": [
+        "rel_354__ent_1080__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet company/industry description does not establish that the first company owns the Internet.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        24
+      ],
+      "case_ids": [
+        "rel_354__ent_910__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Speechwriter affiliation with the White House does not establish ownership.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        28
+      ],
+      "case_ids": [
+        "rel_354__ent_539__ent_713"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The owns path gives Dallas as object; whether it denotes a city-named team or asset rather than the geographic city is unstated.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "What owned team, business or property does Dallas stand for in this clause?"
+    }
+  ],
+  "mixed": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    13,
+    14,
+    16,
+    17,
+    19
+  ],
+  "broad": []
+}

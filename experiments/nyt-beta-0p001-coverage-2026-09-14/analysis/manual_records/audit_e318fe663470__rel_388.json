@@ -1,0 +1,66 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_388",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_388__ent_1339__ent_821"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The subject American combines a diplomat and a firm, so one coherent entity is not identified despite location evidence.",
+      "tags": [
+        "entity_sense_ambiguity"
+      ],
+      "question": "Does American identify a person or a company, and which entity is present in London?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_388__ent_225__ent_824"
+      ],
+      "judgment": "ambiguous",
+      "reason": "American is an unnamed nationality description rather than an identified person despite expatriate/diplomat location evidence.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which American person is present in Paris?"
+    },
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_388__ent_804__ent_803",
+        "rel_388__ent_1414__ent_1275",
+        "rel_388__ent_997__ent_1393",
+        "rel_388__ent_374__ent_782",
+        "rel_388__ent_1441__ent_1314",
+        "rel_388__ent_516__ent_798",
+        "rel_388__ent_600__ent_299"
+      ],
+      "judgment": "incorrect",
+      "reason": "Artistic reviews, lobbying, public office or spokesperson/director roles alone do not establish physical presence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "560fe603014ec67ea80f33a4ed1d08d93019b3d198169c46c53cd3c1f7579626"
+}

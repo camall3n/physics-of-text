@@ -1,0 +1,83 @@
+{
+  "relation": "rel_386",
+  "predicate_id": "ally_of",
+  "label": "political or military ally of",
+  "definition": "Political entity X is or was an explicitly identified political or military ally of Y.",
+  "scope_notes": "Includes: explicit ally-of or possessive ally relation; historical political or military alliance. Excludes: a generic relationship or agreement alone; cooperation, trade, communication, or shared interests without alliance; travel or emigration between countries. Ambiguous unless resolved by case-local evidence: an unspecified relationship without explicit alliance; unclear holder or direction of the ally description. Alliance is separate from acting jointly on one occasion or maintaining diplomatic relations. Declaration must identify the explicit ally family rather than absorb generic international associations.",
+  "facts": [
+    {
+      "case_id": "rel_386__ent_813__ent_537",
+      "judgment": "supported",
+      "reason": "Britain → United States: Explicit ally-of and possessive ally descriptions establish the political alliance.",
+      "evidence_lines": [
+        1953,
+        1954,
+        1956,
+        1958,
+        1959,
+        1960
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.630Z"
+      }
+    },
+    {
+      "case_id": "rel_386__ent_815__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Russia → United States: The relationship is unspecified and the remaining export, comparison or migration rows do not resolve an alliance.",
+      "evidence_lines": [
+        1984,
+        1985,
+        1986,
+        1988,
+        1990,
+        1991
+      ],
+      "issue_tags": [
+        "unspecified_relationship",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was the stated relationship an actual political/military alliance, rather than trade, migration or ordinary diplomatic ties?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.631Z"
+      }
+    },
+    {
+      "case_id": "rel_386__ent_818__ent_537",
+      "judgment": "ambiguous",
+      "reason": "China → United States: The relationship is unspecified and the remaining export, comparison or migration rows do not resolve an alliance.",
+      "evidence_lines": [
+        5872,
+        5874,
+        5876,
+        5878,
+        5879,
+        5880
+      ],
+      "issue_tags": [
+        "unspecified_relationship",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was the stated relationship an actual political/military alliance, rather than trade, migration or ordinary diplomatic ties?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.631Z"
+      }
+    }
+  ],
+  "predicate_hash": "7d39b98540127b1c044a2951f6ade11f4b5281b3776908e4c5240e81f24f1d9c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "66719045e70e0327e68847a7bd149abb3c161a0085502a740e7642cd084a5494"
+}

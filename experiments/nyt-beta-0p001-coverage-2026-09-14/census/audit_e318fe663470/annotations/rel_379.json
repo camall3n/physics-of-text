@@ -1,0 +1,232 @@
+{
+  "relation": "rel_379",
+  "predicate_id": "has_medical_condition",
+  "label": "has or had medical condition",
+  "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+  "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+  "facts": [
+    {
+      "case_id": "rel_379__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        3428,
+        3430,
+        3435,
+        3436,
+        4927,
+        4929
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_669__ent_202",
+      "judgment": "ambiguous",
+      "reason": "Americans → diabetes; Americans → Europe: Explicit diabetes evidence is merged with travel to Europe as the same inferred object.",
+      "evidence_lines": [
+        4752,
+        4872,
+        4873,
+        4875,
+        4880
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Should Europe and diabetes be separated into distinct inferred entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_444__ent_686",
+      "judgment": "incorrect",
+      "reason": "Heather → Mommies: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        4882,
+        4883,
+        4884,
+        4885
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_201__ent_443",
+      "judgment": "supported",
+      "reason": "New Yorkers → AIDS: Local have/suffer-from/die-of evidence explicitly associates the person or affected population members with the stated medical condition.",
+      "evidence_lines": [
+        4906,
+        4910,
+        4914,
+        4915
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1065__ent_443",
+      "judgment": "supported",
+      "reason": "Liberace → AIDS: Local have/suffer-from/die-of evidence explicitly associates the person or affected population members with the stated medical condition.",
+      "evidence_lines": [
+        4916,
+        4917,
+        4924,
+        4925
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1265__ent_1422",
+      "judgment": "incorrect",
+      "reason": "Republicans → White House: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        2778,
+        2780
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_406__ent_333",
+      "judgment": "incorrect",
+      "reason": "William → Manhattan: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        4014,
+        4020
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_157__ent_433",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Barbara: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        4548,
+        4551
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_462__ent_1210",
+      "judgment": "incorrect",
+      "reason": "Knicks → Patrick Ewing: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        4938,
+        4940
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_122__ent_819",
+      "judgment": "incorrect",
+      "reason": "House → Democrats: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        4949,
+        4953
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1285__ent_1205",
+      "judgment": "incorrect",
+      "reason": "Morningstar Inc. → Chicago: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        5744,
+        7108
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1423__ent_148",
+      "judgment": "incorrect",
+      "reason": "John → Manhattan: The supplied objects and paths concern athletes, family, politics, residence or research location, without a medical-condition assertion.",
+      "evidence_lines": [
+        3965
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:14.095Z"
+      }
+    }
+  ],
+  "predicate_hash": "00002d0be7de1b31e15236178a628d6020ff5861a758e2c750383ed1801ab3f8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "45227904dc2285263e76075772ec4bebcedcccb5c19b8b9571f661d391e01568"
+}

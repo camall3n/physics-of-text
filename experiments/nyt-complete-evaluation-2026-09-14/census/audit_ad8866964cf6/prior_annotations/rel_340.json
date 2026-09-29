@@ -1,0 +1,81 @@
+{
+  "relation": "rel_340",
+  "label": "lives in",
+  "definition": "Person or population X resides in geographic place Y.",
+  "scope_notes": "Live-in dominates the coherent residence component, preserving prior scope. An explicit home or immigration/resettlement can establish residence; death or other events in a place alone cannot. Bare adjectives or malformed names do not identify a stable person automatically.",
+  "facts": [
+    {
+      "case_id": "rel_340__ent_667__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born has a live-in and immigration path to the United States, but Born is not a clearly identified person or population in the supplied argument names.",
+      "evidence_lines": [
+        4692,
+        4694,
+        4698,
+        4699,
+        4700
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Which person or population does the extracted argument Born identify?"
+    },
+    {
+      "case_id": "rel_340__ent_826__ent_825",
+      "judgment": "supported",
+      "reason": "Palestinians explicitly live in the West Bank; governance, killing, protection and expulsion paths are additional events involving the population.",
+      "evidence_lines": [
+        2132,
+        2135,
+        2133,
+        2134,
+        2139
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_340__ent_988__ent_507",
+      "judgment": "supported",
+      "reason": "Mr. Marcos explicitly lives in Hawaii, including living there with his wife; death and successor-government paths are additional.",
+      "evidence_lines": [
+        8183,
+        8184,
+        8181,
+        8188
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_340__ent_822__ent_835",
+      "judgment": "ambiguous",
+      "reason": "American has live-in evidence, but the adjective attaches to a woman and a serviceman, so the inferred source does not identify a stable single person or clearly specified population.",
+      "evidence_lines": [
+        2157,
+        2158,
+        2162,
+        2164,
+        2166
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Which person or defined population does American denote, and do the woman and serviceman rows refer to that same entity?"
+    },
+    {
+      "case_id": "rel_340__ent_638__ent_832",
+      "judgment": "supported",
+      "reason": "Sydney Ullman dies at a home in Montclair; the explicit home attachment supports residence.",
+      "evidence_lines": [
+        2690
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,791 @@
+TAP version 13
+# Subtest: independent contexts retain their own roots and reject another campaign folder
+ok 1 - independent contexts retain their own roots and reject another campaign folder
+  ---
+  duration_ms: 15.99225
+  type: 'test'
+  ...
+# Subtest: scratch rendering preserves report bytes, source provenance and all campaign inputs
+ok 2 - scratch rendering preserves report bytes, source provenance and all campaign inputs
+  ---
+  duration_ms: 25.27025
+  type: 'test'
+  ...
+# Subtest: human overrides do not hide malformed primary judgments but may resolve provisional ones
+ok 3 - human overrides do not hide malformed primary judgments but may resolve provisional ones
+  ---
+  duration_ms: 25.116667
+  type: 'test'
+  ...
+# Subtest: canonical registry distinguishes predicate changes, rubric changes and unrelated additions
+ok 4 - canonical registry distinguishes predicate changes, rubric changes and unrelated additions
+  ---
+  duration_ms: 8.8115
+  type: 'test'
+  ...
+# Subtest: the selection protocol must be explicit and coverage must supply its frozen baseline context
+ok 5 - the selection protocol must be explicit and coverage must supply its frozen baseline context
+  ---
+  duration_ms: 7.97125
+  type: 'test'
+  ...
+# audit_fixture/rel_1: 2 complete manual judgments
+# 1 scopes recorded
+# Subtest: preparing a manual record preserves supplied judgments/citations and performs no write
+ok 6 - preparing a manual record preserves supplied judgments/citations and performs no write
+  ---
+  duration_ms: 6.964333
+  type: 'test'
+  ...
+# Subtest: incomplete, repeated and ambiguous-without-question records are rejected before writing
+ok 7 - incomplete, repeated and ambiguous-without-question records are rejected before writing
+  ---
+  duration_ms: 6.782417
+  type: 'test'
+  ...
+# Subtest: coverage recording retains history, supplied reviewer, identity tags and declaration hash
+ok 8 - coverage recording retains history, supplied reviewer, identity tags and declaration hash
+  ---
+  duration_ms: 9.332458
+  type: 'test'
+  ...
+# Subtest: coverage recording refuses carried-forward declarations and changed declaration bytes
+ok 9 - coverage recording refuses carried-forward declarations and changed declaration bytes
+  ---
+  duration_ms: 8.700834
+  type: 'test'
+  ...
+# Subtest: supplemental recording uses its configured population and explicit reviewer
+ok 10 - supplemental recording uses its configured population and explicit reviewer
+  ---
+  duration_ms: 6.410041
+  type: 'test'
+  ...
+# Subtest: S/E/A adapter forwards explicit decisions and preserves caller override precedence
+ok 11 - S/E/A adapter forwards explicit decisions and preserves caller override precedence
+  ---
+  duration_ms: 0.304625
+  type: 'test'
+  ...
+# Subtest: scope recorder validates dictionary indices and prevents duplicate declarations
+ok 12 - scope recorder validates dictionary indices and prevents duplicate declarations
+  ---
+  duration_ms: 9.197792
+  type: 'test'
+  ...
+# Subtest: nyt-precision-investigation-2026-09-12: all retained historical sampled results and selections remain exact
+ok 13 - nyt-precision-investigation-2026-09-12: all retained historical sampled results and selections remain exact
+  ---
+  duration_ms: 583.2385
+  type: 'test'
+  ...
+# Subtest: nyt-latent-low-smoothing-2026-09-14: all retained historical sampled results and selections remain exact
+ok 14 - nyt-latent-low-smoothing-2026-09-14: all retained historical sampled results and selections remain exact
+  ---
+  duration_ms: 91.741167
+  type: 'test'
+  ...
+# Subtest: historical sampled factory rejects evidence outside its explicit campaign context
+ok 15 - historical sampled factory rejects evidence outside its explicit campaign context
+  ---
+  duration_ms: 4.584458
+  type: 'test'
+  ...
+# Subtest: historical selection parameters change selection size but not parsed population
+ok 16 - historical selection parameters change selection size but not parsed population
+  ---
+  duration_ms: 0.367667
+  type: 'test'
+  ...
+# Subtest: primary and effective diagnostics expose overrides without changing primary or score inputs
+ok 17 - primary and effective diagnostics expose overrides without changing primary or score inputs
+  ---
+  duration_ms: 1.824125
+  type: 'test'
+  ...
+# Subtest: reference identity includes source hash; an equal run-local case ID is insufficient
+ok 18 - reference identity includes source hash; an equal run-local case ID is insufficient
+  ---
+  duration_ms: 1.064291
+  type: 'test'
+  ...
+# Subtest: reference predicate versions and full content must match, not only ID/definition/scope
+ok 19 - reference predicate versions and full content must match, not only ID/definition/scope
+  ---
+  duration_ms: 0.312833
+  type: 'test'
+  ...
+# Subtest: a changed common rubric prevents cross-population consistency claims
+ok 20 - a changed common rubric prevents cross-population consistency claims
+  ---
+  duration_ms: 0.20875
+  type: 'test'
+  ...
+# Subtest: current-only output explicitly distinguishes not-run reference checks from zero conflicts
+ok 21 - current-only output explicitly distinguishes not-run reference checks from zero conflicts
+  ---
+  duration_ms: 0.651625
+  type: 'test'
+  ...
+# Subtest: blank primary with a valid override stays absent from primary diagnostic
+ok 22 - blank primary with a valid override stays absent from primary diagnostic
+  ---
+  duration_ms: 0.156083
+  type: 'test'
+  ...
+# Subtest: unvalidated current or reference populations cannot enter diagnostic
+ok 23 - unvalidated current or reference populations cannot enter diagnostic
+  ---
+  duration_ms: 1.00075
+  type: 'test'
+  ...
+# Subtest: population loader invokes live validation and ignores stale saved assessment labels
+ok 24 - population loader invokes live validation and ignores stale saved assessment labels
+  ---
+  duration_ms: 6.1815
+  type: 'test'
+  ...
+# Subtest: CLI exposes all documented NYT evaluation presets
+ok 25 - CLI exposes all documented NYT evaluation presets
+  ---
+  duration_ms: 119.302
+  type: 'test'
+  ...
+# Subtest: CLI nyt-top20 checks saved runs and renders identical assessments/relation/selection views
+ok 26 - CLI nyt-top20 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 3667.099458
+  type: 'test'
+  ...
+# {"preset":"nyt-top20","audits":10,"required_artifacts_compared":220}
+# Subtest: CLI nyt-coverage checks saved runs and renders identical assessments/relation/selection views
+ok 27 - CLI nyt-coverage checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 8890.502375
+  type: 'test'
+  ...
+# {"preset":"nyt-coverage","audits":4,"required_artifacts_compared":1192}
+# Subtest: CLI nyt-archive250 checks saved runs and renders identical assessments/relation/selection views
+ok 28 - CLI nyt-archive250 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 209.552416
+  type: 'test'
+  ...
+# {"preset":"nyt-archive250","audits":1,"required_artifacts_compared":17}
+# Subtest: CLI sampled-sep12 checks saved runs and renders identical assessments/relation/selection views
+ok 29 - CLI sampled-sep12 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 557.492458
+  type: 'test'
+  ...
+# {"preset":"sampled-sep12","audits":8,"required_artifacts_compared":16}
+# Subtest: CLI sampled-sep14 checks saved runs and renders identical assessments/relation/selection views
+ok 30 - CLI sampled-sep14 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 231.815
+  type: 'test'
+  ...
+# {"preset":"sampled-sep14","audits":2,"required_artifacts_compared":4}
+# Subtest: CLI refuses overwriting study data, code, and nonempty output directories
+ok 31 - CLI refuses overwriting study data, code, and nonempty output directories
+  ---
+  duration_ms: 300.46
+  type: 'test'
+  ...
+# Subtest: CLI rejects unknown presets and selection switches without writing output
+ok 32 - CLI rejects unknown presets and selection switches without writing output
+  ---
+  duration_ms: 102.111667
+  type: 'test'
+  ...
+# Subtest: every caller rejects duplicate audit IDs, duplicate folders and external populations
+ok 33 - every caller rejects duplicate audit IDs, duplicate folders and external populations
+  ---
+  duration_ms: 1.647625
+  type: 'test'
+  ...
+# Subtest: registered population checks reject drift even if each audit is internally valid
+ok 34 - registered population checks reject drift even if each audit is internally valid
+  ---
+  duration_ms: 1.654917
+  type: 'test'
+  ...
+# Subtest: minimal prefix uses all rows and includes the whole boundary relation
+ok 35 - minimal prefix uses all rows and includes the whole boundary relation
+  ---
+  duration_ms: 2.376416
+  type: 'test'
+  ...
+# Subtest: ties use numeric relation ID and do not expand every tied relation
+ok 36 - ties use numeric relation ID and do not expand every tied relation
+  ---
+  duration_ms: 0.277958
+  type: 'test'
+  ...
+# Subtest: targets must increase and remain valid fractions
+ok 37 - targets must increase and remain valid fractions
+  ---
+  duration_ms: 0.727
+  type: 'test'
+  ...
+# Subtest: census includes seventeen distinct facts and repeated evidence without a five-case cap
+ok 38 - census includes seventeen distinct facts and repeated evidence without a five-case cap
+  ---
+  duration_ms: 0.214
+  type: 'test'
+  ...
+# Subtest: exact denominators, nested score prefixes, and preserved baseline
+ok 39 - exact denominators, nested score prefixes, and preserved baseline
+  ---
+  duration_ms: 55.736666
+  type: 'test'
+  ...
+# Subtest: missing judgment fails strict validation
+ok 40 - missing judgment fails strict validation
+  ---
+  duration_ms: 97.363709
+  type: 'test'
+  ...
+# Subtest: invalid judgment fails strict validation
+ok 41 - invalid judgment fails strict validation
+  ---
+  duration_ms: 35.058958
+  type: 'test'
+  ...
+# Subtest: missing case fails strict validation
+ok 42 - missing case fails strict validation
+  ---
+  duration_ms: 37.173792
+  type: 'test'
+  ...
+# Subtest: duplicate case fails strict validation
+ok 43 - duplicate case fails strict validation
+  ---
+  duration_ms: 32.614916
+  type: 'test'
+  ...
+# Subtest: foreign case fails strict validation
+ok 44 - foreign case fails strict validation
+  ---
+  duration_ms: 34.55475
+  type: 'test'
+  ...
+# Subtest: foreign citations cannot support a fact
+ok 45 - foreign citations cannot support a fact
+  ---
+  duration_ms: 34.409667
+  type: 'test'
+  ...
+# Subtest: ambiguity requires a specific reviewer question
+ok 46 - ambiguity requires a specific reviewer question
+  ---
+  duration_ms: 27.685417
+  type: 'test'
+  ...
+# Subtest: source mutation is rejected
+ok 47 - source mutation is rejected
+  ---
+  duration_ms: 18.917125
+  type: 'test'
+  ...
+# Subtest: copied source mutation is rejected
+ok 48 - copied source mutation is rejected
+  ---
+  duration_ms: 24.034542
+  type: 'test'
+  ...
+# Subtest: exact prior judgment provenance is required
+ok 49 - exact prior judgment provenance is required
+  ---
+  duration_ms: 27.632917
+  type: 'test'
+  ...
+# Subtest: prior full-census labels cannot be changed
+ok 50 - prior full-census labels cannot be changed
+  ---
+  duration_ms: 36.70775
+  type: 'test'
+  ...
+# Subtest: undefined or silently changed predicate is rejected
+ok 51 - undefined or silently changed predicate is rejected
+  ---
+  duration_ms: 28.374417
+  type: 'test'
+  ...
+# Subtest: declaration is required and frozen before all case grading
+ok 52 - declaration is required and frozen before all case grading
+  ---
+  duration_ms: 29.157334
+  type: 'test'
+  ...
+# Subtest: prior source-case equality required during import
+ok 53 - prior source-case equality required during import
+  ---
+  duration_ms: 37.5625
+  type: 'test'
+  ...
+# Subtest: preparation preserves annotations and human overrides; override affects every containing prefix
+ok 54 - preparation preserves annotations and human overrides; override affects every containing prefix
+  ---
+  duration_ms: 33.964583
+  type: 'test'
+  ...
+# Subtest: human override cannot silently alter prior top20 scores
+ok 55 - human override cannot silently alter prior top20 scores
+  ---
+  duration_ms: 24.843291
+  type: 'test'
+  ...
+# Subtest: readable reports include every case and every requested threshold
+ok 56 - readable reports include every case and every requested threshold
+  ---
+  duration_ms: 30.413291
+  type: 'test'
+  ...
+# Subtest: each cutoff gets a complete independent selected-prefix view and evaluated navigation
+ok 57 - each cutoff gets a complete independent selected-prefix view and evaluated navigation
+  ---
+  duration_ms: 31.189291
+  type: 'test'
+  ...
+# Subtest: unresolved predicates retain every ambiguous fact in the exact denominator
+ok 58 - unresolved predicates retain every ambiguous fact in the exact denominator
+  ---
+  duration_ms: 0.225542
+  type: 'test'
+  ...
+# Subtest: per-predicate hashes freeze definitions without freezing unrelated catalogue additions
+ok 59 - per-predicate hashes freeze definitions without freezing unrelated catalogue additions
+  ---
+  duration_ms: 0.933417
+  type: 'test'
+  ...
+# Subtest: identity diagnostics flag same latent ID with different role names even without side multiplicity
+ok 60 - identity diagnostics flag same latent ID with different role names even without side multiplicity
+  ---
+  duration_ms: 0.150709
+  type: 'test'
+  ...
+# Subtest: identity diagnostics preserve aliases as inspection flags and accept ordinary distinct entities
+ok 61 - identity diagnostics preserve aliases as inspection flags and accept ordinary distinct entities
+  ---
+  duration_ms: 0.088875
+  type: 'test'
+  ...
+# Subtest: complete evidence signatures ignore run-local numbers and duplicate rows only
+ok 62 - complete evidence signatures ignore run-local numbers and duplicate rows only
+  ---
+  duration_ms: 1.532583
+  type: 'test'
+  ...
+# Subtest: identity equality and predicate scope remain part of consistency signature
+ok 63 - identity equality and predicate scope remain part of consistency signature
+  ---
+  duration_ms: 0.17625
+  type: 'test'
+  ...
+# Subtest: effective labels respect explicit overrides and do not treat provisional imports as final
+ok 64 - effective labels respect explicit overrides and do not treat provisional imports as final
+  ---
+  duration_ms: 0.137834
+  type: 'test'
+  ...
+# Subtest: prior-only disagreements never masquerade as current conflicts
+ok 65 - prior-only disagreements never masquerade as current conflicts
+  ---
+  duration_ms: 0.25675
+  type: 'test'
+  ...
+# Subtest: complete population, ordered IDs, repetitions and numeric relation ties
+ok 66 - complete population, ordered IDs, repetitions and numeric relation ties
+  ---
+  duration_ms: 2.613875
+  type: 'test'
+  ...
+# Subtest: top-20 exact cutoff rejects relation 21, numeric ties and self-pairs retained
+ok 67 - top-20 exact cutoff rejects relation 21, numeric ties and self-pairs retained
+  ---
+  duration_ms: 0.58025
+  type: 'test'
+  ...
+# Subtest: regression: a relation retains all 17 facts, including beyond the old five-case cap
+ok 68 - regression: a relation retains all 17 facts, including beyond the old five-case cap
+  ---
+  duration_ms: 0.426916
+  type: 'test'
+  ...
+# Subtest: all facts are blank absent exact prior judgments
+ok 69 - all facts are blank absent exact prior judgments
+  ---
+  duration_ms: 10.73675
+  type: 'test'
+  ...
+# Subtest: prior transfer requires exact source plus full evidence and stays provisional
+ok 70 - prior transfer requires exact source plus full evidence and stays provisional
+  ---
+  duration_ms: 20.300834
+  type: 'test'
+  ...
+# Subtest: reject unrelated prior source despite identical numeric IDs
+ok 71 - reject unrelated prior source despite identical numeric IDs
+  ---
+  duration_ms: 34.509834
+  type: 'test'
+  ...
+# Subtest: re-preparation preserves edited annotations and human overrides exactly
+ok 72 - re-preparation preserves edited annotations and human overrides exactly
+  ---
+  duration_ms: 15.706833
+  type: 'test'
+  ...
+# Subtest: exact census denominator and ambiguity arithmetic, no sample statistics
+ok 73 - exact census denominator and ambiguity arithmetic, no sample statistics
+  ---
+  duration_ms: 13.981083
+  type: 'test'
+  ...
+# Subtest: missing judgment rejected even though most facts complete
+ok 74 - missing judgment rejected even though most facts complete
+  ---
+  duration_ms: 18.909084
+  type: 'test'
+  ...
+# Subtest: missing case rejected
+ok 75 - missing case rejected
+  ---
+  duration_ms: 26.896209
+  type: 'test'
+  ...
+# Subtest: duplicate case rejected
+ok 76 - duplicate case rejected
+  ---
+  duration_ms: 18.525167
+  type: 'test'
+  ...
+# Subtest: foreign case rejected
+ok 77 - foreign case rejected
+  ---
+  duration_ms: 8.27225
+  type: 'test'
+  ...
+# Subtest: foreign evidence line rejected
+ok 78 - foreign evidence line rejected
+  ---
+  duration_ms: 8.530541
+  type: 'test'
+  ...
+# Subtest: duplicate citation rejected
+ok 79 - duplicate citation rejected
+  ---
+  duration_ms: 12.671125
+  type: 'test'
+  ...
+# Subtest: ambiguous case needs question
+ok 80 - ambiguous case needs question
+  ---
+  duration_ms: 13.221708
+  type: 'test'
+  ...
+# Subtest: undefined predicate and catalogue ID rejected
+ok 81 - undefined predicate and catalogue ID rejected
+  ---
+  duration_ms: 11.856916
+  type: 'test'
+  ...
+# Subtest: unconfirmed inherited label rejected
+ok 82 - unconfirmed inherited label rejected
+  ---
+  duration_ms: 15.445584
+  type: 'test'
+  ...
+# Subtest: modified source snapshot rejected
+ok 83 - modified source snapshot rejected
+  ---
+  duration_ms: 10.6405
+  type: 'test'
+  ...
+# Subtest: modified original source rejected
+ok 84 - modified original source rejected
+  ---
+  duration_ms: 8.020708
+  type: 'test'
+  ...
+# Subtest: changed cases file rejected
+ok 85 - changed cases file rejected
+  ---
+  duration_ms: 10.367417
+  type: 'test'
+  ...
+# Subtest: independent reparse catches missing fact even if cases hash updated
+ok 86 - independent reparse catches missing fact even if cases hash updated
+  ---
+  duration_ms: 12.525208
+  type: 'test'
+  ...
+# Subtest: human override changes exact count and preserves primary provenance
+ok 87 - human override changes exact count and preserves primary provenance
+  ---
+  duration_ms: 12.90675
+  type: 'test'
+  ...
+# Subtest: duplicate foreign and invalid human overrides rejected
+ok 88 - duplicate foreign and invalid human overrides rejected
+  ---
+  duration_ms: 11.377333
+  type: 'test'
+  ...
+# Subtest: changed prior snapshot rejected
+ok 89 - changed prior snapshot rejected
+  ---
+  duration_ms: 14.400459
+  type: 'test'
+  ...
+# Subtest: final report refuses incomplete census without writing final files
+ok 90 - final report refuses incomplete census without writing final files
+  ---
+  duration_ms: 8.903417
+  type: 'test'
+  ...
+# Subtest: retained preparation roster has ten runs and no retired source dependency
+ok 91 - retained preparation roster has ten runs and no retired source dependency
+  ---
+  duration_ms: 2.7335
+  type: 'test'
+  ...
+# Subtest: retired sources and IDs reject direct preparation before writing any output
+ok 92 - retired sources and IDs reject direct preparation before writing any output
+  ---
+  duration_ms: 3.199833
+  type: 'test'
+  ...
+# Subtest: a mixed stale batch is rejected before touching retained artifacts or manifest
+ok 93 - a mixed stale batch is rejected before touching retained artifacts or manifest
+  ---
+  duration_ms: 0.734
+  type: 'test'
+  ...
+# Subtest: unchanged historical manifests need no maintenance exception
+ok 94 - unchanged historical manifests need no maintenance exception
+  ---
+  duration_ms: 2.002292
+  type: 'test'
+  ...
+# Subtest: maintenance accepts only an exact authorized before/after hash transition
+ok 95 - maintenance accepts only an exact authorized before/after hash transition
+  ---
+  duration_ms: 2.928541
+  type: 'test'
+  ...
+# Subtest: deliberate deletion is hash-bound and rejects any reappearance, including the original
+ok 96 - deliberate deletion is hash-bound and rejects any reappearance, including the original
+  ---
+  duration_ms: 2.210417
+  type: 'test'
+  ...
+# Subtest: undeclared deletion and symlink substitutions remain failures
+ok 97 - undeclared deletion and symlink substitutions remain failures
+  ---
+  duration_ms: 12.13825
+  type: 'test'
+  ...
+# Subtest: maintenance ledger rejects malformed hashes and repository escapes
+ok 98 - maintenance ledger rejects malformed hashes and repository escapes
+  ---
+  duration_ms: 4.077833
+  type: 'test'
+  ...
+# Subtest: prior comparison retains stratified population weights, not raw 100-case proportions
+ok 99 - prior comparison retains stratified population weights, not raw 100-case proportions
+  ---
+  duration_ms: 2.291375
+  type: 'test'
+  ...
+# Subtest: same-case revision and population expansion telescope for both ambiguity endpoints
+ok 100 - same-case revision and population expansion telescope for both ambiguity endpoints
+  ---
+  duration_ms: 0.352542
+  type: 'test'
+  ...
+# Subtest: old complete census includes all selected cases and has no expansion effect
+ok 101 - old complete census includes all selected cases and has no expansion effect
+  ---
+  duration_ms: 1.149375
+  type: 'test'
+  ...
+# Subtest: nonblank previous human override is compared while original annotation remains visible
+ok 102 - nonblank previous human override is compared while original annotation remains visible
+  ---
+  duration_ms: 0.427208
+  type: 'test'
+  ...
+# Subtest: prior comparison rejects source and full evidence mismatches, duplicate labels and undefined prior scope
+ok 103 - prior comparison rejects source and full evidence mismatches, duplicate labels and undefined prior scope
+  ---
+  duration_ms: 7.195
+  type: 'test'
+  ...
+# Subtest: declaration wording change is recorded without automatically causing a label change
+ok 104 - declaration wording change is recorded without automatically causing a label change
+  ---
+  duration_ms: 0.292709
+  type: 'test'
+  ...
+# Subtest: prior comparison never silently drops an old selected case or accepts a foreign one
+ok 105 - prior comparison never silently drops an old selected case or accepts a foreign one
+  ---
+  duration_ms: 1.968708
+  type: 'test'
+  ...
+# Subtest: finite-population census has zero sampling uncertainty
+ok 106 - finite-population census has zero sampling uncertainty
+  ---
+  duration_ms: 2.223583
+  type: 'test'
+  ...
+# Subtest: exact finite-population bounds match small hand-enumerable cases
+ok 107 - exact finite-population bounds match small hand-enumerable cases
+  ---
+  duration_ms: 0.191459
+  type: 'test'
+  ...
+# Subtest: enumerated sampling coverage is at least the declared confidence for every true count
+ok 108 - enumerated sampling coverage is at least the declared confidence for every true count
+  ---
+  duration_ms: 0.499375
+  type: 'test'
+  ...
+# Subtest: weighted micro estimates differ from macro and retain ambiguity endpoints
+ok 109 - weighted micro estimates differ from macro and retain ambiguity endpoints
+  ---
+  duration_ms: 0.710916
+  type: 'test'
+  ...
+# Subtest: all successes in five samples still leave substantial uncertainty
+ok 110 - all successes in five samples still leave substantial uncertainty
+  ---
+  duration_ms: 0.219542
+  type: 'test'
+  ...
+# Subtest: invalid or missing count mass is rejected
+ok 111 - invalid or missing count mass is rejected
+  ---
+  duration_ms: 15.93025
+  type: 'test'
+  ...
+# Subtest: all MAP rows belong to exactly one expressed ordered fact
+ok 112 - all MAP rows belong to exactly one expressed ordered fact
+  ---
+  duration_ms: 28.995875
+  type: 'test'
+  ...
+# Subtest: selects every small stratum and exactly five cases from larger strata
+ok 113 - selects every small stratum and exactly five cases from larger strata
+  ---
+  duration_ms: 1.88325
+  type: 'test'
+  ...
+# Subtest: sampling is deterministic and ranking uses only registered hashes
+ok 114 - sampling is deterministic and ranking uses only registered hashes
+  ---
+  duration_ms: 1.390625
+  type: 'test'
+  ...
+# Subtest: stratum weights recover micro precision, not equal allocation average
+ok 115 - stratum weights recover micro precision, not equal allocation average
+  ---
+  duration_ms: 0.824833
+  type: 'test'
+  ...
+# Subtest: relation rank ties use numeric IDs; entity pair order is retained
+ok 116 - relation rank ties use numeric IDs; entity pair order is retained
+  ---
+  duration_ms: 0.248625
+  type: 'test'
+  ...
+# Subtest: ambiguous or malformed source input cannot silently change columns
+ok 117 - ambiguous or malformed source input cannot silently change columns
+  ---
+  duration_ms: 1.1925
+  type: 'test'
+  ...
+# Subtest: finite-population census has zero sampling uncertainty
+ok 118 - finite-population census has zero sampling uncertainty
+  ---
+  duration_ms: 3.099208
+  type: 'test'
+  ...
+# Subtest: exact finite-population bounds match small hand-enumerable cases
+ok 119 - exact finite-population bounds match small hand-enumerable cases
+  ---
+  duration_ms: 0.212959
+  type: 'test'
+  ...
+# Subtest: enumerated sampling coverage is at least the declared confidence for every true count
+ok 120 - enumerated sampling coverage is at least the declared confidence for every true count
+  ---
+  duration_ms: 0.506167
+  type: 'test'
+  ...
+# Subtest: weighted micro estimates differ from macro and retain ambiguity endpoints
+ok 121 - weighted micro estimates differ from macro and retain ambiguity endpoints
+  ---
+  duration_ms: 0.746792
+  type: 'test'
+  ...
+# Subtest: all successes in five samples still leave substantial uncertainty
+ok 122 - all successes in five samples still leave substantial uncertainty
+  ---
+  duration_ms: 0.191375
+  type: 'test'
+  ...
+# Subtest: invalid or missing count mass is rejected
+ok 123 - invalid or missing count mass is rejected
+  ---
+  duration_ms: 4.607333
+  type: 'test'
+  ...
+# Subtest: all MAP rows belong to exactly one expressed ordered fact
+ok 124 - all MAP rows belong to exactly one expressed ordered fact
+  ---
+  duration_ms: 18.239084
+  type: 'test'
+  ...
+# Subtest: selects every small stratum and exactly five cases from larger strata
+ok 125 - selects every small stratum and exactly five cases from larger strata
+  ---
+  duration_ms: 1.460667
+  type: 'test'
+  ...
+# Subtest: sampling is deterministic and ranking uses only registered hashes
+ok 126 - sampling is deterministic and ranking uses only registered hashes
+  ---
+  duration_ms: 1.416458
+  type: 'test'
+  ...
+# Subtest: stratum weights recover micro precision, not equal allocation average
+ok 127 - stratum weights recover micro precision, not equal allocation average
+  ---
+  duration_ms: 0.645166
+  type: 'test'
+  ...
+# Subtest: relation rank ties use numeric IDs; entity pair order is retained
+ok 128 - relation rank ties use numeric IDs; entity pair order is retained
+  ---
+  duration_ms: 0.377166
+  type: 'test'
+  ...
+# Subtest: ambiguous or malformed source input cannot silently change columns
+ok 129 - ambiguous or malformed source input cannot silently change columns
+  ---
+  duration_ms: 1.47825
+  type: 'test'
+  ...
+1..129
+# tests 129
+# suites 0
+# pass 129
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14161.680625

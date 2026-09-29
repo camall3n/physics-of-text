@@ -1,0 +1,117 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_216",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_216__ent_315__ent_557",
+        "rel_216__ent_319__ent_1398",
+        "rel_216__ent_347__ent_110",
+        "rel_216__ent_561__ent_560",
+        "rel_216__ent_318__ent_557",
+        "rel_216__ent_1013__ent_1289",
+        "rel_216__ent_1234__ent_1398",
+        "rel_216__ent_1283__ent_1383",
+        "rel_216__ent_799__ent_1398",
+        "rel_216__ent_317__ent_1398",
+        "rel_216__ent_641__ent_1289",
+        "rel_216__ent_1350__ent_1013",
+        "rel_216__ent_468__ent_278",
+        "rel_216__ent_468__ent_1084"
+      ],
+      "judgment": "supported",
+      "reason": "At least one supplied row explicitly states that the first team defeated or beat the second, or records its victory over that opponent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_216__ent_1310__ent_254"
+      ],
+      "judgment": "ambiguous",
+      "reason": "East and West have win/defeat paths mixed with geopolitical descriptions; the triples do not resolve which competing teams or bodies the names denote.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Do East and West identify the competing teams in these rows or geopolitical regions, and should their uses be separated?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_216__ent_1236__ent_647"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Dodgers and Florida Marlins share the second latent identity within this fact; they are distinct opponent teams despite the supporting defeat paths.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Should Dodgers and Florida Marlins be separated, and which opponent is intended here?"
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_216__ent_1004__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Yankees defeat New York is directional win evidence, but New York does not identify the opposing team in the supplied row.",
+      "tags": [
+        "argument_scope"
+      ],
+      "question": "Which opponent does New York designate in this defeat sentence?"
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_216__ent_1434__ent_310"
+      ],
+      "judgment": "incorrect",
+      "reason": "The minister-provides path does not assert a competitive defeat.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "broad": []
+}

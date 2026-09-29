@@ -1,0 +1,89 @@
+{
+  "relation": "rel_211",
+  "predicate_id": "publisher_of",
+  "label": "publisher of publication",
+  "definition": "Person or organization X holds or held the publisher role for publication Y, or explicitly publishes Y.",
+  "scope_notes": "Includes: explicit publisher-of title; explicit publication of the identified newspaper, journal, book, or other work; historical publisher role. Excludes: editor, writer, owner, developer, or director alone; travel to a publisher or publication office; a work merely mentioning or reviewing Y. Ambiguous unless resolved by case-local evidence: incomplete publication title; unclear publisher-versus-author or title attachment. Publisher is distinct from editor and from ownership. Co-occurring ownership does not replace the requirement for publication or an explicit publisher role.",
+  "facts": [
+    {
+      "case_id": "rel_211__ent_352__ent_594",
+      "judgment": "supported",
+      "reason": "Peter S. Kalikow → The New York Post: Explicit publisher-of title establishes the publication publisher role.",
+      "evidence_lines": [
+        1486,
+        1487,
+        1490,
+        1491,
+        1493,
+        1494
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.775Z"
+      }
+    },
+    {
+      "case_id": "rel_211__ent_578__ent_586",
+      "judgment": "incorrect",
+      "reason": "Michael D. McCurry → White House: Spokesperson activity, analyst work or movement toward an international body is not publication publishing.",
+      "evidence_lines": [
+        1367,
+        1369,
+        1371,
+        1372,
+        1374
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.775Z"
+      }
+    },
+    {
+      "case_id": "rel_211__ent_1059__ent_1180",
+      "judgment": "incorrect",
+      "reason": "Emanuel Goldman → Paine Webber: Spokesperson activity, analyst work or movement toward an international body is not publication publishing.",
+      "evidence_lines": [
+        1801,
+        7811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.775Z"
+      }
+    },
+    {
+      "case_id": "rel_211__ent_1198__ent_810",
+      "judgment": "incorrect",
+      "reason": "Poland → European Union: Spokesperson activity, analyst work or movement toward an international body is not publication publishing.",
+      "evidence_lines": [
+        1948,
+        1950
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.775Z"
+      }
+    }
+  ],
+  "predicate_hash": "27fb879e1b5585fd29b178de9687843b197a3d4dd919181a86f27a57e7ecca25",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "38025d79eb6ea2eefa0e432d1c9db05a55549047d8055f62c8bbfb7e0772e56b"
+}

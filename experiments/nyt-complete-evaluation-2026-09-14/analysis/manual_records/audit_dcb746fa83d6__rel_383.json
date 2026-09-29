@@ -1,0 +1,136 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_383",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        19,
+        20,
+        22,
+        24
+      ],
+      "case_ids": [
+        "rel_383__ent_388__ent_381",
+        "rel_383__ent_108__ent_1047",
+        "rel_383__ent_383__ent_140",
+        "rel_383__ent_550__ent_792",
+        "rel_383__ent_121__ent_376",
+        "rel_383__ent_128__ent_132",
+        "rel_383__ent_773__ent_523",
+        "rel_383__ent_1048__ent_1049",
+        "rel_383__ent_362__ent_123",
+        "rel_383__ent_619__ent_526",
+        "rel_383__ent_384__ent_145",
+        "rel_383__ent_772__ent_771",
+        "rel_383__ent_1046__ent_771",
+        "rel_383__ent_668__ent_129",
+        "rel_383__ent_1105__ent_1306",
+        "rel_383__ent_1110__ent_140",
+        "rel_383__ent_1416__ent_1415"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit director wording establishes a director office of or within the identified organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        5,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_383__ent_12__ent_15",
+        "rel_383__ent_348__ent_1045",
+        "rel_383__ent_915__ent_1046",
+        "rel_383__ent_1109__ent_672"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The object is an abstract or materially truncated institutional name; director wording does not fully identify the actual institution.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What complete institution does this truncated argument denote?"
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_383__ent_291__ent_182"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The named second argument is a person, leaving the campaign or organization of the director unspecified.",
+      "tags": [
+        "personal_principal"
+      ],
+      "question": "Which institution or campaign is intended?"
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_383__ent_856__ent_943"
+      ],
+      "judgment": "incorrect",
+      "reason": "Editing or publishing alone does not establish the specific director office.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_383__ent_1360__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Speaking at the White House does not establish directorship.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        23
+      ],
+      "case_ids": [
+        "rel_383__ent_446__ent_1339"
+      ],
+      "judgment": "incorrect",
+      "reason": "An alias relation between people does not establish directorship of an institution.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    4,
+    8
+  ],
+  "broad": []
+}

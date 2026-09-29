@@ -1,0 +1,74 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_82",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_82__ent_1161__ent_1258",
+        "rel_82__ent_1110__ent_837",
+        "rel_82__ent_483__ent_234",
+        "rel_82__ent_823__ent_587",
+        "rel_82__ent_476__ent_818",
+        "rel_82__ent_893__ent_825",
+        "rel_82__ent_1210__ent_1008"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local live/living/resettlement row explicitly establishes residence of this person or members of the population in the place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_82__ent_1431__ent_905"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A residence assertion for Cubans is combined with a different Salvadoran population in the same inferred subject.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Cubans and Salvadorans be separate inferred population entities?"
+    },
+    {
+      "indices": [
+        4,
+        7,
+        10
+      ],
+      "case_ids": [
+        "rel_82__ent_669__ent_202",
+        "rel_82__ent_910__ent_586",
+        "rel_82__ent_1223__ent_1412"
+      ],
+      "judgment": "incorrect",
+      "reason": "Disease, employment/directorship or territorial hand-over does not establish personal residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "06f47a3ecfa2d75a7d6c7aef52bf41cb6c75522c1b2cb15802add5b5186e9e55"
+}

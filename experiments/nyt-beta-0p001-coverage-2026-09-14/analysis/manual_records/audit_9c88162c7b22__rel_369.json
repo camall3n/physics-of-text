@@ -1,0 +1,53 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_369",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_369__ent_1004__ent_836",
+        "rel_369__ent_609__ent_836",
+        "rel_369__ent_849__ent_850",
+        "rel_369__ent_600__ent_836",
+        "rel_369__ent_309__ent_836"
+      ],
+      "judgment": "supported",
+      "reason": "Playing in, winning or competing in the designated event establishes sporting participation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        6
+      ],
+      "case_ids": [
+        "rel_369__ent_884__ent_83",
+        "rel_369__ent_884__ent_429"
+      ],
+      "judgment": "incorrect",
+      "reason": "Oakland or Los Angeles is geographic game location, not a designated sporting event.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6d68e1b09960a30cd5845aead1550f2fbe23b012d55fcfd46979845305695bfe"
+}

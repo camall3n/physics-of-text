@@ -1,0 +1,103 @@
+{
+  "audit": "audit_ad8866964cf6",
+  "relation": "rel_52",
+  "cases_sha256": "3799f5abe7c72552c3d02e56851c0e8f79ef70d941404eb61dd078999f964734",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24
+      ],
+      "case_ids": [
+        "rel_52__ent_869__ent_880",
+        "rel_52__ent_1128__ent_1129",
+        "rel_52__ent_624__ent_866",
+        "rel_52__ent_822__ent_640",
+        "rel_52__ent_623__ent_865",
+        "rel_52__ent_626__ent_868",
+        "rel_52__ent_625__ent_393",
+        "rel_52__ent_867__ent_628",
+        "rel_52__ent_624__ent_627",
+        "rel_52__ent_881__ent_101",
+        "rel_52__ent_424__ent_1129",
+        "rel_52__ent_1104__ent_880",
+        "rel_52__ent_665__ent_1120",
+        "rel_52__ent_1065__ent_1064",
+        "rel_52__ent_920__ent_1066",
+        "rel_52__ent_1068__ent_923",
+        "rel_52__ent_1070__ent_1071",
+        "rel_52__ent_1072__ent_880",
+        "rel_52__ent_1062__ent_776",
+        "rel_52__ent_1154__ent_459",
+        "rel_52__ent_1073__ent_1129",
+        "rel_52__ent_421__ent_423",
+        "rel_52__ent_1067__ent_923",
+        "rel_52__ent_926__ent_929"
+      ],
+      "judgment": "supported",
+      "reason": "Direct unit, organizational part, division, subsidiary or owned-by evidence establishes the child-to-parent relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        23
+      ],
+      "case_ids": [
+        "rel_52__ent_843__ent_1104"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York is the literal argument although unit/division wording plausibly refers to an unnamed BBDO office.",
+      "tags": [
+        "place_metonymy"
+      ],
+      "question": "Which office does New York stand for, and should a city-only entity be accepted as that unit?"
+    },
+    {
+      "indices": [
+        25,
+        26
+      ],
+      "case_ids": [
+        "rel_52__ent_345__ent_333",
+        "rel_52__ent_110__ent_347"
+      ],
+      "judgment": "incorrect",
+      "reason": "Company location and sporting results do not establish a subsidiary relation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    12,
+    18
+  ],
+  "broad": []
+}

@@ -1,0 +1,42 @@
+{
+  "relation": "rel_30",
+  "predicate_id": "met_with",
+  "predicate_version": 1,
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate": {
+    "id": "met_with",
+    "label": "met or encountered",
+    "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+    "includes": [
+      "explicit actual meet or meet-with encounter",
+      "a meeting between representatives clearly attributed to the named institutions",
+      "actual meeting of opposing sports teams"
+    ],
+    "excludes": [
+      "communication alone without an encounter",
+      "a proposed or scheduled meeting not established as occurring",
+      "physical confluence of rivers or geographic features",
+      "mere co-occurrence or comparison"
+    ],
+    "ambiguous": [
+      "future or planned meeting when occurrence is unresolved",
+      "meeting versus satisfying an abstract requirement",
+      "unclear representatives or participants"
+    ],
+    "notes": "The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+    "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result."
+  },
+  "dictionary_sha256": "d5b18f95cd8e8fe491e8af68278c1d09c6ba1447af08ec2bc10b138d0c3362fa",
+  "kind": "declared_before_case_grading",
+  "rationale": "Actual meeting/meet-with paths form the dominant encounter family; refusals and conversations alone do not prove a meeting.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:26:28.958Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_30.before_grading.json",
+  "pregrading_annotation_sha256": "ff68b7e84dfe28b07466b2d5c7d8e2ab472368be563a149c10be2359e19100a9"
+}

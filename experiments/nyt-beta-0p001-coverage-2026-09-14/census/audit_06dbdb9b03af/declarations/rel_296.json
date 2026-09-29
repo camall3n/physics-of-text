@@ -1,0 +1,45 @@
+{
+  "relation": "rel_296",
+  "predicate_id": "athlete_for",
+  "predicate_version": 1,
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate": {
+    "id": "athlete_for",
+    "label": "athlete plays for team",
+    "definition": "Person X plays or played as an athlete for sports team Y.",
+    "includes": [
+      "player/center/guard/wing/captain/scorer role on a team",
+      "playing for or with the team as athlete",
+      "scoring for the team"
+    ],
+    "excludes": [
+      "coach/manager/owner alone",
+      "team leading or beating another team",
+      "generic lead without athlete context",
+      "reverse team-to-athlete direction"
+    ],
+    "ambiguous": [
+      "bare lead without player/position/scoring context"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+  },
+  "dictionary_sha256": "7a35a160081bc2005308507d1efde80f9099e156720a63dd7c9343d8bd5c39e6",
+  "kind": "declared_before_case_grading",
+  "rationale": "Team-center and play-for/co-captain roles identify athlete membership; generic lead/take does not establish it alone.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:13:38.401Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3,
+    7,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_296.before_grading.json",
+  "pregrading_annotation_sha256": "357dd710307697d9281b6bd8fbdfac5cad965af1cddc9e30c6b4d575b3604175"
+}

@@ -1,0 +1,45 @@
+{
+  "relation": "rel_75",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "d682ee74e21e912636722e4a6fe2e886045762cde934e062acb34ae4347f3a52",
+  "kind": "declared_before_case_grading",
+  "rationale": "Five explicit residence/live-with/exile-location rows form the largest specific established family; event loss/win provides four actual sporting-participation rows, while get-to is only qualification/destination ambiguity. No union of residence and sports.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:27:28.357Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    8,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_75.before_grading.json",
+  "pregrading_annotation_sha256": "e084b3e23912c4c477cbc3878d76c627c11771a6833ddec9c0cc620a995efc7d"
+}

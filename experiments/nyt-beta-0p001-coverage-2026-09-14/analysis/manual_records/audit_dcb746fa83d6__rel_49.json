@@ -1,0 +1,56 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_49",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_49__ent_247__ent_489",
+        "rel_49__ent_1037__ent_1038",
+        "rel_49__ent_385__ent_142",
+        "rel_49__ent_62__ent_142",
+        "rel_49__ent_1261__ent_1138",
+        "rel_49__ent_449__ent_1263"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local leader, head or president title establishes organizational leadership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_49__ent_130__ent_372"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Two different named union leaders are merged into one inferred person.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Randi Weingarten and Sandra Feldman be separate inferred entities?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "015ac0ea272c33d56e7fbc00c044bfd36c99476a49de98fe151854afe8ba4a91"
+}

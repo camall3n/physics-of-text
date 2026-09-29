@@ -1,0 +1,53 @@
+{
+  "relation": "rel_17",
+  "predicate_id": "located_in",
+  "predicate_version": 1,
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate": {
+    "id": "located_in",
+    "label": "organization based or located in",
+    "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+    "includes": [
+      "based/headquarters/campus/office in",
+      "company/firm/group in a place",
+      "clear company/firm geographic noun modifiers",
+      "historical organizational location"
+    ],
+    "excludes": [
+      "industry/Internet or corporate-family/Bell association",
+      "person birthplace/residence/occupation",
+      "mere event location",
+      "ownership or employment alone"
+    ],
+    "ambiguous": [
+      "nationality adjective alone",
+      "truncated country/place",
+      "Wall Street as place versus industry"
+    ],
+    "notes": "A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+    "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact."
+  },
+  "dictionary_sha256": "93ebb5b277c7ea71928067523074f6724886dbc9cf09dfb38458cdfd60285140",
+  "kind": "declared_before_case_grading",
+  "rationale": "Based-in and firm/headquarters location dominate with organization-to-place roles.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.174Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    8,
+    9
+  ],
+  "competing_meanings": [
+    "consultant work location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_17.before_grading.json",
+  "pregrading_annotation_sha256": "17513085ae30f80e3f9d38c7ed3a72dc9777366dc47931e9c57d440d41d39235"
+}

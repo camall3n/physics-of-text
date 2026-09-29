@@ -1,0 +1,61 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_261",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_261__ent_647__ent_429",
+        "rel_261__ent_680__ent_440",
+        "rel_261__ent_1004__ent_682"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit unqualified move, take or relocate to the geographic destination establishes movement under the inherited travel rule.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_261__ent_1126__ent_897"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Colts-to-Indianapolis movement is merged with unrelated Park Slope-to-Brooklyn location arguments.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Does this latent pair denote the Colts and Indianapolis or Park Slope and Brooklyn?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_261__ent_849__ent_1381"
+      ],
+      "judgment": "incorrect",
+      "reason": "Reaching or playing in the Super Bowl is event participation, not travel to a geographic destination.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [
+    0
+  ],
+  "predicate_declaration_sha256": "4ed9cfb7bdd73330c5e5e746fa53701a506fe156eb64013ae88c7f9268ab9452"
+}

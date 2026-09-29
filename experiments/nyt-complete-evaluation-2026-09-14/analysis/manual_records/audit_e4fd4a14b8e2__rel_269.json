@@ -1,0 +1,234 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_269",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        21,
+        22,
+        23,
+        25,
+        30,
+        32,
+        34,
+        36
+      ],
+      "case_ids": [
+        "rel_269__ent_104__ent_347",
+        "rel_269__ent_131__ent_373",
+        "rel_269__ent_1043__ent_321",
+        "rel_269__ent_136__ent_378",
+        "rel_269__ent_342__ent_584",
+        "rel_269__ent_349__ent_308",
+        "rel_269__ent_136__ent_256",
+        "rel_269__ent_275__ent_561",
+        "rel_269__ent_285__ent_321",
+        "rel_269__ent_288__ent_321",
+        "rel_269__ent_130__ent_372",
+        "rel_269__ent_589__ent_110",
+        "rel_269__ent_346__ent_308",
+        "rel_269__ent_107__ent_561",
+        "rel_269__ent_339__ent_1036",
+        "rel_269__ent_494__ent_333",
+        "rel_269__ent_133__ent_375",
+        "rel_269__ent_67__ent_69",
+        "rel_269__ent_692__ent_211",
+        "rel_269__ent_590__ent_543",
+        "rel_269__ent_255__ent_497",
+        "rel_269__ent_369__ent_126"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit president title links the named person to the institution or jurisdiction; historical and functional offices satisfy the declared scope.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8,
+        9,
+        16,
+        17,
+        18,
+        19,
+        20,
+        26,
+        27,
+        28,
+        29,
+        35
+      ],
+      "case_ids": [
+        "rel_269__ent_277__ent_321",
+        "rel_269__ent_276__ent_561",
+        "rel_269__ent_273__ent_1004",
+        "rel_269__ent_272__ent_321",
+        "rel_269__ent_79__ent_400",
+        "rel_269__ent_286__ent_321",
+        "rel_269__ent_287__ent_289",
+        "rel_269__ent_258__ent_1004",
+        "rel_269__ent_274__ent_308",
+        "rel_269__ent_279__ent_278",
+        "rel_269__ent_282__ent_347",
+        "rel_269__ent_1178__ent_1179"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit manager or general-manager evidence links the person to the named team, satisfying the composite office predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        24,
+        31
+      ],
+      "case_ids": [
+        "rel_269__ent_354__ent_596",
+        "rel_269__ent_111__ent_353"
+      ],
+      "judgment": "incorrect",
+      "reason": "These rows concern one person speaking about or using another person, not holding the specified office in an organization.",
+      "tags": [
+        "wrong_argument_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        33
+      ],
+      "case_ids": [
+        "rel_269__ent_348__ent_1045"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence identifies a director or research affiliation, without president or manager office.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        37
+      ],
+      "case_ids": [
+        "rel_269__ent_31__ent_36"
+      ],
+      "judgment": "incorrect",
+      "reason": "Party leadership is given, without president or manager office.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        38
+      ],
+      "case_ids": [
+        "rel_269__ent_691__ent_690"
+      ],
+      "judgment": "incorrect",
+      "reason": "Running the company is generic leadership; the declared president or manager title is absent.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        39
+      ],
+      "case_ids": [
+        "rel_269__ent_125__ent_367"
+      ],
+      "judgment": "incorrect",
+      "reason": "Dying at a hospital expresses location, not holding an office there.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        40
+      ],
+      "case_ids": [
+        "rel_269__ent_195__ent_1002"
+      ],
+      "judgment": "incorrect",
+      "reason": "The hotel-location phrase supplies no president or manager office in the named place.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    34,
+    35,
+    36
+  ],
+  "broad": [
+    8,
+    9,
+    16,
+    17,
+    18,
+    19,
+    20,
+    26,
+    27,
+    28,
+    29,
+    35
+  ]
+}

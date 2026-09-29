@@ -1,0 +1,69 @@
+{
+  "relation": "rel_304",
+  "label": "defeated opponent",
+  "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+  "scope_notes": "Preserves prior winner-to-opponent scope. Beat, defeat, completed sweep, outscore or victory over qualifies. Playing, facing, standings, losing, trades or transfers alone do not. A historical win remains supported when other rows describe losses; flag the mixed evidence.",
+  "facts": [
+    {
+      "case_id": "rel_304__ent_1313__ent_467",
+      "judgment": "supported",
+      "reason": "Jets explicitly beat Dolphins and have a victory over them.",
+      "evidence_lines": [
+        2632,
+        2635
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_304__ent_1014__ent_1012",
+      "judgment": "supported",
+      "reason": "Seattle Mariners explicitly beat New York Yankees; loss and commentary paths are mixed.",
+      "evidence_lines": [
+        1056
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_304__ent_1013__ent_267",
+      "judgment": "supported",
+      "reason": "Florida Marlins explicitly defeat New York Mets.",
+      "evidence_lines": [
+        1037
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_304__ent_321__ent_1004",
+      "judgment": "supported",
+      "reason": "Mets have a victory over Yankees; the loss row describes another historical result.",
+      "evidence_lines": [
+        914
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_304__ent_1370__ent_557",
+      "judgment": "ambiguous",
+      "reason": "The same first latent entity combines Montreal Expos and San Diego Padres. Both have defeat/beat evidence against Mets, but they are different teams and do not identify one inferred subject.",
+      "evidence_lines": [
+        1047,
+        1048,
+        1059,
+        1060
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Montreal Expos and San Diego Padres be separated, and which team is intended by this latent fact?"
+    }
+  ]
+}

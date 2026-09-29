@@ -1,0 +1,86 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_366",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_366__ent_34__ent_1002",
+        "rel_366__ent_80__ent_820",
+        "rel_366__ent_669__ent_1124",
+        "rel_366__ent_428__ent_537",
+        "rel_366__ent_1122__ent_537",
+        "rel_366__ent_195__ent_1002",
+        "rel_366__ent_669__ent_989"
+      ],
+      "judgment": "supported",
+      "reason": "A direct come/go/arrive/visit or leave-for path asserts movement to the geographic destination.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_366__ent_1125__ent_843"
+      ],
+      "judgment": "incorrect",
+      "reason": "The Olympics is an event whose proposed hosting location changes, not a person/group/organization undertaking physical travel.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_366__ent_1123__ent_427"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Come/go/return to Broadway may mean entering theatrical performance rather than movement to the street as a geographic destination.",
+      "tags": [
+        "place_institution_metonymy"
+      ],
+      "question": "Do these Broadway paths assert physical travel, or theatrical participation?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_366__ent_667__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Come/immigrate paths suggest movement, but Born is a malformed or incomplete source argument rather than an identified traveler.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who or which population does the argument Born identify?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "13a6f502b6ee9fbdbb5cdda061ac21115d2299d454a132877e23ba65d907f83f"
+}

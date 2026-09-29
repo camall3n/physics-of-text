@@ -1,0 +1,96 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_234",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_234__ent_162__ent_1308",
+        "rel_234__ent_17__ent_586",
+        "rel_234__ent_1031__ent_1390",
+        "rel_234__ent_577__ent_1308",
+        "rel_234__ent_1015__ent_1415"
+      ],
+      "judgment": "supported",
+      "reason": "Direct spokesman identification establishes representation of the named principal.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_234__ent_251__ent_1415"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A spokesman path is present, but John F. Kennedy and Patrick J. Buchanan are merged in one latent first argument.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which person does the latent spokesperson argument denote?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_234__ent_1002__ent_1231"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Washington appears in the person slot of a spokesman title, leaving a dateline or omitted person unresolved.",
+      "tags": [
+        "dateline_person"
+      ],
+      "question": "Which actual spokesperson is represented by the extracted Washington argument?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_234__ent_290__ent_724"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Representative alone does not resolve whether Akashi acted as spokesperson rather than a different institutional representative.",
+      "tags": [
+        "representative_role"
+      ],
+      "question": "Does the representative title here entail speaking for the United Nations?"
+    },
+    {
+      "indices": [
+        6,
+        9
+      ],
+      "case_ids": [
+        "rel_234__ent_119__ent_1439",
+        "rel_234__ent_752__ent_54"
+      ],
+      "judgment": "incorrect",
+      "reason": "Accusing an opponent or winning an event does not establish spokesperson service.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [
+    1
+  ],
+  "predicate_declaration_sha256": "865a484b1da1ba656b2c16361e452be2ebb2554be1c728eb4a1e0e0aee505a69"
+}

@@ -1,0 +1,137 @@
+{
+  "relation": "rel_249",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_249__ent_562__ent_1002",
+      "judgment": "ambiguous",
+      "reason": "Mr. Smith → Washington: Movement, live-in and allegation rows share Mr Smith with play/performance-linked movement, leaving identity and a possible title reading materially unresolved.",
+      "evidence_lines": [
+        3407,
+        3408,
+        3410,
+        3411,
+        3413,
+        3414,
+        3415,
+        3416
+      ],
+      "issue_tags": [
+        "identity_collision",
+        "metonymy",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Which Mr Smith is intended, and which go/return rows assert a literal journey rather than a theatrical or film reference?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.563Z"
+      }
+    },
+    {
+      "case_id": "rel_249__ent_182__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: Unqualified return-to evidence establishes travel to the named city, stadium or territory.",
+      "evidence_lines": [
+        4094,
+        4099,
+        5236,
+        5241,
+        7341,
+        7346
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.563Z"
+      }
+    },
+    {
+      "case_id": "rel_249__ent_189__ent_1002",
+      "judgment": "supported",
+      "reason": "Congress → Washington: Unqualified return-to evidence establishes travel to the named city, stadium or territory.",
+      "evidence_lines": [
+        5176,
+        5179,
+        5182,
+        5184
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.563Z"
+      }
+    },
+    {
+      "case_id": "rel_249__ent_321__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: Unqualified return-to evidence establishes travel to the named city, stadium or territory.",
+      "evidence_lines": [
+        5207,
+        5209,
+        5211,
+        5213
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.563Z"
+      }
+    },
+    {
+      "case_id": "rel_249__ent_131__ent_373",
+      "judgment": "incorrect",
+      "reason": "Gerry Adams → Sinn Fein: President-of an institutional arm is an office relation, not physical travel.",
+      "evidence_lines": [
+        33,
+        2920,
+        4992
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.563Z"
+      }
+    },
+    {
+      "case_id": "rel_249__ent_692__ent_211",
+      "judgment": "supported",
+      "reason": "Aristide → Haiti: Unqualified return-to evidence establishes travel to the named city, stadium or territory.",
+      "evidence_lines": [
+        5258
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.563Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "888b992cdd4ccc47f33a0f327e423f9eb003b001844f0ef5edea0342701454f0"
+}

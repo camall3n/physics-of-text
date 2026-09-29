@@ -1,0 +1,217 @@
+{
+  "relation": "rel_204",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_204__ent_900__ent_399",
+      "judgment": "ambiguous",
+      "reason": "Andrew Zimbalist → Smith College: The available financial role is economist rather than explicit analyst, at the inherited nearby-role boundary; the latter fact also merges unrelated person/principal names.",
+      "evidence_lines": [
+        313,
+        318,
+        319,
+        320
+      ],
+      "issue_tags": [
+        "analyst_role_boundary",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the economist role include the analyst work required by the frozen predicate, and are the inferred entities correctly separated?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_524__ent_766",
+      "judgment": "supported",
+      "reason": "Donald J. Fine → Chase Manhattan Bank: A local analyst title explicitly identifies the professional employer affiliation.",
+      "evidence_lines": [
+        558,
+        559,
+        561,
+        562
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.403Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: A local analyst title explicitly identifies the professional employer affiliation.",
+      "evidence_lines": [
+        564,
+        567,
+        7828,
+        7832
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_1100__ent_163",
+      "judgment": "incorrect",
+      "reason": "Fred Siegel → Cooper Union: Historian, president or a meeting does not establish analyst employment.",
+      "evidence_lines": [
+        346,
+        350,
+        353
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_541__ent_783",
+      "judgment": "supported",
+      "reason": "Tom Wolzien → Sanford C. Bernstein & Company: A local analyst title explicitly identifies the professional employer affiliation.",
+      "evidence_lines": [
+        599,
+        601,
+        602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_791__ent_310",
+      "judgment": "ambiguous",
+      "reason": "William V. Sullivan Jr. → Witter Reynolds; George Stephanopoulos → White House: The available financial role is economist rather than explicit analyst, at the inherited nearby-role boundary; the latter fact also merges unrelated person/principal names.",
+      "evidence_lines": [
+        715,
+        717,
+        8452
+      ],
+      "issue_tags": [
+        "analyst_role_boundary",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the economist role include the analyst work required by the frozen predicate, and are the inferred entities correctly separated?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_973__ent_496",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: A local analyst title explicitly identifies the professional employer affiliation.",
+      "evidence_lines": [
+        7814,
+        7816,
+        7818
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_336__ent_186",
+      "judgment": "incorrect",
+      "reason": "Al O'Leary → New York City Transit: Historian, president or a meeting does not establish analyst employment.",
+      "evidence_lines": [
+        403
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_926__ent_793",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: A local analyst title explicitly identifies the professional employer affiliation.",
+      "evidence_lines": [
+        1830
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_549__ent_861",
+      "judgment": "supported",
+      "reason": "Scott Merlis → Morgan Stanley & Company: A local analyst title explicitly identifies the professional employer affiliation.",
+      "evidence_lines": [
+        7852
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_1338__ent_1415",
+      "judgment": "incorrect",
+      "reason": "Congress → White House: Historian, president or a meeting does not establish analyst employment.",
+      "evidence_lines": [
+        7949
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:47.404Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "40549462beb4e760e9fc1ebeaa14a3360c18943f26d9fa320badfb3631bac9ed"
+}

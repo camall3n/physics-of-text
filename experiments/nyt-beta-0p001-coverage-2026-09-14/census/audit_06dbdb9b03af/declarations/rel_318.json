@@ -1,0 +1,44 @@
+{
+  "relation": "rel_318",
+  "predicate_id": "chairperson_of",
+  "predicate_version": 1,
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate": {
+    "id": "chairperson_of",
+    "label": "chairperson of",
+    "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+    "includes": [
+      "explicit chair/chairman/chairwoman/chairperson",
+      "co-chair if explicit",
+      "past tenure or resignation from that office"
+    ],
+    "excludes": [
+      "president/head/executive/director alone",
+      "founder/owner/member alone",
+      "nomination/candidacy alone"
+    ],
+    "ambiguous": [
+      "ambiguous successor or appointment that does not establish tenure",
+      "chair of an omitted subunit"
+    ],
+    "notes": "Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+    "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better."
+  },
+  "dictionary_sha256": "58036f271ad9ec7b6d6d13c9e54d9e7fe6db339321b71aa7c3828fb2709bc5af",
+  "kind": "declared_before_case_grading",
+  "rationale": "Chairman title5 and succeeded-as-chairman5 dominate the specific office family.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:15:27.393Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_318.before_grading.json",
+  "pregrading_annotation_sha256": "149243e8fdd133a4ad99402e16249d8d30bc6dc9dfe8c44faf6ecb02a69b30a8"
+}

@@ -1,0 +1,49 @@
+{
+  "relation": "rel_81",
+  "predicate_id": "present_in",
+  "predicate_version": 1,
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate": {
+    "id": "present_in",
+    "label": "physically present in place",
+    "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+    "includes": [
+      "explicit unqualified physical be-in or presence",
+      "a direct residence or physical location statement",
+      "a completed arrival, visit, or departure that establishes presence in Y"
+    ],
+    "excludes": [
+      "membership in an organization",
+      "participation or victory in a nongeographic event",
+      "political office or control alone",
+      "discussion, publication, or other abstract presence",
+      "a destination without evidence of realized movement or presence"
+    ],
+    "ambiguous": [
+      "place-versus-institution metonymy",
+      "an incomplete geographic argument",
+      "uncertain attachment or explicit hypothetical presence"
+    ],
+    "notes": "Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+    "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation."
+  },
+  "dictionary_sha256": "4e12987b32fca93ee6f738f57f9f8ea02e41e81341e5e606b7be6f307359f1ae",
+  "kind": "declared_before_case_grading",
+  "rationale": "In-country/region population and fleeing-location family defines physical presence; political attack or spokesperson office alone not presence.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:28:24.931Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    4,
+    5,
+    6,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_81.before_grading.json",
+  "pregrading_annotation_sha256": "682c29d93464264a50ca1b0d90fb43ad6f6bcc5bc5a7d50303b5d0b91d97ca52"
+}

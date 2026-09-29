@@ -1,0 +1,55 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_138",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_138__ent_799__ent_1012"
+      ],
+      "judgment": "supported",
+      "reason": "Suffering at the opposing team hands alongside loss discussion establishes competitive opposition.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_138__ent_1014__ent_1012"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The loss is attached to discussion to the other team, while season-ending and comments do not unambiguously connect the teams as opponents in a realized contest.",
+      "tags": [
+        "attachment",
+        "event_occurrence"
+      ],
+      "question": "Does the full sentence say the Mariners lost to or played the Yankees, rather than discussing losses with or about them?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_138__ent_1093__ent_1094"
+      ],
+      "judgment": "incorrect",
+      "reason": "A coaching role and system at Notre Dame do not establish competition against the institution.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "d65998c4357871692569f498821d9cd88c7f9ff74dc1d3c7763ee529533d108d"
+}

@@ -1,0 +1,57 @@
+{
+  "relation": "rel_300",
+  "predicate_id": "organization_operates_in_domain",
+  "predicate_version": 1,
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate": {
+    "id": "organization_operates_in_domain",
+    "label": "organization operates in industry or domain",
+    "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+    "includes": [
+      "explicit industry or domain modifier of company, agency, or business",
+      "stated operations or business activity in Y",
+      "historical business-domain identity"
+    ],
+    "excludes": [
+      "nationality or geographic location",
+      "corporate parent or corporate family name",
+      "a passing reference to users, data, or an unrelated product without business-domain evidence",
+      "a person working in a field"
+    ],
+    "ambiguous": [
+      "a nominal modifier that could mean owner, place, or industry",
+      "unclear organization versus personal referent",
+      "generic Internet mention without a business-domain role"
+    ],
+    "notes": "A business-field classification, not geographic location and not a generic association with the domain.",
+    "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain."
+  },
+  "dictionary_sha256": "57c235e668392d1448580c17bbedc0828c839a7d57993acf14f15c71c84375ee",
+  "kind": "declared_before_case_grading",
+  "rationale": "Full rows disambiguate generic company-nn modifiers: the largest coherent family describes Internet business/advertising/research firms. Bell corporate-family, German nationality and New York geography are separate competing meanings.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.497Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    9,
+    10,
+    11,
+    13,
+    14,
+    18,
+    19
+  ],
+  "competing_meanings": [
+    "corporate family",
+    "national affiliation",
+    "geographic location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_300.before_grading.json",
+  "pregrading_annotation_sha256": "c763cf1ec5f11c5c32c534b720cb36a2487ec7c87812d004b904e55471fa36fb"
+}

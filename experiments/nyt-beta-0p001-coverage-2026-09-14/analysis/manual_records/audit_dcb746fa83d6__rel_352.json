@@ -1,0 +1,71 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_352",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        8
+      ],
+      "case_ids": [
+        "rel_352__ent_111__ent_1040",
+        "rel_352__ent_182__ent_1343",
+        "rel_352__ent_182__ent_316",
+        "rel_352__ent_1300__ent_114",
+        "rel_352__ent_765__ent_595",
+        "rel_352__ent_732__ent_816"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_352__ent_182__ent_355"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Statements about Gorbachev and Hussein are merged into one incompatible inferred target.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which named target should the inferred entity represent?"
+    },
+    {
+      "indices": [
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_352__ent_1029__ent_1246",
+        "rel_352__ent_494__ent_165"
+      ],
+      "judgment": "incorrect",
+      "reason": "Omitted-object giving, information removal or membership does not establish a statement about this entity.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "42c2d20e55b87d5270ae849e89fbb0a1ad5fa7af8f3f1844fb290f0f881c4d4a"
+}

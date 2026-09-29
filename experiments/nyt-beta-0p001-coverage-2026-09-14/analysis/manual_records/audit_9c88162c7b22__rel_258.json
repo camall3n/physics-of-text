@@ -1,0 +1,63 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_258",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_258__ent_80__ent_820",
+        "rel_258__ent_1162__ent_226",
+        "rel_258__ent_200__ent_442",
+        "rel_258__ent_441__ent_683"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit move, emigrate or relocate-to evidence establishes destination movement under the unqualified textual-movement rule.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_258__ent_667__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The extracted subject is the isolated word Born, which may be a participle rather than the moving person's name.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Who is the emigrating or moving subject represented by Born?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_258__ent_548__ent_1003"
+      ],
+      "judgment": "incorrect",
+      "reason": "Being based in New Brunswick supplies location, not movement to it.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9d3d40a9d5a059014ac37b6d8d0eee3b46e4e336a85c0e61e021d623dad31878"
+}

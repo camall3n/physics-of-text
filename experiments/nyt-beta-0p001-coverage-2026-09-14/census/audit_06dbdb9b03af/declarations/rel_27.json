@@ -1,0 +1,49 @@
+{
+  "relation": "rel_27",
+  "predicate_id": "winner_of",
+  "predicate_version": 1,
+  "predicate_hash": "27c87005f27fe8d1242ee460f57371d2135761abb8317fa0b9de8f25c5b5581f",
+  "predicate": {
+    "id": "winner_of",
+    "label": "winner or champion of",
+    "definition": "Entity X won the award or competition designated by Y, or held an explicitly Y-designated championship title.",
+    "includes": [
+      "explicit win/winner/champion of event or award",
+      "sporting titles and honor awards such as Nobel Peace Prize",
+      "explicit championship/title designated by a sanctioning body or Olympic designation",
+      "historical victory"
+    ],
+    "excludes": [
+      "participation or reaching the event",
+      "single stage/game victory without the overall title",
+      "winning political office/control of a body",
+      "location or ordinary membership"
+    ],
+    "ambiguous": [
+      "unclear title/event attachment",
+      "medal without a clear winning title or award scope"
+    ],
+    "notes": "A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning.",
+    "scope_notes": "Includes: explicit win/winner/champion of event or award; sporting titles and honor awards such as Nobel Peace Prize; explicit championship/title designated by a sanctioning body or Olympic designation; historical victory. Excludes: participation or reaching the event; single stage/game victory without the overall title; winning political office/control of a body; location or ordinary membership. Ambiguous unless resolved by case-local evidence: unclear title/event attachment; medal without a clear winning title or award scope. A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning."
+  },
+  "dictionary_sha256": "b19d2c54be24836b975bcb34b4ad09284ec6026e9327d2f19eed7c4549b6f418",
+  "kind": "declared_before_case_grading",
+  "rationale": "All paths describe winning or being awarded sporting championships or an honor award; inherited winner_of explicitly includes both kinds of award.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:32:24.133Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_27.before_grading.json",
+  "pregrading_annotation_sha256": "24aedf49eabfa8e00010133b8f53e5914dd3f0b50062958f7fca76b2d0106c4a"
+}

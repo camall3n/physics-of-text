@@ -1,0 +1,67 @@
+[
+  {
+    "name": "before_javascript_tests",
+    "command": [
+      "node",
+      "--test",
+      "experiments/nyt-precision-investigation-2026-09-12/tests/manual_report.test.mjs",
+      "experiments/nyt-precision-investigation-2026-09-12/tests/manual_sampling.test.mjs",
+      "experiments/nyt-latent-low-smoothing-2026-09-14/tests/manual_report.test.mjs",
+      "experiments/nyt-latent-low-smoothing-2026-09-14/tests/manual_sampling.test.mjs",
+      "experiments/nyt-complete-evaluation-2026-09-14/tests/census.test.mjs",
+      "experiments/nyt-complete-evaluation-2026-09-14/tests/maintenance.test.mjs",
+      "experiments/nyt-complete-evaluation-2026-09-14/tests/prior_comparisons.test.mjs",
+      "experiments/nyt-beta-0p001-coverage-2026-09-14/tests/coverage.test.mjs",
+      "experiments/nyt-beta-0p001-coverage-2026-09-14/tests/semantic_consistency.test.mjs"
+    ],
+    "exit_code": 0,
+    "log": "before_javascript_tests.log",
+    "last_lines": [
+      "\u2714 all MAP rows belong to exactly one expressed ordered fact (29.189917ms)",
+      "\u2714 selects every small stratum and exactly five cases from larger strata (1.85775ms)",
+      "\u2714 sampling is deterministic and ranking uses only registered hashes (1.686542ms)",
+      "\u2714 stratum weights recover micro precision, not equal allocation average (1.063958ms)",
+      "\u2714 relation rank ties use numeric IDs; entity pair order is retained (0.343833ms)",
+      "\u2714 ambiguous or malformed source input cannot silently change columns (1.842375ms)",
+      "\u2139 tests 95",
+      "\u2139 suites 0",
+      "\u2139 pass 95",
+      "\u2139 fail 0",
+      "\u2139 cancelled 0",
+      "\u2139 skipped 0",
+      "\u2139 todo 0",
+      "\u2139 duration_ms 716.796458"
+    ]
+  },
+  {
+    "name": "before_figure1_tests",
+    "command": [
+      "/Users/michal/repos/physics-of-text/.venv/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "resources/sampler-140626/scripts",
+      "-p",
+      "test_figure1_self_pairs.py"
+    ],
+    "exit_code": 0,
+    "log": "before_figure1_tests.log",
+    "last_lines": [
+      "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'",
+      "  parse = parser.parseString(pattern)",
+      "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'",
+      "  parser.resetCache()",
+      "Matplotlib is building the font cache; this may take a moment.",
+      "/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'",
+      "  ParserElement.enablePackrat()",
+      "In /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'",
+      "In /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'",
+      "............",
+      "----------------------------------------------------------------------",
+      "Ran 12 tests in 17.241s",
+      "",
+      "OK"
+    ]
+  }
+]

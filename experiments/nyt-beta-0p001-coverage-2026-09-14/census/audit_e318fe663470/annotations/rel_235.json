@@ -1,0 +1,280 @@
+{
+  "relation": "rel_235",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_235__ent_1340__ent_561",
+      "judgment": "supported",
+      "reason": "Eagles → Giants: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        925,
+        926,
+        927,
+        928,
+        929,
+        930
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.426Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_1004__ent_1270",
+      "judgment": "ambiguous",
+      "reason": "Yankees → Mets; Yankees → Florida Marlins: Victories/losses merge Mets and Florida Marlins as one inferred opponent.",
+      "evidence_lines": [
+        903,
+        905,
+        2593,
+        2595,
+        6956
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which opponent should this fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_888__ent_333",
+      "judgment": "ambiguous",
+      "reason": "John → Manhattan: John-to-Manhattan play/loss rows conflict with obituary/place context; the participant and opponent identities cannot be recovered locally.",
+      "evidence_lines": [
+        3967,
+        3969,
+        3970,
+        3972
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Manhattan denote a sports opponent or a place, and which John is meant?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_817__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        886,
+        2586,
+        6902
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_561__ent_560",
+      "judgment": "supported",
+      "reason": "Giants → Redskins: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        892,
+        894,
+        898
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_462__ent_543",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        932,
+        935,
+        936
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_1044__ent_320",
+      "judgment": "supported",
+      "reason": "Giants → Cowboys: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        952,
+        954,
+        955
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_321__ent_1084",
+      "judgment": "supported",
+      "reason": "Mets → Phillies: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        6907,
+        6910,
+        6911
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_308__ent_1005",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        877,
+        6047
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_1282__ent_647",
+      "judgment": "supported",
+      "reason": "Mets → Dodgers: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        6917,
+        6920
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_157__ent_1085",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Al Gore: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        6941,
+        6944
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_446__ent_557",
+      "judgment": "ambiguous",
+      "reason": "San Diego Padres → New York Mets: The isolated face row may describe a scheduled contest rather than a completed encounter.",
+      "evidence_lines": [
+        1061
+      ],
+      "issue_tags": [
+        "temporal_scope"
+      ],
+      "reviewer_question": "Did this encounter occur?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_561__ent_400",
+      "judgment": "supported",
+      "reason": "Giants → Jets: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        2624
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    },
+    {
+      "case_id": "rel_235__ent_1270__ent_998",
+      "judgment": "supported",
+      "reason": "Mets → Cubs: A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "evidence_lines": [
+        6957
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.427Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "adf684e593cd70de30c75d3bf6fbfb6f8a5c3dd6e320162e844820e526cbc05b"
+}

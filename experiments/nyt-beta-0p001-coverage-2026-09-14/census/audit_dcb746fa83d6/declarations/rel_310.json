@@ -1,0 +1,50 @@
+{
+  "relation": "rel_310",
+  "predicate_id": "manager_of",
+  "predicate_version": 1,
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate": {
+    "id": "manager_of",
+    "label": "manager of institution",
+    "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+    "includes": [
+      "explicit manager or general manager",
+      "a functional or departmental managerial office within Y",
+      "historical managerial office"
+    ],
+    "excludes": [
+      "president, director, head, executive, or coach alone without a manager title",
+      "ordinary employment or membership",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "a personal principal standing for an omitted institution or campaign",
+      "unclear manager or institutional attachment",
+      "appointment without established tenure"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+    "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title."
+  },
+  "dictionary_sha256": "1911bf425fd3dcb272838c838b9770e2910e8e6c0615f237df784376c6a917ae",
+  "kind": "declared_before_case_grading",
+  "rationale": "Manager titles dominate over coach and ordinary player/employment paths. Being fired alone requires local title context.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.747Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    9,
+    10
+  ],
+  "competing_meanings": [
+    "coach",
+    "athlete",
+    "corporate location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_310.before_grading.json",
+  "pregrading_annotation_sha256": "cd6e5dd672dba066df4fba783c2ed9b29e59b88ae6c604f6664c47dd26e2beb7"
+}

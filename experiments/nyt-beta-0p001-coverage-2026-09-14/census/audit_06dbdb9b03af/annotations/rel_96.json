@@ -1,0 +1,89 @@
+{
+  "relation": "rel_96",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_96__ent_910__ent_586",
+      "judgment": "supported",
+      "reason": "Patrick J. Buchanan → White House: An explicit communications-director title establishes a functional directorship in the White House.",
+      "evidence_lines": [
+        8484,
+        8485,
+        8486,
+        8488,
+        8490,
+        8491,
+        8492
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:22.946Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_261__ent_263",
+      "judgment": "incorrect",
+      "reason": "Bob Dole → Republican: Political nomination, sporting-event win or corporate subsidiary status does not establish a person directorship.",
+      "evidence_lines": [
+        2987,
+        2992,
+        3711,
+        3716
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:22.947Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_600__ent_836",
+      "judgment": "incorrect",
+      "reason": "Cubs → World Series: Political nomination, sporting-event win or corporate subsidiary status does not establish a person directorship.",
+      "evidence_lines": [
+        2276,
+        7773
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:22.947Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_1128__ent_1129",
+      "judgment": "incorrect",
+      "reason": "J. Walter Thompson → WPP Group: Political nomination, sporting-event win or corporate subsidiary status does not establish a person directorship.",
+      "evidence_lines": [
+        4587,
+        6689
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:22.947Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ab9fc842b6355e8cc215c7b207cf1e4d27a7d863c9eb4919da754d4ab9ec277f"
+}

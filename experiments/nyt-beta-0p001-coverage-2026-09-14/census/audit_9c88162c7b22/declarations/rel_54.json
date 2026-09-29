@@ -1,0 +1,53 @@
+{
+  "relation": "rel_54",
+  "predicate_id": "subsidiary_of",
+  "predicate_version": 1,
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate": {
+    "id": "subsidiary_of",
+    "label": "subsidiary or organizational unit of",
+    "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+    "includes": [
+      "explicit subsidiary/unit/division/organizational-part",
+      "corporate owned-by or an explicit parent relationship in the child-to-parent direction",
+      "historical containment or ownership"
+    ],
+    "excludes": [
+      "employment",
+      "geographic containment",
+      "ordinary affiliation",
+      "reverse parent-to-child direction",
+      "a proposed acquisition"
+    ],
+    "ambiguous": [
+      "city standing for an unnamed office",
+      "minority investment alone without evidence of organizational containment",
+      "incomplete ownership attachment"
+    ],
+    "notes": "Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+    "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part."
+  },
+  "dictionary_sha256": "f8932378df41905dac2dec958924449902271d91acee88c79e47bc4dd44734f4",
+  "kind": "declared_before_case_grading",
+  "rationale": "Office/agency part-of-parent paths dominate and the principal literal pairs are organizations. Sports shock and inverse political office are distinct minorities.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.879Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_54.before_grading.json",
+  "pregrading_annotation_sha256": "0666843aa30b84b715190c8c3e9c77bc3e0ba1fe188cb81e2f03eea2d5e4390b"
+}

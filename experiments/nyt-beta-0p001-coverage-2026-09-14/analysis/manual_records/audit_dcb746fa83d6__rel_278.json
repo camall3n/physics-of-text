@@ -1,0 +1,78 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_278",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_278__ent_643__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Son/brother-of-city apposition could encode obituary residence, but attachment is unresolved and the inferred person also combines Arthur I. Weinstein with Robert.",
+      "tags": [
+        "relative_attachment",
+        "entity_collision"
+      ],
+      "question": "Which relative is described as living in Manhattan, and should Weinstein be separated from Robert?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_278__ent_888__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Son/brother-of-city apposition could encode residence, but the inferred subject also combines Addresses with John.",
+      "tags": [
+        "relative_attachment",
+        "entity_collision"
+      ],
+      "question": "Does the obituary place attach to John, and what entity does Addresses denote?"
+    },
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_278__ent_404__ent_333",
+        "rel_278__ent_1100__ent_333",
+        "rel_278__ent_887__ent_333",
+        "rel_278__ent_885__ent_333",
+        "rel_278__ent_646__ent_165",
+        "rel_278__ent_406__ent_333",
+        "rel_278__ent_403__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The complete evidence provides obituary son/brother-of-city apposition or relative attachment, with no direct residence assertion for this named person; work, birth or venue rows do not resolve it.",
+      "tags": [
+        "relative_attachment"
+      ],
+      "question": "Does Manhattan modify this named relative as a resident, rather than another relative or an unrelated location?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0bf1ff9eb23510972925f00949fec3ef2641ce4adead17795cc7f17b2421747a"
+}

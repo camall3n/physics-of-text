@@ -1,0 +1,47 @@
+{
+  "relation": "rel_79",
+  "predicate_id": "defeated",
+  "predicate_version": 1,
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate": {
+    "id": "defeated",
+    "label": "defeated opponent",
+    "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+    "includes": [
+      "beat/defeat/trounce/rout/upset/victory over",
+      "completed sporting sweep/outlast/elimination",
+      "explicit electoral defeat of an opposing competitor",
+      "historical win despite losses in other games"
+    ],
+    "excludes": [
+      "mere play/face/rivalry",
+      "standings or polling lead",
+      "losing to Y",
+      "winning an event rather than beating Y",
+      "political control or hostility alone"
+    ],
+    "ambiguous": [
+      "bare outscore/surpass/shock without a completed-contest result",
+      "score margin for only one period",
+      "unclear geographic/team metonymy"
+    ],
+    "notes": "Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+    "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat."
+  },
+  "dictionary_sha256": "42f067e23072c5de4c417941d8edf723ae947c4c729b31b1636f3dea99f01be5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Outscore3/rout1 defines sporting outcome family; host, rebound and trails do not automatically establish a completed win.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.255Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_79.before_grading.json",
+  "pregrading_annotation_sha256": "9578a709c2b71e6fe48a466ab176983b46e11cdbd16f7faa1ed295f1e5eb721d"
+}

@@ -1,0 +1,59 @@
+{
+  "relation": "rel_303",
+  "predicate_id": "editor_of",
+  "predicate_version": 1,
+  "predicate_hash": "e74cae9f1b8345e6a76881e76791028fdfe263683ba17af0497b102f7fa758f4",
+  "predicate": {
+    "id": "editor_of",
+    "label": "editor of publication",
+    "definition": "Person X serves or served as an editor of, for, or at publication Y.",
+    "includes": [
+      "explicit editor or editor-in-chief",
+      "section or departmental editor within a publication",
+      "explicitly editing publication Y",
+      "historical editorial office"
+    ],
+    "excludes": [
+      "publisher, director, owner, or author alone",
+      "ordinary writing or contribution without editorial role",
+      "merely being quoted or discussed in the publication"
+    ],
+    "ambiguous": [
+      "an incomplete publication argument",
+      "editor title attaching to someone other than X",
+      "editing a work versus holding the publication's editorial role when unclear"
+    ],
+    "notes": "Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication.",
+    "scope_notes": "Includes: explicit editor or editor-in-chief; section or departmental editor within a publication; explicitly editing publication Y; historical editorial office. Excludes: publisher, director, owner, or author alone; ordinary writing or contribution without editorial role; merely being quoted or discussed in the publication. Ambiguous unless resolved by case-local evidence: an incomplete publication argument; editor title attaching to someone other than X; editing a work versus holding the publication's editorial role when unclear. Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication."
+  },
+  "dictionary_sha256": "2423413f9d4f63dbacee162f14097f61c775c4bf12ee793f1c3b884caf249dcd",
+  "kind": "declared_before_case_grading",
+  "rationale": "Editor/edit variants dominate with named publications. Publisher and ordinary author/colleague paths are separate meanings.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.391Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    11,
+    12,
+    13,
+    16,
+    17
+  ],
+  "competing_meanings": [
+    "publisher",
+    "author",
+    "colleague"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_303.before_grading.json",
+  "pregrading_annotation_sha256": "ae6dfdd47027c730dd362bc41d1118f0e100f1efe086049595822cc110f5aace"
+}

@@ -1,0 +1,40 @@
+{
+  "relation": "rel_8",
+  "predicate_id": "lawyer_for",
+  "predicate_version": 1,
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate": {
+    "id": "lawyer_for",
+    "label": "lawyer or attorney for",
+    "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+    "includes": [
+      "explicit lawyer/attorney/counsel for/at/with client or employer",
+      "legal employment at a firm",
+      "explicit governmental attorney office for a jurisdiction"
+    ],
+    "excludes": [
+      "private lawyer merely located in a city",
+      "spokesperson/director/lobbyist alone",
+      "reverse client-to-lawyer direction"
+    ],
+    "ambiguous": [
+      "city as location versus represented jurisdiction",
+      "firm partner without a clear legal-role attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment."
+  },
+  "dictionary_sha256": "b4fab33235515225ba8b7e1449fcb0ac6ffd0484827b0f7f87cce3d2469cee55",
+  "kind": "declared_before_case_grading",
+  "rationale": "Attorney and lawyer nominal/of/for paths dominate. City-modifying attorney requires distinguishing public office from private practice location.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:58.186Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_8.before_grading.json",
+  "pregrading_annotation_sha256": "0f2180998d80d74e4e9c330eeaaf0e6eb5fa29bf2abedee8e353824e355e49b2"
+}

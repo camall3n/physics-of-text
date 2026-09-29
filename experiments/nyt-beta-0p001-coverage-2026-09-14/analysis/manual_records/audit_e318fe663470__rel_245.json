@@ -1,0 +1,59 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_245",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_245__ent_339__ent_1036",
+        "rel_245__ent_582__ent_101"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit president or established executive office identifies managerial responsibility.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_245__ent_285__ent_321"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Managerial evidence for Frank Cashen is merged with Steve Phillips in one inferred person.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which Mets manager should this fact identify?"
+    },
+    {
+      "indices": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_245__ent_945__ent_702",
+        "rel_245__ent_198__ent_458"
+      ],
+      "judgment": "incorrect",
+      "reason": "Coaching/team play or corporate ownership alone does not establish the declared managerial-office relation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "76dc4444f429276f6fde4352c17cc5e2cf8743d102e511828948fd16215fa15f"
+}

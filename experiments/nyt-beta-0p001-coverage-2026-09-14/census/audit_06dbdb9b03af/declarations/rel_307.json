@@ -1,0 +1,50 @@
+{
+  "relation": "rel_307",
+  "predicate_id": "has_wife",
+  "predicate_version": 1,
+  "predicate_hash": "de64fa948c10501258b239ea8f83b784ab79b79aa658fa235fcb1b9edb41a40d",
+  "predicate": {
+    "id": "has_wife",
+    "label": "has or had wife",
+    "definition": "Person X is or was married to woman Y identified as X's wife.",
+    "includes": [
+      "explicit wife or spouse identified as wife",
+      "wife apposition or accompanied-by-wife attachment establishing the couple",
+      "historical or former wife"
+    ],
+    "excludes": [
+      "daughter or other relative",
+      "ordinary companion or accompaniment without a wife relationship",
+      "a fictional or proposed marriage unless actual marital status is stated"
+    ],
+    "ambiguous": [
+      "unclear whose wife Y is",
+      "wife versus other companion attachment unresolved",
+      "engagement without established marriage"
+    ],
+    "notes": "The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+    "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship."
+  },
+  "dictionary_sha256": "867fdf40eb1fd9dc75405063535f819d7af83d0dd9868ffe898bdf2ae5bfa447",
+  "kind": "declared_before_case_grading",
+  "rationale": "Possessive wife/widow paths dominate spouse identity; marriage to third parties not automatically support.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.106Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_307.before_grading.json",
+  "pregrading_annotation_sha256": "e990382d24556c6e80dfac2d3618347f96fb0e725b4943068112d08c1068af52"
+}

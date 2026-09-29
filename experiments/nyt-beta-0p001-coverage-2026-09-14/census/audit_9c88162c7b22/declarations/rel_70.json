@@ -1,0 +1,47 @@
+{
+  "relation": "rel_70",
+  "predicate_id": "has_member",
+  "predicate_version": 1,
+  "predicate_hash": "e06c2b4086768dca86ee7554ab8de61a903529610ffb5a9e45977f36ffeb0d6a",
+  "predicate": {
+    "id": "has_member",
+    "label": "has member",
+    "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+    "includes": [
+      "explicit membership or being included as a group member",
+      "a clearly established office or athlete role that entails membership of the stated group",
+      "historical membership"
+    ],
+    "excludes": [
+      "corporate subsidiary ownership without membership in an explicitly identified group",
+      "a geographic area containing a place",
+      "ordinary accompaniment or a meeting",
+      "planned membership without established admission"
+    ],
+    "ambiguous": [
+      "generic include or join without group-membership context",
+      "unclear group versus geographic or corporate containment",
+      "proposed admission or unresolved member identity"
+    ],
+    "notes": "Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+    "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient."
+  },
+  "dictionary_sha256": "2af0c3062d90c2304fcafee57381e5bdd99a9d7ccaaf4f68d1c0684e415d61e4",
+  "kind": "declared_before_case_grading",
+  "rationale": "Ordered-role inspection identifies mainly political groups/teams including named people; select inverse membership, not general containment of people, places and relatives in one catchall.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.837Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    6,
+    13
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_70.before_grading.json",
+  "pregrading_annotation_sha256": "d07efd3348fdb7506d6b076861fd5066c36b8e648ab1d44cd4b47ba6b9a10e42"
+}

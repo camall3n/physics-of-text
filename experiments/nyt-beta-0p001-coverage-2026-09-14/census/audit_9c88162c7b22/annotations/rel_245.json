@@ -1,0 +1,97 @@
+{
+  "relation": "rel_245",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_245__ent_669__ent_1124",
+      "judgment": "supported",
+      "reason": "Americans → Europe: Explicit visiting or traveling to the place establishes destination movement.",
+      "evidence_lines": [
+        4750,
+        4751,
+        4753,
+        4757,
+        4758,
+        4759
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.744Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_34__ent_1002",
+      "judgment": "supported",
+      "reason": "Mikhail S. Gorbachev → Washington: Explicit visiting or traveling to the place establishes destination movement.",
+      "evidence_lines": [
+        4734,
+        4736,
+        4737,
+        4738,
+        4739
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.744Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_786__ent_305",
+      "judgment": "incorrect",
+      "reason": "Apple → Cupertino: Headquarters, research or stores in the city locate the company; the headquarters visitor is someone else.",
+      "evidence_lines": [
+        795,
+        796,
+        4351,
+        4352
+      ],
+      "issue_tags": [
+        "wrong_movement_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.744Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_1000__ent_304",
+      "judgment": "incorrect",
+      "reason": "Wal-Mart → Bentonville: Headquarters, research or stores in the city locate the company; the headquarters visitor is someone else.",
+      "evidence_lines": [
+        817,
+        4363
+      ],
+      "issue_tags": [
+        "wrong_movement_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.744Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8917bcf684d9d491b5a73d98e74d747e69f19d99d8e6c25a89374c53fc31a3ae"
+}

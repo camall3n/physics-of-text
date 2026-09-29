@@ -1,0 +1,55 @@
+{
+  "relation": "rel_209",
+  "predicate_id": "geographic_part_of",
+  "label": "geographical part of",
+  "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+  "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution.",
+  "facts": [
+    {
+      "case_id": "rel_209__ent_315__ent_557",
+      "judgment": "incorrect",
+      "reason": "Atlanta Braves → New York Mets: Baseball competition is not geographic containment.",
+      "evidence_lines": [
+        1014,
+        1015,
+        1017,
+        1018,
+        1019,
+        1020
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.765Z"
+      }
+    },
+    {
+      "case_id": "rel_209__ent_574__ent_323",
+      "judgment": "supported",
+      "reason": "Flatbush → Brooklyn: The explicit section-of-Brooklyn and intersection-in-Brooklyn paths place Flatbush within Brooklyn.",
+      "evidence_lines": [
+        1122,
+        1123,
+        1124,
+        1126,
+        1127
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.766Z"
+      }
+    }
+  ],
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "7247218ff01a0c10fe9b0326b9c8596b2f81ad28b974484fd4b737b18d243339"
+}

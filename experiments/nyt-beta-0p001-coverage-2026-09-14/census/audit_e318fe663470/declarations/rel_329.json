@@ -1,0 +1,33 @@
+{
+  "relation": "rel_329",
+  "predicate_id": "born_in",
+  "predicate_version": 1,
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate": {
+    "id": "born_in",
+    "label": "born in",
+    "definition": "Person X was born in geographic place Y.",
+    "includes": [
+      "direct born-in",
+      "born into a family in Y when Y is the birth location"
+    ],
+    "excludes": [
+      "grown up/raised/native/from alone",
+      "nationality",
+      "schooling/residence/travel",
+      "institution founding"
+    ],
+    "ambiguous": [
+      "unclear person or birthplace attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+  },
+  "dictionary_sha256": "dc1d1c6349bac26ea1f44f493351259501fa2f854ce8e56baad42d47b3702b45",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "prior_annotation_sha256": "03e2d6b41517ca3bed974da4e700e90c7bbb025b66e298c25d9d3e928b4959a1",
+  "prior_assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c"
+}

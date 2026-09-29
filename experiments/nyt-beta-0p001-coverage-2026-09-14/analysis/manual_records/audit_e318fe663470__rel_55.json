@@ -1,0 +1,82 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_55",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "case_ids": [
+        "rel_55__ent_65__ent_60",
+        "rel_55__ent_1211__ent_1005",
+        "rel_55__ent_61__ent_259",
+        "rel_55__ent_1196__ent_1380"
+      ],
+      "judgment": "supported",
+      "reason": "A local player/guard or score/points-for row establishes athlete representation of the team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4,
+        7,
+        10
+      ],
+      "case_ids": [
+        "rel_55__ent_1210__ent_308",
+        "rel_55__ent_1399__ent_308",
+        "rel_55__ent_1325__ent_543",
+        "rel_55__ent_66__ent_1080"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leading or having/putting something for a team does not recover an athlete role without local player/scoring evidence.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does the omitted context establish athletic participation rather than coaching or another role?"
+    },
+    {
+      "indices": [
+        5,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_55__ent_309__ent_1004",
+        "rel_55__ent_1004__ent_74",
+        "rel_55__ent_74__ent_60",
+        "rel_55__ent_74__ent_12",
+        "rel_55__ent_338__ent_965",
+        "rel_55__ent_590__ent_980",
+        "rel_55__ent_413__ent_1364",
+        "rel_55__ent_587__ent_99"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete rows show team-to-team leading/selling, a different office, a location, or generic put/sell without an athlete representation assertion.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b4c77df1763697e20f81b523e1ab6db71dba89cda2bacbbd6df4b8c7f370439a"
+}

@@ -1,0 +1,69 @@
+{
+  "relation": "rel_6",
+  "label": "defeated opponent",
+  "definition": "X defeated opposing competitor Y in at least one competitive contest.",
+  "scope_notes": "Preserves prior winner-to-opponent scope. Beat, defeat, completed sweep, outscore or victory over qualifies. Playing, facing, standings, losing, trades or transfers alone do not. A historical win remains supported when other rows describe losses; flag the mixed evidence. The largest individual path is play (26), with beat (16), loss-to (10), lose-to (9) and face (6). A broader played-against interpretation is plausible. This primary audit retains the previous defeated-opponent predicate for comparability; do not switch after seeing the five case judgments. Record the competing interpretation separately.",
+  "facts": [
+    {
+      "case_id": "rel_6__ent_308__ent_1380",
+      "judgment": "supported",
+      "reason": "Knicks explicitly beat Bulls; play and loss rows are mixed evidence.",
+      "evidence_lines": [
+        871,
+        6041
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_6__ent_1439__ent_1084",
+      "judgment": "incorrect",
+      "reason": "Mets only play Phillies in this fact; participation does not establish defeating them under the predeclared predicate.",
+      "evidence_lines": [
+        6909
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_6__ent_470__ent_1004",
+      "judgment": "supported",
+      "reason": "Mariners explicitly beat Yankees; the play row is broader.",
+      "evidence_lines": [
+        6061
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_6__ent_543__ent_308",
+      "judgment": "supported",
+      "reason": "Nets explicitly outscore Knicks, supporting a competitive win; the play row alone is broader.",
+      "evidence_lines": [
+        944
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_6__ent_321__ent_600",
+      "judgment": "supported",
+      "reason": "Mets explicitly beat Cubs; the play row is broader.",
+      "evidence_lines": [
+        6958
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_27",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "case_ids": [
+        "rel_27__ent_137__ent_379",
+        "rel_27__ent_380__ent_0",
+        "rel_27__ent_357__ent_153",
+        "rel_27__ent_154__ent_379",
+        "rel_27__ent_205__ent_1289",
+        "rel_27__ent_152__ent_394"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit chairman title or past chair tenure through succession/retirement establishes the chairperson relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_27__ent_263__ent_1171",
+        "rel_27__ent_1444__ent_245"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Chairman wording identifies an unnamed Republican rather than a particular officeholder.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who held the stated chairmanship?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_27__ent_4__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Palestinian is an incomplete political-body argument even though a chairman title is present.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which complete Palestinian institution is meant?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_27__ent_1022__ent_161"
+      ],
+      "judgment": "incorrect",
+      "reason": "Only spokesperson status is asserted, not chairperson status.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e5e738ebc1d3d8cbff0699077905258fa2e5a60c68be6e50be634ab2f5ae8f12"
+}

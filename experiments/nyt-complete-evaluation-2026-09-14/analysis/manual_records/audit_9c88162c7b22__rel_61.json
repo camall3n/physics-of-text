@@ -1,0 +1,70 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_61",
+  "cases_sha256": "5d28482046f6f15c177540d41599e61bdd2b1cd7e9d471ac1029ce0160ab0b43",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_61__ent_263__ent_1170",
+        "rel_61__ent_263__ent_245",
+        "rel_61__ent_263__ent_1172",
+        "rel_61__ent_263__ent_244",
+        "rel_61__ent_263__ent_486",
+        "rel_61__ent_7__ent_243",
+        "rel_61__ent_7__ent_485",
+        "rel_61__ent_263__ent_1171",
+        "rel_61__ent_7__ent_488"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The evidence supports a chair or head role but identifies the individual only as Republican or Democrat.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which individual officeholder is intended?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_61__ent_1025__ent_1026"
+      ],
+      "judgment": "incorrect",
+      "reason": "Building a company does not by itself establish an explicit managerial office.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_61__ent_56__ent_59",
+        "rel_61__ent_2__ent_1"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chair or head evidence supports managerial office in the identified body.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

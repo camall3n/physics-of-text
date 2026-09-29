@@ -1,0 +1,73 @@
+{
+  "relation": "rel_138",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_138__ent_799__ent_1012",
+      "judgment": "supported",
+      "reason": "Boston Red Sox → New York Yankees: Suffering at the opposing team hands alongside loss discussion establishes competitive opposition.",
+      "evidence_lines": [
+        1023,
+        1026,
+        1028,
+        1029
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.996Z"
+      }
+    },
+    {
+      "case_id": "rel_138__ent_1014__ent_1012",
+      "judgment": "ambiguous",
+      "reason": "Seattle Mariners → New York Yankees: The loss is attached to discussion to the other team, while season-ending and comments do not unambiguously connect the teams as opponents in a realized contest.",
+      "evidence_lines": [
+        1054,
+        1055,
+        1057,
+        1058
+      ],
+      "issue_tags": [
+        "attachment",
+        "event_occurrence"
+      ],
+      "reviewer_question": "Does the full sentence say the Mariners lost to or played the Yankees, rather than discussing losses with or about them?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.996Z"
+      }
+    },
+    {
+      "case_id": "rel_138__ent_1093__ent_1094",
+      "judgment": "incorrect",
+      "reason": "Lou Holtz → Notre Dame: A coaching role and system at Notre Dame do not establish competition against the institution.",
+      "evidence_lines": [
+        7240,
+        7241,
+        7242
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.996Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d65998c4357871692569f498821d9cd88c7f9ff74dc1d3c7763ee529533d108d"
+}

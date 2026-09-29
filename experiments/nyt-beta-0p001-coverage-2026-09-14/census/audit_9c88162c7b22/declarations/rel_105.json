@@ -1,0 +1,46 @@
+{
+  "relation": "rel_105",
+  "predicate_id": "dismissed_person",
+  "predicate_version": 1,
+  "predicate_hash": "e6dcf07dd3daf15eeb2a175ac318326471acd04260cf8039b03da07dbe6ec9b1",
+  "predicate": {
+    "id": "dismissed_person",
+    "label": "dismissed person from role",
+    "definition": "Person or institution X fired or dismissed person Y from a professional or official role.",
+    "includes": [
+      "explicit firing or dismissal",
+      "clearly terminating Y's role",
+      "historical dismissal"
+    ],
+    "excludes": [
+      "criticizing or blaming alone",
+      "X taking Y's role without evidence of dismissing Y",
+      "ordinary departure or voluntary resignation",
+      "dismissing an argument rather than a person from a role"
+    ],
+    "ambiguous": [
+      "replace where removal versus succession is unresolved",
+      "a proposed firing without realization",
+      "unclear actor or dismissed person"
+    ],
+    "notes": "The dismissing actor need not become the successor. This is separate from succeeded_person.",
+    "scope_notes": "Includes: explicit firing or dismissal; clearly terminating Y's role; historical dismissal. Excludes: criticizing or blaming alone; X taking Y's role without evidence of dismissing Y; ordinary departure or voluntary resignation; dismissing an argument rather than a person from a role. Ambiguous unless resolved by case-local evidence: replace where removal versus succession is unresolved; a proposed firing without realization; unclear actor or dismissed person. The dismissing actor need not become the successor. This is separate from succeeded_person."
+  },
+  "dictionary_sha256": "a34cb62e11bf6f70ec78aebba0e31700b8dbd28940c760f4b0673259aaea93ca",
+  "kind": "declared_before_case_grading",
+  "rationale": "Fire/dismiss is the largest family (five rows), exceeding replace (four). Manager X removes Y from position; X need not be Y successor.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.075Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_105.before_grading.json",
+  "pregrading_annotation_sha256": "402119757677f5b7444b53c08756f25c3fe1abcd4c697a4aead44f92d9879fdb"
+}

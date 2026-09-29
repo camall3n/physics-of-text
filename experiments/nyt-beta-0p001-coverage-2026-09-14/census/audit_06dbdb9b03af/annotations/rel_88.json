@@ -1,0 +1,133 @@
+{
+  "relation": "rel_88",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_88__ent_189__ent_1002",
+      "judgment": "supported",
+      "reason": "Congress → Washington: Explicit local leaving, physical offices, appearance/speech or death-in-theater evidence establishes presence in the named place.",
+      "evidence_lines": [
+        5177,
+        5178,
+        5180,
+        5181,
+        5183,
+        5185
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.263Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_827__ent_843",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → New York: Explicit local leaving, physical offices, appearance/speech or death-in-theater evidence establishes presence in the named place.",
+      "evidence_lines": [
+        4714,
+        4715,
+        4718,
+        4719,
+        4720
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.263Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_744__ent_986",
+      "judgment": "incorrect",
+      "reason": "Robert C. Janiszewski → Hudson County: Executive office/election or appearance in a nongeographic sporting event does not establish physical presence.",
+      "evidence_lines": [
+        8115,
+        8116,
+        8117,
+        8119
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.263Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_669__ent_492",
+      "judgment": "supported",
+      "reason": "Americans → Iraq: Explicit local leaving, physical offices, appearance/speech or death-in-theater evidence establishes presence in the named place.",
+      "evidence_lines": [
+        8140,
+        8145,
+        8146,
+        8147
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.263Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_600__ent_836",
+      "judgment": "incorrect",
+      "reason": "Cubs → World Series: Executive office/election or appearance in a nongeographic sporting event does not establish physical presence.",
+      "evidence_lines": [
+        2275,
+        7772
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.263Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_537__ent_492",
+      "judgment": "ambiguous",
+      "reason": "United States → Iraq: Winning in Iraq alone does not identify whether the actor is physically present forces or remote political/military agency.",
+      "evidence_lines": [
+        2770,
+        4071
+      ],
+      "issue_tags": [
+        "metonymy"
+      ],
+      "reviewer_question": "Does United States denote forces physically present in Iraq in this win-in assertion?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.263Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "20fed8875b328db5f4b9ee0669bf1dc9fef2826d8df38a5ed3639b9936af9ef4"
+}

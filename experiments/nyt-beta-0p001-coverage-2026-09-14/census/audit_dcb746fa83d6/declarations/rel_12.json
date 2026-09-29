@@ -1,0 +1,44 @@
+{
+  "relation": "rel_12",
+  "predicate_id": "analyst_for",
+  "predicate_version": 1,
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate": {
+    "id": "analyst_for",
+    "label": "analyst at organization",
+    "definition": "Person X works or worked as an analyst for organization Y.",
+    "includes": [
+      "explicit analyst at/for/with/of",
+      "following or tracking an industry or companies for an employer when it identifies professional analysis"
+    ],
+    "excludes": [
+      "director/president/professor/scientist/spokesperson/editor/lawyer/partner alone",
+      "generic affiliation"
+    ],
+    "ambiguous": [
+      "economist-only, forecaster, strategist or specialist at the analyst role boundary",
+      "unclear role/employer attachment"
+    ],
+    "notes": "Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+    "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst."
+  },
+  "dictionary_sha256": "2da06e9df7d5f4276a48bf8a6ee087b8d15c0d5363c488a4f9a9a5c377593ee5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Analyst and tracking-for form the largest specific professional-affiliation family; director/head and spokesperson are separate roles.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.351Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    4
+  ],
+  "competing_meanings": [
+    "director",
+    "spokesperson"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_12.before_grading.json",
+  "pregrading_annotation_sha256": "0d8e050068702c2394955c4ee27e39f90712cf3f65518f44b20291071f1ce94c"
+}

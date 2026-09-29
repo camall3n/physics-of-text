@@ -1,0 +1,92 @@
+{
+  "mode": "sentence_rows",
+  "ranking": "Descending assigned sentence rows; numeric relation ID breaks ties. Whole relations retained; no expansion of boundary ties.",
+  "targets": [
+    {
+      "target": 0.57,
+      "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+      "k": 104,
+      "N": 1098,
+      "rows": 4874,
+      "total_rows": 8516,
+      "achieved_coverage": 0.572334429309535,
+      "previous_prefix_k": 0,
+      "added_relations": 104,
+      "added_N": 1098,
+      "added_rows": 4874
+    },
+    {
+      "target": 0.6,
+      "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+      "k": 115,
+      "N": 1160,
+      "rows": 5126,
+      "total_rows": 8516,
+      "achieved_coverage": 0.6019257867543447,
+      "previous_prefix_k": 104,
+      "added_relations": 11,
+      "added_N": 62,
+      "added_rows": 252
+    },
+    {
+      "target": 0.7,
+      "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+      "k": 159,
+      "N": 1362,
+      "rows": 5976,
+      "total_rows": 8516,
+      "achieved_coverage": 0.7017379051197745,
+      "previous_prefix_k": 115,
+      "added_relations": 44,
+      "added_N": 202,
+      "added_rows": 850
+    },
+    {
+      "target": 0.8,
+      "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+      "k": 215,
+      "N": 1541,
+      "rows": 6815,
+      "total_rows": 8516,
+      "achieved_coverage": 0.800258337247534,
+      "previous_prefix_k": 159,
+      "added_relations": 56,
+      "added_N": 179,
+      "added_rows": 839
+    },
+    {
+      "target": 0.9,
+      "selection": "Smallest prefix reaching the requested fraction of all source sentence rows",
+      "k": 285,
+      "N": 1746,
+      "rows": 7665,
+      "total_rows": 8516,
+      "achieved_coverage": 0.9000704556129638,
+      "previous_prefix_k": 215,
+      "added_relations": 70,
+      "added_N": 205,
+      "added_rows": 850
+    }
+  ],
+  "reference_top20": {
+    "k": 20,
+    "N": 364,
+    "rows": 1583,
+    "counts": {
+      "N": 364,
+      "S": 311,
+      "E": 26,
+      "A": 27,
+      "human_overrides": 0
+    },
+    "precision": {
+      "lower": 0.8543956043956044,
+      "upper": 0.9285714285714286,
+      "decided_precision": 0.9228486646884273,
+      "decided_coverage": 0.9258241758241759
+    }
+  },
+  "maximum_prefix_k": 285,
+  "maximum_prefix_N": 1746,
+  "new_facts": 1382
+}

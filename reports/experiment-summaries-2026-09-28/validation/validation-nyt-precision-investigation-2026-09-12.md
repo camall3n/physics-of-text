@@ -1,0 +1,48 @@
+# Controlled NYT validation bundle: nyt-precision-investigation-2026-09-12
+
+This bundle spans multiple executed bug states. See the [bug-set directory index](../bug-sets/README.md) for process-level membership. Patched frozen validation (B07) differs from fixed-name runs whose source still lacks the entity correction (B03).
+
+Organization: [experiment index](../README.md) · [bug-state definitions](../BUG_CATALOG.md).
+
+The saved validation evidence records 3 completed bundle(s), covering **12 independent-JVM toy run directories**. This report groups the regression and replay experiment; individual unit tests are not treated as separate scientific experiments. All pass/replay statements below refer to existing logs and manifests inspected for this summary, not tests rerun on 28 September.
+
+## Purpose and scope
+
+Validate reproducible seeded execution, actual freezing of both argument entities, proposal-budget equality between modes, and the applicable probability/index regressions before the full NYT experiments. The synthetic fixture contains 60 rows, six person strings plus four organization strings (10 names), five path types and repeated structured observations. It is not a held-out NYT benchmark or a semantic-precision evaluation.
+
+Two controlled attempts are retained rather than collapsed into one latest pointer. Both pass 22 JUnit tests; the earlier run's summary predates explicit bridge fields. Their matching latent/frozen diagnostics and complete statuses are preserved. The entity-multiplicity variant separately passes 91 tests, including the exact partition-target regression and five control/replay tests. Only the entityfix bundle has the sixth factorial correction active in latent mode; it is dormant in frozen mode. Controlled latent replays retain that defect by design.
+
+| Saved bundle | JUnit tests passed | Exact replay recorded | Four process outputs | Evidence |
+| --- | --- | --- | --- | --- |
+| [controlled-1789236603939](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939) | 22 | True | [latent-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/latent-0), [latent-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/latent-1), [frozen-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/frozen-0), [frozen-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/frozen-1) | [results](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/results.json) / [JUnit log](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/junit.log) |
+| [controlled-1789236660906](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906) | 22 | True | [latent-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/latent-0), [latent-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/latent-1), [frozen-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/frozen-0), [frozen-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/frozen-1) | [results](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/results.json) / [JUnit log](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/junit.log) |
+| [entityfix-1789237190192](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192) | 91 | True | [latent-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/latent-0), [latent-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/latent-1), [frozen-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/frozen-0), [frozen-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/frozen-1) | [results](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/results.json) / [JUnit log](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/junit.log) |
+
+## Configuration and observed results
+
+Common config: numRels=4, maxRels=8, numEnts=10; 100 nominal iterations × 100 steps; entityFraction=0.1; alpha=0.001; beta=0.1; Beta sparsity a=1, b=100 (nominal sparsity=0.001 inactive); seed=20260912; checkpointEvery=30. Each latent run executes 10 entity iterations/1,000 proposals then 90 relation iterations/9,000 proposals. Each frozen run omits the entity phase but retains 9,000 relation proposals. The optional bridge is disabled. The duplicated index 0/1 runs restart the same configuration/seed in separate JVMs; they are replay checks, not independent random seeds.
+
+| Saved replay run | Seed | Beta | Frozen | Entity proposals | Relation proposals | Final changed arguments | Status |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| [controlled-1789236603939/latent-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/latent-0) | 20260912 | 0.1 | false | 1000 | 9000 | 95 | complete |
+| [controlled-1789236603939/latent-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/latent-1) | 20260912 | 0.1 | false | 1000 | 9000 | 95 | complete |
+| [controlled-1789236603939/frozen-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/frozen-0) | 20260912 | 0.1 | true | 0 | 9000 | 0 | complete |
+| [controlled-1789236603939/frozen-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236603939/frozen-1) | 20260912 | 0.1 | true | 0 | 9000 | 0 | complete |
+| [controlled-1789236660906/latent-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/latent-0) | 20260912 | 0.1 | false | 1000 | 9000 | 95 | complete |
+| [controlled-1789236660906/latent-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/latent-1) | 20260912 | 0.1 | false | 1000 | 9000 | 95 | complete |
+| [controlled-1789236660906/frozen-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/frozen-0) | 20260912 | 0.1 | true | 0 | 9000 | 0 | complete |
+| [controlled-1789236660906/frozen-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/controlled-1789236660906/frozen-1) | 20260912 | 0.1 | true | 0 | 9000 | 0 | complete |
+| [entityfix-1789237190192/latent-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/latent-0) | 20260912 | 0.1 | false | 1000 | 9000 | 112 | complete |
+| [entityfix-1789237190192/latent-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/latent-1) | 20260912 | 0.1 | false | 1000 | 9000 | 112 | complete |
+| [entityfix-1789237190192/frozen-0](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/frozen-0) | 20260912 | 0.1 | true | 0 | 9000 | 0 | complete |
+| [entityfix-1789237190192/frozen-1](../../../experiments/nyt-precision-investigation-2026-09-12/tests/entityfix-1789237190192/frozen-1) | 20260912 | 0.1 | true | 0 | 9000 | 0 | complete |
+
+Every recorded pair matches byte-for-byte for initial/post-entity/MAP/final assignment TSVs, log-probability traces, summary, checkpoint summaries, MAP world text and MAP mentions. Frozen modes record zero identity changes; latent modes demonstrably move argument IDs. The 22-test controls include frozen sentence draws with alternatives, fixed-world kernels across 15,000 proposals, non-frozen mobility, full-joint conditional normalization and seeded Gamma/underflow handling. The 91-test suite broadens inherited numerical, proposal, world/index and output regressions and includes the factorial target check.
+
+## Interpretation, limitations and preservation
+
+These checks support deterministic restart and enforced freezing on the saved toy conditions. They do not prove NYT-scale convergence, universal correctness, semantic precision, independent human validity or exact replay across arbitrary Java/dependency versions. Toy labels and implementation IDs are not gold entities. Full NYT runs were not duplicated by this replay test. Inspecting the saved evidence here does not recreate the historical runtime state.
+
+Retain every bundle listed above, including corpus/config files, run manifests, source snapshots, copied runtime classes, summaries, initial/post-entity/MAP/final outputs, log traces, checkpoint summaries, JUnit log and results.json. Keep the corresponding Node test/build/run helpers, variant source and shared dependency JAR (SHA-256 66d396ff7a5bce7df7c3d0637377693be218e077b483df0f0335454b1f586242), plus the shared data fixtures referenced by the regression suite. The recorded environment is Java/javac 25.0.4.1. Replay requires fresh output directories; inspection checkpoints cannot resume RNG state. These are cleanup dependencies, not recommendations to delete other artifacts.
+
+[Study README](../../../experiments/nyt-precision-investigation-2026-09-12/README.md) · [Test helper](../../../experiments/nyt-precision-investigation-2026-09-12/scripts/test_controlled.mjs) · [Entity validation pointer](../../../experiments/nyt-precision-investigation-2026-09-12/tests/latest_entity_variant_test.txt)

@@ -1,0 +1,49 @@
+{
+  "relation": "rel_243",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "36f92926068955f2a2a2002c7f38df64fd04dff52a41424977b07b5348692e3e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Control/take and legislature/White House political arguments form the largest clear family. Personal closeness, support, urging and ordinary office are separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.607Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3,
+    9,
+    10
+  ],
+  "competing_meanings": [
+    "political support",
+    "personal closeness",
+    "sporting victory"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_243.before_grading.json",
+  "pregrading_annotation_sha256": "ae9b68f7cd39122ec1fb704935bbc1422a970cb52c18226db0289a66839d8e70"
+}

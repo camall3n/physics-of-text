@@ -1,0 +1,70 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_118",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "case_ids": [
+        "rel_118__ent_1002__ent_664",
+        "rel_118__ent_1002__ent_661",
+        "rel_118__ent_843__ent_420",
+        "rel_118__ent_660__ent_103"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit geographically identified office of the named organization establishes inverse physical location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_118__ent_770__ent_1161"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Washington modifies a director title, which does not resolve whether it identifies the institution’s office location or the person’s locale.",
+      "tags": [
+        "location_attachment"
+      ],
+      "question": "Does Washington identify an ACLU office location or only the director’s personal or reporting location?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_118__ent_457__ent_699",
+        "rel_118__ent_1312__ent_1294",
+        "rel_118__ent_1180__ent_1291",
+        "rel_118__ent_1197__ent_268",
+        "rel_118__ent_1333__ent_727"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political succession, dateline welcome, NATO membership or leader identification does not establish place hosting organization.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "21d5ae07c2adee58d33cea7d980c32aeee050a72116ccb64428e14b06144ead2"
+}

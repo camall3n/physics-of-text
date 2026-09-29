@@ -1,0 +1,40 @@
+{
+  "relation": "rel_78",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "519239fb9712e8e8f4b306b58f796dc86f9828522fbcd218e133c4ee0db9be81",
+  "kind": "declared_before_case_grading",
+  "rationale": "Spokeswoman and speaking-for-office paths form the largest explicit coherent role family. Generic includes/choice political rows do not define membership automatically.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:23:42.240Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_78.before_grading.json",
+  "pregrading_annotation_sha256": "8338cdd0e4ddc50a5c257b5a0e726130bdee202bc1d8d1ab123729c47ea55387"
+}

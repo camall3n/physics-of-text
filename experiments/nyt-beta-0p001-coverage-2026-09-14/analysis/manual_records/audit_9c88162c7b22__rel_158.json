@@ -1,0 +1,90 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_158",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_158__ent_815__ent_537",
+        "rel_158__ent_813__ent_537",
+        "rel_158__ent_819__ent_816",
+        "rel_158__ent_816__ent_819"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Generic join and relationship evidence does not specify a shared cooperative action.",
+      "tags": [
+        "unspecified_joint_action"
+      ],
+      "question": "What actual joint action did these two parties undertake together?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_158__ent_99__ent_492"
+      ],
+      "judgment": "incorrect",
+      "reason": "The war and fighting context describes adversaries, not cooperative shared action.",
+      "tags": [
+        "adversarial_relation"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_158__ent_820__ent_451"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit sign-with row supplies joint signing by the two countries, with diplomatic interaction as local context.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_158__ent_818__ent_537"
+      ],
+      "judgment": "incorrect",
+      "reason": "Diplomatic affiliation, exports, comparison, theft and departure do not state joint cooperative action.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_158__ent_96__ent_695"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A join-only row appears alongside war and border evidence; the missing action prevents distinguishing cooperation from adversarial context.",
+      "tags": [
+        "unspecified_joint_action"
+      ],
+      "question": "What did India join Pakistan in doing, and was that action cooperative?"
+    }
+  ],
+  "mixed": [
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "170752a22987f5340ca8adbe6ca12112720181908fdfea051447f8aa5e21e6e9"
+}

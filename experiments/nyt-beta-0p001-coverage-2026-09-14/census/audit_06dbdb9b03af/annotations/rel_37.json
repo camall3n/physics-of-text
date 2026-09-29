@@ -1,0 +1,73 @@
+{
+  "relation": "rel_37",
+  "predicate_id": "broadcasts_program",
+  "label": "broadcasts or carries program",
+  "definition": "Broadcaster X is explicitly identified as broadcasting, carrying, or having program Y in its programming.",
+  "scope_notes": "Includes: explicit airing or broadcasting of Y; Y identified as the program or show of broadcaster X; historical programming affiliation. Excludes: ownership of a network or production company alone; an ordinary press interaction or meeting; a person appearing on a program without broadcaster-program identification. Ambiguous unless resolved by case-local evidence: an incomplete program title such as Press with unresolved referent; unclear broadcaster versus guest role; program versus generic activity attachment unresolved. Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting.",
+  "facts": [
+    {
+      "case_id": "rel_37__ent_218__ent_1156",
+      "judgment": "ambiguous",
+      "reason": "NBC News → Press: The broadcaster-program attachment is plausible, but Press is an incomplete program title with unresolved exact referent.",
+      "evidence_lines": [
+        6030,
+        6032,
+        6033,
+        6036,
+        6038
+      ],
+      "issue_tags": [
+        "title_fragment"
+      ],
+      "reviewer_question": "Does Press refer to the full Meet the Press program in these rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.797Z"
+      }
+    },
+    {
+      "case_id": "rel_37__ent_867__ent_1156",
+      "judgment": "ambiguous",
+      "reason": "NBC → Press: The broadcaster-program attachment is plausible, but Press is an incomplete program title with unresolved exact referent.",
+      "evidence_lines": [
+        6021,
+        6024,
+        6025,
+        6026
+      ],
+      "issue_tags": [
+        "title_fragment"
+      ],
+      "reviewer_question": "Does Press refer to the full Meet the Press program in these rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.797Z"
+      }
+    },
+    {
+      "case_id": "rel_37__ent_819__ent_816",
+      "judgment": "incorrect",
+      "reason": "Democrats → Republicans: A ratio of political groups is not broadcaster-program affiliation.",
+      "evidence_lines": [
+        1915,
+        5468,
+        5913
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.797Z"
+      }
+    }
+  ],
+  "predicate_hash": "e28edb6a2fcf64c04cecd290d4e234cbaddea41551c5e52555dca1c6d524a6ed",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f29f6381fc4645a86191bb984840f2d8408597482d8845aa2ca3c8cf2e133ff7"
+}

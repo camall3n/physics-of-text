@@ -1,0 +1,74 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_151",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "case_ids": [
+        "rel_151__ent_191__ent_194",
+        "rel_151__ent_773__ent_523",
+        "rel_151__ent_191__ent_530",
+        "rel_151__ent_168__ent_161",
+        "rel_151__ent_765__ent_522",
+        "rel_151__ent_121__ent_376",
+        "rel_151__ent_916__ent_586",
+        "rel_151__ent_1059__ent_1180"
+      ],
+      "judgment": "supported",
+      "reason": "A local director or co-director row explicitly establishes the office at the institution, including departmental directorships.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_151__ent_383__ent_140"
+      ],
+      "judgment": "incorrect",
+      "reason": "Head and spokesperson roles are supplied, but the fixed specific director title is not asserted.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_151__ent_414__ent_656",
+        "rel_151__ent_166__ent_169"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied spokesperson/specialist/legal-monitoring evidence does not assert a director office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "4f9d700ce5c74f0039f1d2acad824dbd5d6e94a4b5c460be4f2ef82e84244eb1"
+}

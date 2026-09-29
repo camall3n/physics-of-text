@@ -1,0 +1,681 @@
+{
+  "relation": "rel_120",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_120.json",
+    "source_sha256": "e736b9b3a7be4f3031a6de58e65f6aba42cfd8c6f2f288bc90c6d1649dd309d4",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_120__ent_811__ent_816",
+      "judgment": "incorrect",
+      "reason": "House → Republicans: Collective party control or membership does not establish an individual political leader as required by this predicate.",
+      "evidence_lines": [
+        4886,
+        4887,
+        4888,
+        4889,
+        4890,
+        4891,
+        4892,
+        4893,
+        4894,
+        4895
+      ],
+      "issue_tags": [
+        "wrong_entity_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_816",
+      "judgment": "incorrect",
+      "reason": "Senate → Republicans: Collective party control or membership does not establish an individual political leader as required by this predicate.",
+      "evidence_lines": [
+        4896,
+        4897,
+        4898,
+        4899,
+        4900,
+        4901,
+        4902,
+        4903,
+        4904,
+        4905
+      ],
+      "issue_tags": [
+        "wrong_entity_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_120.json",
+        "annotation_sha256": "e736b9b3a7be4f3031a6de58e65f6aba42cfd8c6f2f288bc90c6d1649dd309d4"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_811__ent_819",
+      "judgment": "incorrect",
+      "reason": "House → Democrats: Collective party control or membership does not establish an individual political leader as required by this predicate.",
+      "evidence_lines": [
+        4946,
+        4947,
+        4948,
+        4949,
+        4950,
+        4951,
+        4952,
+        4953,
+        4954,
+        4955
+      ],
+      "issue_tags": [
+        "wrong_entity_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_453__ent_255",
+      "judgment": "supported",
+      "reason": "Serbia → Slobodan Milosevic: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5266,
+        5267,
+        5268,
+        5269,
+        5270,
+        5271,
+        5272,
+        5273,
+        5274,
+        5275
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.221Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_695__ent_210",
+      "judgment": "supported",
+      "reason": "Pakistan → Gen. Pervez Musharraf: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5276,
+        5277,
+        5278,
+        5279,
+        5280,
+        5281,
+        5282,
+        5283,
+        5284,
+        5285
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_543__ent_590",
+      "judgment": "incorrect",
+      "reason": "Nets → Rod Thorn: The case expresses team leadership, legal representation, illness, communication, or a company-name fragment rather than political leadership.",
+      "evidence_lines": [
+        5306,
+        5307,
+        5308,
+        5309,
+        5310,
+        5311,
+        5312,
+        5313,
+        5314,
+        5315
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_831__ent_213",
+      "judgment": "supported",
+      "reason": "Croatia → Franjo Tudjman: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5316,
+        5317,
+        5318,
+        5319,
+        5320,
+        5321,
+        5322,
+        5323,
+        5324,
+        5325
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_492__ent_1118",
+      "judgment": "supported",
+      "reason": "Iraq → Saddam Hussein: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5336,
+        5337,
+        5338,
+        5339,
+        5340,
+        5341,
+        5342,
+        5343,
+        5344,
+        5345
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_268",
+      "judgment": "supported",
+      "reason": "Senate → Joseph L. Bruno: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7616,
+        7617,
+        7618,
+        7619,
+        7620,
+        7621,
+        7622,
+        7623,
+        7624,
+        7625
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_261",
+      "judgment": "supported",
+      "reason": "Senate → Bob Dole: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7626,
+        7627,
+        7628,
+        7629,
+        7630,
+        7631,
+        7632,
+        7633,
+        7634,
+        7635
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_267",
+      "judgment": "supported",
+      "reason": "Senate → Trent Lott: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7636,
+        7637,
+        7638,
+        7639,
+        7640,
+        7641,
+        7642,
+        7643,
+        7644,
+        7645
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_120.json",
+        "annotation_sha256": "e736b9b3a7be4f3031a6de58e65f6aba42cfd8c6f2f288bc90c6d1649dd309d4"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_265",
+      "judgment": "supported",
+      "reason": "Senate → Tom Daschle: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7646,
+        7647,
+        7648,
+        7649,
+        7650,
+        7651,
+        7652,
+        7653,
+        7654,
+        7655
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_727",
+      "judgment": "supported",
+      "reason": "Senate → Ralph J. Marino: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7656,
+        7657,
+        7658,
+        7659,
+        7660,
+        7661,
+        7662,
+        7663,
+        7664,
+        7665
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_49",
+      "judgment": "supported",
+      "reason": "Senate → George J. Mitchell: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7686,
+        7687,
+        7688,
+        7689,
+        7690,
+        7691,
+        7692,
+        7693,
+        7694,
+        7695
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_120.json",
+        "annotation_sha256": "e736b9b3a7be4f3031a6de58e65f6aba42cfd8c6f2f288bc90c6d1649dd309d4"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_820__ent_1132",
+      "judgment": "supported",
+      "reason": "Israel → Shimon Peres: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7017,
+        7018,
+        7019,
+        7020,
+        7021,
+        7022,
+        7023
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_891__ent_651",
+      "judgment": "incorrect",
+      "reason": "Mr. Simpson → Johnnie L. Cochran Jr.: The case expresses team leadership, legal representation, illness, communication, or a company-name fragment rather than political leadership.",
+      "evidence_lines": [
+        3827,
+        3828,
+        3829,
+        3830,
+        3831,
+        3832
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_120.json",
+        "annotation_sha256": "e736b9b3a7be4f3031a6de58e65f6aba42cfd8c6f2f288bc90c6d1649dd309d4"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_201__ent_443",
+      "judgment": "incorrect",
+      "reason": "New Yorkers → AIDS: The case expresses team leadership, legal representation, illness, communication, or a company-name fragment rather than political leadership.",
+      "evidence_lines": [
+        4906,
+        4908,
+        4910,
+        4911,
+        4912,
+        4915
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_697__ent_212",
+      "judgment": "supported",
+      "reason": "Syria → Hafez al-Assad: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5346,
+        5347,
+        5348,
+        5349,
+        5352,
+        5355
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_815__ent_454",
+      "judgment": "supported",
+      "reason": "Russia → Vladimir V. Putin: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5356,
+        5358,
+        5359,
+        5360,
+        5361,
+        5362
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_263",
+      "judgment": "ambiguous",
+      "reason": "Senate → Republican: The leader is identified only as Republican, not an individual officeholder.",
+      "evidence_lines": [
+        7677,
+        7679,
+        7682,
+        7684,
+        7685
+      ],
+      "issue_tags": [
+        "underspecified_entity"
+      ],
+      "reviewer_question": "Which Republican leader is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_211__ent_452",
+      "judgment": "supported",
+      "reason": "Haiti → Jean-Bertrand Aristide: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5286,
+        5287,
+        5289,
+        5292
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_818__ent_694",
+      "judgment": "supported",
+      "reason": "China → Jiang Zemin: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5296,
+        5297,
+        5298,
+        5301
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_798__ent_455",
+      "judgment": "supported",
+      "reason": "Taiwan → Lee Teng-hui: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        5326,
+        5327,
+        5329,
+        5330
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_969",
+      "judgment": "supported",
+      "reason": "Senate → Bill Frist: The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "evidence_lines": [
+        7666,
+        7667,
+        7669,
+        7674
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_1002__ent_536",
+      "judgment": "incorrect",
+      "reason": "Washington → State Department: The case expresses team leadership, legal representation, illness, communication, or a company-name fragment rather than political leadership.",
+      "evidence_lines": [
+        7436,
+        7437,
+        7445
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    },
+    {
+      "case_id": "rel_120__ent_776__ent_533",
+      "judgment": "incorrect",
+      "reason": "Sears → Roebuck: The case expresses team leadership, legal representation, illness, communication, or a company-name fragment rather than political leadership.",
+      "evidence_lines": [
+        646
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_120.json",
+        "annotation_sha256": "e736b9b3a7be4f3031a6de58e65f6aba42cfd8c6f2f288bc90c6d1649dd309d4"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.222Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "relation": "rel_170",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "45aa9216a494adaee506ac992ddf34dcde7b50e2f6b9188351a0d6a3294ab090",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit speaking-for/spokeswoman of an office is the largest coherent role, ahead of knock and attorney titles. Principal-person versus omitted office and medical-examiner-role identity retain ambiguity.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.754Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    3,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_170.before_grading.json",
+  "pregrading_annotation_sha256": "4b26ec68e60e00f84a2fa8205059410e6648ef0ebcd179456e891354652cbcfc"
+}

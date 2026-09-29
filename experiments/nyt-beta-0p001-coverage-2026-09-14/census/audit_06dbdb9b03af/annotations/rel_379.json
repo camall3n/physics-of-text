@@ -1,0 +1,71 @@
+{
+  "relation": "rel_379",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_379__ent_437__ent_679",
+      "judgment": "supported",
+      "reason": "Raymond B. Harding → Liberal Party: Direct party leader and leads-party rows establish organizational leadership.",
+      "evidence_lines": [
+        5052,
+        5053,
+        5054,
+        5055
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:38.695Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_820__ent_709",
+      "judgment": "incorrect",
+      "reason": "Israel → Ehud Olmert: The country is the subject and its minister the object, reversing the declared leader-to-organization direction.",
+      "evidence_lines": [
+        7038,
+        7041,
+        7044,
+        7045
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:38.695Z"
+      }
+    },
+    {
+      "case_id": "rel_379__ent_1095__ent_960",
+      "judgment": "incorrect",
+      "reason": "Mike Krzyzewski → Duke: Coaching and leading a sports team in athletic activity do not establish the narrower organization-wide leadership predicate.",
+      "evidence_lines": [
+        7257,
+        7259,
+        7261,
+        7262
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:38.695Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1f048eabe217687b7f2862c61ea5394d3b6508f0529d7c0e7daa153ebc9278e6"
+}

@@ -1,0 +1,41 @@
+{
+  "relation": "rel_22",
+  "predicate_id": "coach_of",
+  "predicate_version": 1,
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate": {
+    "id": "coach_of",
+    "label": "coach of",
+    "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+    "includes": [
+      "explicit coach title",
+      "direct coaching with correct subject and team",
+      "former/dismissed coach with clear office evidence",
+      "team/university shorthand when the athletic program role is clear"
+    ],
+    "excludes": [
+      "manager/president/player alone",
+      "winning with a team alone",
+      "vacancy consideration alone",
+      "reverse team-to-coach direction"
+    ],
+    "ambiguous": [
+      "missing coach subject or team attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment."
+  },
+  "dictionary_sha256": "1f90bf05fa0aa7a4794d71712df484324298d7cfb8b266f98eb445698bd7f434",
+  "kind": "declared_before_case_grading",
+  "rationale": "Coach-at and explicit coach-role paths form the largest family.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:48.992Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_22.before_grading.json",
+  "pregrading_annotation_sha256": "fc63ceb54121a27b634e29ccce92dac95b60505cf5cf48bdf131e11c4dfeaeb0"
+}

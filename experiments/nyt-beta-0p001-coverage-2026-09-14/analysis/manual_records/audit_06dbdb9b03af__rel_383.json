@@ -1,0 +1,50 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_383",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_383__ent_180__ent_189",
+        "rel_383__ent_182__ent_189",
+        "rel_383__ent_183__ent_189",
+        "rel_383__ent_195__ent_189",
+        "rel_383__ent_811__ent_1197",
+        "rel_383__ent_828__ent_189",
+        "rel_383__ent_827__ent_189",
+        "rel_383__ent_586__ent_189",
+        "rel_383__ent_537__ent_820",
+        "rel_383__ent_96__ent_977"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Send-to or send-an-unspecified-object dominates, but the sent object is omitted; no local row establishes that it was a message rather than a physical transfer.",
+      "tags": [
+        "missing_object"
+      ],
+      "question": "Was the omitted sent object a communication addressed to the target, rather than people, goods or another non-message object?"
+    }
+  ],
+  "mixed": [
+    4,
+    7,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "251aef52a851a509de63be8752035c614c663c783c1c807c1c293b5feea05d0e"
+}

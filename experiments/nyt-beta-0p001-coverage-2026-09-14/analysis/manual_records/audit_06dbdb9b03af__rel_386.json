@@ -1,0 +1,46 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_386",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_386__ent_813__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit ally-of and possessive ally descriptions establish the political alliance.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_386__ent_815__ent_537",
+        "rel_386__ent_818__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The relationship is unspecified and the remaining export, comparison or migration rows do not resolve an alliance.",
+      "tags": [
+        "unspecified_relationship"
+      ],
+      "question": "Was the stated relationship an actual political/military alliance, rather than trade, migration or ordinary diplomatic ties?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "66719045e70e0327e68847a7bd149abb3c161a0085502a740e7642cd084a5494"
+}

@@ -1,0 +1,88 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_206",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        5,
+        9
+      ],
+      "case_ids": [
+        "rel_206__ent_81__ent_84",
+        "rel_206__ent_87__ent_818",
+        "rel_206__ent_197__ent_586"
+      ],
+      "judgment": "supported",
+      "reason": "An unqualified go-to or dispatch-to path establishes movement to the named physical destination.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_206__ent_354__ent_596",
+        "rel_206__ent_886__ent_302",
+        "rel_206__ent_321__ent_836",
+        "rel_206__ent_561__ent_850",
+        "rel_206__ent_308__ent_356",
+        "rel_206__ent_308__ent_64",
+        "rel_206__ent_849__ent_850"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_206__ent_281__ent_82"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Go-to occurs alongside story and bombing narrative, so a literal family journey versus a work-title reference is unresolved.",
+      "tags": [
+        "metonymy"
+      ],
+      "question": "Does Watsons denote travelers in an asserted journey, or a literary title reference?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_206__ent_400__ent_83"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Oakland is both a place and a sporting opponent in these rows; go-to could denote team travel or a team encounter.",
+      "tags": [
+        "metonymy"
+      ],
+      "question": "Does the go-to row identify travel to Oakland the city, rather than the opposing team?"
+    }
+  ],
+  "mixed": [
+    1,
+    5,
+    7,
+    8,
+    10
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0d977a555ea40e41eac07f4e315948699851d989fb09ee992f5ae281c0c22e22"
+}

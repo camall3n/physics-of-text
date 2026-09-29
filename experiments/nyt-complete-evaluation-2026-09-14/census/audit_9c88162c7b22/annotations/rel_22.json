@@ -1,0 +1,488 @@
+{
+  "relation": "rel_22",
+  "predicate_id": "president_or_manager_of",
+  "label": "president or manager of",
+  "definition": "Person X holds or held an explicitly identified president or manager office in organization, team, public body or institution Y.",
+  "scope_notes": "Includes: explicit president or manager title or unambiguous manage-as-office evidence; general manager; borough president and community-board manager; functional presidency within an organization; historical tenure. Excludes: chair/director/executive/head alone; owner/founder/coach/player alone; generic running or control without the specified role; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal replacing omitted organization/campaign; missing title modifier that could change the office. This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_22.json",
+    "source_sha256": "97365a28e53ac15b7c7c9a301379bb8d3b8db3b98808b2cb9b69fb80f63a0942",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_22__ent_275__ent_561",
+      "judgment": "supported",
+      "reason": "George Young → Giants: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3194,
+        3195,
+        3196,
+        3199,
+        3200,
+        3202,
+        3203
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_287__ent_289",
+      "judgment": "supported",
+      "reason": "Billy Beane → Oakland Athletics: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3372,
+        3373,
+        3374,
+        3375,
+        3376,
+        3377,
+        3378
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_1043__ent_321",
+      "judgment": "supported",
+      "reason": "Joe McIlvaine → Mets: Explicit manager and historical president wording establish the office.",
+      "evidence_lines": [
+        1685,
+        1688,
+        1694,
+        3254,
+        3257,
+        3263
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.780Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_272__ent_321",
+      "judgment": "supported",
+      "reason": "Steve Phillips → Mets: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3184,
+        3185,
+        3186,
+        3187,
+        3188
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_22.json",
+        "annotation_sha256": "97365a28e53ac15b7c7c9a301379bb8d3b8db3b98808b2cb9b69fb80f63a0942"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_277__ent_321",
+      "judgment": "supported",
+      "reason": "Omar Minaya → Mets: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3214,
+        3215,
+        3216,
+        3218,
+        3221
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_282__ent_347",
+      "judgment": "supported",
+      "reason": "Phil Esposito → Rangers: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3397,
+        3398,
+        3399,
+        3400,
+        3404
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_22.json",
+        "annotation_sha256": "97365a28e53ac15b7c7c9a301379bb8d3b8db3b98808b2cb9b69fb80f63a0942"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_1178__ent_1179",
+      "judgment": "supported",
+      "reason": "Mike Milbury → Islanders: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        6527,
+        6529,
+        6530,
+        6531,
+        6533
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_279__ent_278",
+      "judgment": "supported",
+      "reason": "Bobby Cox → Braves: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3234,
+        3235,
+        3236,
+        3238
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_79__ent_400",
+      "judgment": "supported",
+      "reason": "Dick Steinberg → Jets: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3244,
+        3245,
+        3249,
+        3252
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_258__ent_1004",
+      "judgment": "supported",
+      "reason": "Brian Cashman → Yankees: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3164,
+        3165,
+        3169
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_276__ent_561",
+      "judgment": "supported",
+      "reason": "Ernie Accorsi → Giants: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3224,
+        3225,
+        3226
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_286__ent_321",
+      "judgment": "supported",
+      "reason": "Bud Harrelson → Mets: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3342,
+        3343,
+        3350
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_22.json",
+        "annotation_sha256": "97365a28e53ac15b7c7c9a301379bb8d3b8db3b98808b2cb9b69fb80f63a0942"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_285__ent_321",
+      "judgment": "supported",
+      "reason": "Frank Cashen → Mets: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3352,
+        3353,
+        3356
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_280__ent_85",
+      "judgment": "supported",
+      "reason": "Paul Goldstein → Community Board: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3389,
+        3390,
+        3391
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_88__ent_85",
+      "judgment": "supported",
+      "reason": "Craig Hammerman → Community Board: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3392,
+        3393,
+        3394
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_1028__ent_175",
+      "judgment": "ambiguous",
+      "reason": "Zenia Mucha → Mr. Pataki: Manager of a named person likely denotes an omitted campaign or office; its institution and title modifier are unresolved.",
+      "evidence_lines": [
+        1182,
+        3523
+      ],
+      "issue_tags": [
+        "role_attachment"
+      ],
+      "reviewer_question": "What campaign or institution is managed, and what exact manager office does this person-to-person path denote?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_22.json",
+        "annotation_sha256": "97365a28e53ac15b7c7c9a301379bb8d3b8db3b98808b2cb9b69fb80f63a0942"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_346__ent_308",
+      "judgment": "supported",
+      "reason": "Ernie Grunfeld → Knicks: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        1666,
+        1670
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_22.json",
+        "annotation_sha256": "97365a28e53ac15b7c7c9a301379bb8d3b8db3b98808b2cb9b69fb80f63a0942"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_288__ent_321",
+      "judgment": "supported",
+      "reason": "Al Harazin → Mets: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        3363,
+        3365
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_17__ent_827",
+      "judgment": "ambiguous",
+      "reason": "George Stephanopoulos → Mr. Clinton: Manager of a named person likely denotes an omitted campaign or office; its institution and title modifier are unresolved.",
+      "evidence_lines": [
+        3532,
+        3536
+      ],
+      "issue_tags": [
+        "role_attachment"
+      ],
+      "reviewer_question": "What campaign or institution is managed, and what exact manager office does this person-to-person path denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_178__ent_177",
+      "judgment": "supported",
+      "reason": "Jim Steets → Entergy: Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "evidence_lines": [
+        384
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    },
+    {
+      "case_id": "rel_22__ent_263__ent_244",
+      "judgment": "incorrect",
+      "reason": "Republican → Judiciary Committee: Chairman-only evidence does not establish president or manager office.",
+      "evidence_lines": [
+        6278
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:05:33.781Z"
+      }
+    }
+  ]
+}

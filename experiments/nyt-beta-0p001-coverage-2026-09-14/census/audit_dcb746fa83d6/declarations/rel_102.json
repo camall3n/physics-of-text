@@ -1,0 +1,43 @@
+{
+  "relation": "rel_102",
+  "predicate_id": "has_organizational_leader",
+  "predicate_version": 1,
+  "predicate_hash": "b4faffa45e92acb6df72aaa5c4c301b62fd1a111dd6a3c085ff1f0ed26ecd649",
+  "predicate": {
+    "id": "has_organizational_leader",
+    "label": "has organizational or political leader",
+    "definition": "Organization or political body X has person Y holding an explicit managerial or leadership office in it.",
+    "includes": [
+      "inverse of managerial_office_in with an explicit office",
+      "corporate or political institutions",
+      "historical office"
+    ],
+    "excludes": [
+      "ordinary membership",
+      "geographic co-occurrence",
+      "interactions without office",
+      "forward person-to-body direction"
+    ],
+    "ambiguous": [
+      "incomplete principal or office attachment"
+    ],
+    "notes": "Use only where the prior declaration actually included organizations generally, not to widen a political-only relation.",
+    "scope_notes": "Includes: inverse of managerial_office_in with an explicit office; corporate or political institutions; historical office. Excludes: ordinary membership; geographic co-occurrence; interactions without office; forward person-to-body direction. Ambiguous unless resolved by case-local evidence: incomplete principal or office attachment. Use only where the prior declaration actually included organizations generally, not to widen a political-only relation."
+  },
+  "dictionary_sha256": "6fc522079ee0dca6e8bd4a2bc03f83fb869144b46adde61632d66587b80b7858",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse institution-to-president is the uniquely identifiable leader family amid co-reporting paths; it spans team and political institution without asserting ordinary reporter attribution as leadership.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.995Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_102.before_grading.json",
+  "pregrading_annotation_sha256": "4c3f228946110cc665d1fc615f05b4afd3f11844a81ac385e2c99db0d0ad2c56"
+}

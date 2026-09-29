@@ -1,0 +1,395 @@
+{
+  "relation": "rel_99",
+  "predicate_id": "professor_at",
+  "label": "professor or university teacher at",
+  "definition": "Person X is a professor or teaches at academic institution Y.",
+  "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_99.json",
+    "source_sha256": "6e6ddfb4d231c86e2b2861569b5699e090565ac883f80200defec4391fb5f3b0",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_99__ent_148__ent_163",
+      "judgment": "supported",
+      "reason": "Fred Siegel → Cooper Union: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.843Z"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_395__ent_156",
+      "judgment": "supported",
+      "reason": "David Rebovich → Rider University: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        288,
+        289,
+        290,
+        291,
+        292,
+        294,
+        295
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_391__ent_149",
+      "judgment": "supported",
+      "reason": "Ross K. Baker → Rutgers University: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_398__ent_155",
+      "judgment": "supported",
+      "reason": "Stephen Gillers → New York University: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_397__ent_158",
+      "judgment": "supported",
+      "reason": "John C. Coffee Jr. → Columbia University: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        306,
+        307,
+        308,
+        309,
+        310,
+        311
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_398__ent_390",
+      "judgment": "supported",
+      "reason": "Stephen Gillers → New York University Law School: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        322,
+        323,
+        325,
+        327,
+        328,
+        331
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_150__ent_392",
+      "judgment": "supported",
+      "reason": "Merle Black → Emory University: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_157__ent_399",
+      "judgment": "supported",
+      "reason": "Andrew Zimbalist → Smith College: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        312,
+        314,
+        315,
+        317,
+        319
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_854__ent_615",
+      "judgment": "incorrect",
+      "reason": "Gary Burtless → Brookings Institution: Fellow, economist, scholar and expert roles do not establish a professorship or teaching appointment.",
+      "evidence_lines": [
+        2389,
+        2390,
+        2392,
+        2393,
+        2396
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_162__ent_165",
+      "judgment": "supported",
+      "reason": "Douglas Muzzio → Baruch College: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        354,
+        355,
+        356,
+        357
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_1006__ent_155",
+      "judgment": "supported",
+      "reason": "Robert Berne → New York University: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        752,
+        753,
+        756,
+        757
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_191__ent_194",
+      "judgment": "supported",
+      "reason": "Dr. Arthur Caplan → University of Pennsylvania: Explicit professor or teaching evidence establishes the named academic affiliation.",
+      "evidence_lines": [
+        515
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441",
+        "annotation_source": "prior_annotations/rel_99.json",
+        "annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:52.844Z"
+      }
+    }
+  ],
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate_version": 1
+}

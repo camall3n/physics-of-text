@@ -1,0 +1,86 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_70",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_70__ent_819__ent_967",
+        "rel_70__ent_816__ent_180",
+        "rel_70__ent_819__ent_828",
+        "rel_70__ent_819__ent_724",
+        "rel_70__ent_308__ent_356",
+        "rel_70__ent_819__ent_964"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit inclusion in the named party or team, reinforced where available by leadership, establishes group membership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_70__ent_409__ent_1106"
+      ],
+      "judgment": "incorrect",
+      "reason": "A person associated with CNN earnings or fame is not an organization having CNN as a member.",
+      "tags": [
+        "wrong_direction"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_70__ent_182__ent_433"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows concern a person's wife or staff, not membership in an identified group X.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_70__ent_966__ent_843",
+        "rel_70__ent_537__ent_843"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows describe geographic inclusion, not membership in an organized group or body.",
+      "tags": [
+        "geographic_containment"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    5,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b665417c1bbdb696fb5764e995a66dd6715394234b7c6153618a4d991a4c7c78"
+}

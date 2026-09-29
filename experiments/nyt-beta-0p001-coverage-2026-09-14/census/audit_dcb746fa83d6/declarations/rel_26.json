@@ -1,0 +1,42 @@
+{
+  "relation": "rel_26",
+  "predicate_id": "officer_of",
+  "predicate_version": 1,
+  "predicate_hash": "9b6698c69b65355ec907241a51d0004b8881a4042818b75d97f6b8ebacc4accf",
+  "predicate": {
+    "id": "officer_of",
+    "label": "institutional officer of",
+    "definition": "Person X holds or held an explicitly identified professional officer role in institution Y.",
+    "includes": [
+      "explicit officer of/with/at institutional role",
+      "historical institutional officership"
+    ],
+    "excludes": [
+      "ordinary employment or membership without an officer title",
+      "researcher, observer, analyst or director alone",
+      "inferring executive rank or governmental authority from the word officer"
+    ],
+    "ambiguous": [
+      "unclear officer title or institutional attachment",
+      "a personal principal or topic replacing the institution"
+    ],
+    "notes": "This specific officer title is distinct from executive_of and official_of. It does not assert senior management or a government office.",
+    "scope_notes": "Includes: explicit officer of/with/at institutional role; historical institutional officership. Excludes: ordinary employment or membership without an officer title; researcher, observer, analyst or director alone; inferring executive rank or governmental authority from the word officer. Ambiguous unless resolved by case-local evidence: unclear officer title or institutional attachment; a personal principal or topic replacing the institution. This specific officer title is distinct from executive_of and official_of. It does not assert senior management or a government office."
+  },
+  "dictionary_sha256": "f75f0e233aba5084c96d2647f0ff3d901b8e237fdff69c22df6592e13ed94879",
+  "kind": "declared_before_case_grading",
+  "rationale": "Parent approved specific officer-of/with2 as the leading explicit title. Researcher1, observer1 and analyst1 are separate roles; geographic/tie/growing-up fragments do not establish them.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.871Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_26.before_grading.json",
+  "pregrading_annotation_sha256": "f673db4b4063ddc3e5d5895fb6858c5f84699aabb35e957340b3af5502e98b3b"
+}

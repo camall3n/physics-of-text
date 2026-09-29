@@ -1,0 +1,68 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_197",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_197__ent_4__ent_3",
+        "rel_197__ent_58__ent_53",
+        "rel_197__ent_50__ent_248",
+        "rel_197__ent_247__ent_489",
+        "rel_197__ent_437__ent_679"
+      ],
+      "judgment": "supported",
+      "reason": "A local head/leader/chief assertion establishes the institutional leadership role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        6
+      ],
+      "case_ids": [
+        "rel_197__ent_490__ent_51",
+        "rel_197__ent_4__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leadership title is explicit but Taxi or Palestinian is a materially incomplete principal designation.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which specific institution is the principal of the stated leadership role?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_197__ent_911__ent_1002"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director/chief in Washington may be an office of an omitted organization located there, rather than leadership of the geographic jurisdiction.",
+      "tags": [
+        "attachment",
+        "missing_institution"
+      ],
+      "question": "Which institution does this Washington director or chief office belong to?"
+    }
+  ],
+  "mixed": [
+    0,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "82bc1d3c22786b6203aeb84eccd75c5dbf536a97acd45bac86f3f6f37000ab6c"
+}

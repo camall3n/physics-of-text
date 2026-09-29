@@ -1,0 +1,244 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_268",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        44,
+        45,
+        48,
+        50
+      ],
+      "case_ids": [
+        "rel_268__ent_525__ent_527",
+        "rel_268__ent_1059__ent_1180",
+        "rel_268__ent_780__ent_529",
+        "rel_268__ent_806__ent_529",
+        "rel_268__ent_805__ent_808",
+        "rel_268__ent_807__ent_809",
+        "rel_268__ent_383__ent_140",
+        "rel_268__ent_862__ent_861",
+        "rel_268__ent_618__ent_611",
+        "rel_268__ent_528__ent_781",
+        "rel_268__ent_301__ent_529",
+        "rel_268__ent_796__ent_311",
+        "rel_268__ent_1057__ent_119",
+        "rel_268__ent_973__ent_734",
+        "rel_268__ent_524__ent_766",
+        "rel_268__ent_359__ent_1056",
+        "rel_268__ent_733__ent_975",
+        "rel_268__ent_1059__ent_529",
+        "rel_268__ent_525__ent_767",
+        "rel_268__ent_769__ent_526",
+        "rel_268__ent_768__ent_529",
+        "rel_268__ent_541__ent_783",
+        "rel_268__ent_540__ent_782",
+        "rel_268__ent_1007__ent_1008",
+        "rel_268__ent_1058__ent_783",
+        "rel_268__ent_1181__ent_1182",
+        "rel_268__ent_1183__ent_1184",
+        "rel_268__ent_806__ent_976",
+        "rel_268__ent_978__ent_861",
+        "rel_268__ent_1185__ent_1186",
+        "rel_268__ent_736__ent_783"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit analyst affiliation or employer-linked professional following/tracking path supports the ordered analyst predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        10,
+        19,
+        22,
+        24,
+        32,
+        38,
+        42,
+        43,
+        46,
+        49
+      ],
+      "case_ids": [
+        "rel_268__ent_847__ent_529",
+        "rel_268__ent_862__ent_808",
+        "rel_268__ent_852__ent_613",
+        "rel_268__ent_854__ent_615",
+        "rel_268__ent_860__ent_620",
+        "rel_268__ent_553__ent_795",
+        "rel_268__ent_619__ent_526",
+        "rel_268__ent_551__ent_793",
+        "rel_268__ent_387__ent_144",
+        "rel_268__ent_855__ent_612",
+        "rel_268__ent_720__ent_962",
+        "rel_268__ent_774__ent_531",
+        "rel_268__ent_853__ent_610"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The local evidence establishes an economist role, but does not expressly establish the narrower analyst role.",
+      "tags": [
+        "scope_boundary"
+      ],
+      "question": "Does this economist role include professional analyst work for the named employer under the common analyst scope?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_268__ent_773__ent_523"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The local evidence establishes economist/forecaster and director roles, leaving analyst scope unresolved.",
+      "tags": [
+        "scope_boundary"
+      ],
+      "question": "Does Ratajczak’s forecasting/economist role at Georgia State count as analyst work under the common scope?"
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_268__ent_308__ent_356"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence concerns a team lacking its player, not an analyst affiliation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        37
+      ],
+      "case_ids": [
+        "rel_268__ent_834__ent_837"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence concerns migration, citizenship and litigation, not analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        39,
+        40,
+        51,
+        53
+      ],
+      "case_ids": [
+        "rel_268__ent_550__ent_792",
+        "rel_268__ent_312__ent_554",
+        "rel_268__ent_552__ent_794",
+        "rel_268__ent_582__ent_101"
+      ],
+      "judgment": "incorrect",
+      "reason": "Director, president or leadership evidence alone does not establish analyst work.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        41
+      ],
+      "case_ids": [
+        "rel_268__ent_578__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Briefing, policy and travel evidence does not establish analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        47
+      ],
+      "case_ids": [
+        "rel_268__ent_315__ent_557"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence is a sports result, not analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        52,
+        54
+      ],
+      "case_ids": [
+        "rel_268__ent_565__ent_322",
+        "rel_268__ent_357__ent_599"
+      ],
+      "judgment": "incorrect",
+      "reason": "A birth or death location is not analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    9,
+    11,
+    12,
+    13,
+    15,
+    17,
+    18,
+    21,
+    23,
+    27,
+    28,
+    33
+  ],
+  "broad": []
+}

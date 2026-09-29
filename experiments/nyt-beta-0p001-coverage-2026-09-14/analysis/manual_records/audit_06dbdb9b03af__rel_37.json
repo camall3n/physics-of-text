@@ -1,0 +1,42 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_37",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_37__ent_218__ent_1156",
+        "rel_37__ent_867__ent_1156"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The broadcaster-program attachment is plausible, but Press is an incomplete program title with unresolved exact referent.",
+      "tags": [
+        "title_fragment"
+      ],
+      "question": "Does Press refer to the full Meet the Press program in these rows?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_37__ent_819__ent_816"
+      ],
+      "judgment": "incorrect",
+      "reason": "A ratio of political groups is not broadcaster-program affiliation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f29f6381fc4645a86191bb984840f2d8408597482d8845aa2ca3c8cf2e133ff7"
+}

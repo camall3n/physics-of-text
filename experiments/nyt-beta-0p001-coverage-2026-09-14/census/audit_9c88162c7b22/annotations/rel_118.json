@@ -1,0 +1,77 @@
+{
+  "relation": "rel_118",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_118__ent_831__ent_213",
+      "judgment": "supported",
+      "reason": "Croatia → Franjo Tudjman: Explicit country-president apposition establishes political leadership.",
+      "evidence_lines": [
+        5319,
+        5321,
+        5322,
+        5323,
+        5324,
+        5325
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.524Z"
+      }
+    },
+    {
+      "case_id": "rel_118__ent_505__ent_743",
+      "judgment": "incorrect",
+      "reason": "Mr. Suozzi → Nassau County: Person-to-county executive history or a client-to-lawyer pair has the wrong roles for body-to-political-leader.",
+      "evidence_lines": [
+        8123,
+        8124,
+        8125,
+        8127,
+        8128
+      ],
+      "issue_tags": [
+        "wrong_direction"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.524Z"
+      }
+    },
+    {
+      "case_id": "rel_118__ent_48__ent_47",
+      "judgment": "incorrect",
+      "reason": "Mr. Skakel → Michael Sherman: Person-to-county executive history or a client-to-lawyer pair has the wrong roles for body-to-political-leader.",
+      "evidence_lines": [
+        3786,
+        3788,
+        3791
+      ],
+      "issue_tags": [
+        "wrong_direction"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.524Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c2e9db1d39cd60a47ff75d11a6ff30a7264a1630bbca21fa6491f0dbd81ded0e"
+}

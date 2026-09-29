@@ -1,0 +1,51 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_130",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_130__ent_985__ent_500",
+        "rel_130__ent_503__ent_745",
+        "rel_130__ent_505__ent_743",
+        "rel_130__ent_501__ent_987"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit executive-in or executive title, with tenure/swearing-in where supplied, establishes the county office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_130__ent_501__ent_743"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The rows describe candidacy and executive-elect status without an independent statement of office already held.",
+      "tags": [
+        "tenure_ambiguity"
+      ],
+      "question": "Had Thomas R. Suozzi begun serving as Nassau County executive at the time of these statements?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c1f04991d74af823415113342e7ec68c7a9e5dafb41becab057cd12de4f949f9"
+}

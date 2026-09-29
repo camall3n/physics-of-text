@@ -1,0 +1,42 @@
+{
+  "relation": "rel_86",
+  "predicate_id": "participated_in_sporting_event",
+  "predicate_version": 1,
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate": {
+    "id": "participated_in_sporting_event",
+    "label": "participated in sporting event",
+    "definition": "Competitor or team X participated in sporting event or competition Y.",
+    "includes": [
+      "actual played-in, competed-in, or appeared-in a sporting event",
+      "being in an event when competitive participation is clear",
+      "a completed win or title in the event, which entails participation"
+    ],
+    "excludes": [
+      "plans, hopes, or qualification without established participation",
+      "attendance as spectator",
+      "membership in a league without participation in the designated event",
+      "non-sporting events or geographic presence alone"
+    ],
+    "ambiguous": [
+      "future or proposed participation",
+      "event occurrence or participant role unclear",
+      "a governing body or location substituted for an unresolved event"
+    ],
+    "notes": "Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+    "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared."
+  },
+  "dictionary_sha256": "9c4606e66f6b1e9195fdbbbf8d7ec5dd8f3ece09bdcac3321a05883de3d1e4d9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Horse-race competition/outcome paths form the largest coherent sporting-event family, ahead of political candidacy and team recall. Name-fragment and parent/horse attachment are checked per case.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:26:28.488Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_86.before_grading.json",
+  "pregrading_annotation_sha256": "b204f3e673c2518dbb73121fb607d3534887815c65e48ebf924521e86db077c0"
+}

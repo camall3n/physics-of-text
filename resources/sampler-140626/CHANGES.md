@@ -1,5 +1,42 @@
 # Changes to the archived sampler (September 2026)
 
+## 2026-09-11: sampling correction and evaluation follow-up
+
+The five sampling defect families from the later code audit are now fixed:
+fact-deletion search-success correction, inverse smart-split signs, genuinely null
+empty-parent splits, log-weight normalization, and reverse smart-merge normalizers.
+Related fixes cover logarithmic MH acceptance, repeatable proposal-ratio queries,
+near-zero relation probabilities, alpha/beta helper parameters, observer snapshots
+and filename guards, short runs, and exact burn-in counting. `build.sh` now works
+with the bundled dependency JAR and modern JDKs, prioritizing fresh classes.
+
+Read [sampling_fixes.md](results/nyt-2026/evaluation/sampling_fixes.md) for bugs,
+locations, implications, fixes and regression evidence, and
+[additional_sampling_findings.md](results/nyt-2026/evaluation/additional_sampling_findings.md)
+for remaining model and reproducibility issues. Run
+`node scripts/audit_sampler_code.mjs --verify-before`: 85 current tests and four
+probes pass; the selected pre-fix classes reproduce failures in 25 of 28 regressions.
+
+The [top-20 NYT audit](results/nyt-2026/evaluation/README.md) is now complete as a
+first-pass corpus-evidence assessment: 487 supported, 502 incorrect and 94 ambiguous
+out of 1,083 expressed facts. This differs from the paper's unknown historical
+judgment protocol. The relation-pool count-prior mismatch remains a separate model
+decision. The older implementation history below should be read with these
+subsequent corrections in mind.
+
+Both experiments were subsequently rerun with corrected classes and unchanged
+budgets. [NYT at maxRels=400](results/nyt-2026-fixed-400/README.md) took 157 seconds;
+its MAP has 252 expressed relations and 1,918 expressed facts. Fresh manual
+assessment of every top-20 fact gives **513 supported, 440 incorrect, 113 ambiguous
+out of 1,066**, or **48.1–58.7%**. The earlier run also used pool 400. Inferred
+populations differ, randomness is not fully controlled, and the best joint is at
+the final observation. This is not a paired causal estimate or evidence of convergence.
+The [new Figure 1 run](results/figure1-2026-fixed/README.md) completed 40 worlds;
+high-entropy precision at recall 0.1 changed from 0.644 to 0.608, while at recall
+0.7 it changed from 0.523 to 0.556. Truth-dependent ordering within tied posterior
+scores is a remaining evaluation issue; both curves retain the legacy method.
+All earlier inference outputs and manual judgments remain preserved.
+
 This directory is the June 2014 tar of the Java sampler behind Russell, Lassen, Uang
 and Wang, *The Physics of Text: Ontological Realism in Information Extraction* (2016).
 The goal of these changes is to replicate the paper's relation-discovery experiment

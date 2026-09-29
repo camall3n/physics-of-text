@@ -1,0 +1,38 @@
+{
+  "relation": "rel_114",
+  "predicate_id": "defeated",
+  "predicate_version": 1,
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate": {
+    "id": "defeated",
+    "label": "defeated opponent",
+    "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+    "includes": [
+      "beat/defeat/trounce/rout/upset/victory over",
+      "completed sporting sweep/outlast/elimination",
+      "explicit electoral defeat of an opposing competitor",
+      "historical win despite losses in other games"
+    ],
+    "excludes": [
+      "mere play/face/rivalry",
+      "standings or polling lead",
+      "losing to Y",
+      "winning an event rather than beating Y",
+      "political control or hostility alone"
+    ],
+    "ambiguous": [
+      "bare outscore/surpass/shock without a completed-contest result",
+      "score margin for only one period",
+      "unclear geographic/team metonymy"
+    ],
+    "notes": "Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+    "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat."
+  },
+  "dictionary_sha256": "2c88de9af4f30a6c9896e37f3e0d01b9538df86caa3f340c665c300b467c474b",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "prior_annotation_sha256": "c1327820dc16de9fa3a3036196df1744daa60c3f50e7db9645eabeacf7203e3b",
+  "prior_assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441"
+}

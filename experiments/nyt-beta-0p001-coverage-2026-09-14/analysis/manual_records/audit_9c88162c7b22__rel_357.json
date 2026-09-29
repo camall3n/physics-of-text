@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_357",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_357__ent_546__ent_788"
+      ],
+      "judgment": "supported",
+      "reason": "The company began in Schaumburg and has executives there, establishing historical organizational physical presence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_357__ent_493__ent_250"
+      ],
+      "judgment": "ambiguous",
+      "reason": "God and heaven occur in theological or figurative constructions; the rows do not resolve literal physical presence in a geographic place.",
+      "tags": [
+        "nonliteral_presence"
+      ],
+      "question": "Is heaven intended as a literal geographic place here, and what physical-presence claim is being asserted?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_357__ent_685__ent_443"
+      ],
+      "judgment": "incorrect",
+      "reason": "AIDS is a medical condition or cause of death, not a geographic place.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "32c689fd963d578da6b50637e779f01eaf0e5e0c6653c205c230cb245ce41faf"
+}

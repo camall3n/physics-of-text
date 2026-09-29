@@ -1,0 +1,116 @@
+{
+  "relation": "rel_80",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_80__ent_1401__ent_422",
+      "judgment": "ambiguous",
+      "reason": "New York → Hill: New York replaces an unnamed business unit and Hill is an incomplete mixed office/political name.",
+      "evidence_lines": [
+        4182,
+        4184,
+        4186,
+        4189
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "What named unit and full parent organization are intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.854Z"
+      }
+    },
+    {
+      "case_id": "rel_80__ent_1128__ent_1434",
+      "judgment": "supported",
+      "reason": "J. Walter Thompson → WPP Group: Explicit unit-of wording establishes the corporate parent relationship.",
+      "evidence_lines": [
+        4582,
+        4589,
+        6684,
+        6691
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.854Z"
+      }
+    },
+    {
+      "case_id": "rel_80__ent_1433__ent_393",
+      "judgment": "supported",
+      "reason": "Fox → News Corporation: Explicit unit-of wording establishes the corporate parent relationship.",
+      "evidence_lines": [
+        2514
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.854Z"
+      }
+    },
+    {
+      "case_id": "rel_80__ent_1439__ent_148",
+      "judgment": "incorrect",
+      "reason": "Muppets → Manhattan: A movie-title fragment, inverse minister designation or an attorney office does not establish corporate containment.",
+      "evidence_lines": [
+        6375
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.854Z"
+      }
+    },
+    {
+      "case_id": "rel_80__ent_1204__ent_1207",
+      "judgment": "incorrect",
+      "reason": "Israel → Ehud Olmert: A movie-title fragment, inverse minister designation or an attorney office does not establish corporate containment.",
+      "evidence_lines": [
+        7038
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.854Z"
+      }
+    },
+    {
+      "case_id": "rel_80__ent_995__ent_148",
+      "judgment": "incorrect",
+      "reason": "Robert M. Morgenthau → Manhattan: A movie-title fragment, inverse minister designation or an attorney office does not establish corporate containment.",
+      "evidence_lines": [
+        8300
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.854Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6a076ee340f76abb4adc8babbd29b5c25ef5f277ef95e1d4f7e54de68ee85e55"
+}

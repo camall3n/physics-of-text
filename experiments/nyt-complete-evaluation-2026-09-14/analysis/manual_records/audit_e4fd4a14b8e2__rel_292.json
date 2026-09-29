@@ -1,0 +1,115 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_292",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        16
+      ],
+      "case_ids": [
+        "rel_292__ent_837__ent_1086",
+        "rel_292__ent_1197__ent_268",
+        "rel_292__ent_1197__ent_261",
+        "rel_292__ent_1197__ent_267",
+        "rel_292__ent_1197__ent_727",
+        "rel_292__ent_1197__ent_969",
+        "rel_292__ent_1197__ent_49",
+        "rel_292__ent_818__ent_708",
+        "rel_292__ent_1197__ent_265",
+        "rel_292__ent_820__ent_1132"
+      ],
+      "judgment": "supported",
+      "reason": "The local evidence identifies the named person as a political leader, including explicit legislative leadership or inclusion among the country’s leaders. Minister rows are not the sole basis.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8,
+        9,
+        12,
+        13,
+        19
+      ],
+      "case_ids": [
+        "rel_292__ent_96__ent_948",
+        "rel_292__ent_820__ent_709",
+        "rel_292__ent_492__ent_707",
+        "rel_292__ent_813__ent_706",
+        "rel_292__ent_820__ent_949"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The evidence identifies an unspecified minister but does not locally establish head-of-government or the narrower declared political leadership scope.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Does the full sentence establish a head-of-government or comparable political leader rather than an unspecified minister?"
+    },
+    {
+      "indices": [
+        17,
+        18
+      ],
+      "case_ids": [
+        "rel_292__ent_69__ent_67",
+        "rel_292__ent_497__ent_255"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leadership cue is present, but Bosnian Serb or Yugoslav is an incomplete adjectival political body.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What complete polity or group does the extracted adjective denote?"
+    },
+    {
+      "indices": [
+        7,
+        14,
+        15,
+        20,
+        21,
+        22
+      ],
+      "case_ids": [
+        "rel_292__ent_1002__ent_536",
+        "rel_292__ent_100__ent_1001",
+        "rel_292__ent_235__ent_477",
+        "rel_292__ent_327__ent_569",
+        "rel_292__ent_268__ent_263",
+        "rel_292__ent_517__ent_759"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows describe a location-to-department association, corporate executive, ethnic population, spokesperson, forward person-to-party direction, or birthplace rather than a political body having a named political leader.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    16
+  ],
+  "broad": []
+}

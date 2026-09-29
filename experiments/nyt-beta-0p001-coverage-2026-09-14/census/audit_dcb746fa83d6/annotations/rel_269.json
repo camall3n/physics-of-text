@@ -1,0 +1,599 @@
+{
+  "relation": "rel_269",
+  "predicate_id": "economist_for",
+  "label": "economist at organization",
+  "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+  "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_269.json",
+    "source_sha256": "81dbd9bf9ba348759720a9d1b57661ab129d90c63b94d7c5ea5f22845dd8e6f8",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_269__ent_618__ent_611",
+      "judgment": "supported",
+      "reason": "Ian Shepherdson → High Frequency Economics: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2366,
+        2367,
+        2368,
+        2369,
+        2370,
+        2371,
+        2372
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.355Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_847__ent_1414",
+      "judgment": "supported",
+      "reason": "Bruce Steinberg → Merrill Lynch: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2322,
+        2323,
+        2324,
+        2325,
+        2328,
+        2330
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_860__ent_620",
+      "judgment": "supported",
+      "reason": "Jared Bernstein → Economic Policy Institute: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2332,
+        2333,
+        2334,
+        2335,
+        2337,
+        2338
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_796__ent_311",
+      "judgment": "incorrect",
+      "reason": "Richard E. Witten → Goldman , Sachs & Company: The rows describe a president, specialist and analyst, with departmental attachments; no economist affiliation is established.",
+      "evidence_lines": [
+        734,
+        737,
+        738,
+        740,
+        743
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_862__ent_808",
+      "judgment": "supported",
+      "reason": "Stephen S. Roach → Morgan Stanley: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2347,
+        2348,
+        2349,
+        2351,
+        2352
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_619__ent_526",
+      "judgment": "supported",
+      "reason": "John Lipsky → Salomon Brothers: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2357,
+        2360,
+        2361,
+        2362,
+        2365
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_773__ent_523",
+      "judgment": "supported",
+      "reason": "Donald Ratajczak → Georgia State University: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        535,
+        536,
+        538,
+        540
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_1338__ent_793",
+      "judgment": "supported",
+      "reason": "Joseph Liro → S. G. Warburg & Company: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        720,
+        721,
+        722,
+        723
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_1009__ent_1220",
+      "judgment": "incorrect",
+      "reason": "Bill Gamba → Cowen & Company: President/head and desk-management paths establish management, with an unrelated holiday attachment, not an economist role.",
+      "evidence_lines": [
+        764,
+        765,
+        766,
+        767
+      ],
+      "issue_tags": [
+        "wrong_role",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_862__ent_861",
+      "judgment": "supported",
+      "reason": "Stephen S. Roach → Morgan Stanley & Company: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2342,
+        2343,
+        2344,
+        2346
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_920__ent_613",
+      "judgment": "supported",
+      "reason": "Lawrence A. Kudlow → Bear: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2375,
+        2377,
+        2382
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_855__ent_612",
+      "judgment": "supported",
+      "reason": "Thomas Mayer → Deutsche Bank: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2385,
+        2386,
+        2387
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_538__ent_770",
+      "judgment": "supported",
+      "reason": "Maria Fiorini Ramirez → Drexel Burnham Lambert: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        532,
+        533
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_1312__ent_1308",
+      "judgment": "incorrect",
+      "reason": "WASHINGTON → State Department: The WASHINGTON dateline and State Department speech paths identify no person serving as economist.",
+      "evidence_lines": [
+        658,
+        661
+      ],
+      "issue_tags": [
+        "wrong_role",
+        "attachment"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_791__ent_852",
+      "judgment": "ambiguous",
+      "reason": "William V. Sullivan Jr. → Witter Reynolds: The direct row identifies a director, while the economist-at extension attaches through a signal to the person rather than directly naming him as economist.",
+      "evidence_lines": [
+        716,
+        718
+      ],
+      "issue_tags": [
+        "attachment"
+      ],
+      "reviewer_question": "Does the complete sentence identify Sullivan as the Witter Reynolds economist, or does the economist apposition describe another referent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_553__ent_795",
+      "judgment": "supported",
+      "reason": "Paul L. Kasriel → Northern Trust Company: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        744,
+        746
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_853__ent_610",
+      "judgment": "supported",
+      "reason": "David H. Resler → Nomura Securities International: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2373,
+        2374
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_852__ent_535",
+      "judgment": "supported",
+      "reason": "Lawrence A. Kudlow → Bear: At least one direct economist-for/at/of/with or historical-economist role identifies the named person and employer; the complete local rows preserve that role.",
+      "evidence_lines": [
+        2376,
+        2380
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_611__ent_957",
+      "judgment": "incorrect",
+      "reason": "James R. Capra → Shearson Lehman Government Securities: The sole president-at row does not establish an economist role.",
+      "evidence_lines": [
+        719
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_1192__ent_1180",
+      "judgment": "incorrect",
+      "reason": "Emanuel Goldman → Paine Webber: The sole director-at row does not establish an economist role.",
+      "evidence_lines": [
+        7813
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:14.356Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_269.json",
+        "annotation_sha256": "c58090c7a5a8d4baf9f4b772d37fcf276f0f8a731d14ffc1733d92539260e588",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate_version": 1
+}

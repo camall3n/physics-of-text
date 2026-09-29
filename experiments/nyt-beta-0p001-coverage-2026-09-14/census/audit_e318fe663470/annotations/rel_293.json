@@ -1,0 +1,122 @@
+{
+  "relation": "rel_293",
+  "predicate_id": "location_of_organization",
+  "label": "location of organization or its office",
+  "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+  "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+  "facts": [
+    {
+      "case_id": "rel_293__ent_843__ent_420",
+      "judgment": "supported",
+      "reason": "New York → Federal Bureau of Investigation: An explicit city-office-of path establishes the organization's office location in that city.",
+      "evidence_lines": [
+        4151,
+        4152,
+        4153,
+        4157,
+        4158
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.482Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_1205__ent_1218",
+      "judgment": "supported",
+      "reason": "Chicago → DDB Worldwide: An explicit city-office-of path establishes the organization's office location in that city.",
+      "evidence_lines": [
+        4124,
+        4126,
+        4128,
+        4129
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.482Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_1401__ent_1104",
+      "judgment": "supported",
+      "reason": "New York → BBDO Worldwide: An explicit city-office-of path establishes the organization's office location in that city.",
+      "evidence_lines": [
+        4131,
+        4135
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.482Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_1315__ent_110",
+      "judgment": "incorrect",
+      "reason": "Rangers → Devils: Sporting opposition, an advocate role or reversed public-attorney jurisdiction does not establish a city hosting an organizational office.",
+      "evidence_lines": [
+        2610
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.482Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_17__ent_1313",
+      "judgment": "incorrect",
+      "reason": "Dick Steinberg → Jets: Sporting opposition, an advocate role or reversed public-attorney jurisdiction does not establish a city hosting an organizational office.",
+      "evidence_lines": [
+        3252
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.482Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_1393__ent_1401",
+      "judgment": "incorrect",
+      "reason": "United States → New York: Sporting opposition, an advocate role or reversed public-attorney jurisdiction does not establish a city hosting an organizational office.",
+      "evidence_lines": [
+        7610
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.482Z"
+      }
+    }
+  ],
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8fad82377b53d812b277c997d1faf7b3fa9f587e7e13c9f7b1d1309c5f3bc113"
+}

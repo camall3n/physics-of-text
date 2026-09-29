@@ -1,0 +1,107 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_231",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_231__ent_1080__ent_1362"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The unresolved dictionary mixes Internet-domain with corporate-lineage meanings, and this fact additionally merges DoubleClick and Forrester Research.",
+      "tags": [
+        "unresolved_relation",
+        "entity_collision",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation mean Internet business domain, and which company is intended?"
+    },
+    {
+      "indices": [
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_231__ent_950__ent_931",
+        "rel_231__ent_887__ent_931"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bell lineage is tied with Internet business-domain meaning in the unresolved dictionary.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should the relation describe Bell corporate lineage, ownership, or an industry?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_231__ent_766__ent_1332"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Split corporate-name offer fragments do not identify the unresolved cluster predicate.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Are Kohlberg and Kravis one company-name fragment, and what directed fact should be evaluated?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_231__ent_414__ent_881"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The possessed-company row competes with domain and lineage meanings.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Does this cluster intend a corporate ownership predicate for Disney/ABC?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_231__ent_942__ent_324"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The geographic company modifier is a distinct competing meaning in the unresolved cluster.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation express company location rather than industry or lineage?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_231__ent_516__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The attorney-office row is an isolated competing family and the relation meaning remains unresolved.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation have any legal-office interpretation for Garcia/United States?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "854924bafb71183323e86718faa500126de508df25b66fa3c3d1f8090399063c"
+}

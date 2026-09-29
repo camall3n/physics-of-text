@@ -1,0 +1,41 @@
+{
+  "relation": "rel_50",
+  "predicate_id": "criticizes",
+  "predicate_version": 1,
+  "predicate_hash": "d6d753a975aabab857381299947b8710fc44d5900e51f7ca64fa2d1da32876ac",
+  "predicate": {
+    "id": "criticizes",
+    "label": "criticized or accused",
+    "definition": "Person or institution X criticized, blamed or accused Y.",
+    "includes": [
+      "explicit criticize/blame/accuse/assail",
+      "a clearly critical directed allegation"
+    ],
+    "excludes": [
+      "warning without criticism",
+      "generic communication or meeting",
+      "rivalry/comparison alone"
+    ],
+    "ambiguous": [
+      "unclear accused person or attributed critic"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+  },
+  "dictionary_sha256": "43d6ebd345b22a446f7d913c9d3c0ca325b2a10b22b5a0df64f5572551e4b9ca",
+  "kind": "declared_before_case_grading",
+  "rationale": "Accusation/criticism is the largest coherent family. Voting with or joining a party does not establish criticism.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.416Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_50.before_grading.json",
+  "pregrading_annotation_sha256": "97059528e859c3be2b970e72de7c23ae21f9739efe489e47a5f5c767da2d78e0"
+}

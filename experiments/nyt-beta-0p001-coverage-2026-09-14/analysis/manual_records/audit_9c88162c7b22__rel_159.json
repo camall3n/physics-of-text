@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_159",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_159__ent_933__ent_936"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Internet business description is one of three tied singleton semantic families; no common dominant predicate was defensibly selected.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation mean an organization operating in the Internet field or a different precise relation?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_159__ent_67__ent_1138"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Organizational leadership is tied with unrelated industry and geographic-conflict families in the full dictionary.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should the shared relation be leadership, and how should the two other families be distinguished?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_159__ent_826__ent_1102"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Shooting/wounding in Gaza is tied with unrelated leadership and industry families; no coherent dominant scope exists.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation mean physical presence, injury location or another precisely defined predicate?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b2ab58ccdc2b90b0fa42932dbf87905092b89a5a900ce6b71657755c8d764346"
+}

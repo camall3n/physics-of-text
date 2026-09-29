@@ -1,0 +1,72 @@
+{
+  "relation": "rel_356",
+  "predicate_id": "has_lawyer",
+  "label": "has lawyer or legal counsel",
+  "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+  "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+  "facts": [
+    {
+      "case_id": "rel_356__ent_776__ent_533",
+      "judgment": "incorrect",
+      "reason": "Sears → Roebuck: Sears/Roebuck name fragments and a forward public-attorney-to-jurisdiction role do not establish the inverse has-lawyer relation.",
+      "evidence_lines": [
+        644,
+        645,
+        646,
+        648,
+        649,
+        650,
+        651,
+        652
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.012Z"
+      }
+    },
+    {
+      "case_id": "rel_356__ent_514__ent_846",
+      "judgment": "incorrect",
+      "reason": "Richard A. Brown → Queens: Sears/Roebuck name fragments and a forward public-attorney-to-jurisdiction role do not establish the inverse has-lawyer relation.",
+      "evidence_lines": [
+        8305,
+        8307,
+        8308,
+        8310,
+        8313
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.012Z"
+      }
+    },
+    {
+      "case_id": "rel_356__ent_1077__ent_890",
+      "judgment": "supported",
+      "reason": "Mr. Simpson → Robert L. Shapiro: Explicit possessed-lawyer appositives identify Robert Shapiro as Mr. Simpson's lawyer.",
+      "evidence_lines": [
+        3820,
+        3824
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.012Z"
+      }
+    }
+  ],
+  "predicate_hash": "7adfc3d56b8d9d1c512a2045c00e3347f181ccfe9995e1b6fab7c65a232837b4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1afabc658e9e99a3d52cab92b1ac57ddbb37fcc5349c3db831a01982a6a1abcd"
+}

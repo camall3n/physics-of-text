@@ -1,0 +1,91 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_121",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_121__ent_646__ent_333",
+        "rel_121__ent_645__ent_333",
+        "rel_121__ent_565__ent_641",
+        "rel_121__ent_883__ent_633",
+        "rel_121__ent_875__ent_632",
+        "rel_121__ent_874__ent_635",
+        "rel_121__ent_877__ent_634",
+        "rel_121__ent_876__ent_333",
+        "rel_121__ent_637__ent_879",
+        "rel_121__ent_639__ent_333",
+        "rel_121__ent_638__ent_832"
+      ],
+      "judgment": "supported",
+      "reason": "Direct death-at-home-in evidence establishes death in the named place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_121__ent_268__ent_1139"
+      ],
+      "judgment": "incorrect",
+      "reason": "State Senate leadership is unrelated to geographic death location.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_121__ent_561__ent_850"
+      ],
+      "judgment": "incorrect",
+      "reason": "Coaching a team to Super Bowl victory is not death location.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_121__ent_636__ent_878"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Tony Awards is an award designation, apparently substituted for the unnamed person who died at home.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Who is the deceased person associated with the Tony Awards reference in South Salem?"
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "926fa9522f0cf21b08840eec5c8ecba473a25c544fc8f953a5c63642dd5cf02b"
+}

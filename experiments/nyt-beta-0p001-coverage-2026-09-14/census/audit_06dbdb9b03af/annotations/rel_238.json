@@ -1,0 +1,118 @@
+{
+  "relation": "rel_238",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "facts": [
+    {
+      "case_id": "rel_238__ent_1101__ent_225",
+      "judgment": "supported",
+      "reason": "Jews → Cracow: A direct live-in row establishes residence of the person or members of the named population.",
+      "evidence_lines": [
+        6157,
+        6158,
+        6159,
+        6160,
+        6161,
+        6162,
+        6163
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:06.223Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_1160__ent_429",
+      "judgment": "supported",
+      "reason": "David Mermelstein → Los Angeles: A direct live-in row establishes residence of the person or members of the named population.",
+      "evidence_lines": [
+        6090,
+        6091,
+        6092,
+        6093,
+        6094
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:06.223Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_1162__ent_226",
+      "judgment": "supported",
+      "reason": "Mr. bin Laden → Sudan: A direct live-in row establishes residence of the person or members of the named population.",
+      "evidence_lines": [
+        6145,
+        6147,
+        6153,
+        6154
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:06.223Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_182__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Washington: Being in a city alone does not establish residence.",
+      "evidence_lines": [
+        4101,
+        5243,
+        7348
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:06.223Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_667__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born → United States: Born may be a malformed sentence-initial token or incomplete person reference; the live-in statement cannot be attributed confidently to an identified person.",
+      "evidence_lines": [
+        4692,
+        4693,
+        4700
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Born name an actual person here, or is it an extraction fragment?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:06.223Z"
+      }
+    }
+  ],
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "93cf88a2b0e9e7f9139e4fa0f56cbc01ddfeb3eb389eb66f1cd4863598f1f17d"
+}

@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: finite-population census has zero sampling uncertainty
+ok 1 - finite-population census has zero sampling uncertainty
+  ---
+  duration_ms: 1.166166
+  type: 'test'
+  ...
+# Subtest: exact finite-population bounds match small hand-enumerable cases
+ok 2 - exact finite-population bounds match small hand-enumerable cases
+  ---
+  duration_ms: 0.170375
+  type: 'test'
+  ...
+# Subtest: enumerated sampling coverage is at least the declared confidence for every true count
+ok 3 - enumerated sampling coverage is at least the declared confidence for every true count
+  ---
+  duration_ms: 0.923
+  type: 'test'
+  ...
+# Subtest: weighted micro estimates differ from macro and retain ambiguity endpoints
+ok 4 - weighted micro estimates differ from macro and retain ambiguity endpoints
+  ---
+  duration_ms: 0.521167
+  type: 'test'
+  ...
+# Subtest: all successes in five samples still leave substantial uncertainty
+ok 5 - all successes in five samples still leave substantial uncertainty
+  ---
+  duration_ms: 0.155875
+  type: 'test'
+  ...
+# Subtest: invalid or missing count mass is rejected
+ok 6 - invalid or missing count mass is rejected
+  ---
+  duration_ms: 5.791834
+  type: 'test'
+  ...
+# Subtest: all MAP rows belong to exactly one expressed ordered fact
+ok 7 - all MAP rows belong to exactly one expressed ordered fact
+  ---
+  duration_ms: 14.391125
+  type: 'test'
+  ...
+# Subtest: selects every small stratum and exactly five cases from larger strata
+ok 8 - selects every small stratum and exactly five cases from larger strata
+  ---
+  duration_ms: 1.05825
+  type: 'test'
+  ...
+# Subtest: sampling is deterministic and ranking uses only registered hashes
+ok 9 - sampling is deterministic and ranking uses only registered hashes
+  ---
+  duration_ms: 1.023708
+  type: 'test'
+  ...
+# Subtest: stratum weights recover micro precision, not equal allocation average
+ok 10 - stratum weights recover micro precision, not equal allocation average
+  ---
+  duration_ms: 0.470042
+  type: 'test'
+  ...
+# Subtest: relation rank ties use numeric IDs; entity pair order is retained
+ok 11 - relation rank ties use numeric IDs; entity pair order is retained
+  ---
+  duration_ms: 0.204875
+  type: 'test'
+  ...
+# Subtest: ambiguous or malformed source input cannot silently change columns
+ok 12 - ambiguous or malformed source input cannot silently change columns
+  ---
+  duration_ms: 0.979708
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 92.437625

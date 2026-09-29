@@ -1,0 +1,70 @@
+{
+  "relation": "rel_168",
+  "predicate_id": "population_includes",
+  "label": "population includes subgroup members",
+  "definition": "Population X is explicitly described as including people of demographic subgroup Y.",
+  "scope_notes": "Includes: explicit population including people from Y; a stated subgroup among the described population; historical described populations. Excludes: ordinary organizational membership or corporate ownership; geographic containment alone; mere comparison, proximity, or interaction; inferring that every member of Y belongs to X. Ambiguous unless resolved by case-local evidence: generic include with unclear demographic roles; unclear population versus person or organization; a subgroup attachment to another population. This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X.",
+  "facts": [
+    {
+      "case_id": "rel_168__ent_722__ent_669",
+      "judgment": "supported",
+      "reason": "Westerners → Americans: The Westerners group explicitly includes Americans; this establishes members of that demographic subgroup within the described population.",
+      "evidence_lines": [
+        7527,
+        7528,
+        7529,
+        7530,
+        7532,
+        7533,
+        7534
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.391Z"
+      }
+    },
+    {
+      "case_id": "rel_168__ent_1034__ent_1035",
+      "judgment": "incorrect",
+      "reason": "Danny Meyer → Union Square Cafe: Co-ownership and restaurant operations involve a person and business, not demographic population inclusion.",
+      "evidence_lines": [
+        1437,
+        1438,
+        1441,
+        1442
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.391Z"
+      }
+    },
+    {
+      "case_id": "rel_168__ent_247__ent_489",
+      "judgment": "incorrect",
+      "reason": "Louis Farrakhan → Nation of Islam: Championing an organization’s ideology does not make a person a population containing a demographic subgroup.",
+      "evidence_lines": [
+        2950,
+        4972
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.391Z"
+      }
+    }
+  ],
+  "predicate_hash": "aed7f7b75db58e4e35d1cd148ad04cbab35cfa09e644b237df956c7b3fe7c574",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c3200578f06f2d504e3c519c80b5aa3c9bd0af440fbf69e71e6d61445b1f14c2"
+}

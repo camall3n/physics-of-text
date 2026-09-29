@@ -1,0 +1,47 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_212",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_212__ent_1065__ent_1064",
+        "rel_212__ent_1073__ent_1129"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit subsidiary or organizational-part and owned-by paths establish child-to-parent business containment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_212__ent_586__ent_189",
+        "rel_212__ent_968__ent_1011",
+        "rel_212__ent_679__ent_484"
+      ],
+      "judgment": "incorrect",
+      "reason": "A political liaison, person-country interaction or street address is not subsidiary containment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e2c560993574336169d8408467bb93d912fbb485ed8cc38b93a677465cc4b169"
+}

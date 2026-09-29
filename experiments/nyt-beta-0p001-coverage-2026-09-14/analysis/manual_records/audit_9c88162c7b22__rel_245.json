@@ -1,0 +1,47 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_245",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_245__ent_669__ent_1124",
+        "rel_245__ent_34__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit visiting or traveling to the place establishes destination movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_245__ent_786__ent_305",
+        "rel_245__ent_1000__ent_304"
+      ],
+      "judgment": "incorrect",
+      "reason": "Headquarters, research or stores in the city locate the company; the headquarters visitor is someone else.",
+      "tags": [
+        "wrong_movement_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "8917bcf684d9d491b5a73d98e74d747e69f19d99d8e6c25a89374c53fc31a3ae"
+}

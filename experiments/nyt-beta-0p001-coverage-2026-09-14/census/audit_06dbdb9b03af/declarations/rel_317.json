@@ -1,0 +1,49 @@
+{
+  "relation": "rel_317",
+  "predicate_id": "communicates_to",
+  "predicate_version": 1,
+  "predicate_hash": "a82d4a7aab0a8fbf3f86b7d71ec6b6b931f5415050326cab5d60de9e300b979c",
+  "predicate": {
+    "id": "communicates_to",
+    "label": "directed communication to",
+    "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+    "includes": [
+      "tell/ask/urge/notify/advise/warn/persuade/address/speak-to",
+      "testimony before the addressee",
+      "send/submit a clearly communicative object",
+      "institutional communication through an identified representative"
+    ],
+    "excludes": [
+      "mere meeting/cooperation/support",
+      "speaking about or criticizing Y without address",
+      "physical transfer",
+      "spokesperson intermediary treated as recipient"
+    ],
+    "ambiguous": [
+      "send/submit/give with omitted object and no other clear communication in this fact",
+      "person versus their administration or envoy attribution"
+    ],
+    "notes": "An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+    "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it."
+  },
+  "dictionary_sha256": "8ab441abeb92cbab6c29d740da1f8b9225c4d8085596ec55afc87cafcc975783",
+  "kind": "declared_before_case_grading",
+  "rationale": "Tell8/ask7/notify5 dominate addressed communication; work-with and opposition remain separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:08:39.047Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_317.before_grading.json",
+  "pregrading_annotation_sha256": "164123facb9c9afcd2578144c9ecd275ed60cb4e6ff569da5fc735c65bf52d8c"
+}

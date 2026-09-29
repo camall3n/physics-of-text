@@ -1,0 +1,76 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_326",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_326__ent_564__ent_1002",
+        "rel_326__ent_680__ent_440",
+        "rel_326__ent_647__ent_1211"
+      ],
+      "judgment": "supported",
+      "reason": "Direct unqualified leave-for or move-to paths establish geographic destination movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_326__ent_1004__ent_682"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leave-for wording is accompanied by explicit owner plans for a stadium in New Jersey, so completed versus proposed relocation remains unresolved.",
+      "tags": [
+        "modality"
+      ],
+      "question": "Was the Yankees relocation asserted as actual movement or merely part of the stadium proposal?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_326__ent_318__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Travel and arrival are explicit for Cubans, but the same latent subject also includes the distinct named attorney Michael J. Garcia.",
+      "tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "question": "Should Cubans and Michael J. Garcia be separate entities before evaluating this travel fact?"
+    },
+    {
+      "indices": [
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_326__ent_7__ent_169",
+        "rel_326__ent_819__ent_1140"
+      ],
+      "judgment": "incorrect",
+      "reason": "Having a partisan person in the White House or a party having a person is not destination movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "fe0a040715c7c9789bc2865d8104cc17653d53f035b738429bf3b2280db6811c"
+}

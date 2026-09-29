@@ -1,0 +1,154 @@
+{
+  "relation": "rel_306",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "facts": [
+    {
+      "case_id": "rel_306__ent_887__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Daniel → Manhattan; Corcoran Group → Manhattan: Obituary/relative attachment does not establish Daniel's residence, and a Corcoran Group broker extraction is merged into this same subject.",
+      "evidence_lines": [
+        3996,
+        3997,
+        3999,
+        4000,
+        4002,
+        4003,
+        4004,
+        7377
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "attachment_ambiguity"
+      ],
+      "reviewer_question": "Who is the resident, and should Daniel and Corcoran Group be separate entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_483__ent_234",
+      "judgment": "supported",
+      "reason": "Israelis → East Jerusalem: A local live-in row explicitly establishes residence; other incidental rows do not negate it.",
+      "evidence_lines": [
+        6165,
+        6166,
+        6168,
+        6169,
+        6171
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_1323__ent_333",
+      "judgment": "supported",
+      "reason": "Robert → Manhattan: A local live-in row explicitly establishes residence; other incidental rows do not negate it.",
+      "evidence_lines": [
+        3927,
+        3928,
+        3933
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_1100__ent_280",
+      "judgment": "ambiguous",
+      "reason": "Andrew → Manhattan; Peter → Manhattan: Obituary and trial-role rows merge Peter and Andrew without resolving either person's residence.",
+      "evidence_lines": [
+        3937,
+        4009
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "attachment_ambiguity"
+      ],
+      "reviewer_question": "Which person and whose residence do these rows identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_646__ent_280",
+      "judgment": "ambiguous",
+      "reason": "David → Manhattan: Obituary son/daughter-of-place wording leaves residence attachment unclear; other local rows do not resolve it.",
+      "evidence_lines": [
+        3960,
+        3963
+      ],
+      "issue_tags": [
+        "attachment_ambiguity"
+      ],
+      "reviewer_question": "Does the place modify this named person or another relative in the obituary?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_406__ent_280",
+      "judgment": "ambiguous",
+      "reason": "William → Manhattan: Obituary son/daughter-of-place wording leaves residence attachment unclear; other local rows do not resolve it.",
+      "evidence_lines": [
+        4015,
+        4019
+      ],
+      "issue_tags": [
+        "attachment_ambiguity"
+      ],
+      "reviewer_question": "Does the place modify this named person or another relative in the obituary?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_324__ent_1378",
+      "judgment": "incorrect",
+      "reason": "Ameritech → Bell: Acquisition evidence does not establish residence.",
+      "evidence_lines": [
+        6852
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:19.521Z"
+      }
+    }
+  ],
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ccc32778324cca8835af587c03fe9aab73bd2e0a8c0ed9e7b64fa0cad1a02e96"
+}

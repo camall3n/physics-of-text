@@ -1,0 +1,38 @@
+{
+  "relation": "rel_269",
+  "predicate_id": "geographic_part_of",
+  "predicate_version": 1,
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate": {
+    "id": "geographic_part_of",
+    "label": "geographical part of",
+    "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+    "includes": [
+      "area/section/neighborhood/district of or in",
+      "clear place-to-containing-place attachment"
+    ],
+    "excludes": [
+      "organization subsidiary or location",
+      "residence/work/travel",
+      "an event in a place"
+    ],
+    "ambiguous": [
+      "place names attached through an omitted institution"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution."
+  },
+  "dictionary_sha256": "b5028fd7946bede1a3c10a8ef1fddeddb9f64a42d79a781026e47ec1fa8243f3",
+  "kind": "declared_before_case_grading",
+  "rationale": "Area/neighborhood/section of borough paths dominate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.746Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_269.before_grading.json",
+  "pregrading_annotation_sha256": "c37fa87320974e72cc2846ba001f4672e4c71364326496fe8b35c0e1b62ad3e4"
+}

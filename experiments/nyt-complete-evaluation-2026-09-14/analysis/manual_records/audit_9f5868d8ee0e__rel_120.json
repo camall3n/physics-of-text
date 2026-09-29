@@ -1,0 +1,126 @@
+{
+  "audit": "audit_9f5868d8ee0e",
+  "relation": "rel_120",
+  "cases_sha256": "5048d901aa518c2085dc040ff0c8decbe5045c925902848b6cc3c1521e57e04d",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23
+      ],
+      "case_ids": [
+        "rel_120__ent_453__ent_255",
+        "rel_120__ent_695__ent_210",
+        "rel_120__ent_831__ent_213",
+        "rel_120__ent_492__ent_1118",
+        "rel_120__ent_1197__ent_268",
+        "rel_120__ent_1197__ent_261",
+        "rel_120__ent_1197__ent_267",
+        "rel_120__ent_1197__ent_265",
+        "rel_120__ent_1197__ent_727",
+        "rel_120__ent_1197__ent_49",
+        "rel_120__ent_820__ent_1132",
+        "rel_120__ent_697__ent_212",
+        "rel_120__ent_815__ent_454",
+        "rel_120__ent_211__ent_452",
+        "rel_120__ent_818__ent_694",
+        "rel_120__ent_798__ent_455",
+        "rel_120__ent_1197__ent_969"
+      ],
+      "judgment": "supported",
+      "reason": "The complete case explicitly identifies the political body as having this named president, ruler, or parliamentary leader.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_120__ent_811__ent_816",
+        "rel_120__ent_1197__ent_816",
+        "rel_120__ent_811__ent_819"
+      ],
+      "judgment": "incorrect",
+      "reason": "Collective party control or membership does not establish an individual political leader as required by this predicate.",
+      "tags": [
+        "wrong_entity_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        15,
+        16,
+        24,
+        25
+      ],
+      "case_ids": [
+        "rel_120__ent_543__ent_590",
+        "rel_120__ent_891__ent_651",
+        "rel_120__ent_201__ent_443",
+        "rel_120__ent_1002__ent_536",
+        "rel_120__ent_776__ent_533"
+      ],
+      "judgment": "incorrect",
+      "reason": "The case expresses team leadership, legal representation, illness, communication, or a company-name fragment rather than political leadership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        19
+      ],
+      "case_ids": [
+        "rel_120__ent_1197__ent_263"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leader is identified only as Republican, not an individual officeholder.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which Republican leader is intended?"
+    }
+  ],
+  "mixed": [
+    4,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23
+  ],
+  "broad": []
+}

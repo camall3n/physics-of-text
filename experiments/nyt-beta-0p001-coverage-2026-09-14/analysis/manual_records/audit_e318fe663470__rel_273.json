@@ -1,0 +1,73 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_273",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4
+      ],
+      "case_ids": [
+        "rel_273__ent_569__ent_846",
+        "rel_273__ent_603__ent_333"
+      ],
+      "judgment": "supported",
+      "reason": "A local lawyer-in or geographic lawyer modifier explicitly establishes the legal practice location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "case_ids": [
+        "rel_273__ent_602__ent_333",
+        "rel_273__ent_606__ent_333",
+        "rel_273__ent_848__ent_333",
+        "rel_273__ent_511__ent_1008"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Qualifying legal-practice evidence is merged with a different named person in the same inferred subject.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which lawyer should this fact identify after separating the incompatible people?"
+    },
+    {
+      "indices": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_273__ent_645__ent_1008",
+        "rel_273__ent_398__ent_846",
+        "rel_273__ent_893__ent_410",
+        "rel_273__ent_871__ent_1265"
+      ],
+      "judgment": "incorrect",
+      "reason": "Home/death/other professional or political evidence does not establish legal practice.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "87a893c40bd4fa4aa00a7a54f3112efc626a32b8751c3820f48c04b2415297d7"
+}

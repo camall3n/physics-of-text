@@ -1,0 +1,49 @@
+{
+  "relation": "rel_160",
+  "predicate_id": "flows_into",
+  "predicate_version": 1,
+  "predicate_hash": "2812c6965cf2b5eb31fea6e84c3e3a49ff7949f1acb069b8367e66263a32366f",
+  "predicate": {
+    "id": "flows_into",
+    "label": "flows into waterbody",
+    "definition": "River or watercourse X flows into, joins, or empties into receiving waterbody Y.",
+    "includes": [
+      "explicit flow-into or empty-into",
+      "river confluence with an identified receiving waterbody",
+      "river meeting Y when direction is locally clear"
+    ],
+    "excludes": [
+      "ordinary interpersonal meeting or joint action",
+      "adjacency or a waterfront gateway alone",
+      "flow in the reverse direction"
+    ],
+    "ambiguous": [
+      "a bare meet or join with unresolved receiving direction",
+      "unclear watercourse versus place name"
+    ],
+    "notes": "Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally.",
+    "scope_notes": "Includes: explicit flow-into or empty-into; river confluence with an identified receiving waterbody; river meeting Y when direction is locally clear. Excludes: ordinary interpersonal meeting or joint action; adjacency or a waterfront gateway alone; flow in the reverse direction. Ambiguous unless resolved by case-local evidence: a bare meet or join with unresolved receiving direction; unclear watercourse versus place name. Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally."
+  },
+  "dictionary_sha256": "b522f217905a23d9b29485ccfdb7475a936eec687c5157695edae2231c15b1a5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Both ordered pairs are rivers/creeks and receiving waters; meet/join/flow/empty denotes confluence, not interpersonal meeting. Geographic adjacency alone still needs directed flow evidence.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.738Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_160.before_grading.json",
+  "pregrading_annotation_sha256": "0d7b2aac9f7035444b387f114eb2fc6fac4b71de57347140d95916ca3b275d26"
+}

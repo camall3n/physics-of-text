@@ -1,0 +1,48 @@
+{
+  "relation": "rel_151",
+  "predicate_id": "director_of",
+  "predicate_version": 1,
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate": {
+    "id": "director_of",
+    "label": "director of organization",
+    "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+    "includes": [
+      "explicit director/co-director",
+      "functional directorship such as communications or research director within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "head/president/chair/executive alone",
+      "spokesperson/adviser/publisher/professor/member alone",
+      "performing or authorship alone"
+    ],
+    "ambiguous": [
+      "personal principal with omitted organization",
+      "abstract topic in place of the actual institution"
+    ],
+    "notes": "Does not require sole chief control of the entire institution.",
+    "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution."
+  },
+  "dictionary_sha256": "5d098c74bbb74fb8731973f0d8940dab482a0163c353790b0371f6f6db66f673",
+  "kind": "declared_before_case_grading",
+  "rationale": "Director-at P0 plus co-director and departmental director paths form the largest specific office family; spokesperson and specialist/head alone are competing predicates.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:19.988Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    8,
+    9,
+    10,
+    11,
+    12,
+    21
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_151.before_grading.json",
+  "pregrading_annotation_sha256": "2266fa0f5c7a5347833de758651db1ca40821a817a20e7302e502523daf7132c"
+}

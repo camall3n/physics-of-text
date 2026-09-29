@@ -1,0 +1,72 @@
+{
+  "relation": "rel_337",
+  "predicate_id": "reviews_works_in_medium",
+  "label": "reviews works in medium",
+  "definition": "Person X critically reviews artistic works or editions presented in medium Y.",
+  "scope_notes": "Includes: explicit review of a collection, edition or version identified by the medium; historical critical review in the identified medium. Excludes: review of a performer or venue alone; the publication carrying the review rather than the medium of the reviewed work; merely mentioning or producing the medium. Ambiguous unless resolved by case-local evidence: unclear whether Y identifies the reviewed-work medium or the review publication; missing critic or review attachment. This is a distinct argument relation from reviews_artistic_output_of. A DVD collection review can establish the medium even if the work title is omitted.",
+  "facts": [
+    {
+      "case_id": "rel_337__ent_1197__ent_811",
+      "judgment": "incorrect",
+      "reason": "Senate → House: Legislative cooperation, agreement or meetings do not establish artistic review in a medium.",
+      "evidence_lines": [
+        1934,
+        1935,
+        1936,
+        1937,
+        1938,
+        1940,
+        1941
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.285Z"
+      }
+    },
+    {
+      "case_id": "rel_337__ent_1192__ent_1193",
+      "judgment": "supported",
+      "reason": "Dave Kehr → DVD: Direct review of a DVD collection/version establishes reviewing artistic editions in that medium.",
+      "evidence_lines": [
+        1890,
+        1892,
+        1895,
+        1896
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.285Z"
+      }
+    },
+    {
+      "case_id": "rel_337__ent_586__ent_189",
+      "judgment": "incorrect",
+      "reason": "White House → Congress: Legislative cooperation, agreement or meetings do not establish artistic review in a medium.",
+      "evidence_lines": [
+        2061,
+        7884
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.285Z"
+      }
+    }
+  ],
+  "predicate_hash": "4562ea871abaf0a20f23154d146c9148ab61c69de2336e9af07c3a290dabb50b",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1c6064a74e725b30df388f033dc40e8fd9fb85edf346b2df92dd3aa343c54e08"
+}

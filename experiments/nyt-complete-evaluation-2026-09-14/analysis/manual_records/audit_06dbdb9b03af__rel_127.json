@@ -1,0 +1,70 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_127",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_127__ent_7__ent_243",
+        "rel_127__ent_7__ent_488",
+        "rel_127__ent_263__ent_244",
+        "rel_127__ent_263__ent_486",
+        "rel_127__ent_263__ent_1170",
+        "rel_127__ent_7__ent_485",
+        "rel_127__ent_263__ent_1171",
+        "rel_127__ent_263__ent_1172",
+        "rel_127__ent_263__ent_245"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Chair or head wording is present but the subject is an unnamed Republican or Democrat.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which individual officeholder is intended?"
+    },
+    {
+      "indices": [
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_127__ent_56__ent_59",
+        "rel_127__ent_247__ent_489"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chair or head/leadership evidence supports managerial office in the named institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_127__ent_481__ent_242"
+      ],
+      "judgment": "incorrect",
+      "reason": "Property location on an avenue is unrelated to managerial office.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

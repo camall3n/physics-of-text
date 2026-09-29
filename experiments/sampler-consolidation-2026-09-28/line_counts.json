@@ -1,0 +1,27 @@
+{
+  "definition": "Physical lines including blanks/comments and final unterminated lines. Java plus mjs in the changed implementation scope; archives, generated files, JSON evidence and Markdown excluded. Compatibility symlinks are not additional copies.",
+  "before": {
+    "java_files": 308,
+    "java_lines": 36496,
+    "build_run_wrapper_lines": 158,
+    "total_code_lines": 36654
+  },
+  "after": {
+    "java_files": 154,
+    "java_lines": 18248,
+    "shared_modules": {
+      "code/sampler/run.mjs": 55,
+      "code/sampler/build.mjs": 46,
+      "code/sampler/tests/consolidation.mjs": 182
+    },
+    "compatibility_adapters": {
+      "experiments/nyt-precision-investigation-2026-09-12/scripts/build_entity_variant.mjs": 14,
+      "experiments/nyt-precision-investigation-2026-09-12/scripts/run_entity_experiment.mjs": 4,
+      "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/build_entity_variant.mjs": 14,
+      "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/run_entity_experiment.mjs": 4
+    },
+    "total_code_lines": 18567
+  },
+  "duplicate_java_lines_removed": 18248,
+  "net_code_lines_removed": 18087
+}

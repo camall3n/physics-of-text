@@ -1,0 +1,57 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_322",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_322__ent_1168__ent_1169",
+        "rel_322__ent_1243__ent_1142"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit be-at, headquarters or named salesroom location identifies the business on the stated street.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_322__ent_1254__ent_953"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wall Street modifies a financial house/firm and may denote industry rather than physical location.",
+      "tags": [
+        "place_industry_ambiguity"
+      ],
+      "question": "Is Wall Street a physical office location or a financial-industry description?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_322__ent_1160__ent_1277"
+      ],
+      "judgment": "incorrect",
+      "reason": "A person's article about a city does not establish an organization's location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b2da629a8501f5f0db1c20608d8514f69bb6cf4828e8bc69b650d164619bfe0d"
+}

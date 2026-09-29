@@ -1,0 +1,107 @@
+{
+  "relation": "rel_27",
+  "predicate_id": "lawyer_for",
+  "label": "lawyer or attorney for",
+  "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+  "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment.",
+  "facts": [
+    {
+      "case_id": "rel_27__ent_514__ent_1254",
+      "judgment": "supported",
+      "reason": "Richard A. Brown → Queens: Explicit governmental attorney title and prosecutorial context establish service for the named jurisdiction.",
+      "evidence_lines": [
+        8304,
+        8305,
+        8309,
+        8310,
+        8311,
+        8312,
+        8313
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.683Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_756__ent_537",
+      "judgment": "supported",
+      "reason": "Mary Jo White → United States: Explicit governmental attorney title and prosecutorial context establish service for the named jurisdiction.",
+      "evidence_lines": [
+        8324,
+        8326,
+        8332,
+        8333
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.684Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_131__ent_1213",
+      "judgment": "incorrect",
+      "reason": "Gerry Adams → Sinn Fein: Political leadership or reverse client-to-lawyer evidence does not establish the declared person-to-client legal role.",
+      "evidence_lines": [
+        35,
+        2922,
+        4994
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.684Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_732__ent_40",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → David E. Kendall: Political leadership or reverse client-to-lawyer evidence does not establish the declared person-to-client legal role.",
+      "evidence_lines": [
+        3813
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.684Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_998__ent_900",
+      "judgment": "supported",
+      "reason": "Christopher J. Christie → United States: Explicit governmental attorney title and prosecutorial context establish service for the named jurisdiction.",
+      "evidence_lines": [
+        8337
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.684Z"
+      }
+    }
+  ],
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2f0e16d8b7688aa99aa5b99a6d6b98f93e2fd14761253d0c4561865b372edf01"
+}

@@ -1,0 +1,77 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_117",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_117__ent_197__ent_199"
+      ],
+      "judgment": "supported",
+      "reason": "Direct mention-to and communicative letter/article context establishes communication to the named recipient.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        4,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_117__ent_537__ent_820",
+        "rel_117__ent_308__ent_1005",
+        "rel_117__ent_356__ent_308",
+        "rel_117__ent_66__ent_543"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Give has no expressed object, so information transfer cannot be distinguished from material aid, points, opportunities or another noncommunicative transfer.",
+      "tags": [
+        "omitted_object"
+      ],
+      "question": "What is being given, and does it constitute a directed message or information?"
+    },
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_117__ent_663__ent_189",
+        "rel_117__ent_663__ent_1197"
+      ],
+      "judgment": "incorrect",
+      "reason": "The constitutional rows describe legal authority or powers granted to a legislature, not institutional communication addressed to it.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_117__ent_565__ent_322"
+      ],
+      "judgment": "incorrect",
+      "reason": "The only evidence is birthplace rather than communication.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "20c17c981a50acc0ac3a429cb303aaa4f0c6e28023611fa68747d4b7218e5381"
+}

@@ -1,0 +1,39 @@
+✔ minimal prefix uses all rows and includes the whole boundary relation (1.896125ms)
+✔ ties use numeric relation ID and do not expand every tied relation (0.192459ms)
+✔ targets must increase and remain valid fractions (0.652166ms)
+✔ census includes seventeen distinct facts and repeated evidence without a five-case cap (0.253ms)
+✔ exact denominators, nested score prefixes, and preserved baseline (23.680791ms)
+✔ missing judgment fails strict validation (15.374625ms)
+✔ invalid judgment fails strict validation (14.849167ms)
+✔ missing case fails strict validation (14.872625ms)
+✔ duplicate case fails strict validation (14.419958ms)
+✔ foreign case fails strict validation (14.912583ms)
+✔ foreign citations cannot support a fact (14.080875ms)
+✔ ambiguity requires a specific reviewer question (13.212333ms)
+✔ source mutation is rejected (13.129292ms)
+✔ copied source mutation is rejected (12.484167ms)
+✔ exact prior judgment provenance is required (14.96125ms)
+✔ prior full-census labels cannot be changed (14.412166ms)
+✔ undefined or silently changed predicate is rejected (14.682209ms)
+✔ declaration is required and frozen before all case grading (14.265166ms)
+✔ prior source-case equality required during import (18.316833ms)
+✔ preparation preserves annotations and human overrides; override affects every containing prefix (17.052292ms)
+✔ human override cannot silently alter prior top20 scores (13.642875ms)
+✔ readable reports include every case and every requested threshold (19.777041ms)
+✔ each cutoff gets a complete independent selected-prefix view and evaluated navigation (20.969666ms)
+✔ unresolved predicates retain every ambiguous fact in the exact denominator (0.129625ms)
+✔ per-predicate hashes freeze definitions without freezing unrelated catalogue additions (0.467042ms)
+✔ identity diagnostics flag same latent ID with different role names even without side multiplicity (0.109ms)
+✔ identity diagnostics preserve aliases as inspection flags and accept ordinary distinct entities (0.0525ms)
+✔ complete evidence signatures ignore run-local numbers and duplicate rows only (1.777208ms)
+✔ identity equality and predicate scope remain part of consistency signature (0.144792ms)
+✔ effective labels respect explicit overrides and do not treat provisional imports as final (0.121875ms)
+✔ prior-only disagreements never masquerade as current conflicts (0.248208ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 378.035708

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "complete_preservation",
+    "command": [
+      "node",
+      "experiments/nyt-complete-evaluation-2026-09-14/scripts/verify_preservation.mjs",
+      "--check"
+    ],
+    "exit_code": 0,
+    "record": "after_complete_preservation.json",
+    "entries": 8055,
+    "authorized_changes": 1027,
+    "failures": 0,
+    "consistent_with_authorized_maintenance": true
+  },
+  {
+    "name": "coverage_preservation",
+    "command": [
+      "node",
+      "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/verify_protected_files.mjs",
+      "--check"
+    ],
+    "exit_code": 0,
+    "record": "after_coverage_preservation.json",
+    "entries": 9721,
+    "authorized_changes": 1510,
+    "failures": 0,
+    "consistent_with_authorized_maintenance": true
+  },
+  {
+    "name": "baseline_preservation",
+    "command": [
+      "node",
+      "reports/evaluation-consolidation-2026-09-29/verify_baseline.mjs",
+      "--final-sources",
+      "--output",
+      "after_preservation.json"
+    ],
+    "exit_code": 0,
+    "record": "after_preservation.json",
+    "entries": 14593,
+    "preserved_files": 14480,
+    "maintenance_transitions": 36,
+    "final_source_files": 173,
+    "failures": 0,
+    "complete": true
+  }
+]

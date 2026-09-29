@@ -1,0 +1,126 @@
+{
+  "relation": "rel_90",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_90__ent_1408__ent_586",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → White House: Actual arrivals and visits establish physical presence at the White House site.",
+      "evidence_lines": [
+        3489,
+        3491,
+        3493,
+        6176,
+        6178,
+        6180
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.414Z"
+      }
+    },
+    {
+      "case_id": "rel_90__ent_360__ent_1415",
+      "judgment": "ambiguous",
+      "reason": "Ms. Lewinsky → White House; John F. Kennedy → White House: The latent subject merges John F. Kennedy and Ms. Lewinsky; local presence evidence cannot make those distinct people one coherent inferred entity.",
+      "evidence_lines": [
+        2748,
+        3492,
+        3495,
+        6174
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should John F. Kennedy and Ms. Lewinsky be separated before evaluating physical presence?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.414Z"
+      }
+    },
+    {
+      "case_id": "rel_90__ent_818__ent_1196",
+      "judgment": "incorrect",
+      "reason": "China → World Trade Organization: Institutional accession or athletic membership is not presence in a geographic place.",
+      "evidence_lines": [
+        1925,
+        1927
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.414Z"
+      }
+    },
+    {
+      "case_id": "rel_90__ent_1198__ent_810",
+      "judgment": "incorrect",
+      "reason": "Poland → European Union: Institutional accession or athletic membership is not presence in a geographic place.",
+      "evidence_lines": [
+        1945,
+        1946
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.414Z"
+      }
+    },
+    {
+      "case_id": "rel_90__ent_66__ent_896",
+      "judgment": "incorrect",
+      "reason": "Kidd → Nets: Institutional accession or athletic membership is not presence in a geographic place.",
+      "evidence_lines": [
+        3111,
+        3112
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.414Z"
+      }
+    },
+    {
+      "case_id": "rel_90__ent_669__ent_167",
+      "judgment": "supported",
+      "reason": "Americans → Iraq: Dying in Iraq establishes presence there of affected Americans, not of every American.",
+      "evidence_lines": [
+        8143
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.414Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "588bcd6c376b066b40b7dfcf806ee69931705731446a9ad4281bca2f38a03f48"
+}

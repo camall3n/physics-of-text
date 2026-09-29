@@ -1,0 +1,4601 @@
+{
+  "audit_id": "audit_9c88162c7b22",
+  "status": "Dictionary-first assignment declarations; no case grades",
+  "declarations": [
+    {
+      "relation": "rel_179",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        12,
+        21
+      ],
+      "rationale": "Destination movement dominates: leave-for, return-to, move-to and relocation; other presence/meeting/sports paths do not expand movement scope.",
+      "reviewer": "runner",
+      "rank": 21,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_91",
+      "predicate_id": "economist_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "rationale": "Explicit economist affiliation dominates the complete dictionary; analyst, principal and other jobs remain distinct.",
+      "reviewer": "runner",
+      "rank": 22,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_206",
+      "predicate_id": "owns",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        19,
+        21,
+        22
+      ],
+      "rationale": "Owner, ownership and completed acquisition establish X owner of Y; merger, watching or managerial titles alone do not.",
+      "reviewer": "runner",
+      "rank": 23,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_308",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        13,
+        15
+      ],
+      "rationale": "Organizational unit/part/subsidiary of parent dominates; preserve direction and require organizational first argument.",
+      "reviewer": "runner",
+      "rank": 24,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_362",
+      "predicate_id": "resides_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        17
+      ],
+      "rationale": "Live-in paths overwhelmingly dominate. Travel, entry, flight and mere presence remain distinct.",
+      "reviewer": "runner",
+      "rank": 25,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_387",
+      "predicate_id": "organization_national_affiliation",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "rationale": "Corporate descriptions modified by national affiliation dominate. This is nationality description, not geographic headquarters inferred from nationality.",
+      "reviewer": "runner",
+      "rank": 26,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_175",
+      "predicate_id": "coach_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        15,
+        16
+      ],
+      "rationale": "Explicit coach office and coaching dominate; generic team possession and management do not become coaching.",
+      "reviewer": "runner",
+      "rank": 27,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_299",
+      "predicate_id": "editor_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        16,
+        18,
+        21,
+        23,
+        25
+      ],
+      "rationale": "Editorial office/editing is the dominant family; publisher, writer and founder are deliberately outside editor scope.",
+      "reviewer": "runner",
+      "rank": 28,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_331",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        19,
+        23,
+        26
+      ],
+      "rationale": "Inverse political-office paths: country/body first, its president/leader/dictator second. Meetings with politicians alone are insufficient.",
+      "reviewer": "runner",
+      "rank": 29,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_6",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "rationale": "Owned-by and unit/division-of dominate the child-to-parent direction.",
+      "reviewer": "runner",
+      "rank": 30,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_397",
+      "predicate_id": "member_of",
+      "supporting_path_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "rationale": "Membership, join, entry, admission and expulsion from organized bodies dominate; literal organizations and temporal actuality must be checked per fact.",
+      "reviewer": "runner",
+      "rank": 31,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_222",
+      "predicate_id": "owns",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "rationale": "Parent/owner and owns/acquisition paths dominate the owner-to-owned direction.",
+      "reviewer": "runner",
+      "rank": 32,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_203",
+      "predicate_id": "has_spokesperson",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "rationale": "Inverse spokesperson paths dominate: principal first and spokesperson second. Bare location of speech is not itself the office.",
+      "reviewer": "runner",
+      "rank": 33,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_219",
+      "predicate_id": "reviews_artistic_output_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        25
+      ],
+      "rationale": "Review of artistic work/performance is the consistent dictionary family; destination venue alone may be ambiguous and is not automatically the performer.",
+      "reviewer": "runner",
+      "rank": 34,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_281",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        1,
+        2,
+        8,
+        10
+      ],
+      "rationale": "Ask/notify/report/tell establish directed communication. Frequent bare send-to requires object/role evidence and cannot imply all sending is communication.",
+      "reviewer": "runner",
+      "rank": 35,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_199",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19,
+        21
+      ],
+      "rationale": "Head, president and chairman jointly dominate explicit organizational leadership; founding/legal service alone remains distinct.",
+      "reviewer": "runner",
+      "rank": 36,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_249",
+      "predicate_id": "lawyer_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "rationale": "Attorney/lawyer affiliation clearly dominates; generic coordinator or representative is not automatically legal counsel.",
+      "reviewer": "runner",
+      "rank": 37,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_383",
+      "predicate_id": "met_with",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        13,
+        16,
+        22
+      ],
+      "rationale": "Meeting/encounter paths are the strongest coherent family. Saying something about, telephoning or writing alone does not establish an actual meeting.",
+      "reviewer": "runner",
+      "rank": 38,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_27",
+      "predicate_id": "location_of_organization",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        11,
+        13,
+        16,
+        18,
+        19,
+        22,
+        24,
+        25,
+        26
+      ],
+      "rationale": "Literal first arguments are mainly New York/San Francisco/Chicago and second arguments advertising organizations: office/unit paths identify a geographic host of an organizational office. Preserve inverse location, not city-as-subsidiary. Genuine subsidiary facts in the minority do not broaden this predicate.",
+      "reviewer": "runner",
+      "rank": 39,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_284",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        13,
+        15,
+        16,
+        21,
+        26,
+        28
+      ],
+      "rationale": "President office dominates; manager, chair, owner and broad leader paths do not widen this title-specific predicate.",
+      "reviewer": "runner",
+      "rank": 40,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_301",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        17,
+        19,
+        22
+      ],
+      "rationale": "Explicit presidency dominates; candidacy, nomination and proposals remain nonactual or ambiguous rather than establishing tenure.",
+      "reviewer": "runner",
+      "rank": 41,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_36",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        14,
+        15
+      ],
+      "rationale": "Organization based/in-place and headquarters descriptions dominate; location of a board meeting alone need not locate the organization.",
+      "reviewer": "runner",
+      "rank": 42,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_178",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "rationale": "Based-in and campus/headquarters location dominate; manufacture alone does not establish headquarters.",
+      "reviewer": "runner",
+      "rank": 43,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_188",
+      "predicate_id": "winner_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        9,
+        11,
+        15
+      ],
+      "rationale": "Winner/win and award/competition receipt dominate. Scope includes named nonsport awards as well as competitions; participation alone is insufficient.",
+      "reviewer": "runner",
+      "rank": 44,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_230",
+      "predicate_id": "professor_at",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "rationale": "Professor/teach paths dominate; dean, scientist, expert and analyst alone retain distinct roles.",
+      "reviewer": "runner",
+      "rank": 45,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_14",
+      "predicate_id": "resides_in",
+      "supporting_path_indices": [
+        3,
+        9,
+        13,
+        20
+      ],
+      "rationale": "Central scope adjudication retains residence as the meaningful local interpretation of the obituary/relative-to-Manhattan cluster. Direct live-in evidence exists; son/brother-of ending at a place is an omitted-relative attachment and cannot establish either kinship to a city or automatic residence of X. Such unsupported attachments retain specific ambiguity questions.",
+      "reviewer": "runner",
+      "rank": 46,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_148",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "rationale": "Based/headquarters location dominates the organization-to-place direction.",
+      "reviewer": "runner",
+      "rank": 47,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_171",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "rationale": "Firm appositions/dependency locations plus explicit based-in dominate; literal entity roles distinguish location from organizational affiliation.",
+      "reviewer": "runner",
+      "rank": 48,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_50",
+      "predicate_id": "criticizes",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Accusation/criticism is the largest coherent family. Voting with or joining a party does not establish criticism.",
+      "reviewer": "runner",
+      "rank": 49,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_90",
+      "predicate_id": "participated_in_sporting_event",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "rationale": "After ordered-role inspection, sporting teams in/winning/losing World Series and league races form the largest interpretable domain; participation accommodates explicit competed-and-lost paths without imposing victory. Mixed White House political-office and physical-presence uses are separate and not absorbed.",
+      "reviewer": "runner",
+      "rank": 50,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_184",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        9,
+        12,
+        21,
+        22,
+        23
+      ],
+      "rationale": "Leader/whip/chair office dominates; party adjective must identify a body, and candidate/fundraising alone does not establish leadership.",
+      "reviewer": "runner",
+      "rank": 51,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_158",
+      "predicate_id": "acted_jointly_with",
+      "supporting_path_indices": [
+        0,
+        10,
+        14
+      ],
+      "rationale": "Join/cooperation is the largest candidate family (join 8, ally/sign 2) in country/party pairs. Central reviewer approved the narrow joint-action predicate, retaining A for generic join without shared action and E for adversarial war or mere relations.",
+      "reviewer": "runner",
+      "rank": 52,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_17",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        1,
+        2,
+        4,
+        6,
+        20
+      ],
+      "rationale": "Destination movement family (return/bring/move/travel-to, 14 rows) narrowly exceeds departure family (leave/move-from, 13). Preserve the explicit destination direction and note genuine mixed movement dictionary.",
+      "reviewer": "runner",
+      "rank": 53,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_79",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        7,
+        9,
+        11,
+        14,
+        19,
+        21
+      ],
+      "rationale": "Inverse leader/whip paths dominate party/body first and officeholder second; aides/supporters and candidate attachments remain distinct.",
+      "reviewer": "runner",
+      "rank": 54,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_103",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Explicit chairman title dominates, including prior office shown by retirement/replacement; generic center possession does not establish chairmanship.",
+      "reviewer": "runner",
+      "rank": 55,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_351",
+      "predicate_id": "writes_for",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "rationale": "Writing/review/critic work for a publication is the largest coherent family; mere quotation in a publication is not automatically authorship.",
+      "reviewer": "runner",
+      "rank": 56,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_268",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        0,
+        3,
+        6
+      ],
+      "rationale": "Tell is the dominant individual and coherent communication family; working with, marriage, alliance and support remain separate.",
+      "reviewer": "runner",
+      "rank": 57,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_314",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "rationale": "Owned-by, subsidiary/unit-of and own parent dominate the child-to-parent direction; proposed offers alone do not establish ownership.",
+      "reviewer": "runner",
+      "rank": 58,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_71",
+      "predicate_id": "managerial_office_in",
+      "supporting_path_indices": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        12
+      ],
+      "rationale": "Mixed explicit director/president/head offices form the largest leadership-office family (17 rows) compared with economist descriptions (13); economist alone remains outside this declared managerial scope. This breadth is explicit, not a post-grade expansion.",
+      "reviewer": "runner",
+      "rank": 59,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_122",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "rationale": "Spokesman/spokeswoman and speaking for a principal dominate; communications job titles alone need their existing scope treatment.",
+      "reviewer": "runner",
+      "rank": 60,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_131",
+      "predicate_id": "executive_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        4
+      ],
+      "rationale": "Executive office is the strongest explicit title family; chief/head/chair alone is not silently broadened into executive.",
+      "reviewer": "runner",
+      "rank": 61,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_164",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        1
+      ],
+      "rationale": "Urge supplies an unambiguous directed-communication family. Equally frequent submit-to has omitted object and requires the frozen communications ambiguity rule.",
+      "reviewer": "runner",
+      "rank": 62,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_176",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        2,
+        6,
+        11,
+        12,
+        14
+      ],
+      "rationale": "Arrival/come/leave-for destination movement dominates. Speech or presence in a place alone is separate; summons and preparations retain actuality caveats.",
+      "reviewer": "runner",
+      "rank": 63,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_385",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        4,
+        8
+      ],
+      "rationale": "Chairman title dominates over founder or executive; explicit retirement from chair also establishes historical office.",
+      "reviewer": "runner",
+      "rank": 64,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_40",
+      "predicate_id": "has_wife",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "rationale": "Inverse wife paths dominate and ordered pairs consistently identify X with named wife Y; daughter/mother/adviser/roommate remain distinct relationships.",
+      "reviewer": "runner",
+      "rank": 65,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_229",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11
+      ],
+      "rationale": "Firm/company-in-place and headquarters paths dominate; nationality adjectives alone do not establish exact geographic base.",
+      "reviewer": "runner",
+      "rank": 66,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_238",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        4,
+        14,
+        15
+      ],
+      "rationale": "Tell/ask/speak/message is the largest coherent family; bare give and attorney-mediated call require attachment/object checks.",
+      "reviewer": "runner",
+      "rank": 67,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_342",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        9,
+        17,
+        22
+      ],
+      "rationale": "Urge/tell/speak/suggest/report dominates communication to an addressee. Say-of or speaking against a comment need not address its subject.",
+      "reviewer": "runner",
+      "rank": 68,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_384",
+      "predicate_id": "died_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        16,
+        17,
+        18,
+        20
+      ],
+      "rationale": "Died/killed/death-in is the dominant coherent predicate; killer-subject, mere residence, and event rather than geographic destination retain separate treatment.",
+      "reviewer": "runner",
+      "rank": 69,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_390",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        1
+      ],
+      "rationale": "Persuade explicitly supplies communication to Y; frequent send variants have omitted objects and follow the existing ambiguity convention.",
+      "reviewer": "runner",
+      "rank": 70,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_34",
+      "predicate_id": "manager_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "rationale": "Explicit manager office overwhelmingly dominates; presidency, generic leadership or travel with a team is not expanded into manager.",
+      "reviewer": "runner",
+      "rank": 71,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_43",
+      "predicate_id": "lawyer_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "rationale": "Attorney office and legal service for a jurisdiction dominate; nomination/support/confirmation alone must establish actual tenure rather than proposed service.",
+      "reviewer": "runner",
+      "rank": 72,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_210",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        12,
+        15,
+        20
+      ],
+      "rationale": "Inverse country-to-minister/leader descriptions form the strongest coherent office family; mere saying in a place or policy comments are insufficient.",
+      "reviewer": "runner",
+      "rank": 73,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_70",
+      "predicate_id": "has_member",
+      "supporting_path_indices": [
+        0,
+        1,
+        6,
+        13
+      ],
+      "rationale": "Ordered-role inspection identifies mainly political groups/teams including named people; select inverse membership, not general containment of people, places and relatives in one catchall.",
+      "reviewer": "runner",
+      "rank": 74,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_96",
+      "predicate_id": "known_as",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        17
+      ],
+      "rationale": "Know/refer-as dominates explicit alternative naming of the same entity; attachment and distinct counterpart identity remain case questions.",
+      "reviewer": "runner",
+      "rank": 75,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_98",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Country/national group first and its president or government leader second dominate. Incomplete adjectival national identity retains the previous ambiguity rule.",
+      "reviewer": "runner",
+      "rank": 76,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_312",
+      "predicate_id": "professor_at",
+      "supporting_path_indices": [
+        1,
+        3,
+        4,
+        6,
+        9,
+        15,
+        16,
+        17
+      ],
+      "rationale": "Professor/teach family dominates the explicit academic office; expert/specialist/scientist alone does not establish teaching.",
+      "reviewer": "runner",
+      "rank": 77,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_234",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        12
+      ],
+      "rationale": "Inverse political leader paths dominate country/body-to-officeholder direction; plain speaking in the body or an aide attachment remains insufficient.",
+      "reviewer": "runner",
+      "rank": 78,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_244",
+      "predicate_id": "founder_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        11,
+        12
+      ],
+      "rationale": "Founding/founder dominates. Leadership, ownership or a later chair office alone is a distinct predicate.",
+      "reviewer": "runner",
+      "rank": 79,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_276",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        5,
+        9,
+        10
+      ],
+      "rationale": "Chief/chair/leader dominates explicit organizational leadership; director-only descriptions do not silently widen the existing scope.",
+      "reviewer": "runner",
+      "rank": 80,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_395",
+      "predicate_id": "lawyer_for",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        12,
+        14,
+        15
+      ],
+      "rationale": "District/United States attorney titles and ordered jurisdiction arguments identify public legal service; mere accountant or private lawyer location is distinct.",
+      "reviewer": "runner",
+      "rank": 81,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_32",
+      "predicate_id": "athlete_for",
+      "supporting_path_indices": [
+        1,
+        2,
+        12,
+        13
+      ],
+      "rationale": "After role inspection, basketball/hockey athlete-to-team facts dominate center and sports-performance paths; political organizational leading is a separate minority. Lead alone can denote a coach and is not automatic athlete evidence.",
+      "reviewer": "runner",
+      "rank": 82,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_38",
+      "predicate_id": "member_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        10,
+        11,
+        15,
+        17,
+        18,
+        19,
+        21
+      ],
+      "rationale": "Explicit membership and participating votes/veto inside a named body dominate. Alliance, addressing a session and work on a resolution require the existing membership evidence rule.",
+      "reviewer": "runner",
+      "rank": 83,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_86",
+      "predicate_id": "born_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        11
+      ],
+      "rationale": "Birth/native paths are the largest coherent family; childhood/residence and geographic ties alone remain distinct.",
+      "reviewer": "runner",
+      "rank": 84,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_89",
+      "predicate_id": "lawyer_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        6,
+        10
+      ],
+      "rationale": "Lawyer descriptors with geographic first-name-to-city pairs denote professional location, not attorney representation of the city. Co-op/tax descriptors alone remain insufficient.",
+      "reviewer": "runner",
+      "rank": 85,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_132",
+      "predicate_id": "participated_in_sporting_event",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rationale": "Teams paired with Stanley Cup/World Series/Super Bowl dominate; led-to, faced/lost-in and team/event contexts establish participation when actual. This is not necessarily championship victory. City-base pairs are separate.",
+      "reviewer": "runner",
+      "rank": 86,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_264",
+      "predicate_id": "managerial_office_in",
+      "supporting_path_indices": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "rationale": "Mixed director/head/executive office paths (9 rows) form the largest explicit office family, exceeding spokesperson and advisor subfamilies (7 each). Scope breadth is declared now; adviser/spokesperson alone do not become managerial office.",
+      "reviewer": "runner",
+      "rank": 87,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_285",
+      "predicate_id": "departed_from",
+      "supporting_path_indices": [
+        1,
+        2,
+        5,
+        8,
+        9
+      ],
+      "rationale": "Leave/emigrate/influx-from forms the largest movement-origin family, ahead of coaching. White House/employer departure may be figurative; no automatic physical movement or tenure inference.",
+      "reviewer": "runner",
+      "rank": 88,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_335",
+      "predicate_id": "has_coach",
+      "supporting_path_indices": [
+        4
+      ],
+      "rationale": "Ordered arguments are Nets/Spurs first and Byron Scott/Gregg Popovich/Lawrence Frank second. Possessive coach supports inverse coaching; malformed coach/say chains keep their attachment ambiguity rather than reversing the predicate.",
+      "reviewer": "runner",
+      "rank": 89,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_26",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Chairman is the dominant title. Nomination and indirect person attachments retain actuality and argument-role restrictions.",
+      "reviewer": "runner",
+      "rank": 90,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_73",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        17,
+        18
+      ],
+      "rationale": "Leader/co-chairman is the strongest explicit office family; candidacy, protégé and executive-only paths are not automatically leadership.",
+      "reviewer": "runner",
+      "rank": 91,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_135",
+      "predicate_id": "owns",
+      "supporting_path_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        10,
+        11,
+        14,
+        17,
+        18
+      ],
+      "rationale": "Owner/own/co-own and property ownership dominates; developer, publisher and presiding over alone do not establish possession.",
+      "reviewer": "runner",
+      "rank": 92,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_174",
+      "predicate_id": "politically_controls",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Acquiring/retaining/losing political control is the dominant family; election of a person or committee membership remains distinct.",
+      "reviewer": "runner",
+      "rank": 93,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_279",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        9
+      ],
+      "rationale": "Trips/visits/come/fly to geographic destination dominate; senator-from and office location alone do not establish travel.",
+      "reviewer": "runner",
+      "rank": 94,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_365",
+      "predicate_id": "departed_from",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        10
+      ],
+      "rationale": "Departure/withdrawal from a place clearly dominates; invasion/occupation and lobbying for a country do not imply departure.",
+      "reviewer": "runner",
+      "rank": 95,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_258",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7,
+        8,
+        12,
+        13,
+        15
+      ],
+      "rationale": "Move/emigrate/resettle/relocate to a destination dominates; origin, mere residence and organizational base retain their direction/type limits.",
+      "reviewer": "runner",
+      "rank": 96,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_393",
+      "predicate_id": "has_spokesperson",
+      "supporting_path_indices": [
+        2,
+        3,
+        13,
+        14,
+        15,
+        21
+      ],
+      "rationale": "Spokesperson/speech-at-office is the clearest identified directional family, amid opaque Bell-company descriptions and business ventures. Select principal-to-spokesperson without inventing a generic Bell affiliation predicate; bare saying at an office still needs role evidence.",
+      "reviewer": "runner",
+      "rank": 97,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_185",
+      "predicate_id": "member_of",
+      "supporting_path_indices": [
+        1,
+        2,
+        6,
+        13,
+        14
+      ],
+      "rationale": "Ordered-role inspection identifies nine accession/admission/entry rows for Poland→EU and China→WTO, the strongest coherent institutional family, versus seven travel/entry rows to physical or office destinations. Select membership rather than conflate institutional accession and physical movement; go alone remains insufficient.",
+      "reviewer": "runner",
+      "rank": 98,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_207",
+      "predicate_id": "managerial_office_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        6,
+        9,
+        11
+      ],
+      "rationale": "Mixed explicit director/president/chair/head offices form the dominant office family; analyst work and physical place/address evidence remain outside managerial scope.",
+      "reviewer": "runner",
+      "rank": 99,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_130",
+      "predicate_id": "executive_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "rationale": "County/jurisdiction executive title dominates; candidate/elect/run-for rows require actual-tenure checks under the existing executive predicate.",
+      "reviewer": "runner",
+      "rank": 100,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_243",
+      "predicate_id": "born_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Born-in paths overwhelmingly dominate; citizenship and study elsewhere do not establish birthplace.",
+      "reviewer": "runner",
+      "rank": 101,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_348",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        9
+      ],
+      "rationale": "Explicit chairman office dominates; ownership or generic responsibility alone remains outside the title scope.",
+      "reviewer": "runner",
+      "rank": 102,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_391",
+      "predicate_id": "succeeded_person",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12,
+        14,
+        15
+      ],
+      "rationale": "Replacement/succession of a named person is the dominant family; choosing/removing someone or an omitted taken object does not by itself establish succeeding that person.",
+      "reviewer": "runner",
+      "rank": 103,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_181",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Independent central review found no defensible dominant semantic family: underspecified take/give/carry spans coach-player, athlete-team, opponents, territorial capture and movie-title relations. Retain all six facts as semantic-indeterminacy ambiguities, not excluded observations.",
+      "reviewer": "runner",
+      "rank": 104,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_111",
+      "predicate_id": "resides_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        8
+      ],
+      "rationale": "Living/expatriate-in is the strongest clear family, with national/population labels. Tourist/diplomatic/business location and nationality adjectives require their existing type/identity distinctions.",
+      "reviewer": "runner",
+      "rank": 105,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_121",
+      "predicate_id": "died_in",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Death at home in geographic Y is the dominant individual and coherent path; home ownership/residence may be implied there but the primary event is death. Relative and institutional paths do not establish X death.",
+      "reviewer": "runner",
+      "rank": 106,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_197",
+      "predicate_id": "chairs_or_heads",
+      "supporting_path_indices": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "rationale": "Lead/chair/head office family (12 rows) exceeds generic sit/be on membership (8). Membership and sponsoring a bill are not enough for the declared office.",
+      "reviewer": "runner",
+      "rank": 107,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_277",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "rationale": "President title dominates; partner, analyst, officer and specialist alone remain separate.",
+      "reviewer": "runner",
+      "rank": 108,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_291",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "rationale": "Director office dominates the mixed leadership dictionary; merely run/head/president does not acquire a director title.",
+      "reviewer": "runner",
+      "rank": 109,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_300",
+      "predicate_id": "politically_controls",
+      "supporting_path_indices": [
+        0,
+        1,
+        6
+      ],
+      "rationale": "Ordered roles show party-to-House/Senate control/winning as the strongest coherent cluster, amid unrelated birth/occupation paths. Retain political body and actuality limits.",
+      "reviewer": "runner",
+      "rank": 110,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_306",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        15
+      ],
+      "rationale": "Directed testimony/address/advice is the consistent family; an omitted committee member or testimony subject can still create attachment ambiguity.",
+      "reviewer": "runner",
+      "rank": 111,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_307",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        14,
+        15
+      ],
+      "rationale": "Director/co-director paths dominate; academic expertise, chairman and generic overseeing remain distinct.",
+      "reviewer": "runner",
+      "rank": 112,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_356",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        9,
+        10,
+        12
+      ],
+      "rationale": "Explicit director office is the strongest single role family; aide/adviser/staff membership alone is not the same office.",
+      "reviewer": "runner",
+      "rank": 113,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_371",
+      "predicate_id": "present_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "rationale": "At-place and event/venue/address descriptions dominate physical presence/location; this mixed dictionary does not imply every entity is headquartered at the venue. Temporal scheduled appearances retain their actuality caveat.",
+      "reviewer": "runner",
+      "rank": 114,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_0",
+      "predicate_id": "departed_from",
+      "supporting_path_indices": [
+        1,
+        2,
+        5
+      ],
+      "rationale": "Being driven out/from and completed withdrawal (8 rows) is the largest identifiable directional family, exceeding invasion (5). Geographic population and invasion alone do not imply departure.",
+      "reviewer": "runner",
+      "rank": 115,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_4",
+      "predicate_id": "criticizes",
+      "supporting_path_indices": [
+        1,
+        2,
+        4,
+        5,
+        8
+      ],
+      "rationale": "Accuse/blame/assail/attack family exceeds warnings; warning or reaction to an ultimatum alone does not prove criticism of Y.",
+      "reviewer": "runner",
+      "rank": 116,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_8",
+      "predicate_id": "sporting_champion_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "rationale": "Explicit champion/retained/held/defended title dominates. Challenger participation or merely fighting for the title is not victory.",
+      "reviewer": "runner",
+      "rank": 117,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_12",
+      "predicate_id": "analyst_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "rationale": "Analyst affiliation dominates; publisher/editor/director/partner and company location are separate unless actual analyst support is present.",
+      "reviewer": "runner",
+      "rank": 118,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_76",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Dictionary and roles mix organizational subsidiaries, NATO membership and city offices. Two organization-parent facts supply eight explicit part/unit rows, tying eight NATO membership/ally rows; the strongest individually interpretable repeated path family is part-of. Select subsidiary scope before grading; alliances and city-as-unit are not absorbed.",
+      "reviewer": "runner",
+      "rank": 119,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_140",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        5,
+        9,
+        10,
+        12
+      ],
+      "rationale": "Go/come/immigration/visit to a destination dominates; residence or acting in a production is not itself geographic travel.",
+      "reviewer": "runner",
+      "rank": 120,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_313",
+      "predicate_id": "has_spokesperson",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        11,
+        12,
+        14,
+        17
+      ],
+      "rationale": "Inverse secretary/spokesman-and-speech family is the strongest interpretable role; generic successor descriptions do not make Y spokesperson for X.",
+      "reviewer": "runner",
+      "rank": 121,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_361",
+      "predicate_id": "politically_controls",
+      "supporting_path_indices": [
+        0,
+        1,
+        7,
+        12
+      ],
+      "rationale": "Party→White House/Congress/House take/control paths dominate the identifiable political-control family; politician association or closeness to Bush remains outside it.",
+      "reviewer": "runner",
+      "rank": 122,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_368",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        1
+      ],
+      "rationale": "Call-on a legislature is the clearest directed-appeal family. More frequent push-through omits the pushed object and follows the existing communication ambiguity rule; gaining control is a separate predicate.",
+      "reviewer": "runner",
+      "rank": 123,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_31",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        3
+      ],
+      "rationale": "Headquarters location dominates; nearby town and founding-garage attachment need the existing geographic scope checks.",
+      "reviewer": "runner",
+      "rank": 124,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_78",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        1,
+        2,
+        5,
+        13
+      ],
+      "rationale": "Return/emigrate-to is the largest identifiable family, amid political support, office and territorial ownership; retain explicit destination direction.",
+      "reviewer": "runner",
+      "rank": 125,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_120",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17
+      ],
+      "rationale": "Secretary/spokesman/face-of descriptions identify a public spokesperson context. Plain secretary title still needs the frozen press-office context rule.",
+      "reviewer": "runner",
+      "rank": 126,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_141",
+      "predicate_id": "known_as",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "rationale": "Known-as/by-acronym naming overwhelmingly dominates; violence/trial locations and omitted nominal arguments remain separate.",
+      "reviewer": "runner",
+      "rank": 127,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_189",
+      "predicate_id": "played_at_sporting_venue",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15
+      ],
+      "rationale": "Every ordered pair is a team and stadium; actual game/play/win/lose-at dominates. Freeze sport participation at a venue rather than count every physical visit or plan as playing.",
+      "reviewer": "runner",
+      "rank": 128,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_275",
+      "predicate_id": "sporting_champion_of",
+      "supporting_path_indices": [
+        1,
+        2,
+        7,
+        10,
+        11
+      ],
+      "rationale": "Explicit won/retained title/championship family dominates World Boxing Council and World Series facts; athlete/team membership and participation alone remain insufficient.",
+      "reviewer": "runner",
+      "rank": 129,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_319",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rationale": "Ordered roles identify research/publishing organizations in Chicago/Armonk, with explicit based-in support; lawyer-client hiring facts remain a distinct minority.",
+      "reviewer": "runner",
+      "rank": 130,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_329",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "rationale": "Inverse minister/government leadership is the strongest coherent family; visiting/letter subjects with omitted attachments remain restricted.",
+      "reviewer": "runner",
+      "rank": 131,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_344",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        8
+      ],
+      "rationale": "Spokeswoman and press-secretary contexts dominate; aide, closeness and director roles alone do not establish spokesperson service.",
+      "reviewer": "runner",
+      "rank": 132,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_369",
+      "predicate_id": "participated_in_sporting_event",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "rationale": "Played/lost/won-in competition family dominates, so participation is primary and neither loss nor mere title reference becomes a required victory.",
+      "reviewer": "runner",
+      "rank": 133,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_13",
+      "predicate_id": "politically_controlled_by",
+      "supporting_path_indices": [
+        0,
+        1,
+        8
+      ],
+      "rationale": "Controlled-by is the largest identifiable family, with government/body first and controlling party second; member/leader and trade are distinct.",
+      "reviewer": "runner",
+      "rank": 134,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_46",
+      "predicate_id": "official_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "rationale": "Explicit official/job/post affiliation dominates, distinct from a specified managerial office. This does not infer leadership from bare official status or turn a city into a person.",
+      "reviewer": "runner",
+      "rank": 135,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_54",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Office/agency part-of-parent paths dominate and the principal literal pairs are organizations. Sports shock and inverse political office are distinct minorities.",
+      "reviewer": "runner",
+      "rank": 136,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_107",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "rationale": "Inverse president paths dominate, with Senate/borough public body first and person second. Election/proposals and indirect letter arguments retain existing scope limits.",
+      "reviewer": "runner",
+      "rank": 137,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_221",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Director title and tenure/sworn/replaced/resigned descriptions overwhelmingly dominate; generic serve-at alone does not suffice.",
+      "reviewer": "runner",
+      "rank": 138,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_251",
+      "predicate_id": "commented_on",
+      "supporting_path_indices": [
+        0,
+        6,
+        8,
+        9
+      ],
+      "rationale": "Say-of/comment/remark/regarding is a coherent eight-row topic family amid a similarly sized player-selection family. The tie favors say-of (five occurrences), the highest-frequency interpretable individual path, without inferring a coach title from remove/play.",
+      "reviewer": "runner",
+      "rank": 139,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_310",
+      "predicate_id": "sporting_champion_of",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Explicit champion and led-to-victory is the strongest title family; performance, preparation or record-breaking alone is not championship tenure.",
+      "reviewer": "runner",
+      "rank": 140,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_352",
+      "predicate_id": "founder_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "rationale": "Founder/found/establish dominates; lead/president/director alone remains distinct.",
+      "reviewer": "runner",
+      "rank": 141,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_374",
+      "predicate_id": "defeated",
+      "supporting_path_indices": [
+        0,
+        1,
+        6
+      ],
+      "rationale": "Beat/defeat overwhelmingly dominates completed victory; playing/facing/fighting alone does not establish outcome.",
+      "reviewer": "runner",
+      "rank": 142,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_379",
+      "predicate_id": "athlete_for",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Player center/scorer and scored-goals-for team dominate; bare giving or awards do not alone establish athletic team membership.",
+      "reviewer": "runner",
+      "rank": 143,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_1",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Independent central adjudication found a genuine unresolved tie: residence two paths versus sports/performance two, while the only repeated path (two) has uncertain spokeswoman/charges argument roles. No stable dominant predicate can be fixed without selecting a favored case; retain all four as A.",
+      "reviewer": "runner",
+      "rank": 144,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_48",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Institutional headquarters/galleries/salesrooms/houses in place dominate; a sale event location alone is not necessarily the base.",
+      "reviewer": "runner",
+      "rank": 145,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_97",
+      "predicate_id": "criticizes",
+      "supporting_path_indices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "rationale": "Attack/criticize/go-after/case-against (six rows) ties acquired/owned-by family (six). The prescribed individual-path tie break favors repeated attack/criticize (two each), so criticism is frozen rather than combining business ownership and political opposition.",
+      "reviewer": "runner",
+      "rank": 146,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_157",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rationale": "Unit/subsidiary/owned-company description dominates; organizational child-to-parent roles fixed.",
+      "reviewer": "runner",
+      "rank": 147,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_293",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        1,
+        2,
+        3
+      ],
+      "rationale": "Chief office is the only repeated coherent role family (three chief paths) amid assorted political comparison/support topics. Preserve this weak dictionary support explicitly; political topic mentions do not become leadership and bureau attachment remains relevant.",
+      "reviewer": "runner",
+      "rank": 148,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_311",
+      "predicate_id": "reviews_artistic_output_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "rationale": "Review of film/collection/release dominates artistic criticism. Business units and bare team-without are unrelated; distinguish artist from reviewed work/venue.",
+      "reviewer": "runner",
+      "rank": 149,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_330",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Division/unit/part plus sold-to-parent dominates child-to-parent ownership; possessive unit in the opposite direction stays separate.",
+      "reviewer": "runner",
+      "rank": 150,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_334",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "rationale": "Director office is the strongest specific title family; include/partner/president descriptions alone do not establish directorship.",
+      "reviewer": "runner",
+      "rank": 151,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_63",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        2,
+        12,
+        13,
+        14,
+        16
+      ],
+      "rationale": "Presidential-office/presiding family is the strongest interpretable title family in an otherwise heterogeneous dictionary, slightly ahead of departure/resettlement. Omitted president attachments and generic meeting presidency retain ambiguity.",
+      "reviewer": "runner",
+      "rank": 152,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_115",
+      "predicate_id": "competed_against",
+      "supporting_path_indices": [
+        2,
+        7,
+        11,
+        12
+      ],
+      "rationale": "Ordered-role inspection shows Eagles→Giants sporting encounter in four play/game rows, the largest interpretable narrow family; opaque Internet company descriptors and corporate founding/location remain separate.",
+      "reviewer": "runner",
+      "rank": 153,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_165",
+      "predicate_id": "competed_against",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        7,
+        9,
+        10,
+        11
+      ],
+      "rationale": "Nine team→opponent rows of visiting/playing/trailing/triumph form the largest coherent family; geographic visiting by people and parent-company links are not competitive encounters.",
+      "reviewer": "runner",
+      "rank": 154,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_218",
+      "predicate_id": "managerial_office_in",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        12
+      ],
+      "rationale": "Mixed explicit leader/chair/speaker/executive offices jointly dominate, so the existing declared managerial family applies. Winning-in and troop withdrawals do not imply an office.",
+      "reviewer": "runner",
+      "rank": 155,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_220",
+      "predicate_id": "has_lawyer",
+      "supporting_path_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Inverse counsel/lawyer and defended-by family dominates: client X has lawyer Y; generic keeping/emphasis does not prove legal service.",
+      "reviewer": "runner",
+      "rank": 156,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_225",
+      "predicate_id": "official_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        14
+      ],
+      "rationale": "Explicit official and departmental roles dominate public institutional affiliation. Bare candidate-for-job and unrelated borough/home location remain insufficient.",
+      "reviewer": "runner",
+      "rank": 157,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_231",
+      "predicate_id": "supports",
+      "supporting_path_indices": [
+        2,
+        3
+      ],
+      "rationale": "Explicit support plus vote-for (five rows) is the strongest clear family; pressuring Y and generic giving alone do not establish political/material support.",
+      "reviewer": "runner",
+      "rank": 158,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_245",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8,
+        12
+      ],
+      "rationale": "Visit/travel to geographic destination is the strongest coherent family. Stores/research or meetings in a place alone do not necessarily prove movement.",
+      "reviewer": "runner",
+      "rank": 159,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_270",
+      "predicate_id": "present_in",
+      "supporting_path_indices": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        13,
+        14
+      ],
+      "rationale": "Physical at-place/address evidence is the largest coherent spatial family after role inspection (museum→street and personal presence). Director-office paths form a competing distinct family; neither role alone locates the person physically.",
+      "reviewer": "runner",
+      "rank": 160,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_295",
+      "predicate_id": "politically_controlled_by",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "rationale": "Literal first arguments House/Senate and second political parties fix inverse political control; generic have/hold rows require the existing body-control convention.",
+      "reviewer": "runner",
+      "rank": 161,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_357",
+      "predicate_id": "present_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        8,
+        9,
+        10,
+        13
+      ],
+      "rationale": "Spatial living/being/beginning-in descriptions for Motorola→Schaumburg and God→heaven dominate the mixed dictionary; disease paths are separate. Metaphorical/religious location retains explicit actuality/type ambiguity.",
+      "reviewer": "runner",
+      "rank": 162,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_18",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        5,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Head/leading a body is the largest explicit family; spokesperson/diplomat/envoy and generic director-only descriptions remain distinct or ambiguous under the existing scope.",
+      "reviewer": "runner",
+      "rank": 163,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_45",
+      "predicate_id": "died_in",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        6,
+        12,
+        13
+      ],
+      "rationale": "Death/killed-in geographic place is the strongest coherent event family; weapons sale, residence, exile or hospitalization alone do not prove death.",
+      "reviewer": "runner",
+      "rank": 164,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_57",
+      "predicate_id": "has_medical_condition",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "rationale": "Have/suffer/infected/die-of condition dominates; condition/exposure and population-subset ambiguity remain explicit.",
+      "reviewer": "runner",
+      "rank": 165,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_125",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        8,
+        9,
+        10
+      ],
+      "rationale": "President/run/chair roles form the dominant organizational leadership family; owner and producer alone remain separate.",
+      "reviewer": "runner",
+      "rank": 166,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_127",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Central independent full-row review finds geographic dateline-to-agency fragments; these do not establish geographic offices or person-to-institution official relations. No sound primary proposition is recoverable, so preserve three semantic-indeterminacy ambiguities.",
+      "reviewer": "runner",
+      "rank": 167,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_155",
+      "predicate_id": "member_of",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        11
+      ],
+      "rationale": "Explicit membership/colleague/serve-on and departure from membership is the largest coherent family; chair-only roles must meet the existing member evidence scope and ordinary hosted visits are distinct.",
+      "reviewer": "runner",
+      "rank": 168,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_190",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        0,
+        6,
+        7
+      ],
+      "rationale": "Spokesman family has the highest coherent support; alliance, directorship and research are separate.",
+      "reviewer": "runner",
+      "rank": 169,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_195",
+      "predicate_id": "winner_of",
+      "supporting_path_indices": [
+        0,
+        6,
+        9,
+        10,
+        12
+      ],
+      "rationale": "Named winner/victory/tournament family dominates, including event winners beyond generic spokesman descriptions. Being swept or favorite alone does not prove victory.",
+      "reviewer": "runner",
+      "rank": 170,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_215",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Whip and leadership office, including resignation/deposition from office, dominates; response/meeting/chamber activity alone does not establish title.",
+      "reviewer": "runner",
+      "rank": 171,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_248",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Central independent full-row review identifies WASHINGTON dateline fragments with paired subjects, not a defined official/organization-location proposition. Retain two unresolved facts with explicit reporting-locale/argument-role questions.",
+      "reviewer": "runner",
+      "rank": 172,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_263",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "rationale": "Tell/conversation/explanation family (six paths/rows) exceeds meeting-alone (three). Generic forging or founder/manager attachments remain distinct.",
+      "reviewer": "runner",
+      "rank": 173,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_309",
+      "predicate_id": "managerial_office_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Complete dictionary consists of varied explicit commissioner/administrator/head/chair/president offices; use the existing broad managerial office family, with no inference from mere membership.",
+      "reviewer": "runner",
+      "rank": 174,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_350",
+      "predicate_id": "winner_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        14
+      ],
+      "rationale": "Winner/title/victory family dominates a mixed sports and political dictionary; runner-up/participation alone is not winning the competition.",
+      "reviewer": "runner",
+      "rank": 175,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_42",
+      "predicate_id": "has_lawyer",
+      "supporting_path_indices": [
+        0,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Inverse lawyer/attorney descriptions dominate; transactional owner/bid/seller relations remain separate.",
+      "reviewer": "runner",
+      "rank": 176,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_53",
+      "predicate_id": "has_wife",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Named wife as second argument dominates accompaniment/arrival and relationship paths. Issue-with alone cannot prove marriage.",
+      "reviewer": "runner",
+      "rank": 177,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_77",
+      "predicate_id": "legal_specialist_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "rationale": "Specialized legal expertise in the First Amendment is the largest coherent family; Council of Economic Advisers membership is a separate minority. Client service is not inferred from a legal subject.",
+      "reviewer": "runner",
+      "rank": 178,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_110",
+      "predicate_id": "founder_of",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Co-founder is the highest-frequency interpretable individual path and the strongest identifiable single proposition; birth and counsel attachments remain separate.",
+      "reviewer": "runner",
+      "rank": 179,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_126",
+      "predicate_id": "location_of_organization",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        10,
+        11
+      ],
+      "rationale": "Washington first, consumer/civil-liberties organizations second: office/director/analyst-in-city paths indicate inverse organizational office location. Geopolitical severing-relations is a separate minority; individual presence alone needs the existing office criterion.",
+      "reviewer": "runner",
+      "rank": 180,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_137",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        8,
+        10
+      ],
+      "rationale": "Chairman title/reappointment/resignation is the dominant family; fraud, sports coaching and generic contribution remain distinct.",
+      "reviewer": "runner",
+      "rank": 181,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_154",
+      "predicate_id": "trailed_competitor",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Trailing opponent has eight rows versus sweep/victory seven, so intermediate score/standings lag is the dominant primary predicate; being swept does not itself prove a specified trailing snapshot.",
+      "reviewer": "runner",
+      "rank": 182,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_166",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11
+      ],
+      "rationale": "Explicit leader/speaker/head offices dominate; introducing a bill or floor movement alone does not establish leadership.",
+      "reviewer": "runner",
+      "rank": 183,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_223",
+      "predicate_id": "event_held_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "rationale": "The largest literal-role family concerns holding/bringing/bidding for Olympics in New York. Select actual event at a place, preserving A for bids/plans; Yankees geographic relocation is separate.",
+      "reviewer": "runner",
+      "rank": 184,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_228",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        4,
+        5
+      ],
+      "rationale": "Director-for title is the strongest coherent role; front-runner, speech-for, and generic compilation/essay authorship do not establish directorship.",
+      "reviewer": "runner",
+      "rank": 185,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_233",
+      "predicate_id": "broadcasts_event",
+      "supporting_path_indices": [
+        1,
+        3,
+        10,
+        11,
+        12,
+        13
+      ],
+      "rationale": "CBS→Super Bowl broadcasting/telecast/right-to-broadcast is the strongest coherent event family. Rights and after-event broadcasts retain the centrally fixed nonactual/wrong-object limits; political support is separate.",
+      "reviewer": "runner",
+      "rank": 186,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_246",
+      "predicate_id": "outnumbers",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Outnumber is the dominant repeated predicate for political group sizes; national corporate descriptors and office location are unrelated.",
+      "reviewer": "runner",
+      "rank": 187,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_273",
+      "predicate_id": "commented_on",
+      "supporting_path_indices": [
+        3,
+        4,
+        6,
+        7,
+        12
+      ],
+      "rationale": "Comment/words/view/talk-about is the largest identifiable topic family amid business units and political/managerial activity. Opposition or a view must actually concern Y, not merely coexist.",
+      "reviewer": "runner",
+      "rank": 188,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_303",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        1,
+        2,
+        5,
+        8,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Inverse president/commander/leader family dominates Taiwan/Yugoslav-to-person facts; first-name-to-Manhattan location/relative evidence is separate.",
+      "reviewer": "runner",
+      "rank": 189,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_305",
+      "predicate_id": "executive_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Explicit executive title dominates; partner/president alone is distinct under the frozen executive predicate.",
+      "reviewer": "runner",
+      "rank": 190,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_321",
+      "predicate_id": "has_lawyer",
+      "supporting_path_indices": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Client-to-lawyer is the largest identifiable recurring relation family, amid heterogeneous East/West and name-fragment patterns; generic estimates/partnership/hold-for do not become counsel.",
+      "reviewer": "runner",
+      "rank": 191,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_326",
+      "predicate_id": "succeeded_person",
+      "supporting_path_indices": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "rationale": "Replacement/substitute/take-place family is the strongest coherent relation, with narrow same-role person succession; office appointments and institutional second arguments are not absorbed.",
+      "reviewer": "runner",
+      "rank": 192,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_341",
+      "predicate_id": "born_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5,
+        13
+      ],
+      "rationale": "Birth/family-in geographic place is the strongest coherent family; political comparison, threat and viewpoint rows are unrelated. Parent location without X birth remains ambiguous.",
+      "reviewer": "runner",
+      "rank": 193,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_372",
+      "predicate_id": "broadcasts_program",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Complete dictionary spells the program title Meet the Press with NBC/NBC News first and truncated Press second. Select network-to-program broadcast association, not person-to-person meeting; incomplete title identity requires its own check.",
+      "reviewer": "runner",
+      "rank": 194,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_378",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        5,
+        9
+      ],
+      "rationale": "Inverse party/national leader and leadership-under paths dominate; challenger/nominee/opponent alone does not establish office.",
+      "reviewer": "runner",
+      "rank": 195,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_9",
+      "predicate_id": "has_wife",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Wife/widow relation is the largest coherent family and preserves historical marriage; corporate units are separate.",
+      "reviewer": "runner",
+      "rank": 196,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_20",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        3,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Explicit director title dominates; counselor/expert and speaking at an institution alone are insufficient.",
+      "reviewer": "runner",
+      "rank": 197,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_25",
+      "predicate_id": "resides_in",
+      "supporting_path_indices": [
+        0,
+        2,
+        6,
+        7,
+        10
+      ],
+      "rationale": "Live/resident/apartment context is the strongest coherent family; writings or production revivals in a place do not establish personal residence.",
+      "reviewer": "runner",
+      "rank": 198,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_37",
+      "predicate_id": "politically_controls",
+      "supporting_path_indices": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "rationale": "Territorial capture/seizure by political forces dominates the political-control sense allowed by the frozen scope; capturing a sporting cup remains a distinct meaning.",
+      "reviewer": "runner",
+      "rank": 199,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_56",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "rationale": "Return/go-to destination movement is the strongest repeated family; national company/court descriptions do not establish travel.",
+      "reviewer": "runner",
+      "rank": 200,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_62",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Organizational office/unit part-of family exceeds legislative seats and generic support; keep child organization-to-parent direction.",
+      "reviewer": "runner",
+      "rank": 201,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_74",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        3,
+        6,
+        11
+      ],
+      "rationale": "Secretary and press-corps/spokesman descriptions form the strongest coherent public-speaking role family; known-as names and finance instruments are separate.",
+      "reviewer": "runner",
+      "rank": 202,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_75",
+      "predicate_id": "director_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "rationale": "Explicit director office overwhelmingly dominates; planner or incoming population alone remains distinct.",
+      "reviewer": "runner",
+      "rank": 203,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_95",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "rationale": "Send/contact/suggestion/testimony is the strongest coherent communication family; omitted sending objects and ambassador/foreign-policy attachments keep their ambiguity.",
+      "reviewer": "runner",
+      "rank": 204,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_113",
+      "predicate_id": "fought_war_against",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Military attack/on in United States→Iraq is the largest coherent path family; critical writing and editorial affiliation are separate. The fixed warfare predicate includes actual military attacks without requiring territorial control.",
+      "reviewer": "runner",
+      "rank": 205,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_114",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Inverse national leader and government-led-by paths dominate; national adjective and misplaced counterpart identity retain the established ambiguity rule.",
+      "reviewer": "runner",
+      "rank": 206,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_116",
+      "predicate_id": "present_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Put/keep/occupy/in-place is the largest coherent family in White House pairs; political-office metonymy is not assumed to prove physical presence. Guggenheim director titles are separate.",
+      "reviewer": "runner",
+      "rank": 207,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_118",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        6,
+        7,
+        10,
+        12,
+        13
+      ],
+      "rationale": "Inverse president/body family is the strongest coherent relation; lawyer-client and executive-to-county directions are separate.",
+      "reviewer": "runner",
+      "rank": 208,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_156",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Inverse government/minister descriptions (six paths) narrowly exceed five forward managerial titles, so body-to-political leader is primary; direction and minister-designate nonactuality are retained.",
+      "reviewer": "runner",
+      "rank": 209,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_159",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Independent central review confirms a three-way singleton-family tie: Google/Internet industry descriptions, Karadzic/BosnianSerbs leadership and Palestinian/Gaza physical conflict each roughly four rows. No interpretable highest-frequency tie-break fixes a primary meaning; retain all three A.",
+      "reviewer": "runner",
+      "rank": 210,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_161",
+      "predicate_id": "economist_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        4
+      ],
+      "rationale": "Economist affiliation is the largest explicit repeated role; sports guard and manager/director titles are not expanded into economics.",
+      "reviewer": "runner",
+      "rank": 211,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_173",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Independent central review confirms inverse political-office versus coaching/context tie (about four clear/contextual rows each); repeated return spans both and is role-ambiguous. Retain both facts A rather than choose one case to favor.",
+      "reviewer": "runner",
+      "rank": 212,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_180",
+      "predicate_id": "confers_authority_on",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Constitution→Senate/Congress grant/provision/give family dominates. The instrument must actually confer a specified right or power; omitted giving object is ambiguous. Athletic contribution is separate.",
+      "reviewer": "runner",
+      "rank": 213,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_213",
+      "predicate_id": "owns",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        6,
+        10,
+        11
+      ],
+      "rationale": "Parent/company ownership family is the largest coherent relation, with Ameritech→Bell; Polish population migration/death/location paths form separate narrower relations.",
+      "reviewer": "runner",
+      "rank": 214,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_227",
+      "predicate_id": "official_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        4,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "rationale": "Official/job affiliation dominates the mixed public-office dictionary; a specific leadership title is not required, but generic personal appearance remains insufficient.",
+      "reviewer": "runner",
+      "rank": 215,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_252",
+      "predicate_id": "sporting_champion_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "rationale": "Champion/title descriptions dominate; unspecified medalist and record holder alone do not establish a championship title.",
+      "reviewer": "runner",
+      "rank": 216,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_254",
+      "predicate_id": "sells_to",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Sell/sale-to is the clear dominant family; geographic journeys, family obituary fragments and sports counterpart pairs do not automatically establish sale.",
+      "reviewer": "runner",
+      "rank": 217,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_255",
+      "predicate_id": "known_as",
+      "supporting_path_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Known-as/acronym alternative identity dominates; ratios and managerial office are distinct.",
+      "reviewer": "runner",
+      "rank": 218,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_265",
+      "predicate_id": "present_in",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Geographic living/stationing/venues/travel form the largest spatial family across American→England and cinema→street; possessive deputy-to-organization is distinct. Retain generic nationality and future venue ambiguity.",
+      "reviewer": "runner",
+      "rank": 219,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_274",
+      "predicate_id": "met_with",
+      "supporting_path_indices": [
+        5,
+        12
+      ],
+      "rationale": "Talks/summit between named people is the strongest identifiable narrow event family; paired-subject name fragments and teaching are unrelated. Arriving for or expecting a meeting is not automatic actual meeting.",
+      "reviewer": "runner",
+      "rank": 220,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_289",
+      "predicate_id": "defeated",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Outlast is the dominant path, fixing competitive victory; alternative names and team management are distinct minorities.",
+      "reviewer": "runner",
+      "rank": 221,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_316",
+      "predicate_id": "departed_from",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        7,
+        11
+      ],
+      "rationale": "Flee/driven-from geographic origin dominates; sovereignty/autonomy and chair nomination are separate.",
+      "reviewer": "runner",
+      "rank": 222,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_323",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Company/school/station in place and based-in dominate; national media adjectives alone do not determine a physical location.",
+      "reviewer": "runner",
+      "rank": 223,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_375",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Institution/gallery/headquarters/building location dominates; mere appearance or personal assistant location must refer to X institution itself.",
+      "reviewer": "runner",
+      "rank": 224,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_389",
+      "predicate_id": "athlete_for",
+      "supporting_path_indices": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "rationale": "Pitcher/pitch/play athletic family is the largest identifiable role, narrowly ahead of coach titles. Historical player service remains valid, but coaching alone does not make a fact an athlete relation.",
+      "reviewer": "runner",
+      "rank": 225,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_72",
+      "predicate_id": "subsidiary_of",
+      "supporting_path_indices": [
+        1
+      ],
+      "rationale": "Organizational unit (two identical paths) ties river-flow and athletic-role families on clear predicate occurrences; the numeric-frequency tie rule selects the repeated unit path over separate singleton flow and play/captain paths. Opaque be-subject fragments cannot settle another meaning.",
+      "reviewer": "runner",
+      "rank": 226,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_88",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        3,
+        4,
+        8,
+        9
+      ],
+      "rationale": "Come/immigrate/follow-to family is the largest coherent movement family, amid athletic and executive roles; team presence alone does not imply geographic migration.",
+      "reviewer": "runner",
+      "rank": 227,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_108",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rationale": "Named research/consultancy organizations and city arguments make organizational location the consistent family, rather than person-to-employer analyst affiliation.",
+      "reviewer": "runner",
+      "rank": 228,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_145",
+      "predicate_id": "coach_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        12
+      ],
+      "rationale": "Coaching/program family has seven paths versus six movement/remain paths; select coach-to-team/program, with North Korean movement a separate minority.",
+      "reviewer": "runner",
+      "rank": 229,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_150",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "rationale": "Inverse public minister/official family is the strongest coherent relation, exceeding generic workplace/theater fragments; named office and body identity still required.",
+      "reviewer": "runner",
+      "rank": 230,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_153",
+      "predicate_id": "has_athlete",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rationale": "Knicks→Ewing paired with have/need/play dominates roster semantics; need alone is not actual membership. The literary Heather→Mommies pair is separate.",
+      "reviewer": "runner",
+      "rank": 231,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_162",
+      "predicate_id": "organization_operates_in_domain",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11
+      ],
+      "rationale": "DoubleClick→Internet advertising/company descriptions form the dominant domain family. Geographic Corcoran→Manhattan is not industry membership; generic Internet mention alone is insufficient.",
+      "reviewer": "runner",
+      "rank": 232,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_168",
+      "predicate_id": "population_includes",
+      "supporting_path_indices": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "rationale": "Population-inclusion family is the largest recoverable meaning: explicit include/among paths describe Westerners including Americans. Restaurant co-ownership and Farrakhan ideological leadership are distinct families. The predicate asserts inclusion of some subgroup members, not universal set inclusion; generic include with unclear roles remains ambiguous. Centrally approved narrow extension.",
+      "reviewer": "runner",
+      "rank": 233,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_169",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        10
+      ],
+      "rationale": "Inverse Senate-to-Republican leadership/majority is the strongest identifiable family, exceeding support three times. A generic Republican may denote an unresolved person or party and cannot automatically establish a named officeholder.",
+      "reviewer": "runner",
+      "rank": 234,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_202",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Independent central review finds coaching/program versus competitive encounter/outcome families tied at about four weak/contextual singleton paths, with geography separate. Battle/play does not establish victory; no decisive clear path. All three remain A.",
+      "reviewer": "runner",
+      "rank": 235,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_247",
+      "predicate_id": "competed_against",
+      "supporting_path_indices": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Sports counterpart and series/game context is the largest coherent family; military killing/expulsion and policy are distinct. Preparations do not prove a completed contest.",
+      "reviewer": "runner",
+      "rank": 236,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_250",
+      "predicate_id": "has_wife",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        6,
+        7
+      ],
+      "rationale": "Explicit wife relation is the largest coherent family, exceeding baseball management; unrelated chief/assistant/manager role is not marriage.",
+      "reviewer": "runner",
+      "rank": 237,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_262",
+      "predicate_id": "has_lawyer",
+      "supporting_path_indices": [
+        0,
+        1,
+        7,
+        8,
+        9,
+        11
+      ],
+      "rationale": "Inverse counsel/lawyer family dominates; sports series and generic discussion/protest remain outside legal representation.",
+      "reviewer": "runner",
+      "rank": 238,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_381",
+      "predicate_id": "manager_of",
+      "supporting_path_indices": [
+        4,
+        6,
+        8,
+        9,
+        10
+      ],
+      "rationale": "Manager/managerial tenure in WhiteyHerzog→Cardinals is the strongest specific-role family; political front-runner/leader and neighborhood containment remain separate.",
+      "reviewer": "runner",
+      "rank": 239,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_16",
+      "predicate_id": "died_in",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Died-at a named hospital overwhelmingly dominates; corporate mogul affiliation is unrelated. Death must be in the named place, with truncated hospital identity explicitly considered.",
+      "reviewer": "runner",
+      "rank": 240,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_23",
+      "predicate_id": "competed_against",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "rationale": "Sports performance/score comparison supplies four coherent paths, ahead of two explicit political leader/dictator paths and ambiguous generic managing. Declare competitive encounter without requiring victory; metadata-only performance comparisons may remain ambiguous.",
+      "reviewer": "runner",
+      "rank": 241,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_33",
+      "predicate_id": "agreed_with",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Agreement/approval family is strongest; actual reciprocal agreement required, not unilateral approval or a coach merely speaking to a player.",
+      "reviewer": "runner",
+      "rank": 242,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_44",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "rationale": "Institutional messages/admonitions/summons/report submission form the largest coherent family, ahead of two side-with support rows. Member-mediated communication and meetings alone retain attachment/actual-message limits.",
+      "reviewer": "runner",
+      "rank": 243,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_52",
+      "predicate_id": "researches_topic",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        11
+      ],
+      "rationale": "Research consultancy tracking/reporting subject trends is the largest coherent family, with organization as researcher and Internet as topic; national affiliation or personal travel is separate.",
+      "reviewer": "runner",
+      "rank": 244,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_93",
+      "predicate_id": "met_with",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        10
+      ],
+      "rationale": "Personal meeting/receiving minister is the largest coherent event family; constitutional grant of power to a legislature is separate and a planned meeting alone does not establish occurrence.",
+      "reviewer": "runner",
+      "rank": 245,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_144",
+      "predicate_id": "fought_war_against",
+      "supporting_path_indices": [
+        1
+      ],
+      "rationale": "Military invasion is the strongest repeated unambiguously interpretable path (two occurrences). Underspecified go/use/ask/summon or roster-trade fragments cannot support an alternative common action; athlete/coach pairs remain outside the warfare scope.",
+      "reviewer": "runner",
+      "rank": 246,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_146",
+      "predicate_id": "calls_up_players_from",
+      "supporting_path_indices": [
+        3,
+        5,
+        6,
+        7,
+        9
+      ],
+      "rationale": "Five call/promote/recall/summon-from paths form the largest narrow family, ahead of four writing/review paths. Ordered roles are receiving sports team to source affiliate, inspected in Yankees–Class AAA Columbus rows. Omitted player name is acceptable only when recall/promotion context establishes the transferred role; mere bare call-from remains ambiguous.",
+      "reviewer": "runner",
+      "rank": 247,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_160",
+      "predicate_id": "flows_into",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Both ordered pairs are rivers/creeks and receiving waters; meet/join/flow/empty denotes confluence, not interpersonal meeting. Geographic adjacency alone still needs directed flow evidence.",
+      "reviewer": "runner",
+      "rank": 248,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_170",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        1,
+        3,
+        5
+      ],
+      "rationale": "Explicit speaking-for/spokeswoman of an office is the largest coherent role, ahead of knock and attorney titles. Principal-person versus omitted office and medical-examiner-role identity retain ambiguity.",
+      "reviewer": "runner",
+      "rank": 249,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_177",
+      "predicate_id": "confers_authority_on",
+      "supporting_path_indices": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "rationale": "Constitutional seats/provisions/approval grant is the largest interpretable family, amid political-office and personal challenge/meeting paths. Generic constitutional mention does not by itself confer authority.",
+      "reviewer": "runner",
+      "rank": 250,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_214",
+      "predicate_id": "has_policy_towards",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Policy-toward is the highest-frequency individually interpretable path (four), tying a dispersed academic-role family. Preserve policy target without assuming diplomatic relations, sale, or combat.",
+      "reviewer": "runner",
+      "rank": 251,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_236",
+      "predicate_id": "manager_of",
+      "supporting_path_indices": [
+        5,
+        10
+      ],
+      "rationale": "Explicit dismissal-as-manager is the clearest identified office, with task-management/lieutenant context; behind a bench and wearing a number do not automatically supply a manager title. Weak dictionary support is recorded before grades.",
+      "reviewer": "runner",
+      "rank": 252,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_240",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rationale": "Museum-to-street exhibition/address/at-place family is strongest after role inspection, amid inverse minister and executive roles. Incidental event location does not always establish institutional location.",
+      "reviewer": "runner",
+      "rank": 253,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_242",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Central adjudication after full dictionary and all ordered rows: government ownership has three clear singleton paths for Cnooc–Chinese, tied with place-of-artist/official/attache for American–Paris. All are singletons and the adjective-country roles further weaken attachment. No prescribed tie-break resolves a dominant coherent family. All cases stay in the denominator as semantic indeterminacy.",
+      "reviewer": "runner",
+      "rank": 254,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_260",
+      "predicate_id": "has_minister",
+      "supporting_path_indices": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "rationale": "Inverse India-to-prime-minister family is the strongest coherent office family; travel to Los Angeles and team trading are separate. Telephone or meeting with another person needs the exact office attachment.",
+      "reviewer": "runner",
+      "rank": 255,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_266",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "rationale": "Explicit based/headquarters-in paths dominate and all main arguments are corporations and cities; location of charges alone does not imply base.",
+      "reviewer": "runner",
+      "rank": 256,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_272",
+      "predicate_id": "founder_of",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Found is the largest interpretable repeated action (three), tied numerically with a role-opaque turn/problem fragment; founding is fixed before any grades, while sports/camp/birth paths remain separate.",
+      "reviewer": "runner",
+      "rank": 257,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_286",
+      "predicate_id": "lawyer_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "rationale": "Attorney appointments/confirmation/sworn office dominates, with jurisdiction second. Corporate company-of and sporting comparison are unrelated.",
+      "reviewer": "runner",
+      "rank": 258,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_366",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        1,
+        6
+      ],
+      "rationale": "Spokesman has four explicit rows, exceeding the three aide rows; consultant is not silently combined with aide to force a tie. Director/professor service is a distinct role.",
+      "reviewer": "runner",
+      "rank": 259,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_373",
+      "predicate_id": "lawyer_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Attorney representation and counsel-to-client roles consistently dominate; head-of-legal-team is interpreted only with local legal context.",
+      "reviewer": "runner",
+      "rank": 260,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_392",
+      "predicate_id": "sporting_champion_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rationale": "Held/defended title/crown and champion dominates; challenges/promotions for the title alone remain insufficient.",
+      "reviewer": "runner",
+      "rank": 261,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_10",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "rationale": "Explicit president-office family is the strongest identifiable title, narrowly exceeding campus location. Generic leader or residence does not become a presidency.",
+      "reviewer": "runner",
+      "rank": 262,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_55",
+      "predicate_id": "has_lawyer",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "rationale": "Client X with lawyer Y is the dominant repeated relation, including legal-team membership when established; generic confrontational lead is not enough.",
+      "reviewer": "runner",
+      "rank": 263,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_65",
+      "predicate_id": "communicates_to",
+      "supporting_path_indices": [
+        0,
+        4
+      ],
+      "rationale": "Tell has the highest repeated clear path; topic writing and lawyer attachment families tie only through dispersed/ambiguous fragments. Encounter alone is not necessarily speech.",
+      "reviewer": "runner",
+      "rank": 264,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_83",
+      "predicate_id": "dancer_for",
+      "supporting_path_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        9
+      ],
+      "rationale": "Artistic performer/company family dominates the full dictionary: dancer, principal, performing, staging and payroll context, with dancer explicit and directing/head adjacent. Choose the narrow professional-dancer predicate rather than expanding to every directing or payroll role. Wife and basketball-management pairs are separate families. Centrally approved occupation scope.",
+      "reviewer": "runner",
+      "rank": 265,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_92",
+      "predicate_id": "owns",
+      "supporting_path_indices": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "rationale": "Ownership/reign-as-owner/control/partner context is the strongest coherent family; team leadership or ordinary returning to a team does not establish ownership.",
+      "reviewer": "runner",
+      "rank": 266,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_99",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "rationale": "Chair/leadership/reign family is the largest office grouping, ahead of company location. Nomination alone and generic executive require the prior title/actuality conventions.",
+      "reviewer": "runner",
+      "rank": 267,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_105",
+      "predicate_id": "dismissed_person",
+      "supporting_path_indices": [
+        3,
+        4,
+        5
+      ],
+      "rationale": "Fire/dismiss is the largest family (five rows), exceeding replace (four). Manager X removes Y from position; X need not be Y successor.",
+      "reviewer": "runner",
+      "rank": 268,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_106",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        1
+      ],
+      "rationale": "Leader/president of a named organizational wing/arm dominates; casual White House meeting and intern relationship are separate. Subunit scope remains explicit.",
+      "reviewer": "runner",
+      "rank": 269,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_142",
+      "predicate_id": "managerial_office_in",
+      "supporting_path_indices": [
+        3,
+        4,
+        5
+      ],
+      "rationale": "Mixed chair/director office is the largest coherent role family (three), ahead of intern or move-out paths. The incomplete Homeless label and omitted office attachment remain unresolved unless local evidence identifies Y.",
+      "reviewer": "runner",
+      "rank": 270,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_143",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "rationale": "Inverse national leader/minister succession family dominates; meeting with a person alone does not show that office.",
+      "reviewer": "runner",
+      "rank": 271,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_147",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "rationale": "Institution/venue at an address dominates, with geographic district containment a separate minority. Incidental scheduled event requires institutional location evidence.",
+      "reviewer": "runner",
+      "rank": 272,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_182",
+      "predicate_id": "writes_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "rationale": "Writing/review-in publication is the largest clear family; athlete scoring and coach comments/commitment are separate. Mere quotation is not authorship.",
+      "reviewer": "runner",
+      "rank": 273,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_198",
+      "predicate_id": "present_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "rationale": "Geographic office/appearance/delivery context dominates institution/person-to-place pairs; Cubs appearance in a sporting event is a distinct nongeographic meaning. Actual presence must still be established.",
+      "reviewer": "runner",
+      "rank": 274,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_204",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        1,
+        2
+      ],
+      "rationale": "Spokeswoman description is the largest role family; adviser and inverse national-ruler relations are not folded into it.",
+      "reviewer": "runner",
+      "rank": 275,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_217",
+      "predicate_id": "coach_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        5
+      ],
+      "rationale": "Coach title has the greatest dictionary support, ahead of executive succession. Mere consideration as successor or departure is not actual coaching.",
+      "reviewer": "runner",
+      "rank": 276,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_239",
+      "predicate_id": "spokesperson_for",
+      "supporting_path_indices": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "rationale": "Named spokesman/secretary appointment is the largest explicit office family; occupying or ordering guards in the White House does not alone identify a spokesperson.",
+      "reviewer": "runner",
+      "rank": 277,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_241",
+      "predicate_id": "acted_jointly_with",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "rationale": "Follow/join/go-with between House and Senate is the largest cooperative-action family; generic follow/join must still identify shared action, and sequential passage is not automatic cooperation.",
+      "reviewer": "runner",
+      "rank": 278,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_290",
+      "predicate_id": "strategist_for",
+      "supporting_path_indices": [
+        1,
+        2
+      ],
+      "rationale": "Explicit strategist affiliation (six rows) dominates analyst (two) and numeric comparison (three); keep strategist separate from generic analyst.",
+      "reviewer": "runner",
+      "rank": 279,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_302",
+      "predicate_id": "unresolved_relation",
+      "supporting_path_indices": [],
+      "rationale": "Central adjudication after full dictionary and all ordered rows: explicit manager titles occur twice for Dave Johnson–Mets and explicit lawyer titles twice for Stephen Jones–McVeigh. All paths are singletons; contextual bringing/using/fighting/attacking/dismissing cannot reliably resolve this tied role mixture. No dominant coherent predicate selected; retain both cases as semantic indeterminacy.",
+      "reviewer": "runner",
+      "rank": 280,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_315",
+      "predicate_id": "located_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rationale": "Office/campus location is the consistent family; person-in-city office attachment alone must actually locate X or its own office under the organizational-type rule.",
+      "reviewer": "runner",
+      "rank": 281,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_320",
+      "predicate_id": "resides_in",
+      "supporting_path_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "rationale": "Living/population/ghetto/home family dominates. Generic religious God/heaven and mothers residence may be figurative or indirect, so do not silently supply literal residence.",
+      "reviewer": "runner",
+      "rank": 282,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_327",
+      "predicate_id": "participated_in_sporting_event",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Being beaten in a named sporting event is the largest coherent path family; it establishes participation when the event and actual contest are clear, not victory. Geographic place and analyst/headquarters fragments stay separate.",
+      "reviewer": "runner",
+      "rank": 283,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_353",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0
+      ],
+      "rationale": "Confirmed-as-chairman is the largest repeated office family, ahead of spokesperson and analyst descriptions; confirmation must establish actual office rather than a nominee only.",
+      "reviewer": "runner",
+      "rank": 284,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_355",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        4,
+        6,
+        9,
+        10
+      ],
+      "rationale": "Explicit president title/candidacy is the largest family; primary victory/candidacy alone is not actual presidency, and corporate national oil affiliation is separate.",
+      "reviewer": "runner",
+      "rank": 285,
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    }
+  ]
+}

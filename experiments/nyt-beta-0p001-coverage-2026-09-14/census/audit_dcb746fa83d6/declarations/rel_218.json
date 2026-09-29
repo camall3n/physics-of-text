@@ -1,0 +1,41 @@
+{
+  "relation": "rel_218",
+  "predicate_id": "has_coach",
+  "predicate_version": 1,
+  "predicate_hash": "569f330d14a8a5cc302fc0ff834017307223771d032924185f482ca547027ffc",
+  "predicate": {
+    "id": "has_coach",
+    "label": "has coach",
+    "definition": "Team or sporting organization X has or had person Y as an explicitly identified coach.",
+    "includes": [
+      "explicit head coach, coach, or assistant coach office",
+      "historical coaching office"
+    ],
+    "excludes": [
+      "ordinary player or manager alone without a coach title",
+      "an opponent or commentator",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear title or team attachment",
+      "a coach-elect or proposed appointment without established tenure"
+    ],
+    "notes": "Inverse of coach_of. This does not assert that Y is the sole or current coach.",
+    "scope_notes": "Includes: explicit head coach, coach, or assistant coach office; historical coaching office. Excludes: ordinary player or manager alone without a coach title; an opponent or commentator; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear title or team attachment; a coach-elect or proposed appointment without established tenure. Inverse of coach_of. This does not assert that Y is the sole or current coach."
+  },
+  "dictionary_sha256": "47128a09bf0ae63037106b11a11c50247180fac0f66886d89dc6d495e26017e4",
+  "kind": "declared_before_case_grading",
+  "rationale": "All literal first arguments are teams and second arguments named coaches; explicit possessive coach paths resolve the otherwise noisy reporting and malformed coach paths.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.829Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_218.before_grading.json",
+  "pregrading_annotation_sha256": "45323d9487d87525e5ad1b0b06e1829840065f8955944c9ba8fa8d70ae4103fe"
+}

@@ -1,0 +1,194 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_84",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        20,
+        21,
+        28,
+        29,
+        37,
+        43
+      ],
+      "case_ids": [
+        "rel_84__ent_1148__ent_460",
+        "rel_84__ent_1147__ent_209",
+        "rel_84__ent_1285__ent_407",
+        "rel_84__ent_461__ent_222",
+        "rel_84__ent_463__ent_440",
+        "rel_84__ent_464__ent_221",
+        "rel_84__ent_1087__ent_701",
+        "rel_84__ent_449__ent_1146",
+        "rel_84__ent_1254__ent_703",
+        "rel_84__ent_714__ent_1002",
+        "rel_84__ent_300__ent_1401",
+        "rel_84__ent_955__ent_1002",
+        "rel_84__ent_1078__ent_429",
+        "rel_84__ent_942__ent_843",
+        "rel_84__ent_716__ent_958",
+        "rel_84__ent_220__ent_1205",
+        "rel_84__ent_874__ent_843",
+        "rel_84__ent_955__ent_1409"
+      ],
+      "judgment": "supported",
+      "reason": "The case supplies an explicit company/firm geographic modifier, based-in or company-in-place relation supporting organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_84__ent_1247__ent_1270"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Muse and Dallas are materially different target readings merged in the same fact; the location-supported Dallas reading does not resolve Muse.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should Muse and Dallas be separate target entities?"
+    },
+    {
+      "indices": [
+        5,
+        6,
+        7,
+        11,
+        13,
+        18,
+        24,
+        25,
+        34
+      ],
+      "case_ids": [
+        "rel_84__ent_293__ent_10",
+        "rel_84__ent_21__ent_10",
+        "rel_84__ent_39__ent_38",
+        "rel_84__ent_290__ent_11",
+        "rel_84__ent_934__ent_1079",
+        "rel_84__ent_23__ent_29",
+        "rel_84__ent_292__ent_28",
+        "rel_84__ent_26__ent_25",
+        "rel_84__ent_24__ent_1339"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Nationality adjectives or truncated country arguments do not unambiguously identify physical location, including where ownership-government context also occurs.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Does the adjective denote an actual geographic place rather than nationality, and what is the full place argument?"
+    },
+    {
+      "indices": [
+        27
+      ],
+      "case_ids": [
+        "rel_84__ent_943__ent_936"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The target merges Cambridge with Internet, combining a geographic base and an industry/medium.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Should Cambridge and Internet be separate target entities?"
+    },
+    {
+      "indices": [
+        42
+      ],
+      "case_ids": [
+        "rel_84__ent_1162__ent_1088"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The only firm-to-Cambridge link is an untyped dependency, so physical-location attachment remains unresolved.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Does this untyped firm dependency describe the firm as located in Cambridge?"
+    },
+    {
+      "indices": [
+        19,
+        26,
+        30,
+        31,
+        32,
+        33,
+        35,
+        36,
+        38,
+        39,
+        40,
+        41
+      ],
+      "case_ids": [
+        "rel_84__ent_1046__ent_819",
+        "rel_84__ent_195__ent_1002",
+        "rel_84__ent_662__ent_1002",
+        "rel_84__ent_435__ent_1213",
+        "rel_84__ent_1321__ent_1352",
+        "rel_84__ent_515__ent_1212",
+        "rel_84__ent_887__ent_1008",
+        "rel_84__ent_1046__ent_1352",
+        "rel_84__ent_334__ent_961",
+        "rel_84__ent_363__ent_569",
+        "rel_84__ent_1330__ent_1409",
+        "rel_84__ent_263__ent_245"
+      ],
+      "judgment": "incorrect",
+      "reason": "These rows describe people, travel, employment, political control or literary associations rather than an organization’s geographic location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        22,
+        23
+      ],
+      "case_ids": [
+        "rel_84__ent_943__ent_1362",
+        "rel_84__ent_956__ent_1362"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet denotes the business medium or industry and supplies no geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    24,
+    25,
+    27,
+    28
+  ],
+  "broad": []
+}

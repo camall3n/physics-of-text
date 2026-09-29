@@ -1,0 +1,103 @@
+{
+  "audit": "audit_9f5868d8ee0e",
+  "relation": "rel_342",
+  "cases_sha256": "5048d901aa518c2085dc040ff0c8decbe5045c925902848b6cc3c1521e57e04d",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        19,
+        22
+      ],
+      "case_ids": [
+        "rel_342__ent_886__ent_302",
+        "rel_342__ent_342__ent_584",
+        "rel_342__ent_678__ent_302",
+        "rel_342__ent_4__ent_3",
+        "rel_342__ent_587__ent_102",
+        "rel_342__ent_438__ent_1135",
+        "rel_342__ent_582__ent_1136",
+        "rel_342__ent_1025__ent_1026",
+        "rel_342__ent_439__ent_584",
+        "rel_342__ent_583__ent_340",
+        "rel_342__ent_652__ent_142",
+        "rel_342__ent_582__ent_101",
+        "rel_342__ent_280__ent_85",
+        "rel_342__ent_380__ent_0"
+      ],
+      "judgment": "supported",
+      "reason": "Direct chair, executive, president or manager evidence supports managerial office in the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        8,
+        10,
+        15,
+        16,
+        17,
+        18,
+        21
+      ],
+      "case_ids": [
+        "rel_342__ent_1168__ent_1169",
+        "rel_342__ent_481__ent_242",
+        "rel_342__ent_401__ent_76",
+        "rel_342__ent_834__ent_837",
+        "rel_342__ent_409__ent_1106",
+        "rel_342__ent_402__ent_644",
+        "rel_342__ent_1165__ent_227",
+        "rel_342__ent_1089__ent_953"
+      ],
+      "judgment": "incorrect",
+      "reason": "Location, founding, nationality, or association alone does not establish explicit managerial office.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        20
+      ],
+      "case_ids": [
+        "rel_342__ent_298__ent_19"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The head expression occurs through another dancer in a work-with attachment, while principal may denote a performer rather than management.",
+      "tags": [
+        "unclear_attachment"
+      ],
+      "question": "Does the head description attach to McKenzie or to the dancer he worked with?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    9,
+    11,
+    12,
+    13,
+    14
+  ],
+  "broad": []
+}

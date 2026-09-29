@@ -1,0 +1,40 @@
+{
+  "relation": "rel_169",
+  "predicate_id": "criticizes",
+  "predicate_version": 1,
+  "predicate_hash": "d6d753a975aabab857381299947b8710fc44d5900e51f7ca64fa2d1da32876ac",
+  "predicate": {
+    "id": "criticizes",
+    "label": "criticized or accused",
+    "definition": "Person or institution X criticized, blamed or accused Y.",
+    "includes": [
+      "explicit criticize/blame/accuse/assail",
+      "a clearly critical directed allegation"
+    ],
+    "excludes": [
+      "warning without criticism",
+      "generic communication or meeting",
+      "rivalry/comparison alone"
+    ],
+    "ambiguous": [
+      "unclear accused person or attributed critic"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit criticize/blame/accuse/assail; a clearly critical directed allegation. Excludes: warning without criticism; generic communication or meeting; rivalry/comparison alone. Ambiguous unless resolved by case-local evidence: unclear accused person or attributed critic."
+  },
+  "dictionary_sha256": "fe05c556c2f9318ff1db0361ba96af2bc1f3c52b17b9b04e8b5450e16e92f390",
+  "kind": "declared_before_case_grading",
+  "rationale": "Blame7 dominates explicit negative attribution; replacement and firing are separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:19:02.552Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_169.before_grading.json",
+  "pregrading_annotation_sha256": "2250d3b977b041245d8315699b53be9254480389e77b4ef3b1a1a304ddbfed98"
+}

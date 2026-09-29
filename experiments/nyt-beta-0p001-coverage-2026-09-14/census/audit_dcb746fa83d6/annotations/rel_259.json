@@ -1,0 +1,99 @@
+{
+  "relation": "rel_259",
+  "predicate_id": "location_of_organization",
+  "label": "location of organization or its office",
+  "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+  "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+  "facts": [
+    {
+      "case_id": "rel_259__ent_843__ent_422",
+      "judgment": "ambiguous",
+      "reason": "New York → Hill; New York → Bartle Bogle Hegarty; New York → DDB Worldwide: Office-location evidence is present, but Bartle Bogle Hegarty, DDB Worldwide and Hill are merged in one latent organization.",
+      "evidence_lines": [
+        4161,
+        4162,
+        4177,
+        4180,
+        4183,
+        4185,
+        4187,
+        4188,
+        4189
+      ],
+      "issue_tags": [
+        "local_entity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Which distinct advertising organization does the second latent argument denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.973Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_843__ent_421",
+      "judgment": "supported",
+      "reason": "New York → Fallon Worldwide: A geographic office or organizational division in New York establishes inverse physical location.",
+      "evidence_lines": [
+        4200,
+        4201,
+        4203,
+        4204,
+        4207
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.973Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_1073__ent_1409",
+      "judgment": "incorrect",
+      "reason": "Young & Rubicam → WPP Group: A corporate subsidiary-to-parent relationship has no geographic first argument.",
+      "evidence_lines": [
+        6718,
+        6722,
+        6724,
+        6726,
+        6727
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.973Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_843__ent_1104",
+      "judgment": "supported",
+      "reason": "New York → BBDO Worldwide: A geographic office or organizational division in New York establishes inverse physical location.",
+      "evidence_lines": [
+        4133,
+        4136
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.973Z"
+      }
+    }
+  ],
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e3a74dab5c5d0939fe25daeba432a8582b59c527bdadc384014fe652e9e87deb"
+}

@@ -1,0 +1,54 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_40",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_40__ent_670__ent_431",
+        "rel_40__ent_827__ent_419",
+        "rel_40__ent_673__ent_430",
+        "rel_40__ent_198__ent_672",
+        "rel_40__ent_113__ent_674"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit wife apposition or accompanied-by-wife evidence establishes the ordered marital relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_40__ent_182__ent_433"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Barbara is attached as wife, mother and daughter of Mr. Bush in the same fact; the honorific surname does not distinguish the person across these contradictory family attachments.",
+      "tags": [
+        "family_attachment",
+        "identity_ambiguity"
+      ],
+      "question": "Do all Mr. Bush rows refer to the same individual, and which wife/mother/daughter attachments belong to Barbara?"
+    }
+  ],
+  "mixed": [
+    0,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "dc0e4123a93bba181135b429c58429eaddf92d18fcb0e9a86d8fea41359fe858"
+}

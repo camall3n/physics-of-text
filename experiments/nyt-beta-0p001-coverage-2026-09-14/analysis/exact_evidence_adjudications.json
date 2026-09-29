@@ -1,0 +1,428 @@
+{
+  "method": "Explicit manually adjudicated cases, not automatic semantic propagation. Prior top20 untouched; every earlier annotation preserved in annotation_history.",
+  "changes": [
+    {
+      "audit": "audit_9c88162c7b22",
+      "case_id": "rel_228__ent_108__ent_1047",
+      "predicate_id": "director_of",
+      "before": {
+        "case_id": "rel_228__ent_108__ent_1047",
+        "judgment": "ambiguous",
+        "reason": "Desmond Ryan → Better Long Island: Director-for attaches to Better Long Island, an incomplete or purpose-like institutional designation.",
+        "evidence_lines": [
+          1738,
+          1739,
+          1740,
+          1741,
+          1742
+        ],
+        "issue_tags": [
+          "incomplete_argument"
+        ],
+        "reviewer_question": "What complete institution is named Better Long Island in the director title?",
+        "provisional": false,
+        "review": {
+          "reviewer": "runner",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:28:41.478Z"
+        }
+      },
+      "after": "supported",
+      "reason": "Direct director-for titles identify Better Long Island as the institutional principal. The shortened institutional label is accepted consistently with the preserved role-and-shorthand convention.",
+      "question": "",
+      "tags": [
+        "institutional_shorthand"
+      ]
+    },
+    {
+      "audit": "audit_06dbdb9b03af",
+      "case_id": "rel_1__ent_547__ent_789",
+      "predicate_id": "located_in",
+      "before": {
+        "case_id": "rel_1__ent_547__ent_789",
+        "judgment": "supported",
+        "reason": "I.B.M. → Armonk: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+        "evidence_lines": [
+          806,
+          4402
+        ],
+        "issue_tags": [],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "nyt_kernel_audit",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:24:38.350Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "The sole have-working-in path omits who or what is working in Armonk. It does not clearly identify company premises, an office, or a base.",
+      "question": "Does the complete sentence place an I.B.M. office or facility in Armonk, or only unspecified people/things working there?",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "audit": "audit_dcb746fa83d6",
+      "case_id": "rel_67__ent_93__ent_82",
+      "predicate_id": "travels_to",
+      "before": {
+        "case_id": "rel_67__ent_93__ent_82",
+        "judgment": "ambiguous",
+        "reason": "Watsons → Birmingham: The Watsons-to-Birmingham phrase may be an embedded story title rather than an independently asserted journey by an identified group.",
+        "evidence_lines": [
+          3447,
+          3448
+        ],
+        "issue_tags": [
+          "title_boundary",
+          "mixed_evidence"
+        ],
+        "reviewer_question": "Does Watsons identify travelers in the assertion, or is the extraction a book-title fragment?",
+        "provisional": false,
+        "review": {
+          "reviewer": "evaluation",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:12:06.254Z"
+        }
+      },
+      "after": "supported",
+      "reason": "The unqualified go-to path states a journey to Birmingham. A separate story/bombing path does not explicitly mark that journey as a title or hypothetical event; apply the same literal movement convention as the preserved prior census.",
+      "question": "",
+      "tags": [
+        "mixed_evidence"
+      ]
+    },
+    {
+      "audit": "audit_06dbdb9b03af",
+      "case_id": "rel_206__ent_281__ent_82",
+      "predicate_id": "travels_to",
+      "before": {
+        "case_id": "rel_206__ent_281__ent_82",
+        "judgment": "ambiguous",
+        "reason": "Watsons → Birmingham: Go-to occurs alongside story and bombing narrative, so a literal family journey versus a work-title reference is unresolved.",
+        "evidence_lines": [
+          3447,
+          3448
+        ],
+        "issue_tags": [
+          "metonymy",
+          "mixed_evidence"
+        ],
+        "reviewer_question": "Does Watsons denote travelers in an asserted journey, or a literary title reference?",
+        "provisional": false,
+        "review": {
+          "reviewer": "nyt_kernel_audit",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:12:52.233Z"
+        }
+      },
+      "after": "supported",
+      "reason": "The unqualified go-to path states a journey to Birmingham. A separate story/bombing path does not explicitly mark that journey as a title or hypothetical event; apply the same literal movement convention as the preserved prior census.",
+      "question": "",
+      "tags": [
+        "mixed_evidence"
+      ]
+    },
+    {
+      "audit": "audit_dcb746fa83d6",
+      "case_id": "rel_187__ent_1368__ent_1197",
+      "predicate_id": "member_of",
+      "before": {
+        "case_id": "rel_187__ent_1368__ent_1197",
+        "judgment": "ambiguous",
+        "reason": "House → Senate: The bare join edge can describe joint action between political counterparts rather than accession as a member.",
+        "evidence_lines": [
+          1973
+        ],
+        "issue_tags": [
+          "join_scope"
+        ],
+        "reviewer_question": "Does join here mean institutional membership rather than joining another entity in an action?",
+        "provisional": false,
+        "review": {
+          "reviewer": "evaluation",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:13:23.927Z"
+        }
+      },
+      "after": "incorrect",
+      "reason": "The House-to-Senate bare join path connects counterpart legislative bodies and supplies no membership or accession role. Joining in action does not establish that one chamber is a member of the other.",
+      "question": "",
+      "tags": [
+        "wrong_relation"
+      ]
+    },
+    {
+      "audit": "audit_dcb746fa83d6",
+      "case_id": "rel_253__ent_901__ent_303",
+      "predicate_id": "reviews_artistic_output_of",
+      "before": {
+        "case_id": "rel_253__ent_901__ent_303",
+        "judgment": "supported",
+        "reason": "Naomi Siegel → Shakespeare Theater: A local direct artistic review or review-of-performance/production row identifies this artist or producing institution as the reviewed subject; shortened theater/circus names retain a coherent performer identity.",
+        "evidence_lines": [
+          1841
+        ],
+        "issue_tags": [],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "evaluation",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:14:27.233Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "The isolated review-of-Shakespeare-Theater path does not establish whether the object is an artistic producer/ensemble or a venue. The frozen predicate explicitly requires this distinction.",
+      "question": "Does Shakespeare Theater identify the producer of the reviewed work, or only a venue being reviewed?",
+      "tags": [
+        "venue_producer_ambiguity"
+      ]
+    },
+    {
+      "audit": "audit_dcb746fa83d6",
+      "case_id": "rel_180__ent_1386__ent_818",
+      "predicate_id": "travels_to",
+      "before": {
+        "case_id": "rel_180__ent_1386__ent_818",
+        "judgment": "incorrect",
+        "reason": "Britain → China: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+        "evidence_lines": [
+          5166,
+          5173,
+          5175
+        ],
+        "issue_tags": [
+          "mixed_evidence"
+        ],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "evaluation",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:22:41.531Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "The bare return-to edge is accompanied by returning territory and a hand-over. The moving entity may be omitted territory rather than Britain; the retained paths do not resolve that attachment.",
+      "question": "Does the return-to sentence describe British movement to China or Britain returning territory to China?",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "audit": "audit_dcb746fa83d6",
+      "case_id": "rel_241__ent_1299__ent_1107",
+      "predicate_id": "has_political_leader",
+      "before": {
+        "case_id": "rel_241__ent_1299__ent_1107",
+        "judgment": "incorrect",
+        "reason": "Senate → Republicans: Committee membership, corporate nationality, or a plural political group does not establish the required named individual political leader.",
+        "evidence_lines": [
+          4902
+        ],
+        "issue_tags": [],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "evaluation",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:24:57.335Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "The leader construction supplies Republicans instead of an identified individual officeholder. The frozen scope marks an unnamed political leader as ambiguous.",
+      "question": "Which individual Senate leader is meant by the extracted Republicans argument?",
+      "tags": [
+        "unnamed_person"
+      ]
+    },
+    {
+      "audit": "audit_06dbdb9b03af",
+      "case_id": "rel_112__ent_852__ent_613",
+      "predicate_id": "economist_for",
+      "before": {
+        "case_id": "rel_112__ent_852__ent_613",
+        "judgment": "ambiguous",
+        "reason": "Lawrence A. Kudlow → Bear: The economist role is explicit, but Bear is a materially incomplete principal name in these rows.",
+        "evidence_lines": [
+          2375,
+          2376,
+          2377,
+          2378
+        ],
+        "issue_tags": [
+          "argument_identity"
+        ],
+        "reviewer_question": "Does Bear identify the intended financial firm rather than another or incomplete principal?",
+        "provisional": false,
+        "review": {
+          "reviewer": "nyt_kernel_audit",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:03:47.497Z"
+        }
+      },
+      "after": "supported",
+      "reason": "Four explicit economist-at/for/of/with paths identify Bear as the employer/principal. Accept the coherent institutional shorthand under the preserved convention, without importing another fact.",
+      "question": "",
+      "tags": [
+        "institutional_shorthand"
+      ]
+    },
+    {
+      "audit": "audit_9c88162c7b22",
+      "case_id": "rel_334__ent_1048__ent_1049",
+      "predicate_id": "director_of",
+      "before": {
+        "case_id": "rel_334__ent_1048__ent_1049",
+        "judgment": "ambiguous",
+        "reason": "Caroline Smith DeWaal → Center for Science: Director is explicit but Center for Science omits the identifying institutional name.",
+        "evidence_lines": [
+          1744,
+          1745,
+          1746
+        ],
+        "issue_tags": [
+          "incomplete_argument"
+        ],
+        "reviewer_question": "What complete Center for Science institution is directed by Caroline Smith DeWaal?",
+        "provisional": false,
+        "review": {
+          "reviewer": "runner",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:27:38.559Z"
+        }
+      },
+      "after": "supported",
+      "reason": "Explicit director-at/of/for paths identify Center for Science as the institutional principal. Accept the shortened institution consistently with the preserved role-and-shorthand convention.",
+      "question": "",
+      "tags": [
+        "institutional_shorthand"
+      ]
+    },
+    {
+      "audit": "audit_e318fe663470",
+      "case_id": "rel_290__ent_1162__ent_1088",
+      "predicate_id": "located_in",
+      "before": {
+        "case_id": "rel_290__ent_1162__ent_1088",
+        "judgment": "supported",
+        "reason": "Forrester Research → Cambridge: A local company/firm-in or geographic firm modifier/based-in construction establishes the organizational location.",
+        "evidence_lines": [
+          7131
+        ],
+        "issue_tags": [],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "root",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:04:31.452Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "The sole firm-to-Cambridge connection is an untyped dependency. It does not supply a clear locative or geographic noun-modifier attachment; this matches the preserved complete-evidence reference.",
+      "question": "Does the untyped dependency describe a firm located in Cambridge, or another relation to Cambridge?",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "audit": "audit_e318fe663470",
+      "case_id": "rel_368__ent_1151__ent_215",
+      "predicate_id": "succeeded_person",
+      "before": {
+        "case_id": "rel_368__ent_1151__ent_215",
+        "judgment": "supported",
+        "reason": "Frank R. Lautenberg → Robert G. Torricelli: Explicit succeeded, took-place or predecessor constructions establish succession or replacement of the earlier role holder.",
+        "evidence_lines": [
+          5865,
+          5866,
+          5867,
+          5868,
+          5869,
+          5870
+        ],
+        "issue_tags": [
+          "mixed_evidence"
+        ],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "root",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:21:47.715Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "Replacement, substitution and taking a place are explicit, but the retained paths do not identify the role being taken over or establish its tenure. The senator context alone does not distinguish candidacy from an already held office.",
+      "question": "Which role did Lautenberg take over from Torricelli, and do these rows establish taking that role rather than replacement as a candidate?",
+      "tags": [
+        "role_or_tenure_ambiguity"
+      ]
+    },
+    {
+      "audit": "audit_06dbdb9b03af",
+      "case_id": "rel_51__ent_1151__ent_215",
+      "predicate_id": "succeeded_person",
+      "before": {
+        "case_id": "rel_51__ent_1151__ent_215",
+        "judgment": "supported",
+        "reason": "Frank R. Lautenberg → Robert G. Torricelli: Successor, succeed, take-place or explicit role replacement evidence establishes taking over from the named predecessor.",
+        "evidence_lines": [
+          5865,
+          5866,
+          5867,
+          5868,
+          5869,
+          5870
+        ],
+        "issue_tags": [
+          "mixed_evidence"
+        ],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "nyt_kernel_audit",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:12:52.186Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "Replacement, substitution and taking a place are explicit, but the retained paths do not identify the role being taken over or establish its tenure. The senator context alone does not distinguish candidacy from an already held office.",
+      "question": "Which role did Lautenberg take over from Torricelli, and do these rows establish taking that role rather than replacement as a candidate?",
+      "tags": [
+        "role_or_tenure_ambiguity"
+      ]
+    },
+    {
+      "audit": "audit_9c88162c7b22",
+      "case_id": "rel_33__ent_183__ent_189",
+      "predicate_id": "agreed_with",
+      "before": {
+        "case_id": "rel_33__ent_183__ent_189",
+        "judgment": "supported",
+        "reason": "Administration → Congress: The explicit possessive agreement-with-Congress paths establish an agreement by the named administration; no external agreement content is assumed.",
+        "evidence_lines": [
+          452,
+          2019
+        ],
+        "issue_tags": [],
+        "reviewer_question": "",
+        "provisional": false,
+        "review": {
+          "reviewer": "runner",
+          "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+          "reviewed_at": "2026-09-14T22:32:32.977Z"
+        }
+      },
+      "after": "ambiguous",
+      "reason": "Agreement-with is explicit, but the sole Administration argument does not identify which administration is the institutional principal.",
+      "question": "Which administration entered the agreement with Congress?",
+      "tags": [
+        "unnamed_principal"
+      ]
+    }
+  ]
+}

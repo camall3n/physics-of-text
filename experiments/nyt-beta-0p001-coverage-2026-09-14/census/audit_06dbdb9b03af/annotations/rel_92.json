@@ -1,0 +1,56 @@
+{
+  "relation": "rel_92",
+  "predicate_id": "has_spokesperson",
+  "label": "has spokesperson",
+  "definition": "Organization or principal X has person Y serving as its spokesperson.",
+  "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person.",
+  "facts": [
+    {
+      "case_id": "rel_92__ent_562__ent_323",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Brooklyn: Person crime/location and family descriptions do not establish a principal having a named spokesperson.",
+      "evidence_lines": [
+        963,
+        965,
+        966,
+        967,
+        969,
+        970
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.820Z"
+      }
+    },
+    {
+      "case_id": "rel_92__ent_536__ent_577",
+      "judgment": "supported",
+      "reason": "State Department → Nicholas Burns: Explicit institutional spokesman apposition identifies Nicholas Burns as State Department spokesperson.",
+      "evidence_lines": [
+        5428,
+        5429,
+        5430,
+        5432,
+        5433,
+        5435
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.820Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1478b3289bdc7b0344e6f84a200528557ad3de267ff43fd2f7ec56b8cc2638c4"
+}

@@ -1,0 +1,72 @@
+{
+  "relation": "rel_169",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_169__ent_1197__ent_263",
+      "judgment": "ambiguous",
+      "reason": "Senate → Republican: Leadership and majority paths attach to the unnamed adjective Republican; they do not identify an individual officeholder as required by this predicate.",
+      "evidence_lines": [
+        7676,
+        7677,
+        7680,
+        7683,
+        7684,
+        7685
+      ],
+      "issue_tags": [
+        "unnamed_person"
+      ],
+      "reviewer_question": "Which named Republican leader is the Senate’s second argument?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.415Z"
+      }
+    },
+    {
+      "case_id": "rel_169__ent_314__ent_323",
+      "judgment": "incorrect",
+      "reason": "Mr. Schwartz → Brooklyn: A person and Brooklyn address/court context have neither the political-body-to-person direction nor leadership evidence.",
+      "evidence_lines": [
+        975,
+        976,
+        977,
+        978
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.415Z"
+      }
+    },
+    {
+      "case_id": "rel_169__ent_537__ent_820",
+      "judgment": "incorrect",
+      "reason": "United States → Israel: Punishment for support of Israel concerns two countries and political support, not a country having an individual leader.",
+      "evidence_lines": [
+        2090,
+        4216,
+        7913
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.415Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "799a222f987d792f962c0d7062a740a8ed6631109bc569a5e4c03ded903e8ab6"
+}

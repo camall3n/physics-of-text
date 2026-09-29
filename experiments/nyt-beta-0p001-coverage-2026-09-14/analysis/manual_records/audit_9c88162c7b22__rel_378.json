@@ -1,0 +1,44 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_378",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_378__ent_37__ent_34",
+        "rel_378__ent_263__ent_261"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Soviet or Republican is an adjective and does not identify the complete political body whose leader is named.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete political institution, country or party caucus does the adjective denote?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_378__ent_302__ent_544"
+      ],
+      "judgment": "incorrect",
+      "reason": "Microsoft/Redmond way is a geographic street-name fragment, not political leadership.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1a3356a36b0be9f39d6f8ee96de06efde2c15a1895626276e03406fd9a14edbd"
+}

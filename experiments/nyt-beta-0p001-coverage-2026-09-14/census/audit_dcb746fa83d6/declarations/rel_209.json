@@ -1,0 +1,39 @@
+{
+  "relation": "rel_209",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "733d7ec0a9a50bac6928493378f731d7aff7a82179bee68e820d4a3a0812ee71",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit executive and resignation from executive office dominate, with political leadership as a competing family.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:37:08.945Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_209.before_grading.json",
+  "pregrading_annotation_sha256": "2597043d4fd73c747ac5faf10c82d666a2853e7b32989010815b5d0bd0feb904"
+}

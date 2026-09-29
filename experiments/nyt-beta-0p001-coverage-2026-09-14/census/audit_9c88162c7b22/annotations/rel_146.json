@@ -1,0 +1,54 @@
+{
+  "relation": "rel_146",
+  "predicate_id": "calls_up_players_from",
+  "label": "calls up players from team",
+  "definition": "Sports team X calls up, promotes, recalls, or summons players from source team or affiliate Y.",
+  "scope_notes": "Includes: explicit promotion or recall from a source team; calling or summoning a player from Y into X; clear team-to-affiliate recall or promotion context even if the player's name is omitted. Excludes: ordinary travel or communication from a geographic place; corporate ownership alone; sending a player in the opposite direction; a proposed promotion without realization. Ambiguous unless resolved by case-local evidence: the omitted object could be something other than a player; unclear source versus destination team; bare call-from without recruitment context. The direction is receiving team to source team. It does not require ownership of the affiliate or imply that all its players move.",
+  "facts": [
+    {
+      "case_id": "rel_146__ent_1004__ent_735",
+      "judgment": "supported",
+      "reason": "Yankees → Class AAA Columbus: Recall, promote, call, and summon from Class AAA Columbus, with team/club context, establish the receiving Yankees calling up players from that source affiliate.",
+      "evidence_lines": [
+        7916,
+        7917,
+        7919,
+        7920,
+        7921,
+        7922,
+        7923,
+        7924
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.075Z"
+      }
+    },
+    {
+      "case_id": "rel_146__ent_712__ent_325",
+      "judgment": "incorrect",
+      "reason": "Caryn James → The Times: Writing, comments, and criticism in The Times do not express calling up sports players from a source team.",
+      "evidence_lines": [
+        7323,
+        7325,
+        7327,
+        7328
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.075Z"
+      }
+    }
+  ],
+  "predicate_hash": "12587137bf20504af27b4abfcf7fa536fbf8c337a904deadf9626d1ef243472d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "bd726e6ce8bb6e108e1fb278eae59aa7e8e26559bd9bca670bb2617eb1a4e847"
+}

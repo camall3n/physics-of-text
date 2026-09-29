@@ -1,0 +1,72 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_37",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_37__ent_1321__ent_49",
+        "rel_37__ent_1197__ent_268",
+        "rel_37__ent_1321__ent_1214"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit inverse leader/majority-leader construction names the Senate's political leader.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        8
+      ],
+      "case_ids": [
+        "rel_37__ent_1321__ent_1269",
+        "rel_37__ent_1197__ent_1213"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leader construction supplies only Republican or Republicans rather than an identified individual officeholder.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which named Senate leader is intended?"
+    },
+    {
+      "indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_37__ent_1073__ent_1434",
+        "rel_37__ent_1294__ent_1401",
+        "rel_37__ent_882__ent_723",
+        "rel_37__ent_645__ent_333",
+        "rel_37__ent_1128__ent_773",
+        "rel_37__ent_313__ent_843",
+        "rel_37__ent_1142__ent_606"
+      ],
+      "judgment": "incorrect",
+      "reason": "Corporate ownership, a campaign/senator affiliation, residence or pension-fund alias context does not establish the declared inverse political leadership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "307eba88f006c0cb98b4352a92f5f8811789b5a8e529713ecd26bd219ea507bb"
+}

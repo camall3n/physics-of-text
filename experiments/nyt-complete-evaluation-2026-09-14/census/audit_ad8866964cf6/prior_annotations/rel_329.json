@@ -1,0 +1,85 @@
+{
+  "relation": "rel_329",
+  "label": "owns",
+  "definition": "Person or organization X owns organization or asset Y.",
+  "scope_notes": "Own, owner, parent, company-of and acquisition paths collectively form the largest coherent ownership component, preserving the prior ownership direction. Birthplace is a prominent competing component with the two highest individual path counts; it is not unioned with ownership. Location of premises alone is insufficient and proposed/rejected acquisitions alone would be ambiguous.",
+  "facts": [
+    {
+      "case_id": "rel_329__ent_352__ent_594",
+      "judgment": "supported",
+      "reason": "Peter S. Kalikow is explicitly owner of and owns The New York Post; publisher and acquisition are additional relationships.",
+      "evidence_lines": [
+        1485,
+        1488,
+        1489,
+        1486,
+        1492
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_329__ent_481__ent_242",
+      "judgment": "incorrect",
+      "reason": "Sotheby has headquarters and salesrooms on York Avenue; even the buy path locates an omitted purchased item on the avenue rather than establishing ownership of York Avenue.",
+      "evidence_lines": [
+        6244,
+        6245,
+        6246,
+        6247,
+        6249,
+        6250
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_329__ent_459__ent_1154",
+      "judgment": "supported",
+      "reason": "Texas Air Corporation explicitly owns Eastern and is its parent; a rejected-acquisition path does not erase the independent direct ownership descriptions.",
+      "evidence_lines": [
+        5970,
+        5971,
+        5972,
+        5977,
+        5975
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_329__ent_1034__ent_1035",
+      "judgment": "supported",
+      "reason": "Danny Meyer is explicitly owner of, owns and co-owns Union Square Cafe; the management-list path is additional.",
+      "evidence_lines": [
+        1435,
+        1436,
+        1443,
+        1442
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_329__ent_313__ent_555",
+      "judgment": "incorrect",
+      "reason": "Mr. Keene is born in Berkeley, which is a birthplace relation rather than ownership.",
+      "evidence_lines": [
+        991
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

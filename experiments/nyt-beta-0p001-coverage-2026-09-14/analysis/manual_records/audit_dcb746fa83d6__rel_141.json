@@ -1,0 +1,70 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_141",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8
+      ],
+      "case_ids": [
+        "rel_141__ent_23__ent_441",
+        "rel_141__ent_293__ent_10",
+        "rel_141__ent_290__ent_502",
+        "rel_141__ent_21__ent_10",
+        "rel_141__ent_292__ent_1431",
+        "rel_141__ent_27__ent_441",
+        "rel_141__ent_23__ent_1079"
+      ],
+      "judgment": "supported",
+      "reason": "A local company, group, manufacturer or equivalent organizational modifier explicitly states the national affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_141__ent_20__ent_253"
+      ],
+      "judgment": "incorrect",
+      "reason": "The two supplied rows concern a person and a borough-president relation, not a company's national affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_141__ent_942__ent_904"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York is a city/regional modifier rather than a national affiliation; the geographical level is outside the explicitly national meaning.",
+      "tags": [
+        "geographic_level"
+      ],
+      "question": "Is any country-level affiliation actually asserted, rather than only a New York location?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e62fe15f661c466db6c79a26fdbe2aba2b39883be10396057a120d4982bb3db1"
+}

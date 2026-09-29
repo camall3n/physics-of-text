@@ -1,0 +1,41 @@
+{
+  "relation": "rel_277",
+  "predicate_id": "politically_controlled_by",
+  "predicate_version": 1,
+  "predicate_hash": "14457cecd367f9b08944978b6ae308ec6156db62f6768146db8b2115ec1f2cfa",
+  "predicate": {
+    "id": "politically_controlled_by",
+    "label": "politically controlled by",
+    "definition": "Political institution, legislature, government, or geographic territory X is or was politically controlled by group or government Y.",
+    "includes": [
+      "explicit political control, takeover, or governing majority by Y",
+      "historical control including clearly established loss of prior control"
+    ],
+    "excludes": [
+      "an ordinary member or individual officeholder without group control",
+      "corporate ownership",
+      "political support or influence alone",
+      "proposed takeover without realization"
+    ],
+    "ambiguous": [
+      "generic have, take, or govern without clear control context",
+      "unclear political body or group identity",
+      "control versus ordinary office unresolved"
+    ],
+    "notes": "Inverse of politically_controls. A mere member of a legislature does not establish party control.",
+    "scope_notes": "Includes: explicit political control, takeover, or governing majority by Y; historical control including clearly established loss of prior control. Excludes: an ordinary member or individual officeholder without group control; corporate ownership; political support or influence alone; proposed takeover without realization. Ambiguous unless resolved by case-local evidence: generic have, take, or govern without clear control context; unclear political body or group identity; control versus ordinary office unresolved. Inverse of politically_controls. A mere member of a legislature does not establish party control."
+  },
+  "dictionary_sha256": "840744242c83aaca59f181e28168d42ed8bbd3a233064e04277754fb56a02d5b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Passive controlled-by and wrest-control-from political-body paths dominate, distinct from ordinary membership or inverse head titles.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:19:18.769Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_277.before_grading.json",
+  "pregrading_annotation_sha256": "00be39ea3fead71eac3103c4ecd5d79e84a723e0e15115402195010a16848f76"
+}

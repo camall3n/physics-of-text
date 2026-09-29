@@ -1,0 +1,257 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_84",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        25,
+        27,
+        28,
+        31,
+        32,
+        33,
+        35,
+        37,
+        41,
+        42,
+        43,
+        44,
+        45,
+        47,
+        54,
+        57,
+        61
+      ],
+      "case_ids": [
+        "rel_84__ent_1004__ent_309",
+        "rel_84__ent_309__ent_778",
+        "rel_84__ent_1004__ent_1236",
+        "rel_84__ent_309__ent_1004",
+        "rel_84__ent_400__ent_642",
+        "rel_84__ent_1411__ent_1038",
+        "rel_84__ent_1004__ent_1013",
+        "rel_84__ent_1358__ent_561",
+        "rel_84__ent_321__ent_1013",
+        "rel_84__ent_1029__ent_543",
+        "rel_84__ent_799__ent_1276",
+        "rel_84__ent_319__ent_1398",
+        "rel_84__ent_347__ent_1363",
+        "rel_84__ent_308__ent_543",
+        "rel_84__ent_318__ent_557",
+        "rel_84__ent_1234__ent_1398",
+        "rel_84__ent_561__ent_1358",
+        "rel_84__ent_1350__ent_647",
+        "rel_84__ent_321__ent_600",
+        "rel_84__ent_1004__ent_321",
+        "rel_84__ent_1013__ent_1289",
+        "rel_84__ent_559__ent_557",
+        "rel_84__ent_284__ent_1084",
+        "rel_84__ent_308__ent_1246",
+        "rel_84__ent_561__ent_560",
+        "rel_84__ent_315__ent_557",
+        "rel_84__ent_1283__ent_884",
+        "rel_84__ent_1430__ent_1004",
+        "rel_84__ent_95__ent_985",
+        "rel_84__ent_985__ent_308",
+        "rel_84__ent_317__ent_1276",
+        "rel_84__ent_641__ent_1289",
+        "rel_84__ent_1284__ent_1217",
+        "rel_84__ent_321__ent_1374",
+        "rel_84__ent_1404__ent_829",
+        "rel_84__ent_1015__ent_1289"
+      ],
+      "judgment": "supported",
+      "reason": "A supplied beat/defeat/victory-over or completed outlast row supports at least one historical competitive win. Other losses or games do not negate that win.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        21,
+        24,
+        26,
+        29,
+        30,
+        36,
+        38,
+        39,
+        40,
+        46,
+        48,
+        50,
+        51,
+        52,
+        53,
+        56,
+        58,
+        59,
+        60,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "case_ids": [
+        "rel_84__ent_935__ent_1267",
+        "rel_84__ent_1238__ent_189",
+        "rel_84__ent_1411__ent_320",
+        "rel_84__ent_111__ent_114",
+        "rel_84__ent_1363__ent_851",
+        "rel_84__ent_1016__ent_557",
+        "rel_84__ent_49__ent_1305",
+        "rel_84__ent_1325__ent_904",
+        "rel_84__ent_444__ent_1400",
+        "rel_84__ent_857__ent_1205",
+        "rel_84__ent_1271__ent_1359",
+        "rel_84__ent_180__ent_1118",
+        "rel_84__ent_732__ent_731",
+        "rel_84__ent_647__ent_1211",
+        "rel_84__ent_1315__ent_202",
+        "rel_84__ent_1320__ent_347",
+        "rel_84__ent_728__ent_721",
+        "rel_84__ent_1197__ent_49",
+        "rel_84__ent_559__ent_1289",
+        "rel_84__ent_904__ent_836",
+        "rel_84__ent_1197__ent_811",
+        "rel_84__ent_1421__ent_502",
+        "rel_84__ent_561__ent_1283",
+        "rel_84__ent_1250__ent_1299",
+        "rel_84__ent_726__ent_818",
+        "rel_84__ent_1360__ent_843",
+        "rel_84__ent_1378__ent_28",
+        "rel_84__ent_733__ent_5",
+        "rel_84__ent_62__ent_1129"
+      ],
+      "judgment": "incorrect",
+      "reason": "No supplied row establishes defeating the object competitor: these are other associations/roles, event wins, location, mere play, or losses.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_84__ent_309__ent_409"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The only potentially winning row is bare knock; the local subject also merges Red Sox with Brian Cashman. Completed defeat and subject identity are unresolved.",
+      "tags": [
+        "local_entity_collision",
+        "incomplete_result"
+      ],
+      "question": "Does the source establish a completed Red Sox victory, and is the manager mention a separate entity?"
+    },
+    {
+      "indices": [
+        4,
+        12,
+        49
+      ],
+      "case_ids": [
+        "rel_84__ent_1283__ent_1383",
+        "rel_84__ent_543__ent_1029",
+        "rel_84__ent_1236__ent_745"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A defeat row is present, but the same local argument merges incompatible referents (team and stadium, coach and team, or event and opponent). The latent fact identity is unresolved.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which incompatible local argument should this fact denote, and does the defeat evidence belong to that entity?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_84__ent_1310__ent_254"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Beat/defeat appears, but East and West also have geopolitical interpretations in these rows. The particular competitors are unidentified.",
+      "tags": [
+        "unclear_entity_identity"
+      ],
+      "question": "Are East and West particular sporting teams, or geopolitical regions, in the victory rows?"
+    },
+    {
+      "indices": [
+        34,
+        55
+      ],
+      "case_ids": [
+        "rel_84__ent_308__ent_896",
+        "rel_84__ent_1234__ent_1361"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bare outscore or shock may describe a win, a partial-period margin, or another result. No supplied explicit completed-contest win resolves this.",
+      "tags": [
+        "incomplete_result"
+      ],
+      "question": "Does the outscore/shock row describe winning the completed contest?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    25,
+    27,
+    28,
+    31,
+    32,
+    33,
+    37,
+    41,
+    42,
+    43,
+    47,
+    54
+  ],
+  "broad": []
+}

@@ -1,0 +1,45 @@
+{
+  "relation": "rel_341",
+  "predicate_id": "born_in",
+  "predicate_version": 1,
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate": {
+    "id": "born_in",
+    "label": "born in",
+    "definition": "Person X was born in geographic place Y.",
+    "includes": [
+      "direct born-in",
+      "born into a family in Y when Y is the birth location"
+    ],
+    "excludes": [
+      "grown up/raised/native/from alone",
+      "nationality",
+      "schooling/residence/travel",
+      "institution founding"
+    ],
+    "ambiguous": [
+      "unclear person or birthplace attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+  },
+  "dictionary_sha256": "d0a1cd109430be4d86ac134f98611593d17a194f78c5dd45cb2f246e1abee06f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Birth/family-in geographic place is the strongest coherent family; political comparison, threat and viewpoint rows are unrelated. Parent location without X birth remains ambiguous.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.823Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4,
+    5,
+    13
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_341.before_grading.json",
+  "pregrading_annotation_sha256": "21878ec0119ed28b3554bd9cc4dd61d86d26308abf48d65467f458b27c71dd1a"
+}

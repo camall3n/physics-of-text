@@ -1,0 +1,56 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_84",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_84__ent_865__ent_1387",
+        "rel_84__ent_1063__ent_1341",
+        "rel_84__ent_575__ent_323",
+        "rel_84__ent_334__ent_1341",
+        "rel_84__ent_570__ent_1317",
+        "rel_84__ent_1281__ent_1221",
+        "rel_84__ent_1036__ent_1317"
+      ],
+      "judgment": "supported",
+      "reason": "Local area/neighborhood/section/district wording establishes geographic containment within the stated borough.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_84__ent_784__ent_1307"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Two different neighborhoods, Williamsburg and Bensonhurst, are merged as one inferred geographic subject.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Williamsburg and Bensonhurst be separate inferred places?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f283c4013113c07c09d450fd54416110b3ff5ed58d7ac2fbb0acd87b57987d44"
+}

@@ -1,0 +1,81 @@
+{
+  "relation": "rel_264",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_264__ent_1004__ent_682",
+      "judgment": "ambiguous",
+      "reason": "Yankees → New Jersey: Move-to co-occurs with an owner stadium plan, leaving the relocation proposed versus actual unresolved.",
+      "evidence_lines": [
+        4834,
+        4835,
+        4836,
+        4837,
+        4838
+      ],
+      "issue_tags": [
+        "modality",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was the Yankees move to New Jersey realized, or only a stadium proposal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:17.393Z"
+      }
+    },
+    {
+      "case_id": "rel_264__ent_7__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Democrat → White House: Democrat is an unnamed political person and White House may denote office rather than physical destination.",
+      "evidence_lines": [
+        2706,
+        2707,
+        2710,
+        2711
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Democrat is intended, and is the return physical travel or political office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:17.393Z"
+      }
+    },
+    {
+      "case_id": "rel_264__ent_1125__ent_843",
+      "judgment": "ambiguous",
+      "reason": "Olympics → New York: Olympics have/hold/come-to describes an event-hosting possibility rather than clearly realized physical movement of an actor.",
+      "evidence_lines": [
+        4773,
+        4774,
+        4777,
+        4779
+      ],
+      "issue_tags": [
+        "modality",
+        "event_attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the local evidence assert an actual event in New York or a proposed hosting arrangement?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:17.393Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c5efcf6f96902346c273f048b795183bdb8d32069227fdf4f460af256d95eef8"
+}

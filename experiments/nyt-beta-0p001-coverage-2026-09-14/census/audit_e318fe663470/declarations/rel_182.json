@@ -1,0 +1,41 @@
+{
+  "relation": "rel_182",
+  "predicate_id": "legal_specialist_in",
+  "predicate_version": 1,
+  "predicate_hash": "a20297b390b73d51597c6f6da1f08657b66ec20d6c47c8f86af7c633fbcaf02b",
+  "predicate": {
+    "id": "legal_specialist_in",
+    "label": "legal specialist in field",
+    "definition": "Person X is explicitly identified as a legal expert or lawyer specializing in legal field or issue Y.",
+    "includes": [
+      "lawyer specializing in Y",
+      "explicit legal expert, authority, or specialist on Y",
+      "a legal-field modifier of a lawyer"
+    ],
+    "excludes": [
+      "client representation without specialization",
+      "generic institutional membership",
+      "practice location or ordinary employment",
+      "expertise in a nonlegal field"
+    ],
+    "ambiguous": [
+      "unclear legal field versus client",
+      "lawyer title or field attachment unresolved"
+    ],
+    "notes": "Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation.",
+    "scope_notes": "Includes: lawyer specializing in Y; explicit legal expert, authority, or specialist on Y; a legal-field modifier of a lawyer. Excludes: client representation without specialization; generic institutional membership; practice location or ordinary employment; expertise in a nonlegal field. Ambiguous unless resolved by case-local evidence: unclear legal field versus client; lawyer title or field attachment unresolved. Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation."
+  },
+  "dictionary_sha256": "9952ed121f9f06d0399ff78302443578e57d3c6c761861de5d67094c434c0057",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit lawyer specializing/expert/authority in a legal field overwhelmingly dominates.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:49.093Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_182.before_grading.json",
+  "pregrading_annotation_sha256": "821f5a206c02d780b2310ab3449b6e59b892552802a4b269c9b62af702551fda"
+}

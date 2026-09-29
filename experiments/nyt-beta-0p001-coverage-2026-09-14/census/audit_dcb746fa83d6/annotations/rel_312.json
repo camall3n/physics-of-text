@@ -1,0 +1,502 @@
+{
+  "relation": "rel_312",
+  "predicate_id": "owns",
+  "label": "owns organization or asset",
+  "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+  "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_312.json",
+    "source_sha256": "d93b792d338eefdc13f5af4d10abb2eef1eb040a02d837e28c70db09bb43707d",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_312__ent_1339__ent_1144",
+      "judgment": "supported",
+      "reason": "Cablevision → Madison Square Garden: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5921,
+        5924,
+        5925,
+        5928,
+        5929
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_101__ent_881",
+      "judgment": "supported",
+      "reason": "Walt Disney Company → ABC: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5932,
+        5933,
+        5934,
+        5936,
+        5939
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_393__ent_1314",
+      "judgment": "supported",
+      "reason": "News Corporation → Fox: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5952,
+        5953,
+        5954,
+        5956,
+        5959
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_151__ent_625",
+      "judgment": "supported",
+      "reason": "Rupert Murdoch → Fox: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        6012,
+        6013,
+        6015,
+        6017,
+        6018
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_351__ent_1004",
+      "judgment": "supported",
+      "reason": "Steinbrenner → Yankees: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        1495,
+        1496,
+        1498,
+        1504
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_217__ent_554",
+      "judgment": "supported",
+      "reason": "Viacom → CBS: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5942,
+        5944,
+        5946,
+        5949
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_216__ent_867",
+      "judgment": "supported",
+      "reason": "General Electric → NBC: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5983,
+        5984,
+        5985,
+        5989
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_1339__ent_458",
+      "judgment": "supported",
+      "reason": "Cablevision → Garden: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5991,
+        5993,
+        5994,
+        5999
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_1023__ent_579",
+      "judgment": "supported",
+      "reason": "Sirio Maccioni → Le Cirque: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        1425,
+        1427,
+        1432
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_339__ent_1036",
+      "judgment": "supported",
+      "reason": "Bud Selig → Milwaukee Brewers: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        1445,
+        1446,
+        1449
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_1037__ent_1038",
+      "judgment": "supported",
+      "reason": "Jerry Jones → Dallas Cowboys: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        1455,
+        1456,
+        1461
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_352__ent_594",
+      "judgment": "supported",
+      "reason": "Peter S. Kalikow → The New York Post: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        1485,
+        1488,
+        1493
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_684__ent_1211",
+      "judgment": "ambiguous",
+      "reason": "Walter O'Malley → Los Angeles: The owner-of path uses Los Angeles as its object while movement paths treat it as a destination; an omitted team or property may be intended.",
+      "evidence_lines": [
+        4861,
+        4864,
+        4865
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Los Angeles stand for the Dodgers or another owned organization, rather than the city itself?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_459__ent_1154",
+      "judgment": "supported",
+      "reason": "Texas Air Corporation → Eastern: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5972,
+        5975,
+        5979
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_591__ent_185",
+      "judgment": "supported",
+      "reason": "John McMullen → Devils: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        1475,
+        1484
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_628__ent_1371",
+      "judgment": "supported",
+      "reason": "General Electric Company → NBC: An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "evidence_lines": [
+        5962,
+        5967
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_312__ent_948__ent_603",
+      "judgment": "incorrect",
+      "reason": "DoubleClick → Internet: Internet company association supplies no ownership interest in the Internet.",
+      "evidence_lines": [
+        6859
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.674Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_312.json",
+        "annotation_sha256": "7ec7f9a32167f5bda8fb001b9ce468da581ebaf871eb6ac5c2204363f5cd9e81",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "64b91b4d898a9f3ed81be865b382e684bfc0db4150c5d04790c534e2d3b1cb74",
+  "predicate_version": 1
+}

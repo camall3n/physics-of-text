@@ -1,0 +1,42 @@
+{
+  "relation": "rel_264",
+  "predicate_id": "has_diplomatic_relations_with",
+  "predicate_version": 1,
+  "predicate_hash": "14c6d895cccdd280da229e1132a91459aac5d8bdb7366634020a101ec403b7d8",
+  "predicate": {
+    "id": "has_diplomatic_relations_with",
+    "label": "has diplomatic relations with",
+    "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+    "includes": [
+      "explicit diplomatic relations",
+      "an ambassador of X accredited to Y",
+      "historical diplomatic relations"
+    ],
+    "excludes": [
+      "ordinary trade, physical travel, or war alone",
+      "generic political or personal association",
+      "an ambassador merely visiting Y without accreditation",
+      "proposed relations without establishment"
+    ],
+    "ambiguous": [
+      "generic relationship or relation without diplomatic context",
+      "unclear government versus private entity",
+      "unclear ambassador accreditation or country attachment"
+    ],
+    "notes": "Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+    "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy."
+  },
+  "dictionary_sha256": "d36536fbc55d154184051848d4d5f446db34a224d360eca99dd3b502e172918c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Country-to-country ambassador-to, relation-with and relationship-with paths dominate. Diplomatic relations is the coherent family; generic relationships alone retain uncertainty and person-to-person communication is separate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:14:12.525Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_264.before_grading.json",
+  "pregrading_annotation_sha256": "72f4673dc9ee1e0f9f589fef277a9b32831b54590705acfd907a1d9bd9cb7d95"
+}

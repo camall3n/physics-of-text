@@ -1,0 +1,79 @@
+{
+  "relation": "rel_350",
+  "predicate_id": "winner_of",
+  "label": "winner or champion of",
+  "definition": "Entity X won the award or competition designated by Y, or held an explicitly Y-designated championship title.",
+  "scope_notes": "Includes: explicit win/winner/champion of event or award; sporting titles and honor awards such as Nobel Peace Prize; explicit championship/title designated by a sanctioning body or Olympic designation; historical victory. Excludes: participation or reaching the event; single stage/game victory without the overall title; winning political office/control of a body; location or ordinary membership. Ambiguous unless resolved by case-local evidence: unclear title/event attachment; medal without a clear winning title or award scope. A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning.",
+  "facts": [
+    {
+      "case_id": "rel_350__ent_740__ent_982",
+      "judgment": "supported",
+      "reason": "Hansel → Preakness: Explicit winner-of or championship-defense evidence establishes an overall event title independently of individual stage/runner-up rows.",
+      "evidence_lines": [
+        7756,
+        7757,
+        7758,
+        7759,
+        7761,
+        7762
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.250Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_33__ent_32",
+      "judgment": "incorrect",
+      "reason": "Col. Muammar el-Qaddafi → Libyan: Political leadership and a national adjective do not identify an award or competition win.",
+      "evidence_lines": [
+        3738,
+        3739,
+        3745,
+        3746,
+        3747
+      ],
+      "issue_tags": [
+        "wrong_domain"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.250Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_732__ent_974",
+      "judgment": "supported",
+      "reason": "Ullrich → Tour: Explicit winner-of or championship-defense evidence establishes an overall event title independently of individual stage/runner-up rows.",
+      "evidence_lines": [
+        7788,
+        7789,
+        7791,
+        7792,
+        7793
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.250Z"
+      }
+    }
+  ],
+  "predicate_hash": "27c87005f27fe8d1242ee460f57371d2135761abb8317fa0b9de8f25c5b5581f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e17bff0190cf1930e4718775849dff31f6da9e7b1def1ccb962b57ac5cf32d12"
+}

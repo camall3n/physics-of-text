@@ -1,0 +1,226 @@
+{
+  "relation": "rel_5",
+  "predicate_id": "managerial_office_in",
+  "label": "managerial or leadership office in",
+  "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+  "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+  "facts": [
+    {
+      "case_id": "rel_5__ent_243__ent_219",
+      "judgment": "ambiguous",
+      "reason": "Brian Cashman → Yankees; Richard A. Gephardt → House: Supporting office evidence shares its inferred fact with incompatible local person or institution names; its entity pair is unresolved.",
+      "evidence_lines": [
+        168,
+        181
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which local names identify the intended entity pair, and should these incompatible names be separated?",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_245__ent_220",
+      "judgment": "ambiguous",
+      "reason": "Rod Thorn → Nets; Stephen S. Roach → Morgan Stanley: Supporting office evidence shares its inferred fact with incompatible local person or institution names; its entity pair is unresolved.",
+      "evidence_lines": [
+        174,
+        182
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which local names identify the intended entity pair, and should these incompatible names be separated?",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_210__ent_203",
+      "judgment": "ambiguous",
+      "reason": "Jack Valenti → Motion Picture Association of America; New York → Columbia University: Supporting office evidence shares its inferred fact with incompatible local person or institution names; its entity pair is unresolved.",
+      "evidence_lines": [
+        175,
+        177
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which local names identify the intended entity pair, and should these incompatible names be separated?",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_187__ent_109",
+      "judgment": "supported",
+      "reason": "Trent Lott → Senate: An explicit president, director, chairman, manager, dean, chief or legislative leadership title establishes a qualifying office in the named institution.",
+      "evidence_lines": [
+        169
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_76__ent_262",
+      "judgment": "supported",
+      "reason": "Dick Armey → House: An explicit president, director, chairman, manager, dean, chief or legislative leadership title establishes a qualifying office in the named institution.",
+      "evidence_lines": [
+        170
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_107__ent_258",
+      "judgment": "supported",
+      "reason": "Nancy Pelosi → House: An explicit president, director, chairman, manager, dean, chief or legislative leadership title establishes a qualifying office in the named institution.",
+      "evidence_lines": [
+        171
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_28__ent_189",
+      "judgment": "supported",
+      "reason": "Bob Dole → Senate: An explicit president, director, chairman, manager, dean, chief or legislative leadership title establishes a qualifying office in the named institution.",
+      "evidence_lines": [
+        172
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_83__ent_83",
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle → Senate: Tom Daschle and Senate occupy the same latent entity ID. The leadership row is otherwise clear, but the inferred fact conflates a person with the institution.",
+      "evidence_lines": [
+        173
+      ],
+      "issue_tags": [
+        "self_entity_collision"
+      ],
+      "reviewer_question": "Should Tom Daschle and Senate be separated into distinct entity IDs?",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_163__ent_248",
+      "judgment": "supported",
+      "reason": "Fernando Ferrer → Bronx Borough: An explicit president, director, chairman, manager, dean, chief or legislative leadership title establishes a qualifying office in the named institution.",
+      "evidence_lines": [
+        176
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_247__ent_27",
+      "judgment": "incorrect",
+      "reason": "Norman Ornstein → American Enterprise Institute: The supplied rows establish academic, economist, analyst, spokesperson, alias or party-control relations, without a qualifying personal managerial office in the ordered direction.",
+      "evidence_lines": [
+        178
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_57__ent_146",
+      "judgment": "incorrect",
+      "reason": "Michael D. McCurry → White House: The supplied rows establish academic, economist, analyst, spokesperson, alias or party-control relations, without a qualifying personal managerial office in the ordered direction.",
+      "evidence_lines": [
+        179
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_166__ent_130",
+      "judgment": "incorrect",
+      "reason": "Federal Home Loan Mortgage Corporation → Freddie Mac: The supplied rows establish academic, economist, analyst, spokesperson, alias or party-control relations, without a qualifying personal managerial office in the ordered direction.",
+      "evidence_lines": [
+        180
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    },
+    {
+      "case_id": "rel_5__ent_128__ent_211",
+      "judgment": "supported",
+      "reason": "Robert M. Gates → Central Intelligence: An explicit president, director, chairman, manager, dean, chief or legislative leadership title establishes a qualifying office in the named institution.",
+      "evidence_lines": [
+        183
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "reviewer": "root",
+      "review": {
+        "method": "Explicit manual judgment after reading the full dictionary and all case rows."
+      }
+    }
+  ],
+  "predicate_provenance": {
+    "source": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "reason": "All 15 dictionaries were inspected before fact grading and contain a dominant mixture of explicit management titles. The same broad office predicate is declared for all 15, not a title-specific label selected per successful case. This broad-role supplemental archive result is separate from the full-corpus comparison."
+  }
+}

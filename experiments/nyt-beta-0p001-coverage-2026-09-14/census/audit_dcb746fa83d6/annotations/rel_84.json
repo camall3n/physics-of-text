@@ -1,0 +1,86 @@
+{
+  "relation": "rel_84",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_84__ent_822__ent_1233",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: Direct subsidiary/division, parent or owner apposition identifies the shortened organization as an owned business of the named parent.",
+      "evidence_lines": [
+        2554,
+        2558,
+        2559,
+        6582,
+        6583
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.067Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_1154__ent_459",
+      "judgment": "supported",
+      "reason": "Eastern → Texas Air Corporation: Direct subsidiary/division, parent or owner apposition identifies the shortened organization as an owned business of the named parent.",
+      "evidence_lines": [
+        6558,
+        6560,
+        6563,
+        6564
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.067Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_998__ent_1294",
+      "judgment": "incorrect",
+      "reason": "Christopher J. Christie → United States: Attorney nominations are personal offices rather than a business unit belonging to a parent.",
+      "evidence_lines": [
+        8336,
+        8338
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.067Z"
+      }
+    },
+    {
+      "case_id": "rel_84__ent_755__ent_517",
+      "judgment": "incorrect",
+      "reason": "James B. Comey → United States: Attorney nominations are personal offices rather than a business unit belonging to a parent.",
+      "evidence_lines": [
+        8358
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.067Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "921c0f7cd82fee48df0ea6af0c5aab846101b87a894b1b860c0341d727274232"
+}

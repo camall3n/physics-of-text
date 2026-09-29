@@ -1,0 +1,140 @@
+{
+  "relation": "rel_75",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "facts": [
+    {
+      "case_id": "rel_75__ent_643__ent_333",
+      "judgment": "supported",
+      "reason": "Robert → Manhattan: Direct live-in or living-with-wife-in paths establish residence; a first name alone does not defeat an otherwise clear local residence statement.",
+      "evidence_lines": [
+        3928,
+        3930,
+        3931,
+        3933
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    },
+    {
+      "case_id": "rel_75__ent_822__ent_835",
+      "judgment": "ambiguous",
+      "reason": "American → England: American is an adjectival person fragment in woman-and-church paths, leaving the particular resident or identified population unresolved.",
+      "evidence_lines": [
+        2157,
+        2164,
+        2165
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Which American person or population is said to live in England?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    },
+    {
+      "case_id": "rel_75__ent_309__ent_1302",
+      "judgment": "incorrect",
+      "reason": "Red Sox → World Series: Sports-event results, an explicitly negated prospective team joining, or losing a player are not geographic residence.",
+      "evidence_lines": [
+        2201,
+        2203,
+        2205
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    },
+    {
+      "case_id": "rel_75__ent_1228__ent_507",
+      "judgment": "supported",
+      "reason": "Mr. Marcos → Hawaii: Direct live-in or living-with-wife-in paths establish residence; a first name alone does not defeat an otherwise clear local residence statement.",
+      "evidence_lines": [
+        8183,
+        8184,
+        8186
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    },
+    {
+      "case_id": "rel_75__ent_1004__ent_1302",
+      "judgment": "incorrect",
+      "reason": "Yankees → World Series: Sports-event results, an explicitly negated prospective team joining, or losing a player are not geographic residence.",
+      "evidence_lines": [
+        2179,
+        2695
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    },
+    {
+      "case_id": "rel_75__ent_272__ent_284",
+      "judgment": "incorrect",
+      "reason": "Steve Phillips → Mets: Sports-event results, an explicitly negated prospective team joining, or losing a player are not geographic residence.",
+      "evidence_lines": [
+        3193
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    },
+    {
+      "case_id": "rel_75__ent_308__ent_64",
+      "judgment": "incorrect",
+      "reason": "Knicks → Patrick Ewing: Sports-event results, an explicitly negated prospective team joining, or losing a player are not geographic residence.",
+      "evidence_lines": [
+        4938
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.390Z"
+      }
+    }
+  ],
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ff7843c9a8c3aa39fae5c7665320568676d54e1a6acd10d586b51491f8b1d1cf"
+}

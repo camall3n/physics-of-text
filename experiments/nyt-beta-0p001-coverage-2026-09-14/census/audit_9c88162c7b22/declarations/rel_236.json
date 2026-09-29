@@ -1,0 +1,44 @@
+{
+  "relation": "rel_236",
+  "predicate_id": "manager_of",
+  "predicate_version": 1,
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate": {
+    "id": "manager_of",
+    "label": "manager of institution",
+    "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+    "includes": [
+      "explicit manager or general manager",
+      "a functional or departmental managerial office within Y",
+      "historical managerial office"
+    ],
+    "excludes": [
+      "president, director, head, executive, or coach alone without a manager title",
+      "ordinary employment or membership",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "a personal principal standing for an omitted institution or campaign",
+      "unclear manager or institutional attachment",
+      "appointment without established tenure"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+    "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title."
+  },
+  "dictionary_sha256": "4e2f09c0b3181d3a2b7c6d7502a822c344fe35eb90d049d9320cd81672414c80",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit dismissal-as-manager is the clearest identified office, with task-management/lieutenant context; behind a bench and wearing a number do not automatically supply a manager title. Weak dictionary support is recorded before grades.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.806Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    5,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_236.before_grading.json",
+  "pregrading_annotation_sha256": "0add9fb76b753b98cdc6689028b7522c42724611bf48c72535bcbb1e1c517e22"
+}

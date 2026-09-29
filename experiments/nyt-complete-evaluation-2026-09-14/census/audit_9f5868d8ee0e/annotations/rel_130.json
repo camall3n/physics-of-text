@@ -1,0 +1,867 @@
+{
+  "relation": "rel_130",
+  "predicate_id": "president_or_manager_of",
+  "label": "president or manager of",
+  "definition": "Person X holds or held an explicitly identified president or manager office in organization, team, public body or institution Y.",
+  "scope_notes": "Includes: explicit president or manager title or unambiguous manage-as-office evidence; general manager; borough president and community-board manager; functional presidency within an organization; historical tenure. Excludes: chair/director/executive/head alone; owner/founder/coach/player alone; generic running or control without the specified role; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal replacing omitted organization/campaign; missing title modifier that could change the office. This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_130.json",
+    "source_sha256": "97dc1fa21c9c09e0098b50067953cfd0825fd6f4f2638b1c3fd3057f10efd1cf",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_130__ent_104__ent_347",
+      "judgment": "supported",
+      "reason": "Neil Smith → Rangers: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1655,
+        1656,
+        1657,
+        1658,
+        1659,
+        1660,
+        3322,
+        3323,
+        3324,
+        3325,
+        3326,
+        3327
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.481Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_105__ent_347",
+      "judgment": "supported",
+      "reason": "Glen Sather → Rangers: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1625,
+        1626,
+        1627,
+        1628,
+        1629,
+        1630,
+        1631,
+        1632,
+        1633,
+        1634
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_130.json",
+        "annotation_sha256": "97dc1fa21c9c09e0098b50067953cfd0825fd6f4f2638b1c3fd3057f10efd1cf"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_346__ent_308",
+      "judgment": "supported",
+      "reason": "Ernie Grunfeld → Knicks: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1665,
+        1666,
+        1667,
+        1668,
+        1669,
+        1670,
+        1671,
+        1672,
+        1673,
+        1674
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_588__ent_308",
+      "judgment": "supported",
+      "reason": "Scott Layden → Knicks: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1675,
+        1676,
+        1677,
+        1678,
+        1679,
+        1680,
+        1681,
+        1682,
+        1683,
+        1684
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_273__ent_1004",
+      "judgment": "supported",
+      "reason": "Joe Torre → Yankees: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3174,
+        3175,
+        3176,
+        3177,
+        3178,
+        3179,
+        3180,
+        3181,
+        3182,
+        3183
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_277__ent_321",
+      "judgment": "supported",
+      "reason": "Omar Minaya → Mets: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3214,
+        3215,
+        3216,
+        3217,
+        3218,
+        3219,
+        3220,
+        3221,
+        3222,
+        3223
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_276__ent_561",
+      "judgment": "supported",
+      "reason": "Ernie Accorsi → Giants: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3224,
+        3225,
+        3226,
+        3227,
+        3228,
+        3229,
+        3230,
+        3231,
+        3232,
+        3233
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_279__ent_278",
+      "judgment": "supported",
+      "reason": "Bobby Cox → Braves: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3234,
+        3235,
+        3236,
+        3237,
+        3238,
+        3239,
+        3240,
+        3241,
+        3242,
+        3243
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_130.json",
+        "annotation_sha256": "97dc1fa21c9c09e0098b50067953cfd0825fd6f4f2638b1c3fd3057f10efd1cf"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_79__ent_400",
+      "judgment": "supported",
+      "reason": "Dick Steinberg → Jets: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3244,
+        3245,
+        3246,
+        3247,
+        3248,
+        3249,
+        3250,
+        3251,
+        3252,
+        3253
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_286__ent_321",
+      "judgment": "supported",
+      "reason": "Bud Harrelson → Mets: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3342,
+        3343,
+        3344,
+        3345,
+        3346,
+        3347,
+        3348,
+        3349,
+        3350,
+        3351
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_285__ent_321",
+      "judgment": "supported",
+      "reason": "Frank Cashen → Mets: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        3352,
+        3353,
+        3354,
+        3355,
+        3356,
+        3357,
+        3358,
+        3359,
+        3360,
+        3361
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_288__ent_321",
+      "judgment": "supported",
+      "reason": "Al Harazin → Mets: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        3362,
+        3363,
+        3364,
+        3365,
+        3366,
+        3367,
+        3368,
+        3371
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_130.json",
+        "annotation_sha256": "97dc1fa21c9c09e0098b50067953cfd0825fd6f4f2638b1c3fd3057f10efd1cf"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_136__ent_256",
+      "judgment": "supported",
+      "reason": "Juan Antonio Samaranch → I.O.C.: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        2856,
+        2857,
+        2858,
+        2859,
+        2861,
+        2862,
+        2863
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_258__ent_1004",
+      "judgment": "supported",
+      "reason": "Brian Cashman → Yankees: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3164,
+        3165,
+        3166,
+        3167,
+        3168,
+        3169,
+        3172
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_287__ent_289",
+      "judgment": "supported",
+      "reason": "Billy Beane → Oakland Athletics: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3372,
+        3373,
+        3374,
+        3375,
+        3376,
+        3377,
+        3378
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_692__ent_211",
+      "judgment": "supported",
+      "reason": "Aristide → Haiti: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        5256,
+        5257,
+        5261,
+        5262,
+        5263,
+        5264,
+        5265
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_550__ent_792",
+      "judgment": "supported",
+      "reason": "Kalman Ruttenstein → Bloomingdale: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        706,
+        709,
+        710,
+        712,
+        713,
+        714
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_1006__ent_155",
+      "judgment": "supported",
+      "reason": "Robert Berne → New York University: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        750,
+        751,
+        753,
+        754,
+        755,
+        758
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_342__ent_584",
+      "judgment": "supported",
+      "reason": "Jeffrey K. Skilling → Enron: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1301,
+        1303,
+        1306,
+        8086,
+        8087,
+        8089
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_590__ent_543",
+      "judgment": "supported",
+      "reason": "Rod Thorn → Nets: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1615,
+        1616,
+        1618,
+        1619,
+        1621,
+        1623
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_589__ent_110",
+      "judgment": "supported",
+      "reason": "Lou Lamoriello → Devils: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1635,
+        1636,
+        1637,
+        1638,
+        1642,
+        1643
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_1042__ent_308",
+      "judgment": "supported",
+      "reason": "Isiah Thomas → Knicks: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1645,
+        1647,
+        1649,
+        1652,
+        1653,
+        1654
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_130.json",
+        "annotation_sha256": "97dc1fa21c9c09e0098b50067953cfd0825fd6f4f2638b1c3fd3057f10efd1cf"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_1043__ent_321",
+      "judgment": "supported",
+      "reason": "Joe McIlvaine → Mets: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1687,
+        1688,
+        1690,
+        3254,
+        3259,
+        3260
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_349__ent_308",
+      "judgment": "supported",
+      "reason": "Dave Checketts → Knicks: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        1705,
+        1706,
+        1707,
+        1708,
+        1711,
+        1713
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_130.json",
+        "annotation_sha256": "97dc1fa21c9c09e0098b50067953cfd0825fd6f4f2638b1c3fd3057f10efd1cf"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_136__ent_378",
+      "judgment": "supported",
+      "reason": "Juan Antonio Samaranch → International Olympic Committee: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        58,
+        59,
+        64,
+        65,
+        66
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_152__ent_394",
+      "judgment": "incorrect",
+      "reason": "Charles A. Gargano → Empire State Development Corporation: The rows give chairman, commissioner and head roles, without the declared president or manager office.",
+      "evidence_lines": [
+        250,
+        251,
+        253,
+        255,
+        256
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_498__ent_57",
+      "judgment": "supported",
+      "reason": "Andrew J. Stein → City Council: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        2866,
+        2868,
+        2870,
+        2871,
+        2872
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_275__ent_561",
+      "judgment": "supported",
+      "reason": "George Young → Giants: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        3195,
+        3196,
+        3197,
+        3201,
+        3203
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_370__ent_127",
+      "judgment": "supported",
+      "reason": "Jack Valenti → Motion Picture Association of America: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        80,
+        83,
+        84,
+        85
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_89__ent_86",
+      "judgment": "supported",
+      "reason": "Whitey Herzog → Cardinals: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3379,
+        3380,
+        3381,
+        3387
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_1028__ent_175",
+      "judgment": "ambiguous",
+      "reason": "Zenia Mucha → Mr. Pataki: A managerial attachment is to the person Pataki; the omitted organization or campaign is not identified as the second argument.",
+      "evidence_lines": [
+        1179,
+        1182,
+        3523
+      ],
+      "issue_tags": [
+        "attachment_scope"
+      ],
+      "reviewer_question": "Does the manager phrase identify management of Pataki personally, or of an omitted campaign or organization?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_253__ent_572",
+      "judgment": "supported",
+      "reason": "Fernando Ferrer → Bronx: An explicit local president title links this person to the named institution or jurisdiction; historical and functional presidencies satisfy the declared scope.",
+      "evidence_lines": [
+        2783,
+        2784,
+        2788
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_283__ent_321",
+      "judgment": "supported",
+      "reason": "Dave Johnson → Mets: The local evidence explicitly identifies this person as manager or general manager of the named team, within the declared composite president-or-manager scope.",
+      "evidence_lines": [
+        3332,
+        3333,
+        3335
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    },
+    {
+      "case_id": "rel_130__ent_1157__ent_1158",
+      "judgment": "incorrect",
+      "reason": "Science fiction → Wild West: The science-fiction and Wild-West concepts meet; neither a person-office relationship nor a presidency or management role is expressed.",
+      "evidence_lines": [
+        6040
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:18.482Z"
+      }
+    }
+  ]
+}

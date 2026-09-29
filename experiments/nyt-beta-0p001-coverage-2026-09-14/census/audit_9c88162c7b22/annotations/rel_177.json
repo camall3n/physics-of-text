@@ -1,0 +1,71 @@
+{
+  "relation": "rel_177",
+  "predicate_id": "confers_authority_on",
+  "label": "confers authority on institution",
+  "definition": "Legal instrument or governing document X explicitly grants authority, powers, rights, or an institutional mandate to Y.",
+  "scope_notes": "Includes: an identified power or authority granted to Y; explicit rights or mandate conferred under X; historical textual allocation of authority. Excludes: ordinary transfer of physical goods or sporting contribution; mentioning institutional requirements without granting authority; general association with a legal text. Ambiguous unless resolved by case-local evidence: give or grant with omitted object; under-X have with no identified power; a provision whose grant or recipient is unresolved. This labels what the supplied text asserts, not a legal determination. Generic gives does not recover an omitted legal power.",
+  "facts": [
+    {
+      "case_id": "rel_177__ent_663__ent_1197",
+      "judgment": "ambiguous",
+      "reason": "Constitution → Senate: The explicit object is a seat in the Senate, whose recipient is omitted; Senate is the destination institution rather than clearly the grantee of authority.",
+      "evidence_lines": [
+        4231,
+        4232,
+        4234,
+        4235,
+        4236
+      ],
+      "issue_tags": [
+        "recipient_attachment"
+      ],
+      "reviewer_question": "Who receives the seat or mandate, and does the text actually confer any identified authority on the Senate itself?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.138Z"
+      }
+    },
+    {
+      "case_id": "rel_177__ent_820__ent_940",
+      "judgment": "incorrect",
+      "reason": "Israel → Yitzhak Shamir: Political talks, positions, coalitions, and leadership concerning Israel and Shamir do not involve a governing document granting authority.",
+      "evidence_lines": [
+        7080,
+        7081,
+        7082,
+        7085,
+        7086
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.138Z"
+      }
+    },
+    {
+      "case_id": "rel_177__ent_828__ent_189",
+      "judgment": "incorrect",
+      "reason": "Clinton → Congress: A president challenging Congress is not a legal instrument conferring authority.",
+      "evidence_lines": [
+        2031,
+        7904
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.138Z"
+      }
+    }
+  ],
+  "predicate_hash": "46bb4dfebcbec81445e1e0cd0b645835c3ffe41680a4a5df06b2095f04084f66",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0a6a1c0b18825e6c28719acdf2bea68d721a49b94101a83f837b9bfbb283b39b"
+}

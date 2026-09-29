@@ -1,0 +1,105 @@
+{
+  "relation": "rel_140",
+  "predicate_id": "strategist_for",
+  "label": "strategist for institution",
+  "definition": "Person X explicitly serves or served as a strategist for institution or principal Y.",
+  "scope_notes": "Includes: explicit strategist-at, strategist-for, or institutional strategist role; historical strategy office. Excludes: analyst or ordinary adviser alone; a comparison or strategy topic without affiliation; ordinary employment without strategist role. Ambiguous unless resolved by case-local evidence: unclear principal versus topic; strategist title attachment unresolved. A distinct occupational role; do not merge every analyst or adviser into it.",
+  "facts": [
+    {
+      "case_id": "rel_140__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: An explicit strategist-at or strategist-for title establishes the professional role.",
+      "evidence_lines": [
+        565,
+        566,
+        7830,
+        7831
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.800Z"
+      }
+    },
+    {
+      "case_id": "rel_140__ent_336__ent_536",
+      "judgment": "incorrect",
+      "reason": "Richard A. Boucher → State Department: Spokesperson, geographic manager attachment or president title alone does not establish strategist service.",
+      "evidence_lines": [
+        1357,
+        1359,
+        1360,
+        1364
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.800Z"
+      }
+    },
+    {
+      "case_id": "rel_140__ent_807__ent_809",
+      "judgment": "supported",
+      "reason": "James Hale → MMS International: An explicit strategist-at or strategist-for title establishes the professional role.",
+      "evidence_lines": [
+        1824,
+        1826,
+        1827,
+        1828
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.800Z"
+      }
+    },
+    {
+      "case_id": "rel_140__ent_302__ent_544",
+      "judgment": "incorrect",
+      "reason": "Microsoft → Redmond: Spokesperson, geographic manager attachment or president title alone does not establish strategist service.",
+      "evidence_lines": [
+        784,
+        4340
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.800Z"
+      }
+    },
+    {
+      "case_id": "rel_140__ent_342__ent_584",
+      "judgment": "incorrect",
+      "reason": "Jeffrey K. Skilling → Enron: Spokesperson, geographic manager attachment or president title alone does not establish strategist service.",
+      "evidence_lines": [
+        1302,
+        8088
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.800Z"
+      }
+    }
+  ],
+  "predicate_hash": "8079d80f7b7991462408755922d4bb15de956aeb984c9f6b84a05416fea4fe56",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "19590e8405f9403c88a7f95faf6459613cb6446bb15e49e8081c882211a4ad15"
+}

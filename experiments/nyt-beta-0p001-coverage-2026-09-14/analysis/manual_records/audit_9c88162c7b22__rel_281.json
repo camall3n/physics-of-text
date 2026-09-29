@@ -1,0 +1,97 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_281",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_281__ent_586__ent_189",
+        "rel_281__ent_829__ent_189",
+        "rel_281__ent_537__ent_820",
+        "rel_281__ent_183__ent_189",
+        "rel_281__ent_182__ent_189",
+        "rel_281__ent_180__ent_189",
+        "rel_281__ent_827__ent_189"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit ask, tell or notify supplies communication directed to the named addressee and resolves generic send-to context.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_281__ent_537__ent_99"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Only send-to and generic have-with appear; neither identifies a message rather than people, goods or another object.",
+      "tags": [
+        "missing_communicative_object"
+      ],
+      "question": "What did the United States send to Iran, and was it communicative information?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_281__ent_131__ent_373"
+      ],
+      "judgment": "incorrect",
+      "reason": "Recognition as head of Sinn Fein is leadership evidence, not directed communication.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_281__ent_1004__ent_321"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Send-to has an omitted object and could describe a player transfer rather than communication.",
+      "tags": [
+        "missing_communicative_object"
+      ],
+      "question": "Did the Yankees send a message or instead transfer a player or object to the Mets?"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_281__ent_1004__ent_735"
+      ],
+      "judgment": "incorrect",
+      "reason": "Option-to and send-to affiliate context is a sporting personnel transfer, with no communication evidence.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "47a9d0fa67515d82fa30981cbdfffd747270a37e496d0157ab3c4c3dfe038636"
+}

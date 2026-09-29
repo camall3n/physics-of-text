@@ -1,0 +1,78 @@
+{
+  "relation": "rel_13",
+  "label": "directed communication to",
+  "definition": "X communicates a request, information, message, advice or testimony to addressee Y.",
+  "scope_notes": "Preserves ask/tell/urge/send/notify directed-communication scope. Co-occurrence, bare political criticism, possession and standings do not qualify. Non-alias source people merged in one entity require identity review even if both communicate.",
+  "facts": [
+    {
+      "case_id": "rel_13__ent_1294__ent_189",
+      "judgment": "supported",
+      "reason": "Clinton calls on, submits to and persuades Congress.",
+      "evidence_lines": [
+        2026,
+        2029,
+        7898
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_13__ent_1197__ent_1213",
+      "judgment": "incorrect",
+      "reason": "Senate and Republicans occur in a have-subject path, without communication.",
+      "evidence_lines": [
+        4897
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_13__ent_60__ent_9",
+      "judgment": "incorrect",
+      "reason": "Yankees have standings/place evidence in American League East, without communication.",
+      "evidence_lines": [
+        2734,
+        2740
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_13__ent_180__ent_189",
+      "judgment": "ambiguous",
+      "reason": "The same first latent entity is Bush and Mr. Greenspan. Both have communication evidence to Congress but are distinct people, so the inferred fact lacks a single resolved identity.",
+      "evidence_lines": [
+        416,
+        423,
+        437,
+        442,
+        444,
+        2006,
+        7855
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Can Bush and Mr. Greenspan be separated into their intended entity identities before assessing this communication fact?"
+    },
+    {
+      "case_id": "rel_13__ent_1395__ent_816",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton assails Republicans; bare criticism does not establish an addressed communication under the declared scope.",
+      "evidence_lines": [
+        5550
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

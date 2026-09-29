@@ -1,0 +1,49 @@
+{
+  "relation": "rel_55",
+  "predicate_id": "economist_for",
+  "predicate_version": 1,
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate": {
+    "id": "economist_for",
+    "label": "economist at organization",
+    "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+    "includes": [
+      "explicit economist at/for/with/of",
+      "historical departmental economist affiliation"
+    ],
+    "excludes": [
+      "analyst/strategist/specialist/professor/executive alone",
+      "generic financial expertise"
+    ],
+    "ambiguous": [
+      "unclear economist/employer attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment."
+  },
+  "dictionary_sha256": "0b4541ea9e9e4b794fec8ab08cccb14cc7a112018823d033d6e5365b4ffe70ee",
+  "kind": "declared_before_case_grading",
+  "rationale": "Economist professional-affiliation paths dominate, while fellowship or principal roles alone do not establish the occupation.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:04:16.438Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    9,
+    10,
+    15
+  ],
+  "competing_meanings": [
+    "fellow",
+    "principal",
+    "generic employment"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_55.before_grading.json",
+  "pregrading_annotation_sha256": "1bfd2c47a73ef349f9855472dc5c64acf0a647f2c4494f3c92cf48a1a54cc93c"
+}

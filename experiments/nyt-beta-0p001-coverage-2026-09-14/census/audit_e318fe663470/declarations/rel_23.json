@@ -1,0 +1,39 @@
+{
+  "relation": "rel_23",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "1cfcb72f7e4e92c5c8b19859238616641fe68219369f24be76b3abd6e95c2d53",
+  "kind": "declared_before_case_grading",
+  "rationale": "Take/control/win-control/gain-control dominate with political parties to chambers and sovereignty-to-territory roles; corporate control is separate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.692Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_23.before_grading.json",
+  "pregrading_annotation_sha256": "0103bd5ddf5e2854f63f340b3b7f6b4948668cf007e26b312a3da95d0b0e4232"
+}

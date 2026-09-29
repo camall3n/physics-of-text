@@ -1,0 +1,167 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_221",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        13,
+        14,
+        29
+      ],
+      "case_ids": [
+        "rel_221__ent_1028__ent_175",
+        "rel_221__ent_1411__ent_1020",
+        "rel_221__ent_1022__ent_161",
+        "rel_221__ent_1329__ent_1021",
+        "rel_221__ent_324__ent_372",
+        "rel_221__ent_1023__ent_329",
+        "rel_221__ent_1029__ent_325",
+        "rel_221__ent_326__ent_146",
+        "rel_221__ent_1045__ent_569"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit spokesperson wording identifies the person and represented principal.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        3,
+        25,
+        30,
+        31,
+        32
+      ],
+      "case_ids": [
+        "rel_221__ent_963__ent_1140",
+        "rel_221__ent_247__ent_489",
+        "rel_221__ent_398__ent_846",
+        "rel_221__ent_1189__ent_264",
+        "rel_221__ent_291__ent_1109",
+        "rel_221__ent_1271__ent_1422"
+      ],
+      "judgment": "incorrect",
+      "reason": "Adviser, chairman/minister, professor or reviewer evidence does not establish spokesperson service.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_221__ent_1077__ent_890",
+        "rel_221__ent_1319__ent_40"
+      ],
+      "judgment": "incorrect",
+      "reason": "The direction is client-to-lawyer, not spokesperson-to-principal.",
+      "tags": [
+        "wrong_direction"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        12,
+        15,
+        16,
+        18,
+        20,
+        27,
+        28
+      ],
+      "case_ids": [
+        "rel_221__ent_1007__ent_227",
+        "rel_221__ent_515__ent_1212",
+        "rel_221__ent_1319__ent_1116",
+        "rel_221__ent_1318__ent_475",
+        "rel_221__ent_700__ent_843",
+        "rel_221__ent_815__ent_124",
+        "rel_221__ent_1228__ent_281",
+        "rel_221__ent_506__ent_30"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic, national, birthplace or firm-location evidence does not establish spokesperson service.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_221__ent_366__ent_1156"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence parses the Meet the Press title, not a spokesperson relation.",
+      "tags": [
+        "title_parse"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        17,
+        19,
+        21,
+        24,
+        26
+      ],
+      "case_ids": [
+        "rel_221__ent_1202__ent_492",
+        "rel_221__ent_317__ent_1241",
+        "rel_221__ent_1252__ent_1256",
+        "rel_221__ent_189__ent_1374",
+        "rel_221__ent_12__ent_1439"
+      ],
+      "judgment": "incorrect",
+      "reason": "War, sports results, membership or political dealings do not establish spokesperson service.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        22,
+        23
+      ],
+      "case_ids": [
+        "rel_221__ent_466__ent_923",
+        "rel_221__ent_922__ent_1015"
+      ],
+      "judgment": "incorrect",
+      "reason": "Corporate ownership/division evidence does not establish a person as spokesperson.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    13
+  ],
+  "broad": []
+}

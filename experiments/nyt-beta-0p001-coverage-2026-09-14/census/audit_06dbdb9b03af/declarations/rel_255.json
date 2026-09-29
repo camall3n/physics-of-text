@@ -1,0 +1,47 @@
+{
+  "relation": "rel_255",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "e6f2d22a04ab1d1b5c2b7693bcf1634f0e171b50f7f84d501c2c917e1c6a9b18",
+  "kind": "declared_before_case_grading",
+  "rationale": "Executive title and tenure dominates; candidate or nomination alone excluded.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:17:07.909Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_255.before_grading.json",
+  "pregrading_annotation_sha256": "d5316ae84e022507b8f1350fcca015b2cb07ea3a30a47ed886ff1ed742b69146"
+}

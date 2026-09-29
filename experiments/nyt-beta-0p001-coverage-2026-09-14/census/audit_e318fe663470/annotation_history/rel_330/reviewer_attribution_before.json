@@ -1,0 +1,153 @@
+{
+  "relation": "rel_330",
+  "predicate_id": "organization_national_affiliation",
+  "label": "organization described by national affiliation",
+  "definition": "Organization X is explicitly described as belonging to the national or country affiliation designated by Y.",
+  "scope_notes": "Includes: an explicit national adjective modifying the organization, such as a French company; a directly stated country-of-origin or national institutional affiliation; multiple explicitly named national affiliations. Excludes: physical offices or temporary operations in a country alone; ownership by a person or organization of that nationality alone; a national adjective modifying an unrelated person or parent rather than X; a person's nationality. Ambiguous unless resolved by case-local evidence: unclear national adjective attachment; a regional or city descriptor rather than a national affiliation; national origin versus current affiliation when the distinction is material. Y can be a complete nationality designation such as French or British-Dutch; this predicate does not assert headquarters or legal incorporation. A nationality label used as the argument here differs from an incomplete institution name in an office predicate.",
+  "facts": [
+    {
+      "case_id": "rel_330__ent_21__ent_10",
+      "judgment": "supported",
+      "reason": "Siemens → German: An explicit national adjective modifies the stated organization, establishing national affiliation without asserting headquarters.",
+      "evidence_lines": [
+        3658,
+        3659,
+        3660,
+        3661,
+        3662,
+        3664,
+        3665,
+        3666,
+        3667
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    },
+    {
+      "case_id": "rel_330__ent_290__ent_11",
+      "judgment": "supported",
+      "reason": "Philips N.V. → Dutch: An explicit national adjective modifies the stated organization, establishing national affiliation without asserting headquarters.",
+      "evidence_lines": [
+        3591,
+        3592,
+        3594,
+        3595,
+        3596,
+        3597
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    },
+    {
+      "case_id": "rel_330__ent_293__ent_10",
+      "judgment": "supported",
+      "reason": "Bertelsmann → German: An explicit national adjective modifies the stated organization, establishing national affiliation without asserting headquarters.",
+      "evidence_lines": [
+        3599,
+        3600,
+        3601,
+        3602,
+        3603
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    },
+    {
+      "case_id": "rel_330__ent_292__ent_28",
+      "judgment": "supported",
+      "reason": "Novartis → Swiss: An explicit national adjective modifies the stated organization, establishing national affiliation without asserting headquarters.",
+      "evidence_lines": [
+        3609,
+        3610,
+        3611,
+        3614,
+        3618
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    },
+    {
+      "case_id": "rel_330__ent_26__ent_25",
+      "judgment": "supported",
+      "reason": "Gazprom → Russian: An explicit national adjective modifies the stated organization, establishing national affiliation without asserting headquarters.",
+      "evidence_lines": [
+        3647,
+        3648,
+        3649,
+        3654
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    },
+    {
+      "case_id": "rel_330__ent_363__ent_537",
+      "judgment": "incorrect",
+      "reason": "Patrick J. Fitzgerald → United States: Legal-office and political-book rows do not establish an organization's national affiliation.",
+      "evidence_lines": [
+        8388,
+        8389
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    },
+    {
+      "case_id": "rel_330__ent_1271__ent_103",
+      "judgment": "incorrect",
+      "reason": "George Stephanopoulos → White House: Legal-office and political-book rows do not establish an organization's national affiliation.",
+      "evidence_lines": [
+        8451
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.483Z"
+      }
+    }
+  ],
+  "predicate_hash": "f3b28fea0f0befba30c4deb6d61d7a6720659c5d0d27570187fdbd9ec8a6dc87",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f165acc1bd15af39bfebe02415f99ab22e92988dab7734150c3fe8edaadc1ef1"
+}

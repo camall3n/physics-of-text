@@ -1,0 +1,221 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_133",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "case_ids": [
+        "rel_133__ent_182__ent_1002",
+        "rel_133__ent_197__ent_586",
+        "rel_133__ent_87__ent_818",
+        "rel_133__ent_827__ent_586",
+        "rel_133__ent_828__ent_843",
+        "rel_133__ent_884__ent_429",
+        "rel_133__ent_884__ent_83",
+        "rel_133__ent_80__ent_820",
+        "rel_133__ent_827__ent_843",
+        "rel_133__ent_34__ent_1002",
+        "rel_133__ent_1004__ent_682",
+        "rel_133__ent_198__ent_450",
+        "rel_133__ent_647__ent_429",
+        "rel_133__ent_189__ent_1002",
+        "rel_133__ent_1004__ent_843",
+        "rel_133__ent_680__ent_440",
+        "rel_133__ent_316__ent_1002",
+        "rel_133__ent_647__ent_323",
+        "rel_133__ent_180__ent_1002",
+        "rel_133__ent_692__ent_211",
+        "rel_133__ent_669__ent_989",
+        "rel_133__ent_1126__ent_897",
+        "rel_133__ent_1162__ent_226",
+        "rel_133__ent_406__ent_333",
+        "rel_133__ent_200__ent_442",
+        "rel_133__ent_321__ent_693",
+        "rel_133__ent_400__ent_681",
+        "rel_133__ent_1167__ent_229"
+      ],
+      "judgment": "supported",
+      "reason": "At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_133__ent_81__ent_84"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The Baghdad trip is both described with movement paths and explicitly rejected/anticipated; the truncated triples do not establish which proposed trip actually occurred.",
+      "tags": [
+        "modality_time",
+        "mixed_evidence"
+      ],
+      "question": "Was an actual Baker trip to Baghdad reported, or do these movement paths all concern a rejected or anticipated visit?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_133__ent_1004__ent_572"
+      ],
+      "judgment": "incorrect",
+      "reason": "All movement is away from the Bronx; staying or being there does not establish destination-directed movement to it.",
+      "tags": [
+        "direction",
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_133__ent_1123__ent_427"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Coming or returning to Broadway is mixed with casting and role recreation, so theatrical engagement versus physical travel is unresolved.",
+      "tags": [
+        "attachment",
+        "mixed_evidence"
+      ],
+      "question": "Do these Broadway statements assert physical travel, or only a return to theatrical performance?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_133__ent_667__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Born appears to be a displaced birth-clause word rather than an identified traveler, despite immigration paths.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Who is the person whose name has been replaced by Born?"
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_133__ent_1125__ent_843"
+      ],
+      "judgment": "incorrect",
+      "reason": "The Olympics is an event being held or proposed for a city, not a person/group/organization undertaking geographic movement.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        22
+      ],
+      "case_ids": [
+        "rel_133__ent_5__ent_814"
+      ],
+      "judgment": "incorrect",
+      "reason": "NATO membership and commitment do not constitute travel to a geographic destination.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        28
+      ],
+      "case_ids": [
+        "rel_133__ent_813__ent_818"
+      ],
+      "judgment": "incorrect",
+      "reason": "The Britain–China evidence concerns handover or transfer of an omitted object, not Britain physically traveling to China.",
+      "tags": [
+        "other_predicate",
+        "attachment"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        30
+      ],
+      "case_ids": [
+        "rel_133__ent_356__ent_308"
+      ],
+      "judgment": "incorrect",
+      "reason": "Returning to the Knicks is team participation, not travel to a geographic place.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7,
+    8,
+    12,
+    13,
+    14,
+    15,
+    17,
+    18,
+    19,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "broad": []
+}

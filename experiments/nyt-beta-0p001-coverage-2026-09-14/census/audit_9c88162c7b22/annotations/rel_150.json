@@ -1,0 +1,72 @@
+{
+  "relation": "rel_150",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_150__ent_818__ent_708",
+      "judgment": "ambiguous",
+      "reason": "China → Qian Qichen: The rows identify an official and unspecified minister; they do not establish head-of-government or the frozen national/legislative leadership scope.",
+      "evidence_lines": [
+        7048,
+        7050,
+        7052,
+        7053,
+        7054,
+        7055
+      ],
+      "issue_tags": [
+        "office_scope"
+      ],
+      "reviewer_question": "What leadership office beyond an unspecified minister did Qian Qichen hold in the described China relation?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.334Z"
+      }
+    },
+    {
+      "case_id": "rel_150__ent_240__ent_482",
+      "judgment": "incorrect",
+      "reason": "Joyce Theater → Eighth Avenue: The theater and avenue are an organization and address, not a political body and individual leader.",
+      "evidence_lines": [
+        6235,
+        6236,
+        6238,
+        6239,
+        6241
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.334Z"
+      }
+    },
+    {
+      "case_id": "rel_150__ent_104__ent_347",
+      "judgment": "incorrect",
+      "reason": "Neil Smith → Rangers: A person working for a sports team has the wrong types and direction for a political body having a leader.",
+      "evidence_lines": [
+        1662,
+        3329
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.334Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "65b3e61d7594c8cb3d7d0b8e24bbc2b98d130eb6d97f8c328ac3127487e972f8"
+}

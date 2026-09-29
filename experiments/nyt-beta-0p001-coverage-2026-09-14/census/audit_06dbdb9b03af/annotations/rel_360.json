@@ -1,0 +1,73 @@
+{
+  "relation": "rel_360",
+  "predicate_id": "has_wife",
+  "label": "has or had wife",
+  "definition": "Person X is or was married to woman Y identified as X's wife.",
+  "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+  "facts": [
+    {
+      "case_id": "rel_360__ent_189__ent_586",
+      "judgment": "incorrect",
+      "reason": "Congress → White House: Political meetings or a sports stadium encounter is not a marriage relation.",
+      "evidence_lines": [
+        7947,
+        7948,
+        7949,
+        7950,
+        7952,
+        7953
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.325Z"
+      }
+    },
+    {
+      "case_id": "rel_360__ent_182__ent_1127",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Laura: Explicit with-wife appositions consistently identify Laura as Mr Bush wife within this fact.",
+      "evidence_lines": [
+        4573,
+        4575,
+        4576,
+        4577,
+        4578
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.324Z"
+      }
+    },
+    {
+      "case_id": "rel_360__ent_400__ent_681",
+      "judgment": "incorrect",
+      "reason": "Jets → Giants Stadium: Political meetings or a sports stadium encounter is not a marriage relation.",
+      "evidence_lines": [
+        4841,
+        4846,
+        4847
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.325Z"
+      }
+    }
+  ],
+  "predicate_hash": "de64fa948c10501258b239ea8f83b784ab79b79aa658fa235fcb1b9edb41a40d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1280e5c30cedebb9bbe7bad81a99f0097315a5d9a1a530b90cc2ac8465f60053"
+}

@@ -1,0 +1,70 @@
+{
+  "relation": "rel_131",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_131__ent_18__ent_13",
+      "judgment": "supported",
+      "reason": "Thomas Krens → Guggenheim: Explicit appointment to the director post and tenure as director establish the museum directorship.",
+      "evidence_lines": [
+        3558,
+        3561,
+        3562,
+        3563,
+        3564
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.073Z"
+      }
+    },
+    {
+      "case_id": "rel_131__ent_684__ent_429",
+      "judgment": "incorrect",
+      "reason": "Walter O'Malley → Los Angeles: Movement and dealings with a city, or an organization alias, are not a person holding a director office.",
+      "evidence_lines": [
+        4861,
+        4862,
+        4863,
+        4867
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.073Z"
+      }
+    },
+    {
+      "case_id": "rel_131__ent_1149__ent_92",
+      "judgment": "incorrect",
+      "reason": "Student Loan Marketing Association → Sallie Mae: Movement and dealings with a city, or an organization alias, are not a person holding a director office.",
+      "evidence_lines": [
+        5578,
+        5581
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.073Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "eeb16e544966562a3c98ce404c3380e0b5aa46afb6024e2e6d015ff648c8b6d7"
+}

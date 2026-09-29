@@ -1,0 +1,67 @@
+{
+  "relation": "rel_143",
+  "predicate_id": "has_diplomatic_relations_with",
+  "label": "has diplomatic relations with",
+  "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+  "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+  "facts": [
+    {
+      "case_id": "rel_143__ent_255__ent_497",
+      "judgment": "incorrect",
+      "reason": "Slobodan Milosevic → Yugoslav: A person as national leader has the wrong argument roles for country-to-country diplomatic relations.",
+      "evidence_lines": [
+        2823,
+        2826,
+        2829,
+        2830,
+        2831
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.272Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_537__ent_820",
+      "judgment": "supported",
+      "reason": "United States → Israel: Explicit ambassador of the subject country to the object country establishes diplomatic accreditation and thus diplomatic relations.",
+      "evidence_lines": [
+        2084,
+        4210,
+        7907
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.272Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_537__ent_492",
+      "judgment": "supported",
+      "reason": "United States → Iraq: Explicit ambassador of the subject country to the object country establishes diplomatic accreditation and thus diplomatic relations.",
+      "evidence_lines": [
+        2769,
+        4070
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.272Z"
+      }
+    }
+  ],
+  "predicate_hash": "14c6d895cccdd280da229e1132a91459aac5d8bdb7366634020a101ec403b7d8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "62a5eeb25386034a5b3747423d1941845816e865f18cfd74bd34bad7340af46a"
+}

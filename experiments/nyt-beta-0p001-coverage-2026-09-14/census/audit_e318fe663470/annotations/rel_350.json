@@ -1,0 +1,88 @@
+{
+  "relation": "rel_350",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_350__ent_1414__ent_1275",
+      "judgment": "supported",
+      "reason": "Blair Horner → New York Public Interest Research Group: An explicit analyst title or following business/company/industry for the employer establishes professional analysis.",
+      "evidence_lines": [
+        119,
+        1718,
+        1720,
+        1724
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.731Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_1407__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: An explicit analyst title or following business/company/industry for the employer establishes professional analysis.",
+      "evidence_lines": [
+        1801,
+        1802,
+        7809,
+        7811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.731Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_1253__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: An explicit analyst title or following business/company/industry for the employer establishes professional analysis.",
+      "evidence_lines": [
+        1795,
+        1799,
+        7812
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.731Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_894__ent_1220",
+      "judgment": "incorrect",
+      "reason": "Randall Terry → Operation Rescue: Directorship, founding or leadership alone does not establish an analyst role.",
+      "evidence_lines": [
+        3867,
+        3869,
+        3871
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.731Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "988017ce506c1afea6c07fe4c8e37dd3b223ed446ced1274441ece5a4506b636"
+}

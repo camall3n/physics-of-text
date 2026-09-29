@@ -1,0 +1,61 @@
+{
+  "relation": "rel_284",
+  "predicate_id": "official_of",
+  "predicate_version": 1,
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate": {
+    "id": "official_of",
+    "label": "official of institution",
+    "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+    "includes": [
+      "explicit official-of, official-at, or institutional official description",
+      "historical official role",
+      "a named formal public office that unambiguously entails official status"
+    ],
+    "excludes": [
+      "ordinary employment without an official role",
+      "a city dateline or institution standing in the person slot",
+      "a generic adviser or spokesperson without official status",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear person versus place identity",
+      "official title attachment unresolved",
+      "a generic institutional role without established official status"
+    ],
+    "notes": "Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+    "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation."
+  },
+  "dictionary_sha256": "49590eec38fea68607872c9d3d658048cd29d5a6d3fd07d62441f873198f1a5b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Institutional official variants dominate with actual persons, with chief/diplomat roles potentially corroborating official status; economist alone not automatically official.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.115Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    15,
+    16,
+    17
+  ],
+  "competing_meanings": [
+    "economist",
+    "generic employment"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_284.before_grading.json",
+  "pregrading_annotation_sha256": "dfd38a403bad0155e8150cce1d5d95206f3e2a091b6fe84a5518e6bff95167fc"
+}

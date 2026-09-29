@@ -1,0 +1,69 @@
+{
+  "relation": "rel_52",
+  "predicate_id": "researches_topic",
+  "label": "researches or analyzes topic",
+  "definition": "Person or organization X explicitly researches, studies, tracks, or analyzes subject or field Y.",
+  "scope_notes": "Includes: explicit research or study of Y; tracking trends or analyzing developments in Y; producing identified analytical research or reports on Y. Excludes: ordinary business operation in a field without research activity; a passing reference or generic Internet use; selling another producer's reports without analysis; institutional employment alone. Ambiguous unless resolved by case-local evidence: report authorship or analytical role unresolved; unclear topic versus employer; mere report distribution without identified research. Y is the subject of inquiry, not necessarily the employer. This does not evaluate the quality or truth of the research.",
+  "facts": [
+    {
+      "case_id": "rel_52__ent_943__ent_936",
+      "judgment": "supported",
+      "reason": "Forrester Research → Internet: The firm explicitly tracks Internet trends and has locally identified reports and analysts watching developments, establishing research on that topic.",
+      "evidence_lines": [
+        7363,
+        7364,
+        7365,
+        7366,
+        7367,
+        7368,
+        7369
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.016Z"
+      }
+    },
+    {
+      "case_id": "rel_52__ent_21__ent_10",
+      "judgment": "incorrect",
+      "reason": "Siemens → German: German modifies operations, design, and financial context; these rows do not identify a research subject or research activity.",
+      "evidence_lines": [
+        3664,
+        3665,
+        3666,
+        3667
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.016Z"
+      }
+    },
+    {
+      "case_id": "rel_52__ent_562__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Washington: Returning to Washington is travel, not research about Washington.",
+      "evidence_lines": [
+        3410
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.016Z"
+      }
+    }
+  ],
+  "predicate_hash": "efb40da4097b48daafd3e27f06baebbafadc8d5be32ec14862ba17dc1c1e4dfb",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "93c519441aa51ed4aaacb5bcdfbb78a91f88dd126f2fce246d7922849a0a6043"
+}

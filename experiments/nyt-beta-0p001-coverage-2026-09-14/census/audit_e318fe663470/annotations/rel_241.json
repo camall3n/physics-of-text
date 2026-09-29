@@ -1,0 +1,86 @@
+{
+  "relation": "rel_241",
+  "predicate_id": "population_includes",
+  "label": "population includes subgroup members",
+  "definition": "Population X is explicitly described as including people of demographic subgroup Y.",
+  "scope_notes": "Includes: explicit population including people from Y; a stated subgroup among the described population; historical described populations. Excludes: ordinary organizational membership or corporate ownership; geographic containment alone; mere comparison, proximity, or interaction; inferring that every member of Y belongs to X. Ambiguous unless resolved by case-local evidence: generic include with unclear demographic roles; unclear population versus person or organization; a subgroup attachment to another population. This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X.",
+  "facts": [
+    {
+      "case_id": "rel_241__ent_722__ent_669",
+      "judgment": "supported",
+      "reason": "Westerners → Americans: Explicit include and demographic-member context states that the described Westerners include Americans; this does not claim universal set containment.",
+      "evidence_lines": [
+        7528,
+        7529,
+        7531,
+        7532,
+        7533,
+        7534,
+        7535
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.939Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1034__ent_1035",
+      "judgment": "incorrect",
+      "reason": "Danny Meyer → Union Square Cafe: Restaurant ownership, political statements or an attorney appointment does not establish demographic inclusion.",
+      "evidence_lines": [
+        1438,
+        1440,
+        1442
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.943Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_142__ent_519",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Arafat: Restaurant ownership, political statements or an attorney appointment does not establish demographic inclusion.",
+      "evidence_lines": [
+        8246
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.943Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_755__ent_798",
+      "judgment": "incorrect",
+      "reason": "James B. Comey → United States: Restaurant ownership, political statements or an attorney appointment does not establish demographic inclusion.",
+      "evidence_lines": [
+        8357
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.943Z"
+      }
+    }
+  ],
+  "predicate_hash": "aed7f7b75db58e4e35d1cd148ad04cbab35cfa09e644b237df956c7b3fe7c574",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b211cc5a3fc99b3a0f6b87a739521c6c77a2afe6f581233c52b390379a2778bd"
+}

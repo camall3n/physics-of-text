@@ -1,0 +1,63 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_190",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_190__ent_456__ent_698",
+        "rel_190__ent_286__ent_465",
+        "rel_190__ent_1359__ent_1300"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit succeed/successor/take-over wording establishes that X took over a role from Y.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_190__ent_1150__ent_223",
+        "rel_190__ent_105__ent_223"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Replace occurs alongside a president's choice of someone; the rows do not resolve taking the role personally versus appointing a replacement.",
+      "tags": [
+        "role_attribution"
+      ],
+      "question": "Did Sather personally succeed Trottier in the role, or select someone else to replace him?"
+    },
+    {
+      "indices": [
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_190__ent_1204__ent_826",
+        "rel_190__ent_1296__ent_1046"
+      ],
+      "judgment": "incorrect",
+      "reason": "International policy and political control do not assert person-to-person succession.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "3fd741ee3df7e6b583fd78aa458ec15d13ce68ef0f205f796183614e77440d37"
+}

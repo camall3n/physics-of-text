@@ -1,0 +1,58 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_63",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_63__ent_784__ent_534"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Goldman and Sachs appear in fund/index and malformed president attachments, suggesting one company name split across the two entity slots.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Does Goldman identify a person holding office at Sachs, or are both words parts of the company Goldman Sachs?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_63__ent_136__ent_256"
+      ],
+      "judgment": "supported",
+      "reason": "President attachment and successor-as-president evidence establish the I.O.C. presidency.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_63__ent_1101__ent_405",
+        "rel_63__ent_1168__ent_1169"
+      ],
+      "judgment": "incorrect",
+      "reason": "Emigration or an auction showroom is unrelated to president office.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "671a25e121fbd996da4086c1aeaccba143f3be2a6cf5b2d8173d675ba0ef9bcb"
+}

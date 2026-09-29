@@ -1,0 +1,43 @@
+{
+  "relation": "rel_214",
+  "predicate_id": "has_policy_towards",
+  "predicate_version": 1,
+  "predicate_hash": "cc1aa4db42670671b675dba10fa4bc2431f59f4eb266ef609e431ebd71bfd3b0",
+  "predicate": {
+    "id": "has_policy_towards",
+    "label": "has policy towards",
+    "definition": "Government or institution X has an explicitly identified policy directed toward entity Y.",
+    "includes": [
+      "explicit X policy-toward Y",
+      "an identified institutional policy concerning Y",
+      "historical policy target"
+    ],
+    "excludes": [
+      "trade, travel, armed conflict, or ordinary relations without a policy assertion",
+      "an individual statement without institutional policy attribution",
+      "generic support or opposition alone"
+    ],
+    "ambiguous": [
+      "unclear policy owner or target",
+      "a proposed policy without establishment",
+      "a topic or population substituted for an unresolved entity"
+    ],
+    "notes": "This identifies the policy target only; it does not assert a favorable stance, diplomatic relations, or policy effectiveness.",
+    "scope_notes": "Includes: explicit X policy-toward Y; an identified institutional policy concerning Y; historical policy target. Excludes: trade, travel, armed conflict, or ordinary relations without a policy assertion; an individual statement without institutional policy attribution; generic support or opposition alone. Ambiguous unless resolved by case-local evidence: unclear policy owner or target; a proposed policy without establishment; a topic or population substituted for an unresolved entity. This identifies the policy target only; it does not assert a favorable stance, diplomatic relations, or policy effectiveness."
+  },
+  "dictionary_sha256": "ce9412236e3dc67f9ec3db7d290142c1bc2c85969509011e9c3d7ad95e117a66",
+  "kind": "declared_before_case_grading",
+  "rationale": "Four explicit policy-toward rows form the highest repeated interpretable family; travel, severing relations and arms sales are distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:30:03.908Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_214.before_grading.json",
+  "pregrading_annotation_sha256": "66ab8d403d95bf5eabad2ccbc0b77d9532fc10ca20207c9c43cd1f8b8ff54799"
+}

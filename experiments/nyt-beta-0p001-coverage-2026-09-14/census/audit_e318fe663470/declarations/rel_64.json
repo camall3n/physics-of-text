@@ -1,0 +1,42 @@
+{
+  "relation": "rel_64",
+  "predicate_id": "sporting_champion_of",
+  "predicate_version": 1,
+  "predicate_hash": "d04ae9c3157aacfada7d14a78bc962d7012af492a777b2856f6df76ad00f39dc",
+  "predicate": {
+    "id": "sporting_champion_of",
+    "label": "wins or holds sporting championship",
+    "definition": "Entity X won sporting competition Y or held an explicitly Y-designated sporting championship or title.",
+    "includes": [
+      "sport win/champion/title/clinch-title",
+      "sporting league/division or explicitly title-designating body",
+      "historical sporting title"
+    ],
+    "excludes": [
+      "non-sport honorary awards",
+      "political election or control",
+      "participation",
+      "single stage without overall title",
+      "coaching or team membership alone"
+    ],
+    "ambiguous": [
+      "medal without a winning championship",
+      "unclear title attachment"
+    ],
+    "notes": "Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples.",
+    "scope_notes": "Includes: sport win/champion/title/clinch-title; sporting league/division or explicitly title-designating body; historical sporting title. Excludes: non-sport honorary awards; political election or control; participation; single stage without overall title; coaching or team membership alone. Ambiguous unless resolved by case-local evidence: medal without a winning championship; unclear title attachment. Retains the original sports-only relation separately from winner_of; do not silently extend it to Nobel or political examples."
+  },
+  "dictionary_sha256": "655f6de4fd7d73bdfa399cc9807338d53ef895c1cf3cc6049d53923c632420da",
+  "kind": "declared_before_case_grading",
+  "rationale": "Win/capture/champion/event-victory paths dominate with team-to-competition arguments; mere reach is excluded.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.743Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_64.before_grading.json",
+  "pregrading_annotation_sha256": "8e72d379ca6471788cdccdc2a88d209b918e8ec7a465e86400a7dd3037e3fa36"
+}

@@ -1,0 +1,163 @@
+{
+  "relation": "rel_43",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_43__ent_791__ent_310",
+      "judgment": "supported",
+      "reason": "William V. Sullivan Jr. → Witter Reynolds: A local explicit president title identifies a president office within the named organization.",
+      "evidence_lines": [
+        715,
+        716,
+        717,
+        718
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_312__ent_1238",
+      "judgment": "supported",
+      "reason": "David F. Poltrack → CBS: A local explicit president title identifies a president office within the named organization.",
+      "evidence_lines": [
+        725,
+        727,
+        730,
+        732
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_1336__ent_792",
+      "judgment": "supported",
+      "reason": "Kalman Ruttenstein → Bloomingdale: A local explicit president title identifies a president office within the named organization.",
+      "evidence_lines": [
+        705,
+        708,
+        711
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_747__ent_155",
+      "judgment": "supported",
+      "reason": "Robert Berne → New York University: A local explicit president title identifies a president office within the named organization.",
+      "evidence_lines": [
+        749,
+        750,
+        755
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_499__ent_1008",
+      "judgment": "ambiguous",
+      "reason": "David N. Dinkins → Manhattan; Robert A. Kurtter → Moody 's Investors Service: President evidence merges Robert Kurtter/Moody's and David Dinkins/Manhattan in one inferred pair.",
+      "evidence_lines": [
+        759,
+        2847
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which person and institution does this presidency fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_1203__ent_497",
+      "judgment": "ambiguous",
+      "reason": "Slobodan Milosevic → Yugoslav: The president title is attached to the incomplete political adjective Yugoslav.",
+      "evidence_lines": [
+        2822,
+        2829
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which complete political body is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_492__ent_648",
+      "judgment": "incorrect",
+      "reason": "Iraq → Kuwait: Being forced out of Kuwait does not establish presidency.",
+      "evidence_lines": [
+        4030,
+        6422
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    },
+    {
+      "case_id": "rel_43__ent_661__ent_471",
+      "judgment": "supported",
+      "reason": "Joseph Liro → S. G. Warburg & Company: A local explicit president title identifies a president office within the named organization.",
+      "evidence_lines": [
+        720
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:45.985Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f40e2c7e398e48b5c755d4c4d8510ea29210bccb0af243465bd6b1556fcc111f"
+}

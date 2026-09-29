@@ -1,0 +1,45 @@
+{
+  "relation": "rel_13",
+  "predicate_id": "politically_controlled_by",
+  "predicate_version": 1,
+  "predicate_hash": "14457cecd367f9b08944978b6ae308ec6156db62f6768146db8b2115ec1f2cfa",
+  "predicate": {
+    "id": "politically_controlled_by",
+    "label": "politically controlled by",
+    "definition": "Political institution, legislature, government, or geographic territory X is or was politically controlled by group or government Y.",
+    "includes": [
+      "explicit political control, takeover, or governing majority by Y",
+      "historical control including clearly established loss of prior control"
+    ],
+    "excludes": [
+      "an ordinary member or individual officeholder without group control",
+      "corporate ownership",
+      "political support or influence alone",
+      "proposed takeover without realization"
+    ],
+    "ambiguous": [
+      "generic have, take, or govern without clear control context",
+      "unclear political body or group identity",
+      "control versus ordinary office unresolved"
+    ],
+    "notes": "Inverse of politically_controls. A mere member of a legislature does not establish party control.",
+    "scope_notes": "Includes: explicit political control, takeover, or governing majority by Y; historical control including clearly established loss of prior control. Excludes: an ordinary member or individual officeholder without group control; corporate ownership; political support or influence alone; proposed takeover without realization. Ambiguous unless resolved by case-local evidence: generic have, take, or govern without clear control context; unclear political body or group identity; control versus ordinary office unresolved. Inverse of politically_controls. A mere member of a legislature does not establish party control."
+  },
+  "dictionary_sha256": "58f7680caaf70157c5740b7931f4d2eedb168127f9f204b39248ea828c31165e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Controlled-by is the largest identifiable family, with government/body first and controlling party second; member/leader and trade are distinct.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.845Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_13.before_grading.json",
+  "pregrading_annotation_sha256": "75c7c22e286f0210cf6b50e157e02423df25857d28ac5ae1ba82a7ed9a2c652e"
+}

@@ -1,0 +1,65 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_361",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_361__ent_816__ent_586",
+        "rel_361__ent_819__ent_586",
+        "rel_361__ent_816__ent_189"
+      ],
+      "judgment": "supported",
+      "reason": "Direct control or take-over of the institution establishes political control.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_361__ent_816__ent_180",
+        "rel_361__ent_66__ent_543",
+        "rel_361__ent_646__ent_237"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence concerns political interaction with an individual, a team athlete, or a contest, not control of a political body.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_361__ent_819__ent_811"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Take the House may mean gaining political control, but the single bare take path omits that meaning.",
+      "tags": [
+        "control_scope"
+      ],
+      "question": "Does take the House explicitly mean gaining legislative political control here?"
+    }
+  ],
+  "mixed": [
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7a8b503d987fd0e500345f6db1fde2fafd03813d4af67910129c4ca7e77ebd07"
+}

@@ -1,0 +1,56 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_185",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_185__ent_1224__ent_1138",
+        "rel_185__ent_1221__ent_502"
+      ],
+      "judgment": "supported",
+      "reason": "Direct political group or majority leader title establishes organizational leadership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_185__ent_773__ent_1212"
+      ],
+      "judgment": "supported",
+      "reason": "Direct leading of the named corporation establishes functional organizational leadership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_185__ent_1222__ent_308"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The team leader and leads-team statements leave athletic leadership versus an organizational management role unresolved.",
+      "tags": [
+        "role_boundary"
+      ],
+      "question": "Does Ewing lead the Knicks as an athlete or hold the organizational leadership office required here?"
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f7cee81526132d212f2036c8d19fd876075a5ed6e91f378d05b91b4318b533e4"
+}

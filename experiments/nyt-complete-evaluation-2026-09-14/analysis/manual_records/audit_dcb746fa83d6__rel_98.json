@@ -1,0 +1,138 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_98",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        17,
+        22
+      ],
+      "case_ids": [
+        "rel_98__ent_608__ent_607",
+        "rel_98__ent_732__ent_974",
+        "rel_98__ent_1411__ent_1381",
+        "rel_98__ent_185__ent_851",
+        "rel_98__ent_980__ent_741",
+        "rel_98__ent_740__ent_1231",
+        "rel_98__ent_347__ent_1298",
+        "rel_98__ent_1350__ent_1302",
+        "rel_98__ent_739__ent_741",
+        "rel_98__ent_752__ent_510",
+        "rel_98__ent_309__ent_1302",
+        "rel_98__ent_409__ent_772",
+        "rel_98__ent_991__ent_964"
+      ],
+      "judgment": "supported",
+      "reason": "A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_98__ent_409__ent_1420"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The same first latent entity combines Yankees and Marlins, so the supported winner rows do not identify one coherent inferred subject.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which team is intended by this latent fact, and should Yankees and Marlins be split?"
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_98__ent_726__ent_607"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The win/victory path is clear, but Scot is an incomplete person designation and does not identify the winner from the supplied triples.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which named golfer does Scot denote in the original sentence?"
+    },
+    {
+      "indices": [
+        12,
+        13,
+        19,
+        20
+      ],
+      "case_ids": [
+        "rel_98__ent_6__ent_586",
+        "rel_98__ent_251__ent_586",
+        "rel_98__ent_249__ent_1326",
+        "rel_98__ent_816__ent_20"
+      ],
+      "judgment": "incorrect",
+      "reason": "Winning political office/control is outside the declared competition/award predicate.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        15,
+        18,
+        21
+      ],
+      "case_ids": [
+        "rel_98__ent_1238__ent_483",
+        "rel_98__ent_645__ent_380",
+        "rel_98__ent_263__ent_1215"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied communication, church/location, or opponent-apposition evidence does not establish winning an event or award.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_98__ent_1320__ent_764"
+      ],
+      "judgment": "incorrect",
+      "reason": "Being led to the Stanley Cup does not by itself distinguish reaching the final from winning it. No explicit win is supplied for this latent fact.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    10
+  ],
+  "broad": []
+}

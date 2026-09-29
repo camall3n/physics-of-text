@@ -1,0 +1,151 @@
+{
+  "relation": "rel_132",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_132__ent_110__ent_851",
+      "judgment": "supported",
+      "reason": "Devils → Stanley Cup: Event victory, facing an opponent in the event, or an explicitly event-designated team supplies actual sporting participation.",
+      "evidence_lines": [
+        2229,
+        2233,
+        7728,
+        7732,
+        8041,
+        8045,
+        8047
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.492Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_321__ent_836",
+      "judgment": "supported",
+      "reason": "Mets → World Series: Event victory, facing an opponent in the event, or an explicitly event-designated team supplies actual sporting participation.",
+      "evidence_lines": [
+        2209,
+        2212,
+        2213,
+        3471,
+        3474,
+        3475
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.493Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_1126__ent_897",
+      "judgment": "incorrect",
+      "reason": "Colts → Indianapolis: Indianapolis and New York are geographic or team-place names, not the designated sporting event required here.",
+      "evidence_lines": [
+        4813,
+        4814,
+        4815,
+        4818,
+        4819
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.493Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_1004__ent_843",
+      "judgment": "incorrect",
+      "reason": "Yankees → New York: Indianapolis and New York are geographic or team-place names, not the designated sporting event required here.",
+      "evidence_lines": [
+        5197,
+        5200,
+        5204,
+        5205
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.493Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_347__ent_851",
+      "judgment": "supported",
+      "reason": "Rangers → Stanley Cup: Event victory, facing an opponent in the event, or an explicitly event-designated team supplies actual sporting participation.",
+      "evidence_lines": [
+        2188,
+        2190,
+        2191
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.493Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_849__ent_850",
+      "judgment": "supported",
+      "reason": "Patriots → Super Bowl: Event victory, facing an opponent in the event, or an explicitly event-designated team supplies actual sporting participation.",
+      "evidence_lines": [
+        2248,
+        2250,
+        2253
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.493Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_561__ent_850",
+      "judgment": "supported",
+      "reason": "Giants → Super Bowl: Event victory, facing an opponent in the event, or an explicitly event-designated team supplies actual sporting participation.",
+      "evidence_lines": [
+        2219,
+        3439
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:23.493Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1ed184a64dab772083dabf1e2bd4b9b03bc09f328a82dfe8ebb0c948630e1cb0"
+}

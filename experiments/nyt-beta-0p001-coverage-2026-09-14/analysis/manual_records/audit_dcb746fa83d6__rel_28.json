@@ -1,0 +1,72 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_28",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_28__ent_1337__ent_1273"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Possessing a faction within the organization suggests influence but does not identify the actual managerial office or unambiguous management role.",
+      "tags": [
+        "omitted_role"
+      ],
+      "question": "Does the source state that Yasir Arafat heads or manages the organization or an identified faction, beyond the possessive faction wording?"
+    },
+    {
+      "indices": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_28__ent_31__ent_1216",
+        "rel_28__ent_264__ent_1305"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leadership language is present but Democratic is an incomplete institutional adjective rather than a clearly identified party body.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which complete political body does Democratic identify in this leadership statement?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_28__ent_1419__ent_85"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Each row gives a manager role, but Paul Goldstein and Craig Hammerman are distinct named people merged in one latent subject.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Should Paul Goldstein and Craig Hammerman be separate people before evaluating their board managerial offices?"
+    },
+    {
+      "indices": [
+        1,
+        5
+      ],
+      "case_ids": [
+        "rel_28__ent_291__ent_119",
+        "rel_28__ent_888__ent_312"
+      ],
+      "judgment": "incorrect",
+      "reason": "Counselor, confidante or adviser service and a geographic religious-person reference do not establish a managerial office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "63c4ea7f7861156c307ec0ef3d46e8e999b6577597393a06de59908b58b271fd"
+}

@@ -1,0 +1,53 @@
+{
+  "relation": "rel_204",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_204__ent_1028__ent_175",
+      "judgment": "supported",
+      "reason": "Zenia Mucha → Mr. Pataki: The direct spokeswoman-for apposition establishes Zenia Mucha’s spokesperson role for Pataki; adviser evidence is additional context.",
+      "evidence_lines": [
+        1181,
+        1184,
+        1186,
+        3522,
+        3525,
+        3527
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.532Z"
+      }
+    },
+    {
+      "case_id": "rel_204__ent_697__ent_212",
+      "judgment": "incorrect",
+      "reason": "Syria → Hafez al-Assad: Syria is the country, while the named person is described as ruler or president; this is not person-to-principal spokesperson direction.",
+      "evidence_lines": [
+        5350,
+        5351,
+        5353,
+        5354,
+        5355
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.532Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "476149b89a8dee23ff01b5792265d458c0c6d4fb81600de93a79142a2588ca8d"
+}

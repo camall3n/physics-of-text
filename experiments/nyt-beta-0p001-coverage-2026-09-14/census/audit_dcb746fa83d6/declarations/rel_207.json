@@ -1,0 +1,51 @@
+{
+  "relation": "rel_207",
+  "predicate_id": "competed_against",
+  "predicate_version": 1,
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate": {
+    "id": "competed_against",
+    "label": "played or competed against",
+    "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+    "includes": [
+      "explicit played against",
+      "a completed win or loss against opponent",
+      "competition with clear opponent roles"
+    ],
+    "excludes": [
+      "ordinary interaction",
+      "standings comparison without a contest",
+      "future schedule alone"
+    ],
+    "ambiguous": [
+      "ambiguous game occurrence"
+    ],
+    "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+    "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+  },
+  "dictionary_sha256": "e1ea95af15f1dd22bf352c4d2bd60756680eaa0904ca1c9e7c38ee4986cc670c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Play/face dominates across opposing teams, with some overtaking and beating. Competition is identifiable without requiring a particular winner.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:04:16.345Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    9,
+    10
+  ],
+  "competing_meanings": [
+    "political leadership",
+    "geographic location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_207.before_grading.json",
+  "pregrading_annotation_sha256": "f7f7fec943f1a671ae347b77b5c56492e57061b1057d9920cd2f9cb984d693d4"
+}

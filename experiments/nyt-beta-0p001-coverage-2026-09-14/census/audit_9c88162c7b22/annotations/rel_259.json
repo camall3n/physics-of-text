@@ -1,0 +1,568 @@
+{
+  "relation": "rel_259",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_259.json",
+    "source_sha256": "3d20581eb87ac09a5898d8bf4e5a32fce8e58a03c5f20a41ac1e666506445b68",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_259__ent_1147__ent_209",
+      "judgment": "supported",
+      "reason": "Yankee Group → Boston: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        5766,
+        5767,
+        5772,
+        7090,
+        7091,
+        7096
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.662Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_1082__ent_843",
+      "judgment": "supported",
+      "reason": "Real Capital Analytics → New York: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        6866,
+        6867,
+        6868,
+        6869,
+        6870,
+        6871
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_220__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar → Chicago: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        5783,
+        5785,
+        5786,
+        5787,
+        5792
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_1083__ent_931",
+      "judgment": "incorrect",
+      "reason": "BellSouth Corporation → Bell: Bell is a corporate-family association, not a geographic location, and the other supplied evidence adds no geographical base.",
+      "evidence_lines": [
+        6872,
+        6873,
+        6874,
+        6875,
+        6876
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company → Washington: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7421,
+        7422,
+        7425,
+        7427,
+        7430
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_716__ent_958",
+      "judgment": "supported",
+      "reason": "Kleiner Perkins Caufield & Byers → Silicon Valley: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7431,
+        7432,
+        7433,
+        7434,
+        7435
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_207__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar Inc. → Chicago: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        5745,
+        5750,
+        7109,
+        7114
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_463__ent_440",
+      "judgment": "supported",
+      "reason": "T. Rowe Price → Baltimore: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        5823,
+        5824,
+        5827,
+        5831
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_700__ent_843",
+      "judgment": "supported",
+      "reason": "Pearl Meyer & Partners → New York: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7157,
+        7158,
+        7161,
+        7162
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_345__ent_333",
+      "judgment": "supported",
+      "reason": "Corcoran Group → Manhattan: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7371,
+        7372,
+        7377,
+        7379
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_942__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications → Internet: Internet describes industry or online activity rather than a geographic place in which the company is located.",
+      "evidence_lines": [
+        7383,
+        7384,
+        7387,
+        7390
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_539__ent_713",
+      "judgment": "supported",
+      "reason": "Hicks → Dallas: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7411,
+        7413,
+        7417,
+        7419
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_449__ent_1146",
+      "judgment": "supported",
+      "reason": "HSH Associates → Butler: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        5753,
+        5754,
+        5755
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_1080__ent_936",
+      "judgment": "incorrect",
+      "reason": "DoubleClick → Internet: Internet describes industry or online activity rather than a geographic place in which the company is located.",
+      "evidence_lines": [
+        6854,
+        6858,
+        6863
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_942__ent_843",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → New York: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7166,
+        7169,
+        7171
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_300__ent_843",
+      "judgment": "supported",
+      "reason": "Kohlberg → New York: The organization is explicitly based/in the place or carries a clear geographic firm/company modifier.",
+      "evidence_lines": [
+        7351,
+        7352,
+        7354
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_1089__ent_953",
+      "judgment": "ambiguous",
+      "reason": "Birinyi Associates → Wall Street: Wall Street firm/house modification can denote the financial industry rather than an actual location.",
+      "evidence_lines": [
+        7380,
+        7381,
+        7382
+      ],
+      "issue_tags": [
+        "attachment"
+      ],
+      "reviewer_question": "Does Wall Street indicate the firms physical location here, or only its financial-market industry?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_1081__ent_931",
+      "judgment": "incorrect",
+      "reason": "Ameritech Corporation → Bell: Bell is a corporate-family association, not a geographic location, and the other supplied evidence adds no geographical base.",
+      "evidence_lines": [
+        6864,
+        6865
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_943__ent_936",
+      "judgment": "incorrect",
+      "reason": "Forrester Research → Internet: Internet describes industry or online activity rather than a geographic place in which the company is located.",
+      "evidence_lines": [
+        7361,
+        7362
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab",
+        "annotation_source": "prior_annotations/rel_259.json",
+        "annotation_sha256": "61dee1805ddc371c8b73d9842806e650974d64f977514246bbab8ec7d8d99783",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.663Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1
+}

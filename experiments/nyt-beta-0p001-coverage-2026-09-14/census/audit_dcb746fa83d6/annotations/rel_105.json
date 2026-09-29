@@ -1,0 +1,127 @@
+{
+  "relation": "rel_105",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_105__ent_963__ent_1413",
+      "judgment": "incorrect",
+      "reason": "Richard N. Perle → Pentagon: Adviser, secretary, consultant or director roles do not themselves establish spokesperson service.",
+      "evidence_lines": [
+        7505,
+        7509,
+        7510,
+        7511
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.440Z"
+      }
+    },
+    {
+      "case_id": "rel_105__ent_176__ent_1242",
+      "judgment": "incorrect",
+      "reason": "Michael McKeon → Mr. Pataki: Adviser, secretary, consultant or director roles do not themselves establish spokesperson service.",
+      "evidence_lines": [
+        373,
+        377,
+        380
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.440Z"
+      }
+    },
+    {
+      "case_id": "rel_105__ent_1028__ent_1242",
+      "judgment": "supported",
+      "reason": "Zenia Mucha → Mr. Pataki: Direct possessive spokeswoman apposition establishes service for the named principal.",
+      "evidence_lines": [
+        1180,
+        1181,
+        3521
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.440Z"
+      }
+    },
+    {
+      "case_id": "rel_105__ent_291__ent_182",
+      "judgment": "supported",
+      "reason": "Karen P. Hughes → Mr. Bush: Direct possessive spokeswoman apposition establishes service for the named principal.",
+      "evidence_lines": [
+        3582,
+        3583,
+        3590
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.440Z"
+      }
+    },
+    {
+      "case_id": "rel_105__ent_1024__ent_496",
+      "judgment": "supported",
+      "reason": "Patricia Lynch → Mr. Silver: Direct possessive spokeswoman apposition establishes service for the named principal.",
+      "evidence_lines": [
+        1228,
+        1229
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.440Z"
+      }
+    },
+    {
+      "case_id": "rel_105__ent_299__ent_16",
+      "judgment": "ambiguous",
+      "reason": "Cristyne F. Lategano → Mayor: A spokeswoman relationship is explicit but Mayor leaves the represented person or office materially unresolved.",
+      "evidence_lines": [
+        3540,
+        3542
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Which mayor or identified mayoral office is the spokeswoman representing?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:46.440Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "72db9b592aad0d11f1504706c53beb210e9a4a430696a7cd3bc0911d92814985"
+}

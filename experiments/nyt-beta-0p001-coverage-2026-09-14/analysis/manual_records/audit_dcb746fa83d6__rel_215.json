@@ -1,0 +1,110 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_215",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        13,
+        14,
+        17,
+        18
+      ],
+      "case_ids": [
+        "rel_215__ent_137__ent_379",
+        "rel_215__ent_556__ent_1391",
+        "rel_215__ent_580__ent_341",
+        "rel_215__ent_1306__ent_1008",
+        "rel_215__ent_342__ent_584",
+        "rel_215__ent_253__ent_572",
+        "rel_215__ent_274__ent_1029",
+        "rel_215__ent_285__ent_1427",
+        "rel_215__ent_28__ent_1402",
+        "rel_215__ent_104__ent_1155",
+        "rel_215__ent_205__ent_701",
+        "rel_215__ent_447__ent_1407"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local president, manager, chair, or established office-tenure row supports the managerial-office family.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_215__ent_1419__ent_85"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The inferred person and principal combine Hammerman/Community Board with Yu Cho/Korea; office support cannot identify one coherent pair.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should both the people and the institution/place entities be separated?"
+    },
+    {
+      "indices": [
+        7,
+        10,
+        11,
+        15
+      ],
+      "case_ids": [
+        "rel_215__ent_1261__ent_69",
+        "rel_215__ent_1337__ent_35",
+        "rel_215__ent_34__ent_326",
+        "rel_215__ent_4__ent_980"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The institution argument is only Bosnian Serb, Palestinian, or Soviet; its complete political-body identity is unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which complete institution or polity is intended by this adjectival argument?"
+    },
+    {
+      "indices": [
+        12,
+        16,
+        19,
+        20,
+        21,
+        22
+      ],
+      "case_ids": [
+        "rel_215__ent_1295__ent_862",
+        "rel_215__ent_264__ent_795",
+        "rel_215__ent_10__ent_477",
+        "rel_215__ent_7__ent_1010",
+        "rel_215__ent_627__ent_835",
+        "rel_215__ent_901__ent_1376"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied evidence is birth, displacement, house location, or candidacy without an established managerial office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7b159fbd5181ad03d5fa6a876c582ccdda6c9b93acf775da82f135081f4897d2"
+}

@@ -1,0 +1,83 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_306",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "case_ids": [
+        "rel_306__ent_277__ent_1236",
+        "rel_306__ent_275__ent_1411",
+        "rel_306__ent_276__ent_1411",
+        "rel_306__ent_272__ent_1350",
+        "rel_306__ent_104__ent_347",
+        "rel_306__ent_279__ent_278",
+        "rel_306__ent_287__ent_289",
+        "rel_306__ent_590__ent_543",
+        "rel_306__ent_589__ent_110",
+        "rel_306__ent_273__ent_778",
+        "rel_306__ent_79__ent_1283"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local manager or general-manager title supports this specific office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_306__ent_1028__ent_175"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A manager role is asserted for a personal principal; the omitted campaign or institution is unresolved.",
+      "tags": [
+        "personal_principal"
+      ],
+      "question": "Which campaign or institution is the object of Mucha's managerial role for Pataki?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_306__ent_1042__ent_308"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The inferred person combines Isiah Thomas and Al Bianchi; the manager title belongs to Bianchi.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Thomas and Bianchi be separated before this managerial fact is evaluated?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5e5120f078e4c2af8a729a3e6409b24e26e76cc7ff0607993c945eed52cbe89c"
+}

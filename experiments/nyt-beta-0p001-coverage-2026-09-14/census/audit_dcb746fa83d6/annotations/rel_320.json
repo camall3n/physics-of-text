@@ -1,0 +1,88 @@
+{
+  "relation": "rel_320",
+  "predicate_id": "departed_from",
+  "label": "departed from",
+  "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+  "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure.",
+  "facts": [
+    {
+      "case_id": "rel_320__ent_1101__ent_405",
+      "judgment": "supported",
+      "reason": "Jews → Soviet Union: Direct emigrating, leaving and resettlement from the Soviet Union establish physical departure of affected Jews.",
+      "evidence_lines": [
+        4036,
+        4037,
+        4038,
+        4039,
+        4040,
+        4041,
+        4043
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.427Z"
+      }
+    },
+    {
+      "case_id": "rel_320__ent_963__ent_1115",
+      "judgment": "ambiguous",
+      "reason": "Richard N. Perle → Pentagon: Leaving the Pentagon beside an adviser title could mean leaving an institutional role rather than physically leaving the place.",
+      "evidence_lines": [
+        7506,
+        7512
+      ],
+      "issue_tags": [
+        "place_institution_metonymy"
+      ],
+      "reviewer_question": "Does leaving the Pentagon describe physical departure or ending advisory employment?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.427Z"
+      }
+    },
+    {
+      "case_id": "rel_320__ent_1229__ent_814",
+      "judgment": "incorrect",
+      "reason": "Poland → NATO: Adding a country to an alliance or recuperation attributed to a team does not establish physical departure.",
+      "evidence_lines": [
+        1996
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.427Z"
+      }
+    },
+    {
+      "case_id": "rel_320__ent_1004__ent_731",
+      "judgment": "incorrect",
+      "reason": "Yankees → New York: Adding a country to an alliance or recuperation attributed to a team does not establish physical departure.",
+      "evidence_lines": [
+        5205
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.427Z"
+      }
+    }
+  ],
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "037010fdd9dd6b9945de07c0e63b2e4936c5c37f68f2bf0370ceecb779e47b58"
+}

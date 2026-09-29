@@ -1,0 +1,73 @@
+{
+  "relation": "rel_81",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_81__ent_838__ent_831",
+      "judgment": "supported",
+      "reason": "Serbs → Croatia: Explicit Serbs in parts of Croatia and fleeing Croatia establish physical presence of members of that population.",
+      "evidence_lines": [
+        2149,
+        2150,
+        2151,
+        2153,
+        2154
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.000Z"
+      }
+    },
+    {
+      "case_id": "rel_81__ent_1039__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Scott McClellan → White House: White House secretary and briefing or press-corps references may designate the institution, without resolving actual presence at the physical place.",
+      "evidence_lines": [
+        1350,
+        1351,
+        1353,
+        1354
+      ],
+      "issue_tags": [
+        "place_institution_metonymy"
+      ],
+      "reviewer_question": "Does a source row place Scott McClellan physically at the White House, beyond his institutional role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.000Z"
+      }
+    },
+    {
+      "case_id": "rel_81__ent_537__ent_492",
+      "judgment": "incorrect",
+      "reason": "United States → Iraq: A country attacking another country does not establish physical presence of the country itself in the attacked place.",
+      "evidence_lines": [
+        2766,
+        4067
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.000Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "fbb3b598634c1cda23ad27c22f73e0b8aef975ccd217780f9d77d3c1867ffb41"
+}

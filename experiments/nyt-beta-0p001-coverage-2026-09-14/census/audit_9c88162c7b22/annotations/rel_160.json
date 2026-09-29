@@ -1,0 +1,54 @@
+{
+  "relation": "rel_160",
+  "predicate_id": "flows_into",
+  "label": "flows into waterbody",
+  "definition": "River or watercourse X flows into, joins, or empties into receiving waterbody Y.",
+  "scope_notes": "Includes: explicit flow-into or empty-into; river confluence with an identified receiving waterbody; river meeting Y when direction is locally clear. Excludes: ordinary interpersonal meeting or joint action; adjacency or a waterfront gateway alone; flow in the reverse direction. Ambiguous unless resolved by case-local evidence: a bare meet or join with unresolved receiving direction; unclear watercourse versus place name. Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally.",
+  "facts": [
+    {
+      "case_id": "rel_160__ent_233__ent_475",
+      "judgment": "supported",
+      "reason": "Rondout Creek → Hudson: Explicit flow-into or empty-into paths establish the river-to-receiving-waterbody direction, resolving the accompanying meet and join paths.",
+      "evidence_lines": [
+        6082,
+        6083,
+        6084,
+        6085,
+        6086,
+        6087,
+        6088
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.094Z"
+      }
+    },
+    {
+      "case_id": "rel_160__ent_231__ent_473",
+      "judgment": "supported",
+      "reason": "Connecticut River → Long Island Sound: Explicit flow-into or empty-into paths establish the river-to-receiving-waterbody direction, resolving the accompanying meet and join paths.",
+      "evidence_lines": [
+        6071,
+        6074,
+        6075,
+        6078,
+        6080
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.094Z"
+      }
+    }
+  ],
+  "predicate_hash": "2812c6965cf2b5eb31fea6e84c3e3a49ff7949f1acb069b8367e66263a32366f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "184f9a92317b6657e0587b7a89fa72713165ace53f8eb7672499f9cd51b1511e"
+}

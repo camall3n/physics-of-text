@@ -1,0 +1,63 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_75",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3
+      ],
+      "case_ids": [
+        "rel_75__ent_643__ent_333",
+        "rel_75__ent_1228__ent_507"
+      ],
+      "judgment": "supported",
+      "reason": "Direct live-in or living-with-wife-in paths establish residence; a first name alone does not defeat an otherwise clear local residence statement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_75__ent_822__ent_835"
+      ],
+      "judgment": "ambiguous",
+      "reason": "American is an adjectival person fragment in woman-and-church paths, leaving the particular resident or identified population unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which American person or population is said to live in England?"
+    },
+    {
+      "indices": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_75__ent_309__ent_1302",
+        "rel_75__ent_1004__ent_1302",
+        "rel_75__ent_272__ent_284",
+        "rel_75__ent_308__ent_64"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sports-event results, an explicitly negated prospective team joining, or losing a player are not geographic residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "ff7843c9a8c3aa39fae5c7665320568676d54e1a6acd10d586b51491f8b1d1cf"
+}

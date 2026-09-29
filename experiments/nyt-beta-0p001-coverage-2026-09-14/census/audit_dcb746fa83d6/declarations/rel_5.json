@@ -1,0 +1,55 @@
+{
+  "relation": "rel_5",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "3ae4f2b4272c4c44001912771d1529f06850a314c5147999002b87cb06c8ffd9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Spokesman-for, possessive spokesman, and institutional spokesman variants dominate over director, aide, or adviser roles.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.076Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18
+  ],
+  "competing_meanings": [
+    "director",
+    "adviser",
+    "aide"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_5.before_grading.json",
+  "pregrading_annotation_sha256": "a2071f5814e7471734bfe82720f731c373a8ac46fbe817f4a4e2cae17ef4d011"
+}

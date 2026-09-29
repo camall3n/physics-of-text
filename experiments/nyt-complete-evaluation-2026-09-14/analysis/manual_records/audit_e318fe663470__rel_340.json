@@ -1,0 +1,109 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_340",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_340__ent_732__ent_974",
+        "rel_340__ent_750__ent_992",
+        "rel_340__ent_561__ent_850",
+        "rel_340__ent_1115__ent_850",
+        "rel_340__ent_1392__ent_836",
+        "rel_340__ent_1332__ent_982",
+        "rel_340__ent_731__ent_982",
+        "rel_340__ent_1282__ent_836",
+        "rel_340__ent_609__ent_836",
+        "rel_340__ent_968__ent_981"
+      ],
+      "judgment": "supported",
+      "reason": "A supplied row explicitly identifies the first entity as winner/champion of, or winning, the named competition or award. Stage, participation and contextual paths alone are not the basis for support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_340__ent_739__ent_741"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Real Quiet and Unbridled are distinct horses merged into the first latent identity, despite explicit Kentucky Derby win evidence for both.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Should Real Quiet and Unbridled be separate entities, and which horse is intended here?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_340__ent_608__ent_607"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The first identity combines Woods with an unidentified Scot. The supplied triples do not establish that these are the same winner.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Who is Scot, and should that winner be separated from Woods?"
+    },
+    {
+      "indices": [
+        12,
+        15
+      ],
+      "case_ids": [
+        "rel_340__ent_158__ent_1307",
+        "rel_340__ent_462__ent_1437"
+      ],
+      "judgment": "incorrect",
+      "reason": "Street/location or missing a person/place does not establish an event or award win.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        13,
+        14,
+        16
+      ],
+      "case_ids": [
+        "rel_340__ent_6__ent_1422",
+        "rel_340__ent_1265__ent_586",
+        "rel_340__ent_819__ent_1422"
+      ],
+      "judgment": "incorrect",
+      "reason": "Winning political office/control is outside the shared competition/award scope.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3,
+    5,
+    8
+  ],
+  "broad": []
+}

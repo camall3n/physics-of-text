@@ -1,0 +1,78 @@
+{
+  "relation": "rel_116",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_116__ent_7__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Democrat → White House: An unnamed Democrat and political occupancy/put-in-White-House language do not identify a definite person physically present there.",
+      "evidence_lines": [
+        2705,
+        2707,
+        2708,
+        2709,
+        2710,
+        2711,
+        2712
+      ],
+      "issue_tags": [
+        "unnamed_person",
+        "institution_place_metonymy"
+      ],
+      "reviewer_question": "Which Democrat is meant, and does occupying the White House assert physical presence or holding office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.505Z"
+      }
+    },
+    {
+      "case_id": "rel_116__ent_18__ent_13",
+      "judgment": "incorrect",
+      "reason": "Thomas Krens → Guggenheim: Guggenheim directorial appointment and tenure supplies institutional office, not physical presence in an identified place.",
+      "evidence_lines": [
+        3558,
+        3561,
+        3562,
+        3563
+      ],
+      "issue_tags": [
+        "office_not_presence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.505Z"
+      }
+    },
+    {
+      "case_id": "rel_116__ent_6__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Bill Clinton → White House: Put-in and occupy the White House may describe presidential office rather than literal presence; performance-in does not resolve the sense.",
+      "evidence_lines": [
+        2715,
+        2718,
+        2719
+      ],
+      "issue_tags": [
+        "institution_place_metonymy"
+      ],
+      "reviewer_question": "Are these White House occupancy rows literal physical presence or political-office descriptions?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.505Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6ff10d35f3e0cdf4f720915caec7d6d545f0feb6d2918a0b0496c98c97b16bb4"
+}

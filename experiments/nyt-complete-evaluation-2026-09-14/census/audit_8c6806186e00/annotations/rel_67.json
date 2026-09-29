@@ -1,0 +1,1343 @@
+{
+  "relation": "rel_67",
+  "predicate_id": "president_or_manager_of",
+  "label": "president or manager of",
+  "definition": "Person X holds or held an explicitly identified president or manager office in organization, team, public body or institution Y.",
+  "scope_notes": "Includes: explicit president or manager title or unambiguous manage-as-office evidence; general manager; borough president and community-board manager; functional presidency within an organization; historical tenure. Excludes: chair/director/executive/head alone; owner/founder/coach/player alone; generic running or control without the specified role; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal replacing omitted organization/campaign; missing title modifier that could change the office. This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_67.json",
+    "source_sha256": "108b45c143d0d02d3cd8d32daeed1e2cb51e5ac22bb4da69ec20265624258430",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_67__ent_104__ent_347",
+      "judgment": "supported",
+      "reason": "Neil Smith → Rangers: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        1656,
+        1657,
+        1658,
+        1661,
+        1663,
+        1664,
+        3322,
+        3323,
+        3325,
+        3327,
+        3328,
+        3330,
+        3331
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.256Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_900__ent_399",
+      "judgment": "incorrect",
+      "reason": "Andrew Zimbalist → Smith College: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1006__ent_155",
+      "judgment": "supported",
+      "reason": "Robert Berne → New York University: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1100__ent_163",
+      "judgment": "incorrect",
+      "reason": "Fred Siegel → Cooper Union: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_283__ent_321",
+      "judgment": "supported",
+      "reason": "Dave Johnson → Mets: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3332,
+        3333,
+        3334,
+        3336,
+        3338,
+        3339,
+        3340,
+        3341
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_67.json",
+        "annotation_sha256": "108b45c143d0d02d3cd8d32daeed1e2cb51e5ac22bb4da69ec20265624258430"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_391__ent_149",
+      "judgment": "incorrect",
+      "reason": "Ross K. Baker → Rutgers University: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_67.json",
+        "annotation_sha256": "108b45c143d0d02d3cd8d32daeed1e2cb51e5ac22bb4da69ec20265624258430"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_765__ent_522",
+      "judgment": "incorrect",
+      "reason": "Charles M. Elson → University of Delaware: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        542,
+        543,
+        544,
+        545,
+        546,
+        547,
+        550
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1181__ent_781",
+      "judgment": "incorrect",
+      "reason": "Loren Thompson → Lexington Institute: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        579,
+        581,
+        582,
+        584,
+        586,
+        587,
+        588
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_550__ent_792",
+      "judgment": "supported",
+      "reason": "Kalman Ruttenstein → Bloomingdale: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        705,
+        706,
+        708,
+        709,
+        712,
+        713,
+        714
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_274__ent_308",
+      "judgment": "supported",
+      "reason": "Al Bianchi → Knicks: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3204,
+        3205,
+        3206,
+        3207,
+        3208,
+        3210,
+        3212
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_277__ent_1236",
+      "judgment": "supported",
+      "reason": "Omar Minaya → Mets: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3214,
+        3216,
+        3217,
+        3218,
+        3220,
+        3222,
+        3223
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_287__ent_289",
+      "judgment": "supported",
+      "reason": "Billy Beane → Oakland Athletics: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3372,
+        3373,
+        3374,
+        3375,
+        3376,
+        3377,
+        3378
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_67.json",
+        "annotation_sha256": "108b45c143d0d02d3cd8d32daeed1e2cb51e5ac22bb4da69ec20265624258430"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1219__ent_155",
+      "judgment": "incorrect",
+      "reason": "Stephen Gillers → New York University: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        296,
+        297,
+        298,
+        301,
+        303,
+        304
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_150__ent_392",
+      "judgment": "incorrect",
+      "reason": "Merle Black → Emory University: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_553__ent_795",
+      "judgment": "ambiguous",
+      "reason": "Paul L. Kasriel → Northern Trust Company; George J. Mitchell → Democratic: The tuple mixes Paul Kasriel and Northern Trust with George Mitchell and the Democratic majority; the president evidence cannot establish one resolved entity pair.",
+      "evidence_lines": [
+        744,
+        745,
+        746,
+        747,
+        748,
+        3770
+      ],
+      "issue_tags": [
+        "mixed_entity"
+      ],
+      "reviewer_question": "Should the Kasriel–Northern Trust evidence and Mitchell–Democratic evidence belong to different entity tuples?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_276__ent_561",
+      "judgment": "supported",
+      "reason": "Ernie Accorsi → Giants: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3224,
+        3225,
+        3227,
+        3229,
+        3230,
+        3233
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_395__ent_156",
+      "judgment": "incorrect",
+      "reason": "David Rebovich → Rider University: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        288,
+        289,
+        291,
+        292,
+        294
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_397__ent_158",
+      "judgment": "incorrect",
+      "reason": "John C. Coffee Jr. → Columbia University: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        306,
+        308,
+        309,
+        310,
+        311
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_398__ent_374",
+      "judgment": "incorrect",
+      "reason": "Stephen Gillers → New York University Law School: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        322,
+        323,
+        324,
+        325,
+        331
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_191__ent_194",
+      "judgment": "incorrect",
+      "reason": "Dr. Arthur Caplan → University of Pennsylvania: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        508,
+        510,
+        513,
+        515,
+        516
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_619__ent_526",
+      "judgment": "supported",
+      "reason": "John Lipsky → Salomon Brothers: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        2357,
+        2358,
+        2360,
+        2361,
+        2365
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_89__ent_86",
+      "judgment": "supported",
+      "reason": "Whitey Herzog → Cardinals: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3379,
+        3380,
+        3386,
+        3387,
+        3388
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_820__ent_709",
+      "judgment": "incorrect",
+      "reason": "Israel → Ehud Olmert: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        7039,
+        7043,
+        7044,
+        7045,
+        7046
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_512__ent_754",
+      "judgment": "incorrect",
+      "reason": "George P. Shultz → Eduard A. Shevardnadze: Meetings, visits or assurances between people do not express a president or manager office.",
+      "evidence_lines": [
+        8254,
+        8256,
+        8259,
+        8260,
+        8261
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_398__ent_155",
+      "judgment": "incorrect",
+      "reason": "Stephen Gillers → New York University: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        299,
+        300,
+        302,
+        305
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_652__ent_1267",
+      "judgment": "incorrect",
+      "reason": "BellSouth Corporation → Bell; John C. Coffee Jr. → Columbia University; Pacific Telesis → Bell: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        307,
+        6872,
+        6875,
+        6883
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1009__ent_1220",
+      "judgment": "supported",
+      "reason": "Bill Gamba → Cowen & Company: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        764,
+        765,
+        766,
+        767
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_589__ent_110",
+      "judgment": "supported",
+      "reason": "Lou Lamoriello → Devils: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        1637,
+        1638,
+        1639,
+        1644
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_999__ent_1236",
+      "judgment": "supported",
+      "reason": "Joe McIlvaine → Mets: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        1685,
+        3257,
+        3258,
+        3263
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_279__ent_278",
+      "judgment": "supported",
+      "reason": "Bobby Cox → Braves: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3234,
+        3235,
+        3236,
+        3240
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_285__ent_321",
+      "judgment": "supported",
+      "reason": "Frank Cashen → Mets: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        3353,
+        3354,
+        3355,
+        3356
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_497__ent_1247",
+      "judgment": "incorrect",
+      "reason": "Yugoslav → Slobodan Milosevic: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        6729,
+        6733,
+        6734,
+        6735
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_67.json",
+        "annotation_sha256": "108b45c143d0d02d3cd8d32daeed1e2cb51e5ac22bb4da69ec20265624258430"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_943__ent_1444",
+      "judgment": "incorrect",
+      "reason": "Forrester Research → Internet; DoubleClick → Internet: The rows express an industry, alliance, corporate relationship or dateline, not the declared person-office relation.",
+      "evidence_lines": [
+        6858,
+        7361,
+        7363,
+        7369
+      ],
+      "issue_tags": [
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1333__ent_1406",
+      "judgment": "incorrect",
+      "reason": "Senate → Bob Dole; Senate → Joseph L. Bruno: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        7616,
+        7629,
+        7630,
+        7632
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_272__ent_321",
+      "judgment": "supported",
+      "reason": "Steve Phillips → Mets: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        3184,
+        3185,
+        3189
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_942__ent_1444",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications → Internet: The rows express an industry, alliance, corporate relationship or dateline, not the declared person-office relation.",
+      "evidence_lines": [
+        7383,
+        7389,
+        7390
+      ],
+      "issue_tags": [
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1299__ent_267",
+      "judgment": "incorrect",
+      "reason": "Senate → Trent Lott: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        7636,
+        7642,
+        7645
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_263__ent_261",
+      "judgment": "incorrect",
+      "reason": "Republican → Bob Dole: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        7706,
+        7714,
+        7715
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_915__ent_1046",
+      "judgment": "incorrect",
+      "reason": "Adrienne Esposito → Environment: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        1736,
+        1737
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_804__ent_770",
+      "judgment": "incorrect",
+      "reason": "Allan Kozinn → New York Philharmonic; Mr. Bush → Washington: Reviewing, authorship, residence or movement supplies no president or manager office.",
+      "evidence_lines": [
+        1857,
+        5242
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1297__ent_537",
+      "judgment": "incorrect",
+      "reason": "Britain → United States: The rows express an industry, alliance, corporate relationship or dateline, not the declared person-office relation.",
+      "evidence_lines": [
+        1955,
+        1957
+      ],
+      "issue_tags": [
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_840__ent_839",
+      "judgment": "incorrect",
+      "reason": "MAUREEN B. FANT → Rome: Reviewing, authorship, residence or movement supplies no president or manager office.",
+      "evidence_lines": [
+        2142,
+        2144
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_853__ent_610",
+      "judgment": "incorrect",
+      "reason": "David H. Resler → Nomura Securities International: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        2373,
+        2374
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_73__ent_231",
+      "judgment": "incorrect",
+      "reason": "Merryl H. Tisch → State Board of Regents: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        3317,
+        3320
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1072__ent_1380",
+      "judgment": "incorrect",
+      "reason": "DDB Needham Worldwide → Omnicom Group: The rows express an industry, alliance, corporate relationship or dateline, not the declared person-office relation.",
+      "evidence_lines": [
+        6711,
+        6717
+      ],
+      "issue_tags": [
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1002__ent_1390",
+      "judgment": "incorrect",
+      "reason": "Washington → State Department: The rows express an industry, alliance, corporate relationship or dateline, not the declared person-office relation.",
+      "evidence_lines": [
+        7436,
+        7445
+      ],
+      "issue_tags": [
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_502__ent_1324",
+      "judgment": "incorrect",
+      "reason": "Senate → Trent Lott: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        7641,
+        7644
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1197__ent_263",
+      "judgment": "incorrect",
+      "reason": "Senate → Republican: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        7677,
+        7682
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_336__ent_186",
+      "judgment": "supported",
+      "reason": "Al O'Leary → New York City Transit: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        403
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_318__ent_1289",
+      "judgment": "incorrect",
+      "reason": "Philadelphia Phillies → New York Mets: Pitching against, holding or moving a team expresses a different relation from person-to-team officeholding.",
+      "evidence_lines": [
+        1035
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_349__ent_95",
+      "judgment": "supported",
+      "reason": "Dave Checketts → Knicks: Explicit manager evidence links this person to the named team under the declared composite office scope.",
+      "evidence_lines": [
+        1708
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_926__ent_793",
+      "judgment": "incorrect",
+      "reason": "Walter Spilka → Harris Upham & Company: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        1830
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1340__ent_1263",
+      "judgment": "incorrect",
+      "reason": "Lawrence Van Gelder → Ringling Brothers: Reviewing, authorship, residence or movement supplies no president or manager office.",
+      "evidence_lines": [
+        1899
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_343__ent_808",
+      "judgment": "incorrect",
+      "reason": "Stephen S. Roach → Morgan Stanley: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        2347
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_67.json",
+        "annotation_sha256": "108b45c143d0d02d3cd8d32daeed1e2cb51e5ac22bb4da69ec20265624258430"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1283__ent_642",
+      "judgment": "incorrect",
+      "reason": "Jets → Dolphins: Pitching against, holding or moving a team expresses a different relation from person-to-team officeholding.",
+      "evidence_lines": [
+        2638
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1056__ent_1283",
+      "judgment": "incorrect",
+      "reason": "Dick Steinberg → Jets: The rows provide academic, analyst, economist, director, membership or generic leadership roles, without the specified president or manager office.",
+      "evidence_lines": [
+        3248
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_259__ent_682",
+      "judgment": "incorrect",
+      "reason": "Yankees → New Jersey: Pitching against, holding or moving a team expresses a different relation from person-to-team officeholding.",
+      "evidence_lines": [
+        4831
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_75__ent_1138",
+      "judgment": "supported",
+      "reason": "Radovan Karadzic → Bosnian Serbs: An explicit local president title links the person to the institution or jurisdiction; functional and historical presidency is in scope.",
+      "evidence_lines": [
+        4979
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_1413__ent_1399",
+      "judgment": "incorrect",
+      "reason": "Pentagon → Pete Williams: The ordered arguments place the institution, party or jurisdiction before the person, or supply an associated political role; they do not express person-to-institution presidency or management.",
+      "evidence_lines": [
+        5449
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_argument_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_832__ent_511",
+      "judgment": "incorrect",
+      "reason": "Selena → Ms. Saldivar: Meetings, visits or assurances between people do not express a president or manager office.",
+      "evidence_lines": [
+        8262
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    },
+    {
+      "case_id": "rel_67__ent_753__ent_696",
+      "judgment": "incorrect",
+      "reason": "Mr. Netanyahu → Mr. Arafat: Meetings, visits or assurances between people do not express a president or manager office.",
+      "evidence_lines": [
+        8279
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:07:43.257Z"
+      }
+    }
+  ]
+}

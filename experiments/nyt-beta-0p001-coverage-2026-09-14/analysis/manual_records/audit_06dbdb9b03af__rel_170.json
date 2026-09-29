@@ -1,0 +1,71 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_170",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "case_ids": [
+        "rel_170__ent_952__ent_325",
+        "rel_170__ent_710__ent_325",
+        "rel_170__ent_719__ent_325",
+        "rel_170__ent_1097__ent_325",
+        "rel_170__ent_712__ent_325",
+        "rel_170__ent_1099__ent_711"
+      ],
+      "judgment": "supported",
+      "reason": "A local write-in or reviewer-for path explicitly establishes writing/reviewing for the publication.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        8
+      ],
+      "case_ids": [
+        "rel_170__ent_1098__ent_954",
+        "rel_170__ent_1098__ent_325"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Say-in may be an authored contribution or a quotation; local evidence lacks a clear write/review attribution.",
+      "tags": [
+        "authorship_ambiguity"
+      ],
+      "question": "Is the person the author/contributor rather than a quoted speaker in this publication?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_170__ent_180__ent_1002"
+      ],
+      "judgment": "incorrect",
+      "reason": "Washington is a place and the evidence concerns a conference and saying something there, not publication authorship.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a8aed2fd0376e7363b7c57ea3410546a9327cb464d395eed076386a7253dfdd2"
+}

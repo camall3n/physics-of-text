@@ -1,0 +1,55 @@
+{
+  "relation": "rel_38",
+  "predicate_id": "member_of",
+  "predicate_version": 1,
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate": {
+    "id": "member_of",
+    "label": "member of organization",
+    "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+    "includes": [
+      "explicit member/belong/membership",
+      "join/accession/entry when organizational membership is established",
+      "individual legislators and countries in alliances"
+    ],
+    "excludes": [
+      "join a person in an action",
+      "geographic entry",
+      "event participation",
+      "party control of legislature",
+      "negotiations or proposed membership alone"
+    ],
+    "ambiguous": [
+      "bare join without clear completion or membership meaning",
+      "plural party naming individual members rather than the party itself"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself."
+  },
+  "dictionary_sha256": "99c7074c39ad3296993d2e5d7832132d501da222f41d2ec528e9d541dc5bd91d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit membership and participating votes/veto inside a named body dominate. Alliance, addressing a session and work on a resolution require the existing membership evidence rule.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.987Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    10,
+    11,
+    15,
+    17,
+    18,
+    19,
+    21
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_38.before_grading.json",
+  "pregrading_annotation_sha256": "92b4cad6ba2ba93426549f8487b84f9da3502ca785b6cc8bedea2d62c4d5b151"
+}

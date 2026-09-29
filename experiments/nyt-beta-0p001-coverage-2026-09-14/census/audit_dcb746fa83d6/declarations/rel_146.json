@@ -1,0 +1,51 @@
+{
+  "relation": "rel_146",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "2db28d1b19ff880f0162df87b9f0ab4da63cd7f78041276f35507d78a41a4b05",
+  "kind": "declared_before_case_grading",
+  "rationale": "Live-in and living-in variants dominate; ordered roles are population/person to place. Movement, work, and citizenship remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:47.947Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    9,
+    16
+  ],
+  "competing_meanings": [
+    "travel",
+    "citizenship",
+    "work"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_146.before_grading.json",
+  "pregrading_annotation_sha256": "0b6e86993f05fd7fb5c35f85ba680e3c32801e0029ec0e8f511e61b081e97410"
+}

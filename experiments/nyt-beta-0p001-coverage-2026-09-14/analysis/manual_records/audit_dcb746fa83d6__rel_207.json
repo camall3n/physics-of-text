@@ -1,0 +1,75 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_207",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ],
+      "case_ids": [
+        "rel_207__ent_778__ent_309",
+        "rel_207__ent_1358__ent_561",
+        "rel_207__ent_309__ent_1004",
+        "rel_207__ent_308__ent_543",
+        "rel_207__ent_561__ent_1358",
+        "rel_207__ent_1004__ent_468",
+        "rel_207__ent_1004__ent_309",
+        "rel_207__ent_400__ent_642",
+        "rel_207__ent_778__ent_1013"
+      ],
+      "judgment": "supported",
+      "reason": "Unqualified play between opposing sports teams, or completed beat evidence, establishes sporting competition; no result is required.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8,
+        10
+      ],
+      "case_ids": [
+        "rel_207__ent_265__ent_795",
+        "rel_207__ent_838__ent_497"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political leadership or a government/war-ending attachment does not assert a contest between these extracted competitors.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_207__ent_1411__ent_320"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Face alone can describe a scheduled opponent and does not resolve actual contest occurrence.",
+      "tags": [
+        "prospective_event"
+      ],
+      "question": "Did the Giants actually compete against the Cowboys in the referenced encounter?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    4,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "bee6553c7b0f85d9d030109049e4a74a317b9b63e80d69a3d829bb4df973b26c"
+}

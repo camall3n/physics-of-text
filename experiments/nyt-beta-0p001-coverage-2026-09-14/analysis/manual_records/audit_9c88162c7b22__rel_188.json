@@ -1,0 +1,78 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_188",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_188__ent_968__ent_981",
+        "rel_188__ent_980__ent_741",
+        "rel_188__ent_739__ent_741",
+        "rel_188__ent_731__ent_982",
+        "rel_188__ent_347__ent_851",
+        "rel_188__ent_561__ent_850",
+        "rel_188__ent_309__ent_836",
+        "rel_188__ent_321__ent_836",
+        "rel_188__ent_600__ent_836"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit win, winner or event-title evidence establishes a qualifying award or championship; historical wins remain eligible.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_188__ent_983__ent_981"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The prize-winning group is suggested, but Prevention of Nuclear War is only a fragment of the organization name.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "What complete organization is named as the Nobel Peace Prize winner?"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_188__ent_726__ent_607"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Victory in the Masters is explicit but Scot supplies a nationality description rather than an identified competitor.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which named competitor is referred to as Scot?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "672c1ddbc9f3df8594a78fe7506831de508246f0a748bae1082a4388c741f3e7"
+}

@@ -1,0 +1,78 @@
+{
+  "relation": "rel_394",
+  "label": "president or manager office in",
+  "definition": "Person X holds or held an explicitly identified president or manager office in organization, team or public body Y.",
+  "scope_notes": "Preserves the previous president-plus-manager scope. President and manager descriptions, including historical service, qualify. Executive, chair, director, coach, generic leadership, employment and ownership alone do not.",
+  "facts": [
+    {
+      "case_id": "rel_394__ent_346__ent_308",
+      "judgment": "supported",
+      "reason": "Ernie Grunfeld is explicitly Knicks president and manager; coach, player and director rows add different roles.",
+      "evidence_lines": [
+        1665,
+        1666,
+        1668,
+        1672
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_394__ent_912__ent_918",
+      "judgment": "incorrect",
+      "reason": "A reign at the F.B.I. suggests leadership but does not identify the specific president or manager office required by this predicate.",
+      "evidence_lines": [
+        8502
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_394__ent_621__ent_325",
+      "judgment": "incorrect",
+      "reason": "Bill Keller sends something to a reader regarding a Times publication. This supplied row establishes no president or manager office.",
+      "evidence_lines": [
+        2467
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_394__ent_46__ent_45",
+      "judgment": "incorrect",
+      "reason": "William E. Stanton is Mr. Pagones lawyer; the ordered fact runs client to lawyer, not officeholder to managed organization.",
+      "evidence_lines": [
+        3778,
+        3779,
+        3782
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_394__ent_342__ent_584",
+      "judgment": "supported",
+      "reason": "Direct president-of and possessive president descriptions establish Jeffrey K. Skilling as Enron president alongside executive descriptions.",
+      "evidence_lines": [
+        1301,
+        1303,
+        8089,
+        1298
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

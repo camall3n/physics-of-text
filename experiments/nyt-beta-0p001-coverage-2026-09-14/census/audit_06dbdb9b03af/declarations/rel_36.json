@@ -1,0 +1,53 @@
+{
+  "relation": "rel_36",
+  "predicate_id": "lawyer_for",
+  "predicate_version": 1,
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate": {
+    "id": "lawyer_for",
+    "label": "lawyer or attorney for",
+    "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+    "includes": [
+      "explicit lawyer/attorney/counsel for/at/with client or employer",
+      "legal employment at a firm",
+      "explicit governmental attorney office for a jurisdiction"
+    ],
+    "excludes": [
+      "private lawyer merely located in a city",
+      "spokesperson/director/lobbyist alone",
+      "reverse client-to-lawyer direction"
+    ],
+    "ambiguous": [
+      "city as location versus represented jurisdiction",
+      "firm partner without a clear legal-role attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment."
+  },
+  "dictionary_sha256": "5814aa2cb1e15784697bafa08078b86ca9978cac62dd317bde4e854b6952f9cf",
+  "kind": "declared_before_case_grading",
+  "rationale": "Lawyer and legal-representative paths dominate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:19:02.665Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_36.before_grading.json",
+  "pregrading_annotation_sha256": "5b34280a5d27966a5d7be700bfaf21d96d19f813871390309e20364e68d2b7bb"
+}

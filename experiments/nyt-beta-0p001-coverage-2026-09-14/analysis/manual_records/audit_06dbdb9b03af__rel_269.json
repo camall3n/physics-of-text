@@ -1,0 +1,57 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_269",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_269__ent_1101__ent_405"
+      ],
+      "judgment": "supported",
+      "reason": "Unqualified leave and source-influx rows establish physical departure from the Soviet Union.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_269__ent_6__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "White House staff/performance and entering/leaving can refer to holding political office rather than physical departure from the building.",
+      "tags": [
+        "metonymy"
+      ],
+      "question": "Does leaving White House mean a physical departure, or ending administration service?"
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_269__ent_299__ent_16",
+        "rel_269__ent_1091__ent_1092"
+      ],
+      "judgment": "incorrect",
+      "reason": "Personal staff or sports-system affiliation does not establish geographic departure.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "16bf227903b9193c5e8e2094be865eceb738f2a026ad60d4c323d5500da7b191"
+}

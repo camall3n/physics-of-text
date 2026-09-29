@@ -1,0 +1,47 @@
+{
+  "relation": "rel_253",
+  "predicate_id": "adviser_to",
+  "predicate_version": 1,
+  "predicate_hash": "b5856100957274bbbe1ed7c91a1d7f09b238367f589073de0a1b0d16ae15c11a",
+  "predicate": {
+    "id": "adviser_to",
+    "label": "adviser to principal",
+    "definition": "Person X explicitly serves or served as an adviser or counselor to principal Y.",
+    "includes": [
+      "explicit adviser/advisor-to or possessive adviser role",
+      "an identified counselor providing advisory service",
+      "historical advisory role"
+    ],
+    "excludes": [
+      "director, lawyer, or formal leadership title alone",
+      "ordinary communication or acquaintance",
+      "confidant alone without advisory service",
+      "expertise on a topic rather than advice to a principal"
+    ],
+    "ambiguous": [
+      "an omitted or materially incomplete principal",
+      "counselor versus legal counsel attachment unresolved",
+      "advisory topic substituted for principal"
+    ],
+    "notes": "The principal may be a person or institution. Advice does not imply formal management or spokesperson authority.",
+    "scope_notes": "Includes: explicit adviser/advisor-to or possessive adviser role; an identified counselor providing advisory service; historical advisory role. Excludes: director, lawyer, or formal leadership title alone; ordinary communication or acquaintance; confidant alone without advisory service; expertise on a topic rather than advice to a principal. Ambiguous unless resolved by case-local evidence: an omitted or materially incomplete principal; counselor versus legal counsel attachment unresolved; advisory topic substituted for principal. The principal may be a person or institution. Advice does not imply formal management or spokesperson authority."
+  },
+  "dictionary_sha256": "a581f3d3443ddf96056730eadd6850980d63a963b501492e88cf4379bd2a5bf5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Adviser-to/possessive6 plus counselor/confidant context identifies the largest specific professional-role family; director6 and analyst paths remain separate. Root-approved atomic predicate frozen before grading.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:14:31.518Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    3,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_253.before_grading.json",
+  "pregrading_annotation_sha256": "2316033fab9c897649bb7424f6613197cd5bf5350473a9c1b07fe96929de9671"
+}

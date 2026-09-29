@@ -1,0 +1,67 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_379",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "case_ids": [
+        "rel_379__ent_173__ent_323",
+        "rel_379__ent_998__ent_537",
+        "rel_379__ent_995__ent_333",
+        "rel_379__ent_513__ent_984",
+        "rel_379__ent_1110__ent_1114"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit attorney office for a named public jurisdiction or attorney-of an institution establishes legal representation/employment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_379__ent_601__ent_1183",
+        "rel_379__ent_844__ent_1002"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The geographic attorney modifier does not distinguish private practice location from public representation of that jurisdiction.",
+      "tags": [
+        "jurisdiction_or_location"
+      ],
+      "question": "Is the place the represented governmental jurisdiction or merely the location of private legal practice?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_379__ent_1240__ent_1233"
+      ],
+      "judgment": "incorrect",
+      "reason": "The parent-company stock relationship is not legal representation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "bd33022da8f6d21ce9b8fe3cd982972555cddf8eec78dbcb751d1433fa0e44a9"
+}

@@ -1,0 +1,39 @@
+{
+  "relation": "rel_207",
+  "predicate_id": "has_coach",
+  "predicate_version": 1,
+  "predicate_hash": "569f330d14a8a5cc302fc0ff834017307223771d032924185f482ca547027ffc",
+  "predicate": {
+    "id": "has_coach",
+    "label": "has coach",
+    "definition": "Team or sporting organization X has or had person Y as an explicitly identified coach.",
+    "includes": [
+      "explicit head coach, coach, or assistant coach office",
+      "historical coaching office"
+    ],
+    "excludes": [
+      "ordinary player or manager alone without a coach title",
+      "an opponent or commentator",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear title or team attachment",
+      "a coach-elect or proposed appointment without established tenure"
+    ],
+    "notes": "Inverse of coach_of. This does not assert that Y is the sole or current coach.",
+    "scope_notes": "Includes: explicit head coach, coach, or assistant coach office; historical coaching office. Excludes: ordinary player or manager alone without a coach title; an opponent or commentator; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear title or team attachment; a coach-elect or proposed appointment without established tenure. Inverse of coach_of. This does not assert that Y is the sole or current coach."
+  },
+  "dictionary_sha256": "84ce1c5b4dcda98fbbdac815290f800886a5809f28a1a11ee6d5f1801f64c99f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Coach and team-said-coach constructions dominate with team-to-coach roles. Co-subject datelines and family teaching are distinct.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:14:12.487Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_207.before_grading.json",
+  "pregrading_annotation_sha256": "079bddbae454210146e2ccc14b1a890d677cefdf3a45eda8f14e2d8534b9cae7"
+}

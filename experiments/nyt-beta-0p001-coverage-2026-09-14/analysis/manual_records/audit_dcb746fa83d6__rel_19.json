@@ -1,0 +1,58 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_19",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_19__ent_292__ent_1431"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Swiss agribusiness affiliation is recognizable but competes with political leadership and movement in the frozen unresolved dictionary; currency references do not settle one shared predicate.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should the dictionary mean organizational nationality, political office, or another specific relation?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_19__ent_69__ent_1224"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President/leader and deputy paths are locally political but do not resolve the dictionary tie, and Bosnian Serb remains an incomplete political-body fragment.",
+      "tags": [
+        "relation_semantic_indeterminacy",
+        "argument_identity"
+      ],
+      "question": "Which complete political body and which predicate should this relation identify for Radovan Karadzic?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_19__ent_1123__ent_608"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The lone move-to-Broadway row is ambiguous between performance context and destination and cannot resolve the dictionary-wide semantic tie.",
+      "tags": [
+        "relation_semantic_indeterminacy",
+        "metonymy"
+      ],
+      "question": "Is the intended relation theatrical participation or physical movement, and how does that reconcile with the competing dictionary families?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e7ef819412e11dc843ebb2be4ed3bea4d139b5f64bd16127787b406a055b27d2"
+}

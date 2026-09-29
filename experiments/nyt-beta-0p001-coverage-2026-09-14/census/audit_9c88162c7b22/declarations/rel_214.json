@@ -1,0 +1,43 @@
+{
+  "relation": "rel_214",
+  "predicate_id": "has_policy_towards",
+  "predicate_version": 1,
+  "predicate_hash": "cc1aa4db42670671b675dba10fa4bc2431f59f4eb266ef609e431ebd71bfd3b0",
+  "predicate": {
+    "id": "has_policy_towards",
+    "label": "has policy towards",
+    "definition": "Government or institution X has an explicitly identified policy directed toward entity Y.",
+    "includes": [
+      "explicit X policy-toward Y",
+      "an identified institutional policy concerning Y",
+      "historical policy target"
+    ],
+    "excludes": [
+      "trade, travel, armed conflict, or ordinary relations without a policy assertion",
+      "an individual statement without institutional policy attribution",
+      "generic support or opposition alone"
+    ],
+    "ambiguous": [
+      "unclear policy owner or target",
+      "a proposed policy without establishment",
+      "a topic or population substituted for an unresolved entity"
+    ],
+    "notes": "This identifies the policy target only; it does not assert a favorable stance, diplomatic relations, or policy effectiveness.",
+    "scope_notes": "Includes: explicit X policy-toward Y; an identified institutional policy concerning Y; historical policy target. Excludes: trade, travel, armed conflict, or ordinary relations without a policy assertion; an individual statement without institutional policy attribution; generic support or opposition alone. Ambiguous unless resolved by case-local evidence: unclear policy owner or target; a proposed policy without establishment; a topic or population substituted for an unresolved entity. This identifies the policy target only; it does not assert a favorable stance, diplomatic relations, or policy effectiveness."
+  },
+  "dictionary_sha256": "4ba6bd54b4aab4f0169e2093c4ddd104d6555c3a7ff70df4c69b55332353eba9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Policy-toward is the highest-frequency individually interpretable path (four), tying a dispersed academic-role family. Preserve policy target without assuming diplomatic relations, sale, or combat.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.790Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_214.before_grading.json",
+  "pregrading_annotation_sha256": "94ae27178aaafea671cb86ef118cf9773ed952f4b8263a4c8b057d29fb5ad356"
+}

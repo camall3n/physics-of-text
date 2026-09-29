@@ -1,0 +1,88 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_312",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_312__ent_1339__ent_1144",
+        "rel_312__ent_101__ent_881",
+        "rel_312__ent_393__ent_1314",
+        "rel_312__ent_151__ent_625",
+        "rel_312__ent_351__ent_1004",
+        "rel_312__ent_217__ent_554",
+        "rel_312__ent_216__ent_867",
+        "rel_312__ent_1339__ent_458",
+        "rel_312__ent_1023__ent_579",
+        "rel_312__ent_339__ent_1036",
+        "rel_312__ent_1037__ent_1038",
+        "rel_312__ent_352__ent_594",
+        "rel_312__ent_459__ent_1154",
+        "rel_312__ent_591__ent_185",
+        "rel_312__ent_628__ent_1371"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit owner, owns or corporate-parent construction supports the first entity owning the second, including historical ownership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_312__ent_684__ent_1211"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The owner-of path uses Los Angeles as its object while movement paths treat it as a destination; an omitted team or property may be intended.",
+      "tags": [
+        "entity_identity",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "question": "Does Los Angeles stand for the Dodgers or another owned organization, rather than the city itself?"
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_312__ent_948__ent_603"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet company association supplies no ownership interest in the Internet.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3,
+    5,
+    8,
+    11,
+    13
+  ],
+  "broad": []
+}

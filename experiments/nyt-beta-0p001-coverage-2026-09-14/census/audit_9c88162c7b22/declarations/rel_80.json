@@ -1,0 +1,34 @@
+{
+  "relation": "rel_80",
+  "predicate_id": "athlete_for",
+  "predicate_version": 1,
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate": {
+    "id": "athlete_for",
+    "label": "athlete plays for team",
+    "definition": "Person X plays or played as an athlete for sports team Y.",
+    "includes": [
+      "player/center/guard/wing/captain/scorer role on a team",
+      "playing for or with the team as athlete",
+      "scoring for the team"
+    ],
+    "excludes": [
+      "coach/manager/owner alone",
+      "team leading or beating another team",
+      "generic lead without athlete context",
+      "reverse team-to-athlete direction"
+    ],
+    "ambiguous": [
+      "bare lead without player/position/scoring context"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+  },
+  "dictionary_sha256": "5a06d247e6e9975779462f013bc021fd249ddcf862e9c32438d4115541b6a64a",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "prior_annotation_sha256": "6a91056eb197775e07412969f47f0a6c4962957aace681b1cbfcd6dc283c8fab",
+  "prior_assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab"
+}

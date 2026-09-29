@@ -1,0 +1,73 @@
+{
+  "relation": "rel_274",
+  "predicate_id": "met_with",
+  "label": "met or encountered",
+  "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+  "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+  "facts": [
+    {
+      "case_id": "rel_274__ent_198__ent_195",
+      "judgment": "ambiguous",
+      "reason": "Mr. Gorbachev → Reagan: Arrival for talks and an expected summit support a planned encounter, but no retained row explicitly establishes that the meeting with Reagan occurred.",
+      "evidence_lines": [
+        8286,
+        8287,
+        8289,
+        8290,
+        8291,
+        8292,
+        8293
+      ],
+      "issue_tags": [
+        "event_realization"
+      ],
+      "reviewer_question": "Did Gorbachev actually meet Reagan in this event, rather than arrive for an expected summit?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.397Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_776__ent_533",
+      "judgment": "incorrect",
+      "reason": "Sears → Roebuck: Stock, stores, announcements, and a split corporate name do not express an encounter between Sears and Roebuck.",
+      "evidence_lines": [
+        643,
+        646,
+        649,
+        651,
+        652
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.397Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_777__ent_538",
+      "judgment": "incorrect",
+      "reason": "Dad → Adam: Teaching and paired say subjects do not directly express the declared meeting or conference event.",
+      "evidence_lines": [
+        673,
+        674
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.397Z"
+      }
+    }
+  ],
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a3a2e99f6d1f97aa7dee5a295002c414a59cb91ef968b597a2cc8e900a6c51ce"
+}

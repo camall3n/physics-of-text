@@ -1,0 +1,50 @@
+{
+  "relation": "rel_237",
+  "predicate_id": "present_in",
+  "predicate_version": 1,
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate": {
+    "id": "present_in",
+    "label": "physically present in place",
+    "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+    "includes": [
+      "explicit unqualified physical be-in or presence",
+      "a direct residence or physical location statement",
+      "a completed arrival, visit, or departure that establishes presence in Y"
+    ],
+    "excludes": [
+      "membership in an organization",
+      "participation or victory in a nongeographic event",
+      "political office or control alone",
+      "discussion, publication, or other abstract presence",
+      "a destination without evidence of realized movement or presence"
+    ],
+    "ambiguous": [
+      "place-versus-institution metonymy",
+      "an incomplete geographic argument",
+      "uncertain attachment or explicit hypothetical presence"
+    ],
+    "notes": "Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+    "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation."
+  },
+  "dictionary_sha256": "1a103c93e6567f0a76f1893351a01b9744979caf162e0b2732a1f4aa8e8a6d4d",
+  "kind": "declared_before_case_grading",
+  "rationale": "The highest-frequency be-in path combines physical places, events, and institutions. With the full argument roles inspected, physical presence/residence/movement is the main coherent place family; event victory/participation and membership are distinct competing meanings. Plain presence does not imply residence.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:47.846Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    5
+  ],
+  "competing_meanings": [
+    "sporting victory/participation",
+    "membership",
+    "political office"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_237.before_grading.json",
+  "pregrading_annotation_sha256": "1ee810380e732d9d68f97c09e445ac5df8e9442b74f460ed4318e447e00e8851"
+}

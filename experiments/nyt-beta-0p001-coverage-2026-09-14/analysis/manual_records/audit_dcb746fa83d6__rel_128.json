@@ -1,0 +1,117 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_128",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_128__ent_669__ent_989",
+        "rel_128__ent_182__ent_677",
+        "rel_128__ent_1325__ent_843",
+        "rel_128__ent_1122__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "A local be-in, geographic speaking-in, detention-in or return-from row establishes physical presence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_128__ent_610__ent_904"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The Olympics rows combine come/held with winning the event for New York and what it would mean for the city; actual occurrence versus a prospective hosting bid remains unresolved.",
+      "tags": [
+        "prospective_event"
+      ],
+      "question": "Do these local rows describe an actual event held in New York or proposed hosting?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_128__ent_251__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "White House may denote presidential office rather than physical premises.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Does this claim establish physical presence rather than political office?"
+    },
+    {
+      "indices": [
+        7,
+        11
+      ],
+      "case_ids": [
+        "rel_128__ent_1315__ent_1124",
+        "rel_128__ent_195__ent_1002"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Come-to identifies a destination but these rows alone do not resolve realized physical arrival.",
+      "tags": [
+        "arrival_unclear"
+      ],
+      "question": "Does the coming-to statement describe realized arrival rather than prospective destination movement?"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_128__ent_667__ent_961"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Born is an extraction fragment rather than an identified traveler in this isolated come-to row.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who is the entity extracted as Born?"
+    },
+    {
+      "indices": [
+        3,
+        8,
+        9,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_128__ent_162__ent_1390",
+        "rel_128__ent_712__ent_1307",
+        "rel_128__ent_1210__ent_277",
+        "rel_128__ent_1062__ent_1169",
+        "rel_128__ent_1098__ent_325"
+      ],
+      "judgment": "incorrect",
+      "reason": "Spokesperson status, publication-in or corporate containment does not establish geographic physical presence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9a221d48b3bf70f1db9d4704e18e177370171a9f3aa16be5d894fc1173f7c8d8"
+}

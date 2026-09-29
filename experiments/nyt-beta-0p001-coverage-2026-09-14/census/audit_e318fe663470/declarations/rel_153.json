@@ -1,0 +1,42 @@
+{
+  "relation": "rel_153",
+  "predicate_id": "dismissed_person",
+  "predicate_version": 1,
+  "predicate_hash": "e6dcf07dd3daf15eeb2a175ac318326471acd04260cf8039b03da07dbe6ec9b1",
+  "predicate": {
+    "id": "dismissed_person",
+    "label": "dismissed person from role",
+    "definition": "Person or institution X fired or dismissed person Y from a professional or official role.",
+    "includes": [
+      "explicit firing or dismissal",
+      "clearly terminating Y's role",
+      "historical dismissal"
+    ],
+    "excludes": [
+      "criticizing or blaming alone",
+      "X taking Y's role without evidence of dismissing Y",
+      "ordinary departure or voluntary resignation",
+      "dismissing an argument rather than a person from a role"
+    ],
+    "ambiguous": [
+      "replace where removal versus succession is unresolved",
+      "a proposed firing without realization",
+      "unclear actor or dismissed person"
+    ],
+    "notes": "The dismissing actor need not become the successor. This is separate from succeeded_person.",
+    "scope_notes": "Includes: explicit firing or dismissal; clearly terminating Y's role; historical dismissal. Excludes: criticizing or blaming alone; X taking Y's role without evidence of dismissing Y; ordinary departure or voluntary resignation; dismissing an argument rather than a person from a role. Ambiguous unless resolved by case-local evidence: replace where removal versus succession is unresolved; a proposed firing without realization; unclear actor or dismissed person. The dismissing actor need not become the successor. This is separate from succeeded_person."
+  },
+  "dictionary_sha256": "21fd950f216644fdd1ce58cc1a95539b93c01bc4805c76d1c65c51ab60522efc",
+  "kind": "declared_before_case_grading",
+  "rationale": "Fire/dismiss employee paths dominate; replace/choose alone require the declared employment-removal meaning.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:49.074Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_153.before_grading.json",
+  "pregrading_annotation_sha256": "830084046f7df5209961ac4fe1a319e2ae4c6c4ce87479078449228c9ce2772f"
+}

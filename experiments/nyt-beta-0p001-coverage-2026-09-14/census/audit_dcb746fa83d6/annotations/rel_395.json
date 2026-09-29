@@ -1,0 +1,110 @@
+{
+  "relation": "rel_395",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_395__ent_562__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Smith → Washington: A direct unqualified return-to or go-to path establishes geographic destination movement.",
+      "evidence_lines": [
+        3408,
+        3410,
+        3411,
+        3412,
+        3413,
+        3415
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.507Z"
+      }
+    },
+    {
+      "case_id": "rel_395__ent_182__ent_73",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: A direct unqualified return-to or go-to path establishes geographic destination movement.",
+      "evidence_lines": [
+        4094,
+        4099,
+        5236,
+        5241,
+        7346
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.507Z"
+      }
+    },
+    {
+      "case_id": "rel_395__ent_284__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: A direct unqualified return-to or go-to path establishes geographic destination movement.",
+      "evidence_lines": [
+        5206,
+        5207,
+        5213,
+        5215
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.507Z"
+      }
+    },
+    {
+      "case_id": "rel_395__ent_1283__ent_1340",
+      "judgment": "incorrect",
+      "reason": "Jets → Giants Stadium: Playing or facing opponents at a stadium establishes game location but no movement-to statement in this fact.",
+      "evidence_lines": [
+        4840,
+        4841,
+        4848
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.507Z"
+      }
+    },
+    {
+      "case_id": "rel_395__ent_351__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Steinbrenner → Yankees: Returning to a team is institutional affiliation rather than a geographic destination.",
+      "evidence_lines": [
+        1503
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.507Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9b3d26333701a1c54137f70ccfbb25e008406629e657181a7e928de46b387dd0"
+}

@@ -1,0 +1,39 @@
+{
+  "relation": "rel_198",
+  "predicate_id": "born_in",
+  "predicate_version": 1,
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate": {
+    "id": "born_in",
+    "label": "born in",
+    "definition": "Person X was born in geographic place Y.",
+    "includes": [
+      "direct born-in",
+      "born into a family in Y when Y is the birth location"
+    ],
+    "excludes": [
+      "grown up/raised/native/from alone",
+      "nationality",
+      "schooling/residence/travel",
+      "institution founding"
+    ],
+    "ambiguous": [
+      "unclear person or birthplace attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+  },
+  "dictionary_sha256": "ae611f6a8593547f6a59ee4ec012b24f79121a704d2f91d3808c24dc477267df",
+  "kind": "declared_before_case_grading",
+  "rationale": "Birth and institutional investigation/location are competing families; born-in is the only repeated specific birth path and resolves the highest-path tie-break.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:26:28.563Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_198.before_grading.json",
+  "pregrading_annotation_sha256": "229162df705a3141632639c4e4225f63818820985ce495bb7884e94e5f3ef961"
+}

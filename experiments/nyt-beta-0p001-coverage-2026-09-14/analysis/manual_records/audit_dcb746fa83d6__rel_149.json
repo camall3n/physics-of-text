@@ -1,0 +1,87 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_149",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        6,
+        8
+      ],
+      "case_ids": [
+        "rel_149__ent_1402__ent_1438",
+        "rel_149__ent_20__ent_1442"
+      ],
+      "judgment": "supported",
+      "reason": "The named borough explicitly has this person as president.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "case_ids": [
+        "rel_149__ent_497__ent_255",
+        "rel_149__ent_37__ent_34",
+        "rel_149__ent_1074__ent_1247",
+        "rel_149__ent_25__ent_939",
+        "rel_149__ent_932__ent_1292",
+        "rel_149__ent_1075__ent_1076",
+        "rel_149__ent_852__ent_1201"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The officeholder is named, but the first argument is a nationality adjective with its political body omitted, matching the frozen truncated-body boundary.",
+      "tags": [
+        "truncated_political_body"
+      ],
+      "question": "Which complete country or political institution does this adjectival argument identify?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_149__ent_811__ent_1197"
+      ],
+      "judgment": "incorrect",
+      "reason": "Negotiation between House and Senate does not identify an individual political leader.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_149__ent_1206__ent_176"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Minister is explicit, but the row does not establish head-of-government or the leadership scope required by this inherited predicate.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does local evidence identify this minister as a political leader within the frozen head/legislative-leader scope?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "d8ed26624941b4b7e7bf68619ebfd9a8683e97ccef6e276794c52ac8c10ca8cc"
+}

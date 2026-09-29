@@ -1,0 +1,83 @@
+{
+  "relation": "rel_181",
+  "predicate_id": "died_in",
+  "label": "died in place",
+  "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+  "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+  "facts": [
+    {
+      "case_id": "rel_181__ent_826__ent_825",
+      "judgment": "ambiguous",
+      "reason": "Palestinians → West Bank; Palestinians → East Jerusalem: Death-location rows support Palestinians killed in the West Bank, but this latent object also contains a distinct East Jerusalem representative location; the merged place identity is not coherent.",
+      "evidence_lines": [
+        2132,
+        2134,
+        2136,
+        2137,
+        2139,
+        2140,
+        2141,
+        6133
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should the West Bank and East Jerusalem mentions be separate geographic entities in this inferred fact?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:32.269Z"
+      }
+    },
+    {
+      "case_id": "rel_181__ent_826__ent_1274",
+      "judgment": "supported",
+      "reason": "Palestinians → Gaza: Direct killed-in and passive killed-in rows establish deaths of affected Palestinians in Gaza.",
+      "evidence_lines": [
+        8150,
+        8151,
+        8152,
+        8153,
+        8154,
+        8157,
+        8158,
+        8159
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:32.275Z"
+      }
+    },
+    {
+      "case_id": "rel_181__ent_1315__ent_434",
+      "judgment": "incorrect",
+      "reason": "Americans → Europe; Americans → Iraq: Living in Europe and actively killing in Iraq do not assert that the Americans themselves died in either place.",
+      "evidence_lines": [
+        4756,
+        8149
+      ],
+      "issue_tags": [
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:32.275Z"
+      }
+    }
+  ],
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d3305495e89c484e481faa34e831dd80da5f8c0055d32d2cb71941b131b99cf8"
+}

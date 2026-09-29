@@ -1,0 +1,49 @@
+{
+  "relation": "rel_225",
+  "predicate_id": "played_at_sporting_venue",
+  "predicate_version": 1,
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate": {
+    "id": "played_at_sporting_venue",
+    "label": "played at sporting venue",
+    "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+    "includes": [
+      "explicit play-at or game-at with X as competitor",
+      "a completed win or loss at Y establishing competitive play there",
+      "historical sporting venue use"
+    ],
+    "excludes": [
+      "ordinary attendance, practice, or employment at a place",
+      "plans without established play",
+      "the opponent or event substituted for the venue"
+    ],
+    "ambiguous": [
+      "future scheduled play without realization",
+      "unclear competitor versus spectator role",
+      "a generic at-venue phrase without a game context"
+    ],
+    "notes": "Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+    "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium."
+  },
+  "dictionary_sha256": "9adeb334641c9fefbeac7b2a011d7ef949057e532e763c1e94242c144e868a6d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Sport play/game/victory-at venue paths dominate; arts address remains separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:17:08.050Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    14
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_225.before_grading.json",
+  "pregrading_annotation_sha256": "6dd79919b5a33828145aeb0e7e4b6d9dc22b28fa884eb87328f2030085660cf0"
+}

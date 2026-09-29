@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+const rows=[
+[71,'spokesperson_for',[0,1,2,3,4,5,6,7,8,10,11,12],'Spokesperson title paths overwhelmingly dominate.'],
+[75,'resides_in',[1,8,10],'Five explicit residence/live-with/exile-location rows form the largest specific established family; event loss/win provides four actual sporting-participation rows, while get-to is only qualification/destination ambiguity. No union of residence and sports.'],
+[90,'present_in',[0,2,3,5,6],'Actual geographic presence/arrival/visit is the leading coherent family for the White House and geographic-place arguments; institutional entry and team membership remain distinct, and White House office metonymy is reviewed case by case.'],
+[105,'spokesperson_for',[0],'Spokeswoman family has five rows, tied with broader advisory/consultant paths; the single five-count spokesperson path is the highest individually interpretable path and fixes the primary meaning.'],
+[159,'publisher_of',[0,9],'Three publisher paths tie three ownership contexts; the two-count explicit publisher-of path resolves the tie over ownership singletons. Editor and chief are distinct roles, not a union.'],
+[161,'has_lawyer',[0,1,2,3,4,5,6,7,8,9],'Client-to-lawyer/counsel paths dominate and literal roles establish inverse representation.'],
+[238,'member_of',[1,4,5,6,12],'Six explicit member paths dominate specific interpretable semantics. Geographic based-in is a competing minority; bare have-in omits what is held and cannot automatically count as location.'],
+[240,'died_in',[0],'Ten die-at rows dominate, with literal named hospitals identifying physical death sites. Unrelated role/corporate artifacts remain separate.'],
+[249,'lawyer_for',[0,1,2,3,4,5,6,9,11],'Explicit lawyer and legal representation paths dominate in person-to-client direction.'],
+[350,'director_of',[0,2,7,8,9,12],'Specific director family exceeds the competing managerial run/team-manager family; head and run alone are not silently included in the specific title.'],
+[27,'lawyer_for',[1,2,3,6,8,9],'Public attorney role paths dominate over organizational leaders and reverse client-lawyer direction.'],
+[41,'president_of',[0,3,4,7,11,12],'Borough president title family dominates; candidate/nomination contexts do not by themselves establish actual tenure.'],
+[63,'has_spokesperson',[0,2,3,4,5,6,7,8,11,12],'Inverse principal-to-spokesperson title and attribution family dominates.'],
+[113,'defeated',[0],'Completed opponent defeat is the largest specific outcome family; bare hold is polysemous and losses are the opposite direction of outcome.'],
+[123,'unresolved_relation',[],'Parent approved genuine unresolved tie after full literal-row review: leader2, attorney2, omitted-object constitutional give/provision, restricting authority, and unrelated policy/expulsion. All paths singleton and no unique coherent specific family or interpretable tie-break; retain all facts as semantic indeterminacy.'],
+[126,'has_minister',[0],'Direct country-to-minister has two rows, tied with geographic agency/broker descriptions and two director rows; highest individually interpretable minister-of path count2 resolves the tie over singletons. Indirect minister meetings do not identify their other participant as the minister.'],
+[142,'competed_against',[0,2,7],'Opposing-team play/elimination family exceeds geographic visits. Venue and death-place rows remain separate.'],
+[228,'owns',[0,1,10,12],'Acquisition, takeover and explicit co-ownership form the largest coherent family; geographic firm descriptions and management alone are distinct.'],
+[295,'owns',[0,1,3],'Explicit sports franchise ownership and owner tenure dominate; operating control alone and reverse lawyer rows remain separate.'],
+[297,'lawyer_for',[0,1,2,3,4,5,7,9],'Attorney-role and confirmation/sworn-as-attorney paths dominate; constitutional allocation of seats remains distinct.'],
+[362,'executive_of',[2,5,6,13],'A named county executive with inauguration/appointment/ousted-office context is the largest identifiable office family. Specific executive is the only named forward title; inverse minister and headquarters are distinct. Appointment alone still requires tenure assessment.'],
+[370,'known_as',[0,7,8,11],'Corporate alias paths form the leading coherent family; embedded aliases with uncertain referent must be reviewed, not assumed.'],
+[28,'managerial_office_in',[1,2],'Mixed manager and political leader title paths form the broad office family. Possessive faction, advice/counsel and candidacy are distinct; no new broad affiliation predicate is introduced.'],
+[45,'has_lawyer',[7,8,10,11,12],'Five client-to-lawyer contexts exceed the geographic American-in-Paris family and team missing-player family. Direction client to legal representative.'],
+[48,'born_in',[7,8,12],'Three explicit birth/born-into-family-in paths form the largest specific interpretable family; leader/member, dateline-office and geography remain separate.']
+];fs.writeFileSync('analysis/evaluation_declarations_181_205.json',JSON.stringify({declarations:rows.map(([r,predicate_id,supporting_path_indices,rationale])=>({relation:'rel_'+r,predicate_id,supporting_path_indices,rationale,reviewer:'evaluation',complete_dictionary_read:true,argument_roles_inspected:true}))},null,2)+'\n');

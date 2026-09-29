@@ -1,0 +1,76 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_334",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "case_ids": [
+        "rel_334__ent_207__ent_407",
+        "rel_334__ent_1087__ent_701",
+        "rel_334__ent_1147__ent_1270",
+        "rel_334__ent_1148__ent_460",
+        "rel_334__ent_1412__ent_221",
+        "rel_334__ent_220__ent_306",
+        "rel_334__ent_170__ent_904",
+        "rel_334__ent_714__ent_770",
+        "rel_334__ent_613__ent_452"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit firm-in, based-in or geographic company modifiers establish the organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_334__ent_1441__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Real Capital Analytics and Jupiter Communications are combined as one inferred organization despite separate local location evidence.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should these companies be separate inferred entities?"
+    },
+    {
+      "indices": [
+        5,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_334__ent_956__ent_936",
+        "rel_334__ent_1386__ent_59",
+        "rel_334__ent_811__ent_1317"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied rows concern an Internet industry field, monetary-system affiliation or legislature action rather than geographic organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "3a67bc71b39e4a3edfbc4a4737663b6d5f7f36392ba43df402e06e855efcd4b9"
+}

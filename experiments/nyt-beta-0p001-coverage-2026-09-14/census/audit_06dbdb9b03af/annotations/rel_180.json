@@ -1,0 +1,57 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_180__ent_1044__ent_106",
+      "judgment": "ambiguous",
+      "reason": "Mary Brosnahan → Homeless: Director-for Homeless omits the named charity or institution and may substitute its beneficiary/topic.",
+      "evidence_lines": [
+        1725,
+        1726,
+        1727,
+        1728,
+        1729,
+        1730,
+        1731
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which organization does Homeless denote in the director title?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.161Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_784__ent_534",
+      "judgment": "incorrect",
+      "reason": "Goldman → Sachs: Financial firm-name fragments with partner/president/index wording do not establish a person directorship.",
+      "evidence_lines": [
+        636,
+        637,
+        638,
+        639,
+        642
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.161Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e4cfe0ce86f10ca0a83fa5c6f1fb954dc989faecee280293c7d86d02d12fd33c"
+}

@@ -1,0 +1,43 @@
+{
+  "relation": "rel_138",
+  "predicate_id": "competed_against",
+  "predicate_version": 1,
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate": {
+    "id": "competed_against",
+    "label": "played or competed against",
+    "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+    "includes": [
+      "explicit played against",
+      "a completed win or loss against opponent",
+      "competition with clear opponent roles"
+    ],
+    "excludes": [
+      "ordinary interaction",
+      "standings comparison without a contest",
+      "future schedule alone"
+    ],
+    "ambiguous": [
+      "ambiguous game occurrence"
+    ],
+    "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+    "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+  },
+  "dictionary_sha256": "d4814b7c1db24321847db54c2829abca9c0007a966d1403bfddeb8754cf41086",
+  "kind": "declared_before_case_grading",
+  "rationale": "Loss/gain-on/suffer-at-hands family establishes competitive interaction rather than a guaranteed win; coach role separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:28:25.032Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    6,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_138.before_grading.json",
+  "pregrading_annotation_sha256": "cc23bf7efad2f92ca471a58c5306c33d01f02c8f51de3274640f05acc5cb5183"
+}

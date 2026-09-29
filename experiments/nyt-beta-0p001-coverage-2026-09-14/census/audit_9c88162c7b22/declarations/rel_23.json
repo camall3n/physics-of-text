@@ -1,0 +1,44 @@
+{
+  "relation": "rel_23",
+  "predicate_id": "competed_against",
+  "predicate_version": 1,
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate": {
+    "id": "competed_against",
+    "label": "played or competed against",
+    "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+    "includes": [
+      "explicit played against",
+      "a completed win or loss against opponent",
+      "competition with clear opponent roles"
+    ],
+    "excludes": [
+      "ordinary interaction",
+      "standings comparison without a contest",
+      "future schedule alone"
+    ],
+    "ambiguous": [
+      "ambiguous game occurrence"
+    ],
+    "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+    "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+  },
+  "dictionary_sha256": "c5babd4deec0dcd6b9c12f9f8350d12aee3939251e2374ae736fb450ea7618d5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Sports performance/score comparison supplies four coherent paths, ahead of two explicit political leader/dictator paths and ambiguous generic managing. Declare competitive encounter without requiring victory; metadata-only performance comparisons may remain ambiguous.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.622Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_23.before_grading.json",
+  "pregrading_annotation_sha256": "f700c315e84b8a61e770de1f0cff97705274bf3b0973cc915def42c190f69229"
+}

@@ -1,0 +1,86 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_199",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        13
+      ],
+      "case_ids": [
+        "rel_199__ent_369__ent_126",
+        "rel_199__ent_374__ent_372",
+        "rel_199__ent_128__ent_141",
+        "rel_199__ent_416__ent_658",
+        "rel_199__ent_134__ent_376",
+        "rel_199__ent_368__ent_129",
+        "rel_199__ent_384__ent_145",
+        "rel_199__ent_139__ent_379",
+        "rel_199__ent_1107__ent_1108",
+        "rel_199__ent_1130__ent_434",
+        "rel_199__ent_135__ent_377",
+        "rel_199__ent_136__ent_378"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit head, president or chairman evidence establishes organizational leadership with the ordered person and body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_199__ent_389__ent_146"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The head/president role is clear but District Council omits the identifying council designation.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete District Council is led by Stanley Hill?"
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_199__ent_246__ent_1171"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The chairman/head role is supplied for an unnamed Illinois Democrat, leaving the individual unresolved.",
+      "tags": [
+        "unnamed_officeholder"
+      ],
+      "question": "Which person does Illinois Democrat designate here?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "45e842c17e8a42d2ddd0ea36917e2619026ce5a7e5c0da2a37c8fd4b5993e45c"
+}

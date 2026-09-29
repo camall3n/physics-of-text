@@ -1,0 +1,112 @@
+{
+  "relation": "rel_115",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_115__ent_956__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Media Metrix → Internet: Industry description, team office, corporate directorship or founding does not establish opposing competitors.",
+      "evidence_lines": [
+        7401,
+        7402,
+        7406,
+        7408,
+        7409,
+        7410
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.610Z"
+      }
+    },
+    {
+      "case_id": "rel_115__ent_563__ent_561",
+      "judgment": "supported",
+      "reason": "Eagles → Giants: Game-against/play evidence identifies the two teams as competitors in an encounter.",
+      "evidence_lines": [
+        922,
+        923,
+        926,
+        930
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.610Z"
+      }
+    },
+    {
+      "case_id": "rel_115__ent_285__ent_321",
+      "judgment": "incorrect",
+      "reason": "Frank Cashen → Mets: Industry description, team office, corporate directorship or founding does not establish opposing competitors.",
+      "evidence_lines": [
+        3358,
+        3359,
+        3360
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.610Z"
+      }
+    },
+    {
+      "case_id": "rel_115__ent_302__ent_544",
+      "judgment": "incorrect",
+      "reason": "Microsoft → Redmond: Industry description, team office, corporate directorship or founding does not establish opposing competitors.",
+      "evidence_lines": [
+        787,
+        4343
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.610Z"
+      }
+    },
+    {
+      "case_id": "rel_115__ent_678__ent_302",
+      "judgment": "incorrect",
+      "reason": "William H. Gates → Microsoft: Industry description, team office, corporate directorship or founding does not establish opposing competitors.",
+      "evidence_lines": [
+        5070,
+        5700
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.610Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "71809485905bf4c4871063cb554da96c7d44cccc8a2e06b9d9f3179db076800d"
+}

@@ -1,0 +1,44 @@
+{
+  "relation": "rel_92",
+  "predicate_id": "has_spokesperson",
+  "predicate_version": 1,
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate": {
+    "id": "has_spokesperson",
+    "label": "has spokesperson",
+    "definition": "Organization or principal X has person Y serving as its spokesperson.",
+    "includes": [
+      "inverse spokesperson_for with correct attachment",
+      "organization-modifying spokesman and appositive person"
+    ],
+    "excludes": [
+      "leader/president/lawyer/secretary alone",
+      "speaking at a building",
+      "spokesperson-to-principal forward direction"
+    ],
+    "ambiguous": [
+      "dateline/location replacing the principal or person"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person."
+  },
+  "dictionary_sha256": "6d5a784fd01b566eb91ee89a47f04dc2f8bedb7634b6d5b45f2daf8782f3ca9b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse institution spokesman appositions define direct named spokesperson family; crime/location paths separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:25:34.006Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    5,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_92.before_grading.json",
+  "pregrading_annotation_sha256": "e01acf7feee70078c715cd105d11d018604cea0ceddc0e6dd19619511d309efc"
+}

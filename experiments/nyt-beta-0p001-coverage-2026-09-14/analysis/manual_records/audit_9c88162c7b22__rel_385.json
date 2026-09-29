@@ -1,0 +1,58 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_385",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_385__ent_886__ent_302",
+        "rel_385__ent_678__ent_302",
+        "rel_385__ent_439__ent_584",
+        "rel_385__ent_438__ent_1135",
+        "rel_385__ent_380__ent_138",
+        "rel_385__ent_1134__ent_786",
+        "rel_385__ent_691__ent_690"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chairman title or resignation-as-chairman establishes current or historical chair office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_385__ent_1025__ent_1026"
+      ],
+      "judgment": "incorrect",
+      "reason": "Executive and founder titles alone do not establish chair office.",
+      "tags": [
+        "wrong_occupation"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b42ccab114d115a4dff7a9a3ed0885af997ea3022be62ad881ca53661ec66c66"
+}

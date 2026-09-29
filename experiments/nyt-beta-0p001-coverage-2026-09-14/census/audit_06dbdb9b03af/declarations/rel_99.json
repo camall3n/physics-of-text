@@ -1,0 +1,32 @@
+{
+  "relation": "rel_99",
+  "predicate_id": "professor_at",
+  "predicate_version": 1,
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate": {
+    "id": "professor_at",
+    "label": "professor or university teacher at",
+    "definition": "Person X is a professor or teaches at academic institution Y.",
+    "includes": [
+      "explicit professor",
+      "teaching at the institution",
+      "historical teaching affiliation"
+    ],
+    "excludes": [
+      "expert/specialist/dean/researcher/analyst alone",
+      "attendance or institution location alone"
+    ],
+    "ambiguous": [
+      "unclear teacher versus student attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+  },
+  "dictionary_sha256": "fa6e25cea76d77c971f351999be79bf57255adaeda9d0770daac45ecc3c92878",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "prior_annotation_sha256": "763ae3660f3ebf493d705899fd12f20f97ee345e13ea949b464e72cd38a05850",
+  "prior_assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441"
+}

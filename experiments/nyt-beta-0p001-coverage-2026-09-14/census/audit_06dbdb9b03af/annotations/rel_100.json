@@ -1,0 +1,124 @@
+{
+  "relation": "rel_100",
+  "predicate_id": "sells_to",
+  "label": "sells to",
+  "definition": "Entity X sells or sold goods, services, property, or transferable rights to buyer Y.",
+  "scope_notes": "Includes: explicit sell-to or sale-to; a completed commercial transfer to Y; historical sales including transferable sporting contracts. Excludes: ordinary giving or physical movement; a proposed sale without realization; Y is the item sold rather than the buyer. Ambiguous unless resolved by case-local evidence: unclear seller-versus-item role; proposed or conditional sale; a nominal sale whose owner or seller is unresolved. An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not.",
+  "facts": [
+    {
+      "case_id": "rel_100__ent_537__ent_99",
+      "judgment": "supported",
+      "reason": "United States → Iran: The attributed sale-to and weapons-sale-to paths establish the United States as the seller to Iran.",
+      "evidence_lines": [
+        5508,
+        5509,
+        5510,
+        5513,
+        7888,
+        7889,
+        7890,
+        7893
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.287Z"
+      }
+    },
+    {
+      "case_id": "rel_100__ent_829__ent_189",
+      "judgment": "ambiguous",
+      "reason": "Clinton Administration → Congress: Send-to has no object or commercial term; the surrounding reporting, games or calling does not establish whether anything was sold.",
+      "evidence_lines": [
+        2065,
+        2066,
+        2067,
+        2069,
+        2070
+      ],
+      "issue_tags": [
+        "omitted_object",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was this a commercial sale to the recipient, or a report, assignment, message or other transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.287Z"
+      }
+    },
+    {
+      "case_id": "rel_100__ent_1004__ent_321",
+      "judgment": "ambiguous",
+      "reason": "Yankees → Mets: Send-to has no object or commercial term; the surrounding reporting, games or calling does not establish whether anything was sold.",
+      "evidence_lines": [
+        909,
+        910,
+        2599,
+        2600
+      ],
+      "issue_tags": [
+        "omitted_object",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was this a commercial sale to the recipient, or a report, assignment, message or other transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.287Z"
+      }
+    },
+    {
+      "case_id": "rel_100__ent_189__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Congress → White House: Send-to has no object or commercial term; the surrounding reporting, games or calling does not establish whether anything was sold.",
+      "evidence_lines": [
+        7945,
+        7946,
+        7951,
+        7954
+      ],
+      "issue_tags": [
+        "omitted_object",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was this a commercial sale to the recipient, or a report, assignment, message or other transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.287Z"
+      }
+    },
+    {
+      "case_id": "rel_100__ent_1004__ent_735",
+      "judgment": "ambiguous",
+      "reason": "Yankees → Class AAA Columbus: Send-to has no object or commercial term; the surrounding reporting, games or calling does not establish whether anything was sold.",
+      "evidence_lines": [
+        7918,
+        7920
+      ],
+      "issue_tags": [
+        "omitted_object",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was this a commercial sale to the recipient, or a report, assignment, message or other transfer?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.287Z"
+      }
+    }
+  ],
+  "predicate_hash": "0167fa32af9b9b27da8721030cdfb1cc8765debd28042890094b998a0f1d6142",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "58629b7df44834b0ff86354ce23113d1fac12f49d166274455bc8266fb0a23db"
+}

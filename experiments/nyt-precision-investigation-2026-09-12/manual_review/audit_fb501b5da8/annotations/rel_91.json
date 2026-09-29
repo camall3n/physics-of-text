@@ -1,0 +1,79 @@
+{
+  "relation": "rel_91",
+  "label": "analyst at organization",
+  "definition": "Person X is an analyst at, with or for organization Y.",
+  "scope_notes": "Preserves prior analyst role. Other titles or general expertise alone do not qualify; do not broaden to all professional affiliation.",
+  "facts": [
+    {
+      "case_id": "rel_91__ent_1059__ent_1180",
+      "judgment": "supported",
+      "reason": "Goldman is explicitly PaineWebber analyst for/with/at; director is an additional role.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1796
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_91__ent_913__ent_586",
+      "judgment": "incorrect",
+      "reason": "Gearan is described as director, spokesman and chief for White House, without analyst evidence.",
+      "evidence_lines": [
+        8514,
+        8515,
+        8516,
+        8517
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_91__ent_336__ent_536",
+      "judgment": "incorrect",
+      "reason": "Boucher is State Department spokesman, not an analyst in these rows.",
+      "evidence_lines": [
+        1356,
+        1358,
+        1362
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_91__ent_773__ent_523",
+      "judgment": "incorrect",
+      "reason": "Ratajczak is director/specialist associated with Georgia State University; analyst is not established.",
+      "evidence_lines": [
+        534,
+        537,
+        539,
+        540
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_91__ent_733__ent_975",
+      "judgment": "supported",
+      "reason": "Morton is explicitly an analyst at/for/with Lynch, Jones & Ryan.",
+      "evidence_lines": [
+        7840,
+        7841,
+        7842,
+        7844
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

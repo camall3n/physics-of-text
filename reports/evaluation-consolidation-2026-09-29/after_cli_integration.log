@@ -1,0 +1,63 @@
+TAP version 13
+# Subtest: CLI exposes all documented NYT evaluation presets
+ok 1 - CLI exposes all documented NYT evaluation presets
+  ---
+  duration_ms: 53.893125
+  type: 'test'
+  ...
+# Subtest: CLI nyt-top20 checks saved runs and renders identical assessments/relation/selection views
+ok 2 - CLI nyt-top20 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 3213.185834
+  type: 'test'
+  ...
+# {"preset":"nyt-top20","audits":10,"required_artifacts_compared":220}
+# Subtest: CLI nyt-coverage checks saved runs and renders identical assessments/relation/selection views
+ok 3 - CLI nyt-coverage checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 8309.126041
+  type: 'test'
+  ...
+# {"preset":"nyt-coverage","audits":4,"required_artifacts_compared":1192}
+# Subtest: CLI nyt-archive250 checks saved runs and renders identical assessments/relation/selection views
+ok 4 - CLI nyt-archive250 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 220.787791
+  type: 'test'
+  ...
+# {"preset":"nyt-archive250","audits":1,"required_artifacts_compared":17}
+# Subtest: CLI sampled-sep12 checks saved runs and renders identical assessments/relation/selection views
+ok 5 - CLI sampled-sep12 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 555.9275
+  type: 'test'
+  ...
+# {"preset":"sampled-sep12","audits":8,"required_artifacts_compared":16}
+# Subtest: CLI sampled-sep14 checks saved runs and renders identical assessments/relation/selection views
+ok 6 - CLI sampled-sep14 checks saved runs and renders identical assessments/relation/selection views
+  ---
+  duration_ms: 227.434833
+  type: 'test'
+  ...
+# {"preset":"sampled-sep14","audits":2,"required_artifacts_compared":4}
+# Subtest: CLI refuses overwriting study data, code, and nonempty output directories
+ok 7 - CLI refuses overwriting study data, code, and nonempty output directories
+  ---
+  duration_ms: 303.409708
+  type: 'test'
+  ...
+# Subtest: CLI rejects unknown presets and selection switches without writing output
+ok 8 - CLI rejects unknown presets and selection switches without writing output
+  ---
+  duration_ms: 103.945625
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 13059.956542

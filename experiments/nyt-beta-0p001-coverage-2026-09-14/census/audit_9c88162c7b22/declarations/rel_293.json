@@ -1,0 +1,49 @@
+{
+  "relation": "rel_293",
+  "predicate_id": "organizational_leader_of",
+  "predicate_version": 1,
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate": {
+    "id": "organizational_leader_of",
+    "label": "leader or organizational head of",
+    "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+    "includes": [
+      "explicit leader/head/president/chief/chair",
+      "legislative majority/minority leadership or whip",
+      "leadership office within an identified body",
+      "historical office"
+    ],
+    "excludes": [
+      "ordinary membership or service",
+      "founding/ownership alone",
+      "party control of a chamber",
+      "candidate alone",
+      "athletic/standings or task-only lead",
+      "editor alone"
+    ],
+    "ambiguous": [
+      "generic director or executive without clear leadership role",
+      "bare lead lacking organizational-role context",
+      "materially truncated political body"
+    ],
+    "notes": "Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+    "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles."
+  },
+  "dictionary_sha256": "955e6a3c93abfcb869fe9b9f0ea2f13f0087c511ccecd13b2ccfc321e96d09dd",
+  "kind": "declared_before_case_grading",
+  "rationale": "Chief office is the only repeated coherent role family (three chief paths) amid assorted political comparison/support topics. Preserve this weak dictionary support explicitly; political topic mentions do not become leadership and bureau attachment remains relevant.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.077Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_293.before_grading.json",
+  "pregrading_annotation_sha256": "93ffa73ad6c50b1959082de268fbaf6f4e42944ad2d168e10af0506a0b35e807"
+}

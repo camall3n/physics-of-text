@@ -1,0 +1,54 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_50",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_50__ent_1221__ent_1139",
+        "rel_50__ent_268__ent_1299",
+        "rel_50__ent_68__ent_1368",
+        "rel_50__ent_264__ent_1326",
+        "rel_50__ent_1257__ent_1226"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit legislative leader apposition or majority-leader role establishes leadership of the named chamber.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_50__ent_677__ent_183"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Washington appears in the person slot and the lone row is a meeting with administration deputies, leaving the supposed officeholder and leadership role unresolved.",
+      "tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "question": "Who is the person represented by Washington, and does the sentence assign that person an administration leadership office?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a7b8e0a0c8d016ec41d01d35cd8091217cdc44d845763d29a0edc8c36c2d71fc"
+}

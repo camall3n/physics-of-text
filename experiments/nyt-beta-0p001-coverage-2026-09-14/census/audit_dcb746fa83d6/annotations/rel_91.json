@@ -1,0 +1,77 @@
+{
+  "relation": "rel_91",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_91__ent_826__ent_234",
+      "judgment": "ambiguous",
+      "reason": "Palestinians → East Jerusalem; Palestinians → Gaza: Local presence/residence evidence is split between East Jerusalem and Gaza, incompatible places merged into one entity.",
+      "evidence_lines": [
+        6126,
+        6128,
+        6129,
+        6130,
+        6132,
+        6134,
+        8156
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Does this fact refer to East Jerusalem or Gaza?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.514Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1101__ent_1198",
+      "judgment": "supported",
+      "reason": "Jews → Poland: Explicit remain-in and died-in evidence establishes physical presence in Poland.",
+      "evidence_lines": [
+        6096,
+        6099,
+        6100,
+        6101,
+        6104
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.515Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1390__ent_696",
+      "judgment": "incorrect",
+      "reason": "State Department → Richard Boucher: Inverse spokesperson/briefing paths do not place the institution in a geographic location.",
+      "evidence_lines": [
+        5440,
+        5444
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:47.515Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e788fcb61c8b53faa071aef55b4f3fefae6c47d0f22a9e960b43a6ab63319cc9"
+}

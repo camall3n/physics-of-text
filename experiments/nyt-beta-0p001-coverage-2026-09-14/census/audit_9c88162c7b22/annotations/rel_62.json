@@ -1,0 +1,90 @@
+{
+  "relation": "rel_62",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_62__ent_815__ent_271",
+      "judgment": "incorrect",
+      "reason": "Russia → Security Council: A Security Council seat or veto is membership, not subsidiary containment.",
+      "evidence_lines": [
+        3295,
+        3296,
+        3298,
+        3302
+      ],
+      "issue_tags": [
+        "membership_not_subsidiary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.365Z"
+      }
+    },
+    {
+      "case_id": "rel_62__ent_1121__ent_425",
+      "judgment": "supported",
+      "reason": "Grey Worldwide → Grey Global Group: Office/agency organizational-part attachment establishes parent-group containment.",
+      "evidence_lines": [
+        4673,
+        4677,
+        4678,
+        4680
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.365Z"
+      }
+    },
+    {
+      "case_id": "rel_62__ent_537__ent_820",
+      "judgment": "incorrect",
+      "reason": "United States → Israel: Support for Israel is not corporate containment.",
+      "evidence_lines": [
+        2082,
+        4208,
+        7905
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.365Z"
+      }
+    },
+    {
+      "case_id": "rel_62__ent_1104__ent_880",
+      "judgment": "supported",
+      "reason": "BBDO Worldwide → Omnicom Group: Office/agency organizational-part attachment establishes parent-group containment.",
+      "evidence_lines": [
+        4604,
+        4609,
+        6681
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.365Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8f5f07e3553fed6928bcc666e1a5550ed2b60dcc3247930beed2a379bf40b278"
+}

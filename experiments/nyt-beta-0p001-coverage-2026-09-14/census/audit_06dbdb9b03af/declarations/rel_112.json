@@ -1,0 +1,43 @@
+{
+  "relation": "rel_112",
+  "predicate_id": "economist_for",
+  "predicate_version": 1,
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate": {
+    "id": "economist_for",
+    "label": "economist at organization",
+    "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+    "includes": [
+      "explicit economist at/for/with/of",
+      "historical departmental economist affiliation"
+    ],
+    "excludes": [
+      "analyst/strategist/specialist/professor/executive alone",
+      "generic financial expertise"
+    ],
+    "ambiguous": [
+      "unclear economist/employer attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment."
+  },
+  "dictionary_sha256": "70c95a9f2ce0144f53cf756841f5d0548ec8a18bc0fb3ecd406489e922b4faf5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit economist at/for/of/with P0–P3 dominate43/58; director/principal/researcher remain distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:02:22.850Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_112.before_grading.json",
+  "pregrading_annotation_sha256": "a0f3207ee2c597d995f26d1cf1d5d8cae43b103585f9aacd996590af095837e4"
+}

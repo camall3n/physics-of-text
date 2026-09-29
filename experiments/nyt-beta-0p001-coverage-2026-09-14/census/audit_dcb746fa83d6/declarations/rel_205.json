@@ -1,0 +1,34 @@
+{
+  "relation": "rel_205",
+  "predicate_id": "chairperson_of",
+  "predicate_version": 1,
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate": {
+    "id": "chairperson_of",
+    "label": "chairperson of",
+    "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+    "includes": [
+      "explicit chair/chairman/chairwoman/chairperson",
+      "co-chair if explicit",
+      "past tenure or resignation from that office"
+    ],
+    "excludes": [
+      "president/head/executive/director alone",
+      "founder/owner/member alone",
+      "nomination/candidacy alone"
+    ],
+    "ambiguous": [
+      "ambiguous successor or appointment that does not establish tenure",
+      "chair of an omitted subunit"
+    ],
+    "notes": "Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+    "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better."
+  },
+  "dictionary_sha256": "ac3f22bb0ac1a8854f8a8ccc10b6eb7ca315ef9e4b87e227f1a99f8e3d814444",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "1b66bd500f567b78553013227f2f895c189167700768d4027a894d4816fc441e",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

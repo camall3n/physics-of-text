@@ -1,0 +1,67 @@
+{
+  "relation": "rel_148",
+  "predicate_id": "legal_specialist_in",
+  "label": "legal specialist in field",
+  "definition": "Person X is explicitly identified as a legal expert or lawyer specializing in legal field or issue Y.",
+  "scope_notes": "Includes: lawyer specializing in Y; explicit legal expert, authority, or specialist on Y; a legal-field modifier of a lawyer. Excludes: client representation without specialization; generic institutional membership; practice location or ordinary employment; expertise in a nonlegal field. Ambiguous unless resolved by case-local evidence: unclear legal field versus client; lawyer title or field attachment unresolved. Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation.",
+  "facts": [
+    {
+      "case_id": "rel_148__ent_842__ent_841",
+      "judgment": "supported",
+      "reason": "Floyd Abrams → First Amendment: Explicit First Amendment legal authority and lawyer specializing in its issues establish legal-field expertise.",
+      "evidence_lines": [
+        2277,
+        2281,
+        2283,
+        2285,
+        2286
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.296Z"
+      }
+    },
+    {
+      "case_id": "rel_148__ent_780__ent_529",
+      "judgment": "incorrect",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: Following media for an employer or geographic lawyer location is not specialization in a legal subject.",
+      "evidence_lines": [
+        595,
+        596,
+        597,
+        598
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.296Z"
+      }
+    },
+    {
+      "case_id": "rel_148__ent_845__ent_333",
+      "judgment": "incorrect",
+      "reason": "Arthur Weinstein → Manhattan: Following media for an employer or geographic lawyer location is not specialization in a legal subject.",
+      "evidence_lines": [
+        2310
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.296Z"
+      }
+    }
+  ],
+  "predicate_hash": "a20297b390b73d51597c6f6da1f08657b66ec20d6c47c8f86af7c633fbcaf02b",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "391261e6c563e6f8c51f9a9ca7aca24c54f297176b0c6f7964ef48ffbbe8b4c0"
+}

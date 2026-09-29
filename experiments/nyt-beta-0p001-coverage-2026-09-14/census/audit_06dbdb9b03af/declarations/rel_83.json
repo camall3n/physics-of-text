@@ -1,0 +1,43 @@
+{
+  "relation": "rel_83",
+  "predicate_id": "agreed_with",
+  "predicate_version": 1,
+  "predicate_hash": "18baec882e670b9243ce8e666d345abb8ed3552ef872111a41ba06dd849c0055",
+  "predicate": {
+    "id": "agreed_with",
+    "label": "entered agreement with",
+    "definition": "Entity X entered or had an explicit agreement with counterpart Y.",
+    "includes": [
+      "explicit agreement-with",
+      "a stated shared agreement or accord",
+      "historical agreement"
+    ],
+    "excludes": [
+      "mere meeting or conversation",
+      "unilateral approval or support without shared agreement",
+      "a proposed agreement or ongoing negotiation without realization"
+    ],
+    "ambiguous": [
+      "unclear parties to an agreement",
+      "a future or conditional agreement",
+      "approval by a subunit without evidence of agreement by Y"
+    ],
+    "notes": "A specific agreement is sufficient; this does not imply agreement on every issue or permanent alliance.",
+    "scope_notes": "Includes: explicit agreement-with; a stated shared agreement or accord; historical agreement. Excludes: mere meeting or conversation; unilateral approval or support without shared agreement; a proposed agreement or ongoing negotiation without realization. Ambiguous unless resolved by case-local evidence: unclear parties to an agreement; a future or conditional agreement; approval by a subunit without evidence of agreement by Y. A specific agreement is sufficient; this does not imply agreement on every issue or permanent alliance."
+  },
+  "dictionary_sha256": "76b601fd7c2349afab80d74bf188f7b03e2c5290ac49e2b6dde38953d68cf727",
+  "kind": "declared_before_case_grading",
+  "rationale": "Agreement-with4 is largest specific relational family; shocks, speech and managerial-role evidence separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:17:08.138Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_83.before_grading.json",
+  "pregrading_annotation_sha256": "ccb8313434330593eb57582ec7d77a3a701a72b612e0b7984314637e183739f3"
+}

@@ -1,0 +1,55 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_395",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_395__ent_514__ent_846",
+        "rel_395__ent_173__ent_323",
+        "rel_395__ent_513__ent_984",
+        "rel_395__ent_995__ent_333",
+        "rel_395__ent_998__ent_537",
+        "rel_395__ent_755__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "Attorney-for/of or explicit governmental attorney-office evidence identifies legal service for the jurisdiction.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_395__ent_601__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York modifies accountant/lawyer/attorney without showing whether the jurisdiction is a client or only the professional location.",
+      "tags": [
+        "location_versus_client"
+      ],
+      "question": "Does Sidney Kess represent New York as a jurisdiction, or practice privately in New York?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    5,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "00338590a7e83ea260ab351afffb5a7939135f98953a7f3cfbc3599edd8e93c8"
+}

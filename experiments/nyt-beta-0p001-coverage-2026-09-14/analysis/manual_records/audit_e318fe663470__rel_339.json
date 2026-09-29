@@ -1,0 +1,101 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_339",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7,
+        10,
+        12,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_339__ent_1153__ent_458",
+        "rel_339__ent_740__ent_1144",
+        "rel_339__ent_393__ent_1232",
+        "rel_339__ent_151__ent_1232",
+        "rel_339__ent_101__ent_881",
+        "rel_339__ent_216__ent_366",
+        "rel_339__ent_674__ent_594",
+        "rel_339__ent_3__ent_1044",
+        "rel_339__ent_567__ent_554",
+        "rel_339__ent_1388__ent_366"
+      ],
+      "judgment": "supported",
+      "reason": "A local own/co-owner/share or clear ownership assertion establishes an ownership interest in the stated asset.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_339__ent_1247__ent_1270"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The own construction terminates at Dallas; the surrounding station/interview context leaves an omitted asset or geographic attachment unresolved.",
+      "tags": [
+        "missing_argument",
+        "attachment"
+      ],
+      "question": "What asset in Dallas was actually owned?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_339__ent_593__ent_112"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Tavern is an incomplete/generic property name in an isolated ownership row.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which named establishment does Tavern identify?"
+    },
+    {
+      "indices": [
+        5,
+        8,
+        9,
+        13,
+        14,
+        17,
+        18
+      ],
+      "case_ids": [
+        "rel_339__ent_424__ent_1046",
+        "rel_339__ent_819__ent_435",
+        "rel_339__ent_819__ent_1326",
+        "rel_339__ent_23__ent_1033",
+        "rel_339__ent_1431__ent_587",
+        "rel_339__ent_182__ent_675",
+        "rel_339__ent_1033__ent_536"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political control/committee activity, arrival or a dateline spokesperson attachment does not assert ownership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "85287516ee9825c6aebb4924706c607cfc87d3186b79e072922a684bf36d3fe4"
+}

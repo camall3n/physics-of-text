@@ -1,0 +1,814 @@
+{
+  "relation": "rel_284",
+  "predicate_id": "lawyer_for",
+  "label": "lawyer or attorney for",
+  "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+  "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_284.json",
+    "source_sha256": "6169a032737c2cdb2ee984ada456b1171a91c09a0d96efddf486c8aa5dd296f3",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_284__ent_1110__ent_899",
+      "judgment": "supported",
+      "reason": "Russianoff → Straphangers Campaign: Explicit lawyer/attorney work for or with the named organization establishes legal representation/employment.",
+      "evidence_lines": [
+        4414,
+        4415,
+        4416,
+        4417,
+        4418,
+        4419,
+        4420,
+        4421,
+        4422,
+        4423
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.866Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_995__ent_333",
+      "judgment": "supported",
+      "reason": "Robert M. Morgenthau → Manhattan: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8294,
+        8295,
+        8296,
+        8297,
+        8298,
+        8299,
+        8300,
+        8301,
+        8302,
+        8303
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_284.json",
+        "annotation_sha256": "6169a032737c2cdb2ee984ada456b1171a91c09a0d96efddf486c8aa5dd296f3"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_514__ent_1254",
+      "judgment": "supported",
+      "reason": "Richard A. Brown → Queens: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8304,
+        8305,
+        8306,
+        8307,
+        8308,
+        8309,
+        8310,
+        8311,
+        8312,
+        8313
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_898__ent_140",
+      "judgment": "supported",
+      "reason": "Larry Shapiro → New York Public Interest Research Group: Explicit lawyer/attorney work for or with the named organization establishes legal representation/employment.",
+      "evidence_lines": [
+        4455,
+        4456,
+        4457,
+        4458,
+        4459,
+        4460,
+        4461,
+        4462,
+        4463
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_513__ent_984",
+      "judgment": "supported",
+      "reason": "Jeanine F. Pirro → Westchester County: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8344,
+        8345,
+        8347,
+        8348,
+        8349,
+        8350,
+        8351,
+        8352,
+        8353
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_562__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Washington; Petroleum Finance Company → Washington: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        3407,
+        3408,
+        3410,
+        3411,
+        3412,
+        3413,
+        3415,
+        7428
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_564__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Washington: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        4096,
+        4097,
+        4098,
+        5236,
+        5238,
+        5239,
+        7344,
+        7346
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_756__ent_537",
+      "judgment": "supported",
+      "reason": "Mary Jo White → United States: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8324,
+        8325,
+        8326,
+        8327,
+        8328,
+        8330,
+        8332,
+        8333
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_998__ent_537",
+      "judgment": "supported",
+      "reason": "Christopher J. Christie → United States: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8334,
+        8335,
+        8336,
+        8337,
+        8339,
+        8340,
+        8341,
+        8343
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_23__ent_441",
+      "judgment": "incorrect",
+      "reason": "Sanofi → French: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        3638,
+        3639,
+        3640,
+        3641,
+        3642,
+        3643,
+        3644
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_284.json",
+        "annotation_sha256": "6169a032737c2cdb2ee984ada456b1171a91c09a0d96efddf486c8aa5dd296f3"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_182__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Washington: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        4094,
+        4099,
+        5240,
+        5241,
+        5244,
+        7343,
+        7345
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_173__ent_323",
+      "judgment": "supported",
+      "reason": "Charles J. Hynes → Brooklyn: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8314,
+        8315,
+        8318,
+        8320,
+        8321,
+        8322,
+        8323
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_351__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Steinbrenner → Yankees: Sports ownership, results or stadium use does not establish legal representation.",
+      "evidence_lines": [
+        1497,
+        1498,
+        1499,
+        1500,
+        1502,
+        1503
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1290__ent_450",
+      "judgment": "incorrect",
+      "reason": "Mr. Gorbachev → Moscow: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        5216,
+        5217,
+        5220,
+        5221,
+        5223,
+        5225
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_755__ent_537",
+      "judgment": "supported",
+      "reason": "James B. Comey → United States: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8354,
+        8355,
+        8356,
+        8358,
+        8360,
+        8361
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_758__ent_537",
+      "judgment": "supported",
+      "reason": "Patrick J. Fitzgerald → United States: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8381,
+        8384,
+        8386,
+        8387,
+        8389,
+        8390
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_108__ent_1047",
+      "judgment": "incorrect",
+      "reason": "Desmond Ryan → Better Long Island: Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "evidence_lines": [
+        1738,
+        1739,
+        1740,
+        1741,
+        1742
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_657__ent_899",
+      "judgment": "supported",
+      "reason": "Gene Russianoff → Straphangers Campaign: Explicit lawyer/attorney work for or with the named organization establishes legal representation/employment.",
+      "evidence_lines": [
+        4405,
+        4408,
+        4409,
+        4410,
+        4412
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_195__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Reagan → Washington: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        4760,
+        4762,
+        4763,
+        4764,
+        4767
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_180__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Bush → Washington: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        5246,
+        5247,
+        5249,
+        5251,
+        5255
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_284.json",
+        "annotation_sha256": "6169a032737c2cdb2ee984ada456b1171a91c09a0d96efddf486c8aa5dd296f3"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_348__ent_1045",
+      "judgment": "incorrect",
+      "reason": "Steven D. Gold → Study of the States: Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "evidence_lines": [
+        1732,
+        1733,
+        1734,
+        1735
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1297__ent_818",
+      "judgment": "incorrect",
+      "reason": "Britain → China: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        5166,
+        5170,
+        5173,
+        5175
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_284.json",
+        "annotation_sha256": "6169a032737c2cdb2ee984ada456b1171a91c09a0d96efddf486c8aa5dd296f3"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_284__ent_693",
+      "judgment": "incorrect",
+      "reason": "Mets → Shea Stadium: Sports ownership, results or stadium use does not establish legal representation.",
+      "evidence_lines": [
+        5207,
+        5211,
+        5212,
+        5215
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1098__ent_954",
+      "judgment": "incorrect",
+      "reason": "Herbert Mitgang → The New York Times: Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "evidence_lines": [
+        7329,
+        7330,
+        7332,
+        7336
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1434__ent_451",
+      "judgment": "incorrect",
+      "reason": "Israel → Egypt: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        5186,
+        5191,
+        5192
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1358__ent_1411",
+      "judgment": "incorrect",
+      "reason": "Eagles → Giants: Sports ownership, results or stadium use does not establish legal representation.",
+      "evidence_lines": [
+        922,
+        924
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_998__ent_900",
+      "judgment": "supported",
+      "reason": "Christopher J. Christie → United States: Explicit governmental attorney wording and local appointment/prosecution/jurisdiction evidence establish legal office for the second argument.",
+      "evidence_lines": [
+        8338,
+        8342
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_564__ent_616",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Congress: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        2032
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_284.json",
+        "annotation_sha256": "6169a032737c2cdb2ee984ada456b1171a91c09a0d96efddf486c8aa5dd296f3"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_7__ent_812",
+      "judgment": "incorrect",
+      "reason": "Democrat → White House: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        2708
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_136__ent_623",
+      "judgment": "incorrect",
+      "reason": "Juan Antonio Samaranch → I.O.C.: Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "evidence_lines": [
+        2864
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_400__ent_1340",
+      "judgment": "incorrect",
+      "reason": "Jets → Giants Stadium: Sports ownership, results or stadium use does not establish legal representation.",
+      "evidence_lines": [
+        4847
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_483__ent_1361",
+      "judgment": "incorrect",
+      "reason": "Congress → Washington: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        5185
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1329__ent_701",
+      "judgment": "incorrect",
+      "reason": "Gartner Group → Stamford: Geographic, corporate-nationality, travel or political communication evidence does not establish legal representation/employment.",
+      "evidence_lines": [
+        7125
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_1098__ent_325",
+      "judgment": "incorrect",
+      "reason": "Herbert Mitgang → The Times: Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "evidence_lines": [
+        7318
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    },
+    {
+      "case_id": "rel_284__ent_728__ent_125",
+      "judgment": "incorrect",
+      "reason": "John Huang → Commerce Department: Director, spokesperson, reporter, president or generic workplace association does not establish legal representation.",
+      "evidence_lines": [
+        7502
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:03:45.867Z"
+      }
+    }
+  ]
+}

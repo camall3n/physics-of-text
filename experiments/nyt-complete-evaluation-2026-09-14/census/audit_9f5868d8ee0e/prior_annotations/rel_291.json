@@ -1,0 +1,88 @@
+{
+  "relation": "rel_291",
+  "label": "athlete plays for team",
+  "definition": "Athlete X plays as a member of team Y.",
+  "scope_notes": "Chosen after inspecting all 19 fact summaries: player/center/scoring-for paths disambiguate athletic lead. Team standings, coach/manager roles and organizational leadership remain separate; no broad lead-or-give disjunction.",
+  "facts": [
+    {
+      "case_id": "rel_291__ent_260__ent_1005",
+      "judgment": "supported",
+      "reason": "Jordan scores points for and plays with Bulls.",
+      "evidence_lines": [
+        3116,
+        3117,
+        3119,
+        3121
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_291__ent_62__ent_1005",
+      "judgment": "supported",
+      "reason": "Michael Jordan scores for Bulls and is explicitly their star/player.",
+      "evidence_lines": [
+        3145,
+        3147,
+        3148,
+        3151,
+        3153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_291__ent_89__ent_86",
+      "judgment": "incorrect",
+      "reason": "Herzog is Cardinals manager/master; the supplied evidence does not make him a playing athlete.",
+      "evidence_lines": [
+        3382,
+        3385,
+        3386,
+        3388
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_291__ent_356__ent_308",
+      "judgment": "supported",
+      "reason": "Ewing is explicitly Knicks center in repeated rows.",
+      "evidence_lines": [
+        3075,
+        3079,
+        4219,
+        4223
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_291__ent_1004__ent_309",
+      "judgment": "incorrect",
+      "reason": "Yankees lead/overtake Red Sox in team standings; one team is not a player for the other.",
+      "evidence_lines": [
+        884,
+        890,
+        2584,
+        2590,
+        3137,
+        3143,
+        6900,
+        6906
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

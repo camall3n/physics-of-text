@@ -1,0 +1,48 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_331",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_331__ent_407__ent_649",
+        "rel_331__ent_843__ent_662"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit geographically modified office-of establishes an office of the named organization in the city.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_331__ent_843__ent_422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Hill combines an office-of organizational reading with named senator and political campaign readings; the intended entity is unresolved.",
+      "tags": [
+        "identity_collision"
+      ],
+      "question": "Does Hill denote a specific company office or the political person in these mixed rows?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [
+    0
+  ],
+  "predicate_declaration_sha256": "5d505e02a09d16dc1661ddb9fd11d091a680b7b0175449c519c590e5bfb22192"
+}

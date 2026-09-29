@@ -1,0 +1,177 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_134",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        10,
+        11,
+        16,
+        30,
+        32
+      ],
+      "case_ids": [
+        "rel_134__ent_1259__ent_213",
+        "rel_134__ent_798__ent_455",
+        "rel_134__ent_697__ent_212",
+        "rel_134__ent_837__ent_1086",
+        "rel_134__ent_453__ent_1291",
+        "rel_134__ent_211__ent_452",
+        "rel_134__ent_492__ent_1118",
+        "rel_134__ent_1321__ent_1284",
+        "rel_134__ent_1318__ent_1349",
+        "rel_134__ent_1197__ent_1445"
+      ],
+      "judgment": "supported",
+      "reason": "A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        22
+      ],
+      "case_ids": [
+        "rel_134__ent_911__ent_210",
+        "rel_134__ent_1337__ent_1132"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Different literal entity pairs or different named political figures are merged inside one local fact.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which incompatible local pair does this inferred fact represent?"
+    },
+    {
+      "indices": [
+        5,
+        8,
+        12,
+        31
+      ],
+      "case_ids": [
+        "rel_134__ent_96__ent_948",
+        "rel_134__ent_820__ent_940",
+        "rel_134__ent_1266__ent_706",
+        "rel_134__ent_1337__ent_709"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The evidence identifies an unspecified minister without resolving head-of-government or qualifying political-leadership scope.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Does the complete sentence identify a prime minister or another qualifying political leader?"
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_134__ent_1321__ent_930"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The local title is president-elect, and the remaining rows do not resolve actual tenure.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Does the evidence establish that the president-elect subsequently held the office?"
+    },
+    {
+      "indices": [
+        40
+      ],
+      "case_ids": [
+        "rel_134__ent_1197__ent_1344"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The only extracted path links a letter to the Senate leader with a statement attributed to Bob Dole, leaving the leader attachment unclear.",
+      "tags": [
+        "attachment_ambiguity"
+      ],
+      "question": "Does the original sentence identify Dole himself as Senate leader?"
+    },
+    {
+      "indices": [
+        7,
+        9,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        41
+      ],
+      "case_ids": [
+        "rel_134__ent_543__ent_590",
+        "rel_134__ent_189__ent_1002",
+        "rel_134__ent_158__ent_323",
+        "rel_134__ent_976__ent_59",
+        "rel_134__ent_44__ent_43",
+        "rel_134__ent_17__ent_1422",
+        "rel_134__ent_556__ent_798",
+        "rel_134__ent_70__ent_71",
+        "rel_134__ent_270__ent_410",
+        "rel_134__ent_951__ent_325",
+        "rel_134__ent_562__ent_1307",
+        "rel_134__ent_334__ent_1317",
+        "rel_134__ent_829__ent_1107",
+        "rel_134__ent_876__ent_612",
+        "rel_134__ent_818__ent_271",
+        "rel_134__ent_1116__ent_177",
+        "rel_134__ent_1278__ent_1239",
+        "rel_134__ent_15__ent_1350",
+        "rel_134__ent_78__ent_73",
+        "rel_134__ent_1106__ent_54",
+        "rel_134__ent_89__ent_616",
+        "rel_134__ent_1077__ent_1351",
+        "rel_134__ent_403__ent_1139",
+        "rel_134__ent_1332__ent_449"
+      ],
+      "judgment": "incorrect",
+      "reason": "All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    10,
+    11,
+    16,
+    30,
+    32
+  ],
+  "broad": []
+}

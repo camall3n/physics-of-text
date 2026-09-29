@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-09-14T19:10:14.739Z",
+  "hypothesis": "Lower relation dictionary beta from 0.1 to 0.001 with latent entity inference and all six confirmed sampling defect families corrected.",
+  "production_source": "../nyt-precision-investigation-2026-09-12/variants/entity-multiplicity-fix/src",
+  "production_changes": [],
+  "only_config_difference_from_paired_corrected_latent_runs": {
+    "beta": {
+      "before": 0.1,
+      "after": 0.001
+    }
+  },
+  "seeds": [
+    20260912,
+    20260913
+  ],
+  "evaluation": "Same 5 facts per top-20 relation screening protocol; all selected evidence manually assessed. Two seeds reported separately.",
+  "runs": [
+    {
+      "id": "entityfix_latent_beta0001_seed20260912",
+      "config": "configs/entityfix_latent_beta0001_seed20260912.json",
+      "output": "runs/entityfix_latent_beta0001_seed20260912",
+      "paired_reference": "../nyt-precision-investigation-2026-09-12/runs/entityfix_latent_beta01_seed20260912"
+    },
+    {
+      "id": "entityfix_latent_beta0001_seed20260913",
+      "config": "configs/entityfix_latent_beta0001_seed20260913.json",
+      "output": "runs/entityfix_latent_beta0001_seed20260913",
+      "paired_reference": "../nyt-precision-investigation-2026-09-12/runs/entityfix_latent_beta01_seed20260913"
+    }
+  ]
+}

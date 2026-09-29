@@ -1,0 +1,51 @@
+# Archived Bernoulli-mixture configuration: output-d15-n30-v2-a0.1-b0.01-i100
+
+Classification remains uncertain: [scope and bug evidence](../BUGS.md) · [evaluation availability](../EVALUATION.md) · [index](../../../README.md).
+
+Reviewed 2026-09-28 from saved files and source only; no sampler or test was run.
+
+## Purpose and identity
+
+This directory is a synthetic Bernoulli-mixture sampler diagnostic, exploring component inference under different sampling kernels, data sizes and smoothing. It is not an NYT extraction or a fitted text-topic-model result. The identifying parameters are encoded by [MixtureInference.run](../../../../../resources/sampler-140626/src/main/java/org/ucb/dpm/MixtureInference.java), whose directory-name construction matches this folder.
+
+Primary evidence: [likelihood values](../../../../../resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100/likelihood.txt), [sorted component shares](../../../../../resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100/JN-diagram-all.txt), and [cumulative top-five shares](../../../../../resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100/JN-diagram-top5.txt). These are the three saved files in the directory.
+
+## Design recovered from the directory and code
+
+The configuration encodes dimension=15 binary coordinates, data size=30, sampler version=2, alpha=0.1, beta=0.01, and a nominal 100 iterations. Alpha is the mixture-assignment concentration; beta is the symmetric Beta(beta,beta) prior for each component's Bernoulli coordinate. Version 2 applies a Jain–Neal-style split/merge move with five restricted launch sweeps, followed by a complete Gibbs sweep in each iteration.
+
+[MixtureDistributions](../../../../../resources/sampler-140626/src/main/java/org/ucb/dpm/MixtureDistributions.java) generates binary vectors from a JSON mixture specification, assigns fixed blocks of observations to generating components, and initializes all inferred assignments in component 1. Its block generator uses component count rather than drawing mixture IDs from the stored mixture probabilities. The saved initial share vector [1.0] is consistent with that initialization.
+
+The historical [BernoulliExperimentTest](../../../../../resources/sampler-140626/src/test/java/org/ucb/dpm/BernoulliExperimentTest.java) references an external `mixture-dist-c5-d15.json` under an author's /home/wei directory, with n=1000/version=5/alpha=0.1/beta=0.001/100 iterations. That is relevant family evidence, not proof that every directory used that same five-component input. The mixture specification and generated vectors for this directory are absent. Its exact generating probabilities, seed, date, command, executable version and environment are not recorded. [BernoulliExperiment.main](../../../../../resources/sampler-140626/src/main/java/org/ucb/dpm/BernoulliExperiment.java) and the historical test construct unseeded Random instances.
+
+## Saved outcomes and trajectory boundaries
+
+Read-only parsing found 101 numeric likelihood values, 101 component-share rows, and 101 top-five rows. The files agree in observation count. [MixtureObsever](../../../../../resources/sampler-140626/src/main/java/org/ucb/dpm/MixtureObsever.java) observes once before inference and once per iteration, using append writes.
+
+The 101 saved observations are consistent with one initial state followed by 100 iterations, although no timestamped run manifest confirms this boundary.
+
+| Descriptive property of saved sequence | Value |
+|---|---:|
+| First log likelihood | -382.360213 |
+| Last log likelihood | -191.826453 |
+| Minimum saved log likelihood | -382.360213 |
+| Maximum saved log likelihood | -189.315248 |
+| Occupied components in first row | 1 |
+| Occupied components in last row | 5 |
+| Range of occupied-component counts | 1–6 |
+
+Last-row sorted shares: 20%, 20%, 20%, 20%, 20%. The top-five file contains cumulative sums of sorted shares, not five separate mixture weights.
+
+The observer writes `worldLikelihood()`, the sum of collapsed component Bernoulli log likelihoods, without the assignment prior. Therefore these values are not full posterior scores or semantic precision. They are also not comparable across sample sizes or different generated datasets as a controlled kernel-quality test. Final cluster count or equal-sized shares do not establish recovery of the true assignments because vectors and labels were not saved.
+
+## Correctness and reproducibility status
+
+This archival DPM path has no run-specific correctness audit, convergence diagnostic, acceptance log, truth comparison or paired seed record. It uses shared LogProbMap and Util helpers that have [documented historical normalization defects and later corrections](../../../../../resources/sampler-140626/results/nyt-2026/evaluation/sampling_fixes.md). That establishes a potentially relevant dependency in the code, not a measured failure in this saved trajectory; the producing executable is not fingerprinted. The 2026 NYT entity/fact proposal corrections do not automatically validate this separate DPM implementation. Current source should not be assumed byte-identical to the producer.
+
+The three saved diagnostics preserve likelihood and cluster-size behavior but cannot reconstruct the observations or the exact chain. No missing input was regenerated during this review.
+
+## Relation to the paper and later review
+
+This is sampler-development evidence for Bernoulli mixture split/merge methods. Source comments connect it to Jain–Neal-style work; no saved provenance establishes that this configuration produced a figure or numerical claim in The Physics of Text. It supplies historical context for inference machinery, distinct from the Figure 1 same-relation experiment and real-corpus semantic audits.
+
+For later review, its interpretive role is a configuration-specific archive of sampler behavior. This report makes no deletion recommendation or unsupported quality label.

@@ -1,0 +1,56 @@
+{
+  "relation": "rel_196",
+  "predicate_id": "politically_controls",
+  "label": "politically controls",
+  "definition": "Political group X controls or gains control of political body Y.",
+  "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity.",
+  "facts": [
+    {
+      "case_id": "rel_196__ent_818__ent_479",
+      "judgment": "supported",
+      "reason": "China → Hong Kong: Direct taking control and resuming sovereignty establish political control of Hong Kong.",
+      "evidence_lines": [
+        6446,
+        6448,
+        6449,
+        6450,
+        6451,
+        6452,
+        6453
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.047Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_197__ent_586",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → White House: Arrival or physical removal of a person from the White House is not political-group control.",
+      "evidence_lines": [
+        3495,
+        3498,
+        6180,
+        6183
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.047Z"
+      }
+    }
+  ],
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3bd965a16e772a3d3f64d3ca17b4c306b7cebc3be953fb6927ed584698bb61e6"
+}

@@ -1,0 +1,49 @@
+{
+  "relation": "rel_313",
+  "predicate_id": "has_spokesperson",
+  "predicate_version": 1,
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate": {
+    "id": "has_spokesperson",
+    "label": "has spokesperson",
+    "definition": "Organization or principal X has person Y serving as its spokesperson.",
+    "includes": [
+      "inverse spokesperson_for with correct attachment",
+      "organization-modifying spokesman and appositive person"
+    ],
+    "excludes": [
+      "leader/president/lawyer/secretary alone",
+      "speaking at a building",
+      "spokesperson-to-principal forward direction"
+    ],
+    "ambiguous": [
+      "dateline/location replacing the principal or person"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person."
+  },
+  "dictionary_sha256": "dc7c8f30775e49474ce4a37ef772efb2f3ef94eb14bcab74cf644baf33056c87",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse secretary/spokesman-and-speech family is the strongest interpretable role; generic successor descriptions do not make Y spokesperson for X.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.627Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    11,
+    12,
+    14,
+    17
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_313.before_grading.json",
+  "pregrading_annotation_sha256": "947d7777dee3e9e7aa08a40b1f64ec2e4eef6655d1eea7814585a2178ad74c28"
+}

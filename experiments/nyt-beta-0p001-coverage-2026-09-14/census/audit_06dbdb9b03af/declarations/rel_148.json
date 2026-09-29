@@ -1,0 +1,47 @@
+{
+  "relation": "rel_148",
+  "predicate_id": "legal_specialist_in",
+  "predicate_version": 1,
+  "predicate_hash": "a20297b390b73d51597c6f6da1f08657b66ec20d6c47c8f86af7c633fbcaf02b",
+  "predicate": {
+    "id": "legal_specialist_in",
+    "label": "legal specialist in field",
+    "definition": "Person X is explicitly identified as a legal expert or lawyer specializing in legal field or issue Y.",
+    "includes": [
+      "lawyer specializing in Y",
+      "explicit legal expert, authority, or specialist on Y",
+      "a legal-field modifier of a lawyer"
+    ],
+    "excludes": [
+      "client representation without specialization",
+      "generic institutional membership",
+      "practice location or ordinary employment",
+      "expertise in a nonlegal field"
+    ],
+    "ambiguous": [
+      "unclear legal field versus client",
+      "lawyer title or field attachment unresolved"
+    ],
+    "notes": "Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation.",
+    "scope_notes": "Includes: lawyer specializing in Y; explicit legal expert, authority, or specialist on Y; a legal-field modifier of a lawyer. Excludes: client representation without specialization; generic institutional membership; practice location or ordinary employment; expertise in a nonlegal field. Ambiguous unless resolved by case-local evidence: unclear legal field versus client; lawyer title or field attachment unresolved. Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation."
+  },
+  "dictionary_sha256": "5b62d57175b3fcfaf8a89ec245bd301cc0f18e37e9933ad69c4e488095a53f3d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Legal authority, lawyer specializing in issues, lawyer-on and specialist field paths form a coherent expertise family; generic media employer paths and geographic lawyer modifiers are outside it.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:32:24.285Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_148.before_grading.json",
+  "pregrading_annotation_sha256": "e3fd0f94d6a0a98e8a27ed6251362ef1bd6ed5dbad3882f2d46a03e1924fb06b"
+}

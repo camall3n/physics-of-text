@@ -1,0 +1,918 @@
+{
+  "relation": "rel_45",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_45.json",
+    "source_sha256": "fbd6503f9401a0d0fe309d6eb890e1f8da07b9c2a0fdabc8cadf4d0856a28a8f",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_45__ent_826__ent_825",
+      "judgment": "supported",
+      "reason": "Palestinians → West Bank: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2132,
+        2133,
+        2134,
+        2135,
+        2136,
+        2137,
+        2138,
+        2139,
+        2140,
+        2141
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.507Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_815__ent_271",
+      "judgment": "incorrect",
+      "reason": "Russia → Security Council: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        3293,
+        3294,
+        3295,
+        3296,
+        3297,
+        3298,
+        3299,
+        3300,
+        3301,
+        3302
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_643__ent_333",
+      "judgment": "supported",
+      "reason": "Robert → Manhattan: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        3925,
+        3926,
+        3927,
+        3928,
+        3929,
+        3930,
+        3931,
+        3932,
+        3933,
+        3934
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_885__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Peter → Manhattan: The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "evidence_lines": [
+        3935,
+        3936,
+        3937,
+        3938,
+        3939,
+        3940,
+        3941,
+        3942,
+        3943,
+        3944
+      ],
+      "issue_tags": [
+        "attachment",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_404__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Michael → Manhattan: The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "evidence_lines": [
+        3945,
+        3946,
+        3947,
+        3948,
+        3949,
+        3950,
+        3951,
+        3952,
+        3953,
+        3954
+      ],
+      "issue_tags": [
+        "attachment",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_45.json",
+        "annotation_sha256": "fbd6503f9401a0d0fe309d6eb890e1f8da07b9c2a0fdabc8cadf4d0856a28a8f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_646__ent_333",
+      "judgment": "supported",
+      "reason": "David → Manhattan: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        3955,
+        3956,
+        3957,
+        3958,
+        3959,
+        3960,
+        3961,
+        3962,
+        3963,
+        3964
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_403__ent_333",
+      "judgment": "supported",
+      "reason": "Richard → Manhattan: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        3975,
+        3976,
+        3977,
+        3978,
+        3979,
+        3980,
+        3981,
+        3982,
+        3983,
+        3984
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_645__ent_333",
+      "judgment": "supported",
+      "reason": "Mark → Manhattan: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        3985,
+        3986,
+        3987,
+        3988,
+        3989,
+        3990,
+        3991,
+        3992,
+        3993,
+        3994
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_887__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Daniel → Manhattan: The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "evidence_lines": [
+        3995,
+        3996,
+        3997,
+        3998,
+        3999,
+        4000,
+        4001,
+        4002,
+        4003,
+        4004
+      ],
+      "issue_tags": [
+        "attachment",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_406__ent_333",
+      "judgment": "ambiguous",
+      "reason": "William → Manhattan: The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "evidence_lines": [
+        4014,
+        4015,
+        4016,
+        4017,
+        4018,
+        4019,
+        4020,
+        4021,
+        4022,
+        4023
+      ],
+      "issue_tags": [
+        "attachment",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_45.json",
+        "annotation_sha256": "fbd6503f9401a0d0fe309d6eb890e1f8da07b9c2a0fdabc8cadf4d0856a28a8f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1161__ent_5",
+      "judgment": "supported",
+      "reason": "Turks → Germany: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        6115,
+        6116,
+        6117,
+        6118,
+        6119,
+        6120,
+        6121,
+        6122,
+        6123,
+        6124
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1101__ent_748",
+      "judgment": "incorrect",
+      "reason": "Jews → Holocaust: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        8192,
+        8193,
+        8194,
+        8195,
+        8196,
+        8197,
+        8198,
+        8199,
+        8200,
+        8201
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1100__ent_333",
+      "judgment": "ambiguous",
+      "reason": "Andrew → Manhattan: The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "evidence_lines": [
+        4005,
+        4006,
+        4007,
+        4008,
+        4009,
+        4010,
+        4011,
+        4012,
+        4013
+      ],
+      "issue_tags": [
+        "attachment",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1122__ent_537",
+      "judgment": "supported",
+      "reason": "Salvadorans → United States: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        4701,
+        4702,
+        4703,
+        4704,
+        4705,
+        4706,
+        4707,
+        4708,
+        4709
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_823__ent_537",
+      "judgment": "supported",
+      "reason": "Mexicans → United States: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2122,
+        2123,
+        2124,
+        2125,
+        2127,
+        2128,
+        2129,
+        2131
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_826__ent_1102",
+      "judgment": "supported",
+      "reason": "Palestinians → Gaza: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        8150,
+        8151,
+        8152,
+        8154,
+        8155,
+        8156,
+        8158,
+        8159
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_476__ent_818",
+      "judgment": "supported",
+      "reason": "North Koreans → China: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        6135,
+        6136,
+        6137,
+        6138,
+        6139,
+        6142,
+        6144
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_467__ent_234",
+      "judgment": "supported",
+      "reason": "Israelis → East Jerusalem: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        6164,
+        6165,
+        6166,
+        6167,
+        6170,
+        6172,
+        6173
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_747__ent_824",
+      "judgment": "incorrect",
+      "reason": "Diana → Paris: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        8160,
+        8161,
+        8163,
+        8166,
+        8167,
+        8168,
+        8169
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_45.json",
+        "annotation_sha256": "fbd6503f9401a0d0fe309d6eb890e1f8da07b9c2a0fdabc8cadf4d0856a28a8f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_838__ent_831",
+      "judgment": "supported",
+      "reason": "Serbs → Croatia: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2145,
+        2147,
+        2148,
+        2150,
+        2153,
+        2154
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_834__ent_837",
+      "judgment": "supported",
+      "reason": "Koreans → Japan: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2167,
+        2168,
+        2170,
+        2171,
+        2172,
+        2175
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1101__ent_1198",
+      "judgment": "supported",
+      "reason": "Jews → Poland: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        6095,
+        6097,
+        6098,
+        6100,
+        6101,
+        6102
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_669__ent_492",
+      "judgment": "incorrect",
+      "reason": "Americans → Iraq: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        8141,
+        8143,
+        8146,
+        8147,
+        8148,
+        8149
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_428__ent_537",
+      "judgment": "supported",
+      "reason": "Cubans → United States: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        4721,
+        4725,
+        4727,
+        4728,
+        4729
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1160__ent_429",
+      "judgment": "supported",
+      "reason": "David Mermelstein → Los Angeles: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        6090,
+        6091,
+        6092,
+        6093,
+        6094
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_45.json",
+        "annotation_sha256": "fbd6503f9401a0d0fe309d6eb890e1f8da07b9c2a0fdabc8cadf4d0856a28a8f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_752__ent_510",
+      "judgment": "incorrect",
+      "reason": "Pat Cash → Wimbledon: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        7996,
+        7997,
+        8001,
+        8002,
+        8003
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_988__ent_507",
+      "judgment": "supported",
+      "reason": "Mr. Marcos → Hawaii: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        8181,
+        8182,
+        8183,
+        8184,
+        8187
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_888__ent_333",
+      "judgment": "ambiguous",
+      "reason": "John → Manhattan: The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "evidence_lines": [
+        3965,
+        3966,
+        3969,
+        3971
+      ],
+      "issue_tags": [
+        "attachment",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_840__ent_839",
+      "judgment": "supported",
+      "reason": "MAUREEN B. FANT → Rome: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2142,
+        2143,
+        2144
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1051__ent_124",
+      "judgment": "incorrect",
+      "reason": "Tony Manero → Greenwich Hospital: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        1772
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_830__ent_824",
+      "judgment": "supported",
+      "reason": "PATRICIA WELLS → Paris: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2155
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_833__ent_832",
+      "judgment": "supported",
+      "reason": "GENERATIONS Alice Elliott Dark → Montclair: A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "evidence_lines": [
+        2156
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_78__ent_75",
+      "judgment": "incorrect",
+      "reason": "Lindsay Boxer → Murder Club: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        3264
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_269__ent_284",
+      "judgment": "incorrect",
+      "reason": "James Claffey → Long Island Immigrant Alliance: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        3321
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_749__ent_506",
+      "judgment": "incorrect",
+      "reason": "Linda Lyon Van Voorhis → Rochester: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        8191
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.508Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_761__ent_760",
+      "judgment": "incorrect",
+      "reason": "Douglas Edwards → Sarasota: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        8202
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.509Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_521__ent_763",
+      "judgment": "incorrect",
+      "reason": "David Roberts → Dartford: The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "evidence_lines": [
+        8203
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_45.json",
+        "annotation_sha256": "fbd6503f9401a0d0fe309d6eb890e1f8da07b9c2a0fdabc8cadf4d0856a28a8f"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:35.509Z"
+      }
+    }
+  ]
+}

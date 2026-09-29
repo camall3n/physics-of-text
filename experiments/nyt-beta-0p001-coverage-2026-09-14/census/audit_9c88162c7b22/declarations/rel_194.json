@@ -1,0 +1,32 @@
+{
+  "relation": "rel_194",
+  "predicate_id": "geographic_part_of",
+  "predicate_version": 1,
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate": {
+    "id": "geographic_part_of",
+    "label": "geographical part of",
+    "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+    "includes": [
+      "area/section/neighborhood/district of or in",
+      "clear place-to-containing-place attachment"
+    ],
+    "excludes": [
+      "organization subsidiary or location",
+      "residence/work/travel",
+      "an event in a place"
+    ],
+    "ambiguous": [
+      "place names attached through an omitted institution"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution."
+  },
+  "dictionary_sha256": "1cd1ee2c47bcefd6c47a26bb927785577aa0dbeb5086dc7daf281bc73d3bedc9",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "prior_annotation_sha256": "094ed377305d398ab60266741aca6b88e41e90e09c3d463f739661892c45fd68",
+  "prior_assessment_sha256": "17c0e6d456c6f20697dfeecca7e35f9ec209f1a94b96f9f1b32e1c9a3ab86cab"
+}

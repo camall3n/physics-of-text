@@ -1,0 +1,55 @@
+{
+  "relation": "rel_223",
+  "predicate_id": "event_held_in",
+  "predicate_version": 1,
+  "predicate_hash": "67acf758f49106bf3a72ab77287788b1b68696cdea0e0fc36740915094c6350c",
+  "predicate": {
+    "id": "event_held_in",
+    "label": "event held in place",
+    "definition": "Event X takes or took place in geographic location Y.",
+    "includes": [
+      "explicit event held-in or occurring-in Y",
+      "an event actually brought to or taking place in Y",
+      "historical event location"
+    ],
+    "excludes": [
+      "a team's organizational location or ordinary person travel",
+      "attendance originating from Y",
+      "a place merely bidding or competing to host X",
+      "discussion of an event in a publication"
+    ],
+    "ambiguous": [
+      "proposed, hoped-for, or future hosting without realization",
+      "generic have/bring/lure with missing modality",
+      "place versus institution or event identity unresolved"
+    ],
+    "notes": "This requires event occurrence at the location, not only a bid or planned destination.",
+    "scope_notes": "Includes: explicit event held-in or occurring-in Y; an event actually brought to or taking place in Y; historical event location. Excludes: a team's organizational location or ordinary person travel; attendance originating from Y; a place merely bidding or competing to host X; discussion of an event in a publication. Ambiguous unless resolved by case-local evidence: proposed, hoped-for, or future hosting without realization; generic have/bring/lure with missing modality; place versus institution or event identity unresolved. This requires event occurrence at the location, not only a bid or planned destination."
+  },
+  "dictionary_sha256": "8e91e46c991b586e9b94058ef47e47b001bcfe31a4a56470575dd67dac46a340",
+  "kind": "declared_before_case_grading",
+  "rationale": "The largest literal-role family concerns holding/bringing/bidding for Olympics in New York. Select actual event at a place, preserving A for bids/plans; Yankees geographic relocation is separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.672Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_223.before_grading.json",
+  "pregrading_annotation_sha256": "296cecfe19fc4f22b97ea56740d829608bb9e47601f054d0919f0f6d5b09da4b"
+}

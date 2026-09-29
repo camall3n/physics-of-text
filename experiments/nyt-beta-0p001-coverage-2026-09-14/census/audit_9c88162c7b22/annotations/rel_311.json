@@ -1,0 +1,113 @@
+{
+  "relation": "rel_311",
+  "predicate_id": "reviews_artistic_output_of",
+  "label": "reviewed artistic output of",
+  "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+  "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+  "facts": [
+    {
+      "case_id": "rel_311__ent_1192__ent_1193",
+      "judgment": "incorrect",
+      "reason": "Dave Kehr → DVD: DVD designates a medium or collection format, not the producing artist or institution required as Y.",
+      "evidence_lines": [
+        1889,
+        1890,
+        1891,
+        1892,
+        1893,
+        1894,
+        1895,
+        1896,
+        1897
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.398Z"
+      }
+    },
+    {
+      "case_id": "rel_311__ent_660__ent_623",
+      "judgment": "incorrect",
+      "reason": "San Francisco → Foote: City-office containment or team-player context is unrelated to reviewing artistic output.",
+      "evidence_lines": [
+        4144,
+        4145,
+        4146
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.398Z"
+      }
+    },
+    {
+      "case_id": "rel_311__ent_1188__ent_802",
+      "judgment": "ambiguous",
+      "reason": "Naomi Siegel → Shakespeare Theater: Reviewing a musical at Shakespeare Theater does not distinguish venue from the creator/producing institution.",
+      "evidence_lines": [
+        1841,
+        1842
+      ],
+      "issue_tags": [
+        "venue_versus_producer"
+      ],
+      "reviewer_question": "Was the reviewed musical produced by Shakespeare Theater or only performed at its venue?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.398Z"
+      }
+    },
+    {
+      "case_id": "rel_311__ent_1194__ent_1195",
+      "judgment": "supported",
+      "reason": "Lawrence Van Gelder → Ringling Brothers: Direct review of Ringling Brothers and its edition identifies review of the circus organization's artistic output.",
+      "evidence_lines": [
+        1898,
+        1899
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.398Z"
+      }
+    },
+    {
+      "case_id": "rel_311__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: City-office containment or team-player context is unrelated to reviewing artistic output.",
+      "evidence_lines": [
+        3434,
+        4933
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.398Z"
+      }
+    }
+  ],
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "80be85503e29848d956b8a928bfb415cc8fb06d2865c01fd6a59e199a8ab3271"
+}

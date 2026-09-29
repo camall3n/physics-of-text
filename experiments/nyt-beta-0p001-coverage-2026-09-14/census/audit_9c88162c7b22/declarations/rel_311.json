@@ -1,0 +1,53 @@
+{
+  "relation": "rel_311",
+  "predicate_id": "reviews_artistic_output_of",
+  "predicate_version": 1,
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate": {
+    "id": "reviews_artistic_output_of",
+    "label": "reviewed artistic output of",
+    "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+    "includes": [
+      "review of Y's performance, program, production, or artistic work",
+      "direct review of artist or ensemble Y in an artistic criticism context",
+      "historical reviews"
+    ],
+    "excludes": [
+      "a review merely taking place at venue Y",
+      "ordinary mention, attendance, or affiliation",
+      "an unrelated subject reviewed at a place owned by Y",
+      "authorship for a publication without reviewing Y's work"
+    ],
+    "ambiguous": [
+      "Y could denote the venue rather than the producer or performer",
+      "unclear reviewer or artistic-work attachment"
+    ],
+    "notes": "Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+    "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator."
+  },
+  "dictionary_sha256": "95d21bcf94f551f309450681307d06f5d049e482bd42da157356a2ef80fb5db1",
+  "kind": "declared_before_case_grading",
+  "rationale": "Review of film/collection/release dominates artistic criticism. Business units and bare team-without are unrelated; distinguish artist from reviewed work/venue.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.096Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_311.before_grading.json",
+  "pregrading_annotation_sha256": "b2e1fcb6769370eca39a558bae37bd8138ed3c809bc390c4cbbec1a931a29a92"
+}

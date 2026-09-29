@@ -1,0 +1,51 @@
+{
+  "relation": "rel_227",
+  "predicate_id": "official_of",
+  "predicate_version": 1,
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate": {
+    "id": "official_of",
+    "label": "official of institution",
+    "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+    "includes": [
+      "explicit official-of, official-at, or institutional official description",
+      "historical official role",
+      "a named formal public office that unambiguously entails official status"
+    ],
+    "excludes": [
+      "ordinary employment without an official role",
+      "a city dateline or institution standing in the person slot",
+      "a generic adviser or spokesperson without official status",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear person versus place identity",
+      "official title attachment unresolved",
+      "a generic institutional role without established official status"
+    ],
+    "notes": "Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+    "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation."
+  },
+  "dictionary_sha256": "a0e30a76f7062e18f92adbbc176c41db53cb31f8a06e21a640b11db66c978f6d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Official/job affiliation dominates the mixed public-office dictionary; a specific leadership title is not required, but generic personal appearance remains insufficient.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.192Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    4,
+    7,
+    8,
+    9,
+    10,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_227.before_grading.json",
+  "pregrading_annotation_sha256": "65c9b564a3bbbfc830e3809b00c0cd4c4d309b00e5082948aaf236f60bf84c3e"
+}

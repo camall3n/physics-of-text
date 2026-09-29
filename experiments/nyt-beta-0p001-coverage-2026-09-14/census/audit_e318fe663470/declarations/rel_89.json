@@ -1,0 +1,43 @@
+{
+  "relation": "rel_89",
+  "predicate_id": "travels_to",
+  "predicate_version": 1,
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate": {
+    "id": "travels_to",
+    "label": "moves or travels to",
+    "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+    "includes": [
+      "move/relocate/return/arrive/go/visit to Y",
+      "depart/leave for Y",
+      "temporary travel or organizational relocation",
+      "bare unqualified destination movement as textual support"
+    ],
+    "excludes": [
+      "leave/withdraw from Y",
+      "mere presence/residence/death place",
+      "sports-event qualification or attendance as a nongeographic destination",
+      "membership or political control"
+    ],
+    "ambiguous": [
+      "explicitly hypothetical or proposed relocation",
+      "invasion-only boundary",
+      "geographic/team or theatrical metonymy"
+    ],
+    "notes": "Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+    "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path."
+  },
+  "dictionary_sha256": "7070367b5e865e8aef25c6f5bca7e706f54c8f25b4a39b198d41ae740b105998",
+  "kind": "declared_before_case_grading",
+  "rationale": "Visit, trip-to and go-to dominate. Work-at or physical residence alone is not travel, and event qualification is distinct.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:58.380Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_89.before_grading.json",
+  "pregrading_annotation_sha256": "773fc4ee6e431f3464c35b48e9b0a7b9404079eec93a8d0199295505c2c01856"
+}

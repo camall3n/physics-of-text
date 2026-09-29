@@ -1,0 +1,89 @@
+{
+  "relation": "rel_228",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_228__ent_786__ent_305",
+      "judgment": "supported",
+      "reason": "Apple → Cupertino: Direct campus or office-in establishes physical organizational location.",
+      "evidence_lines": [
+        794,
+        796,
+        797,
+        4350,
+        4352,
+        4353
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.253Z"
+      }
+    },
+    {
+      "case_id": "rel_228__ent_302__ent_544",
+      "judgment": "supported",
+      "reason": "Microsoft → Redmond: Direct campus or office-in establishes physical organizational location.",
+      "evidence_lines": [
+        786,
+        787,
+        4342,
+        4343
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.253Z"
+      }
+    },
+    {
+      "case_id": "rel_228__ent_182__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Washington: A person office or university attachment is not an organization located in a place.",
+      "evidence_lines": [
+        4103,
+        5245,
+        7350
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.253Z"
+      }
+    },
+    {
+      "case_id": "rel_228__ent_888__ent_333",
+      "judgment": "incorrect",
+      "reason": "John → Manhattan: A person office or university attachment is not an organization located in a place.",
+      "evidence_lines": [
+        3968,
+        3969
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.253Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3008d5d24b564ce91af33b99edf66bacb5afb6eee3833218a1f8067bf4d27b18"
+}

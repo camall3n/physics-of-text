@@ -1,0 +1,86 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_66",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_66__ent_988__ent_507",
+        "rel_66__ent_562__ent_1409",
+        "rel_66__ent_1316__ent_1252"
+      ],
+      "judgment": "supported",
+      "reason": "A local live-in/life-in/exile-residence row explicitly establishes residence in the stated place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_66__ent_822__ent_821",
+        "rel_66__ent_822__ent_835"
+      ],
+      "judgment": "ambiguous",
+      "reason": "American is a nationality modifier applied to people or institutions rather than a resolved resident identity.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Who is the actual resident denoted by American?"
+    },
+    {
+      "indices": [
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_66__ent_1339__ent_824",
+        "rel_66__ent_823__ent_1393"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Residence evidence is merged with a different named person or population reading in the same inferred subject.",
+      "tags": [
+        "entity_collision",
+        "argument_identity"
+      ],
+      "question": "Which person or population does this fact identify?"
+    },
+    {
+      "indices": [
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_66__ent_669__ent_989",
+        "rel_66__ent_540__ent_594",
+        "rel_66__ent_403__ent_1151"
+      ],
+      "judgment": "incorrect",
+      "reason": "Visit/death, ownership or sidewalk activity alone does not establish residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "74fc34ce6ae1badfa4b091dfbb9af7a06c06485776fcb991d9227eef2a2d542e"
+}

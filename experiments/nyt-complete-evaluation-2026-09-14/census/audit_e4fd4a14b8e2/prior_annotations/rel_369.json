@@ -1,0 +1,70 @@
+{
+  "relation": "rel_369",
+  "label": "organization located or based in",
+  "definition": "Organization 1 is based in or has a geographic office/site in place 2.",
+  "scope_notes": "Firm/company-in and based-in paths qualify. Nationality adjectives alone remain ambiguous between geographic base and ownership/origin. Individual professionals, agencies as employers and sectors are other predicates.",
+  "facts": [
+    {
+      "case_id": "rel_369__ent_1147__ent_209",
+      "judgment": "supported",
+      "reason": "Yankee Group is explicitly a firm/company in Boston and based there.",
+      "evidence_lines": [
+        5763,
+        5764,
+        5767
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_369__ent_464__ent_221",
+      "judgment": "supported",
+      "reason": "International Data Corporation is explicitly a firm/company/organization based in Framingham.",
+      "evidence_lines": [
+        5813,
+        5814,
+        5815,
+        5820
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_369__ent_943__ent_1088",
+      "judgment": "supported",
+      "reason": "Forrester Research is explicitly a firm/company in and based in Cambridge.",
+      "evidence_lines": [
+        7127,
+        7128,
+        7129
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_369__ent_1165__ent_227",
+      "judgment": "ambiguous",
+      "reason": "The be-at and garden-at paths establish a Richmond Terrace location, but do not settle whether Snug Harbor is an organization/institutional site or only a geographic place.",
+      "evidence_lines": [
+        6195,
+        6200,
+        6202
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "Does Snug Harbor here denote an institution or organizational venue based at Richmond Terrace, or merely a geographic harbor/place?"
+    },
+    {
+      "case_id": "rel_369__ent_220__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar is explicitly a publisher and tracker in Chicago.",
+      "evidence_lines": [
+        5787,
+        5788
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "relation": "rel_394",
+  "predicate_id": "economist_for",
+  "label": "economist at organization",
+  "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+  "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment.",
+  "facts": [
+    {
+      "case_id": "rel_394__ent_852__ent_613",
+      "judgment": "ambiguous",
+      "reason": "Lawrence A. Kudlow → Bear: The economist title is explicit, but Bear leaves the employer materially truncated, matching the prior full-census boundary.",
+      "evidence_lines": [
+        2379,
+        2380,
+        2381,
+        2382,
+        2383,
+        2384
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Which fully named employer does Bear denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.772Z"
+      }
+    },
+    {
+      "case_id": "rel_394__ent_647__ent_429",
+      "judgment": "incorrect",
+      "reason": "Dodgers → Los Angeles: Sports movement, event participation or playing without a teammate does not establish economist service.",
+      "evidence_lines": [
+        4805,
+        4806,
+        4809
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.773Z"
+      }
+    },
+    {
+      "case_id": "rel_394__ent_321__ent_836",
+      "judgment": "incorrect",
+      "reason": "Mets → World Series: Sports movement, event participation or playing without a teammate does not establish economist service.",
+      "evidence_lines": [
+        2211,
+        3473
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.773Z"
+      }
+    },
+    {
+      "case_id": "rel_394__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: Sports movement, event participation or playing without a teammate does not establish economist service.",
+      "evidence_lines": [
+        3429,
+        4928
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.773Z"
+      }
+    }
+  ],
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "510b9bd101960e44433831b69c71b21b78883524a005431623e24df67de3d96c"
+}

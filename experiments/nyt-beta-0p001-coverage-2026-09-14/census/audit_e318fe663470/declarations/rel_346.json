@@ -1,0 +1,40 @@
+{
+  "relation": "rel_346",
+  "predicate_id": "fielded_player",
+  "predicate_version": 1,
+  "predicate_hash": "547799256eecbb3bf45e149a4195dd711ed04535c99a4f394abc0a4716404650",
+  "predicate": {
+    "id": "fielded_player",
+    "label": "fielded or used an athlete in play",
+    "definition": "Team, coach, or manager X fields or uses athlete Y in sporting play.",
+    "includes": [
+      "explicit playing or fielding of an individual athlete by a team or coach",
+      "historical use of the athlete in play"
+    ],
+    "excludes": [
+      "playing against an opposing team or competitor",
+      "mere player membership without X selecting or using the athlete",
+      "ordinary employment or political candidacy"
+    ],
+    "ambiguous": [
+      "generic removal without a clear sporting selection context",
+      "play whose athlete-versus-opponent role is unresolved",
+      "prospective selection or materially incomplete action roles"
+    ],
+    "notes": "The subject can be the coach rather than the team. Bare play is polysemous; inspect both arguments and all local evidence. Removing an athlete does not by itself establish that X fielded the athlete.",
+    "scope_notes": "Includes: explicit playing or fielding of an individual athlete by a team or coach; historical use of the athlete in play. Excludes: playing against an opposing team or competitor; mere player membership without X selecting or using the athlete; ordinary employment or political candidacy. Ambiguous unless resolved by case-local evidence: generic removal without a clear sporting selection context; play whose athlete-versus-opponent role is unresolved; prospective selection or materially incomplete action roles. The subject can be the coach rather than the team. Bare play is polysemous; inspect both arguments and all local evidence. Removing an athlete does not by itself establish that X fielded the athlete."
+  },
+  "dictionary_sha256": "9d390f2876e52879e0ae03e44141d5b00837764e5655c80e34070029bdf16f81",
+  "kind": "declared_before_case_grading",
+  "rationale": "Full literal role inspection separates three opposing-team play rows from two coach-to-player play rows. The latter plus three coach removal rows form a narrow sporting-selection family; removal alone is not sufficient to grade fielding as supported. Independently reviewed by Boyle; unrelated candidate/office roles excluded.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:21:54.274Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_346.before_grading.json",
+  "pregrading_annotation_sha256": "3ac9d39880b1fe83bda598a280b916b32e3aea2ff0a63c63d9b5535f0876da6e"
+}

@@ -1,0 +1,37 @@
+{
+  "relation": "rel_118",
+  "predicate_id": "economist_for",
+  "predicate_version": 1,
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate": {
+    "id": "economist_for",
+    "label": "economist at organization",
+    "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+    "includes": [
+      "explicit economist at/for/with/of",
+      "historical departmental economist affiliation"
+    ],
+    "excludes": [
+      "analyst/strategist/specialist/professor/executive alone",
+      "generic financial expertise"
+    ],
+    "ambiguous": [
+      "unclear economist/employer attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment."
+  },
+  "dictionary_sha256": "95629eb0e47f79975f77728dd740a57eb83f5479764d64a96bf469481aad5264",
+  "kind": "declared_before_case_grading",
+  "rationale": "Literal-role inspection separates Colts in Indianapolis (geographic venue) from Patriots in Super Bowl (event). Three explicit economist rows are the largest specific coherent title family; geographical face-in cannot be pooled into sporting-event participation. Independently adjudicated by Boyle.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:27:10.720Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_118.before_grading.json",
+  "pregrading_annotation_sha256": "de0e0f7500f6848b78c5539449dcf068f61b4ccd66c0c053e8270d8815e4291b"
+}

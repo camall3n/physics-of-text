@@ -1,0 +1,59 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_20",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_20__ent_389__ent_146"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Directorship is explicit but the specific District Council is not fully identified.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete District Council is Stanley Hill director of?"
+    },
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_20__ent_773__ent_523",
+        "rel_20__ent_914__ent_586"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit director-of or director title establishes the institutional directorship.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_20__ent_916__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Counselor, speaking-at and the word direction do not supply the specific director title.",
+      "tags": [
+        "wrong_occupation"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a674a6afd5cdcb9e63fdf9209fd19b7c8cf4496a4e17842bec4a9dfa4c8e603c"
+}

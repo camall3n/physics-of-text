@@ -1,0 +1,290 @@
+{
+  "relation": "rel_265",
+  "predicate_id": "professor_at",
+  "label": "professor or university teacher at",
+  "definition": "Person X is a professor or teaches at academic institution Y.",
+  "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment.",
+  "facts": [
+    {
+      "case_id": "rel_265__ent_157__ent_634",
+      "judgment": "ambiguous",
+      "reason": "Andrew Zimbalist → Smith College; Mr. Bush → Mr. Kerry: Qualifying professor evidence is merged with an incompatible Bush-to-Kerry pair in this same inferred fact.",
+      "evidence_lines": [
+        312,
+        314,
+        315,
+        317,
+        319,
+        1586
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should the Zimbalist/Smith College fact be separated from Bush/Kerry?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_398__ent_155",
+      "judgment": "supported",
+      "reason": "Stephen Gillers → New York University: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        296,
+        297,
+        299,
+        300,
+        301
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.916Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_1200__ent_353",
+      "judgment": "incorrect",
+      "reason": "Riley → Smith: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        1525,
+        1528,
+        1530,
+        1531,
+        1533
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_528__ent_358",
+      "judgment": "supported",
+      "reason": "Loren Thompson → Lexington Institute: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        579,
+        581,
+        586,
+        588
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_1006__ent_155",
+      "judgment": "supported",
+      "reason": "Robert Berne → New York University: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        752,
+        753,
+        757,
+        758
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_597__ent_1236",
+      "judgment": "incorrect",
+      "reason": "Van Gundy → Johnson: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        1605,
+        1607,
+        1608,
+        1613
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_148__ent_163",
+      "judgment": "supported",
+      "reason": "Fred Siegel → Cooper Union: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        345,
+        352,
+        353
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_780__ent_529",
+      "judgment": "incorrect",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        589,
+        596,
+        598
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_391__ent_149",
+      "judgment": "supported",
+      "reason": "Ross K. Baker → Rutgers University: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        341,
+        344
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_969__ent_156",
+      "judgment": "supported",
+      "reason": "David Rebovich → Rider University: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        288
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_279__ent_194",
+      "judgment": "supported",
+      "reason": "Dr. Arthur Caplan → University of Pennsylvania: A local professor or teaches-at row establishes the academic teaching affiliation.",
+      "evidence_lines": [
+        515
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_141__ent_522",
+      "judgment": "incorrect",
+      "reason": "Charles M. Elson → University of Delaware: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        545
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_1431__ent_1446",
+      "judgment": "incorrect",
+      "reason": "John Casesa → Merrill Lynch: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        575
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_935__ent_113",
+      "judgment": "incorrect",
+      "reason": "Torre → Williams: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        1535
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_625__ent_1371",
+      "judgment": "incorrect",
+      "reason": "Fox → News Corporation: The complete evidence shows sports interactions, analysis, expert status or corporate ownership without a professor/teaching assertion.",
+      "evidence_lines": [
+        2518
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:03:49.917Z"
+      }
+    }
+  ],
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f3b44ceacad00be9fc9a158d22830531a2aa2a630c4f681e04fbf028cf17588f"
+}

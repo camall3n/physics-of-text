@@ -1,0 +1,58 @@
+{
+  "relation": "rel_213",
+  "predicate_id": "owns",
+  "label": "owns organization or asset",
+  "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+  "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+  "facts": [
+    {
+      "case_id": "rel_213__ent_1101__ent_1198",
+      "judgment": "incorrect",
+      "reason": "Jews → Poland: The evidence describes migration, remaining, dying, and roundup in Poland; it does not express ownership.",
+      "evidence_lines": [
+        6096,
+        6097,
+        6099,
+        6100,
+        6101,
+        6103,
+        6104
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.272Z"
+      }
+    },
+    {
+      "case_id": "rel_213__ent_935__ent_931",
+      "judgment": "ambiguous",
+      "reason": "Ameritech → Bell: Parent-of-company paths suggest corporate ownership, but Bell is an incomplete company-family name and the other company paths do not establish which Bell entity is the owned company.",
+      "evidence_lines": [
+        6844,
+        6845,
+        6846,
+        6847,
+        6848,
+        6849,
+        6850
+      ],
+      "issue_tags": [
+        "incomplete_entity_name"
+      ],
+      "reviewer_question": "Which specific Bell company is the ownership target of Ameritech here?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.272Z"
+      }
+    }
+  ],
+  "predicate_hash": "64b91b4d898a9f3ed81be865b382e684bfc0db4150c5d04790c534e2d3b1cb74",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "62391105df66203f2e216965345397720f6815b42bfa6d6bb296f36eecb36b22"
+}

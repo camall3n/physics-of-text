@@ -1,0 +1,73 @@
+{
+  "relation": "rel_147",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_147__ent_887__ent_333",
+      "judgment": "incorrect",
+      "reason": "Daniel → Manhattan: Obituary/place or sporting championship banner references do not establish political leadership.",
+      "evidence_lines": [
+        3996,
+        3997,
+        3998,
+        4000,
+        4004
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.891Z"
+      }
+    },
+    {
+      "case_id": "rel_147__ent_69__ent_67",
+      "judgment": "ambiguous",
+      "reason": "Bosnian Serb → Radovan Karadzic: Bosnian Serb is an incomplete ethnic/political body argument despite leader wording.",
+      "evidence_lines": [
+        7698,
+        7700,
+        7703,
+        7704,
+        7705
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named political body does Bosnian Serb denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.891Z"
+      }
+    },
+    {
+      "case_id": "rel_147__ent_110__ent_851",
+      "judgment": "incorrect",
+      "reason": "Devils → Stanley Cup: Obituary/place or sporting championship banner references do not establish political leadership.",
+      "evidence_lines": [
+        2231,
+        7730,
+        8043
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.891Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "32bc4280cea4858897c820057526f0825f7bebd127d4f727f69f18051c1d29d7"
+}

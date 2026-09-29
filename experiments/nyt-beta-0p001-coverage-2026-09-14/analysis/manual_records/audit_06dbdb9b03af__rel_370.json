@@ -1,0 +1,104 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_370",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_370__ent_1004__ent_843",
+        "rel_370__ent_1004__ent_572",
+        "rel_370__ent_647__ent_323",
+        "rel_370__ent_884__ent_429",
+        "rel_370__ent_198__ent_450",
+        "rel_370__ent_316__ent_1002",
+        "rel_370__ent_884__ent_83",
+        "rel_370__ent_180__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "At least one direct leave or move-from/out-of row establishes physical departure from the geographic source.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_370__ent_827__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leaving and returning to the White House may mean physical departure or leaving/returning to an institutional office; the supplied paths do not resolve the sense.",
+      "tags": [
+        "place_institution_metonymy"
+      ],
+      "question": "Does leave the White House denote physical departure here, rather than departure from office?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_370__ent_356__ent_308"
+      ],
+      "judgment": "incorrect",
+      "reason": "Returning to a sports team is neither departure nor a geographic source.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        11,
+        12
+      ],
+      "case_ids": [
+        "rel_370__ent_564__ent_1017",
+        "rel_370__ent_1018__ent_1019",
+        "rel_370__ent_313__ent_555"
+      ],
+      "judgment": "incorrect",
+      "reason": "The only supplied evidence establishes birth in the place, not departure.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_370__ent_889__ent_561"
+      ],
+      "judgment": "incorrect",
+      "reason": "Leaving a sports team denotes employment/team affiliation rather than physical departure from a geographic place.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "767a0d61bd67fd7c0bedda7d9bd1a3f6b4c6aa780f654d47731a704633719ec4"
+}

@@ -1,0 +1,48 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_220",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_220__ent_891__ent_651",
+        "rel_220__ent_44__ent_43",
+        "rel_220__ent_891__ent_890"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit possessive lawyer/counsel evidence establishes the inverse client-to-lawyer relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_220__ent_308__ent_356"
+      ],
+      "judgment": "incorrect",
+      "reason": "Keeping Ewing on a team does not identify him as the team's lawyer.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "cdbafe4960e8b888586053842f917a85d8360d6b599c6e6405c8f5b049315071"
+}

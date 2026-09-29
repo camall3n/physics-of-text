@@ -1,0 +1,59 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_202",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_202__ent_1288__ent_181",
+        "rel_202__ent_1288__ent_189",
+        "rel_202__ent_1238__ent_189"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit testimony before or to the named legislature or committee establishes communicative address.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_202__ent_189__ent_1415"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The paths link congressional members summoned to the White House and a congressional leadership argument, leaving the speaker and institutional addressee attribution unresolved.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does the source attribute a message from Congress to the White House, or summon Congress in the reverse direction?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_202__ent_1130__ent_443"
+      ],
+      "judgment": "incorrect",
+      "reason": "Having a virus that causes AIDS is not communicative address.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c7ca394f5d3b553def5926cb7c96efb8b9a275482a643d077fc7910b9fe9d1ce"
+}

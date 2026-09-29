@@ -1,0 +1,141 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_19",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "case_ids": [
+        "rel_19__ent_380__ent_0",
+        "rel_19__ent_4__ent_3",
+        "rel_19__ent_380__ent_138",
+        "rel_19__ent_886__ent_302",
+        "rel_19__ent_134__ent_376",
+        "rel_19__ent_382__ent_143",
+        "rel_19__ent_152__ent_394",
+        "rel_19__ent_151__ent_393",
+        "rel_19__ent_396__ent_153",
+        "rel_19__ent_580__ent_341",
+        "rel_19__ent_895__ent_410",
+        "rel_19__ent_438__ent_1135",
+        "rel_19__ent_205__ent_0",
+        "rel_19__ent_691__ent_690",
+        "rel_19__ent_249__ent_262",
+        "rel_19__ent_678__ent_302",
+        "rel_19__ent_208__ent_1145",
+        "rel_19__ent_370__ent_127",
+        "rel_19__ent_387__ent_144",
+        "rel_19__ent_689__ent_1144",
+        "rel_19__ent_371__ent_132",
+        "rel_19__ent_137__ent_379",
+        "rel_19__ent_139__ent_379",
+        "rel_19__ent_154__ent_379",
+        "rel_19__ent_1025__ent_1026",
+        "rel_19__ent_582__ent_101",
+        "rel_19__ent_591__ent_110",
+        "rel_19__ent_491__ent_54",
+        "rel_19__ent_295__ent_294",
+        "rel_19__ent_447__ent_0",
+        "rel_19__ent_295__ent_14",
+        "rel_19__ent_416__ent_658",
+        "rel_19__ent_1109__ent_1108"
+      ],
+      "judgment": "supported",
+      "reason": "The complete local evidence directly establishes a chairman, director, head, executive, president, or equivalent managerial office in the named institution. Founder/owner and incidental paths are only accompanying evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        28
+      ],
+      "case_ids": [
+        "rel_19__ent_490__ent_51"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Taxi is an incomplete institutional argument despite clear head/chairman/chief wording.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which full commission or institution does Taxi denote?"
+    },
+    {
+      "indices": [
+        34
+      ],
+      "case_ids": [
+        "rel_19__ent_875__ent_632"
+      ],
+      "judgment": "incorrect",
+      "reason": "The sole row gives a death at a home in Sunset Beach, without a managerial office.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    19,
+    22,
+    23,
+    24,
+    25,
+    26,
+    29,
+    30,
+    32,
+    33
+  ],
+  "broad": []
+}

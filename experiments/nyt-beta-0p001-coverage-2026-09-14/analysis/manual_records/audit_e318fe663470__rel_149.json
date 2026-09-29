@@ -1,0 +1,56 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_149",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_149__ent_321__ent_600"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit completed loss to the Cubs establishes competition against that opponent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_149__ent_182__ent_1085"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Electoral competition with Al Gore is merged with a wife/family row naming Laura as the same inferred object.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Al Gore and Laura be separate entities, and which opponent is intended?"
+    },
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_149__ent_24__ent_1381",
+        "rel_149__ent_758__ent_537"
+      ],
+      "judgment": "incorrect",
+      "reason": "National business/oil context or public attorney office does not establish competition against the second argument.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f751aad25b904ecfb36bf47a42868baad300d57fa6954258e12307ba2cdc2b58"
+}

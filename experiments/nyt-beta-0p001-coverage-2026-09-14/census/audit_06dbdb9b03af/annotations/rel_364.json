@@ -1,0 +1,113 @@
+{
+  "relation": "rel_364",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_364__ent_815__ent_454",
+      "judgment": "supported",
+      "reason": "Russia → Vladimir V. Putin: The complete saved communiqué path explicitly identifies Vladimir V Putin as president of Russia.",
+      "evidence_lines": [
+        5357,
+        5359,
+        5361,
+        5362,
+        5363,
+        5364
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.238Z"
+      }
+    },
+    {
+      "case_id": "rel_364__ent_515__ent_757",
+      "judgment": "incorrect",
+      "reason": "Mr. Rushdie → Bombay: Birthplace, sporting-event participation or forward person-to-minister-office direction does not establish political body having a named leader.",
+      "evidence_lines": [
+        8402,
+        8404,
+        8405,
+        8406,
+        8408,
+        8409
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.238Z"
+      }
+    },
+    {
+      "case_id": "rel_364__ent_497__ent_255",
+      "judgment": "ambiguous",
+      "reason": "Yugoslav → Slobodan Milosevic: Yugoslav is an incomplete national adjective rather than the fully identified political body.",
+      "evidence_lines": [
+        6732,
+        6733,
+        6734,
+        6735,
+        6736
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Yugoslav country or political body is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.238Z"
+      }
+    },
+    {
+      "case_id": "rel_364__ent_600__ent_836",
+      "judgment": "incorrect",
+      "reason": "Cubs → World Series: Birthplace, sporting-event participation or forward person-to-minister-office direction does not establish political body having a named leader.",
+      "evidence_lines": [
+        2273,
+        7770
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.238Z"
+      }
+    },
+    {
+      "case_id": "rel_364__ent_247__ent_489",
+      "judgment": "incorrect",
+      "reason": "Louis Farrakhan → Nation of Islam: Birthplace, sporting-event participation or forward person-to-minister-office direction does not establish political body having a named leader.",
+      "evidence_lines": [
+        2952,
+        4974
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.238Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a512e25e7dd9026a68a9a3a92e855437782d0f90dbc932610294a25dfabf8cb4"
+}

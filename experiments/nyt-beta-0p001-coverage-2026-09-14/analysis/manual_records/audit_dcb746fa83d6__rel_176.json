@@ -1,0 +1,56 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_176",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_176__ent_819__ent_816",
+        "rel_176__ent_816__ent_819"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit voted-with identifies a shared realized voting action.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_176__ent_639__ent_1107"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Join-with omits the shared action and outnumbering does not establish cooperation.",
+      "tags": [
+        "missing_action"
+      ],
+      "question": "What specific action did Democrats and Republicans undertake jointly?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_176__ent_24__ent_1240"
+      ],
+      "judgment": "incorrect",
+      "reason": "Oil-consumption and industrial competition context does not assert a joint action.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7eef50b79357bf436e86abb06a781ae0d86c17d174ed8b9fc24eac736a22c377"
+}

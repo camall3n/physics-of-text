@@ -1,0 +1,42 @@
+{
+  "relation": "rel_318",
+  "predicate_id": "event_held_in",
+  "predicate_version": 1,
+  "predicate_hash": "67acf758f49106bf3a72ab77287788b1b68696cdea0e0fc36740915094c6350c",
+  "predicate": {
+    "id": "event_held_in",
+    "label": "event held in place",
+    "definition": "Event X takes or took place in geographic location Y.",
+    "includes": [
+      "explicit event held-in or occurring-in Y",
+      "an event actually brought to or taking place in Y",
+      "historical event location"
+    ],
+    "excludes": [
+      "a team's organizational location or ordinary person travel",
+      "attendance originating from Y",
+      "a place merely bidding or competing to host X",
+      "discussion of an event in a publication"
+    ],
+    "ambiguous": [
+      "proposed, hoped-for, or future hosting without realization",
+      "generic have/bring/lure with missing modality",
+      "place versus institution or event identity unresolved"
+    ],
+    "notes": "This requires event occurrence at the location, not only a bid or planned destination.",
+    "scope_notes": "Includes: explicit event held-in or occurring-in Y; an event actually brought to or taking place in Y; historical event location. Excludes: a team's organizational location or ordinary person travel; attendance originating from Y; a place merely bidding or competing to host X; discussion of an event in a publication. Ambiguous unless resolved by case-local evidence: proposed, hoped-for, or future hosting without realization; generic have/bring/lure with missing modality; place versus institution or event identity unresolved. This requires event occurrence at the location, not only a bid or planned destination."
+  },
+  "dictionary_sha256": "6c9f5d02c0c34001afa5512fda170efddaab874f456dc3b5fe35413aeacc6192",
+  "kind": "declared_before_case_grading",
+  "rationale": "Held-in and coming/enticing/luring an event to a city form the dominant event-location family; actual occurrence is not inferred from bids alone.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:28:34.978Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_318.before_grading.json",
+  "pregrading_annotation_sha256": "3647b8f51281e7d61bdf2e6e0f4dec0691d902e06d9607c095d81e7b8b6a223f"
+}

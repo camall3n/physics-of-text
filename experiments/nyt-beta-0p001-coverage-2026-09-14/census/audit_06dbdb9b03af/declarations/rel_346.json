@@ -1,0 +1,49 @@
+{
+  "relation": "rel_346",
+  "predicate_id": "lawyer_for",
+  "predicate_version": 1,
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate": {
+    "id": "lawyer_for",
+    "label": "lawyer or attorney for",
+    "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+    "includes": [
+      "explicit lawyer/attorney/counsel for/at/with client or employer",
+      "legal employment at a firm",
+      "explicit governmental attorney office for a jurisdiction"
+    ],
+    "excludes": [
+      "private lawyer merely located in a city",
+      "spokesperson/director/lobbyist alone",
+      "reverse client-to-lawyer direction"
+    ],
+    "ambiguous": [
+      "city as location versus represented jurisdiction",
+      "firm partner without a clear legal-role attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment."
+  },
+  "dictionary_sha256": "e7260d128193a7357c0a2aad945687492593ff5066633f024604c73a17edd444",
+  "kind": "declared_before_case_grading",
+  "rationale": "Attorney/counsel/lawyer affiliation dominates; directors alone are excluded.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:13:38.311Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_346.before_grading.json",
+  "pregrading_annotation_sha256": "2d16fa2900655989ce274dbee79a30efd354624919323169b36eb42104ae4866"
+}

@@ -1,0 +1,84 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_93",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        6
+      ],
+      "case_ids": [
+        "rel_93__ent_1252__ent_810",
+        "rel_93__ent_1412__ent_1351"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit institutional membership or entry into the WTO establishes membership in the stated international body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_93__ent_6__ent_1422",
+        "rel_93__ent_251__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Enter White House and associated office/storage/staff wording do not resolve institutional service versus entry into the building.",
+      "tags": [
+        "institution_place_ambiguity"
+      ],
+      "question": "Do these rows establish institutional membership rather than physical entry or another person's staff role?"
+    },
+    {
+      "indices": [
+        5,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_93__ent_1444__ent_486",
+        "rel_93__ent_263__ent_244",
+        "rel_93__ent_7__ent_243"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Sit-on-committee wording identifies membership but the person is only an unnamed Republican or Democrat.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which named committee member is intended?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        7,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_93__ent_197__ent_586",
+        "rel_93__ent_606__ent_534",
+        "rel_93__ent_1383__ent_1009",
+        "rel_93__ent_820__ent_941",
+        "rel_93__ent_1421__ent_941"
+      ],
+      "judgment": "incorrect",
+      "reason": "Physical entry/arrival, company-name co-subjects or incidental appositives do not establish institutional membership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f2c910dd5175c2ad45b6ca875a9c7116589896f04f54f098e9a326078e7931b3"
+}

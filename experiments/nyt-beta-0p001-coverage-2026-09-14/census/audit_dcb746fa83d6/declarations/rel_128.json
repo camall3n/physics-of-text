@@ -1,0 +1,56 @@
+{
+  "relation": "rel_128",
+  "predicate_id": "present_in",
+  "predicate_version": 1,
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate": {
+    "id": "present_in",
+    "label": "physically present in place",
+    "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+    "includes": [
+      "explicit unqualified physical be-in or presence",
+      "a direct residence or physical location statement",
+      "a completed arrival, visit, or departure that establishes presence in Y"
+    ],
+    "excludes": [
+      "membership in an organization",
+      "participation or victory in a nongeographic event",
+      "political office or control alone",
+      "discussion, publication, or other abstract presence",
+      "a destination without evidence of realized movement or presence"
+    ],
+    "ambiguous": [
+      "place-versus-institution metonymy",
+      "an incomplete geographic argument",
+      "uncertain attachment or explicit hypothetical presence"
+    ],
+    "notes": "Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+    "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation."
+  },
+  "dictionary_sha256": "13a5e357ca6e0a1cc898a8ad592d360008be90fbff1ff32ee1939d2118985060",
+  "kind": "declared_before_case_grading",
+  "rationale": "Geographic come/be-in/held-in/say-in form the largest physical presence family after argument inspection. Future Olympic hosting, political White House metonymy and publication-in are not assumed physical presence.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.408Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    9,
+    12,
+    13
+  ],
+  "competing_meanings": [
+    "future event hosting",
+    "political office",
+    "publication"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_128.before_grading.json",
+  "pregrading_annotation_sha256": "c29718e1545edf1cc05a123c56d06c21cb0fe1898a18e522bb37ffd83a52d153"
+}

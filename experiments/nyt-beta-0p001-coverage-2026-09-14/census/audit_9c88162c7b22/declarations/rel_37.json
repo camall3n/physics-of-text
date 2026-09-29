@@ -1,0 +1,44 @@
+{
+  "relation": "rel_37",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "e84914a6ef900f85bf564898dc590d7398524122a2046046958032592d150871",
+  "kind": "declared_before_case_grading",
+  "rationale": "Territorial capture/seizure by political forces dominates the political-control sense allowed by the frozen scope; capturing a sporting cup remains a distinct meaning.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.928Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    5,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_37.before_grading.json",
+  "pregrading_annotation_sha256": "4c3139f0c314baf8d8eafdd8feace65203a8e3fb7c2bbcd2b563dbecb8723752"
+}

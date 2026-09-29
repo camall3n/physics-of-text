@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_303",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_303__ent_406__ent_333"
+      ],
+      "judgment": "incorrect",
+      "reason": "The first argument is a person and second a place in residence/relative rows, not a political body with a leader.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_303__ent_798__ent_455"
+      ],
+      "judgment": "supported",
+      "reason": "Possessive president attachments and the named apposition identify Taiwan's political leader.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_303__ent_497__ent_255"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Yugoslav is a national adjective without the complete country or governmental body.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete Yugoslav political body is associated with the leadership title?"
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "869f7328a2e0d80479910d05ff37b1f792cf41d810377d555b57845e9ded5dd3"
+}

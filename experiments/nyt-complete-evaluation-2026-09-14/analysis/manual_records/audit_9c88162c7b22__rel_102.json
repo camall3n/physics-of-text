@@ -1,0 +1,102 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_102",
+  "cases_sha256": "5d28482046f6f15c177540d41599e61bdd2b1cd7e9d471ac1029ce0160ab0b43",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17
+      ],
+      "case_ids": [
+        "rel_102__ent_268__ent_1197",
+        "rel_102__ent_268__ent_1139",
+        "rel_102__ent_131__ent_373",
+        "rel_102__ent_261__ent_1197",
+        "rel_102__ent_264__ent_811",
+        "rel_102__ent_1132__ent_436",
+        "rel_102__ent_265__ent_1197",
+        "rel_102__ent_68__ent_811",
+        "rel_102__ent_676__ent_1131",
+        "rel_102__ent_402__ent_644",
+        "rel_102__ent_1130__ent_434",
+        "rel_102__ent_261__ent_263",
+        "rel_102__ent_267__ent_1197",
+        "rel_102__ent_267__ent_263"
+      ],
+      "judgment": "supported",
+      "reason": "Direct leader or legislative leadership evidence supports leadership of the identified organization or political group.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8,
+        10,
+        16
+      ],
+      "case_ids": [
+        "rel_102__ent_67__ent_69",
+        "rel_102__ent_34__ent_37",
+        "rel_102__ent_264__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A singular nationality or adjectival political descriptor leaves the full political group or body incomplete.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What complete political body or people group is intended?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_102__ent_815__ent_537"
+      ],
+      "judgment": "incorrect",
+      "reason": "Communication or migration between countries does not establish a person holding organizational leadership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_102__ent_968__ent_981"
+      ],
+      "judgment": "incorrect",
+      "reason": "Receiving the Nobel Peace Prize does not make the recipient a leader of that prize.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3,
+    4,
+    5,
+    7,
+    15
+  ],
+  "broad": []
+}

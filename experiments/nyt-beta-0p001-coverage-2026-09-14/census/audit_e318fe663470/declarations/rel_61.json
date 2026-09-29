@@ -1,0 +1,39 @@
+{
+  "relation": "rel_61",
+  "predicate_id": "chairs_or_heads",
+  "predicate_version": 1,
+  "predicate_hash": "6878774795bd285dbc60353115335f7e766252e8a03703fe835115aafc069c17",
+  "predicate": {
+    "id": "chairs_or_heads",
+    "label": "chairs or heads organization",
+    "definition": "Person X holds or held a chair or organizational head/leader office in organization or committee Y.",
+    "includes": [
+      "explicit chair/head/organizational leader",
+      "historical chair or head office"
+    ],
+    "excludes": [
+      "ordinary member/serve-on/sit-on",
+      "generic executive/director/president without chair/head role",
+      "chair of a panel as proof of chairing its parent organization"
+    ],
+    "ambiguous": [
+      "incomplete panel/parent attachment",
+      "unnamed person identified only by party"
+    ],
+    "notes": "This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases.",
+    "scope_notes": "Includes: explicit chair/head/organizational leader; historical chair or head office. Excludes: ordinary member/serve-on/sit-on; generic executive/director/president without chair/head role; chair of a panel as proof of chairing its parent organization. Ambiguous unless resolved by case-local evidence: incomplete panel/parent attachment; unnamed person identified only by party. This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases."
+  },
+  "dictionary_sha256": "9ece3cc196afa4f6d71f9c3c2b43739b2513bc9dfd08c33274cf05e40257b7b5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Chairman, chair and head paths form the dominant leadership family; membership and serving-on alone do not establish chair/head status.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.634Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_61.before_grading.json",
+  "pregrading_annotation_sha256": "b93b9f86bd661cce8cffc337820c86b4fee078031fda6f07f617b415e15dcaa7"
+}

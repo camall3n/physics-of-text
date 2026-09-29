@@ -1,0 +1,65 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_380",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_380__ent_68__ent_1326",
+        "rel_380__ent_796__ent_311",
+        "rel_380__ent_1250__ent_1299"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit leader-in or president-in-department-at title establishes leadership within the identified body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_380__ent_263__ent_1171",
+        "rel_380__ent_263__ent_30"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Republican is an unnamed person descriptor occupying the leader argument; the chairman role does not identify the officeholder.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which Republican person holds the stated chair office?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_380__ent_873__ent_443"
+      ],
+      "judgment": "incorrect",
+      "reason": "A medical condition does not establish organizational leadership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [
+    1
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "57213fc2d9a48ac0cc95947ce6a7389e86c6c20ef6eb912ac52d4a9981129664"
+}

@@ -1,0 +1,42 @@
+{
+  "relation": "rel_95",
+  "predicate_id": "has_member",
+  "predicate_version": 1,
+  "predicate_hash": "e06c2b4086768dca86ee7554ab8de61a903529610ffb5a9e45977f36ffeb0d6a",
+  "predicate": {
+    "id": "has_member",
+    "label": "has member",
+    "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+    "includes": [
+      "explicit membership or being included as a group member",
+      "a clearly established office or athlete role that entails membership of the stated group",
+      "historical membership"
+    ],
+    "excludes": [
+      "corporate subsidiary ownership without membership in an explicitly identified group",
+      "a geographic area containing a place",
+      "ordinary accompaniment or a meeting",
+      "planned membership without established admission"
+    ],
+    "ambiguous": [
+      "generic include or join without group-membership context",
+      "unclear group versus geographic or corporate containment",
+      "proposed admission or unresolved member identity"
+    ],
+    "notes": "Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+    "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient."
+  },
+  "dictionary_sha256": "cc2d986421172f66a4a2753a45facb065981f9b0e49eb828cf7950b3e7e9654d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Include and led-by paths with parties/teams to named people form the dominant membership family after role inspection. Geographic containment is a competing meaning, not included in the predicate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.789Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_95.before_grading.json",
+  "pregrading_annotation_sha256": "e40e393f6b40756478b8b76aa411b89bbe9f62e00b1dfa9b279f53dfc0362dc0"
+}

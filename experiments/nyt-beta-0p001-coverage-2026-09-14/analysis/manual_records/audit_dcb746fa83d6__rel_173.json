@@ -1,0 +1,67 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_173",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_173__ent_182__ent_1439",
+        "rel_173__ent_150__ent_716",
+        "rel_173__ent_819__ent_564",
+        "rel_173__ent_74__ent_1107"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit political criticism or a directed verbal attack establishes criticism.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        7
+      ],
+      "case_ids": [
+        "rel_173__ent_537__ent_492",
+        "rel_173__ent_1426__ent_852"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Country attack paths do not resolve military attack versus verbal criticism.",
+      "tags": [
+        "military_verbal_attack"
+      ],
+      "question": "Does attack describe armed action or directed criticism in the original sentence?"
+    },
+    {
+      "indices": [
+        1,
+        5
+      ],
+      "case_ids": [
+        "rel_173__ent_820__ent_709",
+        "rel_173__ent_570__ent_659"
+      ],
+      "judgment": "incorrect",
+      "reason": "Inverse minister identification or geographic station location does not establish criticism.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "41764252a842525c29daf4607f5e3f20c4ebb67a222838d2e4b14f2c6173eb3c"
+}

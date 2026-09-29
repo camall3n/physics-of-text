@@ -1,0 +1,55 @@
+{
+  "relation": "rel_0",
+  "predicate_id": "trailed_competitor",
+  "label": "trailed sporting competitor",
+  "definition": "Sporting competitor X was behind competitor Y in a game score or competitive standings.",
+  "scope_notes": "Includes: explicit trail or games-behind; explicit lower score or standings position relative to Y; historical in-game or season standings. Excludes: a completed defeat without evidence of trailing during play or in standings; political or commercial ranking; ordinary following or geographic movement; X leading or ahead of Y. Ambiguous unless resolved by case-local evidence: a generic behind phrase without competitive context; unclear ordered competitor roles; a proposed or hypothetical score situation. Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor.",
+  "facts": [
+    {
+      "case_id": "rel_0__ent_1004__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: Direct trail establishes that the subject was behind the named opposing team.",
+      "evidence_lines": [
+        885,
+        890,
+        2585,
+        2590,
+        3138,
+        3143,
+        6901,
+        6906
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.114Z"
+      }
+    },
+    {
+      "case_id": "rel_0__ent_309__ent_1004",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: Direct trail establishes that the subject was behind the named opposing team.",
+      "evidence_lines": [
+        866,
+        2666,
+        6932
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.114Z"
+      }
+    }
+  ],
+  "predicate_hash": "74d4f6546f462ba6e3f3655a4dd45292828985f90a748c94ef37514e311e1cdc",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ed69e392f833f0c2b7be9962eb48b71d20922c4fc86b8edda05bbe0d537818e8"
+}

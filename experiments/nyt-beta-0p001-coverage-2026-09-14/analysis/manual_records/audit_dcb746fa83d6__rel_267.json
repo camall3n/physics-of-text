@@ -1,0 +1,61 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_267",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_267__ent_152__ent_1223",
+        "rel_267__ent_1277__ent_302",
+        "rel_267__ent_447__ent_0"
+      ],
+      "judgment": "supported",
+      "reason": "Direct chair title establishes office, independently of founding or prior governor roles.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_267__ent_30__ent_1305"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Chair is explicit but Democratic is a truncated political-body adjective.",
+      "tags": [
+        "truncated_political_body"
+      ],
+      "question": "Which complete institution is the chair office in?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_267__ent_843__ent_1210"
+      ],
+      "judgment": "incorrect",
+      "reason": "Agency location and corporate unit paths do not identify a person chair.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5e0587aec2ce56b3500b1947d33a9d7d094999811eacabc41efd03d5881af981"
+}

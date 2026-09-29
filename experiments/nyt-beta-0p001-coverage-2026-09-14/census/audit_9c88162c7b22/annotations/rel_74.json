@@ -1,0 +1,77 @@
+{
+  "relation": "rel_74",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_74__ent_1039__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Scott McClellan → White House: Secretary and a relative clause about a White House spokesman do not clearly attach the spokesman role to Scott McClellan himself.",
+      "evidence_lines": [
+        1347,
+        1350,
+        1351,
+        1352,
+        1354,
+        1355
+      ],
+      "issue_tags": [
+        "spokesperson_attachment"
+      ],
+      "reviewer_question": "Does the relative-clause spokesman denote Scott McClellan, or another speaker?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.391Z"
+      }
+    },
+    {
+      "case_id": "rel_74__ent_98__ent_93",
+      "judgment": "incorrect",
+      "reason": "Federal National Mortgage Association → Fannie Mae: An institutional alternative name is not a person serving as spokesperson.",
+      "evidence_lines": [
+        5568,
+        5569,
+        5571,
+        5572,
+        5573
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.391Z"
+      }
+    },
+    {
+      "case_id": "rel_74__ent_578__ent_586",
+      "judgment": "incorrect",
+      "reason": "Michael D. McCurry → White House: Secretary and saying a review alone do not establish the specifically required spokesperson role.",
+      "evidence_lines": [
+        1365,
+        1370,
+        1371
+      ],
+      "issue_tags": [
+        "secretary_only"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.391Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "29d1c3413ea85d7dbcfb258b8b56e80fe9fdc1bab76e140ca43947e758aa4a7a"
+}

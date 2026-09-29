@@ -1,0 +1,78 @@
+{
+  "relation": "rel_350",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_350__ent_1396__ent_347",
+      "judgment": "incorrect",
+      "reason": "Phil Esposito → Rangers: Running a team or a manager dismissal does not establish the specific director title.",
+      "evidence_lines": [
+        3399,
+        3400,
+        3403,
+        3404,
+        3405,
+        3406
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.878Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_18__ent_13",
+      "judgment": "supported",
+      "reason": "Thomas Krens → Guggenheim: Direct director title, appointment or rise as director establishes the institutional directorship.",
+      "evidence_lines": [
+        3558,
+        3560,
+        3562,
+        3563,
+        3564,
+        3565
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.878Z"
+      }
+    },
+    {
+      "case_id": "rel_350__ent_912__ent_918",
+      "judgment": "supported",
+      "reason": "J. Edgar Hoover → F.B.I.: Direct director title, appointment or rise as director establishes the institutional directorship.",
+      "evidence_lines": [
+        8493,
+        8495,
+        8496,
+        8501,
+        8502
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.878Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "56320a3b2b2a6e4848bea167c70ed2369d2a6c429e95d5ab4064c976691a7077"
+}

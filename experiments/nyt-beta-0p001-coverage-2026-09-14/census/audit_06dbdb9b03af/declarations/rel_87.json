@@ -1,0 +1,52 @@
+{
+  "relation": "rel_87",
+  "predicate_id": "has_minister",
+  "predicate_version": 1,
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate": {
+    "id": "has_minister",
+    "label": "has minister",
+    "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+    "includes": [
+      "explicit minister of X or X's minister",
+      "a portfolio or prime minister office explicitly attached to X",
+      "historical ministerial office"
+    ],
+    "excludes": [
+      "ordinary official, ambassador, or opposition politician without minister title",
+      "a minister of a different government merely meeting X",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "an incomplete national adjective in the institution slot",
+      "minister-designate without established tenure",
+      "unclear portfolio or government attachment"
+    ],
+    "notes": "The inverse ministerial office does not assert that every minister is the head of government.",
+    "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government."
+  },
+  "dictionary_sha256": "bdc4d44a7ee6c7ddfc06fb634fbd3d0fae24ae6da8d8b05ea2160cd2f9489bf5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Minister appositive/possessive dominates the complete dictionary; actual roles are country to person. This is the minister title, without an unsupported prime-minister/head-of-government assumption.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:09:10.643Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    22
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_87.before_grading.json",
+  "pregrading_annotation_sha256": "fba13e95965808cbdbddd634b924809f6a8a48a89775afcc95500aa15ac846e6"
+}

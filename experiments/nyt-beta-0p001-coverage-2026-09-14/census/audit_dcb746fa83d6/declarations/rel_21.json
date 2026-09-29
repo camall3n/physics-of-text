@@ -1,0 +1,35 @@
+{
+  "relation": "rel_21",
+  "predicate_id": "coach_of",
+  "predicate_version": 1,
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate": {
+    "id": "coach_of",
+    "label": "coach of",
+    "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+    "includes": [
+      "explicit coach title",
+      "direct coaching with correct subject and team",
+      "former/dismissed coach with clear office evidence",
+      "team/university shorthand when the athletic program role is clear"
+    ],
+    "excludes": [
+      "manager/president/player alone",
+      "winning with a team alone",
+      "vacancy consideration alone",
+      "reverse team-to-coach direction"
+    ],
+    "ambiguous": [
+      "missing coach subject or team attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment."
+  },
+  "dictionary_sha256": "3d6ffb0adfbd99a0049096d56e677814cd3653bbb4a0999e55cde1b2402c6a44",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "9e09b38efc44fd01b45555498c70384cb41fb797e9971a03748c821505051c40",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

@@ -1,0 +1,47 @@
+{
+  "relation": "rel_217",
+  "predicate_id": "departed_from",
+  "predicate_version": 1,
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate": {
+    "id": "departed_from",
+    "label": "departed from",
+    "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+    "includes": [
+      "leave/withdraw/pull out from Y",
+      "historical physical departure"
+    ],
+    "excludes": [
+      "arrival/return to Y",
+      "residence alone",
+      "leaving a job or team as an institution without geography"
+    ],
+    "ambiguous": [
+      "place versus institution as source",
+      "explicitly conditional departure"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+  },
+  "dictionary_sha256": "3ebd6363e7ba14b0b79e7d51260f7277c32409ec38cf41d8052853a9bec9b957",
+  "kind": "declared_before_case_grading",
+  "rationale": "Leave and emigration are the largest clear movement-source path family; inverse Haiti-president relationships compete and do not imply that Haiti departed from a person.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.927Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    7,
+    15
+  ],
+  "competing_meanings": [
+    "political leadership",
+    "managerial office",
+    "meeting location"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_217.before_grading.json",
+  "pregrading_annotation_sha256": "d59a061fc6fe566863cfd511b3c308312c37b991e5e61b5003babe171888e565"
+}

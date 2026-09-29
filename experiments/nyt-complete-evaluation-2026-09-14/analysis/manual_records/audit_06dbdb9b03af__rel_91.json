@@ -1,0 +1,122 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_91",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        32
+      ],
+      "case_ids": [
+        "rel_91__ent_1059__ent_1180",
+        "rel_91__ent_806__ent_529",
+        "rel_91__ent_805__ent_808",
+        "rel_91__ent_525__ent_527",
+        "rel_91__ent_780__ent_529",
+        "rel_91__ent_301__ent_529",
+        "rel_91__ent_1057__ent_119",
+        "rel_91__ent_973__ent_734",
+        "rel_91__ent_359__ent_1056",
+        "rel_91__ent_1059__ent_529",
+        "rel_91__ent_525__ent_767",
+        "rel_91__ent_769__ent_526",
+        "rel_91__ent_768__ent_529",
+        "rel_91__ent_540__ent_782",
+        "rel_91__ent_1007__ent_1008",
+        "rel_91__ent_1058__ent_783",
+        "rel_91__ent_1181__ent_1182",
+        "rel_91__ent_1183__ent_1184",
+        "rel_91__ent_807__ent_809",
+        "rel_91__ent_796__ent_311",
+        "rel_91__ent_619__ent_526",
+        "rel_91__ent_806__ent_976",
+        "rel_91__ent_733__ent_975",
+        "rel_91__ent_978__ent_861",
+        "rel_91__ent_383__ent_140",
+        "rel_91__ent_528__ent_781",
+        "rel_91__ent_1185__ent_1186",
+        "rel_91__ent_618__ent_611",
+        "rel_91__ent_736__ent_783",
+        "rel_91__ent_862__ent_861"
+      ],
+      "judgment": "supported",
+      "reason": "The supplied case-local analyst-at/for/with description or employer-linked professional analysis establishes the analyst affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        26
+      ],
+      "case_ids": [
+        "rel_91__ent_791__ent_310"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President-at is explicit, but the only nearby analytical-role evidence is an economist apposition reached through a signal attachment. Neither a clear analyst role nor its attachment is resolved.",
+      "tags": [
+        "attachment",
+        "role_scope"
+      ],
+      "question": "Does the full Sullivan sentence establish professional analysis for Witter Reynolds, or only a president title and a separately attached economist?"
+    },
+    {
+      "indices": [
+        30,
+        31
+      ],
+      "case_ids": [
+        "rel_91__ent_552__ent_794",
+        "rel_91__ent_553__ent_795"
+      ],
+      "judgment": "incorrect",
+      "reason": "The sole president-at description does not establish the separate analyst role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    6,
+    8,
+    10,
+    11,
+    14,
+    19,
+    20,
+    28
+  ],
+  "broad": []
+}

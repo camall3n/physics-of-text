@@ -1,0 +1,39 @@
+{
+  "relation": "rel_314",
+  "predicate_id": "fellow_at",
+  "predicate_version": 1,
+  "predicate_hash": "5e492ad1cc111641e695e9a49f49310ad470f906e38d66500d51d8ca6ea63c52",
+  "predicate": {
+    "id": "fellow_at",
+    "label": "research fellow at institution",
+    "definition": "Person X holds or held an explicitly identified research, academic, or policy fellowship at institution Y.",
+    "includes": [
+      "explicit fellow-at/for/of or institutional fellow title",
+      "historical fellowship"
+    ],
+    "excludes": [
+      "scholar, professor, economist, analyst or ordinary membership without a fellow title",
+      "a colleague described merely as fellow person",
+      "institutional employment alone"
+    ],
+    "ambiguous": [
+      "unclear fellowship title or institutional attachment",
+      "honorific membership versus a research fellowship when unresolved"
+    ],
+    "notes": "This is a specific fellowship role; nearby scholar or economist roles may coexist but do not establish it alone.",
+    "scope_notes": "Includes: explicit fellow-at/for/of or institutional fellow title; historical fellowship. Excludes: scholar, professor, economist, analyst or ordinary membership without a fellow title; a colleague described merely as fellow person; institutional employment alone. Ambiguous unless resolved by case-local evidence: unclear fellowship title or institutional attachment; honorific membership versus a research fellowship when unresolved. This is a specific fellowship role; nearby scholar or economist roles may coexist but do not establish it alone."
+  },
+  "dictionary_sha256": "676b122e8f55b35a4f67c69ac9edaba2f7e0d6f9f02704bb5450d45131e087ff",
+  "kind": "declared_before_case_grading",
+  "rationale": "Three explicit institutional fellow title paths form the coherent specific primary role, distinct from scholar status alone and political commentary. Independently reviewed by Boyle.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:29:52.428Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_314.before_grading.json",
+  "pregrading_annotation_sha256": "2be5bdddd4afbe948f8e7b23f6aaeeb6c5d2963118b3d5caefa30e7f225b456a"
+}

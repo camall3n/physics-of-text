@@ -1,0 +1,6 @@
+PASS fact conditionals and birth/death balance: 1020 worlds, 7650 toggles (including zero-sentence and overlap states)
+PASS sentence conditional oracle: 512 worlds, 9216 alternatives (both arguments, self-entity pairs, repeated nouns)
+PASS fact-move/split independent target ratios: 324 moves, 144 splits and reverses
+PASS actual dumb-split/smart-merge draws=1200000, total variation from exact 27-state posterior=0.002296737798222981, maximum state discrepancy=8.171441858921269E-4
+PASS actual smart-split/dumb-merge draws=1200000, total variation from exact 27-state posterior=0.0045772756916, maximum state discrepancy=0.0021411891474412137
+ALL PASS: 70266 deterministic numerical/index assertions; largest deterministic error=9.769962616701378E-15

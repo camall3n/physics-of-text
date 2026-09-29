@@ -1,0 +1,62 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_392",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_392__ent_330__ent_572",
+        "rel_392__ent_520__ent_323",
+        "rel_392__ent_331__ent_897",
+        "rel_392__ent_576__ent_165"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit neighborhood-of or neighborhood-in paths place the named neighborhood within the containing city or borough.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_392__ent_571__ent_283"
+      ],
+      "judgment": "supported",
+      "reason": "The moved-to-Bedford-Stuyvesant-in-Brooklyn path directly attaches the destination neighborhood within Brooklyn.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_392__ent_380__ent_138",
+        "rel_392__ent_139__ent_1400"
+      ],
+      "judgment": "incorrect",
+      "reason": "A person holding or being nominated to a chair office is not geographic containment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "72a75ffda65e34fdd9384a8e600671081bc967eaba19e69bbb284bf27ff7353e"
+}

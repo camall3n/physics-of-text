@@ -1,0 +1,41 @@
+{
+  "relation": "rel_353",
+  "predicate_id": "played_at_sporting_venue",
+  "predicate_version": 1,
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate": {
+    "id": "played_at_sporting_venue",
+    "label": "played at sporting venue",
+    "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+    "includes": [
+      "explicit play-at or game-at with X as competitor",
+      "a completed win or loss at Y establishing competitive play there",
+      "historical sporting venue use"
+    ],
+    "excludes": [
+      "ordinary attendance, practice, or employment at a place",
+      "plans without established play",
+      "the opponent or event substituted for the venue"
+    ],
+    "ambiguous": [
+      "future scheduled play without realization",
+      "unclear competitor versus spectator role",
+      "a generic at-venue phrase without a game context"
+    ],
+    "notes": "Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+    "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium."
+  },
+  "dictionary_sha256": "728137f6ba156311a197b511733e968ce1bde12137e405c76fb7619d09fe24a9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Games, playing and victories at named stadiums dominate; office roles remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:37:09.408Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_353.before_grading.json",
+  "pregrading_annotation_sha256": "82564c08f3102ba11364294c46945aa2219f45a8e77ee36ba55e0f4c0222d8d0"
+}

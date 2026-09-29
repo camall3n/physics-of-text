@@ -1,0 +1,70 @@
+{
+  "relation": "rel_187",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_187__ent_1175__ent_308",
+      "judgment": "incorrect",
+      "reason": "Stu Jackson → Knicks: Coaching or front-runner candidacy does not establish spokesperson service.",
+      "evidence_lines": [
+        6478,
+        6479,
+        6482,
+        6483,
+        6484,
+        6485
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.946Z"
+      }
+    },
+    {
+      "case_id": "rel_187__ent_1032__ent_159",
+      "judgment": "supported",
+      "reason": "Gennadi I. Gerasimov → Foreign Ministry: Explicit spokesman title establishes representation of Foreign Ministry, consistent with the earlier full census institutional-name boundary.",
+      "evidence_lines": [
+        1397,
+        1399,
+        1401,
+        1403,
+        1404
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.946Z"
+      }
+    },
+    {
+      "case_id": "rel_187__ent_261__ent_263",
+      "judgment": "incorrect",
+      "reason": "Bob Dole → Republican: Coaching or front-runner candidacy does not establish spokesperson service.",
+      "evidence_lines": [
+        2993,
+        3717
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:57.946Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a2e7b8e3b9cddf2f3993685bc7a964a2739ab99ca9f439817f6563f222e65481"
+}

@@ -1,0 +1,742 @@
+{
+  "relation": "rel_175",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_175.json",
+    "source_sha256": "64e902a92312d7e1e8a2c9c94daa6539b81d4cf3306d009b1621a23afce53074",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_175__ent_1028__ent_175",
+      "judgment": "incorrect",
+      "reason": "Zenia Mucha → Mr. Pataki: Only spokesperson, adviser or speaking evidence is supplied; it does not establish the declared director office.",
+      "evidence_lines": [
+        1178,
+        1181,
+        1185,
+        1187,
+        3519,
+        3522,
+        3526,
+        3528
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_291__ent_182",
+      "judgment": "ambiguous",
+      "reason": "Karen P. Hughes → Mr. Bush: Director-for/possessive evidence points to a personal principal with the institutional or campaign object omitted.",
+      "evidence_lines": [
+        3581,
+        3582,
+        3586,
+        3587,
+        3588,
+        3589,
+        3590
+      ],
+      "issue_tags": [
+        "argument_scope",
+        "attachment"
+      ],
+      "reviewer_question": "Which organization, administration or campaign does the directorship belong to, rather than the named person?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1414__ent_1346",
+      "judgment": "supported",
+      "reason": "Blair Horner → New York Public Interest Research Group: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        114,
+        115,
+        117,
+        1715,
+        1723
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.020Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_324__ent_372",
+      "judgment": "supported",
+      "reason": "Susan Amlung → United Federation of Teachers: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1200,
+        1201,
+        1202,
+        1203,
+        1204
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.020Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_108__ent_721",
+      "judgment": "supported",
+      "reason": "Desmond Ryan → Better Long Island: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1738,
+        1739,
+        1740,
+        1741,
+        1742
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.020Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_384__ent_145",
+      "judgment": "supported",
+      "reason": "Robert Gangi → Correctional Association of New York: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        144,
+        146,
+        147,
+        149
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.020Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_176__ent_175",
+      "judgment": "ambiguous",
+      "reason": "Michael McKeon → Mr. Pataki: Director-for/possessive evidence points to a personal principal with the institutional or campaign object omitted.",
+      "evidence_lines": [
+        372,
+        374,
+        376,
+        377
+      ],
+      "issue_tags": [
+        "argument_scope",
+        "attachment"
+      ],
+      "reviewer_question": "Which organization, administration or campaign does the directorship belong to, rather than the named person?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1022__ent_161",
+      "judgment": "supported",
+      "reason": "Ilyse Fink → Department of Buildings: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1213,
+        1214,
+        1218,
+        1219
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.020Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_915__ent_918",
+      "judgment": "supported",
+      "reason": "Robert S. Mueller III → F.B.I.: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        8453,
+        8454,
+        8457,
+        8461
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_348__ent_1045",
+      "judgment": "ambiguous",
+      "reason": "Steven D. Gold → Study of the States: Study of the States appears as the topic/name of a center, but the complete institution serving as the directorship object is omitted.",
+      "evidence_lines": [
+        1732,
+        1734,
+        1735
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "What complete center or institution does Study of the States designate here?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_121__ent_376",
+      "judgment": "supported",
+      "reason": "Charles Brecher → Citizens Budget Commission: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1751,
+        1752,
+        1757
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_619__ent_1105",
+      "judgment": "supported",
+      "reason": "John Lipsky → Salomon Brothers: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        2359,
+        2363,
+        2364
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1271__ent_827",
+      "judgment": "ambiguous",
+      "reason": "George Stephanopoulos → Mr. Clinton: Director-for/possessive evidence points to a personal principal with the institutional or campaign object omitted.",
+      "evidence_lines": [
+        3530,
+        3534,
+        3535
+      ],
+      "issue_tags": [
+        "argument_scope",
+        "attachment"
+      ],
+      "reviewer_question": "Which organization, administration or campaign does the directorship belong to, rather than the named person?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_128__ent_141",
+      "judgment": "supported",
+      "reason": "C. Fred Bergsten → Institute for International Economics: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        108,
+        113
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1029__ent_325",
+      "judgment": "incorrect",
+      "reason": "Nancy Nielsen → The Times: Only spokesperson, adviser or speaking evidence is supplied; it does not establish the declared director office.",
+      "evidence_lines": [
+        1188,
+        1189
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_346__ent_462",
+      "judgment": "ambiguous",
+      "reason": "Al Bianchi → Knicks; Ernie Grunfeld → Knicks: The latent subject combines Grunfeld with Bianchi; a director path supports only one of these different people.",
+      "evidence_lines": [
+        1671,
+        3212
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Ernie Grunfeld and Al Bianchi be separated, and whose director fact is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1095__ent_1103",
+      "judgment": "ambiguous",
+      "reason": "Adrienne Esposito → Environment: Environment is an abstract subject rather than an identified director-employing institution.",
+      "evidence_lines": [
+        1736,
+        1737
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "Which environmental organization or program is the object of Esposito director-for in the original text?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1048__ent_1049",
+      "judgment": "supported",
+      "reason": "Caroline Smith DeWaal → Center for Science: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1743,
+        1747
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_362__ent_123",
+      "judgment": "supported",
+      "reason": "John Rother → American Association of Retired Persons: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1761,
+        1762
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1327__ent_129",
+      "judgment": "supported",
+      "reason": "Christopher Dunn → New York Civil Liberties Union: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        4488,
+        4491
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_776__ent_433",
+      "judgment": "incorrect",
+      "reason": "Sears → Roebuck: The two names occur as subjects of say, without a director office.",
+      "evidence_lines": [
+        643
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_993__ent_1345",
+      "judgment": "supported",
+      "reason": "Blair Horner → New York Public Interest Research Group: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+      "evidence_lines": [
+        1716
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_363__ent_1023",
+      "judgment": "ambiguous",
+      "reason": "David E. Cole → Study of Automotive Transportation: Study of Automotive Transportation leaves the complete center or institutional name unresolved under the shared abstract-topic rule.",
+      "evidence_lines": [
+        1760
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "Which complete center or institution is meant by Study of Automotive Transportation?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_56__ent_632",
+      "judgment": "incorrect",
+      "reason": "Laura D'Andrea Tyson → Council of Economic Advisers: Chairwoman is a distinct title and does not establish director under the fixed specific-director scope.",
+      "evidence_lines": [
+        2876
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_1219__ent_899",
+      "judgment": "incorrect",
+      "reason": "Russianoff → Straphangers Campaign: Only spokesperson, adviser or speaking evidence is supplied; it does not establish the declared director office.",
+      "evidence_lines": [
+        4417
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:06.021Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c",
+        "annotation_source": "prior_annotations/rel_175.json",
+        "annotation_sha256": "2baf56960d9200bbdcc4ce61adc64350ec448cd14b1b5136afd0b9f75f7ebf6e",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1
+}

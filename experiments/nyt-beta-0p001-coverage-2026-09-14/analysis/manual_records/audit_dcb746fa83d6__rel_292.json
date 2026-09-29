@@ -1,0 +1,102 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_292",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_292__ent_182__ent_1440",
+        "rel_292__ent_180__ent_189",
+        "rel_292__ent_828__ent_189",
+        "rel_292__ent_819__ent_828",
+        "rel_292__ent_183__ent_189",
+        "rel_292__ent_827__ent_189",
+        "rel_292__ent_1415__ent_189",
+        "rel_292__ent_1280__ent_1440",
+        "rel_292__ent_197__ent_199",
+        "rel_292__ent_1360__ent_1440",
+        "rel_292__ent_1387__ent_1440",
+        "rel_292__ent_816__ent_827",
+        "rel_292__ent_1347__ent_150"
+      ],
+      "judgment": "supported",
+      "reason": "At least one local tell, urge, call-on, or explain-to row explicitly addresses this recipient.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_292__ent_564__ent_1338"
+      ],
+      "judgment": "incorrect",
+      "reason": "Having allies in Congress does not assert communication to Congress.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_292__ent_732__ent_483"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The inferred subject combines Mr. Clinton with Clinton Administration; communication exists but the entity-versus-administration attribution remains unresolved.",
+      "tags": [
+        "entity_collision",
+        "institution_metonymy"
+      ],
+      "question": "Should Clinton and the Clinton Administration be represented by the same inferred entity here?"
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_292__ent_1218__ent_616"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Submit-to omits the submitted object and no local row establishes a message.",
+      "tags": [
+        "missing_object"
+      ],
+      "question": "What was submitted, and was it a communicative object?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "ede6d70200bd4fc3af079bf29ecfb037e9a402c38bfc2c7d05c0751e45e9d82d"
+}

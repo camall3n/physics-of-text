@@ -1,0 +1,42 @@
+{
+  "relation": "rel_58",
+  "predicate_id": "communicates_to",
+  "predicate_version": 1,
+  "predicate_hash": "a82d4a7aab0a8fbf3f86b7d71ec6b6b931f5415050326cab5d60de9e300b979c",
+  "predicate": {
+    "id": "communicates_to",
+    "label": "directed communication to",
+    "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+    "includes": [
+      "tell/ask/urge/notify/advise/warn/persuade/address/speak-to",
+      "testimony before the addressee",
+      "send/submit a clearly communicative object",
+      "institutional communication through an identified representative"
+    ],
+    "excludes": [
+      "mere meeting/cooperation/support",
+      "speaking about or criticizing Y without address",
+      "physical transfer",
+      "spokesperson intermediary treated as recipient"
+    ],
+    "ambiguous": [
+      "send/submit/give with omitted object and no other clear communication in this fact",
+      "person versus their administration or envoy attribution"
+    ],
+    "notes": "An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+    "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it."
+  },
+  "dictionary_sha256": "84997403ed59e1e6264be80f6d7ed318ca81ee10f66cd9e2fae463267a230857",
+  "kind": "declared_before_case_grading",
+  "rationale": "Tell and notify supply13 of26 rows, with say-to reinforcement. Minister/coach and other contextual roles are separate.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.722Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_58.before_grading.json",
+  "pregrading_annotation_sha256": "35acb2d99294028326e01a8644e6497e79fbe5b979d3024435f4c08ac5827f33"
+}

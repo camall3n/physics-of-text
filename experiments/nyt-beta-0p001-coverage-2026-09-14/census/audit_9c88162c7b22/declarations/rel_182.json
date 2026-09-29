@@ -1,0 +1,43 @@
+{
+  "relation": "rel_182",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "c80daaefb4d19565fd916b5de7a7c34c53ba489574064aeae8389be2c261087f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Writing/review-in publication is the largest clear family; athlete scoring and coach comments/commitment are separate. Mere quotation is not authorship.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.159Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    7,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_182.before_grading.json",
+  "pregrading_annotation_sha256": "e9102e3137e81d6f1a9ae59613feb47502718a5eb596906a12a5a5f739cc399f"
+}

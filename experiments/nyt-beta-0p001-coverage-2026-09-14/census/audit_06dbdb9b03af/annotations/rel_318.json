@@ -1,0 +1,96 @@
+{
+  "relation": "rel_318",
+  "predicate_id": "chairperson_of",
+  "label": "chairperson of",
+  "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+  "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+  "facts": [
+    {
+      "case_id": "rel_318__ent_380__ent_0",
+      "judgment": "supported",
+      "reason": "Alan Greenspan → Federal Reserve: Explicit chair title and being succeeded as chair establish chair tenure.",
+      "evidence_lines": [
+        189,
+        194,
+        5157,
+        5162,
+        5647,
+        5652
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.214Z"
+      }
+    },
+    {
+      "case_id": "rel_318__ent_30__ent_36",
+      "judgment": "ambiguous",
+      "reason": "Nancy Pelosi → Democratic: Democratic is an incomplete adjectival political body, leaving the exact chair institution unresolved.",
+      "evidence_lines": [
+        3729,
+        3731,
+        3733,
+        3734,
+        3736,
+        3737
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which Democratic body did Nancy Pelosi chair?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.214Z"
+      }
+    },
+    {
+      "case_id": "rel_318__ent_554__ent_850",
+      "judgment": "incorrect",
+      "reason": "CBS → Super Bowl: A broadcaster association with an event is not a person holding chair office.",
+      "evidence_lines": [
+        4958,
+        4959,
+        4960,
+        4961,
+        4962,
+        4964
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.214Z"
+      }
+    },
+    {
+      "case_id": "rel_318__ent_380__ent_1133",
+      "judgment": "supported",
+      "reason": "Alan Greenspan → Fed: Explicit chair title and being succeeded as chair establish chair tenure.",
+      "evidence_lines": [
+        5077,
+        5079,
+        5659
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:16:36.214Z"
+      }
+    }
+  ],
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0776411799b775c007bfdfc4445b0072fd03e6742d81cf4694c6c518e5bf72c3"
+}

@@ -1,0 +1,58 @@
+{
+  "relation": "rel_389",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_389__ent_1174__ent_1004",
+      "judgment": "supported",
+      "reason": "Mel Stottlemyre → Yankees: An explicit pitcher-with-Yankees path establishes athletic membership; later coaching and retirement roles do not erase that historical playing evidence.",
+      "evidence_lines": [
+        6457,
+        6458,
+        6459,
+        6460,
+        6461,
+        6462,
+        6463,
+        6465
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.229Z"
+      }
+    },
+    {
+      "case_id": "rel_389__ent_182__ent_519",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Arafat: Political statements, demands, and positions between Bush and Arafat contain no team-player relationship.",
+      "evidence_lines": [
+        8243,
+        8246,
+        8247,
+        8248,
+        8249,
+        8251
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.229Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f20733f4a05ed9b3dbc87b69327ad96f6c0b16f44c8a0091105936eec421aea0"
+}

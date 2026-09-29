@@ -1,0 +1,41 @@
+{
+  "relation": "rel_177",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "08f73ee34055761895836f8435727d16e758c6c29eb4d3cafdb4dad7c3fdb047",
+  "kind": "declared_before_case_grading",
+  "rationale": "Two-count explicit executive title is the highest individually interpretable path, resolving a weak family tie with two artistic-review paths and scattered inverse presidential context; retain very low dictionary coverage.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:30:04.160Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_177.before_grading.json",
+  "pregrading_annotation_sha256": "c979179250bb1029f1a4258ee3ac16086c9daec26259eb16b44fbabc35d17d75"
+}

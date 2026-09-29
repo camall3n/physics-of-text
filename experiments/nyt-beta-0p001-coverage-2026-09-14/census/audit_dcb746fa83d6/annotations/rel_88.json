@@ -1,0 +1,96 @@
+{
+  "relation": "rel_88",
+  "predicate_id": "has_minister",
+  "label": "has minister",
+  "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+  "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government.",
+  "facts": [
+    {
+      "case_id": "rel_88__ent_492__ent_707",
+      "judgment": "supported",
+      "reason": "Iraq → Tariq Aziz: Explicit country minister apposition establishes the named ministerial office without assuming head-of-government rank.",
+      "evidence_lines": [
+        6987,
+        6988,
+        6989,
+        6991,
+        6992,
+        6993,
+        6994,
+        6996
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.103Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_1386__ent_706",
+      "judgment": "supported",
+      "reason": "Britain → Tony Blair: Explicit country minister apposition establishes the named ministerial office without assuming head-of-government rank.",
+      "evidence_lines": [
+        7007,
+        7009,
+        7010,
+        7011,
+        7015,
+        7016
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.103Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_104__ent_347",
+      "judgment": "incorrect",
+      "reason": "Neil Smith → Rangers: Working for a sporting team has the wrong institutional and argument roles for a country having a minister.",
+      "evidence_lines": [
+        1662,
+        3329
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.103Z"
+      }
+    },
+    {
+      "case_id": "rel_88__ent_1425__ent_1132",
+      "judgment": "supported",
+      "reason": "Israel → Shimon Peres: Explicit country minister apposition establishes the named ministerial office without assuming head-of-government rank.",
+      "evidence_lines": [
+        7017,
+        7022
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.103Z"
+      }
+    }
+  ],
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "fff045e759e0521c320cd29161171abfdd41224e5860f2f59dbe9b5abf034f1f"
+}

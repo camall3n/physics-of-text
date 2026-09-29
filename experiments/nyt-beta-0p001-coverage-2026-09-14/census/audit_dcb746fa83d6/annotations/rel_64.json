@@ -1,0 +1,133 @@
+{
+  "relation": "rel_64",
+  "predicate_id": "has_diplomatic_relations_with",
+  "label": "has diplomatic relations with",
+  "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+  "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+  "facts": [
+    {
+      "case_id": "rel_64__ent_815__ent_537",
+      "judgment": "supported",
+      "reason": "Russia → United States: An explicitly accredited ambassador of the first country to the second establishes diplomatic relations.",
+      "evidence_lines": [
+        1983,
+        1984,
+        1985,
+        1987,
+        1988,
+        1991
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.441Z"
+      }
+    },
+    {
+      "case_id": "rel_64__ent_818__ent_537",
+      "judgment": "supported",
+      "reason": "China → United States: An explicitly accredited ambassador of the first country to the second establishes diplomatic relations.",
+      "evidence_lines": [
+        5871,
+        5872,
+        5873,
+        5874,
+        5876,
+        5879
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.441Z"
+      }
+    },
+    {
+      "case_id": "rel_64__ent_1386__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Britain → United States; Britain → European Monetary System: An ambassador supports Britain–United States relations, but the same latent second entity also denotes the European Monetary System.",
+      "evidence_lines": [
+        1957,
+        1958,
+        1959,
+        1967
+      ],
+      "issue_tags": [
+        "local_entity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Does this latent second argument denote the United States or the European Monetary System?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.441Z"
+      }
+    },
+    {
+      "case_id": "rel_64__ent_1370__ent_451",
+      "judgment": "supported",
+      "reason": "Israel → Egypt: An explicitly accredited ambassador of the first country to the second establishes diplomatic relations.",
+      "evidence_lines": [
+        5188,
+        5193
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.441Z"
+      }
+    },
+    {
+      "case_id": "rel_64__ent_827__ent_324",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → Republicans: Personal or legislative communication does not establish relations between countries or governments.",
+      "evidence_lines": [
+        5551,
+        5552
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.441Z"
+      }
+    },
+    {
+      "case_id": "rel_64__ent_1280__ent_1440",
+      "judgment": "incorrect",
+      "reason": "Bush Administration → Congress: Personal or legislative communication does not establish relations between countries or governments.",
+      "evidence_lines": [
+        465
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.441Z"
+      }
+    }
+  ],
+  "predicate_hash": "14c6d895cccdd280da229e1132a91459aac5d8bdb7366634020a101ec403b7d8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "04995bdf01e1c499e5188a466b970626f08bcbaa6caec10fe6ae12b6242e4cd3"
+}

@@ -1,0 +1,44 @@
+{
+  "relation": "rel_143",
+  "predicate_id": "has_diplomatic_relations_with",
+  "predicate_version": 1,
+  "predicate_hash": "14c6d895cccdd280da229e1132a91459aac5d8bdb7366634020a101ec403b7d8",
+  "predicate": {
+    "id": "has_diplomatic_relations_with",
+    "label": "has diplomatic relations with",
+    "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+    "includes": [
+      "explicit diplomatic relations",
+      "an ambassador of X accredited to Y",
+      "historical diplomatic relations"
+    ],
+    "excludes": [
+      "ordinary trade, physical travel, or war alone",
+      "generic political or personal association",
+      "an ambassador merely visiting Y without accreditation",
+      "proposed relations without establishment"
+    ],
+    "ambiguous": [
+      "generic relationship or relation without diplomatic context",
+      "unclear government versus private entity",
+      "unclear ambassador accreditation or country attachment"
+    ],
+    "notes": "Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+    "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy."
+  },
+  "dictionary_sha256": "1dd297ef882e9b55164f62183793d2879deaa645062453e171fa4e460eef704c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Five repeated ambassador-of-X-to-Y paths form a clear dominant diplomatic-accreditation family; leader and wartime paths are separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:32:24.266Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_143.before_grading.json",
+  "pregrading_annotation_sha256": "91f4acddcda24a77a9865ba04f316e5c665def2da3f61a23dcdb050076bfd7c9"
+}

@@ -1,0 +1,51 @@
+{
+  "relation": "rel_191",
+  "predicate_id": "athlete_for",
+  "predicate_version": 1,
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate": {
+    "id": "athlete_for",
+    "label": "athlete plays for team",
+    "definition": "Person X plays or played as an athlete for sports team Y.",
+    "includes": [
+      "player/center/guard/wing/captain/scorer role on a team",
+      "playing for or with the team as athlete",
+      "scoring for the team"
+    ],
+    "excludes": [
+      "coach/manager/owner alone",
+      "team leading or beating another team",
+      "generic lead without athlete context",
+      "reverse team-to-athlete direction"
+    ],
+    "ambiguous": [
+      "bare lead without player/position/scoring context"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context."
+  },
+  "dictionary_sha256": "917dc3eb88df833e6dcde9cd50043a6b0da1bbbe9ee31f6e8357c52cea68f51d",
+  "kind": "declared_before_case_grading",
+  "rationale": "Scoring-for and player/center/guard/wing/captain paths establish the athlete-to-team roles for the recurring lead path; bare lead does not itself prove athlete identity.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:02:22.890Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    5,
+    6,
+    7,
+    10,
+    11,
+    12,
+    17
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_191.before_grading.json",
+  "pregrading_annotation_sha256": "0ea8fdaa448c66f0b88cf9063b1dc231d52a9c144df3019ccf22661733f7acdf"
+}

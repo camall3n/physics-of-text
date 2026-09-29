@@ -1,0 +1,85 @@
+{
+  "relation": "rel_197",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office in organization or institution Y.",
+  "scope_notes": "Director-specific role declared from the leading dictionary family. Head/president, founder, ordinary employment and birthplace alone are not equivalent. Co-director qualifies; title modifiers without a complete referent require review.",
+  "facts": [
+    {
+      "case_id": "rel_197__ent_912__ent_918",
+      "judgment": "supported",
+      "reason": "Hoover is explicitly F.B.I. director in of/noun/possessive constructions.",
+      "evidence_lines": [
+        8494,
+        8495,
+        8497
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_197__ent_1011__ent_126",
+      "judgment": "incorrect",
+      "reason": "Spinola is president/head of Real Estate Board of New York, with no director role supplied.",
+      "evidence_lines": [
+        87,
+        88,
+        90,
+        91,
+        92,
+        93
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_197__ent_301__ent_529",
+      "judgment": "incorrect",
+      "reason": "Kraushaar follows for Merrill Lynch in the sole path; no director office.",
+      "evidence_lines": [
+        610
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_197__ent_903__ent_902",
+      "judgment": "incorrect",
+      "reason": "Bobbitt was born and spent childhood in Ecuador; no director relation.",
+      "evidence_lines": [
+        8428,
+        8429,
+        8430,
+        8431,
+        8432
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_197__ent_556__ent_798",
+      "judgment": "ambiguous",
+      "reason": "One latent pair combines Mr. Lee/Taiwan birth-president-director-modifier evidence with Roberts/Dartford death evidence. Entity identities and the director modifier referent cannot be resolved.",
+      "evidence_lines": [
+        981,
+        984,
+        985,
+        989,
+        8203
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "argument_scope",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which identities should replace this merged pair, and does the director-amod sentence establish Mr. Lee as director of any Taiwan institution?"
+    }
+  ]
+}

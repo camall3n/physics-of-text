@@ -1,0 +1,102 @@
+{
+  "relation": "rel_137",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_137__ent_130__ent_372",
+      "judgment": "ambiguous",
+      "reason": "Sandra Feldman → United Federation of Teachers; Randi Weingarten → United Federation of Teachers: The presidency is explicit, but Randi Weingarten and Sandra Feldman are different named officeholders merged into one latent subject.",
+      "evidence_lines": [
+        5,
+        8,
+        22,
+        25,
+        26
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Randi Weingarten and Sandra Feldman be separate people before judging their respective presidential tenures?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.841Z"
+      }
+    },
+    {
+      "case_id": "rel_137__ent_197__ent_520",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → Vernon Jordan: Personal contact or referral, political assessments, killing by soldiers or a meeting does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        8215,
+        8218,
+        8219,
+        8220
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.841Z"
+      }
+    },
+    {
+      "case_id": "rel_137__ent_182__ent_1131",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Hussein: Personal contact or referral, political assessments, killing by soldiers or a meeting does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        1604
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.841Z"
+      }
+    },
+    {
+      "case_id": "rel_137__ent_826__ent_820",
+      "judgment": "incorrect",
+      "reason": "Palestinians → Israel: Personal contact or referral, political assessments, killing by soldiers or a meeting does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        5500
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.841Z"
+      }
+    },
+    {
+      "case_id": "rel_137__ent_180__ent_310",
+      "judgment": "incorrect",
+      "reason": "Bush → Ariel Sharon: Personal contact or referral, political assessments, killing by soldiers or a meeting does not establish person-to-institution presidency.",
+      "evidence_lines": [
+        8225
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.841Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "376679078b862cf73403155c3fc85d9170c886f91fdc0c842167dfd3624cd194"
+}

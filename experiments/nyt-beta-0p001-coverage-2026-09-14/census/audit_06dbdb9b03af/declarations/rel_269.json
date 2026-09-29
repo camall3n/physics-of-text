@@ -1,0 +1,44 @@
+{
+  "relation": "rel_269",
+  "predicate_id": "departed_from",
+  "predicate_version": 1,
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate": {
+    "id": "departed_from",
+    "label": "departed from",
+    "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+    "includes": [
+      "leave/withdraw/pull out from Y",
+      "historical physical departure"
+    ],
+    "excludes": [
+      "arrival/return to Y",
+      "residence alone",
+      "leaving a job or team as an institution without geography"
+    ],
+    "ambiguous": [
+      "place versus institution as source",
+      "explicitly conditional departure"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+  },
+  "dictionary_sha256": "1ed35d6339c9f8e355d3f164bb070aeae3f5ceb9d3fb39b8bf7e2e98c4537883",
+  "kind": "declared_before_case_grading",
+  "rationale": "Leave and source-influx family provides explicit physical departure; staff/office roles and entry are distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:19:02.611Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    8,
+    9,
+    13
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_269.before_grading.json",
+  "pregrading_annotation_sha256": "54e7f8433dde5a2a4f23bc5824b35c9a300dac0f8328d859835a611b67a2719a"
+}

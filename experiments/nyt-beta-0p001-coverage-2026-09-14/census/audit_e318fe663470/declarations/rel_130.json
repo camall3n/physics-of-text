@@ -1,0 +1,40 @@
+{
+  "relation": "rel_130",
+  "predicate_id": "lawyer_for",
+  "predicate_version": 1,
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate": {
+    "id": "lawyer_for",
+    "label": "lawyer or attorney for",
+    "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+    "includes": [
+      "explicit lawyer/attorney/counsel for/at/with client or employer",
+      "legal employment at a firm",
+      "explicit governmental attorney office for a jurisdiction"
+    ],
+    "excludes": [
+      "private lawyer merely located in a city",
+      "spokesperson/director/lobbyist alone",
+      "reverse client-to-lawyer direction"
+    ],
+    "ambiguous": [
+      "city as location versus represented jurisdiction",
+      "firm partner without a clear legal-role attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment."
+  },
+  "dictionary_sha256": "73eaad655e06d90e4f1ec937eddecc72fc1defe422a02749e8d18a5609fc492a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Lawyer/attorney/counsel-for, -at and -with form the dominant legal representation family; director is competing contamination.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.290Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_130.before_grading.json",
+  "pregrading_annotation_sha256": "06017ea0a4173b4b8f522616dd2e70b4bae7cb503cf59fa1844afede5847a7de"
+}

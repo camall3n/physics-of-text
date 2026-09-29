@@ -1,0 +1,115 @@
+{
+  "relation": "rel_32",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_32__ent_1197__ent_267",
+      "judgment": "supported",
+      "reason": "Senate → Trent Lott: A direct whip or named Senate/majority leader row establishes the political leadership role, alongside intermediary references.",
+      "evidence_lines": [
+        7637,
+        7639,
+        7642,
+        7643,
+        7644
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:27.242Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_1197__ent_268",
+      "judgment": "supported",
+      "reason": "Senate → Joseph L. Bruno: A direct whip or named Senate/majority leader row establishes the political leadership role, alongside intermediary references.",
+      "evidence_lines": [
+        7619,
+        7620,
+        7623,
+        7624
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:27.242Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_1197__ent_727",
+      "judgment": "supported",
+      "reason": "Senate → Ralph J. Marino: A direct whip or named Senate/majority leader row establishes the political leadership role, alongside intermediary references.",
+      "evidence_lines": [
+        7659,
+        7660,
+        7661,
+        7664
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:27.242Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_1197__ent_969",
+      "judgment": "ambiguous",
+      "reason": "Senate → Bill Frist: Spokesperson/position and leadership-under-scramble paths leave whether Bill Frist is the Senate leader or attached intermediary unresolved.",
+      "evidence_lines": [
+        7670,
+        7671,
+        7672,
+        7675
+      ],
+      "issue_tags": [
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which local expression directly makes Bill Frist the Senate leader rather than the spokesman or another attached person?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:27.242Z"
+      }
+    },
+    {
+      "case_id": "rel_32__ent_561__ent_850",
+      "judgment": "incorrect",
+      "reason": "Giants → Super Bowl: A sports team reaching event victory is not a political body having a named leader.",
+      "evidence_lines": [
+        2224,
+        3444
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:27.243Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "77cd7505a5ff6150cb5b8eaa81c8409a202e651ab180afce5159b403fe6b497a"
+}

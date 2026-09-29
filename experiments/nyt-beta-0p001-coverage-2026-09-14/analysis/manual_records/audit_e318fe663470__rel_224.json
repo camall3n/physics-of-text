@@ -1,0 +1,89 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_224",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        7,
+        11,
+        15
+      ],
+      "case_ids": [
+        "rel_224__ent_819__ent_586",
+        "rel_224__ent_182__ent_113",
+        "rel_224__ent_1213__ent_1422",
+        "rel_224__ent_819__ent_182",
+        "rel_224__ent_1352__ent_819",
+        "rel_224__ent_1395__ent_1213"
+      ],
+      "judgment": "supported",
+      "reason": "A local criticize/accuse row explicitly attributes criticism to the stated subject against the stated target.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        5
+      ],
+      "case_ids": [
+        "rel_224__ent_1266__ent_537",
+        "rel_224__ent_182__ent_1002"
+      ],
+      "judgment": "ambiguous",
+      "reason": "An accusation row is combined with incompatible country/population subjects or incompatible person/place targets in the same inferred fact.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which subject and target should the accusation fact identify after splitting incompatible names?"
+    },
+    {
+      "indices": [
+        3,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        17
+      ],
+      "case_ids": [
+        "rel_224__ent_1004__ent_9",
+        "rel_224__ent_1117__ent_347",
+        "rel_224__ent_1258__ent_814",
+        "rel_224__ent_79__ent_1313",
+        "rel_224__ent_819__ent_1294",
+        "rel_224__ent_1313__ent_856",
+        "rel_224__ent_6__ent_586",
+        "rel_224__ent_1004__ent_1221",
+        "rel_224__ent_1316__ent_179",
+        "rel_224__ent_324__ent_931"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete local rows show presence, leadership, alliance, urging, or generic irritation without an explicit criticize/blame/accuse assertion.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7bdaa834bc687a56fa7da35947827a76532db2bbd17c0a79aaa623bd2d20368b"
+}

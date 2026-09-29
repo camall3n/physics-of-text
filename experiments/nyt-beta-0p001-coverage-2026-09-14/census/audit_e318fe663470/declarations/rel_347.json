@@ -1,0 +1,42 @@
+{
+  "relation": "rel_347",
+  "predicate_id": "adviser_to",
+  "predicate_version": 1,
+  "predicate_hash": "b5856100957274bbbe1ed7c91a1d7f09b238367f589073de0a1b0d16ae15c11a",
+  "predicate": {
+    "id": "adviser_to",
+    "label": "adviser to principal",
+    "definition": "Person X explicitly serves or served as an adviser or counselor to principal Y.",
+    "includes": [
+      "explicit adviser/advisor-to or possessive adviser role",
+      "an identified counselor providing advisory service",
+      "historical advisory role"
+    ],
+    "excludes": [
+      "director, lawyer, or formal leadership title alone",
+      "ordinary communication or acquaintance",
+      "confidant alone without advisory service",
+      "expertise on a topic rather than advice to a principal"
+    ],
+    "ambiguous": [
+      "an omitted or materially incomplete principal",
+      "counselor versus legal counsel attachment unresolved",
+      "advisory topic substituted for principal"
+    ],
+    "notes": "The principal may be a person or institution. Advice does not imply formal management or spokesperson authority.",
+    "scope_notes": "Includes: explicit adviser/advisor-to or possessive adviser role; an identified counselor providing advisory service; historical advisory role. Excludes: director, lawyer, or formal leadership title alone; ordinary communication or acquaintance; confidant alone without advisory service; expertise on a topic rather than advice to a principal. Ambiguous unless resolved by case-local evidence: an omitted or materially incomplete principal; counselor versus legal counsel attachment unresolved; advisory topic substituted for principal. The principal may be a person or institution. Advice does not imply formal management or spokesperson authority."
+  },
+  "dictionary_sha256": "73cc7b9bff5af8eec0395278dd6dead94ecef125bb315240ec93ea222bcf13e9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit adviser-poss is the highest repeated interpretable role path; travel-with aide and other office/location snippets are distinct. Weak minority role retained.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:48.929Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_347.before_grading.json",
+  "pregrading_annotation_sha256": "9c4b18940302ce024ef6cdd971cddbf32779c711147c51ed7200a49e1568d02a"
+}

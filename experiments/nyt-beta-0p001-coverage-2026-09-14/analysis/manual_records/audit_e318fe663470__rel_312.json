@@ -1,0 +1,44 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_312",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_312__ent_81__ent_84"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Sent-to/mission wording coexists with an explicitly anticipated trip and coming-from, leaving the destination movement's occurrence unresolved.",
+      "tags": [
+        "modality_ambiguity"
+      ],
+      "question": "Was the trip to Baghdad undertaken, or is the sent-to wording part of the anticipated trip?"
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_312__ent_111__ent_353",
+        "rel_312__ent_1009__ent_982",
+        "rel_312__ent_494__ent_1151"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sports/music context, a sporting-event destination or political office staffing does not establish geographic destination movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "d34ba6b65947c5e30925e34048471c6dfec830f641a3c14a31452cb9ac097747"
+}

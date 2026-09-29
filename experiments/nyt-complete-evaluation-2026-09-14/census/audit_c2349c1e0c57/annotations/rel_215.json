@@ -1,0 +1,939 @@
+{
+  "relation": "rel_215",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_215.json",
+    "source_sha256": "6bbab5718ae61f390228e7bc65627c34b8bb4068adeeab1093fa1d1ee752c87b",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_215__ent_356__ent_308",
+      "judgment": "supported",
+      "reason": "Ewing → Knicks: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3074,
+        3075,
+        3076,
+        3077,
+        3079,
+        3080,
+        3081,
+        3083,
+        4218,
+        4219,
+        4220,
+        4221,
+        4223,
+        4225,
+        4227
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.134Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_309__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        864,
+        865,
+        869,
+        870,
+        2664,
+        2665,
+        2669,
+        2670,
+        6930,
+        6931,
+        6935,
+        6936
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_537__ent_820",
+      "judgment": "incorrect",
+      "reason": "United States → Israel: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        2082,
+        2086,
+        2089,
+        2091,
+        4208,
+        4212,
+        4215,
+        4217,
+        7905,
+        7909,
+        7912,
+        7914
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_111__ent_1040",
+      "judgment": "incorrect",
+      "reason": "Riley → Anthony: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1575,
+        1576,
+        1577,
+        1578,
+        1579,
+        1580,
+        1581,
+        1582,
+        1583,
+        1584
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_182__ent_113",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Kerry: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1585,
+        1586,
+        1587,
+        1588,
+        1589,
+        1590,
+        1591,
+        1592,
+        1593,
+        1594
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_815__ent_537",
+      "judgment": "incorrect",
+      "reason": "Russia → United States: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_260__ent_1005",
+      "judgment": "supported",
+      "reason": "Jordan → Bulls: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3114,
+        3115,
+        3116,
+        3117,
+        3118,
+        3119,
+        3120,
+        3121,
+        3122,
+        3123
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_62__ent_1005",
+      "judgment": "supported",
+      "reason": "Michael Jordan → Bulls: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3144,
+        3145,
+        3146,
+        3147,
+        3148,
+        3149,
+        3150,
+        3151,
+        3152,
+        3153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_215.json",
+        "annotation_sha256": "6bbab5718ae61f390228e7bc65627c34b8bb4068adeeab1093fa1d1ee752c87b"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_663__ent_1197",
+      "judgment": "incorrect",
+      "reason": "Constitution → Senate: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        4228,
+        4229,
+        4230,
+        4231,
+        4232,
+        4233,
+        4234,
+        4235,
+        4236,
+        4237
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_663__ent_189",
+      "judgment": "incorrect",
+      "reason": "Constitution → Congress: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        4238,
+        4239,
+        4240,
+        4241,
+        4242,
+        4243,
+        4244,
+        4245,
+        4246,
+        4247
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_1116__ent_110",
+      "judgment": "supported",
+      "reason": "MacLean → Devils: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        4248,
+        4249,
+        4250,
+        4251,
+        4252,
+        4253,
+        4254,
+        4255,
+        4256,
+        4257
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_180__ent_1118",
+      "judgment": "incorrect",
+      "reason": "Bush → Saddam Hussein: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        4268,
+        4269,
+        4270,
+        4271,
+        4272,
+        4273,
+        4274,
+        4275,
+        4276,
+        4277
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_1119__ent_110",
+      "judgment": "supported",
+      "reason": "Bobby Holik → Devils: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        4278,
+        4279,
+        4280,
+        4281,
+        4282,
+        4283,
+        4284,
+        4285,
+        4286,
+        4287
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_413__ent_110",
+      "judgment": "supported",
+      "reason": "Holik → Devils: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4304,
+        4305,
+        4306,
+        4307
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_819__ent_182",
+      "judgment": "incorrect",
+      "reason": "Democrats → Mr. Bush: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        5535,
+        5536,
+        5537,
+        5538,
+        5539,
+        5540,
+        5541,
+        5542,
+        5543,
+        5544
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_111__ent_356",
+      "judgment": "incorrect",
+      "reason": "Riley → Ewing: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1555,
+        1556,
+        1557,
+        1558,
+        1559,
+        1562,
+        1563,
+        1564
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_64__ent_308",
+      "judgment": "supported",
+      "reason": "Patrick Ewing → Knicks: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3064,
+        3065,
+        3066,
+        3067,
+        3068,
+        3069,
+        3070,
+        3073
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_65__ent_60",
+      "judgment": "supported",
+      "reason": "Dominique Wilkins → Hawks: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3124,
+        3125,
+        3126,
+        3127,
+        3128,
+        3130,
+        3131,
+        3132
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_537__ent_99",
+      "judgment": "incorrect",
+      "reason": "United States → Iran: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        5505,
+        5506,
+        5511,
+        5512,
+        7885,
+        7886,
+        7891,
+        7892
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_111__ent_114",
+      "judgment": "incorrect",
+      "reason": "Riley → Starks: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1545,
+        1546,
+        1547,
+        1548,
+        1549,
+        1551,
+        1554
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_215.json",
+        "annotation_sha256": "6bbab5718ae61f390228e7bc65627c34b8bb4068adeeab1093fa1d1ee752c87b"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_182__ent_316",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Gore: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        3084,
+        3085,
+        3086,
+        3087,
+        3089,
+        3091,
+        3092
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_215.json",
+        "annotation_sha256": "6bbab5718ae61f390228e7bc65627c34b8bb4068adeeab1093fa1d1ee752c87b"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_63__ent_543",
+      "judgment": "supported",
+      "reason": "Richard Jefferson → Nets: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3094,
+        3095,
+        3096,
+        3097,
+        3098,
+        3101,
+        3103
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_215.json",
+        "annotation_sha256": "6bbab5718ae61f390228e7bc65627c34b8bb4068adeeab1093fa1d1ee752c87b"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_66__ent_543",
+      "judgment": "supported",
+      "reason": "Kidd → Nets: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3105,
+        3107,
+        3108,
+        3109,
+        3110,
+        3111,
+        3113
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_1117__ent_347",
+      "judgment": "supported",
+      "reason": "Kovalev → Rangers: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        4258,
+        4259,
+        4260,
+        4262,
+        4263,
+        4264,
+        4267
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+        "source": "prior_annotations/rel_215.json",
+        "annotation_sha256": "6bbab5718ae61f390228e7bc65627c34b8bb4068adeeab1093fa1d1ee752c87b"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_308__ent_1005",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        875,
+        878,
+        880,
+        6045,
+        6048,
+        6050
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_182__ent_355",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Hussein: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1595,
+        1596,
+        1597,
+        1598,
+        1599,
+        1603
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_597__ent_1041",
+      "judgment": "incorrect",
+      "reason": "Van Gundy → Johnson: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1605,
+        1606,
+        1607,
+        1609,
+        1610,
+        1614
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_813__ent_537",
+      "judgment": "incorrect",
+      "reason": "Britain → United States: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1952,
+        1954,
+        1957,
+        1958,
+        1960
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_61__ent_259",
+      "judgment": "supported",
+      "reason": "Reggie Miller → Indiana: Explicit player/position/scorer or athletic scoring-for evidence supports the first person playing for the named team.",
+      "evidence_lines": [
+        3154,
+        3155,
+        3157,
+        3159,
+        3163
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_201__ent_443",
+      "judgment": "incorrect",
+      "reason": "New Yorkers → AIDS: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        4908,
+        4911,
+        4913,
+        4914,
+        4915
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_916__ent_586",
+      "judgment": "incorrect",
+      "reason": "Dan Bartlett → White House: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        8434,
+        8435,
+        8436,
+        8437,
+        8439
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_197__ent_199",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → Ms. Tripp: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        495,
+        499,
+        503,
+        504
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_1004__ent_309",
+      "judgment": "incorrect",
+      "reason": "Yankees → Red Sox: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        884,
+        2584,
+        3137,
+        6900
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_335__ent_536",
+      "judgment": "incorrect",
+      "reason": "Charles E. Redman → State Department: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        1381,
+        1385,
+        1387
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_499__ent_333",
+      "judgment": "incorrect",
+      "reason": "David N. Dinkins → Manhattan: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        2850,
+        2851,
+        2855
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_487__ent_333",
+      "judgment": "incorrect",
+      "reason": "Muppets → Manhattan: The supplied evidence concerns other ordered roles: team rivalry, politics, communication, coaching a player, illness, or an institutional/location association. It does not establish an athlete playing for a team.",
+      "evidence_lines": [
+        6374,
+        6375
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:25.135Z"
+      }
+    }
+  ]
+}

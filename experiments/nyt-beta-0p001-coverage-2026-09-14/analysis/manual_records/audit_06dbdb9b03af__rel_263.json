@@ -1,0 +1,42 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_263",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_263__ent_998__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit United States attorney title establishes legal service for the jurisdiction.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_263__ent_288__ent_321",
+        "rel_263__ent_1043__ent_321"
+      ],
+      "judgment": "incorrect",
+      "reason": "Manager, negotiator or president office alone does not establish legal service.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "130f0909b94fe321ea69bcf3afa07ac498d96d39a58f7472452a593ae13acce2"
+}

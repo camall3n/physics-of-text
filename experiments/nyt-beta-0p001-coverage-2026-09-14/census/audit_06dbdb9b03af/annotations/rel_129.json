@@ -1,0 +1,95 @@
+{
+  "relation": "rel_129",
+  "predicate_id": "chairperson_of",
+  "label": "chairperson of",
+  "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+  "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+  "facts": [
+    {
+      "case_id": "rel_129__ent_246__ent_1171",
+      "judgment": "ambiguous",
+      "reason": "Illinois Democrat → House Ways and Means Committee: Illinois Democrat is an unnamed partisan officeholder rather than an identified person.",
+      "evidence_lines": [
+        6329,
+        6330,
+        6331,
+        6332,
+        6333
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Illinois Democrat held this committee chair?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.752Z"
+      }
+    },
+    {
+      "case_id": "rel_129__ent_2__ent_1",
+      "judgment": "supported",
+      "reason": "Felix G. Rohatyn → Municipal Assistance Corporation: Explicit chair title, actual service or stepping down as chair establishes office tenure.",
+      "evidence_lines": [
+        240,
+        242,
+        246,
+        247
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.751Z"
+      }
+    },
+    {
+      "case_id": "rel_129__ent_27__ent_29",
+      "judgment": "incorrect",
+      "reason": "Cegetel → French: Company nationality and ownership partner evidence does not establish a person chair office.",
+      "evidence_lines": [
+        3621,
+        3622,
+        3625,
+        3626
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.752Z"
+      }
+    },
+    {
+      "case_id": "rel_129__ent_139__ent_379",
+      "judgment": "supported",
+      "reason": "Gen. Richard B. Myers → Joint Chiefs of Staff: Explicit chair title, actual service or stepping down as chair establishes office tenure.",
+      "evidence_lines": [
+        220,
+        221,
+        225
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:30.752Z"
+      }
+    }
+  ],
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2379e450406b48c403226909e43ad27ca1a55c9be1b216d28171d431842cfc81"
+}

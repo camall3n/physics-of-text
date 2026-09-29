@@ -1,0 +1,87 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_123",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_123__ent_182__ent_1002",
+        "rel_123__ent_1431__ent_1393",
+        "rel_123__ent_198__ent_450",
+        "rel_123__ent_647__ent_1341",
+        "rel_123__ent_1330__ent_675",
+        "rel_123__ent_1109__ent_1033",
+        "rel_123__ent_1278__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "An unqualified return/leave-for/come-to/flee-to row asserts geographic destination movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_123__ent_820__ent_451"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Israel-return-to-Egypt co-occurs with territorial capture/border context, leaving a returned territory versus traveling subject unresolved.",
+      "tags": [
+        "missing_object",
+        "attachment"
+      ],
+      "question": "What returned to Egypt: the subject, people, or an omitted territory?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_123__ent_1382__ent_1442"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway movement may mean a theatrical engagement rather than geographic travel; the local production-role row does not resolve the sense.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does return/come to Broadway assert physical travel or resumption of a theatrical role?"
+    },
+    {
+      "indices": [
+        5,
+        10
+      ],
+      "case_ids": [
+        "rel_123__ent_356__ent_308",
+        "rel_123__ent_363__ent_1393"
+      ],
+      "judgment": "incorrect",
+      "reason": "Returning to a team and telling something in a jurisdiction do not assert geographic travel.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "2cddc71d8d21842ce87cacb7750918d03f37853df9f2e34abbd63901ae2202e5"
+}

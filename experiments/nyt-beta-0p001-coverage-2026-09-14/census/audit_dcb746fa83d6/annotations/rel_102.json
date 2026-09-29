@@ -1,0 +1,118 @@
+{
+  "relation": "rel_102",
+  "predicate_id": "has_organizational_leader",
+  "label": "has organizational or political leader",
+  "definition": "Organization or political body X has person Y holding an explicit managerial or leadership office in it.",
+  "scope_notes": "Includes: inverse of managerial_office_in with an explicit office; corporate or political institutions; historical office. Excludes: ordinary membership; geographic co-occurrence; interactions without office; forward person-to-body direction. Ambiguous unless resolved by case-local evidence: incomplete principal or office attachment. Use only where the prior declaration actually included organizations generally, not to widen a political-only relation.",
+  "facts": [
+    {
+      "case_id": "rel_102__ent_543__ent_590",
+      "judgment": "supported",
+      "reason": "Nets → Rod Thorn: Direct institutional president apposition establishes the inverse officeholder relation.",
+      "evidence_lines": [
+        5306,
+        5309,
+        5311,
+        5315
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.122Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_1299__ent_811",
+      "judgment": "incorrect",
+      "reason": "Senate → House: Legislatures following one another, unqualified speech by a person, or a campaign at headquarters does not explicitly establish an institutional leadership office.",
+      "evidence_lines": [
+        1933,
+        1935
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.122Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_1390__ent_336",
+      "judgment": "incorrect",
+      "reason": "State Department → Richard A. Boucher: Legislatures following one another, unqualified speech by a person, or a campaign at headquarters does not explicitly establish an institutional leadership office.",
+      "evidence_lines": [
+        5380,
+        5384
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.122Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_1434__ent_1132",
+      "judgment": "supported",
+      "reason": "Israel → Shimon Peres: Direct institutional president apposition establishes the inverse officeholder relation.",
+      "evidence_lines": [
+        7018,
+        7020
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.122Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_499__ent_544",
+      "judgment": "incorrect",
+      "reason": "David N. Dinkins → Manhattan: Legislatures following one another, unqualified speech by a person, or a campaign at headquarters does not explicitly establish an institutional leadership office.",
+      "evidence_lines": [
+        2850
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.122Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_1197__ent_1250",
+      "judgment": "incorrect",
+      "reason": "Senate → Tom Daschle: Legislatures following one another, unqualified speech by a person, or a campaign at headquarters does not explicitly establish an institutional leadership office.",
+      "evidence_lines": [
+        7650
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:09.122Z"
+      }
+    }
+  ],
+  "predicate_hash": "b4faffa45e92acb6df72aaa5c4c301b62fd1a111dd6a3c085ff1f0ed26ecd649",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "64f3319cf0b8c162016e2e468e7b7bbe259f3ebb0a8827420f038bb56957fdd3"
+}

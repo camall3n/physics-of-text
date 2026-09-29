@@ -1,0 +1,81 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_176",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_176__ent_182__ent_1002",
+        "rel_176__ent_34__ent_1002",
+        "rel_176__ent_195__ent_1002",
+        "rel_176__ent_80__ent_820",
+        "rel_176__ent_428__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit arrival-in or come-to evidence establishes movement to the named geographic destination.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_176__ent_180__ent_1002"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows state speech, conference, meeting location and leaving Washington, with no destination movement to it.",
+      "tags": [
+        "presence_not_destination"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_176__ent_198__ent_450"
+      ],
+      "judgment": "incorrect",
+      "reason": "Meeting, speaking and leaving Moscow do not state travel there; subject-summons-to omits the summoned object rather than making Gorbachev the traveler.",
+      "tags": [
+        "wrong_movement_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_176__ent_758__ent_537"
+      ],
+      "judgment": "incorrect",
+      "reason": "Attorney office and speaking in the United States do not state destination travel.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7f9769a2b60be5beac61427b2b74529d95f994f17ad708504b0431adda693935"
+}

@@ -1,0 +1,78 @@
+{
+  "relation": "rel_378",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_378__ent_37__ent_34",
+      "judgment": "ambiguous",
+      "reason": "Soviet → Mikhail S. Gorbachev: Soviet or Republican is an adjective and does not identify the complete political body whose leader is named.",
+      "evidence_lines": [
+        6744,
+        6746,
+        6748,
+        6749,
+        6750,
+        6751,
+        6752
+      ],
+      "issue_tags": [
+        "incomplete_argument"
+      ],
+      "reviewer_question": "Which complete political institution, country or party caucus does the adjective denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.043Z"
+      }
+    },
+    {
+      "case_id": "rel_378__ent_263__ent_261",
+      "judgment": "ambiguous",
+      "reason": "Republican → Bob Dole: Soviet or Republican is an adjective and does not identify the complete political body whose leader is named.",
+      "evidence_lines": [
+        7707,
+        7708,
+        7710,
+        7711,
+        7712,
+        7715
+      ],
+      "issue_tags": [
+        "incomplete_argument"
+      ],
+      "reviewer_question": "Which complete political institution, country or party caucus does the adjective denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.043Z"
+      }
+    },
+    {
+      "case_id": "rel_378__ent_302__ent_544",
+      "judgment": "incorrect",
+      "reason": "Microsoft → Redmond: Microsoft/Redmond way is a geographic street-name fragment, not political leadership.",
+      "evidence_lines": [
+        785,
+        4341
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.043Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1a3356a36b0be9f39d6f8ee96de06efde2c15a1895626276e03406fd9a14edbd"
+}

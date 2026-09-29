@@ -1,0 +1,310 @@
+{
+  "relation": "rel_369",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_369__ent_1004__ent_309",
+      "judgment": "incorrect",
+      "reason": "Yankees → Red Sox: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        884,
+        2584,
+        3137,
+        6900
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_356__ent_308",
+      "judgment": "ambiguous",
+      "reason": "Ewing → Knicks: Lead/pace/add/give or draft/trade context does not explicitly resolve an athlete playing/scoring role in these truncated local paths.",
+      "evidence_lines": [
+        3074,
+        3077,
+        4218,
+        4221
+      ],
+      "issue_tags": [
+        "athlete_context",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the omitted role or object establish that this person played or scored for the team, rather than coaching or another contribution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_63__ent_543",
+      "judgment": "ambiguous",
+      "reason": "Richard Jefferson → Nets: Lead/pace/add/give or draft/trade context does not explicitly resolve an athlete playing/scoring role in these truncated local paths.",
+      "evidence_lines": [
+        3094,
+        3095,
+        3096,
+        3101
+      ],
+      "issue_tags": [
+        "athlete_context",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the omitted role or object establish that this person played or scored for the team, rather than coaching or another contribution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1045__ent_1403",
+      "judgment": "supported",
+      "reason": "Jordan → Bulls: A local playing-with, points-for, or scoring-for row establishes an athlete contribution to this team.",
+      "evidence_lines": [
+        3114,
+        3116,
+        3121,
+        3122
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.560Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1117__ent_347",
+      "judgment": "ambiguous",
+      "reason": "Kovalev → Rangers: Lead/pace/add/give or draft/trade context does not explicitly resolve an athlete playing/scoring role in these truncated local paths.",
+      "evidence_lines": [
+        4258,
+        4261,
+        4264,
+        4267
+      ],
+      "issue_tags": [
+        "athlete_context",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the omitted role or object establish that this person played or scored for the team, rather than coaching or another contribution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_197__ent_199",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → Ms. Tripp: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        496,
+        503,
+        504
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_309__ent_409",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        864,
+        2664,
+        6930
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1423__ent_60",
+      "judgment": "supported",
+      "reason": "Dominique Wilkins → Hawks: A local playing-with, points-for, or scoring-for row establishes an athlete contribution to this team.",
+      "evidence_lines": [
+        3124,
+        3129,
+        3130
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_413__ent_1404",
+      "judgment": "supported",
+      "reason": "Holik → Devils: A local playing-with, points-for, or scoring-for row establishes an athlete contribution to this team.",
+      "evidence_lines": [
+        4298,
+        4306,
+        4307
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1004__ent_772",
+      "judgment": "incorrect",
+      "reason": "Yankees → American League East: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        2736,
+        2741
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1441__ent_1444",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications → Internet: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        7389,
+        7390
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1329__ent_1440",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Congress: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        411
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_1029__ent_1359",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        875
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_217__ent_279",
+      "judgment": "ambiguous",
+      "reason": "MacLean → Devils: Lead/pace/add/give or draft/trade context does not explicitly resolve an athlete playing/scoring role in these truncated local paths.",
+      "evidence_lines": [
+        4250
+      ],
+      "issue_tags": [
+        "athlete_context"
+      ],
+      "reviewer_question": "Does the omitted role or object establish that this person played or scored for the team, rather than coaching or another contribution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_797__ent_1183",
+      "judgment": "incorrect",
+      "reason": "Pearl Meyer & Partners → New York: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        7160
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_117__ent_520",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → Vernon Jordan: The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "evidence_lines": [
+        8216
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.561Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "87c0dd970d864a5abe1ecb17bd850c27cf912c2f718b0718fbab8ae060c3409c"
+}

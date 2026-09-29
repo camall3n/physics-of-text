@@ -1,0 +1,59 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_313",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_313__ent_586__ent_578",
+        "rel_313__ent_586__ent_1039"
+      ],
+      "judgment": "supported",
+      "reason": "Direct organization-modifying spokesman evidence identifies the spokesperson despite adjacent secretary/speech rows.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_313__ent_380__ent_205"
+      ],
+      "judgment": "incorrect",
+      "reason": "Replacing a predecessor is succession, not a person serving as another person's spokesperson.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_313__ent_536__ent_336"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Saying at the State Department supplies speech location but no explicit representation of that department in this fact.",
+      "tags": [
+        "spokesperson_attachment"
+      ],
+      "question": "Is Richard Boucher speaking for the State Department or merely speaking at its location?"
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5da0053d6580e0f8ec820e9a4d91537d3b16528bb38488c553481291698dec8a"
+}

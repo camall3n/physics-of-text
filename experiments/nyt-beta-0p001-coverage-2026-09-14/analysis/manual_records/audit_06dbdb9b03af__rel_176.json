@@ -1,0 +1,60 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_176",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_176__ent_182__ent_1002",
+        "rel_176__ent_758__ent_537",
+        "rel_176__ent_198__ent_450"
+      ],
+      "judgment": "supported",
+      "reason": "Direct speech/meeting in the named geographic location establishes physical presence; unrelated office or invitation rows do not negate the local assertion.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_176__ent_947__ent_704"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Syracuse may denote the university or the city; assistant/room/be-at context does not resolve the geographic argument.",
+      "tags": [
+        "metonymy"
+      ],
+      "question": "Does Syracuse designate the city where the person was present, or the university affiliation?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_176__ent_951__ent_325"
+      ],
+      "judgment": "incorrect",
+      "reason": "Speech and criticism in a publication are textual attribution, not physical geographic presence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "87f2bf226f62d200e102b17088eda7c5da04c731aeabece89b29fe9ed28c58a2"
+}

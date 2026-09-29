@@ -1,0 +1,42 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_173",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_173__ent_211__ent_452"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The dictionary ties inverse political office and coaching with an ambiguous repeated return path. The Haiti rows do not resolve a single declared relation for the cluster.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this cluster express a country having a political leader, or a person coaching a team?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_173__ent_944__ent_705"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Explicit coaching appears in this case, but the full cluster has a tied inverse political-office family and no stable dominant shared predicate.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Is coaching the intended relation, despite the equally competing inverse political-office dictionary family?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "d39d90d66f169e6d0d029ef0fef0fe24513dacf16e5babe39569396fbefc741b"
+}

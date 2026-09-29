@@ -1,0 +1,33 @@
+{
+  "relation": "rel_242",
+  "predicate_id": "chairs_or_heads",
+  "predicate_version": 1,
+  "predicate_hash": "6878774795bd285dbc60353115335f7e766252e8a03703fe835115aafc069c17",
+  "predicate": {
+    "id": "chairs_or_heads",
+    "label": "chairs or heads organization",
+    "definition": "Person X holds or held a chair or organizational head/leader office in organization or committee Y.",
+    "includes": [
+      "explicit chair/head/organizational leader",
+      "historical chair or head office"
+    ],
+    "excludes": [
+      "ordinary member/serve-on/sit-on",
+      "generic executive/director/president without chair/head role",
+      "chair of a panel as proof of chairing its parent organization"
+    ],
+    "ambiguous": [
+      "incomplete panel/parent attachment",
+      "unnamed person identified only by party"
+    ],
+    "notes": "This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases.",
+    "scope_notes": "Includes: explicit chair/head/organizational leader; historical chair or head office. Excludes: ordinary member/serve-on/sit-on; generic executive/director/president without chair/head role; chair of a panel as proof of chairing its parent organization. Ambiguous unless resolved by case-local evidence: incomplete panel/parent attachment; unnamed person identified only by party. This preserves the explicitly declared chair/head mixture in the latest review; it is narrower than managerial_office_in and must stay the same across cases."
+  },
+  "dictionary_sha256": "d9f27330fde8e1a220aaeb5e56422c4c3f281362dc77f5c6e9236d110c4e86e5",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "prior_annotation_sha256": "0f36be458538e499c60ce673f380a341aa08096a96ebb98771912679beed80eb",
+  "prior_assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b"
+}

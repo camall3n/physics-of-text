@@ -1,0 +1,373 @@
+{
+  "relation": "rel_352",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_352.json",
+    "source_sha256": "03e843dc51ff1d1096f2f2f01c9e90d4a71ba4e017c192469009b8c66fd43662",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_352__ent_822__ent_640",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2555,
+        2556,
+        2558,
+        2560,
+        6578,
+        6580,
+        6582
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_annotations/rel_352.json",
+        "annotation_sha256": "03e843dc51ff1d1096f2f2f01c9e90d4a71ba4e017c192469009b8c66fd43662"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1068__ent_923",
+      "judgment": "ambiguous",
+      "reason": "McCann-Erickson World Group → Interpublic Group of Companies; Lowe Group → Interpublic Group of Companies: Lowe Group and McCann-Erickson World Group share one latent first entity; both have containment evidence but these are different organizational referents.",
+      "evidence_lines": [
+        6636,
+        6642,
+        6645,
+        6648,
+        6649,
+        6650,
+        6651
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Are Lowe Group and McCann-Erickson intended as the same entity, or has this fact merged two separate subsidiaries?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_624__ent_627",
+      "judgment": "supported",
+      "reason": "United → UAL: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2532,
+        2534,
+        2535,
+        2537,
+        2538
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_881__ent_101",
+      "judgment": "supported",
+      "reason": "ABC → Walt Disney Company: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2572,
+        2573,
+        2575,
+        2576,
+        2580
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1073__ent_1129",
+      "judgment": "supported",
+      "reason": "Young & Rubicam → WPP Group: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        6719,
+        6723,
+        6724,
+        6725,
+        6727
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_annotations/rel_352.json",
+        "annotation_sha256": "03e843dc51ff1d1096f2f2f01c9e90d4a71ba4e017c192469009b8c66fd43662"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1232__ent_393",
+      "judgment": "supported",
+      "reason": "Fox → News Corporation: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2512,
+        2513,
+        2515,
+        2519
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_843__ent_1304",
+      "judgment": "ambiguous",
+      "reason": "New York → BBDO Worldwide: The first argument is a city name attached to part/unit paths, which may stand for an unnamed local agency office rather than the literal place.",
+      "evidence_lines": [
+        4132,
+        4134,
+        4136,
+        4139
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Which organizational office does the first geographic name designate in these sentences?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_921__ent_1066",
+      "judgment": "supported",
+      "reason": "Hughes → General Motors Corporation: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        6615,
+        6616,
+        6621,
+        6622
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_920__ent_1066",
+      "judgment": "supported",
+      "reason": "Electronic Data Systems Corporation → General Motors Corporation: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        6625,
+        6630,
+        6631,
+        6632
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_867__ent_1388",
+      "judgment": "supported",
+      "reason": "NBC → General Electric Company: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2523,
+        2524,
+        2525
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_869__ent_1015",
+      "judgment": "supported",
+      "reason": "Goodby → Omnicom Group: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2541,
+        2545,
+        2550
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_407__ent_1218",
+      "judgment": "ambiguous",
+      "reason": "Chicago → DDB Worldwide: The first argument is a city name attached to part/unit paths, which may stand for an unnamed local agency office rather than the literal place.",
+      "evidence_lines": [
+        4125,
+        4127,
+        4130
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Which organizational office does the first geographic name designate in these sentences?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_annotations/rel_352.json",
+        "annotation_sha256": "03e843dc51ff1d1096f2f2f01c9e90d4a71ba4e017c192469009b8c66fd43662"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_922__ent_1015",
+      "judgment": "supported",
+      "reason": "TBWA Worldwide → Omnicom Group: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        6654,
+        6661
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_annotations/rel_352.json",
+        "annotation_sha256": "03e843dc51ff1d1096f2f2f01c9e90d4a71ba4e017c192469009b8c66fd43662"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1204__ent_709",
+      "judgment": "incorrect",
+      "reason": "Israel → Ehud Olmert: Raid, government and hang evidence links a country and a political person, not a subsidiary organization and its parent.",
+      "evidence_lines": [
+        7040,
+        7041
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+        "source": "prior_annotations/rel_352.json",
+        "annotation_sha256": "03e843dc51ff1d1096f2f2f01c9e90d4a71ba4e017c192469009b8c66fd43662"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1272__ent_602",
+      "judgment": "supported",
+      "reason": "Bozell Worldwide → Bozell: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        2506
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1154__ent_1116",
+      "judgment": "supported",
+      "reason": "Eastern → Texas Air Corporation: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        6558
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1072__ent_1015",
+      "judgment": "supported",
+      "reason": "DDB Needham Worldwide → Omnicom Group: Organizational part, unit, ownership or parent evidence supports the first organization belonging to the second.",
+      "evidence_lines": [
+        6713
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:53:43.676Z"
+      }
+    }
+  ]
+}

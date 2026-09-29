@@ -1,0 +1,51 @@
+{
+  "experiment": "NYT corrected sampler, maxRels=400",
+  "status": "complete",
+  "startedAt": "2026-09-11T22:42:48.036Z",
+  "config": {
+    "numRels": 200,
+    "maxRels": 400,
+    "numEnts": 1199,
+    "numIterations": 1000,
+    "stepsPerIteration": 2000,
+    "entityFraction": 0.02,
+    "alpha": 0.001,
+    "beta": 0.1,
+    "sparsity": 0.001,
+    "sparsityA": 1,
+    "sparsityB": 1437601
+  },
+  "command": {
+    "executable": "java",
+    "args": [
+      "-ea",
+      "-Xmx4g",
+      "-Dlogback.configurationFile=/Users/michal/repos/physics-of-text/resources/sampler-140626/results/nyt-2026-fixed-400/logback.xml",
+      "-cp",
+      "/Users/michal/repos/physics-of-text/resources/sampler-140626/target-javac/classes:/Users/michal/repos/physics-of-text/resources/sampler-140626/target/generative_ie-1.0-SNAPSHOT-jar-with-dependencies.jar",
+      "org.ucb.generative_ie.experiments.EntityResolution",
+      "/Users/michal/repos/physics-of-text/resources/sampler-140626/results/nyt-2026-fixed-400/config.json",
+      "/Users/michal/repos/physics-of-text/resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_5.json"
+    ],
+    "cwd": "/Users/michal/repos/physics-of-text/resources/sampler-140626/results/nyt-2026-fixed-400"
+  },
+  "java": "openjdk 25.0.4.1 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)",
+  "gitHead": "13c3605ade242f9366e4bda55fabd394c23589dc",
+  "workingTreeFixes": true,
+  "corpus": "/Users/michal/repos/physics-of-text/resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_5.json",
+  "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+  "dependency_jar_sha256": "66d396ff7a5bce7df7c3d0637377693be218e077b483df0f0335454b1f586242",
+  "previous_map_sha256": "f378d2c55e0e6624fc55f0916ff38bd8c6a4f88fc22a9d05d127a9ef00d6c071",
+  "seedControl": "Incomplete: NYT entry point and step iterators construct unseeded Random instances; not a paired-seed ablation.",
+  "prior": "Existing pool-dependent prior retained. maxRels=400 is a comparison setting, not a prior correction.",
+  "finishedAt": "2026-09-11T22:45:25.261Z",
+  "elapsedSeconds": 157.049,
+  "code": 0,
+  "signal": null,
+  "outputs": {
+    "logprobs.txt": "5a66b540aed363971a105d2b16c83ea9cb51d7ec3ffec014516eae0d47349e4a",
+    "map_world_sentences.tsv": "b9874a5166461518514bd1b1b6b1e6bc6f30b61e8bd0b50f2d34233620917a54",
+    "map_world.txt": "dc6c8568abe10bfae656ce55aebef571310ce7fa5e6f0361513032324ea239f1",
+    "relation_triggers.txt": "819aa6a35b16a458b2715ad025a0c168dcffb547ad6c5a014f96c720453a94bb"
+  }
+}

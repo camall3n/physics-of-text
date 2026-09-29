@@ -1,0 +1,83 @@
+{
+  "relation": "rel_69",
+  "label": "travels or moves to",
+  "definition": "Person, group or organization X travels, visits, arrives, returns or relocates to geographical place Y.",
+  "scope_notes": "Declared from go/come/visit/arrive paths and all 27 fact summaries. Sports-contest, possession and company-name meanings compete substantially. Literal venue travel qualifies; playing an opponent or turning to a player does not.",
+  "facts": [
+    {
+      "case_id": "rel_69__ent_400__ent_83",
+      "judgment": "supported",
+      "reason": "Jets go to Oakland and play in it, establishing travel to a venue despite opponent-name metonymy in other rows.",
+      "evidence_lines": [
+        3459,
+        3460
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_69__ent_34__ent_1002",
+      "judgment": "supported",
+      "reason": "Gorbachev comes to, arrives in and visits Washington.",
+      "evidence_lines": [
+        4731,
+        4732,
+        4738
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_69__ent_428__ent_537",
+      "judgment": "supported",
+      "reason": "Cubans are brought to, arrive in, flee to and come to United States.",
+      "evidence_lines": [
+        4722,
+        4723,
+        4724,
+        4726,
+        4730
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_69__ent_321__ent_1013",
+      "judgment": "incorrect",
+      "reason": "Mets compete with Florida Marlins; no geographical travel destination is established.",
+      "evidence_lines": [
+        6977,
+        6978,
+        6979,
+        6981,
+        6984
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_69__ent_888__ent_333",
+      "judgment": "incorrect",
+      "reason": "John plays/loses to Manhattan or appears in complex institution/relative paths; no direct travel to the city is supplied.",
+      "evidence_lines": [
+        3967,
+        3968,
+        3970,
+        3972,
+        3973,
+        3974
+      ],
+      "issue_tags": [
+        "predicate_boundary",
+        "entity_identity"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

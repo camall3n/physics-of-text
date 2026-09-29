@@ -1,0 +1,89 @@
+{
+  "relation": "rel_96",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_96__ent_1377__ent_242",
+      "judgment": "supported",
+      "reason": "Sotheby → York Avenue: Explicit gallery/salesroom/house-on-street and be-on wording establishes the auction house location.",
+      "evidence_lines": [
+        6245,
+        6248,
+        6249,
+        6250,
+        6251,
+        6253
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.132Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_1168__ent_1169",
+      "judgment": "supported",
+      "reason": "Christie → Park Avenue: Explicit gallery/salesroom/house-on-street and be-on wording establishes the auction house location.",
+      "evidence_lines": [
+        6225,
+        6227,
+        6229,
+        6231
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.132Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_872__ent_629",
+      "judgment": "incorrect",
+      "reason": "Leon Wieseltier → New Republic: Publication authorship or political leadership does not establish corporate location.",
+      "evidence_lines": [
+        2449,
+        2451,
+        2454
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.132Z"
+      }
+    },
+    {
+      "case_id": "rel_96__ent_31__ent_36",
+      "judgment": "incorrect",
+      "reason": "Harry Reid → Democratic: Publication authorship or political leadership does not establish corporate location.",
+      "evidence_lines": [
+        3721,
+        3722
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.132Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "94e068fd3051d3225c0c790f6de9320a83c9b13986f3fd32ea9d554c528c34ac"
+}

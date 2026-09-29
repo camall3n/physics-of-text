@@ -1,0 +1,55 @@
+{
+  "relation": "rel_104",
+  "predicate_id": "writes_for",
+  "label": "contributed writing to publication",
+  "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+  "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction.",
+  "facts": [
+    {
+      "case_id": "rel_104__ent_1098__ent_954",
+      "judgment": "supported",
+      "reason": "Herbert Mitgang → The New York Times: Explicit reporter for the newspaper and covering publishing for it establish journalistic authorship.",
+      "evidence_lines": [
+        7330,
+        7331,
+        7332,
+        7333,
+        7334,
+        7337,
+        7338
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.024Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_1123__ent_427",
+      "judgment": "incorrect",
+      "reason": "Jonathan Pryce → Broadway: Performing a role on Broadway does not establish writing for a publication.",
+      "evidence_lines": [
+        4743,
+        4745,
+        4746,
+        4748
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:05.024Z"
+      }
+    }
+  ],
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d16a36234a87b3167c3c4371570735c0063691513cc9016917b43470c110e792"
+}

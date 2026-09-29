@@ -1,0 +1,55 @@
+{
+  "relation": "rel_385",
+  "predicate_id": "coach_of",
+  "label": "coach of",
+  "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+  "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment.",
+  "facts": [
+    {
+      "case_id": "rel_385__ent_717__ent_959",
+      "judgment": "supported",
+      "reason": "Geno Auriemma → UConn: Direct coaching at UConn and as-coach references establish the collegiate coaching role.",
+      "evidence_lines": [
+        7277,
+        7278,
+        7279,
+        7280,
+        7281,
+        7282
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.864Z"
+      }
+    },
+    {
+      "case_id": "rel_385__ent_362__ent_123",
+      "judgment": "incorrect",
+      "reason": "John Rother → American Association of Retired Persons: Legislative directorship and lobbying do not establish sports coaching.",
+      "evidence_lines": [
+        1764,
+        1765,
+        1766,
+        1767,
+        1768
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.864Z"
+      }
+    }
+  ],
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "4739b47401bedefc1f56e5e633f8f44d78b2ec1f0743ce1631652928fb3dce11"
+}

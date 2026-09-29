@@ -1,0 +1,46 @@
+{
+  "relation": "rel_10",
+  "predicate_id": "president_of",
+  "predicate_version": 1,
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate": {
+    "id": "president_of",
+    "label": "president of institution",
+    "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+    "includes": [
+      "explicit president office",
+      "a functional or departmental president role within Y",
+      "historical or former presidency"
+    ],
+    "excludes": [
+      "manager, director, chairman, head, or executive alone without a president title",
+      "ordinary employment or membership",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "president-elect or unresolved tenure without evidence of holding office",
+      "an incomplete institution or personal principal",
+      "unclear holder or title attachment"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+    "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y."
+  },
+  "dictionary_sha256": "e79a6784972194f0d6a02bf699b402929fc897ec0a241c14449ceee54996cfb6",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit president-office family is the strongest identifiable title, narrowly exceeding campus location. Generic leader or residence does not become a presidency.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.972Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_10.before_grading.json",
+  "pregrading_annotation_sha256": "354c06bfd24b938f6763a329b42ebf5b1d63367487f329fb44224c60afd6a921"
+}

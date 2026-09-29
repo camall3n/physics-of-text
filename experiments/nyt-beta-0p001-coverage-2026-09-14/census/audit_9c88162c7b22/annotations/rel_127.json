@@ -1,0 +1,79 @@
+{
+  "relation": "rel_127",
+  "predicate_id": "unresolved_relation",
+  "label": "unresolved relation meaning",
+  "definition": "The complete relation dictionary and argument roles do not identify a coherent dominant predicate whose facts can be judged without inventing a scope.",
+  "scope_notes": "Includes: explicitly documented relation-level semantic indeterminacy after complete dictionary and argument-role inspection. Excludes: using ambiguity to omit difficult facts or change denominators; a broad association or disjunction invented to make unrelated meanings correct; using this marker when a coherent dominant family can be identified. Ambiguous unless resolved by case-local evidence: all facts remain ambiguous because the relation meaning is unresolved. This is an evaluation marker, not a learned semantic relation. Every fact receives A with a case-specific question; retain all facts in denominators and separately report relation-semantic-indeterminacy counts.",
+  "facts": [
+    {
+      "case_id": "rel_127__ent_1002__ent_183",
+      "judgment": "ambiguous",
+      "reason": "Washington → Administration: The dominant rows are Washington dateline and Administration official fragments, not a coherent city-to-institution predicate.",
+      "evidence_lines": [
+        7484,
+        7485,
+        7486,
+        7487,
+        7488,
+        7491
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "What relation between Washington and the Administration is asserted beyond officials speaking there?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:58.975Z"
+      }
+    },
+    {
+      "case_id": "rel_127__ent_1002__ent_536",
+      "judgment": "ambiguous",
+      "reason": "Washington → State Department: The dominant rows are dateline plus State Department spokesperson/official attachments; no narrow city-to-institution relation is recovered.",
+      "evidence_lines": [
+        7437,
+        7439,
+        7440,
+        7442,
+        7443
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "Does Washington designate a physical office location or only the reporting dateline for these remarks?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:58.975Z"
+      }
+    },
+    {
+      "case_id": "rel_127__ent_84__ent_715",
+      "judgment": "ambiguous",
+      "reason": "Baghdad → Interior Ministry: Baghdad dateline and Interior Ministry official/prison fragments do not identify one coherent ordered predicate.",
+      "evidence_lines": [
+        7447,
+        7448,
+        7450,
+        7452,
+        7453
+      ],
+      "issue_tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "reviewer_question": "What fact about Baghdad and the Interior Ministry is intended, rather than a missing official or reporting location?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:58.975Z"
+      }
+    }
+  ],
+  "predicate_hash": "a249b68a71720a8340e98c80dac86d87caf6e89822a1a6df9f2878ab1c4211a4",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "fef346189a9d23f08fe1b8199bb21e8d33a37e4890f6f04a058be4acd7e35a5f"
+}

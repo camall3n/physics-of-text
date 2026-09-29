@@ -1,0 +1,59 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_181",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_181__ent_826__ent_825"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Death-location rows support Palestinians killed in the West Bank, but this latent object also contains a distinct East Jerusalem representative location; the merged place identity is not coherent.",
+      "tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "question": "Should the West Bank and East Jerusalem mentions be separate geographic entities in this inferred fact?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_181__ent_826__ent_1274"
+      ],
+      "judgment": "supported",
+      "reason": "Direct killed-in and passive killed-in rows establish deaths of affected Palestinians in Gaza.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_181__ent_1315__ent_434"
+      ],
+      "judgment": "incorrect",
+      "reason": "Living in Europe and actively killing in Iraq do not assert that the Americans themselves died in either place.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [
+    1
+  ],
+  "identity": [
+    2
+  ],
+  "predicate_declaration_sha256": "d3305495e89c484e481faa34e831dd80da5f8c0055d32d2cb71941b131b99cf8"
+}

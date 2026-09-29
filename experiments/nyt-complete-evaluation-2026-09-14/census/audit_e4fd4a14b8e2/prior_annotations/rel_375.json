@@ -1,0 +1,74 @@
+{
+  "relation": "rel_375",
+  "label": "organization located or based in",
+  "definition": "Organization 1 is based in or has an office/site in geographic place 2.",
+  "scope_notes": "Firm/company-in, based-in, headquarters-in and geographic noun compounds qualify. Nationality adjective alone is ambiguous between ownership/origin and actual base. A sector, parent company or person is not a geographic place.",
+  "facts": [
+    {
+      "case_id": "rel_375__ent_956__ent_936",
+      "judgment": "incorrect",
+      "reason": "Internet is an industry/medium in these firm and traffic compounds, not a geographic base for Jupiter Media Metrix.",
+      "evidence_lines": [
+        7401,
+        7402,
+        7410
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_375__ent_1147__ent_209",
+      "judgment": "supported",
+      "reason": "Yankee Group is explicitly a firm/company in Boston and research based in Boston.",
+      "evidence_lines": [
+        5770,
+        7087,
+        7088,
+        7091
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_375__ent_463__ent_440",
+      "judgment": "supported",
+      "reason": "T. Rowe Price is explicitly a company in and based in Baltimore.",
+      "evidence_lines": [
+        5823,
+        5828,
+        5831
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_375__ent_447__ent_0",
+      "judgment": "incorrect",
+      "reason": "Bernanke is a person linked by chairman/head roles to the Federal Reserve, not an organization geographically based in it.",
+      "evidence_lines": [
+        5711,
+        5713,
+        5714
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_375__ent_207__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar is explicitly a publisher/company/group in Chicago.",
+      "evidence_lines": [
+        5745,
+        5747,
+        5748
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

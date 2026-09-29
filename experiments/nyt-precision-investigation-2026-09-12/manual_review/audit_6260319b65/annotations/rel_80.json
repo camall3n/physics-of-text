@@ -1,0 +1,79 @@
+{
+  "relation": "rel_80",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sporting team Y.",
+  "scope_notes": "Chosen after inspecting all 15 complete facts: athlete/team pairs dominate, with score-for, player, guard, wing and captain paths. The frequent lead path is polysemous. Coaches, corporate executives, teams leading opposing teams and division standings are separate meanings and do not qualify. No old relation ID is transferred.",
+  "facts": [
+    {
+      "case_id": "rel_80__ent_1175__ent_308",
+      "judgment": "incorrect",
+      "reason": "Jackson is dismissed as Knicks coach and puts them somewhere; these rows do not state that he played for Knicks as an athlete.",
+      "evidence_lines": [
+        6479,
+        6485
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1116__ent_110",
+      "judgment": "supported",
+      "reason": "MacLean scores for Devils and is their wing, directly supporting an athlete/team role; generic lead/put rows are weaker.",
+      "evidence_lines": [
+        4249,
+        4255
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_309__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Red Sox leading Yankees is one team ahead of an opponent, not a person playing for the other team.",
+      "evidence_lines": [
+        864,
+        2664,
+        6930
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "direction"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1004__ent_309",
+      "judgment": "incorrect",
+      "reason": "Yankees leading Red Sox is opponent/standings wording, not an athlete employed by the other team.",
+      "evidence_lines": [
+        884,
+        2584,
+        3137,
+        6900
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "direction"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_80__ent_1137__ent_1135",
+      "judgment": "incorrect",
+      "reason": "Iacocca leading Chrysler and having a successor as executive concerns corporate leadership, not an athlete/team role.",
+      "evidence_lines": [
+        5140,
+        5141,
+        5142
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

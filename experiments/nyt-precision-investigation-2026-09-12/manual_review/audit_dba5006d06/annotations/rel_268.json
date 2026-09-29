@@ -1,0 +1,78 @@
+{
+  "relation": "rel_268",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Explicit analyst-at/with/for and following an industry for an employer qualify. Economist-only, forecaster or specialist descriptions remain ambiguous under the prior analyst boundary. Director, president, lobbyist, partner and generic employment alone do not.",
+  "facts": [
+    {
+      "case_id": "rel_268__ent_862__ent_861",
+      "judgment": "supported",
+      "reason": "Stephen S. Roach is explicitly an analyst at Morgan Stanley & Company, alongside economist and principal roles.",
+      "evidence_lines": [
+        2346,
+        2340,
+        2341
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_268__ent_862__ent_808",
+      "judgment": "ambiguous",
+      "reason": "For this separate latent fact the rows describe an economist, principal, director and trends specialist at Morgan Stanley, without an explicit analyst role. No evidence is imported from the separately named employer fact.",
+      "evidence_lines": [
+        2347,
+        2350,
+        2355,
+        2356
+      ],
+      "issue_tags": [
+        "predicate_scope"
+      ],
+      "reviewer_question": "Should economist and trends-specialist work qualify as analyst work under the declared analyst predicate?"
+    },
+    {
+      "case_id": "rel_268__ent_806__ent_529",
+      "judgment": "supported",
+      "reason": "Repeated analyst-for, analyst-with and analyst-at descriptions identify Harvey Heinbach as a Merrill Lynch analyst.",
+      "evidence_lines": [
+        1812,
+        1813,
+        1814
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_268__ent_524__ent_766",
+      "judgment": "supported",
+      "reason": "Direct analyst-at and analyst-for rows establish Donald J. Fine as a Chase Manhattan Bank analyst despite additional president, strategist and economist roles.",
+      "evidence_lines": [
+        558,
+        562,
+        559
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_268__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis is explicitly an analyst at, for and with Salomon Brothers; director-at is additional evidence of another role.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

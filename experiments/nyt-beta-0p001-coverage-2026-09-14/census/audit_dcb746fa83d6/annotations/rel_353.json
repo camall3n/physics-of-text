@@ -1,0 +1,87 @@
+{
+  "relation": "rel_353",
+  "predicate_id": "played_at_sporting_venue",
+  "label": "played at sporting venue",
+  "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+  "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+  "facts": [
+    {
+      "case_id": "rel_353__ent_1236__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: Direct sporting victory or play at the named stadium establishes competitive use of that venue.",
+      "evidence_lines": [
+        5208,
+        5209,
+        5210,
+        5211,
+        5214
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.509Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_1284__ent_1340",
+      "judgment": "supported",
+      "reason": "Jets → Giants Stadium: Direct sporting victory or play at the named stadium establishes competitive use of that venue.",
+      "evidence_lines": [
+        4842,
+        4845,
+        4849
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.509Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_1442__ent_572",
+      "judgment": "incorrect",
+      "reason": "Fernando Ferrer → Bronx: Borough presidency or a bare cover-for geographic row does not establish sporting play at a venue.",
+      "evidence_lines": [
+        2789,
+        2790
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.509Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_1374__ent_659",
+      "judgment": "incorrect",
+      "reason": "Dodgers → Brooklyn: Borough presidency or a bare cover-for geographic row does not establish sporting play at a venue.",
+      "evidence_lines": [
+        4060
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.509Z"
+      }
+    }
+  ],
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a1e7292d0c39df6e2f75f9a11a66be7d6b5cd5a889cf8132dec76498e44dafaa"
+}

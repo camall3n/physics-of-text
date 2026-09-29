@@ -1,0 +1,49 @@
+{
+  "relation": "rel_349",
+  "predicate_id": "located_in",
+  "predicate_version": 1,
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate": {
+    "id": "located_in",
+    "label": "organization based or located in",
+    "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+    "includes": [
+      "based/headquarters/campus/office in",
+      "company/firm/group in a place",
+      "clear company/firm geographic noun modifiers",
+      "historical organizational location"
+    ],
+    "excludes": [
+      "industry/Internet or corporate-family/Bell association",
+      "person birthplace/residence/occupation",
+      "mere event location",
+      "ownership or employment alone"
+    ],
+    "ambiguous": [
+      "nationality adjective alone",
+      "truncated country/place",
+      "Wall Street as place versus industry"
+    ],
+    "notes": "A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+    "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact."
+  },
+  "dictionary_sha256": "f8e1b6ef658f80b83aed6fb001f5d03e955db5e72f9b5e7085e43dbe34f374f3",
+  "kind": "declared_before_case_grading",
+  "rationale": "Group/company in-place and geographic institution nn paths dominate; domain and party-office rows remain distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:13:38.364Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    7,
+    11
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_349.before_grading.json",
+  "pregrading_annotation_sha256": "c0f5bbafaab3da2b2c90a59900e4a850cb65922f42f526f5cfbb3871966d6081"
+}

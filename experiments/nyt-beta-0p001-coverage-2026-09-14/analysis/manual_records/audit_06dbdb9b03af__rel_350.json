@@ -1,0 +1,45 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_350",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_350__ent_31__ent_36",
+        "rel_350__ent_264__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The political leadership title is present but Democratic is an incomplete body argument.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which Democratic party body or legislative group does the office refer to?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_350__ent_261__ent_263"
+      ],
+      "judgment": "incorrect",
+      "reason": "Only candidate wording is present, which does not establish a leadership office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "56d4170dc30a5d938d13a3ccbc565d4caf58426dde9cc6a7f9f0b7bd64b65df5"
+}

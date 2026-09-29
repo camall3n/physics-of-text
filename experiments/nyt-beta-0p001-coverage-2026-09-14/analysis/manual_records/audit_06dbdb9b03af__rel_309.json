@@ -1,0 +1,77 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_309",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "case_ids": [
+        "rel_309__ent_624__ent_866",
+        "rel_309__ent_624__ent_627",
+        "rel_309__ent_822__ent_640",
+        "rel_309__ent_1128__ent_1129",
+        "rel_309__ent_626__ent_868",
+        "rel_309__ent_1068__ent_923",
+        "rel_309__ent_867__ent_628",
+        "rel_309__ent_623__ent_865",
+        "rel_309__ent_882__ent_640",
+        "rel_309__ent_920__ent_1066",
+        "rel_309__ent_869__ent_880"
+      ],
+      "judgment": "supported",
+      "reason": "A local unit, part, parent or owned-by statement supports the business-to-parent relationship.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_309__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Unit/owned-by rows support a business relationship, but an executive-at row also treats Hughes as a person; local referent identity is unresolved.",
+      "tags": [
+        "identity_ambiguity"
+      ],
+      "question": "Does Hughes consistently denote the corporate unit, or has an executive mention been conflated with it?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_309__ent_103__ent_345"
+      ],
+      "judgment": "incorrect",
+      "reason": "The only row identifies an executive employed at the organization, not a subsidiary or organizational unit.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    5,
+    10
+  ],
+  "broad": [],
+  "identity": [
+    5
+  ],
+  "predicate_declaration_sha256": "6dbbadae104f14b91ec4f63bdf126f9170557166a9dc7178b25500b505e28d7d"
+}

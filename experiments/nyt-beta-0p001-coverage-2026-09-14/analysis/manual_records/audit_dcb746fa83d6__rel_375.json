@@ -1,0 +1,66 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_375",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_375__ent_778__ent_535"
+      ],
+      "judgment": "supported",
+      "reason": "The team-to-person coach identification establishes an inverse coaching role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_375__ent_543__ent_785"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Coach evidence identifies two distinct people, Byron Scott and Lawrence Frank, merged into the same latent coach.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which coach does this fact refer to: Byron Scott or Lawrence Frank?"
+    },
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_375__ent_1091__ent_1092",
+        "rel_375__ent_722__ent_1232",
+        "rel_375__ent_196__ent_1440",
+        "rel_375__ent_582__ent_1136",
+        "rel_375__ent_351__ent_826"
+      ],
+      "judgment": "incorrect",
+      "reason": "Forward person-to-team coaching, population descriptions, legislative approval, executive office or action against a population does not establish inverse coaching.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    4
+  ],
+  "broad": [],
+  "identity": [
+    1
+  ],
+  "predicate_declaration_sha256": "d669b0c6a799b11967873cc0765412b13127eb55ee71e8b933f2ac0276eaa26d"
+}

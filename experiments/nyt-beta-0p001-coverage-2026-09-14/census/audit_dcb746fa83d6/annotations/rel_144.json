@@ -1,0 +1,341 @@
+{
+  "relation": "rel_144",
+  "predicate_id": "met_with",
+  "label": "met or encountered",
+  "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+  "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+  "facts": [
+    {
+      "case_id": "rel_144__ent_308__ent_1359",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "evidence_lines": [
+        874,
+        879,
+        880,
+        6044,
+        6049
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_1371__ent_721",
+      "judgment": "incorrect",
+      "reason": "NBC → Press: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        6020,
+        6023,
+        6028
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_218__ent_1156",
+      "judgment": "incorrect",
+      "reason": "NBC News → Press: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        6031,
+        6034,
+        6035
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_231__ent_473",
+      "judgment": "incorrect",
+      "reason": "Connecticut River → Long Island Sound: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        6071,
+        6078,
+        6080
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_308__ent_143",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "evidence_lines": [
+        940,
+        2620
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_470__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "George Steinbrenner → Yankees; Mariners → Yankees: A genuine sporting meeting is combined with an incompatible person/company or location pair under the same inferred entities.",
+      "evidence_lines": [
+        1420,
+        6062
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which entity pair should be retained after separating the unrelated literal names?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_1332__ent_336",
+      "judgment": "incorrect",
+      "reason": "State Department → Richard A. Boucher: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        5381,
+        5385
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_1310__ent_526",
+      "judgment": "ambiguous",
+      "reason": "East → West: East and West meet is present, but geographic abstraction, political parties, or actual representatives are not resolved.",
+      "evidence_lines": [
+        6051,
+        6056
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "abstract_encounter",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does this row describe an actual encounter between identifiable people or groups?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_1377__ent_928",
+      "judgment": "ambiguous",
+      "reason": "Sotheby → 72d Street; Stepinac → Holy Cross: A genuine sporting meeting is combined with an incompatible person/company or location pair under the same inferred entities.",
+      "evidence_lines": [
+        6081,
+        6256
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which entity pair should be retained after separating the unrelated literal names?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_1425__ent_940",
+      "judgment": "incorrect",
+      "reason": "Israel → Yitzhak Shamir: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        7083,
+        7085
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_753__ent_287",
+      "judgment": "supported",
+      "reason": "Mr. Netanyahu → Mr. Arafat: A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "evidence_lines": [
+        8278,
+        8283
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_778__ent_573",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "evidence_lines": [
+        889
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_702__ent_400",
+      "judgment": "supported",
+      "reason": "Giants → Jets: A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "evidence_lines": [
+        2629
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_1004__ent_330",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: A local meet, completed sporting outlast, or actual game-against row establishes an encounter between the named parties.",
+      "evidence_lines": [
+        3142
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_858__ent_1371",
+      "judgment": "incorrect",
+      "reason": "General Electric → NBC: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        5987
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_639__ent_14",
+      "judgment": "incorrect",
+      "reason": "Science fiction → Wild West: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        6040
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_232__ent_570",
+      "judgment": "ambiguous",
+      "reason": "Ms. Garrison → Georgia: Meet is explicit, but Georgia may be a person, a geographic place, or a missing institutional participant.",
+      "evidence_lines": [
+        6089
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Who or what does Georgia denote in this encounter?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_378__ent_1267",
+      "judgment": "incorrect",
+      "reason": "Ameritech Corporation → Bell: The supplied paths concern a program title, river confluence, spokesperson/leadership, corporate strategy or abstract genre combination rather than a meeting of these parties.",
+      "evidence_lines": [
+        6865
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:55.455Z"
+      }
+    }
+  ],
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "cf0038dab1dd1865f68fa23782aa7f9bf2dee648866951ed109123d044c1cdb8"
+}

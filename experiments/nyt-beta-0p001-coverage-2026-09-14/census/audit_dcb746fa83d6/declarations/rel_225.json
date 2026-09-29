@@ -1,0 +1,53 @@
+{
+  "relation": "rel_225",
+  "predicate_id": "has_wife",
+  "predicate_version": 1,
+  "predicate_hash": "de64fa948c10501258b239ea8f83b784ab79b79aa658fa235fcb1b9edb41a40d",
+  "predicate": {
+    "id": "has_wife",
+    "label": "has or had wife",
+    "definition": "Person X is or was married to woman Y identified as X's wife.",
+    "includes": [
+      "explicit wife or spouse identified as wife",
+      "wife apposition or accompanied-by-wife attachment establishing the couple",
+      "historical or former wife"
+    ],
+    "excludes": [
+      "daughter or other relative",
+      "ordinary companion or accompaniment without a wife relationship",
+      "a fictional or proposed marriage unless actual marital status is stated"
+    ],
+    "ambiguous": [
+      "unclear whose wife Y is",
+      "wife versus other companion attachment unresolved",
+      "engagement without established marriage"
+    ],
+    "notes": "The ordered argument roles are person to wife; do not substitute generic kinship or companionship.",
+    "scope_notes": "Includes: explicit wife or spouse identified as wife; wife apposition or accompanied-by-wife attachment establishing the couple; historical or former wife. Excludes: daughter or other relative; ordinary companion or accompaniment without a wife relationship; a fictional or proposed marriage unless actual marital status is stated. Ambiguous unless resolved by case-local evidence: unclear whose wife Y is; wife versus other companion attachment unresolved; engagement without established marriage. The ordered argument roles are person to wife; do not substitute generic kinship or companionship."
+  },
+  "dictionary_sha256": "8921ba7f925b42058eee4487407317afaca91052f0ea93dbc5e2820596c9a1cd",
+  "kind": "declared_before_case_grading",
+  "rationale": "Wife/accompanied-by-wife variants dominate. Conflicting daughter/mother first-name identities and other relationships retain local ambiguity.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.482Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    8,
+    10,
+    11,
+    12
+  ],
+  "competing_meanings": [
+    "daughter",
+    "mother",
+    "adviser"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_225.before_grading.json",
+  "pregrading_annotation_sha256": "a9ffb57f13d9c695af9d76b0a2d5af1dc7d555aa81d20f4e83f17b4c96b5a982"
+}

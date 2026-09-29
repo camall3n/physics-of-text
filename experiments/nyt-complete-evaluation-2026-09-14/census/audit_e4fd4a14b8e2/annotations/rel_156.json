@@ -1,0 +1,513 @@
+{
+  "relation": "rel_156",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_156.json",
+    "source_sha256": "6fb8bd318582cb010cf9aed06019c24f61c308142d70b83c9320338d28a36400",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_156__ent_356__ent_308",
+      "judgment": "supported",
+      "reason": "Ewing → Knicks: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3074,
+        3075,
+        3076,
+        3077,
+        3078,
+        3079,
+        3080,
+        3081,
+        3083,
+        4218,
+        4219,
+        4220,
+        4221,
+        4223,
+        4224,
+        4225,
+        4227
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_260__ent_1005",
+      "judgment": "supported",
+      "reason": "Jordan → Bulls: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3114,
+        3115,
+        3116,
+        3117,
+        3118,
+        3119,
+        3120,
+        3121,
+        3122,
+        3123
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_62__ent_1005",
+      "judgment": "supported",
+      "reason": "Michael Jordan → Bulls: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3144,
+        3145,
+        3146,
+        3147,
+        3148,
+        3149,
+        3150,
+        3151,
+        3152,
+        3153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_156.json",
+        "annotation_sha256": "6fb8bd318582cb010cf9aed06019c24f61c308142d70b83c9320338d28a36400"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_1116__ent_110",
+      "judgment": "supported",
+      "reason": "MacLean → Devils: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        4248,
+        4249,
+        4250,
+        4251,
+        4252,
+        4253,
+        4254,
+        4255,
+        4256,
+        4257
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_156.json",
+        "annotation_sha256": "6fb8bd318582cb010cf9aed06019c24f61c308142d70b83c9320338d28a36400"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_1117__ent_347",
+      "judgment": "supported",
+      "reason": "Kovalev → Rangers: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        4258,
+        4259,
+        4260,
+        4261,
+        4262,
+        4263,
+        4264,
+        4265,
+        4266,
+        4267
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_156.json",
+        "annotation_sha256": "6fb8bd318582cb010cf9aed06019c24f61c308142d70b83c9320338d28a36400"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_1119__ent_110",
+      "judgment": "supported",
+      "reason": "Bobby Holik → Devils: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        4278,
+        4279,
+        4280,
+        4281,
+        4282,
+        4283,
+        4284,
+        4285,
+        4286,
+        4287
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_413__ent_110",
+      "judgment": "supported",
+      "reason": "Holik → Devils: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        4298,
+        4299,
+        4300,
+        4301,
+        4302,
+        4303,
+        4304,
+        4305,
+        4306,
+        4307
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_65__ent_60",
+      "judgment": "supported",
+      "reason": "Dominique Wilkins → Hawks: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3124,
+        3125,
+        3126,
+        3127,
+        3128,
+        3129,
+        3130,
+        3132,
+        3133
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_63__ent_543",
+      "judgment": "supported",
+      "reason": "Richard Jefferson → Nets: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3094,
+        3095,
+        3096,
+        3098,
+        3100,
+        3101,
+        3102,
+        3103
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_77__ent_271",
+      "judgment": "incorrect",
+      "reason": "France → Security Council: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        3270,
+        3273,
+        3274,
+        3275,
+        3276,
+        3277,
+        3278,
+        3279
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_64__ent_308",
+      "judgment": "supported",
+      "reason": "Patrick Ewing → Knicks: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3064,
+        3065,
+        3066,
+        3067,
+        3068,
+        3072,
+        3073
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_66__ent_543",
+      "judgment": "supported",
+      "reason": "Kidd → Nets: Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "evidence_lines": [
+        3104,
+        3105,
+        3107,
+        3108,
+        3109,
+        3110,
+        3113
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_197__ent_199",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → Ms. Tripp: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        495,
+        498,
+        500,
+        501,
+        503,
+        504
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_308__ent_1005",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        875,
+        880,
+        6045,
+        6048,
+        6050
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_156.json",
+        "annotation_sha256": "6fb8bd318582cb010cf9aed06019c24f61c308142d70b83c9320338d28a36400"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_663__ent_189",
+      "judgment": "incorrect",
+      "reason": "Constitution → Congress: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        4238,
+        4239,
+        4244,
+        4245
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_1062__ent_776",
+      "judgment": "incorrect",
+      "reason": "Sears Receivables Financing Group Inc. → Sears: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        6568,
+        6570,
+        6571,
+        6572
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_156.json",
+        "annotation_sha256": "6fb8bd318582cb010cf9aed06019c24f61c308142d70b83c9320338d28a36400"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_111__ent_114",
+      "judgment": "incorrect",
+      "reason": "Riley → Starks: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        1550,
+        1551,
+        1553
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_273__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "Joe Torre → Yankees: Leading/taking Yankees is compatible with a managerial role and does not itself identify athletic playing-for membership.",
+      "evidence_lines": [
+        3178,
+        3180,
+        3181
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "Does the original evidence describe Joe Torre playing for Yankees or managing them?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_252__ent_333",
+      "judgment": "incorrect",
+      "reason": "C. Virginia Fields → Manhattan: The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "evidence_lines": [
+        2810,
+        2811
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:20.414Z"
+      }
+    }
+  ]
+}

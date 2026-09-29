@@ -1,0 +1,70 @@
+{
+  "relation": "rel_132",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_132__ent_368__ent_129",
+      "judgment": "supported",
+      "reason": "Norman Siegel → New York Civil Liberties Union: Multiple explicit director-of rows establish the directorship despite mixed title discussion.",
+      "evidence_lines": [
+        95,
+        96,
+        98,
+        101,
+        102,
+        103
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.941Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_247__ent_489",
+      "judgment": "incorrect",
+      "reason": "Louis Farrakhan → Nation of Islam: Ideological advocacy and spokesperson service, or an unqualified head title, do not establish the specific director office.",
+      "evidence_lines": [
+        2950,
+        2953,
+        4972,
+        4975
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.943Z"
+      }
+    },
+    {
+      "case_id": "rel_132__ent_395__ent_156",
+      "judgment": "incorrect",
+      "reason": "David Rebovich → Rider University: Ideological advocacy and spokesperson service, or an unqualified head title, do not establish the specific director office.",
+      "evidence_lines": [
+        293
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:18.943Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "822edffabe3051f7234d0cb160090ddd8983e3851fbd43b457af5aba22212df4"
+}

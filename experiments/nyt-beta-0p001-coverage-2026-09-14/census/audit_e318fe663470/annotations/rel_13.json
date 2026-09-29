@@ -1,0 +1,139 @@
+{
+  "relation": "rel_13",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_13__ent_251__ent_1422",
+      "judgment": "ambiguous",
+      "reason": "John F. Kennedy → White House; Democrat → White House: White House be-in and secretary/spokesman context leaves physical presence versus institutional role unclear; the subject also includes an unnamed Democrat.",
+      "evidence_lines": [
+        2703,
+        2743,
+        2744,
+        2749,
+        2750
+      ],
+      "issue_tags": [
+        "institution_place_ambiguity",
+        "unnamed_person"
+      ],
+      "reviewer_question": "Does this fact identify Kennedy's physical presence, and is Democrat the same person?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_493__ent_374",
+      "judgment": "incorrect",
+      "reason": "God → heaven: God/heaven is a theological rather than geographic location; the supplied rows do not establish the declared geographic physical-presence relation.",
+      "evidence_lines": [
+        2753,
+        2759,
+        2760,
+        2762
+      ],
+      "issue_tags": [
+        "nonliteral_location"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1055__ent_836",
+      "judgment": "incorrect",
+      "reason": "Mets → World Series; Mets → Braves: Sporting event/opponent context, reversed dateline-to-institution extraction or spokesperson titles do not establish physical presence.",
+      "evidence_lines": [
+        2215,
+        3477,
+        6891
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1002__ent_1356",
+      "judgment": "incorrect",
+      "reason": "Washington → State Department: Sporting event/opponent context, reversed dateline-to-institution extraction or spokesperson titles do not establish physical presence.",
+      "evidence_lines": [
+        7437,
+        7438
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_321__ent_1392",
+      "judgment": "incorrect",
+      "reason": "Mets → Cubs: Sporting event/opponent context, reversed dateline-to-institution extraction or spokesperson titles do not establish physical presence.",
+      "evidence_lines": [
+        6964
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1061__ent_40",
+      "judgment": "incorrect",
+      "reason": "Dan Bartlett → White House: Sporting event/opponent context, reversed dateline-to-institution extraction or spokesperson titles do not establish physical presence.",
+      "evidence_lines": [
+        8438
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_17__ent_1422",
+      "judgment": "incorrect",
+      "reason": "George Stephanopoulos → White House: Sporting event/opponent context, reversed dateline-to-institution extraction or spokesperson titles do not establish physical presence.",
+      "evidence_lines": [
+        8445
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.685Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9551be9162064bfa08ec72b46a16d34b28baeba4d06b51adf72f346d181e2719"
+}

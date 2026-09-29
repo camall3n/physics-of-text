@@ -1,0 +1,62 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_21",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_21__ent_1240__ent_866"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit UAL-unit wording establishes United as a corporate unit of UAL Corporation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_21__ent_1033__ent_661"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Washington stands for an unnamed organizational office, not a named subsidiary.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which office or business unit is meant by Washington?"
+    },
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_21__ent_459__ent_1154",
+        "rel_21__ent_847__ent_529",
+        "rel_21__ent_1439__ent_102",
+        "rel_21__ent_261__ent_1449",
+        "rel_21__ent_70__ent_1007",
+        "rel_21__ent_380__ent_1404"
+      ],
+      "judgment": "incorrect",
+      "reason": "Parent-side/proposed acquisition, professional employment, sports victory, public membership or a personal appositive does not establish the child-to-parent subsidiary relation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "da40a55174b90108b0b78477505d3b97018f3a51dcfb180fd993d3ccc61190f4"
+}

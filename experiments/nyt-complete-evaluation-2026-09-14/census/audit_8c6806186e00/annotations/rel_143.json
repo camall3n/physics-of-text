@@ -1,0 +1,817 @@
+{
+  "relation": "rel_143",
+  "predicate_id": "resides_in",
+  "label": "lives or has lived in",
+  "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+  "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_143.json",
+    "source_sha256": "c04e76cec60ea7f2571d8bb92ad82566c8e358b234701790d4db97ffe75a4c69",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_143__ent_838__ent_831",
+      "judgment": "supported",
+      "reason": "Serbs → Croatia: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        2145,
+        2146,
+        2147,
+        2148,
+        2149,
+        2150,
+        2151,
+        2152,
+        2153,
+        2154
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_143.json",
+        "annotation_sha256": "c04e76cec60ea7f2571d8bb92ad82566c8e358b234701790d4db97ffe75a4c69"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.474Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_834__ent_837",
+      "judgment": "supported",
+      "reason": "Koreans → Japan: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        2167,
+        2168,
+        2169,
+        2170,
+        2171,
+        2172,
+        2173,
+        2174,
+        2175,
+        2176
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1122__ent_537",
+      "judgment": "supported",
+      "reason": "Salvadorans → United States: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        4701,
+        4702,
+        4703,
+        4704,
+        4705,
+        4706,
+        4707,
+        4708,
+        4709,
+        4710
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1123__ent_1413",
+      "judgment": "incorrect",
+      "reason": "Jonathan Pryce → Broadway; Richard N. Perle → Pentagon: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        4741,
+        4742,
+        4743,
+        4744,
+        4745,
+        4746,
+        4747,
+        4749,
+        7513
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_826__ent_234",
+      "judgment": "supported",
+      "reason": "Palestinians → East Jerusalem: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        6125,
+        6126,
+        6127,
+        6128,
+        6129,
+        6130,
+        6131,
+        6132,
+        6134
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_318__ent_517",
+      "judgment": "ambiguous",
+      "reason": "Cubans → United States; Mexicans → United States: Mexicans and Cubans are distinct population subjects merged into one fact; only the Cuban rows establish residence.",
+      "evidence_lines": [
+        2127,
+        4723,
+        4725,
+        4726,
+        4727,
+        4728,
+        4729
+      ],
+      "issue_tags": [
+        "merged_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should the Mexican travel and Cuban residence populations be separate entities?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_143.json",
+        "annotation_sha256": "c04e76cec60ea7f2571d8bb92ad82566c8e358b234701790d4db97ffe75a4c69"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_610__ent_904",
+      "judgment": "incorrect",
+      "reason": "Olympics → New York: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        4770,
+        4771,
+        4773,
+        4775,
+        4776,
+        4777,
+        4778
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_822__ent_821",
+      "judgment": "ambiguous",
+      "reason": "American → London: American combines resident-person, tourist, company and publication-modifier readings, leaving the actual resident subject unresolved.",
+      "evidence_lines": [
+        2102,
+        2104,
+        2107,
+        2109,
+        2111
+      ],
+      "issue_tags": [
+        "argument_boundary",
+        "merged_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which person or population does American denote, as distinct from the company and publication adjectives?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_467__ent_234",
+      "judgment": "supported",
+      "reason": "Israelis → East Jerusalem: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        6164,
+        6165,
+        6167,
+        6172,
+        6173
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_332__ent_323",
+      "judgment": "incorrect",
+      "reason": "Williamsburg → Brooklyn: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        1111,
+        1113,
+        1114,
+        1116
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1030__ent_169",
+      "judgment": "incorrect",
+      "reason": "Ari Fleischer → White House: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        1338,
+        1340,
+        1341,
+        1345
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_826__ent_825",
+      "judgment": "supported",
+      "reason": "Palestinians → West Bank: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        2132,
+        2133,
+        2135,
+        2137
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_5__ent_814",
+      "judgment": "incorrect",
+      "reason": "Germany → NATO: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2723,
+        2729,
+        2731,
+        2732
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1442__ent_495",
+      "judgment": "incorrect",
+      "reason": "Fernando Ferrer → Bronx Borough: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2794,
+        2795,
+        2796,
+        2800
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_63__ent_543",
+      "judgment": "incorrect",
+      "reason": "Richard Jefferson → Nets: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        3095,
+        3097,
+        3099,
+        3101
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1271__ent_1403",
+      "judgment": "incorrect",
+      "reason": "Michael Jordan → Bulls: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        3146,
+        3149,
+        3152,
+        3153
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1201__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mikhail S. Gorbachev → Washington: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        4731,
+        4735,
+        4736,
+        4739
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_143.json",
+        "annotation_sha256": "c04e76cec60ea7f2571d8bb92ad82566c8e358b234701790d4db97ffe75a4c69"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1315__ent_1124",
+      "judgment": "incorrect",
+      "reason": "Americans → Europe: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        4750,
+        4752,
+        4755,
+        4758
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_476__ent_1206",
+      "judgment": "supported",
+      "reason": "North Koreans → China: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        6135,
+        6136,
+        6141,
+        6142
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1300__ent_114",
+      "judgment": "incorrect",
+      "reason": "Riley → Starks: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        1545,
+        1551,
+        1553
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1325__ent_483",
+      "judgment": "incorrect",
+      "reason": "Clinton → Congress: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2025,
+        2028,
+        7901
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1236__ent_836",
+      "judgment": "incorrect",
+      "reason": "Mets → World Series: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2210,
+        3470,
+        3476
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1442__ent_1260",
+      "judgment": "incorrect",
+      "reason": "Fernando Ferrer → Bronx: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2787,
+        2791,
+        2792
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_356__ent_308",
+      "judgment": "incorrect",
+      "reason": "Ewing → Knicks: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        3076,
+        3078,
+        3082
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_884__ent_429",
+      "judgment": "incorrect",
+      "reason": "Raiders → Los Angeles: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        4792,
+        4797,
+        4798
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_336__ent_1390",
+      "judgment": "incorrect",
+      "reason": "Richard A. Boucher → State Department: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        1357,
+        1363
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_816__ent_716",
+      "judgment": "incorrect",
+      "reason": "Republicans → Mr. Clinton: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        5518,
+        5520
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1101__ent_1229",
+      "judgment": "supported",
+      "reason": "Jews → Poland: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        6095,
+        6102
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_770__ent_183",
+      "judgment": "incorrect",
+      "reason": "Washington → Administration: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        7489,
+        7490
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1280__ent_398",
+      "judgment": "incorrect",
+      "reason": "Bush Administration → Congress: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        469
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_900__ent_820",
+      "judgment": "incorrect",
+      "reason": "United States → Israel: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2086
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1107__ent_1415",
+      "judgment": "incorrect",
+      "reason": "Republicans → White House: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        2780
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1221__ent_1317",
+      "judgment": "incorrect",
+      "reason": "Joseph L. Bruno → Senate: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        3019
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_277__ent_468",
+      "judgment": "incorrect",
+      "reason": "Omar Minaya → Mets: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        3221
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1296__ent_177",
+      "judgment": "incorrect",
+      "reason": "Philippe de Montebello → Metropolitan: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        3576
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_537__ent_294",
+      "judgment": "incorrect",
+      "reason": "United States → Iraq: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        4068
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_169__ent_1039",
+      "judgment": "incorrect",
+      "reason": "White House → Scott McClellan: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        5410
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1107__ent_732",
+      "judgment": "incorrect",
+      "reason": "Republicans → Mr. Clinton: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        5519
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_143.json",
+        "annotation_sha256": "c04e76cec60ea7f2571d8bb92ad82566c8e358b234701790d4db97ffe75a4c69"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_1161__ent_368",
+      "judgment": "supported",
+      "reason": "Turks → Germany: Explicit live, living, residence or resident evidence establishes that members of the population reside in the geographic place.",
+      "evidence_lines": [
+        6121
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    },
+    {
+      "case_id": "rel_143__ent_639__ent_724",
+      "judgment": "incorrect",
+      "reason": "Democrats → Hillary Rodham Clinton: The rows describe travel, performance, place-part, organizations, political office or other institutional associations without establishing a person/population residence.",
+      "evidence_lines": [
+        7593
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_143.json",
+        "annotation_sha256": "c04e76cec60ea7f2571d8bb92ad82566c8e358b234701790d4db97ffe75a4c69"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.475Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "relation": "rel_210",
+  "predicate_id": "trades_players_to",
+  "predicate_version": 1,
+  "predicate_hash": "18225cda4b5ea17ac9936a6520e340d7e7d02036377590eadab15f99ddf3a300",
+  "predicate": {
+    "id": "trades_players_to",
+    "label": "trades athletes to team",
+    "definition": "Sports team X transfers an athlete to team Y through a sporting player trade.",
+    "includes": [
+      "explicit team-to-team player trade",
+      "historical athlete transfer by trade"
+    ],
+    "excludes": [
+      "playing against the other team",
+      "ordinary trade of goods or territorial transfer",
+      "a player joining a team without an identified trading team",
+      "mere proposal or interest without a trade"
+    ],
+    "ambiguous": [
+      "trade-to with omitted object and unresolved athlete-transfer context",
+      "unclear sending versus receiving team",
+      "trade talks or future proposal without realization"
+    ],
+    "notes": "The athlete is a third role. Clear team-to-team player-trade context can establish the action without naming the player; otherwise retain the omitted-object uncertainty.",
+    "scope_notes": "Includes: explicit team-to-team player trade; historical athlete transfer by trade. Excludes: playing against the other team; ordinary trade of goods or territorial transfer; a player joining a team without an identified trading team; mere proposal or interest without a trade. Ambiguous unless resolved by case-local evidence: trade-to with omitted object and unresolved athlete-transfer context; unclear sending versus receiving team; trade talks or future proposal without realization. The athlete is a third role. Clear team-to-team player-trade context can establish the action without naming the player; otherwise retain the omitted-object uncertainty."
+  },
+  "dictionary_sha256": "65ae587bf05442e1467b01f3f7548b0faf8aeaad58ca68b9aae2ca1f05ba9cc1",
+  "kind": "declared_before_case_grading",
+  "rationale": "Trade-to between sports teams is the dominant repeated path. The omitted player/object remains a case-level ambiguity, and playing against the team is not sufficient. Independently reviewed by Boyle.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:27:10.748Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_210.before_grading.json",
+  "pregrading_annotation_sha256": "3751b5ef66c25f6d24c82a9412c313dcd029f3beb86722ab58fbfc4451517fe5"
+}

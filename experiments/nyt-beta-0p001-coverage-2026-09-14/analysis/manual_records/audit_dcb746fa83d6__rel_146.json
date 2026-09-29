@@ -1,0 +1,100 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_146",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        13
+      ],
+      "case_ids": [
+        "rel_146__ent_834__ent_837",
+        "rel_146__ent_476__ent_1443",
+        "rel_146__ent_823__ent_537",
+        "rel_146__ent_1122__ent_537",
+        "rel_146__ent_1101__ent_1229",
+        "rel_146__ent_838__ent_831",
+        "rel_146__ent_1160__ent_1211",
+        "rel_146__ent_467__ent_234",
+        "rel_146__ent_1161__ent_5",
+        "rel_146__ent_403__ent_165"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local live/living-in row establishes residence of the person or population members.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_146__ent_826__ent_234"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Residence evidence for East Jerusalem is combined with a Gaza injury row under the same inferred place entity.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Gaza and East Jerusalem be separate places before evaluating residence?"
+    },
+    {
+      "indices": [
+        9,
+        12,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_146__ent_758__ent_517",
+        "rel_146__ent_1236__ent_1302",
+        "rel_146__ent_1029__ent_64",
+        "rel_146__ent_502__ent_1324"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied evidence establishes travel, legal office, sports movement, or legislative action rather than residence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_146__ent_833__ent_832"
+      ],
+      "judgment": "supported",
+      "reason": "The explicit live-in path establishes Alice Elliott Dark residence; the leading GENERATIONS heading is retained as an extraction artifact without invalidating the identifiable person, consistently with two inherited complete-census precedents.",
+      "tags": [
+        "metadata_artifact"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7ae91eea8609c11458015a51cdb730eee41e4b460577630b45db930f65d64a99"
+}

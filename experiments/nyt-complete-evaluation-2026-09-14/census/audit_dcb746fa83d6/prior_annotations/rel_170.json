@@ -1,0 +1,73 @@
+{
+  "relation": "rel_170",
+  "label": "unit or subsidiary of",
+  "definition": "The first organization is an owned subsidiary, division, or organizational unit of the second.",
+  "scope_notes": "The dominant unit/subsidiary/owned-by dictionary has the same meaning as rel_250; different learned relation IDs do not require different invented predicates. Membership, speech, employment and completed deal descriptions without containment are not automatically equivalent.",
+  "facts": [
+    {
+      "case_id": "rel_170__ent_882__ent_1375",
+      "judgment": "supported",
+      "reason": "American Airlines is repeatedly called a unit/subsidiary of AMR and owned by AMR.",
+      "evidence_lines": [
+        2561,
+        2562,
+        2564,
+        2566,
+        2568
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_170__ent_1240__ent_1375",
+      "judgment": "supported",
+      "reason": "Two direct unit-of rows establish American as an AMR unit. The company apposition alone is less specific.",
+      "evidence_lines": [
+        2551,
+        2556,
+        6575
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_170__ent_421__ent_423",
+      "judgment": "supported",
+      "reason": "Fallon is explicitly a unit of Publicis, with agency-part evidence agreeing.",
+      "evidence_lines": [
+        4627,
+        4628
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_170__ent_1326__ent_639",
+      "judgment": "incorrect",
+      "reason": "House members described as Democrats express political membership/affiliation, not the House being a subsidiary of Democrats.",
+      "evidence_lines": [
+        4946
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_170__ent_1312__ent_1390",
+      "judgment": "incorrect",
+      "reason": "The path concerns a State Department spokesman saying something and a WASHINGTON argument; it does not establish organizational containment.",
+      "evidence_lines": [
+        656
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

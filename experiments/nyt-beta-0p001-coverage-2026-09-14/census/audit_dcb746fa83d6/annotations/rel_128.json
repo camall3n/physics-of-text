@@ -1,0 +1,269 @@
+{
+  "relation": "rel_128",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_128__ent_610__ent_904",
+      "judgment": "ambiguous",
+      "reason": "Olympics → New York: The Olympics rows combine come/held with winning the event for New York and what it would mean for the city; actual occurrence versus a prospective hosting bid remains unresolved.",
+      "evidence_lines": [
+        4771,
+        4773,
+        4776,
+        4778,
+        4779
+      ],
+      "issue_tags": [
+        "prospective_event",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Do these local rows describe an actual event held in New York or proposed hosting?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_251__ent_586",
+      "judgment": "ambiguous",
+      "reason": "John F. Kennedy → White House: White House may denote presidential office rather than physical premises.",
+      "evidence_lines": [
+        2743,
+        2749,
+        2752
+      ],
+      "issue_tags": [
+        "institution_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does this claim establish physical presence rather than political office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_669__ent_989",
+      "judgment": "supported",
+      "reason": "Americans → Vietnam: A local be-in, geographic speaking-in, detention-in or return-from row establishes physical presence.",
+      "evidence_lines": [
+        8171,
+        8174,
+        8179
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_162__ent_1390",
+      "judgment": "incorrect",
+      "reason": "Charles E. Redman → State Department: Spokesperson status, publication-in or corporate containment does not establish geographic physical presence.",
+      "evidence_lines": [
+        1387,
+        1388
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_182__ent_677",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: A local be-in, geographic speaking-in, detention-in or return-from row establishes physical presence.",
+      "evidence_lines": [
+        4096,
+        5243
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_1325__ent_843",
+      "judgment": "supported",
+      "reason": "Clinton → New York: A local be-in, geographic speaking-in, detention-in or return-from row establishes physical presence.",
+      "evidence_lines": [
+        4681,
+        4685
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_1122__ent_537",
+      "judgment": "supported",
+      "reason": "Salvadorans → United States: A local be-in, geographic speaking-in, detention-in or return-from row establishes physical presence.",
+      "evidence_lines": [
+        4702,
+        4708
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_1315__ent_1124",
+      "judgment": "ambiguous",
+      "reason": "Americans → Europe: Come-to identifies a destination but these rows alone do not resolve realized physical arrival.",
+      "evidence_lines": [
+        4752,
+        4753
+      ],
+      "issue_tags": [
+        "arrival_unclear",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the coming-to statement describe realized arrival rather than prospective destination movement?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_712__ent_1307",
+      "judgment": "incorrect",
+      "reason": "Caryn James → The Times: Spokesperson status, publication-in or corporate containment does not establish geographic physical presence.",
+      "evidence_lines": [
+        7320,
+        7325
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_1210__ent_277",
+      "judgment": "incorrect",
+      "reason": "DDB Worldwide → Omnicom Group: Spokesperson status, publication-in or corporate containment does not establish geographic physical presence.",
+      "evidence_lines": [
+        4639
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_667__ent_961",
+      "judgment": "ambiguous",
+      "reason": "Born → United States: Born is an extraction fragment rather than an identified traveler in this isolated come-to row.",
+      "evidence_lines": [
+        4691
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Who is the entity extracted as Born?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_195__ent_1002",
+      "judgment": "ambiguous",
+      "reason": "Reagan → Washington: Come-to identifies a destination but these rows alone do not resolve realized physical arrival.",
+      "evidence_lines": [
+        4761
+      ],
+      "issue_tags": [
+        "arrival_unclear"
+      ],
+      "reviewer_question": "Does the coming-to statement describe realized arrival rather than prospective destination movement?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_1062__ent_1169",
+      "judgment": "incorrect",
+      "reason": "Sears Receivables Financing Group Inc. → Sears: Spokesperson status, publication-in or corporate containment does not establish geographic physical presence.",
+      "evidence_lines": [
+        6566
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    },
+    {
+      "case_id": "rel_128__ent_1098__ent_325",
+      "judgment": "incorrect",
+      "reason": "Herbert Mitgang → The Times: Spokesperson status, publication-in or corporate containment does not establish geographic physical presence.",
+      "evidence_lines": [
+        7318
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:24.393Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9a221d48b3bf70f1db9d4704e18e177370171a9f3aa16be5d894fc1173f7c8d8"
+}

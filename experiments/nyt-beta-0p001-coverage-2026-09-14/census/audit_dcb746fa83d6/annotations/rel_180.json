@@ -1,0 +1,307 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_180__ent_684__ent_1211",
+      "judgment": "ambiguous",
+      "reason": "Walter O'Malley → Los Angeles; Raiders → Los Angeles; William B. Bergen → St. Michaels: Destination movement is present but merged with a different person and death place, so the inferred pair has incompatible identities.",
+      "evidence_lines": [
+        2685,
+        4790,
+        4860,
+        4866,
+        4867
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which traveler and destination remain after separating the mixed names?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_646__ent_333",
+      "judgment": "incorrect",
+      "reason": "David → Manhattan; Ted Fagan → Manhattan: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "evidence_lines": [
+        2689,
+        3958,
+        3959,
+        3963,
+        3964
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_564__ent_832",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Laura; Mr. Bush → Mr. Hussein; Sydney Ullman → Montclair: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "evidence_lines": [
+        1598,
+        2690,
+        4580
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1386__ent_818",
+      "judgment": "ambiguous",
+      "reason": "Britain → China: The bare return-to edge is accompanied by returning territory and a hand-over. The moving entity may be omitted territory rather than Britain; the retained paths do not resolve that attachment.",
+      "evidence_lines": [
+        5166,
+        5173,
+        5175
+      ],
+      "issue_tags": [
+        "attachment"
+      ],
+      "reviewer_question": "Does the return-to sentence describe British movement to China or Britain returning territory to China?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      },
+      "adjudication": {
+        "reviewer": "root",
+        "script": "adjudicate_exact_evidence.mjs",
+        "method": "Manual complete-evidence consistency adjudication; definition and population unchanged.",
+        "reviewed_at": "2026-09-14T22:39:55.587Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1217__ent_1383",
+      "judgment": "supported",
+      "reason": "Raiders → Oakland: An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "evidence_lines": [
+        5226,
+        5230,
+        5231
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.530Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1123__ent_1413",
+      "judgment": "ambiguous",
+      "reason": "Jonathan Pryce → Broadway: Broadway or White House may denote theatrical work or political office rather than geographic travel.",
+      "evidence_lines": [
+        4742,
+        4744
+      ],
+      "issue_tags": [
+        "institution_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does this return describe geographic movement rather than performance or office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1154__ent_229",
+      "judgment": "supported",
+      "reason": "Film Forum → West Houston Street: An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "evidence_lines": [
+        6221,
+        6222
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_564__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "evidence_lines": [
+        7341,
+        7347
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_571__ent_897",
+      "judgment": "incorrect",
+      "reason": "Bedford-Stuyvesant → Brooklyn: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "evidence_lines": [
+        1107
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_177__ent_327",
+      "judgment": "incorrect",
+      "reason": "William R. Knapp → Westport: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "evidence_lines": [
+        2682
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_43__ent_635",
+      "judgment": "incorrect",
+      "reason": "William Constable → Melbourne: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "evidence_lines": [
+        2684
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_626__ent_445",
+      "judgment": "incorrect",
+      "reason": "Tony Awards → South Salem: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+      "evidence_lines": [
+        2688
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1437__ent_1370",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "evidence_lines": [
+        3479
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1347__ent_310",
+      "judgment": "ambiguous",
+      "reason": "Mr. Clinton → White House: Broadway or White House may denote theatrical work or political office rather than geographic travel.",
+      "evidence_lines": [
+        4092
+      ],
+      "issue_tags": [
+        "institution_metonymy"
+      ],
+      "reviewer_question": "Does this return describe geographic movement rather than performance or office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1126__ent_897",
+      "judgment": "supported",
+      "reason": "Colts → Indianapolis: An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "evidence_lines": [
+        4810
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_259__ent_682",
+      "judgment": "supported",
+      "reason": "Yankees → New Jersey: An unqualified local move-to or return-to path directly establishes destination movement under the inherited travel scope.",
+      "evidence_lines": [
+        4831
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.531Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "77d84ede7ab5355dee6938628ed4d3d3b1f6a801fff2c6140a4b4880d2f102fa"
+}

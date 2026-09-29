@@ -1,0 +1,69 @@
+{
+  "relation": "rel_175",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_175__ent_426__ent_668",
+      "judgment": "supported",
+      "reason": "Arnold Worldwide → Arnold Worldwide Partners division: Explicit office/team part-of establishes the organizational child within the named parent division.",
+      "evidence_lines": [
+        4665,
+        4666,
+        4667,
+        4669,
+        4670
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.133Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_308__ent_64",
+      "judgment": "incorrect",
+      "reason": "Knicks → Patrick Ewing: Team-player association or forward person leadership does not establish corporate child-to-parent containment.",
+      "evidence_lines": [
+        4938,
+        4939,
+        4943,
+        4945
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.134Z"
+      }
+    },
+    {
+      "case_id": "rel_175__ent_389__ent_146",
+      "judgment": "incorrect",
+      "reason": "Stanley Hill → District Council: Team-player association or forward person leadership does not establish corporate child-to-parent containment.",
+      "evidence_lines": [
+        173,
+        175,
+        179
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.134Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "22776f2c7b9b67c7709228f9a32224352ed002edf067775e116c568c1ade6d9e"
+}

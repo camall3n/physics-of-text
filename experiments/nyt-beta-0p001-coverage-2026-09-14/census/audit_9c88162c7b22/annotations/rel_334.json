@@ -1,0 +1,138 @@
+{
+  "relation": "rel_334",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_334__ent_550__ent_792",
+      "judgment": "supported",
+      "reason": "Kalman Ruttenstein → Bloomingdale: Explicit director-at/of evidence establishes the institutional directorship.",
+      "evidence_lines": [
+        707,
+        708,
+        711,
+        714
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.558Z"
+      }
+    },
+    {
+      "case_id": "rel_334__ent_190__ent_192",
+      "judgment": "supported",
+      "reason": "Ward McCarthy → McCarthy Research Associates: Explicit director-at/of evidence establishes the institutional directorship.",
+      "evidence_lines": [
+        505,
+        506,
+        507
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.559Z"
+      }
+    },
+    {
+      "case_id": "rel_334__ent_1048__ent_1049",
+      "judgment": "supported",
+      "reason": "Caroline Smith DeWaal → Center for Science: Explicit director-at/of/for paths identify Center for Science as the institutional principal. Accept the shortened institution consistently with the preserved role-and-shorthand convention.",
+      "evidence_lines": [
+        1744,
+        1745,
+        1746
+      ],
+      "issue_tags": [
+        "institutional_shorthand"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.559Z"
+      },
+      "adjudication": {
+        "reviewer": "root",
+        "script": "adjudicate_exact_evidence.mjs",
+        "method": "Manual complete-evidence consistency adjudication; definition and population unchanged.",
+        "reviewed_at": "2026-09-14T22:39:55.648Z"
+      }
+    },
+    {
+      "case_id": "rel_334__ent_722__ent_669",
+      "judgment": "incorrect",
+      "reason": "Westerners → Americans: Population/party inclusion does not establish person-to-institution directorship.",
+      "evidence_lines": [
+        7526,
+        7531,
+        7535
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.559Z"
+      }
+    },
+    {
+      "case_id": "rel_334__ent_816__ent_725",
+      "judgment": "incorrect",
+      "reason": "Republicans → John McCain: Population/party inclusion does not establish person-to-institution directorship.",
+      "evidence_lines": [
+        7546,
+        7550,
+        7555
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.559Z"
+      }
+    },
+    {
+      "case_id": "rel_334__ent_1028__ent_175",
+      "judgment": "ambiguous",
+      "reason": "Zenia Mucha → Mr. Pataki: Director-for-Pataki names a personal principal but omits the actual institution or campaign.",
+      "evidence_lines": [
+        1183,
+        3524
+      ],
+      "issue_tags": [
+        "personal_principal_scope"
+      ],
+      "reviewer_question": "Which institution, campaign or office was Mucha director for?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.559Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "15c1d2dfe31e733f352e344b99fa999b4c50cf4baaca2d1182c3c7c9ee935f9e"
+}

@@ -1,0 +1,53 @@
+{
+  "relation": "rel_182",
+  "predicate_id": "legal_specialist_in",
+  "label": "legal specialist in field",
+  "definition": "Person X is explicitly identified as a legal expert or lawyer specializing in legal field or issue Y.",
+  "scope_notes": "Includes: lawyer specializing in Y; explicit legal expert, authority, or specialist on Y; a legal-field modifier of a lawyer. Excludes: client representation without specialization; generic institutional membership; practice location or ordinary employment; expertise in a nonlegal field. Ambiguous unless resolved by case-local evidence: unclear legal field versus client; lawyer title or field attachment unresolved. Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation.",
+  "facts": [
+    {
+      "case_id": "rel_182__ent_842__ent_841",
+      "judgment": "supported",
+      "reason": "Floyd Abrams → First Amendment: Explicit specialist/expert or lawyer-specializing-in wording identifies expertise in First Amendment law.",
+      "evidence_lines": [
+        2277,
+        2278,
+        2279,
+        2280,
+        2281,
+        2282,
+        2283,
+        2284,
+        2286
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.244Z"
+      }
+    },
+    {
+      "case_id": "rel_182__ent_403__ent_280",
+      "judgment": "incorrect",
+      "reason": "Richard → Manhattan: A city-modified lawyer or opening a location does not establish specialization in a legal field.",
+      "evidence_lines": [
+        3978,
+        3981
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.244Z"
+      }
+    }
+  ],
+  "predicate_hash": "a20297b390b73d51597c6f6da1f08657b66ec20d6c47c8f86af7c633fbcaf02b",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8a211a27e6dddf2d214e5bcb9db897fc4ae89204da85b2cc03362363b7a71294"
+}

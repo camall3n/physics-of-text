@@ -1,0 +1,103 @@
+{
+  "relation": "rel_45",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_45__ent_279__ent_278",
+      "judgment": "incorrect",
+      "reason": "Bobby Cox → Braves: Managing a team, political comments/office or defeating a person does not establish an organization's geographic location.",
+      "evidence_lines": [
+        3237,
+        3239,
+        3240,
+        3241,
+        3242
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:29.077Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_819__ent_964",
+      "judgment": "incorrect",
+      "reason": "Democrats → A. Gephardt: Managing a team, political comments/office or defeating a person does not establish an organization's geographic location.",
+      "evidence_lines": [
+        7537,
+        7541,
+        7542,
+        7543
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:29.077Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_910__ent_965",
+      "judgment": "incorrect",
+      "reason": "Patrick J. Buchanan → White House: Managing a team, political comments/office or defeating a person does not establish an organization's geographic location.",
+      "evidence_lines": [
+        8483,
+        8484,
+        8487
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:29.077Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1000__ent_304",
+      "judgment": "supported",
+      "reason": "Wal-Mart → Bentonville: The local headquarters-in-town construction establishes Wal-Mart's location in Bentonville.",
+      "evidence_lines": [
+        814,
+        4360
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:29.077Z"
+      }
+    },
+    {
+      "case_id": "rel_45__ent_1109__ent_1085",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Al Gore: Managing a team, political comments/office or defeating a person does not establish an organization's geographic location.",
+      "evidence_lines": [
+        6942,
+        6946
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:29.077Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "802cbb74a1efd4d800b858df86e06841dfbb6f68fe42ee0c71d3e8466fb0380f"
+}

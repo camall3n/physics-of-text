@@ -1,0 +1,49 @@
+{
+  "relation": "rel_313",
+  "predicate_id": "politically_controlled_by",
+  "predicate_version": 1,
+  "predicate_hash": "14457cecd367f9b08944978b6ae308ec6156db62f6768146db8b2115ec1f2cfa",
+  "predicate": {
+    "id": "politically_controlled_by",
+    "label": "politically controlled by",
+    "definition": "Political institution, legislature, government, or geographic territory X is or was politically controlled by group or government Y.",
+    "includes": [
+      "explicit political control, takeover, or governing majority by Y",
+      "historical control including clearly established loss of prior control"
+    ],
+    "excludes": [
+      "an ordinary member or individual officeholder without group control",
+      "corporate ownership",
+      "political support or influence alone",
+      "proposed takeover without realization"
+    ],
+    "ambiguous": [
+      "generic have, take, or govern without clear control context",
+      "unclear political body or group identity",
+      "control versus ordinary office unresolved"
+    ],
+    "notes": "Inverse of politically_controls. A mere member of a legislature does not establish party control.",
+    "scope_notes": "Includes: explicit political control, takeover, or governing majority by Y; historical control including clearly established loss of prior control. Excludes: an ordinary member or individual officeholder without group control; corporate ownership; political support or influence alone; proposed takeover without realization. Ambiguous unless resolved by case-local evidence: generic have, take, or govern without clear control context; unclear political body or group identity; control versus ordinary office unresolved. Inverse of politically_controls. A mere member of a legislature does not establish party control."
+  },
+  "dictionary_sha256": "df2c859e14a86e0e66f1311c5f7ef59ffebd9cb0a3a0167b8a374d63594c18ee",
+  "kind": "declared_before_case_grading",
+  "rationale": "Controlled-by variants dominate the inverse political control family, with legislatures as subjects and parties as objects. Warnings and generic possession remain distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.707Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "competing_meanings": [
+    "directed warnings",
+    "ordinary membership"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_313.before_grading.json",
+  "pregrading_annotation_sha256": "1664ebab8c0aae32881048ac836737e02841a4086d06443c909641225b09cca2"
+}

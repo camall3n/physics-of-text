@@ -1,0 +1,59 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_236",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_236__ent_113__ent_674",
+        "rel_236__ent_827__ent_419",
+        "rel_236__ent_670__ent_431",
+        "rel_236__ent_182__ent_1127",
+        "rel_236__ent_673__ent_430",
+        "rel_236__ent_198__ent_672"
+      ],
+      "judgment": "supported",
+      "reason": "A clear local wife-appositive or accompanied-by-wife statement identifies the wife relationship; extra unrelated attachments are not its supporting evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_236__ent_182__ent_433"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wife and daughter attachments both link the underidentified Mr. Bush and Barbara arguments, allowing a material cross-generation referent ambiguity.",
+      "tags": [
+        "identity_ambiguity",
+        "kinship_conflict"
+      ],
+      "question": "Which Mr. Bush and which Barbara do the wife and daughter rows refer to?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [
+    2
+  ],
+  "predicate_declaration_sha256": "98d53d24dda385f4e95b10421d692a6245af685256dd853c746c9a4d36758c1c"
+}

@@ -1,0 +1,85 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_101",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_101__ent_628__ent_1371",
+        "rel_101__ent_459__ent_1154",
+        "rel_101__ent_1339__ent_1144",
+        "rel_101__ent_217__ent_554",
+        "rel_101__ent_101__ent_881",
+        "rel_101__ent_216__ent_1371",
+        "rel_101__ent_1155__ent_219",
+        "rel_101__ent_1244__ent_1314",
+        "rel_101__ent_393__ent_625",
+        "rel_101__ent_151__ent_1314",
+        "rel_101__ent_1021__ent_594",
+        "rel_101__ent_351__ent_409",
+        "rel_101__ent_689__ent_1144"
+      ],
+      "judgment": "supported",
+      "reason": "A local row explicitly establishes ownership, a corporate parent, or acquisition of the named business/property.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_101__ent_979__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete evidence concerns an affair or relationship with a White House intern, not ownership of the White House.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_101__ent_539__ent_713"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Own is present, but Dallas is a place or an omitted sports organization rather than an identified owned business in these rows.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Does Dallas stand for a specific owned sports organization rather than the city?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b4040d3a476d84be97e45dc3335e02bf3c8c620e16a43bfc51e8d6e4bc023e84"
+}

@@ -1,0 +1,86 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_14",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        10
+      ],
+      "case_ids": [
+        "rel_14__ent_643__ent_333",
+        "rel_14__ent_403__ent_333",
+        "rel_14__ent_646__ent_333",
+        "rel_14__ent_830__ent_824"
+      ],
+      "judgment": "supported",
+      "reason": "The case itself includes a direct live-in row for the supplied person and place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_14__ent_885__ent_333",
+        "rel_14__ent_404__ent_333",
+        "rel_14__ent_887__ent_333",
+        "rel_14__ent_888__ent_333",
+        "rel_14__ent_1100__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The obituary son/brother-of-place construction may assign the place to a relative; no direct residence statement resolves the attachment.",
+      "tags": [
+        "relative_place_attachment"
+      ],
+      "question": "Does Manhattan describe this named person's residence or that of another relative in the original obituary?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_14__ent_406__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Son/brother appositions and a wife-who-lives row do not establish whether Manhattan is William's own residence.",
+      "tags": [
+        "relative_place_attachment"
+      ],
+      "question": "Does the wife residence statement also identify William as residing in Manhattan?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_14__ent_197__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Visits to the White House do not establish residence there.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a0b602c92e8f34c795b1fdee4a65c6dbdf490dfc1d49f3ec8e95688f3fde7374"
+}

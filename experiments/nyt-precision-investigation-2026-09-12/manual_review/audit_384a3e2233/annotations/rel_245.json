@@ -1,0 +1,69 @@
+{
+  "relation": "rel_245",
+  "label": "organization located or based in",
+  "definition": "Organization 1 is based in or has offices/sites in geographic place 2.",
+  "scope_notes": "Company/firm-in, based-in and geographic noun compounds qualify. Personal residence/death, organizational employers and industry/Internet compounds are other relations. Nationality alone is ambiguous.",
+  "facts": [
+    {
+      "case_id": "rel_245__ent_207__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar Inc. is explicitly a publisher/company/firm in Chicago.",
+      "evidence_lines": [
+        5745,
+        5747,
+        7110,
+        7111
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_245__ent_1333__ent_1324",
+      "judgment": "incorrect",
+      "reason": "The Senate has leader Trent Lott; this is an organization-to-person office relation rather than a geographic location.",
+      "evidence_lines": [
+        7640
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_245__ent_904__ent_907",
+      "judgment": "incorrect",
+      "reason": "Compton died at his home in Elkhart, a personal residence/death relation rather than an organizational base.",
+      "evidence_lines": [
+        2687
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_245__ent_236__ent_1435",
+      "judgment": "incorrect",
+      "reason": "Kraft General Foods is a subsidiary of Philip Morris, a corporate parent rather than a geographic location.",
+      "evidence_lines": [
+        6573
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_245__ent_462__ent_683",
+      "judgment": "supported",
+      "reason": "Mcorp is explicitly a company/group/concern in Texas.",
+      "evidence_lines": [
+        5793,
+        5797,
+        5799
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "relation": "rel_148",
+  "predicate_id": "competed_against",
+  "predicate_version": 1,
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate": {
+    "id": "competed_against",
+    "label": "played or competed against",
+    "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+    "includes": [
+      "explicit played against",
+      "a completed win or loss against opponent",
+      "competition with clear opponent roles"
+    ],
+    "excludes": [
+      "ordinary interaction",
+      "standings comparison without a contest",
+      "future schedule alone"
+    ],
+    "ambiguous": [
+      "ambiguous game occurrence"
+    ],
+    "notes": "Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+    "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings."
+  },
+  "dictionary_sha256": "5b7d9d46b8ef5efdcb3f7fd7e494fdd82097cbf6de92493d0bd8f10ea6cbca4a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Play/game-against and loss dominate opposing sports teams; competition does not require victory. Coaching personnel and attorney nominations are distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.890Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    9
+  ],
+  "competing_meanings": [
+    "personnel management",
+    "attorney nomination"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_148.before_grading.json",
+  "pregrading_annotation_sha256": "9d0e3f2117f851e004fac15288ebdd354bde07940b34d8220f18f755986196cc"
+}

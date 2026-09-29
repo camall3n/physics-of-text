@@ -1,0 +1,76 @@
+{
+  "relation": "rel_373",
+  "label": "lawyer or attorney for",
+  "definition": "Argument 1 serves as a lawyer, attorney or legal counsel for organization or person 2, including employment at a law firm.",
+  "scope_notes": "The aggregate lawyer/attorney/counsel family is chosen from a mixed professional-role dictionary. A professor, analyst, economist or director without legal representation evidence does not qualify. A firm partner without a legal-role attachment is ambiguous.",
+  "facts": [
+    {
+      "case_id": "rel_373__ent_525__ent_527",
+      "judgment": "incorrect",
+      "reason": "Fine is an analyst, strategist or economist for Chase Securities; none of the local rows identifies legal representation.",
+      "evidence_lines": [
+        564,
+        565,
+        7832
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_373__ent_414__ent_656",
+      "judgment": "supported",
+      "reason": "Goldstein is explicitly lawyer and attorney for the Natural Resources Defense Council.",
+      "evidence_lines": [
+        4434,
+        4436,
+        4438
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_373__ent_1059__ent_1180",
+      "judgment": "incorrect",
+      "reason": "Goldman follows industry and companies as an analyst and is also called director; the evidence contains no lawyer or attorney role.",
+      "evidence_lines": [
+        1799,
+        1800,
+        1803,
+        7806
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_373__ent_1033__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Steinbrenner is described as owner and controlling the Yankees, not their lawyer.",
+      "evidence_lines": [
+        1418,
+        1419
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_373__ent_191__ent_194",
+      "judgment": "incorrect",
+      "reason": "Caplan is a director, bioethicist and professor at the University of Pennsylvania; these do not establish legal representation.",
+      "evidence_lines": [
+        508,
+        510,
+        515
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

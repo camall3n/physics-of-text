@@ -1,0 +1,51 @@
+{
+  "relation": "rel_45",
+  "predicate_id": "managerial_office_in",
+  "predicate_version": 1,
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate": {
+    "id": "managerial_office_in",
+    "label": "managerial or leadership office in",
+    "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+    "includes": [
+      "head/president/chair/director/chief/commander/executive/manager",
+      "equivalent explicit management such as dean or commissioner",
+      "a functional or departmental leadership office within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "founder or owner alone",
+      "ordinary employment/membership",
+      "spokesperson/adviser/lawyer/analyst/editor alone",
+      "athletic or standings lead",
+      "candidacy or nomination alone"
+    ],
+    "ambiguous": [
+      "personal principal standing for an omitted campaign or institution",
+      "unclear leadership attachment"
+    ],
+    "notes": "This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+    "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone."
+  },
+  "dictionary_sha256": "319f923a95c996bad53fc9660b345d38babfeb46de5cc84af796f8ecc629387e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Genuinely mixed chairman/executive/reign/leadership dominates; emigration and spokesperson location separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:26.398Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_45.before_grading.json",
+  "pregrading_annotation_sha256": "bf40e636bfe51f2a55efed351bebaf161bc9b1eb249182773632c28fdbdb3171"
+}

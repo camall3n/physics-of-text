@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "proposed_not_assigned",
+  "prior_catalogue": "experiments/nyt-complete-evaluation-2026-09-14/analysis/predicate_catalogue.json",
+  "predicates": [
+    {
+      "id": "founder_of",
+      "label": "founder or co-founder of",
+      "definition": "Person or organization X founded or co-founded organization, institution, business, movement, or polity Y.",
+      "includes": ["explicit founder or co-founder", "founded or established Y in the institutional-creation sense", "historical founding"],
+      "excludes": ["ownership or managerial office alone", "merely joined or acquired an existing organization", "discovery or finding an object", "proposed founding without realization"],
+      "ambiguous": ["an incomplete institution or polity argument", "a creator or builder phrase without clear institutional founding", "unclear who is the founder"],
+      "notes": "Founding is separate from holding an office or retaining ownership. The direction is founder to founded institution.",
+      "proposed_from": [{"audit_id":"audit_dcb746fa83d6","relation":"rel_124","rank":23,"complete_dictionary_read":true,"founder_path_indices":[0,1,2,6,8,9],"competing_meanings":["head/chief/leader","analyst","spokesperson"]}]
+    }
+  ]
+}

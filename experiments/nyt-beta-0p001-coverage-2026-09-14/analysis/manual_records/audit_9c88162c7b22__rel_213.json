@@ -1,0 +1,40 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_213",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_213__ent_1101__ent_1198"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence describes migration, remaining, dying, and roundup in Poland; it does not express ownership.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_213__ent_935__ent_931"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Parent-of-company paths suggest corporate ownership, but Bell is an incomplete company-family name and the other company paths do not establish which Bell entity is the owned company.",
+      "tags": [
+        "incomplete_entity_name"
+      ],
+      "question": "Which specific Bell company is the ownership target of Ameritech here?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "62391105df66203f2e216965345397720f6815b42bfa6d6bb296f36eecb36b22"
+}

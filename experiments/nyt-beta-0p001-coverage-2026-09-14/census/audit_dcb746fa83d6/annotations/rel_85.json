@@ -1,0 +1,128 @@
+{
+  "relation": "rel_85",
+  "predicate_id": "managerial_office_in",
+  "label": "managerial or leadership office in",
+  "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+  "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+  "facts": [
+    {
+      "case_id": "rel_85__ent_297__ent_296",
+      "judgment": "supported",
+      "reason": "Peter Martins → City Ballet: Co-director and balletmaster-in-chief titles establish managerial leadership in the ballet company.",
+      "evidence_lines": [
+        3511,
+        3512,
+        3514,
+        3515,
+        3516,
+        3517,
+        3518
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.075Z"
+      }
+    },
+    {
+      "case_id": "rel_85__ent_299__ent_16",
+      "judgment": "ambiguous",
+      "reason": "Cristyne F. Lategano → Mayor: A communications-director title is present, but Mayor is an unnamed personal principal and the relevant office or institution is omitted.",
+      "evidence_lines": [
+        3541,
+        3545,
+        3546,
+        3547
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "omitted_principal"
+      ],
+      "reviewer_question": "Which mayor and which institutional office does the communications directorship serve?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.075Z"
+      }
+    },
+    {
+      "case_id": "rel_85__ent_953__ent_1235",
+      "judgment": "incorrect",
+      "reason": "Bill Gates → Microsoft: Problem-linked behavior, ownership alone or spokeswoman service does not establish a managerial office.",
+      "evidence_lines": [
+        3907,
+        5104,
+        5694
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.075Z"
+      }
+    },
+    {
+      "case_id": "rel_85__ent_1037__ent_1038",
+      "judgment": "incorrect",
+      "reason": "Jerry Jones → Dallas Cowboys: Problem-linked behavior, ownership alone or spokeswoman service does not establish a managerial office.",
+      "evidence_lines": [
+        1460,
+        1463
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.075Z"
+      }
+    },
+    {
+      "case_id": "rel_85__ent_327__ent_666",
+      "judgment": "incorrect",
+      "reason": "Carol Abrams → Department of Housing Preservation and Development: Problem-linked behavior, ownership alone or spokeswoman service does not establish a managerial office.",
+      "evidence_lines": [
+        1211
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.075Z"
+      }
+    },
+    {
+      "case_id": "rel_85__ent_1435__ent_1413",
+      "judgment": "supported",
+      "reason": "Richard N. Perle → Pentagon: Resignation as chairman of a board attached to the Pentagon establishes a historical board managerial office within that institution.",
+      "evidence_lines": [
+        7513
+      ],
+      "issue_tags": [
+        "broad_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:24.075Z"
+      }
+    }
+  ],
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c9b320338a5d6f45b33e655acf76b9f136976bcb597e61b57af8f88b661246a1"
+}

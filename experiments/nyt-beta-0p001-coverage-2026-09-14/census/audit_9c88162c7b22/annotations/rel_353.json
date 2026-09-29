@@ -1,0 +1,87 @@
+{
+  "relation": "rel_353",
+  "predicate_id": "chairperson_of",
+  "label": "chairperson of",
+  "definition": "Person X holds or held the office of chair or chairperson of organization or governing body Y.",
+  "scope_notes": "Includes: explicit chair/chairman/chairwoman/chairperson; co-chair if explicit; past tenure or resignation from that office. Excludes: president/head/executive/director alone; founder/owner/member alone; nomination/candidacy alone. Ambiguous unless resolved by case-local evidence: ambiguous successor or appointment that does not establish tenure; chair of an omitted subunit. Do not widen a prior specific-chair declaration to managerial office because its facts would then score better.",
+  "facts": [
+    {
+      "case_id": "rel_353__ent_536__ent_577",
+      "judgment": "incorrect",
+      "reason": "State Department → Nicholas Burns: An institution and its spokesman have the reverse types and do not express a person chairing a governing body.",
+      "evidence_lines": [
+        5428,
+        5430,
+        5432,
+        5433
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.715Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_380__ent_0",
+      "judgment": "ambiguous",
+      "reason": "Alan Greenspan → Federal Reserve: Confirmation as chairman establishes an appointment stage, but these fact-local rows do not independently establish tenure in the office.",
+      "evidence_lines": [
+        197,
+        5165,
+        5655
+      ],
+      "issue_tags": [
+        "appointment_tenure"
+      ],
+      "reviewer_question": "Had Greenspan begun holding this chairmanship, rather than only being confirmed for it?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.715Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_1059__ent_1180",
+      "judgment": "incorrect",
+      "reason": "Emanuel Goldman → Paine Webber: Following companies for a securities firm does not establish chairmanship of that firm.",
+      "evidence_lines": [
+        1801,
+        7811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.715Z"
+      }
+    },
+    {
+      "case_id": "rel_353__ent_380__ent_1133",
+      "judgment": "ambiguous",
+      "reason": "Alan Greenspan → Fed: Confirmation as chairman establishes an appointment stage, but these fact-local rows do not independently establish tenure in the office.",
+      "evidence_lines": [
+        5085,
+        5665
+      ],
+      "issue_tags": [
+        "appointment_tenure"
+      ],
+      "reviewer_question": "Had Greenspan begun holding this chairmanship, rather than only being confirmed for it?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:47.715Z"
+      }
+    }
+  ],
+  "predicate_hash": "a66fa4b414a5613b2068df1b29ec30ce4e219f73468e7f50f839b625c8d601e8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3840b9ee59ed084b65eed4e5857c924408848b69eebdb8e2c74b396cb30b3f50"
+}

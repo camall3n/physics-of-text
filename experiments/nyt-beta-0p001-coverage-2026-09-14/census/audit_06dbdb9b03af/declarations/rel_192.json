@@ -1,0 +1,45 @@
+{
+  "relation": "rel_192",
+  "predicate_id": "born_in",
+  "predicate_version": 1,
+  "predicate_hash": "6cac06a2fe8fd728ec22d28fe732e3906fb185df94a0bc9fffd6152e1ddf22ff",
+  "predicate": {
+    "id": "born_in",
+    "label": "born in",
+    "definition": "Person X was born in geographic place Y.",
+    "includes": [
+      "direct born-in",
+      "born into a family in Y when Y is the birth location"
+    ],
+    "excludes": [
+      "grown up/raised/native/from alone",
+      "nationality",
+      "schooling/residence/travel",
+      "institution founding"
+    ],
+    "ambiguous": [
+      "unclear person or birthplace attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: direct born-in; born into a family in Y when Y is the birth location. Excludes: grown up/raised/native/from alone; nationality; schooling/residence/travel; institution founding. Ambiguous unless resolved by case-local evidence: unclear person or birthplace attachment."
+  },
+  "dictionary_sha256": "e65eb79f5edfdacf359136b7db0aaa62a2205013ad654304fadfcd132cbf2e1e",
+  "kind": "declared_before_case_grading",
+  "rationale": "Born/bear-in P0–P2 total25/43 plus P5/P8 dominate; growing, native, residence and schooling remain distinct predicates.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:02:23.135Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_192.before_grading.json",
+  "pregrading_annotation_sha256": "f9c50b8c1d0a5669fb04badd37597c8b6fb1e5c3960c976682479757cb17916f"
+}

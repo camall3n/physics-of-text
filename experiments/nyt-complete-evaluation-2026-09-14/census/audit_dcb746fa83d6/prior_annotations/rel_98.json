@@ -1,0 +1,84 @@
+{
+  "relation": "rel_98",
+  "label": "winner or champion of",
+  "definition": "The first entity won the competition or award designated by the second, or held its championship title.",
+  "scope_notes": "Win and winner dominate, using the same scope as rel_112 and the earlier reviews. Reaching or participating in an event, winning only a stage, and winning political office do not establish this competition/award predicate. A malformed appended path is not needed when clean direct evidence exists.",
+  "facts": [
+    {
+      "case_id": "rel_98__ent_732__ent_974",
+      "judgment": "supported",
+      "reason": "Ullrich directly wins the Tour and begins defending its championship. The stage win alone would not establish overall victory; the corrupted suffix and runner-up row are additional mixed evidence.",
+      "evidence_lines": [
+        7784,
+        7785,
+        7789,
+        7791,
+        7792,
+        7793
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "malformed_path"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_98__ent_6__ent_586",
+      "judgment": "incorrect",
+      "reason": "Clinton winning the White House refers to political office, and performance in it is another political/locative meaning. Neither is an award or competition championship under the preserved scope.",
+      "evidence_lines": [
+        2714,
+        2718
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "scope_choice"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_98__ent_1411__ent_1381",
+      "judgment": "supported",
+      "reason": "The Giants explicitly win the Super Bowl in three rows. Reaching it is weaker additional evidence, not the sole basis.",
+      "evidence_lines": [
+        2217,
+        2221,
+        2223,
+        3437,
+        3443
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_98__ent_309__ent_1302",
+      "judgment": "supported",
+      "reason": "Both supplied paths directly say the Red Sox win the World Series. The evidence criterion does not independently establish historical date or recover missing modal modifiers.",
+      "evidence_lines": [
+        2197,
+        2198
+      ],
+      "issue_tags": [
+        "modality_not_observed"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_98__ent_409__ent_1420",
+      "judgment": "ambiguous",
+      "reason": "There is explicit World Series win evidence for Yankees and Marlins, but the first latent entity combines those different team names. The participation row does not resolve the identity collision.",
+      "evidence_lines": [
+        2181,
+        2257,
+        2693
+      ],
+      "issue_tags": [
+        "mixed_entity_names",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does this first entity denote the Yankees or the Marlins, and should their World Series facts be separated?"
+    }
+  ]
+}

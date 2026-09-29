@@ -1,0 +1,49 @@
+{
+  "relation": "rel_343",
+  "predicate_id": "lawyer_for",
+  "predicate_version": 1,
+  "predicate_hash": "4a9b0c58871af764135f9f178ec0cef14b7129f2a1806fede8db3ef6d7102457",
+  "predicate": {
+    "id": "lawyer_for",
+    "label": "lawyer or attorney for",
+    "definition": "Person X serves or served as attorney, lawyer or legal counsel for client, employer, organization or governmental jurisdiction Y.",
+    "includes": [
+      "explicit lawyer/attorney/counsel for/at/with client or employer",
+      "legal employment at a firm",
+      "explicit governmental attorney office for a jurisdiction"
+    ],
+    "excludes": [
+      "private lawyer merely located in a city",
+      "spokesperson/director/lobbyist alone",
+      "reverse client-to-lawyer direction"
+    ],
+    "ambiguous": [
+      "city as location versus represented jurisdiction",
+      "firm partner without a clear legal-role attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit lawyer/attorney/counsel for/at/with client or employer; legal employment at a firm; explicit governmental attorney office for a jurisdiction. Excludes: private lawyer merely located in a city; spokesperson/director/lobbyist alone; reverse client-to-lawyer direction. Ambiguous unless resolved by case-local evidence: city as location versus represented jurisdiction; firm partner without a clear legal-role attachment."
+  },
+  "dictionary_sha256": "6a85a7e782a87838f5316389e6b1b56d5193e6f5e389fb43712f36bf5a5853b8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Attorney-at/lawyer-for variants jointly exceed the single leader family; professional legal affiliation is the specific dominant occupation.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.525Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    4,
+    9
+  ],
+  "competing_meanings": [
+    "organizational leadership",
+    "specialist",
+    "coordinator"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_343.before_grading.json",
+  "pregrading_annotation_sha256": "39bbeddcf00e4977bfe0ac01c57591df28c4f8f545aa3126392cd5fb92160bb1"
+}

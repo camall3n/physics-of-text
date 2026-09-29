@@ -1,0 +1,43 @@
+{
+  "relation": "rel_337",
+  "predicate_id": "reviews_works_in_medium",
+  "predicate_version": 1,
+  "predicate_hash": "4562ea871abaf0a20f23154d146c9148ab61c69de2336e9af07c3a290dabb50b",
+  "predicate": {
+    "id": "reviews_works_in_medium",
+    "label": "reviews works in medium",
+    "definition": "Person X critically reviews artistic works or editions presented in medium Y.",
+    "includes": [
+      "explicit review of a collection, edition or version identified by the medium",
+      "historical critical review in the identified medium"
+    ],
+    "excludes": [
+      "review of a performer or venue alone",
+      "the publication carrying the review rather than the medium of the reviewed work",
+      "merely mentioning or producing the medium"
+    ],
+    "ambiguous": [
+      "unclear whether Y identifies the reviewed-work medium or the review publication",
+      "missing critic or review attachment"
+    ],
+    "notes": "This is a distinct argument relation from reviews_artistic_output_of. A DVD collection review can establish the medium even if the work title is omitted.",
+    "scope_notes": "Includes: explicit review of a collection, edition or version identified by the medium; historical critical review in the identified medium. Excludes: review of a performer or venue alone; the publication carrying the review rather than the medium of the reviewed work; merely mentioning or producing the medium. Ambiguous unless resolved by case-local evidence: unclear whether Y identifies the reviewed-work medium or the review publication; missing critic or review attachment. This is a distinct argument relation from reviews_artistic_output_of. A DVD collection review can establish the medium even if the work title is omitted."
+  },
+  "dictionary_sha256": "f9c30e83daf2bacfccc08bf2e3778c5c8a7e6c0b7456d480e9538b2f5c1ca5e8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit review of DVD collection/version defines media-format artistic review, distinct from DVD as producer and political interactions.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:27:14.316Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    4,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_337.before_grading.json",
+  "pregrading_annotation_sha256": "aa72f30190b480cb131dbc33b0f6d3e653b100815d5db19976fcc9ec1c308812"
+}

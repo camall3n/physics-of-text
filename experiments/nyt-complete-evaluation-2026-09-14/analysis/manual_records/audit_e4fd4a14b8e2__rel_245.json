@@ -1,0 +1,132 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_245",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        31,
+        32,
+        33
+      ],
+      "case_ids": [
+        "rel_245__ent_624__ent_866",
+        "rel_245__ent_869__ent_880",
+        "rel_245__ent_1128__ent_1129",
+        "rel_245__ent_1104__ent_880",
+        "rel_245__ent_822__ent_640",
+        "rel_245__ent_623__ent_865",
+        "rel_245__ent_625__ent_393",
+        "rel_245__ent_867__ent_628",
+        "rel_245__ent_624__ent_627",
+        "rel_245__ent_881__ent_101",
+        "rel_245__ent_424__ent_1129",
+        "rel_245__ent_666__ent_423",
+        "rel_245__ent_421__ent_423",
+        "rel_245__ent_649__ent_880",
+        "rel_245__ent_665__ent_1120",
+        "rel_245__ent_1154__ent_459",
+        "rel_245__ent_1065__ent_1064",
+        "rel_245__ent_920__ent_1066",
+        "rel_245__ent_1068__ent_923",
+        "rel_245__ent_922__ent_880",
+        "rel_245__ent_665__ent_1069",
+        "rel_245__ent_1070__ent_1071",
+        "rel_245__ent_1073__ent_1129",
+        "rel_245__ent_1072__ent_880",
+        "rel_245__ent_1121__ent_425",
+        "rel_245__ent_925__ent_924",
+        "rel_245__ent_426__ent_668",
+        "rel_245__ent_928__ent_1064",
+        "rel_245__ent_1062__ent_776",
+        "rel_245__ent_926__ent_929",
+        "rel_245__ent_1063__ent_927"
+      ],
+      "judgment": "supported",
+      "reason": "Direct organizational unit/part/subsidiary/owned-by evidence supports the first organization belonging to the second.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_245__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Hughes receives both subsidiary-company and executive-person roles in the same fact, so the intended first entity is unresolved despite extensive containment evidence.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Does Hughes in the executive-at row refer to a person or an extraction error, rather than the corporate subsidiary?"
+    },
+    {
+      "indices": [
+        29
+      ],
+      "case_ids": [
+        "rel_245__ent_843__ent_1104"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York is a geographic name used for a putative organizational unit, leaving its office referent unstated.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Which New York office or agency does this first argument name?"
+    },
+    {
+      "indices": [
+        30
+      ],
+      "case_ids": [
+        "rel_245__ent_354__ent_595"
+      ],
+      "judgment": "incorrect",
+      "reason": "Using, resting and speaking to a sports participant does not state an organization-to-parent relation.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    14,
+    24,
+    31
+  ],
+  "broad": []
+}

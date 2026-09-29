@@ -1,0 +1,49 @@
+{
+  "relation": "rel_121",
+  "predicate_id": "trailed_competitor",
+  "predicate_version": 1,
+  "predicate_hash": "74d4f6546f462ba6e3f3655a4dd45292828985f90a748c94ef37514e311e1cdc",
+  "predicate": {
+    "id": "trailed_competitor",
+    "label": "trailed sporting competitor",
+    "definition": "Sporting competitor X was behind competitor Y in a game score or competitive standings.",
+    "includes": [
+      "explicit trail or games-behind",
+      "explicit lower score or standings position relative to Y",
+      "historical in-game or season standings"
+    ],
+    "excludes": [
+      "a completed defeat without evidence of trailing during play or in standings",
+      "political or commercial ranking",
+      "ordinary following or geographic movement",
+      "X leading or ahead of Y"
+    ],
+    "ambiguous": [
+      "a generic behind phrase without competitive context",
+      "unclear ordered competitor roles",
+      "a proposed or hypothetical score situation"
+    ],
+    "notes": "Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor.",
+    "scope_notes": "Includes: explicit trail or games-behind; explicit lower score or standings position relative to Y; historical in-game or season standings. Excludes: a completed defeat without evidence of trailing during play or in standings; political or commercial ranking; ordinary following or geographic movement; X leading or ahead of Y. Ambiguous unless resolved by case-local evidence: a generic behind phrase without competitive context; unclear ordered competitor roles; a proposed or hypothetical score situation. Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor."
+  },
+  "dictionary_sha256": "465a11de393138195f5c52dbf211b6589c1c264b38e34bf0a27592c420ba41e7",
+  "kind": "declared_before_case_grading",
+  "rationale": "Games-behind/trail is the largest single clear family and leading path; organizational leadership and coaching compete. Trailing does not imply final defeat.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.689Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    11
+  ],
+  "competing_meanings": [
+    "political leadership",
+    "coach",
+    "publication"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_121.before_grading.json",
+  "pregrading_annotation_sha256": "cb661bef3dbfeedcb846ce2ba4d036a78d5966f5c1872f69228fe0e0b6158885"
+}

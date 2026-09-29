@@ -1,0 +1,97 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_80",
+  "cases_sha256": "5d28482046f6f15c177540d41599e61bdd2b1cd7e9d471ac1029ce0160ab0b43",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        8
+      ],
+      "case_ids": [
+        "rel_80__ent_260__ent_1005",
+        "rel_80__ent_66__ent_543",
+        "rel_80__ent_65__ent_60",
+        "rel_80__ent_1117__ent_347",
+        "rel_80__ent_62__ent_1005",
+        "rel_80__ent_1116__ent_110",
+        "rel_80__ent_61__ent_259"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit player/guard/wing/captain or scoring-for evidence identifies athletic participation for the named team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4,
+        11
+      ],
+      "case_ids": [
+        "rel_80__ent_356__ent_308",
+        "rel_80__ent_413__ent_110"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leading/putting/giving without explicit player, scoring, or playing-for evidence leaves athlete versus coaching/management role unresolved in this fact.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Does the original context establish that this person is playing for the team, rather than coaching or managing it?"
+    },
+    {
+      "indices": [
+        7,
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_80__ent_1004__ent_309",
+        "rel_80__ent_309__ent_1004",
+        "rel_80__ent_1004__ent_9"
+      ],
+      "judgment": "incorrect",
+      "reason": "The first argument is itself a team leading an opponent or division, not an athlete playing for a team.",
+      "tags": [
+        "direction",
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_80__ent_1137__ent_1135",
+        "rel_80__ent_1175__ent_308",
+        "rel_80__ent_1095__ent_960"
+      ],
+      "judgment": "incorrect",
+      "reason": "Executive or coaching leadership does not establish athletic playing-for membership under the shared scope.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    8
+  ],
+  "broad": []
+}

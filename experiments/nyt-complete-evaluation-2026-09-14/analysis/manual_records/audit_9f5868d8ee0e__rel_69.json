@@ -1,0 +1,148 @@
+{
+  "audit": "audit_9f5868d8ee0e",
+  "relation": "rel_69",
+  "cases_sha256": "5048d901aa518c2085dc040ff0c8decbe5045c925902848b6cc3c1521e57e04d",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        4,
+        6,
+        12,
+        18,
+        20,
+        21,
+        23,
+        25,
+        26
+      ],
+      "case_ids": [
+        "rel_69__ent_87__ent_818",
+        "rel_69__ent_197__ent_586",
+        "rel_69__ent_80__ent_820",
+        "rel_69__ent_669__ent_1124",
+        "rel_69__ent_428__ent_537",
+        "rel_69__ent_34__ent_1002",
+        "rel_69__ent_578__ent_586",
+        "rel_69__ent_281__ent_82",
+        "rel_69__ent_1122__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_69__ent_400__ent_83"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Oakland is a travel destination in go-to/play-in rows but the opposing team in beat/lose-to rows; the fact merges city and team readings.",
+      "tags": [
+        "place_metonymy",
+        "entity_identity"
+      ],
+      "question": "Should the mixed Oakland city/team argument count as a single geographic destination?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_69__ent_667__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Movement is explicit, but Born is an extraction fragment rather than a resolved traveler identity.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Who is the traveler represented by the extracted argument Born?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_69__ent_1123__ent_427"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway movement is intertwined with casting, production and re-creating a stage role, leaving geographic travel versus theatrical employment unresolved.",
+      "tags": [
+        "place_metonymy"
+      ],
+      "question": "Is this physical movement to a place or return to Broadway theatre as an institution?"
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_69__ent_81__ent_84"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The case includes a rejected-trip path as well as bare go/visit fragments; actual travel versus an unfulfilled proposed trip is unresolved.",
+      "tags": [
+        "hypothetical"
+      ],
+      "question": "Which trip rows describe undertaken travel rather than the explicitly rejected proposal?"
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        17,
+        19,
+        22,
+        24
+      ],
+      "case_ids": [
+        "rel_69__ent_308__ent_356",
+        "rel_69__ent_308__ent_1005",
+        "rel_69__ent_543__ent_308",
+        "rel_69__ent_400__ent_884",
+        "rel_69__ent_1125__ent_843",
+        "rel_69__ent_935__ent_931",
+        "rel_69__ent_321__ent_1013",
+        "rel_69__ent_309__ent_1004",
+        "rel_69__ent_685__ent_443",
+        "rel_69__ent_1004__ent_309",
+        "rel_69__ent_888__ent_333",
+        "rel_69__ent_308__ent_64",
+        "rel_69__ent_444__ent_686",
+        "rel_69__ent_321__ent_278"
+      ],
+      "judgment": "incorrect",
+      "reason": "These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    4,
+    5,
+    6,
+    7,
+    15,
+    16,
+    18,
+    21,
+    23,
+    25
+  ],
+  "broad": []
+}

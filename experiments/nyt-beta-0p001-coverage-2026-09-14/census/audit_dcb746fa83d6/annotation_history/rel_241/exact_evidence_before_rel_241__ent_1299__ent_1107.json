@@ -1,0 +1,237 @@
+{
+  "relation": "rel_241",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_241__ent_69__ent_1261",
+      "judgment": "ambiguous",
+      "reason": "Bosnian Serb → Radovan Karadzic: Bosnian Serb is a singular adjectival/body fragment; the complete political body is not identified.",
+      "evidence_lines": [
+        7696,
+        7698,
+        7699,
+        7701,
+        7702,
+        7703
+      ],
+      "issue_tags": [
+        "truncated_political_body",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "What full political body does Bosnian Serb denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1299__ent_1406",
+      "judgment": "supported",
+      "reason": "Senate → Bob Dole: A named person is explicitly identified as Senate leader or leader of its majority.",
+      "evidence_lines": [
+        7626,
+        7629,
+        7630,
+        7634
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1333__ent_265",
+      "judgment": "ambiguous",
+      "reason": "Senate → Tom Daschle; Senate → Joseph L. Bruno: Two distinct named Senate leaders are merged into the same inferred person entity.",
+      "evidence_lines": [
+        7616,
+        7646,
+        7655
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Should Joseph L. Bruno and Tom Daschle be separate inferred entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1197__ent_267",
+      "judgment": "supported",
+      "reason": "Senate → Trent Lott: A named person is explicitly identified as Senate leader or leader of its majority.",
+      "evidence_lines": [
+        7636,
+        7642,
+        7643
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1299__ent_969",
+      "judgment": "supported",
+      "reason": "Senate → Bill Frist: A named person is explicitly identified as Senate leader or leader of its majority.",
+      "evidence_lines": [
+        7666,
+        7669,
+        7675
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1197__ent_49",
+      "judgment": "supported",
+      "reason": "Senate → George J. Mitchell: A named person is explicitly identified as Senate leader or leader of its majority.",
+      "evidence_lines": [
+        7691,
+        7693,
+        7694
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_263__ent_1172",
+      "judgment": "incorrect",
+      "reason": "Republican → Senate Finance Committee: Committee membership, corporate nationality, or a plural political group does not establish the required named individual political leader.",
+      "evidence_lines": [
+        6351,
+        6352
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1317__ent_727",
+      "judgment": "supported",
+      "reason": "Senate → Ralph J. Marino: A named person is explicitly identified as Senate leader or leader of its majority.",
+      "evidence_lines": [
+        7656,
+        7662
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_469__ent_502",
+      "judgment": "incorrect",
+      "reason": "Philips N.V. → Dutch: Committee membership, corporate nationality, or a plural political group does not establish the required named individual political leader.",
+      "evidence_lines": [
+        3597
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1299__ent_1107",
+      "judgment": "incorrect",
+      "reason": "Senate → Republicans: Committee membership, corporate nationality, or a plural political group does not establish the required named individual political leader.",
+      "evidence_lines": [
+        4902
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_502__ent_1221",
+      "judgment": "supported",
+      "reason": "Senate → Joseph L. Bruno: A named person is explicitly identified as Senate leader or leader of its majority.",
+      "evidence_lines": [
+        7622
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    },
+    {
+      "case_id": "rel_241__ent_1401__ent_263",
+      "judgment": "ambiguous",
+      "reason": "Senate → Republican: Republican is an unnamed person or party label and does not identify the individual leader.",
+      "evidence_lines": [
+        7677
+      ],
+      "issue_tags": [
+        "unnamed_officeholder"
+      ],
+      "reviewer_question": "Which individual Senate leader does Republican stand for?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:57.335Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d218c2a5ed46b05a0f527e1ef3e854c91d84fb3343f0db087814129fd6229541"
+}

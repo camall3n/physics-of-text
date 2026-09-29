@@ -1,0 +1,90 @@
+{
+  "relation": "rel_41",
+  "predicate_id": "politically_controls",
+  "label": "politically controls",
+  "definition": "Political group X controls or gains control of political body Y.",
+  "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity.",
+  "facts": [
+    {
+      "case_id": "rel_41__ent_1173__ent_480",
+      "judgment": "supported",
+      "reason": "Taliban → Kabul: Explicit seizure and seized-city wording with military march/take context establishes territorial control.",
+      "evidence_lines": [
+        6407,
+        6408,
+        6411,
+        6413,
+        6415
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.806Z"
+      }
+    },
+    {
+      "case_id": "rel_41__ent_308__ent_1005",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: Sports-team taking and informational fragments do not establish political control.",
+      "evidence_lines": [
+        880,
+        6048,
+        6050
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.806Z"
+      }
+    },
+    {
+      "case_id": "rel_41__ent_1318__ent_479",
+      "judgment": "ambiguous",
+      "reason": "China → Hong Kong: Bare take does not distinguish actual political control from proposed transfer or another sense; the remaining rows do not resolve it.",
+      "evidence_lines": [
+        6447,
+        6449,
+        6452
+      ],
+      "issue_tags": [
+        "control_ambiguity"
+      ],
+      "reviewer_question": "Does take assert achieved political control of the place or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.806Z"
+      }
+    },
+    {
+      "case_id": "rel_41__ent_7__ent_586",
+      "judgment": "ambiguous",
+      "reason": "Democrat → White House: Bare take does not distinguish actual political control from proposed transfer or another sense; the remaining rows do not resolve it.",
+      "evidence_lines": [
+        2712
+      ],
+      "issue_tags": [
+        "control_ambiguity"
+      ],
+      "reviewer_question": "Does take assert achieved political control of the place or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:45.806Z"
+      }
+    }
+  ],
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "53d5d14c7e77bd423de36042de3cffd3d40763988b614049fcdff138bea6eb5a"
+}

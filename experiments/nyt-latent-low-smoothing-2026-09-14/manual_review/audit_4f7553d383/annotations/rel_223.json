@@ -1,0 +1,100 @@
+{
+  "relation": "rel_223",
+  "label": "geographical part of",
+  "definition": "The first named neighborhood, district or area is geographically contained in the second place.",
+  "scope_notes": "Area/section/neighborhood-of/in strongly dominates. This is a place-to-containing-place relationship, distinct from personal residence, travel, schools or an organization located somewhere. The listed longer paths may be noisy without invalidating clean containment evidence; incompatible neighborhood names require identity review.",
+  "facts": [
+    {
+      "case_id": "rel_223__ent_574__ent_323",
+      "judgment": "supported",
+      "reason": "Direct section-of, area-of and neighborhood paths place Flatbush in Brooklyn. The intersection and announcement attachments are weaker additional evidence.",
+      "evidence_lines": [
+        1118,
+        1119,
+        1121,
+        1122,
+        1123,
+        1124,
+        1126
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_223__ent_1220__ent_323",
+      "judgment": "ambiguous",
+      "reason": "The rows clearly put both Bedford-Stuyvesant and Brownsville in Brooklyn, but they combine two different neighborhood names as one first entity without alias evidence.",
+      "evidence_lines": [
+        1099,
+        1100,
+        1101,
+        1106,
+        1168,
+        1170,
+        1171
+      ],
+      "issue_tags": [
+        "mixed_entity_names"
+      ],
+      "reviewer_question": "Does this first entity denote Bedford-Stuyvesant or Brownsville, and should their containment facts be separate?"
+    },
+    {
+      "case_id": "rel_223__ent_570__ent_323",
+      "judgment": "supported",
+      "reason": "East New York is explicitly a section, area and neighborhood of/in Brooklyn. The school rows are additional local attachments.",
+      "evidence_lines": [
+        1078,
+        1079,
+        1080,
+        1081,
+        1083,
+        1084,
+        1086
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_223__ent_332__ent_659",
+      "judgment": "supported",
+      "reason": "Williamsburg is directly a section, area and neighborhood of/in Brooklyn. The travel/enclave row is not needed for the containment judgment.",
+      "evidence_lines": [
+        1108,
+        1109,
+        1110,
+        1111,
+        1112,
+        1113,
+        1117
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_223__ent_573__ent_323",
+      "judgment": "supported",
+      "reason": "Bensonhurst is explicitly a neighborhood, area and section of/in Brooklyn. The witness and prosecutor/case rows are unrelated attachments, not the basis of support.",
+      "evidence_lines": [
+        1139,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145,
+        1147
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

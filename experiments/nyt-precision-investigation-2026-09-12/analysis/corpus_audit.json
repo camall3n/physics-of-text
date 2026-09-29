@@ -1,0 +1,497 @@
+{
+  "source": "resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_5.json",
+  "sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+  "rows": 8516,
+  "names": 1199,
+  "paths": 4276,
+  "literal_pairs": 920,
+  "metadata_contaminated_rows": [
+    {
+      "line": 1155,
+      "source": "Park Slope",
+      "dest": "Brooklyn",
+      "depPath": "trigger#writer Mariellé_Anzelone_Park_Slope Brooklyn source#Marielléappos|->appos->writer->nn->|nné_Anzelone_Park_Slope_,_Brooklyn_The_writer_is_a_botanist_and_urban_ecologist_. lex#, pos#, rc#The_writer"
+    },
+    {
+      "line": 1156,
+      "source": "Park Slope",
+      "dest": "Brooklyn",
+      "depPath": "trigger#recommend,-lrb-718-rrb- 965-3391 Fourth_Street_Park_Slope Brooklyn source#Fourth/JJ/LOCATION_Street/NNP/LOCATION_Park/NNP/LOCATION_Slope/NNP/LOCATION dest#Brooklyn/NNP/LOCATION path#pobj|<-pobj<-at<-prep<-recommend->nsubj->-lrb-718-rrb- 965-3391->nn->|nn sen#'_Pinocchio_'_Puppetworks_338_Sixth_Avenue_,_at_Fourth_Street_Park_Slope_,_Brooklyn_(718)_965-3391_Recommended_ages_:_3_to_8_Through_Dec._20_In_the_Puppetworks_storefront_theater_,_devoted_exclusively_to_marionette_shows_,_Pinocchio_gets_his_comeuppance_in_the_usual_way_. lex#, pos#, lc#,_at rc#(718)_965-3391_Recommended"
+    },
+    {
+      "line": 1362,
+      "source": "Richard A. Boucher",
+      "dest": "State Department",
+      "depPath": "appos|->appos->spokesman->nn->|nné_Bustani_,_the_organization_'s_director_general_,_a_Brazilian_,_accusing_him_of_''_mismanagement_''_of_the_145-member_organization_,_''_ill-considered_initiatives_''_and_the_''_demoralization_''_of_its_technical_staff_._'' lex#,_the pos#,_DT rc#spokesman_,"
+    },
+    {
+      "line": 1429,
+      "source": "Sirio Maccioni",
+      "dest": "Le Cirque",
+      "depPath": "rcmod|->rcmod->open->dobj->|dobjèce_,_whose_owner_,_Ark_Restaurants_,_has_struggled_to_build_a_new_identity_after_acquiring_it_from_André_Soltner_. lex#,_who_triumphantly_opened pos#,_WP_RB_VBD lc#For_every rc#after"
+    },
+    {
+      "line": 3011,
+      "source": "Tom Daschle",
+      "dest": "Senate",
+      "depPath": "trigger#protégé Tom_Daschle Senate source#Tom/NNP/PERSON_Daschle/NNP/PERSON dest#Senate/NNP/ORGANIZATION path#poss|<-poss<-protégé->prep->in->pobj->|pobj sen#In_South_Dakota_,_he_leaned_on_Representative_John_Thune_--_who_was_also_planning_a_run_for_governor_--_to_get_out_of_the_race_and_take_on_Tim_Johnson_,_Tom_Daschle_'s_protégé_in_the_Senate_,_instead_. lex#'s_protégé_in_the pos#POS_NN_IN_DT lc#, rc#,_instead"
+    },
+    {
+      "line": 3191,
+      "source": "Steve Phillips",
+      "dest": "Mets",
+      "depPath": "rcmod|->rcmod->manager->prep->of->pobj->|pobjóñez_must_earn_next_season_,_courtesy_of_a_contract_issued_by_Steve_Phillips_,_who_is_still_the_general_manager_of_the_Mets_. lex#,_who_is_still_the_general_manager_of_the pos#,_WP_VBZ_RB_DT_JJ_NN_IN_DT lc#issued_by rc#."
+    },
+    {
+      "line": 3192,
+      "source": "Steve Phillips",
+      "dest": "Mets",
+      "depPath": "rcmod|->rcmod->join->dobj->|dobjé_to_get_his_first_big_league_experience_._'' lex#,_who_will_not_join_the pos#,_WP_MD_RB_VB_DT lc#General_Manager rc#on_the"
+    },
+    {
+      "line": 3588,
+      "source": "Karen P. Hughes",
+      "dest": "Mr. Bush",
+      "depPath": "trigger#protégé,adviser Karen_P._Hughes Mr._Bush source#Karen/NNP/PERSON_P./NNP/PERSON_Hughes/NNP/PERSON dest#Mr./NNP/PERSON_Bush/NNP/PERSON path#pobj|<-pobj<-of<-prep<-protégé->appos->adviser->poss->|poss sen#Mr._Wilkinson_,_32_,_is_a_protégé_of_Karen_P._Hughes_,_Mr._Bush_'s_longtime_adviser_,_and_his_appointment_puts_a_White_House_loyalist_with_Washington_experience_in_a_pivotal_position_at_the_Central_Command_,_which_is_based_in_Florida_and_which_will_be_charged_with_waging_and_winning_any_war_against_Saddam_Hussein_. lex#, pos#, lc#protégé_of rc#'s_longtime"
+    },
+    {
+      "line": 3641,
+      "source": "Sanofi",
+      "dest": "French",
+      "depPath": "poss|<-poss<-structure<-nsubj<-drive->dobj->deal->dep->own->prep->by->pobj->total->appos->company->amod->|amodéal_,_a_consumer_products_company_. lex#'s_ownership_structure_may_also_be_driving_the_deal_:_percent_of_'s_shares_are_owned_by_Total_,_the pos#POS_NN_NN_MD_RB_VB_VBG_DT_NN_:_NN_IN_POS_NNS_VBP_VBN_IN_NNP_,_DT rc#oil_company"
+    },
+    {
+      "line": 3642,
+      "source": "Sanofi",
+      "dest": "French",
+      "depPath": "poss|<-poss<-share<-pobj<-of<-prep<-percent<-nsubjpass<-own->prep->by->pobj->total->appos->company->amod->|amodéal_,_a_consumer_products_company_. lex#'s_shares_are_owned_by_Total_,_the pos#POS_NNS_VBP_VBN_IN_NNP_,_DT lc#percent_of rc#oil_company"
+    },
+    {
+      "line": 3851,
+      "source": "John C. Bogle",
+      "dest": "Vanguard Group",
+      "depPath": "appos|->appos->founder->prep->of->pobj->|pobjón_,_the_university_also_gave_honorary_degrees_to_Paul_A._Volcker_,_the_former_chairman_of_the_Federal_Reserve_Board_;_John_C._Bogle_,_the_founder_of_Vanguard_Group_Investment_Companies_;_and_George_Dawson_,_the_grandson_of_slaves_,_who_learned_to_read_when_he_was_98_and_last_year_published_a_memoir_,_''_Life_Is_So_Good_''_(_Random_House_)_,_written_with_Richard_Glaubman_. lex#,_the_founder_of pos#,_DT_NN_IN lc#; rc#;_and"
+    },
+    {
+      "line": 4964,
+      "source": "CBS",
+      "dest": "Super Bowl",
+      "depPath": "rcmod|->rcmod->broadcast->prep->after->pobj->|pobjé_''_finale_was_beaten_in_that_18-to-49-year-old_category_only_by_several_of_Fox_'s_editions_of_''_American_Idol_''_and_the_first_episode_of_the_current_''_Survivor_''_on_CBS_,_which_was_broadcast_after_the_Super_Bowl_. lex#,_which_was_broadcast_after_the pos#,_WDT_VBD_VBN_IN_DT lc#''_on rc#."
+    },
+    {
+      "line": 5122,
+      "source": "Robert J. Eaton",
+      "dest": "Chrysler",
+      "depPath": "rcmod|->rcmod->run->dobj->|dobjürgen_E._Schrempp_,_the_former_chief_executive_at_Daimler-Benz_,_and_Robert_J._Eaton_,_who_ran_Chrysler_,_envisioned_a_company_that_married_the_mass-market_success_of_Chrysler_and_the_luxury_appeal_of_Mercedes_. lex#,_who_ran pos#,_WP_VBD lc#,_and rc#,_envisioned"
+    },
+    {
+      "line": 5362,
+      "source": "Russia",
+      "dest": "Vladimir V. Putin",
+      "depPath": "trigger#president,issue,communiqué Russia Vladimir_V._Putin source#Russia/NNP/LOCATION dest#Vladimir/NNP/PERSON_V./NNP/PERSON_Putin/NNP/PERSON path#pobj|<-pobj<-of<-prep<-president<-pobj<-with<-prep<-issue<-partmod<-communiqué->appos->|appos sen#A_joint_communiqué_issued_by_President_Kim_Dae_Jung_with_the_visiting_president_of_Russia_,_Vladimir_V._Putin_,_declared_that_the_1972_Antiballistic_Missile_Treaty_,_which_would_be_threatened_by_Washington_'s_project_,_was_a_''_cornerstone_of_strategic_stability_._'' lex#, pos#, lc#president_of rc#,_declared"
+    },
+    {
+      "line": 5599,
+      "source": "Institutional Revolutionary Party",
+      "dest": "PRI",
+      "depPath": "pobj|<-pobj<-of<-prep<-run->dep->know->prep->as->pobj->|pobjúl_Ojeda_,_of_the_Democratic_Revolution_Party_,_running_close_behind_Mr._Andrade_,_of_the_Institutional_Revolutionary_Party_,_known_as_the_PRI_. lex#,_known_as_the pos#,_VBN_IN_DT lc#of_the rc#."
+    },
+    {
+      "line": 5618,
+      "source": "National Action Party",
+      "dest": "PAN",
+      "depPath": "partmod|->partmod->know->prep->as->pobj->|pobjópez_presidency_would_be_an_economic_disaster_._'' lex#,_known_as pos#,_VBN_IN lc#'s_conservative rc#,_made"
+    },
+    {
+      "line": 6195,
+      "source": "Snug Harbor",
+      "dest": "Richmond Terrace",
+      "depPath": "trigger#-lrb-718-rrb- 273-2060 Staten_Island_Children_'s_Museum_Snug_Harbor Richmond_Terrace_Livingston source#Staten/NNP/ORGANIZATION_Island/NNP/ORGANIZATION_Children/NNP/ORGANIZATION_'s/POS/ORGANIZATION_Museum/NNP/ORGANIZATION_Snug/NNP/ORGANIZATION_Harbor/NNP/ORGANIZATION dest#Richmond/NNP/ORGANIZATION_Terrace/NNP/ORGANIZATION_Livingston/NNP/ORGANIZATION path#nn|<-nn<--lrb-718-rrb- 273-2060->nn->|nn sen#Staten_Island_Children_'s_Museum_Snug_Harbor_1000_Richmond_Terrace_Livingston_(718)_273-2060_Recommended_ages_:_All_ages_The_Staten_Island_Children_'s_Museum_has_the_honor_of_being_on_the_grounds_of_the_Snug_Harbor_Cultural_Center_,_an_80-acre_former_colony_for_weary_sailors_. rc#(718)_273-2060_Recommended"
+    },
+    {
+      "line": 6196,
+      "source": "Snug Harbor",
+      "dest": "Richmond Terrace",
+      "depPath": "trigger#-lrb-718-rrb- 273-2060 Museum_Snug_Harbor Richmond_Terrace_Livingston source#Museum/NNP/ORGANIZATION_Snug/NNP/ORGANIZATION_Harbor/NNP/ORGANIZATION dest#Richmond/NNP/ORGANIZATION_Terrace/NNP/ORGANIZATION_Livingston/NNP/ORGANIZATION path#nn|<-nn<--lrb-718-rrb- 273-2060->nn->|nn sen#'_Women_in_Art_III_'_Staten_Island_Children_'s_Museum_Snug_Harbor_1000_Richmond_Terrace_Livingston_(718)_273-2060_Recommended_ages_:_6_to_12_Tomorrow_Cynthia_Pannucci_is_in_the_middle_of_making_a_fiber-optic_lighted_Plexiglas_insect_,_which_will_float_in_a_cove_at_Battery_Park_City_in_the_summer_of_1995_. lc#'s rc#(718)_273-2060_Recommended"
+    },
+    {
+      "line": 6204,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6611 Weather_Machine_'_Dreyfuss_Planetarium_Newark_Museum Washington_Street source#Weather/NNP/ORGANIZATION_Machine/NNP/ORGANIZATION_'/POS/ORGANIZATION_Dreyfuss/NNP/ORGANIZATION_Planetarium/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/LOCATION_Street/NNP/LOCATION path#nn|<-nn<--lrb-201-rrb- 596-6611->nn->|nn sen#'_Magic_Sky_'_'_The_Weather_Machine_'_Dreyfuss_Planetarium_Newark_Museum_49_Washington_Street_(201)_596-6611_Recommended_ages_:_3_and_up_In_this_intimate_sky_theater_,_designed_by_the_architect_Michael_Graves_,_children_get_to_blow_clouds_onto_the_dome_,_with_technological_assistance_provided_by_the_star_projector_. lc#'_The rc#(201)_596-6611_Recommended"
+    },
+    {
+      "line": 6205,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Newark_Museum Washington_Street_University_Heights source#Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/ORGANIZATION_Street/NNP/ORGANIZATION_University/NNP/ORGANIZATION_Heights/NNP/ORGANIZATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#'_Explore_Korea_'_'_A_Visit_to_Grandfather_'s_House_'_Newark_Museum_49_Washington_Street_University_Heights_(201)_596-6550_Recommended_ages_:_4_to_12_Through_January_1997_Your_grandfather_'s_house_may_have_never_looked_this_calm_or_neat_. lc#' rc#(201)_596-6550_Recommended"
+    },
+    {
+      "line": 6206,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Newark_Museum Washington_Street source#Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/LOCATION_Street/NNP/LOCATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#'_Through_Sisters_'_Eyes_'_'_Children_'s_Books_Illustrated_by_African-American_Women_Artists_'_Newark_Museum_49_Washington_Street_(201)_596-6550_Recommended_ages_:_7_and_up_Through_Feb._28_When_Jan_Spivey_Gilchrist_receives_a_manuscript_,_she_reads_it_several_times_before_deciding_which_medium_--_gouache_,_pencil_or_pastel_--_she_will_use_to_illustrate_the_book_. lc#' rc#(201)_596-6550"
+    },
+    {
+      "line": 6207,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Gallery_Newark_Museum Washington_Street_Newark source#Gallery/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/ORGANIZATION_Street/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#Children_'s_Zoo_and_Gallery_Newark_Museum_49_Washington_Street_Newark_(201)_596-6550_Recommended_ages_:_3_and_up_Housed_inside_unprepossessing_red-brick_buildings_is_the_Newark_Museum_'s_modest_indoor_mini-zoo_and_junior_gallery_created_by_the_architect_Michael_Graves_. lc#and rc#(201)_596-6550"
+    },
+    {
+      "line": 6208,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Art_Workshops_Newark_Museum Washington_Street_Newark source#Art/NNP/ORGANIZATION_Workshops/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/ORGANIZATION_Street/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#Art_Workshops_Newark_Museum_49_Washington_Street_Newark_(201)_596-6550_Recommended_ages_:_3_to_7_Weekends_through_December_The_Newark_Museum_is_the_classiest_place_in_town_,_not_only_because_its_addition_was_designed_by_Michael_Graves_,_but_also_because_it_has_a_miniature_indoor_zoo_and_a_wing_for_children_'s_exhibitions_. rc#(201)_596-6550_Recommended"
+    },
+    {
+      "line": 6241,
+      "source": "Joyce Theater",
+      "dest": "Eighth Avenue",
+      "depPath": "pobj|<-pobj<-at<-prep<-sunday->appos->|apposâneo_performs_tonight_,_tomorrow_and_Sunday_at_the_Joyce_Theater_,_175_Eighth_Avenue_,_at_19th_Street_,_Chelsea_,_(212)_242-0800_,_joyce.org_. lex#, pos#, lc#at_the rc#,_at"
+    },
+    {
+      "line": 6251,
+      "source": "Sotheby",
+      "dest": "York Avenue",
+      "depPath": "poss|<-poss<-salesroom->nn->|nnó_were_seriously_fought_over_by_multiple_bidders_. lex#'s pos#POS rc#salesroom_in"
+    },
+    {
+      "line": 6609,
+      "source": "Kellogg Brown & Root",
+      "dest": "Halliburton",
+      "depPath": "appos|->appos->subsidiary->nn->|nnériel_Command_,_said_late_yesterday_that_Army_personnel_were_talking_with_representatives_of_Kellogg_Brown_&_Root_,_the_Halliburton_subsidiary_that_is_working_in_Iraq_,_to_resolve_the_billing_dispute_. lex#,_the pos#,_DT lc#representatives_of rc#subsidiary_that"
+    },
+    {
+      "line": 6668,
+      "source": "Euro RSCG Worldwide",
+      "dest": "Havas Advertising",
+      "depPath": "nn|<-nn<-unit->prep->of->pobj->|pobjélécom_in_Paris_consolidated_work_for_its_Orange_mobile_telephone_division_by_awarding_the_assignment_to_BETC_Euro_RSCG_in_Paris_,_part_of_the_Euro_RSCG_Worldwide_unit_of_Havas_Advertising_. lex#unit_of pos#NN_IN lc#of_the rc#."
+    },
+    {
+      "line": 7322,
+      "source": "Caryn James",
+      "dest": "The Times",
+      "depPath": "nsubj|<-nsubj<-write->prep->in->pobj->|pobjés_and_helps_explain_where_they_came_from_,_''_Caryn_James_wrote_in_The_Times_._'' lex#wrote_in pos#VBD_IN lc#,_'' rc#._''"
+    },
+    {
+      "line": 7791,
+      "source": "Ullrich",
+      "dest": "Tour",
+      "depPath": "rcmod|->rcmod->win->dobj->|dobjöden_were_now_resigned_to_fighting_it_out_with_Basso_for_second_place_. lex#,_who_won_the pos#,_WP_VBD_DT rc#in"
+    },
+    {
+      "line": 8118,
+      "source": "Robert C. Janiszewski",
+      "dest": "Hudson County",
+      "depPath": "appos|->appos->executive->nn->|nnávila-Colón_,_a_freeholder_,_who_were_indicted_recently_. lex#,_the_former pos#,_DT_JJ lc#also_taped rc#executive_,"
+    }
+  ],
+  "metadata_path_types": 30,
+  "path_shape_failures": [
+    {
+      "line": 1155,
+      "source": "Park Slope",
+      "dest": "Brooklyn",
+      "depPath": "trigger#writer Mariellé_Anzelone_Park_Slope Brooklyn source#Marielléappos|->appos->writer->nn->|nné_Anzelone_Park_Slope_,_Brooklyn_The_writer_is_a_botanist_and_urban_ecologist_. lex#, pos#, rc#The_writer"
+    },
+    {
+      "line": 1156,
+      "source": "Park Slope",
+      "dest": "Brooklyn",
+      "depPath": "trigger#recommend,-lrb-718-rrb- 965-3391 Fourth_Street_Park_Slope Brooklyn source#Fourth/JJ/LOCATION_Street/NNP/LOCATION_Park/NNP/LOCATION_Slope/NNP/LOCATION dest#Brooklyn/NNP/LOCATION path#pobj|<-pobj<-at<-prep<-recommend->nsubj->-lrb-718-rrb- 965-3391->nn->|nn sen#'_Pinocchio_'_Puppetworks_338_Sixth_Avenue_,_at_Fourth_Street_Park_Slope_,_Brooklyn_(718)_965-3391_Recommended_ages_:_3_to_8_Through_Dec._20_In_the_Puppetworks_storefront_theater_,_devoted_exclusively_to_marionette_shows_,_Pinocchio_gets_his_comeuppance_in_the_usual_way_. lex#, pos#, lc#,_at rc#(718)_965-3391_Recommended"
+    },
+    {
+      "line": 1362,
+      "source": "Richard A. Boucher",
+      "dest": "State Department",
+      "depPath": "appos|->appos->spokesman->nn->|nné_Bustani_,_the_organization_'s_director_general_,_a_Brazilian_,_accusing_him_of_''_mismanagement_''_of_the_145-member_organization_,_''_ill-considered_initiatives_''_and_the_''_demoralization_''_of_its_technical_staff_._'' lex#,_the pos#,_DT rc#spokesman_,"
+    },
+    {
+      "line": 1429,
+      "source": "Sirio Maccioni",
+      "dest": "Le Cirque",
+      "depPath": "rcmod|->rcmod->open->dobj->|dobjèce_,_whose_owner_,_Ark_Restaurants_,_has_struggled_to_build_a_new_identity_after_acquiring_it_from_André_Soltner_. lex#,_who_triumphantly_opened pos#,_WP_RB_VBD lc#For_every rc#after"
+    },
+    {
+      "line": 3011,
+      "source": "Tom Daschle",
+      "dest": "Senate",
+      "depPath": "trigger#protégé Tom_Daschle Senate source#Tom/NNP/PERSON_Daschle/NNP/PERSON dest#Senate/NNP/ORGANIZATION path#poss|<-poss<-protégé->prep->in->pobj->|pobj sen#In_South_Dakota_,_he_leaned_on_Representative_John_Thune_--_who_was_also_planning_a_run_for_governor_--_to_get_out_of_the_race_and_take_on_Tim_Johnson_,_Tom_Daschle_'s_protégé_in_the_Senate_,_instead_. lex#'s_protégé_in_the pos#POS_NN_IN_DT lc#, rc#,_instead"
+    },
+    {
+      "line": 3191,
+      "source": "Steve Phillips",
+      "dest": "Mets",
+      "depPath": "rcmod|->rcmod->manager->prep->of->pobj->|pobjóñez_must_earn_next_season_,_courtesy_of_a_contract_issued_by_Steve_Phillips_,_who_is_still_the_general_manager_of_the_Mets_. lex#,_who_is_still_the_general_manager_of_the pos#,_WP_VBZ_RB_DT_JJ_NN_IN_DT lc#issued_by rc#."
+    },
+    {
+      "line": 3192,
+      "source": "Steve Phillips",
+      "dest": "Mets",
+      "depPath": "rcmod|->rcmod->join->dobj->|dobjé_to_get_his_first_big_league_experience_._'' lex#,_who_will_not_join_the pos#,_WP_MD_RB_VB_DT lc#General_Manager rc#on_the"
+    },
+    {
+      "line": 3588,
+      "source": "Karen P. Hughes",
+      "dest": "Mr. Bush",
+      "depPath": "trigger#protégé,adviser Karen_P._Hughes Mr._Bush source#Karen/NNP/PERSON_P./NNP/PERSON_Hughes/NNP/PERSON dest#Mr./NNP/PERSON_Bush/NNP/PERSON path#pobj|<-pobj<-of<-prep<-protégé->appos->adviser->poss->|poss sen#Mr._Wilkinson_,_32_,_is_a_protégé_of_Karen_P._Hughes_,_Mr._Bush_'s_longtime_adviser_,_and_his_appointment_puts_a_White_House_loyalist_with_Washington_experience_in_a_pivotal_position_at_the_Central_Command_,_which_is_based_in_Florida_and_which_will_be_charged_with_waging_and_winning_any_war_against_Saddam_Hussein_. lex#, pos#, lc#protégé_of rc#'s_longtime"
+    },
+    {
+      "line": 3641,
+      "source": "Sanofi",
+      "dest": "French",
+      "depPath": "poss|<-poss<-structure<-nsubj<-drive->dobj->deal->dep->own->prep->by->pobj->total->appos->company->amod->|amodéal_,_a_consumer_products_company_. lex#'s_ownership_structure_may_also_be_driving_the_deal_:_percent_of_'s_shares_are_owned_by_Total_,_the pos#POS_NN_NN_MD_RB_VB_VBG_DT_NN_:_NN_IN_POS_NNS_VBP_VBN_IN_NNP_,_DT rc#oil_company"
+    },
+    {
+      "line": 3642,
+      "source": "Sanofi",
+      "dest": "French",
+      "depPath": "poss|<-poss<-share<-pobj<-of<-prep<-percent<-nsubjpass<-own->prep->by->pobj->total->appos->company->amod->|amodéal_,_a_consumer_products_company_. lex#'s_shares_are_owned_by_Total_,_the pos#POS_NNS_VBP_VBN_IN_NNP_,_DT lc#percent_of rc#oil_company"
+    },
+    {
+      "line": 3851,
+      "source": "John C. Bogle",
+      "dest": "Vanguard Group",
+      "depPath": "appos|->appos->founder->prep->of->pobj->|pobjón_,_the_university_also_gave_honorary_degrees_to_Paul_A._Volcker_,_the_former_chairman_of_the_Federal_Reserve_Board_;_John_C._Bogle_,_the_founder_of_Vanguard_Group_Investment_Companies_;_and_George_Dawson_,_the_grandson_of_slaves_,_who_learned_to_read_when_he_was_98_and_last_year_published_a_memoir_,_''_Life_Is_So_Good_''_(_Random_House_)_,_written_with_Richard_Glaubman_. lex#,_the_founder_of pos#,_DT_NN_IN lc#; rc#;_and"
+    },
+    {
+      "line": 4964,
+      "source": "CBS",
+      "dest": "Super Bowl",
+      "depPath": "rcmod|->rcmod->broadcast->prep->after->pobj->|pobjé_''_finale_was_beaten_in_that_18-to-49-year-old_category_only_by_several_of_Fox_'s_editions_of_''_American_Idol_''_and_the_first_episode_of_the_current_''_Survivor_''_on_CBS_,_which_was_broadcast_after_the_Super_Bowl_. lex#,_which_was_broadcast_after_the pos#,_WDT_VBD_VBN_IN_DT lc#''_on rc#."
+    },
+    {
+      "line": 5122,
+      "source": "Robert J. Eaton",
+      "dest": "Chrysler",
+      "depPath": "rcmod|->rcmod->run->dobj->|dobjürgen_E._Schrempp_,_the_former_chief_executive_at_Daimler-Benz_,_and_Robert_J._Eaton_,_who_ran_Chrysler_,_envisioned_a_company_that_married_the_mass-market_success_of_Chrysler_and_the_luxury_appeal_of_Mercedes_. lex#,_who_ran pos#,_WP_VBD lc#,_and rc#,_envisioned"
+    },
+    {
+      "line": 5362,
+      "source": "Russia",
+      "dest": "Vladimir V. Putin",
+      "depPath": "trigger#president,issue,communiqué Russia Vladimir_V._Putin source#Russia/NNP/LOCATION dest#Vladimir/NNP/PERSON_V./NNP/PERSON_Putin/NNP/PERSON path#pobj|<-pobj<-of<-prep<-president<-pobj<-with<-prep<-issue<-partmod<-communiqué->appos->|appos sen#A_joint_communiqué_issued_by_President_Kim_Dae_Jung_with_the_visiting_president_of_Russia_,_Vladimir_V._Putin_,_declared_that_the_1972_Antiballistic_Missile_Treaty_,_which_would_be_threatened_by_Washington_'s_project_,_was_a_''_cornerstone_of_strategic_stability_._'' lex#, pos#, lc#president_of rc#,_declared"
+    },
+    {
+      "line": 5599,
+      "source": "Institutional Revolutionary Party",
+      "dest": "PRI",
+      "depPath": "pobj|<-pobj<-of<-prep<-run->dep->know->prep->as->pobj->|pobjúl_Ojeda_,_of_the_Democratic_Revolution_Party_,_running_close_behind_Mr._Andrade_,_of_the_Institutional_Revolutionary_Party_,_known_as_the_PRI_. lex#,_known_as_the pos#,_VBN_IN_DT lc#of_the rc#."
+    },
+    {
+      "line": 5618,
+      "source": "National Action Party",
+      "dest": "PAN",
+      "depPath": "partmod|->partmod->know->prep->as->pobj->|pobjópez_presidency_would_be_an_economic_disaster_._'' lex#,_known_as pos#,_VBN_IN lc#'s_conservative rc#,_made"
+    },
+    {
+      "line": 6195,
+      "source": "Snug Harbor",
+      "dest": "Richmond Terrace",
+      "depPath": "trigger#-lrb-718-rrb- 273-2060 Staten_Island_Children_'s_Museum_Snug_Harbor Richmond_Terrace_Livingston source#Staten/NNP/ORGANIZATION_Island/NNP/ORGANIZATION_Children/NNP/ORGANIZATION_'s/POS/ORGANIZATION_Museum/NNP/ORGANIZATION_Snug/NNP/ORGANIZATION_Harbor/NNP/ORGANIZATION dest#Richmond/NNP/ORGANIZATION_Terrace/NNP/ORGANIZATION_Livingston/NNP/ORGANIZATION path#nn|<-nn<--lrb-718-rrb- 273-2060->nn->|nn sen#Staten_Island_Children_'s_Museum_Snug_Harbor_1000_Richmond_Terrace_Livingston_(718)_273-2060_Recommended_ages_:_All_ages_The_Staten_Island_Children_'s_Museum_has_the_honor_of_being_on_the_grounds_of_the_Snug_Harbor_Cultural_Center_,_an_80-acre_former_colony_for_weary_sailors_. rc#(718)_273-2060_Recommended"
+    },
+    {
+      "line": 6196,
+      "source": "Snug Harbor",
+      "dest": "Richmond Terrace",
+      "depPath": "trigger#-lrb-718-rrb- 273-2060 Museum_Snug_Harbor Richmond_Terrace_Livingston source#Museum/NNP/ORGANIZATION_Snug/NNP/ORGANIZATION_Harbor/NNP/ORGANIZATION dest#Richmond/NNP/ORGANIZATION_Terrace/NNP/ORGANIZATION_Livingston/NNP/ORGANIZATION path#nn|<-nn<--lrb-718-rrb- 273-2060->nn->|nn sen#'_Women_in_Art_III_'_Staten_Island_Children_'s_Museum_Snug_Harbor_1000_Richmond_Terrace_Livingston_(718)_273-2060_Recommended_ages_:_6_to_12_Tomorrow_Cynthia_Pannucci_is_in_the_middle_of_making_a_fiber-optic_lighted_Plexiglas_insect_,_which_will_float_in_a_cove_at_Battery_Park_City_in_the_summer_of_1995_. lc#'s rc#(718)_273-2060_Recommended"
+    },
+    {
+      "line": 6204,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6611 Weather_Machine_'_Dreyfuss_Planetarium_Newark_Museum Washington_Street source#Weather/NNP/ORGANIZATION_Machine/NNP/ORGANIZATION_'/POS/ORGANIZATION_Dreyfuss/NNP/ORGANIZATION_Planetarium/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/LOCATION_Street/NNP/LOCATION path#nn|<-nn<--lrb-201-rrb- 596-6611->nn->|nn sen#'_Magic_Sky_'_'_The_Weather_Machine_'_Dreyfuss_Planetarium_Newark_Museum_49_Washington_Street_(201)_596-6611_Recommended_ages_:_3_and_up_In_this_intimate_sky_theater_,_designed_by_the_architect_Michael_Graves_,_children_get_to_blow_clouds_onto_the_dome_,_with_technological_assistance_provided_by_the_star_projector_. lc#'_The rc#(201)_596-6611_Recommended"
+    },
+    {
+      "line": 6205,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Newark_Museum Washington_Street_University_Heights source#Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/ORGANIZATION_Street/NNP/ORGANIZATION_University/NNP/ORGANIZATION_Heights/NNP/ORGANIZATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#'_Explore_Korea_'_'_A_Visit_to_Grandfather_'s_House_'_Newark_Museum_49_Washington_Street_University_Heights_(201)_596-6550_Recommended_ages_:_4_to_12_Through_January_1997_Your_grandfather_'s_house_may_have_never_looked_this_calm_or_neat_. lc#' rc#(201)_596-6550_Recommended"
+    },
+    {
+      "line": 6206,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Newark_Museum Washington_Street source#Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/LOCATION_Street/NNP/LOCATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#'_Through_Sisters_'_Eyes_'_'_Children_'s_Books_Illustrated_by_African-American_Women_Artists_'_Newark_Museum_49_Washington_Street_(201)_596-6550_Recommended_ages_:_7_and_up_Through_Feb._28_When_Jan_Spivey_Gilchrist_receives_a_manuscript_,_she_reads_it_several_times_before_deciding_which_medium_--_gouache_,_pencil_or_pastel_--_she_will_use_to_illustrate_the_book_. lc#' rc#(201)_596-6550"
+    },
+    {
+      "line": 6207,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Gallery_Newark_Museum Washington_Street_Newark source#Gallery/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/ORGANIZATION_Street/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#Children_'s_Zoo_and_Gallery_Newark_Museum_49_Washington_Street_Newark_(201)_596-6550_Recommended_ages_:_3_and_up_Housed_inside_unprepossessing_red-brick_buildings_is_the_Newark_Museum_'s_modest_indoor_mini-zoo_and_junior_gallery_created_by_the_architect_Michael_Graves_. lc#and rc#(201)_596-6550"
+    },
+    {
+      "line": 6208,
+      "source": "Newark Museum",
+      "dest": "Washington Street",
+      "depPath": "trigger#-lrb-201-rrb- 596-6550 Art_Workshops_Newark_Museum Washington_Street_Newark source#Art/NNP/ORGANIZATION_Workshops/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION_Museum/NNP/ORGANIZATION dest#Washington/NNP/ORGANIZATION_Street/NNP/ORGANIZATION_Newark/NNP/ORGANIZATION path#nn|<-nn<--lrb-201-rrb- 596-6550->nn->|nn sen#Art_Workshops_Newark_Museum_49_Washington_Street_Newark_(201)_596-6550_Recommended_ages_:_3_to_7_Weekends_through_December_The_Newark_Museum_is_the_classiest_place_in_town_,_not_only_because_its_addition_was_designed_by_Michael_Graves_,_but_also_because_it_has_a_miniature_indoor_zoo_and_a_wing_for_children_'s_exhibitions_. rc#(201)_596-6550_Recommended"
+    },
+    {
+      "line": 6241,
+      "source": "Joyce Theater",
+      "dest": "Eighth Avenue",
+      "depPath": "pobj|<-pobj<-at<-prep<-sunday->appos->|apposâneo_performs_tonight_,_tomorrow_and_Sunday_at_the_Joyce_Theater_,_175_Eighth_Avenue_,_at_19th_Street_,_Chelsea_,_(212)_242-0800_,_joyce.org_. lex#, pos#, lc#at_the rc#,_at"
+    },
+    {
+      "line": 6251,
+      "source": "Sotheby",
+      "dest": "York Avenue",
+      "depPath": "poss|<-poss<-salesroom->nn->|nnó_were_seriously_fought_over_by_multiple_bidders_. lex#'s pos#POS rc#salesroom_in"
+    },
+    {
+      "line": 6609,
+      "source": "Kellogg Brown & Root",
+      "dest": "Halliburton",
+      "depPath": "appos|->appos->subsidiary->nn->|nnériel_Command_,_said_late_yesterday_that_Army_personnel_were_talking_with_representatives_of_Kellogg_Brown_&_Root_,_the_Halliburton_subsidiary_that_is_working_in_Iraq_,_to_resolve_the_billing_dispute_. lex#,_the pos#,_DT lc#representatives_of rc#subsidiary_that"
+    },
+    {
+      "line": 6668,
+      "source": "Euro RSCG Worldwide",
+      "dest": "Havas Advertising",
+      "depPath": "nn|<-nn<-unit->prep->of->pobj->|pobjélécom_in_Paris_consolidated_work_for_its_Orange_mobile_telephone_division_by_awarding_the_assignment_to_BETC_Euro_RSCG_in_Paris_,_part_of_the_Euro_RSCG_Worldwide_unit_of_Havas_Advertising_. lex#unit_of pos#NN_IN lc#of_the rc#."
+    },
+    {
+      "line": 7322,
+      "source": "Caryn James",
+      "dest": "The Times",
+      "depPath": "nsubj|<-nsubj<-write->prep->in->pobj->|pobjés_and_helps_explain_where_they_came_from_,_''_Caryn_James_wrote_in_The_Times_._'' lex#wrote_in pos#VBD_IN lc#,_'' rc#._''"
+    },
+    {
+      "line": 7791,
+      "source": "Ullrich",
+      "dest": "Tour",
+      "depPath": "rcmod|->rcmod->win->dobj->|dobjöden_were_now_resigned_to_fighting_it_out_with_Basso_for_second_place_. lex#,_who_won_the pos#,_WP_VBD_DT rc#in"
+    },
+    {
+      "line": 8118,
+      "source": "Robert C. Janiszewski",
+      "dest": "Hudson County",
+      "depPath": "appos|->appos->executive->nn->|nnávila-Colón_,_a_freeholder_,_who_were_indicted_recently_. lex#,_the_former pos#,_DT_JJ lc#also_taped rc#executive_,"
+    }
+  ],
+  "distinct_observed_triples": 7732,
+  "repeated_triple_extra_rows": 784,
+  "most_repeated_triples": [
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "appos|->appos->chairman->prep->of->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "appos|->appos->leader->prep->of->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "appos|->appos->chairman->nn->|nn"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "appos|->appos->head->prep->of->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "appos|->appos->leader->nn->|nn"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "poss|<-poss<-wing->prep->of->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "poss|<-poss<-faction->prep->of->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "poss|<-poss<-deputy->prep->in->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "appos|->appos->chairman->poss->|poss"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yasir Arafat",
+        "Palestine Liberation Organization",
+        "dobj|<-dobj<-succeed->prep->as->pobj->chairman->prep->of->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yankees",
+        "Red Sox",
+        "nsubj|<-nsubj<-play->dobj->|dobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yankees",
+        "Red Sox",
+        "nsubj|<-nsubj<-beat->dobj->|dobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yankees",
+        "Red Sox",
+        "nsubj|<-nsubj<-lose->prep->to->pobj->|pobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yankees",
+        "Red Sox",
+        "nsubj|<-nsubj<-lead->dobj->|dobj"
+      ],
+      "count": 4
+    },
+    {
+      "triple": [
+        "Yankees",
+        "Red Sox",
+        "nsubj|<-nsubj<-trail->dobj->|dobj"
+      ],
+      "count": 4
+    }
+  ]
+}

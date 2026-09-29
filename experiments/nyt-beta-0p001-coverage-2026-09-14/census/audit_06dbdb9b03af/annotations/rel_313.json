@@ -1,0 +1,310 @@
+{
+  "relation": "rel_313",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_313__ent_1004__ent_836",
+      "judgment": "supported",
+      "reason": "Yankees → World Series: Win/title or actual play/be-in evidence establishes sporting participation in the named competition.",
+      "evidence_lines": [
+        2177,
+        2180,
+        2185,
+        2693,
+        2696,
+        2701
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_7__ent_586",
+      "judgment": "incorrect",
+      "reason": "Democrat → White House: The rows concern political office or control of the White House/House, not participation in a sporting event.",
+      "evidence_lines": [
+        2703,
+        2704,
+        2705,
+        2708,
+        2709,
+        2712
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_600__ent_836",
+      "judgment": "supported",
+      "reason": "Cubs → World Series: Win/title or actual play/be-in evidence establishes sporting participation in the named competition.",
+      "evidence_lines": [
+        2269,
+        2270,
+        7764,
+        7766,
+        7767
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_6__ent_586",
+      "judgment": "incorrect",
+      "reason": "Bill Clinton → White House: The rows concern political office or control of the White House/House, not participation in a sporting event.",
+      "evidence_lines": [
+        2713,
+        2714,
+        2715,
+        2716,
+        2719
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_1004__ent_9",
+      "judgment": "supported",
+      "reason": "Yankees → American League East: Win/title or actual play/be-in evidence establishes sporting participation in the named competition.",
+      "evidence_lines": [
+        2735,
+        2738,
+        2739,
+        2741
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_828__ent_843",
+      "judgment": "incorrect",
+      "reason": "Clinton → New York: The target is a geographic place and these are location or movement statements, not sporting-event participation.",
+      "evidence_lines": [
+        4681,
+        4683,
+        4685,
+        4688
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_321__ent_836",
+      "judgment": "supported",
+      "reason": "Mets → World Series: Win/title or actual play/be-in evidence establishes sporting participation in the named competition.",
+      "evidence_lines": [
+        2215,
+        3469,
+        3477
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_609__ent_836",
+      "judgment": "supported",
+      "reason": "Marlins → World Series: Win/title or actual play/be-in evidence establishes sporting participation in the named competition.",
+      "evidence_lines": [
+        2257,
+        2263,
+        2264
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_5__ent_814",
+      "judgment": "incorrect",
+      "reason": "Germany → NATO: NATO membership is not participation in a sporting event.",
+      "evidence_lines": [
+        2727,
+        2729,
+        2730
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_493__ent_250",
+      "judgment": "incorrect",
+      "reason": "God → heaven: Theological presence in heaven does not identify a sporting participant or competition.",
+      "evidence_lines": [
+        2753,
+        2754,
+        2761
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_816__ent_586",
+      "judgment": "incorrect",
+      "reason": "Republicans → White House: The rows concern political office or control of the White House/House, not participation in a sporting event.",
+      "evidence_lines": [
+        2776,
+        2781,
+        2782
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_819__ent_586",
+      "judgment": "incorrect",
+      "reason": "Democrats → White House: The rows concern political office or control of the White House/House, not participation in a sporting event.",
+      "evidence_lines": [
+        6426,
+        6433,
+        6434
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_8__ent_333",
+      "judgment": "incorrect",
+      "reason": "Addresses → Manhattan: The target is a geographic place and these are location or movement statements, not sporting-event participation.",
+      "evidence_lines": [
+        2691,
+        2692
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_251__ent_586",
+      "judgment": "incorrect",
+      "reason": "John F. Kennedy → White House: The rows concern political office or control of the White House/House, not participation in a sporting event.",
+      "evidence_lines": [
+        2743,
+        2746
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_827__ent_843",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → New York: The target is a geographic place and these are location or movement statements, not sporting-event participation.",
+      "evidence_lines": [
+        4712,
+        4716
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_819__ent_811",
+      "judgment": "incorrect",
+      "reason": "Democrats → House: The rows concern political office or control of the White House/House, not participation in a sporting event.",
+      "evidence_lines": [
+        6365,
+        6366
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:46.315Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "eb8dea110e63431f27e5c9f5015d1e53dd8e3eba8138fcbae920af2be4358939"
+}

@@ -1,0 +1,868 @@
+{
+  "relation": "rel_196",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_196.json",
+    "source_sha256": "e5e194002c1d896be095256353b93bdabccbffc8b2189ebb9c8d486091f4c31a",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_196__ent_1000__ent_304",
+      "judgment": "supported",
+      "reason": "Wal-Mart → Bentonville: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        808,
+        809,
+        810,
+        811,
+        813,
+        815,
+        816,
+        817,
+        4355,
+        4356,
+        4357,
+        4359,
+        4361,
+        4362,
+        4363
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.889Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_545__ent_787",
+      "judgment": "supported",
+      "reason": "Intel → Santa Clara: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        768,
+        769,
+        770,
+        772,
+        773,
+        775,
+        776,
+        4318,
+        4319,
+        4320,
+        4322,
+        4323,
+        4325,
+        4326
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_547__ent_789",
+      "judgment": "supported",
+      "reason": "I.B.M. → Armonk: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        807,
+        4394,
+        4395,
+        4396,
+        4397,
+        4398,
+        4399,
+        4403
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_196.json",
+        "annotation_sha256": "e5e194002c1d896be095256353b93bdabccbffc8b2189ebb9c8d486091f4c31a"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_548__ent_1003",
+      "judgment": "supported",
+      "reason": "Johnson & Johnson → New Brunswick: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        851,
+        852,
+        853,
+        854,
+        858,
+        860,
+        4384,
+        4385,
+        4386,
+        4387,
+        4391,
+        4393
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1273__ent_1283",
+      "judgment": "supported",
+      "reason": "Apple → Cupertino: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        789,
+        793,
+        794,
+        795,
+        796,
+        4345,
+        4346,
+        4348,
+        4349,
+        4350,
+        4352
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1001__ent_307",
+      "judgment": "supported",
+      "reason": "Hewlett-Packard → Palo Alto: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_549__ent_1002",
+      "judgment": "supported",
+      "reason": "MCI → Washington: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_896__ent_415",
+      "judgment": "supported",
+      "reason": "Monsanto → St. Louis: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        4374,
+        4375,
+        4376,
+        4377,
+        4378,
+        4379,
+        4380,
+        4381,
+        4382,
+        4383
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_464__ent_221",
+      "judgment": "supported",
+      "reason": "International Data Corporation → Framingham: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5816,
+        5819,
+        5820,
+        5821,
+        7147,
+        7149,
+        7150,
+        7153,
+        7154,
+        7155
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_617__ent_654",
+      "judgment": "supported",
+      "reason": "Qwest → Denver: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        4364,
+        4365,
+        4366,
+        4367,
+        4368,
+        4369,
+        4370,
+        4372,
+        4373
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_196.json",
+        "annotation_sha256": "e5e194002c1d896be095256353b93bdabccbffc8b2189ebb9c8d486091f4c31a"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_461__ent_222",
+      "judgment": "supported",
+      "reason": "Dataquest → San Jose: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5803,
+        5808,
+        5809,
+        5811,
+        5812,
+        7103,
+        7104,
+        7105,
+        7106
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1285__ent_1205",
+      "judgment": "supported",
+      "reason": "Morningstar Inc. → Chicago: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5748,
+        5749,
+        5752,
+        7107,
+        7110,
+        7112,
+        7114,
+        7116
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_196.json",
+        "annotation_sha256": "e5e194002c1d896be095256353b93bdabccbffc8b2189ebb9c8d486091f4c31a"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1418__ent_544",
+      "judgment": "supported",
+      "reason": "Microsoft → Redmond: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        780,
+        786,
+        4334,
+        4339,
+        4341,
+        4342,
+        4343
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_943__ent_1088",
+      "judgment": "supported",
+      "reason": "Forrester Research → Cambridge: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        7127,
+        7129,
+        7130,
+        7132,
+        7134,
+        7135,
+        7136
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_546__ent_788",
+      "judgment": "supported",
+      "reason": "Motorola → Schaumburg: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        818,
+        819,
+        824,
+        4308,
+        4309,
+        4314
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_893__ent_897",
+      "judgment": "supported",
+      "reason": "Guidant → Indianapolis: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        4328,
+        4329,
+        4330,
+        4331,
+        4332,
+        4333
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1206__ent_544",
+      "judgment": "supported",
+      "reason": "Microsoft → Redmond: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        778,
+        779,
+        782,
+        785,
+        4337
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_220__ent_407",
+      "judgment": "supported",
+      "reason": "Morningstar → Chicago: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5783,
+        5785,
+        5789,
+        5790,
+        5792
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_462__ent_1141",
+      "judgment": "supported",
+      "reason": "Mcorp → Texas: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5794,
+        5797,
+        5798,
+        5799,
+        5800
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_224__ent_466",
+      "judgment": "supported",
+      "reason": "Soundscan → Hartsdale: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5833,
+        5834,
+        5836,
+        5838,
+        5840
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_942__ent_1362",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications → Internet: Internet describes the business medium or industry, not a geographic location.",
+      "evidence_lines": [
+        7383,
+        7385,
+        7387,
+        7388,
+        7390
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_942__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications → Internet: Internet describes the business medium or industry, not a geographic location.",
+      "evidence_lines": [
+        7384,
+        7386,
+        7389,
+        7391,
+        7392
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_583__ent_340",
+      "judgment": "incorrect",
+      "reason": "Richard M. Scrushy → HealthSouth: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        1262,
+        1266,
+        1267,
+        1269
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1350__ent_930",
+      "judgment": "incorrect",
+      "reason": "Senate → Donald T. DiFrancesco: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        6776,
+        6778,
+        6780,
+        6782
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_874__ent_1401",
+      "judgment": "supported",
+      "reason": "Real Capital Analytics → New York: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        6866,
+        6867,
+        6869,
+        6871
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_700__ent_1401",
+      "judgment": "supported",
+      "reason": "Pearl Meyer & Partners → New York: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        7157,
+        7159,
+        7161,
+        7162
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_942__ent_843",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → New York: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        7169,
+        7170,
+        7172,
+        7173
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_302__ent_544",
+      "judgment": "supported",
+      "reason": "Microsoft → Redmond: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        783,
+        784,
+        4335
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_306__ent_1283",
+      "judgment": "supported",
+      "reason": "Semiconductor Industry Association → Cupertino: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        848,
+        849
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_196.json",
+        "annotation_sha256": "e5e194002c1d896be095256353b93bdabccbffc8b2189ebb9c8d486091f4c31a"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1358__ent_1092",
+      "judgment": "supported",
+      "reason": "Microsoft → Redmond: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        4336,
+        4338
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_313__ent_339",
+      "judgment": "incorrect",
+      "reason": "Mr. Keene → Berkeley: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        991
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1057__ent_453",
+      "judgment": "incorrect",
+      "reason": "Viren Mehta → Mehta & Isaly: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        1789
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1431__ent_537",
+      "judgment": "incorrect",
+      "reason": "Cubans → United States: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        4722
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1406__ent_419",
+      "judgment": "supported",
+      "reason": "International Data Corporation → Framingham: Explicit headquarters, base, campus or company/firm-in-place evidence establishes the organization’s geographic location.",
+      "evidence_lines": [
+        5817
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_196.json",
+        "annotation_sha256": "e5e194002c1d896be095256353b93bdabccbffc8b2189ebb9c8d486091f4c31a"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1174__ent_102",
+      "judgment": "incorrect",
+      "reason": "Mel Stottlemyre → Yankees: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        6460
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_980__ent_325",
+      "judgment": "incorrect",
+      "reason": "Christopher Lehmann-Haupt → The Times: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        7312
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1053__ent_145",
+      "judgment": "incorrect",
+      "reason": "Alan Keyes → State Department: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        7456
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    },
+    {
+      "case_id": "rel_196__ent_1271__ent_965",
+      "judgment": "incorrect",
+      "reason": "George Stephanopoulos → White House: The rows establish a person’s role, birthplace, travel or institutional association rather than organizational geographic location.",
+      "evidence_lines": [
+        8450
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:39.890Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "relation": "rel_20",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_20__ent_389__ent_146",
+      "judgment": "ambiguous",
+      "reason": "Stanley Hill → District Council: Directorship is explicit but the specific District Council is not fully identified.",
+      "evidence_lines": [
+        170,
+        173,
+        175,
+        176,
+        178
+      ],
+      "issue_tags": [
+        "incomplete_argument"
+      ],
+      "reviewer_question": "Which complete District Council is Stanley Hill director of?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.098Z"
+      }
+    },
+    {
+      "case_id": "rel_20__ent_773__ent_523",
+      "judgment": "supported",
+      "reason": "Donald Ratajczak → Georgia State University: Explicit director-of or director title establishes the institutional directorship.",
+      "evidence_lines": [
+        537,
+        539,
+        540
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.098Z"
+      }
+    },
+    {
+      "case_id": "rel_20__ent_916__ent_586",
+      "judgment": "incorrect",
+      "reason": "Dan Bartlett → White House: Counselor, speaking-at and the word direction do not supply the specific director title.",
+      "evidence_lines": [
+        8434,
+        8435,
+        8441
+      ],
+      "issue_tags": [
+        "wrong_occupation"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.098Z"
+      }
+    },
+    {
+      "case_id": "rel_20__ent_914__ent_586",
+      "judgment": "supported",
+      "reason": "Douglas Sosnik → White House: Explicit director-of or director title establishes the institutional directorship.",
+      "evidence_lines": [
+        8507,
+        8508,
+        8512
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:02.098Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a674a6afd5cdcb9e63fdf9209fd19b7c8cf4496a4e17842bec4a9dfa4c8e603c"
+}

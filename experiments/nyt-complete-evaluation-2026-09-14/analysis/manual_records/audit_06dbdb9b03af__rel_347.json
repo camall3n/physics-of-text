@@ -1,0 +1,74 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_347",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_347__ent_1147__ent_209",
+        "rel_347__ent_539__ent_713",
+        "rel_347__ent_461__ent_222",
+        "rel_347__ent_942__ent_843",
+        "rel_347__ent_464__ent_221",
+        "rel_347__ent_300__ent_843",
+        "rel_347__ent_955__ent_1002",
+        "rel_347__ent_220__ent_407",
+        "rel_347__ent_714__ent_1002",
+        "rel_347__ent_655__ent_897",
+        "rel_347__ent_1082__ent_843"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit company/firm-in or based-in evidence establishes an organizational location in the named place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_347__ent_1089__ent_953"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wall Street can denote a financial industry affiliation rather than a literal location; firm/house modifiers and tracking evidence do not resolve this.",
+      "tags": [
+        "attachment",
+        "entity_identity"
+      ],
+      "question": "Does Wall Street denote an actual office location here rather than the financial sector?"
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_347__ent_293__ent_10"
+      ],
+      "judgment": "ambiguous",
+      "reason": "German is an adjectival national description, and the based-in path has an incomplete or malformed place argument.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Should German be resolved to Germany as the actual location in the original sentence?"
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

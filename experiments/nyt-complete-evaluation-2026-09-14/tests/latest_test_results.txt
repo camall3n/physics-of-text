@@ -1,0 +1,40 @@
+✔ complete population, ordered IDs, repetitions and numeric relation ties (1.866916ms)
+✔ top-20 exact cutoff rejects relation 21, numeric ties and self-pairs retained (0.355041ms)
+✔ regression: a relation retains all 17 facts, including beyond the old five-case cap (0.234375ms)
+✔ all facts are blank absent exact prior judgments (4.64375ms)
+✔ prior transfer requires exact source plus full evidence and stays provisional (8.149833ms)
+✔ reject unrelated prior source despite identical numeric IDs (7.2895ms)
+✔ re-preparation preserves edited annotations and human overrides exactly (5.876333ms)
+✔ exact census denominator and ambiguity arithmetic, no sample statistics (6.141792ms)
+✔ missing judgment rejected even though most facts complete (4.544708ms)
+✔ missing case rejected (5.044833ms)
+✔ duplicate case rejected (5.617917ms)
+✔ foreign case rejected (4.079542ms)
+✔ foreign evidence line rejected (4.07475ms)
+✔ duplicate citation rejected (4.532625ms)
+✔ ambiguous case needs question (4.861333ms)
+✔ undefined predicate and catalogue ID rejected (4.902792ms)
+✔ unconfirmed inherited label rejected (7.068ms)
+✔ modified source snapshot rejected (4.2075ms)
+✔ modified original source rejected (3.884292ms)
+✔ changed cases file rejected (4.052708ms)
+✔ independent reparse catches missing fact even if cases hash updated (5.923125ms)
+✔ human override changes exact count and preserves primary provenance (5.932167ms)
+✔ duplicate foreign and invalid human overrides rejected (4.36575ms)
+✔ changed prior snapshot rejected (6.396042ms)
+✔ final report refuses incomplete census without writing final files (4.148125ms)
+✔ prior comparison retains stratified population weights, not raw 100-case proportions (2.166917ms)
+✔ same-case revision and population expansion telescope for both ambiguity endpoints (0.27475ms)
+✔ old complete census includes all selected cases and has no expansion effect (0.25475ms)
+✔ nonblank previous human override is compared while original annotation remains visible (0.209584ms)
+✔ prior comparison rejects source and full evidence mismatches, duplicate labels and undefined prior scope (1.49375ms)
+✔ declaration wording change is recorded without automatically causing a label change (0.129958ms)
+✔ prior comparison never silently drops an old selected case or accepts a foreign one (0.221875ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 183.267917

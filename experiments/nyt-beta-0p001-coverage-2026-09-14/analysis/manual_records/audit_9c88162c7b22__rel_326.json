@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_326",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_326__ent_1151__ent_215"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Replacement and substitution are clear but the actual role and whether the succession concerns candidacy or an office already held are not supplied.",
+      "tags": [
+        "role_tenure_ambiguity"
+      ],
+      "question": "Did Lautenberg replace Torricelli as a candidate, as an officeholder, or in another role, and had that role begun?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_326__ent_447__ent_0"
+      ],
+      "judgment": "incorrect",
+      "reason": "Federal Reserve is the institution where a chair role is taken, not a predecessor person.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_326__ent_1002__ent_183"
+      ],
+      "judgment": "incorrect",
+      "reason": "Washington dateline/institutional negotiation fragments do not identify two people in succession.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "28725519a38152190e09fa0818953086664a7831d825b4180bace6bbd933e057"
+}

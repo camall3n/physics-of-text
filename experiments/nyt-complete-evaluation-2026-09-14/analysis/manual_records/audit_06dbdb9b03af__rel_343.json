@@ -1,0 +1,120 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_343",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20
+      ],
+      "case_ids": [
+        "rel_343__ent_309__ent_1004",
+        "rel_343__ent_308__ent_543",
+        "rel_343__ent_1004__ent_309",
+        "rel_343__ent_1004__ent_321",
+        "rel_343__ent_321__ent_1004",
+        "rel_343__ent_543__ent_308",
+        "rel_343__ent_347__ent_110",
+        "rel_343__ent_321__ent_1013",
+        "rel_343__ent_563__ent_561",
+        "rel_343__ent_1016__ent_557",
+        "rel_343__ent_470__ent_1004",
+        "rel_343__ent_321__ent_278",
+        "rel_343__ent_321__ent_1084",
+        "rel_343__ent_317__ent_1012",
+        "rel_343__ent_1015__ent_557",
+        "rel_343__ent_319__ent_1012",
+        "rel_343__ent_1013__ent_557",
+        "rel_343__ent_559__ent_557",
+        "rel_343__ent_182__ent_316"
+      ],
+      "judgment": "supported",
+      "reason": "The supplied evidence includes an explicit beat, defeat, sweep, or victory over the ordered opponent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_343__ent_561__ent_563"
+      ],
+      "judgment": "incorrect",
+      "reason": "Loss, facing, an opener and transfer evidence do not establish Giants defeating Eagles in this fact.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_343__ent_1159__ent_471"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The victory/defeat paths identify the competitors only as East and West.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which teams or bodies do East and West refer to?"
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_343__ent_1004__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York is not a resolved opponent name in the Yankee defeat/scout rows.",
+      "tags": [
+        "argument_scope"
+      ],
+      "question": "Which opposing team does New York designate in this fact?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    20
+  ],
+  "broad": []
+}

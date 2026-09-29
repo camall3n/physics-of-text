@@ -1,0 +1,43 @@
+{
+  "relation": "rel_66",
+  "predicate_id": "outnumbers",
+  "predicate_version": 1,
+  "predicate_hash": "ea2ba4bd1533d535eed4d82633648821a63d589288bec539c28a6618154f3c36",
+  "predicate": {
+    "id": "outnumbers",
+    "label": "outnumbers",
+    "definition": "Group X has a larger number of members or counted units than group Y in an explicitly stated context.",
+    "includes": [
+      "explicit outnumber relation",
+      "a stated numerical comparison establishing a larger count",
+      "historical counts in a particular population"
+    ],
+    "excludes": [
+      "electoral victory or political control without numerical comparison",
+      "generic superiority or strength",
+      "score or performance comparison not counting group members"
+    ],
+    "ambiguous": [
+      "unclear counted population or ordered groups",
+      "a truncated comparison that omits what is counted"
+    ],
+    "notes": "This concerns a stated population and time; it does not imply universal or permanent numerical superiority.",
+    "scope_notes": "Includes: explicit outnumber relation; a stated numerical comparison establishing a larger count; historical counts in a particular population. Excludes: electoral victory or political control without numerical comparison; generic superiority or strength; score or performance comparison not counting group members. Ambiguous unless resolved by case-local evidence: unclear counted population or ordered groups; a truncated comparison that omits what is counted. This concerns a stated population and time; it does not imply universal or permanent numerical superiority."
+  },
+  "dictionary_sha256": "ed91d1650577e36d3b893214216b83813ec9ecd0341c6bbb06e193051a5e612e",
+  "kind": "declared_before_case_grading",
+  "rationale": "More-than3 plus registration3 identifies count comparison in political population context; founder/editor/referral distinct.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:23:23.222Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_66.before_grading.json",
+  "pregrading_annotation_sha256": "cf9f1735dbcd6f3bcd3b7776fcd947017a5185bba4e7284a85ab4c6de8c7fd11"
+}

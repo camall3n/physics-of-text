@@ -1,0 +1,52 @@
+{
+  "relation": "rel_2",
+  "predicate_id": "participated_in_sporting_event",
+  "predicate_version": 1,
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate": {
+    "id": "participated_in_sporting_event",
+    "label": "participated in sporting event",
+    "definition": "Competitor or team X participated in sporting event or competition Y.",
+    "includes": [
+      "actual played-in, competed-in, or appeared-in a sporting event",
+      "being in an event when competitive participation is clear",
+      "a completed win or title in the event, which entails participation"
+    ],
+    "excludes": [
+      "plans, hopes, or qualification without established participation",
+      "attendance as spectator",
+      "membership in a league without participation in the designated event",
+      "non-sporting events or geographic presence alone"
+    ],
+    "ambiguous": [
+      "future or proposed participation",
+      "event occurrence or participant role unclear",
+      "a governing body or location substituted for an unresolved event"
+    ],
+    "notes": "Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+    "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared."
+  },
+  "dictionary_sha256": "8bbf1e9b6fb8850ebaeb57da2e81a8725b453b8c491e562647ae871db1ed44c7",
+  "kind": "declared_before_case_grading",
+  "rationale": "Sporting-event participation is the coherent family shared by wins and losses; event qualification or warm-up alone retains uncertainty.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.329Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    12
+  ],
+  "competing_meanings": [
+    "political leader",
+    "military conflict"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_2.before_grading.json",
+  "pregrading_annotation_sha256": "573eb2c3d4c949957caf5131ede9a24bc0faed60d40434d3295fe81e7473f14a"
+}

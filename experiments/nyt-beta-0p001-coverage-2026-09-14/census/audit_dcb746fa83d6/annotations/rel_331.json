@@ -1,0 +1,70 @@
+{
+  "relation": "rel_331",
+  "predicate_id": "reviews_artistic_output_of",
+  "label": "reviewed artistic output of",
+  "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+  "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+  "facts": [
+    {
+      "case_id": "rel_331__ent_1096__ent_718",
+      "judgment": "incorrect",
+      "reason": "Joe Paterno → Penn State: Sports coaching or calling up from an affiliate is not reviewing artistic output.",
+      "evidence_lines": [
+        7264,
+        7267,
+        7270,
+        7271,
+        7272
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.466Z"
+      }
+    },
+    {
+      "case_id": "rel_331__ent_800__ent_801",
+      "judgment": "supported",
+      "reason": "Jack Anderson → Dance Theater: The local review of a program by Dance Theater identifies the producing ensemble, independently of weaker venue-at review paths.",
+      "evidence_lines": [
+        1881,
+        1883,
+        1885,
+        1886
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.466Z"
+      }
+    },
+    {
+      "case_id": "rel_331__ent_409__ent_735",
+      "judgment": "incorrect",
+      "reason": "Yankees → Class AAA Columbus: Sports coaching or calling up from an affiliate is not reviewing artistic output.",
+      "evidence_lines": [
+        7919,
+        7921
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:53.466Z"
+      }
+    }
+  ],
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "803ffbc7cc1c4e8aea5ff315e7b3fdf89a40919e7aa9a622d04183258c1926d8"
+}

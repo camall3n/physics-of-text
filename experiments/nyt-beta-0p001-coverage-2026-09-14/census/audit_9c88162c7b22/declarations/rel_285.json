@@ -1,0 +1,45 @@
+{
+  "relation": "rel_285",
+  "predicate_id": "departed_from",
+  "predicate_version": 1,
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate": {
+    "id": "departed_from",
+    "label": "departed from",
+    "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+    "includes": [
+      "leave/withdraw/pull out from Y",
+      "historical physical departure"
+    ],
+    "excludes": [
+      "arrival/return to Y",
+      "residence alone",
+      "leaving a job or team as an institution without geography"
+    ],
+    "ambiguous": [
+      "place versus institution as source",
+      "explicitly conditional departure"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+  },
+  "dictionary_sha256": "0db8fed26a52e8778cbc0cbdc067ed0f99d0ef0c669d81d840d20c4d0f532ac2",
+  "kind": "declared_before_case_grading",
+  "rationale": "Leave/emigrate/influx-from forms the largest movement-origin family, ahead of coaching. White House/employer departure may be figurative; no automatic physical movement or tenure inference.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.068Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    5,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_285.before_grading.json",
+  "pregrading_annotation_sha256": "f2b418aa8074990b37bf94e558305a734e978e34911aa3ec8aede5ca8063108a"
+}

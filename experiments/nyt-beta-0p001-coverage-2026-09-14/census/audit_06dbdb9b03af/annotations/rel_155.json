@@ -1,0 +1,69 @@
+{
+  "relation": "rel_155",
+  "predicate_id": "has_medical_condition",
+  "label": "has or had medical condition",
+  "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+  "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+  "facts": [
+    {
+      "case_id": "rel_155__ent_669__ent_202",
+      "judgment": "supported",
+      "reason": "Americans → diabetes: Explicit suffer-from/have and population-with-condition paths identify affected Americans with diabetes.",
+      "evidence_lines": [
+        4874,
+        4875,
+        4877,
+        4879,
+        4880
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.845Z"
+      }
+    },
+    {
+      "case_id": "rel_155__ent_1197__ent_930",
+      "judgment": "incorrect",
+      "reason": "Senate → Donald T. DiFrancesco: Legislative presidency or advertising-office affiliation is not medical condition.",
+      "evidence_lines": [
+        6777,
+        6778,
+        6780,
+        6782
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.845Z"
+      }
+    },
+    {
+      "case_id": "rel_155__ent_660__ent_623",
+      "judgment": "incorrect",
+      "reason": "San Francisco → Foote: Legislative presidency or advertising-office affiliation is not medical condition.",
+      "evidence_lines": [
+        4142,
+        4146,
+        4150
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:46.845Z"
+      }
+    }
+  ],
+  "predicate_hash": "00002d0be7de1b31e15236178a628d6020ff5861a758e2c750383ed1801ab3f8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c8b61395a5dfb6fbf0ff4264bd53c0bab12cf592bb2d52285a51a4ae15532919"
+}

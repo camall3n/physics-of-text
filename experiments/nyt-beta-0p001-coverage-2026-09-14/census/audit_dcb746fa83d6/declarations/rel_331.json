@@ -1,0 +1,41 @@
+{
+  "relation": "rel_331",
+  "predicate_id": "reviews_artistic_output_of",
+  "predicate_version": 1,
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate": {
+    "id": "reviews_artistic_output_of",
+    "label": "reviewed artistic output of",
+    "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+    "includes": [
+      "review of Y's performance, program, production, or artistic work",
+      "direct review of artist or ensemble Y in an artistic criticism context",
+      "historical reviews"
+    ],
+    "excludes": [
+      "a review merely taking place at venue Y",
+      "ordinary mention, attendance, or affiliation",
+      "an unrelated subject reviewed at a place owned by Y",
+      "authorship for a publication without reviewing Y's work"
+    ],
+    "ambiguous": [
+      "Y could denote the venue rather than the producer or performer",
+      "unclear reviewer or artistic-work attachment"
+    ],
+    "notes": "Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+    "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator."
+  },
+  "dictionary_sha256": "8b9b23fefb68d9dcfcf9ab9afe2a9cc83d5709b9352e0dee3166322026cbdb43",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit artistic review family4 dominates clear coaching/leading-football titles2; generic possessive team paths do not resolve coach versus athlete roles. Mixed sports evidence remains excluded.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:37:09.386Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_331.before_grading.json",
+  "pregrading_annotation_sha256": "f6aaf17de56787a6df16176fd1e7c62ef91023da5dfc072115b4f800033c9670"
+}

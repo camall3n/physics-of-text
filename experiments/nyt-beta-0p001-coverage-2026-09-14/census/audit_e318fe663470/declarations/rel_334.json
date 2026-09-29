@@ -1,0 +1,38 @@
+{
+  "relation": "rel_334",
+  "predicate_id": "professor_at",
+  "predicate_version": 1,
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate": {
+    "id": "professor_at",
+    "label": "professor or university teacher at",
+    "definition": "Person X is a professor or teaches at academic institution Y.",
+    "includes": [
+      "explicit professor",
+      "teaching at the institution",
+      "historical teaching affiliation"
+    ],
+    "excludes": [
+      "expert/specialist/dean/researcher/analyst alone",
+      "attendance or institution location alone"
+    ],
+    "ambiguous": [
+      "unclear teacher versus student attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+  },
+  "dictionary_sha256": "d176c22e2baa00a5c2ff85e7e7546cdb588b2f06b58a3da240f69a294bb539c2",
+  "kind": "declared_before_case_grading",
+  "rationale": "Professor and teach-at form the dominant identifiable profession; expert, specialist, scientist and scholar alone retain their ordinary boundary.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.917Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_334.before_grading.json",
+  "pregrading_annotation_sha256": "b1b04ed8b57b82c9aacc6dcdf505f7ad6cb9927d61c6ce3e682bd061ac0e27d7"
+}

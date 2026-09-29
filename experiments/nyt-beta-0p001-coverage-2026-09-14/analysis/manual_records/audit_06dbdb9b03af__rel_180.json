@@ -1,0 +1,42 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_180",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_180__ent_1044__ent_106"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director-for Homeless omits the named charity or institution and may substitute its beneficiary/topic.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which organization does Homeless denote in the director title?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_180__ent_784__ent_534"
+      ],
+      "judgment": "incorrect",
+      "reason": "Financial firm-name fragments with partner/president/index wording do not establish a person directorship.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e4cfe0ce86f10ca0a83fa5c6f1fb954dc989faecee280293c7d86d02d12fd33c"
+}

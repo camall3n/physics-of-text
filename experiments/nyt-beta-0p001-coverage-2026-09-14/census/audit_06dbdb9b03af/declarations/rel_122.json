@@ -1,0 +1,48 @@
+{
+  "relation": "rel_122",
+  "predicate_id": "managerial_office_in",
+  "predicate_version": 1,
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate": {
+    "id": "managerial_office_in",
+    "label": "managerial or leadership office in",
+    "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+    "includes": [
+      "head/president/chair/director/chief/commander/executive/manager",
+      "equivalent explicit management such as dean or commissioner",
+      "a functional or departmental leadership office within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "founder or owner alone",
+      "ordinary employment/membership",
+      "spokesperson/adviser/lawyer/analyst/editor alone",
+      "athletic or standings lead",
+      "candidacy or nomination alone"
+    ],
+    "ambiguous": [
+      "personal principal standing for an omitted campaign or institution",
+      "unclear leadership attachment"
+    ],
+    "notes": "This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+    "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone."
+  },
+  "dictionary_sha256": "c7dfed1592e234cc675679d20ffc965fa7f635303a60bd48e66ae2dbd9c8f741",
+  "kind": "declared_before_case_grading",
+  "rationale": "Genuinely mixed dean/director titles dominate over teaching and specialist roles.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:28:24.963Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_122.before_grading.json",
+  "pregrading_annotation_sha256": "7c7893cdf72583377e0a1239713542075bc11dddb17e7d5b5771880272060233"
+}

@@ -1,0 +1,72 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_24",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "case_ids": [
+        "rel_24__ent_350__ent_592",
+        "rel_24__ent_351__ent_1004",
+        "rel_24__ent_1359__ent_110",
+        "rel_24__ent_101__ent_881",
+        "rel_24__ent_567__ent_1238"
+      ],
+      "judgment": "supported",
+      "reason": "A local owner/own/acquisition row explicitly establishes an ownership interest.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_24__ent_506__ent_429"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Owner-of terminates at Los Angeles, leaving the actual team/property asset omitted.",
+      "tags": [
+        "missing_argument"
+      ],
+      "question": "What asset does Los Angeles stand for in this ownership construction?"
+    },
+    {
+      "indices": [
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "case_ids": [
+        "rel_24__ent_1314__ent_336",
+        "rel_24__ent_586__ent_1030",
+        "rel_24__ent_1285__ent_1205",
+        "rel_24__ent_1412__ent_905",
+        "rel_24__ent_220__ent_407"
+      ],
+      "judgment": "incorrect",
+      "reason": "Spokesperson, research-location or international export rows do not establish ownership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "962b5a0e100c857b5f17dad87cf8330e2bfc6eef7c3e92f2559d15e6e72c8ab0"
+}

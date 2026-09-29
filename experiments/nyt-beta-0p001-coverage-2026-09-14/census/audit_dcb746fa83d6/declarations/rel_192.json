@@ -1,0 +1,43 @@
+{
+  "relation": "rel_192",
+  "predicate_id": "ethicist_at",
+  "predicate_version": 1,
+  "predicate_hash": "84c10673409a190f3db9376caa33dd2ca343170f407f70f3da704db9a78a2c3c",
+  "predicate": {
+    "id": "ethicist_at",
+    "label": "ethicist at institution",
+    "definition": "Person X works or worked as an explicitly identified ethicist or bioethicist affiliated with institution Y.",
+    "includes": [
+      "explicit ethicist or bioethicist at/for/of institutional role",
+      "historical ethics professional affiliation"
+    ],
+    "excludes": [
+      "director, professor, fellow or other office without an ethics role",
+      "generic discussion of ethics",
+      "being an ethical person rather than a professional ethicist"
+    ],
+    "ambiguous": [
+      "unclear role or institutional attachment",
+      "a specialty subject replacing the employing or affiliated institution"
+    ],
+    "notes": "Bioethics is a specific field within professional ethics. The relation does not evaluate the truth of ethical claims or infer an ethicist title from another academic office.",
+    "scope_notes": "Includes: explicit ethicist or bioethicist at/for/of institutional role; historical ethics professional affiliation. Excludes: director, professor, fellow or other office without an ethics role; generic discussion of ethics; being an ethical person rather than a professional ethicist. Ambiguous unless resolved by case-local evidence: unclear role or institutional attachment; a specialty subject replacing the employing or affiliated institution. Bioethics is a specific field within professional ethics. The relation does not evaluate the truth of ethical claims or infer an ethicist title from another academic office."
+  },
+  "dictionary_sha256": "07c9b9305cc13efc742465b5d166a36b76162637791822b51f39d9146702e5bb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Five explicit ethicist/bioethicist rows tie five director-role paths; the two-count specific ethicist paths resolve the tie over singleton director paths. No union with all academic jobs.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:30:04.177Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_192.before_grading.json",
+  "pregrading_annotation_sha256": "3c94ccc625cd94cf952db961b7990f73765de2040ca54940a2c2118a985d0f82"
+}

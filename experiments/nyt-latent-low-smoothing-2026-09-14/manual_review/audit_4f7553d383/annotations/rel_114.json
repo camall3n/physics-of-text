@@ -1,0 +1,74 @@
+{
+  "relation": "rel_114",
+  "label": "defeated opponent",
+  "definition": "The first competitor won a contest against the second competitor.",
+  "scope_notes": "Defeat/victory/sweep form the dominant winning family when grouped; lose-to is the strongest individual competing path and has the opposite direction. Mere participation or a margin/lead without an established victory is excluded. Wins and losses in different historical contests may coexist; one explicit win suffices.",
+  "facts": [
+    {
+      "case_id": "rel_114__ent_561__ent_1038",
+      "judgment": "supported",
+      "reason": "The Giants have an explicit victory over the Dallas Cowboys. The separate lose-to row is opposite-direction evidence but need not describe the same event.",
+      "evidence_lines": [
+        2673,
+        2676
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_114__ent_1411__ent_1284",
+      "judgment": "supported",
+      "reason": "The Giants' victory over the Jets directly supplies the declared direction.",
+      "evidence_lines": [
+        2624
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_114__ent_888__ent_333",
+      "judgment": "incorrect",
+      "reason": "The supplied rows say John plays Manhattan and loses to Manhattan; neither establishes a John victory.",
+      "evidence_lines": [
+        3967,
+        3970
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_114__ent_564__ent_316",
+      "judgment": "incorrect",
+      "reason": "A margin over Gore alone is not a completed victory, and the other row explicitly says Bush loses to Gore. No supplied row establishes the declared winning fact.",
+      "evidence_lines": [
+        3089,
+        3093
+      ],
+      "issue_tags": [
+        "wrong_direction",
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_114__ent_543__ent_308",
+      "judgment": "supported",
+      "reason": "The Nets explicitly defeat and rout the Knicks. Play and lose rows are mixed event evidence, not grounds to discard the direct win support.",
+      "evidence_lines": [
+        942,
+        945,
+        946,
+        948
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

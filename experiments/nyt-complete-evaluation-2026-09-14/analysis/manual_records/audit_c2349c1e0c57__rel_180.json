@@ -1,0 +1,115 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_180",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21
+      ],
+      "case_ids": [
+        "rel_180__ent_1033__ent_1004",
+        "rel_180__ent_339__ent_1036",
+        "rel_180__ent_1037__ent_1038",
+        "rel_180__ent_350__ent_592",
+        "rel_180__ent_351__ent_1004",
+        "rel_180__ent_1153__ent_1144",
+        "rel_180__ent_101__ent_881",
+        "rel_180__ent_217__ent_554",
+        "rel_180__ent_393__ent_625",
+        "rel_180__ent_628__ent_867",
+        "rel_180__ent_459__ent_1154",
+        "rel_180__ent_216__ent_867",
+        "rel_180__ent_1153__ent_458",
+        "rel_180__ent_1155__ent_219",
+        "rel_180__ent_591__ent_110",
+        "rel_180__ent_352__ent_594",
+        "rel_180__ent_151__ent_625",
+        "rel_180__ent_1034__ent_1035",
+        "rel_180__ent_593__ent_112"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit ownership, co-ownership or corporate parenthood supports this fact; historical and partial holdings qualify.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_180__ent_684__ent_429"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Owner-of Los Angeles likely abbreviates an unnamed team; city movement and ownership readings are intermixed.",
+      "tags": [
+        "place_metonymy",
+        "attachment"
+      ],
+      "question": "Which team or asset does Los Angeles denote in the owner-of row?"
+    },
+    {
+      "indices": [
+        19,
+        20,
+        22,
+        23,
+        24
+      ],
+      "case_ids": [
+        "rel_180__ent_356__ent_308",
+        "rel_180__ent_562__ent_1002",
+        "rel_180__ent_820__ent_940",
+        "rel_180__ent_915__ent_918",
+        "rel_180__ent_446__ent_688"
+      ],
+      "judgment": "incorrect",
+      "reason": "Player activity, travel, political leadership, directorship and name-alias evidence do not establish ownership.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    21
+  ],
+  "broad": []
+}

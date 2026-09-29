@@ -1,0 +1,58 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_393",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_393__ent_1077__ent_931",
+        "rel_393__ent_950__ent_931"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows concern Bell corporate-family relationships; Bell is not a named human spokesperson.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_393__ent_586__ent_1039"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Spokesman speech at the White House and a secretary's brother attachment do not unambiguously make Scott McClellan the White House spokesperson.",
+      "tags": [
+        "spokesperson_attachment"
+      ],
+      "question": "Do these rows identify Scott McClellan as spokesman for the White House, or merely a speaker or relative associated with it?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_393__ent_536__ent_336"
+      ],
+      "judgment": "supported",
+      "reason": "The direct spokesman-for-State-Department apposition establishes the inverse principal-to-spokesperson relation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "3e9d0159c177387a0edd4321219460b113814b3c97612418ac97c3652ab21be9"
+}

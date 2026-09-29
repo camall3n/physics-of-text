@@ -1,0 +1,44 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_293",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_293__ent_819__ent_724",
+        "rel_293__ent_813__ent_706"
+      ],
+      "judgment": "incorrect",
+      "reason": "The arguments are group/country to person and the rows concern support or political interaction, not person-to-body leadership.",
+      "tags": [
+        "wrong_direction"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_293__ent_621__ent_325"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chief-for/of or chief tenure establishes an eligible leadership office at the publication.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "2a41b7c138f07362c1e0d2b955a2e1a6fc775b8f705de3b01ee2903d9fb25257"
+}

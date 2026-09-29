@@ -1,0 +1,68 @@
+{
+  "relation": "rel_219",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "facts": [
+    {
+      "case_id": "rel_219__ent_1002__ent_664",
+      "judgment": "incorrect",
+      "reason": "Washington → American Civil Liberties Union: Civil-liberties chapter, director and local interview evidence is not a competitive defeat.",
+      "evidence_lines": [
+        4192,
+        4193,
+        4194,
+        4195,
+        4197
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.812Z"
+      }
+    },
+    {
+      "case_id": "rel_219__ent_1004__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: Direct outlast of the opposing sporting team supports a completed competitive victory.",
+      "evidence_lines": [
+        889,
+        2589,
+        3142,
+        6905
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.812Z"
+      }
+    },
+    {
+      "case_id": "rel_219__ent_308__ent_1005",
+      "judgment": "supported",
+      "reason": "Knicks → Bulls: Direct outlast of the opposing sporting team supports a completed competitive victory.",
+      "evidence_lines": [
+        879,
+        6049
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:34.812Z"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5bed1795b27061e05e40f5191958a36165b82764a9b8ad009c1c16319d175a52"
+}

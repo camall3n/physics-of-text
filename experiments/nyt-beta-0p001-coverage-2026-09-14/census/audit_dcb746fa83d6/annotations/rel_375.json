@@ -1,0 +1,147 @@
+{
+  "relation": "rel_375",
+  "predicate_id": "has_coach",
+  "label": "has coach",
+  "definition": "Team or sporting organization X has or had person Y as an explicitly identified coach.",
+  "scope_notes": "Includes: explicit head coach, coach, or assistant coach office; historical coaching office. Excludes: ordinary player or manager alone without a coach title; an opponent or commentator; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear title or team attachment; a coach-elect or proposed appointment without established tenure. Inverse of coach_of. This does not assert that Y is the sole or current coach.",
+  "facts": [
+    {
+      "case_id": "rel_375__ent_1091__ent_1092",
+      "judgment": "incorrect",
+      "reason": "Colin Campbell → Ranger: Forward person-to-team coaching, population descriptions, legislative approval, executive office or action against a population does not establish inverse coaching.",
+      "evidence_lines": [
+        7226,
+        7227,
+        7228,
+        7229,
+        7230,
+        7231
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    },
+    {
+      "case_id": "rel_375__ent_543__ent_785",
+      "judgment": "ambiguous",
+      "reason": "Nets → Byron Scott; Nets → Lawrence Frank: Coach evidence identifies two distinct people, Byron Scott and Lawrence Frank, merged into the same latent coach.",
+      "evidence_lines": [
+        613,
+        620,
+        621,
+        686,
+        691
+      ],
+      "issue_tags": [
+        "local_entity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Which coach does this fact refer to: Byron Scott or Lawrence Frank?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    },
+    {
+      "case_id": "rel_375__ent_722__ent_1232",
+      "judgment": "incorrect",
+      "reason": "Westerners → Americans: Forward person-to-team coaching, population descriptions, legislative approval, executive office or action against a population does not establish inverse coaching.",
+      "evidence_lines": [
+        7530,
+        7532,
+        7533,
+        7535
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    },
+    {
+      "case_id": "rel_375__ent_196__ent_1440",
+      "judgment": "incorrect",
+      "reason": "Bush Administration → Congress: Forward person-to-team coaching, population descriptions, legislative approval, executive office or action against a population does not establish inverse coaching.",
+      "evidence_lines": [
+        472,
+        2079
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    },
+    {
+      "case_id": "rel_375__ent_778__ent_535",
+      "judgment": "supported",
+      "reason": "Spurs → Gregg Popovich: The team-to-person coach identification establishes an inverse coaching role.",
+      "evidence_lines": [
+        663,
+        670
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    },
+    {
+      "case_id": "rel_375__ent_582__ent_1136",
+      "judgment": "incorrect",
+      "reason": "Michael D. Eisner → Disney: Forward person-to-team coaching, population descriptions, legislative approval, executive office or action against a population does not establish inverse coaching.",
+      "evidence_lines": [
+        5133,
+        5135
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    },
+    {
+      "case_id": "rel_375__ent_351__ent_826",
+      "judgment": "incorrect",
+      "reason": "Israel → Palestinians: Forward person-to-team coaching, population descriptions, legislative approval, executive office or action against a population does not establish inverse coaching.",
+      "evidence_lines": [
+        4295
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:38:20.387Z"
+      }
+    }
+  ],
+  "predicate_hash": "569f330d14a8a5cc302fc0ff834017307223771d032924185f482ca547027ffc",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d669b0c6a799b11967873cc0765412b13127eb55ee71e8b933f2ac0276eaa26d"
+}

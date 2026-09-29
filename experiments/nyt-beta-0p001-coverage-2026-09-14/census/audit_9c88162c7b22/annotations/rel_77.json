@@ -1,0 +1,59 @@
+{
+  "relation": "rel_77",
+  "predicate_id": "legal_specialist_in",
+  "label": "legal specialist in field",
+  "definition": "Person X is explicitly identified as a legal expert or lawyer specializing in legal field or issue Y.",
+  "scope_notes": "Includes: lawyer specializing in Y; explicit legal expert, authority, or specialist on Y; a legal-field modifier of a lawyer. Excludes: client representation without specialization; generic institutional membership; practice location or ordinary employment; expertise in a nonlegal field. Ambiguous unless resolved by case-local evidence: unclear legal field versus client; lawyer title or field attachment unresolved. Y is a legal subject, not the represented client. Expertise is textual attribution, not an independent credential evaluation.",
+  "facts": [
+    {
+      "case_id": "rel_77__ent_842__ent_841",
+      "judgment": "supported",
+      "reason": "Floyd Abrams → First Amendment: Explicit specialization and legal expertise in First Amendment law establishes the legal-field relation.",
+      "evidence_lines": [
+        2277,
+        2278,
+        2279,
+        2280,
+        2281,
+        2282,
+        2283,
+        2284,
+        2285,
+        2286
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.312Z"
+      }
+    },
+    {
+      "case_id": "rel_77__ent_74__ent_59",
+      "judgment": "incorrect",
+      "reason": "Alan Blinder → Council of Economic Advisers: Membership in the Council of Economic Advisers is institutional service, not specialization in a legal field.",
+      "evidence_lines": [
+        3265,
+        3266,
+        3267,
+        3268,
+        3269
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.312Z"
+      }
+    }
+  ],
+  "predicate_hash": "a20297b390b73d51597c6f6da1f08657b66ec20d6c47c8f86af7c633fbcaf02b",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b525d9dad8d2e1a000dcb6e5cc4823d84fd7d903275b2f76ece69033f6e62129"
+}

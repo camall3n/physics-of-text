@@ -1,0 +1,93 @@
+{
+  "relation": "rel_238",
+  "predicate_id": "member_of",
+  "label": "member of organization",
+  "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+  "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself.",
+  "facts": [
+    {
+      "case_id": "rel_238__ent_412__ent_654",
+      "judgment": "incorrect",
+      "reason": "Qwest → Denver: Company location and having something in a city do not establish membership in an organization.",
+      "evidence_lines": [
+        4366,
+        4367,
+        4368,
+        4369,
+        4371,
+        4372
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.802Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_1266__ent_271",
+      "judgment": "supported",
+      "reason": "China → Security Council: Explicit member-of or institutional member statements establish membership.",
+      "evidence_lines": [
+        3303,
+        3306,
+        3307,
+        3308,
+        3309
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.802Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_76__ent_1291",
+      "judgment": "supported",
+      "reason": "Turkey → NATO: Explicit member-of or institutional member statements establish membership.",
+      "evidence_lines": [
+        3283,
+        3285,
+        3286,
+        3287
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.802Z"
+      }
+    },
+    {
+      "case_id": "rel_238__ent_547__ent_1262",
+      "judgment": "incorrect",
+      "reason": "I.B.M. → Armonk: Company location and having something in a city do not establish membership in an organization.",
+      "evidence_lines": [
+        802,
+        4398
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.802Z"
+      }
+    }
+  ],
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "a2b97790e900b99b7a5c57f601dc01d58d1e964130d32241656c594e2079976a"
+}

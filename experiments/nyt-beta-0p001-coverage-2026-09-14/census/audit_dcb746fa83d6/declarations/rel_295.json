@@ -1,0 +1,47 @@
+{
+  "relation": "rel_295",
+  "predicate_id": "owns",
+  "predicate_version": 1,
+  "predicate_hash": "64b91b4d898a9f3ed81be865b382e684bfc0db4150c5d04790c534e2d3b1cb74",
+  "predicate": {
+    "id": "owns",
+    "label": "owns organization or asset",
+    "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+    "includes": [
+      "owner/co-owner/owns",
+      "explicit ownership interest or stated share",
+      "corporate parent",
+      "completed acquisition with ownership attachment",
+      "historical ownership"
+    ],
+    "excludes": [
+      "management or leadership alone",
+      "publishing or distribution alone",
+      "mere collaboration",
+      "proposed or rejected acquisition"
+    ],
+    "ambiguous": [
+      "merger without clear ownership direction",
+      "a possessive alone"
+    ],
+    "notes": "This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+    "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse."
+  },
+  "dictionary_sha256": "5c151e3a92a698ae48b2b1671831365ead603e0694885a853c6b7ac720809922",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit sports franchise ownership and owner tenure dominate; operating control alone and reverse lawyer rows remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:27:28.724Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_295.before_grading.json",
+  "pregrading_annotation_sha256": "e1ff5c7f7f57ac693ce712621ddad8a89cabdeb53cac2dd786d5414776c860ca"
+}

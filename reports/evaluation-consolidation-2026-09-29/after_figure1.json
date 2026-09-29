@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "tests": 12,
+  "worlds_evaluated": 40,
+  "raw_worlds_conservation_checked": 80,
+  "saved_artifacts_untouched": true,
+  "equal_artifacts": [
+    {
+      "kind": "distinct",
+      "file": "evaluation_details.json",
+      "sha256": "3ee5817c23fcc4da05954588516bdb05eee4aa4afdf5e99e17a3616b9b099a57",
+      "equal": "bytes"
+    },
+    {
+      "kind": "distinct",
+      "file": "precision_at_recall.csv",
+      "sha256": "1077b386af3dd9159910d111e409c22af7fcf7ff7dc111d1cfca3808cb5dde11",
+      "equal": "bytes"
+    },
+    {
+      "kind": "distinct",
+      "file": "evaluation.md",
+      "sha256": "501fa45e293946af71f615813ff2572816f1c6e4683833e030858779a683c92e",
+      "equal": "bytes"
+    },
+    {
+      "kind": "distinct",
+      "file": "pr_polysemy.png",
+      "sha256": "0f553203120f5e13cd1511585d11a78f984466cf8681ba555f5d65474f8953a5",
+      "equal": "bytes"
+    },
+    {
+      "kind": "self-pairs",
+      "file": "comparison_details.json",
+      "sha256": "58b37f9591107c6391682fecb5cc0f6a5a93ea4d288cecf2da1a392d5f2c6fb7",
+      "equal": "bytes"
+    },
+    {
+      "kind": "self-pairs",
+      "file": "comparison_at_recall.csv",
+      "sha256": "ad2b72b6ea80ca602983984b14099d8d56eea1a8adf49a9fe1e5a1cd48bb0a2f",
+      "equal": "bytes"
+    },
+    {
+      "kind": "self-pairs",
+      "file": "after-fixes/prec_recall.out",
+      "sha256": "db76ce49b34e0417c5de706047dd3058d760c8e0a7a995bdf160d787814a4a06",
+      "equal": "bytes"
+    },
+    {
+      "kind": "self-pairs",
+      "file": "pr_self_pairs.png",
+      "sha256": "d4eb54ab1ea53d46be195bc85ca9c0a20ec9365f1e8610397b6c50966b29e718",
+      "equal": "bytes"
+    },
+    {
+      "kind": "self-pairs",
+      "file": "self_pair_effect.png",
+      "sha256": "7ed9c8ac46850c301a820607fdbbbbbabb1e3177a4a4658cc5f04be53ed30a1a",
+      "equal": "bytes"
+    },
+    {
+      "kind": "self-pairs",
+      "file": "crossing_diagnostic.png",
+      "sha256": "8997ca5d87522dd2252d7e8f8887273920e17bee570ce11bff1b1bc5fbac2d95",
+      "equal": "bytes"
+    },
+    {
+      "kind": "original-plot-style",
+      "file": "plot_precision_recall.png",
+      "sha256": "565717d2535fcef26488c64f2abf2583702c353e56a7360d68c0c0a3ffcc92f4",
+      "equal": "bytes"
+    }
+  ],
+  "entry_points": "Canonical distinct/plot CLI and legacy distinct caller validated; old rejected arguments covered in 12 tests",
+  "provenance_note": "New generated metadata has centralized implementation path/hash and runnable CLI command; existing metadata untouched. PDF/SVG timestamps/IDs not byte-compared."
+}

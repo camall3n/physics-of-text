@@ -1,0 +1,71 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_357",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_357__ent_1196__ent_410"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit executive-of title establishes managerial office independently of the accompanying founder and emeritus references.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_357__ent_1250__ent_1305"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Co-chair and leader titles attach to the incomplete adjective Democratic rather than a fully identified political institution.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which political body does Democratic name in the co-chair and leadership rows?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_357__ent_731__ent_1321"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York occupies the person slot in an of-chairman fragment, leaving the actual chairperson identity omitted.",
+      "tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "question": "Who is the chairperson of BBDO Worldwide, and how does New York attach to that person or office?"
+    },
+    {
+      "indices": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_357__ent_321__ent_1374",
+        "rel_357__ent_1315__ent_202"
+      ],
+      "judgment": "incorrect",
+      "reason": "A sporting loss or medical statement does not establish managerial office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f433e5e887f44a9f2641c003ee3f4ddbbfabddfde291e67322f7e634e147949d"
+}

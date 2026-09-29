@@ -1,0 +1,97 @@
+{
+  "relation": "rel_203",
+  "predicate_id": "location_of_organization",
+  "label": "location of organization or its office",
+  "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+  "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+  "facts": [
+    {
+      "case_id": "rel_203__ent_843__ent_649",
+      "judgment": "supported",
+      "reason": "New York → DDB Worldwide: An explicit geographically modified office-of or based-in office context establishes an organizational office in this place.",
+      "evidence_lines": [
+        4170,
+        4171,
+        4172,
+        4175,
+        4176,
+        4177
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.490Z"
+      }
+    },
+    {
+      "case_id": "rel_203__ent_238__ent_400",
+      "judgment": "incorrect",
+      "reason": "Bruce Coslet → Jets: A person coaching a team is not geographic place hosting organization.",
+      "evidence_lines": [
+        6509,
+        6510,
+        6511,
+        6512,
+        6513
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.491Z"
+      }
+    },
+    {
+      "case_id": "rel_203__ent_1002__ent_661",
+      "judgment": "supported",
+      "reason": "Washington → Consumers Union: An explicit geographically modified office-of or based-in office context establishes an organizational office in this place.",
+      "evidence_lines": [
+        4165,
+        4166,
+        4168,
+        4169
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.491Z"
+      }
+    },
+    {
+      "case_id": "rel_203__ent_843__ent_421",
+      "judgment": "supported",
+      "reason": "New York → Fallon Worldwide: An explicit geographically modified office-of or based-in office context establishes an organizational office in this place.",
+      "evidence_lines": [
+        4200,
+        4202,
+        4204,
+        4206
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:40.491Z"
+      }
+    }
+  ],
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "04b7f6866ee4f1f3f17ad1857eb085e66c92e2b260e3725eb6703f1fa7f8a345"
+}

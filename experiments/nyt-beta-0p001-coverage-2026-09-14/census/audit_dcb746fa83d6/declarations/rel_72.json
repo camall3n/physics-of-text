@@ -1,0 +1,48 @@
+{
+  "relation": "rel_72",
+  "predicate_id": "met_with",
+  "predicate_version": 1,
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate": {
+    "id": "met_with",
+    "label": "met or encountered",
+    "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+    "includes": [
+      "explicit actual meet or meet-with encounter",
+      "a meeting between representatives clearly attributed to the named institutions",
+      "actual meeting of opposing sports teams"
+    ],
+    "excludes": [
+      "communication alone without an encounter",
+      "a proposed or scheduled meeting not established as occurring",
+      "physical confluence of rivers or geographic features",
+      "mere co-occurrence or comparison"
+    ],
+    "ambiguous": [
+      "future or planned meeting when occurrence is unresolved",
+      "meeting versus satisfying an abstract requirement",
+      "unclear representatives or participants"
+    ],
+    "notes": "The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+    "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result."
+  },
+  "dictionary_sha256": "d617b578ab401f5c819c4d850395d4127bebe88a9f7a0c8f1e95f7d848c21291",
+  "kind": "declared_before_case_grading",
+  "rationale": "Meet-with is the dominant clear predicate, with speaking/persuasion and office status as distinct competing families.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.208Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    7
+  ],
+  "competing_meanings": [
+    "communication",
+    "executive role"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_72.before_grading.json",
+  "pregrading_annotation_sha256": "c81507d71193d2f019f20b684f749d95684874b21e8a2933eee22151d1c8a1b1"
+}

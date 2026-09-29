@@ -1,0 +1,48 @@
+{
+  "relation": "rel_10",
+  "predicate_id": "has_candidate",
+  "predicate_version": 1,
+  "predicate_hash": "c4a95a6e30c7d56bd56cde006a47bfff99a08c832090a6f7a579159f9f638a7f",
+  "predicate": {
+    "id": "has_candidate",
+    "label": "has political candidate or nominee",
+    "definition": "Political party X has or had person Y as an explicitly identified candidate, contender for its nomination, or nominee.",
+    "includes": [
+      "explicit party nominee or candidate",
+      "explicit contender for the party nomination",
+      "historical candidacy"
+    ],
+    "excludes": [
+      "holding political office without candidacy",
+      "ordinary membership or an opposing-party rival",
+      "a corporate or sporting appointment"
+    ],
+    "ambiguous": [
+      "an unspecified challenger or hopeful without identified party candidacy",
+      "a constituency or office replacing the party",
+      "an unnamed or materially truncated person or party"
+    ],
+    "notes": "This is the exact inverse of candidate_for and does not claim winning election or holding office. Republican as an identified party label follows the inherited party-label convention.",
+    "scope_notes": "Includes: explicit party nominee or candidate; explicit contender for the party nomination; historical candidacy. Excludes: holding political office without candidacy; ordinary membership or an opposing-party rival; a corporate or sporting appointment. Ambiguous unless resolved by case-local evidence: an unspecified challenger or hopeful without identified party candidacy; a constituency or office replacing the party; an unnamed or materially truncated person or party. This is the exact inverse of candidate_for and does not claim winning election or holding office. Republican as an identified party label follows the inherited party-label convention."
+  },
+  "dictionary_sha256": "2277c81a3515468de3b6eecf8fa6fe21362ab02a4aeb0f58050dbf145ab72ee1",
+  "kind": "declared_before_case_grading",
+  "rationale": "Six candidate/nominee/challenger appositions form a coherent inverse party-to-candidate family. The five artistic-review paths are a separate minority; the declaration does not union the meanings.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:30:38.757Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_10.before_grading.json",
+  "pregrading_annotation_sha256": "100767ed4e4f57834bf9cc2d81385bf675c962fd5ccca1719500205244a084c9"
+}

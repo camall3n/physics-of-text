@@ -1,0 +1,57 @@
+{
+  "relation": "rel_306",
+  "predicate_id": "killed_by",
+  "label": "killed by perpetrator",
+  "definition": "Person X or explicitly affected members of population X were killed by perpetrator Y or explicitly identified agents of Y.",
+  "scope_notes": "Includes: explicit killed-by or murder-by with correct victim and perpetrator roles; explicit killing by the named authority soldiers or troops; historical killing of identified members of a population. Excludes: geographic death-place; occupation or hostility alone; shooting or injury without established death; a population assertion interpreted as death of every member. Ambiguous unless resolved by case-local evidence: unclear victim or perpetrator attachment; unresolved identity of troops or agents; shooting where fatal outcome is unspecified. This direction is victim to perpetrator. The evaluation concerns textual support only; it does not independently adjudicate historical responsibility.",
+  "facts": [
+    {
+      "case_id": "rel_306__ent_826__ent_820",
+      "judgment": "supported",
+      "reason": "Palestinians → Israel: Explicit killed-by and killed-by-soldiers/troops paths identify affected Palestinian victims and the named perpetrator/agents. Occupation and nonfatal-shooting rows are ancillary.",
+      "evidence_lines": [
+        5497,
+        5498,
+        5499,
+        5500,
+        5501,
+        5502,
+        5503,
+        5504
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.260Z"
+      }
+    },
+    {
+      "case_id": "rel_306__ent_111__ent_356",
+      "judgment": "incorrect",
+      "reason": "Riley → Ewing: Sports coaching and lineup context does not establish killing.",
+      "evidence_lines": [
+        1556,
+        1559,
+        1560,
+        1562,
+        1563
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:27.260Z"
+      }
+    }
+  ],
+  "predicate_hash": "dc666d5830b6416a62cb27f8807dfc6f856c28aad291e175464e42b5029df5dd",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "675aa70305ad51b6a73061ba8c88667a2e6ff0aacb45cd011d1e6d79d580aa4d"
+}

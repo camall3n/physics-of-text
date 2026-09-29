@@ -1,0 +1,49 @@
+{
+  "relation": "rel_64",
+  "predicate_id": "has_diplomatic_relations_with",
+  "predicate_version": 1,
+  "predicate_hash": "14c6d895cccdd280da229e1132a91459aac5d8bdb7366634020a101ec403b7d8",
+  "predicate": {
+    "id": "has_diplomatic_relations_with",
+    "label": "has diplomatic relations with",
+    "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+    "includes": [
+      "explicit diplomatic relations",
+      "an ambassador of X accredited to Y",
+      "historical diplomatic relations"
+    ],
+    "excludes": [
+      "ordinary trade, physical travel, or war alone",
+      "generic political or personal association",
+      "an ambassador merely visiting Y without accreditation",
+      "proposed relations without establishment"
+    ],
+    "ambiguous": [
+      "generic relationship or relation without diplomatic context",
+      "unclear government versus private entity",
+      "unclear ambassador accreditation or country attachment"
+    ],
+    "notes": "Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+    "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy."
+  },
+  "dictionary_sha256": "6fed70ead419cd8b4ca98cf37c2101a9090e3de7b9728936a23e6588e15382f5",
+  "kind": "declared_before_case_grading",
+  "rationale": "Ambassador-to and country-relations form the largest coherent specific family, with trade/travel/ranking competing. Generic relations alone retain diplomacy ambiguity.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:31.972Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    10
+  ],
+  "competing_meanings": [
+    "trade",
+    "travel",
+    "comparison"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_64.before_grading.json",
+  "pregrading_annotation_sha256": "4bf89ae6e57b33f5201ac2fb94663a8f57bfd8c8420e5673ef569ef1f86491d0"
+}

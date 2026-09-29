@@ -1,0 +1,82 @@
+{
+  "relation": "rel_46",
+  "predicate_id": "official_of",
+  "label": "official of institution",
+  "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+  "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+  "facts": [
+    {
+      "case_id": "rel_46__ent_972__ent_971",
+      "judgment": "supported",
+      "reason": "Webster L. Hubbell → Justice Department: Explicit official-at or institution-modifying official title establishes formal official status.",
+      "evidence_lines": [
+        7469,
+        7470,
+        7471,
+        7472,
+        7473,
+        7474,
+        7475,
+        7476,
+        7477,
+        7478
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.792Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_84__ent_715",
+      "judgment": "ambiguous",
+      "reason": "Baghdad → Interior Ministry: Baghdad is a dateline or place in the person slot; Interior Ministry official comments do not identify that official as Baghdad.",
+      "evidence_lines": [
+        7446,
+        7449,
+        7451,
+        7454,
+        7455
+      ],
+      "issue_tags": [
+        "dateline_argument"
+      ],
+      "reviewer_question": "Which named Interior Ministry official is speaking in the Baghdad-dateline rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.792Z"
+      }
+    },
+    {
+      "case_id": "rel_46__ent_970__ent_730",
+      "judgment": "supported",
+      "reason": "Yasushi Akashi → United Nations: Explicit official-at or institution-modifying official title establishes formal official status.",
+      "evidence_lines": [
+        7459,
+        7466,
+        7467,
+        7468
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.792Z"
+      }
+    }
+  ],
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5069b65dcc2195759985dec221a474804f1e4a992fdd966e4339b04a55b381fa"
+}

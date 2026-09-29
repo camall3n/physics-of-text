@@ -1,0 +1,46 @@
+{
+  "relation": "rel_218",
+  "predicate_id": "population_includes",
+  "predicate_version": 1,
+  "predicate_hash": "aed7f7b75db58e4e35d1cd148ad04cbab35cfa09e644b237df956c7b3fe7c574",
+  "predicate": {
+    "id": "population_includes",
+    "label": "population includes subgroup members",
+    "definition": "Population X is explicitly described as including people of demographic subgroup Y.",
+    "includes": [
+      "explicit population including people from Y",
+      "a stated subgroup among the described population",
+      "historical described populations"
+    ],
+    "excludes": [
+      "ordinary organizational membership or corporate ownership",
+      "geographic containment alone",
+      "mere comparison, proximity, or interaction",
+      "inferring that every member of Y belongs to X"
+    ],
+    "ambiguous": [
+      "generic include with unclear demographic roles",
+      "unclear population versus person or organization",
+      "a subgroup attachment to another population"
+    ],
+    "notes": "This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X.",
+    "scope_notes": "Includes: explicit population including people from Y; a stated subgroup among the described population; historical described populations. Excludes: ordinary organizational membership or corporate ownership; geographic containment alone; mere comparison, proximity, or interaction; inferring that every member of Y belongs to X. Ambiguous unless resolved by case-local evidence: generic include with unclear demographic roles; unclear population versus person or organization; a subgroup attachment to another population. This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X."
+  },
+  "dictionary_sha256": "27ee6134901300742ad7bbe7521a511fd0d2b4b3bebabef4d3099583346cbd32",
+  "kind": "declared_before_case_grading",
+  "rationale": "Include4 with demographic population roles defines specific population inclusion; director, spouse and ownership remain separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:26.522Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_218.before_grading.json",
+  "pregrading_annotation_sha256": "b105e6036a4a744575514fed541698d795643fd2f1da681d48fe1c9ad64f8264"
+}

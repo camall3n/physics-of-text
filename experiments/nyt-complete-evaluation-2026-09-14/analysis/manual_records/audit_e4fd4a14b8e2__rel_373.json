@@ -1,0 +1,177 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_373",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        16,
+        27,
+        28
+      ],
+      "case_ids": [
+        "rel_373__ent_657__ent_140",
+        "rel_373__ent_1110__ent_140",
+        "rel_373__ent_898__ent_140",
+        "rel_373__ent_657__ent_899",
+        "rel_373__ent_414__ent_656",
+        "rel_373__ent_1110__ent_899",
+        "rel_373__ent_416__ent_658",
+        "rel_373__ent_1113__ent_129"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit lawyer/attorney/counsel evidence establishes legal representation or employment for the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        34,
+        35
+      ],
+      "case_ids": [
+        "rel_373__ent_995__ent_333",
+        "rel_373__ent_514__ent_846"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit attorney-for/of and prosecution/jurisdiction evidence establish governmental legal office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        11,
+        12,
+        17,
+        19,
+        20,
+        24,
+        29,
+        30
+      ],
+      "case_ids": [
+        "rel_373__ent_398__ent_155",
+        "rel_373__ent_398__ent_390",
+        "rel_373__ent_765__ent_522",
+        "rel_373__ent_148__ent_163",
+        "rel_373__ent_395__ent_156",
+        "rel_373__ent_191__ent_194",
+        "rel_373__ent_157__ent_399",
+        "rel_373__ent_397__ent_158",
+        "rel_373__ent_150__ent_392",
+        "rel_373__ent_1006__ent_155",
+        "rel_373__ent_162__ent_165",
+        "rel_373__ent_191__ent_530"
+      ],
+      "judgment": "incorrect",
+      "reason": "Professor, scientist, bioethicist, dean or academic leadership roles do not establish legal representation of the institution.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        8,
+        13,
+        14,
+        15,
+        18,
+        21,
+        22,
+        23,
+        25,
+        26,
+        31,
+        32,
+        37,
+        39,
+        40,
+        41
+      ],
+      "case_ids": [
+        "rel_373__ent_525__ent_527",
+        "rel_373__ent_1059__ent_1180",
+        "rel_373__ent_796__ent_311",
+        "rel_373__ent_103__ent_345",
+        "rel_373__ent_807__ent_809",
+        "rel_373__ent_528__ent_781",
+        "rel_373__ent_1057__ent_119",
+        "rel_373__ent_154__ent_379",
+        "rel_373__ent_524__ent_766",
+        "rel_373__ent_1007__ent_1008",
+        "rel_373__ent_297__ent_296",
+        "rel_373__ent_769__ent_526",
+        "rel_373__ent_791__ent_310",
+        "rel_373__ent_855__ent_612",
+        "rel_373__ent_774__ent_531",
+        "rel_373__ent_853__ent_610",
+        "rel_373__ent_193__ent_770"
+      ],
+      "judgment": "incorrect",
+      "reason": "Analyst, economist, executive, partner, chairman or artistic director evidence does not establish legal representation/employment.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        33,
+        36,
+        38
+      ],
+      "case_ids": [
+        "rel_373__ent_182__ent_519",
+        "rel_373__ent_1033__ent_1004",
+        "rel_373__ent_831__ent_213"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political dealings, inverse political leadership or sports ownership is not legal representation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        42
+      ],
+      "case_ids": [
+        "rel_373__ent_893__ent_650"
+      ],
+      "judgment": "incorrect",
+      "reason": "The direction is client to lawyer, opposite to lawyer-for.",
+      "tags": [
+        "wrong_direction"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    16,
+    27,
+    28,
+    34,
+    35
+  ],
+  "broad": []
+}

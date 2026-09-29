@@ -1,0 +1,76 @@
+{
+  "relation": "rel_141",
+  "label": "analyst at",
+  "definition": "Person X works as an analyst for or follows an industry or companies for organization Y.",
+  "scope_notes": "Analyst-at/with/for dominates, preserving the prior analyst scope. Professorship, directorship or expertise alone does not establish an analyst role; these form competing components.",
+  "facts": [
+    {
+      "case_id": "rel_141__ent_164__ent_167",
+      "judgment": "incorrect",
+      "reason": "Peter Arenella is a professor and specialist at the University of California, without an analyst or industry-following path.",
+      "evidence_lines": [
+        358,
+        359,
+        360
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_141__ent_193__ent_770",
+      "judgment": "incorrect",
+      "reason": "The sole path identifies Steven A. Wood as director at Bank of America, not an analyst.",
+      "evidence_lines": [
+        518
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_141__ent_1181__ent_1182",
+      "judgment": "supported",
+      "reason": "Neil Sweig is explicitly analyst with, at and for Southeast Research Partners; the tracking path is consistent.",
+      "evidence_lines": [
+        1804,
+        1805,
+        1806,
+        1807
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_141__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis is explicitly analyst at, for and with Salomon Brothers; directorship is an additional role.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_141__ent_301__ent_529",
+      "judgment": "supported",
+      "reason": "Judah Kraushaar is explicitly Merrill Lynch analyst and follows banks for the firm.",
+      "evidence_lines": [
+        607,
+        608,
+        609,
+        611,
+        612
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_124",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_124__ent_597__ent_1041"
+      ],
+      "judgment": "supported",
+      "reason": "Direct say-of establishes a statement about Johnson, with coherent local coaching context.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_124__ent_111__ent_353"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Say-of provides a potential comment, but coaching/use/yank and recorded-compositions evidence share the short names Riley and Smith, leaving the local fact identities materially unresolved.",
+      "tags": [
+        "identity_collision"
+      ],
+      "question": "Do the basketball-related and composition-recording rows concern the same Riley and Smith, and which pair owns the say-of evidence?"
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [
+    1
+  ],
+  "predicate_declaration_sha256": "8116b8fb709025ed9fd602de7ec4431fa7fe9a1367fa4977e1b5f95780c5b80b"
+}

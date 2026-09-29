@@ -1,0 +1,86 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_139",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_139__ent_300__ent_542"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Relation meaning is unresolved; same-subject buy/own/say paths join two apparent firm-name fragments without a directed semantic relation.",
+      "tags": [
+        "unresolved_relation",
+        "argument_identity"
+      ],
+      "question": "Are Kohlberg and Kravis distinct actors, or parts of one firm name, and what directed predicate is intended?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_139__ent_539__ent_790"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Relation meaning is unresolved; make/say/fund/firm paths link possible parts of a single firm name.",
+      "tags": [
+        "unresolved_relation",
+        "argument_identity"
+      ],
+      "question": "Are Hicks and Muse separate entities or one firm name, and what relation should be asserted?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_139__ent_1062__ent_776"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Relation meaning is unresolved; certificate filing/pricing indicates a financial issuance context distinct from the other dictionary families.",
+      "tags": [
+        "unresolved_relation"
+      ],
+      "question": "What financial predicate does the certificate issuer and Sears pairing express?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_139__ent_380__ent_138"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Chair succession is locally interpretable but does not resolve the heterogeneous relation-level dictionary.",
+      "tags": [
+        "unresolved_relation"
+      ],
+      "question": "Should this case be assigned a separate chair relation rather than the unresolved mixed relation?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_139__ent_80__ent_820"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Population flow to Israel is a separate migration reading that does not determine the relation-level dictionary.",
+      "tags": [
+        "unresolved_relation"
+      ],
+      "question": "Should this case be assigned a separate migration relation rather than the unresolved mixed relation?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6d77d9e49edc8fce38c6462e875919c411e1785aae1f61a80ea945772b9046be"
+}

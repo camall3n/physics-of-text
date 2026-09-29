@@ -1,0 +1,40 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_315",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_315__ent_302__ent_544",
+        "rel_315__ent_786__ent_305"
+      ],
+      "judgment": "supported",
+      "reason": "The named organization has an explicitly located campus or office in the stated city.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_315__ent_182__ent_1002"
+      ],
+      "judgment": "incorrect",
+      "reason": "The first argument is a person with an office in Washington, rather than the organization required by this location predicate.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c4e82541ccd8299940fd64379cc75aebba5b9d69535288f14ebef789d99022b1"
+}

@@ -1,0 +1,45 @@
+{
+  "relation": "rel_320",
+  "predicate_id": "transferred_territory_to",
+  "predicate_version": 1,
+  "predicate_hash": "7ad704c03d32592d08446770a36068ffd9e9b42c03911f57d78e9bb479633594",
+  "predicate": {
+    "id": "transferred_territory_to",
+    "label": "transferred territory to",
+    "definition": "Political authority X transferred territorial control or sovereignty to authority Y.",
+    "includes": [
+      "explicit return of territory to Y",
+      "handover with a resolved territorial object and recipient",
+      "historical territorial transfer"
+    ],
+    "excludes": [
+      "ordinary travel or a person returning to a place",
+      "generic ownership, defeat, or geographic proximity",
+      "a proposed transfer without realization"
+    ],
+    "ambiguous": [
+      "generic return or handover with no resolved territorial object",
+      "unclear transfer direction or recipient",
+      "prospective or hypothetical handover"
+    ],
+    "notes": "The transferred territory is an omitted third role and must be established by local evidence; do not supply it from historical knowledge.",
+    "scope_notes": "Includes: explicit return of territory to Y; handover with a resolved territorial object and recipient; historical territorial transfer. Excludes: ordinary travel or a person returning to a place; generic ownership, defeat, or geographic proximity; a proposed transfer without realization. Ambiguous unless resolved by case-local evidence: generic return or handover with no resolved territorial object; unclear transfer direction or recipient; prospective or hypothetical handover. The transferred territory is an omitted third role and must be established by local evidence; do not supply it from historical knowledge."
+  },
+  "dictionary_sha256": "c83d031ff2edb8a4cbd931a3e2ee464fe222fa98f886629bc4e3d5638d7966e9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Hand-over-to, return-territory-to and handover noun form the specific territorial-transfer family; religious place and sports-office paths separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:21:37.327Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    8
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_320.before_grading.json",
+  "pregrading_annotation_sha256": "bfe6c3a8fed6ac59ea1ed430f9d0055cc5637cf714fa7a06b2bd975d6b782f8a"
+}

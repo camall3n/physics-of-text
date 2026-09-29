@@ -1,0 +1,76 @@
+{
+  "relation": "rel_354",
+  "label": "owns",
+  "definition": "Argument 1 owns or previously owned company, organization or asset 2.",
+  "scope_notes": "Parent, owner, acquisition and explicit partial ownership qualify in parent-to-child direction. Being born in a place, employment, management alone, or a proposed/rejected acquisition does not.",
+  "facts": [
+    {
+      "case_id": "rel_354__ent_903__ent_902",
+      "judgment": "incorrect",
+      "reason": "Bobbitt was born in Ecuador and had childhood there; Ecuador is not an owned asset in these rows.",
+      "evidence_lines": [
+        8428,
+        8429,
+        8430
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_354__ent_1080__ent_936",
+      "judgment": "incorrect",
+      "reason": "DoubleClick is an Internet company/group. These sector compounds do not say it owns the Internet; company-poss is at best the reverse association.",
+      "evidence_lines": [
+        6859,
+        6860,
+        6861
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_354__ent_216__ent_867",
+      "judgment": "supported",
+      "reason": "General Electric explicitly owns NBC and is identified as its owner and parent.",
+      "evidence_lines": [
+        5980,
+        5984,
+        5985,
+        5988
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_354__ent_909__ent_908",
+      "judgment": "incorrect",
+      "reason": "Sheng was born and studied in Shanghai; the rows contain no ownership.",
+      "evidence_lines": [
+        8422,
+        8425,
+        8426
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_354__ent_906__ent_835",
+      "judgment": "incorrect",
+      "reason": "The sole row says Leach was born in England, not that she owns it.",
+      "evidence_lines": [
+        8421
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "relation": "rel_52",
+  "predicate_id": "winner_of",
+  "label": "winner or champion of",
+  "definition": "Entity X won the award or competition designated by Y, or held an explicitly Y-designated championship title.",
+  "scope_notes": "Includes: explicit win/winner/champion of event or award; sporting titles and honor awards such as Nobel Peace Prize; explicit championship/title designated by a sanctioning body or Olympic designation; historical victory. Excludes: participation or reaching the event; single stage/game victory without the overall title; winning political office/control of a body; location or ordinary membership. Ambiguous unless resolved by case-local evidence: unclear title/event attachment; medal without a clear winning title or award scope. A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning.",
+  "facts": [
+    {
+      "case_id": "rel_52__ent_750__ent_992",
+      "judgment": "supported",
+      "reason": "Curtis Strange → United States Open: Explicit winning the United States Open championship and receiving its trophy establish the event win.",
+      "evidence_lines": [
+        7978,
+        7979,
+        7980,
+        7981,
+        7982,
+        7983
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:31.674Z"
+      }
+    },
+    {
+      "case_id": "rel_52__ent_1434__ent_941",
+      "judgment": "incorrect",
+      "reason": "Israel → Yitzhak Rabin: Inverse political leadership or newspaper-writing context does not establish an award or competition win.",
+      "evidence_lines": [
+        7062,
+        7064
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:31.674Z"
+      }
+    },
+    {
+      "case_id": "rel_52__ent_719__ent_1313",
+      "judgment": "incorrect",
+      "reason": "Janet Maslin → The Times: Inverse political leadership or newspaper-writing context does not establish an award or competition win.",
+      "evidence_lines": [
+        7285,
+        7289
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:31.674Z"
+      }
+    },
+    {
+      "case_id": "rel_52__ent_710__ent_1058",
+      "judgment": "incorrect",
+      "reason": "Vincent Canby → The Times: Inverse political leadership or newspaper-writing context does not establish an award or competition win.",
+      "evidence_lines": [
+        7295,
+        7301
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:31.674Z"
+      }
+    }
+  ],
+  "predicate_hash": "27c87005f27fe8d1242ee460f57371d2135761abb8317fa0b9de8f25c5b5581f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ecf9f2119737632907f03d34ebad1d1960ab77f91355b80d82bd02ae3039e9cd"
+}

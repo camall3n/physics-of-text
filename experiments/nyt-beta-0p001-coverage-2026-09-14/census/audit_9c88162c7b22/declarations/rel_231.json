@@ -1,0 +1,45 @@
+{
+  "relation": "rel_231",
+  "predicate_id": "supports",
+  "predicate_version": 1,
+  "predicate_hash": "144e1679f928186e65824f49df703924a59e4b3f2e71e0197788ab8a91148542",
+  "predicate": {
+    "id": "supports",
+    "label": "supports or endorses",
+    "definition": "Entity X explicitly gives political, material, or institutional support or endorsement to Y.",
+    "includes": [
+      "explicit supports, backs, endorses, or provides identified aid to Y",
+      "voting for Y as an endorsement",
+      "historical support"
+    ],
+    "excludes": [
+      "merely pressuring or criticizing Y",
+      "ordinary alliance or meeting without support assertion",
+      "generic possession or acquisition",
+      "physical support of an object unrelated to the institutional relation"
+    ],
+    "ambiguous": [
+      "give with omitted object",
+      "unclear support versus pressure or opposition",
+      "a future proposed endorsement without realization"
+    ],
+    "notes": "This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence.",
+    "scope_notes": "Includes: explicit supports, backs, endorses, or provides identified aid to Y; voting for Y as an endorsement; historical support. Excludes: merely pressuring or criticizing Y; ordinary alliance or meeting without support assertion; generic possession or acquisition; physical support of an object unrelated to the institutional relation. Ambiguous unless resolved by case-local evidence: give with omitted object; unclear support versus pressure or opposition; a future proposed endorsement without realization. This does not imply permanent agreement or exclusive support. A bare give edge is insufficient without an identified supportive act or other local evidence."
+  },
+  "dictionary_sha256": "361d34ef7a5d712fe36b27c15c32268fd23355a902310e3eef94087be0372890",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit support plus vote-for (five rows) is the strongest clear family; pressuring Y and generic giving alone do not establish political/material support.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.243Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    2,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_231.before_grading.json",
+  "pregrading_annotation_sha256": "2c846db950ee432f16cd8364b1fa2facddc7f14c3c16fb6f098d1b90b1f3358a"
+}

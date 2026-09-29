@@ -1,0 +1,56 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_17",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_17__ent_1352__ent_721"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit support direct-object row supplies forward support for John McCain; reverse aid-by is distinct evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        3
+      ],
+      "case_ids": [
+        "rel_17__ent_406__ent_333",
+        "rel_17__ent_239__ent_27"
+      ],
+      "judgment": "incorrect",
+      "reason": "Family/residence or a coach title does not establish institutional support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_17__ent_182__ent_519"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The apparent reward/support is attributed by looks-like wording, while an envoy's request and reverse disavowal do not resolve direct support by Bush.",
+      "tags": [
+        "attribution_ambiguity"
+      ],
+      "question": "Does the text actually assert support by Mr. Bush, or only characterize his statement as a possible reward?"
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e33152352b0c562b0e2a4f02aa4a7f6a73aebf865348b0aa22bf4f8cd44b2ef2"
+}

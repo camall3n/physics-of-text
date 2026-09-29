@@ -1,0 +1,142 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_333",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        25
+      ],
+      "case_ids": [
+        "rel_333__ent_104__ent_1315",
+        "rel_333__ent_550__ent_792",
+        "rel_333__ent_590__ent_543",
+        "rel_333__ent_105__ent_1315",
+        "rel_333__ent_1042__ent_308",
+        "rel_333__ent_107__ent_561",
+        "rel_333__ent_588__ent_308",
+        "rel_333__ent_136__ent_428",
+        "rel_333__ent_1006__ent_155",
+        "rel_333__ent_580__ent_341",
+        "rel_333__ent_1274__ent_1343",
+        "rel_333__ent_589__ent_110",
+        "rel_333__ent_591__ent_211",
+        "rel_333__ent_533__ent_127",
+        "rel_333__ent_389__ent_146",
+        "rel_333__ent_556__ent_798",
+        "rel_333__ent_349__ent_462",
+        "rel_333__ent_131__ent_1320",
+        "rel_333__ent_657__ent_1345"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit president wording establishes the named office, including historical and functional presidency.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        11,
+        16,
+        22,
+        24
+      ],
+      "case_ids": [
+        "rel_333__ent_89__ent_86",
+        "rel_333__ent_1178__ent_1179",
+        "rel_333__ent_273__ent_12",
+        "rel_333__ent_286__ent_1055",
+        "rel_333__ent_258__ent_903"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit manager wording establishes an organizational/team management office under the retained composite predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_333__ent_346__ent_308"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Grunfeld and Bianchi office evidence is merged into the same inferred person at the Knicks.",
+      "tags": [
+        "mixed_entity"
+      ],
+      "question": "Does the inferred person denote Ernie Grunfeld or Al Bianchi?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_333__ent_288__ent_1055"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Cashen and Harazin office evidence is merged into the same inferred person at the Mets.",
+      "tags": [
+        "mixed_entity"
+      ],
+      "question": "Does the inferred person denote Frank Cashen or Al Harazin?"
+    },
+    {
+      "indices": [
+        26
+      ],
+      "case_ids": [
+        "rel_333__ent_360__ent_677"
+      ],
+      "judgment": "incorrect",
+      "reason": "Lead alone does not identify the required president or manager office.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    7,
+    11,
+    13,
+    15,
+    16,
+    19,
+    20,
+    22
+  ],
+  "broad": [
+    1,
+    11,
+    16,
+    22,
+    24
+  ]
+}

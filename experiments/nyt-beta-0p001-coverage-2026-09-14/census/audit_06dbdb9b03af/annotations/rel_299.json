@@ -1,0 +1,104 @@
+{
+  "relation": "rel_299",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_299__ent_96__ent_948",
+      "judgment": "incorrect",
+      "reason": "India → Atal Behari Vajpayee: Country-to-minister attachment and historical persecution are not organizational geographic location.",
+      "evidence_lines": [
+        7030,
+        7031,
+        7032,
+        7033,
+        7034
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.369Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_547__ent_789",
+      "judgment": "supported",
+      "reason": "I.B.M. → Armonk: Direct have-headquarters-in evidence establishes organizational location.",
+      "evidence_lines": [
+        804,
+        807,
+        4400,
+        4403
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.369Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_1101__ent_748",
+      "judgment": "incorrect",
+      "reason": "Jews → Holocaust: Country-to-minister attachment and historical persecution are not organizational geographic location.",
+      "evidence_lines": [
+        8193,
+        8195,
+        8196,
+        8199
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.369Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_1000__ent_304",
+      "judgment": "supported",
+      "reason": "Wal-Mart → Bentonville: Direct have-headquarters-in evidence establishes organizational location.",
+      "evidence_lines": [
+        815,
+        4361
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.369Z"
+      }
+    },
+    {
+      "case_id": "rel_299__ent_548__ent_1003",
+      "judgment": "supported",
+      "reason": "Johnson & Johnson → New Brunswick: Direct have-headquarters-in evidence establishes organizational location.",
+      "evidence_lines": [
+        854,
+        4387
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:13.369Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "68ba0aad1e97145231b4576a4315999c6195e963ffc62fca94e8ea9992d5f8ac"
+}

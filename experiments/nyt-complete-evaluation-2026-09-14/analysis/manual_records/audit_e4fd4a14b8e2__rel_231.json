@@ -1,0 +1,128 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_231",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24
+      ],
+      "case_ids": [
+        "rel_231__ent_1059__ent_1180",
+        "rel_231__ent_383__ent_140",
+        "rel_231__ent_780__ent_529",
+        "rel_231__ent_806__ent_529",
+        "rel_231__ent_805__ent_808",
+        "rel_231__ent_301__ent_529",
+        "rel_231__ent_973__ent_734",
+        "rel_231__ent_359__ent_1056",
+        "rel_231__ent_733__ent_975",
+        "rel_231__ent_1059__ent_529",
+        "rel_231__ent_525__ent_767",
+        "rel_231__ent_768__ent_529",
+        "rel_231__ent_541__ent_783",
+        "rel_231__ent_540__ent_782",
+        "rel_231__ent_1058__ent_783",
+        "rel_231__ent_1181__ent_1182",
+        "rel_231__ent_1183__ent_1184",
+        "rel_231__ent_528__ent_781",
+        "rel_231__ent_806__ent_976",
+        "rel_231__ent_978__ent_861",
+        "rel_231__ent_1185__ent_1186",
+        "rel_231__ent_736__ent_783"
+      ],
+      "judgment": "supported",
+      "reason": "The case directly identifies analyst affiliation or employer-linked analysis; other local professional roles or event attachments do not negate the explicit analyst evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_231__ent_374__ent_372"
+      ],
+      "judgment": "incorrect",
+      "reason": "Presidency and election-to-office attachments do not establish analyst affiliation.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_231__ent_241__ent_483"
+      ],
+      "judgment": "incorrect",
+      "reason": "Museum/address, printing and event-time evidence is geographic/event information rather than a person's analyst role.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        22
+      ],
+      "case_ids": [
+        "rel_231__ent_391__ent_149"
+      ],
+      "judgment": "incorrect",
+      "reason": "Scientist and professor descriptions do not establish an analyst role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        25
+      ],
+      "case_ids": [
+        "rel_231__ent_845__ent_333"
+      ],
+      "judgment": "incorrect",
+      "reason": "A lawyer associated with Manhattan is not established as an analyst.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    8,
+    12,
+    19
+  ],
+  "broad": []
+}

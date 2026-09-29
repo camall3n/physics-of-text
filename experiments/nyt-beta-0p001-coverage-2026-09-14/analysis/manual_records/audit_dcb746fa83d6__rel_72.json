@@ -1,0 +1,80 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_72",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_72__ent_753__ent_519",
+        "rel_72__ent_762__ent_117",
+        "rel_72__ent_832__ent_511"
+      ],
+      "judgment": "supported",
+      "reason": "Direct meet-with identifies an encounter between the named participants.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_72__ent_1009__ent_984"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The county argument accompanies both executive and meet-with paths, leaving county institution versus omitted county officials unclear.",
+      "tags": [
+        "institution_metonymy"
+      ],
+      "question": "Who did Spano meet: county representatives, or an omitted person within the county?"
+    },
+    {
+      "indices": [
+        2,
+        4
+      ],
+      "case_ids": [
+        "rel_72__ent_182__ent_355",
+        "rel_72__ent_564__ent_1382"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A supported meeting pair is merged with a different second person or political group.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which distinct person or group does this latent second argument denote?"
+    },
+    {
+      "indices": [
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_72__ent_1325__ent_483",
+        "rel_72__ent_558__ent_822"
+      ],
+      "judgment": "incorrect",
+      "reason": "Persuasion alone or employment effects do not establish a meeting.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [
+    2,
+    4
+  ],
+  "predicate_declaration_sha256": "576d7a39ae9dbd8f4adae3e9e8e581023adce98429eece7acf8a66032e84d5eb"
+}

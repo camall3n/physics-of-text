@@ -1,0 +1,354 @@
+{
+  "relation": "rel_223",
+  "predicate_id": "geographic_part_of",
+  "label": "geographical part of",
+  "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+  "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_223.json",
+    "source_sha256": "4d19532ee302366c5d43d5f79be63bfcfc5aa5ba0158946f872d1ba4c19b6676",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_223__ent_576__ent_333",
+      "judgment": "supported",
+      "reason": "Chelsea → Manhattan: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1158,
+        1160,
+        1161,
+        1162,
+        1163,
+        1165,
+        1166,
+        1167
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_570__ent_323",
+      "judgment": "supported",
+      "reason": "East New York → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1078,
+        1079,
+        1080,
+        1081,
+        1083,
+        1084,
+        1086
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_1220__ent_323",
+      "judgment": "ambiguous",
+      "reason": "Bedford-Stuyvesant → Brooklyn; Brownsville → Brooklyn: Bedford-Stuyvesant and Brownsville are distinct named neighborhoods merged into the first latent entity; each has geographic support but the identity of the single fact is unresolved.",
+      "evidence_lines": [
+        1099,
+        1100,
+        1101,
+        1106,
+        1168,
+        1170,
+        1171
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Should Bedford-Stuyvesant and Brownsville be separated into distinct geographic facts?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_332__ent_659",
+      "judgment": "supported",
+      "reason": "Williamsburg → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1108,
+        1109,
+        1110,
+        1111,
+        1112,
+        1113,
+        1117
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_574__ent_323",
+      "judgment": "supported",
+      "reason": "Flatbush → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1118,
+        1119,
+        1121,
+        1122,
+        1123,
+        1124,
+        1126
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_573__ent_323",
+      "judgment": "supported",
+      "reason": "Bensonhurst → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1139,
+        1141,
+        1142,
+        1143,
+        1144,
+        1145,
+        1147
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_330__ent_1260",
+      "judgment": "supported",
+      "reason": "Riverdale → Bronx: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1088,
+        1089,
+        1091,
+        1094
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_331__ent_323",
+      "judgment": "supported",
+      "reason": "Crown Heights → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1128,
+        1130,
+        1131,
+        1133
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_334__ent_856",
+      "judgment": "supported",
+      "reason": "Park Slope → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1148,
+        1150,
+        1151,
+        1152
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_571__ent_323",
+      "judgment": "supported",
+      "reason": "Bedford-Stuyvesant → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1098,
+        1104,
+        1105
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_223__ent_1220__ent_659",
+      "judgment": "supported",
+      "reason": "Brownsville → Brooklyn: The first place is explicitly an area, section, neighborhood or district of/in the second place.",
+      "evidence_lines": [
+        1173
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:55:08.669Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_223.json",
+        "annotation_sha256": "e6b95b95fd512d4ac21d3b3c4b754778ec1965c8cdd230a10c44d3c17d5cd9b2",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate_version": 1
+}

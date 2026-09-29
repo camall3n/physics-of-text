@@ -1,0 +1,45 @@
+{
+  "relation": "rel_217",
+  "predicate_id": "coach_of",
+  "predicate_version": 1,
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate": {
+    "id": "coach_of",
+    "label": "coach of",
+    "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+    "includes": [
+      "explicit coach title",
+      "direct coaching with correct subject and team",
+      "former/dismissed coach with clear office evidence",
+      "team/university shorthand when the athletic program role is clear"
+    ],
+    "excludes": [
+      "manager/president/player alone",
+      "winning with a team alone",
+      "vacancy consideration alone",
+      "reverse team-to-coach direction"
+    ],
+    "ambiguous": [
+      "missing coach subject or team attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment."
+  },
+  "dictionary_sha256": "3f5c0da5dcc12cae476b60b4d3ac5489de0437771e6a319e4b63b892cfce99de",
+  "kind": "declared_before_case_grading",
+  "rationale": "Coach title has the greatest dictionary support, ahead of executive succession. Mere consideration as successor or departure is not actual coaching.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:11.210Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_217.before_grading.json",
+  "pregrading_annotation_sha256": "260a502533f218cfeccef34d8de1fc0d0d3f604ef4047605b355702f58a9466d"
+}

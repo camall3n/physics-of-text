@@ -1,0 +1,133 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_321",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3,
+        5,
+        8,
+        11,
+        12,
+        13,
+        18,
+        19,
+        21,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "case_ids": [
+        "rel_321__ent_1240__ent_1233",
+        "rel_321__ent_624__ent_866",
+        "rel_321__ent_867__ent_628",
+        "rel_321__ent_881__ent_101",
+        "rel_321__ent_1062__ent_776",
+        "rel_321__ent_1314__ent_1244",
+        "rel_321__ent_624__ent_627",
+        "rel_321__ent_1304__ent_1375",
+        "rel_321__ent_922__ent_1380",
+        "rel_321__ent_424__ent_1129",
+        "rel_321__ent_1063__ent_1409",
+        "rel_321__ent_1065__ent_1021",
+        "rel_321__ent_1321__ent_277",
+        "rel_321__ent_1128__ent_856",
+        "rel_321__ent_313__ent_688"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_321__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Hughes has both company/unit and executive-at readings, leaving person versus company identity unresolved in this latent fact.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Does Hughes refer to the company throughout, or has an executive mention been merged into it?"
+    },
+    {
+      "indices": [
+        2,
+        28
+      ],
+      "case_ids": [
+        "rel_321__ent_1002__ent_664",
+        "rel_321__ent_660__ent_103"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The argument is a city standing for an office or chapter, rather than an explicitly named organizational unit.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Should this city argument be expanded to the named organization’s local office or chapter?"
+    },
+    {
+      "indices": [
+        4,
+        6,
+        7,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        34,
+        35
+      ],
+      "case_ids": [
+        "rel_321__ent_537__ent_843",
+        "rel_321__ent_462__ent_683",
+        "rel_321__ent_816__ent_725",
+        "rel_321__ent_201__ent_443",
+        "rel_321__ent_457__ent_699",
+        "rel_321__ent_912__ent_918",
+        "rel_321__ent_182__ent_1306",
+        "rel_321__ent_1152__ent_1052",
+        "rel_321__ent_1101__ent_1198",
+        "rel_321__ent_1208__ent_953",
+        "rel_321__ent_732__ent_816",
+        "rel_321__ent_321__ent_1084",
+        "rel_321__ent_957__ent_1308",
+        "rel_321__ent_1333__ent_969",
+        "rel_321__ent_736__ent_783",
+        "rel_321__ent_1442__ent_572",
+        "rel_321__ent_1333__ent_263",
+        "rel_321__ent_750__ent_417"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    11,
+    21
+  ],
+  "broad": []
+}

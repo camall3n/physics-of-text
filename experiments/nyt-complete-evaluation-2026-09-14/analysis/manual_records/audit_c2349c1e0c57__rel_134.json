@@ -1,0 +1,122 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_134",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        33
+      ],
+      "case_ids": [
+        "rel_134__ent_624__ent_866",
+        "rel_134__ent_1104__ent_880",
+        "rel_134__ent_1128__ent_1129",
+        "rel_134__ent_626__ent_868",
+        "rel_134__ent_867__ent_628",
+        "rel_134__ent_624__ent_627",
+        "rel_134__ent_882__ent_640",
+        "rel_134__ent_881__ent_101",
+        "rel_134__ent_666__ent_423",
+        "rel_134__ent_421__ent_423",
+        "rel_134__ent_649__ent_880",
+        "rel_134__ent_665__ent_1120",
+        "rel_134__ent_426__ent_668",
+        "rel_134__ent_1121__ent_425",
+        "rel_134__ent_1154__ent_459",
+        "rel_134__ent_1065__ent_1064",
+        "rel_134__ent_920__ent_1066",
+        "rel_134__ent_1067__ent_923",
+        "rel_134__ent_1068__ent_923",
+        "rel_134__ent_922__ent_880",
+        "rel_134__ent_665__ent_1069",
+        "rel_134__ent_1070__ent_1071",
+        "rel_134__ent_1062__ent_776",
+        "rel_134__ent_424__ent_1129",
+        "rel_134__ent_925__ent_924",
+        "rel_134__ent_1073__ent_1129",
+        "rel_134__ent_623__ent_865",
+        "rel_134__ent_625__ent_393",
+        "rel_134__ent_928__ent_1064",
+        "rel_134__ent_926__ent_929",
+        "rel_134__ent_1063__ent_927"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit unit, part, subsidiary, division or owned-by evidence supports organizational child-to-parent containment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        16
+      ],
+      "case_ids": [
+        "rel_134__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Hughes is a corporate unit/subsidiary and an executive in the same case; the first argument’s entity identity is unresolved.",
+      "tags": [
+        "entity_merge"
+      ],
+      "question": "Is the executive Hughes a different person from the subsidiary Hughes?"
+    },
+    {
+      "indices": [
+        30,
+        32,
+        34
+      ],
+      "case_ids": [
+        "rel_134__ent_728__ent_721",
+        "rel_134__ent_1194__ent_1195",
+        "rel_134__ent_78__ent_75"
+      ],
+      "judgment": "incorrect",
+      "reason": "A personal official role, a critic’s review, or club membership does not establish an organizational subsidiary.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    6,
+    11,
+    16,
+    18,
+    23
+  ],
+  "broad": []
+}

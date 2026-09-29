@@ -1,0 +1,83 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_264",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        5
+      ],
+      "case_ids": [
+        "rel_264__ent_383__ent_140",
+        "rel_264__ent_342__ent_584"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit director, branch head or executive establishes managerial office under the declared broad scope.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_264__ent_291__ent_182",
+        "rel_264__ent_17__ent_827"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director-for is attached to an individual principal alongside advisory or spokesperson roles; the actual managed campaign or institution is omitted.",
+      "tags": [
+        "personal_principal_scope"
+      ],
+      "question": "Which institution, campaign or office did this person direct for the named principal?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_264__ent_1022__ent_161",
+        "rel_264__ent_1110__ent_899",
+        "rel_264__ent_657__ent_899"
+      ],
+      "judgment": "incorrect",
+      "reason": "Spokesperson or lawyer evidence supplies no managerial title.",
+      "tags": [
+        "wrong_occupation"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_264__ent_445__ent_687",
+        "rel_264__ent_723__ent_965"
+      ],
+      "judgment": "incorrect",
+      "reason": "Alternative organizational names or a broadcaster/channel fragment do not identify a person holding managerial office.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0
+  ],
+  "broad": [
+    0,
+    5
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "22857a3e7be5bf2c20c743fea6ead11fdbaf66f60769c4f08a69dbfad11971f7"
+}

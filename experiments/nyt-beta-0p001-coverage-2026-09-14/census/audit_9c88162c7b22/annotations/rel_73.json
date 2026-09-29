@@ -1,0 +1,125 @@
+{
+  "relation": "rel_73",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_73__ent_502__ent_743",
+      "judgment": "ambiguous",
+      "reason": "Thomas S. Gulotta → Nassau County: County executive and inauguration appear, but no head/chief/leader title independently establishes the narrower leadership scope.",
+      "evidence_lines": [
+        8105,
+        8106,
+        8107,
+        8109,
+        8110,
+        8111,
+        8113
+      ],
+      "issue_tags": [
+        "executive_scope"
+      ],
+      "reviewer_question": "Does the supplied executive title mean the head executive of Nassau County or another executive office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.486Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_265__ent_1197",
+      "judgment": "supported",
+      "reason": "Tom Daschle → Senate: Explicit legislative leader or co-chair title establishes an eligible leadership office.",
+      "evidence_lines": [
+        3008,
+        3009,
+        3010,
+        3011,
+        3012,
+        3013
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.485Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_261__ent_1197",
+      "judgment": "supported",
+      "reason": "Bob Dole → Senate: Explicit legislative leader or co-chair title establishes an eligible leadership office.",
+      "evidence_lines": [
+        2966,
+        2967,
+        2970,
+        2971,
+        2972
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.486Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_264__ent_811",
+      "judgment": "supported",
+      "reason": "Richard A. Gephardt → House: Explicit legislative leader or co-chair title establishes an eligible leadership office.",
+      "evidence_lines": [
+        2978,
+        2980,
+        2981,
+        2982,
+        2983
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.486Z"
+      }
+    },
+    {
+      "case_id": "rel_73__ent_265__ent_36",
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle → Democratic: Co-chair/leader evidence points to Democratic as an adjective, with the actual organization or caucus omitted.",
+      "evidence_lines": [
+        3699,
+        3700,
+        3702,
+        3704,
+        3707
+      ],
+      "issue_tags": [
+        "incomplete_argument"
+      ],
+      "reviewer_question": "Which complete Democratic organization or caucus is co-chaired or led here?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.486Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "abb74bec047844378ef0eed94c99db1ee106f9456a7fa2197bdac87a2c856528"
+}

@@ -1,0 +1,79 @@
+{
+  "relation": "rel_331",
+  "predicate_id": "location_of_organization",
+  "label": "location of organization or its office",
+  "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+  "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+  "facts": [
+    {
+      "case_id": "rel_331__ent_843__ent_422",
+      "judgment": "ambiguous",
+      "reason": "New York → Hill: Hill combines an office-of organizational reading with named senator and political campaign readings; the intended entity is unresolved.",
+      "evidence_lines": [
+        4180,
+        4181,
+        4182,
+        4183,
+        4184,
+        4185,
+        4186,
+        4188
+      ],
+      "issue_tags": [
+        "identity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Does Hill denote a specific company office or the political person in these mixed rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:25.910Z"
+      }
+    },
+    {
+      "case_id": "rel_331__ent_407__ent_649",
+      "judgment": "supported",
+      "reason": "Chicago → DDB Worldwide: An explicit geographically modified office-of establishes an office of the named organization in the city.",
+      "evidence_lines": [
+        4124,
+        4126,
+        4127,
+        4129
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:25.910Z"
+      }
+    },
+    {
+      "case_id": "rel_331__ent_843__ent_662",
+      "judgment": "supported",
+      "reason": "New York → Bartle Bogle Hegarty: An explicit geographically modified office-of establishes an office of the named organization in the city.",
+      "evidence_lines": [
+        4161,
+        4162
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:25.910Z"
+      }
+    }
+  ],
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5d505e02a09d16dc1661ddb9fd11d091a680b7b0175449c519c590e5bfb22192"
+}

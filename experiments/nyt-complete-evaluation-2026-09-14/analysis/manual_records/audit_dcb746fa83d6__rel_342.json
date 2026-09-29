@@ -1,0 +1,123 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_342",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22
+      ],
+      "case_ids": [
+        "rel_342__ent_780__ent_1414",
+        "rel_342__ent_806__ent_1414",
+        "rel_342__ent_301__ent_1414",
+        "rel_342__ent_805__ent_808",
+        "rel_342__ent_359__ent_1056",
+        "rel_342__ent_733__ent_975",
+        "rel_342__ent_525__ent_1255",
+        "rel_342__ent_525__ent_527",
+        "rel_342__ent_769__ent_526",
+        "rel_342__ent_768__ent_1275",
+        "rel_342__ent_540__ent_303",
+        "rel_342__ent_1183__ent_1184",
+        "rel_342__ent_807__ent_809",
+        "rel_342__ent_1306__ent_1008",
+        "rel_342__ent_1057__ent_119",
+        "rel_342__ent_806__ent_976",
+        "rel_342__ent_1355__ent_1414",
+        "rel_342__ent_1263__ent_861",
+        "rel_342__ent_839__ent_512"
+      ],
+      "judgment": "supported",
+      "reason": "Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_342__ent_736__ent_783"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The first entity combines Wolzien, Abramowitz and Black, each with analyst evidence, but the names are not established as one person.",
+      "tags": [
+        "mixed_entity_names"
+      ],
+      "question": "Which of Wolzien, Abramowitz or Black does the first entity denote?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_342__ent_1330__ent_1180"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Goldman has analyst rows for Paine Webber and Merrill Lynch merged into the same second entity.",
+      "tags": [
+        "mixed_entity_names"
+      ],
+      "question": "Does the employer entity denote Paine Webber or Merrill Lynch, or should these facts be separated?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_342__ent_1181__ent_777"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Thompson/Lexington and Sweig/Southeast are combined in one tuple; both have analyst evidence but neither resolves the shared identities.",
+      "tags": [
+        "mixed_entity_names"
+      ],
+      "question": "Which person/employer pair is intended, Thompson/Lexington or Sweig/Southeast?"
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_342__ent_1072__ent_277"
+      ],
+      "judgment": "incorrect",
+      "reason": "The named organization is connected to its corporate group by a part-of/name attachment, not a person's analyst affiliation.",
+      "tags": [
+        "wrong_predicate",
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    6,
+    8,
+    10,
+    17
+  ],
+  "broad": []
+}

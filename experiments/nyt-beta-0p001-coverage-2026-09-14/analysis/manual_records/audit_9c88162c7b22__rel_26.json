@@ -1,0 +1,59 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_26",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_26__ent_139__ent_379",
+        "rel_26__ent_154__ent_379",
+        "rel_26__ent_396__ent_153",
+        "rel_26__ent_137__ent_379",
+        "rel_26__ent_266__ent_811",
+        "rel_26__ent_380__ent_1133",
+        "rel_26__ent_386__ent_147"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit chairman title or chairman role establishes the office independently of nomination or other-title rows.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_26__ent_380__ent_0"
+      ],
+      "judgment": "incorrect",
+      "reason": "Only nomination-as-chairman is supplied; nomination alone does not establish holding the office.",
+      "tags": [
+        "nomination_only"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f970b7a5daee917e3f24a717095c1edcfbff23cab7b97aa6f281041c6f30f699"
+}

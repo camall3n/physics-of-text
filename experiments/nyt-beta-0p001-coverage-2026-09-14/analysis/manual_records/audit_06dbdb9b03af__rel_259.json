@@ -1,0 +1,66 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_259",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_259__ent_365__ent_122",
+        "rel_259__ent_364__ent_1050",
+        "rel_259__ent_366__ent_1052",
+        "rel_259__ent_116__ent_358",
+        "rel_259__ent_1053__ent_115",
+        "rel_259__ent_357__ent_599",
+        "rel_259__ent_1054__ent_118"
+      ],
+      "judgment": "supported",
+      "reason": "Direct died-at establishes death at the named physical hospital site.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_259__ent_125__ent_367"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The death venue is truncated to N.Y. ) Hospital, so the actual physical hospital is unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "What is the complete hospital name in the death-location row?"
+    },
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_259__ent_380__ent_138",
+        "rel_259__ent_342__ent_584"
+      ],
+      "judgment": "incorrect",
+      "reason": "Chair renomination or executive role does not establish death location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1c5c9cee5e70315259e7cf8e2bbfcb8437cdec6204568b7a6b81db532da1fead"
+}

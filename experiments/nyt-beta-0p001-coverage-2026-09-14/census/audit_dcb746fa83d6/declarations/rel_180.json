@@ -1,0 +1,51 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "travels_to",
+  "predicate_version": 1,
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate": {
+    "id": "travels_to",
+    "label": "moves or travels to",
+    "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+    "includes": [
+      "move/relocate/return/arrive/go/visit to Y",
+      "depart/leave for Y",
+      "temporary travel or organizational relocation",
+      "bare unqualified destination movement as textual support"
+    ],
+    "excludes": [
+      "leave/withdraw from Y",
+      "mere presence/residence/death place",
+      "sports-event qualification or attendance as a nongeographic destination",
+      "membership or political control"
+    ],
+    "ambiguous": [
+      "explicitly hypothetical or proposed relocation",
+      "invasion-only boundary",
+      "geographic/team or theatrical metonymy"
+    ],
+    "notes": "Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+    "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path."
+  },
+  "dictionary_sha256": "b34a22da5ad0d1bf6b8be3aeead7dc6545e9380330dbdc352800c9070770a722",
+  "kind": "declared_before_case_grading",
+  "rationale": "Move-to and return-to form the largest directed movement family; death at home is a competing residence/death meaning, not movement.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:04:16.286Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    5
+  ],
+  "competing_meanings": [
+    "residence",
+    "death location",
+    "political territorial transfer"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_180.before_grading.json",
+  "pregrading_annotation_sha256": "1736f1a468fc9e34ade91a50c8c309cfb1ccd6d24cccf7959a20b622d4ab0044"
+}

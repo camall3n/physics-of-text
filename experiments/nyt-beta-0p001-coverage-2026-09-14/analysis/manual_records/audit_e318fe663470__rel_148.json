@@ -1,0 +1,104 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_148",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        17
+      ],
+      "case_ids": [
+        "rel_148__ent_189__ent_1002",
+        "rel_148__ent_198__ent_450",
+        "rel_148__ent_856__ent_83",
+        "rel_148__ent_180__ent_1002",
+        "rel_148__ent_492__ent_648",
+        "rel_148__ent_1004__ent_1221",
+        "rel_148__ent_195__ent_1033",
+        "rel_148__ent_669__ent_492",
+        "rel_148__ent_1229__ent_962",
+        "rel_148__ent_1120__ent_1033"
+      ],
+      "judgment": "supported",
+      "reason": "A local leave/move-from/move-out-of row explicitly asserts departure from the stated geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_148__ent_1004__ent_324"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York is used both as a defeated opponent and a geographic departure location within this same inferred fact.",
+      "tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "question": "Which rows denote the city and which denote a New York team?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_148__ent_827__ent_1422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leaving the White House may denote ending an office rather than physical departure; meet-at/return-to do not resolve that departure sense.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does leave refer to physically departing the building or to leaving the administration?"
+    },
+    {
+      "indices": [
+        10,
+        11,
+        12,
+        14,
+        15,
+        16
+      ],
+      "case_ids": [
+        "rel_148__ent_316__ent_1277",
+        "rel_148__ent_317__ent_439",
+        "rel_148__ent_400__ent_467",
+        "rel_148__ent_889__ent_561",
+        "rel_148__ent_1266__ent_264",
+        "rel_148__ent_817__ent_74"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows assert destination travel, defeating a team or leaving a team position, not geographic departure.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e70ed3f59a1efb6f4c086ff055b87eaa96d685e0a8f850506d979faac36315ec"
+}

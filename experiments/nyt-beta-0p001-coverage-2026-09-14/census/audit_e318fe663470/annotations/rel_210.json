@@ -1,0 +1,186 @@
+{
+  "relation": "rel_210",
+  "predicate_id": "trades_players_to",
+  "label": "trades athletes to team",
+  "definition": "Sports team X transfers an athlete to team Y through a sporting player trade.",
+  "scope_notes": "Includes: explicit team-to-team player trade; historical athlete transfer by trade. Excludes: playing against the other team; ordinary trade of goods or territorial transfer; a player joining a team without an identified trading team; mere proposal or interest without a trade. Ambiguous unless resolved by case-local evidence: trade-to with omitted object and unresolved athlete-transfer context; unclear sending versus receiving team; trade talks or future proposal without realization. The athlete is a third role. Clear team-to-team player-trade context can establish the action without naming the player; otherwise retain the omitted-object uncertainty.",
+  "facts": [
+    {
+      "case_id": "rel_210__ent_12__ent_321",
+      "judgment": "ambiguous",
+      "reason": "Yankees → Mets: Trade-to identifies team counterparts but omits the traded player or object; competition rows do not recover it.",
+      "evidence_lines": [
+        907,
+        910,
+        2597,
+        2600
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "Which player was traded, and does this row express a player transfer to the second team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_1004__ent_1013",
+      "judgment": "ambiguous",
+      "reason": "Yankees → Florida Marlins: Trade-to identifies team counterparts but omits the traded player or object; competition rows do not recover it.",
+      "evidence_lines": [
+        6952,
+        6955
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "Which player was traded, and does this row express a player transfer to the second team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_1282__ent_817",
+      "judgment": "ambiguous",
+      "reason": "Mets → Yankees: Trade-to identifies team counterparts but omits the traded player or object; competition rows do not recover it.",
+      "evidence_lines": [
+        912
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "Which player was traded, and does this row express a player transfer to the second team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_925__ent_1012",
+      "judgment": "incorrect",
+      "reason": "Baltimore Orioles → New York Yankees: Pitching/standings, generic action for a team, a corporate unit or a death location does not assert trading a player to another team.",
+      "evidence_lines": [
+        1069
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_12__ent_9",
+      "judgment": "incorrect",
+      "reason": "Yankees → American League East: Pitching/standings, generic action for a team, a corporate unit or a death location does not assert trading a player to another team.",
+      "evidence_lines": [
+        2741
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_1411__ent_1380",
+      "judgment": "incorrect",
+      "reason": "Jordan → Bulls: Pitching/standings, generic action for a team, a corporate unit or a death location does not assert trading a player to another team.",
+      "evidence_lines": [
+        3123
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_1115__ent_623",
+      "judgment": "incorrect",
+      "reason": "San Francisco → Foote: Pitching/standings, generic action for a team, a corporate unit or a death location does not assert trading a player to another team.",
+      "evidence_lines": [
+        4146
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_470__ent_12",
+      "judgment": "ambiguous",
+      "reason": "Mariners → Yankees: Trade-to identifies team counterparts but omits the traded player or object; competition rows do not recover it.",
+      "evidence_lines": [
+        6070
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "Which player was traded, and does this row express a player transfer to the second team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_376__ent_1084",
+      "judgment": "ambiguous",
+      "reason": "Mets → Phillies: Trade-to identifies team counterparts but omits the traded player or object; competition rows do not recover it.",
+      "evidence_lines": [
+        6912
+      ],
+      "issue_tags": [
+        "missing_object"
+      ],
+      "reviewer_question": "Which player was traded, and does this row express a player transfer to the second team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    },
+    {
+      "case_id": "rel_210__ent_947__ent_824",
+      "judgment": "incorrect",
+      "reason": "Diana → Paris: Pitching/standings, generic action for a team, a corporate unit or a death location does not assert trading a player to another team.",
+      "evidence_lines": [
+        8164
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.704Z"
+      }
+    }
+  ],
+  "predicate_hash": "18225cda4b5ea17ac9936a6520e340d7e7d02036377590eadab15f99ddf3a300",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e43691f40b4b59540ec8cff8ae8abfa16c30a708508db9ddcb30f60694db0371"
+}

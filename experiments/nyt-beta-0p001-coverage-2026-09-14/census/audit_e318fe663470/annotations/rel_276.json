@@ -1,0 +1,202 @@
+{
+  "relation": "rel_276",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_276__ent_1000__ent_304",
+      "judgment": "supported",
+      "reason": "Wal-Mart → Bentonville: A local headquarters/based-in row explicitly locates the organization.",
+      "evidence_lines": [
+        808,
+        810,
+        811,
+        813,
+        816,
+        4357,
+        4359
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_1001__ent_307",
+      "judgment": "supported",
+      "reason": "Hewlett-Packard → Palo Alto: A local headquarters/based-in row explicitly locates the organization.",
+      "evidence_lines": [
+        828,
+        832,
+        833,
+        835,
+        837
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_1273__ent_1283",
+      "judgment": "ambiguous",
+      "reason": "Apple → Cupertino; Semiconductor Industry Association → Cupertino: Headquarters/location evidence combines Apple and Semiconductor Industry Association as a single inferred organization.",
+      "evidence_lines": [
+        792,
+        850,
+        4346,
+        4348
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Should Apple and Semiconductor Industry Association be separated?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_547__ent_789",
+      "judgment": "supported",
+      "reason": "I.B.M. → Armonk: A local headquarters/based-in row explicitly locates the organization.",
+      "evidence_lines": [
+        799,
+        801,
+        4395,
+        4397
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_464__ent_221",
+      "judgment": "supported",
+      "reason": "International Data Corporation → Framingham: A local headquarters/based-in row explicitly locates the organization.",
+      "evidence_lines": [
+        5819,
+        5820,
+        7153,
+        7154
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_302__ent_544",
+      "judgment": "supported",
+      "reason": "Microsoft → Redmond: A local headquarters/based-in row explicitly locates the organization.",
+      "evidence_lines": [
+        779,
+        781,
+        4337
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_896__ent_415",
+      "judgment": "supported",
+      "reason": "Monsanto → St. Louis: A local headquarters/based-in row explicitly locates the organization.",
+      "evidence_lines": [
+        4376,
+        4383
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_612__ent_735",
+      "judgment": "incorrect",
+      "reason": "John C. Coffee Jr. → Columbia University: A professor role, geographic attorney-office attachment or nomination does not assert this ordered organizational location.",
+      "evidence_lines": [
+        310
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_537__ent_872",
+      "judgment": "incorrect",
+      "reason": "United States → New York: A professor role, geographic attorney-office attachment or nomination does not assert this ordered organizational location.",
+      "evidence_lines": [
+        7609
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    },
+    {
+      "case_id": "rel_276__ent_1322__ent_261",
+      "judgment": "incorrect",
+      "reason": "Republican → Bob Dole: A professor role, geographic attorney-office attachment or nomination does not assert this ordered organizational location.",
+      "evidence_lines": [
+        7715
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:05:45.459Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b3801f703fe72efb277f829f9b6e7e0ccc6c08b57bf16982de047660ed29af69"
+}

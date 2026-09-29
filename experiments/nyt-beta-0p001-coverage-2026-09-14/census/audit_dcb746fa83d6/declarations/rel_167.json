@@ -1,0 +1,47 @@
+{
+  "relation": "rel_167",
+  "predicate_id": "participated_in_sporting_event",
+  "predicate_version": 1,
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate": {
+    "id": "participated_in_sporting_event",
+    "label": "participated in sporting event",
+    "definition": "Competitor or team X participated in sporting event or competition Y.",
+    "includes": [
+      "actual played-in, competed-in, or appeared-in a sporting event",
+      "being in an event when competitive participation is clear",
+      "a completed win or title in the event, which entails participation"
+    ],
+    "excludes": [
+      "plans, hopes, or qualification without established participation",
+      "attendance as spectator",
+      "membership in a league without participation in the designated event",
+      "non-sporting events or geographic presence alone"
+    ],
+    "ambiguous": [
+      "future or proposed participation",
+      "event occurrence or participant role unclear",
+      "a governing body or location substituted for an unresolved event"
+    ],
+    "notes": "Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+    "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared."
+  },
+  "dictionary_sha256": "0f57be596d8cc2f8ea0c471f4aba4b95920774415ec45c057e81ada239994d69",
+  "kind": "declared_before_case_grading",
+  "rationale": "World Series appearance/seeing/swept/winning family dominates; outcomes differ but coherent sporting-event participation underlies it. Corporate unit and securities filing remain separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.645Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_167.before_grading.json",
+  "pregrading_annotation_sha256": "56e3e35a387b6150c07c1017bc8bf2e178de4e17497bbcc889cd8b7b7def56c0"
+}

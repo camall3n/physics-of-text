@@ -1,0 +1,371 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_298",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        4,
+        5,
+        8,
+        12,
+        17,
+        18,
+        28,
+        29,
+        34,
+        36,
+        37,
+        39,
+        47,
+        72,
+        78
+      ],
+      "case_ids": [
+        "rel_298__ent_384__ent_634",
+        "rel_298__ent_862__ent_1354",
+        "rel_298__ent_1089__ent_615",
+        "rel_298__ent_852__ent_1222",
+        "rel_298__ent_525__ent_527",
+        "rel_298__ent_1417__ent_1450",
+        "rel_298__ent_862__ent_861",
+        "rel_298__ent_847__ent_529",
+        "rel_298__ent_618__ent_611",
+        "rel_298__ent_524__ent_766",
+        "rel_298__ent_553__ent_795",
+        "rel_298__ent_619__ent_1105",
+        "rel_298__ent_1423__ent_962",
+        "rel_298__ent_661__ent_793",
+        "rel_298__ent_773__ent_293",
+        "rel_298__ent_1300__ent_610"
+      ],
+      "judgment": "supported",
+      "reason": "A direct economist role attaches the named person to the named employer or academic institution; the other local roles or attachments do not remove that explicit support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_298__ent_109__ent_522"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The tuple combines Ramirez/Drexel economist evidence with Elson/University of Delaware academic and director evidence, leaving both inferred identities unresolved.",
+      "tags": [
+        "mixed_entity_names"
+      ],
+      "question": "Which ordered pair does this fact denote: Ramirez/Drexel or Elson/University of Delaware?"
+    },
+    {
+      "indices": [
+        42
+      ],
+      "case_ids": [
+        "rel_298__ent_847__ent_1447"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Economist evidence for Steinberg and analyst evidence for Casesa share one first entity at Merrill Lynch; the supplied names are not established as aliases.",
+      "tags": [
+        "mixed_entity_names"
+      ],
+      "question": "Should John Casesa and Bruce Steinberg be separated, and which person is the economist fact about?"
+    },
+    {
+      "indices": [
+        1,
+        7,
+        9,
+        15,
+        23,
+        25,
+        32
+      ],
+      "case_ids": [
+        "rel_298__ent_398__ent_155",
+        "rel_298__ent_148__ent_163",
+        "rel_298__ent_395__ent_156",
+        "rel_298__ent_391__ent_149",
+        "rel_298__ent_398__ent_390",
+        "rel_298__ent_191__ent_530",
+        "rel_298__ent_612__ent_158"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence establishes teaching, academic expertise, research or academic leadership, but no economist affiliation for this ordered pair.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        3,
+        6,
+        14,
+        16,
+        20,
+        21,
+        22,
+        26,
+        27,
+        30,
+        35,
+        38,
+        40,
+        45,
+        46,
+        51,
+        55,
+        56,
+        59,
+        61,
+        63,
+        67,
+        69,
+        73,
+        76,
+        77
+      ],
+      "case_ids": [
+        "rel_298__ent_1414__ent_1345",
+        "rel_298__ent_550__ent_792",
+        "rel_298__ent_357__ent_153",
+        "rel_298__ent_133__ent_375",
+        "rel_298__ent_1044__ent_106",
+        "rel_298__ent_270__ent_410",
+        "rel_298__ent_386__ent_147",
+        "rel_298__ent_139__ent_379",
+        "rel_298__ent_796__ent_311",
+        "rel_298__ent_1006__ent_155",
+        "rel_298__ent_919__ent_918",
+        "rel_298__ent_312__ent_1238",
+        "rel_298__ent_12__ent_15",
+        "rel_298__ent_384__ent_145",
+        "rel_298__ent_371__ent_132",
+        "rel_298__ent_1366__ent_1289",
+        "rel_298__ent_280__ent_85",
+        "rel_298__ent_439__ent_1343",
+        "rel_298__ent_246__ent_1171",
+        "rel_298__ent_382__ent_1441",
+        "rel_298__ent_588__ent_462",
+        "rel_298__ent_276__ent_1044",
+        "rel_298__ent_1137__ent_892",
+        "rel_298__ent_1322__ent_1170",
+        "rel_298__ent_124__ent_817",
+        "rel_298__ent_326__ent_1036",
+        "rel_298__ent_363__ent_1023"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied office, management, founding or directorship paths do not identify an economist for this institution. Additional attachments do not supply the missing role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        10,
+        19,
+        24,
+        31,
+        33,
+        41,
+        48,
+        52,
+        60,
+        62
+      ],
+      "case_ids": [
+        "rel_298__ent_176__ent_175",
+        "rel_298__ent_291__ent_182",
+        "rel_298__ent_187__ent_186",
+        "rel_298__ent_1414__ent_1275",
+        "rel_298__ent_179__ent_521",
+        "rel_298__ent_168__ent_161",
+        "rel_298__ent_1032__ent_159",
+        "rel_298__ent_653__ent_1310",
+        "rel_298__ent_1349__ent_1356",
+        "rel_298__ent_1095__ent_1103"
+      ],
+      "judgment": "incorrect",
+      "reason": "Spokesperson, adviser, lobbying or director evidence is a different professional relationship and does not establish an economist role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        43
+      ],
+      "case_ids": [
+        "rel_298__ent_1196__ent_783"
+      ],
+      "judgment": "incorrect",
+      "reason": "The first entity combines Wolzien and Black, but every supplied professional path is analyst rather than economist; neither interpretation supports this predicate.",
+      "tags": [
+        "wrong_role",
+        "mixed_entity_names"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        71,
+        87
+      ],
+      "case_ids": [
+        "rel_298__ent_1253__ent_1447",
+        "rel_298__ent_1407__ent_1446"
+      ],
+      "judgment": "incorrect",
+      "reason": "Analyst or tracking-for-employer evidence does not establish the distinct economist role.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        13,
+        49,
+        50,
+        53,
+        54,
+        58,
+        64,
+        65,
+        66,
+        68,
+        70,
+        74,
+        75,
+        79,
+        80,
+        81,
+        82
+      ],
+      "case_ids": [
+        "rel_298__ent_786__ent_1283",
+        "rel_298__ent_483__ent_839",
+        "rel_298__ent_1110__ent_837",
+        "rel_298__ent_1122__ent_905",
+        "rel_298__ent_532__ent_216",
+        "rel_298__ent_515__ent_96",
+        "rel_298__ent_182__ent_144",
+        "rel_298__ent_12__ent_682",
+        "rel_298__ent_400__ent_681",
+        "rel_298__ent_182__ent_1033",
+        "rel_298__ent_1192__ent_1079",
+        "rel_298__ent_302__ent_1092",
+        "rel_298__ent_570__ent_54",
+        "rel_298__ent_647__ent_1307",
+        "rel_298__ent_1358__ent_544",
+        "rel_298__ent_426__ent_356",
+        "rel_298__ent_1125__ent_324"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete local evidence describes location, movement, an institution or an event-related attachment, rather than a person serving as economist for the second argument.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        44
+      ],
+      "case_ids": [
+        "rel_298__ent_1225__ent_1270"
+      ],
+      "judgment": "incorrect",
+      "reason": "McIlvaine/Mets, Harazin/Mets and Hicks/Dallas are conflated, but the executive/president/location paths provide no economist role under any of these readings.",
+      "tags": [
+        "wrong_role",
+        "mixed_entity_names"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        57
+      ],
+      "case_ids": [
+        "rel_298__ent_1174__ent_12"
+      ],
+      "judgment": "incorrect",
+      "reason": "Pitching, coaching and bench-related paths establish sports involvement, not an economist affiliation.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        83
+      ],
+      "case_ids": [
+        "rel_298__ent_157__ent_1419"
+      ],
+      "judgment": "incorrect",
+      "reason": "Attacking Democrats is a political interaction rather than economist employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        84
+      ],
+      "case_ids": [
+        "rel_298__ent_1036__ent_478"
+      ],
+      "judgment": "incorrect",
+      "reason": "A known-as name attachment between Abbas and Abu Mazen is not economist affiliation.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        85,
+        86
+      ],
+      "case_ids": [
+        "rel_298__ent_1347__ent_268",
+        "rel_298__ent_1440__ent_1445"
+      ],
+      "judgment": "incorrect",
+      "reason": "Senate-to-named-leader attachments are the wrong direction and role for a person-to-employer economist fact.",
+      "tags": [
+        "wrong_direction",
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    2,
+    4,
+    5,
+    8,
+    12,
+    17,
+    18,
+    28,
+    29,
+    34,
+    36,
+    37,
+    39
+  ],
+  "broad": []
+}

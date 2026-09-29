@@ -1,0 +1,45 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_46",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_46__ent_972__ent_971",
+        "rel_46__ent_970__ent_730"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit official-at or institution-modifying official title establishes formal official status.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_46__ent_84__ent_715"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Baghdad is a dateline or place in the person slot; Interior Ministry official comments do not identify that official as Baghdad.",
+      "tags": [
+        "dateline_argument"
+      ],
+      "question": "Which named Interior Ministry official is speaking in the Baghdad-dateline rows?"
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5069b65dcc2195759985dec221a474804f1e4a992fdd966e4339b04a55b381fa"
+}

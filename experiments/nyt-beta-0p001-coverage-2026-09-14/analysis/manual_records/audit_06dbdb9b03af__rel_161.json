@@ -1,0 +1,73 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_161",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_161__ent_912__ent_918",
+        "rel_161__ent_18__ent_13",
+        "rel_161__ent_919__ent_918",
+        "rel_161__ent_914__ent_586",
+        "rel_161__ent_389__ent_146",
+        "rel_161__ent_298__ent_19",
+        "rel_161__ent_915__ent_918",
+        "rel_161__ent_917__ent_586"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit director-of/possessive or director noun-modifier evidence establishes the office in the institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_161__ent_12__ent_15"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The director role is supported, but Modern is a materially incomplete museum/institution designation.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which museum or institution is denoted by Modern?"
+    },
+    {
+      "indices": [
+        9
+      ],
+      "case_ids": [
+        "rel_161__ent_88__ent_85"
+      ],
+      "judgment": "supported",
+      "reason": "The local director-of row supports the office; Community Board is accepted as institutional shorthand consistently with the earlier full-census office assessments.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "931f4e21bb64fe098d48b3bd72def684599894759133f2954a95fa53ae4a5949"
+}

@@ -1,0 +1,85 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_369",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_369__ent_1045__ent_1403",
+        "rel_369__ent_1423__ent_60",
+        "rel_369__ent_413__ent_1404"
+      ],
+      "judgment": "supported",
+      "reason": "A local playing-with, points-for, or scoring-for row establishes an athlete contribution to this team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        13
+      ],
+      "case_ids": [
+        "rel_369__ent_356__ent_308",
+        "rel_369__ent_63__ent_543",
+        "rel_369__ent_1117__ent_347",
+        "rel_369__ent_217__ent_279"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Lead/pace/add/give or draft/trade context does not explicitly resolve an athlete playing/scoring role in these truncated local paths.",
+      "tags": [
+        "athlete_context"
+      ],
+      "question": "Does the omitted role or object establish that this person played or scored for the team, rather than coaching or another contribution?"
+    },
+    {
+      "indices": [
+        0,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "case_ids": [
+        "rel_369__ent_1004__ent_309",
+        "rel_369__ent_197__ent_199",
+        "rel_369__ent_309__ent_409",
+        "rel_369__ent_1004__ent_772",
+        "rel_369__ent_1441__ent_1444",
+        "rel_369__ent_1329__ent_1440",
+        "rel_369__ent_1029__ent_1359",
+        "rel_369__ent_797__ent_1183",
+        "rel_369__ent_117__ent_520"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete rows concern opposing teams, standings, communication, research or corporate location rather than person-to-team athletic participation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "87c0dd970d864a5abe1ecb17bd850c27cf912c2f718b0718fbab8ae060c3409c"
+}

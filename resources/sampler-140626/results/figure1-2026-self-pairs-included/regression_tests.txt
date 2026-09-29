@@ -1,0 +1,27 @@
+test_distinct_pair_report_preserves_corrected_checkpoints (test_figure1_self_pairs.CorrectedOnlyReportingTest) ... /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+  prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /Users/michal/repos/physics-of-text/.venv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+test_retired_cli_and_known_before_input_are_rejected (test_figure1_self_pairs.CorrectedOnlyReportingTest) ... ok
+test_self_pair_report_contains_only_corrected_worlds (test_figure1_self_pairs.CorrectedOnlyReportingTest) ... ok
+test_all_80_saved_worlds_counts_conservation_and_input_hashes (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_explicit_scores_with_score_one_ties_use_self_first (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_fp_fn_conservation_and_round_trip (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_high_entropy_reference_checkpoints (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_input_and_nested_metadata_are_not_mutated (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_invalid_counts_and_recall_are_rejected (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_invalid_sentence_counts_and_dimensions (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_minimum_world_all_true (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+test_serialization_roundoff_is_tolerated (test_figure1_self_pairs.SelfPairTransformTest) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 3.616s
+
+OK

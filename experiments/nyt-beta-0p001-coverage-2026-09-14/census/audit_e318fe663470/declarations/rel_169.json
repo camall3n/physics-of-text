@@ -1,0 +1,37 @@
+{
+  "relation": "rel_169",
+  "predicate_id": "subsidiary_of",
+  "predicate_version": 1,
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate": {
+    "id": "subsidiary_of",
+    "label": "subsidiary or organizational unit of",
+    "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+    "includes": [
+      "explicit subsidiary/unit/division/organizational-part",
+      "corporate owned-by or an explicit parent relationship in the child-to-parent direction",
+      "historical containment or ownership"
+    ],
+    "excludes": [
+      "employment",
+      "geographic containment",
+      "ordinary affiliation",
+      "reverse parent-to-child direction",
+      "a proposed acquisition"
+    ],
+    "ambiguous": [
+      "city standing for an unnamed office",
+      "minority investment alone without evidence of organizational containment",
+      "incomplete ownership attachment"
+    ],
+    "notes": "Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+    "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part."
+  },
+  "dictionary_sha256": "510a2722106cdd2d3b2d1c831d3f34169d0cac7f532a3f072a5b08d7362e6386",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "prior_annotation_sha256": "21158074a27b913aec35cce1cb39f95cf8287ff39ad957081daba24f4697d1b0",
+  "prior_assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c"
+}

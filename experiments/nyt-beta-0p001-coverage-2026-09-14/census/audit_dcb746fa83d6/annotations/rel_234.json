@@ -1,0 +1,195 @@
+{
+  "relation": "rel_234",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_234__ent_162__ent_1308",
+      "judgment": "supported",
+      "reason": "Charles E. Redman → State Department: Direct spokesman identification establishes representation of the named principal.",
+      "evidence_lines": [
+        1380,
+        1381,
+        1382,
+        1383,
+        1385
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_251__ent_1415",
+      "judgment": "ambiguous",
+      "reason": "John F. Kennedy → White House; Patrick J. Buchanan → White House: A spokesman path is present, but John F. Kennedy and Patrick J. Buchanan are merged in one latent first argument.",
+      "evidence_lines": [
+        2744,
+        2747,
+        2750,
+        8483
+      ],
+      "issue_tags": [
+        "local_entity_collision",
+        "mixed_evidence",
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "Which person does the latent spokesperson argument denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_17__ent_586",
+      "judgment": "supported",
+      "reason": "George Stephanopoulos → White House: Direct spokesman identification establishes representation of the named principal.",
+      "evidence_lines": [
+        8443,
+        8445,
+        8448
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_1031__ent_1390",
+      "judgment": "supported",
+      "reason": "James P. Rubin → State Department: Direct spokesman identification establishes representation of the named principal.",
+      "evidence_lines": [
+        1375,
+        1378
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_577__ent_1308",
+      "judgment": "supported",
+      "reason": "Nicholas Burns → State Department: Direct spokesman identification establishes representation of the named principal.",
+      "evidence_lines": [
+        1389,
+        1393
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_1015__ent_1415",
+      "judgment": "supported",
+      "reason": "Ari Fleischer → White House: Direct spokesman identification establishes representation of the named principal.",
+      "evidence_lines": [
+        1336
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_119__ent_1439",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Kerry: Accusing an opponent or winning an event does not establish spokesperson service.",
+      "evidence_lines": [
+        1588
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_1002__ent_1231",
+      "judgment": "ambiguous",
+      "reason": "Washington → State Department: Washington appears in the person slot of a spokesman title, leaving a dateline or omitted person unresolved.",
+      "evidence_lines": [
+        7438
+      ],
+      "issue_tags": [
+        "dateline_person"
+      ],
+      "reviewer_question": "Which actual spokesperson is represented by the extracted Washington argument?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_290__ent_724",
+      "judgment": "ambiguous",
+      "reason": "Yasushi Akashi → United Nations: Representative alone does not resolve whether Akashi acted as spokesperson rather than a different institutional representative.",
+      "evidence_lines": [
+        7462
+      ],
+      "issue_tags": [
+        "representative_role"
+      ],
+      "reviewer_question": "Does the representative title here entail speaking for the United Nations?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    },
+    {
+      "case_id": "rel_234__ent_752__ent_54",
+      "judgment": "incorrect",
+      "reason": "Pat Cash → Wimbledon: Accusing an opponent or winning an event does not establish spokesperson service.",
+      "evidence_lines": [
+        7996
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:39.951Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "865a484b1da1ba656b2c16361e452be2ebb2554be1c728eb4a1e0e0aee505a69"
+}

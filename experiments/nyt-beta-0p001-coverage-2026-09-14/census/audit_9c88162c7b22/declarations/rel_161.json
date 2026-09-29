@@ -1,0 +1,41 @@
+{
+  "relation": "rel_161",
+  "predicate_id": "economist_for",
+  "predicate_version": 1,
+  "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+  "predicate": {
+    "id": "economist_for",
+    "label": "economist at organization",
+    "definition": "Person X works or worked as an economist for or affiliated with organization Y.",
+    "includes": [
+      "explicit economist at/for/with/of",
+      "historical departmental economist affiliation"
+    ],
+    "excludes": [
+      "analyst/strategist/specialist/professor/executive alone",
+      "generic financial expertise"
+    ],
+    "ambiguous": [
+      "unclear economist/employer attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit economist at/for/with/of; historical departmental economist affiliation. Excludes: analyst/strategist/specialist/professor/executive alone; generic financial expertise. Ambiguous unless resolved by case-local evidence: unclear economist/employer attachment."
+  },
+  "dictionary_sha256": "696c81e7f316e9c7992b85a935a1d97647ef85aef4fc4f83daf8ebccdf602f9a",
+  "kind": "declared_before_case_grading",
+  "rationale": "Economist affiliation is the largest explicit repeated role; sports guard and manager/director titles are not expanded into economics.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.126Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_161.before_grading.json",
+  "pregrading_annotation_sha256": "f0e6e90bf832481f251f1826a3671ce0019c007493d116f4741075037bde5bbf"
+}

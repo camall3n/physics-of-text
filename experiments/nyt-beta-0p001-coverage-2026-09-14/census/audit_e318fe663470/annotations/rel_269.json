@@ -1,0 +1,143 @@
+{
+  "relation": "rel_269",
+  "predicate_id": "geographic_part_of",
+  "label": "geographical part of",
+  "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+  "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution.",
+  "facts": [
+    {
+      "case_id": "rel_269__ent_784__ent_323",
+      "judgment": "ambiguous",
+      "reason": "Williamsburg → Brooklyn; Bensonhurst → Brooklyn; Brownsville → Brooklyn: The geographic containment evidence merges Williamsburg, Bensonhurst and Brownsville as one inferred area.",
+      "evidence_lines": [
+        1110,
+        1111,
+        1115,
+        1116,
+        1140,
+        1170
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which neighborhood should this fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_576__ent_333",
+      "judgment": "supported",
+      "reason": "Chelsea → Manhattan: An explicit local area/neighborhood/section construction establishes geographic containment.",
+      "evidence_lines": [
+        1159,
+        1160,
+        1164,
+        1165,
+        1167
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_573__ent_323",
+      "judgment": "supported",
+      "reason": "Bensonhurst → Brooklyn: An explicit local area/neighborhood/section construction establishes geographic containment.",
+      "evidence_lines": [
+        1139,
+        1141,
+        1145,
+        1146
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_570__ent_778",
+      "judgment": "supported",
+      "reason": "East New York → Brooklyn: An explicit local area/neighborhood/section construction establishes geographic containment.",
+      "evidence_lines": [
+        1079,
+        1080
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_574__ent_1341",
+      "judgment": "supported",
+      "reason": "Flatbush → Brooklyn: An explicit local area/neighborhood/section construction establishes geographic containment.",
+      "evidence_lines": [
+        1119
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_1006__ent_1307",
+      "judgment": "supported",
+      "reason": "Flatbush → Brooklyn: An explicit local area/neighborhood/section construction establishes geographic containment.",
+      "evidence_lines": [
+        1125
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    },
+    {
+      "case_id": "rel_269__ent_575__ent_1307",
+      "judgment": "supported",
+      "reason": "Brownsville → Brooklyn: An explicit local area/neighborhood/section construction establishes geographic containment.",
+      "evidence_lines": [
+        1176
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.753Z"
+      }
+    }
+  ],
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c6a9347e4c1f842ce017790e9dcaa6da57d675880200cde6e397dd64299f232c"
+}

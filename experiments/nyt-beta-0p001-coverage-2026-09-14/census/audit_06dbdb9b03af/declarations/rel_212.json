@@ -1,0 +1,46 @@
+{
+  "relation": "rel_212",
+  "predicate_id": "official_of",
+  "predicate_version": 1,
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate": {
+    "id": "official_of",
+    "label": "official of institution",
+    "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+    "includes": [
+      "explicit official-of, official-at, or institutional official description",
+      "historical official role",
+      "a named formal public office that unambiguously entails official status"
+    ],
+    "excludes": [
+      "ordinary employment without an official role",
+      "a city dateline or institution standing in the person slot",
+      "a generic adviser or spokesperson without official status",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear person versus place identity",
+      "official title attachment unresolved",
+      "a generic institutional role without established official status"
+    ],
+    "notes": "Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+    "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation."
+  },
+  "dictionary_sha256": "6b3d7dc7f9e5265ab92a4ff503c5717b5c2f34493f49bf7e7226c87a77251714",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit institutional official descriptions and official/aide context form the core; separate chair and adviser paths do not broaden this to generic affiliation.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:32:23.947Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    6,
+    7
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_212.before_grading.json",
+  "pregrading_annotation_sha256": "b137d63a454a818001cbcefe18599a568c22f0850529a5080bebd392bbb797e0"
+}

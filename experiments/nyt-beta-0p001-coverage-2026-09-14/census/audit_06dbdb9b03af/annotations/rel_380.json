@@ -1,0 +1,87 @@
+{
+  "relation": "rel_380",
+  "predicate_id": "spokesperson_for",
+  "label": "spokesperson for",
+  "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+  "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal.",
+  "facts": [
+    {
+      "case_id": "rel_380__ent_1002__ent_536",
+      "judgment": "ambiguous",
+      "reason": "Washington → State Department: Spokesperson rows are attached to Washington alongside explicit in-Washington statements, leaving a geographic dateline in the person position.",
+      "evidence_lines": [
+        7436,
+        7437,
+        7438,
+        7441,
+        7442,
+        7444,
+        7445
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Which person is the State Department spokesperson in these Washington dateline rows?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.091Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_1023__ent_329",
+      "judgment": "supported",
+      "reason": "Janel Patterson → Economic Development Corporation: Direct spokeswoman apposition identifies the named organization represented.",
+      "evidence_lines": [
+        1224,
+        1225
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.090Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_80__ent_820",
+      "judgment": "incorrect",
+      "reason": "Soviet Jews → Israel: Emigration of a population to a country is not spokesperson service.",
+      "evidence_lines": [
+        3481,
+        4782
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.091Z"
+      }
+    },
+    {
+      "case_id": "rel_380__ent_326__ent_568",
+      "judgment": "supported",
+      "reason": "Marjorie Anders → Metro-North: Direct spokeswoman apposition identifies the named organization represented.",
+      "evidence_lines": [
+        1221
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:30:52.091Z"
+      }
+    }
+  ],
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "8a03c5ab6c28da8482a929ce6efddba9b0e6d759fc97d6bfb0a2dab334c6dd53"
+}

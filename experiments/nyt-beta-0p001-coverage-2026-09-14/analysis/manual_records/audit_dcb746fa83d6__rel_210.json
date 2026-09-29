@@ -1,0 +1,56 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_210",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_210__ent_1272__ent_305"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit corporate campus and offices in Cupertino establish organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_210__ent_896__ent_415"
+      ],
+      "judgment": "supported",
+      "reason": "The corporation named city and physical manufacturing in St. Louis establish organizational operations located there.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_210__ent_564__ent_1002",
+        "rel_210__ent_125__ent_1279",
+        "rel_210__ent_804__ent_73"
+      ],
+      "judgment": "incorrect",
+      "reason": "A person office in a city or person spokesperson role is not organization-to-geographic-location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "3e35ed00fb12ca96b640cf7188a596907b4204416fb0c4fe535ed6b06152619c"
+}

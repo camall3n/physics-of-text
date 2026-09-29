@@ -1,0 +1,39 @@
+{
+  "relation": "rel_76",
+  "predicate_id": "departed_from",
+  "predicate_version": 1,
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate": {
+    "id": "departed_from",
+    "label": "departed from",
+    "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+    "includes": [
+      "leave/withdraw/pull out from Y",
+      "historical physical departure"
+    ],
+    "excludes": [
+      "arrival/return to Y",
+      "residence alone",
+      "leaving a job or team as an institution without geography"
+    ],
+    "ambiguous": [
+      "place versus institution as source",
+      "explicitly conditional departure"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+  },
+  "dictionary_sha256": "b1a2515d58776eff423dd53227ded1bd6e38f6601dd245e308b32407a8d5ee13",
+  "kind": "declared_before_case_grading",
+  "rationale": "Withdraw/withdrawal/pullout/driven-out/completed-withdrawal form the dominant geographic departure family, exceeding invasion/attack. Arrival or invasion alone is not departure.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.892Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_76.before_grading.json",
+  "pregrading_annotation_sha256": "85f986d2175cd26e894a95474034e990a7e83a224700087feaf243f9afb43875"
+}

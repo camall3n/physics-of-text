@@ -1,0 +1,42 @@
+{
+  "relation": "rel_392",
+  "predicate_id": "member_of",
+  "predicate_version": 1,
+  "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+  "predicate": {
+    "id": "member_of",
+    "label": "member of organization",
+    "definition": "Person, country or organization X is or becomes a member of organization, alliance, party or public body Y.",
+    "includes": [
+      "explicit member/belong/membership",
+      "join/accession/entry when organizational membership is established",
+      "individual legislators and countries in alliances"
+    ],
+    "excludes": [
+      "join a person in an action",
+      "geographic entry",
+      "event participation",
+      "party control of legislature",
+      "negotiations or proposed membership alone"
+    ],
+    "ambiguous": [
+      "bare join without clear completion or membership meaning",
+      "plural party naming individual members rather than the party itself"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit member/belong/membership; join/accession/entry when organizational membership is established; individual legislators and countries in alliances. Excludes: join a person in an action; geographic entry; event participation; party control of legislature; negotiations or proposed membership alone. Ambiguous unless resolved by case-local evidence: bare join without clear completion or membership meaning; plural party naming individual members rather than the party itself."
+  },
+  "dictionary_sha256": "b5a2dfd3abb0d69c34557eff7519a2b62f2459caf9e5ed96893279230d91f26b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Join/member/entry/membership/accession dominate with countries entering international institutions; join-person/action is excluded.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:07:11.672Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_392.before_grading.json",
+  "pregrading_annotation_sha256": "e4fd6c50a5e0aa7f44cbd5580b4497e77e267c774869f306c04be53490faa0aa"
+}

@@ -1,0 +1,77 @@
+{
+  "relation": "rel_347",
+  "label": "business or organization based or located in",
+  "definition": "Business or organization X is based or physically located in geographic place Y.",
+  "scope_notes": "Preserves the prior location predicate. Explicit based-in and company/firm-in constructions qualify. Geographic noun modification can indicate a place, but nationality adjectives without a recoverable place and Wall Street used only as an industry label remain ambiguous; ordinary business association alone does not suffice.",
+  "facts": [
+    {
+      "case_id": "rel_347__ent_461__ent_222",
+      "judgment": "supported",
+      "reason": "Dataquest is explicitly based in San Jose and described as a company there in several rows.",
+      "evidence_lines": [
+        5805,
+        5810,
+        5812,
+        7100,
+        7104,
+        7106
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_347__ent_293__ent_10",
+      "judgment": "ambiguous",
+      "reason": "A based-in path supports a location relation, but its literal destination German is truncated or adjectival rather than an unambiguous place name.",
+      "evidence_lines": [
+        3607,
+        3608
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Does German stand for Germany or for another truncated location in the original sentence?"
+    },
+    {
+      "case_id": "rel_347__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company is explicitly a firm/company in Washington and based there; adjective-only evidence is not needed.",
+      "evidence_lines": [
+        7422,
+        7427,
+        7429
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_347__ent_464__ent_221",
+      "judgment": "supported",
+      "reason": "International Data Corporation is explicitly a firm/company in Framingham and based there.",
+      "evidence_lines": [
+        5813,
+        5814,
+        5815,
+        7147,
+        7149
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_347__ent_1089__ent_953",
+      "judgment": "ambiguous",
+      "reason": "Wall Street modifies firm and house, which can denote financial-industry affiliation rather than a physical address; no explicit based/in path resolves it.",
+      "evidence_lines": [
+        7380,
+        7381,
+        7382
+      ],
+      "issue_tags": [
+        "attachment"
+      ],
+      "reviewer_question": "Is Birinyi Associates physically located on Wall Street here, or is Wall Street only an industry descriptor?"
+    }
+  ]
+}

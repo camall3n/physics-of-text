@@ -1,0 +1,41 @@
+{
+  "relation": "rel_293",
+  "predicate_id": "location_of_organization",
+  "predicate_version": 1,
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate": {
+    "id": "location_of_organization",
+    "label": "location of organization or its office",
+    "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+    "includes": [
+      "explicit organization location, headquarters, office, or base in X",
+      "a geographically identified office or division of Y located in X",
+      "historical physical organizational location"
+    ],
+    "excludes": [
+      "X is a corporate subsidiary or parent rather than a geographic place",
+      "national affiliation alone without physical location",
+      "ordinary travel, discussion, or an unrelated event in X"
+    ],
+    "ambiguous": [
+      "place versus institution metonymy unresolved",
+      "a geographic division name without clear physical location",
+      "unclear organization or location attachment"
+    ],
+    "notes": "This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+    "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location."
+  },
+  "dictionary_sha256": "4a03d9795dca1b92bdbd2aff12a00a2c4c57eeebfd8c5d02633a09eb2ce104aa",
+  "kind": "declared_before_case_grading",
+  "rationale": "Geographic office-of is the dominant repeated path; corporate part-of descriptions of offices are distinct from the city itself being a subsidiary.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:26:28.631Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_293.before_grading.json",
+  "pregrading_annotation_sha256": "d22c95317999ed843bb372972f945a7421452f3e6105116caa9f261ab7f01564"
+}

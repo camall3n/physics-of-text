@@ -1,0 +1,68 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_16",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_16__ent_678__ent_302"
+      ],
+      "judgment": "incorrect",
+      "reason": "A Microsoft mogul description has no death-location evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_16__ent_365__ent_122",
+        "rel_16__ent_364__ent_1050",
+        "rel_16__ent_1051__ent_124",
+        "rel_16__ent_366__ent_1052",
+        "rel_16__ent_116__ent_358",
+        "rel_16__ent_1053__ent_115",
+        "rel_16__ent_357__ent_599",
+        "rel_16__ent_1054__ent_118",
+        "rel_16__ent_1055__ent_117"
+      ],
+      "judgment": "supported",
+      "reason": "The direct died-at path identifies the named hospital as the physical location of this person’s death.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_16__ent_125__ent_367"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Died-at supplies a death location, but N.Y. ) Hospital is a truncated extraction that does not identify the particular hospital.",
+      "tags": [
+        "truncated_place"
+      ],
+      "question": "Which hospital is represented by N.Y. ) Hospital in the death-location statement?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "bcce4f9092e7b8aa36ce5036786559ccd615191ae6188c819e94d54b9ac30443"
+}

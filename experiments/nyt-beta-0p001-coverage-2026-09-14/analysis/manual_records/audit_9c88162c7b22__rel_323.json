@@ -1,0 +1,54 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_323",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_323__ent_224__ent_466"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit company-in and based-in paths establish Soundscan’s organizational location in Hartsdale.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_323__ent_570__ent_323"
+      ],
+      "judgment": "ambiguous",
+      "reason": "School and station modifiers coexist with section-of-Brooklyn and street evidence. The East New York argument is not resolved as an organization rather than a neighborhood or a modifier of an unnamed institution.",
+      "tags": [
+        "entity_type"
+      ],
+      "question": "Which organization is named East New York, rather than the neighborhood modifying a school or station?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_323__ent_293__ent_10"
+      ],
+      "judgment": "ambiguous",
+      "reason": "German is an adjectival nationality fragment; even the based-in path leaves the geographic destination incompletely named.",
+      "tags": [
+        "truncated_place"
+      ],
+      "question": "Does German stand for Germany in the based-in statement, or modify another omitted place or institution?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "22ec991e0817087a44e108aa5af328711bb38cfd166a3f230de9638fa3d2f2a0"
+}

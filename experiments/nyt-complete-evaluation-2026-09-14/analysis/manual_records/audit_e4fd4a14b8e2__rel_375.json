@@ -1,0 +1,185 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_375",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        14,
+        15,
+        16,
+        21,
+        22,
+        25,
+        27,
+        29
+      ],
+      "case_ids": [
+        "rel_375__ent_207__ent_407",
+        "rel_375__ent_1147__ent_209",
+        "rel_375__ent_462__ent_683",
+        "rel_375__ent_461__ent_222",
+        "rel_375__ent_463__ent_440",
+        "rel_375__ent_345__ent_333",
+        "rel_375__ent_955__ent_1002",
+        "rel_375__ent_1148__ent_460",
+        "rel_375__ent_539__ent_713",
+        "rel_375__ent_220__ent_407",
+        "rel_375__ent_714__ent_1002",
+        "rel_375__ent_700__ent_843",
+        "rel_375__ent_1082__ent_843",
+        "rel_375__ent_942__ent_843",
+        "rel_375__ent_224__ent_466",
+        "rel_375__ent_716__ent_958",
+        "rel_375__ent_449__ent_1146"
+      ],
+      "judgment": "supported",
+      "reason": "A clear organizational geographic modifier, firm/company-in or based-in row establishes location in the named place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        11,
+        12,
+        13,
+        18,
+        24
+      ],
+      "case_ids": [
+        "rel_375__ent_934__ent_1079",
+        "rel_375__ent_290__ent_11",
+        "rel_375__ent_27__ent_29",
+        "rel_375__ent_23__ent_29",
+        "rel_375__ent_293__ent_10",
+        "rel_375__ent_39__ent_38"
+      ],
+      "judgment": "ambiguous",
+      "reason": "National adjectives, ownership/government associations or corporate origin do not unambiguously identify a physical location.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Does the adjective name the organizations actual geographic location, and what complete place name is intended?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_375__ent_300__ent_843"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The first argument Kohlberg is described both as a company/firm and as born in New York, leaving person-versus-firm identity unresolved within the same case.",
+      "tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "question": "Do the born-in and company-in rows concern the same referent, or has a person been mixed with the firm?"
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_375__ent_515__ent_96"
+      ],
+      "judgment": "incorrect",
+      "reason": "The paths describe a persons birth, family and books rather than organizational location.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        19,
+        23,
+        28
+      ],
+      "case_ids": [
+        "rel_375__ent_447__ent_0",
+        "rel_375__ent_282__ent_347",
+        "rel_375__ent_368__ent_129"
+      ],
+      "judgment": "incorrect",
+      "reason": "The evidence concerns a persons political or sports office/affiliation, not an organization located in a geographic place.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        20,
+        26,
+        30,
+        31
+      ],
+      "case_ids": [
+        "rel_375__ent_1080__ent_936",
+        "rel_375__ent_956__ent_936",
+        "rel_375__ent_933__ent_936",
+        "rel_375__ent_943__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "Internet marks industry or online activity, not a geographic place.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        32,
+        33
+      ],
+      "case_ids": [
+        "rel_375__ent_950__ent_931",
+        "rel_375__ent_1081__ent_931"
+      ],
+      "judgment": "incorrect",
+      "reason": "Bell corporate-family and venture relations are not geographical location.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        34
+      ],
+      "case_ids": [
+        "rel_375__ent_20__ent_22"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A person name is attached to a company modifier whose second argument is Los Angeles-based; the omitted firm and actual place argument are unclear.",
+      "tags": [
+        "entity_identity",
+        "attachment"
+      ],
+      "question": "Which company does Paul Dergarabedian represent here, and is the extracted subject incorrectly substituting him for that company?"
+    }
+  ],
+  "mixed": [
+    4,
+    10,
+    16,
+    25,
+    27
+  ],
+  "broad": []
+}

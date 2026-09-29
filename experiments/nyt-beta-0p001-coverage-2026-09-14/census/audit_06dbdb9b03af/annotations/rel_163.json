@@ -1,0 +1,74 @@
+{
+  "relation": "rel_163",
+  "predicate_id": "reviews_artistic_output_of",
+  "label": "reviewed artistic output of",
+  "definition": "Person X explicitly reviews or reviewed artistic work or performance produced or performed by artist, ensemble, or producing institution Y.",
+  "scope_notes": "Includes: review of Y's performance, program, production, or artistic work; direct review of artist or ensemble Y in an artistic criticism context; historical reviews. Excludes: a review merely taking place at venue Y; ordinary mention, attendance, or affiliation; an unrelated subject reviewed at a place owned by Y; authorship for a publication without reviewing Y's work. Ambiguous unless resolved by case-local evidence: Y could denote the venue rather than the producer or performer; unclear reviewer or artistic-work attachment. Inspect argument roles before assigning this predicate. A producing theater or ensemble can be Y; a venue alone is not automatically the artistic creator.",
+  "facts": [
+    {
+      "case_id": "rel_163__ent_1189__ent_1190",
+      "judgment": "supported",
+      "reason": "Anna Kisselgoff → American Ballet Theater: Review of the ballet company program, premiere, season and revival establishes artistic review of its output.",
+      "evidence_lines": [
+        1863,
+        1864,
+        1865,
+        1866,
+        1867,
+        1868
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:23.025Z"
+      }
+    },
+    {
+      "case_id": "rel_163__ent_843__ent_420",
+      "judgment": "incorrect",
+      "reason": "New York → Federal Bureau of Investigation: Investigative agency activity or company location is not artistic criticism by the first argument.",
+      "evidence_lines": [
+        4152,
+        4154,
+        4155,
+        4156,
+        4160
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:23.025Z"
+      }
+    },
+    {
+      "case_id": "rel_163__ent_548__ent_1003",
+      "judgment": "incorrect",
+      "reason": "Johnson & Johnson → New Brunswick: Investigative agency activity or company location is not artistic criticism by the first argument.",
+      "evidence_lines": [
+        857,
+        859,
+        4390,
+        4392
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:23.025Z"
+      }
+    }
+  ],
+  "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5fa3e723fe1310bf601fac20f8bdf893a6f79929787b1a75179d5c5ab74590fe"
+}

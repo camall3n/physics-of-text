@@ -1,0 +1,70 @@
+{
+  "relation": "rel_259",
+  "predicate_id": "official_of",
+  "label": "official of institution",
+  "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+  "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+  "facts": [
+    {
+      "case_id": "rel_259__ent_972__ent_971",
+      "judgment": "supported",
+      "reason": "Webster L. Hubbell → Justice Department: Explicit governmental official or public council chair office establishes official status, including historical tenure.",
+      "evidence_lines": [
+        7471,
+        7474,
+        7475,
+        7476,
+        7477,
+        7478
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.303Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_561__ent_1340",
+      "judgment": "incorrect",
+      "reason": "Giants → Eagles: Sports opposition and player trade do not establish a public official role.",
+      "evidence_lines": [
+        2657,
+        2659,
+        2660
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.303Z"
+      }
+    },
+    {
+      "case_id": "rel_259__ent_898__ent_59",
+      "judgment": "supported",
+      "reason": "Laura D'Andrea Tyson → Council of Economic Advisers: Explicit governmental official or public council chair office establishes official status, including historical tenure.",
+      "evidence_lines": [
+        2880,
+        2884
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:19.303Z"
+      }
+    }
+  ],
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "49a9f5ebf75350a1b85994023a2fcf80b2300ed46634e4a916df7647fef77d7d"
+}

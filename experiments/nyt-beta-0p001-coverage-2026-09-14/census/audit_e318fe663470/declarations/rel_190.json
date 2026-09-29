@@ -1,0 +1,41 @@
+{
+  "relation": "rel_190",
+  "predicate_id": "succeeded_person",
+  "predicate_version": 1,
+  "predicate_hash": "cf88bc7434fa6be9db182b5aa625fc51bf1a23063c2fa8093914b8cfff879157",
+  "predicate": {
+    "id": "succeeded_person",
+    "label": "succeeded person in role",
+    "definition": "Person X took over a role previously held by person Y.",
+    "includes": [
+      "explicit succession or replacement in an office or professional role",
+      "historical successor taking office",
+      "clearly established temporary or acting replacement"
+    ],
+    "excludes": [
+      "X appointed a third person to replace Y",
+      "generic opposition, criticism, or substitution unrelated to a role",
+      "a proposed successor without established tenure"
+    ],
+    "ambiguous": [
+      "bare replace where appointing versus taking over is unresolved",
+      "unclear predecessor or role",
+      "candidate or announced future replacement without tenure"
+    ],
+    "notes": "Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously.",
+    "scope_notes": "Includes: explicit succession or replacement in an office or professional role; historical successor taking office; clearly established temporary or acting replacement. Excludes: X appointed a third person to replace Y; generic opposition, criticism, or substitution unrelated to a role; a proposed successor without established tenure. Ambiguous unless resolved by case-local evidence: bare replace where appointing versus taking over is unresolved; unclear predecessor or role; candidate or announced future replacement without tenure. Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously."
+  },
+  "dictionary_sha256": "73cd732bddc22ec3fa4432aa8755b70ded39054db5dcda45ac273f2785d40f33",
+  "kind": "declared_before_case_grading",
+  "rationale": "Replace and succeed paths dominate with person-to-person office/coach succession roles. Replacement decision-maker versus actual successor remains ambiguous where no local role resolves it.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:07:11.891Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_190.before_grading.json",
+  "pregrading_annotation_sha256": "2d393aa00e6f54282866d78cad8f9b25b599db4fc99d0b7ef838a3e75f540135"
+}

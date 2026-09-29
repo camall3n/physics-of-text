@@ -1,0 +1,356 @@
+{
+  "relation": "rel_108",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_108__ent_1119__ent_1404",
+      "judgment": "supported",
+      "reason": "Bobby Holik → Devils; Holik → Devils: A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "evidence_lines": [
+        4279,
+        4281,
+        4282,
+        4283,
+        4284,
+        4286,
+        4287,
+        4300
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_413__ent_1320",
+      "judgment": "supported",
+      "reason": "Holik → Devils: A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "evidence_lines": [
+        4299,
+        4301,
+        4303,
+        4304
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1095__ent_960",
+      "judgment": "ambiguous",
+      "reason": "Mike Krzyzewski → Duke: Bare lead, staying with a team or contract extension does not resolve athlete versus coaching/management role from these local rows.",
+      "evidence_lines": [
+        7257,
+        7258,
+        7261,
+        7262
+      ],
+      "issue_tags": [
+        "athlete_context",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the omitted role establish a playing athlete rather than a coach or manager?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_273__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "Joe Torre → Yankees: Bare lead, staying with a team or contract extension does not resolve athlete versus coaching/management role from these local rows.",
+      "evidence_lines": [
+        3178,
+        3180,
+        3182
+      ],
+      "issue_tags": [
+        "athlete_context",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the omitted role establish a playing athlete rather than a coach or manager?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_247__ent_489",
+      "judgment": "incorrect",
+      "reason": "Louis Farrakhan → Nation of Islam: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        2949,
+        4971
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_66__ent_543",
+      "judgment": "ambiguous",
+      "reason": "Kidd → Nets: Bare lead, staying with a team or contract extension does not resolve athlete versus coaching/management role from these local rows.",
+      "evidence_lines": [
+        3107,
+        3108
+      ],
+      "issue_tags": [
+        "athlete_context"
+      ],
+      "reviewer_question": "Does the omitted role establish a playing athlete rather than a coach or manager?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_66__ent_72",
+      "judgment": "supported",
+      "reason": "Kidd → Nets: A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "evidence_lines": [
+        3110,
+        3113
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1271__ent_1403",
+      "judgment": "supported",
+      "reason": "Michael Jordan → Bulls: A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "evidence_lines": [
+        3149,
+        3153
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1116__ent_110",
+      "judgment": "supported",
+      "reason": "MacLean → Devils: A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "evidence_lines": [
+        4251,
+        4254
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_382__ent_1361",
+      "judgment": "incorrect",
+      "reason": "William J. Casey → Central Intelligence: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        132
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1006__ent_1279",
+      "judgment": "incorrect",
+      "reason": "WASHINGTON → State Department: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        660
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_556__ent_574",
+      "judgment": "incorrect",
+      "reason": "Mr. Lee → Taiwan: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        987
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1415__ent_398",
+      "judgment": "incorrect",
+      "reason": "White House → Congress: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        2061
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_64__ent_95",
+      "judgment": "ambiguous",
+      "reason": "Patrick Ewing → Knicks: Bare lead, staying with a team or contract extension does not resolve athlete versus coaching/management role from these local rows.",
+      "evidence_lines": [
+        3066
+      ],
+      "issue_tags": [
+        "athlete_context"
+      ],
+      "reviewer_question": "Does the omitted role establish a playing athlete rather than a coach or manager?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_63__ent_72",
+      "judgment": "supported",
+      "reason": "Richard Jefferson → Nets: A local player/center/scorer, playing-with or scoring-for row explicitly establishes athletic participation for the team.",
+      "evidence_lines": [
+        3098
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1423__ent_917",
+      "judgment": "ambiguous",
+      "reason": "Dominique Wilkins → Hawks: Bare lead, staying with a team or contract extension does not resolve athlete versus coaching/management role from these local rows.",
+      "evidence_lines": [
+        3125
+      ],
+      "issue_tags": [
+        "athlete_context"
+      ],
+      "reviewer_question": "Does the omitted role establish a playing athlete rather than a coach or manager?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_1390__ent_577",
+      "judgment": "incorrect",
+      "reason": "State Department → Nicholas Burns: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        5430
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_639__ent_724",
+      "judgment": "incorrect",
+      "reason": "Democrats → Hillary Rodham Clinton: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        7593
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    },
+    {
+      "case_id": "rel_108__ent_310__ent_1440",
+      "judgment": "incorrect",
+      "reason": "White House → Congress: The institution or paths concern political/religious leadership, directorship, dateline reporting or other non-athletic relations.",
+      "evidence_lines": [
+        7884
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:17:21.652Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c3efee98029d2456e16fb06200dd9bc6e3e26be5cd38cbb4d19496a0360e4ff1"
+}

@@ -1,0 +1,79 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_357",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "case_ids": [
+        "rel_357__ent_1225__ent_321",
+        "rel_357__ent_104__ent_1331",
+        "rel_357__ent_131__ent_1230",
+        "rel_357__ent_312__ent_554",
+        "rel_357__ent_105__ent_1331",
+        "rel_357__ent_275__ent_561",
+        "rel_357__ent_275__ent_1044",
+        "rel_357__ent_401__ent_110",
+        "rel_357__ent_161__ent_1282"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit president title in this fact establishes the presidency of the stated institution/team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_357__ent_1291__ent_497"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Yugoslav is a materially truncated political-body argument despite the president title.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which complete political institution is meant by Yugoslav?"
+    },
+    {
+      "indices": [
+        8,
+        10,
+        12
+      ],
+      "case_ids": [
+        "rel_357__ent_1422__ent_1311",
+        "rel_357__ent_1318__ent_297",
+        "rel_357__ent_1394__ent_1421"
+      ],
+      "judgment": "incorrect",
+      "reason": "Press activity, institutional admission or killing does not establish a president office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "37c45bde0aea8fd0a21699f76f1bf51d6d073865ba0358891230473cfa73e653"
+}

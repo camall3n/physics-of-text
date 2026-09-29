@@ -1,0 +1,124 @@
+{
+  "relation": "rel_39",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_39__ent_1221__ent_263",
+      "judgment": "supported",
+      "reason": "Joseph L. Bruno → Republican: An explicit Republican leader title establishes organizational leadership under the preserved party-label convention.",
+      "evidence_lines": [
+        3025,
+        3026,
+        3028,
+        3030,
+        3032,
+        3033
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.475Z"
+      }
+    },
+    {
+      "case_id": "rel_39__ent_26__ent_1375",
+      "judgment": "incorrect",
+      "reason": "American Airlines → AMR Corporation; Gazprom → Russian: Corporate operation or a company's nationality does not establish person-to-institution leadership.",
+      "evidence_lines": [
+        2569,
+        3649
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.475Z"
+      }
+    },
+    {
+      "case_id": "rel_39__ent_267__ent_764",
+      "judgment": "supported",
+      "reason": "Trent Lott → Republican: An explicit Republican leader title establishes organizational leadership under the preserved party-label convention.",
+      "evidence_lines": [
+        3758,
+        3761
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.475Z"
+      }
+    },
+    {
+      "case_id": "rel_39__ent_49__ent_36",
+      "judgment": "ambiguous",
+      "reason": "George J. Mitchell → Democratic: The leadership role attaches to Democratic or Palestinian as an incomplete political-body adjective.",
+      "evidence_lines": [
+        3768,
+        3769
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which complete political body or party is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.475Z"
+      }
+    },
+    {
+      "case_id": "rel_39__ent_1337__ent_458",
+      "judgment": "ambiguous",
+      "reason": "Yasir Arafat → Palestinian: The leadership role attaches to Democratic or Palestinian as an incomplete political-body adjective.",
+      "evidence_lines": [
+        3686
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which complete political body or party is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.475Z"
+      }
+    },
+    {
+      "case_id": "rel_39__ent_265__ent_1216",
+      "judgment": "ambiguous",
+      "reason": "Tom Daschle → Democratic: The leadership role attaches to Democratic or Palestinian as an incomplete political-body adjective.",
+      "evidence_lines": [
+        3698
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which complete political body or party is intended?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.475Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "c9f3d763d4b0375745cebc8fb5e5d1ecf6de26f22f1c82b62cd82ad0a4ac9c3b"
+}

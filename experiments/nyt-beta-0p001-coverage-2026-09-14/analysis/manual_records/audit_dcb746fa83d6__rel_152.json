@@ -1,0 +1,57 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_152",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_152__ent_645__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Walter Mendelsohn and Mark are merged in the same subject entity without local evidence that they are the same person, despite residence/home support.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Do Walter Mendelsohn and Mark identify the same resident?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_152__ent_235__ent_477"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit live-in and population-percentage evidence establishes residence among members of the population.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_152__ent_1175__ent_1029"
+      ],
+      "judgment": "incorrect",
+      "reason": "Coaching and putting a team do not establish geographic residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [
+    0
+  ],
+  "predicate_declaration_sha256": "727c82ba6de5ec8a06700f312cf796ecc0606bd85422e277cab07f31bb000d44"
+}

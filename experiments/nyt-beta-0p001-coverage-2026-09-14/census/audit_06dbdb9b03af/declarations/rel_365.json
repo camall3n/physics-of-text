@@ -1,0 +1,47 @@
+{
+  "relation": "rel_365",
+  "predicate_id": "location_of_organization",
+  "predicate_version": 1,
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate": {
+    "id": "location_of_organization",
+    "label": "location of organization or its office",
+    "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+    "includes": [
+      "explicit organization location, headquarters, office, or base in X",
+      "a geographically identified office or division of Y located in X",
+      "historical physical organizational location"
+    ],
+    "excludes": [
+      "X is a corporate subsidiary or parent rather than a geographic place",
+      "national affiliation alone without physical location",
+      "ordinary travel, discussion, or an unrelated event in X"
+    ],
+    "ambiguous": [
+      "place versus institution metonymy unresolved",
+      "a geographic division name without clear physical location",
+      "unclear organization or location attachment"
+    ],
+    "notes": "This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+    "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location."
+  },
+  "dictionary_sha256": "873b8b7e273da1081b944dd666ec8ad22bf37c6bc2c1ead57103ba9634575bfd",
+  "kind": "declared_before_case_grading",
+  "rationale": "City-office-of3 plus local office/officer/agency context define inverse physical organizational location.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:25:33.932Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    5,
+    6,
+    8,
+    9
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_365.before_grading.json",
+  "pregrading_annotation_sha256": "cf5846779f7a56cf2877e898583ed2d8bf7ec398db9d8b3c56720481bc9fdcc1"
+}

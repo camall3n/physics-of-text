@@ -1,0 +1,55 @@
+{
+  "relation": "rel_301",
+  "predicate_id": "president_of",
+  "predicate_version": 1,
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate": {
+    "id": "president_of",
+    "label": "president of institution",
+    "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+    "includes": [
+      "explicit president office",
+      "a functional or departmental president role within Y",
+      "historical or former presidency"
+    ],
+    "excludes": [
+      "manager, director, chairman, head, or executive alone without a president title",
+      "ordinary employment or membership",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "president-elect or unresolved tenure without evidence of holding office",
+      "an incomplete institution or personal principal",
+      "unclear holder or title attachment"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+    "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y."
+  },
+  "dictionary_sha256": "2253251ac2158a7a9530878760903245d284556e7f7149739923ab6adc7b4fcd",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit presidency dominates; candidacy, nomination and proposals remain nonactual or ambiguous rather than establishing tenure.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.278Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    17,
+    19,
+    22
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_301.before_grading.json",
+  "pregrading_annotation_sha256": "c58786d4bf8be2ae3ceec5d0a565bffa0a89850d16a2da6163609a4be9e112b8"
+}

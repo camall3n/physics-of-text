@@ -1,0 +1,43 @@
+{
+  "relation": "rel_12",
+  "predicate_id": "analyst_for",
+  "predicate_version": 1,
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate": {
+    "id": "analyst_for",
+    "label": "analyst at organization",
+    "definition": "Person X works or worked as an analyst for organization Y.",
+    "includes": [
+      "explicit analyst at/for/with/of",
+      "following or tracking an industry or companies for an employer when it identifies professional analysis"
+    ],
+    "excludes": [
+      "director/president/professor/scientist/spokesperson/editor/lawyer/partner alone",
+      "generic affiliation"
+    ],
+    "ambiguous": [
+      "economist-only, forecaster, strategist or specialist at the analyst role boundary",
+      "unclear role/employer attachment"
+    ],
+    "notes": "Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+    "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst."
+  },
+  "dictionary_sha256": "9742ed4c070d0907580053e0bb8bc5dd09f1f2616ba149f55a968a9c924ce940",
+  "kind": "declared_before_case_grading",
+  "rationale": "Analyst affiliation dominates; publisher/editor/director/partner and company location are separate unless actual analyst support is present.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.576Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    4,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_12.before_grading.json",
+  "pregrading_annotation_sha256": "71a1be699eac2b95927f1b0e56d45be1f26600ad233e24e93d1536d0e3b625d2"
+}

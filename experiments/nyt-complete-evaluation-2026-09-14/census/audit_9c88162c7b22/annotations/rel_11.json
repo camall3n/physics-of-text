@@ -1,0 +1,539 @@
+{
+  "relation": "rel_11",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_11.json",
+    "source_sha256": "2756a521eb5b32c7e434ab0f6a4744359a39d34b0a5ce6b0ce2ce28be17b6124",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_11__ent_1059__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1796,
+        1798,
+        7804,
+        7805,
+        7806,
+        7808
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_806__ent_529",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1812,
+        1813,
+        1814,
+        1816,
+        7820,
+        7821,
+        7822,
+        7824
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_11.json",
+        "annotation_sha256": "2756a521eb5b32c7e434ab0f6a4744359a39d34b0a5ce6b0ce2ce28be17b6124"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        563,
+        564,
+        569,
+        7828,
+        7829,
+        7834
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_301__ent_529",
+      "judgment": "supported",
+      "reason": "Judah Kraushaar → Merrill Lynch: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_805__ent_808",
+      "judgment": "supported",
+      "reason": "Kevin Murphy → Morgan Stanley: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1817,
+        1818,
+        1819,
+        7836,
+        7837,
+        7838
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_780__ent_529",
+      "judgment": "supported",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        589,
+        590,
+        591,
+        592,
+        593
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_359__ent_1056",
+      "judgment": "supported",
+      "reason": "Daniel Kunstler → J. P. Morgan: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1779,
+        1780,
+        1781,
+        1782,
+        1783
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_733__ent_975",
+      "judgment": "supported",
+      "reason": "John Morton → Lynch , Jones & Ryan: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        7840,
+        7841,
+        7842,
+        7843,
+        7844
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_1059__ent_529",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Merrill Lynch: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        7847,
+        7848,
+        7849,
+        7850,
+        7851
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_525__ent_767",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Asset Management: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        554,
+        555,
+        556,
+        557
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis → Salomon Brothers: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_11.json",
+        "annotation_sha256": "2756a521eb5b32c7e434ab0f6a4744359a39d34b0a5ce6b0ce2ce28be17b6124"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_768__ent_529",
+      "judgment": "supported",
+      "reason": "John Casesa → Merrill Lynch: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        575,
+        576,
+        577,
+        578
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_11.json",
+        "annotation_sha256": "2756a521eb5b32c7e434ab0f6a4744359a39d34b0a5ce6b0ce2ce28be17b6124"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_541__ent_783",
+      "judgment": "supported",
+      "reason": "Tom Wolzien → Sanford C. Bernstein & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        599,
+        600,
+        601,
+        602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_540__ent_782",
+      "judgment": "supported",
+      "reason": "David Healy → Burnham Securities: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        603,
+        604,
+        605,
+        606
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_1058__ent_783",
+      "judgment": "supported",
+      "reason": "Kenneth S. Abramowitz → Sanford C. Bernstein & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1790,
+        1791,
+        1792,
+        1793
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_1181__ent_1182",
+      "judgment": "supported",
+      "reason": "Neil Sweig → Southeast Research Partners: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1804,
+        1805,
+        1806,
+        1807
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_1183__ent_1184",
+      "judgment": "supported",
+      "reason": "Joel Karlin → Research Department Inc.: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1808,
+        1809,
+        1810,
+        1811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_11.json",
+        "annotation_sha256": "2756a521eb5b32c7e434ab0f6a4744359a39d34b0a5ce6b0ce2ce28be17b6124"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_807__ent_809",
+      "judgment": "supported",
+      "reason": "James Hale → MMS International: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1821,
+        1822,
+        1823,
+        1825
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_1007__ent_1008",
+      "judgment": "supported",
+      "reason": "Robert A. Kurtter → Moody 's Investors Service: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        760,
+        762,
+        763
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_973__ent_734",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        7814,
+        7815,
+        7816
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_806__ent_976",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        7825,
+        7826,
+        7827
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_978__ent_861",
+      "judgment": "supported",
+      "reason": "Scott Merlis → Morgan Stanley & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        7852,
+        7853,
+        7854
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_168__ent_161",
+      "judgment": "incorrect",
+      "reason": "Vahe Tiryakian → Department of Buildings: The local evidence identifies a director and an indirectly attached spokesman, not an analyst.",
+      "evidence_lines": [
+        365,
+        366
+      ],
+      "issue_tags": [
+        "wrong_role",
+        "attachment"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_1185__ent_1186",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        1829,
+        1830
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    },
+    {
+      "case_id": "rel_11__ent_736__ent_783",
+      "judgment": "supported",
+      "reason": "Gary D. Black → Sanford C. Bernstein & Company: Direct analyst affiliation or employer-linked professional analysis is explicitly established for the named person and organization.",
+      "evidence_lines": [
+        7845,
+        7846
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+        "source": "prior_annotations/rel_11.json",
+        "annotation_sha256": "2756a521eb5b32c7e434ab0f6a4744359a39d34b0a5ce6b0ce2ce28be17b6124"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:59.224Z"
+      }
+    }
+  ]
+}

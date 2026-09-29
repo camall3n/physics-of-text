@@ -1,0 +1,78 @@
+{
+  "relation": "rel_84",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographical place Y.",
+  "scope_notes": "Preserves organization-location scope. Firm-in, based-in and headquarters evidence qualify; industry, a person birthplace, officeholders and unspecified nationality do not. Incompatible merged entity names require identity review.",
+  "facts": [
+    {
+      "case_id": "rel_84__ent_714__ent_1002",
+      "judgment": "supported",
+      "reason": "Futures Group is explicitly a firm in/based in Washington.",
+      "evidence_lines": [
+        7394,
+        7396,
+        7400
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_84__ent_1247__ent_1270",
+      "judgment": "ambiguous",
+      "reason": "Most rows place the Hicks firm in Dallas, but the same second entity also appears as Muse in an unrelated payment subject path; the fact has incompatible place/person-company referents.",
+      "evidence_lines": [
+        700,
+        7413,
+        7415,
+        7417
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Dallas and Muse be separated, and which complete Hicks organization is intended by this latent pair?"
+    },
+    {
+      "case_id": "rel_84__ent_300__ent_1401",
+      "judgment": "supported",
+      "reason": "Kohlberg is explicitly described as a firm based in New York.",
+      "evidence_lines": [
+        7354
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_84__ent_515__ent_1212",
+      "judgment": "incorrect",
+      "reason": "Rushdie has book/trial associations with India, not an organization location relation.",
+      "evidence_lines": [
+        8394,
+        8396,
+        8399
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_84__ent_887__ent_1008",
+      "judgment": "incorrect",
+      "reason": "Daniel has street/theatrical staging paths to Manhattan; neither establishes an organization based there.",
+      "evidence_lines": [
+        3997,
+        4003
+      ],
+      "issue_tags": [
+        "predicate_boundary",
+        "entity_identity"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "relation": "rel_296",
+  "predicate_id": "athlete_for",
+  "label": "athlete plays for team",
+  "definition": "Person X plays or played as an athlete for sports team Y.",
+  "scope_notes": "Includes: player/center/guard/wing/captain/scorer role on a team; playing for or with the team as athlete; scoring for the team. Excludes: coach/manager/owner alone; team leading or beating another team; generic lead without athlete context; reverse team-to-athlete direction. Ambiguous unless resolved by case-local evidence: bare lead without player/position/scoring context.",
+  "facts": [
+    {
+      "case_id": "rel_296__ent_356__ent_308",
+      "judgment": "supported",
+      "reason": "Ewing → Knicks: A direct center/player/captain or play-for row establishes athlete membership on the team.",
+      "evidence_lines": [
+        3076,
+        3079,
+        3081,
+        4219,
+        4220,
+        4223,
+        4225
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.078Z"
+      }
+    },
+    {
+      "case_id": "rel_296__ent_64__ent_308",
+      "judgment": "supported",
+      "reason": "Patrick Ewing → Knicks: A direct center/player/captain or play-for row establishes athlete membership on the team.",
+      "evidence_lines": [
+        3066,
+        3067,
+        3070,
+        3071,
+        3072
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.078Z"
+      }
+    },
+    {
+      "case_id": "rel_296__ent_1119__ent_110",
+      "judgment": "supported",
+      "reason": "Bobby Holik → Devils: A direct center/player/captain or play-for row establishes athlete membership on the team.",
+      "evidence_lines": [
+        4279,
+        4283,
+        4284,
+        4285,
+        4286
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.078Z"
+      }
+    },
+    {
+      "case_id": "rel_296__ent_273__ent_1004",
+      "judgment": "ambiguous",
+      "reason": "Joe Torre → Yankees: Bare lead/take paths lack a player position or scoring role, so athlete versus manager or other leadership is unresolved.",
+      "evidence_lines": [
+        3178,
+        3180,
+        3181
+      ],
+      "issue_tags": [
+        "role_attachment"
+      ],
+      "reviewer_question": "Does the lead/take wording refer to playing for this team or another kind of leadership?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.078Z"
+      }
+    },
+    {
+      "case_id": "rel_296__ent_308__ent_1005",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: A team taking another team is not a person playing as an athlete for it.",
+      "evidence_lines": [
+        878,
+        6048
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.078Z"
+      }
+    },
+    {
+      "case_id": "rel_296__ent_66__ent_543",
+      "judgment": "ambiguous",
+      "reason": "Kidd → Nets: Bare lead/take paths lack a player position or scoring role, so athlete versus manager or other leadership is unresolved.",
+      "evidence_lines": [
+        3107,
+        3113
+      ],
+      "issue_tags": [
+        "role_attachment"
+      ],
+      "reviewer_question": "Does the lead/take wording refer to playing for this team or another kind of leadership?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:49.078Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7c99375e524e92a7237e2d2e32e0420bd3a0660161856b952fd3ce0f6ffc11a",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "ae224a3b79641824800dc5d34b907f748b423fdbc647d50d55be210d1f2478ed"
+}

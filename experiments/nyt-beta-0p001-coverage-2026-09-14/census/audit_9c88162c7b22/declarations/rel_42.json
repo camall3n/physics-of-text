@@ -1,0 +1,50 @@
+{
+  "relation": "rel_42",
+  "predicate_id": "has_lawyer",
+  "predicate_version": 1,
+  "predicate_hash": "7adfc3d56b8d9d1c512a2045c00e3347f181ccfe9995e1b6fab7c65a232837b4",
+  "predicate": {
+    "id": "has_lawyer",
+    "label": "has lawyer or legal counsel",
+    "definition": "Client or institutional principal X is represented by or professionally affiliated with lawyer, attorney, or legal counsel Y.",
+    "includes": [
+      "explicit lawyer, attorney, or counsel for X",
+      "historical legal representation or institutional legal office",
+      "public attorney for the named jurisdiction"
+    ],
+    "excludes": [
+      "ordinary spokesperson, adviser, or employee without a legal role",
+      "a place where a lawyer practices without client or institutional affiliation",
+      "a third party lawyer merely quoted about X"
+    ],
+    "ambiguous": [
+      "unclear legal client versus geographic location",
+      "lawyer title attachment unresolved",
+      "an incomplete principal"
+    ],
+    "notes": "Inverse of lawyer_for. This does not require that the legal professional exclusively represents X.",
+    "scope_notes": "Includes: explicit lawyer, attorney, or counsel for X; historical legal representation or institutional legal office; public attorney for the named jurisdiction. Excludes: ordinary spokesperson, adviser, or employee without a legal role; a place where a lawyer practices without client or institutional affiliation; a third party lawyer merely quoted about X. Ambiguous unless resolved by case-local evidence: unclear legal client versus geographic location; lawyer title attachment unresolved; an incomplete principal. Inverse of lawyer_for. This does not require that the legal professional exclusively represents X."
+  },
+  "dictionary_sha256": "6e1d793e0f469b5bb1ee79b43e102b217fc0328fcd0d59b53d20573bc21e77df",
+  "kind": "declared_before_case_grading",
+  "rationale": "Inverse lawyer/attorney descriptions dominate; transactional owner/bid/seller relations remain separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.541Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_42.before_grading.json",
+  "pregrading_annotation_sha256": "c3505b06283ad2f1d9451860bdd6f6da80449acafd060fa669242df078af1135"
+}

@@ -1,0 +1,95 @@
+{
+  "relation": "rel_341",
+  "predicate_id": "met_with",
+  "label": "met or encountered",
+  "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+  "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+  "facts": [
+    {
+      "case_id": "rel_341__ent_1290__ent_195",
+      "judgment": "supported",
+      "reason": "Mr. Gorbachev → Reagan: Direct unqualified met-with and meeting-with statements establish an encounter between the named people.",
+      "evidence_lines": [
+        8284,
+        8285,
+        8286,
+        8287,
+        8288,
+        8290,
+        8291,
+        8292,
+        8293
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.450Z"
+      }
+    },
+    {
+      "case_id": "rel_341__ent_197__ent_762",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → Mr. Jordan; Ms. Lewinsky → Vernon Jordan: Direct unqualified met-with and meeting-with statements establish an encounter between the named people.",
+      "evidence_lines": [
+        8214,
+        8264,
+        8269,
+        8271,
+        8272
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.452Z"
+      }
+    },
+    {
+      "case_id": "rel_341__ent_717__ent_959",
+      "judgment": "incorrect",
+      "reason": "Geno Auriemma → UConn: Coaching or having a team and its turnovers does not establish the declared meeting relation.",
+      "evidence_lines": [
+        7275,
+        7278,
+        7279
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.452Z"
+      }
+    },
+    {
+      "case_id": "rel_341__ent_1176__ent_72",
+      "judgment": "incorrect",
+      "reason": "Bill Fitch → Nets: Coaching or having a team and its turnovers does not establish the declared meeting relation.",
+      "evidence_lines": [
+        6503,
+        6505
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.452Z"
+      }
+    }
+  ],
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "790ba900828c4eb848a34a2d63f570b043032a1ad690c32a0703a1e9f6b45dcc"
+}

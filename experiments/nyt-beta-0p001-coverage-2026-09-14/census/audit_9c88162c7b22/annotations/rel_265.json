@@ -1,0 +1,74 @@
+{
+  "relation": "rel_265",
+  "predicate_id": "present_in",
+  "label": "physically present in place",
+  "definition": "Entity X is or was physically present in geographic place Y, temporarily or as a resident or located institution.",
+  "scope_notes": "Includes: explicit unqualified physical be-in or presence; a direct residence or physical location statement; a completed arrival, visit, or departure that establishes presence in Y. Excludes: membership in an organization; participation or victory in a nongeographic event; political office or control alone; discussion, publication, or other abstract presence; a destination without evidence of realized movement or presence. Ambiguous unless resolved by case-local evidence: place-versus-institution metonymy; an incomplete geographic argument; uncertain attachment or explicit hypothetical presence. Physical presence is weaker than residence or headquarters. Those narrower predicates retain their existing definitions. Do not infer a geographic location from membership or event participation.",
+  "facts": [
+    {
+      "case_id": "rel_265__ent_822__ent_835",
+      "judgment": "ambiguous",
+      "reason": "American → England: American is a singular adjective attached to a plane, a woman, and a stationed serviceman. These rows do not identify one coherent person or a stated plural population.",
+      "evidence_lines": [
+        2159,
+        2160,
+        2162,
+        2164,
+        2166
+      ],
+      "issue_tags": [
+        "unnamed_person",
+        "entity_sense_collision"
+      ],
+      "reviewer_question": "Which identified person or organization is American, and which England-presence evidence refers to that same entity?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.374Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_1167__ent_229",
+      "judgment": "supported",
+      "reason": "Film Forum → West Houston Street: Reopening and opening concerts at West Houston Street establish the Film Forum venue presence there.",
+      "evidence_lines": [
+        6216,
+        6217,
+        6218,
+        6219,
+        6220
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.374Z"
+      }
+    },
+    {
+      "case_id": "rel_265__ent_4__ent_3",
+      "judgment": "incorrect",
+      "reason": "Yasir Arafat → Palestine Liberation Organization: The deputy-in-PLO path concerns an institutional role rather than presence at a geographic location.",
+      "evidence_lines": [
+        235,
+        2941,
+        5033,
+        5740
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:31:32.374Z"
+      }
+    }
+  ],
+  "predicate_hash": "8c58cf486e7c57bfe4d4b01b1afb31e6d1152836461db22a687340975b1a4912",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5293d568db51602f66bb9c6d44af016c6a7cfd0c6d85fda3013ebd48ea16c927"
+}

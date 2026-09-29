@@ -1,0 +1,43 @@
+{
+  "relation": "rel_0",
+  "predicate_id": "departed_from",
+  "predicate_version": 1,
+  "predicate_hash": "2c5244f5ba944a50bf079963f56296a021c88157fdca96b855c2de19a56d317c",
+  "predicate": {
+    "id": "departed_from",
+    "label": "departed from",
+    "definition": "Person, group or organization X physically leaves or withdraws from geographic place Y.",
+    "includes": [
+      "leave/withdraw/pull out from Y",
+      "historical physical departure"
+    ],
+    "excludes": [
+      "arrival/return to Y",
+      "residence alone",
+      "leaving a job or team as an institution without geography"
+    ],
+    "ambiguous": [
+      "place versus institution as source",
+      "explicitly conditional departure"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: leave/withdraw/pull out from Y; historical physical departure. Excludes: arrival/return to Y; residence alone; leaving a job or team as an institution without geography. Ambiguous unless resolved by case-local evidence: place versus institution as source; explicitly conditional departure."
+  },
+  "dictionary_sha256": "170ba3acffe6b104c9b1988ab590cd9513d99a593d0435b7caf32be678ab8c2c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Being driven out/from and completed withdrawal (8 rows) is the largest identifiable directional family, exceeding invasion (5). Geographic population and invasion alone do not imply departure.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.528Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    5
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_0.before_grading.json",
+  "pregrading_annotation_sha256": "7221332b4e0f0e1f130200d8d325725ac297b10a7d3b2eeb7d42ef3e21d185d2"
+}

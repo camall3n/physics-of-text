@@ -1,0 +1,74 @@
+{
+  "relation": "rel_199",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "facts": [
+    {
+      "case_id": "rel_199__ent_1002__ent_183",
+      "judgment": "incorrect",
+      "reason": "Washington → Administration: Official negotiations or corporate Internet trend research do not establish completed opponent defeat.",
+      "evidence_lines": [
+        7487,
+        7488,
+        7489,
+        7490,
+        7491,
+        7493
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.179Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_182__ent_1085",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Al Gore: Direct trounce plus electoral vote comparison establishes defeat of the named opponent.",
+      "evidence_lines": [
+        6939,
+        6942,
+        6944,
+        6945,
+        6946
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.179Z"
+      }
+    },
+    {
+      "case_id": "rel_199__ent_943__ent_936",
+      "judgment": "incorrect",
+      "reason": "Forrester Research → Internet: Official negotiations or corporate Internet trend research do not establish completed opponent defeat.",
+      "evidence_lines": [
+        7363,
+        7364,
+        7366,
+        7367
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:41.179Z"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "76e6b81134eb4512a26c96d9547043eb8d534e1914ea075ca1d79aa5a9aec017"
+}

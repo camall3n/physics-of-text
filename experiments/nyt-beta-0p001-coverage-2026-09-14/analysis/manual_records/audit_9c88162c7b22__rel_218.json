@@ -1,0 +1,62 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_218",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_218__ent_744__ent_986"
+      ],
+      "judgment": "supported",
+      "reason": "Executive title and resignation from executive office establish the county managerial office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_218__ent_30__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leader/chair/speaker roles attach to Democratic as an adjective without the complete body or caucus.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete Democratic organization or legislative body is the office held in?"
+    },
+    {
+      "indices": [
+        0,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_218__ent_96__ent_977",
+        "rel_218__ent_537__ent_492",
+        "rel_218__ent_827__ent_843"
+      ],
+      "judgment": "incorrect",
+      "reason": "Inter-country actions or generic wins in a place do not establish a named managerial officeholder.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [
+    1
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "a6e9cf16fb7a36abbcec3c90ff7023586c707f4f001542e1af53e240bedec791"
+}

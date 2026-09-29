@@ -1,0 +1,70 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_276",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_276__ent_1000__ent_304",
+        "rel_276__ent_1001__ent_307",
+        "rel_276__ent_547__ent_789",
+        "rel_276__ent_464__ent_221",
+        "rel_276__ent_302__ent_544",
+        "rel_276__ent_896__ent_415"
+      ],
+      "judgment": "supported",
+      "reason": "A local headquarters/based-in row explicitly locates the organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_276__ent_1273__ent_1283"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Headquarters/location evidence combines Apple and Semiconductor Industry Association as a single inferred organization.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should Apple and Semiconductor Industry Association be separated?"
+    },
+    {
+      "indices": [
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_276__ent_612__ent_735",
+        "rel_276__ent_537__ent_872",
+        "rel_276__ent_1322__ent_261"
+      ],
+      "judgment": "incorrect",
+      "reason": "A professor role, geographic attorney-office attachment or nomination does not assert this ordered organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b3801f703fe72efb277f829f9b6e7e0ccc6c08b57bf16982de047660ed29af69"
+}

@@ -1,0 +1,119 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_125",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        25
+      ],
+      "case_ids": [
+        "rel_125__ent_807__ent_809",
+        "rel_125__ent_525__ent_527",
+        "rel_125__ent_806__ent_529",
+        "rel_125__ent_1057__ent_1404",
+        "rel_125__ent_1407__ent_1180",
+        "rel_125__ent_301__ent_1446",
+        "rel_125__ent_359__ent_1405",
+        "rel_125__ent_805__ent_1354",
+        "rel_125__ent_733__ent_975",
+        "rel_125__ent_769__ent_1105",
+        "rel_125__ent_1181__ent_187",
+        "rel_125__ent_1183__ent_1184",
+        "rel_125__ent_525__ent_632",
+        "rel_125__ent_793__ent_782",
+        "rel_125__ent_1007__ent_1008",
+        "rel_125__ent_806__ent_1446",
+        "rel_125__ent_973__ent_734",
+        "rel_125__ent_806__ent_976",
+        "rel_125__ent_1253__ent_1446",
+        "rel_125__ent_978__ent_861",
+        "rel_125__ent_619__ent_1105",
+        "rel_125__ent_920__ent_1345",
+        "rel_125__ent_928__ent_1186"
+      ],
+      "judgment": "supported",
+      "reason": "The local rows explicitly identify analyst affiliation for this person and institution, including direct role descriptions or employer-linked professional analysis.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_125__ent_1186__ent_783"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wolzien, Abramowitz and Black are combined in one person entity despite separate analyst mentions.",
+      "tags": [
+        "mixed_entity_names"
+      ],
+      "question": "Which named analyst does the first entity denote, or should these three people be separated?"
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_125__ent_540__ent_192"
+      ],
+      "judgment": "incorrect",
+      "reason": "A director-at title and its malformed slow extension do not establish an analyst role.",
+      "tags": [
+        "wrong_role",
+        "malformed_path"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        24
+      ],
+      "case_ids": [
+        "rel_125__ent_1063__ent_528"
+      ],
+      "judgment": "incorrect",
+      "reason": "The only supplied row identifies a director at Bank of America, not an analyst.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    4,
+    5,
+    7,
+    10,
+    22
+  ],
+  "broad": []
+}

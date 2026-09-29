@@ -1,0 +1,247 @@
+{
+  "relation": "rel_240",
+  "predicate_id": "died_in",
+  "label": "died in place",
+  "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+  "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+  "facts": [
+    {
+      "case_id": "rel_240__ent_1340__ent_1263",
+      "judgment": "ambiguous",
+      "reason": "Lawrence Van Gelder → Ringling Brothers; Walter G. Williams → N.Y. ) Hospital: A death at the truncated N.Y. ) Hospital shares one latent fact with a different critic reviewing Ringling Brothers; both subject and object identities are incompatible or incomplete.",
+      "evidence_lines": [
+        1771,
+        1899
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "What is the full hospital name, and should Walter G. Williams and Lawrence Van Gelder with their distinct objects be split?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_120__ent_28",
+      "judgment": "ambiguous",
+      "reason": "MARIALISA CALTA → Calais; Tony Manero → Greenwich Hospital: Tony Manero dying at Greenwich Hospital is merged with a different person residing in Calais, so the latent subject and location are not coherent.",
+      "evidence_lines": [
+        1772,
+        6156
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should Tony Manero/Greenwich Hospital and Marialisa Calta/Calais be separate facts and entities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_166__ent_333",
+      "judgment": "incorrect",
+      "reason": "Aaron Shmulewitz → Manhattan; Arthur I. Weinstein → Manhattan: Lawyer location, a president role, corporate parenthood or a dateline spokeswoman statement does not establish death location.",
+      "evidence_lines": [
+        2288,
+        2313
+      ],
+      "issue_tags": [
+        "identity_ambiguity"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_312__ent_776",
+      "judgment": "incorrect",
+      "reason": "David F. Poltrack → CBS: Lawyer location, a president role, corporate parenthood or a dateline spokeswoman statement does not establish death location.",
+      "evidence_lines": [
+        733
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_137__ent_904",
+      "judgment": "supported",
+      "reason": "William Feinberg → Mount Sinai Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1769
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.827Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_1402__ent_777",
+      "judgment": "supported",
+      "reason": "William Chaison → Doctor 's Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1770
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.827Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_20__ent_1373",
+      "judgment": "supported",
+      "reason": "Thomas P. Robinson → George Washington University Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1773
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_125__ent_82",
+      "judgment": "supported",
+      "reason": "Sanford C. Miller → Valley Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1774
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_1376__ent_167",
+      "judgment": "supported",
+      "reason": "Samuel M. Brownell → Yale-New Haven Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1775
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_1010__ent_829",
+      "judgment": "supported",
+      "reason": "Raymond Reisler → New York Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1776
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_454__ent_554",
+      "judgment": "supported",
+      "reason": "Raul A. Campanioni → St. Vincent 's Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1777
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_904__ent_836",
+      "judgment": "supported",
+      "reason": "Rabbi Israel Spira → Maimonides Hospital: Direct died-at establishes death at the named physical hospital site.",
+      "evidence_lines": [
+        1778
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_935__ent_713",
+      "judgment": "incorrect",
+      "reason": "Ameritech → Bell: Lawyer location, a president role, corporate parenthood or a dateline spokeswoman statement does not establish death location.",
+      "evidence_lines": [
+        6848
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    },
+    {
+      "case_id": "rel_240__ent_1002__ent_1332",
+      "judgment": "incorrect",
+      "reason": "Washington → State Department: Lawyer location, a president role, corporate parenthood or a dateline spokeswoman statement does not establish death location.",
+      "evidence_lines": [
+        7443
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:35:59.828Z"
+      }
+    }
+  ],
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "7ed5e43c703c7a22782cf7a541a1d01cdb2de36ffaeef325c2ea4a1f803e7d97"
+}

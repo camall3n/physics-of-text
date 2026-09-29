@@ -1,0 +1,48 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_103",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_103__ent_4__ent_3",
+        "rel_103__ent_380__ent_0",
+        "rel_103__ent_137__ent_379",
+        "rel_103__ent_380__ent_1133",
+        "rel_103__ent_205__ent_0"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chairman title, retirement or replacement-as-chairman establishes present or historical chair tenure.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_103__ent_546__ent_788"
+      ],
+      "judgment": "incorrect",
+      "reason": "Motorola center in Schaumburg is organizational location, not a person holding chair office.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "475fc2bf6a62eac23dbb8352abdf01455c2c3192c5672bc75c783d8457a15bb3"
+}

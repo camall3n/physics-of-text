@@ -1,0 +1,62 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_73",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_73__ent_265__ent_1197",
+        "rel_73__ent_261__ent_1197",
+        "rel_73__ent_264__ent_811"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit legislative leader or co-chair title establishes an eligible leadership office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_73__ent_502__ent_743"
+      ],
+      "judgment": "ambiguous",
+      "reason": "County executive and inauguration appear, but no head/chief/leader title independently establishes the narrower leadership scope.",
+      "tags": [
+        "executive_scope"
+      ],
+      "question": "Does the supplied executive title mean the head executive of Nassau County or another executive office?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_73__ent_265__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Co-chair/leader evidence points to Democratic as an adjective, with the actual organization or caucus omitted.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete Democratic organization or caucus is co-chaired or led here?"
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "abb74bec047844378ef0eed94c99db1ee106f9456a7fa2197bdac87a2c856528"
+}

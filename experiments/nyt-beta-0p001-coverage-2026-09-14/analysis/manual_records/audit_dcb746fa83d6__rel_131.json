@@ -1,0 +1,80 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_131",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_131__ent_1022__ent_161",
+        "rel_131__ent_147__ent_372",
+        "rel_131__ent_1028__ent_175",
+        "rel_131__ent_1294__ent_258",
+        "rel_131__ent_176__ent_175",
+        "rel_131__ent_567__ent_1020",
+        "rel_131__ent_326__ent_568",
+        "rel_131__ent_1024__ent_496",
+        "rel_131__ent_1048__ent_1049",
+        "rel_131__ent_246__ent_325"
+      ],
+      "judgment": "supported",
+      "reason": "At least one explicit local spokesperson row identifies the person as speaking for this principal.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        11
+      ],
+      "case_ids": [
+        "rel_131__ent_17__ent_827",
+        "rel_131__ent_480__ent_120"
+      ],
+      "judgment": "incorrect",
+      "reason": "Director, adviser or aide evidence alone does not establish spokesperson status.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_131__ent_1002__ent_1279"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Washington occupies the person slot of an institutional spokeswoman path, leaving a dateline or omitted speaker identity unresolved.",
+      "tags": [
+        "dateline",
+        "argument_identity"
+      ],
+      "question": "Who is the actual spokeswoman, and is Washington only the reporting location?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "429a32b1bfd81343ec69efd4dd92ad3b1a8747987a81b6aa2bde837ad9d91bf1"
+}

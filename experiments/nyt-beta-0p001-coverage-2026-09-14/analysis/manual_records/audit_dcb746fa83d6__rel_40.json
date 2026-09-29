@@ -1,0 +1,63 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_40",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_40__ent_318__ent_537",
+        "rel_40__ent_1161__ent_5",
+        "rel_40__ent_1201__ent_1002",
+        "rel_40__ent_1347__ent_1183"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit unqualified come-to, arrive-in or flee-to establishes destination movement under the inherited travel scope.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_40__ent_1123__ent_1413"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway is embedded in casting/production/portrayal context and may denote theatrical work rather than geographic movement.",
+      "tags": [
+        "theatrical_metonymy"
+      ],
+      "question": "Does coming to Broadway here describe geographic travel or taking a theatrical role?"
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_40__ent_298__ent_612"
+      ],
+      "judgment": "incorrect",
+      "reason": "Dance-company principal/directing role does not establish geographic destination movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "deece57c09d8a3dd9ccee56de94d8fe7ca9756891151dcdbc13c88e5f6bd11e4"
+}

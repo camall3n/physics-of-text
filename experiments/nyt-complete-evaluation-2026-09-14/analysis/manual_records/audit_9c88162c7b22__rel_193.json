@@ -1,0 +1,87 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_193",
+  "cases_sha256": "5d28482046f6f15c177540d41599e61bdd2b1cd7e9d471ac1029ce0160ab0b43",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_193__ent_799__ent_1012",
+        "rel_193__ent_1014__ent_1012",
+        "rel_193__ent_318__ent_557",
+        "rel_193__ent_470__ent_1004",
+        "rel_193__ent_182__ent_1085",
+        "rel_193__ent_317__ent_1012",
+        "rel_193__ent_319__ent_1012",
+        "rel_193__ent_400__ent_83",
+        "rel_193__ent_321__ent_600",
+        "rel_193__ent_308__ent_543",
+        "rel_193__ent_315__ent_557",
+        "rel_193__ent_1004__ent_1013",
+        "rel_193__ent_321__ent_1013"
+      ],
+      "judgment": "supported",
+      "reason": "A supplied row explicitly reports beating, defeating or victory over the ordered competitor.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_193__ent_1159__ent_471"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The win/defeat rows use only East and West without identifying the actual competitors.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which teams or bodies do East and West designate?"
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_193__ent_230__ent_472"
+      ],
+      "judgment": "incorrect",
+      "reason": "Meeting Holy Cross establishes an encounter, not Stepinac winning it.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    12
+  ],
+  "broad": []
+}

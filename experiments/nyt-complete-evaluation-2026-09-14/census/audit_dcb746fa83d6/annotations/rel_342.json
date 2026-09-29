@@ -1,0 +1,508 @@
+{
+  "relation": "rel_342",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_342.json",
+    "source_sha256": "e127572e837a0c334a082c3ec449cdc2643ac26683a5de50466d8505312a586c",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_342__ent_780__ent_1414",
+      "judgment": "supported",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        596,
+        598
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.419Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_806__ent_1414",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        1812,
+        1813,
+        1814,
+        1816,
+        7820,
+        7821,
+        7822,
+        7824
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_736__ent_783",
+      "judgment": "ambiguous",
+      "reason": "Kenneth S. Abramowitz → Sanford C. Bernstein & Company; Gary D. Black → Sanford C. Bernstein & Company; Tom Wolzien → Sanford C. Bernstein & Company: The first entity combines Wolzien, Abramowitz and Black, each with analyst evidence, but the names are not established as one person.",
+      "evidence_lines": [
+        600,
+        1790,
+        1791,
+        1792,
+        7845,
+        7846
+      ],
+      "issue_tags": [
+        "mixed_entity_names"
+      ],
+      "reviewer_question": "Which of Wolzien, Abramowitz or Black does the first entity denote?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_342.json",
+        "annotation_sha256": "e127572e837a0c334a082c3ec449cdc2643ac26683a5de50466d8505312a586c"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_301__ent_1414",
+      "judgment": "supported",
+      "reason": "Judah Kraushaar → Merrill Lynch: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1330__ent_1180",
+      "judgment": "ambiguous",
+      "reason": "Emanuel Goldman → Paine Webber; Emanuel Goldman → Merrill Lynch: Goldman has analyst rows for Paine Webber and Merrill Lynch merged into the same second entity.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1798,
+        7804,
+        7808,
+        7848
+      ],
+      "issue_tags": [
+        "mixed_entity_names"
+      ],
+      "reviewer_question": "Does the employer entity denote Paine Webber or Merrill Lynch, or should these facts be separated?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_342.json",
+        "annotation_sha256": "e127572e837a0c334a082c3ec449cdc2643ac26683a5de50466d8505312a586c"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_805__ent_808",
+      "judgment": "supported",
+      "reason": "Kevin Murphy → Morgan Stanley: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        1817,
+        1818,
+        1819,
+        7836,
+        7837,
+        7838
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_359__ent_1056",
+      "judgment": "supported",
+      "reason": "Daniel Kunstler → J. P. Morgan: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        1779,
+        1780,
+        1781,
+        1782,
+        1783
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_733__ent_975",
+      "judgment": "supported",
+      "reason": "John Morton → Lynch , Jones & Ryan: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        7840,
+        7841,
+        7842,
+        7843,
+        7844
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_525__ent_1255",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Asset Management: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        554,
+        555,
+        556,
+        557
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        563,
+        569,
+        7829,
+        7834
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis → Salomon Brothers: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_768__ent_1275",
+      "judgment": "supported",
+      "reason": "John Casesa → Merrill Lynch: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        575,
+        576,
+        577,
+        578
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_342.json",
+        "annotation_sha256": "e127572e837a0c334a082c3ec449cdc2643ac26683a5de50466d8505312a586c"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_540__ent_303",
+      "judgment": "supported",
+      "reason": "David Healy → Burnham Securities: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        603,
+        604,
+        605,
+        606
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_342.json",
+        "annotation_sha256": "e127572e837a0c334a082c3ec449cdc2643ac26683a5de50466d8505312a586c"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1183__ent_1184",
+      "judgment": "supported",
+      "reason": "Joel Karlin → Research Department Inc.: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        1808,
+        1809,
+        1810,
+        1811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_807__ent_809",
+      "judgment": "supported",
+      "reason": "James Hale → MMS International: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        1821,
+        1822,
+        1823,
+        1825
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1181__ent_777",
+      "judgment": "ambiguous",
+      "reason": "Neil Sweig → Southeast Research Partners; Loren Thompson → Lexington Institute: Thompson/Lexington and Sweig/Southeast are combined in one tuple; both have analyst evidence but neither resolves the shared identities.",
+      "evidence_lines": [
+        580,
+        1805,
+        1807
+      ],
+      "issue_tags": [
+        "mixed_entity_names"
+      ],
+      "reviewer_question": "Which person/employer pair is intended, Thompson/Lexington or Sweig/Southeast?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1306__ent_1008",
+      "judgment": "supported",
+      "reason": "Robert A. Kurtter → Moody 's Investors Service: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        760,
+        762,
+        763
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_342.json",
+        "annotation_sha256": "e127572e837a0c334a082c3ec449cdc2643ac26683a5de50466d8505312a586c"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1057__ent_119",
+      "judgment": "supported",
+      "reason": "Viren Mehta → Mehta & Isaly: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        1784,
+        1786,
+        1787
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_806__ent_976",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch & Company: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        7825,
+        7826,
+        7827
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1355__ent_1414",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Merrill Lynch: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        7847,
+        7849,
+        7851
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1263__ent_861",
+      "judgment": "supported",
+      "reason": "Scott Merlis → Morgan Stanley & Company: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        7853,
+        7854
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_1072__ent_277",
+      "judgment": "incorrect",
+      "reason": "DDB Needham Worldwide → Omnicom Group: The named organization is connected to its corporate group by a part-of/name attachment, not a person's analyst affiliation.",
+      "evidence_lines": [
+        6715
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    },
+    {
+      "case_id": "rel_342__ent_839__ent_512",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: Direct analyst-at/for/with or equivalent professional-analysis evidence establishes the named person's analyst affiliation; local names are coherent.",
+      "evidence_lines": [
+        7815
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:33.420Z"
+      }
+    }
+  ]
+}

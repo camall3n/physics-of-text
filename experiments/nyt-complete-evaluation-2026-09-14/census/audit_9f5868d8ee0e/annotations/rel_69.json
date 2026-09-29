@@ -1,0 +1,703 @@
+{
+  "relation": "rel_69",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_69.json",
+    "source_sha256": "2457e43997ae67eb9fbf32e6d77b598961dd7c9e2fe2ec35a57b4f5f824e5208",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_69__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        3427,
+        3428,
+        3429,
+        3430,
+        3431,
+        3432,
+        3434,
+        4926,
+        4927,
+        4929,
+        4930,
+        4931,
+        4933
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_308__ent_1005",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        871,
+        872,
+        873,
+        876,
+        877,
+        6041,
+        6042,
+        6043,
+        6046,
+        6047
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_543__ent_308",
+      "judgment": "incorrect",
+      "reason": "Nets → Knicks: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        941,
+        942,
+        943,
+        944,
+        945,
+        946,
+        947,
+        948,
+        949,
+        950
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_400__ent_884",
+      "judgment": "incorrect",
+      "reason": "Jets → Raiders: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        2641,
+        2642,
+        2643,
+        2644,
+        2645,
+        2646,
+        2647,
+        2648,
+        2649,
+        2650
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_87__ent_818",
+      "judgment": "supported",
+      "reason": "Nixon → China: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        3417,
+        3418,
+        3419,
+        3420,
+        3421,
+        3422,
+        3423,
+        3424,
+        3425,
+        3426
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.131Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_400__ent_83",
+      "judgment": "ambiguous",
+      "reason": "Jets → Oakland: Oakland is a travel destination in go-to/play-in rows but the opposing team in beat/lose-to rows; the fact merges city and team readings.",
+      "evidence_lines": [
+        3459,
+        3460,
+        3461,
+        3462,
+        3463,
+        3464,
+        3465,
+        3466,
+        3467,
+        3468
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should the mixed Oakland city/team argument count as a single geographic destination?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_69.json",
+        "annotation_sha256": "2457e43997ae67eb9fbf32e6d77b598961dd7c9e2fe2ec35a57b4f5f824e5208"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_197__ent_586",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → White House: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        3489,
+        3490,
+        3495,
+        3496,
+        3497,
+        6174,
+        6175,
+        6180,
+        6181,
+        6182
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_667__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born → United States: Movement is explicit, but Born is an extraction fragment rather than a resolved traveler identity.",
+      "evidence_lines": [
+        4691,
+        4692,
+        4693,
+        4694,
+        4695,
+        4696,
+        4697,
+        4698,
+        4699,
+        4700
+      ],
+      "issue_tags": [
+        "entity_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Who is the traveler represented by the extracted argument Born?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_1125__ent_843",
+      "judgment": "incorrect",
+      "reason": "Olympics → New York: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        4770,
+        4771,
+        4772,
+        4773,
+        4774,
+        4775,
+        4776,
+        4777,
+        4778,
+        4779
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_935__ent_931",
+      "judgment": "incorrect",
+      "reason": "Ameritech → Bell: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        6844,
+        6845,
+        6846,
+        6847,
+        6848,
+        6849,
+        6850,
+        6851,
+        6852,
+        6853
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_321__ent_1013",
+      "judgment": "incorrect",
+      "reason": "Mets → Florida Marlins: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        6977,
+        6978,
+        6979,
+        6980,
+        6981,
+        6982,
+        6983,
+        6984,
+        6985,
+        6986
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_69.json",
+        "annotation_sha256": "2457e43997ae67eb9fbf32e6d77b598961dd7c9e2fe2ec35a57b4f5f824e5208"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_309__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        862,
+        866,
+        2662,
+        2665,
+        2666,
+        2667,
+        6932,
+        6933
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_80__ent_820",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        3479,
+        3480,
+        3482,
+        3484,
+        4780,
+        4783,
+        4785,
+        4789
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_685__ent_443",
+      "judgment": "incorrect",
+      "reason": "Liberace → AIDS: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        4916,
+        4917,
+        4918,
+        4920,
+        4921,
+        4923,
+        4924,
+        4925
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_1004__ent_309",
+      "judgment": "incorrect",
+      "reason": "Yankees → Red Sox: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        883,
+        885,
+        886,
+        2581,
+        2583,
+        2585,
+        6901
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_1123__ent_427",
+      "judgment": "ambiguous",
+      "reason": "Jonathan Pryce → Broadway: Broadway movement is intertwined with casting, production and re-creating a stage role, leaving geographic travel versus theatrical employment unresolved.",
+      "evidence_lines": [
+        4741,
+        4743,
+        4744,
+        4745,
+        4747,
+        4748,
+        4749
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Is this physical movement to a place or return to Broadway theatre as an institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_81__ent_84",
+      "judgment": "ambiguous",
+      "reason": "Mr. Baker → Baghdad: The case includes a rejected-trip path as well as bare go/visit fragments; actual travel versus an unfulfilled proposed trip is unresolved.",
+      "evidence_lines": [
+        3450,
+        3451,
+        3452,
+        3454,
+        3455,
+        3457
+      ],
+      "issue_tags": [
+        "hypothetical",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which trip rows describe undertaken travel rather than the explicitly rejected proposal?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_888__ent_333",
+      "judgment": "incorrect",
+      "reason": "John → Manhattan: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        3967,
+        3968,
+        3970,
+        3972,
+        3973,
+        3974
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_69.json",
+        "annotation_sha256": "2457e43997ae67eb9fbf32e6d77b598961dd7c9e2fe2ec35a57b4f5f824e5208"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_669__ent_1124",
+      "judgment": "supported",
+      "reason": "Americans → Europe: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        4751,
+        4752,
+        4753,
+        4754,
+        4755,
+        4758
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_308__ent_64",
+      "judgment": "incorrect",
+      "reason": "Knicks → Patrick Ewing: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        4936,
+        4937,
+        4939,
+        4940,
+        4942,
+        4944
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_428__ent_537",
+      "judgment": "supported",
+      "reason": "Cubans → United States: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        4722,
+        4723,
+        4724,
+        4726,
+        4730
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_69.json",
+        "annotation_sha256": "2457e43997ae67eb9fbf32e6d77b598961dd7c9e2fe2ec35a57b4f5f824e5208"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_34__ent_1002",
+      "judgment": "supported",
+      "reason": "Mikhail S. Gorbachev → Washington: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        4731,
+        4732,
+        4738,
+        4739,
+        4740
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_69.json",
+        "annotation_sha256": "2457e43997ae67eb9fbf32e6d77b598961dd7c9e2fe2ec35a57b4f5f824e5208"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_444__ent_686",
+      "judgment": "incorrect",
+      "reason": "Heather → Mommies: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        4882,
+        4883,
+        4884,
+        4885
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_578__ent_586",
+      "judgment": "supported",
+      "reason": "Michael D. McCurry → White House: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        1372,
+        1373,
+        1374
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_321__ent_278",
+      "judgment": "incorrect",
+      "reason": "Mets → Braves: These rows express sporting roles/results, event hosting, corporate affiliation, disease or other relations without travel by this subject to a geographic destination.",
+      "evidence_lines": [
+        6891,
+        6893,
+        6896
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_281__ent_82",
+      "judgment": "supported",
+      "reason": "Watsons → Birmingham: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        3447,
+        3448
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    },
+    {
+      "case_id": "rel_69__ent_1122__ent_537",
+      "judgment": "supported",
+      "reason": "Salvadorans → United States: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+      "evidence_lines": [
+        4710
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:46.132Z"
+      }
+    }
+  ]
+}

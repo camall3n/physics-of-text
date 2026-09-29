@@ -1,0 +1,237 @@
+{
+  "relation": "rel_206",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_206__ent_354__ent_596",
+      "judgment": "incorrect",
+      "reason": "Torre → Rivera: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        1520,
+        1521,
+        1523,
+        1524
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_81__ent_84",
+      "judgment": "supported",
+      "reason": "Mr. Baker → Baghdad: An unqualified go-to or dispatch-to path establishes movement to the named physical destination.",
+      "evidence_lines": [
+        3450,
+        3453,
+        3454,
+        3456
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_886__ent_302",
+      "judgment": "incorrect",
+      "reason": "Bill Gates → Microsoft: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        3905,
+        5102,
+        5692
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_321__ent_836",
+      "judgment": "incorrect",
+      "reason": "Mets → World Series: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        2210,
+        3472
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_561__ent_850",
+      "judgment": "incorrect",
+      "reason": "Giants → Super Bowl: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        2222,
+        3442
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_87__ent_818",
+      "judgment": "supported",
+      "reason": "Nixon → China: An unqualified go-to or dispatch-to path establishes movement to the named physical destination.",
+      "evidence_lines": [
+        3417,
+        3424
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_308__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        3427,
+        4926
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_281__ent_82",
+      "judgment": "supported",
+      "reason": "Watsons → Birmingham: The unqualified go-to path states a journey to Birmingham. A separate story/bombing path does not explicitly mark that journey as a title or hypothetical event; apply the same literal movement convention as the preserved prior census.",
+      "evidence_lines": [
+        3447,
+        3448
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      },
+      "adjudication": {
+        "reviewer": "root",
+        "script": "adjudicate_exact_evidence.mjs",
+        "method": "Manual complete-evidence consistency adjudication; definition and population unchanged.",
+        "reviewed_at": "2026-09-14T22:39:55.500Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_400__ent_83",
+      "judgment": "ambiguous",
+      "reason": "Jets → Oakland: Oakland is both a place and a sporting opponent in these rows; go-to could denote team travel or a team encounter.",
+      "evidence_lines": [
+        3459,
+        3461
+      ],
+      "issue_tags": [
+        "metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does the go-to row identify travel to Oakland the city, rather than the opposing team?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_197__ent_586",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → White House: An unqualified go-to or dispatch-to path establishes movement to the named physical destination.",
+      "evidence_lines": [
+        3497,
+        6182
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_308__ent_64",
+      "judgment": "incorrect",
+      "reason": "Knicks → Patrick Ewing: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        4937,
+        4944
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    },
+    {
+      "case_id": "rel_206__ent_849__ent_850",
+      "judgment": "incorrect",
+      "reason": "Patriots → Super Bowl: The complete case concerns using a player, founding a company, or reaching a sporting event, without a geographic travel destination.",
+      "evidence_lines": [
+        2254
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.233Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0d977a555ea40e41eac07f4e315948699851d989fb09ee992f5ae281c0c22e22"
+}

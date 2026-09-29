@@ -1,0 +1,188 @@
+{
+  "relation": "rel_221",
+  "predicate_id": "died_in",
+  "label": "died in place",
+  "definition": "Person X, or an explicitly identified subset of population X, died in geographic place Y.",
+  "scope_notes": "Includes: explicit died-in or death-in location; being killed in Y establishing death there; historical death location. Excludes: residence, birth, or ordinary presence alone; Y is the perpetrator or cause rather than location; discussion of deaths without the affected person or population. Ambiguous unless resolved by case-local evidence: place versus institution unresolved; unclear death or geographic attachment; a population mention without identified affected members. This describes location of death, not where X lived or who caused death. An affected subset does not imply every member died.",
+  "facts": [
+    {
+      "case_id": "rel_221__ent_646__ent_333",
+      "judgment": "supported",
+      "reason": "David → Manhattan: A local died-at-home-in row establishes death in the named geographic place.",
+      "evidence_lines": [
+        3957,
+        3958,
+        3959,
+        3962
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_805__ent_1354",
+      "judgment": "ambiguous",
+      "reason": "Kevin Murphy → Morgan Stanley; Tony Awards → South Salem: A death-location extraction labeled Tony Awards is merged with analyst Kevin Murphy/Morgan Stanley, leaving the actual deceased person unresolved.",
+      "evidence_lines": [
+        1820,
+        2688,
+        7839
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "truncated_argument"
+      ],
+      "reviewer_question": "Who is the deceased person behind the Tony Awards extraction, and which pair should this fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_1161__ent_5",
+      "judgment": "incorrect",
+      "reason": "Turks → Germany: Residence, a spokesperson role or a research affiliation does not establish death at the location.",
+      "evidence_lines": [
+        6120,
+        6121,
+        6124
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_1028__ent_175",
+      "judgment": "incorrect",
+      "reason": "Zenia Mucha → Mr. Pataki: Residence, a spokesperson role or a research affiliation does not establish death at the location.",
+      "evidence_lines": [
+        1184,
+        3525
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_286__ent_1188",
+      "judgment": "ambiguous",
+      "reason": "GENERATIONS Alice Elliott Dark → Montclair; Sydney Ullman → Montclair: Sydney Ullman's death is merged with a different author/book-name residence extraction.",
+      "evidence_lines": [
+        2156,
+        2690
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Should Sydney Ullman and GENERATIONS Alice Elliott Dark be separated?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_830__ent_1100",
+      "judgment": "supported",
+      "reason": "Corliss Lamont → Ossining: A local died-at-home-in row establishes death in the named geographic place.",
+      "evidence_lines": [
+        2681
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_863__ent_203",
+      "judgment": "supported",
+      "reason": "William James Burrud → Sunset Beach: A local died-at-home-in row establishes death in the named geographic place.",
+      "evidence_lines": [
+        2683
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_1109__ent_1253",
+      "judgment": "supported",
+      "reason": "William B. Bergen → St. Michaels: A local died-at-home-in row establishes death in the named geographic place.",
+      "evidence_lines": [
+        2685
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_876__ent_612",
+      "judgment": "supported",
+      "reason": "Walter Ames Compton → Elkhart: A local died-at-home-in row establishes death in the named geographic place.",
+      "evidence_lines": [
+        2687
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    },
+    {
+      "case_id": "rel_221__ent_1142__ent_703",
+      "judgment": "incorrect",
+      "reason": "Birinyi Associates → Greenwich: Residence, a spokesperson role or a research affiliation does not establish death at the location.",
+      "evidence_lines": [
+        7180
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:20:24.980Z"
+      }
+    }
+  ],
+  "predicate_hash": "51bb5550d9e5d8b962a7e3cdb6ccca122bc548c0e7c4b7178ce84b345e487ea1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b6aafd585a939073c75d362f086251073262cd641d4ec8e6ba1840b03475e689"
+}

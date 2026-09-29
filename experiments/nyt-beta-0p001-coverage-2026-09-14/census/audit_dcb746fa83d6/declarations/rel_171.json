@@ -1,0 +1,50 @@
+{
+  "relation": "rel_171",
+  "predicate_id": "official_of",
+  "predicate_version": 1,
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate": {
+    "id": "official_of",
+    "label": "official of institution",
+    "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+    "includes": [
+      "explicit official-of, official-at, or institutional official description",
+      "historical official role",
+      "a named formal public office that unambiguously entails official status"
+    ],
+    "excludes": [
+      "ordinary employment without an official role",
+      "a city dateline or institution standing in the person slot",
+      "a generic adviser or spokesperson without official status",
+      "proposed appointment alone"
+    ],
+    "ambiguous": [
+      "unclear person versus place identity",
+      "official title attachment unresolved",
+      "a generic institutional role without established official status"
+    ],
+    "notes": "Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+    "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation."
+  },
+  "dictionary_sha256": "1c220964c0cbbc5fb675791df27eaf5908b12e12feb710e6b2bb0750aa1bdece",
+  "kind": "declared_before_case_grading",
+  "rationale": "Most paths connect fragmented corporate names as co-subjects and do not establish a coherent binary semantic relation. The largest identifiable specific family is explicit institutional official status (including misleading Washington datelines); select this weak minority family and retain unrelated name-fragment facts as failures. This is not a general employment or co-name identity predicate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:08:40.935Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    11,
+    12
+  ],
+  "competing_meanings": [
+    "co-subject corporate name fragments",
+    "dateline artifacts",
+    "ordinary teaching"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_171.before_grading.json",
+  "pregrading_annotation_sha256": "e657ee3ed180719762b8a7606448599728b04639369215f5b9744c6ec2f92a95"
+}

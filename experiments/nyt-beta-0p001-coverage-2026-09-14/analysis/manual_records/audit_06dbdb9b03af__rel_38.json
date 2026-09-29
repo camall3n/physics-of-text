@@ -1,0 +1,58 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_38",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3
+      ],
+      "case_ids": [
+        "rel_38__ent_837__ent_1086",
+        "rel_38__ent_586__ent_189"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political leadership or institutional liaison does not establish alternative names for the same entity.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_38__ent_1155__ent_219"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Conversion and merger wording leaves renaming of one entity versus merger of distinct entities unresolved.",
+      "tags": [
+        "identity_attachment"
+      ],
+      "question": "Does Macy designate a new name for Federated itself, or a distinct acquired/merged company?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_38__ent_445__ent_687"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Known-as attaches through inspectors, mandate, requests or experts; the exact referent of Unscom rather than the surrounding named commission remains uncertain.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does each known-as phrase name the United Nations Special Commission itself rather than its inspectors or another attached unit?"
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "a2c5ee143f137b8ae4051721e4914f1c1a963f5d819fd3049c68d63430e9d6f3"
+}

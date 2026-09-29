@@ -1,0 +1,56 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_74",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_74__ent_1039__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Secretary and a relative clause about a White House spokesman do not clearly attach the spokesman role to Scott McClellan himself.",
+      "tags": [
+        "spokesperson_attachment"
+      ],
+      "question": "Does the relative-clause spokesman denote Scott McClellan, or another speaker?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_74__ent_98__ent_93"
+      ],
+      "judgment": "incorrect",
+      "reason": "An institutional alternative name is not a person serving as spokesperson.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_74__ent_578__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Secretary and saying a review alone do not establish the specifically required spokesperson role.",
+      "tags": [
+        "secretary_only"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "29d1c3413ea85d7dbcfb258b8b56e80fe9fdc1bab76e140ca43947e758aa4a7a"
+}

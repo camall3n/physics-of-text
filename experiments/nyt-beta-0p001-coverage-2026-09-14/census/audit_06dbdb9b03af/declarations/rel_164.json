@@ -1,0 +1,46 @@
+{
+  "relation": "rel_164",
+  "predicate_id": "has_member",
+  "predicate_version": 1,
+  "predicate_hash": "e06c2b4086768dca86ee7554ab8de61a903529610ffb5a9e45977f36ffeb0d6a",
+  "predicate": {
+    "id": "has_member",
+    "label": "has member",
+    "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+    "includes": [
+      "explicit membership or being included as a group member",
+      "a clearly established office or athlete role that entails membership of the stated group",
+      "historical membership"
+    ],
+    "excludes": [
+      "corporate subsidiary ownership without membership in an explicitly identified group",
+      "a geographic area containing a place",
+      "ordinary accompaniment or a meeting",
+      "planned membership without established admission"
+    ],
+    "ambiguous": [
+      "generic include or join without group-membership context",
+      "unclear group versus geographic or corporate containment",
+      "proposed admission or unresolved member identity"
+    ],
+    "notes": "Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+    "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient."
+  },
+  "dictionary_sha256": "cd22dfa3839d2c9a7794c446444485ecc9e5db5c5e45d0ec99df072ccfe74eb9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Member apposition and held-seat4 define institutional membership; geography and accusation separate.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:25:34.039Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_164.before_grading.json",
+  "pregrading_annotation_sha256": "ce86e0906487c01159509ae695338b498a01afe722bd10a3e864a5fabb841024"
+}

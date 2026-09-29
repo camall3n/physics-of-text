@@ -1,0 +1,86 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_180",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "case_ids": [
+        "rel_180__ent_942__ent_1401",
+        "rel_180__ent_955__ent_1002",
+        "rel_180__ent_1285__ent_1205",
+        "rel_180__ent_1147__ent_209",
+        "rel_180__ent_220__ent_1205",
+        "rel_180__ent_300__ent_1401",
+        "rel_180__ent_714__ent_1002"
+      ],
+      "judgment": "supported",
+      "reason": "A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        7
+      ],
+      "case_ids": [
+        "rel_180__ent_1247__ent_1270",
+        "rel_180__ent_1017__ent_1409"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Supporting organizational-location evidence is merged with a different person/team or officeholder in the same fact.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which person/organization pair should be retained after resolving the merged identities?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_180__ent_290__ent_11"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Dutch is national affiliation rather than an unambiguous physical geographic location.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Does the source explicitly locate the company in the Netherlands?"
+    },
+    {
+      "indices": [
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_180__ent_524__ent_1235",
+        "rel_180__ent_1080__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political leadership and Internet industry affiliation are outside organizational geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "895d64707e66222815bea8c6d5178076127e70a25357f2cd86af63d5cb73acd9"
+}

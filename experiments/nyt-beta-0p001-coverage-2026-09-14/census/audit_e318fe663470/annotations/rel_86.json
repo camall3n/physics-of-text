@@ -1,0 +1,74 @@
+{
+  "relation": "rel_86",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_86__ent_739__ent_741",
+      "judgment": "ambiguous",
+      "reason": "Unbridled → Kentucky Derby; Real Quiet → Kentucky Derby: Sporting outcome evidence merges Real Quiet with Unbridled, and Unbridled's Song fragments leave horse/parent identity unresolved.",
+      "evidence_lines": [
+        7742,
+        7743,
+        7744,
+        7745,
+        7778,
+        7779,
+        7780,
+        7782,
+        7783
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "truncated_argument"
+      ],
+      "reviewer_question": "Which horse actually participated, and should Real Quiet and Unbridled/Unbridled's Song be separate?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.336Z"
+      }
+    },
+    {
+      "case_id": "rel_86__ent_494__ent_333",
+      "judgment": "incorrect",
+      "reason": "Ruth W. Messinger → Manhattan: Political office candidacy or player recall does not establish sporting-event participation by the first argument.",
+      "evidence_lines": [
+        2818,
+        2819,
+        2820
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.337Z"
+      }
+    },
+    {
+      "case_id": "rel_86__ent_12__ent_735",
+      "judgment": "incorrect",
+      "reason": "Yankees → Class AAA Columbus: Political office candidacy or player recall does not establish sporting-event participation by the first argument.",
+      "evidence_lines": [
+        7916,
+        7917
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:56.337Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "17e49856d4a811e94d0b31fe1382e1c4da333c3bcd2e33ac80e483a02c3d3560"
+}

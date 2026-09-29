@@ -1,0 +1,58 @@
+{
+  "started_at": "2026-09-11T22:43:11.606Z",
+  "cwd": "/Users/michal/repos/physics-of-text/resources/sampler-140626/results/figure1-2026-fixed",
+  "command": [
+    "java",
+    "-Xmx2g",
+    "-Dlogback.configurationFile=/Users/michal/repos/physics-of-text/resources/sampler-140626/results/figure1-2026-fixed/logback-off.xml",
+    "-cp",
+    "/Users/michal/repos/physics-of-text/resources/sampler-140626/target-javac/classes:/Users/michal/repos/physics-of-text/resources/sampler-140626/target/generative_ie-1.0-SNAPSHOT-jar-with-dependencies.jar",
+    "org.ucb.generative_ie.experiments.LexicalEntropyExperiment",
+    "prec_recall.out",
+    "8",
+    "2000",
+    "10"
+  ],
+  "source_sha256": "0e7c1dee85ac7257360db057d34e1ab1937311bc03162dfaa1dab0ec4a42510e",
+  "source_hash_recipe": "sorted rg --files src/main/java: concatenate relative path + NUL + contents + NUL; sha256",
+  "git_head": "13c3605ade242f9366e4bda55fabd394c23589dc",
+  "java": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)",
+  "parameters": {
+    "worlds_per_bin": 8,
+    "iterations": 2000,
+    "moves_per_iteration": 10,
+    "burnin_iterations": 500,
+    "observations_per_world": 60,
+    "entities": 10,
+    "relations": 2,
+    "triggers": 5,
+    "sparsity": 0.3,
+    "alpha": 0.01,
+    "beta": 0.5,
+    "entropy_bin_starts": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "entropy_bin_width": 0.05,
+    "generated_candidate_worlds": 5000,
+    "seed_argument": 20130601,
+    "seed_limitation": "Several generator/iterator RNGs remain unseeded, so previous and corrected worlds are not paired."
+  },
+  "finished_at": "2026-09-11T22:43:19.286Z",
+  "wall_seconds": 7.627,
+  "exit_code": 0,
+  "signal": null,
+  "plotting": {
+    "interpreter": "/Users/michal/repos/physics-of-text/.venv/bin/python",
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "matplotlib": "3.9.4",
+    "script": "../../scripts/compare_figure1_runs.py",
+    "command": "MPLCONFIGDIR=/private/tmp/physics-figure1-mpl /Users/michal/repos/physics-of-text/.venv/bin/python resources/sampler-140626/scripts/compare_figure1_runs.py resources/sampler-140626/results/figure1-2026/prec_recall.out resources/sampler-140626/results/figure1-2026-fixed/prec_recall.out resources/sampler-140626/results/figure1-2026-fixed"
+  },
+  "output_sha256": "46e0538f1bd6921c6fcd5e7669a0fb06e364daf6ef6eb4ff8df002b12ff74dc0",
+  "previous_output_sha256": "6640b54b6f9d126d32416c1d2eff19967d8d18e5e0b65c9fd5bc4a21e7ac6c1c"
+}

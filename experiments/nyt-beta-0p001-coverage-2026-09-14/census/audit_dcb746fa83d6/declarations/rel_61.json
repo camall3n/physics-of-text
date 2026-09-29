@@ -1,0 +1,56 @@
+{
+  "relation": "rel_61",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "21690d6d60a29b943298ddd027fdbced100153de8dd1d9698ee0228fd06cbab3",
+  "kind": "declared_before_case_grading",
+  "rationale": "Critic/writer and named-publication roles identify authored commentary as dominant family. Say-in alone remains ambiguous if merely quoted rather than authoring.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.384Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18
+  ],
+  "competing_meanings": [
+    "quotation",
+    "political support"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_61.before_grading.json",
+  "pregrading_annotation_sha256": "4a247c651ee60f5eb3979376907e60c5c2db0a4e671f4b9079751efe26606e4c"
+}

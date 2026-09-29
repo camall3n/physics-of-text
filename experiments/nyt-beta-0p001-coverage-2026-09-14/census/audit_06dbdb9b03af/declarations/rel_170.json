@@ -1,0 +1,48 @@
+{
+  "relation": "rel_170",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "ae9ba129ef61220eb9dbfe062af95c44e1aec99fc3bdf7c6877c04e38a1bf29c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Write-in6 plus explicit writing/reviewing and reviewer-for paths dominate authorship for publications; say-in9 is ambiguous quotation versus authorship and must not automatically pass.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:08:39.092Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    2,
+    3,
+    4,
+    10,
+    11,
+    12,
+    14,
+    16
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_170.before_grading.json",
+  "pregrading_annotation_sha256": "d74fb727c587e6affe076c2699760f8ac8036427b069f93c5ecdf2b4da7233db"
+}

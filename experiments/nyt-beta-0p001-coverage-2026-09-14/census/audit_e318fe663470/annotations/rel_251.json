@@ -1,0 +1,136 @@
+{
+  "relation": "rel_251",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_251__ent_1004__ent_836",
+      "judgment": "supported",
+      "reason": "Yankees → World Series: Played-in or lost-in World Series evidence establishes sporting-event participation.",
+      "evidence_lines": [
+        2184,
+        2185,
+        2700,
+        2701
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    },
+    {
+      "case_id": "rel_251__ent_600__ent_836",
+      "judgment": "supported",
+      "reason": "Cubs → World Series: Played-in or lost-in World Series evidence establishes sporting-event participation.",
+      "evidence_lines": [
+        2270,
+        2274,
+        7767,
+        7771
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    },
+    {
+      "case_id": "rel_251__ent_856__ent_83",
+      "judgment": "incorrect",
+      "reason": "Raiders → Oakland: Geographic cities or a political building are locations, not the named sporting event required by the predicate.",
+      "evidence_lines": [
+        5230,
+        5233,
+        5235
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    },
+    {
+      "case_id": "rel_251__ent_647__ent_429",
+      "judgment": "incorrect",
+      "reason": "Dodgers → Los Angeles: Geographic cities or a political building are locations, not the named sporting event required by the predicate.",
+      "evidence_lines": [
+        4806,
+        4807
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    },
+    {
+      "case_id": "rel_251__ent_1248__ent_450",
+      "judgment": "incorrect",
+      "reason": "Mr. Gorbachev → Moscow: Geographic cities or a political building are locations, not the named sporting event required by the predicate.",
+      "evidence_lines": [
+        5219,
+        5222
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    },
+    {
+      "case_id": "rel_251__ent_1300__ent_1422",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → White House: Geographic cities or a political building are locations, not the named sporting event required by the predicate.",
+      "evidence_lines": [
+        4093
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    },
+    {
+      "case_id": "rel_251__ent_856__ent_1277",
+      "judgment": "incorrect",
+      "reason": "Raiders → Los Angeles: Geographic cities or a political building are locations, not the named sporting event required by the predicate.",
+      "evidence_lines": [
+        4796
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:04.847Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9d741130137472d0d4299823b00e745c826cd8c9b3afea910da858e14283433e"
+}

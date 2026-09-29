@@ -1,0 +1,492 @@
+{
+  "relation": "rel_98",
+  "predicate_id": "winner_of",
+  "label": "winner or champion of",
+  "definition": "Entity X won the award or competition designated by Y, or held an explicitly Y-designated championship title.",
+  "scope_notes": "Includes: explicit win/winner/champion of event or award; sporting titles and honor awards such as Nobel Peace Prize; explicit championship/title designated by a sanctioning body or Olympic designation; historical victory. Excludes: participation or reaching the event; single stage/game victory without the overall title; winning political office/control of a body; location or ordinary membership. Ambiguous unless resolved by case-local evidence: unclear title/event attachment; medal without a clear winning title or award scope. A named boxing body can designate its explicit title; mark broad_predicate rather than claiming the body itself was won. A named electoral competition is conceptually an event, but winning the White House or a legislature is office/control, not event-winning.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_98.json",
+    "source_sha256": "57a35639ef42a6881a906bb3478599a07e9928dde76c7f07a14e20b91783ca4a",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_98__ent_608__ent_607",
+      "judgment": "supported",
+      "reason": "Woods → Masters: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2237,
+        2240,
+        2241,
+        2243,
+        2244,
+        2245,
+        2246
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_732__ent_974",
+      "judgment": "supported",
+      "reason": "Ullrich → Tour: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        7784,
+        7785,
+        7789,
+        7791,
+        7792,
+        7793
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_98.json",
+        "annotation_sha256": "57a35639ef42a6881a906bb3478599a07e9928dde76c7f07a14e20b91783ca4a"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_1411__ent_1381",
+      "judgment": "supported",
+      "reason": "Giants → Super Bowl: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2217,
+        2221,
+        2223,
+        3437,
+        3443
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_98.json",
+        "annotation_sha256": "57a35639ef42a6881a906bb3478599a07e9928dde76c7f07a14e20b91783ca4a"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_185__ent_851",
+      "judgment": "supported",
+      "reason": "Devils → Stanley Cup: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2227,
+        2230,
+        7728,
+        8039,
+        8041
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_980__ent_741",
+      "judgment": "supported",
+      "reason": "Real Quiet → Kentucky Derby: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        7737,
+        7738,
+        7741,
+        7745
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_740__ent_1231",
+      "judgment": "supported",
+      "reason": "Hansel → Preakness: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        7755,
+        7758,
+        7759,
+        7760
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_409__ent_1420",
+      "judgment": "ambiguous",
+      "reason": "Yankees → World Series; Marlins → World Series: The same first latent entity combines Yankees and Marlins, so the supported winner rows do not identify one coherent inferred subject.",
+      "evidence_lines": [
+        2181,
+        2257,
+        2693
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Which team is intended by this latent fact, and should Yankees and Marlins be split?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_98.json",
+        "annotation_sha256": "57a35639ef42a6881a906bb3478599a07e9928dde76c7f07a14e20b91783ca4a"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_347__ent_1298",
+      "judgment": "supported",
+      "reason": "Rangers → Stanley Cup: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2188,
+        2193,
+        2196
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_1350__ent_1302",
+      "judgment": "supported",
+      "reason": "Mets → World Series: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2208,
+        2212,
+        2214
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_739__ent_741",
+      "judgment": "supported",
+      "reason": "Unbridled → Kentucky Derby: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        7775,
+        7776,
+        7777
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_752__ent_510",
+      "judgment": "supported",
+      "reason": "Pat Cash → Wimbledon: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        7995,
+        7998,
+        8002
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_309__ent_1302",
+      "judgment": "supported",
+      "reason": "Red Sox → World Series: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2197,
+        2198
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_98.json",
+        "annotation_sha256": "57a35639ef42a6881a906bb3478599a07e9928dde76c7f07a14e20b91783ca4a"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_6__ent_586",
+      "judgment": "incorrect",
+      "reason": "Bill Clinton → White House: Winning political office/control is outside the declared competition/award predicate.",
+      "evidence_lines": [
+        2714,
+        2718
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_annotations/rel_98.json",
+        "annotation_sha256": "57a35639ef42a6881a906bb3478599a07e9928dde76c7f07a14e20b91783ca4a"
+      },
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_251__ent_586",
+      "judgment": "incorrect",
+      "reason": "John F. Kennedy → White House: Winning political office/control is outside the declared competition/award predicate.",
+      "evidence_lines": [
+        2745,
+        2746
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_726__ent_607",
+      "judgment": "ambiguous",
+      "reason": "Scot → Masters: The win/victory path is clear, but Scot is an incomplete person designation and does not identify the winner from the supplied triples.",
+      "evidence_lines": [
+        7716,
+        7717
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Which named golfer does Scot denote in the original sentence?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_1238__ent_483",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Congress: The supplied communication, church/location, or opponent-apposition evidence does not establish winning an event or award.",
+      "evidence_lines": [
+        408
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_1320__ent_764",
+      "judgment": "incorrect",
+      "reason": "Devils → Stanley Cup: Being led to the Stanley Cup does not by itself distinguish reaching the final from winning it. No explicit win is supplied for this latent fact.",
+      "evidence_lines": [
+        2229
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_409__ent_772",
+      "judgment": "supported",
+      "reason": "Yankees → American League East: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        2735
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_645__ent_380",
+      "judgment": "incorrect",
+      "reason": "Mark → Manhattan: The supplied communication, church/location, or opponent-apposition evidence does not establish winning an event or award.",
+      "evidence_lines": [
+        3991
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_249__ent_1326",
+      "judgment": "incorrect",
+      "reason": "Democrats → House: Winning political office/control is outside the declared competition/award predicate.",
+      "evidence_lines": [
+        6366
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_816__ent_20",
+      "judgment": "incorrect",
+      "reason": "Republicans → House: Winning political office/control is outside the declared competition/award predicate.",
+      "evidence_lines": [
+        6402
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_263__ent_1215",
+      "judgment": "incorrect",
+      "reason": "Republican → Bob Dole: The supplied communication, church/location, or opponent-apposition evidence does not establish winning an event or award.",
+      "evidence_lines": [
+        7708
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    },
+    {
+      "case_id": "rel_98__ent_991__ent_964",
+      "judgment": "supported",
+      "reason": "Becker → Wimbledon: A supplied row explicitly identifies a win or winner of the named competition; other participation, stage, or contextual rows are not needed.",
+      "evidence_lines": [
+        7985
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:51:58.887Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "relation": "rel_298",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_298__ent_831__ent_213",
+      "judgment": "supported",
+      "reason": "Croatia → Franjo Tudjman: An explicit country president possessive identifies the named national leader.",
+      "evidence_lines": [
+        5319,
+        5320,
+        5322,
+        5323,
+        5324,
+        5325
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:39.623Z"
+      }
+    },
+    {
+      "case_id": "rel_298__ent_972__ent_971",
+      "judgment": "incorrect",
+      "reason": "Webster L. Hubbell → Justice Department: Forward official role, sports-series participation or party front-runner status is not a political body having a named leader.",
+      "evidence_lines": [
+        7471,
+        7474,
+        7475,
+        7478
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:39.623Z"
+      }
+    },
+    {
+      "case_id": "rel_298__ent_559__ent_557",
+      "judgment": "incorrect",
+      "reason": "Montreal Expos → New York Mets: Forward official role, sports-series participation or party front-runner status is not a political body having a named leader.",
+      "evidence_lines": [
+        1049,
+        1050,
+        1051
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:39.623Z"
+      }
+    },
+    {
+      "case_id": "rel_298__ent_261__ent_263",
+      "judgment": "incorrect",
+      "reason": "Bob Dole → Republican: Forward official role, sports-series participation or party front-runner status is not a political body having a named leader.",
+      "evidence_lines": [
+        2990,
+        3714
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:23:39.623Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "da449e6439ab45d9ce68ddc22f3ef69768e91695d26968150cc558a95f50fcd3"
+}

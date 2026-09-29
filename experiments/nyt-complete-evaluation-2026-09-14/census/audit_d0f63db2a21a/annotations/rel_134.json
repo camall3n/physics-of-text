@@ -1,0 +1,917 @@
+{
+  "relation": "rel_134",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_134.json",
+    "source_sha256": "d52ad42e7139af07492b805033bede66ab2f3f304b183b58617662715b0b5940",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_134__ent_911__ent_210",
+      "judgment": "ambiguous",
+      "reason": "Pakistan → Gen. Pervez Musharraf; William Constable → Melbourne: Different literal entity pairs or different named political figures are merged inside one local fact.",
+      "evidence_lines": [
+        2684,
+        5276,
+        5277,
+        5278,
+        5279,
+        5280,
+        5281,
+        5283,
+        5284
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which incompatible local pair does this inferred fact represent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1259__ent_213",
+      "judgment": "supported",
+      "reason": "Croatia → Franjo Tudjman: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5316,
+        5317,
+        5318,
+        5319,
+        5320,
+        5321,
+        5322,
+        5324,
+        5325
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.803Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_798__ent_455",
+      "judgment": "supported",
+      "reason": "Taiwan → Lee Teng-hui: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5326,
+        5327,
+        5328,
+        5329,
+        5330,
+        5331,
+        5332,
+        5333,
+        5335
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_697__ent_212",
+      "judgment": "supported",
+      "reason": "Syria → Hafez al-Assad: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5346,
+        5347,
+        5348,
+        5349,
+        5350,
+        5352,
+        5353,
+        5354,
+        5355
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_837__ent_1086",
+      "judgment": "supported",
+      "reason": "Japan → Kiichi Miyazawa: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        7067,
+        7068,
+        7069,
+        7070,
+        7071,
+        7072,
+        7073,
+        7075,
+        7076
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_96__ent_948",
+      "judgment": "ambiguous",
+      "reason": "India → Atal Behari Vajpayee: The evidence identifies an unspecified minister without resolving head-of-government or qualifying political-leadership scope.",
+      "evidence_lines": [
+        7027,
+        7028,
+        7029,
+        7030,
+        7031,
+        7033,
+        7035,
+        7036
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "Does the complete sentence identify a prime minister or another qualifying political leader?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_453__ent_1291",
+      "judgment": "supported",
+      "reason": "Serbia → Slobodan Milosevic: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5266,
+        5267,
+        5268,
+        5270,
+        5271,
+        5272
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_543__ent_590",
+      "judgment": "incorrect",
+      "reason": "Nets → Rod Thorn: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        5307,
+        5309,
+        5312,
+        5313,
+        5314,
+        5315
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_820__ent_940",
+      "judgment": "ambiguous",
+      "reason": "Israel → Yitzhak Shamir: The evidence identifies an unspecified minister without resolving head-of-government or qualifying political-leadership scope.",
+      "evidence_lines": [
+        7077,
+        7081,
+        7082,
+        7083,
+        7085,
+        7086
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "Does the complete sentence identify a prime minister or another qualifying political leader?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_189__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Congress → Washington: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        5180,
+        5181,
+        5182,
+        5183,
+        5184
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_134.json",
+        "annotation_sha256": "d52ad42e7139af07492b805033bede66ab2f3f304b183b58617662715b0b5940"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_211__ent_452",
+      "judgment": "supported",
+      "reason": "Haiti → Jean-Bertrand Aristide: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5286,
+        5289,
+        5290,
+        5292,
+        5295
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_492__ent_1118",
+      "judgment": "supported",
+      "reason": "Iraq → Saddam Hussein: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5336,
+        5337,
+        5339,
+        5341,
+        5344
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1266__ent_706",
+      "judgment": "ambiguous",
+      "reason": "Britain → Tony Blair: The evidence identifies an unspecified minister without resolving head-of-government or qualifying political-leadership scope.",
+      "evidence_lines": [
+        7007,
+        7008,
+        7009,
+        7014,
+        7016
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "Does the complete sentence identify a prime minister or another qualifying political leader?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_134.json",
+        "annotation_sha256": "d52ad42e7139af07492b805033bede66ab2f3f304b183b58617662715b0b5940"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_158__ent_323",
+      "judgment": "incorrect",
+      "reason": "Mr. Schwartz → Brooklyn: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        974,
+        977,
+        978,
+        980
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_976__ent_59",
+      "judgment": "incorrect",
+      "reason": "Alan Blinder → Council of Economic Advisers: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3265,
+        3266,
+        3268,
+        3269
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_44__ent_43",
+      "judgment": "incorrect",
+      "reason": "Mr. Gotti → Bruce Cutler: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3800,
+        3803,
+        3804,
+        3806
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1321__ent_1284",
+      "judgment": "supported",
+      "reason": "Senate → Tom Daschle: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        7649,
+        7650,
+        7653,
+        7654
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_17__ent_1422",
+      "judgment": "incorrect",
+      "reason": "George Stephanopoulos → White House: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        8443,
+        8445,
+        8446,
+        8449
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_556__ent_798",
+      "judgment": "incorrect",
+      "reason": "Mr. Lee → Taiwan: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        986,
+        987,
+        990
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_70__ent_71",
+      "judgment": "incorrect",
+      "reason": "Peter A. Bradford → Nuclear Regulatory Commission: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3313,
+        3314,
+        3316
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_270__ent_410",
+      "judgment": "incorrect",
+      "reason": "John C. Bogle → Vanguard Group: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3848,
+        3852,
+        3853
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1321__ent_930",
+      "judgment": "ambiguous",
+      "reason": "Senate → Donald T. DiFrancesco: The local title is president-elect, and the remaining rows do not resolve actual tenure.",
+      "evidence_lines": [
+        6777,
+        6781,
+        6783
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "Does the evidence establish that the president-elect subsequently held the office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1337__ent_1132",
+      "judgment": "ambiguous",
+      "reason": "Israel → Shimon Peres; Israel → Yitzhak Rabin: Different literal entity pairs or different named political figures are merged inside one local fact.",
+      "evidence_lines": [
+        7017,
+        7018,
+        7064
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which incompatible local pair does this inferred fact represent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_951__ent_325",
+      "judgment": "incorrect",
+      "reason": "John Gross → The Times: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        7315,
+        7316,
+        7317
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_562__ent_1307",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Brooklyn: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        961,
+        963
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_334__ent_1317",
+      "judgment": "incorrect",
+      "reason": "Park Slope → Brooklyn: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        1154,
+        1155
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_829__ent_1107",
+      "judgment": "incorrect",
+      "reason": "Clinton Administration → Congress: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        2063,
+        2064
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_876__ent_612",
+      "judgment": "incorrect",
+      "reason": "Democrats → Senate; Walter Ames Compton → Elkhart: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        2687,
+        6376
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_818__ent_271",
+      "judgment": "incorrect",
+      "reason": "China → Security Council: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3303,
+        3308
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1116__ent_177",
+      "judgment": "incorrect",
+      "reason": "MacLean → Devils: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        4251,
+        4254
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1318__ent_1349",
+      "judgment": "supported",
+      "reason": "China → Jiang Zemin: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        5296,
+        5303
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1337__ent_709",
+      "judgment": "ambiguous",
+      "reason": "Israel → Ehud Olmert: The evidence identifies an unspecified minister without resolving head-of-government or qualifying political-leadership scope.",
+      "evidence_lines": [
+        7037,
+        7046
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": "Does the complete sentence identify a prime minister or another qualifying political leader?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1197__ent_1445",
+      "judgment": "supported",
+      "reason": "Senate → Tom Daschle: A local president/ruler or legislative-leader path identifies this named person as a political leader of the body.",
+      "evidence_lines": [
+        7648,
+        7652
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_134.json",
+        "annotation_sha256": "d52ad42e7139af07492b805033bede66ab2f3f304b183b58617662715b0b5940"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.804Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1278__ent_1239",
+      "judgment": "incorrect",
+      "reason": "Bush → Congress: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        439
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_15__ent_1350",
+      "judgment": "incorrect",
+      "reason": "Joseph L. Bruno → Senate: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3023
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_134.json",
+        "annotation_sha256": "d52ad42e7139af07492b805033bede66ab2f3f304b183b58617662715b0b5940"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_78__ent_73",
+      "judgment": "incorrect",
+      "reason": "Lindsay Boxer → Murder Club: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3264
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1106__ent_54",
+      "judgment": "incorrect",
+      "reason": "James Claffey → Long Island Immigrant Alliance: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3321
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_89__ent_616",
+      "judgment": "incorrect",
+      "reason": "Whitey Herzog → Cardinals: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3381
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_134.json",
+        "annotation_sha256": "d52ad42e7139af07492b805033bede66ab2f3f304b183b58617662715b0b5940"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1077__ent_1351",
+      "judgment": "incorrect",
+      "reason": "Mr. Simpson → Johnnie L. Cochran Jr.: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        3832
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_403__ent_1139",
+      "judgment": "incorrect",
+      "reason": "Joseph L. Bruno → State Senate: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        5005
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1197__ent_1344",
+      "judgment": "ambiguous",
+      "reason": "Senate → Bob Dole: The only extracted path links a letter to the Senate leader with a statement attributed to Bob Dole, leaving the leader attachment unclear.",
+      "evidence_lines": [
+        7631
+      ],
+      "issue_tags": [
+        "attachment_ambiguity"
+      ],
+      "reviewer_question": "Does the original sentence identify Dole himself as Senate leader?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    },
+    {
+      "case_id": "rel_134__ent_1332__ent_449",
+      "judgment": "incorrect",
+      "reason": "Hansel → Preakness: All local evidence describes a non-political institution, ordinary membership/communication/location, or the wrong direction for body-to-political-leader.",
+      "evidence_lines": [
+        7759
+      ],
+      "issue_tags": [
+        "predicate_mismatch"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:06:08.805Z"
+      }
+    }
+  ]
+}

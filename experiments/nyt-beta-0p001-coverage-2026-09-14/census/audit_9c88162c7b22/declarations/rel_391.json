@@ -1,0 +1,52 @@
+{
+  "relation": "rel_391",
+  "predicate_id": "succeeded_person",
+  "predicate_version": 1,
+  "predicate_hash": "cf88bc7434fa6be9db182b5aa625fc51bf1a23063c2fa8093914b8cfff879157",
+  "predicate": {
+    "id": "succeeded_person",
+    "label": "succeeded person in role",
+    "definition": "Person X took over a role previously held by person Y.",
+    "includes": [
+      "explicit succession or replacement in an office or professional role",
+      "historical successor taking office",
+      "clearly established temporary or acting replacement"
+    ],
+    "excludes": [
+      "X appointed a third person to replace Y",
+      "generic opposition, criticism, or substitution unrelated to a role",
+      "a proposed successor without established tenure"
+    ],
+    "ambiguous": [
+      "bare replace where appointing versus taking over is unresolved",
+      "unclear predecessor or role",
+      "candidate or announced future replacement without tenure"
+    ],
+    "notes": "Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously.",
+    "scope_notes": "Includes: explicit succession or replacement in an office or professional role; historical successor taking office; clearly established temporary or acting replacement. Excludes: X appointed a third person to replace Y; generic opposition, criticism, or substitution unrelated to a role; a proposed successor without established tenure. Ambiguous unless resolved by case-local evidence: bare replace where appointing versus taking over is unresolved; unclear predecessor or role; candidate or announced future replacement without tenure. Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously."
+  },
+  "dictionary_sha256": "f763c71422c39ace1a1db16993a9e3243bc0b336ec42b4243f22989de5ef75bb",
+  "kind": "declared_before_case_grading",
+  "rationale": "Replacement/succession of a named person is the dominant family; choosing/removing someone or an omitted taken object does not by itself establish succeeding that person.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.325Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    12,
+    14,
+    15
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_391.before_grading.json",
+  "pregrading_annotation_sha256": "18777174e61e8350fb3de68d3dff57e359f4e40433f120851143eb7c4ed89111"
+}

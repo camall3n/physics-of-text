@@ -1,0 +1,75 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_200",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_200__ent_1212__ent_977"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Diplomacy, troops, support and omitted-object sending coexist without a resolved cluster predicate.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Is the intended relation diplomatic representation, troop transfer, support or something else?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_200__ent_1004__ent_735"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Sending/recalling to a minor-league club competes with message and troop meanings in the unresolved dictionary.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Does the relation describe player assignment or a different kind of transfer?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_200__ent_829__ent_189"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Report-to suggests communication but the overall send-dominated relation has no single resolved meaning.",
+      "tags": [
+        "unresolved_relation",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this cluster be interpreted as directed communication to Congress?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_200__ent_142__ent_1239"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bare send-to omits the object and cannot resolve the cluster-level semantic ambiguity.",
+      "tags": [
+        "unresolved_relation",
+        "missing_object",
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "What was sent to Congress and what predicate should the cluster express?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "b2760a4c4a171bad25f07723dddd8819916ec3e28020f936a417abeaf63b8151"
+}

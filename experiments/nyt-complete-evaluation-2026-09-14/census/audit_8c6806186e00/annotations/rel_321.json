@@ -1,0 +1,730 @@
+{
+  "relation": "rel_321",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_321.json",
+    "source_sha256": "98d5285507001c7045db4ca8aec3fec30499988e2ed0e9e547fc475d03649b4c",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_321__ent_921__ent_1066",
+      "judgment": "ambiguous",
+      "reason": "Hughes → General Motors Corporation: Hughes has both company/unit and executive-at readings, leaving person versus company identity unresolved in this latent fact.",
+      "evidence_lines": [
+        6613,
+        6614,
+        6615,
+        6616,
+        6617,
+        6618,
+        6619,
+        6620,
+        6621,
+        6622
+      ],
+      "issue_tags": [
+        "merged_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does Hughes refer to the company throughout, or has an executive mention been merged into it?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1240__ent_1233",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        2551,
+        2552,
+        2553,
+        2554,
+        2556,
+        2559,
+        6575,
+        6578,
+        6583
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.335Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1002__ent_664",
+      "judgment": "ambiguous",
+      "reason": "Washington → American Civil Liberties Union: The argument is a city standing for an office or chapter, rather than an explicitly named organizational unit.",
+      "evidence_lines": [
+        4190,
+        4192,
+        4193,
+        4194,
+        4195,
+        4196,
+        4197,
+        4198,
+        4199
+      ],
+      "issue_tags": [
+        "argument_boundary",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Should this city argument be expanded to the named organization’s local office or chapter?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_624__ent_866",
+      "judgment": "supported",
+      "reason": "United → UAL Corporation: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        2482,
+        2483,
+        2484,
+        2485,
+        2489,
+        6589,
+        6596
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_537__ent_843",
+      "judgment": "incorrect",
+      "reason": "United States → New York: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7606,
+        7607,
+        7609,
+        7610,
+        7613,
+        7614,
+        7615
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_867__ent_628",
+      "judgment": "supported",
+      "reason": "NBC → General Electric Company: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        2521,
+        2523,
+        2525,
+        2527,
+        2528,
+        2529
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_462__ent_683",
+      "judgment": "incorrect",
+      "reason": "Mcorp → Texas: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        5795,
+        5796,
+        5798,
+        5800,
+        5801,
+        5802
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_816__ent_725",
+      "judgment": "incorrect",
+      "reason": "Republicans → John McCain: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7546,
+        7547,
+        7548,
+        7549,
+        7552,
+        7553
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_881__ent_101",
+      "judgment": "supported",
+      "reason": "ABC → Walt Disney Company: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        2571,
+        2572,
+        2573,
+        2576,
+        2579
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_201__ent_443",
+      "judgment": "incorrect",
+      "reason": "New Yorkers → AIDS: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        4908,
+        4910,
+        4912,
+        4914,
+        4915
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_457__ent_699",
+      "judgment": "incorrect",
+      "reason": "Mr. de Klerk → Mr. Botha: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        5888,
+        5892,
+        5893,
+        5894,
+        5897
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1062__ent_776",
+      "judgment": "supported",
+      "reason": "Sears Receivables Financing Group Inc. → Sears: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6567,
+        6568,
+        6569,
+        6571,
+        6572
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1314__ent_1244",
+      "judgment": "supported",
+      "reason": "Fox → News Corporation: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        2513,
+        2516,
+        2517,
+        2518
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_624__ent_627",
+      "judgment": "supported",
+      "reason": "United → UAL: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        2532,
+        2533,
+        2538,
+        2539
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_912__ent_918",
+      "judgment": "incorrect",
+      "reason": "J. Edgar Hoover → F.B.I.: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        8494,
+        8495,
+        8499,
+        8501
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_182__ent_1306",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Barbara: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        4545,
+        4546,
+        4549
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1152__ent_1052",
+      "judgment": "incorrect",
+      "reason": "Joe Morgan → John McNamara: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        5898,
+        5899,
+        5900
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1101__ent_1198",
+      "judgment": "incorrect",
+      "reason": "Jews → Poland: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        6100,
+        6101,
+        6104
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1304__ent_1375",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6576,
+        6577,
+        6580
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_321.json",
+        "annotation_sha256": "98d5285507001c7045db4ca8aec3fec30499988e2ed0e9e547fc475d03649b4c"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_922__ent_1380",
+      "judgment": "supported",
+      "reason": "TBWA Worldwide → Omnicom Group: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6655,
+        6658,
+        6662
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1208__ent_953",
+      "judgment": "incorrect",
+      "reason": "Birinyi Associates → Wall Street: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7380,
+        7381,
+        7382
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_424__ent_1129",
+      "judgment": "supported",
+      "reason": "Ogilvy & Mather Worldwide → WPP Group: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        4596,
+        4599
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_321.json",
+        "annotation_sha256": "98d5285507001c7045db4ca8aec3fec30499988e2ed0e9e547fc475d03649b4c"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_732__ent_816",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → Republicans: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        5546,
+        5553
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_321__ent_1084",
+      "judgment": "incorrect",
+      "reason": "Mets → Phillies: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        6909,
+        6915
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_957__ent_1308",
+      "judgment": "incorrect",
+      "reason": "Alan Keyes → State Department: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7457,
+        7458
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1333__ent_969",
+      "judgment": "incorrect",
+      "reason": "Senate → Bill Frist: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7668,
+        7672
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_321.json",
+        "annotation_sha256": "98d5285507001c7045db4ca8aec3fec30499988e2ed0e9e547fc475d03649b4c"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_736__ent_783",
+      "judgment": "incorrect",
+      "reason": "Gary D. Black → Sanford C. Bernstein & Company: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7845,
+        7846
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1442__ent_572",
+      "judgment": "incorrect",
+      "reason": "Fernando Ferrer → Bronx: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        2790
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_321.json",
+        "annotation_sha256": "98d5285507001c7045db4ca8aec3fec30499988e2ed0e9e547fc475d03649b4c"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_660__ent_103",
+      "judgment": "ambiguous",
+      "reason": "San Francisco → Foote: The argument is a city standing for an office or chapter, rather than an explicitly named organizational unit.",
+      "evidence_lines": [
+        4141
+      ],
+      "issue_tags": [
+        "argument_boundary"
+      ],
+      "reviewer_question": "Should this city argument be expanded to the named organization’s local office or chapter?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1063__ent_1409",
+      "judgment": "supported",
+      "reason": "J. Walter Thompson → WPP Group: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        4584
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+        "source": "prior_annotations/rel_321.json",
+        "annotation_sha256": "98d5285507001c7045db4ca8aec3fec30499988e2ed0e9e547fc475d03649b4c"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1065__ent_1021",
+      "judgment": "supported",
+      "reason": "Kellogg Brown & Root → Halliburton: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6604
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1321__ent_277",
+      "judgment": "supported",
+      "reason": "BBDO Worldwide → Omnicom Group: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6679
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1128__ent_856",
+      "judgment": "supported",
+      "reason": "J. Walter Thompson → WPP Group: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6686
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_313__ent_688",
+      "judgment": "supported",
+      "reason": "Conde Nast Publications → Advance Publications: Explicit subsidiary, unit, owned-by, parent, or organizational-part evidence establishes the child-to-parent relation.",
+      "evidence_lines": [
+        6696
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_1333__ent_263",
+      "judgment": "incorrect",
+      "reason": "Senate → Republican: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7681
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    },
+    {
+      "case_id": "rel_321__ent_750__ent_417",
+      "judgment": "incorrect",
+      "reason": "Curtis Strange → United States Open: The evidence describes geographic association, people, employment, political affiliation, disease, family, succession or competition without a child organization contained in a parent.",
+      "evidence_lines": [
+        7976
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:09:27.336Z"
+      }
+    }
+  ]
+}

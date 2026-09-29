@@ -1,0 +1,98 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_235",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_235__ent_1340__ent_561",
+        "rel_235__ent_817__ent_309",
+        "rel_235__ent_561__ent_560",
+        "rel_235__ent_462__ent_543",
+        "rel_235__ent_1044__ent_320",
+        "rel_235__ent_321__ent_1084",
+        "rel_235__ent_308__ent_1005",
+        "rel_235__ent_1282__ent_647",
+        "rel_235__ent_157__ent_1085",
+        "rel_235__ent_561__ent_400",
+        "rel_235__ent_1270__ent_998"
+      ],
+      "judgment": "supported",
+      "reason": "A local completed victory/loss or clear playing row establishes a contest between the named competitors.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_235__ent_1004__ent_1270"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Victories/losses merge Mets and Florida Marlins as one inferred opponent.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which opponent should this fact identify?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_235__ent_888__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "John-to-Manhattan play/loss rows conflict with obituary/place context; the participant and opponent identities cannot be recovered locally.",
+      "tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "question": "Does Manhattan denote a sports opponent or a place, and which John is meant?"
+    },
+    {
+      "indices": [
+        11
+      ],
+      "case_ids": [
+        "rel_235__ent_446__ent_557"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The isolated face row may describe a scheduled contest rather than a completed encounter.",
+      "tags": [
+        "temporal_scope"
+      ],
+      "question": "Did this encounter occur?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    4,
+    5,
+    6,
+    10
+  ],
+  "broad": [
+    10
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "adf684e593cd70de30c75d3bf6fbfb6f8a5c3dd6e320162e844820e526cbc05b"
+}

@@ -1,0 +1,71 @@
+{
+  "relation": "rel_228",
+  "label": "organization located or based in",
+  "definition": "Organization 1 is based in or has headquarters, offices or a campus in geographic place 2.",
+  "scope_notes": "Explicit organizational site/base paths qualify; personal employment, coaching, award events and ownership are separate relations.",
+  "facts": [
+    {
+      "case_id": "rel_228__ent_546__ent_788",
+      "judgment": "supported",
+      "reason": "Motorola is explicitly based in Schaumburg.",
+      "evidence_lines": [
+        818,
+        819
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_228__ent_773__ent_161",
+      "judgment": "incorrect",
+      "reason": "Ratajczak is an economist at Georgia State University, not an organization geographically based in the university.",
+      "evidence_lines": [
+        541
+      ],
+      "issue_tags": [
+        "wrong_argument_type",
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_228__ent_829__ent_110",
+      "judgment": "incorrect",
+      "reason": "Rangers play Devils; this is an opponent relation, not an organizational geographic base.",
+      "evidence_lines": [
+        2610
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_228__ent_463__ent_440",
+      "judgment": "supported",
+      "reason": "T. Rowe Price is explicitly a company in and based in Baltimore.",
+      "evidence_lines": [
+        5823,
+        5828,
+        5829,
+        5831
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_228__ent_956__ent_1444",
+      "judgment": "incorrect",
+      "reason": "Internet is the industry/medium for Jupiter Media Metrix and its traffic/site data; it is not a geographic location.",
+      "evidence_lines": [
+        7405,
+        7407,
+        7410
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

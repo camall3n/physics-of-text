@@ -1,0 +1,71 @@
+{
+  "relation": "rel_182",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_182__ent_104__ent_347",
+      "judgment": "supported",
+      "reason": "Neil Smith → Rangers: The work-as-boss-as-president-of path explicitly attributes president service in the named team.",
+      "evidence_lines": [
+        1662,
+        1663,
+        1664,
+        3329,
+        3330,
+        3331
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.185Z"
+      }
+    },
+    {
+      "case_id": "rel_182__ent_180__ent_189",
+      "judgment": "incorrect",
+      "reason": "Bush → Congress: A request to Congress or commercial sporting transfer is not institutional presidency.",
+      "evidence_lines": [
+        438,
+        2005,
+        7858
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.185Z"
+      }
+    },
+    {
+      "case_id": "rel_182__ent_309__ent_1004",
+      "judgment": "incorrect",
+      "reason": "Red Sox → Yankees: A request to Congress or commercial sporting transfer is not institutional presidency.",
+      "evidence_lines": [
+        865,
+        2665,
+        6931
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:14.185Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "92f87e850a37e49709c96e3858885c29f10aa3e78ce96ec36663f509efa9436c"
+}

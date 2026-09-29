@@ -1,0 +1,71 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_89",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "case_ids": [
+        "rel_89__ent_197__ent_586",
+        "rel_89__ent_828__ent_843",
+        "rel_89__ent_669__ent_1124",
+        "rel_89__ent_87__ent_1318",
+        "rel_89__ent_313__ent_324"
+      ],
+      "judgment": "supported",
+      "reason": "A local visit/trip/go-to row asserts travel toward the stated geographic destination.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_89__ent_81__ent_84"
+      ],
+      "judgment": "ambiguous",
+      "reason": "An explicitly rejected trip appears alongside bare visit/go/trip paths; the available evidence does not resolve intended versus actual travel.",
+      "tags": [
+        "modality"
+      ],
+      "question": "Was a Baghdad trip undertaken, or are these rows describing a rejected proposal?"
+    },
+    {
+      "indices": [
+        5,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_89__ent_600__ent_836",
+        "rel_89__ent_991__ent_594",
+        "rel_89__ent_1200__ent_503",
+        "rel_89__ent_1298__ent_1269"
+      ],
+      "judgment": "incorrect",
+      "reason": "Event appearance, going to a publication, a sports rotation choice or political leadership does not establish the declared geographic travel.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e6afe3c77f49db88751b4aa3d22e0159308ad780c6301f21a6ed658988170bd7"
+}

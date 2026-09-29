@@ -1,0 +1,618 @@
+{
+  "relation": "rel_246",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_246.json",
+    "source_sha256": "6d7564cb7a60746c5beb4c59f3a04d30acdce0a3a6dd659049a4881be6ba630d",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_246__ent_882__ent_640",
+      "judgment": "supported",
+      "reason": "American Airlines → AMR Corporation: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        2561,
+        2562,
+        2563,
+        2564,
+        2565,
+        2566,
+        2567,
+        2568,
+        2569,
+        2570
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.128Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_660__ent_623",
+      "judgment": "ambiguous",
+      "reason": "San Francisco → Foote: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4141,
+        4142,
+        4143,
+        4144,
+        4145,
+        4146,
+        4147,
+        4148,
+        4149,
+        4150
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_246.json",
+        "annotation_sha256": "6d7564cb7a60746c5beb4c59f3a04d30acdce0a3a6dd659049a4881be6ba630d"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_1104__ent_880",
+      "judgment": "supported",
+      "reason": "BBDO Worldwide → Omnicom Group: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        4604,
+        4608,
+        4609,
+        4610,
+        6673,
+        6676,
+        6677,
+        6680,
+        6681,
+        6682
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_666__ent_423",
+      "judgment": "supported",
+      "reason": "Saatchi & Saatchi → Publicis Groupe: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        4611,
+        4612,
+        4613,
+        4614,
+        4615,
+        4616,
+        4617,
+        4618,
+        4619,
+        4620
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_649__ent_880",
+      "judgment": "supported",
+      "reason": "DDB Worldwide → Omnicom Group: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        4631,
+        4632,
+        4633,
+        4634,
+        4635,
+        4636,
+        4637,
+        4638,
+        4639,
+        4640
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_1121__ent_425",
+      "judgment": "supported",
+      "reason": "Grey Worldwide → Grey Global Group: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        4671,
+        4672,
+        4673,
+        4674,
+        4675,
+        4676,
+        4677,
+        4678,
+        4679,
+        4680
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_921__ent_1066",
+      "judgment": "ambiguous",
+      "reason": "Hughes → General Motors Corporation: The child name Hughes is used for both a corporate subsidiary and an executive, leaving incompatible entity types in the fact.",
+      "evidence_lines": [
+        6613,
+        6614,
+        6615,
+        6616,
+        6617,
+        6618,
+        6619,
+        6620,
+        6621,
+        6622
+      ],
+      "issue_tags": [
+        "entity_merge",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Is the Hughes executive a different entity from the subsidiary?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_922__ent_880",
+      "judgment": "supported",
+      "reason": "TBWA Worldwide → Omnicom Group: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        6653,
+        6654,
+        6655,
+        6656,
+        6657,
+        6658,
+        6659,
+        6660,
+        6661,
+        6662
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_665__ent_1069",
+      "judgment": "supported",
+      "reason": "Euro RSCG Worldwide → Havas Advertising: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        6663,
+        6664,
+        6665,
+        6666,
+        6667,
+        6668,
+        6669,
+        6670,
+        6671,
+        6672
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_246.json",
+        "annotation_sha256": "6d7564cb7a60746c5beb4c59f3a04d30acdce0a3a6dd659049a4881be6ba630d"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_822__ent_640",
+      "judgment": "supported",
+      "reason": "American → AMR Corporation: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        2554,
+        2555,
+        2558,
+        2559,
+        2560,
+        6575,
+        6582,
+        6584
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_246.json",
+        "annotation_sha256": "6d7564cb7a60746c5beb4c59f3a04d30acdce0a3a6dd659049a4881be6ba630d"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_843__ent_421",
+      "judgment": "ambiguous",
+      "reason": "New York → Fallon Worldwide: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4200,
+        4201,
+        4202,
+        4203,
+        4204,
+        4205,
+        4206,
+        4207
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_246.json",
+        "annotation_sha256": "6d7564cb7a60746c5beb4c59f3a04d30acdce0a3a6dd659049a4881be6ba630d"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_407__ent_649",
+      "judgment": "ambiguous",
+      "reason": "Chicago → DDB Worldwide: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4124,
+        4125,
+        4126,
+        4127,
+        4128,
+        4129,
+        4130
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_1002__ent_661",
+      "judgment": "ambiguous",
+      "reason": "Washington → Consumers Union: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4163,
+        4164,
+        4165,
+        4166,
+        4167,
+        4168,
+        4169
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_426__ent_668",
+      "judgment": "supported",
+      "reason": "Arnold Worldwide → Arnold Worldwide Partners division: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        4661,
+        4662,
+        4663,
+        4664,
+        4667,
+        4668,
+        4670
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_624__ent_866",
+      "judgment": "supported",
+      "reason": "United → UAL Corporation: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        2484,
+        2487,
+        2489,
+        2490,
+        6591,
+        6596
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_843__ent_1104",
+      "judgment": "ambiguous",
+      "reason": "New York → BBDO Worldwide: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4131,
+        4132,
+        4134,
+        4135,
+        4137,
+        4138
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_246.json",
+        "annotation_sha256": "6d7564cb7a60746c5beb4c59f3a04d30acdce0a3a6dd659049a4881be6ba630d"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_843__ent_420",
+      "judgment": "ambiguous",
+      "reason": "New York → Federal Bureau of Investigation: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4151,
+        4152,
+        4153,
+        4156,
+        4158,
+        4160
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_925__ent_924",
+      "judgment": "supported",
+      "reason": "Conde Nast Publications → Advance Publications: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        6693,
+        6694,
+        6695,
+        6696,
+        6697,
+        6698
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_843__ent_649",
+      "judgment": "ambiguous",
+      "reason": "New York → DDB Worldwide: The literal child argument is a city while office and organizational-part fragments point toward an unnamed local office.",
+      "evidence_lines": [
+        4170,
+        4171,
+        4172,
+        4176,
+        4179
+      ],
+      "issue_tags": [
+        "place_metonymy",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which organizational office is the child, and should the city-only argument be accepted as that office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_421__ent_423",
+      "judgment": "supported",
+      "reason": "Fallon Worldwide → Publicis Groupe: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        4622,
+        4624,
+        4625,
+        4626,
+        4627
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_928__ent_1064",
+      "judgment": "supported",
+      "reason": "Kellogg → Halliburton: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        6598,
+        6599,
+        6600,
+        6601,
+        6602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_1067__ent_923",
+      "judgment": "supported",
+      "reason": "Lowe Group → Interpublic Group of Companies: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        6633,
+        6638,
+        6639,
+        6640,
+        6641
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_1063__ent_927",
+      "judgment": "supported",
+      "reason": "Kraft General Foods → Philip Morris Cos.: The case directly identifies the child as a unit, subsidiary, division, owned business or organizational part of the parent.",
+      "evidence_lines": [
+        6573,
+        6574
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    },
+    {
+      "case_id": "rel_246__ent_883__ent_633",
+      "judgment": "incorrect",
+      "reason": "William R. Knapp → Westport: Death at a person’s home in Westport establishes no organizational parent-child relation.",
+      "evidence_lines": [
+        2682
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:01.129Z"
+      }
+    }
+  ]
+}

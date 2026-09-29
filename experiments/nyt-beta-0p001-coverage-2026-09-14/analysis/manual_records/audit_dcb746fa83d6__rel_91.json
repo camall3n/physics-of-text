@@ -1,0 +1,57 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_91",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_91__ent_826__ent_234"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Local presence/residence evidence is split between East Jerusalem and Gaza, incompatible places merged into one entity.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Does this fact refer to East Jerusalem or Gaza?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_91__ent_1101__ent_1198"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit remain-in and died-in evidence establishes physical presence in Poland.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_91__ent_1390__ent_696"
+      ],
+      "judgment": "incorrect",
+      "reason": "Inverse spokesperson/briefing paths do not place the institution in a geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [
+    0
+  ],
+  "predicate_declaration_sha256": "e788fcb61c8b53faa071aef55b4f3fefae6c47d0f22a9e960b43a6ab63319cc9"
+}

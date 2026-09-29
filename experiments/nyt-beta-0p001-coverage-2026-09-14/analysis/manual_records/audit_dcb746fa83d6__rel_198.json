@@ -1,0 +1,73 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_198",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_198__ent_150__ent_392",
+        "rel_198__ent_1100__ent_163",
+        "rel_198__ent_900__ent_399",
+        "rel_198__ent_391__ent_149",
+        "rel_198__ent_1181__ent_781",
+        "rel_198__ent_1006__ent_155",
+        "rel_198__ent_398__ent_155"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit local professor or teach-at path establishes the academic teaching affiliation, regardless of other expert or administrative descriptions.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_198__ent_1435__ent_170"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The fact merges John C. Coffee Jr./Columbia University with Darren Dopp/Mr. Spitzer; the professor assertion identifies only one of these incompatible pairs.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should both the people and their principals be separated before evaluating this affiliation?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_198__ent_854__ent_615"
+      ],
+      "judgment": "incorrect",
+      "reason": "Scholar and expert status alone do not establish professor or teaching affiliation.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "2ad22b5c819a4150fbe5d264ff3cbbce1513cc4590c2bc37f56669f1eaf191c1"
+}

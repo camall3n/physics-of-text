@@ -1,0 +1,910 @@
+{
+  "relation": "rel_133",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_133.json",
+    "source_sha256": "d1a2a9efe69d4d078330a16613d40eefc1ab8ec15b1abfb00d3222eac7d00d00",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_133__ent_182__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Washington: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4095,
+        4097,
+        4098,
+        4100,
+        4101,
+        4102,
+        4103,
+        5236,
+        5237,
+        5240,
+        5242,
+        5243,
+        5245,
+        7341,
+        7342,
+        7345,
+        7347,
+        7348,
+        7349,
+        7350
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.526Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_197__ent_586",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → White House: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        3489,
+        3490,
+        3493,
+        3496,
+        3497,
+        3498,
+        6174,
+        6175,
+        6178,
+        6181,
+        6182,
+        6183
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_87__ent_818",
+      "judgment": "supported",
+      "reason": "Nixon → China: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        3417,
+        3418,
+        3419,
+        3420,
+        3421,
+        3422,
+        3423,
+        3424,
+        3425,
+        3426
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_81__ent_84",
+      "judgment": "ambiguous",
+      "reason": "Mr. Baker → Baghdad: The Baghdad trip is both described with movement paths and explicitly rejected/anticipated; the truncated triples do not establish which proposed trip actually occurred.",
+      "evidence_lines": [
+        3449,
+        3450,
+        3451,
+        3452,
+        3453,
+        3454,
+        3455,
+        3456,
+        3457,
+        3458
+      ],
+      "issue_tags": [
+        "modality_time",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Was an actual Baker trip to Baghdad reported, or do these movement paths all concern a rejected or anticipated visit?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1004__ent_572",
+      "judgment": "incorrect",
+      "reason": "Yankees → Bronx: All movement is away from the Bronx; staying or being there does not establish destination-directed movement to it.",
+      "evidence_lines": [
+        4044,
+        4045,
+        4046,
+        4047,
+        4048,
+        4049,
+        4050,
+        4051,
+        4052,
+        4053
+      ],
+      "issue_tags": [
+        "direction",
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_827__ent_586",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → White House: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4084,
+        4085,
+        4086,
+        4087,
+        4088,
+        4089,
+        4090,
+        4091,
+        4092,
+        4093
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_828__ent_843",
+      "judgment": "supported",
+      "reason": "Clinton → New York: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4681,
+        4682,
+        4683,
+        4684,
+        4685,
+        4686,
+        4687,
+        4688,
+        4689,
+        4690
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_133.json",
+        "annotation_sha256": "d1a2a9efe69d4d078330a16613d40eefc1ab8ec15b1abfb00d3222eac7d00d00"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_884__ent_429",
+      "judgment": "supported",
+      "reason": "Raiders → Los Angeles: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4790,
+        4791,
+        4792,
+        4793,
+        4794,
+        4795,
+        4796,
+        4797,
+        4798,
+        4799
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_884__ent_83",
+      "judgment": "supported",
+      "reason": "Raiders → Oakland: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5226,
+        5227,
+        5228,
+        5229,
+        5230,
+        5231,
+        5232,
+        5233,
+        5234,
+        5235
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1123__ent_427",
+      "judgment": "ambiguous",
+      "reason": "Jonathan Pryce → Broadway: Coming or returning to Broadway is mixed with casting and role recreation, so theatrical engagement versus physical travel is unresolved.",
+      "evidence_lines": [
+        4741,
+        4742,
+        4743,
+        4744,
+        4745,
+        4746,
+        4747,
+        4748,
+        4749
+      ],
+      "issue_tags": [
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Do these Broadway statements assert physical travel, or only a return to theatrical performance?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_80__ent_820",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        3479,
+        3480,
+        3481,
+        3482,
+        4780,
+        4781,
+        4782,
+        4783
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_133.json",
+        "annotation_sha256": "d1a2a9efe69d4d078330a16613d40eefc1ab8ec15b1abfb00d3222eac7d00d00"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_667__ent_537",
+      "judgment": "ambiguous",
+      "reason": "Born → United States: Born appears to be a displaced birth-clause word rather than an identified traveler, despite immigration paths.",
+      "evidence_lines": [
+        4691,
+        4692,
+        4693,
+        4695,
+        4696,
+        4697,
+        4699,
+        4700
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Who is the person whose name has been replaced by Born?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_827__ent_843",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → New York: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4711,
+        4712,
+        4713,
+        4714,
+        4716,
+        4717,
+        4718,
+        4720
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_34__ent_1002",
+      "judgment": "supported",
+      "reason": "Mikhail S. Gorbachev → Washington: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4731,
+        4732,
+        4733,
+        4735,
+        4736,
+        4737,
+        4738,
+        4739
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1004__ent_682",
+      "judgment": "supported",
+      "reason": "Yankees → New Jersey: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4830,
+        4831,
+        4832,
+        4833,
+        4834,
+        4835,
+        4837,
+        4839
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_198__ent_450",
+      "judgment": "supported",
+      "reason": "Mr. Gorbachev → Moscow: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5216,
+        5217,
+        5218,
+        5219,
+        5220,
+        5221,
+        5222,
+        5224
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1125__ent_843",
+      "judgment": "incorrect",
+      "reason": "Olympics → New York: The Olympics is an event being held or proposed for a city, not a person/group/organization undertaking geographic movement.",
+      "evidence_lines": [
+        4770,
+        4771,
+        4772,
+        4773,
+        4774,
+        4778,
+        4779
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_647__ent_429",
+      "judgment": "supported",
+      "reason": "Dodgers → Los Angeles: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4800,
+        4801,
+        4803,
+        4804,
+        4805,
+        4808,
+        4809
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_189__ent_1002",
+      "judgment": "supported",
+      "reason": "Congress → Washington: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5176,
+        5177,
+        5178,
+        5179,
+        5181,
+        5183,
+        5185
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_133.json",
+        "annotation_sha256": "d1a2a9efe69d4d078330a16613d40eefc1ab8ec15b1abfb00d3222eac7d00d00"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1004__ent_843",
+      "judgment": "supported",
+      "reason": "Yankees → New York: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5196,
+        5198,
+        5199,
+        5200,
+        5201,
+        5202,
+        5203
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_680__ent_440",
+      "judgment": "supported",
+      "reason": "Browns → Baltimore: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4820,
+        4821,
+        4822,
+        4824,
+        4825,
+        4828
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_316__ent_1002",
+      "judgment": "supported",
+      "reason": "Mr. Gore → Washington: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        995,
+        996,
+        997,
+        998,
+        999
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_5__ent_814",
+      "judgment": "incorrect",
+      "reason": "Germany → NATO: NATO membership and commitment do not constitute travel to a geographic destination.",
+      "evidence_lines": [
+        2724,
+        2725,
+        2727,
+        2729,
+        2730
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_647__ent_323",
+      "judgment": "supported",
+      "reason": "Dodgers → Brooklyn: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4056,
+        4057,
+        4059,
+        4061,
+        4063
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_180__ent_1002",
+      "judgment": "supported",
+      "reason": "Bush → Washington: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5246,
+        5248,
+        5250,
+        5254,
+        5255
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_692__ent_211",
+      "judgment": "supported",
+      "reason": "Aristide → Haiti: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5258,
+        5260,
+        5263,
+        5264,
+        5265
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_669__ent_989",
+      "judgment": "supported",
+      "reason": "Americans → Vietnam: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        8171,
+        8174,
+        8176,
+        8177,
+        8179
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1126__ent_897",
+      "judgment": "supported",
+      "reason": "Colts → Indianapolis: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4810,
+        4811,
+        4812,
+        4816
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_813__ent_818",
+      "judgment": "incorrect",
+      "reason": "Britain → China: The Britain–China evidence concerns handover or transfer of an omitted object, not Britain physically traveling to China.",
+      "evidence_lines": [
+        5166,
+        5168,
+        5169,
+        5171
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "attachment"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1162__ent_226",
+      "judgment": "supported",
+      "reason": "Mr. bin Laden → Sudan: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        6145,
+        6146,
+        6147,
+        6148
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_133.json",
+        "annotation_sha256": "d1a2a9efe69d4d078330a16613d40eefc1ab8ec15b1abfb00d3222eac7d00d00"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_356__ent_308",
+      "judgment": "incorrect",
+      "reason": "Ewing → Knicks: Returning to the Knicks is team participation, not travel to a geographic place.",
+      "evidence_lines": [
+        3082,
+        4222,
+        4226
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_406__ent_333",
+      "judgment": "supported",
+      "reason": "William → Manhattan: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4017,
+        4020,
+        4022
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_200__ent_442",
+      "judgment": "supported",
+      "reason": "Barnes Foundation → Philadelphia: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4850,
+        4851,
+        4859
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+        "source": "prior_annotations/rel_133.json",
+        "annotation_sha256": "d1a2a9efe69d4d078330a16613d40eefc1ab8ec15b1abfb00d3222eac7d00d00"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_321__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        5207,
+        5210,
+        5213
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_400__ent_681",
+      "judgment": "supported",
+      "reason": "Jets → Giants Stadium: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        4844,
+        4847
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    },
+    {
+      "case_id": "rel_133__ent_1167__ent_229",
+      "judgment": "supported",
+      "reason": "Film Forum → West Houston Street: At least one unqualified move/return/come/visit/arrival or leave-for row gives the second place as the first entitys geographic destination. Permanent relocation is not required.",
+      "evidence_lines": [
+        6215,
+        6221
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:56:37.527Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "relation": "rel_361",
+  "predicate_id": "politically_controls",
+  "predicate_version": 1,
+  "predicate_hash": "04ef743ea320bf6a9ad4dbf9f89a10d2aad4c1a28a3e9275341ce59edf357faf",
+  "predicate": {
+    "id": "politically_controls",
+    "label": "politically controls",
+    "definition": "Political group X controls or gains control of political body Y.",
+    "includes": [
+      "control/take-control/retain/regain/win-control",
+      "historical political control"
+    ],
+    "excludes": [
+      "generic win/be-in alone",
+      "individual leadership office without party control",
+      "ordinary membership",
+      "sporting victory"
+    ],
+    "ambiguous": [
+      "incomplete control object or political-group identity"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: control/take-control/retain/regain/win-control; historical political control. Excludes: generic win/be-in alone; individual leadership office without party control; ordinary membership; sporting victory. Ambiguous unless resolved by case-local evidence: incomplete control object or political-group identity."
+  },
+  "dictionary_sha256": "5b249462d0b948af7e234c801f75d526495eba98ddeba2c8f16ea33436f09865",
+  "kind": "declared_before_case_grading",
+  "rationale": "Party→White House/Congress/House take/control paths dominate the identifiable political-control family; politician association or closeness to Bush remains outside it.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.643Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    7,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_361.before_grading.json",
+  "pregrading_annotation_sha256": "dfd919800274771f6c63b2e3564126f1320e04d1f752d2118ccbb83789ef4cfe"
+}

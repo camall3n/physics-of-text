@@ -1,0 +1,72 @@
+{
+  "relation": "rel_153",
+  "predicate_id": "has_athlete",
+  "label": "has athlete on team",
+  "definition": "Team or sporting organization X has or had person Y as a player or competing athlete.",
+  "scope_notes": "Includes: explicit player or athlete on X; X fields or plays Y as an athlete; a stated playing membership in X. Excludes: coach or manager alone; wanting or needing Y without roster membership; an opponent rather than a team member; ordinary possession or a book title. Ambiguous unless resolved by case-local evidence: generic have without athlete-role context; proposed recruitment without established membership; unclear team or player identity. Inverse of athlete_for. A team needing a person does not prove that the person plays for it.",
+  "facts": [
+    {
+      "case_id": "rel_153__ent_308__ent_64",
+      "judgment": "supported",
+      "reason": "Knicks → Patrick Ewing: The Knicks explicitly play Patrick Ewing, with team-lead and possession context supporting his athletic membership.",
+      "evidence_lines": [
+        4936,
+        4939,
+        4940,
+        4942,
+        4943
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.353Z"
+      }
+    },
+    {
+      "case_id": "rel_153__ent_308__ent_356",
+      "judgment": "ambiguous",
+      "reason": "Knicks → Ewing: Have and need identify a possible roster relationship but give no explicit player role or playing evidence in this fact’s own rows.",
+      "evidence_lines": [
+        3428,
+        3430,
+        4927,
+        4929
+      ],
+      "issue_tags": [
+        "omitted_athlete_role"
+      ],
+      "reviewer_question": "Does Ewing refer to a player already on the Knicks roster, rather than a person they need or another role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.353Z"
+      }
+    },
+    {
+      "case_id": "rel_153__ent_444__ent_686",
+      "judgment": "incorrect",
+      "reason": "Heather → Mommies: Heather having Mommies is a book/family phrase, not a sporting organization fielding an athlete.",
+      "evidence_lines": [
+        4882,
+        4883,
+        4884,
+        4885
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.353Z"
+      }
+    }
+  ],
+  "predicate_hash": "7a908856e4bf08d243a426e3fed421dc145e6547dccb1ff17629ab1bf8a39e69",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3621e31c3cb34ba6d5930b0a513356127369419acb95500e433e5106df5ed800"
+}

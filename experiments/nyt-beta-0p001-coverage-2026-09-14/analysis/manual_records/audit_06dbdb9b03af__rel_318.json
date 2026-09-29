@@ -1,0 +1,56 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_318",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        3
+      ],
+      "case_ids": [
+        "rel_318__ent_380__ent_0",
+        "rel_318__ent_380__ent_1133"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit chair title and being succeeded as chair establish chair tenure.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_318__ent_30__ent_36"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Democratic is an incomplete adjectival political body, leaving the exact chair institution unresolved.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which Democratic body did Nancy Pelosi chair?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_318__ent_554__ent_850"
+      ],
+      "judgment": "incorrect",
+      "reason": "A broadcaster association with an event is not a person holding chair office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "0776411799b775c007bfdfc4445b0072fd03e6742d81cf4694c6c518e5bf72c3"
+}

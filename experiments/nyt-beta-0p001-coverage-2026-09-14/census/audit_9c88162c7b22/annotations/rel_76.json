@@ -1,0 +1,134 @@
+{
+  "relation": "rel_76",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_76__ent_76__ent_814",
+      "judgment": "incorrect",
+      "reason": "Turkey → NATO: Country membership or alliance in NATO is not corporate subsidiary containment.",
+      "evidence_lines": [
+        3285,
+        3286,
+        3287,
+        3288,
+        3289
+      ],
+      "issue_tags": [
+        "membership_not_subsidiary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:06.431Z"
+      }
+    },
+    {
+      "case_id": "rel_76__ent_426__ent_668",
+      "judgment": "supported",
+      "reason": "Arnold Worldwide → Arnold Worldwide Partners division: Direct organizational part-of evidence establishes subsidiary/unit containment.",
+      "evidence_lines": [
+        4661,
+        4664,
+        4667,
+        4669,
+        4670
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:06.431Z"
+      }
+    },
+    {
+      "case_id": "rel_76__ent_843__ent_1104",
+      "judgment": "ambiguous",
+      "reason": "New York → BBDO Worldwide: The literal city New York appears where an unnamed BBDO office may be the actual child unit.",
+      "evidence_lines": [
+        4135,
+        4137,
+        4139,
+        4140
+      ],
+      "issue_tags": [
+        "office_place_attachment"
+      ],
+      "reviewer_question": "Which New York office or organizational unit is the part of BBDO Worldwide?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:06.431Z"
+      }
+    },
+    {
+      "case_id": "rel_76__ent_5__ent_814",
+      "judgment": "incorrect",
+      "reason": "Germany → NATO: Country membership or alliance in NATO is not corporate subsidiary containment.",
+      "evidence_lines": [
+        2730,
+        2731,
+        2732
+      ],
+      "issue_tags": [
+        "membership_not_subsidiary"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:06.431Z"
+      }
+    },
+    {
+      "case_id": "rel_76__ent_666__ent_423",
+      "judgment": "supported",
+      "reason": "Saatchi & Saatchi → Publicis Groupe: Direct organizational part-of evidence establishes subsidiary/unit containment.",
+      "evidence_lines": [
+        4611,
+        4613,
+        4614
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:06.431Z"
+      }
+    },
+    {
+      "case_id": "rel_76__ent_548__ent_1003",
+      "judgment": "incorrect",
+      "reason": "Johnson & Johnson → New Brunswick: The company being based in a city does not establish an organizational parent relation.",
+      "evidence_lines": [
+        859,
+        4392
+      ],
+      "issue_tags": [
+        "geographic_location"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:06.431Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "cfe4832bb6c9eecaa288c87a6f71f9cc2954186afbb7cf1ac911b78d149638c1"
+}

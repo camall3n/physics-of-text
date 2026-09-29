@@ -1,0 +1,77 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_121",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        7,
+        8,
+        11
+      ],
+      "case_ids": [
+        "rel_121__ent_543__ent_308",
+        "rel_121__ent_330__ent_1004",
+        "rel_121__ent_573__ent_409",
+        "rel_121__ent_321__ent_278"
+      ],
+      "judgment": "supported",
+      "reason": "A local games-behind or trail row directly states that the first sports competitor trails the second.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_121__ent_258__ent_1361"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The trailing Red Sox row is merged with Brian Cashman under one incompatible subject entity.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Should the team and its unrelated named person be separate inferred entities?"
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_121__ent_858__ent_871",
+        "rel_121__ent_49__ent_795",
+        "rel_121__ent_268__ent_263",
+        "rel_121__ent_321__ent_1084",
+        "rel_121__ent_1060__ent_961",
+        "rel_121__ent_969__ent_1305",
+        "rel_121__ent_1060__ent_1029",
+        "rel_121__ent_867__ent_731",
+        "rel_121__ent_916__ent_169"
+      ],
+      "judgment": "incorrect",
+      "reason": "Publishing, political office, ordinary sports play, coach departure or survey/strategy roles do not establish trailing this competitor.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5b536cdf3e1cf481144c8e1fe1b627d3e2ba5b35af9ce2ad26cda7fc93587718"
+}

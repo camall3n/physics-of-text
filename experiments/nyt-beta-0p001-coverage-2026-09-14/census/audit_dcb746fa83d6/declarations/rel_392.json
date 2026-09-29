@@ -1,0 +1,44 @@
+{
+  "relation": "rel_392",
+  "predicate_id": "geographic_part_of",
+  "predicate_version": 1,
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate": {
+    "id": "geographic_part_of",
+    "label": "geographical part of",
+    "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+    "includes": [
+      "area/section/neighborhood/district of or in",
+      "clear place-to-containing-place attachment"
+    ],
+    "excludes": [
+      "organization subsidiary or location",
+      "residence/work/travel",
+      "an event in a place"
+    ],
+    "ambiguous": [
+      "place names attached through an omitted institution"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution."
+  },
+  "dictionary_sha256": "7a5495f272365ade264da22d03f741ee9c64b9801dc8014932b4fbcc9c372f05",
+  "kind": "declared_before_case_grading",
+  "rationale": "Literal neighborhoods in larger New York boroughs form the largest geographic-containment family; chair nomination/office is distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.606Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    6,
+    7,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_392.before_grading.json",
+  "pregrading_annotation_sha256": "7e14bc4f4350f40046fe5be5495ba466c14c11e497adf8e7efcaf165f3f90635"
+}

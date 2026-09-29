@@ -1,0 +1,89 @@
+{
+  "relation": "rel_26",
+  "predicate_id": "official_of",
+  "label": "official of institution",
+  "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+  "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+  "facts": [
+    {
+      "case_id": "rel_26__ent_728__ent_721",
+      "judgment": "supported",
+      "reason": "John Huang → Commerce Department: An explicit official-at title establishes institutional official status.",
+      "evidence_lines": [
+        7495,
+        7496,
+        7497,
+        7498,
+        7501,
+        7502
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_26__ent_1077__ent_931",
+      "judgment": "incorrect",
+      "reason": "U S West → Bell: Corporate-family origin, spousal companionship or a visit interpreted as political support does not establish official office.",
+      "evidence_lines": [
+        6810,
+        6811,
+        6813,
+        6814,
+        6816
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_26__ent_827__ent_419",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → Hillary: Corporate-family origin, spousal companionship or a visit interpreted as political support does not establish official office.",
+      "evidence_lines": [
+        4496,
+        4497,
+        4498
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.663Z"
+      }
+    },
+    {
+      "case_id": "rel_26__ent_556__ent_798",
+      "judgment": "incorrect",
+      "reason": "Mr. Lee → Taiwan: Corporate-family origin, spousal companionship or a visit interpreted as political support does not establish official office.",
+      "evidence_lines": [
+        990
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:22:08.663Z"
+      }
+    }
+  ],
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "27db5fb37baa1023027ab7a9435fcbea1b019cb07f5d4d058d35025474ef2aae"
+}

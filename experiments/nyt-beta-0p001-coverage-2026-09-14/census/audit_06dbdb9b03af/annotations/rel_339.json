@@ -1,0 +1,114 @@
+{
+  "relation": "rel_339",
+  "predicate_id": "organization_operates_in_domain",
+  "label": "organization operates in industry or domain",
+  "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+  "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain.",
+  "facts": [
+    {
+      "case_id": "rel_339__ent_673__ent_430",
+      "judgment": "incorrect",
+      "reason": "Mr. Mandela → Winnie: Spousal relations, Silicon Valley geography and the Bell corporate family are not the declared industry/domain relation.",
+      "evidence_lines": [
+        4525,
+        4526,
+        4527,
+        4531,
+        4532,
+        4533
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.355Z"
+      }
+    },
+    {
+      "case_id": "rel_339__ent_943__ent_936",
+      "judgment": "supported",
+      "reason": "Forrester Research → Internet: An explicit Internet company/firm/consultancy descriptor establishes the business domain.",
+      "evidence_lines": [
+        7361,
+        7362,
+        7365,
+        7368,
+        7369
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.355Z"
+      }
+    },
+    {
+      "case_id": "rel_339__ent_716__ent_958",
+      "judgment": "incorrect",
+      "reason": "Kleiner Perkins Caufield & Byers → Silicon Valley: Spousal relations, Silicon Valley geography and the Bell corporate family are not the declared industry/domain relation.",
+      "evidence_lines": [
+        7431,
+        7432,
+        7433,
+        7434,
+        7435
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.355Z"
+      }
+    },
+    {
+      "case_id": "rel_339__ent_942__ent_936",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → Internet: An explicit Internet company/firm/consultancy descriptor establishes the business domain.",
+      "evidence_lines": [
+        7383,
+        7384,
+        7388,
+        7390
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.355Z"
+      }
+    },
+    {
+      "case_id": "rel_339__ent_935__ent_931",
+      "judgment": "incorrect",
+      "reason": "Ameritech → Bell: Spousal relations, Silicon Valley geography and the Bell corporate family are not the declared industry/domain relation.",
+      "evidence_lines": [
+        6844,
+        6850,
+        6852
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:15:47.355Z"
+      }
+    }
+  ],
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "edb9df94c0e5b4660ed988d105ce5be50970dfc976020ce249ecdf31d3a41b18"
+}

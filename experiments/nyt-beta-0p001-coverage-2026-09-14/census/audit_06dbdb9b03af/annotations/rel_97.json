@@ -1,0 +1,56 @@
+{
+  "relation": "rel_97",
+  "predicate_id": "coach_of",
+  "label": "coach of",
+  "definition": "Person X coaches or coached sports team or collegiate athletic program Y.",
+  "scope_notes": "Includes: explicit coach title; direct coaching with correct subject and team; former/dismissed coach with clear office evidence; team/university shorthand when the athletic program role is clear. Excludes: manager/president/player alone; winning with a team alone; vacancy consideration alone; reverse team-to-coach direction. Ambiguous unless resolved by case-local evidence: missing coach subject or team attachment.",
+  "facts": [
+    {
+      "case_id": "rel_97__ent_282__ent_347",
+      "judgment": "ambiguous",
+      "reason": "Phil Esposito → Rangers: Being behind the bench and helping transform the team do not resolve coaching service, while the explicit dismissal title is manager.",
+      "evidence_lines": [
+        3400,
+        3401,
+        3402,
+        3403,
+        3404,
+        3405
+      ],
+      "issue_tags": [
+        "role_boundary"
+      ],
+      "reviewer_question": "Was Phil Esposito actually coaching the Rangers in the bench reference, or present as manager or in another role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.193Z"
+      }
+    },
+    {
+      "case_id": "rel_97__ent_1096__ent_718",
+      "judgment": "supported",
+      "reason": "Joe Paterno → Penn State: An explicit began-as-coach row establishes coaching at the collegiate football program.",
+      "evidence_lines": [
+        7268,
+        7269,
+        7270,
+        7271
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:09.192Z"
+      }
+    }
+  ],
+  "predicate_hash": "85b11268f86c21b88611dffc8e4bd7864e3368d2f9b8980a492e12394eb58f0f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "22c6839896fc5d61993bffd74cbc7022dc70e2711e35e7da9fbe4e09300f653a"
+}

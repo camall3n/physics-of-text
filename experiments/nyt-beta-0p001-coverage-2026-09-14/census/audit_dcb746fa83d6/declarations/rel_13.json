@@ -1,0 +1,53 @@
+{
+  "relation": "rel_13",
+  "predicate_id": "owns",
+  "predicate_version": 1,
+  "predicate_hash": "64b91b4d898a9f3ed81be865b382e684bfc0db4150c5d04790c534e2d3b1cb74",
+  "predicate": {
+    "id": "owns",
+    "label": "owns organization or asset",
+    "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+    "includes": [
+      "owner/co-owner/owns",
+      "explicit ownership interest or stated share",
+      "corporate parent",
+      "completed acquisition with ownership attachment",
+      "historical ownership"
+    ],
+    "excludes": [
+      "management or leadership alone",
+      "publishing or distribution alone",
+      "mere collaboration",
+      "proposed or rejected acquisition"
+    ],
+    "ambiguous": [
+      "merger without clear ownership direction",
+      "a possessive alone"
+    ],
+    "notes": "This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+    "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse."
+  },
+  "dictionary_sha256": "bd5071bfc52e75d1a913d65042bc734448e87913c3e3bad6da4bfaacd2ebedf9",
+  "kind": "declared_before_case_grading",
+  "rationale": "Owner/own variants form the largest clear family, across restaurant owners; job resignation has a similar but slightly smaller path family and is not ownership.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:15:32.173Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    5,
+    10,
+    15
+  ],
+  "competing_meanings": [
+    "job resignation",
+    "military invasion",
+    "event broadcasting"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_13.before_grading.json",
+  "pregrading_annotation_sha256": "70dce062e73b9d34cd2b79e7c23e05fcb09e9c16f12a5ec6d804f604c2dce0d5"
+}

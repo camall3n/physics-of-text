@@ -1,0 +1,40 @@
+{
+  "relation": "rel_283",
+  "predicate_id": "flows_into",
+  "predicate_version": 1,
+  "predicate_hash": "2812c6965cf2b5eb31fea6e84c3e3a49ff7949f1acb069b8367e66263a32366f",
+  "predicate": {
+    "id": "flows_into",
+    "label": "flows into waterbody",
+    "definition": "River or watercourse X flows into, joins, or empties into receiving waterbody Y.",
+    "includes": [
+      "explicit flow-into or empty-into",
+      "river confluence with an identified receiving waterbody",
+      "river meeting Y when direction is locally clear"
+    ],
+    "excludes": [
+      "ordinary interpersonal meeting or joint action",
+      "adjacency or a waterfront gateway alone",
+      "flow in the reverse direction"
+    ],
+    "ambiguous": [
+      "a bare meet or join with unresolved receiving direction",
+      "unclear watercourse versus place name"
+    ],
+    "notes": "Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally.",
+    "scope_notes": "Includes: explicit flow-into or empty-into; river confluence with an identified receiving waterbody; river meeting Y when direction is locally clear. Excludes: ordinary interpersonal meeting or joint action; adjacency or a waterfront gateway alone; flow in the reverse direction. Ambiguous unless resolved by case-local evidence: a bare meet or join with unresolved receiving direction; unclear watercourse versus place name. Direction is upstream tributary or river to receiving waterbody; confluence alone must identify direction locally."
+  },
+  "dictionary_sha256": "59ec637b0b2ae91d8a271b4482f75da2595bf3213e09963e7b8caa697ccfbaa8",
+  "kind": "declared_before_case_grading",
+  "rationale": "Flow/empty/meander-to by river is the unique specific directional family; corporate asset and generic co-subject rows are not combined into it.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:48.879Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_283.before_grading.json",
+  "pregrading_annotation_sha256": "5ba1d7d9a1864f9194942477e3370c521f3d724a22aa58bcc4961501bab85558"
+}

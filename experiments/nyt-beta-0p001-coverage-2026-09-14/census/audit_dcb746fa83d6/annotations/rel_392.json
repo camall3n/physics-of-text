@@ -1,0 +1,142 @@
+{
+  "relation": "rel_392",
+  "predicate_id": "geographic_part_of",
+  "label": "geographical part of",
+  "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+  "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution.",
+  "facts": [
+    {
+      "case_id": "rel_392__ent_330__ent_572",
+      "judgment": "supported",
+      "reason": "Riverdale → Bronx: Explicit neighborhood-of or neighborhood-in paths place the named neighborhood within the containing city or borough.",
+      "evidence_lines": [
+        1090,
+        1092,
+        1093,
+        1095,
+        1096,
+        1097
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    },
+    {
+      "case_id": "rel_392__ent_380__ent_138",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Federal Reserve Board: A person holding or being nominated to a chair office is not geographic containment.",
+      "evidence_lines": [
+        198,
+        201,
+        207,
+        5679,
+        5685
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    },
+    {
+      "case_id": "rel_392__ent_139__ent_1400",
+      "judgment": "incorrect",
+      "reason": "Gen. Richard B. Myers → Joint Chiefs of Staff: A person holding or being nominated to a chair office is not geographic containment.",
+      "evidence_lines": [
+        218,
+        224
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    },
+    {
+      "case_id": "rel_392__ent_520__ent_323",
+      "judgment": "supported",
+      "reason": "Flatbush → Brooklyn: Explicit neighborhood-of or neighborhood-in paths place the named neighborhood within the containing city or borough.",
+      "evidence_lines": [
+        1120,
+        1127
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    },
+    {
+      "case_id": "rel_392__ent_331__ent_897",
+      "judgment": "supported",
+      "reason": "Crown Heights → Brooklyn: Explicit neighborhood-of or neighborhood-in paths place the named neighborhood within the containing city or borough.",
+      "evidence_lines": [
+        1129,
+        1134
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    },
+    {
+      "case_id": "rel_392__ent_571__ent_283",
+      "judgment": "supported",
+      "reason": "Bedford-Stuyvesant → Brooklyn: The moved-to-Bedford-Stuyvesant-in-Brooklyn path directly attaches the destination neighborhood within Brooklyn.",
+      "evidence_lines": [
+        1103
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    },
+    {
+      "case_id": "rel_392__ent_576__ent_165",
+      "judgment": "supported",
+      "reason": "Chelsea → Manhattan: Explicit neighborhood-of or neighborhood-in paths place the named neighborhood within the containing city or borough.",
+      "evidence_lines": [
+        1159
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:34:11.479Z"
+      }
+    }
+  ],
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "72a75ffda65e34fdd9384a8e600671081bc967eaba19e69bbb284bf27ff7353e"
+}

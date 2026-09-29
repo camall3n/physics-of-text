@@ -1,0 +1,42 @@
+{
+  "relation": "rel_81",
+  "predicate_id": "editor_of",
+  "predicate_version": 1,
+  "predicate_hash": "e74cae9f1b8345e6a76881e76791028fdfe263683ba17af0497b102f7fa758f4",
+  "predicate": {
+    "id": "editor_of",
+    "label": "editor of publication",
+    "definition": "Person X serves or served as an editor of, for, or at publication Y.",
+    "includes": [
+      "explicit editor or editor-in-chief",
+      "section or departmental editor within a publication",
+      "explicitly editing publication Y",
+      "historical editorial office"
+    ],
+    "excludes": [
+      "publisher, director, owner, or author alone",
+      "ordinary writing or contribution without editorial role",
+      "merely being quoted or discussed in the publication"
+    ],
+    "ambiguous": [
+      "an incomplete publication argument",
+      "editor title attaching to someone other than X",
+      "editing a work versus holding the publication's editorial role when unclear"
+    ],
+    "notes": "Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication.",
+    "scope_notes": "Includes: explicit editor or editor-in-chief; section or departmental editor within a publication; explicitly editing publication Y; historical editorial office. Excludes: publisher, director, owner, or author alone; ordinary writing or contribution without editorial role; merely being quoted or discussed in the publication. Ambiguous unless resolved by case-local evidence: an incomplete publication argument; editor title attaching to someone other than X; editing a work versus holding the publication's editorial role when unclear. Publisher-only and writer-only evidence do not establish this editorial role. A section editor is included without implying overall control of the publication."
+  },
+  "dictionary_sha256": "d059c56ec5a3dc190cbe592da6e9c2c8251da27356fb89a86f5a9e8774010445",
+  "kind": "declared_before_case_grading",
+  "rationale": "Editor and editor-in-chief paths dominate over publisher and director. Publishing alone is excluded rather than unioned with editing.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:00:57.585Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_81.before_grading.json",
+  "pregrading_annotation_sha256": "d63d6fdfb4caa0289e936e3c54e746f02000d42917f2f59b4a2a4aac5cd08041"
+}

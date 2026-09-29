@@ -1,0 +1,62 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_111",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_111__ent_822__ent_821"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Singular American combines unnamed critic/diplomat/living subjects with firm, company and airline-route senses; it does not identify one coherent resident or an explicitly plural population.",
+      "tags": [
+        "identity_ambiguity",
+        "unnamed_person"
+      ],
+      "question": "Which American person resides in London, and which rows instead describe the airline or another company?"
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_111__ent_822__ent_824",
+        "rel_111__ent_822__ent_835"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The singular national adjective American leaves the resident unnamed and mixes individual diplomatic, writer or institutional attachments.",
+      "tags": [
+        "unnamed_person"
+      ],
+      "question": "Which identified American person lives in this place, and which rows refer to a base, embassy or another entity?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_111__ent_988__ent_507"
+      ],
+      "judgment": "supported",
+      "reason": "A direct live-in row establishes Mr. Marcos's residence in Hawaii.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "cb3b5e980a99668429b72a7e0a1fc2382275198e2ad053a9429afd7287c6daea"
+}

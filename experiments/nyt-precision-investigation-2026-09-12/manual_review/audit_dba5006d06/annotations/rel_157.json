@@ -1,0 +1,78 @@
+{
+  "relation": "rel_157",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Explicit headquarters, campus, office and based-in evidence qualify. Company/firm modified by a city may express location. Nationality-only adjectives are ambiguous; corporate-family and Internet-sector membership, events and personal activity alone do not qualify.",
+  "facts": [
+    {
+      "case_id": "rel_157__ent_786__ent_305",
+      "judgment": "supported",
+      "reason": "Apple is explicitly based in Cupertino, with headquarters and campus there.",
+      "evidence_lines": [
+        788,
+        790,
+        793
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_157__ent_1083__ent_931",
+      "judgment": "incorrect",
+      "reason": "Bell identifies the corporate family or breakup in these rows, not a geographic location of BellSouth.",
+      "evidence_lines": [
+        6872,
+        6874,
+        6876
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_157__ent_943__ent_936",
+      "judgment": "incorrect",
+      "reason": "Internet describes the research sector and subject of reports, not a geographic place where Forrester Research is based.",
+      "evidence_lines": [
+        7361,
+        7363,
+        7367
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_157__ent_539__ent_713",
+      "judgment": "supported",
+      "reason": "The explicit firm-based-in and firm-in paths locate the Hicks organization in Dallas. Ownership and interview paths are mixed additional evidence.",
+      "evidence_lines": [
+        7413,
+        7415,
+        7417,
+        7418,
+        7419
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_157__ent_942__ent_936",
+      "judgment": "incorrect",
+      "reason": "Jupiter Communications is classified as an Internet firm and analyst of Internet trends; these do not locate it geographically.",
+      "evidence_lines": [
+        7383,
+        7384,
+        7385
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

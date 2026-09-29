@@ -1,0 +1,69 @@
+{
+  "relation": "rel_23",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_23__ent_33__ent_32",
+      "judgment": "incorrect",
+      "reason": "Col. Muammar el-Qaddafi → Libyan: Dictator, government, and political backing descriptions do not express a sporting or electoral contest against the second argument.",
+      "evidence_lines": [
+        3740,
+        3741,
+        3742,
+        3743,
+        3744
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.953Z"
+      }
+    },
+    {
+      "case_id": "rel_23__ent_543__ent_308",
+      "judgment": "supported",
+      "reason": "Nets → Knicks: The rout, outscore, and out-rebound paths establish an actual competitive encounter between the teams.",
+      "evidence_lines": [
+        944,
+        945,
+        947,
+        950
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.953Z"
+      }
+    },
+    {
+      "case_id": "rel_23__ent_279__ent_278",
+      "judgment": "incorrect",
+      "reason": "Bobby Cox → Braves: Managing the Braves is an organizational role, not competing against the team.",
+      "evidence_lines": [
+        3239,
+        3241,
+        3242
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.953Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "be90fef89239c8fa590bcac523a633af463bf165ef9cbf503785804d1be5ec0d"
+}

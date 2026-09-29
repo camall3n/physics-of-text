@@ -1,0 +1,539 @@
+{
+  "declarations": [
+    {
+      "relation": "rel_300",
+      "predicate_id": "organization_operates_in_domain",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11,
+        13,
+        14,
+        18,
+        19
+      ],
+      "rationale": "Full rows disambiguate generic company-nn modifiers: the largest coherent family describes Internet business/advertising/research firms. Bell corporate-family, German nationality and New York geography are separate competing meanings.",
+      "competing_meanings": [
+        "corporate family",
+        "national affiliation",
+        "geographic location"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_343",
+      "predicate_id": "lawyer_for",
+      "supporting_path_indices": [
+        1,
+        2,
+        4,
+        9
+      ],
+      "rationale": "Attorney-at/lawyer-for variants jointly exceed the single leader family; professional legal affiliation is the specific dominant occupation.",
+      "competing_meanings": [
+        "organizational leadership",
+        "specialist",
+        "coordinator"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_347",
+      "predicate_id": "organizational_leader_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        5,
+        8,
+        10,
+        11
+      ],
+      "rationale": "Leader, whip and chair political offices dominate. National/party adjectives as principals retain the earlier truncation ambiguity.",
+      "competing_meanings": [
+        "candidate",
+        "opponent",
+        "location"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_33",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        11,
+        12,
+        13,
+        14
+      ],
+      "rationale": "Inverse president/strongman/ruler variants dominate political body to person; president-elect alone and reversed office facts remain boundaries.",
+      "competing_meanings": [
+        "political control by group",
+        "president-elect"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_40",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        9,
+        13
+      ],
+      "rationale": "Coming/arrival/bringing/fleeing to geographic destinations dominates. Broadway theatrical participation and residence alone are distinct.",
+      "competing_meanings": [
+        "theatrical participation",
+        "residence",
+        "managerial office"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_145",
+      "predicate_id": "has_member",
+      "supporting_path_indices": [
+        0,
+        1,
+        6,
+        9,
+        13
+      ],
+      "rationale": "Include and led-by with party-to-person arguments form dominant inverse group membership. Geographic region-to-place containment and family accompaniment are separate.",
+      "competing_meanings": [
+        "geographic containment",
+        "family",
+        "travel"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_282",
+      "predicate_id": "has_wife",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "rationale": "Explicit wife/widow variants overwhelmingly identify person-to-wife direction. Ordinary introductions or unrelated personal links alone do not establish marriage.",
+      "competing_meanings": [
+        "ordinary introduction"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_319",
+      "predicate_id": "winner_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        4,
+        10,
+        14
+      ],
+      "rationale": "Winner/champion/victory variants are the largest clear event-result family. Generic finishing or participation need not mean winning, and horse pedigree attachment remains local.",
+      "competing_meanings": [
+        "participation",
+        "preparation",
+        "editor"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_358",
+      "predicate_id": "has_wife",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "rationale": "Wife and accompanied-by-wife dominate with men and their named wives. Daughter and ordinary accompaniment remain distinct.",
+      "competing_meanings": [
+        "daughter",
+        "ordinary accompaniment"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_80",
+      "predicate_id": "has_political_leader",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        12
+      ],
+      "rationale": "Inverse leader and counterpart-in political institution dominates. A spokesman for an unnamed leader does not make the spokesman the leader.",
+      "competing_meanings": [
+        "spokesperson",
+        "location of speech"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_168",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        4
+      ],
+      "rationale": "Chairman and chair succession exceed the competing director and corporate ownership families. Specific chair scope is retained.",
+      "competing_meanings": [
+        "director",
+        "owner"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_267",
+      "predicate_id": "chairperson_of",
+      "supporting_path_indices": [
+        0,
+        3,
+        5,
+        8,
+        13,
+        14,
+        15
+      ],
+      "rationale": "Explicit chairman variants dominate, with founding, speaking and unrelated corporate office location competing.",
+      "competing_meanings": [
+        "founder",
+        "speaker",
+        "office location"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_310",
+      "predicate_id": "manager_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        9,
+        10
+      ],
+      "rationale": "Manager titles dominate over coach and ordinary player/employment paths. Being fired alone requires local title context.",
+      "competing_meanings": [
+        "coach",
+        "athlete",
+        "corporate location"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_351",
+      "predicate_id": "president_of",
+      "supporting_path_indices": [
+        0,
+        2,
+        4
+      ],
+      "rationale": "Specific president title overwhelmingly dominates; executive alone and international alliance remain separate.",
+      "competing_meanings": [
+        "executive",
+        "international alliance"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_53",
+      "predicate_id": "athlete_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "rationale": "Athlete roles and scoring for teams dominate. Generic lead/give requires local sports-role context.",
+      "competing_meanings": [
+        "political replacement"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_95",
+      "predicate_id": "resides_in",
+      "supporting_path_indices": [
+        0,
+        1,
+        4
+      ],
+      "rationale": "Live/living-in dominates person/population-to-place roles; industry, office, death location, and company routes are separate.",
+      "competing_meanings": [
+        "death location",
+        "organization location",
+        "political control"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_117",
+      "predicate_id": "known_as",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "rationale": "Known-as and known-by-acronym overwhelmingly dominate formal name to abbreviation. Indirect attachment still requires local validation.",
+      "competing_meanings": [
+        "unrelated institutional member"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_127",
+      "predicate_id": "travels_to",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        9,
+        10,
+        12
+      ],
+      "rationale": "Visit/trip geographic destinations dominate; rejected or anticipated trips do not establish actual movement. Metadata-contaminated museum record remains reviewed as supplied.",
+      "competing_meanings": [
+        "future travel",
+        "office",
+        "website domain",
+        "metadata artifact"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_130",
+      "predicate_id": "editor_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        12
+      ],
+      "rationale": "Editor and editor-in-chief publication roles dominate. Bureau chief, boss, or staff alone does not establish editorship.",
+      "competing_meanings": [
+        "bureau chief",
+        "staff"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_148",
+      "predicate_id": "competed_against",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      "rationale": "Play/game-against and loss dominate opposing sports teams; competition does not require victory. Coaching personnel and attorney nominations are distinct.",
+      "competing_meanings": [
+        "personnel management",
+        "attorney nomination"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_173",
+      "predicate_id": "criticizes",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "rationale": "Attack/criticize in political-party/person pairs forms the leading verbal criticism family; military attack shares surface verbs but is outside this predicate.",
+      "competing_meanings": [
+        "military attack",
+        "political leadership",
+        "location"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_217",
+      "predicate_id": "departed_from",
+      "supporting_path_indices": [
+        0,
+        7,
+        15
+      ],
+      "rationale": "Leave and emigration are the largest clear movement-source path family; inverse Haiti-president relationships compete and do not imply that Haiti departed from a person.",
+      "competing_meanings": [
+        "political leadership",
+        "managerial office",
+        "meeting location"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_226",
+      "predicate_id": "criticizes",
+      "supporting_path_indices": [
+        0,
+        5,
+        7
+      ],
+      "rationale": "Accusation, criticism and offering a case against form the largest clear evaluative speech family. Victim-to-perpetrator and nationality/ownership fragments remain separate.",
+      "competing_meanings": [
+        "victim/perpetrator",
+        "national affiliation",
+        "communication"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_233",
+      "predicate_id": "founder_of",
+      "supporting_path_indices": [
+        0,
+        1,
+        2
+      ],
+      "rationale": "Co-founder/founded variants dominate Gates-to-Microsoft; the river confluence family has entirely different argument semantics.",
+      "competing_meanings": [
+        "ownership",
+        "river confluence"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    },
+    {
+      "relation": "rel_276",
+      "predicate_id": "athlete_for",
+      "supporting_path_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "rationale": "Explicit center/star/co-captain and scoring for teams dominate. Generic put/have need their local sporting role context.",
+      "competing_meanings": [
+        "ordinary action"
+      ],
+      "reviewer": "evaluation",
+      "complete_dictionary_read": true,
+      "argument_roles_inspected": true
+    }
+  ]
+}

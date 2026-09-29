@@ -1,0 +1,41 @@
+{
+  "relation": "rel_133",
+  "predicate_id": "professor_at",
+  "predicate_version": 1,
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate": {
+    "id": "professor_at",
+    "label": "professor or university teacher at",
+    "definition": "Person X is a professor or teaches at academic institution Y.",
+    "includes": [
+      "explicit professor",
+      "teaching at the institution",
+      "historical teaching affiliation"
+    ],
+    "excludes": [
+      "expert/specialist/dean/researcher/analyst alone",
+      "attendance or institution location alone"
+    ],
+    "ambiguous": [
+      "unclear teacher versus student attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+  },
+  "dictionary_sha256": "a089c371ec28fbd9b2bd42531bd2dc681b8947171d1a4fe5784106b0b1f7b46b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Three professor paths tie director/head/oversight contexts; the two-count explicit professor-at path resolves the tie over management singletons.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.608Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_133.before_grading.json",
+  "pregrading_annotation_sha256": "ebae624a45edf773d9d0dabfb51df2ace6f125b7179b1e81cd7d15b90468511a"
+}

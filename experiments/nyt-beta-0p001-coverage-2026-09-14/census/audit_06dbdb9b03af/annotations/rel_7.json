@@ -1,0 +1,89 @@
+{
+  "relation": "rel_7",
+  "predicate_id": "president_of",
+  "label": "president of institution",
+  "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+  "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+  "facts": [
+    {
+      "case_id": "rel_7__ent_349__ent_308",
+      "judgment": "supported",
+      "reason": "Dave Checketts → Knicks: Direct president title establishes the specified institutional office.",
+      "evidence_lines": [
+        1706,
+        1709,
+        1710,
+        1711,
+        1712
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.373Z"
+      }
+    },
+    {
+      "case_id": "rel_7__ent_339__ent_1036",
+      "judgment": "supported",
+      "reason": "Bud Selig → Milwaukee Brewers: Direct president title establishes the specified institutional office.",
+      "evidence_lines": [
+        1447,
+        1451,
+        1452,
+        1454
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.373Z"
+      }
+    },
+    {
+      "case_id": "rel_7__ent_371__ent_132",
+      "judgment": "supported",
+      "reason": "Kenneth E. Raske → Greater New York Hospital Association: Direct president title establishes the specified institutional office.",
+      "evidence_lines": [
+        12,
+        16
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.373Z"
+      }
+    },
+    {
+      "case_id": "rel_7__ent_95__ent_94",
+      "judgment": "incorrect",
+      "reason": "Federal Home Loan Mortgage Corporation → Freddie Mac: An institutional alias is not a person holding a president office.",
+      "evidence_lines": [
+        5587,
+        5589
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:38.373Z"
+      }
+    }
+  ],
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "4839be2e0e60d151b8cded3de9fe181d3c5ec837a3227b80ae14fb0333dbb45e"
+}

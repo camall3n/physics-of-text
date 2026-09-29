@@ -1,0 +1,58 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_80",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_80__ent_1128__ent_1434",
+        "rel_80__ent_1433__ent_393"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit unit-of wording establishes the corporate parent relationship.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_80__ent_1401__ent_422"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York replaces an unnamed business unit and Hill is an incomplete mixed office/political name.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What named unit and full parent organization are intended?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_80__ent_1439__ent_148",
+        "rel_80__ent_1204__ent_1207",
+        "rel_80__ent_995__ent_148"
+      ],
+      "judgment": "incorrect",
+      "reason": "A movie-title fragment, inverse minister designation or an attorney office does not establish corporate containment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6a076ee340f76abb4adc8babbd29b5c25ef5f277ef95e1d4f7e54de68ee85e55"
+}

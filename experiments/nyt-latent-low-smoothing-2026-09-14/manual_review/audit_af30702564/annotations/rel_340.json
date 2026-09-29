@@ -1,0 +1,75 @@
+{
+  "relation": "rel_340",
+  "label": "winner or champion of",
+  "definition": "X won competition, race, championship, prize or award Y.",
+  "scope_notes": "Preserves event/award winner scope. Event Y differs from a defeated opponent or an issuing organization. Participation, finishing, winning one stage or travel alone does not establish winning the entire event.",
+  "facts": [
+    {
+      "case_id": "rel_340__ent_732__ent_974",
+      "judgment": "supported",
+      "reason": "Ullrich explicitly wins Tour and is its champion/winner. Finishing, missing or winning one stage alone would not establish the full-event win; those are mixed paths.",
+      "evidence_lines": [
+        7784,
+        7785,
+        7786,
+        7788
+      ],
+      "issue_tags": [
+        "mixed_evidence",
+        "malformed_path"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_340__ent_561__ent_850",
+      "judgment": "supported",
+      "reason": "Giants explicitly win Super Bowl, corroborated by victory constructions.",
+      "evidence_lines": [
+        2218,
+        2224,
+        3437,
+        3438
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_340__ent_609__ent_836",
+      "judgment": "supported",
+      "reason": "Marlins explicitly win World Series and have its victory.",
+      "evidence_lines": [
+        2257,
+        2258,
+        2259
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_340__ent_158__ent_1307",
+      "judgment": "incorrect",
+      "reason": "Schwartz has a street-in-Brooklyn path and misses Brooklyn; no competition or award won.",
+      "evidence_lines": [
+        975,
+        979
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_340__ent_1392__ent_836",
+      "judgment": "supported",
+      "reason": "Cubs explicitly win World Series in all four supplied rows; the fact rubric allows a historical win.",
+      "evidence_lines": [
+        2267,
+        2268,
+        7764,
+        7765
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

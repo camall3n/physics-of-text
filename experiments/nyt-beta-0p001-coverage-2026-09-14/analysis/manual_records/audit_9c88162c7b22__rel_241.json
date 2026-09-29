@@ -1,0 +1,40 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_241",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_241__ent_811__ent_1197"
+      ],
+      "judgment": "supported",
+      "reason": "The joined and passed-by-both-chambers paths provide local shared legislative-action context, rather than relying on a bare join edge alone.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_241__ent_1197__ent_811"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Joining, following the House’s lead, going with it, and sending to it omit the action on which both chambers actually cooperated.",
+      "tags": [
+        "omitted_shared_action"
+      ],
+      "question": "What specific action did the Senate undertake jointly with the House in these rows?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5f2fda70b95c89f0f6104c90eab0f8a88f3caf9112f62bcf626a7c4d1c3f53c7"
+}

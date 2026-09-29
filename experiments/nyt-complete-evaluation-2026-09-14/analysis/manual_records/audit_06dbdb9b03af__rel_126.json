@@ -1,0 +1,131 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_126",
+  "cases_sha256": "42bca182da4772f7e4704595621d8aa4b6565f76315e62496b1887372d45c766",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        15,
+        19
+      ],
+      "case_ids": [
+        "rel_126__ent_1043__ent_321",
+        "rel_126__ent_346__ent_308",
+        "rel_126__ent_588__ent_308",
+        "rel_126__ent_349__ent_308",
+        "rel_126__ent_105__ent_347",
+        "rel_126__ent_589__ent_110",
+        "rel_126__ent_136__ent_256",
+        "rel_126__ent_285__ent_321",
+        "rel_126__ent_1134__ent_786"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit president wording establishes the specified office, including historical/functional presidency.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        5,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21
+      ],
+      "case_ids": [
+        "rel_126__ent_104__ent_347",
+        "rel_126__ent_272__ent_321",
+        "rel_126__ent_273__ent_1004",
+        "rel_126__ent_275__ent_561",
+        "rel_126__ent_274__ent_308",
+        "rel_126__ent_277__ent_321",
+        "rel_126__ent_79__ent_400",
+        "rel_126__ent_282__ent_347",
+        "rel_126__ent_276__ent_561",
+        "rel_126__ent_279__ent_278",
+        "rel_126__ent_89__ent_86",
+        "rel_126__ent_88__ent_85"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit manager wording establishes the organizational/team office under the retained composite predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6,
+        22
+      ],
+      "case_ids": [
+        "rel_126__ent_1028__ent_175",
+        "rel_126__ent_17__ent_827"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Manager of a named person likely refers to an omitted campaign or office, but the title modifier/principal organization is unresolved.",
+      "tags": [
+        "role_attachment"
+      ],
+      "question": "What campaign or institution is managed, and what precise manager office does the person-to-person path denote?"
+    },
+    {
+      "indices": [
+        23,
+        24
+      ],
+      "case_ids": [
+        "rel_126__ent_172__ent_171",
+        "rel_126__ent_619__ent_526"
+      ],
+      "judgment": "incorrect",
+      "reason": "Director-only evidence does not establish president or manager office.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    8,
+    10,
+    12,
+    14,
+    16,
+    19
+  ],
+  "broad": [
+    1,
+    5,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    20,
+    21
+  ]
+}

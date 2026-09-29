@@ -1,0 +1,76 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_9",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        5
+      ],
+      "case_ids": [
+        "rel_9__ent_786__ent_1283",
+        "rel_9__ent_1224__ent_1180"
+      ],
+      "judgment": "supported",
+      "reason": "Local office/headquarters or organizational relocation with begin-at evidence locates the institution in the stated place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_9__ent_545__ent_787"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The based-in modifier is attached through a request-by construction, leaving organization versus request attachment unclear.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Is Intel itself described as based in Santa Clara?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_9__ent_12__ent_682"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The isolated move-to row does not resolve proposed movement versus established organizational location.",
+      "tags": [
+        "modality"
+      ],
+      "question": "Does this row establish the Yankees' location or merely a proposed move?"
+    },
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        6,
+        8
+      ],
+      "case_ids": [
+        "rel_9__ent_157__ent_1002",
+        "rel_9__ent_684__ent_1277",
+        "rel_9__ent_546__ent_788",
+        "rel_9__ent_528__ent_1218",
+        "rel_9__ent_1049__ent_15"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete evidence concerns a person's office/travel, an engineer's residence, an inverse office-parent attachment or replacing a manager, not the stated organizational location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "966eb7b81bf7c184dea1de7a5343c4dd32302f53a59f0a44f2e9146f8bb5df58"
+}

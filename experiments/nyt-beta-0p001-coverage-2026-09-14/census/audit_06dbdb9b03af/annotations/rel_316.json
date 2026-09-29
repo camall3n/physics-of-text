@@ -1,0 +1,68 @@
+{
+  "relation": "rel_316",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "facts": [
+    {
+      "case_id": "rel_316__ent_818__ent_708",
+      "judgment": "incorrect",
+      "reason": "China → Qian Qichen: Country-to-official and country invasion are not a person working as analyst for an employer.",
+      "evidence_lines": [
+        7048,
+        7049,
+        7051,
+        7052,
+        7054
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.816Z"
+      }
+    },
+    {
+      "case_id": "rel_316__ent_1059__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: Following an industry and business for the named financial employer explicitly identifies professional analysis under the inherited analyst scope.",
+      "evidence_lines": [
+        1799,
+        1802,
+        7809,
+        7812
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.816Z"
+      }
+    },
+    {
+      "case_id": "rel_316__ent_537__ent_492",
+      "judgment": "incorrect",
+      "reason": "United States → Iraq: Country-to-official and country invasion are not a person working as analyst for an employer.",
+      "evidence_lines": [
+        2768,
+        4069
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:44.816Z"
+      }
+    }
+  ],
+  "predicate_hash": "537488183fa68ac6ce3f2cb465675a362a7ebe74d7f0e83df7e1bf419ddbf91d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0bbd7488267061622c794bf950b885aeda2270b832b4cac40834f5ada79bba9c"
+}

@@ -1,0 +1,76 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_90",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        4,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_90__ent_1004__ent_836",
+        "rel_90__ent_1004__ent_9",
+        "rel_90__ent_600__ent_836",
+        "rel_90__ent_309__ent_836",
+        "rel_90__ent_609__ent_836"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit competition participation, win/loss or competitive standings establishes participation in the designated sporting competition.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "case_ids": [
+        "rel_90__ent_6__ent_586",
+        "rel_90__ent_816__ent_586",
+        "rel_90__ent_251__ent_586",
+        "rel_90__ent_819__ent_586",
+        "rel_90__ent_7__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "The White House rows concern political office or control, outside sporting participation.",
+      "tags": [
+        "wrong_domain"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        6,
+        10,
+        12
+      ],
+      "case_ids": [
+        "rel_90__ent_182__ent_1002",
+        "rel_90__ent_8__ent_333",
+        "rel_90__ent_669__ent_989"
+      ],
+      "judgment": "incorrect",
+      "reason": "Geographic presence in Washington, Manhattan or Vietnam is not sporting-event participation.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [
+    1
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "b98cfcb5a7d2bbb9348e3a9e037065a3686963504a8898295de088654413620c"
+}

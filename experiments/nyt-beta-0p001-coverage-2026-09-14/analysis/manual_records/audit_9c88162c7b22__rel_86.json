@@ -1,0 +1,69 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_86",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_86__ent_562__ent_323",
+        "rel_86__ent_556__ent_798",
+        "rel_86__ent_999__ent_518",
+        "rel_86__ent_903__ent_902",
+        "rel_86__ent_564__ent_1017",
+        "rel_86__ent_517__ent_759"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit born-in evidence states the supplied person's birthplace.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_86__ent_257__ent_572"
+      ],
+      "judgment": "incorrect",
+      "reason": "Growing up and having ties in the Bronx do not establish birth there.",
+      "tags": [
+        "upbringing_not_birth"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_86__ent_805__ent_808"
+      ],
+      "judgment": "incorrect",
+      "reason": "Following airlines at Morgan Stanley is analyst affiliation, not birthplace.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6b70ee93dfb47a42eca2e9b34d33f8505d45ee38d50b6ee831ef3fe711a94f99"
+}

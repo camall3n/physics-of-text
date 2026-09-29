@@ -1,0 +1,81 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_254",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "case_ids": [
+        "rel_254__ent_528__ent_358",
+        "rel_254__ent_780__ent_1447",
+        "rel_254__ent_1407__ent_529",
+        "rel_254__ent_1431__ent_529",
+        "rel_254__ent_878__ent_173"
+      ],
+      "judgment": "supported",
+      "reason": "A local explicit analyst title establishes professional analysis for the named employer.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_254__ent_634__ent_783"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Two distinct analysts, Gary Black and Kenneth Abramowitz, are merged in one inferred person.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which analyst does this inferred fact identify?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_254__ent_301__ent_529"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Follow-for omits the followed industry or object and supplies no explicit local analyst title.",
+      "tags": [
+        "missing_object",
+        "role_ambiguity"
+      ],
+      "question": "Does follows for Merrill Lynch here specifically identify professional financial analysis?"
+    },
+    {
+      "indices": [
+        0,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_254__ent_588__ent_308",
+        "rel_254__ent_341__ent_705",
+        "rel_254__ent_509__ent_536"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sport-related travel/dismissal, a return or consideration for a government job does not establish an analyst role.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e4d4500247a2a152fc3643c380ba3450ad3a9c390962fcb37abd115d28793280"
+}

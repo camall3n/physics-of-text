@@ -1,0 +1,59 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_330",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_330__ent_894__ent_1105",
+        "rel_330__ent_134__ent_376",
+        "rel_330__ent_128__ent_141",
+        "rel_330__ent_1130__ent_434",
+        "rel_330__ent_371__ent_132",
+        "rel_330__ent_1107__ent_1108",
+        "rel_330__ent_622__ent_864"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit head, director or president wording establishes an institutional managerial office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_330__ent_361__ent_360"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director-for Study of American Catholicism may refer to an omitted institutional center rather than leadership of the study topic itself.",
+      "tags": [
+        "missing_institution"
+      ],
+      "question": "What institution, rather than subject of study, is the object of this directorship?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f2027cd68d5581ca47723c6d41c83defa05c1c410c2132e3edba518e5a8463e1"
+}

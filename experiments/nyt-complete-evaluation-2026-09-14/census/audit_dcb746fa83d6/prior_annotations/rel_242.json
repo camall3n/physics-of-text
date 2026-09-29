@@ -1,0 +1,78 @@
+{
+  "relation": "rel_242",
+  "label": "chairs or heads organization",
+  "definition": "The first person holds or held the chair or head leadership office of the second organization or committee.",
+  "scope_notes": "Chairman/chair and head/lead together dominate the full dictionary. This is an office relationship, not generic membership: member/serve-on/sit-on form a substantial competing family. Historical offices count. Generic political descriptions require a resolved individual; chairmanship of a panel owned by a larger body does not alone establish chairmanship of that larger body.",
+  "facts": [
+    {
+      "case_id": "rel_242__ent_56__ent_1168",
+      "judgment": "supported",
+      "reason": "Tyson is explicitly chairman of the Council of Economic Advisers.",
+      "evidence_lines": [
+        2881
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_242__ent_2__ent_1",
+      "judgment": "supported",
+      "reason": "Rohatyn is directly chairman of and heads Municipal Assistance Corporation, including an explicit as-chairman construction.",
+      "evidence_lines": [
+        240,
+        244,
+        246
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_242__ent_132__ent_981",
+      "judgment": "incorrect",
+      "reason": "This is an organization receiving the Nobel Peace Prize, not a person heading an organization. The truncated first name cannot turn award receipt into chairmanship.",
+      "evidence_lines": [
+        7752
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "truncated_argument"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_242__ent_70__ent_71",
+      "judgment": "incorrect",
+      "reason": "Bradford serves on and is a member of the NRC. The relative clause connects membership to the NRC; the separate chairman apposition does not say he chairs this commission.",
+      "evidence_lines": [
+        3314,
+        3316
+      ],
+      "issue_tags": [
+        "wrong_role",
+        "attachment"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_242__ent_7__ent_485",
+      "judgment": "ambiguous",
+      "reason": "Several paths explicitly describe chairing or heading the Senate Armed Services Committee, but the first argument is only Democrat. The extraction does not identify which individual this latent entity denotes; membership and panel-level evidence are also mixed in.",
+      "evidence_lines": [
+        6309,
+        6310,
+        6311,
+        6312,
+        6313,
+        6315,
+        6316,
+        6317
+      ],
+      "issue_tags": [
+        "truncated_argument",
+        "identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named Democrat is the first argument, and do these committee-chair references all denote that individual?"
+    }
+  ]
+}

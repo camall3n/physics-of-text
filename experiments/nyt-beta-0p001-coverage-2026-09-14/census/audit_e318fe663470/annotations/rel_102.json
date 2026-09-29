@@ -1,0 +1,102 @@
+{
+  "relation": "rel_102",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_102__ent_292__ent_28",
+      "judgment": "incorrect",
+      "reason": "Novartis → Swiss: Nationality/currency, office location, ownership or a spokesperson statement does not establish destination movement.",
+      "evidence_lines": [
+        3612,
+        3613,
+        3615,
+        3616,
+        3617
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.992Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_476__ent_1318",
+      "judgment": "ambiguous",
+      "reason": "North Koreans → China; Nixon → China: Destination movement by North Koreans is merged with Nixon/China in the same inferred subject.",
+      "evidence_lines": [
+        3421,
+        6138,
+        6139,
+        6144
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which person or population is traveling to China?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.992Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_545__ent_787",
+      "judgment": "incorrect",
+      "reason": "Intel → Santa Clara: Nationality/currency, office location, ownership or a spokesperson statement does not establish destination movement.",
+      "evidence_lines": [
+        775,
+        4325
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.992Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_341__ent_1035",
+      "judgment": "incorrect",
+      "reason": "Danny Meyer → Union Square Cafe: Nationality/currency, office location, ownership or a spokesperson statement does not establish destination movement.",
+      "evidence_lines": [
+        1436
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.992Z"
+      }
+    },
+    {
+      "case_id": "rel_102__ent_1383__ent_1030",
+      "judgment": "incorrect",
+      "reason": "White House → Ari Fleischer: Nationality/currency, office location, ownership or a spokesperson statement does not establish destination movement.",
+      "evidence_lines": [
+        5425
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:45.992Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9dfe0ca2d2008611818bedb97b42fd09c728e250e6d5784b68b05ce42350eab0"
+}

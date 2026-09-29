@@ -1,0 +1,102 @@
+{
+  "relation": "rel_212",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_212__ent_1065__ent_1064",
+      "judgment": "supported",
+      "reason": "Kellogg Brown & Root → Halliburton: Explicit subsidiary or organizational-part and owned-by paths establish child-to-parent business containment.",
+      "evidence_lines": [
+        6609,
+        6610,
+        6611,
+        6612
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.173Z"
+      }
+    },
+    {
+      "case_id": "rel_212__ent_1073__ent_1129",
+      "judgment": "supported",
+      "reason": "Young & Rubicam → WPP Group: Explicit subsidiary or organizational-part and owned-by paths establish child-to-parent business containment.",
+      "evidence_lines": [
+        6719,
+        6721,
+        6725
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.173Z"
+      }
+    },
+    {
+      "case_id": "rel_212__ent_586__ent_189",
+      "judgment": "incorrect",
+      "reason": "White House → Congress: A political liaison, person-country interaction or street address is not subsidiary containment.",
+      "evidence_lines": [
+        2055,
+        7878
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.173Z"
+      }
+    },
+    {
+      "case_id": "rel_212__ent_968__ent_1011",
+      "judgment": "incorrect",
+      "reason": "Mr. Ghosn → Brazil: A political liaison, person-country interaction or street address is not subsidiary containment.",
+      "evidence_lines": [
+        1008
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.173Z"
+      }
+    },
+    {
+      "case_id": "rel_212__ent_679__ent_484",
+      "judgment": "incorrect",
+      "reason": "Sotheby → 72d Street: A political liaison, person-country interaction or street address is not subsidiary containment.",
+      "evidence_lines": [
+        6260
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.173Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e2c560993574336169d8408467bb93d912fbb485ed8cc38b93a677465cc4b169"
+}

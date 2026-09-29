@@ -1,0 +1,114 @@
+{
+  "relation": "rel_165",
+  "predicate_id": "competed_against",
+  "label": "played or competed against",
+  "definition": "Competitor X played or competed against opposing competitor Y in a contest.",
+  "scope_notes": "Includes: explicit played against; a completed win or loss against opponent; competition with clear opponent roles. Excludes: ordinary interaction; standings comparison without a contest; future schedule alone. Ambiguous unless resolved by case-local evidence: ambiguous game occurrence. Sensitivity-only for previously defeat-labeled relations unless a new primary assignment is explicitly frozen before grading. Not a union of unrelated meanings.",
+  "facts": [
+    {
+      "case_id": "rel_165__ent_110__ent_347",
+      "judgment": "supported",
+      "reason": "Devils → Rangers: A triumph over, game against or playing the opponent establishes actual competitive encounter.",
+      "evidence_lines": [
+        6971,
+        6973,
+        6974,
+        6975,
+        6976
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.638Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_347__ent_110",
+      "judgment": "supported",
+      "reason": "Rangers → Devils: A triumph over, game against or playing the opponent establishes actual competitive encounter.",
+      "evidence_lines": [
+        2604,
+        2605,
+        2607,
+        2610
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.638Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_87__ent_818",
+      "judgment": "incorrect",
+      "reason": "Nixon → China: A geographic or institutional visit is not a competitive contest.",
+      "evidence_lines": [
+        3420,
+        3421,
+        3423,
+        3425
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.638Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_197__ent_586",
+      "judgment": "incorrect",
+      "reason": "Ms. Lewinsky → White House: A geographic or institutional visit is not a competitive contest.",
+      "evidence_lines": [
+        3490,
+        6175
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.638Z"
+      }
+    },
+    {
+      "case_id": "rel_165__ent_628__ent_867",
+      "judgment": "incorrect",
+      "reason": "General Electric Company → NBC: Subsidiary and executive-meeting context does not establish sporting or other competition.",
+      "evidence_lines": [
+        5964,
+        5966
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:38.638Z"
+      }
+    }
+  ],
+  "predicate_hash": "1548a1ea5c39190ee217b641b1831ed5f91ffa3a235d0ad012ee19a783cbec44",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "e040ec8e729cfd938dc988f46ce9c2fdec63a991b88b1c1febb32948f138a390"
+}

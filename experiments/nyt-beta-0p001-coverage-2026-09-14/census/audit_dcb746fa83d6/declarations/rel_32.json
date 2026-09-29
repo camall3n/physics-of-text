@@ -1,0 +1,60 @@
+{
+  "relation": "rel_32",
+  "predicate_id": "has_medical_condition",
+  "predicate_version": 1,
+  "predicate_hash": "00002d0be7de1b31e15236178a628d6020ff5861a758e2c750383ed1801ab3f8",
+  "predicate": {
+    "id": "has_medical_condition",
+    "label": "has or had medical condition",
+    "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+    "includes": [
+      "explicit having or suffering from Y",
+      "diagnosis of Y",
+      "death from or of Y establishing the condition",
+      "a stated affected subset of a named population"
+    ],
+    "excludes": [
+      "generic discussion or research about Y",
+      "treating another person with Y",
+      "a disease merely located in a place",
+      "a generic have phrase whose object is not a medical condition"
+    ],
+    "ambiguous": [
+      "unclear condition attachment or affected person",
+      "risk, possible diagnosis, or suspected condition without confirmation",
+      "a population mention that does not identify affected members"
+    ],
+    "notes": "This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+    "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition."
+  },
+  "dictionary_sha256": "dac9b85c2c473478abe64212d2c428b5c7eab9f6cdcbd80e8a688e836a6d0d60",
+  "kind": "declared_before_case_grading",
+  "rationale": "Full literal roles separate disease/death/symptom family from Knicks-player possession and Heather Has Two Mommies title. Medical condition is the largest coherent specific family; generic have is not automatically medical.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:05:52.278Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17
+  ],
+  "competing_meanings": [
+    "athletic membership",
+    "book title",
+    "generic possession"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_32.before_grading.json",
+  "pregrading_annotation_sha256": "831eb5484ab2c2eea55d9933c874ab993fec6b800f426c186412c01b753dcab4"
+}

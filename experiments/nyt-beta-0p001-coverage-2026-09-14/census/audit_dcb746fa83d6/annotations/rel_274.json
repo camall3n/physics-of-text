@@ -1,0 +1,556 @@
+{
+  "relation": "rel_274",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_274.json",
+    "source_sha256": "1307f6375ca6438bd7b98aa30bc5111b9cb49ff77c34a08da01e26b5d1f7cc87",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_274__ent_389__ent_146",
+      "judgment": "supported",
+      "reason": "Stanley Hill → District Council: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1132__ent_436",
+      "judgment": "supported",
+      "reason": "Shimon Peres → Labor Party: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        5056,
+        5057,
+        5059,
+        5060,
+        5061,
+        5063,
+        5065
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_435__ent_677",
+      "judgment": "supported",
+      "reason": "Nelson Mandela → African National Congress: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        5006,
+        5008,
+        5010,
+        5012,
+        5014,
+        5015
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1224__ent_69",
+      "judgment": "ambiguous",
+      "reason": "Radovan Karadzic → Bosnian Serb: The political argument is a singular nationality or truncated political descriptor, leaving the governed body or people underspecified.",
+      "evidence_lines": [
+        3054,
+        3055,
+        3056,
+        3057,
+        3061
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "What complete political body or people group does the argument denote?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_255__ent_497",
+      "judgment": "ambiguous",
+      "reason": "Slobodan Milosevic → Yugoslav: The political argument is a singular nationality or truncated political descriptor, leaving the governed body or people underspecified.",
+      "evidence_lines": [
+        2823,
+        2826,
+        2827,
+        2830
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "What complete political body or people group does the argument denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_34__ent_37",
+      "judgment": "ambiguous",
+      "reason": "Mikhail S. Gorbachev → Soviet: The political argument is a singular nationality or truncated political descriptor, leaving the governed body or people underspecified.",
+      "evidence_lines": [
+        3689,
+        3692,
+        3693,
+        3695
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "What complete political body or people group does the argument denote?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_178__ent_644",
+      "judgment": "supported",
+      "reason": "Curtis Sliwa → Guardian Angels: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        3893,
+        3894,
+        3897,
+        3898
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1130__ent_434",
+      "judgment": "supported",
+      "reason": "Jean-Marie Le Pen → National Front: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        5016,
+        5019,
+        5020,
+        5021
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_310__ent_55",
+      "judgment": "supported",
+      "reason": "David Trimble → Ulster Unionist Party: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        2895,
+        2897,
+        2902
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1406__ent_1401",
+      "judgment": "ambiguous",
+      "reason": "Bob Dole → Senate; Tom Daschle → Senate: Bob Dole and Tom Daschle are distinct people merged in the same fact.",
+      "evidence_lines": [
+        2964,
+        2973,
+        3009
+      ],
+      "issue_tags": [
+        "local_entity_collision"
+      ],
+      "reviewer_question": "Which person does the inferred subject represent?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1337__ent_35",
+      "judgment": "ambiguous",
+      "reason": "Yasir Arafat → Palestinian: The political argument is a singular nationality or truncated political descriptor, leaving the governed body or people underspecified.",
+      "evidence_lines": [
+        3681,
+        3684,
+        3685
+      ],
+      "issue_tags": [
+        "truncated_argument"
+      ],
+      "reviewer_question": "What complete political body or people group does the argument denote?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_268__ent_1139",
+      "judgment": "supported",
+      "reason": "Joseph L. Bruno → State Senate: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        4996,
+        4999,
+        5001
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_676__ent_1131",
+      "judgment": "supported",
+      "reason": "Dalai Lama → Tibet: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        5036,
+        5037,
+        5038
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      },
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1250__ent_1317",
+      "judgment": "supported",
+      "reason": "Tom Daschle → Senate: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        3006,
+        3007
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_803__ent_53",
+      "judgment": "supported",
+      "reason": "Gen. Tommy R. Franks → United States Central Command: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        2893
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_261__ent_1333",
+      "judgment": "supported",
+      "reason": "Bob Dole → Senate: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        2968
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_1221__ent_764",
+      "judgment": "supported",
+      "reason": "Joseph L. Bruno → Republican: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        3024
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_437__ent_956",
+      "judgment": "supported",
+      "reason": "Raymond B. Harding → Liberal Party: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        5047
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    },
+    {
+      "case_id": "rel_274__ent_474__ent_1269",
+      "judgment": "supported",
+      "reason": "Kenneth L. Lay → Enron: Direct leader, head, president, or legislative leadership evidence supports leadership of the identified body.",
+      "evidence_lines": [
+        5095
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:58:32.519Z"
+      },
+      "provenance": {
+        "kind": "exact_complete_census_judgment",
+        "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+        "source": "prior_assessment.json",
+        "assessment_sha256": "a3211f1872bacf04329ad951c84786d7016f75100ddf0463fe73dc0f9d995f5b",
+        "annotation_source": "prior_annotations/rel_274.json",
+        "annotation_sha256": "8172d93fe07c5271d2b2da4d0ac35d77e52fa5a82faff5677de98cb18a660965",
+        "prior_judgment_source": "primary"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1
+}

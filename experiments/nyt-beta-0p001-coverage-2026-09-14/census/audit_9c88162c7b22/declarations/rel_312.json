@@ -1,0 +1,47 @@
+{
+  "relation": "rel_312",
+  "predicate_id": "professor_at",
+  "predicate_version": 1,
+  "predicate_hash": "c5c36c96c413973493e6633509ff81e2e78ad47917584d07c47ec0a60575f851",
+  "predicate": {
+    "id": "professor_at",
+    "label": "professor or university teacher at",
+    "definition": "Person X is a professor or teaches at academic institution Y.",
+    "includes": [
+      "explicit professor",
+      "teaching at the institution",
+      "historical teaching affiliation"
+    ],
+    "excludes": [
+      "expert/specialist/dean/researcher/analyst alone",
+      "attendance or institution location alone"
+    ],
+    "ambiguous": [
+      "unclear teacher versus student attachment"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit professor; teaching at the institution; historical teaching affiliation. Excludes: expert/specialist/dean/researcher/analyst alone; attendance or institution location alone. Ambiguous unless resolved by case-local evidence: unclear teacher versus student attachment."
+  },
+  "dictionary_sha256": "b3f2f8357d6488f6718a83c262abc84ca7a4047efa62ae9806a72862e8d88f2f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Professor/teach family dominates the explicit academic office; expert/specialist/scientist alone does not establish teaching.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:07.888Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    1,
+    3,
+    4,
+    6,
+    9,
+    15,
+    16,
+    17
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_312.before_grading.json",
+  "pregrading_annotation_sha256": "0aeb64d1f4c5e87049bd5282b935065219deb08f59eea0d71acee9690d861fba"
+}

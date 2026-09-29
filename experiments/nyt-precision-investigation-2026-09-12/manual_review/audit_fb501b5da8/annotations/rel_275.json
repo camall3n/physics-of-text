@@ -1,0 +1,81 @@
+{
+  "relation": "rel_275",
+  "label": "organization based or located in",
+  "definition": "Organization X is based or physically located in place Y.",
+  "scope_notes": "Preserves prior organization/location scope. Explicit base, headquarters or firm-in-place qualifies. Nationality adjective without recoverable place is ambiguous; birth, industry and ownership are separate predicates.",
+  "facts": [
+    {
+      "case_id": "rel_275__ent_956__ent_936",
+      "judgment": "incorrect",
+      "reason": "Internet describes Jupiter Media Metrix industry, traffic and conference subject, not a geographical base.",
+      "evidence_lines": [
+        7401,
+        7402,
+        7404,
+        7405,
+        7409
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_275__ent_292__ent_28",
+      "judgment": "ambiguous",
+      "reason": "Swiss modifies company/giant/maker and currency; it expresses nationality but leaves physical base unstated.",
+      "evidence_lines": [
+        3609,
+        3610,
+        3611,
+        3612,
+        3617
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "Does the original text establish a physical Swiss base, or only nationality/ownership?"
+    },
+    {
+      "case_id": "rel_275__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company is explicitly a firm/group based in Washington.",
+      "evidence_lines": [
+        7422,
+        7425,
+        7426,
+        7427,
+        7429
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_275__ent_293__ent_10",
+      "judgment": "ambiguous",
+      "reason": "German is a truncated adjective/place argument; a based-in path exists but does not preserve its full destination.",
+      "evidence_lines": [
+        3599,
+        3601,
+        3608
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "What complete place is the object of based in for Bertelsmann, and does German refer to it?"
+    },
+    {
+      "case_id": "rel_275__ent_558__ent_1011",
+      "judgment": "incorrect",
+      "reason": "Mr. Ghosn was born in Brazil; person birthplace is outside organizational location.",
+      "evidence_lines": [
+        1005,
+        1007
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

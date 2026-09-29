@@ -1,0 +1,102 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_304",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16
+      ],
+      "case_ids": [
+        "rel_304__ent_1090__ent_1012",
+        "rel_304__ent_318__ent_557",
+        "rel_304__ent_1016__ent_557",
+        "rel_304__ent_400__ent_856",
+        "rel_304__ent_561__ent_560",
+        "rel_304__ent_1014__ent_1012",
+        "rel_304__ent_1282__ent_278",
+        "rel_304__ent_1004__ent_321",
+        "rel_304__ent_321__ent_1004",
+        "rel_304__ent_1313__ent_467",
+        "rel_304__ent_1282__ent_1084",
+        "rel_304__ent_1013__ent_267",
+        "rel_304__ent_74__ent_1004",
+        "rel_304__ent_1270__ent_1392"
+      ],
+      "judgment": "supported",
+      "reason": "The cited evidence includes an explicit beat, defeat or victory over the ordered opponent. Losses and other historical/contextual rows do not erase that support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_304__ent_1370__ent_557"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Montreal Expos and San Diego Padres are distinct teams combined as the first latent entity against New York Mets.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Should Montreal Expos and San Diego Padres be separated, and which team is intended here?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_304__ent_228__ent_471"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The only defeat row identifies the competitors as East and West without resolving the underlying teams or bodies.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which competitors do East and West denote in the original sentence?"
+    },
+    {
+      "indices": [
+        8
+      ],
+      "case_ids": [
+        "rel_304__ent_151__ent_1371"
+      ],
+      "judgment": "incorrect",
+      "reason": "An empire association and partnership affiliation do not assert any competitive victory. The two rows also mix incompatible named entity pairs.",
+      "tags": [
+        "other_predicate",
+        "entity_identity"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    12
+  ],
+  "broad": []
+}

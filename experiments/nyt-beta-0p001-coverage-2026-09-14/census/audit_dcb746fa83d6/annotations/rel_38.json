@@ -1,0 +1,100 @@
+{
+  "relation": "rel_38",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_38__ent_586__ent_344",
+      "judgment": "incorrect",
+      "reason": "White House → Marlin Fitzwater: Spokesperson service, an economist employer or a person visiting a city is not the declared body-to-political-leader relation.",
+      "evidence_lines": [
+        5370,
+        5372,
+        5374,
+        5375
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.464Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_847__ent_1275",
+      "judgment": "incorrect",
+      "reason": "Bruce Steinberg → Merrill Lynch: Spokesperson service, an economist employer or a person visiting a city is not the declared body-to-political-leader relation.",
+      "evidence_lines": [
+        2326,
+        2329,
+        2331
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.464Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_1299__ent_930",
+      "judgment": "supported",
+      "reason": "Senate → Donald T. DiFrancesco: Direct Senate or borough president apposition establishes political leadership of the named body.",
+      "evidence_lines": [
+        6775,
+        6781
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.464Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_1290__ent_584",
+      "judgment": "incorrect",
+      "reason": "Mr. Gorbachev → Moscow: Spokesperson service, an economist employer or a person visiting a city is not the declared body-to-political-leader relation.",
+      "evidence_lines": [
+        5225
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.464Z"
+      }
+    },
+    {
+      "case_id": "rel_38__ent_884__ent_937",
+      "judgment": "supported",
+      "reason": "Brooklyn Borough → Howard Golden: Direct Senate or borough president apposition establishes political leadership of the named body.",
+      "evidence_lines": [
+        6763
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.464Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "070ae2da6f77b4ce6a469547a3013ad4e114e82563617e7a804c305c3cd04ce7"
+}

@@ -1,0 +1,206 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_372",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        47,
+        49,
+        51,
+        55,
+        59
+      ],
+      "case_ids": [
+        "rel_372__ent_869__ent_880",
+        "rel_372__ent_1128__ent_1129",
+        "rel_372__ent_1240__ent_866",
+        "rel_372__ent_881__ent_101",
+        "rel_372__ent_1218__ent_880",
+        "rel_372__ent_665__ent_1120",
+        "rel_372__ent_1121__ent_425",
+        "rel_372__ent_1154__ent_459",
+        "rel_372__ent_920__ent_1066",
+        "rel_372__ent_665__ent_1069",
+        "rel_372__ent_1424__ent_1071",
+        "rel_372__ent_624__ent_866",
+        "rel_372__ent_623__ent_1211",
+        "rel_372__ent_1272__ent_868",
+        "rel_372__ent_1381__ent_640",
+        "rel_372__ent_666__ent_423",
+        "rel_372__ent_421__ent_423",
+        "rel_372__ent_1104__ent_880",
+        "rel_372__ent_426__ent_668",
+        "rel_372__ent_1065__ent_1064",
+        "rel_372__ent_1067__ent_923",
+        "rel_372__ent_1240__ent_627",
+        "rel_372__ent_1062__ent_776",
+        "rel_372__ent_1068__ent_923",
+        "rel_372__ent_922__ent_880",
+        "rel_372__ent_1072__ent_880",
+        "rel_372__ent_1073__ent_1129",
+        "rel_372__ent_424__ent_1129",
+        "rel_372__ent_1304__ent_880",
+        "rel_372__ent_366__ent_1388",
+        "rel_372__ent_867__ent_1388",
+        "rel_372__ent_822__ent_640",
+        "rel_372__ent_882__ent_640",
+        "rel_372__ent_1304__ent_1015",
+        "rel_372__ent_928__ent_1064",
+        "rel_372__ent_925__ent_924",
+        "rel_372__ent_625__ent_1371",
+        "rel_372__ent_1339__ent_1215",
+        "rel_372__ent_1232__ent_393",
+        "rel_372__ent_926__ent_313",
+        "rel_372__ent_624__ent_627",
+        "rel_372__ent_1063__ent_927",
+        "rel_372__ent_489__ent_773",
+        "rel_372__ent_1132__ent_953"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit subsidiary, unit, division, parent, owned-by or organizational-part evidence supports the child-to-parent relation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        18
+      ],
+      "case_ids": [
+        "rel_372__ent_921__ent_1066"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Hughes combines company/unit and executive-at readings, leaving person versus organization identity unresolved.",
+      "tags": [
+        "merged_identity"
+      ],
+      "question": "Does Hughes consistently mean the business, or has a person mention been merged?"
+    },
+    {
+      "indices": [
+        15,
+        29,
+        36,
+        37,
+        46
+      ],
+      "case_ids": [
+        "rel_372__ent_660__ent_623",
+        "rel_372__ent_843__ent_1304",
+        "rel_372__ent_407__ent_1218",
+        "rel_372__ent_1401__ent_1218",
+        "rel_372__ent_1401__ent_1104"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The city argument stands for an unnamed local office or organizational unit, so the child entity is incompletely bounded.",
+      "tags": [
+        "argument_boundary"
+      ],
+      "question": "Which local office is intended instead of the city argument?"
+    },
+    {
+      "indices": [
+        41,
+        45,
+        48,
+        50,
+        52,
+        53,
+        54,
+        56,
+        58,
+        60,
+        61,
+        62
+      ],
+      "case_ids": [
+        "rel_372__ent_562__ent_323",
+        "rel_372__ent_80__ent_1237",
+        "rel_372__ent_100__ent_1001",
+        "rel_372__ent_80__ent_1204",
+        "rel_372__ent_910__ent_1383",
+        "rel_372__ent_111__ent_1437",
+        "rel_372__ent_646__ent_1151",
+        "rel_372__ent_1213__ent_313",
+        "rel_372__ent_144__ent_189",
+        "rel_372__ent_980__ent_1428",
+        "rel_372__ent_1350__ent_263",
+        "rel_372__ent_78__ent_607"
+      ],
+      "judgment": "incorrect",
+      "reason": "These rows describe people, employment, travel, family, politics or sports without a child organization contained by a parent.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        57
+      ],
+      "case_ids": [
+        "rel_372__ent_1190__ent_1238"
+      ],
+      "judgment": "incorrect",
+      "reason": "Viacom owns CBS is the parent-to-child direction, the reverse of subsidiary_of.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    5,
+    7,
+    9,
+    15,
+    18,
+    19,
+    21,
+    22,
+    24,
+    29,
+    31,
+    34,
+    37
+  ],
+  "broad": []
+}

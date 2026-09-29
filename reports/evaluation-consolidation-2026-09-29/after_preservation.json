@@ -1,0 +1,959 @@
+{
+  "complete": true,
+  "final_source_validation": {
+    "complete": true,
+    "files": 173
+  },
+  "maintenance_extension": {
+    "complete": true,
+    "original_entries": 1492,
+    "exact_source_documentation_transitions": [
+      {
+        "path": "HANDOFF.md",
+        "previous_sha256": "7f84f698b3f63437486e0fc2b63f68608b7a6a19f15ed86430d9dc6308b051f4",
+        "current_sha256": "bab9b25c97da44bcb3a57f6fecdfabc0e1cd93a86f268ab341cb7ac5f4ed9682"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/README.md",
+        "previous_sha256": "f06863f5c08209a6137815b2cf311cce81da489a1e19c7c51187bb095d046dbc",
+        "current_sha256": "9040afc4b229b00f9d497757441d71945a4e98a871d92c7b4d9a50ed3a75c7fc"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/census_lib.mjs",
+        "previous_sha256": "7634936829f4975207ce1d5c7c5e64a33a95585a61f3927ddb7a118f2ef20d62",
+        "current_sha256": "8d2320c83fe1bb1d34d0f8fba24df6d46286d77686969d4596378b4c31b829a3"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/entity_collision_flags.mjs",
+        "previous_sha256": "8566a7e5b7fa805e9752e0efdd60fc45628c280719e823b7cf9bc0df8111bca5",
+        "current_sha256": "da25aebacfdb70d97bf05385f847c584689d35be3d87ad9203bd720e9d087346"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/prepare_censuses.mjs",
+        "previous_sha256": "446d7d82afdf82461aacb0d0734681793ead037e17fe64f66265a66e39c98dfa",
+        "current_sha256": "0a58c5378c43802c68b4535e4c55b5462b47c98b8b2fa55d5848bd00008cf5ac"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/verify_report_artifacts.mjs",
+        "previous_sha256": "6e0c48a17d310e8298731ebe8f667875d78932f64c0e91d50d1c6b24b1e27609",
+        "current_sha256": "5694415428c81e1d981e0a34caef1e1ae69abd1c11437eb5d5869b4cd68d7f43"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/verify_supplemental_sources.mjs",
+        "previous_sha256": "7b15497239f2b27569caa1bf9bed944da75f0e58e852fdc1b7628af785c45983",
+        "current_sha256": "647711ce420a31fdd31425781b6fe4f0de3d3985f5650e8282c6e88123f34bc6"
+      },
+      {
+        "path": "experiments/nyt-precision-investigation-2026-09-12/README.md",
+        "previous_sha256": "0b7787442f447bd14ad82a3598f940413af7472ae0bcb3bc826cc8a1107ad200",
+        "current_sha256": "469d4cfc484ae45ab69510bfe72759f625e67c36328db25dec2256989b78b03d"
+      },
+      {
+        "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/prepare_manual_samples.mjs",
+        "previous_sha256": "abc1f52563c457f3b6921621c6a2156c88f0c317b228f47bd5c1b1bc6f2cf8d6",
+        "current_sha256": "3ad75b7739731f9f9f772347164a805d8a38b91b3d64af48439e4f14903fdd2a"
+      },
+      {
+        "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/summarize_experiments.mjs",
+        "previous_sha256": "ce44baef8927ade7e3ad328362c0db20606d42f09cb5d227db1f6aa02e09935c",
+        "current_sha256": "9bafd3031f1f25cdc72e5f78c312e507a08681dab912891a05bba9a9915acc20"
+      },
+      {
+        "path": "resources/sampler-140626/scripts/compare_figure1_runs.py",
+        "previous_sha256": "394f47d05d8d6ae9eef418b5f20098fc76cfa63af4326fdf14c200f1c43cad86",
+        "current_sha256": "584d82dc843d1e787fbc372ba6f1eea93e50b7bc64d4066ed42304e4c0961218"
+      },
+      {
+        "path": "resources/sampler-140626/scripts/compare_nyt_archives.mjs",
+        "previous_sha256": "5c1cca24be53309dbec73489a7a37619de325f101ae466c7e15154fb3464bad0",
+        "current_sha256": "42d64d92b4c59da2319f4311149698751946e3bb50e58bf049360a8e056bdebe"
+      },
+      {
+        "path": "resources/sampler-140626/scripts/figure1_self_pairs.py",
+        "previous_sha256": "909841aa6cf9bc0d4278491ba12b39bf8c16ba9487fcb881e1519b61d75c0da3",
+        "current_sha256": "5f060f1d0c9a27e5e0f450b99ac90819fc1ab4eba0c352b23adc14d74ab63fe8"
+      },
+      {
+        "path": "resources/sampler-140626/scripts/test_figure1_self_pairs.py",
+        "previous_sha256": "01f2c2c97c5544cc61cae3f64b467439510c5d6f1e3e9ba0ce0b363bec6a46e4",
+        "current_sha256": "9bd20566aba2500be001c3f129e64aed1328273c943b090fd680d1f83f9e60c4"
+      },
+      {
+        "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/build_review_index.mjs",
+        "previous_sha256": "327b7fab4b03ab4b1dbf809896bc000191caa16f81b2db9aa302308048b73408",
+        "current_sha256": "f2b3fe48c40b0e3c100ba8427686b722edb981e9f5c6a8d6b802dfc6a886d38a"
+      },
+      {
+        "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/report_manual_samples.mjs",
+        "previous_sha256": "68c6fd5acd914d1c3eb91ac9a819e5456bfa2b15282128b7bd42f4818b813309",
+        "current_sha256": "b24078901e9ac00e52b4f1687c9da6e857d5ad791bb0bd8ebda86aaaf7b9a355"
+      },
+      {
+        "path": "experiments/nyt-latent-low-smoothing-2026-09-14/README.md",
+        "previous_sha256": "52fd2ebdf2b2ec97c7eadc504066544bef63929db34d7bebbcbc8e5cb1d45304",
+        "current_sha256": "74d37261d7ad4fb352874782207ae3802af9b27f8ae2e30629656c91f8d01771"
+      },
+      {
+        "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/build_review_index.mjs",
+        "previous_sha256": "85b8d5268a35d8b484893696e02a2d5cf5726cfaf635f3171a3a77cdcbc7b061",
+        "current_sha256": "f2b3fe48c40b0e3c100ba8427686b722edb981e9f5c6a8d6b802dfc6a886d38a"
+      },
+      {
+        "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/prepare_manual_samples.mjs",
+        "previous_sha256": "f04f4d63db13266883f9d8df1eac7f80e3cda4c1dc8293a036dfbc05806e54dc",
+        "current_sha256": "3ad75b7739731f9f9f772347164a805d8a38b91b3d64af48439e4f14903fdd2a"
+      },
+      {
+        "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/report_manual_samples.mjs",
+        "previous_sha256": "68c6fd5acd914d1c3eb91ac9a819e5456bfa2b15282128b7bd42f4818b813309",
+        "current_sha256": "b24078901e9ac00e52b4f1687c9da6e857d5ad791bb0bd8ebda86aaaf7b9a355"
+      },
+      {
+        "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/summarize_results.mjs",
+        "previous_sha256": "acd5b98d0ba4a973638154e68388f8968648755e63f8a6507905d36da581957d",
+        "current_sha256": "d384549bd7a0edadb29879f2b1e5991d40ce7d0729f51642fc25988bdc35bdc8"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/analysis/evaluation_manual_helpers.mjs",
+        "previous_sha256": "4630658e8e89d013d75f5a869db6d00df98e98b94d8eeac52bdb26085bdcb5a1",
+        "current_sha256": "32226133e3efbcde9a6c59effdee3be8f6e48d66abfb0a53183a16a4509cb9f8"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/archive250_review_helpers.mjs",
+        "previous_sha256": "f0f5f6c40595de564bc2174a33b8b72b43296971c51b2932090043156fd6c16f",
+        "current_sha256": "40d4fda18a17007e3ba4280bdcc3aff49677206c70a2358bb014aea633429a02"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/check_semantic_consistency.mjs",
+        "previous_sha256": "2a3c6d90903ede05fd64f2f5f1f8500521095bcc600ab205db7d82b78f9d8731",
+        "current_sha256": "b7990a9c572f77b87464d73ae8482c83b9d397bc4ea864398e8565422455d612"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/kernel_manual_helpers.mjs",
+        "previous_sha256": "31060f506a32a0c115e6ee06ca58e3b8d24404d219bdc42031b3b8c043e8f66e",
+        "current_sha256": "99ac54358656676da6895a16b1f223f1f3c14590f347939160caa553d1ecdfc5"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/kernel_supplement_helpers.mjs",
+        "previous_sha256": "23775f212d8e2dce6e9a5bf2dfd766dcb25017d73c9f01a4e7c3524d46e5eb32",
+        "current_sha256": "b03e0611baacaea23e144ea7084156f82e2f316f464b9274d58dddeb35894972"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/parse_map.mjs",
+        "previous_sha256": "5d5056b8ef6ff4fe9db048380f0b1c00f46fbc928d7f36ed416f8188c83b3c41",
+        "current_sha256": "33787c12c6de16574ef9c92c1b73e9f3742efa7616d852be9d4005b102b07147"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/prepare_archive250.mjs",
+        "previous_sha256": "5e42f91cd6ee07a7de5a36041b1f9d06c6f6ac7f377af46e28d1064c99094dec",
+        "current_sha256": "f1b5cbff15433beb4735d765688dac7ff5b324f216d55de82e0ef94be3987466"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/prior_comparisons.mjs",
+        "previous_sha256": "bb2c5cc796b9c633f837e3a7e8a202ab55cf228d33e604a3dbe89df03b384281",
+        "current_sha256": "e8521509da967ca0817ea344203000ff7d684699b30d24d28f641c60f37641a1"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/report_censuses.mjs",
+        "previous_sha256": "d412ca499aa8860dee255f5f788195e5cb8a08bbd7a9b076cfd7e40a4c1422d1",
+        "current_sha256": "b9228fc4e8107bfeed60f6d3e489ab73ee5d51ecf5ece4e31496058006572a81"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/review_batch.mjs",
+        "previous_sha256": "58a16c644f82b8aebdfdc0e0e811836df898277d999919c26613c13f1f72a757",
+        "current_sha256": "00450e1389c974abf5af49e3210d33516afe4e4170e2454685cf52d5c156b342"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/review_indexed.mjs",
+        "previous_sha256": "e30785dbc2bf4a1a12931b49f89c586318d34599bd9b8c64f390deff843c159e",
+        "current_sha256": "2573381c5f47196dd090b016c643d297d540d8d9868e823effddd8a7462e0564"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/root_manual_helpers.mjs",
+        "previous_sha256": "1899c44075d4e38e43bbde2dbe54be674a79a4af38988b35a42c1d60be238240",
+        "current_sha256": "fad5cd824a2313ea3406e684940e5550e67a40ed6460779ec1aaa014f4b24757"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/root_print_review.mjs",
+        "previous_sha256": "d74a7b014026c1335f79579d3302d98cd6869fff858e72654a55474da0e4b318",
+        "current_sha256": "c14cc78d3f5ef486dd0c6433d7402da08f17b99a29875e44f61f1d305b18e896"
+      },
+      {
+        "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/runner_manual_helpers.mjs",
+        "previous_sha256": "10416f11173f5f154a32ca8e3030f2babf0e2df8b9895e174dd9027c1f9a18c3",
+        "current_sha256": "615c99f9dbe8f72f5de1cb115cacf30e768737471c932ec6485f7196c4089ae4"
+      },
+      {
+        "path": "resources/sampler-140626/scripts/plot_precision_recall.py",
+        "previous_sha256": "050c12c9fb28e813ce1f8bd2aacd9d4ea5652132737a48142777436f897714be",
+        "current_sha256": "cb4703d904fe560ef1509b814a77c28f98715055fcc38c702df13022c81b1f35"
+      }
+    ],
+    "data_or_deletion_exceptions_added": 0
+  },
+  "checked": 14593,
+  "unchanged": 14538,
+  "preserved_files_checked": 14480,
+  "failures": [],
+  "changed_implementation": [
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/build_review_index.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 5239,
+        "sha256": "327b7fab4b03ab4b1dbf809896bc000191caa16f81b2db9aa302308048b73408",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 389,
+        "sha256": "f2b3fe48c40b0e3c100ba8427686b722edb981e9f5c6a8d6b802dfc6a886d38a"
+      }
+    },
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/prepare_manual_samples.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 10773,
+        "sha256": "abc1f52563c457f3b6921621c6a2156c88f0c317b228f47bd5c1b1bc6f2cf8d6",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 617,
+        "sha256": "3ad75b7739731f9f9f772347164a805d8a38b91b3d64af48439e4f14903fdd2a"
+      }
+    },
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/report_manual_samples.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 10680,
+        "sha256": "68c6fd5acd914d1c3eb91ac9a819e5456bfa2b15282128b7bd42f4818b813309",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 738,
+        "sha256": "b24078901e9ac00e52b4f1687c9da6e857d5ad791bb0bd8ebda86aaaf7b9a355"
+      }
+    },
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/scripts/summarize_experiments.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 8056,
+        "sha256": "ce44baef8927ade7e3ad328362c0db20606d42f09cb5d227db1f6aa02e09935c",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 451,
+        "sha256": "9bafd3031f1f25cdc72e5f78c312e507a08681dab912891a05bba9a9915acc20"
+      }
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/build_review_index.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 5256,
+        "sha256": "85b8d5268a35d8b484893696e02a2d5cf5726cfaf635f3171a3a77cdcbc7b061",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 389,
+        "sha256": "f2b3fe48c40b0e3c100ba8427686b722edb981e9f5c6a8d6b802dfc6a886d38a"
+      }
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/prepare_manual_samples.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 10592,
+        "sha256": "f04f4d63db13266883f9d8df1eac7f80e3cda4c1dc8293a036dfbc05806e54dc",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 617,
+        "sha256": "3ad75b7739731f9f9f772347164a805d8a38b91b3d64af48439e4f14903fdd2a"
+      }
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/report_manual_samples.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 10680,
+        "sha256": "68c6fd5acd914d1c3eb91ac9a819e5456bfa2b15282128b7bd42f4818b813309",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 738,
+        "sha256": "b24078901e9ac00e52b4f1687c9da6e857d5ad791bb0bd8ebda86aaaf7b9a355"
+      }
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/scripts/summarize_results.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 8706,
+        "sha256": "acd5b98d0ba4a973638154e68388f8968648755e63f8a6507905d36da581957d",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 457,
+        "sha256": "d384549bd7a0edadb29879f2b1e5991d40ce7d0729f51642fc25988bdc35bdc8"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/analysis/evaluation_manual_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2681,
+        "sha256": "4630658e8e89d013d75f5a869db6d00df98e98b94d8eeac52bdb26085bdcb5a1",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 394,
+        "sha256": "32226133e3efbcde9a6c59effdee3be8f6e48d66abfb0a53183a16a4509cb9f8"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/archive250_review_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1842,
+        "sha256": "f0f5f6c40595de564bc2174a33b8b72b43296971c51b2932090043156fd6c16f",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 259,
+        "sha256": "40d4fda18a17007e3ba4280bdcc3aff49677206c70a2358bb014aea633429a02"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/census_lib.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 11116,
+        "sha256": "7634936829f4975207ce1d5c7c5e64a33a95585a61f3927ddb7a118f2ef20d62",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 360,
+        "sha256": "8d2320c83fe1bb1d34d0f8fba24df6d46286d77686969d4596378b4c31b829a3"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/check_semantic_consistency.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2179,
+        "sha256": "2a3c6d90903ede05fd64f2f5f1f8500521095bcc600ab205db7d82b78f9d8731",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 581,
+        "sha256": "b7990a9c572f77b87464d73ae8482c83b9d397bc4ea864398e8565422455d612"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/entity_collision_flags.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1691,
+        "sha256": "8566a7e5b7fa805e9752e0efdd60fc45628c280719e823b7cf9bc0df8111bca5",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 562,
+        "sha256": "da25aebacfdb70d97bf05385f847c584689d35be3d87ad9203bd720e9d087346"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/kernel_manual_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 3573,
+        "sha256": "31060f506a32a0c115e6ee06ca58e3b8d24404d219bdc42031b3b8c043e8f66e",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 442,
+        "sha256": "99ac54358656676da6895a16b1f223f1f3c14590f347939160caa553d1ecdfc5"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/kernel_supplement_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 3585,
+        "sha256": "23775f212d8e2dce6e9a5bf2dfd766dcb25017d73c9f01a4e7c3524d46e5eb32",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 448,
+        "sha256": "b03e0611baacaea23e144ea7084156f82e2f316f464b9274d58dddeb35894972"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/parse_map.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2449,
+        "sha256": "5d5056b8ef6ff4fe9db048380f0b1c00f46fbc928d7f36ed416f8188c83b3c41",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 69,
+        "sha256": "33787c12c6de16574ef9c92c1b73e9f3742efa7616d852be9d4005b102b07147"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/prepare_archive250.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1665,
+        "sha256": "5e42f91cd6ee07a7de5a36041b1f9d06c6f6ac7f377af46e28d1064c99094dec",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 199,
+        "sha256": "f1b5cbff15433beb4735d765688dac7ff5b324f216d55de82e0ef94be3987466"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/prepare_censuses.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1559,
+        "sha256": "446d7d82afdf82461aacb0d0734681793ead037e17fe64f66265a66e39c98dfa",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 436,
+        "sha256": "0a58c5378c43802c68b4535e4c55b5462b47c98b8b2fa55d5848bd00008cf5ac"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/prior_comparisons.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 11320,
+        "sha256": "bb2c5cc796b9c633f837e3a7e8a202ab55cf228d33e604a3dbe89df03b384281",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 228,
+        "sha256": "e8521509da967ca0817ea344203000ff7d684699b30d24d28f641c60f37641a1"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/report_censuses.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 14411,
+        "sha256": "d412ca499aa8860dee255f5f788195e5cb8a08bbd7a9b076cfd7e40a4c1422d1",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 381,
+        "sha256": "b9228fc4e8107bfeed60f6d3e489ab73ee5d51ecf5ece4e31496058006572a81"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/review_batch.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1910,
+        "sha256": "58a16c644f82b8aebdfdc0e0e811836df898277d999919c26613c13f1f72a757",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 496,
+        "sha256": "00450e1389c974abf5af49e3210d33516afe4e4170e2454685cf52d5c156b342"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/review_indexed.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1555,
+        "sha256": "e30785dbc2bf4a1a12931b49f89c586318d34599bd9b8c64f390deff843c159e",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 185,
+        "sha256": "2573381c5f47196dd090b016c643d297d540d8d9868e823effddd8a7462e0564"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/root_manual_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2669,
+        "sha256": "1899c44075d4e38e43bbde2dbe54be674a79a4af38988b35a42c1d60be238240",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 425,
+        "sha256": "fad5cd824a2313ea3406e684940e5550e67a40ed6460779ec1aaa014f4b24757"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/root_print_review.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 846,
+        "sha256": "d74a7b014026c1335f79579d3302d98cd6869fff858e72654a55474da0e4b318",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 399,
+        "sha256": "c14cc78d3f5ef486dd0c6433d7402da08f17b99a29875e44f61f1d305b18e896"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/runner_manual_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2673,
+        "sha256": "10416f11173f5f154a32ca8e3030f2babf0e2df8b9895e174dd9027c1f9a18c3",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 427,
+        "sha256": "615c99f9dbe8f72f5de1cb115cacf30e768737471c932ec6485f7196c4089ae4"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/verify_report_artifacts.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2907,
+        "sha256": "6e0c48a17d310e8298731ebe8f667875d78932f64c0e91d50d1c6b24b1e27609",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 234,
+        "sha256": "5694415428c81e1d981e0a34caef1e1ae69abd1c11437eb5d5869b4cd68d7f43"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/scripts/verify_supplemental_sources.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1272,
+        "sha256": "7b15497239f2b27569caa1bf9bed944da75f0e58e852fdc1b7628af785c45983",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 238,
+        "sha256": "647711ce420a31fdd31425781b6fe4f0de3d3985f5650e8282c6e88123f34bc6"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/inspect_dictionaries.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1562,
+        "sha256": "559ec5c79f8437bf994f58e561184be1415e3d892c2fe2c60dd35651a97f3c20",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 539,
+        "sha256": "cb06c48dc056d3ef5e66cd70f244b058fea78b5271e453ebf844a7d0393b0639"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/runner_grade_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 295,
+        "sha256": "35bb68156410b18d0392f33fd3caa73c8245ceda88b61cbb5c1780ef00150caf",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 336,
+        "sha256": "2ad120743433c7a060c175201b2877a695aab0aee49970b87fbf070a93b395f6"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/runner_read.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1199,
+        "sha256": "13dfa0118d08c0013d662abfbe6745023b7d4aeecae6d4ba985e71ac50c1be23",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 448,
+        "sha256": "74e45d5250d3585ea334fa7f738379834296d38eee1463ad174d35eeb842eed1"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/analysis/runner_scope_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1079,
+        "sha256": "fc0f7cd27817f588401eef67c2eec7474744246fd3aafcfb6f9e7438f91eb030",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 351,
+        "sha256": "f30f8e97178638b2b6518c96f2373966b32da4ad438fa19394bc8a8de04ae929"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/census_lib.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 10061,
+        "sha256": "8d4ea2d29318b93e243fcc910420f11e193cb551a64d12b487093ed2d20051c6",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 301,
+        "sha256": "5031fa0690b219f6c69932495b627cd8c25534f8d5ca785cdc9550a703ebf081"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/check_semantic_consistency.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 6570,
+        "sha256": "128d56a5646ffcb7f585d44f898fa228934f38bb1ec10c0f04c8e6690df6b408",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 639,
+        "sha256": "5723c4e9dd61bffc06e62fc69064aa22459eae58325d79c82140694bdb9d445e"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/coverage_lib.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 9868,
+        "sha256": "cec03a9e63b4847c7075a84055c9ff909e22a348e8a7d6cc2e4fce68a05d7d1d",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 250,
+        "sha256": "64f1403957a897dcc7b731adef8df18a621a6192277181a89ec96aadc95c49e6"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/declare_predicate.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 3513,
+        "sha256": "08feebd454a5c10e9ffe3225811021774ba20746162e738f37ace080141e231c",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 720,
+        "sha256": "c5661efb7556cda8dbed0245ea238eae7035e8ebdc274ef67c5700ecdb562f06"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/evidence_diagnostics.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1542,
+        "sha256": "cc822b0431d04929b4c59a82d368297480bd504523134f444d98b080cc14481d",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 701,
+        "sha256": "3a87ee0829972a0e19812f8db5fc2915fba187126c9df2382543a26b94e00497"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/manual_helpers.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 3412,
+        "sha256": "bf77fd5c830778ca4938080e0ea0a799cdaa669752c17f111ad019eade645ecf",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 496,
+        "sha256": "605d2589949419ff87c1d4addbed388b9b3af656e59ca807c35768aed310832a"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/parse_map.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 2449,
+        "sha256": "5d5056b8ef6ff4fe9db048380f0b1c00f46fbc928d7f36ed416f8188c83b3c41",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 69,
+        "sha256": "33787c12c6de16574ef9c92c1b73e9f3742efa7616d852be9d4005b102b07147"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/prepare_coverage.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 609,
+        "sha256": "f5d2b448b550a35763d6dc6397f54fa1da8e44068022533e80043a88e4490606",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 215,
+        "sha256": "26772b9ae0a8f9480970c5b799d97dd36a22bd33a412cf21acc287153f10f6fe"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/report_censuses.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 22761,
+        "sha256": "9caa0c650f2b0c09d235adc2928309c1e6cca47508d1d4e5b75d79d2fed1fe0c",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 480,
+        "sha256": "57638a96b6e8e06c935ba53233001234be093017004c12adcb749ba82eeb9777"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/review_indexed.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1555,
+        "sha256": "e30785dbc2bf4a1a12931b49f89c586318d34599bd9b8c64f390deff843c159e",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 185,
+        "sha256": "2573381c5f47196dd090b016c643d297d540d8d9868e823effddd8a7462e0564"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/threshold_scores.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 1506,
+        "sha256": "1f4a7a31dbd1b508c96a7f2e023dab92a7df26cfaf17250d6b8f02ff8b27aa56",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 83,
+        "sha256": "ed52a3e7e7cc241f99060ac899fc3112c94feedff922db8d286f916c9a016fb9"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/scripts/verify_generated_views.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 4045,
+        "sha256": "d6bb491459eaea88de83066873a97b21427b9b6f0534e100f34c31fff10c5ba1",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 233,
+        "sha256": "55c6f5b8a6e47ef5f3242dfecc71f3f6e111e76c8fa73a57c75114542c66fcbe"
+      }
+    },
+    {
+      "path": "resources/sampler-140626/scripts/compare_figure1_runs.py",
+      "before": {
+        "kind": "file",
+        "bytes": 6553,
+        "sha256": "394f47d05d8d6ae9eef418b5f20098fc76cfa63af4326fdf14c200f1c43cad86",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 892,
+        "sha256": "584d82dc843d1e787fbc372ba6f1eea93e50b7bc64d4066ed42304e4c0961218"
+      }
+    },
+    {
+      "path": "resources/sampler-140626/scripts/compare_nyt_archives.mjs",
+      "before": {
+        "kind": "file",
+        "bytes": 16733,
+        "sha256": "5c1cca24be53309dbec73489a7a37619de325f101ae466c7e15154fb3464bad0",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 604,
+        "sha256": "42d64d92b4c59da2319f4311149698751946e3bb50e58bf049360a8e056bdebe"
+      }
+    },
+    {
+      "path": "resources/sampler-140626/scripts/figure1_self_pairs.py",
+      "before": {
+        "kind": "file",
+        "bytes": 15196,
+        "sha256": "909841aa6cf9bc0d4278491ba12b39bf8c16ba9487fcb881e1519b61d75c0da3",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 896,
+        "sha256": "5f060f1d0c9a27e5e0f450b99ac90819fc1ab4eba0c352b23adc14d74ab63fe8"
+      }
+    },
+    {
+      "path": "resources/sampler-140626/scripts/plot_precision_recall.py",
+      "before": {
+        "kind": "file",
+        "bytes": 969,
+        "sha256": "050c12c9fb28e813ce1f8bd2aacd9d4ea5652132737a48142777436f897714be",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 347,
+        "sha256": "cb4703d904fe560ef1509b814a77c28f98715055fcc38c702df13022c81b1f35"
+      }
+    },
+    {
+      "path": "resources/sampler-140626/scripts/test_figure1_self_pairs.py",
+      "before": {
+        "kind": "file",
+        "bytes": 10911,
+        "sha256": "01f2c2c97c5544cc61cae3f64b467439510c5d6f1e3e9ba0ce0b363bec6a46e4",
+        "category": "implementation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 333,
+        "sha256": "9bd20566aba2500be001c3f129e64aed1328273c943b090fd680d1f83f9e60c4"
+      }
+    }
+  ],
+  "changed_documentation": [
+    {
+      "path": "experiments/nyt-precision-investigation-2026-09-12/README.md",
+      "before": {
+        "kind": "file",
+        "bytes": 18102,
+        "sha256": "0b7787442f447bd14ad82a3598f940413af7472ae0bcb3bc826cc8a1107ad200",
+        "category": "documentation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 18589,
+        "sha256": "469d4cfc484ae45ab69510bfe72759f625e67c36328db25dec2256989b78b03d"
+      }
+    },
+    {
+      "path": "experiments/nyt-latent-low-smoothing-2026-09-14/README.md",
+      "before": {
+        "kind": "file",
+        "bytes": 11216,
+        "sha256": "52fd2ebdf2b2ec97c7eadc504066544bef63929db34d7bebbcbc8e5cb1d45304",
+        "category": "documentation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 11703,
+        "sha256": "74d37261d7ad4fb352874782207ae3802af9b27f8ae2e30629656c91f8d01771"
+      }
+    },
+    {
+      "path": "experiments/nyt-complete-evaluation-2026-09-14/README.md",
+      "before": {
+        "kind": "file",
+        "bytes": 8931,
+        "sha256": "f06863f5c08209a6137815b2cf311cce81da489a1e19c7c51187bb095d046dbc",
+        "category": "documentation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 9414,
+        "sha256": "9040afc4b229b00f9d497757441d71945a4e98a871d92c7b4d9a50ed3a75c7fc"
+      }
+    },
+    {
+      "path": "experiments/nyt-beta-0p001-coverage-2026-09-14/README.md",
+      "before": {
+        "kind": "file",
+        "bytes": 9629,
+        "sha256": "6126a418637b3dc88f5993fdd690e910266ab1c695ebf512ae97945748da919b",
+        "category": "documentation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 10115,
+        "sha256": "e204be263ff30be1ae994a342ab5bde72d1ae3a6363ceda9ac676383b373ec56"
+      }
+    },
+    {
+      "path": "HANDOFF.md",
+      "before": {
+        "kind": "file",
+        "bytes": 29926,
+        "sha256": "7f84f698b3f63437486e0fc2b63f68608b7a6a19f15ed86430d9dc6308b051f4",
+        "category": "documentation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 31107,
+        "sha256": "bab9b25c97da44bcb3a57f6fecdfabc0e1cd93a86f268ab341cb7ac5f4ed9682"
+      }
+    },
+    {
+      "path": "reports/experiment-summaries-2026-09-28/README.md",
+      "before": {
+        "kind": "file",
+        "bytes": 27412,
+        "sha256": "b7af6da38fffbc2578387fba76d660a501b5c117cce37bb34ee7a5cc5c8d4264",
+        "category": "documentation"
+      },
+      "after": {
+        "kind": "file",
+        "bytes": 27678,
+        "sha256": "d601f080154ff67c7982877c374aa37d536fa7f6534b1b71fbebfd609a7daaef"
+      }
+    }
+  ],
+  "note": "Implementation and campaign documentation changes are listed for review, not silently declared identical. Raw outputs, annotations, predicate declarations/catalogues, cases, source records, saved scores/reports/plots, frozen sampled protocols, historical manifests, and both unapproved legacy integrity scripts must remain byte-identical. The maintenance ledger may add only exact non-deletion source/documentation transitions checked against its original snapshot."
+}

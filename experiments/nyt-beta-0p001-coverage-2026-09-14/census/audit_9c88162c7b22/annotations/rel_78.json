@@ -1,0 +1,116 @@
+{
+  "relation": "rel_78",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_78__ent_843__ent_422",
+      "judgment": "incorrect",
+      "reason": "New York → Hill: New York and Hill appear in senator/office/lawyer attachments, with no destination movement.",
+      "evidence_lines": [
+        4181,
+        4183,
+        4184,
+        4185,
+        4186,
+        4187
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.354Z"
+      }
+    },
+    {
+      "case_id": "rel_78__ent_692__ent_211",
+      "judgment": "supported",
+      "reason": "Aristide → Haiti: Direct return-to or emigration-to evidence establishes movement to the country.",
+      "evidence_lines": [
+        5258,
+        5259,
+        5260,
+        5262,
+        5263,
+        5265
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.354Z"
+      }
+    },
+    {
+      "case_id": "rel_78__ent_820__ent_451",
+      "judgment": "ambiguous",
+      "reason": "Israel → Egypt: Return-to is mixed with capture and occupation of territory; an omitted territorial object may be returned rather than Israel traveling.",
+      "evidence_lines": [
+        5186,
+        5187,
+        5189,
+        5194
+      ],
+      "issue_tags": [
+        "movement_object_attachment"
+      ],
+      "reviewer_question": "Is Israel returning territory to Egypt, or does this assert actual movement of Israeli people to Egypt?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.354Z"
+      }
+    },
+    {
+      "case_id": "rel_78__ent_537__ent_820",
+      "judgment": "incorrect",
+      "reason": "United States → Israel: Support for Israel does not state destination movement.",
+      "evidence_lines": [
+        2087,
+        4213,
+        7910
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.354Z"
+      }
+    },
+    {
+      "case_id": "rel_78__ent_80__ent_820",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: Direct return-to or emigration-to evidence establishes movement to the country.",
+      "evidence_lines": [
+        3484,
+        4785
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.354Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1504ed7fb28d2345260350971bdd8bf9a75f4719b660bdc46320ec7c125667d1"
+}

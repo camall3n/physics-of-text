@@ -1,0 +1,44 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_394",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_394__ent_852__ent_613"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The economist title is explicit, but Bear leaves the employer materially truncated, matching the prior full-census boundary.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Which fully named employer does Bear denote?"
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_394__ent_647__ent_429",
+        "rel_394__ent_321__ent_836",
+        "rel_394__ent_308__ent_356"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sports movement, event participation or playing without a teammate does not establish economist service.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "510b9bd101960e44433831b69c71b21b78883524a005431623e24df67de3d96c"
+}

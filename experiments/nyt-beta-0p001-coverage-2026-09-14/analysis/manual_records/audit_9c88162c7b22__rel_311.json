@@ -1,0 +1,70 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_311",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_311__ent_1192__ent_1193"
+      ],
+      "judgment": "incorrect",
+      "reason": "DVD designates a medium or collection format, not the producing artist or institution required as Y.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_311__ent_660__ent_623",
+        "rel_311__ent_308__ent_356"
+      ],
+      "judgment": "incorrect",
+      "reason": "City-office containment or team-player context is unrelated to reviewing artistic output.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_311__ent_1188__ent_802"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Reviewing a musical at Shakespeare Theater does not distinguish venue from the creator/producing institution.",
+      "tags": [
+        "venue_versus_producer"
+      ],
+      "question": "Was the reviewed musical produced by Shakespeare Theater or only performed at its venue?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_311__ent_1194__ent_1195"
+      ],
+      "judgment": "supported",
+      "reason": "Direct review of Ringling Brothers and its edition identifies review of the circus organization's artistic output.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "80be85503e29848d956b8a928bfb415cc8fb06d2865c01fd6a59e199a8ab3271"
+}

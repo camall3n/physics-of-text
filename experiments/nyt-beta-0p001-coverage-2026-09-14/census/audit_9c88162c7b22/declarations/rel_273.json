@@ -1,0 +1,46 @@
+{
+  "relation": "rel_273",
+  "predicate_id": "commented_on",
+  "predicate_version": 1,
+  "predicate_hash": "4d090b1d51e8c5570e4413df020723bbb2a904417d4aac301f11f201d9212e4f",
+  "predicate": {
+    "id": "commented_on",
+    "label": "commented on",
+    "definition": "Entity X made an explicit statement or comment about entity Y.",
+    "includes": [
+      "say-of, comment-on, or a statement explicitly referring to Y",
+      "explicit praise, criticism, or accusation about Y",
+      "historical attributed statements"
+    ],
+    "excludes": [
+      "speaking to Y without establishing that Y is the subject",
+      "ordinary interaction or comparison without a statement by X",
+      "a statement about someone else related to Y"
+    ],
+    "ambiguous": [
+      "unclear speaker or subject attachment",
+      "a quotation or reference without an identifiable statement about Y"
+    ],
+    "notes": "The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+    "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment."
+  },
+  "dictionary_sha256": "f18492433f2ab6808137998a3085593653753b679b9326b7d1c6044ffdf47b8c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Comment/words/view/talk-about is the largest identifiable topic family amid business units and political/managerial activity. Opposition or a view must actually concern Y, not merely coexist.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:09.740Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    3,
+    4,
+    6,
+    7,
+    12
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_273.before_grading.json",
+  "pregrading_annotation_sha256": "ee414703a210d599f6174699a0af18ec43a2427e460abc6ffec691ea8fe4595c"
+}

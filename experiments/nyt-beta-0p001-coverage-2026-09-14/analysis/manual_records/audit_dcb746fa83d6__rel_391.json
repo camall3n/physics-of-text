@@ -1,0 +1,62 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_391",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_391__ent_368__ent_129",
+        "rel_391__ent_1137__ent_1212"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit director or historical chairman title establishes managerial office within the named institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_391__ent_1045__ent_1359"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bare leading or doing something for a sporting team does not distinguish athletic leadership from managerial office.",
+      "tags": [
+        "role_boundary"
+      ],
+      "question": "Does Jordan lead the Bulls as an athlete or hold the managerial office required by this predicate?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_391__ent_758__ent_1294"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The deputy-and-name attachment with a United States attorney role does not identify a clear managerial office or its holder.",
+      "tags": [
+        "attachment",
+        "omitted_role"
+      ],
+      "question": "What exact deputy office is named, who holds it, and does it entail managerial responsibility rather than legal service alone?"
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [
+    0
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "01a292ae3f42dedaa8fa88e886fbba224c80f32db22b9796ddcc9632628424f8"
+}

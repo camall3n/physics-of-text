@@ -1,0 +1,90 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_17",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_17__ent_316__ent_1002",
+        "rel_17__ent_827__ent_586",
+        "rel_17__ent_182__ent_1002",
+        "rel_17__ent_884__ent_83",
+        "rel_17__ent_647__ent_323",
+        "rel_17__ent_189__ent_1002",
+        "rel_17__ent_1004__ent_843"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit return-to, move-to, travel-to or bring-to supplies destination movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_17__ent_1123__ent_427"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Broadway may designate theater work rather than physical destination travel; return and bring paths do not resolve that metonymy.",
+      "tags": [
+        "theatrical_metonymy"
+      ],
+      "question": "Do these rows describe Jonathan Pryce physically traveling to Broadway or returning to theatrical performance?"
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_17__ent_813__ent_818"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The apparent return-to is accompanied by returning territory and a hand-over, so the moving entity may be omitted territory rather than Britain.",
+      "tags": [
+        "movement_object_attachment"
+      ],
+      "question": "Is Britain itself returning, or is Britain returning territory to China?"
+    },
+    {
+      "indices": [
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_17__ent_669__ent_492",
+        "rel_17__ent_1004__ent_572"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied movement is leaving or moving from the place, opposite the declared destination direction.",
+      "tags": [
+        "wrong_direction"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "cc699e5bb6673db9d40d291b254ef8a6972d3364eb8147507e3ec84da5430ed3"
+}

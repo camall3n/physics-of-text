@@ -1,0 +1,71 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_226",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_226__ent_752__ent_510",
+        "rel_226__ent_309__ent_836",
+        "rel_226__ent_993__ent_509",
+        "rel_226__ent_817__ent_836"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit champion/win/title-defense row establishes a present or historical sporting title.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_226__ent_994__ent_737"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Title-holding evidence merges Lennox Lewis and Oscar De La Hoya into one inferred boxer.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which boxer should this championship fact identify?"
+    },
+    {
+      "indices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_226__ent_251__ent_1329",
+        "rel_226__ent_819__ent_1046",
+        "rel_226__ent_819__ent_612",
+        "rel_226__ent_130__ent_1063"
+      ],
+      "judgment": "incorrect",
+      "reason": "Political election/control and presidency succession are outside the sporting championship predicate.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1,
+    2,
+    3
+  ],
+  "broad": [
+    0,
+    3
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "57c501b999e603b06440a3d7a1b700e866bb5c9215f4406d250e49d2d601e5d8"
+}

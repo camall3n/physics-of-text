@@ -1,0 +1,53 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_22",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_22__ent_720__ent_962",
+        "rel_22__ent_157__ent_399",
+        "rel_22__ent_854__ent_615",
+        "rel_22__ent_524__ent_766",
+        "rel_22__ent_773__ent_523",
+        "rel_22__ent_553__ent_795"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit economist title attached to the named employer or institution establishes the declared affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_22__ent_541__ent_783"
+      ],
+      "judgment": "incorrect",
+      "reason": "Only analyst/producer role evidence is supplied; it does not establish an economist role.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "71840bc406229e90d528198fc6014dd7e4c1fa211fa40c63aa16f8ef1b9e4463"
+}

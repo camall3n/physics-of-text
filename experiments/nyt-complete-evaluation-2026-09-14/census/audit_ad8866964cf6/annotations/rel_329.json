@@ -1,0 +1,967 @@
+{
+  "relation": "rel_329",
+  "predicate_id": "owns",
+  "label": "owns organization or asset",
+  "definition": "Person or organization X owns or owned some or all of organization, business, team or property Y.",
+  "scope_notes": "Includes: owner/co-owner/owns; explicit ownership interest or stated share; corporate parent; completed acquisition with ownership attachment; historical ownership. Excludes: management or leadership alone; publishing or distribution alone; mere collaboration; proposed or rejected acquisition. Ambiguous unless resolved by case-local evidence: merger without clear ownership direction; a possessive alone. This states ownership interest, not necessarily complete ownership or control. An explicit partial stake qualifies here but not automatically as subsidiary_of in reverse.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_329.json",
+    "source_sha256": "bf1325802932faa734bfd2d037f36175656eb7063320fd6e6915255162afc995",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_329__ent_217__ent_554",
+      "judgment": "supported",
+      "reason": "Viacom → CBS: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5940,
+        5941,
+        5942,
+        5943,
+        5944,
+        5945,
+        5946,
+        5947,
+        5948,
+        5949
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.243Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_393__ent_625",
+      "judgment": "supported",
+      "reason": "News Corporation → Fox: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5950,
+        5951,
+        5952,
+        5953,
+        5954,
+        5955,
+        5956,
+        5957,
+        5958,
+        5959
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_459__ent_1154",
+      "judgment": "supported",
+      "reason": "Texas Air Corporation → Eastern: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5970,
+        5971,
+        5972,
+        5973,
+        5974,
+        5975,
+        5976,
+        5977,
+        5978,
+        5979
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_329.json",
+        "annotation_sha256": "bf1325802932faa734bfd2d037f36175656eb7063320fd6e6915255162afc995"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1165__ent_227",
+      "judgment": "incorrect",
+      "reason": "Snug Harbor → Richmond Terrace: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        6194,
+        6195,
+        6196,
+        6198,
+        6199,
+        6201,
+        6202,
+        6203
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_999__ent_518",
+      "judgment": "incorrect",
+      "reason": "Blake → Yonkers: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8410,
+        8411,
+        8412,
+        8413,
+        8414,
+        8415,
+        8416,
+        8417
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_314__ent_323",
+      "judgment": "incorrect",
+      "reason": "Mr. Schwartz → Brooklyn: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_352__ent_594",
+      "judgment": "supported",
+      "reason": "Peter S. Kalikow → The New York Post: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1485,
+        1486,
+        1488,
+        1489,
+        1490,
+        1492,
+        1493
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_329.json",
+        "annotation_sha256": "bf1325802932faa734bfd2d037f36175656eb7063320fd6e6915255162afc995"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1153__ent_1144",
+      "judgment": "supported",
+      "reason": "Cablevision → Madison Square Garden: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5920,
+        5922,
+        5923,
+        5924,
+        5927,
+        5928,
+        5929
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1153__ent_458",
+      "judgment": "supported",
+      "reason": "Cablevision → Garden: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5990,
+        5991,
+        5992,
+        5995,
+        5997,
+        5998,
+        5999
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_386__ent_147",
+      "judgment": "incorrect",
+      "reason": "Lee E. Koppelman → Long Island Regional Planning Board: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        161,
+        162,
+        164,
+        165,
+        166,
+        167
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1168__ent_1169",
+      "judgment": "incorrect",
+      "reason": "Christie → Park Avenue: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        6224,
+        6225,
+        6226,
+        6228,
+        6230,
+        6232
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_481__ent_242",
+      "judgment": "incorrect",
+      "reason": "Sotheby → York Avenue: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        6244,
+        6245,
+        6246,
+        6247,
+        6249,
+        6250
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_329.json",
+        "annotation_sha256": "bf1325802932faa734bfd2d037f36175656eb7063320fd6e6915255162afc995"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_300__ent_843",
+      "judgment": "ambiguous",
+      "reason": "Kohlberg → New York: An acquire/own fragment points to a literal city argument amid firm/location and biographical fragments; the actual acquired business, team or property is unresolved.",
+      "evidence_lines": [
+        7351,
+        7352,
+        7355,
+        7356,
+        7357,
+        7358
+      ],
+      "issue_tags": [
+        "attachment",
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "What business, team or asset does New York/Dallas denote in the ownership fragment?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_515__ent_96",
+      "judgment": "incorrect",
+      "reason": "Mr. Rushdie → India: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8391,
+        8392,
+        8393,
+        8394,
+        8395,
+        8397
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_101__ent_881",
+      "judgment": "supported",
+      "reason": "Walt Disney Company → ABC: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5930,
+        5931,
+        5937,
+        5938,
+        5939
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1167__ent_229",
+      "judgment": "incorrect",
+      "reason": "Film Forum → West Houston Street: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        6214,
+        6215,
+        6218,
+        6219,
+        6220
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_909__ent_908",
+      "judgment": "incorrect",
+      "reason": "Mr. Sheng → Shanghai: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8422,
+        8423,
+        8424,
+        8425,
+        8426
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_903__ent_902",
+      "judgment": "incorrect",
+      "reason": "Mrs. Bobbitt → Ecuador: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8428,
+        8429,
+        8430,
+        8431,
+        8432
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_562__ent_323",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Brooklyn: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        961,
+        964,
+        969,
+        970
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_556__ent_798",
+      "judgment": "incorrect",
+      "reason": "Mr. Lee → Taiwan: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        981,
+        982,
+        983,
+        990
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_558__ent_1011",
+      "judgment": "incorrect",
+      "reason": "Mr. Ghosn → Brazil: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        1005,
+        1007,
+        1008,
+        1009
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1034__ent_1035",
+      "judgment": "supported",
+      "reason": "Danny Meyer → Union Square Cafe: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        1435,
+        1436,
+        1442,
+        1443
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_329.json",
+        "annotation_sha256": "bf1325802932faa734bfd2d037f36175656eb7063320fd6e6915255162afc995"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_403__ent_333",
+      "judgment": "incorrect",
+      "reason": "Richard → Manhattan: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        3979,
+        3980,
+        3983,
+        3984
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_689__ent_1144",
+      "judgment": "supported",
+      "reason": "James L. Dolan → Madison Square Garden: The case explicitly states ownership, co-ownership, or corporate parenthood; historical and partial holdings qualify.",
+      "evidence_lines": [
+        5719,
+        5720,
+        5721,
+        5723
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_469__ent_1166",
+      "judgment": "incorrect",
+      "reason": "Newark Museum → Washington Street: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        6204,
+        6206,
+        6208,
+        6211
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1080__ent_936",
+      "judgment": "incorrect",
+      "reason": "DoubleClick → Internet: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        6855,
+        6857,
+        6859,
+        6860
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_539__ent_713",
+      "judgment": "ambiguous",
+      "reason": "Hicks → Dallas: An acquire/own fragment points to a literal city argument amid firm/location and biographical fragments; the actual acquired business, team or property is unresolved.",
+      "evidence_lines": [
+        7411,
+        7418,
+        7419,
+        7420
+      ],
+      "issue_tags": [
+        "attachment",
+        "place_metonymy",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "What business, team or asset does New York/Dallas denote in the ownership fragment?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1002__ent_536",
+      "judgment": "incorrect",
+      "reason": "Washington → State Department: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        7437,
+        7443,
+        7444,
+        7445
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1002__ent_183",
+      "judgment": "incorrect",
+      "reason": "Washington → Administration: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        7486,
+        7487,
+        7492,
+        7493
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_515__ent_757",
+      "judgment": "incorrect",
+      "reason": "Mr. Rushdie → Bombay: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8401,
+        8403,
+        8405,
+        8409
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_797__ent_1010",
+      "judgment": "incorrect",
+      "reason": "Mr. Hamdi → Louisiana: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        992,
+        993,
+        994
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_61__ent_259",
+      "judgment": "incorrect",
+      "reason": "Reggie Miller → Indiana: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        3158,
+        3159,
+        3163
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_182__ent_1127",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Laura: Location/address, work, industry, political, sporting or family evidence does not establish ownership of the second argument.",
+      "evidence_lines": [
+        4575,
+        4578,
+        4579
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_565__ent_322",
+      "judgment": "incorrect",
+      "reason": "Corliss Lamont → Englewood: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        971
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_1018__ent_1019",
+      "judgment": "incorrect",
+      "reason": "Ms. Dryer → Toronto: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        973
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_313__ent_555",
+      "judgment": "incorrect",
+      "reason": "Mr. Keene → Berkeley: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        991
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+        "source": "prior_annotations/rel_329.json",
+        "annotation_sha256": "bf1325802932faa734bfd2d037f36175656eb7063320fd6e6915255162afc995"
+      },
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_366__ent_1052",
+      "judgment": "incorrect",
+      "reason": "Thomas P. Robinson → George Washington University Hospital: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        1773
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_116__ent_358",
+      "judgment": "incorrect",
+      "reason": "Sanford C. Miller → Valley Hospital: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        1774
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_521__ent_763",
+      "judgment": "incorrect",
+      "reason": "David Roberts → Dartford: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8203
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_517__ent_759",
+      "judgment": "incorrect",
+      "reason": "Yu Cho → Korea: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8418
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_905__ent_1010",
+      "judgment": "incorrect",
+      "reason": "Yaser Esam Hamdi → Louisiana: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8419
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_904__ent_907",
+      "judgment": "incorrect",
+      "reason": "Ms. Shim → Seoul: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8420
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    },
+    {
+      "case_id": "rel_329__ent_906__ent_835",
+      "judgment": "incorrect",
+      "reason": "Ms. Leach → England: Birth, biography or death-place evidence does not assert ownership.",
+      "evidence_lines": [
+        8421
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:00:22.244Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "audit": "audit_9f5868d8ee0e",
+  "relation": "rel_45",
+  "cases_sha256": "5048d901aa518c2085dc040ff0c8decbe5045c925902848b6cc3c1521e57e04d",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        5,
+        6,
+        7,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        26,
+        28,
+        30,
+        31
+      ],
+      "case_ids": [
+        "rel_45__ent_826__ent_825",
+        "rel_45__ent_643__ent_333",
+        "rel_45__ent_646__ent_333",
+        "rel_45__ent_403__ent_333",
+        "rel_45__ent_645__ent_333",
+        "rel_45__ent_1161__ent_5",
+        "rel_45__ent_1122__ent_537",
+        "rel_45__ent_823__ent_537",
+        "rel_45__ent_826__ent_1102",
+        "rel_45__ent_476__ent_818",
+        "rel_45__ent_467__ent_234",
+        "rel_45__ent_838__ent_831",
+        "rel_45__ent_834__ent_837",
+        "rel_45__ent_1101__ent_1198",
+        "rel_45__ent_428__ent_537",
+        "rel_45__ent_1160__ent_429",
+        "rel_45__ent_988__ent_507",
+        "rel_45__ent_840__ent_839",
+        "rel_45__ent_830__ent_824",
+        "rel_45__ent_833__ent_832"
+      ],
+      "judgment": "supported",
+      "reason": "A case-local live-in or own-home row directly establishes residence; other travel, work or obituary fragments do not erase that support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4,
+        8,
+        9,
+        12,
+        27
+      ],
+      "case_ids": [
+        "rel_45__ent_885__ent_333",
+        "rel_45__ent_404__ent_333",
+        "rel_45__ent_887__ent_333",
+        "rel_45__ent_406__ent_333",
+        "rel_45__ent_1100__ent_333",
+        "rel_45__ent_888__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The obituary family/of-city attachment does not clearly establish residence of this named argument; some additional church, restaurant or relative fragments also leave identity or attachment unresolved.",
+      "tags": [
+        "attachment",
+        "entity_identity"
+      ],
+      "question": "Does the city-of-family phrase describe this person’s residence, or a relative, institution or other referent?"
+    },
+    {
+      "indices": [
+        1,
+        11,
+        18,
+        22,
+        25,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "case_ids": [
+        "rel_45__ent_815__ent_271",
+        "rel_45__ent_1101__ent_748",
+        "rel_45__ent_747__ent_824",
+        "rel_45__ent_669__ent_492",
+        "rel_45__ent_752__ent_510",
+        "rel_45__ent_1051__ent_124",
+        "rel_45__ent_78__ent_75",
+        "rel_45__ent_269__ent_284",
+        "rel_45__ent_749__ent_506",
+        "rel_45__ent_761__ent_760",
+        "rel_45__ent_521__ent_763"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied rows concern membership, an event, competition, death or temporary presence without a residence statement.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    23,
+    24,
+    26,
+    27,
+    28
+  ],
+  "broad": []
+}

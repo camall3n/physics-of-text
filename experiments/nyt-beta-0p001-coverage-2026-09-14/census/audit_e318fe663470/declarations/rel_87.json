@@ -1,0 +1,38 @@
+{
+  "relation": "rel_87",
+  "predicate_id": "writes_for",
+  "predicate_version": 1,
+  "predicate_hash": "dac73a42ffabc83a04c8bf0c99cbc084e523fc5cd3a13ea61a1426b5a95f5bbb",
+  "predicate": {
+    "id": "writes_for",
+    "label": "contributed writing to publication",
+    "definition": "Person X wrote, reviewed or contributed as a critic for publication Y.",
+    "includes": [
+      "wrote/reviewed for or in a publication",
+      "explicit critic for publication with authorship role"
+    ],
+    "excludes": [
+      "merely quoted or mentioned in publication",
+      "publication location",
+      "ordinary communication or employment without authorship"
+    ],
+    "ambiguous": [
+      "say-in without author/quoted-speaker distinction"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: wrote/reviewed for or in a publication; explicit critic for publication with authorship role. Excludes: merely quoted or mentioned in publication; publication location; ordinary communication or employment without authorship. Ambiguous unless resolved by case-local evidence: say-in without author/quoted-speaker distinction."
+  },
+  "dictionary_sha256": "5ce629bcb35f0eef17ff34b7a79bd949e1c5ef4d120c75e26a6c0f9d7ef66ce6",
+  "kind": "declared_before_case_grading",
+  "rationale": "Write-in, critic-of/for and review-for form a coherent publication-contributor family. Say-in alone does not establish authorship.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:28.042Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_87.before_grading.json",
+  "pregrading_annotation_sha256": "8bb55c2c8564685ae970ecd9dadbed0821b8615b5f8fd473dcc3408f4ffa9840"
+}

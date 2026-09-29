@@ -1,0 +1,37 @@
+{
+  "relation": "rel_290",
+  "predicate_id": "managerial_office_in",
+  "predicate_version": 1,
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate": {
+    "id": "managerial_office_in",
+    "label": "managerial or leadership office in",
+    "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+    "includes": [
+      "head/president/chair/director/chief/commander/executive/manager",
+      "equivalent explicit management such as dean or commissioner",
+      "a functional or departmental leadership office within Y",
+      "historical office"
+    ],
+    "excludes": [
+      "founder or owner alone",
+      "ordinary employment/membership",
+      "spokesperson/adviser/lawyer/analyst/editor alone",
+      "athletic or standings lead",
+      "candidacy or nomination alone"
+    ],
+    "ambiguous": [
+      "personal principal standing for an omitted campaign or institution",
+      "unclear leadership attachment"
+    ],
+    "notes": "This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+    "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone."
+  },
+  "dictionary_sha256": "40df50e828588aad607646bb24a43b024ae20bf92c3eb3a231722434e6597290",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "prior_annotation_sha256": "efb713916937615ef7efd91a211f3be8239ae606684f31cdad237b7ec529848d",
+  "prior_assessment_sha256": "b088e143c53484e3b55ac64e6da86930a2a6426dafdf6aa9e5531ae2d5a24441"
+}

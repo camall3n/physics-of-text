@@ -1,0 +1,186 @@
+{
+  "relation": "rel_113",
+  "predicate_id": "defeated",
+  "label": "defeated opponent",
+  "definition": "Competitor X defeated opponent Y in at least one completed competitive contest.",
+  "scope_notes": "Includes: beat/defeat/trounce/rout/upset/victory over; completed sporting sweep/outlast/elimination; explicit electoral defeat of an opposing competitor; historical win despite losses in other games. Excludes: mere play/face/rivalry; standings or polling lead; losing to Y; winning an event rather than beating Y; political control or hostility alone. Ambiguous unless resolved by case-local evidence: bare outscore/surpass/shock without a completed-contest result; score margin for only one period; unclear geographic/team metonymy. Preserves the two full-census opponent-win scope, including electoral contests. Broader competed-against belongs only in a separately declared sensitivity where the prior primary was defeat.",
+  "facts": [
+    {
+      "case_id": "rel_113__ent_1283__ent_642",
+      "judgment": "ambiguous",
+      "reason": "Jets → Dolphins: The explicit loss is in the opposite outcome direction; holding and handing the opponent omit the result and cannot independently establish a later win.",
+      "evidence_lines": [
+        2637,
+        2638,
+        2639
+      ],
+      "issue_tags": [
+        "omitted_outcome"
+      ],
+      "reviewer_question": "Does the full hold or hand sentence establish a completed Jets victory over the Dolphins, or only a limited score or opposite result?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_654__ent_560",
+      "judgment": "supported",
+      "reason": "Giants → Redskins: Direct defeat of the named opposing team establishes a completed victory.",
+      "evidence_lines": [
+        895,
+        896
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.733Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_1029__ent_896",
+      "judgment": "supported",
+      "reason": "Knicks → Nets: Direct defeat of the named opposing team establishes a completed victory.",
+      "evidence_lines": [
+        2614,
+        2616
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.733Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_400__ent_884",
+      "judgment": "supported",
+      "reason": "Jets → Raiders: Direct defeat of the named opposing team establishes a completed victory.",
+      "evidence_lines": [
+        2645,
+        2648
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_816__ent_1415",
+      "judgment": "incorrect",
+      "reason": "Republicans → White House: Political control, an explicit loss, a team hero, an ultimatum or a corporate comparison does not establish the subject defeating the object.",
+      "evidence_lines": [
+        2775,
+        2779
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_938__ent_1403",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: Political control, an explicit loss, a team hero, an ultimatum or a corporate comparison does not establish the subject defeating the object.",
+      "evidence_lines": [
+        876
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_309__ent_259",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: Direct defeat of the named opposing team establishes a completed victory.",
+      "evidence_lines": [
+        2668
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_1438__ent_1363",
+      "judgment": "incorrect",
+      "reason": "MacLean → Devils: Political control, an explicit loss, a team hero, an ultimatum or a corporate comparison does not establish the subject defeating the object.",
+      "evidence_lines": [
+        4257
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_1387__ent_772",
+      "judgment": "incorrect",
+      "reason": "Bush → Saddam Hussein: Political control, an explicit loss, a team hero, an ultimatum or a corporate comparison does not establish the subject defeating the object.",
+      "evidence_lines": [
+        4269
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    },
+    {
+      "case_id": "rel_113__ent_652__ent_1369",
+      "judgment": "incorrect",
+      "reason": "BellSouth Corporation → Bell: Political control, an explicit loss, a team hero, an ultimatum or a corporate comparison does not establish the subject defeating the object.",
+      "evidence_lines": [
+        6876
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:27.734Z"
+      }
+    }
+  ],
+  "predicate_hash": "1fdbeed33d00522326150311dffb476191f9785c2bfda21e6d681e040e197cef",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6ccd69f0bcf3c95172eca3cb22ab7754b0109098a62c6c1cf5e29f3f30f53b67"
+}

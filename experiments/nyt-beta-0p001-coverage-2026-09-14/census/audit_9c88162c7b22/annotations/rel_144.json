@@ -1,0 +1,71 @@
+{
+  "relation": "rel_144",
+  "predicate_id": "fought_war_against",
+  "label": "fought military conflict against",
+  "definition": "Political entity or military group X fought an armed conflict or war against Y.",
+  "scope_notes": "Includes: explicit war-with or fought-against in an armed-conflict context; actual military attack or combat against Y; historical military adversaries. Excludes: sports competition or metaphorical political attack; cooperation, alliance, or joint action on the same side; border adjacency or diplomatic relations alone; planned conflict without realization. Ambiguous unless resolved by case-local evidence: fight-with whose allied versus adversarial sense is unresolved; generic attack without military context; future threat or proposed war. Military adversarial conflict is distinct from cooperation and from criticizing. The predicate does not imply a winner.",
+  "facts": [
+    {
+      "case_id": "rel_144__ent_354__ent_596",
+      "judgment": "incorrect",
+      "reason": "Torre → Rivera: These are sports coaching/player deployment and team-player paths, not armed conflict between military adversaries.",
+      "evidence_lines": [
+        1516,
+        1518,
+        1519,
+        1520,
+        1523
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.056Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_308__ent_64",
+      "judgment": "incorrect",
+      "reason": "Knicks → Patrick Ewing: These are sports coaching/player deployment and team-player paths, not armed conflict between military adversaries.",
+      "evidence_lines": [
+        4937,
+        4938,
+        4941,
+        4944,
+        4945
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.056Z"
+      }
+    },
+    {
+      "case_id": "rel_144__ent_492__ent_648",
+      "judgment": "ambiguous",
+      "reason": "Iraq → Kuwait: The sanctions-imposed-on-Iraq after invasion-of-Kuwait path establishes an invasion context but omits the invasion’s actor; the ordered military adversary role is not explicit.",
+      "evidence_lines": [
+        4033,
+        6425
+      ],
+      "issue_tags": [
+        "omitted_agent"
+      ],
+      "reviewer_question": "Do these rows identify Iraq as the invader of Kuwait, rather than merely the target of measures imposed after the invasion?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.056Z"
+      }
+    }
+  ],
+  "predicate_hash": "76bdc9f8ae86994cbf90cb3318f18694bf8ac2363510c03867f0890ef0eeedb7",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "b339ac9ea55028ef580537d297fb62ba519d62df19476aafbc86d78705f09ee1"
+}

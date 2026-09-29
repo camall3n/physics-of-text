@@ -1,0 +1,187 @@
+{
+  "relation": "rel_352",
+  "predicate_id": "commented_on",
+  "label": "commented on",
+  "definition": "Entity X made an explicit statement or comment about entity Y.",
+  "scope_notes": "Includes: say-of, comment-on, or a statement explicitly referring to Y; explicit praise, criticism, or accusation about Y; historical attributed statements. Excludes: speaking to Y without establishing that Y is the subject; ordinary interaction or comparison without a statement by X; a statement about someone else related to Y. Ambiguous unless resolved by case-local evidence: unclear speaker or subject attachment; a quotation or reference without an identifiable statement about Y. The argument Y is the topic, not necessarily the addressee. This is distinct from communicates_to; do not infer an evaluation or sentiment merely from comment.",
+  "facts": [
+    {
+      "case_id": "rel_352__ent_111__ent_1040",
+      "judgment": "supported",
+      "reason": "Riley → Anthony: An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "evidence_lines": [
+        1575,
+        1579,
+        1580,
+        1583,
+        1584
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.362Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_182__ent_1343",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Mr. Kerry: An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "evidence_lines": [
+        1585,
+        1586,
+        1590,
+        1593,
+        1594
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_182__ent_355",
+      "judgment": "ambiguous",
+      "reason": "Mr. Bush → Mr. Hussein; Mr. Bush → Mr. Gorbachev: Statements about Gorbachev and Hussein are merged into one incompatible inferred target.",
+      "evidence_lines": [
+        491,
+        1595,
+        1600,
+        1601
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named target should the inferred entity represent?",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_182__ent_316",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Mr. Gore: An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "evidence_lines": [
+        3084,
+        3085,
+        3087,
+        3091
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1300__ent_114",
+      "judgment": "supported",
+      "reason": "Riley → Starks: An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "evidence_lines": [
+        1545,
+        1547,
+        1551
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_765__ent_595",
+      "judgment": "supported",
+      "reason": "Torre → Williams: An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "evidence_lines": [
+        1535,
+        1541
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_1029__ent_1246",
+      "judgment": "incorrect",
+      "reason": "Knicks → Bulls: Omitted-object giving, information removal or membership does not establish a statement about this entity.",
+      "evidence_lines": [
+        6045,
+        6050
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_494__ent_165",
+      "judgment": "incorrect",
+      "reason": "Ruth W. Messinger → Manhattan: Omitted-object giving, information removal or membership does not establish a statement about this entity.",
+      "evidence_lines": [
+        2819
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    },
+    {
+      "case_id": "rel_352__ent_732__ent_816",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → Republicans: An explicit say-of or statement referring-to row identifies the second argument as the topic of a statement by the first.",
+      "evidence_lines": [
+        5546
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "evaluation",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:02.363Z"
+      }
+    }
+  ],
+  "predicate_hash": "4d090b1d51e8c5570e4413df020723bbb2a904417d4aac301f11f201d9212e4f",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "42c2d20e55b87d5270ae849e89fbb0a1ad5fa7af8f3f1844fb290f0f881c4d4a"
+}

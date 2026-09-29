@@ -1,0 +1,78 @@
+{
+  "relation": "rel_52",
+  "label": "owns or is parent of",
+  "definition": "Person or organization X owns business/organization/property Y or is its corporate parent.",
+  "scope_notes": "Inverse of subsidiary/unit ownership family, allowing person owners and property. Officeholding, authorship and control without ownership alone are insufficient.",
+  "facts": [
+    {
+      "case_id": "rel_52__ent_101__ent_881",
+      "judgment": "supported",
+      "reason": "Walt Disney Company explicitly owns ABC and is its parent/owner.",
+      "evidence_lines": [
+        5930,
+        5931,
+        5932,
+        5933,
+        5934
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_52__ent_151__ent_625",
+      "judgment": "supported",
+      "reason": "Murdoch explicitly owns Fox and is its owner; chairman/control alone would be weaker.",
+      "evidence_lines": [
+        6011,
+        6018
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_52__ent_951__ent_325",
+      "judgment": "incorrect",
+      "reason": "Gross writes/says material in The Times; authorship/publication is not ownership.",
+      "evidence_lines": [
+        7315,
+        7316,
+        7317
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_52__ent_1153__ent_1144",
+      "judgment": "supported",
+      "reason": "Cablevision explicitly owns Madison Square Garden and is its owner.",
+      "evidence_lines": [
+        5920,
+        5921,
+        5922,
+        5924
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_52__ent_689__ent_1144",
+      "judgment": "supported",
+      "reason": "Dolan explicitly owns Madison Square Garden in one row; other rows express chairman/control.",
+      "evidence_lines": [
+        5719
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

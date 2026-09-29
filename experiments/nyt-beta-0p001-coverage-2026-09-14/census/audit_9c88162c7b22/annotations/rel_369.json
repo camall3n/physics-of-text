@@ -1,0 +1,145 @@
+{
+  "relation": "rel_369",
+  "predicate_id": "participated_in_sporting_event",
+  "label": "participated in sporting event",
+  "definition": "Competitor or team X participated in sporting event or competition Y.",
+  "scope_notes": "Includes: actual played-in, competed-in, or appeared-in a sporting event; being in an event when competitive participation is clear; a completed win or title in the event, which entails participation. Excludes: plans, hopes, or qualification without established participation; attendance as spectator; membership in a league without participation in the designated event; non-sporting events or geographic presence alone. Ambiguous unless resolved by case-local evidence: future or proposed participation; event occurrence or participant role unclear; a governing body or location substituted for an unresolved event. Participation does not require winning. Preserve defeated and winner_of as separate predicates where those meanings were declared.",
+  "facts": [
+    {
+      "case_id": "rel_369__ent_1004__ent_836",
+      "judgment": "supported",
+      "reason": "Yankees → World Series: Playing in, winning or competing in the designated event establishes sporting participation.",
+      "evidence_lines": [
+        2184,
+        2185,
+        2186,
+        2700,
+        2701,
+        2702
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_609__ent_836",
+      "judgment": "supported",
+      "reason": "Marlins → World Series: Playing in, winning or competing in the designated event establishes sporting participation.",
+      "evidence_lines": [
+        2261,
+        2262,
+        2264,
+        2265,
+        2266
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_884__ent_83",
+      "judgment": "incorrect",
+      "reason": "Raiders → Oakland: Oakland or Los Angeles is geographic game location, not a designated sporting event.",
+      "evidence_lines": [
+        5229,
+        5233,
+        5235
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_849__ent_850",
+      "judgment": "supported",
+      "reason": "Patriots → Super Bowl: Playing in, winning or competing in the designated event establishes sporting participation.",
+      "evidence_lines": [
+        2249,
+        2255
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_600__ent_836",
+      "judgment": "supported",
+      "reason": "Cubs → World Series: Playing in, winning or competing in the designated event establishes sporting participation.",
+      "evidence_lines": [
+        2270,
+        7767
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_309__ent_836",
+      "judgment": "supported",
+      "reason": "Red Sox → World Series: Playing in, winning or competing in the designated event establishes sporting participation.",
+      "evidence_lines": [
+        2200
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    },
+    {
+      "case_id": "rel_369__ent_884__ent_429",
+      "judgment": "incorrect",
+      "reason": "Raiders → Los Angeles: Oakland or Los Angeles is geographic game location, not a designated sporting event.",
+      "evidence_lines": [
+        4796
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:52.744Z"
+      }
+    }
+  ],
+  "predicate_hash": "e886a2878dbe8a8b0274269bece867f75f2602a48200bb515e906dcc51479394",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6d68e1b09960a30cd5845aead1550f2fbe23b012d55fcfd46979845305695bfe"
+}

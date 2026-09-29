@@ -1,0 +1,72 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_78",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        4
+      ],
+      "case_ids": [
+        "rel_78__ent_692__ent_211",
+        "rel_78__ent_80__ent_820"
+      ],
+      "judgment": "supported",
+      "reason": "Direct return-to or emigration-to evidence establishes movement to the country.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_78__ent_843__ent_422"
+      ],
+      "judgment": "incorrect",
+      "reason": "New York and Hill appear in senator/office/lawyer attachments, with no destination movement.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_78__ent_820__ent_451"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Return-to is mixed with capture and occupation of territory; an omitted territorial object may be returned rather than Israel traveling.",
+      "tags": [
+        "movement_object_attachment"
+      ],
+      "question": "Is Israel returning territory to Egypt, or does this assert actual movement of Israeli people to Egypt?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_78__ent_537__ent_820"
+      ],
+      "judgment": "incorrect",
+      "reason": "Support for Israel does not state destination movement.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1504ed7fb28d2345260350971bdd8bf9a75f4719b660bdc46320ec7c125667d1"
+}

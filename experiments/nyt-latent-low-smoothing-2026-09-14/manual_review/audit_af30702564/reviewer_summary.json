@@ -1,0 +1,25 @@
+{
+  "audit_id": "audit_af30702564",
+  "reviewer": "evaluation agent",
+  "review_completed_at": "2026-09-14T19:18:55.256Z",
+  "complete_relation_dictionaries_read": 20,
+  "distinct_dictionary_entries_read": 447,
+  "sampled_facts_reviewed": 100,
+  "selected_evidence_rows_read": 365,
+  "predicates_declared_before_case_review": true,
+  "predicates_unchanged_after_grading": true,
+  "run_mapping_or_configs_read": false,
+  "reporter_passed": true,
+  "primary_counts": {
+    "supported": 85,
+    "incorrect": 9,
+    "ambiguous": 6
+  },
+  "protocol_sha256": "e1876ac086567e86c0263a3fdc14bd5d10b0e75a8fa74d91e4d6c080bef318ce",
+  "additional_artifacts": [
+    "predicate_sensitivity.json",
+    "global_identity_flags.json",
+    "../../analysis/reviewer_caveats_evaluation.md"
+  ],
+  "limitations": "Prior results and follow-up hypothesis known; no calibrated independent human review; primary fact-local support is not globally coherent entity-resolved precision."
+}

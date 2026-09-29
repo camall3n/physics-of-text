@@ -1,0 +1,41 @@
+{
+  "relation": "rel_311",
+  "predicate_id": "broadcasts_program",
+  "predicate_version": 1,
+  "predicate_hash": "e28edb6a2fcf64c04cecd290d4e234cbaddea41551c5e52555dca1c6d524a6ed",
+  "predicate": {
+    "id": "broadcasts_program",
+    "label": "broadcasts or carries program",
+    "definition": "Broadcaster X is explicitly identified as broadcasting, carrying, or having program Y in its programming.",
+    "includes": [
+      "explicit airing or broadcasting of Y",
+      "Y identified as the program or show of broadcaster X",
+      "historical programming affiliation"
+    ],
+    "excludes": [
+      "ownership of a network or production company alone",
+      "an ordinary press interaction or meeting",
+      "a person appearing on a program without broadcaster-program identification"
+    ],
+    "ambiguous": [
+      "an incomplete program title such as Press with unresolved referent",
+      "unclear broadcaster versus guest role",
+      "program versus generic activity attachment unresolved"
+    ],
+    "notes": "Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting.",
+    "scope_notes": "Includes: explicit airing or broadcasting of Y; Y identified as the program or show of broadcaster X; historical programming affiliation. Excludes: ownership of a network or production company alone; an ordinary press interaction or meeting; a person appearing on a program without broadcaster-program identification. Ambiguous unless resolved by case-local evidence: an incomplete program title such as Press with unresolved referent; unclear broadcaster versus guest role; program versus generic activity attachment unresolved. Programming affiliation does not imply ownership or production. Embedded title verbs such as Meet must not be interpreted as an ordinary interpersonal meeting."
+  },
+  "dictionary_sha256": "eae867c6c2e5eaef0112d29f7fbaf8874441f428c5ba8ffb07e286d1abad8224",
+  "kind": "declared_before_case_grading",
+  "rationale": "Nineteen rows link NBC or NBC News to program constructions containing meet-Press, identifying broadcaster-to-program affiliation; Press is a truncated title requiring scrutiny. East-to-West interaction is contamination.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.867Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_311.before_grading.json",
+  "pregrading_annotation_sha256": "80c91ffe41f5d0acb1a198ccc2fe83179e9c1162fe5ca72de26f2500125bd460"
+}

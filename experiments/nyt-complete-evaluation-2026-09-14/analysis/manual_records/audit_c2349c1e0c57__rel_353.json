@@ -1,0 +1,119 @@
+{
+  "audit": "audit_c2349c1e0c57",
+  "relation": "rel_353",
+  "cases_sha256": "71ee4ee15c05621edde2f090493fb971e5cd5e822e33a44814cd39cde2983b68",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        11,
+        13,
+        29,
+        30,
+        31
+      ],
+      "case_ids": [
+        "rel_353__ent_646__ent_333",
+        "rel_353__ent_643__ent_333",
+        "rel_353__ent_645__ent_333",
+        "rel_353__ent_883__ent_633",
+        "rel_353__ent_877__ent_634",
+        "rel_353__ent_876__ent_333"
+      ],
+      "judgment": "supported",
+      "reason": "The evidence explicitly locates this person’s residence or own home in the named city.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        2,
+        7,
+        8,
+        9,
+        12,
+        20
+      ],
+      "case_ids": [
+        "rel_353__ent_885__ent_333",
+        "rel_353__ent_887__ent_333",
+        "rel_353__ent_404__ent_333",
+        "rel_353__ent_1100__ent_333",
+        "rel_353__ent_406__ent_333",
+        "rel_353__ent_888__ent_333",
+        "rel_353__ent_403__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The city is attached through relatives, an obituary list, an institution or work; the rows do not clearly establish whose residence it denotes.",
+      "tags": [
+        "attachment_ambiguity"
+      ],
+      "question": "Does the full sentence identify this person as residing in the city, rather than a relative or institution?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        6,
+        10,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "case_ids": [
+        "rel_353__ent_7__ent_243",
+        "rel_353__ent_7__ent_485",
+        "rel_353__ent_7__ent_488",
+        "rel_353__ent_933__ent_936",
+        "rel_353__ent_604__ent_846",
+        "rel_353__ent_263__ent_244",
+        "rel_353__ent_2__ent_1",
+        "rel_353__ent_844__ent_1002",
+        "rel_353__ent_603__ent_333",
+        "rel_353__ent_848__ent_333",
+        "rel_353__ent_605__ent_333",
+        "rel_353__ent_67__ent_1138",
+        "rel_353__ent_831__ent_213",
+        "rel_353__ent_602__ent_333",
+        "rel_353__ent_606__ent_333",
+        "rel_353__ent_63__ent_543",
+        "rel_353__ent_752__ent_510",
+        "rel_353__ent_1188__ent_802",
+        "rel_353__ent_481__ent_242"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied rows concern organizational membership, employment, sport, an institution’s address or another predicate, without establishing this person’s residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    20
+  ],
+  "broad": []
+}

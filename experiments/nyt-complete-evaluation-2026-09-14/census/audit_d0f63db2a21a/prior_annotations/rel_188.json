@@ -1,0 +1,71 @@
+{
+  "relation": "rel_188",
+  "label": "analyst at organization",
+  "definition": "Person X is an analyst at, with or for organization Y.",
+  "scope_notes": "Preserves analyst-specific affiliation. Other offices, ownership, corporate unit and political control are outside scope.",
+  "facts": [
+    {
+      "case_id": "rel_188__ent_1057__ent_1404",
+      "judgment": "supported",
+      "reason": "Mehta is explicitly analyst with/at Mehta & Isaly; partner is a separate role.",
+      "evidence_lines": [
+        1784,
+        1787
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_188__ent_107__ent_561",
+      "judgment": "incorrect",
+      "reason": "Mara is Giants co-owner/officer; no analyst role is supplied.",
+      "evidence_lines": [
+        1698,
+        1701,
+        1704
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_188__ent_1272__ent_602",
+      "judgment": "incorrect",
+      "reason": "Bozell Worldwide is a Bozell unit, not a person analyst.",
+      "evidence_lines": [
+        2506
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_188__ent_1254__ent_335",
+      "judgment": "incorrect",
+      "reason": "State Department has Redman as spokesman in an inverse-role path, not an analyst affiliation.",
+      "evidence_lines": [
+        5395
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_188__ent_1265__ent_1422",
+      "judgment": "incorrect",
+      "reason": "Republicans hold White House; this is political control, not analyst affiliation.",
+      "evidence_lines": [
+        2779
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

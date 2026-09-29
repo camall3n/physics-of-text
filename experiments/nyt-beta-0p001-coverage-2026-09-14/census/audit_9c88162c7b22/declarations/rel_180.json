@@ -1,0 +1,50 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "confers_authority_on",
+  "predicate_version": 1,
+  "predicate_hash": "46bb4dfebcbec81445e1e0cd0b645835c3ffe41680a4a5df06b2095f04084f66",
+  "predicate": {
+    "id": "confers_authority_on",
+    "label": "confers authority on institution",
+    "definition": "Legal instrument or governing document X explicitly grants authority, powers, rights, or an institutional mandate to Y.",
+    "includes": [
+      "an identified power or authority granted to Y",
+      "explicit rights or mandate conferred under X",
+      "historical textual allocation of authority"
+    ],
+    "excludes": [
+      "ordinary transfer of physical goods or sporting contribution",
+      "mentioning institutional requirements without granting authority",
+      "general association with a legal text"
+    ],
+    "ambiguous": [
+      "give or grant with omitted object",
+      "under-X have with no identified power",
+      "a provision whose grant or recipient is unresolved"
+    ],
+    "notes": "This labels what the supplied text asserts, not a legal determination. Generic gives does not recover an omitted legal power.",
+    "scope_notes": "Includes: an identified power or authority granted to Y; explicit rights or mandate conferred under X; historical textual allocation of authority. Excludes: ordinary transfer of physical goods or sporting contribution; mentioning institutional requirements without granting authority; general association with a legal text. Ambiguous unless resolved by case-local evidence: give or grant with omitted object; under-X have with no identified power; a provision whose grant or recipient is unresolved. This labels what the supplied text asserts, not a legal determination. Generic gives does not recover an omitted legal power."
+  },
+  "dictionary_sha256": "e27b4cf88a1c24f2551dc86c36fb1a08f821d482da28fabe304167d303c853f0",
+  "kind": "declared_before_case_grading",
+  "rationale": "Constitution→Senate/Congress grant/provision/give family dominates. The instrument must actually confer a specified right or power; omitted giving object is ambiguous. Athletic contribution is separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.157Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_180.before_grading.json",
+  "pregrading_annotation_sha256": "d6c521ddfaebd1c4fcb896e17b2ede883c9949b4d1e18e9e2abdf234fdab9011"
+}

@@ -1,0 +1,72 @@
+{
+  "audit_id": "audit_af30702564",
+  "analysis_type": "Post-primary predicate-identification sensitivity; primary labels unchanged",
+  "primary_predicate": "X defeated opposing competitor Y in at least one competitive contest.",
+  "alternative_predicate": "X played or competed against opponent Y in at least one contest, independent of who won.",
+  "alternative_scope": "A coherent opponent/participation relation, not a union with unrelated meanings. Explicit play-against evidence is present in every selected case. Do not infer an outcome.",
+  "stratum_population": 26,
+  "total_top20_population": 436,
+  "stratum_weight": 0.05963302752293578,
+  "primary_supported": 4,
+  "alternative_supported": 5,
+  "sample_size": 5,
+  "cases": [
+    {
+      "case_id": "rel_6__ent_308__ent_1380",
+      "primary_judgment": "supported",
+      "alternative_judgment": "supported",
+      "evidence_lines": [
+        873,
+        6043
+      ],
+      "reason": "The supplied play-against path directly supports the broader competitor predicate."
+    },
+    {
+      "case_id": "rel_6__ent_1439__ent_1084",
+      "primary_judgment": "incorrect",
+      "alternative_judgment": "supported",
+      "evidence_lines": [
+        6909
+      ],
+      "reason": "The only evidence says Mets play Phillies: it supports competing against them, although it does not establish winning."
+    },
+    {
+      "case_id": "rel_6__ent_470__ent_1004",
+      "primary_judgment": "supported",
+      "alternative_judgment": "supported",
+      "evidence_lines": [
+        6063
+      ],
+      "reason": "The supplied play-against path directly supports the broader competitor predicate."
+    },
+    {
+      "case_id": "rel_6__ent_543__ent_308",
+      "primary_judgment": "supported",
+      "alternative_judgment": "supported",
+      "evidence_lines": [
+        946
+      ],
+      "reason": "The supplied play-against path directly supports the broader competitor predicate."
+    },
+    {
+      "case_id": "rel_6__ent_321__ent_600",
+      "primary_judgment": "supported",
+      "alternative_judgment": "supported",
+      "evidence_lines": [
+        6959
+      ],
+      "reason": "The supplied play-against path directly supports the broader competitor predicate."
+    }
+  ],
+  "micro_delta": 0.011926605504587153,
+  "macro_delta": 0.01,
+  "primary_micro": {
+    "lower": 0.8504587155963301,
+    "upper": 0.911467889908257
+  },
+  "alternative_micro": {
+    "lower": 0.8623853211009173,
+    "upper": 0.9233944954128441
+  },
+  "caveat": "Only this single preidentified predicate choice is changed in a separate calculation. This is not a confidence interval, not a new primary score, and not a census of this relation."
+}

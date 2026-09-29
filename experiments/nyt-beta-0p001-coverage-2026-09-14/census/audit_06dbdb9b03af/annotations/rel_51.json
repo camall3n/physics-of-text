@@ -1,0 +1,150 @@
+{
+  "relation": "rel_51",
+  "predicate_id": "succeeded_person",
+  "label": "succeeded person in role",
+  "definition": "Person X took over a role previously held by person Y.",
+  "scope_notes": "Includes: explicit succession or replacement in an office or professional role; historical successor taking office; clearly established temporary or acting replacement. Excludes: X appointed a third person to replace Y; generic opposition, criticism, or substitution unrelated to a role; a proposed successor without established tenure. Ambiguous unless resolved by case-local evidence: bare replace where appointing versus taking over is unresolved; unclear predecessor or role; candidate or announced future replacement without tenure. Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously.",
+  "facts": [
+    {
+      "case_id": "rel_51__ent_286__ent_465",
+      "judgment": "supported",
+      "reason": "Bud Harrelson → Davey Johnson: Successor, succeed, take-place or explicit role replacement evidence establishes taking over from the named predecessor.",
+      "evidence_lines": [
+        5859,
+        5860,
+        5861,
+        5862,
+        5863,
+        5864
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.185Z"
+      }
+    },
+    {
+      "case_id": "rel_51__ent_1151__ent_215",
+      "judgment": "ambiguous",
+      "reason": "Frank R. Lautenberg → Robert G. Torricelli: Replacement, substitution and taking a place are explicit, but the retained paths do not identify the role being taken over or establish its tenure. The senator context alone does not distinguish candidacy from an already held office.",
+      "evidence_lines": [
+        5865,
+        5866,
+        5867,
+        5868,
+        5869,
+        5870
+      ],
+      "issue_tags": [
+        "role_or_tenure_ambiguity"
+      ],
+      "reviewer_question": "Which role did Lautenberg take over from Torricelli, and do these rows establish taking that role rather than replacement as a candidate?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.186Z"
+      },
+      "adjudication": {
+        "reviewer": "root",
+        "script": "adjudicate_exact_evidence.mjs",
+        "method": "Manual complete-evidence consistency adjudication; definition and population unchanged.",
+        "reviewed_at": "2026-09-14T22:39:55.716Z"
+      }
+    },
+    {
+      "case_id": "rel_51__ent_1150__ent_223",
+      "judgment": "ambiguous",
+      "reason": "Sather → Bryan Trottier: Replace co-occurs with choosing or dismissing the other person, leaving personal succession versus appointing a replacement unresolved.",
+      "evidence_lines": [
+        5841,
+        5842,
+        5845,
+        5847,
+        5848
+      ],
+      "issue_tags": [
+        "role_attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Did Sather personally take over Trottier role, or replace him by appointing someone else?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.186Z"
+      }
+    },
+    {
+      "case_id": "rel_51__ent_456__ent_698",
+      "judgment": "supported",
+      "reason": "Egon Krenz → Erich Honecker: Successor, succeed, take-place or explicit role replacement evidence establishes taking over from the named predecessor.",
+      "evidence_lines": [
+        5901,
+        5905,
+        5906,
+        5907,
+        5909
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.186Z"
+      }
+    },
+    {
+      "case_id": "rel_51__ent_105__ent_223",
+      "judgment": "ambiguous",
+      "reason": "Glen Sather → Bryan Trottier: Replace co-occurs with choosing or dismissing the other person, leaving personal succession versus appointing a replacement unresolved.",
+      "evidence_lines": [
+        5851,
+        5853,
+        5855
+      ],
+      "issue_tags": [
+        "role_attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Did Sather personally take over Trottier role, or replace him by appointing someone else?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.186Z"
+      }
+    },
+    {
+      "case_id": "rel_51__ent_1152__ent_214",
+      "judgment": "supported",
+      "reason": "Joe Morgan → John McNamara: Successor, succeed, take-place or explicit role replacement evidence establishes taking over from the named predecessor.",
+      "evidence_lines": [
+        5898,
+        5899,
+        5900
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:12:52.186Z"
+      }
+    }
+  ],
+  "predicate_hash": "cf88bc7434fa6be9db182b5aa625fc51bf1a23063c2fa8093914b8cfff879157",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "66ad8c7807f7fd0746c3859f535f3aca07428e542ca6f2e8eb3c186398bcc6d0"
+}

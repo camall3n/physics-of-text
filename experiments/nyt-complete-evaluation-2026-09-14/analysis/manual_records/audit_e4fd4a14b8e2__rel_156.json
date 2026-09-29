@@ -1,0 +1,96 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_156",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ],
+      "case_ids": [
+        "rel_156__ent_356__ent_308",
+        "rel_156__ent_260__ent_1005",
+        "rel_156__ent_62__ent_1005",
+        "rel_156__ent_1116__ent_110",
+        "rel_156__ent_1117__ent_347",
+        "rel_156__ent_1119__ent_110",
+        "rel_156__ent_413__ent_110",
+        "rel_156__ent_65__ent_60",
+        "rel_156__ent_63__ent_543",
+        "rel_156__ent_64__ent_308",
+        "rel_156__ent_66__ent_543"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit player position, scorer, scoring-for, or athletic playing-with evidence establishes the first person playing for the named team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18
+      ],
+      "case_ids": [
+        "rel_156__ent_77__ent_271",
+        "rel_156__ent_197__ent_199",
+        "rel_156__ent_308__ent_1005",
+        "rel_156__ent_663__ent_189",
+        "rel_156__ent_1062__ent_776",
+        "rel_156__ent_111__ent_114",
+        "rel_156__ent_252__ent_333"
+      ],
+      "judgment": "incorrect",
+      "reason": "The complete evidence concerns political membership, communication, team-to-team interaction, finance, or coach-to-player activity, not an athlete playing for a team.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        17
+      ],
+      "case_ids": [
+        "rel_156__ent_273__ent_1004"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leading/taking Yankees is compatible with a managerial role and does not itself identify athletic playing-for membership.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Does the original evidence describe Joe Torre playing for Yankees or managing them?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "broad": []
+}

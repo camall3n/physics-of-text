@@ -1,0 +1,57 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_233",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_233__ent_953__ent_302",
+        "rel_233__ent_678__ent_302"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit founder or co-founder identification establishes founding of the institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_233__ent_1277__ent_1235"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The only path reaches co-founded-with through a shareholder’s worth and company stock, leaving who co-founded which company unresolved.",
+      "tags": [
+        "founder_attachment"
+      ],
+      "question": "Does the co-founded-with clause identify Bill Gates as co-founder of Microsoft, or attach to another shareholder?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_233__ent_231__ent_473"
+      ],
+      "judgment": "incorrect",
+      "reason": "River confluence and flow do not establish institutional founding.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6cd277f44887419e0c5a23a3a3ec8adc8ee9d20c6d226ea3490a19c9e5df6ef0"
+}

@@ -1,0 +1,1239 @@
+{
+  "relation": "rel_13",
+  "predicate_id": "communicates_to",
+  "label": "directed communication to",
+  "definition": "Person or institution X directs information, speech, request, advice, warning or a message to addressee Y.",
+  "scope_notes": "Includes: tell/ask/urge/notify/advise/warn/persuade/address/speak-to; testimony before the addressee; send/submit a clearly communicative object; institutional communication through an identified representative. Excludes: mere meeting/cooperation/support; speaking about or criticizing Y without address; physical transfer; spokesperson intermediary treated as recipient. Ambiguous unless resolved by case-local evidence: send/submit/give with omitted object and no other clear communication in this fact; person versus their administration or envoy attribution. An unqualified send-to edge does not by itself recover a message. Case-local corroboration may resolve it.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_13.json",
+    "source_sha256": "b73a9e0c1b8ecc53866bdb3793bdbf17eadf38d1896ee7ddf231f58f2535ed07",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_13__ent_182__ent_189",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        455,
+        456,
+        457,
+        460,
+        461,
+        463,
+        2034,
+        2036,
+        2037,
+        2040,
+        7865,
+        7868,
+        7873
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.908Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_180__ent_189",
+      "judgment": "ambiguous",
+      "reason": "Bush → Congress; Mr. Greenspan → Congress: The same tuple combines Mr. Greenspan’s testimony with Bush’s communication to Congress, so the sender entity is unresolved.",
+      "evidence_lines": [
+        416,
+        423,
+        437,
+        441,
+        442,
+        444,
+        2003,
+        2006,
+        7855,
+        7857,
+        7860
+      ],
+      "issue_tags": [
+        "mixed_entity"
+      ],
+      "reviewer_question": "Should Greenspan and Bush be separate sender entities despite sharing the Congress addressee?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_13.json",
+        "annotation_sha256": "b73a9e0c1b8ecc53866bdb3793bdbf17eadf38d1896ee7ddf231f58f2535ed07"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_77__ent_271",
+      "judgment": "supported",
+      "reason": "France → Security Council: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        3270,
+        3271,
+        3272,
+        3273,
+        3274,
+        3275,
+        3276,
+        3277,
+        3278,
+        3279
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_815__ent_271",
+      "judgment": "incorrect",
+      "reason": "Russia → Security Council: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        3293,
+        3296,
+        3297,
+        3298,
+        3299,
+        3300,
+        3301
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_180__ent_662",
+      "judgment": "supported",
+      "reason": "Bush → Mikhail S. Gorbachev: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        8204,
+        8205,
+        8208,
+        8209,
+        8210,
+        8211,
+        8212
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_182__ent_1107",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        458,
+        2032,
+        2035,
+        7867,
+        7869,
+        7871
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_828__ent_839",
+      "judgment": "supported",
+      "reason": "Clinton → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2023,
+        2024,
+        2027,
+        7897,
+        7903,
+        7904
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_182__ent_819",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Democrats: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        5555,
+        5556,
+        5558,
+        5559,
+        5562,
+        5564
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_819__ent_828",
+      "judgment": "supported",
+      "reason": "Democrats → Clinton: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        7576,
+        7577,
+        7579,
+        7580,
+        7582,
+        7584
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1278__ent_189",
+      "judgment": "supported",
+      "reason": "Bush → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        436,
+        443,
+        2007,
+        2008,
+        2010
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_195__ent_189",
+      "judgment": "supported",
+      "reason": "Reagan → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        476,
+        481,
+        484,
+        2095,
+        2096
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1330__ent_189",
+      "judgment": "supported",
+      "reason": "Reagan → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        477,
+        478,
+        480,
+        483,
+        2098
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_182__ent_198",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Mr. Gorbachev: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        485,
+        488,
+        490,
+        492,
+        493
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_828__ent_189",
+      "judgment": "supported",
+      "reason": "Clinton → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2022,
+        2025,
+        2030,
+        7895,
+        7896
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_829__ent_189",
+      "judgment": "supported",
+      "reason": "Clinton Administration → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2062,
+        2065,
+        2068,
+        2070,
+        2071
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_160__ent_1259",
+      "judgment": "incorrect",
+      "reason": "Serbs → Croatia: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        2148,
+        2149,
+        2150,
+        2151,
+        2154
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_79__ent_400",
+      "judgment": "incorrect",
+      "reason": "Dick Steinberg → Jets: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        3247,
+        3249,
+        3250,
+        3251,
+        3253
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1363__ent_814",
+      "judgment": "incorrect",
+      "reason": "Turkey → NATO: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        3282,
+        3283,
+        3285,
+        3288,
+        3289
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_843__ent_422",
+      "judgment": "incorrect",
+      "reason": "New York → Hill: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        4181,
+        4183,
+        4185,
+        4187,
+        4188
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_631__ent_762",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → Mr. Jordan: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        8264,
+        8265,
+        8268,
+        8271,
+        8272
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_197__ent_762",
+      "judgment": "supported",
+      "reason": "Ms. Lewinsky → Mr. Jordan: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        8266,
+        8267,
+        8269,
+        8270,
+        8273
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_180__ent_1107",
+      "judgment": "supported",
+      "reason": "Bush → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        435,
+        440,
+        2002,
+        2004
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1294__ent_189",
+      "judgment": "supported",
+      "reason": "Clinton → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2026,
+        2029,
+        2031,
+        7898
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_13.json",
+        "annotation_sha256": "b73a9e0c1b8ecc53866bdb3793bdbf17eadf38d1896ee7ddf231f58f2535ed07"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1393__ent_99",
+      "judgment": "supported",
+      "reason": "United States → Iran: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        5506,
+        5512,
+        7886,
+        7892
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_502__ent_743",
+      "judgment": "incorrect",
+      "reason": "Thomas S. Gulotta → Nassau County: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        8104,
+        8107,
+        8109,
+        8112
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_188__ent_189",
+      "judgment": "supported",
+      "reason": "Mr. Greenspan → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        415,
+        417,
+        419
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_188__ent_181",
+      "judgment": "supported",
+      "reason": "Mr. Greenspan → Senate Banking Committee: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        425,
+        426,
+        428
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_157__ent_1239",
+      "judgment": "ambiguous",
+      "reason": "Mr. Bush → Congress: Only send-indirect-object edges remain; the sent object is omitted.",
+      "evidence_lines": [
+        464,
+        2041,
+        7874
+      ],
+      "issue_tags": [
+        "missing_communicative_object"
+      ],
+      "reviewer_question": "What did Bush send Congress, and was it a message rather than another transferred object?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_182__ent_1248",
+      "judgment": "supported",
+      "reason": "Mr. Bush → Mr. Gorbachev: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        487,
+        489,
+        494
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1200__ent_353",
+      "judgment": "incorrect",
+      "reason": "Riley → Smith: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        1530,
+        1533,
+        1534
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_73__ent_789",
+      "judgment": "incorrect",
+      "reason": "Merryl H. Tisch → State Board of Regents: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        3317,
+        3318,
+        3320
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_669__ent_109",
+      "judgment": "incorrect",
+      "reason": "Americans → Europe; Americans → Iraq: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        4758,
+        4759,
+        8147
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1213__ent_1319",
+      "judgment": "incorrect",
+      "reason": "Republicans → Mr. Clinton: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        5515,
+        5522,
+        5524
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_351__ent_60",
+      "judgment": "incorrect",
+      "reason": "Steinbrenner → Yankees: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        1499,
+        1502
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1400__ent_596",
+      "judgment": "supported",
+      "reason": "Torre → Rivera: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        1517,
+        1519
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_180__ent_467",
+      "judgment": "supported",
+      "reason": "Bush → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2011,
+        7864
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_299__ent_1107",
+      "judgment": "ambiguous",
+      "reason": "Clinton → Congress; White House → Congress: Clinton and the White House are merged into one sender tuple; direct asking comes from the institution while the personal row has only send with omitted object.",
+      "evidence_lines": [
+        2028,
+        2052
+      ],
+      "issue_tags": [
+        "mixed_entity",
+        "representative_scope"
+      ],
+      "reviewer_question": "Should Clinton personally and the White House institution be separate sender entities, and what did Clinton send?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_827__ent_1239",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2049,
+        7927
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_586__ent_109",
+      "judgment": "supported",
+      "reason": "White House → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        2059,
+        7876
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_60__ent_9",
+      "judgment": "incorrect",
+      "reason": "Yankees → American League East: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        2734,
+        2740
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_13.json",
+        "annotation_sha256": "b73a9e0c1b8ecc53866bdb3793bdbf17eadf38d1896ee7ddf231f58f2535ed07"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1217__ent_826",
+      "judgment": "incorrect",
+      "reason": "Israel → Palestinians: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        4290,
+        4297
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1395__ent_1213",
+      "judgment": "supported",
+      "reason": "Mr. Clinton → Republicans: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        5545,
+        5547
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1213__ent_189",
+      "judgment": "incorrect",
+      "reason": "Republicans → Congress: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        6391,
+        6395
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_965__ent_189",
+      "judgment": "supported",
+      "reason": "White House → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        7875,
+        7881
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_910__ent_586",
+      "judgment": "supported",
+      "reason": "Patrick J. Buchanan → White House: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        8488,
+        8490
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1361__ent_189",
+      "judgment": "supported",
+      "reason": "Alan Greenspan → Congress: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        410
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_576__ent_280",
+      "judgment": "incorrect",
+      "reason": "Chelsea → Manhattan: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        1163
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1044__ent_1443",
+      "judgment": "incorrect",
+      "reason": "Giants → Super Bowl: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        2225
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_73__ent_6",
+      "judgment": "incorrect",
+      "reason": "Merryl H. Tisch → State Board of Regents: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        3319
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_820__ent_1416",
+      "judgment": "supported",
+      "reason": "Israel → Palestinians: The case gives direct addressed asking, telling, urging, warning, testimony, negotiation or a memorandum received by the institution’s identified speechwriter.",
+      "evidence_lines": [
+        4294
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1197__ent_1213",
+      "judgment": "incorrect",
+      "reason": "Senate → Republicans: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        4897
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_13.json",
+        "annotation_sha256": "b73a9e0c1b8ecc53866bdb3793bdbf17eadf38d1896ee7ddf231f58f2535ed07"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_1395__ent_816",
+      "judgment": "incorrect",
+      "reason": "Mr. Clinton → Republicans: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        5550
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+        "source": "prior_annotations/rel_13.json",
+        "annotation_sha256": "b73a9e0c1b8ecc53866bdb3793bdbf17eadf38d1896ee7ddf231f58f2535ed07"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_216__ent_366",
+      "judgment": "incorrect",
+      "reason": "General Electric → NBC: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        5980
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_385__ent_406",
+      "judgment": "incorrect",
+      "reason": "Republicans → Bush: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        7561
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_83__ent_1224",
+      "judgment": "incorrect",
+      "reason": "James W. Treffinger → Essex County: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        8079
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_999__ent_511",
+      "judgment": "incorrect",
+      "reason": "Selena → Ms. Saldivar: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        8262
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    },
+    {
+      "case_id": "rel_13__ent_17__ent_1374",
+      "judgment": "incorrect",
+      "reason": "George Stephanopoulos → White House: The complete evidence provides membership, officeholding, ownership, location/movement, sports, criticism, or an inverse asking attachment rather than this directed communication.",
+      "evidence_lines": [
+        8447
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "not_addressee"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T21:10:19.909Z"
+      }
+    }
+  ]
+}

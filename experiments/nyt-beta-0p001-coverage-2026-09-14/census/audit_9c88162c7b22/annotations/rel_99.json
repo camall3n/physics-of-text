@@ -1,0 +1,68 @@
+{
+  "relation": "rel_99",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_99__ent_582__ent_101",
+      "judgment": "supported",
+      "reason": "Michael D. Eisner → Walt Disney Company: Leadership-of and chairman-of paths explicitly establish an organizational leadership office in the Walt Disney Company.",
+      "evidence_lines": [
+        1274,
+        1275,
+        1278,
+        1279,
+        1280
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:13.051Z"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_548__ent_1003",
+      "judgment": "incorrect",
+      "reason": "Johnson & Johnson → New Brunswick: A company and city with spokesman/location descriptions have the wrong person-to-organization roles for this predicate.",
+      "evidence_lines": [
+        856,
+        857,
+        4389,
+        4390
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:13.051Z"
+      }
+    },
+    {
+      "case_id": "rel_99__ent_380__ent_138",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Federal Reserve Board: Approval of a nomination alone does not establish that the person held the chair office under the frozen scope.",
+      "evidence_lines": [
+        201,
+        5679
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:33:13.051Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "bd2434d2a85daa9ff03a65271a4404b22ee2b8ae2c9ac1b254b81bf36424dcc7"
+}

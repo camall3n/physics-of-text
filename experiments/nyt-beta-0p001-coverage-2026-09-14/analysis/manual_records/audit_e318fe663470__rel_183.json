@@ -1,0 +1,71 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_183",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_183__ent_1121__ent_425"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit corporate part-of-unit construction establishes organizational containment.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_183__ent_1401__ent_421"
+      ],
+      "judgment": "ambiguous",
+      "reason": "New York stands for an unnamed branch office, and two different parent firms are merged in the same inferred fact.",
+      "tags": [
+        "truncated_argument",
+        "entity_collision"
+      ],
+      "question": "Which named office and which parent firm does this fact intend?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_183__ent_1401__ent_1218"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The city New York stands for an omitted corporate office or unit.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What organization or named business unit is the subsidiary, rather than the city?"
+    },
+    {
+      "indices": [
+        2,
+        4,
+        5
+      ],
+      "case_ids": [
+        "rel_183__ent_501__ent_1208",
+        "rel_183__ent_501__ent_987",
+        "rel_183__ent_1112__ent_1167"
+      ],
+      "judgment": "incorrect",
+      "reason": "County executive/candidate status or a pension-fund alias does not establish corporate containment.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "5567f9b46fe6bf0582ac8bc55009a6a19e95421e43786c0a26434331fa685c4c"
+}

@@ -1,0 +1,44 @@
+{
+  "relation": "rel_8",
+  "predicate_id": "sells_to",
+  "predicate_version": 1,
+  "predicate_hash": "0167fa32af9b9b27da8721030cdfb1cc8765debd28042890094b998a0f1d6142",
+  "predicate": {
+    "id": "sells_to",
+    "label": "sells to",
+    "definition": "Entity X sells or sold goods, services, property, or transferable rights to buyer Y.",
+    "includes": [
+      "explicit sell-to or sale-to",
+      "a completed commercial transfer to Y",
+      "historical sales including transferable sporting contracts"
+    ],
+    "excludes": [
+      "ordinary giving or physical movement",
+      "a proposed sale without realization",
+      "Y is the item sold rather than the buyer"
+    ],
+    "ambiguous": [
+      "unclear seller-versus-item role",
+      "proposed or conditional sale",
+      "a nominal sale whose owner or seller is unresolved"
+    ],
+    "notes": "An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not.",
+    "scope_notes": "Includes: explicit sell-to or sale-to; a completed commercial transfer to Y; historical sales including transferable sporting contracts. Excludes: ordinary giving or physical movement; a proposed sale without realization; Y is the item sold rather than the buyer. Ambiguous unless resolved by case-local evidence: unclear seller-versus-item role; proposed or conditional sale; a nominal sale whose owner or seller is unresolved. An explicit sell-to edge can establish the commercial relation without identifying the item; generic give/send does not."
+  },
+  "dictionary_sha256": "d6419a82c46d8089c8a6b67aaf6edd6b424e9b2a4d8d778b88b4e7ffefbf69a0",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit sales and weapons-sale paths form the leading coherent family; shock, send and chair roles are not merged into it.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:24:34.648Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_8.before_grading.json",
+  "pregrading_annotation_sha256": "462b03a7e539092772ca9caabfd8e14d6291e1a64d8c8a83ebf499a87d7f2019"
+}

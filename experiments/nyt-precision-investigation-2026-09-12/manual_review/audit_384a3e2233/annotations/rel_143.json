@@ -1,0 +1,73 @@
+{
+  "relation": "rel_143",
+  "label": "resided in",
+  "definition": "Person or population 1 resides or formerly resided in geographic place 2.",
+  "scope_notes": "Live/resident/residence and explicit resettlement qualify. Visiting, travel, work, officeholding and citizenship alone do not establish residence.",
+  "facts": [
+    {
+      "case_id": "rel_143__ent_318__ent_517",
+      "judgment": "ambiguous",
+      "reason": "Cubans explicitly live in United States, but Mexicans traveling there share the same inferred entity pair. The population identity is mixed and cannot be resolved from this case.",
+      "evidence_lines": [
+        2127,
+        4725
+      ],
+      "issue_tags": [
+        "entity_name_conflict"
+      ],
+      "reviewer_question": "Does this inferred population denote Cubans or Mexicans, and which group is the residence fact intended to identify?"
+    },
+    {
+      "case_id": "rel_143__ent_1201__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Gorbachev comes to Washington and meets there. The home-from-meeting path concerns a journey home, not a Washington home or residence.",
+      "evidence_lines": [
+        4731,
+        4735,
+        4739
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_143__ent_1107__ent_732",
+      "judgment": "incorrect",
+      "reason": "A fragmentary Republicans/Clinton response path does not express residence, and Clinton is not a geographic place.",
+      "evidence_lines": [
+        5519
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_143__ent_639__ent_724",
+      "judgment": "incorrect",
+      "reason": "Democrats and Hillary Clinton are linked through choice-with, not residence in a place.",
+      "evidence_lines": [
+        7593
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_143__ent_838__ent_831",
+      "judgment": "supported",
+      "reason": "Serbs explicitly live in Croatia. Fleeing or being driven from it is consistent with historical residence.",
+      "evidence_lines": [
+        2145,
+        2147
+      ],
+      "issue_tags": [
+        "historical_relation"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

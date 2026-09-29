@@ -1,0 +1,63 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_285",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_285__ent_191__ent_194",
+        "rel_285__ent_191__ent_530",
+        "rel_285__ent_168__ent_161",
+        "rel_285__ent_773__ent_293"
+      ],
+      "judgment": "supported",
+      "reason": "A local director/co-director assertion establishes directorship at or within the named institution.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_285__ent_109__ent_522"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Director evidence merges Maria Fiorini Ramirez/Drexel Burnham Lambert with Charles Elson/University of Delaware.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which director/institution pair should the fact identify?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_285__ent_573__ent_54"
+      ],
+      "judgment": "incorrect",
+      "reason": "A neighborhood area-in-place construction does not assert directorship.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "e80c59d225dcbf34a46bfa018bf791be229a2bbab7bf11deb4ef29b60f28ceb5"
+}

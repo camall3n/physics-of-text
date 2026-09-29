@@ -1,0 +1,75 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_231",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_231__ent_604__ent_1254",
+        "rel_231__ent_601__ent_843",
+        "rel_231__ent_844__ent_1002",
+        "rel_231__ent_938__ent_333"
+      ],
+      "judgment": "supported",
+      "reason": "The local lawyer-in or geographic lawyer nominal modifier explicitly establishes legal practice in this place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1,
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_231__ent_1255__ent_333",
+        "rel_231__ent_603__ent_333",
+        "rel_231__ent_605__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Lawyer-location support is present, but the inferred subject merges incompatible named people or a person with a nonperson.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which literal person should this inferred entity represent after separating the incompatible names?"
+    },
+    {
+      "indices": [
+        5,
+        8,
+        9,
+        10
+      ],
+      "case_ids": [
+        "rel_231__ent_842__ent_841",
+        "rel_231__ent_166__ent_165",
+        "rel_231__ent_1177__ent_1359",
+        "rel_231__ent_539__ent_713"
+      ],
+      "judgment": "incorrect",
+      "reason": "The rows concern a legal subject, a co-op description without lawyer role, sporting victory, or business holdings rather than a lawyer practicing in a geographic place.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c1f4c4f82eb74797705023b797e3eedb35327802a17eae143713514ac8b4c5fc"
+}

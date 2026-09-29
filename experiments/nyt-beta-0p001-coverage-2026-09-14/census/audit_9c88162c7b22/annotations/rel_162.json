@@ -1,0 +1,55 @@
+{
+  "relation": "rel_162",
+  "predicate_id": "organization_operates_in_domain",
+  "label": "organization operates in industry or domain",
+  "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+  "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain.",
+  "facts": [
+    {
+      "case_id": "rel_162__ent_1080__ent_936",
+      "judgment": "supported",
+      "reason": "DoubleClick → Internet: Explicit Internet advertising-agency and company-domain descriptions establish the organization’s Internet business field.",
+      "evidence_lines": [
+        6855,
+        6856,
+        6857,
+        6859,
+        6860,
+        6861,
+        6862
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.371Z"
+      }
+    },
+    {
+      "case_id": "rel_162__ent_345__ent_333",
+      "judgment": "incorrect",
+      "reason": "Corcoran Group → Manhattan: Manhattan is a geographic modifier of a brokerage/agency, not a business industry or technological domain.",
+      "evidence_lines": [
+        7370,
+        7373,
+        7374,
+        7375,
+        7376,
+        7378
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.371Z"
+      }
+    }
+  ],
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3d875fc630acc1b1ccbe94cb7e1d0fcb07198f4bd72c41a07773accd506e9c3b"
+}

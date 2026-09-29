@@ -1,0 +1,790 @@
+{
+  "generated_at": "2026-09-28T23:38:33.120Z",
+  "note": "MAP counts, not final counts. Manual estimates are stratified screens, not censuses; ambiguity endpoints are not confidence bounds. Different models have incomparable log-joint values.",
+  "results": [
+    {
+      "id": "entityfix_latent_beta01_seed20260912",
+      "arm": "entityfix_latent_beta01",
+      "seed": 20260912,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.1,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": false,
+        "sentenceRelationMoveWeight": 0,
+        "seed": 20260912,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 154.536,
+      "map": {
+        "iteration": 977,
+        "log_joint": -172033.07771673804,
+        "available_entities": 1180,
+        "expressed_entities": 1178,
+        "mixed_name_entity_ids": 433,
+        "changed_argument_mentions": 5111,
+        "total_facts": 2130,
+        "expressed_facts": 2113,
+        "facts_with_multiple_literal_pairs": 124,
+        "occupied_relations": 276,
+        "expressed_relations": 275,
+        "top20_facts": 1184,
+        "top20_rows": 5299,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 2.277173913043478
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 5126,
+          "entities": 1180,
+          "facts": 2139,
+          "expressed_facts": 2113,
+          "occupied_relations": 281,
+          "expressed_relations": 281,
+          "log_joint": -172233.08244612734
+        },
+        "last100_mean_joint": -173102.30357168338,
+        "previous100_mean_joint": -174758.38599615946,
+        "last100_minus_previous100": 1656.0824244760734,
+        "last100_at_capacity": 0,
+        "last100_at_least_capacity_minus_one": 0
+      },
+      "summary": {
+        "seed": 20260912,
+        "freezeArgumentEntities": false,
+        "entity_iterations": 20,
+        "relation_iterations": 980,
+        "entity_proposals": 40000,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 5815,
+        "final_changed_argument_mentions": 5126,
+        "synchronization_changes": 3368,
+        "acceptance_report": "relation splits 45791/104927 accepted, merges 45801/82611 accepted",
+        "sentenceRelationMoveWeight": 0,
+        "sentence_relation_move_report": "sentence relation bridge 0/0 accepted; 0 unreferenced targets blocked"
+      },
+      "audit_id": "audit_384a3e2233",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 46,
+          "incorrect": 48,
+          "ambiguous": 6
+        },
+        "micro": {
+          "lower": 0.4613175675675675,
+          "upper": 0.520777027027027
+        },
+        "macro": {
+          "lower": 0.45999999999999996,
+          "upper": 0.5200000000000001
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.050675675675675665,
+          "strict_upper": 0.9282094594594593,
+          "optimistic_lower": 0.07263513513513511,
+          "optimistic_upper": 0.9391891891891891,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "entityfix_latent_beta01_seed20260913",
+      "arm": "entityfix_latent_beta01",
+      "seed": 20260913,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.1,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": false,
+        "sentenceRelationMoveWeight": 0,
+        "seed": 20260913,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 152.515,
+      "map": {
+        "iteration": 978,
+        "log_joint": -174060.36790860898,
+        "available_entities": 1161,
+        "expressed_entities": 1160,
+        "mixed_name_entity_ids": 444,
+        "changed_argument_mentions": 5289,
+        "total_facts": 2215,
+        "expressed_facts": 2195,
+        "facts_with_multiple_literal_pairs": 118,
+        "occupied_relations": 288,
+        "expressed_relations": 288,
+        "top20_facts": 1197,
+        "top20_rows": 5303,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 2.360869565217391
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 5278,
+          "entities": 1161,
+          "facts": 2224,
+          "expressed_facts": 2192,
+          "occupied_relations": 287,
+          "expressed_relations": 287,
+          "log_joint": -174185.61429195397
+        },
+        "last100_mean_joint": -175071.39766677775,
+        "previous100_mean_joint": -176597.5924983641,
+        "last100_minus_previous100": 1526.1948315863556,
+        "last100_at_capacity": 0,
+        "last100_at_least_capacity_minus_one": 0
+      },
+      "summary": {
+        "seed": 20260913,
+        "freezeArgumentEntities": false,
+        "entity_iterations": 20,
+        "relation_iterations": 980,
+        "entity_proposals": 40000,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 6053,
+        "final_changed_argument_mentions": 5278,
+        "synchronization_changes": 3766,
+        "acceptance_report": "relation splits 45531/105505 accepted, merges 45732/82319 accepted",
+        "sentenceRelationMoveWeight": 0,
+        "sentence_relation_move_report": "sentence relation bridge 0/0 accepted; 0 unreferenced targets blocked"
+      },
+      "audit_id": "audit_c0010fff1d",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 41,
+          "incorrect": 52,
+          "ambiguous": 7
+        },
+        "micro": {
+          "lower": 0.3727652464494569,
+          "upper": 0.4374269005847953
+        },
+        "macro": {
+          "lower": 0.41,
+          "upper": 0.4800000000000001
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.06098579782790309,
+          "strict_upper": 0.8796992481203005,
+          "optimistic_lower": 0.07268170426065163,
+          "optimistic_upper": 0.9022556390977443,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "verbatim_beta0001_seed20260912",
+      "arm": "verbatim_beta0001",
+      "seed": 20260912,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.001,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": true,
+        "sentenceRelationMoveWeight": 0,
+        "seed": 20260912,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 63.355,
+      "map": {
+        "iteration": 971,
+        "log_joint": -155829.62784747436,
+        "available_entities": 1199,
+        "expressed_entities": 1199,
+        "mixed_name_entity_ids": 0,
+        "changed_argument_mentions": 0,
+        "total_facts": 1937,
+        "expressed_facts": 1929,
+        "facts_with_multiple_literal_pairs": 0,
+        "occupied_relations": 398,
+        "expressed_relations": 398,
+        "top20_facts": 384,
+        "top20_rows": 1824,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 2.0967391304347824
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 0,
+          "entities": 1199,
+          "facts": 1938,
+          "expressed_facts": 1928,
+          "occupied_relations": 399,
+          "expressed_relations": 399,
+          "log_joint": -155902.96649014126
+        },
+        "last100_mean_joint": -156125.47636614807,
+        "previous100_mean_joint": -156708.56126744777,
+        "last100_minus_previous100": 583.084901299706,
+        "last100_at_capacity": 20,
+        "last100_at_least_capacity_minus_one": 47
+      },
+      "summary": {
+        "seed": 20260912,
+        "freezeArgumentEntities": true,
+        "entity_iterations": 0,
+        "relation_iterations": 980,
+        "entity_proposals": 0,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 0,
+        "final_changed_argument_mentions": 0,
+        "synchronization_changes": 0,
+        "acceptance_report": "relation splits 12227/59217 accepted, merges 12215/81956 accepted",
+        "sentenceRelationMoveWeight": 0,
+        "sentence_relation_move_report": "sentence relation bridge 0/0 accepted; 0 unreferenced targets blocked"
+      },
+      "audit_id": "audit_5e74dee865",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 90,
+          "incorrect": 4,
+          "ambiguous": 6
+        },
+        "micro": {
+          "lower": 0.91875,
+          "upper": 0.9598958333333334
+        },
+        "macro": {
+          "lower": 0.9,
+          "upper": 0.9600000000000002
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.32812499999999994,
+          "strict_upper": 0.9739583333333334,
+          "optimistic_lower": 0.35156249999999994,
+          "optimistic_upper": 0.9895833333333334,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "verbatim_beta0001_seed20260913",
+      "arm": "verbatim_beta0001",
+      "seed": 20260913,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.001,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": true,
+        "sentenceRelationMoveWeight": 0,
+        "seed": 20260913,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 74.314,
+      "map": {
+        "iteration": 972,
+        "log_joint": -156097.55968954047,
+        "available_entities": 1199,
+        "expressed_entities": 1199,
+        "mixed_name_entity_ids": 0,
+        "changed_argument_mentions": 0,
+        "total_facts": 1947,
+        "expressed_facts": 1942,
+        "facts_with_multiple_literal_pairs": 0,
+        "occupied_relations": 400,
+        "expressed_relations": 400,
+        "top20_facts": 364,
+        "top20_rows": 1583,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 2.110869565217391
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 0,
+          "entities": 1199,
+          "facts": 1956,
+          "expressed_facts": 1941,
+          "occupied_relations": 400,
+          "expressed_relations": 400,
+          "log_joint": -156154.145960546
+        },
+        "last100_mean_joint": -156528.23341614762,
+        "previous100_mean_joint": -157047.79119735953,
+        "last100_minus_previous100": 519.5577812119154,
+        "last100_at_capacity": 14,
+        "last100_at_least_capacity_minus_one": 45
+      },
+      "summary": {
+        "seed": 20260913,
+        "freezeArgumentEntities": true,
+        "entity_iterations": 0,
+        "relation_iterations": 980,
+        "entity_proposals": 0,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 0,
+        "final_changed_argument_mentions": 0,
+        "synchronization_changes": 0,
+        "acceptance_report": "relation splits 11532/56926 accepted, merges 11551/82243 accepted",
+        "sentenceRelationMoveWeight": 0,
+        "sentence_relation_move_report": "sentence relation bridge 0/0 accepted; 0 unreferenced targets blocked"
+      },
+      "audit_id": "audit_6260319b65",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 84,
+          "incorrect": 7,
+          "ambiguous": 9
+        },
+        "micro": {
+          "lower": 0.8582417582417582,
+          "upper": 0.9384615384615385
+        },
+        "macro": {
+          "lower": 0.8399999999999999,
+          "upper": 0.9299999999999999
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.3049450549450549,
+          "strict_upper": 0.9560439560439561,
+          "optimistic_lower": 0.3489010989010989,
+          "optimistic_upper": 0.9807692307692307,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "verbatim_beta01_bridge_seed20260912",
+      "arm": "verbatim_beta01_bridge",
+      "seed": 20260912,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.1,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": true,
+        "sentenceRelationMoveWeight": 1,
+        "seed": 20260912,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 81.291,
+      "map": {
+        "iteration": 979,
+        "log_joint": -149345.76859789126,
+        "available_entities": 1199,
+        "expressed_entities": 1199,
+        "mixed_name_entity_ids": 0,
+        "changed_argument_mentions": 0,
+        "total_facts": 1302,
+        "expressed_facts": 1302,
+        "facts_with_multiple_literal_pairs": 0,
+        "occupied_relations": 200,
+        "expressed_relations": 200,
+        "top20_facts": 727,
+        "top20_rows": 5034,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 1.4152173913043478
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 0,
+          "entities": 1199,
+          "facts": 1301,
+          "expressed_facts": 1301,
+          "occupied_relations": 208,
+          "expressed_relations": 208,
+          "log_joint": -149347.6146557869
+        },
+        "last100_mean_joint": -149740.91541692996,
+        "previous100_mean_joint": -150508.62298966802,
+        "last100_minus_previous100": 767.7075727380579,
+        "last100_at_capacity": 0,
+        "last100_at_least_capacity_minus_one": 0
+      },
+      "summary": {
+        "seed": 20260912,
+        "freezeArgumentEntities": true,
+        "entity_iterations": 0,
+        "relation_iterations": 980,
+        "entity_proposals": 0,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 0,
+        "final_changed_argument_mentions": 0,
+        "synchronization_changes": 0,
+        "acceptance_report": "relation splits 34683/78469 accepted, merges 34866/61286 accepted",
+        "sentenceRelationMoveWeight": 1,
+        "sentence_relation_move_report": "sentence relation bridge 7252/443451 accepted; 76 unreferenced targets blocked"
+      },
+      "audit_id": "audit_4c50ddb65b",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 67,
+          "incorrect": 29,
+          "ambiguous": 4
+        },
+        "micro": {
+          "lower": 0.6099037138927096,
+          "upper": 0.6781292984869326
+        },
+        "macro": {
+          "lower": 0.6699999999999999,
+          "upper": 0.71
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.14580467675378267,
+          "strict_upper": 0.9284731774415407,
+          "optimistic_lower": 0.1636863823933975,
+          "optimistic_upper": 0.9491059147180192,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "verbatim_beta01_bridge_seed20260913",
+      "arm": "verbatim_beta01_bridge",
+      "seed": 20260913,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.1,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": true,
+        "sentenceRelationMoveWeight": 1,
+        "seed": 20260913,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 92.428,
+      "map": {
+        "iteration": 973,
+        "log_joint": -150164.22482198503,
+        "available_entities": 1199,
+        "expressed_entities": 1199,
+        "mixed_name_entity_ids": 0,
+        "changed_argument_mentions": 0,
+        "total_facts": 1336,
+        "expressed_facts": 1336,
+        "facts_with_multiple_literal_pairs": 0,
+        "occupied_relations": 199,
+        "expressed_relations": 199,
+        "top20_facts": 742,
+        "top20_rows": 4894,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 1.4521739130434783
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 0,
+          "entities": 1199,
+          "facts": 1339,
+          "expressed_facts": 1336,
+          "occupied_relations": 193,
+          "expressed_relations": 193,
+          "log_joint": -150234.75341764325
+        },
+        "last100_mean_joint": -150516.99568413195,
+        "previous100_mean_joint": -151232.53309950282,
+        "last100_minus_previous100": 715.537415370869,
+        "last100_at_capacity": 0,
+        "last100_at_least_capacity_minus_one": 0
+      },
+      "summary": {
+        "seed": 20260913,
+        "freezeArgumentEntities": true,
+        "entity_iterations": 0,
+        "relation_iterations": 980,
+        "entity_proposals": 0,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 0,
+        "final_changed_argument_mentions": 0,
+        "synchronization_changes": 0,
+        "acceptance_report": "relation splits 34106/79211 accepted, merges 34351/60539 accepted",
+        "sentenceRelationMoveWeight": 1,
+        "sentence_relation_move_report": "sentence relation bridge 7297/444598 accepted; 70 unreferenced targets blocked"
+      },
+      "audit_id": "audit_08e2dd6fc7",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 62,
+          "incorrect": 27,
+          "ambiguous": 11
+        },
+        "micro": {
+          "lower": 0.6444743935309973,
+          "upper": 0.7517520215633422
+        },
+        "macro": {
+          "lower": 0.6199999999999999,
+          "upper": 0.73
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.13072776280323448,
+          "strict_upper": 0.9407008086253369,
+          "optimistic_lower": 0.183288409703504,
+          "optimistic_upper": 0.9595687331536387,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "verbatim_beta01_seed20260912",
+      "arm": "verbatim_beta01",
+      "seed": 20260912,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.1,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": true,
+        "sentenceRelationMoveWeight": 0,
+        "seed": 20260912,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 79.889,
+      "map": {
+        "iteration": 978,
+        "log_joint": -148104.04311029988,
+        "available_entities": 1199,
+        "expressed_entities": 1199,
+        "mixed_name_entity_ids": 0,
+        "changed_argument_mentions": 0,
+        "total_facts": 1244,
+        "expressed_facts": 1244,
+        "facts_with_multiple_literal_pairs": 0,
+        "occupied_relations": 181,
+        "expressed_relations": 181,
+        "top20_facts": 735,
+        "top20_rows": 5368,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 1.3521739130434782
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 0,
+          "entities": 1199,
+          "facts": 1245,
+          "expressed_facts": 1244,
+          "occupied_relations": 187,
+          "expressed_relations": 187,
+          "log_joint": -148133.15372818836
+        },
+        "last100_mean_joint": -148414.56565919294,
+        "previous100_mean_joint": -148988.85932417988,
+        "last100_minus_previous100": 574.2936649869371,
+        "last100_at_capacity": 0,
+        "last100_at_least_capacity_minus_one": 0
+      },
+      "summary": {
+        "seed": 20260912,
+        "freezeArgumentEntities": true,
+        "entity_iterations": 0,
+        "relation_iterations": 980,
+        "entity_proposals": 0,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 0,
+        "final_changed_argument_mentions": 0,
+        "synchronization_changes": 0,
+        "acceptance_report": "relation splits 46003/101405 accepted, merges 46240/79527 accepted",
+        "sentenceRelationMoveWeight": 0,
+        "sentence_relation_move_report": "sentence relation bridge 0/0 accepted; 0 unreferenced targets blocked"
+      },
+      "audit_id": "audit_dba5006d06",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 72,
+          "incorrect": 24,
+          "ambiguous": 4
+        },
+        "micro": {
+          "lower": 0.7444897959183672,
+          "upper": 0.7885714285714287
+        },
+        "macro": {
+          "lower": 0.72,
+          "upper": 0.76
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.19183673469387758,
+          "strict_upper": 0.9523809523809522,
+          "optimistic_lower": 0.217687074829932,
+          "optimistic_upper": 0.9591836734693878,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    },
+    {
+      "id": "verbatim_beta01_seed20260913",
+      "arm": "verbatim_beta01",
+      "seed": 20260913,
+      "config": {
+        "numRels": 200,
+        "maxRels": 400,
+        "numEnts": 1199,
+        "numIterations": 1000,
+        "stepsPerIteration": 2000,
+        "entityFraction": 0.02,
+        "alpha": 0.001,
+        "beta": 0.1,
+        "sparsity": 0.001,
+        "sparsityA": 1,
+        "sparsityB": 1437601,
+        "freezeArgumentEntities": true,
+        "sentenceRelationMoveWeight": 0,
+        "seed": 20260913,
+        "checkpointEvery": 100
+      },
+      "corpus_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "elapsed_seconds": 85.887,
+      "map": {
+        "iteration": 976,
+        "log_joint": -148368.2647153187,
+        "available_entities": 1199,
+        "expressed_entities": 1199,
+        "mixed_name_entity_ids": 0,
+        "changed_argument_mentions": 0,
+        "total_facts": 1249,
+        "expressed_facts": 1249,
+        "facts_with_multiple_literal_pairs": 0,
+        "occupied_relations": 185,
+        "expressed_relations": 185,
+        "top20_facts": 715,
+        "top20_rows": 5096,
+        "literal_pairs": 920,
+        "mean_relations_per_literal_pair": 1.357608695652174
+      },
+      "trace": {
+        "last_checkpoint": {
+          "relation_iteration": 980,
+          "changed_argument_mentions_from_initial": 0,
+          "entities": 1199,
+          "facts": 1249,
+          "expressed_facts": 1249,
+          "occupied_relations": 196,
+          "expressed_relations": 196,
+          "log_joint": -148426.25981564907
+        },
+        "last100_mean_joint": -148638.82485034334,
+        "previous100_mean_joint": -149342.90673715257,
+        "last100_minus_previous100": 704.081886809232,
+        "last100_at_capacity": 0,
+        "last100_at_least_capacity_minus_one": 0
+      },
+      "summary": {
+        "seed": 20260913,
+        "freezeArgumentEntities": true,
+        "entity_iterations": 0,
+        "relation_iterations": 980,
+        "entity_proposals": 0,
+        "relation_proposals": 1960000,
+        "post_entity_changed_argument_mentions": 0,
+        "final_changed_argument_mentions": 0,
+        "synchronization_changes": 0,
+        "acceptance_report": "relation splits 44974/102032 accepted, merges 45109/78874 accepted",
+        "sentenceRelationMoveWeight": 0,
+        "sentence_relation_move_report": "sentence relation bridge 0/0 accepted; 0 unreferenced targets blocked"
+      },
+      "audit_id": "audit_fb501b5da8",
+      "assessment": {
+        "sampled_facts": 100,
+        "sample_counts": {
+          "supported": 67,
+          "incorrect": 27,
+          "ambiguous": 6
+        },
+        "micro": {
+          "lower": 0.6674125874125874,
+          "upper": 0.7241958041958041
+        },
+        "macro": {
+          "lower": 0.6700000000000002,
+          "upper": 0.7300000000000002
+        },
+        "conservative_sampling_bounds": {
+          "confidence": 0.95,
+          "tail_alpha_per_stratum_bound": 0.00125,
+          "strict_lower": 0.1678321678321679,
+          "strict_upper": 0.9384615384615387,
+          "optimistic_lower": 0.18321678321678328,
+          "optimistic_upper": 0.9566433566433569,
+          "explanation": "Finite-population hypergeometric inversion; each endpoint interval uses Bonferroni across 20 strata. The strict lower and optimistic upper together also give a conservative 95% envelope covering sampling uncertainty plus ambiguity endpoints. Wide bounds are intentional. Coverage concerns the random sample of this saved run, conditional on fixed case judgments, not run-to-run randomness or reviewer validity."
+        }
+      }
+    }
+  ]
+}

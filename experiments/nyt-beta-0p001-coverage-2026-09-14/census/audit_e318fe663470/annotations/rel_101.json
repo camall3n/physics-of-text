@@ -1,0 +1,104 @@
+{
+  "relation": "rel_101",
+  "predicate_id": "played_at_sporting_venue",
+  "label": "played at sporting venue",
+  "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+  "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+  "facts": [
+    {
+      "case_id": "rel_101__ent_562__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mr. Smith → Washington: Political/legal travel, legislative negotiation or a tourist/critic location is not sporting venue use.",
+      "evidence_lines": [
+        3409,
+        3410,
+        3412,
+        3413
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.694Z"
+      }
+    },
+    {
+      "case_id": "rel_101__ent_321__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: Explicit play-at or completed beat/defeat-at constructions establish competitive play at the stadium.",
+      "evidence_lines": [
+        5207,
+        5211,
+        5213,
+        5215
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.694Z"
+      }
+    },
+    {
+      "case_id": "rel_101__ent_1313__ent_681",
+      "judgment": "supported",
+      "reason": "Jets → Giants Stadium: Explicit play-at or completed beat/defeat-at constructions establish competitive play at the stadium.",
+      "evidence_lines": [
+        4846,
+        4848,
+        4849
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.694Z"
+      }
+    },
+    {
+      "case_id": "rel_101__ent_122__ent_612",
+      "judgment": "incorrect",
+      "reason": "House → Senate: Political/legal travel, legislative negotiation or a tourist/critic location is not sporting venue use.",
+      "evidence_lines": [
+        1979,
+        1980
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.694Z"
+      }
+    },
+    {
+      "case_id": "rel_101__ent_1381__ent_821",
+      "judgment": "incorrect",
+      "reason": "American → London: Political/legal travel, legislative negotiation or a tourist/critic location is not sporting venue use.",
+      "evidence_lines": [
+        2103,
+        2107
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.694Z"
+      }
+    }
+  ],
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f72afd613fbd2e2c5780c1c9c2dae3964b4443ee1bcc4a8eec1c75637deed91c"
+}

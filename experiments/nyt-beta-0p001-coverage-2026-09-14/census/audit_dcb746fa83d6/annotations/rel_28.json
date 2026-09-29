@@ -1,0 +1,125 @@
+{
+  "relation": "rel_28",
+  "predicate_id": "managerial_office_in",
+  "label": "managerial or leadership office in",
+  "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+  "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+  "facts": [
+    {
+      "case_id": "rel_28__ent_1337__ent_1273",
+      "judgment": "ambiguous",
+      "reason": "Yasir Arafat → Palestine Liberation Organization: Possessing a faction within the organization suggests influence but does not identify the actual managerial office or unambiguous management role.",
+      "evidence_lines": [
+        234,
+        2940,
+        5032,
+        5739
+      ],
+      "issue_tags": [
+        "omitted_role"
+      ],
+      "reviewer_question": "Does the source state that Yasir Arafat heads or manages the organization or an identified faction, beyond the possessive faction wording?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.628Z"
+      }
+    },
+    {
+      "case_id": "rel_28__ent_291__ent_119",
+      "judgment": "incorrect",
+      "reason": "Karen P. Hughes → Mr. Bush: Counselor, confidante or adviser service and a geographic religious-person reference do not establish a managerial office.",
+      "evidence_lines": [
+        3584,
+        3588,
+        3589
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.628Z"
+      }
+    },
+    {
+      "case_id": "rel_28__ent_31__ent_1216",
+      "judgment": "ambiguous",
+      "reason": "Harry Reid → Democratic: Leadership language is present but Democratic is an incomplete institutional adjective rather than a clearly identified party body.",
+      "evidence_lines": [
+        3720,
+        3723,
+        3724
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Which complete political body does Democratic identify in this leadership statement?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.628Z"
+      }
+    },
+    {
+      "case_id": "rel_28__ent_1419__ent_85",
+      "judgment": "ambiguous",
+      "reason": "Craig Hammerman → Community Board; Paul Goldstein → Community Board: Each row gives a manager role, but Paul Goldstein and Craig Hammerman are distinct named people merged in one latent subject.",
+      "evidence_lines": [
+        3390,
+        3393
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Should Paul Goldstein and Craig Hammerman be separate people before evaluating their board managerial offices?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.628Z"
+      }
+    },
+    {
+      "case_id": "rel_28__ent_264__ent_1305",
+      "judgment": "ambiguous",
+      "reason": "Richard A. Gephardt → Democratic: Leadership language is present but Democratic is an incomplete institutional adjective rather than a clearly identified party body.",
+      "evidence_lines": [
+        3756,
+        3757
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Which complete political body does Democratic identify in this leadership statement?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.628Z"
+      }
+    },
+    {
+      "case_id": "rel_28__ent_888__ent_312",
+      "judgment": "incorrect",
+      "reason": "John → Manhattan: Counselor, confidante or adviser service and a geographic religious-person reference do not establish a managerial office.",
+      "evidence_lines": [
+        3968
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:37:14.628Z"
+      }
+    }
+  ],
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "63c4ea7f7861156c307ec0ef3d46e8e999b6577597393a06de59908b58b271fd"
+}

@@ -1,0 +1,121 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_238",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        19,
+        21,
+        23,
+        24
+      ],
+      "case_ids": [
+        "rel_238__ent_261__ent_263",
+        "rel_238__ent_264__ent_811",
+        "rel_238__ent_266__ent_811",
+        "rel_238__ent_265__ent_1197",
+        "rel_238__ent_268__ent_1197",
+        "rel_238__ent_267__ent_1197",
+        "rel_238__ent_68__ent_811",
+        "rel_238__ent_267__ent_263",
+        "rel_238__ent_268__ent_1139",
+        "rel_238__ent_676__ent_1131",
+        "rel_238__ent_131__ent_373",
+        "rel_238__ent_58__ent_53",
+        "rel_238__ent_268__ent_263",
+        "rel_238__ent_1132__ent_436",
+        "rel_238__ent_261__ent_1197",
+        "rel_238__ent_435__ent_677",
+        "rel_238__ent_1130__ent_434",
+        "rel_238__ent_133__ent_375",
+        "rel_238__ent_52__ent_55",
+        "rel_238__ent_4__ent_3",
+        "rel_238__ent_247__ent_489"
+      ],
+      "judgment": "supported",
+      "reason": "At least one case-local row directly establishes the declared leadership office in the identified organization or political body. Other candidacy, activity, or incidental paths do not negate that explicit role.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        13,
+        16,
+        22
+      ],
+      "case_ids": [
+        "rel_238__ent_264__ent_36",
+        "rel_238__ent_49__ent_36",
+        "rel_238__ent_67__ent_69"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The leadership phrase has only Democratic or Bosnian Serb as its object, leaving the complete political institution or group unresolved.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which complete named institution or political group is meant?"
+    },
+    {
+      "indices": [
+        20,
+        25,
+        26,
+        27,
+        28
+      ],
+      "case_ids": [
+        "rel_238__ent_111__ent_1040",
+        "rel_238__ent_811__ent_1197",
+        "rel_238__ent_270__ent_71",
+        "rel_238__ent_1101__ent_225",
+        "rel_238__ent_468__ent_1163"
+      ],
+      "judgment": "incorrect",
+      "reason": "The case describes coaching an individual, a body-to-body association, ordinary commission membership/resignation, or residence/population rather than the named person holding the declared organizational leadership office.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    12,
+    14,
+    15,
+    17,
+    18,
+    21,
+    24
+  ],
+  "broad": []
+}

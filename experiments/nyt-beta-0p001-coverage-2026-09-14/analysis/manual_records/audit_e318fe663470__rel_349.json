@@ -1,0 +1,76 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_349",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_349__ent_253__ent_1221",
+        "rel_349__ent_257__ent_1221",
+        "rel_349__ent_499__ent_333",
+        "rel_349__ent_494__ent_333",
+        "rel_349__ent_252__ent_333",
+        "rel_349__ent_254__ent_496",
+        "rel_349__ent_253__ent_572",
+        "rel_349__ent_104__ent_347"
+      ],
+      "judgment": "supported",
+      "reason": "A local president-title or holding/swearing-in assertion establishes the specified presidency; separate candidacy context does not remove this existential support.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        9
+      ],
+      "case_ids": [
+        "rel_349__ent_253__ent_167",
+        "rel_349__ent_842__ent_1331"
+      ],
+      "judgment": "ambiguous",
+      "reason": "An explicit presidency row is merged with an incompatible person/institution pair in this same fact.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which pair should the inferred fact identify after separating the incompatible names?"
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_349__ent_758__ent_587"
+      ],
+      "judgment": "incorrect",
+      "reason": "Confirmation as an attorney does not establish a president office.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    9
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "52f14c2523d4775583e8564a44f787f6127dfab27b179768ed363d09fc44f325"
+}

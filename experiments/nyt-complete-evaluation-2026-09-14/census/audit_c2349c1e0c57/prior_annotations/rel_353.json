@@ -1,0 +1,83 @@
+{
+  "relation": "rel_353",
+  "label": "lives or has lived in",
+  "definition": "Person X lives or has lived in geographic location Y.",
+  "scope_notes": "This highly mixed dictionary was inspected together with all 32 relation facts before selection. Its largest recurring place-oriented family comprises obituary-style personal-name/of-city paths and explicit home/live-in paths; the directional residence criterion is retained without merging it with workplace location. Explicit residence/home qualifies. Bare son/brother apposition to a city needs attachment review; professional practice, company location, generic presence and organizational leadership alone are different predicates.",
+  "facts": [
+    {
+      "case_id": "rel_353__ent_63__ent_543",
+      "judgment": "incorrect",
+      "reason": "The rows concern signing and basketball rebounds for Nets; no geographic residence relation is present.",
+      "evidence_lines": [
+        3099,
+        3100,
+        3102
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_353__ent_844__ent_1002",
+      "judgment": "incorrect",
+      "reason": "John Dowd is described as a Washington lawyer or attorney. Professional location alone does not establish that he resides there.",
+      "evidence_lines": [
+        2290,
+        2291,
+        2293
+      ],
+      "issue_tags": [
+        "other_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_353__ent_481__ent_242",
+      "judgment": "incorrect",
+      "reason": "Sotheby is on York Avenue and holds a sale. This is business location, not a person residing in the place.",
+      "evidence_lines": [
+        6250,
+        6253
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_353__ent_7__ent_485",
+      "judgment": "incorrect",
+      "reason": "A Democrat chairs, heads and serves on Senate Armed Services Committee. These are organizational roles rather than residence in a geographical location.",
+      "evidence_lines": [
+        6309,
+        6310,
+        6312,
+        6316
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_353__ent_933__ent_936",
+      "judgment": "incorrect",
+      "reason": "Google is an Internet company or search engine; Internet is a sector and the subject is an organization, so the fact does not express personal residence.",
+      "evidence_lines": [
+        6834,
+        6835,
+        6838,
+        6841
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

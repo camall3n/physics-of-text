@@ -1,0 +1,70 @@
+{
+  "relation": "rel_381",
+  "predicate_id": "manager_of",
+  "label": "manager of institution",
+  "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+  "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+  "facts": [
+    {
+      "case_id": "rel_381__ent_89__ent_86",
+      "judgment": "supported",
+      "reason": "Whitey Herzog → Cardinals: Explicit manager-of and replacement-as-manager paths establish the sports managerial office, including historical tenure.",
+      "evidence_lines": [
+        3381,
+        3382,
+        3384,
+        3385,
+        3387,
+        3388
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.914Z"
+      }
+    },
+    {
+      "case_id": "rel_381__ent_261__ent_263",
+      "judgment": "incorrect",
+      "reason": "Bob Dole → Republican: Political minority leadership and nomination are not an explicitly stated manager office.",
+      "evidence_lines": [
+        2991,
+        2993,
+        3715,
+        3717
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.914Z"
+      }
+    },
+    {
+      "case_id": "rel_381__ent_332__ent_323",
+      "judgment": "incorrect",
+      "reason": "Williamsburg → Brooklyn: A section/enclave in Brooklyn is a geographic relationship, not a person managing an institution.",
+      "evidence_lines": [
+        1113,
+        1114,
+        1116
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:32.914Z"
+      }
+    }
+  ],
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "d0be1a20c73dc5abdb3559ba7e94ba70cb64573afba923fd15a5c44142ca3851"
+}

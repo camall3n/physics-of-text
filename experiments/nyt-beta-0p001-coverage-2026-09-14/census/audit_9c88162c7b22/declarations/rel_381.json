@@ -1,0 +1,47 @@
+{
+  "relation": "rel_381",
+  "predicate_id": "manager_of",
+  "predicate_version": 1,
+  "predicate_hash": "b816e6de448fbe49f77bcd02eebd1e5555f43a985d58151582578cad649a3f28",
+  "predicate": {
+    "id": "manager_of",
+    "label": "manager of institution",
+    "definition": "Person X holds or held an explicitly identified manager office in organization, team, business, or public institution Y.",
+    "includes": [
+      "explicit manager or general manager",
+      "a functional or departmental managerial office within Y",
+      "historical managerial office"
+    ],
+    "excludes": [
+      "president, director, head, executive, or coach alone without a manager title",
+      "ordinary employment or membership",
+      "candidate or proposed appointment alone"
+    ],
+    "ambiguous": [
+      "a personal principal standing for an omitted institution or campaign",
+      "unclear manager or institutional attachment",
+      "appointment without established tenure"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title.",
+    "scope_notes": "Includes: explicit manager or general manager; a functional or departmental managerial office within Y; historical managerial office. Excludes: president, director, head, executive, or coach alone without a manager title; ordinary employment or membership; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: a personal principal standing for an omitted institution or campaign; unclear manager or institutional attachment; appointment without established tenure. This specific title is separate from president_or_manager_of and managerial_office_in. A sports manager qualifies; merely coaching does not prove the manager title."
+  },
+  "dictionary_sha256": "2cf6cc0c63da1bcbbc41c0827c695d231917c4a195e4ca693e1b40a6541be043",
+  "kind": "declared_before_case_grading",
+  "rationale": "Manager/managerial tenure in WhiteyHerzog→Cardinals is the strongest specific-role family; political front-runner/leader and neighborhood containment remain separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.589Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    4,
+    6,
+    8,
+    9,
+    10
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_381.before_grading.json",
+  "pregrading_annotation_sha256": "f309a2938eb621e342f5b906d2a3277010d73ddd6f78b4111b27ccedc80450d0"
+}

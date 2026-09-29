@@ -1,0 +1,69 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_272",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_272__ent_263__ent_261"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit Republican leader identifies Bob Dole as the party leader; the party label follows the inherited complete-census convention.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "case_ids": [
+        "rel_272__ent_1075__ent_1076",
+        "rel_272__ent_1074__ent_255",
+        "rel_272__ent_932__ent_1292",
+        "rel_272__ent_25__ent_939",
+        "rel_272__ent_37__ent_1201"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The first argument is a nationality adjective with the full country/political body omitted; office support cannot resolve the truncated institution.",
+      "tags": [
+        "truncated_political_body"
+      ],
+      "question": "Which complete political body does this nationality adjective identify?"
+    },
+    {
+      "indices": [
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_272__ent_969__ent_36",
+        "rel_272__ent_1333__ent_969"
+      ],
+      "judgment": "incorrect",
+      "reason": "Forward candidacy or announcing on the Senate floor does not establish that the first body has this person as leader.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "1bc7838463deb4dcf69fa97bdb8b653d5fa700f8d94252bc08ef6b68b664ae5d"
+}

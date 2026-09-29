@@ -1,0 +1,194 @@
+{
+  "audit": "audit_ad8866964cf6",
+  "relation": "rel_340",
+  "cases_sha256": "3799f5abe7c72552c3d02e56851c0e8f79ef70d941404eb61dd078999f964734",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        12,
+        13,
+        14,
+        15,
+        17,
+        21,
+        24,
+        26,
+        31,
+        33,
+        34,
+        38,
+        41,
+        42,
+        43
+      ],
+      "case_ids": [
+        "rel_340__ent_838__ent_831",
+        "rel_340__ent_646__ent_333",
+        "rel_340__ent_1161__ent_5",
+        "rel_340__ent_476__ent_818",
+        "rel_340__ent_467__ent_234",
+        "rel_340__ent_826__ent_1102",
+        "rel_340__ent_643__ent_333",
+        "rel_340__ent_826__ent_825",
+        "rel_340__ent_834__ent_837",
+        "rel_340__ent_988__ent_507",
+        "rel_340__ent_823__ent_537",
+        "rel_340__ent_403__ent_333",
+        "rel_340__ent_428__ent_537",
+        "rel_340__ent_645__ent_333",
+        "rel_340__ent_826__ent_234",
+        "rel_340__ent_1122__ent_537",
+        "rel_340__ent_1101__ent_1198",
+        "rel_340__ent_1101__ent_225",
+        "rel_340__ent_840__ent_839",
+        "rel_340__ent_830__ent_824",
+        "rel_340__ent_833__ent_832",
+        "rel_340__ent_638__ent_832"
+      ],
+      "judgment": "supported",
+      "reason": "A direct live-in, resident-of, resettlement or own-home row supports residence of this person or members of this population.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        9,
+        16,
+        18,
+        19,
+        29,
+        30
+      ],
+      "case_ids": [
+        "rel_340__ent_1100__ent_333",
+        "rel_340__ent_404__ent_333",
+        "rel_340__ent_887__ent_333",
+        "rel_340__ent_406__ent_333",
+        "rel_340__ent_885__ent_333",
+        "rel_340__ent_888__ent_333"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The family/of-city obituary attachment does not clearly attribute residence to this argument; institution or relative readings remain.",
+      "tags": [
+        "attachment"
+      ],
+      "question": "Does the city phrase identify this person’s residence rather than a relative or institution?"
+    },
+    {
+      "indices": [
+        11,
+        23,
+        27
+      ],
+      "case_ids": [
+        "rel_340__ent_822__ent_824",
+        "rel_340__ent_822__ent_835",
+        "rel_340__ent_822__ent_821"
+      ],
+      "judgment": "ambiguous",
+      "reason": "American is a nationality modifier attached to different people or institutions, not a resolved resident entity.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which person or population does American denote, and can its institutional uses be separated?"
+    },
+    {
+      "indices": [
+        25
+      ],
+      "case_ids": [
+        "rel_340__ent_667__ent_537"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The living/migration predicate is explicit, but Born is an unresolved extraction fragment rather than a resident identity.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Who is represented by the argument Born?"
+    },
+    {
+      "indices": [
+        5,
+        6,
+        8,
+        20,
+        22,
+        28,
+        32,
+        35,
+        36,
+        37,
+        39,
+        40,
+        44,
+        45,
+        46
+      ],
+      "case_ids": [
+        "rel_340__ent_819__ent_828",
+        "rel_340__ent_669__ent_492",
+        "rel_340__ent_747__ent_824",
+        "rel_340__ent_828__ent_843",
+        "rel_340__ent_1101__ent_748",
+        "rel_340__ent_79__ent_400",
+        "rel_340__ent_827__ent_843",
+        "rel_340__ent_722__ent_669",
+        "rel_340__ent_816__ent_180",
+        "rel_340__ent_1057__ent_119",
+        "rel_340__ent_933__ent_936",
+        "rel_340__ent_723__ent_965",
+        "rel_340__ent_504__ent_746",
+        "rel_340__ent_749__ent_506",
+        "rel_340__ent_761__ent_760"
+      ],
+      "judgment": "incorrect",
+      "reason": "The case contains political, occupational, commercial, event, travel or death evidence without the required residence statement.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    33,
+    34,
+    38
+  ],
+  "broad": []
+}

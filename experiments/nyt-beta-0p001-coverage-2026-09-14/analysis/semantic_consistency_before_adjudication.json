@@ -1,0 +1,1358 @@
+{
+  "method": "Exact complete sets of literal argument names and dependency paths, identical frozen predicate scope, and same-entity-ID status. Duplicate rows and run-local numeric IDs are ignored. Effective human overrides are included. Flag only; every disagreement needs manual review. Prior references are separate and never enter current score denominators.",
+  "reviewed": 8173,
+  "unreviewed": 315,
+  "prior_references": 9423,
+  "prior_nonidentical_scopes_skipped": 0,
+  "current": {
+    "distinct_signatures": 7656,
+    "repeated_signatures": 384,
+    "disagreement_count": 11,
+    "disagreements": [
+      {
+        "signature_sha256": "6f1b935e5d5425268feaa2ea6b2abddeea3484a32afb201d7a4684866aca0664",
+        "predicate_id": "director_of",
+        "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "appos|->appos->director->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "nsubj|<-nsubj<-director->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "nsubj|<-nsubj<-say->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "pobj|<-pobj<-by<-prep<-essay->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "rcmod|->rcmod->call->prep->for->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_383",
+            "case_id": "rel_383__ent_108__ent_1047",
+            "judgment": "supported",
+            "reason": "Desmond Ryan → Better Long Island: Explicit director wording establishes a director office of or within the identified organization.",
+            "evidence_lines": [
+              1738,
+              1739,
+              1740,
+              1741,
+              1742
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_383.md#rel_383__ent_108__ent_1047"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_175",
+            "case_id": "rel_175__ent_108__ent_721",
+            "judgment": "supported",
+            "reason": "Desmond Ryan → Better Long Island: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+            "evidence_lines": [
+              1738,
+              1739,
+              1740,
+              1741,
+              1742
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_175.md#rel_175__ent_108__ent_721"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_228",
+            "case_id": "rel_228__ent_108__ent_1047",
+            "judgment": "ambiguous",
+            "reason": "Desmond Ryan → Better Long Island: Director-for attaches to Better Long Island, an incomplete or purpose-like institutional designation.",
+            "evidence_lines": [
+              1738,
+              1739,
+              1740,
+              1741,
+              1742
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_228.md#rel_228__ent_108__ent_1047"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "6caf601f851a5574f711926fff19794095000a76195542b76bbbec0ecf4d46d6",
+        "predicate_id": "located_in",
+        "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+        "self_entity": false,
+        "evidence": [
+          [
+            "I.B.M.",
+            "Armonk",
+            "rcmod|->rcmod->have->dobj->working->prep->in->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "located_in",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_47",
+            "case_id": "rel_47__ent_547__ent_1262",
+            "judgment": "ambiguous",
+            "reason": "I.B.M. → Armonk: The sole have-working-in path omits who or what is working and does not clearly establish an organizational office or base.",
+            "evidence_lines": [
+              806,
+              4402
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_47.md#rel_47__ent_547__ent_1262"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "located_in",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_1",
+            "case_id": "rel_1__ent_547__ent_789",
+            "judgment": "supported",
+            "reason": "I.B.M. → Armonk: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+            "evidence_lines": [
+              806,
+              4402
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_1.md#rel_1__ent_547__ent_789"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "263d5696d4a8d3a9929bec7b51e73e09d0a75b30044012361d272731e739575e",
+        "predicate_id": "travels_to",
+        "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Watsons",
+            "Birmingham",
+            "nsubj|<-nsubj<-go->prep->to->pobj->|pobj"
+          ],
+          [
+            "Watsons",
+            "Birmingham",
+            "poss|<-poss<-story<-dobj<-merge->prep->with->pobj->bombing->prep->in->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_67",
+            "case_id": "rel_67__ent_93__ent_82",
+            "judgment": "ambiguous",
+            "reason": "Watsons → Birmingham: The Watsons-to-Birmingham phrase may be an embedded story title rather than an independently asserted journey by an identified group.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_67.md#rel_67__ent_93__ent_82"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_144",
+            "case_id": "rel_144__ent_281__ent_82",
+            "judgment": "supported",
+            "reason": "Watsons → Birmingham: A local unqualified go/return-to construction supports geographic movement.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_144.md#rel_144__ent_281__ent_82"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_206",
+            "case_id": "rel_206__ent_281__ent_82",
+            "judgment": "ambiguous",
+            "reason": "Watsons → Birmingham: Go-to occurs alongside story and bombing narrative, so a literal family journey versus a work-title reference is unresolved.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_206.md#rel_206__ent_281__ent_82"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "042745eb010996273f456af011e7d89d3580c1369111d6a0139adb83087821f6",
+        "predicate_id": "member_of",
+        "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+        "self_entity": false,
+        "evidence": [
+          [
+            "House",
+            "Senate",
+            "nsubj|<-nsubj<-join->dobj->|dobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "member_of",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_187",
+            "case_id": "rel_187__ent_1368__ent_1197",
+            "judgment": "ambiguous",
+            "reason": "House → Senate: The bare join edge can describe joint action between political counterparts rather than accession as a member.",
+            "evidence_lines": [
+              1973
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_187.md#rel_187__ent_1368__ent_1197"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "member_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_392",
+            "case_id": "rel_392__ent_1046__ent_1197",
+            "judgment": "incorrect",
+            "reason": "House → Senate: Joining another country/chamber in an action or river confluence does not establish membership in an organization.",
+            "evidence_lines": [
+              1973
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_392.md#rel_392__ent_1046__ent_1197"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "47ea6a32fe328fb9f87bfa4bb50c7d8c0bb58764096cb6aa8b3a5b6d6cb395c1",
+        "predicate_id": "reviews_artistic_output_of",
+        "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Naomi Siegel",
+            "Shakespeare Theater",
+            "nsubj|<-nsubj<-review->dobj->|dobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "reviews_artistic_output_of",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_253",
+            "case_id": "rel_253__ent_901__ent_303",
+            "judgment": "supported",
+            "reason": "Naomi Siegel → Shakespeare Theater: A local direct artistic review or review-of-performance/production row identifies this artist or producing institution as the reviewed subject; shortened theater/circus names retain a coherent performer identity.",
+            "evidence_lines": [
+              1841
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_253.md#rel_253__ent_901__ent_303"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "reviews_artistic_output_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_390",
+            "case_id": "rel_390__ent_1188__ent_1139",
+            "judgment": "ambiguous",
+            "reason": "Naomi Siegel → Shakespeare Theater: The isolated review of Shakespeare Theater does not distinguish a producing ensemble from a venue being reviewed.",
+            "evidence_lines": [
+              1841
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_390.md#rel_390__ent_1188__ent_1139"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "3c16e00079c1513a93ee6b835cc59953f6549cf69585607fb6082448eb28aded",
+        "predicate_id": "travels_to",
+        "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Britain",
+            "China",
+            "nsubj|<-nsubj<-return->dobj->territory->prep->to->pobj->|pobj"
+          ],
+          [
+            "Britain",
+            "China",
+            "nsubj|<-nsubj<-return->prep->to->pobj->|pobj"
+          ],
+          [
+            "Britain",
+            "China",
+            "poss|<-poss<-hand-over->prep->to->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_180",
+            "case_id": "rel_180__ent_1386__ent_818",
+            "judgment": "incorrect",
+            "reason": "Britain → China: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+            "evidence_lines": [
+              5166,
+              5173,
+              5175
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_180.md#rel_180__ent_1386__ent_818"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_17",
+            "case_id": "rel_17__ent_813__ent_818",
+            "judgment": "ambiguous",
+            "reason": "Britain → China: The apparent return-to is accompanied by returning territory and a hand-over, so the moving entity may be omitted territory rather than Britain.",
+            "evidence_lines": [
+              5166,
+              5173,
+              5175
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_17.md#rel_17__ent_813__ent_818"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "9a2d799c3652cb6718121f16500d73f313c2cd30adf92acd12d101389531f80a",
+        "predicate_id": "has_political_leader",
+        "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Senate",
+            "Republicans",
+            "nn|<-nn<-leader->appos->|appos"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "has_political_leader",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_241",
+            "case_id": "rel_241__ent_1299__ent_1107",
+            "judgment": "incorrect",
+            "reason": "Senate → Republicans: Committee membership, corporate nationality, or a plural political group does not establish the required named individual political leader.",
+            "evidence_lines": [
+              4902
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_241.md#rel_241__ent_1299__ent_1107"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "has_political_leader",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_37",
+            "case_id": "rel_37__ent_1197__ent_1213",
+            "judgment": "ambiguous",
+            "reason": "Senate → Republicans: The leader construction supplies only Republican or Republicans rather than an identified individual officeholder.",
+            "evidence_lines": [
+              4902
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_37.md#rel_37__ent_1197__ent_1213"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "a91030cead0aa328d50b6c76f26b6ef825469969d689e31034f70c0f82d748f4",
+        "predicate_id": "economist_for",
+        "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->at->pobj->|pobj"
+          ],
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->for->pobj->|pobj"
+          ],
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->of->pobj->|pobj"
+          ],
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->with->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "economist_for",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_132",
+            "case_id": "rel_132__ent_852__ent_1222",
+            "judgment": "supported",
+            "reason": "Lawrence A. Kudlow → Bear: The local evidence directly identifies this person as an economist affiliated with the named institution; other professional titles or longer attachments do not remove the explicit economist support.",
+            "evidence_lines": [
+              2375,
+              2376,
+              2377,
+              2378
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_132.md#rel_132__ent_852__ent_1222"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "economist_for",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_112",
+            "case_id": "rel_112__ent_852__ent_613",
+            "judgment": "ambiguous",
+            "reason": "Lawrence A. Kudlow → Bear: The economist role is explicit, but Bear is a materially incomplete principal name in these rows.",
+            "evidence_lines": [
+              2375,
+              2376,
+              2377,
+              2378
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_112.md#rel_112__ent_852__ent_613"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "economist_for",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_91",
+            "case_id": "rel_91__ent_852__ent_613",
+            "judgment": "supported",
+            "reason": "Lawrence A. Kudlow → Bear: An explicit economist-at, for, of or with path states the ordered professional affiliation. Bear is accepted employer shorthand under the preserved prior-census convention.",
+            "evidence_lines": [
+              2375,
+              2376,
+              2377,
+              2378
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_91.md#rel_91__ent_852__ent_613"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "6b96fd83b4352e2fc6a616aeef1f77426bb5d7e7fd00d1deb38c6011bda1dcdd",
+        "predicate_id": "director_of",
+        "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Caroline Smith DeWaal",
+            "Center for Science",
+            "appos|->appos->director->prep->at->pobj->|pobj"
+          ],
+          [
+            "Caroline Smith DeWaal",
+            "Center for Science",
+            "appos|->appos->director->prep->of->pobj->|pobj"
+          ],
+          [
+            "Caroline Smith DeWaal",
+            "Center for Science",
+            "rcmod|->rcmod->director->prep->for->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_370",
+            "case_id": "rel_370__ent_1048__ent_1049",
+            "judgment": "supported",
+            "reason": "Caroline Smith DeWaal → Center for Science: A local director-of/at/for row identifies an explicit directorship within the stated institution.",
+            "evidence_lines": [
+              1744,
+              1745,
+              1746
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_370.md#rel_370__ent_1048__ent_1049"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_334",
+            "case_id": "rel_334__ent_1048__ent_1049",
+            "judgment": "ambiguous",
+            "reason": "Caroline Smith DeWaal → Center for Science: Director is explicit but Center for Science omits the identifying institutional name.",
+            "evidence_lines": [
+              1744,
+              1745,
+              1746
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_334.md#rel_334__ent_1048__ent_1049"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "8149dfcc8a5b2c595122f017320fffafbe899d8221360fa94a473627a63830b2",
+        "predicate_id": "succeeded_person",
+        "predicate_hash": "cf88bc7434fa6be9db182b5aa625fc51bf1a23063c2fa8093914b8cfff879157",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "appos|->appos->senator->rcmod->reappear->prep->after->pobj->|pobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "appos|<-appos<-co-founder<-nsubj<-be->prep->as->pobj->replacement->prep->for->pobj->|pobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "dobj|<-dobj<-substitute->prep->for->pobj->|pobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "nsubj|<-nsubj<-call->dep->end->nsubj->|nsubj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "nsubj|<-nsubj<-replace->dobj->|dobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "nsubj|<-nsubj<-take->dobj->place->poss->|poss"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "succeeded_person",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_368",
+            "case_id": "rel_368__ent_1151__ent_215",
+            "judgment": "supported",
+            "reason": "Frank R. Lautenberg → Robert G. Torricelli: Explicit succeeded, took-place or predecessor constructions establish succession or replacement of the earlier role holder.",
+            "evidence_lines": [
+              5865,
+              5866,
+              5867,
+              5868,
+              5869,
+              5870
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_368.md#rel_368__ent_1151__ent_215"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "succeeded_person",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_51",
+            "case_id": "rel_51__ent_1151__ent_215",
+            "judgment": "supported",
+            "reason": "Frank R. Lautenberg → Robert G. Torricelli: Successor, succeed, take-place or explicit role replacement evidence establishes taking over from the named predecessor.",
+            "evidence_lines": [
+              5865,
+              5866,
+              5867,
+              5868,
+              5869,
+              5870
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_51.md#rel_51__ent_1151__ent_215"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "succeeded_person",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_326",
+            "case_id": "rel_326__ent_1151__ent_215",
+            "judgment": "ambiguous",
+            "reason": "Frank R. Lautenberg → Robert G. Torricelli: Replacement and substitution are clear but the actual role and whether the succession concerns candidacy or an office already held are not supplied.",
+            "evidence_lines": [
+              5865,
+              5866,
+              5867,
+              5868,
+              5869,
+              5870
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_326.md#rel_326__ent_1151__ent_215"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "818479f9e71d74811d711b185f9fa2e1b54eb579e4be69f78cecfa65a97429cc",
+        "predicate_id": "agreed_with",
+        "predicate_hash": "18baec882e670b9243ce8e666d345abb8ed3552ef872111a41ba06dd849c0055",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Administration",
+            "Congress",
+            "poss|<-poss<-agreement->prep->with->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "agreed_with",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_83",
+            "case_id": "rel_83__ent_183__ent_189",
+            "judgment": "ambiguous",
+            "reason": "Administration → Congress: The agreement is explicit but Administration leaves the institutional principal unidentified.",
+            "evidence_lines": [
+              452,
+              2019
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_83.md#rel_83__ent_183__ent_189"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "agreed_with",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_33",
+            "case_id": "rel_33__ent_183__ent_189",
+            "judgment": "supported",
+            "reason": "Administration → Congress: The explicit possessive agreement-with-Congress paths establish an agreement by the named administration; no external agreement content is assumed.",
+            "evidence_lines": [
+              452,
+              2019
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_33.md#rel_33__ent_183__ent_189"
+          }
+        ]
+      }
+    ]
+  },
+  "with_prior_references": {
+    "distinct_signatures": 15482,
+    "repeated_signatures": 1033,
+    "disagreement_count": 12,
+    "disagreements": [
+      {
+        "signature_sha256": "6f1b935e5d5425268feaa2ea6b2abddeea3484a32afb201d7a4684866aca0664",
+        "predicate_id": "director_of",
+        "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "appos|->appos->director->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "nsubj|<-nsubj<-director->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "nsubj|<-nsubj<-say->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "pobj|<-pobj<-by<-prep<-essay->prep->for->pobj->|pobj"
+          ],
+          [
+            "Desmond Ryan",
+            "Better Long Island",
+            "rcmod|->rcmod->call->prep->for->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_383",
+            "case_id": "rel_383__ent_108__ent_1047",
+            "judgment": "supported",
+            "reason": "Desmond Ryan → Better Long Island: Explicit director wording establishes a director office of or within the identified organization.",
+            "evidence_lines": [
+              1738,
+              1739,
+              1740,
+              1741,
+              1742
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_383.md#rel_383__ent_108__ent_1047"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_175",
+            "case_id": "rel_175__ent_108__ent_721",
+            "judgment": "supported",
+            "reason": "Desmond Ryan → Better Long Island: The supplied case explicitly identifies a director role for the ordered institution; other professional or speaking roles do not remove that local directorship evidence.",
+            "evidence_lines": [
+              1738,
+              1739,
+              1740,
+              1741,
+              1742
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_175.md#rel_175__ent_108__ent_721"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_228",
+            "case_id": "rel_228__ent_108__ent_1047",
+            "judgment": "ambiguous",
+            "reason": "Desmond Ryan → Better Long Island: Director-for attaches to Better Long Island, an incomplete or purpose-like institutional designation.",
+            "evidence_lines": [
+              1738,
+              1739,
+              1740,
+              1741,
+              1742
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_228.md#rel_228__ent_108__ent_1047"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "6caf601f851a5574f711926fff19794095000a76195542b76bbbec0ecf4d46d6",
+        "predicate_id": "located_in",
+        "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+        "self_entity": false,
+        "evidence": [
+          [
+            "I.B.M.",
+            "Armonk",
+            "rcmod|->rcmod->have->dobj->working->prep->in->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "located_in",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_47",
+            "case_id": "rel_47__ent_547__ent_1262",
+            "judgment": "ambiguous",
+            "reason": "I.B.M. → Armonk: The sole have-working-in path omits who or what is working and does not clearly establish an organizational office or base.",
+            "evidence_lines": [
+              806,
+              4402
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_47.md#rel_47__ent_547__ent_1262"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "located_in",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_1",
+            "case_id": "rel_1__ent_547__ent_789",
+            "judgment": "supported",
+            "reason": "I.B.M. → Armonk: Explicit concern/company/bank location, local division or working-in premises establishes organizational physical location.",
+            "evidence_lines": [
+              806,
+              4402
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_1.md#rel_1__ent_547__ent_789"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "263d5696d4a8d3a9929bec7b51e73e09d0a75b30044012361d272731e739575e",
+        "predicate_id": "travels_to",
+        "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Watsons",
+            "Birmingham",
+            "nsubj|<-nsubj<-go->prep->to->pobj->|pobj"
+          ],
+          [
+            "Watsons",
+            "Birmingham",
+            "poss|<-poss<-story<-dobj<-merge->prep->with->pobj->bombing->prep->in->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_67",
+            "case_id": "rel_67__ent_93__ent_82",
+            "judgment": "ambiguous",
+            "reason": "Watsons → Birmingham: The Watsons-to-Birmingham phrase may be an embedded story title rather than an independently asserted journey by an identified group.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_67.md#rel_67__ent_93__ent_82"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_144",
+            "case_id": "rel_144__ent_281__ent_82",
+            "judgment": "supported",
+            "reason": "Watsons → Birmingham: A local unqualified go/return-to construction supports geographic movement.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_144.md#rel_144__ent_281__ent_82"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_206",
+            "case_id": "rel_206__ent_281__ent_82",
+            "judgment": "ambiguous",
+            "reason": "Watsons → Birmingham: Go-to occurs alongside story and bombing narrative, so a literal family journey versus a work-title reference is unresolved.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_206.md#rel_206__ent_281__ent_82"
+          },
+          {
+            "origin": "prior_reference",
+            "predicate_id": "travels_to",
+            "audit": "audit_9f5868d8ee0e",
+            "relation": "rel_69",
+            "case_id": "rel_69__ent_281__ent_82",
+            "judgment": "supported",
+            "reason": "Watsons → Birmingham: A direct visit, arrival, journey or destination movement row supports travel to this named geographic place.",
+            "evidence_lines": [
+              3447,
+              3448
+            ],
+            "assessment_sha256": "d6e3047812925c74ef478d94ed2811247011b434a250e0987d333ea7b879ff76",
+            "report": "../nyt-complete-evaluation-2026-09-14/census/audit_9f5868d8ee0e/reports/rel_69.md#rel_69__ent_281__ent_82"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "042745eb010996273f456af011e7d89d3580c1369111d6a0139adb83087821f6",
+        "predicate_id": "member_of",
+        "predicate_hash": "0bf4075ea3c3764348e51e70017e416ef883149a358b8754aec9e3ef392a8ad1",
+        "self_entity": false,
+        "evidence": [
+          [
+            "House",
+            "Senate",
+            "nsubj|<-nsubj<-join->dobj->|dobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "member_of",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_187",
+            "case_id": "rel_187__ent_1368__ent_1197",
+            "judgment": "ambiguous",
+            "reason": "House → Senate: The bare join edge can describe joint action between political counterparts rather than accession as a member.",
+            "evidence_lines": [
+              1973
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_187.md#rel_187__ent_1368__ent_1197"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "member_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_392",
+            "case_id": "rel_392__ent_1046__ent_1197",
+            "judgment": "incorrect",
+            "reason": "House → Senate: Joining another country/chamber in an action or river confluence does not establish membership in an organization.",
+            "evidence_lines": [
+              1973
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_392.md#rel_392__ent_1046__ent_1197"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "47ea6a32fe328fb9f87bfa4bb50c7d8c0bb58764096cb6aa8b3a5b6d6cb395c1",
+        "predicate_id": "reviews_artistic_output_of",
+        "predicate_hash": "4c71342b554697c6e70a84657df8ceb0e9f17c81c4514305b726e0e9b740c0a0",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Naomi Siegel",
+            "Shakespeare Theater",
+            "nsubj|<-nsubj<-review->dobj->|dobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "reviews_artistic_output_of",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_253",
+            "case_id": "rel_253__ent_901__ent_303",
+            "judgment": "supported",
+            "reason": "Naomi Siegel → Shakespeare Theater: A local direct artistic review or review-of-performance/production row identifies this artist or producing institution as the reviewed subject; shortened theater/circus names retain a coherent performer identity.",
+            "evidence_lines": [
+              1841
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_253.md#rel_253__ent_901__ent_303"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "reviews_artistic_output_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_390",
+            "case_id": "rel_390__ent_1188__ent_1139",
+            "judgment": "ambiguous",
+            "reason": "Naomi Siegel → Shakespeare Theater: The isolated review of Shakespeare Theater does not distinguish a producing ensemble from a venue being reviewed.",
+            "evidence_lines": [
+              1841
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_390.md#rel_390__ent_1188__ent_1139"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "3c16e00079c1513a93ee6b835cc59953f6549cf69585607fb6082448eb28aded",
+        "predicate_id": "travels_to",
+        "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Britain",
+            "China",
+            "nsubj|<-nsubj<-return->dobj->territory->prep->to->pobj->|pobj"
+          ],
+          [
+            "Britain",
+            "China",
+            "nsubj|<-nsubj<-return->prep->to->pobj->|pobj"
+          ],
+          [
+            "Britain",
+            "China",
+            "poss|<-poss<-hand-over->prep->to->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_180",
+            "case_id": "rel_180__ent_1386__ent_818",
+            "judgment": "incorrect",
+            "reason": "Britain → China: The supplied evidence concerns death-place, territorial handover, an entrance, or other nontravel roles; Britain returning territory to China is not Britain traveling there.",
+            "evidence_lines": [
+              5166,
+              5173,
+              5175
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_180.md#rel_180__ent_1386__ent_818"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "travels_to",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_17",
+            "case_id": "rel_17__ent_813__ent_818",
+            "judgment": "ambiguous",
+            "reason": "Britain → China: The apparent return-to is accompanied by returning territory and a hand-over, so the moving entity may be omitted territory rather than Britain.",
+            "evidence_lines": [
+              5166,
+              5173,
+              5175
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_17.md#rel_17__ent_813__ent_818"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "9a2d799c3652cb6718121f16500d73f313c2cd30adf92acd12d101389531f80a",
+        "predicate_id": "has_political_leader",
+        "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Senate",
+            "Republicans",
+            "nn|<-nn<-leader->appos->|appos"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "has_political_leader",
+            "audit": "audit_dcb746fa83d6",
+            "relation": "rel_241",
+            "case_id": "rel_241__ent_1299__ent_1107",
+            "judgment": "incorrect",
+            "reason": "Senate → Republicans: Committee membership, corporate nationality, or a plural political group does not establish the required named individual political leader.",
+            "evidence_lines": [
+              4902
+            ],
+            "report": "census/audit_dcb746fa83d6/reports/rel_241.md#rel_241__ent_1299__ent_1107"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "has_political_leader",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_37",
+            "case_id": "rel_37__ent_1197__ent_1213",
+            "judgment": "ambiguous",
+            "reason": "Senate → Republicans: The leader construction supplies only Republican or Republicans rather than an identified individual officeholder.",
+            "evidence_lines": [
+              4902
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_37.md#rel_37__ent_1197__ent_1213"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "a91030cead0aa328d50b6c76f26b6ef825469969d689e31034f70c0f82d748f4",
+        "predicate_id": "economist_for",
+        "predicate_hash": "68a42befd97aca63fc567622595cecdc4917766421620c02b4aac174b826d1da",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->at->pobj->|pobj"
+          ],
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->for->pobj->|pobj"
+          ],
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->of->pobj->|pobj"
+          ],
+          [
+            "Lawrence A. Kudlow",
+            "Bear",
+            "appos|->appos->economist->prep->with->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "economist_for",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_132",
+            "case_id": "rel_132__ent_852__ent_1222",
+            "judgment": "supported",
+            "reason": "Lawrence A. Kudlow → Bear: The local evidence directly identifies this person as an economist affiliated with the named institution; other professional titles or longer attachments do not remove the explicit economist support.",
+            "evidence_lines": [
+              2375,
+              2376,
+              2377,
+              2378
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_132.md#rel_132__ent_852__ent_1222"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "economist_for",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_112",
+            "case_id": "rel_112__ent_852__ent_613",
+            "judgment": "ambiguous",
+            "reason": "Lawrence A. Kudlow → Bear: The economist role is explicit, but Bear is a materially incomplete principal name in these rows.",
+            "evidence_lines": [
+              2375,
+              2376,
+              2377,
+              2378
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_112.md#rel_112__ent_852__ent_613"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "economist_for",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_91",
+            "case_id": "rel_91__ent_852__ent_613",
+            "judgment": "supported",
+            "reason": "Lawrence A. Kudlow → Bear: An explicit economist-at, for, of or with path states the ordered professional affiliation. Bear is accepted employer shorthand under the preserved prior-census convention.",
+            "evidence_lines": [
+              2375,
+              2376,
+              2377,
+              2378
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_91.md#rel_91__ent_852__ent_613"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "6b96fd83b4352e2fc6a616aeef1f77426bb5d7e7fd00d1deb38c6011bda1dcdd",
+        "predicate_id": "director_of",
+        "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Caroline Smith DeWaal",
+            "Center for Science",
+            "appos|->appos->director->prep->at->pobj->|pobj"
+          ],
+          [
+            "Caroline Smith DeWaal",
+            "Center for Science",
+            "appos|->appos->director->prep->of->pobj->|pobj"
+          ],
+          [
+            "Caroline Smith DeWaal",
+            "Center for Science",
+            "rcmod|->rcmod->director->prep->for->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_370",
+            "case_id": "rel_370__ent_1048__ent_1049",
+            "judgment": "supported",
+            "reason": "Caroline Smith DeWaal → Center for Science: A local director-of/at/for row identifies an explicit directorship within the stated institution.",
+            "evidence_lines": [
+              1744,
+              1745,
+              1746
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_370.md#rel_370__ent_1048__ent_1049"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "director_of",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_334",
+            "case_id": "rel_334__ent_1048__ent_1049",
+            "judgment": "ambiguous",
+            "reason": "Caroline Smith DeWaal → Center for Science: Director is explicit but Center for Science omits the identifying institutional name.",
+            "evidence_lines": [
+              1744,
+              1745,
+              1746
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_334.md#rel_334__ent_1048__ent_1049"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "a7f70165ea7f5473c725402f02f887c2cd5ab3719eb2e12ecef12b2be4691a56",
+        "predicate_id": "located_in",
+        "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Forrester Research",
+            "Cambridge",
+            "appos|->appos->firm->dep->|dep"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "located_in",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_290",
+            "case_id": "rel_290__ent_1162__ent_1088",
+            "judgment": "supported",
+            "reason": "Forrester Research → Cambridge: A local company/firm-in or geographic firm modifier/based-in construction establishes the organizational location.",
+            "evidence_lines": [
+              7131
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_290.md#rel_290__ent_1162__ent_1088"
+          },
+          {
+            "origin": "prior_reference",
+            "predicate_id": "located_in",
+            "audit": "audit_d0f63db2a21a",
+            "relation": "rel_84",
+            "case_id": "rel_84__ent_1162__ent_1088",
+            "judgment": "ambiguous",
+            "reason": "Forrester Research → Cambridge: The only firm-to-Cambridge link is an untyped dependency, so physical-location attachment remains unresolved.",
+            "evidence_lines": [
+              7131
+            ],
+            "assessment_sha256": "8e7b54482edd5e3282a54436235d4c7e3220fcbb051d47eab39b71a99376e3c0",
+            "report": "../nyt-complete-evaluation-2026-09-14/census/audit_d0f63db2a21a/reports/rel_84.md#rel_84__ent_1162__ent_1088"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "8149dfcc8a5b2c595122f017320fffafbe899d8221360fa94a473627a63830b2",
+        "predicate_id": "succeeded_person",
+        "predicate_hash": "cf88bc7434fa6be9db182b5aa625fc51bf1a23063c2fa8093914b8cfff879157",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "appos|->appos->senator->rcmod->reappear->prep->after->pobj->|pobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "appos|<-appos<-co-founder<-nsubj<-be->prep->as->pobj->replacement->prep->for->pobj->|pobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "dobj|<-dobj<-substitute->prep->for->pobj->|pobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "nsubj|<-nsubj<-call->dep->end->nsubj->|nsubj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "nsubj|<-nsubj<-replace->dobj->|dobj"
+          ],
+          [
+            "Frank R. Lautenberg",
+            "Robert G. Torricelli",
+            "nsubj|<-nsubj<-take->dobj->place->poss->|poss"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "succeeded_person",
+            "audit": "audit_e318fe663470",
+            "relation": "rel_368",
+            "case_id": "rel_368__ent_1151__ent_215",
+            "judgment": "supported",
+            "reason": "Frank R. Lautenberg → Robert G. Torricelli: Explicit succeeded, took-place or predecessor constructions establish succession or replacement of the earlier role holder.",
+            "evidence_lines": [
+              5865,
+              5866,
+              5867,
+              5868,
+              5869,
+              5870
+            ],
+            "report": "census/audit_e318fe663470/reports/rel_368.md#rel_368__ent_1151__ent_215"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "succeeded_person",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_51",
+            "case_id": "rel_51__ent_1151__ent_215",
+            "judgment": "supported",
+            "reason": "Frank R. Lautenberg → Robert G. Torricelli: Successor, succeed, take-place or explicit role replacement evidence establishes taking over from the named predecessor.",
+            "evidence_lines": [
+              5865,
+              5866,
+              5867,
+              5868,
+              5869,
+              5870
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_51.md#rel_51__ent_1151__ent_215"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "succeeded_person",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_326",
+            "case_id": "rel_326__ent_1151__ent_215",
+            "judgment": "ambiguous",
+            "reason": "Frank R. Lautenberg → Robert G. Torricelli: Replacement and substitution are clear but the actual role and whether the succession concerns candidacy or an office already held are not supplied.",
+            "evidence_lines": [
+              5865,
+              5866,
+              5867,
+              5868,
+              5869,
+              5870
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_326.md#rel_326__ent_1151__ent_215"
+          }
+        ]
+      },
+      {
+        "signature_sha256": "818479f9e71d74811d711b185f9fa2e1b54eb579e4be69f78cecfa65a97429cc",
+        "predicate_id": "agreed_with",
+        "predicate_hash": "18baec882e670b9243ce8e666d345abb8ed3552ef872111a41ba06dd849c0055",
+        "self_entity": false,
+        "evidence": [
+          [
+            "Administration",
+            "Congress",
+            "poss|<-poss<-agreement->prep->with->pobj->|pobj"
+          ]
+        ],
+        "cases": [
+          {
+            "origin": "current",
+            "predicate_id": "agreed_with",
+            "audit": "audit_06dbdb9b03af",
+            "relation": "rel_83",
+            "case_id": "rel_83__ent_183__ent_189",
+            "judgment": "ambiguous",
+            "reason": "Administration → Congress: The agreement is explicit but Administration leaves the institutional principal unidentified.",
+            "evidence_lines": [
+              452,
+              2019
+            ],
+            "report": "census/audit_06dbdb9b03af/reports/rel_83.md#rel_83__ent_183__ent_189"
+          },
+          {
+            "origin": "current",
+            "predicate_id": "agreed_with",
+            "audit": "audit_9c88162c7b22",
+            "relation": "rel_33",
+            "case_id": "rel_33__ent_183__ent_189",
+            "judgment": "supported",
+            "reason": "Administration → Congress: The explicit possessive agreement-with-Congress paths establish an agreement by the named administration; no external agreement content is assumed.",
+            "evidence_lines": [
+              452,
+              2019
+            ],
+            "report": "census/audit_9c88162c7b22/reports/rel_33.md#rel_33__ent_183__ent_189"
+          }
+        ]
+      }
+    ]
+  },
+  "maintenance_note": "2026-09-28: individual grades from the four retired buggy reference runs were removed. Current-run historical cases remain exactly unchanged. Original signature/workload counts describe the historical snapshot; groups may no longer disagree after reference removal.",
+  "retired_reference_grades_removed": 1
+}

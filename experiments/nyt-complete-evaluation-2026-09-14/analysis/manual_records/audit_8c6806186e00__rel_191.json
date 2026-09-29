@@ -1,0 +1,223 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_191",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        5,
+        7,
+        8,
+        10,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        27,
+        28,
+        30,
+        31,
+        33,
+        35,
+        36,
+        43,
+        46,
+        48,
+        51,
+        52
+      ],
+      "case_ids": [
+        "rel_191__ent_134__ent_376",
+        "rel_191__ent_389__ent_146",
+        "rel_191__ent_435__ent_677",
+        "rel_191__ent_368__ent_129",
+        "rel_191__ent_388__ent_381",
+        "rel_191__ent_310__ent_55",
+        "rel_191__ent_1238__ent_0",
+        "rel_191__ent_253__ent_572",
+        "rel_191__ent_494__ent_333",
+        "rel_191__ent_249__ent_262",
+        "rel_191__ent_1257__ent_811",
+        "rel_191__ent_857__ent_1105",
+        "rel_191__ent_689__ent_1144",
+        "rel_191__ent_1202__ent_1001",
+        "rel_191__ent_267__ent_764",
+        "rel_191__ent_1130__ent_434",
+        "rel_191__ent_917__ent_1415",
+        "rel_191__ent_139__ent_1400",
+        "rel_191__ent_247__ent_489",
+        "rel_191__ent_1329__ent_1327",
+        "rel_191__ent_151__ent_1314",
+        "rel_191__ent_1049__ent_1407",
+        "rel_191__ent_1109__ent_1108",
+        "rel_191__ent_1238__ent_225",
+        "rel_191__ent_590__ent_143",
+        "rel_191__ent_349__ent_1029"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit head, president, chair, director, chief or legislative leader attaches this named person to the institution. Historical and departmental office count.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        6,
+        11,
+        12,
+        13,
+        21,
+        37,
+        38,
+        39,
+        40,
+        56
+      ],
+      "case_ids": [
+        "rel_191__ent_7__ent_243",
+        "rel_191__ent_7__ent_485",
+        "rel_191__ent_7__ent_488",
+        "rel_191__ent_263__ent_486",
+        "rel_191__ent_263__ent_244",
+        "rel_191__ent_764__ent_1170",
+        "rel_191__ent_263__ent_1171",
+        "rel_191__ent_263__ent_1172",
+        "rel_191__ent_263__ent_1170",
+        "rel_191__ent_764__ent_1171",
+        "rel_191__ent_764__ent_1172",
+        "rel_191__ent_263__ent_1214",
+        "rel_191__ent_246__ent_1099"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leadership is expressed, but the person is identified only as a Democrat/Republican rather than a named individual.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which individual is the unnamed partisan officeholder?"
+    },
+    {
+      "indices": [
+        9,
+        25,
+        41
+      ],
+      "case_ids": [
+        "rel_191__ent_107__ent_561",
+        "rel_191__ent_2__ent_1261",
+        "rel_191__ent_911__ent_1361"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The same inferred fact combines materially incompatible named people or ordered argument pairs; local office evidence cannot be assigned to a single coherent pair.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Which incompatible local pair does this fact represent?"
+    },
+    {
+      "indices": [
+        26
+      ],
+      "case_ids": [
+        "rel_191__ent_285__ent_1236"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Officer/office language is present but the local rows do not resolve whether the role has managerial authority.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Is the officer role an executive or managerial office?"
+    },
+    {
+      "indices": [
+        45
+      ],
+      "case_ids": [
+        "rel_191__ent_264__ent_1216"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The office is attached to the truncated adjective Democratic rather than a fully identified institution.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "What complete party or legislative institution is intended?"
+    },
+    {
+      "indices": [
+        22,
+        23,
+        29,
+        32,
+        34,
+        42,
+        44,
+        47,
+        49,
+        50,
+        53,
+        54,
+        55,
+        57
+      ],
+      "case_ids": [
+        "rel_191__ent_74__ent_534",
+        "rel_191__ent_1190__ent_534",
+        "rel_191__ent_236__ent_478",
+        "rel_191__ent_1181__ent_781",
+        "rel_191__ent_1116__ent_1404",
+        "rel_191__ent_1299__ent_1250",
+        "rel_191__ent_66__ent_72",
+        "rel_191__ent_684__ent_1211",
+        "rel_191__ent_1279__ent_162",
+        "rel_191__ent_538__ent_224",
+        "rel_191__ent_601__ent_862",
+        "rel_191__ent_291__ent_119",
+        "rel_191__ent_30__ent_1216",
+        "rel_191__ent_207__ent_861"
+      ],
+      "judgment": "incorrect",
+      "reason": "The local rows describe split company names, a non-managerial profession, athletic participation, a reversed leader relation, ordinary representation, or another non-office association.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    5,
+    7,
+    8,
+    10,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    24,
+    27,
+    28,
+    30,
+    31,
+    33,
+    35,
+    36,
+    43,
+    46,
+    48
+  ],
+  "broad": []
+}

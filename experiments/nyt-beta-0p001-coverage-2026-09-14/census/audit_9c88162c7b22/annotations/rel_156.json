@@ -1,0 +1,78 @@
+{
+  "relation": "rel_156",
+  "predicate_id": "has_political_leader",
+  "label": "political body has a leader",
+  "definition": "Country, political body or legislature X has or had person Y as a political leader.",
+  "scope_notes": "Includes: national president/ruler/head of government; named parliamentary majority/minority leader or whip; historical leadership. Excludes: corporate/team leadership; ordinary membership/meeting; party control instead of an individual leader; person-to-body forward direction. Ambiguous unless resolved by case-local evidence: unspecified minister without evidence of head-of-government or leadership scope; truncated body or unnamed officeholder. Harmonizes the later minister-inclusive samples to the original full-census scope. An unspecified minister alone is A, not automatically S.",
+  "facts": [
+    {
+      "case_id": "rel_156__ent_820__ent_709",
+      "judgment": "ambiguous",
+      "reason": "Israel → Ehud Olmert: Minister-designate and unspecified minister/government references do not resolve head-of-government scope or realized tenure.",
+      "evidence_lines": [
+        7038,
+        7040,
+        7041,
+        7043,
+        7044,
+        7045,
+        7046
+      ],
+      "issue_tags": [
+        "minister_scope",
+        "tenure_ambiguity"
+      ],
+      "reviewer_question": "Which minister office is meant, and had Olmert begun serving in an eligible political leadership role?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.543Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_1027__ent_581",
+      "judgment": "incorrect",
+      "reason": "L. Dennis Kozlowski → Tyco International: Corporate executive or civic-group head in person-to-organization direction does not match body-to-political-leader.",
+      "evidence_lines": [
+        1244,
+        1247,
+        1248,
+        1249,
+        1250
+      ],
+      "issue_tags": [
+        "wrong_direction"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.543Z"
+      }
+    },
+    {
+      "case_id": "rel_156__ent_402__ent_644",
+      "judgment": "incorrect",
+      "reason": "Curtis Sliwa → Guardian Angels: Corporate executive or civic-group head in person-to-organization direction does not match body-to-political-leader.",
+      "evidence_lines": [
+        3891,
+        3895
+      ],
+      "issue_tags": [
+        "wrong_direction"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:29:30.543Z"
+      }
+    }
+  ],
+  "predicate_hash": "7ecf94b442c53aaa2ad084e737eb0e10a8f11f809375e5df44e76e3fb14b0582",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6d223765a58819524de8083e583b6adad1eeca7389e726477e27a5582426c4fc"
+}

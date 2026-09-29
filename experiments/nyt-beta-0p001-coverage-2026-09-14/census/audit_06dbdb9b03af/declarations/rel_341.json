@@ -1,0 +1,50 @@
+{
+  "relation": "rel_341",
+  "predicate_id": "organization_national_affiliation",
+  "predicate_version": 1,
+  "predicate_hash": "f3b28fea0f0befba30c4deb6d61d7a6720659c5d0d27570187fdbd9ec8a6dc87",
+  "predicate": {
+    "id": "organization_national_affiliation",
+    "label": "organization described by national affiliation",
+    "definition": "Organization X is explicitly described as belonging to the national or country affiliation designated by Y.",
+    "includes": [
+      "an explicit national adjective modifying the organization, such as a French company",
+      "a directly stated country-of-origin or national institutional affiliation",
+      "multiple explicitly named national affiliations"
+    ],
+    "excludes": [
+      "physical offices or temporary operations in a country alone",
+      "ownership by a person or organization of that nationality alone",
+      "a national adjective modifying an unrelated person or parent rather than X",
+      "a person's nationality"
+    ],
+    "ambiguous": [
+      "unclear national adjective attachment",
+      "a regional or city descriptor rather than a national affiliation",
+      "national origin versus current affiliation when the distinction is material"
+    ],
+    "notes": "Y can be a complete nationality designation such as French or British-Dutch; this predicate does not assert headquarters or legal incorporation. A nationality label used as the argument here differs from an incomplete institution name in an office predicate.",
+    "scope_notes": "Includes: an explicit national adjective modifying the organization, such as a French company; a directly stated country-of-origin or national institutional affiliation; multiple explicitly named national affiliations. Excludes: physical offices or temporary operations in a country alone; ownership by a person or organization of that nationality alone; a national adjective modifying an unrelated person or parent rather than X; a person's nationality. Ambiguous unless resolved by case-local evidence: unclear national adjective attachment; a regional or city descriptor rather than a national affiliation; national origin versus current affiliation when the distinction is material. Y can be a complete nationality designation such as French or British-Dutch; this predicate does not assert headquarters or legal incorporation. A nationality label used as the argument here differs from an incomplete institution name in an office predicate."
+  },
+  "dictionary_sha256": "d7ffa790f4f44feb8f1d6bc07a23c3fa3d121fb477e9305f535a8d61fd9733e3",
+  "kind": "declared_before_case_grading",
+  "rationale": "Company/giant/maker/group national-adjective family; nationality modifiers were checked against argument roles.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:13:38.348Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_341.before_grading.json",
+  "pregrading_annotation_sha256": "2912ae568560702b3b749671e52f68175af8117b7f6b8fcfab842b4c7dd36ac3"
+}

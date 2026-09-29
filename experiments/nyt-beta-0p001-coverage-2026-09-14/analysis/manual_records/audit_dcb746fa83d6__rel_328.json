@@ -1,0 +1,65 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_328",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1
+      ],
+      "case_ids": [
+        "rel_328__ent_258__ent_1004",
+        "rel_328__ent_283__ent_1236"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit manager title or tenure-as-manager row establishes team management.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_328__ent_17__ent_1435"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A manager title attaches to Mr. Clinton personally with the campaign or institution omitted.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which campaign or institution did Stephanopoulos manage for Mr. Clinton?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "case_ids": [
+        "rel_328__ent_404__ent_165",
+        "rel_328__ent_1432__ent_395",
+        "rel_328__ent_448__ent_607",
+        "rel_328__ent_416__ent_19",
+        "rel_328__ent_1009__ent_955"
+      ],
+      "judgment": "incorrect",
+      "reason": "City/dealer context, spokesperson, sporting win, generic head or physical presence does not establish the specific manager title.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "6a96af39d4f9fbf0db029a162057bf144e4c606be806f7987dde3dc1bdf0f3c3"
+}

@@ -1,0 +1,1264 @@
+{
+  "relation": "rel_91",
+  "predicate_id": "analyst_for",
+  "label": "analyst at organization",
+  "definition": "Person X works or worked as an analyst for organization Y.",
+  "scope_notes": "Includes: explicit analyst at/for/with/of; following or tracking an industry or companies for an employer when it identifies professional analysis. Excludes: director/president/professor/scientist/spokesperson/editor/lawyer/partner alone; generic affiliation. Ambiguous unless resolved by case-local evidence: economist-only, forecaster, strategist or specialist at the analyst role boundary; unclear role/employer attachment. Preserves the earlier full-census A boundary for nearby financial roles; do not silently label all financial employment analyst.",
+  "predicate_provenance": {
+    "source": "prior_annotations/rel_91.json",
+    "source_sha256": "81a50e7a69e319d53f6fd5a997c421524acd0db343706cbef56c93d4ed5bd722",
+    "status": "Canonical prior-scope assignment; reviewer must verify full dictionary before final census judgment",
+    "catalogue": "../../analysis/predicate_catalogue.json",
+    "catalogue_sha256": "1215d4183a06cc7373f122574ea0748c73b0e2a5f933ea2623efde4c84032343",
+    "canonical_assignment": "../../analysis/relation_assignments.json"
+  },
+  "facts": [
+    {
+      "case_id": "rel_91__ent_1059__ent_1180",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Paine Webber: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1794,
+        1795,
+        1796,
+        1797,
+        1798,
+        1799,
+        1800,
+        1801,
+        1802,
+        1803,
+        7804,
+        7805,
+        7806,
+        7807,
+        7808,
+        7809,
+        7810,
+        7811,
+        7812,
+        7813
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_91.json",
+        "annotation_sha256": "81a50e7a69e319d53f6fd5a997c421524acd0db343706cbef56c93d4ed5bd722"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.664Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_528__ent_781",
+      "judgment": "supported",
+      "reason": "Loren Thompson → Lexington Institute: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587,
+        588
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_780__ent_529",
+      "judgment": "supported",
+      "reason": "Jessica Reif Cohen → Merrill Lynch: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        589,
+        590,
+        591,
+        592,
+        593,
+        594,
+        595,
+        596,
+        597,
+        598
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_796__ent_311",
+      "judgment": "supported",
+      "reason": "Richard E. Witten → Goldman , Sachs & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        734,
+        735,
+        736,
+        737,
+        738,
+        739,
+        740,
+        741,
+        742,
+        743
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_806__ent_529",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1812,
+        1813,
+        1814,
+        1815,
+        1816,
+        7820,
+        7821,
+        7822,
+        7823,
+        7824
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_916__ent_586",
+      "judgment": "incorrect",
+      "reason": "Dan Bartlett → White House: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        8433,
+        8434,
+        8435,
+        8436,
+        8437,
+        8438,
+        8439,
+        8440,
+        8441,
+        8442
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_191__ent_530",
+      "judgment": "incorrect",
+      "reason": "Dr. Arthur Caplan → University of Minnesota: Academic, bioethicist, research or institutional leadership roles do not establish analyst work.",
+      "evidence_lines": [
+        519,
+        520,
+        521,
+        522,
+        523,
+        524,
+        525,
+        526,
+        527
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_121__ent_376",
+      "judgment": "incorrect",
+      "reason": "Charles Brecher → Citizens Budget Commission: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        1751,
+        1752,
+        1753,
+        1754,
+        1755,
+        1756,
+        1757,
+        1758,
+        1759
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_362__ent_123",
+      "judgment": "incorrect",
+      "reason": "John Rother → American Association of Retired Persons: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        1761,
+        1762,
+        1763,
+        1764,
+        1765,
+        1766,
+        1767,
+        1768
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_805__ent_808",
+      "judgment": "supported",
+      "reason": "Kevin Murphy → Morgan Stanley: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1817,
+        1818,
+        1819,
+        1820,
+        7836,
+        7837,
+        7838,
+        7839
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_807__ent_809",
+      "judgment": "supported",
+      "reason": "James Hale → MMS International: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1821,
+        1822,
+        1823,
+        1824,
+        1825,
+        1826,
+        1827,
+        1828
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_383__ent_140",
+      "judgment": "supported",
+      "reason": "Blair Horner → New York Public Interest Research Group: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        114,
+        116,
+        123,
+        1715,
+        1716,
+        1717,
+        1724
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_525__ent_527",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Securities: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        563,
+        564,
+        569,
+        7828,
+        7829,
+        7834
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_301__ent_529",
+      "judgment": "supported",
+      "reason": "Judah Kraushaar → Merrill Lynch: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        607,
+        608,
+        609,
+        610,
+        611,
+        612
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1057__ent_119",
+      "judgment": "supported",
+      "reason": "Viren Mehta → Mehta & Isaly: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1784,
+        1785,
+        1786,
+        1787,
+        1788,
+        1789
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1151__ent_215",
+      "judgment": "incorrect",
+      "reason": "Frank R. Lautenberg → Robert G. Torricelli: Political replacement/succession evidence is not analyst employment.",
+      "evidence_lines": [
+        5865,
+        5866,
+        5867,
+        5868,
+        5869,
+        5870
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_973__ent_734",
+      "judgment": "supported",
+      "reason": "Roy D. Burry → Oppenheimer & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        7814,
+        7815,
+        7816,
+        7817,
+        7818,
+        7819
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_191__ent_194",
+      "judgment": "incorrect",
+      "reason": "Dr. Arthur Caplan → University of Pennsylvania: Academic, bioethicist, research or institutional leadership roles do not establish analyst work.",
+      "evidence_lines": [
+        508,
+        509,
+        510,
+        512,
+        513
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_765__ent_522",
+      "judgment": "incorrect",
+      "reason": "Charles M. Elson → University of Delaware: Academic, bioethicist, research or institutional leadership roles do not establish analyst work.",
+      "evidence_lines": [
+        542,
+        543,
+        545,
+        547,
+        548
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1007__ent_1008",
+      "judgment": "supported",
+      "reason": "Robert A. Kurtter → Moody 's Investors Service: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        759,
+        760,
+        761,
+        762,
+        763
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1048__ent_1049",
+      "judgment": "incorrect",
+      "reason": "Caroline Smith DeWaal → Center for Science: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        1743,
+        1744,
+        1745,
+        1746,
+        1747
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_359__ent_1056",
+      "judgment": "supported",
+      "reason": "Daniel Kunstler → J. P. Morgan: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1779,
+        1780,
+        1781,
+        1782,
+        1783
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_733__ent_975",
+      "judgment": "supported",
+      "reason": "John Morton → Lynch , Jones & Ryan: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        7840,
+        7841,
+        7842,
+        7843,
+        7844
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_91.json",
+        "annotation_sha256": "81a50e7a69e319d53f6fd5a997c421524acd0db343706cbef56c93d4ed5bd722"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1059__ent_529",
+      "judgment": "supported",
+      "reason": "Emanuel Goldman → Merrill Lynch: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        7847,
+        7848,
+        7849,
+        7850,
+        7851
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_162__ent_165",
+      "judgment": "incorrect",
+      "reason": "Douglas Muzzio → Baruch College: Academic, bioethicist, research or institutional leadership roles do not establish analyst work.",
+      "evidence_lines": [
+        354,
+        355,
+        356,
+        357
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_168__ent_161",
+      "judgment": "incorrect",
+      "reason": "Vahe Tiryakian → Department of Buildings: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        363,
+        364,
+        365,
+        366
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_773__ent_523",
+      "judgment": "ambiguous",
+      "reason": "Donald Ratajczak → Georgia State University: Director and specialist evidence leaves the professional analyst role unresolved.",
+      "evidence_lines": [
+        534,
+        537,
+        539,
+        540
+      ],
+      "issue_tags": [
+        "scope_boundary"
+      ],
+      "reviewer_question": "Does the specialist role at Georgia State identify analyst work, or only another academic/director role?",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_91.json",
+        "annotation_sha256": "81a50e7a69e319d53f6fd5a997c421524acd0db343706cbef56c93d4ed5bd722"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_525__ent_767",
+      "judgment": "supported",
+      "reason": "Donald Fine → Chase Asset Management: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        554,
+        555,
+        556,
+        557
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_769__ent_526",
+      "judgment": "supported",
+      "reason": "Julius Maldutis → Salomon Brothers: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        571,
+        572,
+        573,
+        574
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_768__ent_529",
+      "judgment": "supported",
+      "reason": "John Casesa → Merrill Lynch: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        575,
+        576,
+        577,
+        578
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_541__ent_783",
+      "judgment": "supported",
+      "reason": "Tom Wolzien → Sanford C. Bernstein & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        599,
+        600,
+        601,
+        602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_540__ent_782",
+      "judgment": "supported",
+      "reason": "David Healy → Burnham Securities: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        603,
+        604,
+        605,
+        606
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_550__ent_792",
+      "judgment": "incorrect",
+      "reason": "Kalman Ruttenstein → Bloomingdale: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        705,
+        707,
+        708,
+        711
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1006__ent_155",
+      "judgment": "incorrect",
+      "reason": "Robert Berne → New York University: Academic, bioethicist, research or institutional leadership roles do not establish analyst work.",
+      "evidence_lines": [
+        749,
+        752,
+        756,
+        757
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1009__ent_303",
+      "judgment": "incorrect",
+      "reason": "Bill Gamba → Cowen & Company: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        764,
+        765,
+        766,
+        767
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1058__ent_783",
+      "judgment": "supported",
+      "reason": "Kenneth S. Abramowitz → Sanford C. Bernstein & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1790,
+        1791,
+        1792,
+        1793
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1181__ent_1182",
+      "judgment": "supported",
+      "reason": "Neil Sweig → Southeast Research Partners: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1804,
+        1805,
+        1806,
+        1807
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1183__ent_1184",
+      "judgment": "supported",
+      "reason": "Joel Karlin → Research Department Inc.: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1808,
+        1809,
+        1810,
+        1811
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_619__ent_526",
+      "judgment": "incorrect",
+      "reason": "John Lipsky → Salomon Brothers: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        2358,
+        2359,
+        2361,
+        2364
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_913__ent_586",
+      "judgment": "incorrect",
+      "reason": "Mark D. Gearan → White House: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        8514,
+        8515,
+        8516,
+        8517
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_91.json",
+        "annotation_sha256": "81a50e7a69e319d53f6fd5a997c421524acd0db343706cbef56c93d4ed5bd722"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_190__ent_192",
+      "judgment": "incorrect",
+      "reason": "Ward McCarthy → McCarthy Research Associates: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        505,
+        506,
+        507
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_336__ent_536",
+      "judgment": "incorrect",
+      "reason": "Richard A. Boucher → State Department: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        1356,
+        1358,
+        1362
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "provenance": {
+        "kind": "exact_source_case_prior_judgment",
+        "source_map_sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+        "source": "prior_annotations/rel_91.json",
+        "annotation_sha256": "81a50e7a69e319d53f6fd5a997c421524acd0db343706cbef56c93d4ed5bd722"
+      },
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_731__ent_982",
+      "judgment": "incorrect",
+      "reason": "Tabasco Cat → Preakness: Horse-racing evidence is not analyst employment.",
+      "evidence_lines": [
+        7797,
+        7800,
+        7801
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_806__ent_976",
+      "judgment": "supported",
+      "reason": "Harvey Heinbach → Merrill Lynch & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        7825,
+        7826,
+        7827
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_978__ent_861",
+      "judgment": "supported",
+      "reason": "Scott Merlis → Morgan Stanley & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        7852,
+        7853,
+        7854
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_911__ent_1002",
+      "judgment": "incorrect",
+      "reason": "Mike Jendrzejczyk → Washington: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        8503,
+        8504,
+        8505
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_166__ent_169",
+      "judgment": "incorrect",
+      "reason": "Frank Belluscio → New Jersey School Boards Association: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        361,
+        362
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_174__ent_173",
+      "judgment": "incorrect",
+      "reason": "Patrick Clark → Charles J. Hynes: Director, spokesperson, chief or lobbying duties do not establish an analyst role.",
+      "evidence_lines": [
+        370,
+        371
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_772__ent_771",
+      "judgment": "incorrect",
+      "reason": "Leonard J. Santow → Griggs & Santow Inc.: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        528,
+        529
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_532__ent_771",
+      "judgment": "incorrect",
+      "reason": "William N. Griggs → Griggs & Santow Inc.: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        530,
+        531
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_764__ent_192",
+      "judgment": "incorrect",
+      "reason": "Raymond W. Stone → McCarthy Research Associates: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        552,
+        553
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_1185__ent_1186",
+      "judgment": "supported",
+      "reason": "Walter Spilka → Harris Upham & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        1829,
+        1830
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_736__ent_783",
+      "judgment": "supported",
+      "reason": "Gary D. Black → Sanford C. Bernstein & Company: Explicit analyst affiliation or professional employer-linked following/tracking supports the ordered predicate.",
+      "evidence_lines": [
+        7845,
+        7846
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_193__ent_770",
+      "judgment": "incorrect",
+      "reason": "Steven A. Wood → Bank of America: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        518
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_552__ent_794",
+      "judgment": "incorrect",
+      "reason": "James R. Capra → Shearson Lehman Government Securities: President, director, head or partner affiliation alone does not establish analyst work.",
+      "evidence_lines": [
+        719
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_504__ent_746",
+      "judgment": "incorrect",
+      "reason": "Willliam E. Wilson → Bloomington Hospital: A death location is not analyst employment.",
+      "evidence_lines": [
+        8180
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    },
+    {
+      "case_id": "rel_91__ent_917__ent_586",
+      "judgment": "incorrect",
+      "reason": "Richard G. Darman → White House: The bare be-to path does not establish analyst employment.",
+      "evidence_lines": [
+        8465
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T20:59:25.665Z"
+      }
+    }
+  ]
+}

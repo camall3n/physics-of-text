@@ -1,0 +1,72 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_10",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        6
+      ],
+      "case_ids": [
+        "rel_10__ent_285__ent_1236",
+        "rel_10__ent_276__ent_561",
+        "rel_10__ent_286__ent_468"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit manager title or historical replacement/succession as manager establishes the specified office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_10__ent_273__ent_409",
+        "rel_10__ent_1419__ent_85"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Manager support is present for two incompatible named people merged into one inferred person.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which manager should this inferred entity represent after separating the named people?"
+    },
+    {
+      "indices": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_10__ent_587__ent_577",
+        "rel_10__ent_110__ent_1298",
+        "rel_10__ent_75__ent_169",
+        "rel_10__ent_1363__ent_851"
+      ],
+      "judgment": "incorrect",
+      "reason": "Executive/director/counselor office or a team coached to a championship does not establish the specific manager title.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "f8503fc9421d31987359c6883845aea57d3346e294d429717a311959d7f51135"
+}

@@ -1,0 +1,136 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_6",
+  "cases_sha256": "54210a04757d4f0a186f45d97901829e63f91a8b6db730672a7ecdd9e9acf455",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        9,
+        10,
+        11,
+        16,
+        17,
+        20,
+        23
+      ],
+      "case_ids": [
+        "rel_6__ent_308__ent_543",
+        "rel_6__ent_308__ent_1380",
+        "rel_6__ent_561__ent_320",
+        "rel_6__ent_561__ent_1340",
+        "rel_6__ent_1004__ent_1013",
+        "rel_6__ent_561__ent_1313",
+        "rel_6__ent_400__ent_856",
+        "rel_6__ent_321__ent_1013",
+        "rel_6__ent_1004__ent_321",
+        "rel_6__ent_1331__ent_1410",
+        "rel_6__ent_470__ent_1004",
+        "rel_6__ent_321__ent_600",
+        "rel_6__ent_317__ent_1241",
+        "rel_6__ent_110__ent_1331"
+      ],
+      "judgment": "supported",
+      "reason": "At least one cited row explicitly says the first team beat the second; participation, losses, or related play evidence is supplementary.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        13
+      ],
+      "case_ids": [
+        "rel_6__ent_543__ent_308"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Outscoring Knicks and playing them do not specify whether the scoring advantage covered the completed game or only part of it. The shared full-census criterion requires a completed win.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": "Does the outscore row describe the final game result or only a period of play?"
+    },
+    {
+      "indices": [
+        15
+      ],
+      "case_ids": [
+        "rel_6__ent_1261__ent_471"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The win paths use only East and West without identifying the competing teams or bodies.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which teams or bodies do East and West denote in these rows?"
+    },
+    {
+      "indices": [
+        5,
+        8,
+        12,
+        14,
+        18,
+        19,
+        21,
+        22,
+        24
+      ],
+      "case_ids": [
+        "rel_6__ent_309__ent_60",
+        "rel_6__ent_321__ent_278",
+        "rel_6__ent_729__ent_467",
+        "rel_6__ent_1044__ent_1038",
+        "rel_6__ent_1004__ent_74",
+        "rel_6__ent_321__ent_12",
+        "rel_6__ent_1138__ent_1210",
+        "rel_6__ent_1439__ent_1084",
+        "rel_6__ent_1410__ent_1315"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied rows establish play, facing, or loss, not a completed victory over the second argument. In Knicks/Patrick Ewing, play also need not describe an opposing team.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        25
+      ],
+      "case_ids": [
+        "rel_6__ent_918__ent_511"
+      ],
+      "judgment": "incorrect",
+      "reason": "A boutique managed by Ms. Saldivar is not a competitive defeat by Selena.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    11,
+    13,
+    16,
+    17
+  ],
+  "broad": []
+}

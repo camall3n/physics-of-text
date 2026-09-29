@@ -1,0 +1,44 @@
+{
+  "relation": "rel_197",
+  "predicate_id": "has_diplomatic_relations_with",
+  "predicate_version": 1,
+  "predicate_hash": "14c6d895cccdd280da229e1132a91459aac5d8bdb7366634020a101ec403b7d8",
+  "predicate": {
+    "id": "has_diplomatic_relations_with",
+    "label": "has diplomatic relations with",
+    "definition": "Country or government X maintains or maintained diplomatic relations with country or government Y.",
+    "includes": [
+      "explicit diplomatic relations",
+      "an ambassador of X accredited to Y",
+      "historical diplomatic relations"
+    ],
+    "excludes": [
+      "ordinary trade, physical travel, or war alone",
+      "generic political or personal association",
+      "an ambassador merely visiting Y without accreditation",
+      "proposed relations without establishment"
+    ],
+    "ambiguous": [
+      "generic relationship or relation without diplomatic context",
+      "unclear government versus private entity",
+      "unclear ambassador accreditation or country attachment"
+    ],
+    "notes": "Diplomatic relations do not imply alliance, friendship, or agreement on policy.",
+    "scope_notes": "Includes: explicit diplomatic relations; an ambassador of X accredited to Y; historical diplomatic relations. Excludes: ordinary trade, physical travel, or war alone; generic political or personal association; an ambassador merely visiting Y without accreditation; proposed relations without establishment. Ambiguous unless resolved by case-local evidence: generic relationship or relation without diplomatic context; unclear government versus private entity; unclear ambassador accreditation or country attachment. Diplomatic relations do not imply alliance, friendship, or agreement on policy."
+  },
+  "dictionary_sha256": "f63342b3bfbf10394322b5fd38341d91dd8785f70addd6fc94aced0d5a9cd9ab",
+  "kind": "declared_before_case_grading",
+  "rationale": "Four ambassador-to rows establish the largest specific international-relation family; military war and inverse spokesperson are distinct.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:31:56.668Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_197.before_grading.json",
+  "pregrading_annotation_sha256": "eabf52bc1659d93e5ff7ca58380ebb35723502946fd37cd6042664e30f45bbb1"
+}

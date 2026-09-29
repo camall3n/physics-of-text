@@ -1,0 +1,78 @@
+{
+  "relation": "rel_232",
+  "predicate_id": "has_medical_condition",
+  "label": "has or had medical condition",
+  "definition": "Person X, or an explicitly identified subset of population X, has or had medical condition Y.",
+  "scope_notes": "Includes: explicit having or suffering from Y; diagnosis of Y; death from or of Y establishing the condition; a stated affected subset of a named population. Excludes: generic discussion or research about Y; treating another person with Y; a disease merely located in a place; a generic have phrase whose object is not a medical condition. Ambiguous unless resolved by case-local evidence: unclear condition attachment or affected person; risk, possible diagnosis, or suspected condition without confirmation; a population mention that does not identify affected members. This is annotation of textual support, not medical guidance. A population fact does not imply every member has the condition.",
+  "facts": [
+    {
+      "case_id": "rel_232__ent_201__ent_443",
+      "judgment": "supported",
+      "reason": "New Yorkers → AIDS: Explicit having, suffering from or death-of the condition identifies affected people or population members.",
+      "evidence_lines": [
+        4906,
+        4907,
+        4908,
+        4909,
+        4910,
+        4911,
+        4912,
+        4913,
+        4914,
+        4915
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:49.686Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_669__ent_202",
+      "judgment": "supported",
+      "reason": "Americans → diabetes: Explicit having, suffering from or death-of the condition identifies affected people or population members.",
+      "evidence_lines": [
+        4872,
+        4873,
+        4876,
+        4878,
+        4881
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:49.686Z"
+      }
+    },
+    {
+      "case_id": "rel_232__ent_685__ent_443",
+      "judgment": "supported",
+      "reason": "Liberace → AIDS: Explicit having, suffering from or death-of the condition identifies affected people or population members.",
+      "evidence_lines": [
+        4916,
+        4925
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:19:49.686Z"
+      }
+    }
+  ],
+  "predicate_hash": "00002d0be7de1b31e15236178a628d6020ff5861a758e2c750383ed1801ab3f8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0a70b50cdb824d65298311ec72fc191bc99608b537d3d3f59aaf07eb9680003c"
+}

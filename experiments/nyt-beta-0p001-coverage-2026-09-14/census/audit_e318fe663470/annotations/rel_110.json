@@ -1,0 +1,106 @@
+{
+  "relation": "rel_110",
+  "predicate_id": "travels_to",
+  "label": "moves or travels to",
+  "definition": "Person, group or organization X undertakes movement with geographic destination Y.",
+  "scope_notes": "Includes: move/relocate/return/arrive/go/visit to Y; depart/leave for Y; temporary travel or organizational relocation; bare unqualified destination movement as textual support. Excludes: leave/withdraw from Y; mere presence/residence/death place; sports-event qualification or attendance as a nongeographic destination; membership or political control. Ambiguous unless resolved by case-local evidence: explicitly hypothetical or proposed relocation; invasion-only boundary; geographic/team or theatrical metonymy. Permanent residence and completed arrival are not required. Do not import external history to reject an otherwise unqualified textual movement path.",
+  "facts": [
+    {
+      "case_id": "rel_110__ent_1264__ent_216",
+      "judgment": "supported",
+      "reason": "Barnes Foundation → Philadelphia: An unqualified move-to or move-into path states movement to the geographic destination.",
+      "evidence_lines": [
+        4850,
+        4851,
+        4852,
+        4853,
+        4854,
+        4855,
+        4856,
+        4857,
+        4858
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.718Z"
+      }
+    },
+    {
+      "case_id": "rel_110__ent_462__ent_356",
+      "judgment": "incorrect",
+      "reason": "Knicks → Ewing: A team missing a player or political defiance does not establish destination movement.",
+      "evidence_lines": [
+        3434,
+        4933
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.718Z"
+      }
+    },
+    {
+      "case_id": "rel_110__ent_80__ent_820",
+      "judgment": "supported",
+      "reason": "Soviet Jews → Israel: An unqualified move-to or move-into path states movement to the geographic destination.",
+      "evidence_lines": [
+        3479,
+        4780
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.718Z"
+      }
+    },
+    {
+      "case_id": "rel_110__ent_6__ent_103",
+      "judgment": "ambiguous",
+      "reason": "Bill Clinton → White House: Put in White House may denote attaining political office rather than geographic movement.",
+      "evidence_lines": [
+        2715
+      ],
+      "issue_tags": [
+        "institution_place_ambiguity"
+      ],
+      "reviewer_question": "Does put in the White House describe physical movement or election to office?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.718Z"
+      }
+    },
+    {
+      "case_id": "rel_110__ent_385__ent_406",
+      "judgment": "incorrect",
+      "reason": "Republicans → Bush: A team missing a player or political defiance does not establish destination movement.",
+      "evidence_lines": [
+        7561
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.718Z"
+      }
+    }
+  ],
+  "predicate_hash": "408b0804c88d0ac780593ad61d0623959858a339f72db5d297359ddb87d18cc5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "151a6c656ff774b7be9f711e8878fa1f3efcd56578f9d26d9d6a2ab4af74be96"
+}

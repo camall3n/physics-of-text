@@ -1,0 +1,43 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_60",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_60__ent_1377__ent_484"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The Sotheby location is explicit, but York Avenue and 72d Street are distinct street names merged in the latent object; an intersection could connect the addresses without making the streets one entity.",
+      "tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "question": "Do these rows denote one named site or two distinct street entities, and should the latter be separated?"
+    },
+    {
+      "indices": [
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_60__ent_917__ent_586",
+        "rel_60__ent_561__ent_850"
+      ],
+      "judgment": "incorrect",
+      "reason": "A person at a public office or a sporting championship does not establish organizational geographic location.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "33b158631c2538b215611c6d4d5e43df5068ad3906f51b7ef8c7b5f1e21b4c88"
+}

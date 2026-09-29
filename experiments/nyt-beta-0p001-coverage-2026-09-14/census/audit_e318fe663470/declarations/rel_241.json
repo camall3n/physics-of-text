@@ -1,0 +1,42 @@
+{
+  "relation": "rel_241",
+  "predicate_id": "population_includes",
+  "predicate_version": 1,
+  "predicate_hash": "aed7f7b75db58e4e35d1cd148ad04cbab35cfa09e644b237df956c7b3fe7c574",
+  "predicate": {
+    "id": "population_includes",
+    "label": "population includes subgroup members",
+    "definition": "Population X is explicitly described as including people of demographic subgroup Y.",
+    "includes": [
+      "explicit population including people from Y",
+      "a stated subgroup among the described population",
+      "historical described populations"
+    ],
+    "excludes": [
+      "ordinary organizational membership or corporate ownership",
+      "geographic containment alone",
+      "mere comparison, proximity, or interaction",
+      "inferring that every member of Y belongs to X"
+    ],
+    "ambiguous": [
+      "generic include with unclear demographic roles",
+      "unclear population versus person or organization",
+      "a subgroup attachment to another population"
+    ],
+    "notes": "This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X.",
+    "scope_notes": "Includes: explicit population including people from Y; a stated subgroup among the described population; historical described populations. Excludes: ordinary organizational membership or corporate ownership; geographic containment alone; mere comparison, proximity, or interaction; inferring that every member of Y belongs to X. Ambiguous unless resolved by case-local evidence: generic include with unclear demographic roles; unclear population versus person or organization; a subgroup attachment to another population. This asserts textual inclusion of subgroup members in the population being discussed, not universal set containment Y subset X."
+  },
+  "dictionary_sha256": "4d8f4b1c781c69d0ee272e433a6fbfc45cb4c9bb0eec45f9eec46ff584c4a53f",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit include and members-of-population context form the largest coherent demographic family; this does not assert universal subgroup containment.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:30:48.825Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_241.before_grading.json",
+  "pregrading_annotation_sha256": "6f097a0ae5ce5ff2d0ffa8a89f6dfce57816ca802961f6b939f3b2cc26e7e72c"
+}

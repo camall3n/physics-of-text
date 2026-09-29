@@ -1,0 +1,94 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_272",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13
+      ],
+      "case_ids": [
+        "rel_272__ent_449__ent_1146",
+        "rel_272__ent_1078__ent_429",
+        "rel_272__ent_345__ent_333",
+        "rel_272__ent_714__ent_1002",
+        "rel_272__ent_716__ent_958",
+        "rel_272__ent_874__ent_1401",
+        "rel_272__ent_942__ent_843",
+        "rel_272__ent_700__ent_843",
+        "rel_272__ent_1406__ent_221",
+        "rel_272__ent_463__ent_440",
+        "rel_272__ent_19__ent_703"
+      ],
+      "judgment": "supported",
+      "reason": "A local company/firm geographic modifier, organization-in or based-in construction supports the stated organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_272__ent_1083__ent_1378",
+        "rel_272__ent_943__ent_936"
+      ],
+      "judgment": "incorrect",
+      "reason": "Bell is a corporate-family argument and Internet an industry/medium; neither is a geographic organizational location.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        12
+      ],
+      "case_ids": [
+        "rel_272__ent_507__ent_573"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The company modifier is attached to a person name and the second argument is the fragment Los Angeles-based; the actual organization and location attachment are unresolved.",
+      "tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "question": "What organization and full geographic argument does the source construction identify?"
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_272__ent_703__ent_953"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Wall Street may denote a financial industry affiliation rather than a physical location.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does this firm modifier assert physical location on Wall Street?"
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    4,
+    8
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "d6c8a542a43f33d31acd9a1ec96fe236e5f6e3e0b4ac0d71f5671d43b331c844"
+}

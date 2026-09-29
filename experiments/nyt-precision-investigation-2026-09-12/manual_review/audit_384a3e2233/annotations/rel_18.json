@@ -1,0 +1,71 @@
+{
+  "relation": "rel_18",
+  "label": "coach of",
+  "definition": "Person 1 is or was a coach of sports team/program 2.",
+  "scope_notes": "Explicit coach title or coaching verb qualifies, including historical/dismissed roles. Manager/president alone, authorship and geographic movement are distinct predicates.",
+  "facts": [
+    {
+      "case_id": "rel_18__ent_1061__ent_409",
+      "judgment": "supported",
+      "reason": "Randolph is explicitly a Yankees coach in possessive and noun-compound title paths.",
+      "evidence_lines": [
+        6546,
+        6547
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_18__ent_1060__ent_961",
+      "judgment": "ambiguous",
+      "reason": "Pitino is explicitly Knick coach, but the same inferred pair also maps Cubans arriving in United States. These incompatible actor/target names prevent a unique entity-level interpretation.",
+      "evidence_lines": [
+        4730,
+        7243,
+        7246
+      ],
+      "issue_tags": [
+        "entity_name_conflict"
+      ],
+      "reviewer_question": "Does this inferred pair denote Pitino/Knick, or Cubans/United States, and should the mixed entity assignments be separated?"
+    },
+    {
+      "case_id": "rel_18__ent_1176__ent_543",
+      "judgment": "supported",
+      "reason": "Fitch is explicitly coach of the Nets in several direct role paths.",
+      "evidence_lines": [
+        6496,
+        6497,
+        6500,
+        6501
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_18__ent_1095__ent_960",
+      "judgment": "supported",
+      "reason": "Krzyzewski is explicitly coach at/of Duke.",
+      "evidence_lines": [
+        7253,
+        7254,
+        7256
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_18__ent_686__ent_908",
+      "judgment": "incorrect",
+      "reason": "Sheng was born and studied in Shanghai; no coaching relation is expressed.",
+      "evidence_lines": [
+        8423,
+        8426
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

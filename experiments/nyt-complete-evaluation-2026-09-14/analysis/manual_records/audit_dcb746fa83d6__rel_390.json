@@ -1,0 +1,105 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_390",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22
+      ],
+      "case_ids": [
+        "rel_390__ent_1218__ent_189",
+        "rel_390__ent_195__ent_1440",
+        "rel_390__ent_537__ent_820",
+        "rel_390__ent_586__ent_189",
+        "rel_390__ent_564__ent_189",
+        "rel_390__ent_1415__ent_1440",
+        "rel_390__ent_182__ent_1440",
+        "rel_390__ent_182__ent_1205",
+        "rel_390__ent_1347__ent_1338",
+        "rel_390__ent_829__ent_1440",
+        "rel_390__ent_1288__ent_189",
+        "rel_390__ent_1384__ent_596",
+        "rel_390__ent_196__ent_189",
+        "rel_390__ent_197__ent_762",
+        "rel_390__ent_1329__ent_1440",
+        "rel_390__ent_1387__ent_483",
+        "rel_390__ent_722__ent_189",
+        "rel_390__ent_1325__ent_1440",
+        "rel_390__ent_44__ent_43",
+        "rel_390__ent_1170__ent_595",
+        "rel_390__ent_1360__ent_1440"
+      ],
+      "judgment": "supported",
+      "reason": "A local ask, tell, urge, notify, advise or persuade edge explicitly addresses the second argument; other rows do not remove this direct communication evidence.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        19
+      ],
+      "case_ids": [
+        "rel_390__ent_1408__ent_520"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The suggestion path addresses a president while Jordan is an embedded subject, and the remaining send-to path omits its object.",
+      "tags": [
+        "attachment_scope",
+        "missing_communicative_object"
+      ],
+      "question": "Was the item sent to Jordan a message, and does fuller context establish him as addressee rather than only the person discussed with the president?"
+    },
+    {
+      "indices": [
+        20
+      ],
+      "case_ids": [
+        "rel_390__ent_183__ent_1440"
+      ],
+      "judgment": "incorrect",
+      "reason": "Working with Congress alone establishes cooperation, not an addressed communication.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    19
+  ],
+  "broad": []
+}

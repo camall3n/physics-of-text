@@ -1,0 +1,70 @@
+{
+  "relation": "rel_186",
+  "label": "president or manager of",
+  "definition": "The first person holds or held an explicitly identified president or manager office in the second organization, team or public body.",
+  "scope_notes": "The president family dominates, with a smaller manager family. Preserve the earlier president-or-manager scope. Generic head, chair, executive, director, coach, athlete or ordinary employment alone is insufficient. Functional presidential roles within an organization count without claiming sole chief presidency; modifiers missing from a path cannot be reconstructed.",
+  "facts": [
+    {
+      "case_id": "rel_186__ent_1299__ent_1326",
+      "judgment": "incorrect",
+      "reason": "The Senate/House pair is connected by something being sent by the House to the Senate; neither argument is an officeholder of the other.",
+      "evidence_lines": [
+        1938
+      ],
+      "issue_tags": [
+        "wrong_predicate",
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_186__ent_692__ent_211",
+      "judgment": "supported",
+      "reason": "Aristide is directly president of Haiti in both appositive and possessive forms.",
+      "evidence_lines": [
+        5257,
+        5264
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_186__ent_1006__ent_155",
+      "judgment": "supported",
+      "reason": "Berne has explicit president-of and NYU-president paths, with a development function specified in the longer row. This supports the declared office family, not an inference that he is the institution's sole overall president.",
+      "evidence_lines": [
+        751,
+        755,
+        758
+      ],
+      "issue_tags": [
+        "functional_office"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_186__ent_993__ent_509",
+      "judgment": "incorrect",
+      "reason": "Nunn appears in boxing-title defense/postponement and fighting-for-title evidence. Those paths do not make him the federation's president or manager.",
+      "evidence_lines": [
+        8022,
+        8027
+      ],
+      "issue_tags": [
+        "wrong_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_186__ent_288__ent_1350",
+      "judgment": "supported",
+      "reason": "Harazin is explicitly president of/for the Mets.",
+      "evidence_lines": [
+        3362,
+        3366
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

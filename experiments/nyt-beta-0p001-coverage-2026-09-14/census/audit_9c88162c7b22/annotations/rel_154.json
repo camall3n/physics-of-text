@@ -1,0 +1,93 @@
+{
+  "relation": "rel_154",
+  "predicate_id": "trailed_competitor",
+  "label": "trailed sporting competitor",
+  "definition": "Sporting competitor X was behind competitor Y in a game score or competitive standings.",
+  "scope_notes": "Includes: explicit trail or games-behind; explicit lower score or standings position relative to Y; historical in-game or season standings. Excludes: a completed defeat without evidence of trailing during play or in standings; political or commercial ranking; ordinary following or geographic movement; X leading or ahead of Y. Ambiguous unless resolved by case-local evidence: a generic behind phrase without competitive context; unclear ordered competitor roles; a proposed or hypothetical score situation. Trailing is an intermediate state and does not imply the final winner. The direction is trailing competitor to leading competitor.",
+  "facts": [
+    {
+      "case_id": "rel_154__ent_1004__ent_309",
+      "judgment": "supported",
+      "reason": "Yankees → Red Sox: Explicit trail states the ordered intermediate score or standings relation; winning elsewhere does not negate historical trailing.",
+      "evidence_lines": [
+        885,
+        888,
+        2585,
+        2588,
+        3138,
+        3141,
+        6901,
+        6904
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.409Z"
+      }
+    },
+    {
+      "case_id": "rel_154__ent_309__ent_1004",
+      "judgment": "supported",
+      "reason": "Red Sox → Yankees: Explicit trail states the ordered intermediate score or standings relation; winning elsewhere does not negate historical trailing.",
+      "evidence_lines": [
+        866,
+        2666,
+        6932
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.409Z"
+      }
+    },
+    {
+      "case_id": "rel_154__ent_1004__ent_321",
+      "judgment": "incorrect",
+      "reason": "Yankees → Mets: Sweeping the Mets is a completed win, with no evidence that the Yankees trailed them.",
+      "evidence_lines": [
+        908,
+        2598
+      ],
+      "issue_tags": [
+        "win_not_trailing"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.409Z"
+      }
+    },
+    {
+      "case_id": "rel_154__ent_321__ent_278",
+      "judgment": "supported",
+      "reason": "Mets → Braves: Explicit trail states the ordered intermediate score or standings relation; winning elsewhere does not negate historical trailing.",
+      "evidence_lines": [
+        6891,
+        6895
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:41.409Z"
+      }
+    }
+  ],
+  "predicate_hash": "74d4f6546f462ba6e3f3655a4dd45292828985f90a748c94ef37514e311e1cdc",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "616fb4f64f6caf3f78c7ff5b34fe867640fc19d956b9553a9e51233112777d95"
+}

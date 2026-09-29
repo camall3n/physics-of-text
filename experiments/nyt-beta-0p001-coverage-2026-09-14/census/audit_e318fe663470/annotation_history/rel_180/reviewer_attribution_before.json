@@ -1,0 +1,240 @@
+{
+  "relation": "rel_180",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_180__ent_942__ent_1401",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → New York: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        7166,
+        7167,
+        7168,
+        7169,
+        7173
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_955__ent_1002",
+      "judgment": "supported",
+      "reason": "Petroleum Finance Company → Washington: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        7421,
+        7423,
+        7424,
+        7426,
+        7427
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1247__ent_1270",
+      "judgment": "ambiguous",
+      "reason": "Hicks → Dallas; Steve Phillips → Mets: Supporting organizational-location evidence is merged with a different person/team or officeholder in the same fact.",
+      "evidence_lines": [
+        3186,
+        7411,
+        7412,
+        7413
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which person/organization pair should be retained after resolving the merged identities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1285__ent_1205",
+      "judgment": "supported",
+      "reason": "Morningstar Inc. → Chicago: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        5749,
+        5750,
+        7113,
+        7114
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1147__ent_209",
+      "judgment": "supported",
+      "reason": "Yankee Group → Boston: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        5766,
+        5769,
+        7090,
+        7093
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_220__ent_1205",
+      "judgment": "supported",
+      "reason": "Morningstar → Chicago: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        5786,
+        5787,
+        5788,
+        5789
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_300__ent_1401",
+      "judgment": "supported",
+      "reason": "Kohlberg → New York: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        7351,
+        7353,
+        7354,
+        7360
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1017__ent_1409",
+      "judgment": "ambiguous",
+      "reason": "Futures Group → Washington; Mr. Gore → Washington: Supporting organizational-location evidence is merged with a different person/team or officeholder in the same fact.",
+      "evidence_lines": [
+        1003,
+        7393
+      ],
+      "issue_tags": [
+        "entity_collision",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which person/organization pair should be retained after resolving the merged identities?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_290__ent_11",
+      "judgment": "ambiguous",
+      "reason": "Philips N.V. → Dutch: Dutch is national affiliation rather than an unambiguous physical geographic location.",
+      "evidence_lines": [
+        3593,
+        3598
+      ],
+      "issue_tags": [
+        "argument_identity"
+      ],
+      "reviewer_question": "Does the source explicitly locate the company in the Netherlands?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_714__ent_1002",
+      "judgment": "supported",
+      "reason": "Futures Group → Washington: A local firm/company geographic modifier or based-in row clearly locates the organization.",
+      "evidence_lines": [
+        7396,
+        7398
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_524__ent_1235",
+      "judgment": "incorrect",
+      "reason": "Tom Daschle → Democratic: Political leadership and Internet industry affiliation are outside organizational geographic location.",
+      "evidence_lines": [
+        3703
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    },
+    {
+      "case_id": "rel_180__ent_1080__ent_936",
+      "judgment": "incorrect",
+      "reason": "DoubleClick → Internet: Political leadership and Internet industry affiliation are outside organizational geographic location.",
+      "evidence_lines": [
+        6858
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:04:31.504Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "895d64707e66222815bea8c6d5178076127e70a25357f2cd86af63d5cb73acd9"
+}

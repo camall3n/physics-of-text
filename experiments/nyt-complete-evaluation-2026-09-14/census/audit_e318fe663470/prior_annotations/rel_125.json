@@ -1,0 +1,74 @@
+{
+  "relation": "rel_125",
+  "label": "analyst at organization",
+  "definition": "Person X is an analyst at, with or for organization Y.",
+  "scope_notes": "Preserves specific analyst affiliation. Director, economist, strategist, partner or broad employment alone does not establish analyst; role/attachment ambiguity is kept explicit.",
+  "facts": [
+    {
+      "case_id": "rel_125__ent_978__ent_861",
+      "judgment": "supported",
+      "reason": "Merlis is explicitly a Morgan Stanley & Company analyst for/with/at the firm.",
+      "evidence_lines": [
+        7852,
+        7853,
+        7854
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_125__ent_1253__ent_1446",
+      "judgment": "supported",
+      "reason": "Goldman is explicitly a Merrill Lynch analyst; watcher evidence is supplementary.",
+      "evidence_lines": [
+        7847,
+        7848
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_125__ent_806__ent_1446",
+      "judgment": "supported",
+      "reason": "Heinbach is explicitly a Merrill Lynch analyst in noun and with constructions.",
+      "evidence_lines": [
+        1816,
+        7821,
+        7824
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_125__ent_793__ent_782",
+      "judgment": "supported",
+      "reason": "Healy is explicitly a Burnham Securities analyst at/with/for the firm.",
+      "evidence_lines": [
+        603,
+        604,
+        605
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_125__ent_1186__ent_783",
+      "judgment": "ambiguous",
+      "reason": "The same first latent entity is Tom Wolzien, Kenneth S. Abramowitz and Gary D. Black. All have analyst evidence at the same company, but they do not identify a single person for this inferred pair.",
+      "evidence_lines": [
+        599,
+        600,
+        601,
+        1790,
+        1792,
+        7845
+      ],
+      "issue_tags": [
+        "entity_identity"
+      ],
+      "reviewer_question": "Which person should this fact identify, and should Wolzien, Abramowitz and Black be split into separate entities?"
+    }
+  ]
+}

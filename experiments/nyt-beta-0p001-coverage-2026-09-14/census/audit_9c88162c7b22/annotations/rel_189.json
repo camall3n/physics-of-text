@@ -1,0 +1,66 @@
+{
+  "relation": "rel_189",
+  "predicate_id": "played_at_sporting_venue",
+  "label": "played at sporting venue",
+  "definition": "Sporting competitor or team X played a game or competition at venue Y.",
+  "scope_notes": "Includes: explicit play-at or game-at with X as competitor; a completed win or loss at Y establishing competitive play there; historical sporting venue use. Excludes: ordinary attendance, practice, or employment at a place; plans without established play; the opponent or event substituted for the venue. Ambiguous unless resolved by case-local evidence: future scheduled play without realization; unclear competitor versus spectator role; a generic at-venue phrase without a game context. Narrower than physical presence. It does not assert that Y is the permanent home stadium.",
+  "facts": [
+    {
+      "case_id": "rel_189__ent_400__ent_681",
+      "judgment": "supported",
+      "reason": "Jets → Giants Stadium: Explicit play-at and game/victory/loss-at rows establish competitive play at the venue.",
+      "evidence_lines": [
+        4840,
+        4841,
+        4842,
+        4843,
+        4844,
+        4845,
+        4846,
+        4847,
+        4848,
+        4849
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.429Z"
+      }
+    },
+    {
+      "case_id": "rel_189__ent_321__ent_693",
+      "judgment": "supported",
+      "reason": "Mets → Shea Stadium: Explicit play-at and game/victory/loss-at rows establish competitive play at the venue.",
+      "evidence_lines": [
+        5206,
+        5207,
+        5208,
+        5209,
+        5210,
+        5211,
+        5212,
+        5213,
+        5214,
+        5215
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.429Z"
+      }
+    }
+  ],
+  "predicate_hash": "9e735987c709305243ed1da9199904cfae14f4323d5f60d959b726f6606bcb5c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "3189fd62e7f64eafe6843b7fb67418190a77e139b958bedd331b46aa816d982a"
+}

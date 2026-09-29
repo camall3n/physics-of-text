@@ -1,0 +1,62 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_389",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1,
+        3
+      ],
+      "case_ids": [
+        "rel_389__ent_308__ent_1222",
+        "rel_389__ent_819__ent_1325"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit inclusion of the named athlete or political person establishes membership in the organized team or party.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_389__ent_1029__ent_356"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Team-without a person does not establish whether the absent person is an actual team member.",
+      "tags": [
+        "membership_context"
+      ],
+      "question": "Does team without Ewing identify an absent roster member, or a hypothetical composition?"
+    },
+    {
+      "indices": [
+        0,
+        2,
+        5
+      ],
+      "case_ids": [
+        "rel_389__ent_409__ent_1106",
+        "rel_389__ent_722__ent_669",
+        "rel_389__ent_729__ent_1279"
+      ],
+      "judgment": "incorrect",
+      "reason": "Forward founder affiliation, broad demographic category inclusion or forward official affiliation does not establish inverse organized-group membership.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "c22fc045e273c22566c468c1ae1cfabfa3a873671927ef5170965dca99f6bebc"
+}

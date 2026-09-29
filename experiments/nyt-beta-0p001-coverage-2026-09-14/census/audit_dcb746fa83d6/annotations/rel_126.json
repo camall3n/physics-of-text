@@ -1,0 +1,107 @@
+{
+  "relation": "rel_126",
+  "predicate_id": "has_minister",
+  "label": "has minister",
+  "definition": "Country, government, or political administration X has or had person Y as an explicitly identified minister.",
+  "scope_notes": "Includes: explicit minister of X or X's minister; a portfolio or prime minister office explicitly attached to X; historical ministerial office. Excludes: ordinary official, ambassador, or opposition politician without minister title; a minister of a different government merely meeting X; candidate or proposed appointment alone. Ambiguous unless resolved by case-local evidence: an incomplete national adjective in the institution slot; minister-designate without established tenure; unclear portfolio or government attachment. The inverse ministerial office does not assert that every minister is the head of government.",
+  "facts": [
+    {
+      "case_id": "rel_126__ent_837__ent_1086",
+      "judgment": "supported",
+      "reason": "Japan → Kiichi Miyazawa: Direct minister-of-country apposition establishes the ministerial office.",
+      "evidence_lines": [
+        7068,
+        7069,
+        7070,
+        7074,
+        7075,
+        7076
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:54.618Z"
+      }
+    },
+    {
+      "case_id": "rel_126__ent_1227__ent_948",
+      "judgment": "supported",
+      "reason": "India → Atal Behari Vajpayee: Direct minister-of-country apposition establishes the ministerial office.",
+      "evidence_lines": [
+        7028,
+        7032,
+        7033,
+        7034
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:54.618Z"
+      }
+    },
+    {
+      "case_id": "rel_126__ent_345__ent_165",
+      "judgment": "incorrect",
+      "reason": "Corcoran Group → Manhattan: A real-estate agency location, person-to-FBI directorship or sports coach is not a country having a minister.",
+      "evidence_lines": [
+        7373,
+        7375,
+        7377
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:54.618Z"
+      }
+    },
+    {
+      "case_id": "rel_126__ent_919__ent_918",
+      "judgment": "incorrect",
+      "reason": "Louis J. Freeh → F.B.I.: A real-estate agency location, person-to-FBI directorship or sports coach is not a country having a minister.",
+      "evidence_lines": [
+        8477,
+        8481
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:54.618Z"
+      }
+    },
+    {
+      "case_id": "rel_126__ent_72__ent_779",
+      "judgment": "incorrect",
+      "reason": "Nets → Lawrence Frank: A real-estate agency location, person-to-FBI directorship or sports coach is not a country having a minister.",
+      "evidence_lines": [
+        685
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:36:54.618Z"
+      }
+    }
+  ],
+  "predicate_hash": "cf4825da9a3139ef6dc098bd38d0b9bc94c0fd1a905f38393ab2fdc772ff5e93",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "6944bb0d35ddaf09bda426315ec72c1327f03b572045b074f21869a7a1206fdc"
+}

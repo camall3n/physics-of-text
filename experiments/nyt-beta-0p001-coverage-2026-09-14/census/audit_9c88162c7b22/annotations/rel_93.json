@@ -1,0 +1,56 @@
+{
+  "relation": "rel_93",
+  "predicate_id": "met_with",
+  "label": "met or encountered",
+  "definition": "Person, group, institution, or sports team X actually met or encountered Y.",
+  "scope_notes": "Includes: explicit actual meet or meet-with encounter; a meeting between representatives clearly attributed to the named institutions; actual meeting of opposing sports teams. Excludes: communication alone without an encounter; a proposed or scheduled meeting not established as occurring; physical confluence of rivers or geographic features; mere co-occurrence or comparison. Ambiguous unless resolved by case-local evidence: future or planned meeting when occurrence is unresolved; meeting versus satisfying an abstract requirement; unclear representatives or participants. The primary direction follows the extracted arguments, although an encounter is semantically mutual. Team meetings include competitive encounters but do not imply a result.",
+  "facts": [
+    {
+      "case_id": "rel_93__ent_512__ent_754",
+      "judgment": "supported",
+      "reason": "George P. Shultz → Eduard A. Shevardnadze: Actual meet and meet-with paths, together with receiving the named minister, establish an encounter despite another row about preparation.",
+      "evidence_lines": [
+        8253,
+        8254,
+        8255,
+        8258,
+        8259,
+        8260,
+        8261
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.037Z"
+      }
+    },
+    {
+      "case_id": "rel_93__ent_663__ent_189",
+      "judgment": "incorrect",
+      "reason": "Constitution → Congress: Constitutional grants and limits on Congress concern a document and institution, not an actual meeting.",
+      "evidence_lines": [
+        4242,
+        4243,
+        4245,
+        4246,
+        4247
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:33.037Z"
+      }
+    }
+  ],
+  "predicate_hash": "845fc8f662fe6280cbb1f28ccdf89a9b224eee5808b802fabe4767e73c84be2c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "f8226382346cabb8afadc275fbce22aee078719671fec9c4a0c8a533ed98b6c1"
+}

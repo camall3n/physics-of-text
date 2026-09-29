@@ -1,0 +1,85 @@
+{
+  "relation": "rel_120",
+  "label": "has political or institutional leader",
+  "definition": "Institution or political body X has person Y as president, leader or head, including legislative leadership.",
+  "scope_notes": "Inverse of prior leader/office scope. General control by a party, legal representation and ordinary co-occurrence do not establish a named leadership office; a group argument standing for an unnamed leader requires review.",
+  "facts": [
+    {
+      "case_id": "rel_120__ent_891__ent_651",
+      "judgment": "incorrect",
+      "reason": "Simpson has Cochran as lawyer/counsel; legal representation is not institutional leadership.",
+      "evidence_lines": [
+        3827,
+        3830,
+        3831,
+        3832
+      ],
+      "issue_tags": [
+        "predicate_boundary"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_816",
+      "judgment": "ambiguous",
+      "reason": "Republicans control/hold Senate, but the leader-appos path may stand for an unnamed Republican officeholder rather than the whole party.",
+      "evidence_lines": [
+        4896,
+        4898,
+        4900,
+        4901,
+        4902
+      ],
+      "issue_tags": [
+        "argument_scope",
+        "entity_identity"
+      ],
+      "reviewer_question": "Does the leader construction identify a named individual omitted by the Republicans argument, or assert the party itself as institutional leader?"
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_49",
+      "judgment": "supported",
+      "reason": "Senate has Mitchell as explicit leader in noun, possessive and of constructions.",
+      "evidence_lines": [
+        7686,
+        7688,
+        7691,
+        7692,
+        7695
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_120__ent_776__ent_533",
+      "judgment": "incorrect",
+      "reason": "Sears and Roebuck are linked only by an announce subject path, with no leader office.",
+      "evidence_lines": [
+        646
+      ],
+      "issue_tags": [
+        "predicate_boundary",
+        "entity_identity"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_120__ent_1197__ent_267",
+      "judgment": "supported",
+      "reason": "Senate explicitly has Lott as leader, with additional whip and contextual paths.",
+      "evidence_lines": [
+        7636,
+        7637,
+        7638,
+        7640,
+        7642
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    }
+  ]
+}

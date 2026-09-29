@@ -1,0 +1,102 @@
+{
+  "relation": "rel_313",
+  "predicate_id": "has_spokesperson",
+  "label": "has spokesperson",
+  "definition": "Organization or principal X has person Y serving as its spokesperson.",
+  "scope_notes": "Includes: inverse spokesperson_for with correct attachment; organization-modifying spokesman and appositive person. Excludes: leader/president/lawyer/secretary alone; speaking at a building; spokesperson-to-principal forward direction. Ambiguous unless resolved by case-local evidence: dateline/location replacing the principal or person.",
+  "facts": [
+    {
+      "case_id": "rel_313__ent_586__ent_578",
+      "judgment": "supported",
+      "reason": "White House → Michael D. McCurry: Direct organization-modifying spokesman evidence identifies the spokesperson despite adjacent secretary/speech rows.",
+      "evidence_lines": [
+        5397,
+        5399,
+        5400,
+        5402,
+        5403,
+        5404,
+        5405
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.261Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_380__ent_205",
+      "judgment": "incorrect",
+      "reason": "Alan Greenspan → Paul A. Volcker: Replacing a predecessor is succession, not a person serving as another person's spokesperson.",
+      "evidence_lines": [
+        5881,
+        5882,
+        5883,
+        5884,
+        5885,
+        5886,
+        5887
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.262Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_586__ent_1039",
+      "judgment": "supported",
+      "reason": "White House → Scott McClellan: Direct organization-modifying spokesman evidence identifies the spokesperson despite adjacent secretary/speech rows.",
+      "evidence_lines": [
+        5406,
+        5407,
+        5408,
+        5411,
+        5414
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.262Z"
+      }
+    },
+    {
+      "case_id": "rel_313__ent_536__ent_336",
+      "judgment": "ambiguous",
+      "reason": "State Department → Richard A. Boucher: Saying at the State Department supplies speech location but no explicit representation of that department in this fact.",
+      "evidence_lines": [
+        5378,
+        5380,
+        5385
+      ],
+      "issue_tags": [
+        "spokesperson_attachment"
+      ],
+      "reviewer_question": "Is Richard Boucher speaking for the State Department or merely speaking at its location?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:26:33.262Z"
+      }
+    }
+  ],
+  "predicate_hash": "c7e0c2932f00f6b688fb4ee8c43d57eb732e86e9c3192355ae43b0cc227806ad",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "5da0053d6580e0f8ec820e9a4d91537d3b16528bb38488c553481291698dec8a"
+}

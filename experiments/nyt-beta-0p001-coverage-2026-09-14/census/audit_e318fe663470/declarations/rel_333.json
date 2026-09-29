@@ -1,0 +1,37 @@
+{
+  "relation": "rel_333",
+  "predicate_id": "president_or_manager_of",
+  "predicate_version": 1,
+  "predicate_hash": "caa0f374d4a037a40b037bd6a6769ceb352047c5b6273216e60418db433c0237",
+  "predicate": {
+    "id": "president_or_manager_of",
+    "label": "president or manager of",
+    "definition": "Person X holds or held an explicitly identified president or manager office in organization, team, public body or institution Y.",
+    "includes": [
+      "explicit president or manager title or unambiguous manage-as-office evidence",
+      "general manager",
+      "borough president and community-board manager",
+      "functional presidency within an organization",
+      "historical tenure"
+    ],
+    "excludes": [
+      "chair/director/executive/head alone",
+      "owner/founder/coach/player alone",
+      "generic running or control without the specified role",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "personal principal replacing omitted organization/campaign",
+      "missing title modifier that could change the office"
+    ],
+    "notes": "This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes.",
+    "scope_notes": "Includes: explicit president or manager title or unambiguous manage-as-office evidence; general manager; borough president and community-board manager; functional presidency within an organization; historical tenure. Excludes: chair/director/executive/head alone; owner/founder/coach/player alone; generic running or control without the specified role; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal replacing omitted organization/campaign; missing title modifier that could change the office. This deliberately composite legacy operational predicate is retained for comparability. Mark manager-only support broad_predicate. It is not a claim that president and manager are interchangeable atomic relations. A narrower president-only sensitivity requires separate complete re-evaluation, not selective changes."
+  },
+  "dictionary_sha256": "1375b65904bab4cfecdd59f78868a2391dabc20a98826da8fbfc0812d343870c",
+  "kind": "inherited_frozen_complete_census",
+  "rationale": "Exact same source and complete relation evidence; preserve the prior complete-census predicate and final judgments without amendment.",
+  "reviewer": "prior complete-census reviewer",
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "prior_annotation_sha256": "9e86c52b3cede61c021395914fb191663d896b6945e48f72b69ef65bac9d1df6",
+  "prior_assessment_sha256": "37049c6ad1d668268508c40f8b437a2dd0c92d41c19549c15ad7eadffc4ed77c"
+}

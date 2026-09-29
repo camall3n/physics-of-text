@@ -1,0 +1,39 @@
+{
+  "relation": "rel_88",
+  "predicate_id": "executive_of",
+  "predicate_version": 1,
+  "predicate_hash": "d1d32d9f176c169337c6492d687beefa7d499910d7d006ef59712cedd3b611a3",
+  "predicate": {
+    "id": "executive_of",
+    "label": "executive of",
+    "definition": "Person X holds or held an explicitly identified executive office in organization or governmental jurisdiction Y.",
+    "includes": [
+      "executive/chief executive office",
+      "corporate and county executive",
+      "explicit historical executive office"
+    ],
+    "excludes": [
+      "chair/director/president/head alone without executive title",
+      "hired by an executive",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "title/attachment omits who holds the executive office"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: executive/chief executive office; corporate and county executive; explicit historical executive office. Excludes: chair/director/president/head alone without executive title; hired by an executive; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: title/attachment omits who holds the executive office."
+  },
+  "dictionary_sha256": "2b92d95cbd01485f76550690a4cb7be01b12ae052df34c2d9e3ba4cc24a3cc00",
+  "kind": "declared_before_case_grading",
+  "rationale": "Executive possessive/in/nominal and unseated/sworn-as-executive paths form the dominant specific office; deanship/teaching/manager alone is excluded.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:10:27.910Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_88.before_grading.json",
+  "pregrading_annotation_sha256": "a8f33e5ce0715505da50b3b7074bfa867201f7faeb59970897577d32875fa13e"
+}

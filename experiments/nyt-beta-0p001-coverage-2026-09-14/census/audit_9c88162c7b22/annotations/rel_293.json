@@ -1,0 +1,81 @@
+{
+  "relation": "rel_293",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_293__ent_819__ent_724",
+      "judgment": "incorrect",
+      "reason": "Democrats → Hillary Rodham Clinton: The arguments are group/country to person and the rows concern support or political interaction, not person-to-body leadership.",
+      "evidence_lines": [
+        7588,
+        7590,
+        7591,
+        7592,
+        7593,
+        7594,
+        7595
+      ],
+      "issue_tags": [
+        "wrong_direction"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.361Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_813__ent_706",
+      "judgment": "incorrect",
+      "reason": "Britain → Tony Blair: The arguments are group/country to person and the rows concern support or political interaction, not person-to-body leadership.",
+      "evidence_lines": [
+        7010,
+        7012,
+        7013,
+        7014,
+        7015,
+        7016
+      ],
+      "issue_tags": [
+        "wrong_direction"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.361Z"
+      }
+    },
+    {
+      "case_id": "rel_293__ent_621__ent_325",
+      "judgment": "supported",
+      "reason": "Bill Keller → The Times: Explicit chief-for/of or chief tenure establishes an eligible leadership office at the publication.",
+      "evidence_lines": [
+        2467,
+        2469,
+        2470,
+        2471,
+        2472
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:27:15.361Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "2a41b7c138f07362c1e0d2b955a2e1a6fc775b8f705de3b01ee2903d9fb25257"
+}

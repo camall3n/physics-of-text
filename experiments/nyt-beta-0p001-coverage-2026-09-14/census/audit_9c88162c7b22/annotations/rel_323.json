@@ -1,0 +1,75 @@
+{
+  "relation": "rel_323",
+  "predicate_id": "located_in",
+  "label": "organization based or located in",
+  "definition": "Organization X is based, headquartered or physically located in geographic place Y.",
+  "scope_notes": "Includes: based/headquarters/campus/office in; company/firm/group in a place; clear company/firm geographic noun modifiers; historical organizational location. Excludes: industry/Internet or corporate-family/Bell association; person birthplace/residence/occupation; mere event location; ownership or employment alone. Ambiguous unless resolved by case-local evidence: nationality adjective alone; truncated country/place; Wall Street as place versus industry. A shortened organization name may be resolved by its own explicit company/unit role. No location evidence is imported from a different latent fact.",
+  "facts": [
+    {
+      "case_id": "rel_323__ent_224__ent_466",
+      "judgment": "supported",
+      "reason": "Soundscan → Hartsdale: Explicit company-in and based-in paths establish Soundscan’s organizational location in Hartsdale.",
+      "evidence_lines": [
+        5834,
+        5835,
+        5836,
+        5837,
+        5839,
+        5840
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.181Z"
+      }
+    },
+    {
+      "case_id": "rel_323__ent_570__ent_323",
+      "judgment": "ambiguous",
+      "reason": "East New York → Brooklyn: School and station modifiers coexist with section-of-Brooklyn and street evidence. The East New York argument is not resolved as an organization rather than a neighborhood or a modifier of an unnamed institution.",
+      "evidence_lines": [
+        1081,
+        1082,
+        1083,
+        1085,
+        1087
+      ],
+      "issue_tags": [
+        "entity_type"
+      ],
+      "reviewer_question": "Which organization is named East New York, rather than the neighborhood modifying a school or station?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.181Z"
+      }
+    },
+    {
+      "case_id": "rel_323__ent_293__ent_10",
+      "judgment": "ambiguous",
+      "reason": "Bertelsmann → German: German is an adjectival nationality fragment; even the based-in path leaves the geographic destination incompletely named.",
+      "evidence_lines": [
+        3603,
+        3606,
+        3608
+      ],
+      "issue_tags": [
+        "truncated_place"
+      ],
+      "reviewer_question": "Does German stand for Germany in the based-in statement, or modify another omitted place or institution?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:32:02.181Z"
+      }
+    }
+  ],
+  "predicate_hash": "cdbdb77eac39873e92580a72cbd8314f932c89df5f695af29db0e7183844004c",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "22ec991e0817087a44e108aa5af328711bb38cfd166a3f230de9638fa3d2f2a0"
+}

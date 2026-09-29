@@ -1,0 +1,41 @@
+{
+  "relation": "rel_159",
+  "predicate_id": "president_of",
+  "predicate_version": 1,
+  "predicate_hash": "bacdc29982c40f6f3df7b18b26e99d48e605b1bf6e1e1e5cf7c46c2494b6b13f",
+  "predicate": {
+    "id": "president_of",
+    "label": "president of institution",
+    "definition": "Person X holds or held an explicitly identified president office in organization, team, public body, or institution Y.",
+    "includes": [
+      "explicit president office",
+      "a functional or departmental president role within Y",
+      "historical or former presidency"
+    ],
+    "excludes": [
+      "manager, director, chairman, head, or executive alone without a president title",
+      "ordinary employment or membership",
+      "candidate or nomination alone"
+    ],
+    "ambiguous": [
+      "president-elect or unresolved tenure without evidence of holding office",
+      "an incomplete institution or personal principal",
+      "unclear holder or title attachment"
+    ],
+    "notes": "This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y.",
+    "scope_notes": "Includes: explicit president office; a functional or departmental president role within Y; historical or former presidency. Excludes: manager, director, chairman, head, or executive alone without a president title; ordinary employment or membership; candidate or nomination alone. Ambiguous unless resolved by case-local evidence: president-elect or unresolved tenure without evidence of holding office; an incomplete institution or personal principal; unclear holder or title attachment. This specific title is separate from president_or_manager_of and managerial_office_in. It does not require that the officeholder be the sole head of Y."
+  },
+  "dictionary_sha256": "7c56ad716d8e5d6200ea318c0ed11f5aa911df0dc83c1dc8a7b161a8a183210c",
+  "kind": "declared_before_case_grading",
+  "rationale": "Explicit president-of/attached president role paths dominate, distinct from corporate acquisition or coaching.",
+  "reviewer": "root",
+  "declared_at": "2026-09-14T22:23:41.984Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+  "pregrading_annotation_file": "rel_159.before_grading.json",
+  "pregrading_annotation_sha256": "e0ef6e6669fa56fa361a2f91b43d01c1a75f39108197dac26c90604bc847aa9a"
+}

@@ -1,0 +1,108 @@
+{
+  "relation": "rel_245",
+  "predicate_id": "managerial_office_in",
+  "label": "managerial or leadership office in",
+  "definition": "Person X holds or held an explicit managerial or leadership office in organization, political body or institution Y.",
+  "scope_notes": "Includes: head/president/chair/director/chief/commander/executive/manager; equivalent explicit management such as dean or commissioner; a functional or departmental leadership office within Y; historical office. Excludes: founder or owner alone; ordinary employment/membership; spokesperson/adviser/lawyer/analyst/editor alone; athletic or standings lead; candidacy or nomination alone. Ambiguous unless resolved by case-local evidence: personal principal standing for an omitted campaign or institution; unclear leadership attachment. This is the prior broad office family. It does not require sole overall leadership of Y. Explicit editor-in-chief or other equivalent head office differs from editor alone.",
+  "facts": [
+    {
+      "case_id": "rel_245__ent_285__ent_321",
+      "judgment": "ambiguous",
+      "reason": "Frank Cashen → Mets; Steve Phillips → Mets: Managerial evidence for Frank Cashen is merged with Steve Phillips in one inferred person.",
+      "evidence_lines": [
+        3188,
+        3353,
+        3355,
+        3360,
+        3361
+      ],
+      "issue_tags": [
+        "entity_collision"
+      ],
+      "reviewer_question": "Which Mets manager should this fact identify?",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.888Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_339__ent_1036",
+      "judgment": "supported",
+      "reason": "Bud Selig → Milwaukee Brewers: An explicit president or established executive office identifies managerial responsibility.",
+      "evidence_lines": [
+        1447,
+        1449,
+        1450,
+        1454
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.888Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_945__ent_702",
+      "judgment": "incorrect",
+      "reason": "Jim Calhoun → Connecticut: Coaching/team play or corporate ownership alone does not establish the declared managerial-office relation.",
+      "evidence_lines": [
+        7187,
+        7189,
+        7190
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.888Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_582__ent_101",
+      "judgment": "supported",
+      "reason": "Michael D. Eisner → Walt Disney Company: An explicit president or established executive office identifies managerial responsibility.",
+      "evidence_lines": [
+        1278,
+        1280
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.888Z"
+      }
+    },
+    {
+      "case_id": "rel_245__ent_198__ent_458",
+      "judgment": "incorrect",
+      "reason": "Cablevision → Garden: Coaching/team play or corporate ownership alone does not establish the declared managerial-office relation.",
+      "evidence_lines": [
+        5994
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "root",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:25:23.888Z"
+      }
+    }
+  ],
+  "predicate_hash": "b8988d71e0838922f5ef8ccbe48a3f3937a96b3494acec84ba02a342e6c082ff",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "76dc4444f429276f6fde4352c17cc5e2cf8743d102e511828948fd16215fa15f"
+}

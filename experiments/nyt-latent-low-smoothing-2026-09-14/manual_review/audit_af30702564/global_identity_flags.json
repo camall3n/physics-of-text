@@ -1,0 +1,1801 @@
+{
+  "statistics": {
+    "total_global_expressed_entity_ids": 1160,
+    "global_entity_ids_with_multiple_literal_names": 511,
+    "selected_cases": 100,
+    "selected_cases_touching_multiple_name_global_id": 68,
+    "supported_cases_touching_multiple_name_global_id": 55,
+    "interpretation": "Name plurality is a flag, not a semantic error judgment: aliases, distinct entities and truncated names may all contribute."
+  },
+  "examples": [
+    {
+      "id": "Ent[ent_1132]",
+      "names": [
+        {
+          "value": "Shimon Peres",
+          "count": 20
+        },
+        {
+          "value": "Conde Nast Publications",
+          "count": 1
+        }
+      ],
+      "selected_cases": [
+        {
+          "case_id": "rel_274__ent_1132__ent_436",
+          "names": [
+            {
+              "value": "Shimon Peres → Labor Party",
+              "count": 3
+            }
+          ],
+          "judgment": "supported"
+        },
+        {
+          "case_id": "rel_42__ent_1132__ent_953",
+          "names": [
+            {
+              "value": "Conde Nast Publications → Advance Publications",
+              "count": 1
+            }
+          ],
+          "judgment": "supported"
+        }
+      ]
+    },
+    {
+      "id": "Ent[ent_1370]",
+      "names": [
+        {
+          "value": "Norman Siegel",
+          "count": 1
+        },
+        {
+          "value": "Englewood",
+          "count": 1
+        },
+        {
+          "value": "Montreal Expos",
+          "count": 5
+        },
+        {
+          "value": "San Diego Padres",
+          "count": 3
+        }
+      ],
+      "selected_cases": [
+        {
+          "case_id": "rel_274__ent_1370__ent_129",
+          "names": [
+            {
+              "value": "Norman Siegel → New York Civil Liberties Union",
+              "count": 1
+            }
+          ],
+          "judgment": "incorrect"
+        },
+        {
+          "case_id": "rel_304__ent_1370__ent_557",
+          "names": [
+            {
+              "value": "Montreal Expos → New York Mets",
+              "count": 5
+            },
+            {
+              "value": "San Diego Padres → New York Mets",
+              "count": 3
+            }
+          ],
+          "judgment": "ambiguous"
+        }
+      ]
+    },
+    {
+      "id": "Ent[ent_146]",
+      "names": [
+        {
+          "value": "District Council",
+          "count": 10
+        },
+        {
+          "value": "Metro-North",
+          "count": 3
+        },
+        {
+          "value": "United States Central Command",
+          "count": 2
+        },
+        {
+          "value": "Mr. Simpson",
+          "count": 12
+        }
+      ],
+      "selected_cases": [
+        {
+          "case_id": "rel_32__ent_389__ent_146",
+          "names": [
+            {
+              "value": "Stanley Hill → District Council",
+              "count": 2
+            }
+          ],
+          "judgment": "supported"
+        },
+        {
+          "case_id": "rel_72__ent_58__ent_146",
+          "names": [
+            {
+              "value": "Gen. Tommy R. Franks → United States Central Command",
+              "count": 2
+            }
+          ],
+          "judgment": "supported"
+        }
+      ]
+    },
+    {
+      "id": "Ent[ent_1186]",
+      "names": [
+        {
+          "value": "Tom Wolzien",
+          "count": 3
+        },
+        {
+          "value": "Kenneth S. Abramowitz",
+          "count": 2
+        },
+        {
+          "value": "Harris Upham & Company",
+          "count": 1
+        },
+        {
+          "value": "Gary D. Black",
+          "count": 1
+        }
+      ],
+      "selected_cases": [
+        {
+          "case_id": "rel_125__ent_1186__ent_783",
+          "names": [
+            {
+              "value": "Tom Wolzien → Sanford C. Bernstein & Company",
+              "count": 3
+            },
+            {
+              "value": "Kenneth S. Abramowitz → Sanford C. Bernstein & Company",
+              "count": 2
+            },
+            {
+              "value": "Gary D. Black → Sanford C. Bernstein & Company",
+              "count": 1
+            }
+          ],
+          "judgment": "ambiguous"
+        }
+      ]
+    },
+    {
+      "id": "Ent[ent_1364]",
+      "names": [
+        {
+          "value": "David Trimble",
+          "count": 10
+        },
+        {
+          "value": "Devils",
+          "count": 1
+        },
+        {
+          "value": "Science fiction",
+          "count": 1
+        }
+      ],
+      "selected_cases": [
+        {
+          "case_id": "rel_274__ent_1364__ent_55",
+          "names": [
+            {
+              "value": "David Trimble → Ulster Unionist Party",
+              "count": 5
+            },
+            {
+              "value": "Science fiction → Wild West",
+              "count": 1
+            }
+          ],
+          "judgment": "ambiguous"
+        }
+      ]
+    }
+  ],
+  "flagged_cases": [
+    {
+      "case_id": "rel_169__ent_1128__ent_1129",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Wal-Mart",
+          "count": 1
+        },
+        {
+          "value": "J. Walter Thompson",
+          "count": 20
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "WPP Group",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "case_id": "rel_169__ent_1272__ent_868",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Bozell Worldwide",
+          "count": 9
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Bozell",
+          "count": 9
+        },
+        {
+          "value": "Sinn Fein",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_169__ent_271__ent_1066",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Security Council",
+          "count": 28
+        },
+        {
+          "value": "Hughes",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "General Motors Corporation",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "case_id": "rel_169__ent_135__ent_1064",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Rocco Landesman",
+          "count": 10
+        },
+        {
+          "value": "Kellogg",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Halliburton",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "case_id": "rel_125__ent_978__ent_861",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Correctional Association of New York",
+          "count": 1
+        },
+        {
+          "value": "Jared Lebow",
+          "count": 1
+        },
+        {
+          "value": "Scott Merlis",
+          "count": 3
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Morgan Stanley & Company",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_125__ent_1253__ent_1446",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Emanuel Goldman",
+          "count": 13
+        },
+        {
+          "value": "St. Michaels",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Merrill Lynch",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "case_id": "rel_125__ent_806__ent_1446",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Drexel Burnham Lambert",
+          "count": 1
+        },
+        {
+          "value": "Harvey Heinbach",
+          "count": 13
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Merrill Lynch",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "case_id": "rel_125__ent_793__ent_782",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "David Healy",
+          "count": 3
+        },
+        {
+          "value": "S. G. Warburg & Company",
+          "count": 3
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "United Federation of Teachers",
+          "count": 1
+        },
+        {
+          "value": "Burnham Securities",
+          "count": 4
+        },
+        {
+          "value": "United Nations",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_125__ent_1186__ent_783",
+      "judgment": "ambiguous",
+      "entity1_global_names": [
+        {
+          "value": "Tom Wolzien",
+          "count": 3
+        },
+        {
+          "value": "Kenneth S. Abramowitz",
+          "count": 2
+        },
+        {
+          "value": "Harris Upham & Company",
+          "count": 1
+        },
+        {
+          "value": "Gary D. Black",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Sanford C. Bernstein & Company",
+          "count": 9
+        },
+        {
+          "value": "Craig Hammerman",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "case_id": "rel_324__ent_400__ent_83",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Lawrence A. Kudlow",
+          "count": 1
+        },
+        {
+          "value": "Jets",
+          "count": 30
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Oakland",
+          "count": 20
+        },
+        {
+          "value": "James W. Treffinger",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_324__ent_486__ent_1211",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Foote",
+          "count": 2
+        },
+        {
+          "value": "Finance Committee",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "True North Communications",
+          "count": 9
+        },
+        {
+          "value": "Michael Jordan",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "case_id": "rel_324__ent_309__ent_12",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Red Sox",
+          "count": 60
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Yankees",
+          "count": 41
+        },
+        {
+          "value": "Glenn D. Lowry",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "case_id": "rel_324__ent_392__ent_557",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Adam",
+          "count": 2
+        },
+        {
+          "value": "Atlanta Braves",
+          "count": 10
+        },
+        {
+          "value": "Japan",
+          "count": 3
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "New York Mets",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "case_id": "rel_324__ent_12__ent_309",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Yankees",
+          "count": 41
+        },
+        {
+          "value": "Glenn D. Lowry",
+          "count": 5
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Red Sox",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "case_id": "rel_333__ent_556__ent_798",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Mr. Lee",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Taiwan",
+          "count": 20
+        },
+        {
+          "value": "United States",
+          "count": 5
+        },
+        {
+          "value": "Dartford",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_333__ent_105__ent_1315",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Stephen Gillers",
+          "count": 1
+        },
+        {
+          "value": "Glen Sather",
+          "count": 17
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Rangers",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "case_id": "rel_274__ent_1203__ent_497",
+      "judgment": "ambiguous",
+      "entity1_global_names": [
+        {
+          "value": "Slobodan Milosevic",
+          "count": 22
+        },
+        {
+          "value": "Human Resources Administration",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Yugoslav",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "case_id": "rel_274__ent_1132__ent_436",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Shimon Peres",
+          "count": 20
+        },
+        {
+          "value": "Conde Nast Publications",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Labor Party",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_274__ent_1364__ent_55",
+      "judgment": "ambiguous",
+      "entity1_global_names": [
+        {
+          "value": "David Trimble",
+          "count": 10
+        },
+        {
+          "value": "Devils",
+          "count": 1
+        },
+        {
+          "value": "Science fiction",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Walt Disney Company",
+          "count": 1
+        },
+        {
+          "value": "Ulster Unionist Party",
+          "count": 10
+        },
+        {
+          "value": "Wild West",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_274__ent_1370__ent_129",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Norman Siegel",
+          "count": 1
+        },
+        {
+          "value": "Englewood",
+          "count": 1
+        },
+        {
+          "value": "Montreal Expos",
+          "count": 5
+        },
+        {
+          "value": "San Diego Padres",
+          "count": 3
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "New York Civil Liberties Union",
+          "count": 15
+        },
+        {
+          "value": "Bill Keller",
+          "count": 2
+        },
+        {
+          "value": "John McCain",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_38__ent_1095__ent_960",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Adrienne Esposito",
+          "count": 2
+        },
+        {
+          "value": "Mike Krzyzewski",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Duke",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_38__ent_889__ent_561",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Parcells",
+          "count": 10
+        },
+        {
+          "value": "Mr. Ammon",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Giants",
+          "count": 109
+        }
+      ]
+    },
+    {
+      "case_id": "rel_38__ent_946__ent_1236",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "John Thompson",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Johnson",
+          "count": 10
+        },
+        {
+          "value": "Georgetown",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_6__ent_1439__ent_1084",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Mets",
+          "count": 5
+        },
+        {
+          "value": "Tom Carvelas",
+          "count": 1
+        },
+        {
+          "value": "Mayor",
+          "count": 1
+        },
+        {
+          "value": "Muppets",
+          "count": 2
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Phillies",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "case_id": "rel_6__ent_470__ent_1004",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Sanofi",
+          "count": 1
+        },
+        {
+          "value": "Mariners",
+          "count": 10
+        },
+        {
+          "value": "Willie Randolph",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Yankees",
+          "count": 160
+        }
+      ]
+    },
+    {
+      "case_id": "rel_6__ent_321__ent_600",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Mets",
+          "count": 98
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Cubs",
+          "count": 16
+        },
+        {
+          "value": "Patrick J. Buchanan",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_132__ent_1089__ent_615",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Yale-New Haven Hospital",
+          "count": 1
+        },
+        {
+          "value": "Gary Burtless",
+          "count": 9
+        },
+        {
+          "value": "Oppenheimer & Company",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Brookings Institution",
+          "count": 10
+        },
+        {
+          "value": "Diana",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "case_id": "rel_132__ent_1417__ent_1450",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Williamsburg",
+          "count": 1
+        },
+        {
+          "value": "Jared Bernstein",
+          "count": 8
+        },
+        {
+          "value": "Omnicom Group",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Economic Policy Institute",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "case_id": "rel_132__ent_661__ent_793",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Joseph Liro",
+          "count": 4
+        },
+        {
+          "value": "Consumers Union",
+          "count": 7
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "David Healy",
+          "count": 3
+        },
+        {
+          "value": "S. G. Warburg & Company",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "case_id": "rel_175__ent_363__ent_1023",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Carol Abrams",
+          "count": 1
+        },
+        {
+          "value": "David E. Cole",
+          "count": 1
+        },
+        {
+          "value": "Democratic",
+          "count": 1
+        },
+        {
+          "value": "Patrick J. Fitzgerald",
+          "count": 3
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Janel Patterson",
+          "count": 4
+        },
+        {
+          "value": "Study of Automotive Transportation",
+          "count": 1
+        },
+        {
+          "value": "Mr. Selz",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_175__ent_128__ent_141",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "C. Fred Bergsten",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Institute for International Economics",
+          "count": 10
+        },
+        {
+          "value": "Charles M. Elson",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_175__ent_915__ent_918",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Robert S. Mueller III",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Gen. Colin L. Powell",
+          "count": 1
+        },
+        {
+          "value": "Selena",
+          "count": 1
+        },
+        {
+          "value": "F.B.I.",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "case_id": "rel_175__ent_1022__ent_161",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Ilyse Fink",
+          "count": 7
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Department of Buildings",
+          "count": 11
+        },
+        {
+          "value": "Al Harazin",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_175__ent_324__ent_372",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Susan Amlung",
+          "count": 5
+        },
+        {
+          "value": "New York",
+          "count": 17
+        },
+        {
+          "value": "Ameritech",
+          "count": 2
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "United Federation of Teachers",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "case_id": "rel_32__ent_4__ent_3",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Yasir Arafat",
+          "count": 32
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Palestine Liberation Organization",
+          "count": 29
+        },
+        {
+          "value": "John Mara",
+          "count": 1
+        },
+        {
+          "value": "French",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_32__ent_389__ent_146",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Stanley Hill",
+          "count": 9
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "District Council",
+          "count": 10
+        },
+        {
+          "value": "Metro-North",
+          "count": 3
+        },
+        {
+          "value": "United States Central Command",
+          "count": 2
+        },
+        {
+          "value": "Mr. Simpson",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "case_id": "rel_164__ent_382__ent_1441",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "William J. Casey",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Central Intelligence",
+          "count": 10
+        },
+        {
+          "value": "Richard A. Boucher",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "case_id": "rel_164__ent_1271__ent_1300",
+      "judgment": "ambiguous",
+      "entity1_global_names": [
+        {
+          "value": "George Stephanopoulos",
+          "count": 9
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "David H. Resler",
+          "count": 1
+        },
+        {
+          "value": "Mr. Clinton",
+          "count": 6
+        },
+        {
+          "value": "John McNamara",
+          "count": 2
+        },
+        {
+          "value": "Bell",
+          "count": 2
+        },
+        {
+          "value": "Bloomington Hospital",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_164__ent_1367__ent_1282",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Steve Phillips",
+          "count": 7
+        },
+        {
+          "value": "George J. Mitchell",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Mets",
+          "count": 44
+        }
+      ]
+    },
+    {
+      "case_id": "rel_164__ent_970__ent_730",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "David Healy",
+          "count": 1
+        },
+        {
+          "value": "Yasushi Akashi",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "United Nations",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "case_id": "rel_164__ent_50__ent_495",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Donald Fehr",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Bronx Borough",
+          "count": 9
+        },
+        {
+          "value": "Players Association",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_138__ent_935__ent_931",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Torre",
+          "count": 2
+        },
+        {
+          "value": "Ameritech",
+          "count": 6
+        },
+        {
+          "value": "Colin Campbell",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Bell",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "case_id": "rel_138__ent_462__ent_1141",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Knicks",
+          "count": 24
+        },
+        {
+          "value": "Mcorp",
+          "count": 8
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Texas",
+          "count": 12
+        },
+        {
+          "value": "National Action Party",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "case_id": "rel_138__ent_943__ent_1088",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Nets",
+          "count": 1
+        },
+        {
+          "value": "Forrester Research",
+          "count": 17
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Michael D. Eisner",
+          "count": 1
+        },
+        {
+          "value": "Cambridge",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_340__ent_609__ent_836",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Marlins",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "World Series",
+          "count": 80
+        },
+        {
+          "value": "Braves",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_340__ent_158__ent_1307",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Columbia University",
+          "count": 5
+        },
+        {
+          "value": "Mr. Schwartz",
+          "count": 7
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Brooklyn",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "case_id": "rel_340__ent_1392__ent_836",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Cubs",
+          "count": 13
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "World Series",
+          "count": 80
+        },
+        {
+          "value": "Braves",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_329__ent_556__ent_798",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Mr. Lee",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Taiwan",
+          "count": 20
+        },
+        {
+          "value": "United States",
+          "count": 5
+        },
+        {
+          "value": "Dartford",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_329__ent_909__ent_908",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Felix G. Rohatyn",
+          "count": 1
+        },
+        {
+          "value": "Mr. Sheng",
+          "count": 5
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Shanghai",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "case_id": "rel_329__ent_190__ent_835",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Ward McCarthy",
+          "count": 2
+        },
+        {
+          "value": "Ms. Leach",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "England",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "case_id": "rel_329__ent_1194__ent_759",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Lawrence Van Gelder",
+          "count": 4
+        },
+        {
+          "value": "CNN",
+          "count": 4
+        },
+        {
+          "value": "Yu Cho",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Korea",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_338__ent_79__ent_400",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "New Republic",
+          "count": 9
+        },
+        {
+          "value": "Dick Steinberg",
+          "count": 8
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Lawrence A. Kudlow",
+          "count": 1
+        },
+        {
+          "value": "Jets",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "case_id": "rel_338__ent_205__ent_1299",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Dick Steinberg",
+          "count": 1
+        },
+        {
+          "value": "Paul A. Volcker",
+          "count": 15
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Jets",
+          "count": 19
+        },
+        {
+          "value": "Seoul",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_338__ent_819__ent_965",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Democrats",
+          "count": 123
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "White House",
+          "count": 19
+        },
+        {
+          "value": "Channel",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "case_id": "rel_352__ent_822__ent_640",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "American",
+          "count": 26
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "England",
+          "count": 1
+        },
+        {
+          "value": "AMR Corporation",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "case_id": "rel_352__ent_1204__ent_709",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "Israel",
+          "count": 14
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "David Rebovich",
+          "count": 1
+        },
+        {
+          "value": "Egypt",
+          "count": 1
+        },
+        {
+          "value": "Ehud Olmert",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "case_id": "rel_72__ent_58__ent_146",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Gen. Tommy R. Franks",
+          "count": 8
+        },
+        {
+          "value": "Gene Russianoff",
+          "count": 2
+        },
+        {
+          "value": "Herbert Mitgang",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "District Council",
+          "count": 10
+        },
+        {
+          "value": "Metro-North",
+          "count": 3
+        },
+        {
+          "value": "United States Central Command",
+          "count": 2
+        },
+        {
+          "value": "Mr. Simpson",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "case_id": "rel_72__ent_288__ent_321",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Dave Johnson",
+          "count": 1
+        },
+        {
+          "value": "Frank Cashen",
+          "count": 3
+        },
+        {
+          "value": "Al Harazin",
+          "count": 8
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Mets",
+          "count": 98
+        }
+      ]
+    },
+    {
+      "case_id": "rel_72__ent_857__ent_171",
+      "judgment": "incorrect",
+      "entity1_global_names": [
+        {
+          "value": "William Kristol",
+          "count": 17
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Transit Authority",
+          "count": 6
+        },
+        {
+          "value": "Weekly Standard",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_239__ent_151__ent_393",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Rupert Murdoch",
+          "count": 20
+        },
+        {
+          "value": "Ward McCarthy",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "News Corporation",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "case_id": "rel_239__ent_438__ent_1135",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Wells",
+          "count": 2
+        },
+        {
+          "value": "Robert J. Eaton",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Chrysler",
+          "count": 17
+        }
+      ]
+    },
+    {
+      "case_id": "rel_239__ent_208__ent_1145",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "E. Virgil Conway",
+          "count": 6
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Peter Arenella",
+          "count": 2
+        },
+        {
+          "value": "Dick Armey",
+          "count": 3
+        },
+        {
+          "value": "M.T.A.",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "case_id": "rel_42__ent_1240__ent_627",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "United",
+          "count": 24
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "UAL",
+          "count": 10
+        },
+        {
+          "value": "DDB Worldwide",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case_id": "rel_42__ent_920__ent_1066",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Blair Horner",
+          "count": 2
+        },
+        {
+          "value": "Electronic Data Systems Corporation",
+          "count": 10
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "General Motors Corporation",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "case_id": "rel_42__ent_1132__ent_953",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Shimon Peres",
+          "count": 20
+        },
+        {
+          "value": "Conde Nast Publications",
+          "count": 1
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Brooklyn",
+          "count": 1
+        },
+        {
+          "value": "Knicks",
+          "count": 3
+        },
+        {
+          "value": "Advance Publications",
+          "count": 1
+        },
+        {
+          "value": "Wall Street",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "case_id": "rel_304__ent_1313__ent_467",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Jets",
+          "count": 16
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "Jerry Jones",
+          "count": 1
+        },
+        {
+          "value": "Congress",
+          "count": 2
+        },
+        {
+          "value": "Dolphins",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "case_id": "rel_304__ent_1013__ent_267",
+      "judgment": "supported",
+      "entity1_global_names": [
+        {
+          "value": "Florida Marlins",
+          "count": 25
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "New York Mets",
+          "count": 1
+        },
+        {
+          "value": "Joseph L. Bruno",
+          "count": 1
+        },
+        {
+          "value": "Trent Lott",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "case_id": "rel_304__ent_1370__ent_557",
+      "judgment": "ambiguous",
+      "entity1_global_names": [
+        {
+          "value": "Norman Siegel",
+          "count": 1
+        },
+        {
+          "value": "Englewood",
+          "count": 1
+        },
+        {
+          "value": "Montreal Expos",
+          "count": 5
+        },
+        {
+          "value": "San Diego Padres",
+          "count": 3
+        }
+      ],
+      "entity2_global_names": [
+        {
+          "value": "New York Mets",
+          "count": 35
+        }
+      ]
+    }
+  ]
+}

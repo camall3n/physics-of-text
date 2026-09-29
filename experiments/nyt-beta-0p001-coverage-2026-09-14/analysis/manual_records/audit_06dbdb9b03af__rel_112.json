@@ -1,0 +1,73 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_112",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "case_ids": [
+        "rel_112__ent_860__ent_620",
+        "rel_112__ent_862__ent_808",
+        "rel_112__ent_862__ent_861",
+        "rel_112__ent_847__ent_529",
+        "rel_112__ent_618__ent_611",
+        "rel_112__ent_619__ent_526",
+        "rel_112__ent_551__ent_793",
+        "rel_112__ent_553__ent_795",
+        "rel_112__ent_855__ent_612",
+        "rel_112__ent_387__ent_144",
+        "rel_112__ent_774__ent_531",
+        "rel_112__ent_525__ent_527",
+        "rel_112__ent_791__ent_310",
+        "rel_112__ent_853__ent_610"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit economist at/for/of/with evidence establishes the stated economist affiliation.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_112__ent_852__ent_613"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The economist role is explicit, but Bear is a materially incomplete principal name in these rows.",
+      "tags": [
+        "argument_identity"
+      ],
+      "question": "Does Bear identify the intended financial firm rather than another or incomplete principal?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    5,
+    11,
+    13
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "39376db805533283ff5f06e7d4253520d2a833c52a37a0ccc235b20604f0dcb2"
+}

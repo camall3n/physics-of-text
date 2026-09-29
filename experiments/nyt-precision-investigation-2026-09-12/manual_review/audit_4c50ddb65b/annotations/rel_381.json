@@ -1,0 +1,74 @@
+{
+  "relation": "rel_381",
+  "label": "managerial leadership in",
+  "definition": "Argument 1 is or was a person holding a managerial or leadership office in organization 2.",
+  "scope_notes": "Choose the aggregate director/manager/president/chief family from the full dictionary. Spokesperson and economist are substantial competing roles, but employment alone does not establish leadership; a director role qualifies without requiring the chief executive.",
+  "facts": [
+    {
+      "case_id": "rel_381__ent_299__ent_16",
+      "judgment": "ambiguous",
+      "reason": "The director-of-communication row supports a managerial office, but the second argument is only Mayor: it could denote the mayoral administration or a person rather than the organization required by this predicate.",
+      "evidence_lines": [
+        3539,
+        3546
+      ],
+      "issue_tags": [
+        "argument_scope"
+      ],
+      "reviewer_question": "Does Mayor denote the mayoral administration or the individual officeholder in these rows?"
+    },
+    {
+      "case_id": "rel_381__ent_862__ent_808",
+      "judgment": "ambiguous",
+      "reason": "Nearly all rows identify Roach as an economist; principal at Morgan Stanley may be a leadership title, but the only director path passes through web and does not reliably attach that title to him.",
+      "evidence_lines": [
+        2347,
+        2350,
+        2355
+      ],
+      "issue_tags": [
+        "role_scope",
+        "attachment"
+      ],
+      "reviewer_question": "Does principal at Morgan Stanley here establish a managerial office, or only a senior research/professional rank?"
+    },
+    {
+      "case_id": "rel_381__ent_176__ent_175",
+      "judgment": "incorrect",
+      "reason": "McKeon is a spokesman/director for Mr. Pataki, an individual principal; the rows do not identify Pataki as an organization in which McKeon holds office.",
+      "evidence_lines": [
+        372,
+        374,
+        376,
+        379
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_381__ent_1053__ent_115",
+      "judgment": "incorrect",
+      "reason": "Dying at Yale-New Haven Hospital establishes a death location, not a managerial office at the hospital.",
+      "evidence_lines": [
+        1775
+      ],
+      "issue_tags": [
+        "wrong_predicate"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_381__ent_280__ent_85",
+      "judgment": "supported",
+      "reason": "Goldstein is explicitly the manager and chairman of the Community Board.",
+      "evidence_lines": [
+        3389,
+        3391
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "relation": "rel_150",
+  "predicate_id": "director_of",
+  "label": "director of organization",
+  "definition": "Person X holds or held an explicit director office of, for or at organization or institution Y.",
+  "scope_notes": "Includes: explicit director/co-director; functional directorship such as communications or research director within Y; historical office. Excludes: head/president/chair/executive alone; spokesperson/adviser/publisher/professor/member alone; performing or authorship alone. Ambiguous unless resolved by case-local evidence: personal principal with omitted organization; abstract topic in place of the actual institution. Does not require sole chief control of the entire institution.",
+  "facts": [
+    {
+      "case_id": "rel_150__ent_182__ent_519",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush → Mr. Arafat: Political mentions and demands or filing corporate certificates does not establish a person as director of the object institution.",
+      "evidence_lines": [
+        8245,
+        8246,
+        8248,
+        8249,
+        8251
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.054Z"
+      }
+    },
+    {
+      "case_id": "rel_150__ent_1432__ent_918",
+      "judgment": "supported",
+      "reason": "Robert S. Mueller III → F.B.I.: Direct director title, taking office and confirmation as director establish the institutional directorship.",
+      "evidence_lines": [
+        8455,
+        8456,
+        8459,
+        8460,
+        8461
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.053Z"
+      }
+    },
+    {
+      "case_id": "rel_150__ent_1062__ent_359",
+      "judgment": "incorrect",
+      "reason": "Sears Receivables Financing Group Inc. → Sears: Political mentions and demands or filing corporate certificates does not establish a person as director of the object institution.",
+      "evidence_lines": [
+        6570
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:40.054Z"
+      }
+    }
+  ],
+  "predicate_hash": "047fdb040db25b22332a475701394ec3740de22476def74985d8630493199c75",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "9f75563b5bc0a60ab2da12a0e006a2d81ced10a40bd3ed7270a96ae3c91afd87"
+}

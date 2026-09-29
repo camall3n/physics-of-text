@@ -1,0 +1,75 @@
+{
+  "audit": "audit_06dbdb9b03af",
+  "relation": "rel_397",
+  "cases_sha256": "f0cd01b771b5bde2180797fd897010ee3eb6f144f46a98377cbf38b0b4167560",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_397__ent_87__ent_818",
+        "rel_397__ent_828__ent_843",
+        "rel_397__ent_197__ent_586",
+        "rel_397__ent_827__ent_843"
+      ],
+      "judgment": "supported",
+      "reason": "An unqualified visit or trip to the named place establishes travel there.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_397__ent_81__ent_84"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The trip/visit wording co-occurs with rejected and anticipated trip paths, leaving actual travel unresolved.",
+      "tags": [
+        "modality"
+      ],
+      "question": "Did Mr Baker actually travel to Baghdad, or was this only an anticipated or rejected trip?"
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_397__ent_457__ent_699"
+      ],
+      "judgment": "incorrect",
+      "reason": "The arguments are people linked by political succession rather than travel to a place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        6
+      ],
+      "case_ids": [
+        "rel_397__ent_110__ent_347"
+      ],
+      "judgment": "incorrect",
+      "reason": "The destination argument is an opposing team, and the visit/play wording describes a sporting encounter rather than a named geographic destination.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "274df83da1ed23461b248a417d300b1ee4b718af2c54c21e7a3f56bb56bab817"
+}

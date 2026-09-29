@@ -1,0 +1,83 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_284",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_284__ent_349__ent_308",
+        "rel_284__ent_370__ent_127",
+        "rel_284__ent_104__ent_347",
+        "rel_284__ent_105__ent_347",
+        "rel_284__ent_254__ent_496",
+        "rel_284__ent_133__ent_375"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit president title or holding-presidency row establishes the stated office in the named body.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_284__ent_34__ent_37"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President is explicit but Soviet is an adjective with the actual political body omitted.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Does Soviet identify the Soviet Union or a particular soviet institution in these rows?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_284__ent_4__ent_35"
+      ],
+      "judgment": "ambiguous",
+      "reason": "President/leader evidence modifies Palestinian without identifying the complete governing body.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which Palestinian organization or governing institution is meant by the president title?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_284__ent_591__ent_110"
+      ],
+      "judgment": "incorrect",
+      "reason": "Owner and chairman evidence does not establish the narrower president title.",
+      "tags": [
+        "wrong_occupation"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    4,
+    5,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "53b637f39c9a4f4804a08138c9a035416e941ba5b9477eeb9baeb52935b4bfe9"
+}

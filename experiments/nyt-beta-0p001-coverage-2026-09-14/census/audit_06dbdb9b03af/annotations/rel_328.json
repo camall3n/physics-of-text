@@ -1,0 +1,110 @@
+{
+  "relation": "rel_328",
+  "predicate_id": "subsidiary_of",
+  "label": "subsidiary or organizational unit of",
+  "definition": "Organization or business unit X is or was a subsidiary, division, owned business or organizational unit of parent Y.",
+  "scope_notes": "Includes: explicit subsidiary/unit/division/organizational-part; corporate owned-by or an explicit parent relationship in the child-to-parent direction; historical containment or ownership. Excludes: employment; geographic containment; ordinary affiliation; reverse parent-to-child direction; a proposed acquisition. Ambiguous unless resolved by case-local evidence: city standing for an unnamed office; minority investment alone without evidence of organizational containment; incomplete ownership attachment. Explicit ownership is evidence; a minority financial stake alone does not establish that the company is a subsidiary. Do not confuse a part-of-company with a geographic part.",
+  "facts": [
+    {
+      "case_id": "rel_328__ent_920__ent_1066",
+      "judgment": "supported",
+      "reason": "Electronic Data Systems Corporation → General Motors Corporation: Explicit subsidiary, division or owned organizational unit establishes child-to-parent containment.",
+      "evidence_lines": [
+        6624,
+        6627,
+        6628,
+        6630,
+        6631,
+        6632
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:11.841Z"
+      }
+    },
+    {
+      "case_id": "rel_328__ent_843__ent_421",
+      "judgment": "ambiguous",
+      "reason": "New York → Fallon Worldwide: New York is a geographic argument standing for an unnamed agency office/division; the actual organizational child is omitted.",
+      "evidence_lines": [
+        4201,
+        4203,
+        4205,
+        4207
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Which named New York business or office is the subsidiary of Fallon Worldwide?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:11.841Z"
+      }
+    },
+    {
+      "case_id": "rel_328__ent_881__ent_101",
+      "judgment": "supported",
+      "reason": "ABC → Walt Disney Company: Explicit subsidiary, division or owned organizational unit establishes child-to-parent containment.",
+      "evidence_lines": [
+        2578,
+        2579,
+        2580
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:11.841Z"
+      }
+    },
+    {
+      "case_id": "rel_328__ent_928__ent_1064",
+      "judgment": "supported",
+      "reason": "Kellogg → Halliburton: Explicit subsidiary, division or owned organizational unit establishes child-to-parent containment.",
+      "evidence_lines": [
+        6598,
+        6599,
+        6602
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:11.841Z"
+      }
+    },
+    {
+      "case_id": "rel_328__ent_1065__ent_1064",
+      "judgment": "supported",
+      "reason": "Kellogg Brown & Root → Halliburton: Explicit subsidiary, division or owned organizational unit establishes child-to-parent containment.",
+      "evidence_lines": [
+        6603,
+        6612
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:18:11.841Z"
+      }
+    }
+  ],
+  "predicate_hash": "e3883c73fb2b21e64ddd3051e97841e4591542796235c1e9637b1fc3a1cb1e11",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "fdd5aec8ba1679604d58a4e76214483b35a73d43a1817ff9ac44e2ed4e199f6a"
+}

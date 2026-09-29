@@ -1,0 +1,53 @@
+{
+  "relation": "rel_131",
+  "predicate_id": "spokesperson_for",
+  "predicate_version": 1,
+  "predicate_hash": "57eb0d8a7b41c4a2b018d20eed5d800642d6ded86a59d061fecb3c0ba1174250",
+  "predicate": {
+    "id": "spokesperson_for",
+    "label": "spokesperson for",
+    "definition": "Person X serves or served as spokesperson for principal Y, which may be a person, organization or public office.",
+    "includes": [
+      "explicit spokesman/spokeswoman/spokesperson",
+      "expressly speaking for principal",
+      "representation through an identified principal office"
+    ],
+    "excludes": [
+      "director/president/adviser/aide/lobbyist/secretary alone",
+      "communicating to rather than for Y",
+      "forward principal-to-person direction"
+    ],
+    "ambiguous": [
+      "geographic dateline replacing the person",
+      "unclear represented principal"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: explicit spokesman/spokeswoman/spokesperson; expressly speaking for principal; representation through an identified principal office. Excludes: director/president/adviser/aide/lobbyist/secretary alone; communicating to rather than for Y; forward principal-to-person direction. Ambiguous unless resolved by case-local evidence: geographic dateline replacing the person; unclear represented principal."
+  },
+  "dictionary_sha256": "dce69366e98fe362ddea1eb032583a921efc7fffb066544db6b79c9b017e4b43",
+  "kind": "declared_before_case_grading",
+  "rationale": "Spokesperson variants dominate over director-for/communications-director and aide roles. Directorship alone is not automatically spokesperson support.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:01:48.578Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    2,
+    3,
+    8,
+    9,
+    10,
+    11,
+    13
+  ],
+  "competing_meanings": [
+    "director",
+    "adviser",
+    "aide"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_131.before_grading.json",
+  "pregrading_annotation_sha256": "2a56426bfbf4a4b59b0cfd462b98cdd3bb43d5a979d4561c0ec88b86c9dc53fa"
+}

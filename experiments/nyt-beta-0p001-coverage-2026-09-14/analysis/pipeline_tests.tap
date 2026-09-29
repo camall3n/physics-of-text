@@ -1,0 +1,196 @@
+TAP version 13
+# Subtest: minimal prefix uses all rows and includes the whole boundary relation
+ok 1 - minimal prefix uses all rows and includes the whole boundary relation
+  ---
+  duration_ms: 3.490667
+  type: 'test'
+  ...
+# Subtest: ties use numeric relation ID and do not expand every tied relation
+ok 2 - ties use numeric relation ID and do not expand every tied relation
+  ---
+  duration_ms: 0.356416
+  type: 'test'
+  ...
+# Subtest: targets must increase and remain valid fractions
+ok 3 - targets must increase and remain valid fractions
+  ---
+  duration_ms: 1.013458
+  type: 'test'
+  ...
+# Subtest: census includes seventeen distinct facts and repeated evidence without a five-case cap
+ok 4 - census includes seventeen distinct facts and repeated evidence without a five-case cap
+  ---
+  duration_ms: 0.345667
+  type: 'test'
+  ...
+# Subtest: exact denominators, nested score prefixes, and preserved baseline
+ok 5 - exact denominators, nested score prefixes, and preserved baseline
+  ---
+  duration_ms: 39.695708
+  type: 'test'
+  ...
+# Subtest: missing judgment fails strict validation
+ok 6 - missing judgment fails strict validation
+  ---
+  duration_ms: 37.944541
+  type: 'test'
+  ...
+# Subtest: invalid judgment fails strict validation
+ok 7 - invalid judgment fails strict validation
+  ---
+  duration_ms: 31.212042
+  type: 'test'
+  ...
+# Subtest: missing case fails strict validation
+ok 8 - missing case fails strict validation
+  ---
+  duration_ms: 51.739834
+  type: 'test'
+  ...
+# Subtest: duplicate case fails strict validation
+ok 9 - duplicate case fails strict validation
+  ---
+  duration_ms: 28.953834
+  type: 'test'
+  ...
+# Subtest: foreign case fails strict validation
+ok 10 - foreign case fails strict validation
+  ---
+  duration_ms: 41.935167
+  type: 'test'
+  ...
+# Subtest: foreign citations cannot support a fact
+ok 11 - foreign citations cannot support a fact
+  ---
+  duration_ms: 29.8985
+  type: 'test'
+  ...
+# Subtest: ambiguity requires a specific reviewer question
+ok 12 - ambiguity requires a specific reviewer question
+  ---
+  duration_ms: 48.421334
+  type: 'test'
+  ...
+# Subtest: source mutation is rejected
+ok 13 - source mutation is rejected
+  ---
+  duration_ms: 27.38
+  type: 'test'
+  ...
+# Subtest: copied source mutation is rejected
+ok 14 - copied source mutation is rejected
+  ---
+  duration_ms: 31.518375
+  type: 'test'
+  ...
+# Subtest: exact prior judgment provenance is required
+ok 15 - exact prior judgment provenance is required
+  ---
+  duration_ms: 26.102875
+  type: 'test'
+  ...
+# Subtest: prior full-census labels cannot be changed
+ok 16 - prior full-census labels cannot be changed
+  ---
+  duration_ms: 27.465833
+  type: 'test'
+  ...
+# Subtest: undefined or silently changed predicate is rejected
+ok 17 - undefined or silently changed predicate is rejected
+  ---
+  duration_ms: 36.816708
+  type: 'test'
+  ...
+# Subtest: declaration is required and frozen before all case grading
+ok 18 - declaration is required and frozen before all case grading
+  ---
+  duration_ms: 22.611792
+  type: 'test'
+  ...
+# Subtest: prior source-case equality required during import
+ok 19 - prior source-case equality required during import
+  ---
+  duration_ms: 30.719334
+  type: 'test'
+  ...
+# Subtest: preparation preserves annotations and human overrides; override affects every containing prefix
+ok 20 - preparation preserves annotations and human overrides; override affects every containing prefix
+  ---
+  duration_ms: 26.814541
+  type: 'test'
+  ...
+# Subtest: human override cannot silently alter prior top20 scores
+ok 21 - human override cannot silently alter prior top20 scores
+  ---
+  duration_ms: 20.378584
+  type: 'test'
+  ...
+# Subtest: readable reports include every case and every requested threshold
+ok 22 - readable reports include every case and every requested threshold
+  ---
+  duration_ms: 30.886167
+  type: 'test'
+  ...
+# Subtest: each cutoff gets a complete independent selected-prefix view and evaluated navigation
+ok 23 - each cutoff gets a complete independent selected-prefix view and evaluated navigation
+  ---
+  duration_ms: 44.244542
+  type: 'test'
+  ...
+# Subtest: unresolved predicates retain every ambiguous fact in the exact denominator
+ok 24 - unresolved predicates retain every ambiguous fact in the exact denominator
+  ---
+  duration_ms: 0.265917
+  type: 'test'
+  ...
+# Subtest: per-predicate hashes freeze definitions without freezing unrelated catalogue additions
+ok 25 - per-predicate hashes freeze definitions without freezing unrelated catalogue additions
+  ---
+  duration_ms: 0.74225
+  type: 'test'
+  ...
+# Subtest: identity diagnostics flag same latent ID with different role names even without side multiplicity
+ok 26 - identity diagnostics flag same latent ID with different role names even without side multiplicity
+  ---
+  duration_ms: 0.167167
+  type: 'test'
+  ...
+# Subtest: identity diagnostics preserve aliases as inspection flags and accept ordinary distinct entities
+ok 27 - identity diagnostics preserve aliases as inspection flags and accept ordinary distinct entities
+  ---
+  duration_ms: 0.072333
+  type: 'test'
+  ...
+# Subtest: complete evidence signatures ignore run-local numbers and duplicate rows only
+ok 28 - complete evidence signatures ignore run-local numbers and duplicate rows only
+  ---
+  duration_ms: 2.584083
+  type: 'test'
+  ...
+# Subtest: identity equality and predicate scope remain part of consistency signature
+ok 29 - identity equality and predicate scope remain part of consistency signature
+  ---
+  duration_ms: 0.259209
+  type: 'test'
+  ...
+# Subtest: effective labels respect explicit overrides and do not treat provisional imports as final
+ok 30 - effective labels respect explicit overrides and do not treat provisional imports as final
+  ---
+  duration_ms: 0.2225
+  type: 'test'
+  ...
+# Subtest: prior-only disagreements never masquerade as current conflicts
+ok 31 - prior-only disagreements never masquerade as current conflicts
+  ---
+  duration_ms: 0.417875
+  type: 'test'
+  ...
+1..31
+# tests 31
+# suites 0
+# pass 31
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 775.264125

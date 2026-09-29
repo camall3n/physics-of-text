@@ -1,0 +1,88 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_242",
+  "cases_sha256": "356cf1083d52a2192b20710e487aa8ce8e3de0a2d4a665da6ad377bb7f78d223",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9
+      ],
+      "case_ids": [
+        "rel_242__ent_7__ent_243",
+        "rel_242__ent_263__ent_244",
+        "rel_242__ent_263__ent_486",
+        "rel_242__ent_7__ent_485",
+        "rel_242__ent_7__ent_488",
+        "rel_242__ent_263__ent_1172",
+        "rel_242__ent_263__ent_1171",
+        "rel_242__ent_263__ent_1170",
+        "rel_242__ent_263__ent_1214"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Chair or head evidence is present, but Republican or Democrat is an unnamed person rather than an identified officeholder.",
+      "tags": [
+        "underspecified_entity"
+      ],
+      "question": "Which individual officeholder is represented?"
+    },
+    {
+      "indices": [
+        8,
+        11,
+        12,
+        13
+      ],
+      "case_ids": [
+        "rel_242__ent_2__ent_1",
+        "rel_242__ent_388__ent_381",
+        "rel_242__ent_444__ent_379",
+        "rel_242__ent_56__ent_1168"
+      ],
+      "judgment": "supported",
+      "reason": "Direct head or chair evidence supports the named person holding the office in the named organization.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        10
+      ],
+      "case_ids": [
+        "rel_242__ent_70__ent_71"
+      ],
+      "judgment": "incorrect",
+      "reason": "Service and membership in the commission do not establish chairmanship or headship of that commission.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        14
+      ],
+      "case_ids": [
+        "rel_242__ent_132__ent_981"
+      ],
+      "judgment": "incorrect",
+      "reason": "Receiving a prize does not establish chairing or heading the prize.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [],
+  "broad": []
+}

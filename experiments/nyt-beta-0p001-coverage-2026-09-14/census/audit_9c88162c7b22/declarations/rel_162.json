@@ -1,0 +1,51 @@
+{
+  "relation": "rel_162",
+  "predicate_id": "organization_operates_in_domain",
+  "predicate_version": 1,
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate": {
+    "id": "organization_operates_in_domain",
+    "label": "organization operates in industry or domain",
+    "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+    "includes": [
+      "explicit industry or domain modifier of company, agency, or business",
+      "stated operations or business activity in Y",
+      "historical business-domain identity"
+    ],
+    "excludes": [
+      "nationality or geographic location",
+      "corporate parent or corporate family name",
+      "a passing reference to users, data, or an unrelated product without business-domain evidence",
+      "a person working in a field"
+    ],
+    "ambiguous": [
+      "a nominal modifier that could mean owner, place, or industry",
+      "unclear organization versus personal referent",
+      "generic Internet mention without a business-domain role"
+    ],
+    "notes": "A business-field classification, not geographic location and not a generic association with the domain.",
+    "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain."
+  },
+  "dictionary_sha256": "597573060df044df776ec9b69cba4537c372eae7b3985a9fd1581fcdba84852c",
+  "kind": "declared_before_case_grading",
+  "rationale": "DoubleClick→Internet advertising/company descriptions form the dominant domain family. Geographic Corcoran→Manhattan is not industry membership; generic Internet mention alone is insufficient.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:10.470Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    9,
+    10,
+    11
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_162.before_grading.json",
+  "pregrading_annotation_sha256": "9797b76307acd410297053ac3ae8d3d6e010689dc687f42dda9aa64feb97ae18"
+}

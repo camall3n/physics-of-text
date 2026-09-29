@@ -1,0 +1,49 @@
+{
+  "relation": "rel_157",
+  "predicate_id": "resides_in",
+  "predicate_version": 1,
+  "predicate_hash": "81c0897aa1932bea2c903962abe95c88350444fdfbefb294d479f9eaf5e7de44",
+  "predicate": {
+    "id": "resides_in",
+    "label": "lives or has lived in",
+    "definition": "Person X, or members of population X, live or have lived in geographic place Y.",
+    "includes": [
+      "live/resident/residence/home-in",
+      "explicit resettlement or being raised there",
+      "death at own home in a place when home attachment is clear"
+    ],
+    "excludes": [
+      "death/killing in a place without residence",
+      "birth alone",
+      "work/travel/visits/presence/office alone",
+      "a relative living there without attribution to X"
+    ],
+    "ambiguous": [
+      "obituary person-of-city apposition",
+      "relative/home attachment"
+    ],
+    "notes": "Population statements concern members of the population, not necessarily every member.",
+    "scope_notes": "Includes: live/resident/residence/home-in; explicit resettlement or being raised there; death at own home in a place when home attachment is clear. Excludes: death/killing in a place without residence; birth alone; work/travel/visits/presence/office alone; a relative living there without attribution to X. Ambiguous unless resolved by case-local evidence: obituary person-of-city apposition; relative/home attachment. Population statements concern members of the population, not necessarily every member."
+  },
+  "dictionary_sha256": "faf75510d38fee1ac462ed653f337b0110eb3d23af10ca07797d737d9e1b1287",
+  "kind": "declared_before_case_grading",
+  "rationale": "Son/brother-of paths dominate but every target is Manhattan. These are obituary geographic attachments to named relatives, not kinship with Manhattan. Select residence with the prior obituary attachment A boundary; parent adjudicated before grading.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:19.900Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    8,
+    16
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_157.before_grading.json",
+  "pregrading_annotation_sha256": "ee64cbe50e4461450e2c245b0a52eb6429d7df9e930a22223b702e33f8ade457"
+}

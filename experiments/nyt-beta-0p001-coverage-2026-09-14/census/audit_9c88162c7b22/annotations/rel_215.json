@@ -1,0 +1,62 @@
+{
+  "relation": "rel_215",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_215__ent_267__ent_1197",
+      "judgment": "supported",
+      "reason": "Trent Lott → Senate: Whip and resignation/stepping down as Senate leader establish historical legislative leadership.",
+      "evidence_lines": [
+        3035,
+        3036,
+        3037,
+        3038,
+        3039,
+        3040,
+        3041,
+        3042
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.156Z"
+      }
+    },
+    {
+      "case_id": "rel_215__ent_267__ent_263",
+      "judgment": "ambiguous",
+      "reason": "Trent Lott → Republican: Republican is an adjective without the actual party or caucus name, although a leadership role is clear.",
+      "evidence_lines": [
+        3760,
+        3761,
+        3762,
+        3763,
+        3764,
+        3765,
+        3766,
+        3767
+      ],
+      "issue_tags": [
+        "incomplete_argument"
+      ],
+      "reviewer_question": "Which Republican organization or caucus did Trent Lott lead?",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:28:18.157Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "852fd6f6f276a43ed8f7dba554f72f39754b07ff8152da6ad9ef03fd72bfba79"
+}

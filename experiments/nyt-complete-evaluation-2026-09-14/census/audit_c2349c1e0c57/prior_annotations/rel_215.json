@@ -1,0 +1,76 @@
+{
+  "relation": "rel_215",
+  "label": "athlete plays for team",
+  "definition": "Athlete X plays or has played for sports team Y.",
+  "scope_notes": "Selected after inspecting the entire relation: player/team positions, scoring-for and athletic team membership form the largest coherent subgroup behind the overloaded lead and give paths. Explicit player, center, wing, guard, scorer and playing/scoring-for qualify. Competitive leads over opponents, coaching/management, political leadership, communication, support, constitutional powers and disease are competing meanings, not additions to this predicate.",
+  "facts": [
+    {
+      "case_id": "rel_215__ent_63__ent_543",
+      "judgment": "supported",
+      "reason": "Richard Jefferson is the Nets scorer and paces or leads the team; the scorer role establishes athlete-to-team membership.",
+      "evidence_lines": [
+        3098,
+        3101,
+        3094
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_215__ent_182__ent_316",
+      "judgment": "incorrect",
+      "reason": "Mr. Bush leading or running ahead of Mr. Gore describes a political competitor relationship, not an athlete playing for a team.",
+      "evidence_lines": [
+        3084,
+        3089,
+        3092
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_215__ent_111__ent_114",
+      "judgment": "incorrect",
+      "reason": "Riley benches, removes and plays Starks as a selected player; that is management of another person, not Riley playing for Starks as a team.",
+      "evidence_lines": [
+        1546,
+        1548,
+        1549
+      ],
+      "issue_tags": [
+        "other_predicate",
+        "wrong_entity_role"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_215__ent_1117__ent_347",
+      "judgment": "supported",
+      "reason": "Kovalev scores for Rangers and is their wing, establishing player membership. Transfer-from and generic give paths are additional meanings.",
+      "evidence_lines": [
+        4259,
+        4262,
+        4267
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": ""
+    },
+    {
+      "case_id": "rel_215__ent_62__ent_1005",
+      "judgment": "supported",
+      "reason": "Michael Jordan scores points for Bulls and is their player and star; this explicitly supports the athlete-to-team relation.",
+      "evidence_lines": [
+        3145,
+        3147,
+        3153
+      ],
+      "issue_tags": [],
+      "reviewer_question": ""
+    }
+  ]
+}

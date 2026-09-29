@@ -1,0 +1,57 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_395",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "nyt_kernel_audit",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_395__ent_562__ent_1002",
+        "rel_395__ent_182__ent_73",
+        "rel_395__ent_284__ent_693"
+      ],
+      "judgment": "supported",
+      "reason": "A direct unqualified return-to or go-to path establishes geographic destination movement.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_395__ent_1283__ent_1340"
+      ],
+      "judgment": "incorrect",
+      "reason": "Playing or facing opponents at a stadium establishes game location but no movement-to statement in this fact.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_395__ent_351__ent_1004"
+      ],
+      "judgment": "incorrect",
+      "reason": "Returning to a team is institutional affiliation rather than a geographic destination.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "9b3d26333701a1c54137f70ccfbb25e008406629e657181a7e928de46b387dd0"
+}

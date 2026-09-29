@@ -1,0 +1,76 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_95",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "case_ids": [
+        "rel_95__ent_822__ent_821",
+        "rel_95__ent_826__ent_825",
+        "rel_95__ent_1304__ent_835",
+        "rel_95__ent_840__ent_839",
+        "rel_95__ent_562__ent_770",
+        "rel_95__ent_986__ent_537",
+        "rel_95__ent_1306__ent_333",
+        "rel_95__ent_1161__ent_368"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit live-in or population living-in establishes residence in the geographic place.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_95__ent_1304__ent_824"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Residence evidence exists, but generic American and the named Patricia Wells are merged into one latent person/group identity.",
+      "tags": [
+        "local_entity_collision"
+      ],
+      "question": "Does American denote Patricia Wells in these rows, or a different person or population?"
+    },
+    {
+      "indices": [
+        6,
+        10
+      ],
+      "case_ids": [
+        "rel_95__ent_121__ent_989",
+        "rel_95__ent_747__ent_1313"
+      ],
+      "judgment": "incorrect",
+      "reason": "An official title or death in a place does not establish residence.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    2,
+    3,
+    4,
+    5
+  ],
+  "broad": [],
+  "identity": [
+    1
+  ],
+  "predicate_declaration_sha256": "b9f29094721b0cec12324bd89f891cbd4e8c75943b1cd1b2d78474dc2919e69e"
+}

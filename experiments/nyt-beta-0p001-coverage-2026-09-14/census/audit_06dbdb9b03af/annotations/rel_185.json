@@ -1,0 +1,163 @@
+{
+  "relation": "rel_185",
+  "predicate_id": "official_of",
+  "label": "official of institution",
+  "definition": "Person X holds or held an explicitly identified official role in institution or governmental body Y.",
+  "scope_notes": "Includes: explicit official-of, official-at, or institutional official description; historical official role; a named formal public office that unambiguously entails official status. Excludes: ordinary employment without an official role; a city dateline or institution standing in the person slot; a generic adviser or spokesperson without official status; proposed appointment alone. Ambiguous unless resolved by case-local evidence: unclear person versus place identity; official title attachment unresolved; a generic institutional role without established official status. Separate from managerial_office_in: an official need not be a manager. Do not infer official status from every professional affiliation.",
+  "facts": [
+    {
+      "case_id": "rel_185__ent_972__ent_971",
+      "judgment": "supported",
+      "reason": "Webster L. Hubbell → Justice Department: Explicit named-person official title establishes the institutional official role.",
+      "evidence_lines": [
+        7469,
+        7470,
+        7472,
+        7473,
+        7476,
+        7477
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.469Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_729__ent_536",
+      "judgment": "supported",
+      "reason": "Alger Hiss → State Department: Explicit named-person official title establishes the institutional official role.",
+      "evidence_lines": [
+        7479,
+        7480,
+        7481,
+        7482,
+        7483
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.470Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_1002__ent_183",
+      "judgment": "ambiguous",
+      "reason": "Washington → Administration: A geographic/dateline reading of Washington or Baghdad competes with the official attachment, leaving the actual person unidentified.",
+      "evidence_lines": [
+        7484,
+        7485,
+        7486,
+        7492
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does this argument name an official, or is it a dateline incorrectly attached to an unnamed official?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.470Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_1002__ent_536",
+      "judgment": "ambiguous",
+      "reason": "Washington → State Department: A geographic/dateline reading of Washington or Baghdad competes with the official attachment, leaving the actual person unidentified.",
+      "evidence_lines": [
+        7439,
+        7440,
+        7443
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "attachment",
+        "mixed_evidence"
+      ],
+      "reviewer_question": "Does this argument name an official, or is it a dateline incorrectly attached to an unnamed official?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.470Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_84__ent_715",
+      "judgment": "ambiguous",
+      "reason": "Baghdad → Interior Ministry: A geographic/dateline reading of Washington or Baghdad competes with the official attachment, leaving the actual person unidentified.",
+      "evidence_lines": [
+        7446,
+        7449,
+        7450
+      ],
+      "issue_tags": [
+        "argument_identity",
+        "attachment"
+      ],
+      "reviewer_question": "Does this argument name an official, or is it a dateline incorrectly attached to an unnamed official?",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.470Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_957__ent_536",
+      "judgment": "supported",
+      "reason": "Alan Keyes → State Department: Explicit named-person official title establishes the institutional official role.",
+      "evidence_lines": [
+        7456,
+        7457,
+        7458
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.470Z"
+      }
+    },
+    {
+      "case_id": "rel_185__ent_720__ent_962",
+      "judgment": "supported",
+      "reason": "Patrick C. Jackman → Labor Department: Explicit named-person official title establishes the institutional official role.",
+      "evidence_lines": [
+        7514,
+        7520,
+        7521
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:14:13.470Z"
+      }
+    }
+  ],
+  "predicate_hash": "30f84d8f9ade322fa4728467166f94f2cc951b176fc86ceee7a81e537447f5c0",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "1d9005441d1895aa388ad4ca3ca8b6fd3e801939cc9e1bc294760abd052c012e"
+}

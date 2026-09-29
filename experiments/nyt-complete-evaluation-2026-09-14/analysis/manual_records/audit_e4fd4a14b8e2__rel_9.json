@@ -1,0 +1,152 @@
+{
+  "audit": "audit_e4fd4a14b8e2",
+  "relation": "rel_9",
+  "cases_sha256": "fbb79df49e1b9f7b127f6562d3da9bfa9accd79d43e3ed05cb7be0af20098454",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "case_ids": [
+        "rel_9__ent_321__ent_836",
+        "rel_9__ent_110__ent_851",
+        "rel_9__ent_1004__ent_836",
+        "rel_9__ent_561__ent_850",
+        "rel_9__ent_600__ent_836",
+        "rel_9__ent_347__ent_851",
+        "rel_9__ent_309__ent_836",
+        "rel_9__ent_608__ent_607",
+        "rel_9__ent_849__ent_850",
+        "rel_9__ent_980__ent_741",
+        "rel_9__ent_740__ent_982",
+        "rel_9__ent_739__ent_741",
+        "rel_9__ent_732__ent_974",
+        "rel_9__ent_731__ent_982",
+        "rel_9__ent_609__ent_836",
+        "rel_9__ent_750__ent_992",
+        "rel_9__ent_968__ent_981",
+        "rel_9__ent_979__ent_990",
+        "rel_9__ent_991__ent_510",
+        "rel_9__ent_752__ent_510",
+        "rel_9__ent_1004__ent_9"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit win, winner, champion, championship or victory-in evidence establishes the competition/award predicate. Other participation, stage or contextual rows are not needed.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        21,
+        22,
+        25,
+        27
+      ],
+      "case_ids": [
+        "rel_9__ent_1126__ent_897",
+        "rel_9__ent_647__ent_323",
+        "rel_9__ent_1101__ent_225",
+        "rel_9__ent_647__ent_429"
+      ],
+      "judgment": "incorrect",
+      "reason": "Location, movement, residence or playing in a place does not establish winning that place as an event/award.",
+      "tags": [
+        "other_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        23,
+        24
+      ],
+      "case_ids": [
+        "rel_9__ent_7__ent_586",
+        "rel_9__ent_251__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Winning political office/control is outside the shared event/award predicate.",
+      "tags": [
+        "predicate_boundary"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        26
+      ],
+      "case_ids": [
+        "rel_9__ent_983__ent_981"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Prevention of Nuclear War is an incomplete organization name in the award rows and could instead denote a cause or omitted organization.",
+      "tags": [
+        "argument_scope"
+      ],
+      "question": "Which award-winning organization is meant by Prevention of Nuclear War, and can the omitted name be recovered?"
+    },
+    {
+      "indices": [
+        28
+      ],
+      "case_ids": [
+        "rel_9__ent_726__ent_607"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Scot does not uniquely identify the person who won the Masters in these triples.",
+      "tags": [
+        "entity_identity"
+      ],
+      "question": "Which named golfer does Scot denote?"
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "broad": [
+    17
+  ]
+}

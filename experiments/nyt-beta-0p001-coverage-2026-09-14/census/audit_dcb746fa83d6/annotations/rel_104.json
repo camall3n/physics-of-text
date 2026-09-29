@@ -1,0 +1,55 @@
+{
+  "relation": "rel_104",
+  "predicate_id": "organizational_leader_of",
+  "label": "leader or organizational head of",
+  "definition": "Person X holds or held a leader, head, president, chief or chair office in group, institution, organization or political body Y.",
+  "scope_notes": "Includes: explicit leader/head/president/chief/chair; legislative majority/minority leadership or whip; leadership office within an identified body; historical office. Excludes: ordinary membership or service; founding/ownership alone; party control of a chamber; candidate alone; athletic/standings or task-only lead; editor alone. Ambiguous unless resolved by case-local evidence: generic director or executive without clear leadership role; bare lead lacking organizational-role context; materially truncated political body. Preserves the narrower leader/head family used in the two original full censuses; managerial_office_in separately accepts explicit director/executive titles.",
+  "facts": [
+    {
+      "case_id": "rel_104__ent_350__ent_592",
+      "judgment": "incorrect",
+      "reason": "Marge Schott → Cincinnati Reds: Owner and partner titles, suspension from operations and presence at team facilities do not explicitly establish the narrower head or leader office.",
+      "evidence_lines": [
+        1466,
+        1469,
+        1470,
+        1471,
+        1472,
+        1473,
+        1474
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.515Z"
+      }
+    },
+    {
+      "case_id": "rel_104__ent_58__ent_53",
+      "judgment": "supported",
+      "reason": "Gen. Tommy R. Franks → United States Central Command: Explicit commander/head and retirement as head establish leadership of the military command.",
+      "evidence_lines": [
+        2888,
+        2890,
+        2891,
+        2892
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:39:27.515Z"
+      }
+    }
+  ],
+  "predicate_hash": "f4cf5f2ca4441c0ea2d717e7bb78dd1f53b6f37b4da55e07726ac0b8cc7cf9c1",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0fe9ff10a9f078e2c4e8200911afa6f0bf56f7b081ccf4bda19ac4c5e2716a58"
+}

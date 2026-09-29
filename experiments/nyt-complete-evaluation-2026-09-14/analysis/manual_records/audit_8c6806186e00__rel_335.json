@@ -1,0 +1,243 @@
+{
+  "audit": "audit_8c6806186e00",
+  "relation": "rel_335",
+  "cases_sha256": "2d922e8e939906fa8adcbcfb49817b391df774a4322d98c1d884c4a1ee49e604",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        30,
+        31,
+        34,
+        36,
+        38,
+        39,
+        41,
+        42,
+        43,
+        50,
+        53,
+        59
+      ],
+      "case_ids": [
+        "rel_335__ent_525__ent_527",
+        "rel_335__ent_1355__ent_1180",
+        "rel_335__ent_796__ent_311",
+        "rel_335__ent_383__ent_140",
+        "rel_335__ent_807__ent_809",
+        "rel_335__ent_780__ent_1275",
+        "rel_335__ent_618__ent_611",
+        "rel_335__ent_301__ent_1414",
+        "rel_335__ent_1057__ent_119",
+        "rel_335__ent_1330__ent_1180",
+        "rel_335__ent_806__ent_1275",
+        "rel_335__ent_805__ent_808",
+        "rel_335__ent_862__ent_861",
+        "rel_335__ent_524__ent_766",
+        "rel_335__ent_1306__ent_1008",
+        "rel_335__ent_359__ent_1056",
+        "rel_335__ent_733__ent_975",
+        "rel_335__ent_525__ent_1255",
+        "rel_335__ent_768__ent_1414",
+        "rel_335__ent_541__ent_783",
+        "rel_335__ent_540__ent_303",
+        "rel_335__ent_1183__ent_1184",
+        "rel_335__ent_806__ent_1414",
+        "rel_335__ent_395__ent_156",
+        "rel_335__ent_780__ent_1414",
+        "rel_335__ent_1058__ent_783",
+        "rel_335__ent_1181__ent_1182",
+        "rel_335__ent_806__ent_976",
+        "rel_335__ent_1355__ent_1275",
+        "rel_335__ent_1263__ent_861",
+        "rel_335__ent_1330__ent_1041",
+        "rel_335__ent_926__ent_1295",
+        "rel_335__ent_839__ent_512"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit analyst affiliation or employer-linked professional following/tracking supports this ordered predicate.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5,
+        8,
+        11,
+        18,
+        29,
+        33,
+        40,
+        44,
+        45
+      ],
+      "case_ids": [
+        "rel_335__ent_862__ent_808",
+        "rel_335__ent_773__ent_523",
+        "rel_335__ent_847__ent_1414",
+        "rel_335__ent_860__ent_620",
+        "rel_335__ent_1338__ent_793",
+        "rel_335__ent_854__ent_615",
+        "rel_335__ent_855__ent_612",
+        "rel_335__ent_1382__ent_144",
+        "rel_335__ent_791__ent_310"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The economist/forecasting role is nearby but does not explicitly establish professional analyst work.",
+      "tags": [
+        "scope_boundary"
+      ],
+      "question": "Does this economist/forecaster role also establish analyst work for the named employer under the common scope?"
+    },
+    {
+      "indices": [
+        21
+      ],
+      "case_ids": [
+        "rel_335__ent_769__ent_526"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Maldutis analyst evidence and Lipsky economist evidence share the inferred person slot.",
+      "tags": [
+        "mixed_entity"
+      ],
+      "question": "Does this tuple denote Maldutis or Lipsky at Salomon Brothers?"
+    },
+    {
+      "indices": [
+        3,
+        10,
+        35,
+        37,
+        46,
+        51,
+        52,
+        57
+      ],
+      "case_ids": [
+        "rel_335__ent_374__ent_372",
+        "rel_335__ent_1399__ent_1269",
+        "rel_335__ent_1101__ent_192",
+        "rel_335__ent_1416__ent_1415",
+        "rel_335__ent_103__ent_345",
+        "rel_335__ent_611__ent_957",
+        "rel_335__ent_1042__ent_938",
+        "rel_335__ent_182__ent_677"
+      ],
+      "judgment": "incorrect",
+      "reason": "President, executive, partner, director or spokesperson evidence alone does not establish analyst employment.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        4
+      ],
+      "case_ids": [
+        "rel_335__ent_191__ent_530"
+      ],
+      "judgment": "incorrect",
+      "reason": "Bioethics and academic director evidence does not establish analyst work.",
+      "tags": [
+        "wrong_role"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        32,
+        48,
+        60
+      ],
+      "case_ids": [
+        "rel_335__ent_1386__ent_537",
+        "rel_335__ent_639__ent_816",
+        "rel_335__ent_753__ent_287"
+      ],
+      "judgment": "incorrect",
+      "reason": "Travel, political alliance/voting or interpersonal evidence does not establish analyst employment.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        47,
+        49,
+        54,
+        56
+      ],
+      "case_ids": [
+        "rel_335__ent_591__ent_1404",
+        "rel_335__ent_1061__ent_1361",
+        "rel_335__ent_347__ent_1404",
+        "rel_335__ent_1119__ent_1320"
+      ],
+      "judgment": "incorrect",
+      "reason": "Sports ownership, team association or results do not establish analyst work.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        55,
+        58
+      ],
+      "case_ids": [
+        "rel_335__ent_904__ent_121",
+        "rel_335__ent_84__ent_1313"
+      ],
+      "judgment": "incorrect",
+      "reason": "Location and official-attribution evidence does not establish a person as an analyst.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    6,
+    7,
+    9,
+    12,
+    14,
+    19,
+    20,
+    22,
+    23,
+    34,
+    36
+  ],
+  "broad": []
+}

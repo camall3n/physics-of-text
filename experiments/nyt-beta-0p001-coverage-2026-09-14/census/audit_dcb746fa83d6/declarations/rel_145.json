@@ -1,0 +1,52 @@
+{
+  "relation": "rel_145",
+  "predicate_id": "has_member",
+  "predicate_version": 1,
+  "predicate_hash": "e06c2b4086768dca86ee7554ab8de61a903529610ffb5a9e45977f36ffeb0d6a",
+  "predicate": {
+    "id": "has_member",
+    "label": "has member",
+    "definition": "Organization, organized group, team, or institutional body X has or had entity Y as a member.",
+    "includes": [
+      "explicit membership or being included as a group member",
+      "a clearly established office or athlete role that entails membership of the stated group",
+      "historical membership"
+    ],
+    "excludes": [
+      "corporate subsidiary ownership without membership in an explicitly identified group",
+      "a geographic area containing a place",
+      "ordinary accompaniment or a meeting",
+      "planned membership without established admission"
+    ],
+    "ambiguous": [
+      "generic include or join without group-membership context",
+      "unclear group versus geographic or corporate containment",
+      "proposed admission or unresolved member identity"
+    ],
+    "notes": "Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient.",
+    "scope_notes": "Includes: explicit membership or being included as a group member; a clearly established office or athlete role that entails membership of the stated group; historical membership. Excludes: corporate subsidiary ownership without membership in an explicitly identified group; a geographic area containing a place; ordinary accompaniment or a meeting; planned membership without established admission. Ambiguous unless resolved by case-local evidence: generic include or join without group-membership context; unclear group versus geographic or corporate containment; proposed admission or unresolved member identity. Inverse of member_of. A leader belongs to the stated group when local evidence establishes that institutional role; mere political support or family relation is insufficient."
+  },
+  "dictionary_sha256": "abf21fff1b7db1a87bf190556ef289a57e27a63aa5d76cee6ca83fbc9310746b",
+  "kind": "declared_before_case_grading",
+  "rationale": "Include and led-by with party-to-person arguments form dominant inverse group membership. Geographic region-to-place containment and family accompaniment are separate.",
+  "reviewer": "evaluation",
+  "declared_at": "2026-09-14T22:07:24.608Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    6,
+    9,
+    13
+  ],
+  "competing_meanings": [
+    "geographic containment",
+    "family",
+    "travel"
+  ],
+  "scope_limitations": [],
+  "source_map_sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+  "pregrading_annotation_file": "rel_145.before_grading.json",
+  "pregrading_annotation_sha256": "706078743e213261a3e4cf45f775816d7183f4e7e711f0b502f4f25f4e14ebfa"
+}

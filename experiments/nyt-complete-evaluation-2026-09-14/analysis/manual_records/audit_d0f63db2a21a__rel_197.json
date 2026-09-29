@@ -1,0 +1,144 @@
+{
+  "audit": "audit_d0f63db2a21a",
+  "relation": "rel_197",
+  "cases_sha256": "618da207e69e5eb837789bc4613ec7e99d49ca4d21bf8d9ce738b85a3c08447d",
+  "reviewer": "evaluation",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        16,
+        21,
+        25,
+        26,
+        29
+      ],
+      "case_ids": [
+        "rel_197__ent_295__ent_294",
+        "rel_197__ent_295__ent_14",
+        "rel_197__ent_387__ent_144",
+        "rel_197__ent_297__ent_636",
+        "rel_197__ent_382__ent_1441",
+        "rel_197__ent_773__ent_1219",
+        "rel_197__ent_249__ent_262",
+        "rel_197__ent_18__ent_13",
+        "rel_197__ent_912__ent_918",
+        "rel_197__ent_50__ent_495",
+        "rel_197__ent_116__ent_1220",
+        "rel_197__ent_532__ent_1220",
+        "rel_197__ent_1367__ent_1282"
+      ],
+      "judgment": "supported",
+      "reason": "The local rows explicitly identify a director office in the named institution; functional and historical directorship count.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_197__ent_556__ent_798"
+      ],
+      "judgment": "ambiguous",
+      "reason": "The fact locally combines Mr. Lee/Taiwan with David Roberts/Dartford, while the director adjective also leaves the institutional attachment unresolved.",
+      "tags": [
+        "local_entity_collision",
+        "truncated_argument"
+      ],
+      "question": "Which literal pair and complete directing institution are intended?"
+    },
+    {
+      "indices": [
+        6,
+        7,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "case_ids": [
+        "rel_197__ent_999__ent_518",
+        "rel_197__ent_1011__ent_126",
+        "rel_197__ent_135__ent_377",
+        "rel_197__ent_515__ent_757",
+        "rel_197__ent_1421__ent_451",
+        "rel_197__ent_909__ent_908",
+        "rel_197__ent_903__ent_902",
+        "rel_197__ent_1017__ent_1002",
+        "rel_197__ent_252__ent_280",
+        "rel_197__ent_506__ent_1010",
+        "rel_197__ent_257__ent_1221",
+        "rel_197__ent_827__ent_653",
+        "rel_197__ent_398__ent_390",
+        "rel_197__ent_313__ent_1264",
+        "rel_197__ent_815__ent_537",
+        "rel_197__ent_858__ent_876",
+        "rel_197__ent_716__ent_89",
+        "rel_197__ent_1319__ent_586",
+        "rel_197__ent_1254__ent_953",
+        "rel_197__ent_1347__ent_1444",
+        "rel_197__ent_1229__ent_748",
+        "rel_197__ent_301__ent_529",
+        "rel_197__ent_1311__ent_965",
+        "rel_197__ent_1031__ent_1314",
+        "rel_197__ent_221__ent_871",
+        "rel_197__ent_204__ent_1428",
+        "rel_197__ent_1091__ent_688",
+        "rel_197__ent_1319__ent_1239",
+        "rel_197__ent_1108__ent_564"
+      ],
+      "judgment": "incorrect",
+      "reason": "The supplied evidence describes birthplace/residence, another profession or leadership title, communication, or a non-person association; no explicit directorship is established.",
+      "tags": [
+        "predicate_mismatch"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    8,
+    9,
+    10,
+    16,
+    21,
+    29
+  ],
+  "broad": []
+}

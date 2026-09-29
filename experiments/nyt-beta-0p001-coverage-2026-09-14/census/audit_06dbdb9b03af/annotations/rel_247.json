@@ -1,0 +1,75 @@
+{
+  "relation": "rel_247",
+  "predicate_id": "calls_up_players_from",
+  "label": "calls up players from team",
+  "definition": "Sports team X calls up, promotes, recalls, or summons players from source team or affiliate Y.",
+  "scope_notes": "Includes: explicit promotion or recall from a source team; calling or summoning a player from Y into X; clear team-to-affiliate recall or promotion context even if the player's name is omitted. Excludes: ordinary travel or communication from a geographic place; corporate ownership alone; sending a player in the opposite direction; a proposed promotion without realization. Ambiguous unless resolved by case-local evidence: the omitted object could be something other than a player; unclear source versus destination team; bare call-from without recruitment context. The direction is receiving team to source team. It does not require ownership of the affiliate or imply that all its players move.",
+  "facts": [
+    {
+      "case_id": "rel_247__ent_1004__ent_735",
+      "judgment": "supported",
+      "reason": "Yankees → Class AAA Columbus: Explicit recall/promote/summon from the named affiliate establishes player call-up into the team.",
+      "evidence_lines": [
+        7915,
+        7916,
+        7917,
+        7921,
+        7922,
+        7923,
+        7924
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.680Z"
+      }
+    },
+    {
+      "case_id": "rel_247__ent_65__ent_60",
+      "judgment": "incorrect",
+      "reason": "Dominique Wilkins → Hawks: An individual scoring or a political leader role does not establish receiving-team-to-source-team recruitment.",
+      "evidence_lines": [
+        3125,
+        3128,
+        3130,
+        3132,
+        3133
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.680Z"
+      }
+    },
+    {
+      "case_id": "rel_247__ent_67__ent_1138",
+      "judgment": "incorrect",
+      "reason": "Radovan Karadzic → Bosnian Serbs: An individual scoring or a political leader role does not establish receiving-team-to-source-team recruitment.",
+      "evidence_lines": [
+        4981,
+        4982,
+        4983,
+        4985
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "nyt_kernel_audit",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:53.680Z"
+      }
+    }
+  ],
+  "predicate_hash": "12587137bf20504af27b4abfcf7fa536fbf8c337a904deadf9626d1ef243472d",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "117547fccceb933b7e6b84ac75ecd366336c8b90cc9f1c9c17e06cec96b52eb4"
+}

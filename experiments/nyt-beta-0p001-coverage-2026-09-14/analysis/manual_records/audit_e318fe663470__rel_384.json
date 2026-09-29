@@ -1,0 +1,66 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_384",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_384__ent_1335__ent_1307",
+        "rel_384__ent_1431__ent_537"
+      ],
+      "judgment": "supported",
+      "reason": "A local bring-to/arrive-in/flee-to construction asserts movement toward the stated geographic destination.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_384__ent_572__ent_1442"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Bringing a performer to Broadway may denote a theatrical engagement; the production-role path leaves geographic versus theatrical sense unresolved.",
+      "tags": [
+        "predicate_scope"
+      ],
+      "question": "Does this assert physical travel or taking a Broadway role?"
+    },
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_384__ent_1259__ent_213",
+        "rel_384__ent_1125__ent_1401",
+        "rel_384__ent_7__ent_1374",
+        "rel_384__ent_102__ent_682",
+        "rel_384__ent_1325__ent_943",
+        "rel_384__ent_666__ent_522"
+      ],
+      "judgment": "incorrect",
+      "reason": "Inverse presidency, moving an event, political occupancy, mere presence, joining a team or corporate acquisition is outside the declared person/group geographic movement.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    3
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "18b6e23f73ac7bd4e09bf7a895922911431ea211ac8c15eca4ad9879628bb4f0"
+}

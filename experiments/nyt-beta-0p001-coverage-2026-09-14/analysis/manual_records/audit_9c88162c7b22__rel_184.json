@@ -1,0 +1,62 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_184",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "case_ids": [
+        "rel_184__ent_264__ent_36",
+        "rel_184__ent_268__ent_263",
+        "rel_184__ent_31__ent_36",
+        "rel_184__ent_30__ent_36",
+        "rel_184__ent_49__ent_36",
+        "rel_184__ent_265__ent_36",
+        "rel_184__ent_261__ent_263"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Leader or whip roles are explicit, but the second argument is only a party adjective; the exact party, caucus or chamber leadership body is omitted.",
+      "tags": [
+        "incomplete_argument"
+      ],
+      "question": "Which complete party organization or legislative caucus is identified by this leadership title?"
+    },
+    {
+      "indices": [
+        7
+      ],
+      "case_ids": [
+        "rel_184__ent_7__ent_586"
+      ],
+      "judgment": "incorrect",
+      "reason": "Having an unnamed Democrat in the White House supplies no organizational leadership role.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "4219594756e182b43f5616388d9e5fde31ef66ea81867d99874dadd64efdc29c"
+}

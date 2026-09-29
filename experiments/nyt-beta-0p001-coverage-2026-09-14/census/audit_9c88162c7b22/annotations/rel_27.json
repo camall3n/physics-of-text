@@ -1,0 +1,227 @@
+{
+  "relation": "rel_27",
+  "predicate_id": "location_of_organization",
+  "label": "location of organization or its office",
+  "definition": "Geographic place X hosts the physical location, base, or office of organization Y.",
+  "scope_notes": "Includes: explicit organization location, headquarters, office, or base in X; a geographically identified office or division of Y located in X; historical physical organizational location. Excludes: X is a corporate subsidiary or parent rather than a geographic place; national affiliation alone without physical location; ordinary travel, discussion, or an unrelated event in X. Ambiguous unless resolved by case-local evidence: place versus institution metonymy unresolved; a geographic division name without clear physical location; unclear organization or location attachment. This is the inverse direction of located_in. The presence of an office does not imply that all of Y is headquartered there; corporate ownership alone is not location.",
+  "facts": [
+    {
+      "case_id": "rel_27__ent_843__ent_421",
+      "judgment": "supported",
+      "reason": "New York → Fallon Worldwide: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4200,
+        4201,
+        4202,
+        4203,
+        4204,
+        4205,
+        4206,
+        4207
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_660__ent_623",
+      "judgment": "supported",
+      "reason": "San Francisco → Foote: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4141,
+        4142,
+        4143,
+        4147,
+        4148,
+        4149,
+        4150
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_843__ent_1104",
+      "judgment": "supported",
+      "reason": "New York → BBDO Worldwide: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4131,
+        4132,
+        4133,
+        4134,
+        4136,
+        4138
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_843__ent_649",
+      "judgment": "supported",
+      "reason": "New York → DDB Worldwide: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4170,
+        4171,
+        4173,
+        4174,
+        4178,
+        4179
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_407__ent_649",
+      "judgment": "supported",
+      "reason": "Chicago → DDB Worldwide: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4124,
+        4125,
+        4126,
+        4128
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_843__ent_422",
+      "judgment": "supported",
+      "reason": "New York → Hill: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4180,
+        4182,
+        4188,
+        4189
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_1121__ent_425",
+      "judgment": "incorrect",
+      "reason": "Grey Worldwide → Grey Global Group: Both arguments are organizations and the rows describe corporate division or parent relationships, not geographic place-to-office location.",
+      "evidence_lines": [
+        4672,
+        4674,
+        4675,
+        4679
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_1068__ent_923",
+      "judgment": "incorrect",
+      "reason": "McCann-Erickson World Group → Interpublic Group of Companies: Both arguments are organizations and the rows describe corporate division or parent relationships, not geographic place-to-office location.",
+      "evidence_lines": [
+        6643,
+        6648,
+        6649,
+        6652
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_625__ent_393",
+      "judgment": "incorrect",
+      "reason": "Fox → News Corporation: Both arguments are organizations and the rows describe corporate division or parent relationships, not geographic place-to-office location.",
+      "evidence_lines": [
+        2514,
+        2517
+      ],
+      "issue_tags": [
+        "wrong_argument_type"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    },
+    {
+      "case_id": "rel_27__ent_843__ent_662",
+      "judgment": "supported",
+      "reason": "New York → Bartle Bogle Hegarty: Explicit city-modifying office-of evidence places an office of the named organization in the first-argument city.",
+      "evidence_lines": [
+        4161,
+        4162
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:21:58.620Z"
+      }
+    }
+  ],
+  "predicate_hash": "67da6a5ef0effec1d21615afbbfe8abb64b94bde3e88f855337f43694d98e6c8",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "0205d12bd2e7a867b8389b2fbff72559f49bae2a085db59da2fbab3a1fcf973f"
+}

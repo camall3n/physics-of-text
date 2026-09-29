@@ -1,0 +1,53 @@
+{
+  "relation": "rel_51",
+  "predicate_id": "succeeded_person",
+  "predicate_version": 1,
+  "predicate_hash": "cf88bc7434fa6be9db182b5aa625fc51bf1a23063c2fa8093914b8cfff879157",
+  "predicate": {
+    "id": "succeeded_person",
+    "label": "succeeded person in role",
+    "definition": "Person X took over a role previously held by person Y.",
+    "includes": [
+      "explicit succession or replacement in an office or professional role",
+      "historical successor taking office",
+      "clearly established temporary or acting replacement"
+    ],
+    "excludes": [
+      "X appointed a third person to replace Y",
+      "generic opposition, criticism, or substitution unrelated to a role",
+      "a proposed successor without established tenure"
+    ],
+    "ambiguous": [
+      "bare replace where appointing versus taking over is unresolved",
+      "unclear predecessor or role",
+      "candidate or announced future replacement without tenure"
+    ],
+    "notes": "Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously.",
+    "scope_notes": "Includes: explicit succession or replacement in an office or professional role; historical successor taking office; clearly established temporary or acting replacement. Excludes: X appointed a third person to replace Y; generic opposition, criticism, or substitution unrelated to a role; a proposed successor without established tenure. Ambiguous unless resolved by case-local evidence: bare replace where appointing versus taking over is unresolved; unclear predecessor or role; candidate or announced future replacement without tenure. Direction is successor to predecessor. It does not imply that X and Y are the same person or held office simultaneously."
+  },
+  "dictionary_sha256": "f375a823bb08bfb189df480e5447035f1c640d7c1698003535df8363062e0690",
+  "kind": "declared_before_case_grading",
+  "rationale": "Replace10/succeed2 plus replacement/take-place paths dominate person-to-predecessor direction. Replacing someone by appointing a third person does not establish personal succession.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:08:39.389Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    14,
+    15,
+    17
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_51.before_grading.json",
+  "pregrading_annotation_sha256": "e9bd3934188545a74bf118acf11bfb4dd2928b7a84d54233086427c92ef7311b"
+}

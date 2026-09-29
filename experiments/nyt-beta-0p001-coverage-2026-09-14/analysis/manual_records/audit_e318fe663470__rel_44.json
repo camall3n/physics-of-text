@@ -1,0 +1,68 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_44",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        2
+      ],
+      "case_ids": [
+        "rel_44__ent_286__ent_321",
+        "rel_44__ent_283__ent_321"
+      ],
+      "judgment": "supported",
+      "reason": "An explicit manager-of title establishes managerial office in the named team.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_44__ent_285__ent_1282"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Manager evidence combines Steve Phillips and Frank Cashen in one inferred person.",
+      "tags": [
+        "entity_collision"
+      ],
+      "question": "Which manager should this fact identify?"
+    },
+    {
+      "indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_44__ent_528__ent_358",
+        "rel_44__ent_238__ent_1299",
+        "rel_44__ent_576__ent_280",
+        "rel_44__ent_587__ent_804",
+        "rel_44__ent_1394__ent_234",
+        "rel_44__ent_78__ent_607"
+      ],
+      "judgment": "incorrect",
+      "reason": "Officer/observer/coach status, geographic context or sports victory does not establish an explicit manager title.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "7153047ba96e333894717a9f2e8327cdf6fb56fc0c0ee3010fb3166fd251175f"
+}

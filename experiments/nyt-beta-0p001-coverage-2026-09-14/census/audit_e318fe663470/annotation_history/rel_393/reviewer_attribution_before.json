@@ -1,0 +1,107 @@
+{
+  "relation": "rel_393",
+  "predicate_id": "organization_operates_in_domain",
+  "label": "organization operates in industry or domain",
+  "definition": "Organization X is explicitly described as operating in industry, business field, or technological domain Y.",
+  "scope_notes": "Includes: explicit industry or domain modifier of company, agency, or business; stated operations or business activity in Y; historical business-domain identity. Excludes: nationality or geographic location; corporate parent or corporate family name; a passing reference to users, data, or an unrelated product without business-domain evidence; a person working in a field. Ambiguous unless resolved by case-local evidence: a nominal modifier that could mean owner, place, or industry; unclear organization versus personal referent; generic Internet mention without a business-domain role. A business-field classification, not geographic location and not a generic association with the domain.",
+  "facts": [
+    {
+      "case_id": "rel_393__ent_942__ent_1362",
+      "judgment": "supported",
+      "reason": "Jupiter Communications → Internet: Explicit Internet-company/domain business wording establishes operations in the Internet field.",
+      "evidence_lines": [
+        7384,
+        7385,
+        7389,
+        7390,
+        7391
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:17.497Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_956__ent_936",
+      "judgment": "supported",
+      "reason": "Jupiter Media Metrix → Internet: Explicit Internet-company/domain business wording establishes operations in the Internet field.",
+      "evidence_lines": [
+        7402,
+        7403,
+        7405,
+        7409
+      ],
+      "issue_tags": [
+        "mixed_evidence"
+      ],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:17.497Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_917__ent_1422",
+      "judgment": "incorrect",
+      "reason": "Richard G. Darman → White House: Personal White House context or a Bell corporate-family description is not business operation in an industry domain.",
+      "evidence_lines": [
+        8465,
+        8470,
+        8471
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:17.497Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_1077__ent_1378",
+      "judgment": "incorrect",
+      "reason": "U S West → Bell: Personal White House context or a Bell corporate-family description is not business operation in an industry domain.",
+      "evidence_lines": [
+        6808,
+        6815
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:17.497Z"
+      }
+    },
+    {
+      "case_id": "rel_393__ent_933__ent_1362",
+      "judgment": "supported",
+      "reason": "Google → Internet: Explicit Internet-company/domain business wording establishes operations in the Internet field.",
+      "evidence_lines": [
+        6834,
+        6835
+      ],
+      "issue_tags": [],
+      "reviewer_question": "",
+      "provisional": false,
+      "review": {
+        "reviewer": "runner",
+        "method": "Explicit manual judgment after reading the full relation dictionary and every supplied case row; citations include the complete considered evidence.",
+        "reviewed_at": "2026-09-14T22:24:17.497Z"
+      }
+    }
+  ],
+  "predicate_hash": "596097ce31fe1df4c02bcf3640cd11b0c81e42b54fc962e4c5d1e73da2bd2fb5",
+  "predicate_version": 1,
+  "predicate_declaration_sha256": "4f39b82686be99f7582fc72c02e4d0abf4975f4ec1911cc240ab9fb078b56c4b"
+}

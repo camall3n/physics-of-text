@@ -1,0 +1,53 @@
+{
+  "relation": "rel_141",
+  "predicate_id": "known_as",
+  "predicate_version": 1,
+  "predicate_hash": "31c70b28ada6a9b20beb088546cf777358118827a6aab13f0340572de3332662",
+  "predicate": {
+    "id": "known_as",
+    "label": "known or named as",
+    "definition": "Entity X is explicitly known, named, renamed, or referred to by alternative name Y for the same entity.",
+    "includes": [
+      "explicit known-as or also-called identity",
+      "a stated alias or alternative name",
+      "historical renaming of the same entity"
+    ],
+    "excludes": [
+      "a named subsidiary or distinct entity",
+      "comparison or resemblance rather than identity",
+      "ordinary description without an alternative designation"
+    ],
+    "ambiguous": [
+      "unclear referent of the alternative name",
+      "an explicitly proposed new name without established use",
+      "name versus separate institution when unresolved"
+    ],
+    "notes": "The predicate concerns two names or designations of one referent. Do not infer identity from an ownership relationship.",
+    "scope_notes": "Includes: explicit known-as or also-called identity; a stated alias or alternative name; historical renaming of the same entity. Excludes: a named subsidiary or distinct entity; comparison or resemblance rather than identity; ordinary description without an alternative designation. Ambiguous unless resolved by case-local evidence: unclear referent of the alternative name; an explicitly proposed new name without established use; name versus separate institution when unresolved. The predicate concerns two names or designations of one referent. Do not infer identity from an ownership relationship."
+  },
+  "dictionary_sha256": "a4207a83095149d4aecde5e182855e7f91d8110c9c6a752bf458428720bcbf56",
+  "kind": "declared_before_case_grading",
+  "rationale": "Known-as/by-acronym naming overwhelmingly dominates; violence/trial locations and omitted nominal arguments remain separate.",
+  "reviewer": "runner",
+  "declared_at": "2026-09-14T22:20:08.728Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+  "pregrading_annotation_file": "rel_141.before_grading.json",
+  "pregrading_annotation_sha256": "2c9b40774a907850ad363c133d62a0d16064332f67cda625b568604eb736fcb4"
+}

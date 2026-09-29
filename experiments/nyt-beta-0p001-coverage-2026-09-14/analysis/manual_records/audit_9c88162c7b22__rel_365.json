@@ -1,0 +1,64 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_365",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "case_ids": [
+        "rel_365__ent_492__ent_648",
+        "rel_365__ent_820__ent_1102",
+        "rel_365__ent_408__ent_1103"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit withdrawal, pull-out or leaving identifies physical departure from the named territory.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        3,
+        4
+      ],
+      "case_ids": [
+        "rel_365__ent_362__ent_123",
+        "rel_365__ent_383__ent_140"
+      ],
+      "judgment": "incorrect",
+      "reason": "Lobbying for an organization does not establish geographic departure.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        5
+      ],
+      "case_ids": [
+        "rel_365__ent_822__ent_640"
+      ],
+      "judgment": "incorrect",
+      "reason": "A corporate parent stock movement concerns finance, not geographic departure.",
+      "tags": [
+        "wrong_predicate"
+      ],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    0,
+    1,
+    2
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "fbe0929442df7f0412ee2f1371192f4e135b9c08743ce345ccb1a759a7367c13"
+}

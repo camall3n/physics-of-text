@@ -1,0 +1,56 @@
+{
+  "audit": "audit_e318fe663470",
+  "relation": "rel_343",
+  "cases_sha256": "e9a5b15ca3b3f0f85e2d3e15961ec9cca43b44ebb4b33d11c34775c19cfea372",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_343__ent_261__ent_1269"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit Republican candidate wording establishes party candidacy; accompanying leadership/opponent rows do not substitute for it.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_343__ent_264__ent_1235"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Candidacy is explicit but the political party is only the truncated adjective Democratic.",
+      "tags": [
+        "truncated_argument"
+      ],
+      "question": "Which complete political party or body does Democratic denote?"
+    },
+    {
+      "indices": [
+        2,
+        3
+      ],
+      "case_ids": [
+        "rel_343__ent_1386__ent_497",
+        "rel_343__ent_1229__ent_179"
+      ],
+      "judgment": "incorrect",
+      "reason": "Leadership/government status or residence/expulsion does not establish party candidacy.",
+      "tags": [],
+      "question": ""
+    }
+  ],
+  "mixed": [
+    1
+  ],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "2550303a10718c10aab458499e734aa12dfdbc4c9aa8a80c92b92025749f246a"
+}

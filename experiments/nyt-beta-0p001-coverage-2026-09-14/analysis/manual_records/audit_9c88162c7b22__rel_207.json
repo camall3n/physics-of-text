@@ -1,0 +1,91 @@
+{
+  "audit": "audit_9c88162c7b22",
+  "relation": "rel_207",
+  "cases_sha256": "de0714af776c712aee0554a1d34621532638024b5bc4ffba6a2f7c0cb5faf31c",
+  "reviewer": "runner",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "case_ids": [
+        "rel_207__ent_550__ent_792",
+        "rel_207__ent_346__ent_308",
+        "rel_207__ent_1134__ent_786",
+        "rel_207__ent_1006__ent_155",
+        "rel_207__ent_619__ent_526",
+        "rel_207__ent_552__ent_794"
+      ],
+      "judgment": "supported",
+      "reason": "Explicit president, director or resignation-as-chairman establishes a qualifying managerial office.",
+      "tags": [],
+      "question": ""
+    },
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_207__ent_1059__ent_1180"
+      ],
+      "judgment": "incorrect",
+      "reason": "Analyst and industry-following evidence does not establish managerial office.",
+      "tags": [
+        "wrong_occupation"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_207__ent_469__ent_1166"
+      ],
+      "judgment": "incorrect",
+      "reason": "A museum street address and screening location do not identify a managerial officeholder.",
+      "tags": [
+        "wrong_argument_type"
+      ],
+      "question": ""
+    },
+    {
+      "indices": [
+        7,
+        8
+      ],
+      "case_ids": [
+        "rel_207__ent_17__ent_827",
+        "rel_207__ent_299__ent_16"
+      ],
+      "judgment": "ambiguous",
+      "reason": "A director role is attached to a personal principal or Mayor without identifying the institutional office or campaign being managed.",
+      "tags": [
+        "personal_principal_scope"
+      ],
+      "question": "What institution, mayoral office or campaign is the person director of?"
+    }
+  ],
+  "mixed": [
+    2,
+    3,
+    4
+  ],
+  "broad": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    9
+  ],
+  "identity": [],
+  "predicate_declaration_sha256": "91f2c6a5d045159c8d5d8700445bd1fa64df974e3ed632c2a3dae666b24f8fef"
+}

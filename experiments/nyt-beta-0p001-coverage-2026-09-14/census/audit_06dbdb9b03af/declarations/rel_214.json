@@ -1,0 +1,49 @@
+{
+  "relation": "rel_214",
+  "predicate_id": "geographic_part_of",
+  "predicate_version": 1,
+  "predicate_hash": "81144ab53945b2587eaab012243fd340cad1d32df48a33b345f7facb5caa3b47",
+  "predicate": {
+    "id": "geographic_part_of",
+    "label": "geographical part of",
+    "definition": "Named geographic area, neighborhood or district X is contained within geographic place Y.",
+    "includes": [
+      "area/section/neighborhood/district of or in",
+      "clear place-to-containing-place attachment"
+    ],
+    "excludes": [
+      "organization subsidiary or location",
+      "residence/work/travel",
+      "an event in a place"
+    ],
+    "ambiguous": [
+      "place names attached through an omitted institution"
+    ],
+    "notes": "",
+    "scope_notes": "Includes: area/section/neighborhood/district of or in; clear place-to-containing-place attachment. Excludes: organization subsidiary or location; residence/work/travel; an event in a place. Ambiguous unless resolved by case-local evidence: place names attached through an omitted institution."
+  },
+  "dictionary_sha256": "2fe1dad47256e03e721f076134bd19491310f967eb299d7cc490d113cbd78a57",
+  "kind": "declared_before_case_grading",
+  "rationale": "Neighborhood/area/section/district paths dominate in place-to-containing-place direction; branch, school and project attachments require local adjudication.",
+  "reviewer": "nyt_kernel_audit",
+  "declared_at": "2026-09-14T22:04:20.032Z",
+  "complete_dictionary_read": true,
+  "argument_roles_inspected": true,
+  "supporting_path_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    10,
+    12,
+    15
+  ],
+  "competing_meanings": [],
+  "scope_limitations": [],
+  "source_map_sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+  "pregrading_annotation_file": "rel_214.before_grading.json",
+  "pregrading_annotation_sha256": "16b63c4f3ae1fb44fb8fb369306b459805227fbf01f1d7275e747565315d05e4"
+}

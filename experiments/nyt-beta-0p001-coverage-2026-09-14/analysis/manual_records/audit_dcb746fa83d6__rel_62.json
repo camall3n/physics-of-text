@@ -1,0 +1,70 @@
+{
+  "audit": "audit_dcb746fa83d6",
+  "relation": "rel_62",
+  "cases_sha256": "90c524e22cb00968bc37ea0027225ccbbe1d797415d38183444483493026d125",
+  "reviewer": "root",
+  "complete_dictionary_read": true,
+  "complete_case_evidence_read": true,
+  "groups": [
+    {
+      "indices": [
+        0
+      ],
+      "case_ids": [
+        "rel_62__ent_96__ent_948"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Inverse ministerial office competes with business field, spokesperson and ownership meanings in the dictionary.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation denote a country's minister rather than one of the other competing meanings?"
+    },
+    {
+      "indices": [
+        1
+      ],
+      "case_ids": [
+        "rel_62__ent_943__ent_936"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Business-field descriptions compete with inverse political office, spokesperson and corporate ownership.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation denote an organization's specialty field rather than an office or ownership role?"
+    },
+    {
+      "indices": [
+        2
+      ],
+      "case_ids": [
+        "rel_62__ent_344__ent_586"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Explicit spokesperson wording is a competing atomic family, with no uniquely coherent whole-dictionary meaning.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation denote spokesperson-for rather than inverse political office or corporate affiliation?"
+    },
+    {
+      "indices": [
+        3
+      ],
+      "case_ids": [
+        "rel_62__ent_1068__ent_923"
+      ],
+      "judgment": "ambiguous",
+      "reason": "Corporate ownership/part-of is a distinct family from the tied political and professional roles.",
+      "tags": [
+        "relation_semantic_indeterminacy"
+      ],
+      "question": "Should this relation denote subsidiary-of rather than a competing office or specialty relation?"
+    }
+  ],
+  "mixed": [],
+  "broad": [],
+  "identity": [],
+  "predicate_declaration_sha256": "150744c1f8222c8119ee9cc917dde64013cc486ca206c95a00cd63d9a03127a0"
+}

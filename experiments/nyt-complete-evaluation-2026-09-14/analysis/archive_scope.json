@@ -1,0 +1,2442 @@
+{
+  "created_utc": "2026-09-14T20:45:50.522Z",
+  "method": "Read-only inventory of original outputs; SHA-256 calculated directly. Archive comparison report reused only as metadata with direct hash and partition-count checks. No semantic grades assigned in this appendix.",
+  "previous_archive_inventory": {
+    "file": "resources/sampler-140626/results/nyt-2026/evaluation/archive_comparison.json",
+    "sha256": "4e27f9a932edea6d832e1d3f101aac1dddd7fd239e61232c279986edd87b5a7b",
+    "sha256_before_retirement": "9dc2185595da6df1ef59b0ded41d83ad20c581faaeefa590e5fc0651ff21ac36"
+  },
+  "modern": [
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/entityfix_latent_beta01_seed20260912",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/entityfix_latent_beta01_seed20260912/map_world_sentences.tsv",
+      "sha256": "e71453c6c7280559bef609d47d387b2c8eeae4b3d53d2a54c0cadacb0b2417c0",
+      "rows": 8516,
+      "all_expressed_relations": 275,
+      "all_expressed_facts": 2113,
+      "top20_rows": 5299,
+      "top20_facts": 1184,
+      "top20": [
+        {
+          "relation": "rel_393",
+          "rows": 439,
+          "facts": 86
+        },
+        {
+          "relation": "rel_389",
+          "rows": 426,
+          "facts": 87
+        },
+        {
+          "relation": "rel_24",
+          "rows": 411,
+          "facts": 92
+        },
+        {
+          "relation": "rel_252",
+          "rows": 400,
+          "facts": 90
+        },
+        {
+          "relation": "rel_397",
+          "rows": 371,
+          "facts": 82
+        },
+        {
+          "relation": "rel_351",
+          "rows": 317,
+          "facts": 58
+        },
+        {
+          "relation": "rel_84",
+          "rows": 278,
+          "facts": 72
+        },
+        {
+          "relation": "rel_335",
+          "rows": 273,
+          "facts": 61
+        },
+        {
+          "relation": "rel_208",
+          "rows": 269,
+          "facts": 76
+        },
+        {
+          "relation": "rel_191",
+          "rows": 262,
+          "facts": 58
+        },
+        {
+          "relation": "rel_245",
+          "rows": 257,
+          "facts": 54
+        },
+        {
+          "relation": "rel_67",
+          "rows": 248,
+          "facts": 61
+        },
+        {
+          "relation": "rel_18",
+          "rows": 226,
+          "facts": 53
+        },
+        {
+          "relation": "rel_228",
+          "rows": 211,
+          "facts": 39
+        },
+        {
+          "relation": "rel_284",
+          "rows": 176,
+          "facts": 35
+        },
+        {
+          "relation": "rel_135",
+          "rows": 164,
+          "facts": 44
+        },
+        {
+          "relation": "rel_364",
+          "rows": 159,
+          "facts": 30
+        },
+        {
+          "relation": "rel_143",
+          "rows": 149,
+          "facts": 40
+        },
+        {
+          "relation": "rel_220",
+          "rows": 132,
+          "facts": 30
+        },
+        {
+          "relation": "rel_321",
+          "rows": 131,
+          "facts": 36
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/entityfix_latent_beta01_seed20260913",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/entityfix_latent_beta01_seed20260913/map_world_sentences.tsv",
+      "sha256": "9d30e0063118a39df8b063d85f128165aeab2187813dfe0bbf3cbff73074c3f2",
+      "rows": 8516,
+      "all_expressed_relations": 288,
+      "all_expressed_facts": 2195,
+      "top20_rows": 5303,
+      "top20_facts": 1197,
+      "top20": [
+        {
+          "relation": "rel_87",
+          "rows": 461,
+          "facts": 94
+        },
+        {
+          "relation": "rel_156",
+          "rows": 442,
+          "facts": 111
+        },
+        {
+          "relation": "rel_298",
+          "rows": 386,
+          "facts": 88
+        },
+        {
+          "relation": "rel_372",
+          "rows": 378,
+          "facts": 63
+        },
+        {
+          "relation": "rel_363",
+          "rows": 334,
+          "facts": 90
+        },
+        {
+          "relation": "rel_280",
+          "rows": 297,
+          "facts": 56
+        },
+        {
+          "relation": "rel_222",
+          "rows": 286,
+          "facts": 81
+        },
+        {
+          "relation": "rel_109",
+          "rows": 279,
+          "facts": 57
+        },
+        {
+          "relation": "rel_84",
+          "rows": 272,
+          "facts": 44
+        },
+        {
+          "relation": "rel_89",
+          "rows": 243,
+          "facts": 53
+        },
+        {
+          "relation": "rel_187",
+          "rows": 230,
+          "facts": 39
+        },
+        {
+          "relation": "rel_258",
+          "rows": 229,
+          "facts": 61
+        },
+        {
+          "relation": "rel_196",
+          "rows": 223,
+          "facts": 38
+        },
+        {
+          "relation": "rel_13",
+          "rows": 208,
+          "facts": 57
+        },
+        {
+          "relation": "rel_323",
+          "rows": 198,
+          "facts": 54
+        },
+        {
+          "relation": "rel_188",
+          "rows": 195,
+          "facts": 50
+        },
+        {
+          "relation": "rel_47",
+          "rows": 190,
+          "facts": 43
+        },
+        {
+          "relation": "rel_197",
+          "rows": 174,
+          "facts": 43
+        },
+        {
+          "relation": "rel_134",
+          "rows": 156,
+          "facts": 42
+        },
+        {
+          "relation": "rel_221",
+          "rows": 122,
+          "facts": 33
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta0001_seed20260912",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta0001_seed20260912/map_world_sentences.tsv",
+      "sha256": "5fab808b6778c75611496d57bf58fc2c881dd7c33413b97052507b29ffacf89a",
+      "rows": 8516,
+      "all_expressed_relations": 398,
+      "all_expressed_facts": 1929,
+      "top20_rows": 1824,
+      "top20_facts": 384,
+      "top20": [
+        {
+          "relation": "rel_114",
+          "rows": 155,
+          "facts": 27
+        },
+        {
+          "relation": "rel_91",
+          "rows": 132,
+          "facts": 33
+        },
+        {
+          "relation": "rel_343",
+          "rows": 124,
+          "facts": 22
+        },
+        {
+          "relation": "rel_396",
+          "rows": 119,
+          "facts": 23
+        },
+        {
+          "relation": "rel_332",
+          "rows": 103,
+          "facts": 28
+        },
+        {
+          "relation": "rel_126",
+          "rows": 97,
+          "facts": 25
+        },
+        {
+          "relation": "rel_326",
+          "rows": 92,
+          "facts": 21
+        },
+        {
+          "relation": "rel_58",
+          "rows": 90,
+          "facts": 18
+        },
+        {
+          "relation": "rel_29",
+          "rows": 89,
+          "facts": 18
+        },
+        {
+          "relation": "rel_9",
+          "rows": 87,
+          "facts": 16
+        },
+        {
+          "relation": "rel_282",
+          "rows": 81,
+          "facts": 17
+        },
+        {
+          "relation": "rel_8",
+          "rows": 79,
+          "facts": 14
+        },
+        {
+          "relation": "rel_31",
+          "rows": 79,
+          "facts": 20
+        },
+        {
+          "relation": "rel_127",
+          "rows": 77,
+          "facts": 12
+        },
+        {
+          "relation": "rel_290",
+          "rows": 76,
+          "facts": 25
+        },
+        {
+          "relation": "rel_251",
+          "rows": 73,
+          "facts": 15
+        },
+        {
+          "relation": "rel_260",
+          "rows": 73,
+          "facts": 15
+        },
+        {
+          "relation": "rel_159",
+          "rows": 71,
+          "facts": 10
+        },
+        {
+          "relation": "rel_99",
+          "rows": 66,
+          "facts": 12
+        },
+        {
+          "relation": "rel_347",
+          "rows": 61,
+          "facts": 13
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta0001_seed20260913",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta0001_seed20260913/map_world_sentences.tsv",
+      "sha256": "b6db21de59c94f2892766f29f6a34119694b6235c4001f33daf657b3aae10fea",
+      "rows": 8516,
+      "all_expressed_relations": 400,
+      "all_expressed_facts": 1942,
+      "top20_rows": 1583,
+      "top20_facts": 364,
+      "top20": [
+        {
+          "relation": "rel_283",
+          "rows": 115,
+          "facts": 20
+        },
+        {
+          "relation": "rel_167",
+          "rows": 109,
+          "facts": 19
+        },
+        {
+          "relation": "rel_11",
+          "rows": 108,
+          "facts": 25
+        },
+        {
+          "relation": "rel_388",
+          "rows": 102,
+          "facts": 21
+        },
+        {
+          "relation": "rel_257",
+          "rows": 82,
+          "facts": 22
+        },
+        {
+          "relation": "rel_278",
+          "rows": 80,
+          "facts": 19
+        },
+        {
+          "relation": "rel_94",
+          "rows": 77,
+          "facts": 23
+        },
+        {
+          "relation": "rel_22",
+          "rows": 76,
+          "facts": 21
+        },
+        {
+          "relation": "rel_138",
+          "rows": 75,
+          "facts": 16
+        },
+        {
+          "relation": "rel_259",
+          "rows": 75,
+          "facts": 19
+        },
+        {
+          "relation": "rel_322",
+          "rows": 73,
+          "facts": 22
+        },
+        {
+          "relation": "rel_39",
+          "rows": 71,
+          "facts": 20
+        },
+        {
+          "relation": "rel_194",
+          "rows": 71,
+          "facts": 10
+        },
+        {
+          "relation": "rel_102",
+          "rows": 69,
+          "facts": 19
+        },
+        {
+          "relation": "rel_128",
+          "rows": 69,
+          "facts": 17
+        },
+        {
+          "relation": "rel_186",
+          "rows": 68,
+          "facts": 14
+        },
+        {
+          "relation": "rel_61",
+          "rows": 67,
+          "facts": 12
+        },
+        {
+          "relation": "rel_80",
+          "rows": 67,
+          "facts": 15
+        },
+        {
+          "relation": "rel_193",
+          "rows": 66,
+          "facts": 15
+        },
+        {
+          "relation": "rel_196",
+          "rows": 63,
+          "facts": 15
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_bridge_seed20260912",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_bridge_seed20260912/map_world_sentences.tsv",
+      "sha256": "0bd87d908a1131c3d532072cc3332e0e7a77fb5c8b29241f272938d7e917f8cc",
+      "rows": 8516,
+      "all_expressed_relations": 200,
+      "all_expressed_facts": 1302,
+      "top20_rows": 5034,
+      "top20_facts": 727,
+      "top20": [
+        {
+          "relation": "rel_381",
+          "rows": 521,
+          "facts": 100
+        },
+        {
+          "relation": "rel_66",
+          "rows": 429,
+          "facts": 61
+        },
+        {
+          "relation": "rel_213",
+          "rows": 419,
+          "facts": 44
+        },
+        {
+          "relation": "rel_299",
+          "rows": 345,
+          "facts": 43
+        },
+        {
+          "relation": "rel_245",
+          "rows": 328,
+          "facts": 34
+        },
+        {
+          "relation": "rel_269",
+          "rows": 275,
+          "facts": 41
+        },
+        {
+          "relation": "rel_373",
+          "rows": 263,
+          "facts": 43
+        },
+        {
+          "relation": "rel_9",
+          "rows": 257,
+          "facts": 29
+        },
+        {
+          "relation": "rel_19",
+          "rows": 253,
+          "facts": 35
+        },
+        {
+          "relation": "rel_133",
+          "rows": 251,
+          "facts": 36
+        },
+        {
+          "relation": "rel_375",
+          "rows": 242,
+          "facts": 35
+        },
+        {
+          "relation": "rel_238",
+          "rows": 207,
+          "facts": 29
+        },
+        {
+          "relation": "rel_11",
+          "rows": 193,
+          "facts": 38
+        },
+        {
+          "relation": "rel_354",
+          "rows": 187,
+          "facts": 32
+        },
+        {
+          "relation": "rel_345",
+          "rows": 168,
+          "facts": 19
+        },
+        {
+          "relation": "rel_292",
+          "rows": 151,
+          "facts": 23
+        },
+        {
+          "relation": "rel_156",
+          "rows": 143,
+          "facts": 19
+        },
+        {
+          "relation": "rel_369",
+          "rows": 140,
+          "facts": 19
+        },
+        {
+          "relation": "rel_41",
+          "rows": 132,
+          "facts": 21
+        },
+        {
+          "relation": "rel_231",
+          "rows": 130,
+          "facts": 26
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_bridge_seed20260913",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_bridge_seed20260913/map_world_sentences.tsv",
+      "sha256": "66125c70d313976b28518d29c62cfffd7c29dc2e76040259cc5e6f5736126ff4",
+      "rows": 8516,
+      "all_expressed_relations": 199,
+      "all_expressed_facts": 1336,
+      "top20_rows": 4894,
+      "top20_facts": 742,
+      "top20": [
+        {
+          "relation": "rel_10",
+          "rows": 446,
+          "facts": 61
+        },
+        {
+          "relation": "rel_358",
+          "rows": 363,
+          "facts": 47
+        },
+        {
+          "relation": "rel_55",
+          "rows": 358,
+          "facts": 47
+        },
+        {
+          "relation": "rel_113",
+          "rows": 319,
+          "facts": 45
+        },
+        {
+          "relation": "rel_270",
+          "rows": 316,
+          "facts": 63
+        },
+        {
+          "relation": "rel_141",
+          "rows": 263,
+          "facts": 44
+        },
+        {
+          "relation": "rel_340",
+          "rows": 259,
+          "facts": 47
+        },
+        {
+          "relation": "rel_52",
+          "rows": 243,
+          "facts": 27
+        },
+        {
+          "relation": "rel_278",
+          "rows": 236,
+          "facts": 31
+        },
+        {
+          "relation": "rel_354",
+          "rows": 235,
+          "facts": 25
+        },
+        {
+          "relation": "rel_221",
+          "rows": 234,
+          "facts": 44
+        },
+        {
+          "relation": "rel_149",
+          "rows": 221,
+          "facts": 28
+        },
+        {
+          "relation": "rel_308",
+          "rows": 204,
+          "facts": 29
+        },
+        {
+          "relation": "rel_383",
+          "rows": 192,
+          "facts": 35
+        },
+        {
+          "relation": "rel_329",
+          "rows": 191,
+          "facts": 43
+        },
+        {
+          "relation": "rel_246",
+          "rows": 174,
+          "facts": 24
+        },
+        {
+          "relation": "rel_171",
+          "rows": 170,
+          "facts": 22
+        },
+        {
+          "relation": "rel_307",
+          "rows": 165,
+          "facts": 27
+        },
+        {
+          "relation": "rel_253",
+          "rows": 155,
+          "facts": 24
+        },
+        {
+          "relation": "rel_351",
+          "rows": 150,
+          "facts": 29
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_seed20260912",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_seed20260912/map_world_sentences.tsv",
+      "sha256": "7c6ee17bfdfb21c1db1af0afb5602ea3fb50a59ba3d7d195c721fce068958499",
+      "rows": 8516,
+      "all_expressed_relations": 181,
+      "all_expressed_facts": 1244,
+      "top20_rows": 5368,
+      "top20_facts": 735,
+      "top20": [
+        {
+          "relation": "rel_157",
+          "rows": 463,
+          "facts": 54
+        },
+        {
+          "relation": "rel_247",
+          "rows": 404,
+          "facts": 69
+        },
+        {
+          "relation": "rel_63",
+          "rows": 385,
+          "facts": 41
+        },
+        {
+          "relation": "rel_117",
+          "rows": 344,
+          "facts": 40
+        },
+        {
+          "relation": "rel_262",
+          "rows": 333,
+          "facts": 53
+        },
+        {
+          "relation": "rel_134",
+          "rows": 307,
+          "facts": 35
+        },
+        {
+          "relation": "rel_268",
+          "rows": 286,
+          "facts": 55
+        },
+        {
+          "relation": "rel_323",
+          "rows": 281,
+          "facts": 33
+        },
+        {
+          "relation": "rel_215",
+          "rows": 280,
+          "facts": 36
+        },
+        {
+          "relation": "rel_71",
+          "rows": 272,
+          "facts": 49
+        },
+        {
+          "relation": "rel_113",
+          "rows": 266,
+          "facts": 30
+        },
+        {
+          "relation": "rel_124",
+          "rows": 262,
+          "facts": 43
+        },
+        {
+          "relation": "rel_223",
+          "rows": 212,
+          "facts": 28
+        },
+        {
+          "relation": "rel_389",
+          "rows": 207,
+          "facts": 24
+        },
+        {
+          "relation": "rel_180",
+          "rows": 196,
+          "facts": 25
+        },
+        {
+          "relation": "rel_394",
+          "rows": 189,
+          "facts": 24
+        },
+        {
+          "relation": "rel_245",
+          "rows": 175,
+          "facts": 21
+        },
+        {
+          "relation": "rel_353",
+          "rows": 171,
+          "facts": 32
+        },
+        {
+          "relation": "rel_336",
+          "rows": 169,
+          "facts": 23
+        },
+        {
+          "relation": "rel_156",
+          "rows": 166,
+          "facts": 20
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_seed20260913",
+      "file": "experiments/nyt-precision-investigation-2026-09-12/runs/verbatim_beta01_seed20260913/map_world_sentences.tsv",
+      "sha256": "ff913cd7720ea3a4b0bc91de57ab8d484e2f1ff83918ee15f0e171b95da740bf",
+      "rows": 8516,
+      "all_expressed_relations": 185,
+      "all_expressed_facts": 1249,
+      "top20_rows": 5096,
+      "top20_facts": 715,
+      "top20": [
+        {
+          "relation": "rel_237",
+          "rows": 391,
+          "facts": 60
+        },
+        {
+          "relation": "rel_190",
+          "rows": 351,
+          "facts": 51
+        },
+        {
+          "relation": "rel_330",
+          "rows": 336,
+          "facts": 41
+        },
+        {
+          "relation": "rel_26",
+          "rows": 335,
+          "facts": 43
+        },
+        {
+          "relation": "rel_275",
+          "rows": 320,
+          "facts": 45
+        },
+        {
+          "relation": "rel_319",
+          "rows": 315,
+          "facts": 52
+        },
+        {
+          "relation": "rel_91",
+          "rows": 284,
+          "facts": 57
+        },
+        {
+          "relation": "rel_331",
+          "rows": 266,
+          "facts": 27
+        },
+        {
+          "relation": "rel_118",
+          "rows": 260,
+          "facts": 36
+        },
+        {
+          "relation": "rel_385",
+          "rows": 239,
+          "facts": 31
+        },
+        {
+          "relation": "rel_399",
+          "rows": 235,
+          "facts": 44
+        },
+        {
+          "relation": "rel_45",
+          "rows": 234,
+          "facts": 37
+        },
+        {
+          "relation": "rel_130",
+          "rows": 234,
+          "facts": 34
+        },
+        {
+          "relation": "rel_69",
+          "rows": 198,
+          "facts": 27
+        },
+        {
+          "relation": "rel_120",
+          "rows": 196,
+          "facts": 26
+        },
+        {
+          "relation": "rel_1",
+          "rows": 189,
+          "facts": 22
+        },
+        {
+          "relation": "rel_52",
+          "rows": 184,
+          "facts": 22
+        },
+        {
+          "relation": "rel_342",
+          "rows": 183,
+          "facts": 23
+        },
+        {
+          "relation": "rel_43",
+          "rows": 181,
+          "facts": 18
+        },
+        {
+          "relation": "rel_291",
+          "rows": 165,
+          "facts": 19
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-latent-low-smoothing-2026-09-14/runs/entityfix_latent_beta0001_seed20260912",
+      "file": "experiments/nyt-latent-low-smoothing-2026-09-14/runs/entityfix_latent_beta0001_seed20260912/map_world_sentences.tsv",
+      "sha256": "23bc536bced899125a6a30a82c93e7f273adf0fc22b9f6f3bca2bbcec9d019af",
+      "rows": 8516,
+      "all_expressed_relations": 399,
+      "all_expressed_facts": 2773,
+      "top20_rows": 1546,
+      "top20_facts": 421,
+      "top20": [
+        {
+          "relation": "rel_250",
+          "rows": 157,
+          "facts": 33
+        },
+        {
+          "relation": "rel_342",
+          "rows": 97,
+          "facts": 23
+        },
+        {
+          "relation": "rel_21",
+          "rows": 95,
+          "facts": 21
+        },
+        {
+          "relation": "rel_114",
+          "rows": 93,
+          "facts": 31
+        },
+        {
+          "relation": "rel_263",
+          "rows": 89,
+          "facts": 30
+        },
+        {
+          "relation": "rel_205",
+          "rows": 82,
+          "facts": 21
+        },
+        {
+          "relation": "rel_390",
+          "rows": 80,
+          "facts": 23
+        },
+        {
+          "relation": "rel_242",
+          "rows": 76,
+          "facts": 15
+        },
+        {
+          "relation": "rel_170",
+          "rows": 75,
+          "facts": 17
+        },
+        {
+          "relation": "rel_269",
+          "rows": 70,
+          "facts": 20
+        },
+        {
+          "relation": "rel_112",
+          "rows": 68,
+          "facts": 21
+        },
+        {
+          "relation": "rel_383",
+          "rows": 68,
+          "facts": 25
+        },
+        {
+          "relation": "rel_382",
+          "rows": 67,
+          "facts": 13
+        },
+        {
+          "relation": "rel_83",
+          "rows": 63,
+          "facts": 19
+        },
+        {
+          "relation": "rel_186",
+          "rows": 63,
+          "facts": 21
+        },
+        {
+          "relation": "rel_274",
+          "rows": 63,
+          "facts": 19
+        },
+        {
+          "relation": "rel_98",
+          "rows": 62,
+          "facts": 23
+        },
+        {
+          "relation": "rel_216",
+          "rows": 60,
+          "facts": 18
+        },
+        {
+          "relation": "rel_223",
+          "rows": 59,
+          "facts": 11
+        },
+        {
+          "relation": "rel_312",
+          "rows": 59,
+          "facts": 17
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    },
+    {
+      "directory": "experiments/nyt-latent-low-smoothing-2026-09-14/runs/entityfix_latent_beta0001_seed20260913",
+      "file": "experiments/nyt-latent-low-smoothing-2026-09-14/runs/entityfix_latent_beta0001_seed20260913/map_world_sentences.tsv",
+      "sha256": "5c8d613f28271af9b2b11495340a5ba8fac04f8e0c744cb84faadd7a857170f4",
+      "rows": 8516,
+      "all_expressed_relations": 398,
+      "all_expressed_facts": 2861,
+      "top20_rows": 1521,
+      "top20_facts": 436,
+      "top20": [
+        {
+          "relation": "rel_169",
+          "rows": 133,
+          "facts": 29
+        },
+        {
+          "relation": "rel_125",
+          "rows": 103,
+          "facts": 26
+        },
+        {
+          "relation": "rel_324",
+          "rows": 91,
+          "facts": 31
+        },
+        {
+          "relation": "rel_333",
+          "rows": 91,
+          "facts": 27
+        },
+        {
+          "relation": "rel_274",
+          "rows": 86,
+          "facts": 27
+        },
+        {
+          "relation": "rel_38",
+          "rows": 85,
+          "facts": 18
+        },
+        {
+          "relation": "rel_6",
+          "rows": 80,
+          "facts": 26
+        },
+        {
+          "relation": "rel_132",
+          "rows": 77,
+          "facts": 19
+        },
+        {
+          "relation": "rel_175",
+          "rows": 77,
+          "facts": 25
+        },
+        {
+          "relation": "rel_32",
+          "rows": 76,
+          "facts": 26
+        },
+        {
+          "relation": "rel_164",
+          "rows": 74,
+          "facts": 19
+        },
+        {
+          "relation": "rel_138",
+          "rows": 68,
+          "facts": 17
+        },
+        {
+          "relation": "rel_340",
+          "rows": 66,
+          "facts": 17
+        },
+        {
+          "relation": "rel_329",
+          "rows": 64,
+          "facts": 22
+        },
+        {
+          "relation": "rel_338",
+          "rows": 62,
+          "facts": 20
+        },
+        {
+          "relation": "rel_352",
+          "rows": 61,
+          "facts": 17
+        },
+        {
+          "relation": "rel_72",
+          "rows": 58,
+          "facts": 22
+        },
+        {
+          "relation": "rel_239",
+          "rows": 57,
+          "facts": 16
+        },
+        {
+          "relation": "rel_42",
+          "rows": 56,
+          "facts": 15
+        },
+        {
+          "relation": "rel_304",
+          "rows": 56,
+          "facts": 17
+        }
+      ],
+      "prior_evaluation": "five facts per top20 relation screening sample"
+    }
+  ],
+  "modern_top20_total": 6905,
+  "trigger_only_logs": [
+    {
+      "file": "resources/sampler-140626/results/output.txt",
+      "sha256": "f78771775289c3d5cf7769f1d6d8fa444c3ca4ecd8e7c824b304b5cd41029207",
+      "nouns": 4484,
+      "paths": 333,
+      "argument_pairs": 3002,
+      "logged_iterations": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ],
+      "iteration_denominator": 10000,
+      "trigger_entries": 1200,
+      "fact_entries": 0,
+      "source_corpus": "resources/sampler-140626/data/Umass-sub-corpus-06-12/pluieTriples_2013_06_12_3.json",
+      "source_sha256": "35a04f6e76bebf1507564c37f22909dfdc7c5bb56b5812b86409450f325696ed",
+      "source_rows": 3357,
+      "last_displayed_blocks": 12,
+      "complete_fact_census_possible": false,
+      "missing": "No saved full sentence-to-latent-fact partition, no printed facts, and no complete relation ranking. Trigger-only checkpoint log."
+    },
+    {
+      "file": "resources/sampler-140626/results/McCallum-corpus-sub/output-1.txt",
+      "sha256": "da69a661bf53d99b347827ca79abafac14a7cb2434c6022611373cd24c3f75f1",
+      "nouns": 46,
+      "paths": 65,
+      "argument_pairs": 25,
+      "logged_iterations": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ],
+      "iteration_denominator": 10000,
+      "trigger_entries": 800,
+      "fact_entries": 0,
+      "source_corpus": "resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_1.json",
+      "source_sha256": "b0eaa14d70ca8a25f0c36c41b90d7b3a395c4be13eb2b17cd135a9f15019413d",
+      "source_rows": 116,
+      "last_displayed_blocks": 8,
+      "complete_fact_census_possible": false,
+      "missing": "No saved full sentence-to-latent-fact partition, no printed facts, and no complete relation ranking. Trigger-only checkpoint log."
+    },
+    {
+      "file": "resources/sampler-140626/results/McCallum-corpus-sub/output-2.txt",
+      "sha256": "96644f5c67c2a5988a13662caa5e86c7c777ddb3ba626b5974a4a517f891e2f8",
+      "nouns": 89,
+      "paths": 123,
+      "argument_pairs": 50,
+      "logged_iterations": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ],
+      "iteration_denominator": 10000,
+      "trigger_entries": 800,
+      "fact_entries": 0,
+      "source_corpus": "resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_2.json",
+      "source_sha256": "e1a6c2780ee6f1931a34db2248c1e348954828280c91f0f15f8591475262a39d",
+      "source_rows": 223,
+      "last_displayed_blocks": 8,
+      "complete_fact_census_possible": false,
+      "missing": "No saved full sentence-to-latent-fact partition, no printed facts, and no complete relation ranking. Trigger-only checkpoint log."
+    },
+    {
+      "file": "resources/sampler-140626/results/McCallum-corpus-sub/output-3.txt",
+      "sha256": "7a314a654d9f4b403a76cb1306c280efdd95e66a455496e5dec1b31be3eeabfe",
+      "nouns": 177,
+      "paths": 204,
+      "argument_pairs": 100,
+      "logged_iterations": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ],
+      "iteration_denominator": 10000,
+      "trigger_entries": 800,
+      "fact_entries": 0,
+      "source_corpus": "resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_3.json",
+      "source_sha256": "f83eda0275cf7a03c33ea25ba154505c1da036a2b3505ff4ca536ad51987372f",
+      "source_rows": 451,
+      "last_displayed_blocks": 8,
+      "complete_fact_census_possible": false,
+      "missing": "No saved full sentence-to-latent-fact partition, no printed facts, and no complete relation ranking. Trigger-only checkpoint log."
+    },
+    {
+      "file": "resources/sampler-140626/results/McCallum-corpus-sub/output-5.txt",
+      "sha256": "a866015efc5d679adac21d15a2ee0953d109128ab9c5efbeeb24f5ad494db051",
+      "nouns": 1199,
+      "paths": 4276,
+      "argument_pairs": 920,
+      "logged_iterations": [
+        0,
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000
+      ],
+      "iteration_denominator": 10000,
+      "trigger_entries": 800,
+      "fact_entries": 0,
+      "source_corpus": "resources/sampler-140626/data/Umass-sub-corpus/pluieTriples_2013_01_06_5.json",
+      "source_sha256": "f34202952d36e2a0fc36dd7466d51be4c24fe36661a8100625dc373b9213161c",
+      "source_rows": 8516,
+      "last_displayed_blocks": 8,
+      "complete_fact_census_possible": false,
+      "missing": "No saved full sentence-to-latent-fact partition, no printed facts, and no complete relation ranking. Trigger-only checkpoint log."
+    }
+  ],
+  "selected_fact_lists": [
+    {
+      "file": "resources/sampler-140626/results/clusters_with_facts.txt",
+      "sha256": "9de8702cc19402a39da7e25daf91acb670da5e9031e72f7fdd145a5efaa85ca1",
+      "fact_entries": 208,
+      "distinct_relation_ids": 23,
+      "trigger_entries": 150,
+      "pairs_present": 208,
+      "prefixes": {
+        "(unmarked)": 208
+      },
+      "source_rows": null,
+      "complete_fact_census_possible": false,
+      "missing": "Selected fact-name lists and truncated trigger dictionaries; no selection rule, complete relation populations, fact-level assigned evidence, or complete MAP partition. Printed relation IDs are inconsistent within some edited sections."
+    },
+    {
+      "file": "resources/sampler-140626/results/McCallum-corpus-sub/clusters_with_facts.txt",
+      "sha256": "9de8702cc19402a39da7e25daf91acb670da5e9031e72f7fdd145a5efaa85ca1",
+      "fact_entries": 208,
+      "distinct_relation_ids": 23,
+      "trigger_entries": 150,
+      "pairs_present": 208,
+      "prefixes": {
+        "(unmarked)": 208
+      },
+      "source_rows": null,
+      "complete_fact_census_possible": false,
+      "missing": "Selected fact-name lists and truncated trigger dictionaries; no selection rule, complete relation populations, fact-level assigned evidence, or complete MAP partition. Printed relation IDs are inconsistent within some edited sections."
+    },
+    {
+      "file": "resources/sampler-140626/results/clusters_with_facts.log",
+      "sha256": "7f6d5cbf3e8fc83586db32f27eccd904ebbebf0c62f73159d09261d39f034242",
+      "fact_entries": 201,
+      "distinct_relation_ids": 23,
+      "trigger_entries": 145,
+      "pairs_present": 201,
+      "prefixes": {
+        "(unmarked)": 201
+      },
+      "source_rows": null,
+      "complete_fact_census_possible": false,
+      "missing": "Selected fact-name lists and truncated trigger dictionaries; no selection rule, complete relation populations, fact-level assigned evidence, or complete MAP partition. Printed relation IDs are inconsistent within some edited sections."
+    },
+    {
+      "file": "resources/sampler-140626/results/cluster_facts_sample.txt",
+      "sha256": "54a8c73fc8df3134ad6715109948a9be4761038a7684d1a49e76b0c1d0f6ba75",
+      "fact_entries": 71,
+      "distinct_relation_ids": 8,
+      "trigger_entries": 40,
+      "pairs_present": 71,
+      "prefixes": {
+        "1": 15,
+        "0.5": 1,
+        "(unmarked)": 50,
+        "#": 5
+      },
+      "source_rows": null,
+      "complete_fact_census_possible": false,
+      "missing": "Selected fact-name lists and truncated trigger dictionaries; no selection rule, complete relation populations, fact-level assigned evidence, or complete MAP partition. Printed relation IDs are inconsistent within some edited sections."
+    },
+    {
+      "file": "resources/sampler-140626/results/cluster_facts_sample_all.txt",
+      "sha256": "54a8c73fc8df3134ad6715109948a9be4761038a7684d1a49e76b0c1d0f6ba75",
+      "fact_entries": 71,
+      "distinct_relation_ids": 8,
+      "trigger_entries": 40,
+      "pairs_present": 71,
+      "prefixes": {
+        "1": 15,
+        "0.5": 1,
+        "(unmarked)": 50,
+        "#": 5
+      },
+      "source_rows": null,
+      "complete_fact_census_possible": false,
+      "missing": "Selected fact-name lists and truncated trigger dictionaries; no selection rule, complete relation populations, fact-level assigned evidence, or complete MAP partition. Printed relation IDs are inconsistent within some edited sections."
+    }
+  ],
+  "smaller_corpus_states": [
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/output-250/map_world.txt",
+      "sha256": "c7b4a92a2d609fa56e1ec728d4759b4dc71af64b15955b50a6483d2e9e278a41",
+      "source_corpus": "resources/sampler-140626/data/06-19/pluieTriples-1.json",
+      "source_sha256": "98955b27fffcf1c97e60c8b45d82d3dc29079e0caba7bc4a83ac905b3a5c2af0",
+      "source_rows": 250,
+      "kind": "MAP state",
+      "relations": [
+        {
+          "relation": "rel_10",
+          "histogram_rows": 22,
+          "displayed_rows": 22,
+          "displayed_facts": 22
+        },
+        {
+          "relation": "rel_12",
+          "histogram_rows": 22,
+          "displayed_rows": 22,
+          "displayed_facts": 20
+        },
+        {
+          "relation": "rel_3",
+          "histogram_rows": 19,
+          "displayed_rows": 19,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_6",
+          "histogram_rows": 19,
+          "displayed_rows": 19,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_0",
+          "histogram_rows": 18,
+          "displayed_rows": 18,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_8",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 13
+        },
+        {
+          "relation": "rel_9",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 15
+        },
+        {
+          "relation": "rel_13",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 15
+        },
+        {
+          "relation": "rel_14",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 15
+        },
+        {
+          "relation": "rel_5",
+          "histogram_rows": 16,
+          "displayed_rows": 16,
+          "displayed_facts": 13
+        },
+        {
+          "relation": "rel_11",
+          "histogram_rows": 16,
+          "displayed_rows": 16,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_7",
+          "histogram_rows": 15,
+          "displayed_rows": 15,
+          "displayed_facts": 14
+        },
+        {
+          "relation": "rel_2",
+          "histogram_rows": 14,
+          "displayed_rows": 14,
+          "displayed_facts": 12
+        },
+        {
+          "relation": "rel_1",
+          "histogram_rows": 11,
+          "displayed_rows": 11,
+          "displayed_facts": 10
+        },
+        {
+          "relation": "rel_4",
+          "histogram_rows": 10,
+          "displayed_rows": 10,
+          "displayed_facts": 10
+        }
+      ],
+      "all": {
+        "histogram_rows": 250,
+        "displayed_rows": 250,
+        "displayed_facts": 223
+      },
+      "top20": {
+        "histogram_rows": 250,
+        "displayed_rows": 250,
+        "displayed_facts": 223
+      },
+      "complete_fact_census_possible": true,
+      "main_comparison": false,
+      "missing": "Complete displayed partition for a different 250-row corpus. Configuration association not established."
+    },
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/output-250/relation_triggers.txt",
+      "sha256": "ce99ca39207876865ce9383561b75274358b7ff79efa6ece1cb0bc12bf20f5f6",
+      "source_corpus": "resources/sampler-140626/data/06-19/pluieTriples-1.json",
+      "source_sha256": "98955b27fffcf1c97e60c8b45d82d3dc29079e0caba7bc4a83ac905b3a5c2af0",
+      "source_rows": 250,
+      "kind": "auxiliary different saved state, not an independent experiment",
+      "relations": [
+        {
+          "relation": "rel_10",
+          "histogram_rows": 22,
+          "displayed_rows": 22,
+          "displayed_facts": 22
+        },
+        {
+          "relation": "rel_12",
+          "histogram_rows": 22,
+          "displayed_rows": 22,
+          "displayed_facts": 20
+        },
+        {
+          "relation": "rel_3",
+          "histogram_rows": 19,
+          "displayed_rows": 19,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_6",
+          "histogram_rows": 19,
+          "displayed_rows": 19,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_13",
+          "histogram_rows": 18,
+          "displayed_rows": 18,
+          "displayed_facts": 17
+        },
+        {
+          "relation": "rel_14",
+          "histogram_rows": 18,
+          "displayed_rows": 18,
+          "displayed_facts": 16
+        },
+        {
+          "relation": "rel_0",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 14
+        },
+        {
+          "relation": "rel_8",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 13
+        },
+        {
+          "relation": "rel_9",
+          "histogram_rows": 17,
+          "displayed_rows": 17,
+          "displayed_facts": 14
+        },
+        {
+          "relation": "rel_5",
+          "histogram_rows": 16,
+          "displayed_rows": 16,
+          "displayed_facts": 15
+        },
+        {
+          "relation": "rel_2",
+          "histogram_rows": 15,
+          "displayed_rows": 15,
+          "displayed_facts": 13
+        },
+        {
+          "relation": "rel_7",
+          "histogram_rows": 15,
+          "displayed_rows": 15,
+          "displayed_facts": 13
+        },
+        {
+          "relation": "rel_11",
+          "histogram_rows": 14,
+          "displayed_rows": 14,
+          "displayed_facts": 14
+        },
+        {
+          "relation": "rel_1",
+          "histogram_rows": 11,
+          "displayed_rows": 11,
+          "displayed_facts": 10
+        },
+        {
+          "relation": "rel_4",
+          "histogram_rows": 10,
+          "displayed_rows": 10,
+          "displayed_facts": 10
+        }
+      ],
+      "all": {
+        "histogram_rows": 250,
+        "displayed_rows": 250,
+        "displayed_facts": 223
+      },
+      "top20": {
+        "histogram_rows": 250,
+        "displayed_rows": 250,
+        "displayed_facts": 223
+      },
+      "complete_fact_census_possible": true,
+      "main_comparison": false,
+      "missing": "Complete displayed partition for a different 250-row corpus. Configuration association not established."
+    },
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/output-2500/map_world.txt",
+      "sha256": "f005f31af7be12c3ee8f45d16f94e9628b10a4f213019b08ae0f2b644535b87c",
+      "source_corpus": "resources/sampler-140626/data/06-19/pluieTriples_fgreptest4.json",
+      "source_sha256": "5a6371393f7aa9a97df8672fa588ac08b890b243f740881ad17f0a5a502525ed",
+      "source_rows": 2500,
+      "kind": "MAP state",
+      "relations": [
+        {
+          "relation": "rel_15",
+          "histogram_rows": 72,
+          "displayed_rows": 72,
+          "displayed_facts": 71
+        },
+        {
+          "relation": "rel_11",
+          "histogram_rows": 65,
+          "displayed_rows": 63,
+          "displayed_facts": 63
+        },
+        {
+          "relation": "rel_8",
+          "histogram_rows": 64,
+          "displayed_rows": 58,
+          "displayed_facts": 55
+        },
+        {
+          "relation": "rel_38",
+          "histogram_rows": 61,
+          "displayed_rows": 57,
+          "displayed_facts": 56
+        },
+        {
+          "relation": "rel_10",
+          "histogram_rows": 59,
+          "displayed_rows": 59,
+          "displayed_facts": 58
+        },
+        {
+          "relation": "rel_4",
+          "histogram_rows": 58,
+          "displayed_rows": 58,
+          "displayed_facts": 56
+        },
+        {
+          "relation": "rel_43",
+          "histogram_rows": 58,
+          "displayed_rows": 50,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_46",
+          "histogram_rows": 58,
+          "displayed_rows": 58,
+          "displayed_facts": 55
+        },
+        {
+          "relation": "rel_47",
+          "histogram_rows": 57,
+          "displayed_rows": 57,
+          "displayed_facts": 56
+        },
+        {
+          "relation": "rel_22",
+          "histogram_rows": 55,
+          "displayed_rows": 53,
+          "displayed_facts": 51
+        },
+        {
+          "relation": "rel_23",
+          "histogram_rows": 55,
+          "displayed_rows": 55,
+          "displayed_facts": 53
+        },
+        {
+          "relation": "rel_31",
+          "histogram_rows": 55,
+          "displayed_rows": 49,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_7",
+          "histogram_rows": 54,
+          "displayed_rows": 54,
+          "displayed_facts": 53
+        },
+        {
+          "relation": "rel_40",
+          "histogram_rows": 54,
+          "displayed_rows": 53,
+          "displayed_facts": 52
+        },
+        {
+          "relation": "rel_45",
+          "histogram_rows": 54,
+          "displayed_rows": 54,
+          "displayed_facts": 52
+        },
+        {
+          "relation": "rel_2",
+          "histogram_rows": 53,
+          "displayed_rows": 53,
+          "displayed_facts": 50
+        },
+        {
+          "relation": "rel_36",
+          "histogram_rows": 52,
+          "displayed_rows": 52,
+          "displayed_facts": 51
+        },
+        {
+          "relation": "rel_0",
+          "histogram_rows": 51,
+          "displayed_rows": 51,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_21",
+          "histogram_rows": 51,
+          "displayed_rows": 50,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_35",
+          "histogram_rows": 51,
+          "displayed_rows": 51,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_3",
+          "histogram_rows": 50,
+          "displayed_rows": 48,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_13",
+          "histogram_rows": 50,
+          "displayed_rows": 50,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_1",
+          "histogram_rows": 49,
+          "displayed_rows": 49,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_18",
+          "histogram_rows": 49,
+          "displayed_rows": 49,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_26",
+          "histogram_rows": 49,
+          "displayed_rows": 49,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_6",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_33",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_48",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 47
+        },
+        {
+          "relation": "rel_9",
+          "histogram_rows": 47,
+          "displayed_rows": 47,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_29",
+          "histogram_rows": 47,
+          "displayed_rows": 47,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_5",
+          "histogram_rows": 46,
+          "displayed_rows": 42,
+          "displayed_facts": 41
+        },
+        {
+          "relation": "rel_19",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_24",
+          "histogram_rows": 46,
+          "displayed_rows": 44,
+          "displayed_facts": 42
+        },
+        {
+          "relation": "rel_27",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_30",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_37",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_16",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 44
+        },
+        {
+          "relation": "rel_17",
+          "histogram_rows": 45,
+          "displayed_rows": 44,
+          "displayed_facts": 43
+        },
+        {
+          "relation": "rel_28",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_32",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 41
+        },
+        {
+          "relation": "rel_42",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 44
+        },
+        {
+          "relation": "rel_49",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_39",
+          "histogram_rows": 44,
+          "displayed_rows": 44,
+          "displayed_facts": 43
+        },
+        {
+          "relation": "rel_44",
+          "histogram_rows": 43,
+          "displayed_rows": 43,
+          "displayed_facts": 42
+        },
+        {
+          "relation": "rel_12",
+          "histogram_rows": 42,
+          "displayed_rows": 42,
+          "displayed_facts": 42
+        },
+        {
+          "relation": "rel_20",
+          "histogram_rows": 42,
+          "displayed_rows": 42,
+          "displayed_facts": 40
+        },
+        {
+          "relation": "rel_25",
+          "histogram_rows": 42,
+          "displayed_rows": 42,
+          "displayed_facts": 41
+        },
+        {
+          "relation": "rel_14",
+          "histogram_rows": 40,
+          "displayed_rows": 40,
+          "displayed_facts": 40
+        },
+        {
+          "relation": "rel_34",
+          "histogram_rows": 40,
+          "displayed_rows": 40,
+          "displayed_facts": 40
+        },
+        {
+          "relation": "rel_41",
+          "histogram_rows": 39,
+          "displayed_rows": 39,
+          "displayed_facts": 39
+        }
+      ],
+      "all": {
+        "histogram_rows": 2500,
+        "displayed_rows": 2461,
+        "displayed_facts": 2401
+      },
+      "top20": {
+        "histogram_rows": 1137,
+        "displayed_rows": 1107,
+        "displayed_facts": 1070
+      },
+      "complete_fact_census_possible": false,
+      "main_comparison": false,
+      "missing": "Incomplete assigned evidence and potentially missing latent facts because the observer truncates examples. Different corpus. Configuration association not established."
+    },
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/output-2500/relation_triggers.txt",
+      "sha256": "8693141f8af5c92eca13b7e9b58bd89a09e3df86cd51491b9f57ce4354d420e4",
+      "source_corpus": "resources/sampler-140626/data/06-19/pluieTriples_fgreptest4.json",
+      "source_sha256": "5a6371393f7aa9a97df8672fa588ac08b890b243f740881ad17f0a5a502525ed",
+      "source_rows": 2500,
+      "kind": "auxiliary different saved state, not an independent experiment",
+      "relations": [
+        {
+          "relation": "rel_15",
+          "histogram_rows": 71,
+          "displayed_rows": 71,
+          "displayed_facts": 70
+        },
+        {
+          "relation": "rel_8",
+          "histogram_rows": 64,
+          "displayed_rows": 57,
+          "displayed_facts": 53
+        },
+        {
+          "relation": "rel_11",
+          "histogram_rows": 64,
+          "displayed_rows": 64,
+          "displayed_facts": 62
+        },
+        {
+          "relation": "rel_38",
+          "histogram_rows": 63,
+          "displayed_rows": 60,
+          "displayed_facts": 60
+        },
+        {
+          "relation": "rel_10",
+          "histogram_rows": 60,
+          "displayed_rows": 60,
+          "displayed_facts": 58
+        },
+        {
+          "relation": "rel_46",
+          "histogram_rows": 59,
+          "displayed_rows": 59,
+          "displayed_facts": 57
+        },
+        {
+          "relation": "rel_47",
+          "histogram_rows": 59,
+          "displayed_rows": 59,
+          "displayed_facts": 57
+        },
+        {
+          "relation": "rel_4",
+          "histogram_rows": 57,
+          "displayed_rows": 57,
+          "displayed_facts": 56
+        },
+        {
+          "relation": "rel_43",
+          "histogram_rows": 57,
+          "displayed_rows": 49,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_7",
+          "histogram_rows": 56,
+          "displayed_rows": 56,
+          "displayed_facts": 56
+        },
+        {
+          "relation": "rel_31",
+          "histogram_rows": 56,
+          "displayed_rows": 50,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_22",
+          "histogram_rows": 54,
+          "displayed_rows": 52,
+          "displayed_facts": 50
+        },
+        {
+          "relation": "rel_23",
+          "histogram_rows": 54,
+          "displayed_rows": 54,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_36",
+          "histogram_rows": 54,
+          "displayed_rows": 54,
+          "displayed_facts": 52
+        },
+        {
+          "relation": "rel_45",
+          "histogram_rows": 53,
+          "displayed_rows": 53,
+          "displayed_facts": 52
+        },
+        {
+          "relation": "rel_40",
+          "histogram_rows": 52,
+          "displayed_rows": 51,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_2",
+          "histogram_rows": 51,
+          "displayed_rows": 51,
+          "displayed_facts": 50
+        },
+        {
+          "relation": "rel_13",
+          "histogram_rows": 51,
+          "displayed_rows": 51,
+          "displayed_facts": 51
+        },
+        {
+          "relation": "rel_21",
+          "histogram_rows": 50,
+          "displayed_rows": 49,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_33",
+          "histogram_rows": 50,
+          "displayed_rows": 50,
+          "displayed_facts": 50
+        },
+        {
+          "relation": "rel_35",
+          "histogram_rows": 50,
+          "displayed_rows": 50,
+          "displayed_facts": 47
+        },
+        {
+          "relation": "rel_1",
+          "histogram_rows": 49,
+          "displayed_rows": 49,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_3",
+          "histogram_rows": 49,
+          "displayed_rows": 48,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_5",
+          "histogram_rows": 49,
+          "displayed_rows": 45,
+          "displayed_facts": 44
+        },
+        {
+          "relation": "rel_6",
+          "histogram_rows": 49,
+          "displayed_rows": 49,
+          "displayed_facts": 49
+        },
+        {
+          "relation": "rel_48",
+          "histogram_rows": 49,
+          "displayed_rows": 49,
+          "displayed_facts": 47
+        },
+        {
+          "relation": "rel_0",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_18",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 47
+        },
+        {
+          "relation": "rel_19",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_26",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 48
+        },
+        {
+          "relation": "rel_30",
+          "histogram_rows": 48,
+          "displayed_rows": 48,
+          "displayed_facts": 47
+        },
+        {
+          "relation": "rel_9",
+          "histogram_rows": 47,
+          "displayed_rows": 47,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_16",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_24",
+          "histogram_rows": 46,
+          "displayed_rows": 45,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_27",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 46
+        },
+        {
+          "relation": "rel_29",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_37",
+          "histogram_rows": 46,
+          "displayed_rows": 46,
+          "displayed_facts": 45
+        },
+        {
+          "relation": "rel_42",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 44
+        },
+        {
+          "relation": "rel_44",
+          "histogram_rows": 45,
+          "displayed_rows": 45,
+          "displayed_facts": 44
+        },
+        {
+          "relation": "rel_17",
+          "histogram_rows": 44,
+          "displayed_rows": 43,
+          "displayed_facts": 43
+        },
+        {
+          "relation": "rel_28",
+          "histogram_rows": 44,
+          "displayed_rows": 44,
+          "displayed_facts": 43
+        },
+        {
+          "relation": "rel_25",
+          "histogram_rows": 43,
+          "displayed_rows": 43,
+          "displayed_facts": 42
+        },
+        {
+          "relation": "rel_32",
+          "histogram_rows": 43,
+          "displayed_rows": 43,
+          "displayed_facts": 42
+        },
+        {
+          "relation": "rel_39",
+          "histogram_rows": 43,
+          "displayed_rows": 43,
+          "displayed_facts": 41
+        },
+        {
+          "relation": "rel_20",
+          "histogram_rows": 42,
+          "displayed_rows": 42,
+          "displayed_facts": 41
+        },
+        {
+          "relation": "rel_34",
+          "histogram_rows": 42,
+          "displayed_rows": 42,
+          "displayed_facts": 42
+        },
+        {
+          "relation": "rel_49",
+          "histogram_rows": 42,
+          "displayed_rows": 42,
+          "displayed_facts": 40
+        },
+        {
+          "relation": "rel_14",
+          "histogram_rows": 41,
+          "displayed_rows": 41,
+          "displayed_facts": 41
+        },
+        {
+          "relation": "rel_41",
+          "histogram_rows": 40,
+          "displayed_rows": 40,
+          "displayed_facts": 40
+        },
+        {
+          "relation": "rel_12",
+          "histogram_rows": 39,
+          "displayed_rows": 39,
+          "displayed_facts": 39
+        }
+      ],
+      "all": {
+        "histogram_rows": 2500,
+        "displayed_rows": 2465,
+        "displayed_facts": 2408
+      },
+      "top20": {
+        "histogram_rows": 1135,
+        "displayed_rows": 1107,
+        "displayed_facts": 1077
+      },
+      "complete_fact_census_possible": false,
+      "main_comparison": false,
+      "missing": "Incomplete assigned evidence and potentially missing latent facts because the observer truncates examples. Different corpus. Configuration association not established."
+    }
+  ],
+  "other_trigger_only_log": {
+    "file": "resources/sampler-140626/tmp/results.txt",
+    "sha256": "bbdf542dab2b6675ddf26f19c7af2fde8c339ef902a6276b10e761207e6adbe2",
+    "nouns": 89,
+    "paths": 123,
+    "argument_pairs": 50,
+    "trigger_entries": 800,
+    "fact_entries": 0,
+    "source_rows": null,
+    "missing": "No explicit input path, complete partition, complete fact population or relation ranking. Header dimensions agree with the 223-row subset, but dimensions alone do not prove corpus identity."
+  },
+  "excluded_dpm": [
+    {
+      "directory": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.001-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.001-i100/JN-diagram-all.txt",
+          "sha256": "881219c5b68bcb6e9af1474a1cbbe559d08e257ed7fff9214dad5c83e62f2ed2"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.001-i100/JN-diagram-top5.txt",
+          "sha256": "cee678187c5627724f4dec59aa625935378162a2e739e2a33df8013050f604ef"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.001-i100/likelihood.txt",
+          "sha256": "650d6d60e742af21778eb42e48eac72973bfa8a5ffcc4c3997a75bb832cc66e2"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.01-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.01-i100/JN-diagram-all.txt",
+          "sha256": "d377c84d5cb60c358664e89e7c6729efc53cbad49155f79d374f13d667f1fbdf"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.01-i100/JN-diagram-top5.txt",
+          "sha256": "17dce8832ff0ff7d17840b466df3579e68ff6f3b67aaf20c32ecee52694a8a7e"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n100-v5-a0.1-b0.01-i100/likelihood.txt",
+          "sha256": "1633695b041cbddb70ef9a2db8ffa64c26aa7693eec7a4e8d6fe6c9f6a0f4269"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n1000-v5-a0.1-b0.001-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n1000-v5-a0.1-b0.001-i100/JN-diagram-all.txt",
+          "sha256": "a2210d474c30cc581aeb2278d728ba0d54fea22edbca78c601a03cde717e69a9"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n1000-v5-a0.1-b0.001-i100/JN-diagram-top5.txt",
+          "sha256": "236aa07979d551d443b1f487c24c5ea7f7e68194c1a4e3c99e7585a2b6a2b6b2"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n1000-v5-a0.1-b0.001-i100/likelihood.txt",
+          "sha256": "a2afd42ce9e47bd7ab304176a032baa3ff3557aa9ea099ae40d73b2c9850773b"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n20-v5-a0.1-b0.001-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n20-v5-a0.1-b0.001-i100/JN-diagram-all.txt",
+          "sha256": "f603b44f2c229dcf2c28de2ca8e5da4a3902d5f2eb7f9024b08f33dd3b5801e4"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n20-v5-a0.1-b0.001-i100/JN-diagram-top5.txt",
+          "sha256": "49ae2fb3d9c2bbcd5536b59cb2b90ccf6712fe534082e72354bc287e816f11da"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n20-v5-a0.1-b0.001-i100/likelihood.txt",
+          "sha256": "d561b5eb062ddea409c35d7bccc04bde54513f26836ab92011bf0ae33ae5c8fa"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n30-v1-a0.1-b0.01-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v1-a0.1-b0.01-i100/JN-diagram-all.txt",
+          "sha256": "79068e5cf471ecc1b505a137d41118adb80709c691bb2e82405e0e45789af88d"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v1-a0.1-b0.01-i100/JN-diagram-top5.txt",
+          "sha256": "0c39a10108d28aa3593359d00174c465a872fd05becc10f1192c171f314f0edc"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v1-a0.1-b0.01-i100/likelihood.txt",
+          "sha256": "1aeb0a79887bb9531be1ed3b8807e784cbf34c8d44c49e067e529b4ade66696f"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100/JN-diagram-all.txt",
+          "sha256": "3ac84ee03127e385d201fd35b78cf3cf14f2d5c358f5e697d67a24a4d64c00a3"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100/JN-diagram-top5.txt",
+          "sha256": "ba7ca49f83d645d612a7af4b3a41ac587cb71cc71b7156296731d13c4b95b000"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v2-a0.1-b0.01-i100/likelihood.txt",
+          "sha256": "667b25543707d99881ae770ba5dd132b905c7fed10bae2d022ffa9a20be765f1"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n30-v4-a0.1-b0.01-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v4-a0.1-b0.01-i100/JN-diagram-all.txt",
+          "sha256": "4a7115a3c003ecf856446d68805dd397188b0fd1bbce3243634f4bb10204a16c"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v4-a0.1-b0.01-i100/JN-diagram-top5.txt",
+          "sha256": "74a01f16f69f884e0f696548a0b77c528050ee37e1da00271ea5175fb9d96262"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v4-a0.1-b0.01-i100/likelihood.txt",
+          "sha256": "1129be87be1a98256a15c8cc8d1e4e9c46e4cd3fb5ffd2c8387ccab7ba4913a9"
+        }
+      ]
+    },
+    {
+      "directory": "resources/sampler-140626/output-d15-n30-v5-a0.1-b0.01-i100",
+      "reason": "DPM synthetic mixture experiment, no NYT fact partition",
+      "files": [
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v5-a0.1-b0.01-i100/JN-diagram-all.txt",
+          "sha256": "e1f1635812e97f68ebff8daff77ff0faa4f636ae54a1ed0383444e1d1486dd13"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v5-a0.1-b0.01-i100/JN-diagram-top5.txt",
+          "sha256": "651027eef05f5cf94b72b37cfb167b0c67a83da9df8111379aaeef7018f11170"
+        },
+        {
+          "file": "resources/sampler-140626/output-d15-n30-v5-a0.1-b0.01-i100/likelihood.txt",
+          "sha256": "de24aebb11e73d0be2470aa4d9546a800d76cf77fe5d271a7bca861ccf6559af"
+        }
+      ]
+    }
+  ],
+  "excluded_toy": [
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/map_world.txt",
+      "sha256": "b002cb1767c3efcc45bf05a01d4697cd0b297dfbfdab2a3318d9f11bd33a3a95",
+      "reason": "Synthetic wrote/authored and love/like toy, not NYT"
+    },
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/output-toy/map_world.txt",
+      "sha256": "fd47da36faed0c328ff415c431903019246478bbb9bccebc2fa2f1b34679c932",
+      "reason": "Synthetic wrote/authored and love/like toy, not NYT"
+    },
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/toy-output/map_world.txt",
+      "sha256": "438efdb69533d64b5cdb05e841552efdd60cb715f78aa35db008d72135e26cab",
+      "reason": "Synthetic wrote/authored and love/like toy, not NYT"
+    },
+    {
+      "file": "resources/sampler-140626/test/Entity_resolution_Relation/all-poss-facts/toy-output/alpha1-rel100/map_world.txt",
+      "sha256": "f51b2fad5b36cd1961549864cd59446d7d2b74e4feeb2f102f93893b04c34b92",
+      "reason": "Synthetic wrote/authored and love/like toy, not NYT"
+    }
+  ],
+  "unavailable": "Later inference-of-K toy/250/2500 experiments described in CHANGES.md have no saved outputs, as HANDOFF.md lines472–477 records. Imported all-poss-facts fixtures are different runs.",
+  "protocol_sources": [
+    {
+      "file": "resources/sampler-140626/results/nyt-2026/evaluation/METHOD.md",
+      "sha256": "f458b2e3174cef276e87c78cc8df0d5d58d76194296b8f079c15be1a4cd36d5b"
+    },
+    {
+      "file": "resources/sampler-140626/results/nyt-2026-fixed-400/evaluation/METHOD.md",
+      "sha256": "a0109eeb8a1c00ea6778f5ea3566c487e6ad2321484c11fa25cb865593b2020b"
+    },
+    {
+      "file": "experiments/nyt-precision-investigation-2026-09-12/analysis/manual_protocol.md",
+      "sha256": "b78931760065748e08b322adc9e28d4e16e150f8363a157350c9ee826dced3c1"
+    },
+    {
+      "file": "experiments/nyt-latent-low-smoothing-2026-09-14/analysis/manual_protocol.md",
+      "sha256": "e1876ac086567e86c0263a3fdc14bd5d10b0e75a8fa74d91e4d6c080bef318ce"
+    }
+  ],
+  "scope_recommendation": "Primary census: all 6,905 expressed facts in the 10 retained modern runs' top-20 relations. Confirmed active-bug evaluations are retired. The 223-fact output-250 archive supplement and incomplete-archive availability inventory remain.",
+  "comparability_limits": [
+    "Paper original judgments and full MAP are unavailable; no operational audit establishes identical paper rubric.",
+    "Different runs have different facts, entity partitions, relation meanings and top20 coverage. A full census removes within-run fact sampling error, not these differences or reviewer/predicate uncertainty.",
+    "No gold recall denominator exists.",
+    "Auxiliary relation_triggers.txt files describe different saved states; do not combine their rows with MAP to fill omissions."
+  ],
+  "maintenance_note": "2026-09-28: retired modern evaluation entries removed; archive inventory now omits assignments from the retired nyt-2026 baseline. Raw experiment files remain unchanged."
+}
