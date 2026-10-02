@@ -42,6 +42,9 @@ resources/
   russell-2016-the-physics-of-text.pdf   the paper
   wang-2015-sdds-mcmc.pdf                 the entity split-merge sampler (UAI 2015)
   yao-2011-structured-relation-discovery.pdf  source of the NYT preprocessing
+  nyt_annotated_corpus-2007.pdf           LDC NYT corpus documentation
+  riedel-2013-*, yao-2012-*, mintz-2009-*, riedel-2010-*, yao-2010-*
+                                          papers that together define the depPath notation (see DEPPATH.md)
   sampler-140626.tar                      original tar, UNTRACKED, never commit it
   sampler-140626/                         the code (June 2014 snapshot + our commits)
     CHANGES.md        what we changed and every bug found; read it
@@ -62,7 +65,9 @@ venv/                                      python3 venv (has pypdf, matplotlib, 
 ```
 
 Corpus format: JSON `{"sentences":[{"source","dest","depPath"}]}`. Each sentence is
-two named-entity strings and a dependency path between them.
+two named-entity strings and a dependency path between them. `DEPPATH.md` gives the
+path grammar, its sources, and the 30 records in the NYT file that the 2013 JSON
+conversion corrupted (non-ASCII text).
 
 ## 3. The model as implemented
 
